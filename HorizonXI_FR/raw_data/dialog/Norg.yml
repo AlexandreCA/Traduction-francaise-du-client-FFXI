@@ -105,16 +105,16 @@ entries:
     Une zone de Seekers of Adoulin.${prompt}
   15: Vous pouvez changer la méthode de sélection de la zone de votre point de foyer souhaité pour vous téléporter.
   16: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  17: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  17: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   18: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ces endroits.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -124,13 +124,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  19: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  20: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  19: 'Le Point de foyer #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré/supprimé] de votre liste d’emplacements favoris.'
+  20: Votre liste d'emplacements favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.${prompt}
   21: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ces endroits.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -140,24 +140,24 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  22: '${color-alt: 161}A mog tablet has been discovered in ${choice: 0}[West Ronfaure/East Ronfaure/the La Theine Plateau/the Valkurm Dunes/Jugner Forest/the Batallia Downs/North Gustaberg/South Gustaberg/the Konschtat Highlands/the Pashhow Marshlands/the Rolanberry Fields/Beaucedine Glacier/Xarcabard/West Sarutabaruta/East Sarutabaruta/the Tahrongi Canyon/the Buburimu Peninsula/the Meriphataud Mountains/the Sauromugue Champaign/Qufim Island/Behemoth''s Dominion/Cape Teriggan/the Eastern Altepa Desert/the Sanctuary of Zi''Tah/Ro''Maeve/the Yuhtunga Jungle/the Yhoator Jungle/the Western Altepa Desert/the Valley of Sorrows]!'
+  22: '${color-alt: 161}Un tablette mog a été découverte dans ${choice: 0}[Ronfaure Ouest/Ronfaure Est/le Plateau de La Theine/les Dunes de Valkurm/la Forêt de Jugner/les Bas de Batallia/le Gustaberg Nord/le Gustaberg Sud/les Hautes Terres de Konschtat/les Marais de Pashhow/les Champs de Rolanberry/le Glacier de Beaucedine/Xarcabard/Ronfaure Ouest/Ronfaure Est/le Canyon de Tahrongi/la Péninsule de Buburimu/les Montagnes de Meriphataud/le Champ de Sauromugue/l’Île de Qufim/le Domaine de Behemoth/le Cap Teriggan/le Désert de Altepa Est/le Sanctuaire de Zi’Tah/Ro’Maeve/la Jungle de Yuhtunga/la Jungle de Yhoator/le Désert de Altepa Ouest/la Vallée des Lamentations]!'
   23: |-
-    ${color-alt: 161}The complete set of mog tablets has been restored to Ru'Lude Gardens!
-    The ancient magic of King Kupofried permeates the air to instill adventurers in this area with its Super Kupowers!
+    ${color-alt: 161}L'ensemble complet des tablettes mog a été restauré aux Jardins de Ru'Lude !
+    La magie ancienne du Roi Kupofried imprègne l'air pour conférer aux aventuriers de cette zone ses Super Kupowers !
   24: |-
-    ${color-alt: 161}The strength of the ancient moogle magic has weakened, and the tablets have been scattered to the winds once more.
-    You can feel your Super Kupowers begin to fade away...
-  25: '${color-alt: 161}This area is currently affected by the Super Kupower: “Thrifty Transit”!'
-  26: '${color-alt: 161}This area is currently affected by the Super Kupower: “Martial Master”!'
-  27: '${color-alt: 161}This area is currently affected by the Super Kupower: “Blood of the Vampyr”!'
-  28: '${color-alt: 161}This area is currently affected by the Super Kupower: “Treasure Hound”!'
-  29: '${color-alt: 161}This area is currently affected by the Super Kupower: “Artisan''s Advantage”!'
-  30: '${color-alt: 161}This area is currently affected by the Super Kupower: “Myriad Mystery Boxes”!'
-  31: '${color-alt: 161}This area is currently affected by the Super Kupower: “Dilatory Digestion”!'
-  32: '${color-alt: 161}This area is currently affected by the Super Kupower: “Boundary Buster”!'
-  33: '${color-alt: 161}This area is currently affected by the Super Kupower: “Bountiful Bazaar”!'
-  34: '${color-alt: 161}This area is currently affected by the Super Kupower: “Swift Shoes”!'
-  35: '${color-alt: 161}This area is currently affected by the Super Kupower: “Crystal Caboodle”!'
+    ${color-alt: 161}La force de l'ancienne magie moogle s'est affaiblie, et les tablettes ont été éparpillées au vent une fois de plus.
+    Vous pouvez sentir vos Super Kupowers commencer à s'estomper...
+  25: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Transport Économique” !'
+  26: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Maître Martial” !'
+  27: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Sang des Vampyres” !'
+  28: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Chien de Trésor” !'
+  29: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Avantage Artisan” !'
+  30: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Coffres Mystérieux” !'
+  31: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Digestion Lente” !'
+  32: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Fracture des Limites” !'
+  33: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Bazaar Abondant” !'
+  34: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Chaussures Rapides” !'
+  35: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupower : “Caboodle de Cristal” !'
   36: |-
     ${color-alt: 161}The ancient magic of King Kupofried fills the air, its glorious Super Kupowers bringing happiness and joy to the realm!
     Visit the Explorer Moogle in Ru'Lude Gardens to find out more.
