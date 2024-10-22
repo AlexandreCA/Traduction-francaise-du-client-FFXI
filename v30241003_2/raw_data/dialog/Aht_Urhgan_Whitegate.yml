@@ -2119,18 +2119,18 @@ entries:
     ${keyitem-singular: 10[2]}: ${choice: 2}[ON/OFF].
     ${keyitem-singular: 11[2]}: ${choice: 3}[ON/OFF].${prompt}
   958: |-
-    You lost your catch.
-    Whatever caught the hook was too large to catch with this rod.${prompt}
+    Tu as perdu ta prise.
+    Quelque chose a mordu à l'hameçon, c'était trop grand pour être attrapé avec cette canne.${prompt}
   959: '${number: 0}/${number: 1}(${number: 2}）${prompt}'
-  960: Version invalid error!${prompt}
-  961: Hurry before the goldfish sees you!${prompt}
-  962: '${entity: 0} fishes up a large box!${prompt}'
+  960: Erreur de version invalide !${prompt}
+  961: Dépêche-toi avant que le poisson rouge ne te voie !${prompt}
+  962: '${entity: 0} a pêché une grande boîte !${prompt}'
   963: '送出調査${number: 0}${prompt}'
-  964: 'Fish No：${number: 0} / Bait No：${number: 1} / Hit：${number: 2} >>> ${number: 3}${prompt}'
-  965: 'Point：${number: 0} >>> ${number: 1}${prompt}'
+  964: 'Poisson No : ${number: 0} / Appât No : ${number: 1} / Accroche : ${number: 2} >>> ${number: 3}${prompt}'
+  965: 'Point : ${number: 0} >>> ${number: 1}${prompt}'
   966: |-
-    魚：${item-singular: 1[2]}(${number: 0})
-    skill：${number: 1}${prompt}
+    Poisson : ${item-singular: 1[2]}(${number: 0})
+    compétence : ${number: 1}${prompt}
   967: |-
     Im Min : ${number: 0}
     Im Max : ${number: 1}
@@ -2139,178 +2139,178 @@ entries:
   968: |-
     Im Rnd : ${number: 0}
     Pz Rnd : ${number: 1}${prompt}
-  969: 'CLI_NUM0:${number: 0} CLI_NUM1:${number: 1} CLI_NUM2:${number: 2} CLI_NUM3:${number: 3}${prompt}'
-  970: 'CLI_NUM4:${number: 0} CLI_NUM5:${number: 1} CLI_NUM6:${number: 2} CLI_NUM7:${number: 3}${prompt}'
-  971: 'skill : ${number: 0} size : ${number: 1} kind : ${number: 2} sch : ${number: 3}${prompt}'
-  972: 'time : ${number: 0} mes : ${number: 1} flag : ${number: 2} bonus : ${number: 3}${prompt}'
-  973: 'item : ${number: 0} hp : ${number: 1} pow : ${number: 2} swing : ${number: 3}${prompt}'
-  974: 'suc : ${number: 0} cons : ${number: 1} weight : ${number: 2} +- : ${number: 3}${prompt}'
-  975: 'speed : ${number: 0} +- : ${number: 1} exc : ${number: 2} client : ${number: 3}${prompt}'
-  976: 'general : ${number: 0}${prompt}'
-  977: 'ro:${number: 0} rs:${number: 1} ps:${number: 2} dt:${number: 3}${prompt}'
-  978: 'ra:${number: 0} ti:${number: 1}${prompt}'
+  969: 'CLI_NUM0 : ${number: 0} CLI_NUM1 : ${number: 1} CLI_NUM2 : ${number: 2} CLI_NUM3 : ${number: 3}${prompt}'
+  970: 'CLI_NUM4 : ${number: 0} CLI_NUM5 : ${number: 1} CLI_NUM6 : ${number: 2} CLI_NUM7 : ${number: 3}${prompt}'
+  971: 'compétence : ${number: 0} taille : ${number: 1} type : ${number: 2} sch : ${number: 3}${prompt}'
+  972: 'temps : ${number: 0} mes : ${number: 1} drapeau : ${number: 2} bonus : ${number: 3}${prompt}'
+  973: 'objet : ${number: 0} hp : ${number: 1} pow : ${number: 2} swing : ${number: 3}${prompt}'
+  974: 'suc : ${number: 0} cons : ${number: 1} poids : ${number: 2} +- : ${number: 3}${prompt}'
+  975: 'vitesse : ${number: 0} +- : ${number: 1} exc : ${number: 2} client : ${number: 3}${prompt}'
+  976: 'général : ${number: 0}${prompt}'
+  977: 'ro : ${number: 0} rs : ${number: 1} ps : ${number: 2} dt : ${number: 3}${prompt}'
+  978: 'ra : ${number: 0} ti : ${number: 1}${prompt}'
   979: |-
-    You spot some familiar footprints.
-    You are convinced that your moogle friend has been digging in the immediate vicinity.${prompt}
-  980: You get the distinct sense that your moogle friend frequents this spot...${prompt}
-  981: You have a feeling that your moogle friend has been through this way...${prompt}
-  982: You suspect that the scenery around here would be to a moogle's liking...${prompt}
-  983: You have a vague feeling that a moogle would enjoy traversing this terrain...${prompt}
-  984: You have a hunch that this area would be favored by moogles...${prompt}
+    Tu aperçois des traces familières.
+    Tu es convaincu que ton ami moogle a creusé dans les environs immédiats.${prompt}
+  980: Tu as la distincte impression que ton ami moogle fréquente cet endroit...${prompt}
+  981: Tu as le sentiment que ton ami moogle est passé par ici...${prompt}
+  982: Tu soupçonnes que le paysage ici plairait à un moogle...${prompt}
+  983: Tu as une vague impression qu'un moogle apprécierait de traverser ce terrain...${prompt}
+  984: Tu as l'intuition que cette zone serait appréciée par les moogles...${prompt}
   985: |-
-    Your chocobo is pulling at the bit.
-    You sense that it is leading you to the ${choice: 0}[east/southeast/south/southwest/west/northwest/north/northeast].${prompt}
-  986: '${entity: 0} catches ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  987: '${entity: 0} obtained ${keyitem-article: 0[2]}!${prompt}'
-  988: It appears your chocobo found this item with ease.${prompt}
-  989: Your chocobo appears to have gained valuable knowledge from this discovery.${prompt}
-  990: ' FPT ${number: 0} DPT ${number: 1} DoT${number: 2}'
-  991: ' FPT ${number: 0} TDPT ${number: 1} h${number: 2}'
-  992: You cannot fish at this time.${prompt}
-  993: 'You discover a cache of beastman resources and receive ${number: 0} conquest point${choice-plurality: 0}[/s]!${prompt}'
-  994: 'You discover a cache of beastman resources and receive ${number: 0} Imperial Standing!${prompt}'
-  995: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
-  996: 'You receive ${number: 0} bayld!${prompt}'
-  997: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
-  998: Tallying conquest results...${prompt}
-  999: Conquest results tallied.${prompt}
-  1000: This region is currently under San d'Orian control.${prompt}
-  1001: This region is currently under Bastokan control.${prompt}
-  1002: This region is currently under Windurstian control.${prompt}
+    Ton chocobo tire sur le mors.
+    Tu sens qu'il te mène vers le ${choice: 0}[est/sud-est/sud/sud-ouest/ouest/nord-ouest/nord/nord-est].${prompt}
+  986: '${entity: 0} attrape ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
+  987: '${entity: 0} a obtenu ${keyitem-article: 0[2]}!${prompt}'
+  988: Il semble que ton chocobo a trouvé cet objet sans effort.${prompt}
+  989: Ton chocobo semble avoir acquis des connaissances précieuses grâce à cette découverte.${prompt}
+  990: 'FPT ${number: 0} DPT ${number: 1} DoT${number: 2}'
+  991: 'FPT ${number: 0} TDPT ${number: 1} h${number: 2}'
+  992: Tu ne peux pas pêcher en ce moment.${prompt}
+  993: 'Tu découvres un cache de ressources des bêtes et reçois ${number: 0} point${choice-plurality: 0}[/s] de conquête!${prompt}'
+  994: 'Tu découvres un cache de ressources impériales et reçois ${number: 0} point${choice-plurality: 0}[/s] de statut impérial!${prompt}'
+  995: 'Tu découvres un cache de ressources de la confédération des bêtes et reçois ${number: 0} note${choice-plurality: 0}[/s] alliée!${prompt}'
+  996: 'Tu reçois ${number: 0} bayld!${prompt}'
+  997: 'Ton chocobo refuse de participer au ${item-singular: 0[2]}.${prompt}' 
+  998: Comptage des résultats de conquête...${prompt}
+  999: Résultats de conquête comptabilisés.${prompt}
+  1000: Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
+  1001: Cette région est actuellement sous le contrôle de Bastok.${prompt}
+  1002: Cette région est actuellement sous le contrôle de Windurst.${prompt}
   1003: |-
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  1004: This region is currently neutral.${prompt}
+    Cette région est actuellement sous le contrôle des bêtes.
+    Tu ne peux pas obtenir de cristaux dans cette région.${prompt}
+  1004: Cette région est actuellement neutre.${prompt}
   1005: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Windurst
-    3rd: Bastok${prompt}
-  1006: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Windurst
+    3e : Bastok${prompt}
+  1006: Les trois nations sont à égalité à la première place.${prompt}
   1007: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   1008: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   1009: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok
-    3rd: Windurst${prompt}
-  1010: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok
+    3e : Windurst${prompt}
+  1010: Les trois nations sont à égalité à la première place.${prompt}
   1011: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   1012: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   1013: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria
-    3rd: Windurst${prompt}
-  1014: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria
+    3e : Windurst${prompt}
+  1014: Les trois nations sont à égalité à la première place.${prompt}
   1015: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst (égalité)
+    3e : San d'Oria${prompt}
   1016: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   1017: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: Windurst
-    3rd: San d'Oria${prompt}
-  1018: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : Windurst
+    3e : San d'Oria${prompt}
+  1018: Les trois nations sont à égalité à la première place.${prompt}
   1019: |-
-    Global balance of power:
-    1st: Bastok and Windurst (tie)
-    3rd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst (égalité)
+    3e : San d'Oria${prompt}
   1020: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   1021: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria
+    3e : Bastok${prompt}
   1022: |-
-    Global balance of power:
-    All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    Les trois nations sont à égalité à la première place.${prompt}
   1023: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   1024: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok (égalité)${prompt}
   1025: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: Bastok
-    3rd: San d'Oria${prompt}
-  1026: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : Bastok
+    3e : San d'Oria${prompt}
+  1026: Les trois nations sont à égalité à la première place.${prompt}
   1027: |-
-    Global balance of power:
-    1st: Bastok and Windurst
-    2nd: San d'Oria${prompt}
+    Équilibre régional des pouvoirs :
+    1er : Bastok et Windurst
+    2e : San d'Oria${prompt}
   1028: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok${prompt}
+    Équilibre régional des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok${prompt}
   1029: |-
-    Conquest update:
-    This region is currently neutral.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement neutre.${prompt}
   1030: |-
-    Conquest update:
-    This region is currently under San d'Orian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
   1031: |-
-    Conquest update:
-    This region is currently under Bastokan control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Bastok.${prompt}
   1032: |-
-    Conquest update:
-    This region is currently under Windurstian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Windurst.${prompt}
   1033: |-
-    Conquest update:
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  1034: All three nations are at a deadlock.${prompt}
-  1035: The beastmen are on the rise.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle des bêtes.
+    Tu ne peux pas obtenir de cristaux dans cette région.${prompt}
+  1034: Les trois nations sont à l'impasse.${prompt}
+  1035: Les bêtes sont en pleine ascension.${prompt}
   1036: |-
-    Regional influence:
+    Influence régionale :
     San d'Oria - Dominant${prompt}
   1037: |-
-    Regional influence:
-    San d'Oria - Major${prompt}
+    Influence régionale :
+    San d'Oria - Majeur${prompt}
   1038: |-
-    Regional influence:
-    San d'Oria - Minor${prompt}
+    Influence régionale :
+    San d'Oria - Mineur${prompt}
   1039: |-
-    Regional influence:
+    Influence régionale :
     San d'Oria - Minimal${prompt}
   1040: Bastok - Dominant${prompt}
-  1041: Bastok - Major${prompt}
-  1042: Bastok - Minor${prompt}
+  1041: Bastok - Majeur${prompt}
+  1042: Bastok - Mineur${prompt}
   1043: Bastok - Minimal${prompt}
   1044: Windurst - Dominant${prompt}
-  1045: Windurst - Major${prompt}
-  1046: Windurst - Minor${prompt}
+  1045: Windurst - Majeur${prompt}
+  1046: Windurst - Mineur${prompt}
   1047: Windurst - Minimal${prompt}
-  1048: Bastok and Windurst have formed an alliance.${prompt}
-  1049: San d'Oria and Windurst have formed an alliance.${prompt}
-  1050: San d'Oria and Bastok have formed an alliance.${prompt}
-  1051: Bastok and Windurst are currently allies.${prompt}
-  1052: San d'Oria and Windurst are currently allies.${prompt}
-  1053: San d'Oria and Bastok are currently allies.${prompt}
+  1048: Bastok et Windurst ont formé une alliance.${prompt}
+  1049: San d'Oria et Windurst ont formé une alliance.${prompt}
+  1050: San d'Oria et Bastok ont formé une alliance.${prompt}
+  1051: Bastok et Windurst sont actuellement alliés.${prompt}
+  1052: San d'Oria et Windurst sont actuellement alliés.${prompt}
+  1053: San d'Oria et Bastok sont actuellement alliés.${prompt}
   1054: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
@@ -2327,27 +2327,27 @@ entries:
   1058: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  1059: The beastmen are gaining power.${prompt}
-  1060: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  1061: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  1062: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  1063: San d'Oria's region points have increased!${prompt}
-  1064: Bastok's region points have increased!${prompt}
-  1065: Windurst's region points have increased!${prompt}
-  1066: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  1067: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  1068: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  1069: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  1070: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  1071: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  1072: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  1073: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  1074: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  1075: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  1076: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  1077: There was a curse on the beastmen's banner!${prompt}
-  1078: The curse of the beastmen's banner has been lifted!${prompt}
-  1079: There is a beastmen's banner.${prompt}
+  1059: Les bêtes gagnent en puissance.${prompt}
+  1060: Le contrôle régional de San d'Oria est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  1061: Le contrôle régional de Bastok est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  1062: Le contrôle régional de Windurst est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  1063: Les points régionaux de San d'Oria ont augmenté !${prompt}
+  1064: Les points régionaux de Bastok ont augmenté !${prompt}
+  1065: Les points régionaux de Windurst ont augmenté !${prompt}
+  1066: L'E.F. de San d'Oria défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  1067: L'E.F. de Bastok défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  1068: L'E.F. de Windurst défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  1069: Une Force Expéditionnaire de San d'Oria a été dépêchée dans cette zone.${prompt}
+  1070: Une Force Expéditionnaire de Bastok a été dépêchée dans cette zone.${prompt}
+  1071: Une Force Expéditionnaire de Windurst a été dépêchée dans cette zone.${prompt}
+  1072: 'Influence de l'E.F. : Grande... Statut de la région : Dominant... Maintenez le niveau actuel de combat.${prompt}'
+  1073: 'Influence de l'E.F. : Passable... Statut de la région : Majeur... Maintenez l'élan.${prompt}'
+  1074: 'Influence de l'E.F. : Faible... Statut de la région : Mineur... Augmentez les efforts.${prompt}'
+  1075: 'Influence de l'E.F. : Minimale... Statut de la région : Minimal... Multipliez les efforts par dix.${prompt}'
+  1076: 'Influence de l'E.F. : Aucune... Statut de la région : Sous contrôle des bêtes... Gardez les pertes au minimum.${prompt}' 
+  1077: Il y avait une malédiction sur la bannière des bêtes !${prompt}
+  1078: La malédiction de la bannière des bêtes a été levée !${prompt}
+  1079: Il y a une bannière des bêtes.${prompt}
   1080: 　${prompt}
   1081: 　${prompt}
   1082: 　${prompt}
@@ -2430,72 +2430,72 @@ entries:
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
   1157: |-
-    Ahead of you lies the Al Zahbi residential area.
-    You may use the rooms within just as you would a Mog House in your home nation.${prompt}
+    Devant vous se trouve le quartier résidentiel d'Al Zahbi.
+    Vous pouvez utiliser les chambres à l'intérieur comme si c'était un Mog House dans votre nation d'origine.${prompt}
   1158: |-
-    Ahead of you lies the Al Zahbi residential area.
-    All adventurers must lease a Rent-a-Room if they wish to enter.${prompt}
-  1159: In the event that you decide to lease a Rent-a-Room, your stored items will be moved to Al Zahbi and you will be able to use your new room like the Mog House in your home country.${prompt}
+    Devant vous se trouve le quartier résidentiel d'Al Zahbi.
+    Tous les aventuriers doivent louer une chambre si ils souhaitent entrer.${prompt}
+  1159: Dans le cas où vous décideriez de louer une chambre, vos objets stockés seront transférés à Al Zahbi et vous pourrez utiliser votre nouvelle chambre comme le Mog House de votre pays d'origine.${prompt}
   1160: |-
-    Lease a Rent-a-Room in Al Zahbi?
+    Louez une chambre à Al Zahbi ?
     ${selection-lines}
-    Yes.
-    No thanks.${prompt}
-  1161: It seems we are finished here. Congratulations--you now have an Al Zahbi Rent-a-Room at your disposal.${prompt}
-  1162: (DEBUG) Flag raised, kupo!${prompt}
-  1163: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
-  1164: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
-  1165: I'll tell you all about your Mog House, kupo!${prompt}
+    Oui.
+    Non merci.${prompt}
+  1161: Il semble que nous ayons terminé ici. Félicitations, vous avez maintenant une chambre à Al Zahbi à votre disposition.${prompt}
+  1162: (DEBUG) Drapeau levé, kupo !${prompt}
+  1163: Bienvenue, Maître ! Voici votre maison, le “Mog House,” kupo !${prompt}
+  1164: Je suis un moogle ! Nous les moogles aimons prendre soin des maisons et des objets ! Enchanté de vous rencontrer, kupo !${prompt}
+  1165: Je vais vous expliquer tout sur votre Mog House, kupo !${prompt}
   1166: |-
-    First, the basics, kupo!
-    Open your main menu, Master. The button at the very bottom changes to “Mog House” when you're in your Mog House, kupo!${prompt}
-  1167: Press it and the “Mog House” menu will appear! Everything you can do in your Mog House is there, kupo!${prompt}
-  1168: There are lots of things you can do in your Mog House, kupo! It can be too much for some masters, kupo...${prompt}
-  1169: So I'll teach you about each one of them! Ask me what you want to know about, kupo!${prompt}
-  1170: Choose the Mog House command you want to know about, kupo!${prompt}
+    D'abord, les bases, kupo !
+    Ouvrez votre menu principal, Maître. Le bouton tout en bas change en “Mog House” lorsque vous êtes dans votre Mog House, kupo !${prompt}
+  1167: Appuyez dessus et le menu “Mog House” apparaîtra ! Tout ce que vous pouvez faire dans votre Mog House est là, kupo !${prompt}
+  1168: Il y a plein de choses que vous pouvez faire dans votre Mog House, kupo ! Ça peut être trop pour certains maîtres, kupo...${prompt}
+  1169: Alors je vais vous enseigner chacune d'elles ! Demandez-moi ce que vous voulez savoir, kupo !${prompt}
+  1170: Choisissez la commande du Mog House que vous voulez connaître, kupo !${prompt}
   1171: |-
-    What do you want to know about?
+    Que voulez-vous savoir ?
     ${selection-lines}
-    The Mog Safe.
-    Storage.
-    The Delivery Box.
-    Changing jobs.
-    Gardening.
-    Changing the layout.
-    Mog House invitations.
-    I got it, thanks, kupo!${prompt}
-  1172: The Mog Safe is where I keep items that you can't carry! It's an especially secure and solid safe, kupo!${prompt}
-  1173: You can only put so many items in it, kupo... But I'll guard them even if it means my life, kupo!${prompt}
-  1174: The Delivery Box is where you can send letters to friends and receive items from various places, kupo!${prompt}
-  1175: You should take the items from your Delivery Box and put them in your inventory when they arrive, kupo!${prompt}
-  1176: If your Delivery Box is full, no more deliveries can be made, and you can't send any mail either, kupo!${prompt}
-  1177: You can send items and gil to your friends with the “Send” command, kupo!${prompt}
-  1178: (Sometimes, if a special force takes hold, you can even deliver items with the "Exclusive" attribute, kupo...!)${prompt}
-  1179: Changing people's jobs is a secret ability only we moogles can use, kupo!${prompt}
-  1180: I take off all your equipment and take you to a mysterious place, kupo!${prompt}
-  1181: And...the rest is a secret, kupo!${prompt}
-  1182: All moogles like taking care of plants, kupo!${prompt}
-  1183: As long as you have a flowerpot and seeds, I'll make it my personal responsibility to look after the plants you raise, kupo!${prompt}
-  1184: This Mog House is your very own room, kupo! But it's still a little bare, kupo...${prompt}
-  1185: It needs some furniture and maybe some paintings to make it more cozy, kupo!${prompt}
-  1186: If you find any during your travels, I'll help you lay them out, kupo! I can't wait, kupo!${prompt}
-  1187: Storage space becomes available when you place furniture in your Mog House using the “Layout” command, kupo!${prompt}
+    Le Mog Safe.
+    Stockage.
+    La Boîte de Livraison.
+    Changer de métier.
+    Jardinage.
+    Changer la disposition.
+    Invitations au Mog House.
+    J'ai compris, merci, kupo !${prompt}
+  1172: Le Mog Safe est l'endroit où je garde des objets que vous ne pouvez pas transporter ! C'est un coffre-fort particulièrement sécurisé et solide, kupo !${prompt}
+  1173: Vous ne pouvez y mettre qu'un nombre limité d'objets, kupo... Mais je les garderai même si cela doit me coûter la vie, kupo !${prompt}
+  1174: La Boîte de Livraison est l'endroit où vous pouvez envoyer des lettres à vos amis et recevoir des objets de divers endroits, kupo !${prompt}
+  1175: Vous devriez prendre les objets de votre Boîte de Livraison et les mettre dans votre inventaire lorsqu'ils arrivent, kupo !${prompt}
+  1176: Si votre Boîte de Livraison est pleine, aucune nouvelle livraison ne peut être effectuée, et vous ne pouvez pas non plus envoyer de courrier, kupo !${prompt}
+  1177: Vous pouvez envoyer des objets et des gil à vos amis avec la commande “Envoyer”, kupo !${prompt}
+  1178: (Parfois, si une force spéciale prend le dessus, vous pouvez même livrer des objets avec l'attribut "Exclusif", kupo... !)${prompt}
+  1179: Changer les métiers des gens est une capacité secrète que seuls nous, les moogles, pouvons utiliser, kupo !${prompt}
+  1180: Je retire tout votre équipement et vous emmène dans un endroit mystérieux, kupo !${prompt}
+  1181: Et... le reste est un secret, kupo !${prompt}
+  1182: Tous les moogles aiment prendre soin des plantes, kupo !${prompt}
+  1183: Tant que vous avez un pot de fleurs et des graines, je prendrai la responsabilité de m'occuper des plantes que vous cultivez, kupo !${prompt}
+  1184: Ce Mog House est votre propre chambre, kupo ! Mais elle est encore un peu vide, kupo...${prompt}
+  1185: Elle a besoin de quelques meubles et peut-être de quelques tableaux pour la rendre plus chaleureuse, kupo !${prompt}
+  1186: Si vous en trouvez pendant vos voyages, je vous aiderai à les disposer, kupo ! J'ai hâte, kupo !${prompt}
+  1187: De l'espace de stockage devient disponible lorsque vous placez des meubles dans votre Mog House en utilisant la commande “Disposition”, kupo !${prompt}
   1188: |-
-    It's almost exactly the same as using your Mog Safe, kupo!
-    Leave your items here for me to look after, kupo!${prompt}
-  1189: You can invite party and alliance members into your Mog House, kupo!${prompt}
-  1190: You can show off your expensive furniture, have tea parties, plan your next great adventure--the possibilities are endless, kupo!${prompt}
-  1191: Are you sure, kupo? You know everything about your Mog House, kupo?${prompt}
+    C'est presque exactement comme utiliser votre Mog Safe, kupo !
+    Laissez-moi prendre soin de vos objets, kupo !${prompt}
+  1189: Vous pouvez inviter des membres de votre groupe et de votre alliance dans votre Mog House, kupo !${prompt}
+  1190: Vous pouvez exhiber vos meubles coûteux, organiser des goûters, planifier votre prochaine grande aventure--les possibilités sont infinies, kupo !${prompt}
+  1191: Es-tu sûr, kupo ? Tu sais tout sur ton Mog House, kupo ?${prompt}
   1192: |-
-    Are you sure?
+    Es-tu sûr ?
     ${selection-lines}
-    I'm sure!
-    Maybe I'm not so sure...${prompt}
-  1193: And finally, a little bit of advice!${prompt}
-  1194: If you ever run into any problems, just ask your fellow adventurers for help!${prompt}
-  1195: If you type “/ae Hello!”, then your message will be heard by many people.${prompt}
-  1196: If you type “/ae” followed by your issue or question, other adventurers will help you!${prompt}
-  1197: Remember that you can only do this while in town, kupo!${prompt}
+    Je suis sûr !
+    Peut-être que je ne suis pas si sûr...${prompt}
+  1193: Et enfin, un petit conseil !${prompt}
+  1194: Si jamais vous rencontrez des problèmes, demandez simplement de l'aide à vos camarades aventuriers !${prompt}
+  1195: Si vous tapez “/ae Bonjour !”, votre message sera entendu par beaucoup de personnes.${prompt}
+  1196: Si vous tapez “/ae” suivi de votre problème ou question, d'autres aventuriers vous aideront !${prompt}
+  1197: N'oubliez pas que vous ne pouvez faire cela que lorsque vous êtes en ville, kupo !${prompt}
   1198: |-
     Okay, kupo!
     Good luck on your adventuring, kupo!${prompt}
