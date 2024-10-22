@@ -1885,30 +1885,30 @@ entries:
   802: '${choice: 0}[Cupapa/Jajuju/Kalokoko/Mahoyaya/Pakurara/Ripokeke/Yawawa/Yufafa]''s personality changes!${prompt}'
   803: '${choice: 0}[Fhig/Khuma/Pimy/Raka/Sahyu/Sufhi/Tsuim/Yoli]''s personality changes!${prompt}'
   804: '${choice: 0}[Durib/Dzapiwa/Jugowa/Mugido/Voldai/Wagwei/Zayag/Zoldof]''s personality changes!${prompt}'
-  805: What do you think? It might be somewhat of an acquired taste...${prompt}
-  806: Well? Tastes great, doesn't it!?${prompt}
-  807: You've got some stuck on your lips.${prompt}
-  808: Did you enjoy it? Of course, I'm not one to brag about a simple piece of bread...${prompt}
-  809: I think I overcooked it a little. What do you think of the taste?${prompt}
-  810: Not bad is it? I bet you never thought me to be a cooking type!${prompt}
+  805: Que penses-tu ? Cela pourrait être un goût un peu particulier...${prompt}
+  806: Alors ? C'est délicieux, n'est-ce pas ? !${prompt}
+  807: Tu en as sur les lèvres.${prompt}
+  808: As-tu aimé ? Bien sûr, je ne suis pas du genre à me vanter d'un simple morceau de pain...${prompt}
+  809: Je pense que je l'ai un peu trop cuit. Que penses-tu du goût ?${prompt}
+  810: Ce n'est pas si mal, non ? Je parie que tu ne pensais pas que j'étais du genre à cuisiner !${prompt}
   811: ${prompt}
-  812: Are you chewing properly? I went through a lot of trouble to make that, so eat slowly and savor each bite, alright?${prompt}
-  813: So...how was it? Did I make the texture too firm?${prompt}
-  814: What do you think? I tried picking an aroma I thought you'd like, you know.${prompt}
-  815: That's a tasty-looking stew you've got there! Why, all my favorite ingredients are in it! Oh, wait, is that the one I made for you?${prompt}
-  816: I hope it's compatible with your taste buds...${prompt}
-  817: This isn't the time nor the place to be nonchalantly slurping up pasta!${prompt}
+  812: Manges-tu correctement ? J'ai beaucoup travaillé pour faire ça, alors mange lentement et savoure chaque bouchée, d'accord ?${prompt}
+  813: Alors... c'était comment ? Ai-je rendu la texture trop ferme ?${prompt}
+  814: Que penses-tu ? J'ai essayé de choisir un arôme que je pensais que tu aimerais, tu sais.${prompt}
+  815: C'est un ragoût qui a l'air appétissant que tu as là ! Oh, tous mes ingrédients préférés y sont ! Oh, attends, est-ce celui que j'ai fait pour toi ?${prompt}
+  816: J'espère qu'il est compatible avec tes papilles...${prompt}
+  817: Ce n'est ni le moment ni l'endroit pour siroter des pâtes sans souci !${prompt}
   818: ${prompt}
   819: '${number: 0}...${prompt}'
-  820: The mine explodes!${prompt}
-  821: The mine misfires...${prompt}
-  822: You retrieve the mine.${prompt}
-  823: You successfully deactivate the mine!${prompt}
-  824: You failed to deactivate the mine...${prompt}
-  825: 'Obtained ${number: 0} cruor. (Total: ${number: 1})${prompt}'
-  826: 'Obtained ${number: 0} cruor. (Total: ${number: 1})'
-  827: You do not have enough cruor.${prompt}
-  828: You do not have enough cruor.
+  820: La mine explose !${prompt}
+  821: La mine fait un raté...${prompt}
+  822: Tu récupères la mine.${prompt}
+  823: Tu réussis à désamorcer la mine !${prompt}
+  824: Tu as échoué à désamorcer la mine...${prompt}
+  825: 'Obtenu ${number: 0} cruor. (Total : ${number: 1})${prompt}'
+  826: 'Obtenu ${number: 0} cruor. (Total : ${number: 1})'
+  827: Tu n'as pas assez de cruor.${prompt}
+  828: Tu n'as pas assez de cruor.${prompt}
   829: |-
     You have obtained all of Lilisette's memory fragments.
     Make haste and report to Cait Sith.${prompt}
@@ -1981,76 +1981,77 @@ entries:
     ${selection-lines}
     Off we go!
     Not just yet.${prompt}
-  877: Nothing out of the ordinary happens.${prompt}
-  878: '${color-alt: 123}You are unable to proceed to the next area because ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin] is not registered to your account.${prompt}'
-  879: 'You are now able to call forth alter egos here because you have obtained the ${keyitem-singular: 0[2]} key item.'
-  880: 'You cannot carry any more ${keyitem-plural: 0[2]}.${prompt}'
-  881: '${color-alt: 138}You have been promoted to ${choice: 0}[/Private First Class/Superior Private/Lance Corporal/Corporal/Sergeant/Sergeant Major/Chief Sergeant/Second Lieutenant/First Lieutenant/Captain]!${prompt}'
-  882: Your bags mysteriously feel a little bit heavier...${prompt}
-  883: 'The bonds tying you to Altana have strengthened, enabling you to experience all the memories of ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin]!${prompt}'
-  884: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the ${choice: 1}[Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin/Rise of the Zilart] missions.'
-  885: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the quest ${choice: 1}[Champion of the Dawn/A Forbidden Reunion].'
-  886: The crystal glistens with a divine radiance.${prompt}
-  887: '${color-alt: 138}You must visit Aht Urhgan Whitegate in order to progress in the Rhapsodies of Vana''diel missions.'
-  888: '${color-alt: 123}You have been awarded the temporary item ${item-singular: 0[2]} as compensation.${prompt}'
-  889: '${color-alt: 123}You already posses the temporary item ${item-singular: 0[2]} and cannot receive another one as compensation.${prompt}'
-  890: '${color-alt: 123}Please claim your item before maintenance for the February 2022 version update begins.${prompt}'
-  891: 'You have been rewarded ${article} ${item-article: 0[2]} as compensation.${prompt}'
-  892: 'You are unable to accept the compensatory ${item-singular: 0[2]}. Free up some space in your inventory and try again.${prompt}'
-  893: '${color-alt: 123}Please claim your item before maintenance for the October 2022 version update begins.${prompt}'
-  894: 'You receive ${number: 0} deeds for a total of ${number: 1}!${prompt}'
+  877: Rien d'inhabituel ne se passe.${prompt}
+  878: '${color-alt: 123}Tu ne peux pas avancer vers la prochaine zone car ${choice: 0}[L'Ascension des Zilart/Les Chaînes de Promathia/Les Trésors d'Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d'Adoulin] n'est pas enregistré à ton compte.${prompt}'
+  879: 'Tu peux maintenant invoquer des alter egos ici car tu as obtenu l'objet clé ${keyitem-singular: 0[2]}.'
+  880: 'Tu ne peux plus porter d'${keyitem-plural: 0[2]}.${prompt}'
+  881: '${color-alt: 138}Tu as été promu à ${choice: 0}[/Soldat de première classe/Soldat supérieur/Soldat de première classe/Caporal/Sergent/Sergent-major/Caporal-chef/Sous-lieutenant/Lieutenant/Captain]!${prompt}'
+  882: Tes sacs semblent mystérieusement un peu plus lourds...${prompt}
+  883: 'Les liens te rattachant à Altana se sont renforcés, te permettant de vivre tous les souvenirs de ${choice: 0}[L'Ascension des Zilart/Les Chaînes de Promathia/Les Trésors d'Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d'Adoulin]!${prompt}'
+  884: '${color-alt: 138}Tu ne peux pas progresser davantage dans Rhapsodies of Vana''diel à cause d'un événement se produisant dans les missions ${choice: 1}[Les Chaînes de Promathia/Les Trésors d'Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d'Adoulin/L'Ascension des Zilart].'
+  885: '${color-alt: 138}Tu ne peux pas progresser davantage dans Rhapsodies of Vana''diel à cause d'un événement se produisant dans la quête ${choice: 1}[Champion de l'Aube/Une Réunion Interdite].'
+  886: Le cristal brille d'une radiance divine.${prompt}
+  887: '${color-alt: 138}Tu dois visiter la Porte Blanche d'Aht Urhgan pour progresser dans les missions de Rhapsodies of Vana''diel.'
+  888: '${color-alt: 123}Tu as reçu l'objet temporaire ${item-singular: 0[2]} en compensation.${prompt}'
+  889: '${color-alt: 123}Tu possèdes déjà l'objet temporaire ${item-singular: 0[2]} et ne peux pas en recevoir un autre en compensation.${prompt}'
+  890: '${color-alt: 123}Veuillez réclamer votre objet avant que la maintenance pour la mise à jour de février 2022 ne commence.${prompt}'
+  891: 'Tu as été récompensé avec ${article} ${item-article: 0[2]} en compensation.${prompt}'
+  892: 'Tu ne peux pas accepter l’${item-singular: 0[2]} compensatoire. Libère de l'espace dans ton inventaire et réessaie.${prompt}'
+  893: '${color-alt: 123}Veuillez réclamer votre objet avant que la maintenance pour la mise à jour d'octobre 2022 ne commence.${prompt}'
+  894: 'Tu reçois ${number: 0} actes pour un total de ${number: 1} !${prompt}'
   895: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
   896: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   897: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
-  898: You can't fish here.${prompt}
-  899: You can't fish without a rod in your hands.${prompt}
-  900: You can't fish without bait on the hook.${prompt}
-  901: You can't fish at the moment.${prompt}
-  902: You didn't catch anything.${prompt}
-  903: '${entity: 0} caught a monster!${prompt}'
-  904: Your line breaks.${prompt}
-  905: Your rod breaks.${prompt}
-  906: Something caught the hook!${prompt}
-  907: You lost your catch.${prompt}
+  898: 898: Tu ne peux pas pêcher ici.${prompt}
+  899: Tu ne peux pas pêcher sans canne à pêche dans les mains.${prompt}
+  900: Tu ne peux pas pêcher sans appât sur l'hameçon.${prompt}
+  901: Tu ne peux pas pêcher en ce moment.${prompt}
+  902: Tu n'as rien attrapé.${prompt}
+  903: '${entity: 0} a attrapé un monstre !${prompt}'
+  904: Ta ligne se casse.${prompt}
+  905: Ta canne à pêche se casse.${prompt}
+  906: Quelque chose a mordu à l'hameçon !${prompt}
+  907: Tu as perdu ta prise.${prompt}
   908: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
-  909: You feel there's something here.${prompt}
-  910: You feel there's something nearby.${prompt}
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d'objets.
+    ${entity: 0} relâche regrettablement le ${item-singular: 0[2]}.${prompt}
+  909: Tu sens qu'il y a quelque chose ici.${prompt}
+  910: Tu sens qu'il y a quelque chose à proximité.${prompt}
   911: |-
-    You dig up ${article} ${item-article: 0[2]}, but your inventory is full.
-    You regretfully throw the ${item-singular: 0[2]} away.${prompt}
-  912: '${entity: 0} caught ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  913: You dig and you dig, but find nothing.${prompt}
+    Tu déterres ${article} ${item-article: 0[2]}, mais ton inventaire est plein.
+    Tu jettes regrettablement le ${item-singular: 0[2]}.${prompt}
+  912: '${entity: 0} a attrapé ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  913: Tu creuses et tu creuses, mais tu ne trouves rien.${prompt}
   914: '${number: 0}/${item-singular: 0[2]}をセット${prompt}'
   915: |-
-    Your rod breaks.
-    Whatever caught the hook was pretty big.${prompt}
+    Ta canne à pêche se casse.
+    Quelque chose a mordu à l'hameçon, c'était plutôt gros.${prompt}
   916: |-
-    Your rod breaks.
-    Whatever caught the hook was too heavy to catch with this rod.${prompt}
+    Ta canne à pêche se casse.
+    Quelque chose a mordu à l'hameçon, c'était trop lourd pour être attrapé avec cette canne.${prompt}
   917: |-
-    You lost your catch.
-    Whatever caught the hook was too small to catch with this rod.${prompt}
-  918: You lost your catch due to your lack of skill.${prompt}
+    Tu as perdu ta prise.
+    Quelque chose a mordu à l'hameçon, c'était trop petit pour être attrapé avec cette canne.${prompt}
+  918: Tu as perdu ta prise à cause de ton manque de compétence.${prompt}
   919: |-
-    Number fished : ${number: 0}
-    Original Dice No. ：${number: 1}＋${number: 2}
-    Result ：${number: 3} (0=caught)
+    Nombre de poissons pêchés : ${number: 0}
+    Numéro de dés original : ${number: 1}＋${number: 2}
+    Résultat : ${number: 3} (0=attrapé)
     ${prompt}
-  920: You didn't catch anything.${prompt}
-  921: 'The paper on your ${item-singular: 0[2]} ripped.${prompt}'
-  922: A tiny goldfish approaches!${prompt}
-  923: A plump, black goldfish approaches!${prompt}
-  924: A fat, juicy goldfish approaches!${prompt}
-  925: There are no goldfish to be found...${prompt}
+  920: Tu n'as rien attrapé.${prompt}
+  921: 'Le papier de ton ${item-singular: 0[2]} s'est déchiré.${prompt}'
+  922: Un petit poisson rouge s'approche !${prompt}
+  923: Un poisson rouge noir et dodu s'approche !${prompt}
+  924: Un gros poisson rouge juteux s'approche !${prompt}
+  925: Il n'y a pas de poissons rouges à trouver...${prompt}
   926: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases it.${prompt}
-  927: The goldfish slipped off your scoop...${prompt}
-  928: 'ch${number: 0} skill up check.${prompt}'
+    926: |-
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d'objets.
+    ${entity: 0} le relâche regrettablement.${prompt}
+  927: Le poisson rouge a glissé de ton épuisette...${prompt}
+  928: 'ch${number: 0} vérification de compétence.${prompt}'
   929: 'a:${number: 0}.${prompt}'
-  930: 'Time ${number: 0} / Status ${number: 1} / ${number: 2}${prompt}'
+  930: 'Temps ${number: 0} / Statut ${number: 1} / ${number: 2}${prompt}'
   931: |-
     d:${number: 0}.
     e:${number: 1}.
@@ -2063,28 +2064,28 @@ entries:
   933: |-
     j:${number: 0}.
     k:${number: 1}.${prompt}
-  934: You give up and reel in your line.${prompt}
-  935: You give up.${prompt}
-  936: '${entity: 0} obtains ${number: 1} gil.${prompt}'
-  937: '${entity: 0} caught ${article} ${item-article: 0[2]}!${prompt}'
-  938: You don't know how much longer you can keep this one on the line...${prompt}
-  939: You have a good feeling about this one!${prompt}
-  940: You have a bad feeling about this one.${prompt}
-  941: You have a terrible feeling about this one...${prompt}
-  942: You don't know if you have enough skill to reel this one in.${prompt}
-  943: You're fairly sure you don't have enough skill to reel this one in.${prompt}
-  944: You're positive you don't have enough skill to reel this one in!${prompt}
+  934: Tu abandonnes et ramènes ta ligne.${prompt}
+  935: Tu abandonnes.${prompt} 
+  936: '${entity: 0} obtient ${number: 1} gil.${prompt}'
+  937: '${entity: 0} a attrapé ${article} ${item-article: 0[2]} !${prompt}'
+  938: Tu ne sais pas combien de temps tu peux encore garder celui-ci à la ligne...${prompt}
+  939: Tu as un bon pressentiment à propos de celui-ci !${prompt}
+  940: Tu as un mauvais pressentiment à propos de celui-ci.${prompt}
+  941: Tu as un terrible pressentiment à propos de celui-ci...${prompt}
+  942: Tu ne sais pas si tu as assez de compétences pour le ramener.${prompt}
+  943: Tu es assez sûr de ne pas avoir assez de compétences pour le ramener.${prompt}
+  944: Tu es persuadé de ne pas avoir assez de compétences pour le ramener !${prompt}
   945: |-
-    Select Fish Type:
+    Sélectionnez le type de poisson :
     ${selection-lines}
-    Saltwater.
-    Freshwater.
-    Item.
-    Flag.
-    Treasure Chest.
-    Monster.${prompt}
+    Eau salée.
+    Eau douce.
+    Objet.
+    Drapeau.
+    Coffre au trésor.
+    Monstre.${prompt}
   946: |-
-    Select one
+    Sélectionnez-en un
     ${selection-lines}
     ${item-singular: 0[2]}（${number: 0}）.
     ${lettercase: 1}${item-singular: 1[2]}（${number: 1}）.
@@ -2094,18 +2095,18 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}（${number: 5}）.
     ${lettercase: 1}${item-singular: 6[2]}（${number: 6}）.
     ${lettercase: 1}${item-singular: 7[2]}（${number: 7}）.
-    Next.${prompt}
+  946: Suivant.${prompt}
   947: |-
     l: ${number: 0}.
     m: ${number: 1}.
     n: ${number: 2}.
     CH: ${number: 3}.${prompt}
-  948: Something caught the hook!!!${prompt}
-  949: You feel something pulling at your line.${prompt}
-  950: Something clamps onto your line ferociously!${prompt}
-  951: 'Your keen angler''s senses tell you that this is the pull of ${article} ${item-article: 0[2]}!${prompt}'
-  952: This strength... You get the sense that you are on the verge of an epic catch!${prompt}
-  953: 'The timer has started. ${number: 0} seconds remaining.${prompt}'
+  948: Quelque chose a mordu à l'hameçon !!!${prompt}
+  949: Tu sens quelque chose tirer sur ta ligne.${prompt}
+  950: Quelque chose s'agrippe férocement à ta ligne !${prompt}
+  951: 'Tes sens aiguisés de pêcheur te disent que c'est l'accroche de ${article} ${item-article: 0[2]} !${prompt}'
+  952: Cette force... Tu sens que tu es sur le point de réaliser une prise épique !${prompt}
+  953: 'Le minuteur a démarré. ${number: 0} secondes restantes.${prompt}'
   954: '${number: 0}sec.${number: 1}/${number: 2}sec.${prompt}'
   955: '0:${number: 0} 1:${number: 1} 2:${number: 2} 3:${number: 3}${prompt}'
   956: '4:${number: 0} 5:${number: 1} 6:${number: 2} 7:${number: 3}${prompt}'
