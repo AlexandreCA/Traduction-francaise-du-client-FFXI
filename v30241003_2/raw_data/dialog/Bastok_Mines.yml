@@ -16203,40 +16203,40 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6514: The client sent an invalid value to the server!${prompt}
-  6515: You cannot receive mission assignments at this time.${prompt}
-  6516: I am in charge of assigning missions, but I am only allowed to do so to those whose allegiance is to Bastok.${prompt}
+  6514: Le client a envoyé une valeur invalide au serveur !${prompt}  
+  6515: Vous ne pouvez pas recevoir de missions pour le moment.${prompt}  
+  6516: Je suis responsable de l'attribution des missions, mais je ne peux le faire que pour ceux dont l'allégeance est à Bastok.${prompt}  
   6517: |-
-    You cannot undertake two missions at the same time.
-    Finish the one you are on now before asking for a new one.${prompt}
-  6518: Missions currently available are as follows:${prompt}
+    Vous ne pouvez pas entreprendre deux missions en même temps.
+    Terminez celle que vous avez en cours avant de demander une nouvelle.${prompt}  
+  6518: Les missions actuellement disponibles sont les suivantes :${prompt}  
   6519: |-
-    Which mission will you undertake?
+    Quelle mission allez-vous entreprendre ?
     ${selection-lines}
-    The Zeruhn Report.
-    A Geological Survey.
-    Fetichism.
-    The Crystal Line.
-    Wading Beasts.
-    The Emissary.
+    Le rapport de Zeruhn.
+    Une étude géologique.
+    Fétichisme.    
+    La ligne de cristal.
+    Bêtes de wading.
+    L'émissaire.
     2-3-1A.
     2-3-1B.
     2-3-2A.
     2-3-2B.
-    The Four Musketeers.
-    To the Forsaken Mines.
+    Les Quatre Mousquetaires.
+    Vers les mines abandonnées.
     Jeuno.
     ダミー.
-    Darkness Rising.
-    Xarcabard, Land of Truths.
-    Return of the Talekeeper.
-    The Pirates' Cove.
-    The Final Image.
-    On My Way.
-    The Chains That Bind Us.
-    Enter the Talekeeper.
-    The Salt of the Earth.
-    Where Two Paths Converge.
+    L'ombre qui s'élève.
+    Xarcabard, Terre des Vérités.
+    Le retour du Gardien des Talons.
+    La Baie des Pirates.
+    La Dernière Image.
+    En route.
+    Les Chaînes qui nous Lient.
+    Entrer chez le Gardien des Talons.
+    Le Sel de la Terre.
+    Où Deux Chemins Se Croisent.
     ダミー１０.
     ダミー１１.
     ダミー１２.
@@ -16244,60 +16244,59 @@ entries:
     ダミー１４.
     ダミー１５.
     ダミー１６.
-    None.${prompt}
-  6520: I am in charge of assigning missions to Bastokers who wish to serve their country. Are you one of them?${prompt}
-  6521: |-
-    Have you come to undertake a mission?
-    ${selection-lines}
-    Yes, I have.
-    No, maybe later.${prompt}
-  6522: |-
-    Will you accept this mission?
-    ${selection-lines}
-    Yes.
-    No.${prompt}
-  6523: You have accepted the mission.${prompt}
-  6524: Then move along.${prompt}
-  6525: |-
-    Good.
-    This is your first time going on a mission, is it not?${prompt}
-  6526: |-
-    Your first assignment is not a difficult one.
-    The details are as follows:${prompt}
-  6527: |-
-    You must go to the Zeruhn Mines in the western section of the Mines District.
-    Once there, you are to collect a report from the overseer.${prompt}
-  6528: |-
-    You can consult the “Mission” section of the main menu to review your objectives.
-    Speed and efficiency are your priorities. Dismissed.${prompt}
-  6529: |-
-    The Chief Engineer is conducting new research, and has asked for someone to assist him.
-    He can be found in the Metalworks, to the east of the administrative section.${prompt}
-  6530: |-
-    The Chief Engineer's laboratory is on the second floor of the Metalworks.
-    You don't know his name!? And you call yourself a Bastoker!${prompt}
-  6531: |-
-    The Chief Engineer's name is Cid. Any Bastoker would know that!
-    Now go and see him. He will give you the details of your mission.${prompt}
-  6532: The Palborough Mines, once our main source of mythril, have been under beastman control for some time.${prompt}
-  6533: 'We want you to hunt these beastmen, the Quadav, and bring back ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, and ${article} ${item-article: 7[2]} as proof of your accomplishments.${prompt}'
-  6534: You must present all four items to me or one of my colleagues in order to complete this mission.${prompt}
-  6535: Good, you've brought all four parts of the doll.${prompt}
-  6536: |-
-    I am raising your rank to 2 for completing this mission.
-    Congratulations.${prompt}
-  6537: If you've been to the Palborough Mines, you must know now the serious nature of the threat these beastmen pose to our civilization.${prompt}
-  6538: As a Bastoker, you are expected to take on more missions and go on conquests to preserve Bastok's brilliant future!${prompt}
-  6539: But I cannot give you a new mission at this time.${prompt}
-  6540: You need to collect rank points before taking on new missions.${prompt}
-  6541: You can receive rank points by participating in conquests and donating the crystals you acquire to guards, or by undertaking missions you've previously completed.${prompt}
-  6542: Ask the High Guard near the gatehouse if you wish to hear more about conquests.${prompt}
-  6543: Have you heard of a strange structure called the Crag of Dem? It is on the Konschtat Highlands, north of the Gustaberg Mountains.${prompt}
-  6544: They say that crystals are drained of their power if you take them to a certain section of that structure.${prompt}
-  6545: Chief Cid is currently investigating this strange phenomenon, and is asking for someone to bring back a faded crystal.${prompt}
-  6546: Go see him for a more detailed explanation of your objectives.${prompt}
-  6547: You want a crystal to use for this experiment? Are you not an adventurer? It should be easy for you to procure one.${prompt}
-  6548: 'You are to collect ${article} ${item-article: 7[2]} from beasts in the Dangruf Wadi.${prompt}'
+    Aucun. ${prompt}
+  6520 : Je suis en charge d'assigner des missions aux Bastokers qui souhaitent servir leur pays. Êtes-vous l'un d'eux ? ${prompt}  
+  6521 : | -  
+    Êtes-vous venu pour entreprendre une mission ?  
+    ${selection-lines}  
+    Oui, c'est bien ça.  
+    Non, peut-être plus tard. ${prompt}  
+  6522 : | -  
+    Acceptez-vous cette mission ?  
+    ${selection-lines}  
+    Oui.  
+    Non. ${prompt}  
+  6523 : Vous avez accepté la mission. ${prompt}  
+  6524 : Alors, avancez. ${prompt}  
+  6525 : | -  
+    Bien. C'est votre première fois en mission, n'est-ce pas ? ${prompt}  
+  6526 : | -  
+    Votre première mission n'est pas difficile.  
+    Les détails sont les suivants:${prompt}
+  6527 : | -  
+    Vous devez vous rendre aux Mines de Zeruhn dans la section ouest du district minier.  
+    Une fois là-bas, vous devez collecter un rapport auprès du superviseur. ${prompt}  
+  6528 : | -  
+    Vous pouvez consulter la section « Mission » du menu principal pour revoir vos objectifs.  
+    La rapidité et l'efficacité sont vos priorités. Renvoyé. ${prompt}  
+  6529 : | -  
+    Le Chef Ingénieur mène de nouvelles recherches et a demandé de l'aide.  
+    Vous le trouverez dans les Ateliers, à l'est de la section administrative. ${prompt}  
+  6530 : | -  
+    Le laboratoire du Chef Ingénieur est au deuxième étage des Ateliers.  
+    Vous ne connaissez pas son nom ?! Et vous vous appelez un Bastoker ! ${prompt}  
+  6531 : | -  
+    Le nom du Chef Ingénieur est Cid. Tout Bastoker le sait !  
+    Allez maintenant le voir. Il vous donnera les détails de votre mission. ${prompt}  
+  6532 : Les Mines de Palborough, autrefois notre principale source de mythril, sont sous le contrôle des bêtes depuis un certain temps. ${prompt}  
+  6533 : 'Nous voulons que vous chassiez ces bêtes, les Quadav, et que vous rameniez ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]} et ${article} ${item-article: 7[2]} comme preuve de vos accomplissements. ${prompt}  
+  6534 : Vous devez me présenter les quatre objets ou l'un de mes collègues pour compléter cette mission. ${prompt}  
+  6535 : Bien, vous avez apporté les quatre parties de la poupée. ${prompt}  
+  6536 : | -  
+    Je vous élève au rang 2 pour avoir complété cette mission.  
+    Félicitations. ${prompt}
+  6537 : Si vous êtes déjà allé aux Mines de Palborough, vous devez maintenant connaître la gravité de la menace que ces bêtes posent à notre civilisation. ${prompt}  
+  6538 : En tant que Bastoker, vous êtes censé accepter davantage de missions et participer à des conquêtes pour préserver le brillant avenir de Bastok ! ${prompt}  
+  6539 : Mais je ne peux pas vous donner de nouvelle mission pour le moment. ${prompt}  
+  6540 : Vous devez collecter des points de rang avant de pouvoir entreprendre de nouvelles missions. ${prompt}   
+  6541 : Vous pouvez obtenir des points de rang en participant à des conquêtes et en faisant don des cristaux que vous acquérez aux gardes, ou en réalisant des missions que vous avez déjà complétées. ${prompt}  
+  6542 : Demandez au Haut Gardien près de la maison de garde si vous souhaitez en savoir plus sur les conquêtes. ${prompt}  
+  6543 : Avez-vous entendu parler d'une étrange structure appelée le Crag of Dem ? Elle se trouve dans les Highlands de Konschtat, au nord des montagnes de Gustaberg. ${prompt}   
+  6544 : On dit que les cristaux perdent leur pouvoir si vous les emmenez dans une certaine section de cette structure. ${prompt}  
+  6545 : Le Chef Cid enquête actuellement sur ce phénomène étrange et demande à quelqu'un de rapporter un cristal fané. ${prompt}  
+  6546 : Allez le voir pour une explication plus détaillée de vos objectifs. ${prompt}   
+  6547 : Vous voulez un cristal pour cette expérience ? N'êtes-vous pas un aventurier ? Cela devrait être facile pour vous d'en procurer un. ${prompt}  
+  6548 : 'Vous devez collecter ${article} ${item-article: 7[2]} auprès des bêtes dans le Dangruf Wadi. ${prompt}
   6549: |-
     Senator Alois is in need of some. Do not ask me why.
     He can be found in the President's Office.${prompt}
