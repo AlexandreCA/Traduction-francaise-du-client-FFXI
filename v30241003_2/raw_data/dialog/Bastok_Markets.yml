@@ -15989,79 +15989,79 @@ entries:
   6432: ${prompt}
   6433: ${prompt}
   6434: ${prompt}
-  6435: 'You have obtained ${number: 0} bayld!${prompt}'
-  6436: 'You have obtained ${number: 0} bayld!'
-  6437: You do not have enough bayld!${prompt}
-  6438: You do not have enough bayld!
-  6439: 'You can now become a ${choice: 0}[geomancer/rune fencer]!${prompt}'
-  6440: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount in the corresponding locale.${prompt}'
-  6441: A faint energy wafts up from the ground.${prompt}
-  6442: Your device has already been attuned to a geomagnetic fount in the corresponding locale.${prompt}
-  6443: 'You have learned ${keyitem-singular: 0[2]}!${prompt}'
-  6444: I eat, breathe, and sleep delivery services! Even if the heavens come tumbling down, the seas engulf all of Adoulin, or eternal darkness descends upon the world, you needn't worry about your package!${prompt}
-  6445: '${color-alt: 123}The level of difficulty for this content is ${number: 0}.${prompt}'
-  6446: 'Your maximum level has been raised to ${choice: 0}[50/55/60/65/70/75/80/85/90/95/99]!${prompt}'
-  6447: '${color-alt: 123}You have entered belligerency.${prompt}'
-  6448: '${color-alt: 123}You have entered belligerency and your level has been restricted to ${number: 0}.${prompt}'
-  6449: '${color-alt: 123}You have entered belligerency. Your level has been restricted to ${number: 0} and the attributes of applicable equipment you may be wearing have been appropriately reduced.${prompt}'
-  6450: You have learned a new instinct!${prompt}
-  6451: '${color-alt: 123}Your party is unable to participate because certain members'' levels are restricted.${prompt}'
-  6452: Please remove your level restriction before endeavoring to participate.${prompt}
-  6453: 'You learned Trust: ${spell: 1}!'
-  6454: You are now able to call multiple alter egos.
+  6435: 'Vous avez obtenu ${number: 0} bayld !${prompt}'
+  6436: 'Vous avez obtenu ${number: 0} bayld !'
+  6437: 'Vous n’avez pas assez de bayld !${prompt}'
+  6438: 'Vous n’avez pas assez de bayld !'
+  6439: 'Vous pouvez maintenant devenir un ${choice: 0}[géomancien/épéiste runique] !${prompt}'
+  6440: 'Votre ${keyitem-singular: 1[2]} a été accordé à une source géomagnétique dans la région correspondante.${prompt}'
+  6441: 'Une faible énergie s’élève du sol.${prompt}'
+  6442: 'Votre appareil a déjà été accordé à une source géomagnétique dans la région correspondante.${prompt}'
+  6443: 'Vous avez appris ${keyitem-singular: 0[2]} !${prompt}'
+  6444: 'Je mange, respire et dors services de livraison ! Même si les cieux s’effondrent, que les mers engloutissent tout Adoulin ou qu’une obscurité éternelle descende sur le monde, vous n’avez pas à vous inquiéter pour votre colis !${prompt}'
+  6445: '${color-alt: 123}Le niveau de difficulté de ce contenu est ${number: 0}.${prompt}'
+  6446: 'Votre niveau maximum a été augmenté à ${choice: 0}[50/55/60/65/70/75/80/85/90/95/99] !${prompt}'
+  6447: '${color-alt: 123}Vous êtes entré en belligerance.${prompt}'
+  6448: '${color-alt: 123}Vous êtes entré en belligerance et votre niveau a été restreint à ${number: 0}.${prompt}'
+  6449: '${color-alt: 123}Vous êtes entré en belligerance. Votre niveau a été restreint à ${number: 0} et les attributs de l’équipement applicable que vous portez ont été réduits en conséquence.${prompt}'
+  6450: 'Vous avez appris un nouvel instinct !${prompt}'
+  6451: '${color-alt: 123}Votre groupe ne peut pas participer car certains membres ont des niveaux restreints.${prompt}'
+  6452: 'Veuillez enlever votre restriction de niveau avant d’essayer de participer.${prompt}'
+  6453: 'Vous avez appris Confiance : ${spell: 1} !'
+  6454: 'Vous pouvez maintenant appeler plusieurs alter egos.'
   6455: |-
-    Enter?
+    Entrer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6456: |-
-    Leave?
+    Quitter ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6457: The cutscene has unexpectedly terminated. Examine the Resume Point to continue.
+    Oui.
+    Non.${prompt}
+  6457: 'La cinématique s’est terminée de manière inattendue. Examinez le Point de reprise pour continuer.'
   6458: |-
-    What do you wish to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Show me the cutscene again.
-    Skip the cutscene and continue.${prompt}
-  6459: Displaying the next scene.
-  6460: Alter egos may be used here without any effect on enmity.
-  6461: '${color-alt: 123}The maximum level of the content you are currently attempting is ${number: 0}.${prompt}'
+    Montrez-moi la cinématique à nouveau.
+    Passer la cinématique et continuer.${prompt}
+  6459: 'Affichage de la scène suivante.'
+  6460: 'Les alter egos peuvent être utilisés ici sans aucun effet sur l’hostilité.'
+  6461: '${color-alt: 123}Le niveau maximum du contenu que vous tentez actuellement est ${number: 0}.${prompt}'
   6462: '${number: 0} ${number: 1} ${number: 2} ${number: 3}'
   6463: '${number: 4} ${number: 5} ${number: 6} ${number: 7}'
-  6464: The Unity ranking tabulation period has begun.
-  6465: The Unity ranking tabulation period has ended.
-  6466: '${choice: 0}[Unranked/First place/Second place/Third place/Fourth place/Fifth place]: ${choice: 1}[Pieuje/Ayame/Invincible Shield/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie].'
+  6464: 'La période de tabulation du classement d’Unité a commencé.'
+  6465: 'La période de tabulation du classement d’Unité est terminée.'
+  6466: '${choice: 0}[Non classé/Première place/Deuxième place/Troisième place/Quatrième place/Cinquième place]: ${choice: 1}[Pieuje/Ayame/Écran Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie].'
   6467: |-
-    Jump into the vortex?
+    Sautez dans le vortex ?
     ${selection-lines}
-    Off we go!
-    Not just yet.${prompt}
-  6468: Nothing out of the ordinary happens.${prompt}
-  6469: '${color-alt: 123}You are unable to proceed to the next area because ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin] is not registered to your account.${prompt}'
-  6470: 'You are now able to call forth alter egos here because you have obtained the ${keyitem-singular: 0[2]} key item.'
-  6471: 'You cannot carry any more ${keyitem-plural: 0[2]}.${prompt}'
-  6472: '${color-alt: 138}You have been promoted to ${choice: 0}[/Private First Class/Superior Private/Lance Corporal/Corporal/Sergeant/Sergeant Major/Chief Sergeant/Second Lieutenant/First Lieutenant/Captain]!${prompt}'
-  6473: Your bags mysteriously feel a little bit heavier...${prompt}
-  6474: 'The bonds tying you to Altana have strengthened, enabling you to experience all the memories of ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin]!${prompt}'
-  6475: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the ${choice: 1}[Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin/Rise of the Zilart] missions.'
-  6476: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the quest ${choice: 1}[Champion of the Dawn/A Forbidden Reunion].'
-  6477: The crystal glistens with a divine radiance.${prompt}
-  6478: '${color-alt: 138}You must visit Aht Urhgan Whitegate in order to progress in the Rhapsodies of Vana''diel missions.'
-  6479: '${color-alt: 123}You have been awarded the temporary item ${item-singular: 0[2]} as compensation.${prompt}'
-  6480: '${color-alt: 123}You already posses the temporary item ${item-singular: 0[2]} and cannot receive another one as compensation.${prompt}'
-  6481: '${color-alt: 123}Please claim your item before maintenance for the February 2022 version update begins.${prompt}'
-  6482: 'You have been rewarded ${article} ${item-article: 0[2]} as compensation.${prompt}'
-  6483: 'You are unable to accept the compensatory ${item-singular: 0[2]}. Free up some space in your inventory and try again.${prompt}'
-  6484: '${color-alt: 123}Please claim your item before maintenance for the October 2022 version update begins.${prompt}'
-  6485: 'You receive ${number: 0} deeds for a total of ${number: 1}!${prompt}'
-  6486: '${color-alt: 161}Word has been received of a Mamool Ja threat in Wajaom Woodlands.${prompt}'
-  6487: '${color-alt: 161}Word has been received of a Troll threat in Wajaom Woodlands.${prompt}'
-  6488: '${color-alt: 161}Word has been received of an undead threat in Bhaflau Thickets.${prompt}'
-  6489: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
-  6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
-  6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
+    En avant !
+    Pas encore.${prompt}
+  6468: 'Rien d’inhabituel ne se produit.${prompt}'
+  6469: '${color-alt: 123}Vous ne pouvez pas accéder à la zone suivante car ${choice: 0}[L’Élévation des Zilart/Les Chaînes de Promathia/Les Trésors d’Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d’Adoulin] n’est pas enregistré sur votre compte.${prompt}'
+  6470: 'Vous pouvez maintenant invoquer des alter egos ici car vous avez obtenu l’objet clé ${keyitem-singular: 0[2]}.'
+  6471: 'Vous ne pouvez pas transporter d’autres ${keyitem-plural: 0[2]}.${prompt}'
+  6472: '${color-alt: 138}Vous avez été promu ${choice: 0}[/Soldat de Première Classe/Soldat Supérieur/Caporal/Sergent/Sergeant Major/Caporal-Chef/Sous-Lieutenant/Lieutenant/Capitaine] !${prompt}'
+  6473: 'Vos sacs semblent mystérieusement un peu plus lourds...${prompt}'
+  6474: '${color-alt: 138}Les liens qui vous unissent à Altana se sont renforcés, vous permettant d’expérimenter tous les souvenirs de ${choice: 0}[L’Élévation des Zilart/Les Chaînes de Promathia/Les Trésors d’Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d’Adoulin] !${prompt}'
+  6475: '${color-alt: 138}Vous ne pouvez pas progresser davantage dans Rhapsodies of Vana’diel en raison d’un événement se produisant dans les missions ${choice: 1}[Les Chaînes de Promathia/Les Trésors d’Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d’Adoulin/L’Élévation des Zilart].'
+  6476: '${color-alt: 138}Vous ne pouvez pas progresser davantage dans Rhapsodies of Vana’diel en raison d’un événement se produisant dans la quête ${choice: 1}[Champion de l’Aube/Une Réunion Interdite].' 
+  6477: 'Le cristal brille d’un éclat divin.${prompt}'
+  6478: '${color-alt: 138}Vous devez visiter la Porte Blanche d’Aht Urhgan pour progresser dans les missions de Rhapsodies of Vana’diel.'
+  6479: '${color-alt: 123}Vous avez reçu l’objet temporaire ${item-singular: 0[2]} en compensation.${prompt}' 
+  6480: '${color-alt: 123}Vous possédez déjà l’objet temporaire ${item-singular: 0[2]} et ne pouvez pas en recevoir un autre en compensation.${prompt}'
+  6481: '${color-alt: 123}Veuillez réclamer votre objet avant que la maintenance pour la mise à jour de février 2022 ne commence.${prompt}'
+  6482: 'Vous avez été récompensé par ${article} ${item-article: 0[2]} en compensation.${prompt}'
+  6483: 'Vous ne pouvez pas accepter l’objet compensatoire ${item-singular: 0[2]}. Libérez de l’espace dans votre inventaire et réessayez.${prompt}'
+  6484: '${color-alt: 123}Veuillez réclamer votre objet avant que la maintenance pour la mise à jour d’octobre 2022 ne commence.${prompt}'
+  6485: 'Vous recevez ${number: 0} actes pour un total de ${number: 1} !${prompt}'
+  6486: '${color-alt: 161}Des nouvelles d’une menace Mamool Ja dans les Bois de Wajaom ont été reçues.${prompt}'
+  6487: '${color-alt: 161}Des nouvelles d’une menace Troll dans les Bois de Wajaom ont été reçues.${prompt}'
+  6488: '${color-alt: 161}Des nouvelles d’une menace des morts-vivants dans les Fourrés de Bhaflau ont été reçues.${prompt}'
+  6489: '${color-alt: 121}Les objectifs des Vana’bout Records of Eminence ont été mis à jour.${prompt}'
+  6490: '${color-alt: 121}Le Vana’bout No. ${number: 0} a commencé !${prompt}'
+  6491: '${color-alt: 121}Le Vana’bout No. ${number: 0} est terminé.${prompt}'
   6492: |-
     You can set this as your current home point.
     Once you set a home point, you will return there whenever you are incapacitated.
