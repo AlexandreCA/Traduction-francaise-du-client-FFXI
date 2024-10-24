@@ -16063,15 +16063,15 @@ entries:
   6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
   6492: |-
-    Vous pouvez définir cela comme votre point de départ actuel. 
-    Une fois que vous aurez défini un point de départ, vous y retournerez chaque fois que vous serez invalide.
+    You can set this as your current home point.
+    Once you set a home point, you will return there whenever you are incapacitated.
   6493: |-
-    Définir ceci comme point de départ actuel ?
+    Set this as current home point?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  6494: Point de départ défini !${prompt}
-  6495: Un point de départ peut être défini comme un endroit où vous pouvez retourner à Vana'diel lorsque vous avez été assommé. Vous pouvez également utiliser un point de départ pour vous téléporter à d'autres points de départ.
+    Yes.
+    No.${prompt}
+  6494: Home point set!${prompt}
+  6495: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
   6496: |-
     What will you do?
     ${selection-lines}
@@ -16203,22 +16203,22 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6514: Le client a envoyé une valeur invalide au serveur !${prompt}
-  6515: Tu ne peux pas recevoir d'attributions de mission en ce moment.${prompt}
-  6516: Je suis en charge d'assigner des missions, mais je ne peux le faire que pour ceux dont l'allégeance est à Bastok.${prompt}
+  6514: The client sent an invalid value to the server!${prompt}
+  6515: You cannot receive mission assignments at this time.${prompt}
+  6516: I am in charge of assigning missions, but I am only allowed to do so to those whose allegiance is to Bastok.${prompt}
   6517: |-
-    Tu ne peux pas entreprendre deux missions en même temps.
-    Termine celle que tu es en train de faire avant de demander une nouvelle mission.${prompt}
-  6518: Les missions actuellement disponibles sont les suivantes :${prompt}
+    You cannot undertake two missions at the same time.
+    Finish the one you are on now before asking for a new one.${prompt}
+  6518: Missions currently available are as follows:${prompt}
   6519: |-
-    Quelle mission vas-tu entreprendre ?
+    Which mission will you undertake?
     ${selection-lines}
-    Le Rapport de Zeruhn.
-    Une Étude Géologique.
-    Le Fétichisme.
-    La Ligne de Cristaux.
-    Les Bêtes de l'Eau.
-    L'Émissaire.
+    The Zeruhn Report.
+    A Geological Survey.
+    Fetichism.
+    The Crystal Line.
+    Wading Beasts.
+    The Emissary.
     2-3-1A.
     2-3-1B.
     2-3-2A.
@@ -16245,59 +16245,59 @@ entries:
     ダミー１５.
     ダミー１６.
     None.${prompt}
-  6520: Je suis responsable de l'attribution des missions aux Bastokers qui souhaitent servir leur pays. Es-tu l'un d'eux ?${prompt}
+  6520: I am in charge of assigning missions to Bastokers who wish to serve their country. Are you one of them?${prompt}
   6521: |-
-    Es-tu venu pour entreprendre une mission ?
+    Have you come to undertake a mission?
     ${selection-lines}
-    Oui, c'est ça.
-    Non, peut-être plus tard.${prompt}
+    Yes, I have.
+    No, maybe later.${prompt}
   6522: |-
-    Accepteras-tu cette mission ?
+    Will you accept this mission?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  6523: Tu as accepté la mission.${prompt}
-  6524: Alors, avance.${prompt}
+    Yes.
+    No.${prompt}
+  6523: You have accepted the mission.${prompt}
+  6524: Then move along.${prompt}
   6525: |-
-    Bien.
-    C'est ta première fois en mission, n'est-ce pas ?${prompt}
+    Good.
+    This is your first time going on a mission, is it not?${prompt}
   6526: |-
-    Ta première affectation n'est pas difficile.
-    Voici les détails :${prompt}
+    Your first assignment is not a difficult one.
+    The details are as follows:${prompt}
   6527: |-
-    Tu dois te rendre aux Mines de Zeruhn, dans la section ouest du district des mines.
-    Une fois là-bas, tu devras collecter un rapport de l'agent de supervision.${prompt}
+    You must go to the Zeruhn Mines in the western section of the Mines District.
+    Once there, you are to collect a report from the overseer.${prompt}
   6528: |-
-    Tu peux consulter la section “Mission” du menu principal pour revoir tes objectifs.
-    La rapidité et l'efficacité sont tes priorités. Répété.${prompt}
+    You can consult the “Mission” section of the main menu to review your objectives.
+    Speed and efficiency are your priorities. Dismissed.${prompt}
   6529: |-
-    L'ingénieur en chef mène de nouvelles recherches et a demandé de l'aide.
-    Il se trouve dans les Métallurgies, à l'est de la section administrative.${prompt}
+    The Chief Engineer is conducting new research, and has asked for someone to assist him.
+    He can be found in the Metalworks, to the east of the administrative section.${prompt}
   6530: |-
-    Le laboratoire de l'ingénieur en chef est au deuxième étage des Métallurgies.
-    Tu ne sais pas son nom !? Et tu t'appelles un Bastoker !${prompt}
+    The Chief Engineer's laboratory is on the second floor of the Metalworks.
+    You don't know his name!? And you call yourself a Bastoker!${prompt}
   6531: |-
-    Le nom de l'ingénieur en chef est Cid. Tout Bastoker devrait le savoir !
-    Maintenant, va le voir. Il te donnera les détails de ta mission.${prompt}
-  6532: Les Mines de Palborough, autrefois notre principale source de mythril, sont sous le contrôle des bêtes depuis un certain temps.${prompt}
-  6533: 'Nous voulons que tu chasses ces bêtes, les Quadav, et que tu ramènes ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, et ${article} ${item-article: 7[2]} comme preuve de tes accomplissements.${prompt}'
-  6534: Tu dois me présenter les quatre objets à moi ou à un de mes collègues pour compléter cette mission.${prompt}
-  6535: Bien, tu as apporté les quatre parties de la poupée.${prompt}
+    The Chief Engineer's name is Cid. Any Bastoker would know that!
+    Now go and see him. He will give you the details of your mission.${prompt}
+  6532: The Palborough Mines, once our main source of mythril, have been under beastman control for some time.${prompt}
+  6533: 'We want you to hunt these beastmen, the Quadav, and bring back ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, and ${article} ${item-article: 7[2]} as proof of your accomplishments.${prompt}'
+  6534: You must present all four items to me or one of my colleagues in order to complete this mission.${prompt}
+  6535: Good, you've brought all four parts of the doll.${prompt}
   6536: |-
-    Je t'élève au rang 2 pour avoir complété cette mission.
-    Félicitations.${prompt}
-  6537: Si tu es allé aux Mines de Palborough, tu dois maintenant connaître la gravité de la menace que ces bêtes représentent pour notre civilisation.${prompt}
-  6538: En tant que Bastoker, tu es censé accepter plus de missions et partir en conquêtes pour préserver l'avenir brillant de Bastok !${prompt}
-  6539: Mais je ne peux pas te donner de nouvelle mission pour le moment.${prompt}
-  6540: Tu dois collecter des points de rang avant de prendre de nouvelles missions.${prompt}
-  6541: Tu peux obtenir des points de rang en participant à des conquêtes et en faisant don des cristaux que tu acquiers aux gardes, ou en accomplissant des missions que tu as déjà terminées.${prompt}
-  6542: Demande au Haut-Garde près de la porte si tu souhaites en savoir plus sur les conquêtes.${prompt}
-  6543: As-tu entendu parler d'une étrange structure appelée le Crag of Dem ? Elle se trouve dans les Hauts de Konschtat, au nord des Montagnes de Gustaberg.${prompt}
-  6544: On dit que les cristaux sont dépouillés de leur pouvoir si tu les emportes dans une certaine section de cette structure.${prompt}
-  6545: Le Chef Cid enquête actuellement sur ce phénomène étrange et demande à quelqu'un de ramener un cristal fané.${prompt}
-  6546: Va le voir pour une explication plus détaillée de tes objectifs.${prompt}
-  6547: Tu veux un cristal à utiliser pour cette expérience ? N'es-tu pas un aventurier ? Il devrait être facile pour toi d'en procurer un.${prompt}
-  6548: 'Tu dois collecter ${article} ${item-article: 7[2]} auprès des bêtes dans le Dangruf Wadi.${prompt}'
+    I am raising your rank to 2 for completing this mission.
+    Congratulations.${prompt}
+  6537: If you've been to the Palborough Mines, you must know now the serious nature of the threat these beastmen pose to our civilization.${prompt}
+  6538: As a Bastoker, you are expected to take on more missions and go on conquests to preserve Bastok's brilliant future!${prompt}
+  6539: But I cannot give you a new mission at this time.${prompt}
+  6540: You need to collect rank points before taking on new missions.${prompt}
+  6541: You can receive rank points by participating in conquests and donating the crystals you acquire to guards, or by undertaking missions you've previously completed.${prompt}
+  6542: Ask the High Guard near the gatehouse if you wish to hear more about conquests.${prompt}
+  6543: Have you heard of a strange structure called the Crag of Dem? It is on the Konschtat Highlands, north of the Gustaberg Mountains.${prompt}
+  6544: They say that crystals are drained of their power if you take them to a certain section of that structure.${prompt}
+  6545: Chief Cid is currently investigating this strange phenomenon, and is asking for someone to bring back a faded crystal.${prompt}
+  6546: Go see him for a more detailed explanation of your objectives.${prompt}
+  6547: You want a crystal to use for this experiment? Are you not an adventurer? It should be easy for you to procure one.${prompt}
+  6548: 'You are to collect ${article} ${item-article: 7[2]} from beasts in the Dangruf Wadi.${prompt}'
   6549: |-
     Senator Alois is in need of some. Do not ask me why.
     He can be found in the President's Office.${prompt}
@@ -16422,146 +16422,146 @@ entries:
     ${item: 15}
     ${item: 16}
     ${item: 17}${prompt}
-  6595: Ce Mog House n'est pas actuellement ouvert aux visites.${prompt}
-  6596: Calcul des résultats de conquête en cours...${prompt}
-  6597: Résultats de la conquête calculés.${prompt}
-  6598: Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
-  6599: Cette région est actuellement sous le contrôle de Bastok.${prompt}
-  6600: Cette région est actuellement sous le contrôle de Windurst.${prompt}
+  6595: That Mog House is not currently open for visits.${prompt}
+  6596: Tallying conquest results...${prompt}
+  6597: Conquest results tallied.${prompt}
+  6598: This region is currently under San d'Orian control.${prompt}
+  6599: This region is currently under Bastokan control.${prompt}
+  6600: This region is currently under Windurstian control.${prompt}
   6601: |-
-    Cette région est actuellement sous le contrôle des hommes-bêtes.
-    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
-  6602: Cette région est actuellement neutre.${prompt}
+    This region is currently under beastman control.
+    You cannot obtain crystals in this region.${prompt}
+  6602: This region is currently neutral.${prompt}
   6603: |-
-    Équilibre global des forces :
-    1er : San d'Oria
-    2e : Windurst
-    3e : Bastok${prompt}
-  6604: Les trois nations sont à égalité pour la première place.${prompt}
+    Global balance of power:
+    1st: San d'Oria
+    2nd: Windurst
+    3rd: Bastok${prompt}
+  6604: All three nations are tied for first place.${prompt}
   6605: |-
-    Équilibre global des forces :
-    1er : San d'Oria et Windurst (égalité)
-    3e : Bastok${prompt}
+    Global balance of power:
+    1st: San d'Oria and Windurst (tie)
+    3rd: Bastok${prompt}
   6606: |-
-    Équilibre global des forces :
-    1er : San d'Oria
-    2e : Bastok et Windurst (égalité)${prompt}
+    Global balance of power:
+    1st: San d'Oria
+    2nd: Bastok and Windurst (tie)${prompt}
   6607: |-
-    Équilibre global des forces :
-    1er : San d'Oria
-    2e : Bastok
-    3e : Windurst${prompt}
-  6608: Les trois nations sont à égalité pour la première place.${prompt}
+    Global balance of power:
+    1st: San d'Oria
+    2nd: Bastok
+    3rd: Windurst${prompt}
+  6608: All three nations are tied for first place.${prompt}
   6609: |-
-    Équilibre global des forces :
-    1er : San d'Oria et Bastok (égalité)
-    3e : Windurst${prompt}
+    Global balance of power:
+    1st: San d'Oria and Bastok (tie)
+    3rd: Windurst${prompt}
   6610: |-
-    Équilibre global des forces :
-    1er : San d'Oria
-    2e : Bastok et Windurst (égalité)${prompt}
+    Global balance of power:
+    1st: San d'Oria
+    2nd: Bastok and Windurst (tie)${prompt}
   6611: |-
-    Équilibre global des forces :
-    1er : Bastok
-    2e : San d'Oria
-    3e : Windurst${prompt}
-  6612: Les trois nations sont à égalité pour la première place.${prompt}
+    Global balance of power:
+    1st: Bastok
+    2nd: San d'Oria
+    3rd: Windurst${prompt}
+  6612: All three nations are tied for first place.${prompt}
   6613: |-
-    Équilibre global des forces :
-    1er : San d'Oria et Bastok (égalité)
-    3e : Windurst${prompt}
+    Global balance of power:
+    1st: San d'Oria and Bastok (tie)
+    3rd: Windurst${prompt}
   6614: |-
-    Équilibre global des forces :
-    1er : Bastok
-    2e : San d'Oria et Windurst (égalité)${prompt}
+    Global balance of power:
+    1st: Bastok
+    2nd: San d'Oria and Windurst (tie)${prompt}
   6615: |-
-    Équilibre global des forces :
-    1er : Bastok
-    2e : Windurst
-    3e : San d'Oria${prompt}
-  6616: Les trois nations sont à égalité pour la première place.${prompt}
+    Global balance of power:
+    1st: Bastok
+    2nd: Windurst
+    3rd: San d'Oria${prompt}
+  6616: All three nations are tied for first place.${prompt}
   6617: |-
-    Équilibre global des forces :
-    1er : Bastok et Windurst (égalité)
-    3e : San d'Oria${prompt}
+    Global balance of power:
+    1st: Bastok and Windurst (tie)
+    3rd: San d'Oria${prompt}
   6618: |-
-    Équilibre global des forces :
-    1er : Bastok
-    2e : San d'Oria et Windurst (égalité)${prompt}
+    Global balance of power:
+    1st: Bastok
+    2nd: San d'Oria and Windurst (tie)${prompt}
   6619: |-
-    Équilibre global des forces :
-    1er : Windurst
-    2e : San d'Oria
-    3e : Bastok${prompt}
+    Global balance of power:
+    1st: Windurst
+    2nd: San d'Oria
+    3rd: Bastok${prompt}
   6620: |-
-    Équilibre global des forces :
-    Les trois nations sont à égalité pour la première place.${prompt}
+    Global balance of power:
+    All three nations are tied for first place.${prompt}
   6621: |-
-    Équilibre global des forces :
-    1er : San d'Oria et Windurst (égalité)
-    3e : Bastok${prompt}
+    Global balance of power:
+    1st: San d'Oria and Windurst (tie)
+    3rd: Bastok${prompt}
   6622: |-
-    Équilibre global des forces :
-    1er : Windurst
-    2e : San d'Oria et Bastok (égalité)${prompt}
+    Global balance of power:
+    1st: Windurst
+    2nd: San d'Oria and Bastok (tie)${prompt}
   6623: |-
-    Équilibre global des forces :
-    1er : Windurst
-    2e : Bastok
-    3e : San d'Oria${prompt}
-  6624: Les trois nations sont à égalité pour la première place.${prompt}
+    Global balance of power:
+    1st: Windurst
+    2nd: Bastok
+    3rd: San d'Oria${prompt}
+  6624: All three nations are tied for first place.${prompt}
   6625: |-
-    Équilibre global des forces :
-    1er : Bastok et Windurst
-    2e : San d'Oria${prompt}
+    Global balance of power:
+    1st: Bastok and Windurst
+    2nd: San d'Oria${prompt}
   6626: |-
-    Équilibre global des forces :
-    1er : Windurst
-    2e : San d'Oria et Bastok${prompt}
+    Global balance of power:
+    1st: Windurst
+    2nd: San d'Oria and Bastok${prompt}
   6627: |-
-    Mise à jour de la conquête :
-    Cette région est actuellement neutre.${prompt}
+    Conquest update:
+    This region is currently neutral.${prompt}
   6628: |-
-    Mise à jour de la conquête :
-    Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
+    Conquest update:
+    This region is currently under San d'Orian control.${prompt}
   6629: |-
-    Mise à jour de la conquête :
-    Cette région est actuellement sous le contrôle de Bastok.${prompt}
+    Conquest update:
+    This region is currently under Bastokan control.${prompt}
   6630: |-
-    Mise à jour de la conquête :
-    Cette région est actuellement sous le contrôle de Windurst.${prompt}
+    Conquest update:
+    This region is currently under Windurstian control.${prompt}
   6631: |-
-    Mise à jour de la conquête :
-    Cette région est actuellement sous le contrôle des hommes-bêtes.
-    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
-  6632: Les trois nations sont dans une impasse.${prompt}
-  6633: Les hommes-bêtes prennent du pouvoir.${prompt}
+    Conquest update:
+    This region is currently under beastman control.
+    You cannot obtain crystals in this region.${prompt}
+  6632: All three nations are at a deadlock.${prompt}
+  6633: The beastmen are on the rise.${prompt}
   6634: |-
-    Influence régionale :
-    San d'Oria - Dominante${prompt}
+    Regional influence:
+    San d'Oria - Dominant${prompt}
   6635: |-
-    Influence régionale :
-    San d'Oria - Majeure${prompt}
+    Regional influence:
+    San d'Oria - Major${prompt}
   6636: |-
-    Influence régionale :
-    San d'Oria - Mineure${prompt}
+    Regional influence:
+    San d'Oria - Minor${prompt}
   6637: |-
-    Influence régionale :
-    San d'Oria - Minimale${prompt}
-  6638: Bastok - Dominante${prompt}
-  6639: Bastok - Majeure${prompt}
-  6640: Bastok - Mineure${prompt}
-  6641: Bastok - Minimale${prompt}
-  6642: Windurst - Dominante${prompt}
-  6643: Windurst - Majeure${prompt}
-  6644: Windurst - Mineure${prompt}
-  6645: Windurst - Minimale${prompt}
-  6646: Bastok et Windurst ont formé une alliance.${prompt}
-  6647: San d'Oria et Windurst ont formé une alliance.${prompt} 
-  6648: San d'Oria et Bastok ont formé une alliance.${prompt}
-  6649: Bastok et Windurst sont actuellement alliés.${prompt}
-  6650: San d'Oria et Windurst sont actuellement alliés.${prompt}
-  6651: San d'Oria et Bastok sont actuellement alliés.${prompt}
+    Regional influence:
+    San d'Oria - Minimal${prompt}
+  6638: Bastok - Dominant${prompt}
+  6639: Bastok - Major${prompt}
+  6640: Bastok - Minor${prompt}
+  6641: Bastok - Minimal${prompt}
+  6642: Windurst - Dominant${prompt}
+  6643: Windurst - Major${prompt}
+  6644: Windurst - Minor${prompt}
+  6645: Windurst - Minimal${prompt}
+  6646: Bastok and Windurst have formed an alliance.${prompt}
+  6647: San d'Oria and Windurst have formed an alliance.${prompt}
+  6648: San d'Oria and Bastok have formed an alliance.${prompt}
+  6649: Bastok and Windurst are currently allies.${prompt}
+  6650: San d'Oria and Windurst are currently allies.${prompt}
+  6651: San d'Oria and Bastok are currently allies.${prompt}
   6652: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
@@ -16578,27 +16578,27 @@ entries:
   6656: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  6657: La puissance des hommes-bêtes augmente.${prompt}
-  6658: Le contrôle régional de San d'Oria est maintenant 10 % plus proche de celui du pays en première place !${prompt}
-  6659: Le contrôle régional de Bastok est maintenant 10 % plus proche de celui du pays en première place !${prompt}
-  6660: Le contrôle régional de Windurst est maintenant 10 % plus proche de celui du pays en première place !${prompt}
-  6661: Les points de région de San d'Oria ont augmenté !${prompt}
-  6662: Les points de région de Bastok ont augmenté !${prompt}
-  6663: Les points de région de Windurst ont augmenté !${prompt}
-  6664: Les F.E. de San d'Oria repoussent les hordes d'hommes-bêtes... Maintenez l'élan actuel.${prompt} 
-  6665: Les F.E. de Bastok repoussent les hordes d'hommes-bêtes... Maintenez l'élan actuel.${prompt}
-  6666: Les F.E. de Windurst repoussent les hordes d'hommes-bêtes... Maintenez l'élan actuel.${prompt}
-  6667: Une Force Expéditionnaire de San d'Oria a été envoyée dans cette zone.${prompt}
-  6668: Une Force Expéditionnaire de Bastok a été envoyée dans cette zone.${prompt}
-  6669: Une Force Expéditionnaire de Windurst a été envoyée dans cette zone.${prompt}
-  6670: 'Influence F.E. : Grande... Statut de la région : Dominante... Maintenez le niveau de combat actuel.${prompt}'
-  6671: 'Influence F.E. : Moyenne... Statut de la région : Majeure... Maintenez l’élan.${prompt}'
-  6672: 'Influence F.E. : Faible... Statut de la région : Mineure... Augmentez vos efforts.${prompt}'
-  6673: 'Influence F.E. : Minimale... Statut de la région : Minimale... Redoublez d’efforts.${prompt}'
-  6674: 'Influence F.E. : Nulle... Statut de la région : Sous contrôle des hommes-bêtes... Limitez les pertes au minimum.${prompt}'
-  6675: Il y avait une malédiction sur la bannière des hommes-bêtes !${prompt}
-  6676: La malédiction de la bannière des hommes-bêtes a été levée !${prompt}
-  6677: Il y a une bannière des hommes-bêtes.${prompt}
+  6657: The beastmen are gaining power.${prompt}
+  6658: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
+  6659: Bastok's regional control is now 10% closer to the first place country's!${prompt}
+  6660: Windurst's regional control are now 10% closer to the first place country's!${prompt}
+  6661: San d'Oria's region points have increased!${prompt}
+  6662: Bastok's region points have increased!${prompt}
+  6663: Windurst's region points have increased!${prompt}
+  6664: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
+  6665: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
+  6666: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
+  6667: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
+  6668: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
+  6669: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
+  6670: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
+  6671: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
+  6672: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
+  6673: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
+  6674: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
+  6675: There was a curse on the beastmen's banner!${prompt}
+  6676: The curse of the beastmen's banner has been lifted!${prompt}
+  6677: There is a beastmen's banner.${prompt}
   6678: 　${prompt}
   6679: 　${prompt}
   6680: 　${prompt}
@@ -16681,95 +16681,95 @@ entries:
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
   6755: |-
-    Votre destin repose sur les vents changeants de Vana'diel.
-    Je peux vous donner des informations sur la météo locale.${prompt}
+    Your fate rides on the changing winds of Vana'diel.
+    I can give you insight on the local weather.${prompt}
   6756: |-
-    De quelle région souhaitez-vous connaître la météo ?
+    What area's weather do you wish to know?
     ${selection-lines}
-    Nulle part.
+    Nowhere.
     Ronfaure.
-    Plateau de La Theine.
-    Dunes de Valkurm.
-    Forêt de Jugner.
-    Terres de Batallia.
+    La Theine Plateau.
+    Valkurm Dunes.
+    Jugner Forest.
+    Batallia Downs.
     Gustaberg.
-    Hautes terres de Konschtat.
-    Marais de Pashhow.
-    Champs de Rolanberry.
-    Glacier de Beaucedine.
+    Konschtat Highlands.
+    Pashhow Marshlands.
+    Rolanberry Fields.
+    Beaucedine Glacier.
     Xarcabard.
-    Cap Teriggan.
-    Désert d'Altepa.
+    Cape Teriggan.
+    Altepa Desert.
     Sarutabaruta.
-    Canyon de Tahrongi.
-    Péninsule de Buburimu.
-    Montagnes de Meriphataud.
-    Campagne de Sauromugue.
-    Sanctuaire de Zi'Tah.
-    Jungles de Yuhtunga & Yhoator.
-    Île de Qufim.
+    Tahrongi Canyon.
+    Buburimu Peninsula.
+    Meriphataud Mountains.
+    Sauromugue Champaign.
+    The Sanctuary of Zi'Tah.
+    Yuhtunga & Yhoator Jungles.
+    Qufim Island.
     Tu'Lia.
     Ferry.
-    Vaisseau volant.
+    Airship.
     Jeuno.
-    Chaîne d'Uleguerand.
-    Archipel de Tavnazian.
+    Uleguerand Range.
+    Tavnazian Archipelago.
     Riverne - Sites #A01 & #B01.${prompt}
-  6757: 'La prévision pour aujourd’hui dans cette région est de ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnels. Il y a également une faible chance de ${weather-noun: 2[2]}, soyez donc prudent.${prompt}'
-  6758: 'La prévision pour demain est de ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnels. Il y a également une faible chance de ${weather-noun: 2[2]}, soyez donc prudent.${prompt}'
-  6759: 'Et la prévision pour après-demain est de ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnels. Il y a également une faible chance de ${weather-noun: 2[2]}, soyez donc prudent.${prompt}'
-  6760: 'Aujourd’hui, le temps dans cette région sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
-  6761: 'Demain, le temps sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
-  6762: 'Et après-demain, le temps sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
-  6763: 'Aujourd’hui, le temps dans cette région sera ${weather-adjective: 0[2]}. Il est également possible que ${weather-noun: 2[2]} se manifeste, alors soyez prudent.${prompt}'
-  6764: 'Demain, le temps sera ${weather-adjective: 0[2]}. Il est également possible que ${weather-noun: 2[2]} se manifeste, alors soyez prudent.${prompt}'
-  6765: 'Et après-demain, le temps sera ${weather-adjective: 0[2]}. Il est également possible que ${weather-noun: 2[2]} se manifeste, alors soyez prudent.${prompt}'
-  6766: 'Le temps dans cette région aujourd’hui sera ${weather-adjective: 0[2]}.${prompt}'
-  6767: 'Le temps demain sera ${weather-adjective: 0[2]}.${prompt}'
-  6768: 'Le temps après-demain sera ${weather-adjective: 0[2]}.${prompt}'
-  6769: Et voilà le rapport, directement de la linkshell météo officielle de Vana'diel.${prompt}'
-  6670: |-
-    Quelle région souhaitez-vous connaître la météo ?
+  6757: 'That area''s forecast for today is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
+  6758: 'The forecast for tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
+  6759: 'And, the forecast for the day after tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
+  6760: 'Today, that area''s weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
+  6761: 'Tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
+  6762: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
+  6763: 'Today, the weather in that area will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
+  6764: 'Tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
+  6765: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
+  6766: 'The weather in that area today will be ${weather-adjective: 0[2]}.${prompt}'
+  6767: 'The weather tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
+  6768: 'The weather the day after tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
+  6769: And that's the report, straight from Vana'diel's official weather linkshell.${prompt}
+  6770: |-
+    What area's weather do you wish to know?
     ${selection-lines}
-    Aucune.
-    Bois de Wajaom.
-    Fourrés de Bhaflau.
-    Mont Zhayolm.
-    Marais de Caedarva.${prompt}
+    Nowhere.
+    Wajaom Woodlands.
+    Bhaflau Thickets.
+    Mount Zhayolm.
+    Caedarva Mire.${prompt}
   6771: |-
-    Quelle région souhaitez-vous connaître la météo ?
+    What area's weather do you wish to know?
     ${selection-lines}
-    Aucune.
-    Champs de bataille de Ceizak.
-    Terrains de chasse de Yahse.
-    Forêt de Hennetiel.
-    Champs basaltiques de Morimar.
-    Sylve de Yorcia.
-    Ravin de Marjami.
-    Dérives de Kamihr.${prompt}
-  6772: 'Si vous souhaitez monter un chocobo, vous devez posséder ${keyitem-article: 7[2]} et avoir un niveau de métier suffisant.${prompt}'
-  6773: 'Vous pouvez louer un chocobo pour ${number: 0} gil. Je vois que vous avez actuellement ${number: 1} gil.${prompt}'
-  6774: Vous pouvez louer un chocobo, mais comme votre niveau est si bas, vous ne pourrez pas monter longtemps. De plus, l'équipement prolongeant votre temps de chevauchée n'aura aucun effet.${prompt}
-  6775: 'Si vous en voulez toujours un, cela vous coûtera ${number: 0} gil. Je vois que vous avez actuellement ${number: 1} gil.${prompt}'
+    Nowhere.
+    Ceizak Battlegrounds.
+    Yahse Hunting Grounds.
+    Foret de Hennetiel.
+    Morimar Basalt Fields.
+    Yorcia Weald.
+    Marjami Ravine.
+    Kamihr Drifts.${prompt}
+  6772: 'If you wish to ride a chocobo, you must possess ${keyitem-article: 7[2]} and have a high enough job level.${prompt}'
+  6773: 'You can rent a chocobo for ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
+  6774: You can rent a chocobo, but because your level is so low, you won't be able to ride for very long. Also, equipment that extends your riding time will have no effect.${prompt}
+  6775: 'If you still want one, it will cost you ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
   6776: |-
-    Souhaitez-vous louer un chocobo ?
+    Do you wish to rent a chocobo?
     ${selection-lines}
-    Oui, je le veux.
-    Non, merci.${prompt}
-  6777: Vous n'avez pas assez de gil.${prompt}
-  6778: Je réalise que vous êtes pressé, ${choice-player-gender}[monsieur/madame]. Puis-je cependant vous faire une simple requête ? L'un des chocobos de notre associé s'est perdu et ne peut pas rentrer chez lui.${prompt}
-  6779: 'Pourriez-vous avoir l’amabilité de l’amener aux écuries ${choice: 3}[du Royaume/de la République/de la Fédération/de la Duché/du Duché/du Duché/de l’endroit caché] à ${choice: 3}[Sud de San d''Oria/les Mines de Bastok/les Bois de Windurst/Haut Jeuno/Bas Jeuno/Port Jeuno/Norg] ? ${prompt}'
+    Yes, I do.
+    No, thank you.${prompt}
+  6777: You don't have enough gil.${prompt}
+  6778: I realize that you are in a hurry, ${choice-player-gender}[sir/ma'am]. However, might I make a simple request? One of our associate's chocobos has lost her way and cannot return home.${prompt}
+  6779: 'Would you be so kind as to deliver her to ${choice: 3}[the Kingdom/the Republic/the Federation/the Duchy/the Duchy/the Duchy/the hidden] stables in ${choice: 3}[Southern San d''Oria/the Bastok Mines/Windurst Woods/Upper Jeuno/Lower Jeuno/Port Jeuno/Norg]? ${prompt}'
   6780: |-
-    Prêter main forte ?
+    Lend a helping hand?
     ${selection-lines}
-    J'ai mieux à faire.
-    Bien sûr !${prompt}
+    I have better things to do.
+    Of course!${prompt}
   6781: |-
-    Oh, merci infiniment !
-    Vous serez récompensé par nos associés à la livraison du chocobo.${prompt}
+    Oh, thank you so very much!
+    You shall be rewarded by our associates upon delivery of the chocobo.${prompt}
   6782: |-
-    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
-    Revenez après avoir trié votre inventaire.${prompt}
+    You cannot obtain the ${item-singular: 0[2]}.
+    Come back after sorting your inventory.${prompt}
   6783: 'Would you be so kind as to deliver her to ${choice: 3}[the entrance to the Gustav Tunnel (B-8)/Bibiki Bay (G-10)/the entrance of Uggalepih Temple (J-11)]?${prompt}'
   6784: |-
     Only those fulfilling both requirements set forth by the alliance may ride a chocobo.
@@ -22717,388 +22717,388 @@ entries:
     パラゴDEF
     エコーホークDEF${prompt}
   10471: |-
-    Dans les montagnes de Gustaberg, au
-    sud de Quon, se trouve la nation industrielle
-    connue sous le nom de République de Bastok.${wait-animation: 5}
+    In the Gustaberg Mountains of
+    Southern Quon lies the industrial
+    nation known as the Republic of Bastok.${wait-animation: 5}
   10472: |-
-    Comparée à San d'Oria, avec ses légendaires
-    ordres de chevaliers, ou à Windurst, avec ses
-    anciens instituts de magie, Bastok est encore
-    une nation naissante.${wait-animation: 7}
+    Compared to San d'Oria, with its legendary
+    orders of knights, or Windurst, with its
+    ancient institutes of magic, Bastok is still
+    but a newborn nation.${wait-animation: 7}
   10473: |-
-    Mais la technologie avancée et presque illimitée
-    les ressources souterraines ont permis à Bastok
-    de rivaliser avec les deux autres nations en puissance.${wait-animation: 7}
+    But advanced technology and near limitless
+    underground resources have allowed Bastok
+    to rival the other two nations in power.${wait-animation: 7}
   10474: |-
-    Des Humes innovants et adaptables constituent
-    plus de la moitié de la population de Bastok.${wait-animation: 5}
+    Innovative and adaptable Humes make up
+    more than half the population of Bastok.${wait-animation: 5}
   10475: |-
-    Avec leur sens de l'industrie, de l'économie
-    et de la politique, ils ont été la force motrice
-    derrière la croissance rapide de Bastok. Même maintenant,
-    les Humes occupent des postes clés dans ces domaines.${wait-animation: 7}
+    With their flair for industry, economy,
+    and politics, they were the driving force
+    behind Bastok's rapid growth. Even now,
+    Humes hold key positions in those areas.${wait-animation: 7}
   10476: |-
     Les Galka, une race de humanoïdes massifs,
     constituent un tiers de la population de Bastok.
     Originaires de Zepwell, ils sont arrivés
     dans cette terre il y a plus de six cents ans.${wait-animation: 7}
   10477: |-
-    Sans leur force incomparable,
-    les innombrables mines de minerai qui soutiennent
-    l'économie de Bastok n'auraient jamais été creusées.${wait-animation: 6}
+    Without their incomparable strength,
+    the countless ore mines that drive Bastok's
+    economy would never have been dug.${wait-animation: 6}
   10478: |-
-    Des aventuriers en quête de gloire et de richesse
-    affluent vers des nations en plein essor comme Bastok.
-    Vous en êtes un.${wait-animation: 5}
+    Adventurers seeking fame and fortune
+    flock to rising nations like Bastok.
+    You are one of them.${wait-animation: 5}
   10479: |-
-    Votre histoire commence ici, au milieu de la fumée
-    et de l'agitation de la ville industrielle de Bastok.${wait-animation: 5}
-  10480: Excusez-moi...${prompt}
-  10481: Comment puis-je me rendre dans le quartier résidentiel ?${prompt}
+    Your story begins here, amid the smoke
+    and bustle of the industrial city of Bastok.${wait-animation: 5}
+  10480: Excuse me...${prompt}
+  10481: How do I get to the residential area?${prompt}
   10482: '...${prompt}'
   10483: |-
-    Euh, bonjour. Je suis nouveau à Bastok.
-    Pouvez-vous me dire où se trouve le quartier résidentiel ?${prompt}
-  10484: Oh ! Je suis désolé, je n'avais pas réalisé que vous étiez nouveau ici aussi.${prompt}
+    Uh, hello. I'm new in Bastok.
+    Can you tell me where the residential area is?${prompt}
+  10484: Oh! I'm sorry, I didn't realize you were new here, too.${prompt}
   10485: |-
-    Je suppose que je vais devoir trouver mon chemin tout seul.
-    Les gens ne sont pas très sympathiques ici, n'est-ce pas ?${prompt}
-  10486: Quoi qu'il en soit, bonne chance à nous deux !${prompt}
+    I guess I'll have to find my way there myself.
+    People aren't too friendly around here, are they?${prompt}
+  10486: Anyways, good luck to the both of us!${prompt}
   10487: |-
-    Ce Hume agaçant... Où pense-t-il être, Windurst ?
-    Quelle journée cela s'annonce.${prompt}
-  10488: Tu n'es pas d'ici non plus, hein ? Pas la peine de le nier... Je peux le sentir.${prompt}
-  10489: Si tu ne veux pas te faire mal, fais demi-tour et retourne d'où tu viens.${prompt}
-  10490: Hé, hé ! Pas besoin d'être impoli.${prompt}
-  10491: De plus, s'en prendre à ce pauvre ${choice-player-gender}[gars/fille] ne vaut pas le coup.${prompt}
-  10492: Oh ? Depuis quand tu te soucies de ce qui arrive aux étrangers, Gumbah ?${prompt}
-  10493: Je dis juste que quelqu'un comme toi ne devrait pas se mêler d'eux, ô Grand Guerrier Deidogg.${prompt}
-  10494: Hrmph. Peu importe.${prompt}
-  10495: N'oublie pas, étranger, je ne te ferai pas de cadeau la prochaine fois.${prompt}
+    Pesky Hume... Where does he think he is, Windurst?
+    Some day this is turning out to be.${prompt}
+  10488: You're not from around here either, huh? No use denying it... I can smell it.${prompt}
+  10489: If you don't want to get hurt, turn around and go back where you came from.${prompt}
+  10490: Hey, hey! There's no need to be rude.${prompt}
+  10491: Besides, picking on this poor ${choice-player-gender}[guy/girl] isn't worth it.${prompt}
+  10492: Oh? Since when do you care what happens to outsiders, Gumbah?${prompt}
+  10493: I'm just saying that one such as you shouldn't bother with their like, O Great Warrior Deidogg.${prompt}
+  10494: Hrmph. Whatever.${prompt}
+  10495: You just remember, outsider, I won't go so easy on you next time.${prompt}
   10496: |-
-    Désolé pour ça.
-    Les gens peuvent être si têtus ici parfois.${prompt}
-  10497: Hé, pourquoi cette mine maussade ? Tu n'aimes pas qu'on te parle comme à un nouveau recrue ? Mais c'est bien ta première fois ici, non ?${prompt}
+    Sorry about that.
+    People can be so hard-headed around here sometimes.${prompt}
+  10497: Hey, why the glum look? Don't like being talked to like some new recruit? But it is your first time here, isn't it?${prompt}
   10498: |-
-    Première fois à Bastok?
+    First time in Bastok?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Yes.
+    No.${prompt}
   10499: |-
-    Vraiment ?
-    Eh bien, tu as encore l'air de ne pas avoir beaucoup traîné ici.${prompt}
+    Really?
+    Well, you still look like you haven't been around much.${prompt}
   10500: |-
-    Y a-t-il quelque chose que tu veux savoir ? Quelque chose que tu veux faire?
-    Peut-être que je peux te pointer dans la bonne direction.${prompt}
+    Is there anything you want to know? Anything you want to do?
+    Maybe I can point you in the right direction.${prompt}
   10501: |-
-    Que veux-tu faire?
+    What do you want to do?
     ${selection-lines}
-    Combattre des monstres!
-    Faire du magasinage.
-    Trouver du travail.${prompt}
-  10502: Alors vous ne devriez pas avoir à entrer dans la ville en premier lieu.${prompt}
-  10503: Retournez par où vous êtes venu et passez par la porte sud. Cela vous fera sortir.${prompt}
-  10504: Oh, et assurez-vous toujours de “vérifier” les monstres avant de les combattre. Vous ne voulez pas provoquer des combats avec des choses que vous ne pouvez pas battre.${prompt}
-  10505: Il y a quelques petits magasins par ce portail là-bas, mais...${prompt}
-  10506: Si vous voulez de meilleures affaires, vous devriez aller aux marchés.${prompt}
+    Fight monsters!
+    Go shopping.
+    Find some work.${prompt}
+  10502: Then you shouldn't have to come into the city in the first place.${prompt}
+  10503: Go back the way you came and pass through the South Gate. That'll take you outside.${prompt}
+  10504: Oh, and make sure to always “check” monsters out before fighting them. You don't want to pick fights with things you can't beat.${prompt}
+  10505: There are some small shops through that arch over there, but...${prompt}
+  10506: If you want better stuff, you should go to the Markets.${prompt}
   10507: |-
-    Bon choix. Vous devriez commencer par un objectif à court terme pour vous remettre sur la bonne voie.
-    Quel type de travail recherchez-vous ?${prompt}
+    Good call. You should start with a short-term goal to get yourself on track.
+    What kind of work are you looking for?${prompt}
   10508: |-
-    Que voulez-vous faire ?
+    What do you want to do?
     ${selection-lines}
-    Servir Bastok.
-    Aider les gens.
-    Devenir riche, rapidement.${prompt}
+    Serve Bastok.
+    Help people.
+    Get rich, quick.${prompt}
   10509: |-
-    Vous devriez aller parler à un garde de la porte.
-    Essayez l'une des portes de la ville, comme celle par laquelle vous venez de passer.${prompt}
+    You should go talk to a gate guard.
+    Try one of the town gates, like the one you just came through.${prompt}
   10510: |-
-    C'est l'esprit !
-    Pourriez-vous me rendre un service et aider un ami à moi ?${prompt}
-  10511: C'est la première maison au bout de la route, à travers ce grand arc.${prompt}
-  10512: Eh bien, si je savais quoi que ce soit à ce sujet, je ne serais pas ici, n'est-ce pas ?${prompt}
-  10513: Quoi qu'il en soit, peut-être qu'Echo Hawk peut vous aider. Il a des oreilles partout.${prompt}
-  10514: Prenez à droite et allez tout droit à travers cette entrée. Il traîne généralement par là.${prompt}
+    That's the spirit!
+    Could you do me a favor then, and help a friend of mine?${prompt}
+  10511: It's the first house down the road through that big arch.${prompt}
+  10512: Well, if I knew anything about that, I wouldn't be here, would I?${prompt}
+  10513: Anyway, maybe Echo Hawk can help you. He's got ears all over the place.${prompt}
+  10514: Take a right and go straight through that entrance. He's usually lurking around there.${prompt}
   10515: |-
-    Oh, et prenez ceci. C'est ${article} ${item-article: 7[2]}.
-    Arva devrait vous donner de l'argent pour cela. Elle se tient derrière le magasin de produits généraux.${prompt}
+    Oh, and take this. It's ${article} ${item-article: 7[2]}.
+    Arva should give you money for it. She's standing around the rear of the general goods store.${prompt}
   10516: |-
-    Ne vous inquiétez pas, ce n'est pas à moi. Je l'ai juste trouvé.
-    Arva devrait être quelque part dans les parages...${prompt}
+    Don't worry, it's not mine. I just found it.
+    Arva should be somewhere around...${prompt}
   10517: |-
-    Ici.
-    Vous pouvez consulter à nouveau votre carte en sélectionnant “Carte” dans le menu principal à droite.${prompt}
-  10518: Oh, je suis sûr que vous le savez déjà, mais si vous voulez donner des objets aux gens en ville, utilisez “Échanger” dans le menu principal.${prompt}
-  10519: Je suppose que c'est tout. Je dois y aller maintenant, mais je suis sûr que nous nous reverrons !${prompt}
+    Here.
+    You can check your map again by selecting “Map” from the main menu on the right.${prompt}
+  10518: Oh, I'm sure you know this already, but if you want to give items to people in town, use “Trade” from the main menu.${prompt}
+  10519: I guess that's it. I have to run now, but I'm sure we'll meet again!${prompt}
   10520: |-
-    Je n'ai rien pour vous aujourd'hui.
-    Parfois, même moi, je manque d'informations.${prompt}
+    I have nothing for you today.
+    Sometimes, even I run out of information.${prompt}
   10521: |-
-    Qu'est-ce que c'est ?
-    Je ne vous ai jamais vu ici auparavant.${prompt}
-  10522: Pour un nouveau venu, vous êtes bien parti... Vous êtes venu me parler.${prompt}
+    What's this?
+    Haven't seen you around here before.${prompt}
+  10522: For a newcomer, you're off to a good start... You've come to talk to me.${prompt}
   10523: |-
-    Je suis Echo Hawk.
-    Je commerce en informations.${prompt}
-  10524: Ne vous donnez pas la peine de demander aux Galka têtus ici--ils sont trop occupés à contempler leur nombril. Mais pas moi. J'ai des infos sur des choses dont la plupart des gens n'ont même jamais entendu parler.${prompt}
-  10525: Ne vous inquiétez pas pour l'argent. Je fais en sorte de ne pas prendre de gil aux débutants comme vous.${prompt}
-  10526: Mes sources me paient même dans des cas spéciaux, vous savez.${prompt}
+    I'm Echo Hawk.
+    I trade in information.${prompt}
+  10524: Don't bother asking the hard-headed Galka around here--they're too busy contemplating their navels. But not me. I've got info on stuff most people have never even heard of.${prompt}
+  10525: Don't worry about money. I make it my policy not to take gil from rookies like you.${prompt}
+  10526: My sources even pay me in special cases, you know.${prompt}
   10527: |-
-    Quoi qu'il en soit, j'ai entendu dire que cet ancien Hume, Wahid, recherche une gemme rare.
-    Vous pouvez le trouver à la maison des enchères de l'autre côté de ce quartier.${prompt}
+    Anyway, I've heard that this old Hume, Wahid, is looking for a rare gem.
+    You can find him at the auction house on the other side of this neighborhood.${prompt}
   10528: |-
-    Apparemment, cela fait partie d'une légende, mais je ne m'occupe pas de ce genre de nonsense.
-    Allez parler au barde à la taverne. Les contes de fées sont sa spécialité.${prompt}
+    Apparently, it's supposed to be part of some legend, but I don't deal with that kind of nonsense.
+    Go talk to the bard at the tavern. Fairy tales are his specialty.${prompt}
   10529: |-
-    Vous pouvez probablement le trouver dans le quartier du port.
-    Ce n'est pas le genre de personne à traîner dans ce type de quartier mal famé.${prompt}
+    You can probably find him in the Port District.
+    He's not the type to hang around this kind of seedy neighborhood.${prompt}
   10530: |-
-    Bonne chasse, alors.
-    Revenez quand vous avez besoin de plus d'infos.${prompt}
+    Good hunting, then.
+    Come back whenever you need more info.${prompt}
   10531: |-
-    Vous êtes à la porte sud, dans le quartier des mines de Bastok.
-    La porte ouest se trouve dans les marchés, tandis que la porte nord se trouve dans le port.${prompt}
-  10532: Depuis l'arrivée du nouveau président, tous les travaux publics prennent du retard.${prompt}
-  10533: Il ne devrait pas se mêler de ce qui ne le concerne pas, et laisser le Chef Cid faire son travail. Ne réalise-t-il pas qu'il n'est qu'un figurant de toute façon ?${prompt}
+    You are at the South Gate, in the Bastok Mines District.
+    The West Gate is in the Markets, while the North Gate in the port.${prompt}
+  10532: Ever since the new president came into office, all manner of public works are falling behind schedule.${prompt}
+  10533: He shouldn't meddle with things that don't concern him, and let Chief Cid do his job. Doesn't he realize he's just a figurehead anyway?${prompt}
   10534: |-
-    Quoi ? La chasse au timbre ?
-    Vous êtes venu ici pour ça, hein ?
-    Voilà.${prompt}
-  10535: Vous avez reçu un timbre !${prompt}
+    What? The stamp hunt?
+    You came all this way for that, huh?
+    Here you go.${prompt}
+  10535: You received a stamp!${prompt}
   10536: |-
-    Il y a deux donjons à l'extérieur de la ville de Bastok :
-    Les mines de Palborough dans le Nord Gustaberg, et le Wadi de Dangruf dans le Sud Gustaberg.${prompt}
+    There are two dungeons outside the city of Bastok:
+    The Palborough Mines in North Gustaberg, and the Dangruf Wadi in South Gustaberg.${prompt}
   10537: |-
-    Ce quartier est assez difficile.
-    Faites attention.${prompt}
+    This neighborhood's pretty rough.
+    Be careful.${prompt}
   10538: |-
-    Hmm ? Vous êtes le nouveau mineur ?
-    Non, vous avez l'air d'un aventurier. Ici pour écraser quelques monstres, n'est-ce pas ?${prompt}
+    Hmm? You the new miner?
+    Nah, you look like an adventurer. Here to pound some monsters into pudding, are you?${prompt}
   10539: |-
-    Ne causez pas de problèmes, d'accord ?
-    Nous avons déjà assez à nous soucier de ces Galka. La seule chose que leur longue vie leur a donnée, ce sont des têtes dures. Ouf.${prompt}
+    Just don't cause any trouble, all right?
+    We've got enough to worry about with these Galka. Only thing their long lives have given them are hard heads. Eesh.${prompt}
   10540: |-
-    Les fondations de Bastok ont été construites avec le minerai extrait de cette mine.
-    Il a fallu beaucoup de sueur et de labeur aux Galka pour creuser cette mine. Nous avons fait de Bastok ce qu'il est aujourd'hui.${prompt}
+    Bastok's foundations were built with the ore taken from this mine.
+    It took the Galka a lot of sweat and toil to dig this mine. We made Bastok what it is today.${prompt}
   10541: |-
-    ${lettercase: 1}${item-singular: 7[2]} ? Ouais, j'en avais un peu, il y a longtemps.
-    Je n'en ai plus maintenant, cependant.${prompt}
-  10542: Vous devriez pouvoir en trouver près de la côte des dunes de Valkurm... mais seulement pendant les tempêtes de poussière.${prompt}
-  10543: Ces Humes sont pleins de paroles sur la façon dont ils ont creusé les mines de myrthil avec leur grande technologie, mais cela ne leur a pas beaucoup servi quand les Quadav sont arrivés, n'est-ce pas ?${prompt}
+    ${lettercase: 1}${item-singular: 7[2]}? Yeah, used to have some of that, a long time ago.
+    Don't have any anymore, though.${prompt}
+  10542: You should be able to find some near the coast of the Valkurm Dunes...but only during dust storms.${prompt}
+  10543: Those Humes are full of talk about how they dug the mythril mines with their great technology, but it didn't do them much good when the Quadav came, did it?${prompt}
   10544: |-
-    "Bienvenue aux mines de Palborough--faites par les Humes, pleines de Quadav."
-    Une bonne phrase d'accroche pour leurs mines de myrthil, vous ne trouvez pas ?${prompt}
+    “Welcome to the Palborough Mines--made by Humes, full of Quadav.”
+    Good catch phrase for their mythril mines, don't you think?${prompt}
   10545: |-
-    Bastok a vraiment changé au fil des ans.
-    À peu près les seules choses qui ne changent pas, ce sont nous, les Galka, travaillant dans les mines.${prompt}
-  10546: Il y a une auberge et la guilde des alchimistes par ici, mais à part ça, vous ne trouverez que les maisons des pauvres de Bastok. Je ne pense pas qu'il y ait quoi que ce soit que vous voudriez là-dedans.${prompt}
-  10547: Qu'est-ce qui se passe ? Es-tu perdu ?${prompt}
+    Bastok sure has changed over the years.
+    About the only things that don't change are us Galka, working in the mines.${prompt}
+  10546: There's an inn and the Alchemists' Guild through here, but other than that, you'll only find the homes of Bastok's poor. I don't think there's anything you'd want in there.${prompt}
+  10547: What's the matter? Are you lost?${prompt}
   10548: |-
-    Demander des directions ?
+    Ask for directions?
     ${selection-lines}
-    Demander.
-    Ne pas demander.${prompt}
-  10549: Où veux-tu aller ?${prompt}
+    Ask.
+    Don't ask.${prompt}
+  10549: Where do you want to go?${prompt}
   10550: |-
-    Dans quelle zone aimerais-tu demander ?
+    Which area would you like to ask about?
     ${selection-lines}
-    La porte sud et le quartier résidentiel.
-    Les marchés et les mines.
-    La ville minière et la Guilde des Alchimistes.
-    Euh, laisser faire.${prompt}
+    The South Gate and the residential area.
+    The Markets and the Mines.
+    The mining town and Alchemists' Guild.
+    Uh, never mind.${prompt}
   10551: |-
-    Hmm. Eh bien, ne te perds pas dans des endroits que tu ne connais pas.
-    Cela pourrait être dangereux.${prompt}
-  10552: Tu vois ce grand bâtiment au sud d'ici, à gauche ?${prompt}
+    Hmm. Well, just don't wander into places you don't know.
+    It could be dangerous.${prompt}
+  10552: See that big building south from here, on the left?${prompt}
   10553: |-
-    C'est la maison des enchères.
-    Tu peux acheter des objets d'autres personnes ou vendre tes propres objets là-bas.${prompt}
+    That's the auction house.
+    You can buy other people's items or sell items yourself there.${prompt}
   10554: |-
-    Tu peux aussi envoyer des objets à tes amis là-bas.
-    Il te suffit de parler au livreur Galka sur place.${prompt}
-  10555: Si tu continues d'aller au sud, tu trouveras la porte sud.${prompt}
+    You can send items to your friends there as well.
+    Just talk to the Galkan deliveryman on post.${prompt}
+  10555: If you keep going south, you'll find the South Gate.${prompt}
   10556: |-
-    Passe par là pour aller au Sud Gustaberg.
-    Si tu es un Bastokien, tu peux aussi recevoir des missions de la garde à la porte.${prompt}
-  10557: Si tu vas à gauche de la Porte Sud vers l'est, tu tomberas sur un autre bâtiment.${prompt}
+    Go through it to go to South Gustaberg.
+    If you are a Bastoker, you can also receive missions from the guard at the gatehouse.${prompt}
+  10557: If you go left from the South Gate toward the east, you'll come across another building.${prompt}
   10558: |-
-    C'est là que tu trouveras les Écuries de Chocobos.
-    Tu peux louer des chocobos là-bas pour t'aider lors de tes longs voyages.${prompt}
+    That's where you'll find the Chocobo Stables.
+    You can rent chocobos there to help you on those long trips.${prompt}
   10559: |-
-    Si tu continues vers l'est, tu arriveras à l'entrée de la zone résidentielle.
-    Entre si tu veux déposer des objets dans ta chambre.${prompt}
-  10560: Si tu n'es pas de Bastok, cependant, tu devras d'abord obtenir une chambre à louer.${prompt}
-  10561: Passe sous l'arc à l'ouest d'ici.${prompt}
+    If you go further east, you'll come to the entrance to the residential area.
+    Go on inside if you want to drop off items in your room.${prompt}
+  10560: If you are not from Bastok, however, you'll need to get a Rent-a-Room first.${prompt}
+  10561: Go through the arch west of here.${prompt}
   10562: |-
-    Tu verras une route descendant sur ta droite.
-    Descends cette route pour aller au quartier des Marchés.${prompt}
-  10563: Si tu vas tout droit vers l'ouest, tu pourras voir l'entrée des mines.${prompt}
+    You will see a road sloping down on your right.
+    Walk down that road to go to the Markets district.${prompt}
+  10563: If you go straight west, you'll be able to see the entrance to the mines.${prompt}
   10564: |-
-    À l'intérieur des mines, tu trouveras des mineurs, bien sûr, mais aussi des monstres.
-    Tu devrais être prudent.${prompt}
-  10565: Au nord de cette bifurcation, il y a deux arcs, un grand et un petit.${prompt}
-  10566: Le grand arc mène au niveau inférieur de la ville minière, tandis que le petit mène à son niveau de surface.${prompt}
-  10567: Si tu passes par le petit arc vers le niveau de surface, tu trouveras une auberge sur ta gauche.${prompt}
-  10568: En face de l'auberge se trouve l'armurerie.${prompt}
-  10569: Si tu continues le long de la route, tu tomberas sur un magasin de marchandises et la sortie arrière de la ville minière.${prompt}
-  10570: Passe par la sortie et tu te retrouveras derrière la maison des enchères.${prompt}
-  10571: Tu trouveras également des escaliers sur le côté, à mi-chemin de la rue de la ville minière. Ceux-ci relient les niveaux de surface et inférieur.${prompt}
-  10572: À l'extrémité du niveau inférieur, à l'est, se trouve la Guilde des Alchimistes.${prompt}
+    Inside the mines you will find miners, of course--but also monsters.
+    You should be careful.${prompt}
+  10565: To the north of this fork there are two arches, one big and one small.${prompt}
+  10566: The big arch leads to the lower level of the mining town, while the small one leads to its surface level.${prompt}
+  10567: If you walk through the small arch to the surface level, you'll find an inn to your left.${prompt}
+  10568: Across from the inn is the armory.${prompt}
+  10569: If you go further down the road, you'll come across a goods shop and the back exit of the mining town.${prompt}
+  10570: Go through the exit and you'll be behind the auction house.${prompt}
+  10571: You'll also find stairs off to the side, midway down the mining town street. Those connect the surface and lower levels.${prompt}
+  10572: At the far end of the lower level, to the east, is where you'll find the Alchemists' Guild.${prompt}
   10573: |-
-    C'est à peu près tout.
-    Je peux te l'expliquer à nouveau, mais il serait peut-être mieux que tu ailles dans ces endroits toi-même et que tu parles aux gens là-bas.${prompt}
+    That's about it.
+    I can explain it to you again, but it might be better for you to just go to those places yourself and talk to the people there.${prompt}
   10574: |-
-    Que veux-tu ?
-    Ce n'est pas un endroit pour des gens comme toi.
-    Sors.${prompt}
+    What do you want?
+    This is no place for the likes of you.
+    Get out.${prompt}
   10575: |-
-    Quoi ?
-    Gumbah vous a envoyé, dites-vous ?${prompt}
-  10576: Qu'il demanderait à un nouveau-né comme vous... Ses yeux lui font-ils défaut, à un si jeune âge ?${prompt}
+    What?
+    Gumbah sent you, you say?${prompt}
+  10576: That he would ask a newborn pup like you... Are his eyes failing him, at such a young age?${prompt}
   10577: |-
-    Eh bien, je suppose que vous n'avez d'autre choix que de le faire.
-    Il a mis sa confiance en vous, alors je dois en faire de même.${prompt}
-  10578: 'Je suis actuellement employé par les Tenshodo, et ma tâche est de collecter cinq ${item-plural: 7[2]} pour eux.${prompt}'
+    Well, I suppose you'll just have to do.
+    He put his trust in you, so I must do the same.${prompt}
+  10578: 'I am currently employed by the Tenshodo, and my task is to collect five ${item-plural: 7[2]} for them.${prompt}'
   10579: |-
-    Hélas, j'ai été blessé lorsque j'ai obtenu le quatrième.
-    Cela prendra un certain temps avant que je puisse sortir pour trouver le cinquième.${prompt}
-  10580: Les Tenshodo ont pris les quatre premiers, mais ils refusent de me remettre ma récompense tant que le dernier n'est pas en leur possession.${prompt}
-  10581: Je suis sûr qu'ils ne m'auraient pas dit cela si je n'avais pas été blessé.${prompt}
-  10582: 'Si vous le pouvez, pourriez-vous donner le dernier ${item-singular: 7[2]} à Talib des Tenshodo, en mon nom ?${prompt}'  
-  10583: Il devrait alors vous remettre un certain objet en récompense. Je vous serais très reconnaissant si vous pouviez me l'apporter.${prompt}
+    Alas, I was injured when I obtained the fourth.
+    It will be some time before I can go out to find the fifth.${prompt}
+  10580: The Tenshodo took the first four, but they refuse to hand me my reward until the last one is in their hands.${prompt}
+  10581: I am sure they would not have told me that had I not been injured.${prompt}
+  10582: 'If you would, could you give Talib of the Tenshodo the last ${item-singular: 7[2]}, in my name?${prompt}'
+  10583: He should then hand you a certain item as reward. I would be very grateful if you could bring it to me.${prompt}
   10584: |-
-    Accepter cette tâche ?
+    Take on this task?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  10585: C'est...malheureux.${prompt}
+    Yes.
+    No.${prompt}
+  10585: That is...unfortunate.${prompt}
   10586: |-
-    Merci.
-    Oh, avant que vous ne partiez, je devrais vous dire qu'un Hume entreprend également la même tâche.${prompt}
+    Thank you.
+    Oh, before you go, I should tell you that a Hume is also undertaking the same task.${prompt}
   10587: |-
-    Ce n'est pas une aventurière, et c'est à peine plus qu'un enfant.
-    Croyez-moi, je ne lui ai pas demandé de faire cela pour moi, et pourtant elle s'est précipitée pour le faire.${prompt}
+    She is not an adventurer, and hardly more than a child.
+    Believe me, I did not ask her to do this for me, yet she has run off to do it.${prompt}
   10588: |-
-    Son nom ?
-    Je crois qu'elle s'est appelée "Cornelia".${prompt}
+    Her name?
+    I believe she called herself “Cornelia.”${prompt}
   10589: |-
-    Pourriez-vous garder un œil sur elle et la tenir à l'écart des ennuis, surtout aux Tenshodo ?
-    Je ne pourrais pas supporter qu'il lui arrive quelque chose.${prompt}
+    Would you keep an eye out for her and keep her out of trouble, especially at the Tenshodo?
+    I could not bear it if anything happened to her.${prompt}
   10590: |-
-    Hmm ? Oui, je suis Parraggoh.
-    Ah, Cornelia vous a parlé de mon problème.${prompt}
+    Hmm? Yes, I am Parraggoh.
+    Ah, Cornelia told you of my predicament.${prompt}
   10591: |-
-    Eh bien.
-    Elle a mis sa confiance en vous, alors je ferai de même.${prompt}
+    Well, then.
+    She put her trust in you, so I will do the same.${prompt}
   10592: |-
-    Merci.
-    Il me fait mal de devoir compter sur la gentillesse des gens comme ça, mais vous avez ma gratitude.${prompt}
-  10593: Il me fait mal de devoir compter sur la gentillesse des gens comme ça, mais vous avez ma gratitude.${prompt}
-  10594: Je dois également remercier Cornelia pour sa gentillesse...${prompt}
+    Thank you.
+    It pains me to have to rely on people's kindness like this, but you have my gratitude.${prompt}
+  10593: It pains me to have to rely on people's kindness like this, but you have my gratitude.${prompt}
+  10594: I must thank Cornelia for her kindness as well...${prompt}
   10595: |-
-    Ah !
-    Vous m'avez apporté ${keyitem-article: 7[2]} !${prompt}
+    Ah!
+    You have brought me ${keyitem-article: 7[2]}!${prompt}
   10596: |-
-    Hmm ?
-    Oui, je suis Parraggoh.${prompt}
-  10597: 'Quoi ? Cornelia vous a demandé... et vous m''avez apporté ${keyitem-article: 7[2]} ?${prompt}'
+    Hmm?
+    Yes, I am Parraggoh.${prompt}
+  10597: 'What? Cornelia asked you...and you''ve brought me ${keyitem-article: 7[2]}?${prompt}'
   10598: |-
-    Merci !
-    J'en avais vraiment besoin !${prompt}
-  10599: Ce n'est peut-être pas grand-chose comme récompense, mais je veux que vous ayez ça.${prompt}
-  10600: Si vous voyez Cornelia, transmettez-lui ma gratitude.${prompt}
+    Thank you!
+    I really needed these!${prompt}
+  10599: It may not be much of a reward, but I want you to have this.${prompt}
+  10600: If you see Cornelia, send her my gratitude.${prompt}
   10601: |-
-    Non, attendez--
-    Dites-lui plutôt qu'elle ne devrait pas se montrer trop souvent avec nous, les Galka.${prompt}
-  10602: Pour son propre bien.${prompt}
+    No, wait--
+    Instead, tell her she should not be seen around us Galka too much.${prompt}
+  10602: For her own sake.${prompt}
   10603: |-
-    Ah ! C'est bon de te revoir.
-    Comment vas-tu ?${prompt}
+    Ah! It's good to see you again.
+    How have you been?${prompt}
   10604: |-
-    Ce n'est pas un endroit où tu devrais traîner.
-    Sors de ma vue, étranger.${prompt}
+    This is no place for you to be wandering around.
+    Get out of my sight, outsider.${prompt}
   10605: |-
-    As-tu vu Gumbah ?
+    Have you seen Gumbah?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  10606: D'accord. Si tu le vois à nouveau, dis-lui de ne pas fuir la prochaine fois !${prompt}
-  10607: Quoi ? Il a encore fui ?${prompt}
+    Yes.
+    No.${prompt}
+  10606: Okay. If you see him again, tell him not to run away next time!${prompt}
+  10607: What? He ran away again?${prompt}
   10608: |-
-    Il ne tient jamais sa position !
-    Mais je l'attraperai la prochaine fois !${prompt}
-  10609: Hé, toi ! As-tu vu un petit Galka appelé “Gumbah” ?${prompt}
-  10610: Je suis là. Que veux-tu ?${prompt}
-  10611: Ah ! Enfin, nous nous rencontrons à nouveau ! Prépare-toi à faire face à ta fin !${prompt}
+    He never stands his ground!
+    But I'll get him next time!${prompt}
+  10609: Hey, you! Did you see a small Galka called “Gumbah”?${prompt}
+  10610: I'm here. What do you want?${prompt}
+  10611: Ah! Finally, we meet again! Prepare to face your doom!${prompt}
   10612: |-
-    Oh, pas encore. Ne t'ai-je pas battu la dernière fois ?
-    Tu as toujours été un enfant ennuyeux...${prompt}
+    Oh, not again. Didn't I beat you last time?
+    You've always been such a pestering child...${prompt}
   10613: |-
-    Hé, tu n'es pas beaucoup plus âgé que moi !
-    Ne me parle pas comme si tu étais un vieillard !${prompt}
-  10614: Et tu as triché la dernière fois ! Tu as pris une des vieilles épées de Werei !${prompt}
+    Hey, you're not much older than I am!
+    Don't talk to me like you're some old man!${prompt}
+  10614: And you cheated last time! You brought one of Werei's old swords!${prompt}
   10615: |-
-    Tu n'as pas dit que je ne pouvais pas.
-    De plus, c'est toi qui as triché en premier. Je t'ai vu emprunter l'épée de Deidogg.${prompt}
+    You didn't say I couldn't.
+    Besides, you cheated first. I saw you borrow Deidogg's sword.${prompt}
   10616: |-
-    Urk... Eh bien, euh... oublie les épées ! Cette fois, ce sont des casques !
-    Celui qui apporte le meilleur casque gagne !
-    Et n'apporte pas un de ceux de Werei, Gumbah !${prompt}
+    Urk... Well, uh...forget swords! This time, it's helms!
+    Whoever brings the best helm wins!
+    And don't bring any of Werei's, Gumbah!${prompt}
   10617: |-
-    Oh, s'il te plaît...
-    Très bien, je me retire. Tu gagnes. Je peux partir maintenant ?${prompt}
-  10618: Non, non, non ! Tu ne t'enfuis pas encore !${prompt}
+    Oh, please...
+    Fine, I forfeit. You win. Can I go now?${prompt}
+  10618: No, no, no! You're not running away again!${prompt}
   10619: |-
-    Quoi qu'il en soit, je pense à apporter ${article} ${item-article: 7[2]}.
-    Hé, tu es un aventurier, n'est-ce pas ? Tu en as un, non ?${prompt}
+    Anyway, I'm thinking of bringing ${article} ${item-article: 7[2]}.
+    Hey, you're an adventurer, right? You have one, don't you?${prompt}
   10620: |-
-    Puis-je l'emprunter juste quelques secondes ?
-    Je te le rendrai, promis ! Je te donnerai même une récompense !${prompt}
+    Can I borrow it for just a few seconds?
+    I'll give it back, promise! I'll even give you a reward!${prompt}
   10621: |-
-    Ooh ! ${lettercase: 1}${article} ${item-article: 7[2]} ! Merci !
-    Maintenant je vais montrer ça à Gumbah...${prompt}
-  10622: Tu empruntes encore...${prompt}
+    Ooh! ${lettercase: 1}${article} ${item-article: 7[2]}! Thanks!
+    Now I'll show that Gumbah...${prompt}
+  10622: You're borrowing again...${prompt}
   10623: |-
-    Te voilà ! Ha-ha ! Regarde, j'ai ${article} ${item-article: 7[2]} !
-    La victoire est à moi !${prompt}
-  10624: Ouais, bien pour toi. Mon casque devrait arriver bientôt.${prompt}
-  10625: 'Te voilà ! Voici, j'ai apporté le ${item-singular: 6[2]} que tu as demandé !${prompt}'
+    There you are! Ha-ha! Look, I have ${article} ${item-article: 7[2]}!
+    Victory is mine!${prompt}
+  10624: Uh-huh, good for you. My helm should be here soon.${prompt}
+  10625: 'There you are! Here, I brought the ${item-singular: 6[2]} you asked for!${prompt}'
   10626: |-
-    Qu'est-ce que tu en penses ?
-    Je gagne ?${prompt}
+    How's this?
+    Do I win?${prompt}
   10627: |-
-    Hé ! Ce n'est pas juste !
-    Tu l'as trompée pour qu'elle t'apporte ce casque !${prompt}
+    Hey! That's not fair!
+    You tricked her into bringing you that helm!${prompt}
   10628: |-
-    Hein ? Trompé ? Que se passe-t-il ?
-    Où est l'aventurier Galka qui avait besoin d'un casque ?${prompt}
+    Huh? Tricked? What's going on?
+    Where's the Galka adventurer who needed a helm?${prompt}
   10629: |-
-    Gumbah ! Tu me mentais ?
-    Explique-toi !${prompt}
-  10630: Eh bien, euh... je dois y aller !${prompt}
+    Gumbah! Were you lying to me?
+    Explain yourself!${prompt}
+  10630: Well, uh... I gotta go!${prompt}
   10631: |-
-    Hé ! Si tu cours, je gagne !
-    Ha ! Que dis-tu de ça ?!${prompt}
-  10632: Ça me va ! À bientôt !${prompt}
-  10633: Gumbah ! Reviens ici sur-le-champ !${prompt}
+    Hey! If you run, I win!
+    Ha! What do you say to that!?${prompt}
+  10632: Fine by me! See you!${prompt}
+  10633: Gumbah! Come back here this instant!${prompt}
   10634: |-
-    Pourquoi ai-je l'impression d'avoir perdu ?
-    Quoi qu'il en soit, merci. Voici la récompense que je t'avais promise.${prompt}
-  10635: Je suis ici à Bastok pour enquêter sur quelques éléments concernant les Palborough Mines.${prompt}
+    Why do I feel like I've lost?
+    Anyway, thanks. Here's the reward I promised you.${prompt}
+  10635: I'm here in Bastok to investigate a few things about the Palborough Mines.${prompt}
   10636: |-
-    Tu es un aventurier, n'est-ce pas ?
-    Pourrais-tu me rendre un service ?${prompt}
-  10637: Il y a un monument au sommet de Zegham Hill, dans le North Gustaberg, érigé en l'honneur des pionniers qui ont creusé les Palborough Mines.${prompt}
+    You're an adventurer, aren't you?
+    Could you do me a favor?${prompt}
+  10637: There is a monument at the top of Zegham Hill in North Gustaberg, erected in honor of the pioneers who dug the Palborough Mines.${prompt}
   10638: |-
-    Mon arrière-grand-père était l'un d'eux.
-    Je voulais aller visiter sa tombe là-bas, mais je n'ai pas pu passer tous les monstres.${prompt}
-  10639: 'Si ce n'est pas trop demander, je me demandais si tu pouvais placer ce ${keyitem-singular: 7[2]} au monument pour moi.${prompt}'
+    My great-grandfather was one of them.
+    I wanted to go visit his grave there, but I couldn't get past all the monsters.${prompt}
+  10639: 'If it''s not too much trouble, I was wondering if you could place this ${keyitem-singular: 7[2]} at the monument for me.${prompt}'
   10640: |-
-    Visiter le monument à la place d'Elki ?
+    Visit the monument in Elki's stead?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Yes.
+    No.${prompt}
   10641: |-
     Thank you.
     There are ten names engraved on the monument.
@@ -23560,39 +23560,38 @@ entries:
   10825: |-
     What do you want?
     Oh, you think because I'm just a kid you can walk over and talk to me for no good reason?${prompt}
-  10826: |-
-    C'est vrai, je peux avoir l'air d'un enfant maintenant, mais je sais que j'étais autrefois un grand guerrier, et je peux le prouver.${prompt}
+  10826: True, I might look like a child now, but I know I was once a great warrior, and I can prove it.${prompt}
   10827: |-
-    Voulez-vous voir la preuve ?
+    Do you want to see proof?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Yes.
+    No.${prompt}
   10828: |-
-    Je ne comptais de toute façon pas vous le montrer.
-    Je connais votre genre. Vous caressez les enfants dans le sens du poil en pensant à quel point la vie était belle à votre âge, n'est-ce pas ? Épargnez-moi, s'il vous plaît.${prompt}
+    I wasn't going to show you anyway.
+    I know your type. Patting kids on the head and thinking how great life was when you were their age, right? Spare me, please.${prompt}
   10829: |-
-    Je le pensais.
-    Eh bien... d'accord, voici. Mais faites attention !
-    C'est très, très précieux -- c'est un morceau de ma vie passée.${prompt}
+    I thought so.
+    Well...all right, here. But be careful!
+    It's very, very valuable--it's a piece of my past life.${prompt}
   10830: |-
-    Un ami m'a donné ça il y a plus de vingt ans.
-    Je ne me souviens plus de ce que ça veut dire, pourtant.${prompt}
-  10831: J'ai montré ça à mon ami Gumbah une fois, et son avis était que c'est un document très précieux qui indique les faiblesses de chaque type de monstre.${prompt}
-  10832: Il a dit que ça me serait utile quand je deviendrai un aventurier.${prompt}
+    A friend gave this to me over twenty years ago.
+    I can't remember what it all means, though.${prompt}
+  10831: I showed this to my friend Gumbah once, and his opinion was that this is a very valuable document that tells you each monster type's weakness.${prompt}
+  10832: He said it will come in handy when I become an adventurer.${prompt}
   10833: |-
-    Tu as été un bon élève.
-    Reviens quand tu veux si tu veux le revoir.
-    Eh bien, au moins jusqu'à ce que je parte pour ma première aventure...${prompt}
-  10834: Tu ne peux pas pêcher ici.${prompt}
-  10835: Tu ne peux pas pêcher sans une canne à pêche dans les mains.${prompt}
-  10836: Tu ne peux pas pêcher sans appât sur l'hameçon.${prompt}
-  10837: Tu ne peux pas pêcher pour le moment.${prompt}
-  10838: Tu n'as rien attrapé.${prompt}
-  10839: '${entity: 0} a attrapé un monstre !${prompt}'
-  10840: Ta ligne se casse.${prompt}
-  10841: Ta canne à pêche se casse.${prompt}
-  10842: Quelque chose a accroché l'hameçon !${prompt}
-  10843: Tu as perdu ta prise.${prompt}
+    You've been a good pupil.
+    Come back anytime if you want to see it again.
+    Well, at least until I leave on my first adventure...${prompt}
+  10834: You can't fish here.${prompt}
+  10835: You can't fish without a rod in your hands.${prompt}
+  10836: You can't fish without bait on the hook.${prompt}
+  10837: You can't fish at the moment.${prompt}
+  10838: You didn't catch anything.${prompt}
+  10839: '${entity: 0} caught a monster!${prompt}'
+  10840: Your line breaks.${prompt}
+  10841: Your rod breaks.${prompt}
+  10842: Something caught the hook!${prompt}
+  10843: You lost your catch.${prompt}
   10844: |-
     ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
     ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
@@ -23788,38 +23787,38 @@ entries:
     I think he says he's waiting in a mine somewhere.
     Are you training to become a dark knight, too? Wow, it must be really hard.${prompt}
   10949: |-
-    Bienvenue à la maison de vente aux enchères.
-    Avez-vous des questions sur notre établissement ?${prompt}
+    Welcome to the auction house.
+    Do you have any questions about our establishment?${prompt}
   10950: |-
-    Que voulez-vous savoir?
+    What do you want to know?
     ${selection-lines}
-    Qu'est-ce que la maison de vente aux enchères?
-    Comment se déroulent les enchères?
-    Y a-t-il des frais?
-    Y a-t-il des limites?
-    Comment vérifier les marchandises?
-    Comment retirer un article?
-    Ma liste de «Statut de vente» est pleine!
-    Rien pour le moment.${prompt}
-  10951: Les maisons de vente aux enchères peuvent être trouvées dans toutes les grandes villes de Vana'diel. Ici, les aventuriers se rassemblent pour enchérir sur des butins de bataille, des objets indésirables, de vieilles armures... presque n'importe quoi.${prompt}
-  10952: Actuellement, les maisons de vente aux enchères de Bastok, San d'Oria, Windurst et Jeuno fonctionnent toutes indépendamment. Par conséquent, les prix diffèrent d'une ville à l'autre.${prompt}
-  10953: Les aventuriers peuvent utiliser n'importe quelle maison de vente aux enchères, quelle que soit leur nationalité.${prompt}
-  10954: Le premier aventurier à enchérir au prix demandé ou au-dessus achètera automatiquement le produit.${prompt}
-  10955: Une fois mis aux enchères, les marchandises resteront là pendant un maximum de trente semaines, heure de Vana'diel (neuf jours et demi en temps terrestre).${prompt}
-  10956: Si les marchandises ne se vendent pas dans ce délai, elles seront renvoyées à la résidence actuelle du vendeur.${prompt}
-  10957: Les frais de transaction sont proportionnels au montant pour lequel un article est mis aux enchères. La méthode de calcul de ces frais est différente pour les articles uniques et les articles empilables.${prompt}
-  10958: Des frais de transaction sont prélevés lorsque des marchandises sont mises aux enchères. Ces frais ne sont pas remboursables.${prompt}
-  10959: Le Comité International des Maisons de Vente aux Enchères, ou IAHC, a déclaré qu'un maximum de sept articles pouvait être mis aux enchères en même temps.${prompt}
-  10960: Cependant, l'IAHC a récemment supprimé la limite sur le nombre d'articles que l'on peut acheter.${prompt}
-  10961: Un petit temps est nécessaire avant que de nouvelles marchandises apparaissent sur notre liste d'enchères.${prompt}
-  10962: Une fois qu'un article apparaît sur votre liste de « Statut de vente », il peut ne pas immédiatement apparaître sur la liste d'enchères. Si vous ne voyez pas votre article sur la liste d'enchères, essayez de regarder à nouveau plus tard.${prompt}
-  10963: Si vous souhaitez retirer un article d'une enchère, vous devez vous rendre à la maison de vente aux enchères et sélectionner « Arrêter la vente » dans le menu « Statut de vente ».${prompt}
-  10964: Pour retirer un article de votre liste de « Statut de vente », vous devez visiter un comptoir d'enchères pour reconnaître la vente ou le retour de vos marchandises.${prompt}
-  10965: Sinon, les articles précédemment vendus ou retournés rempliront votre liste et vous empêcheront de vendre d'autres marchandises.${prompt}
-  10966: À tout comptoir d'enchères, ouvrez le menu « Statut de vente » et reconnaissez la transaction pour la supprimer de la liste.${prompt}
-  10967: Appuyez sur le bouton de confirmation pour retirer toute transaction colorée en jaune (vendu) ou rouge (retourné).${prompt}
-  10968: Y a-t-il autre chose que vous aimeriez savoir ?${prompt}
-  10969: Dans le passé, beaucoup ont amassé de grandes richesses grâce à la maison de vente aux enchères. J'espère que vous trouverez aussi fortune !${prompt}
+    What is the auction house?
+    How are auctions run?
+    Are there any fees?
+    Are there any limits?
+    How do you check up on merchandise?
+    How do you remove an item?
+    My “Sales Status” list is full!
+    Nothing right now.${prompt}
+  10951: Auction houses can be found in all of Vana'diel's major cities. Here adventurers gather to bid on battle spoils, unwanted items, old armor...almost anything.${prompt}
+  10952: Currently, the auction houses in Bastok, San d'Oria, Windurst, and Jeuno all work independently. Therefore, prices differ from city to city.${prompt}
+  10953: Adventurers may use any auction house regardless of nationality.${prompt}
+  10954: The first adventurer to bid at or above the asking price will automatically purchase the product.${prompt}
+  10955: Once put up for auction, merchandise will remain there for a maximum of thirty weeks Vana'diel time (nine-and-a-half days Earth time).${prompt}
+  10956: If merchandise does not sell within this time limit, it will be returned to the seller's current residence.${prompt}
+  10957: Transaction fees are proportional to the amount for which an item is put up on auction. The method of calculating this fee is different for single items and stackable items.${prompt}
+  10958: A transaction fee is collected when any merchandise is put up for auction. This fee is nonrefundable.${prompt}
+  10959: The International Auction House Committee, or IAHC, has declared that a maximum of seven items may be put up for auction at one time.${prompt}
+  10960: However, the IAHC has recently removed the limit to how many items one may purchase.${prompt}
+  10961: A small amount of time is required before new merchandise appears on our bid list.${prompt}
+  10962: Once an item appears on your “Sales Status” list, it may not immediately appear on the bid list. If you do not see your item on the bid list, try looking again at a later time.${prompt}
+  10963: If you would like to withdraw an item from an auction, you must travel to the auction house, and select “Stop Sale” from the “Sales Status” menu.${prompt}
+  10964: To remove an item from your “Sales Status” list, you must visit an auction counter to acknowledge the sale or return of your merchandise.${prompt}
+  10965: Otherwise, previously sold or returned items will fill up your list and prevent you from selling any more merchandise.${prompt}
+  10966: At any auction counter, open the “Sales Status” menu and acknowledge the transaction to clear it from the list.${prompt}
+  10967: Press the confirm button to remove any transaction colored yellow (sold) or red (returned).${prompt}
+  10968: Is there anything else you would like to know?${prompt}
+  10969: In the past, many have amassed great wealth through the auction house. I hope you find fortune, too!${prompt}
   10970: |-
     Master, Master!
     I have a favor to ask, kupo!${prompt}
@@ -24160,142 +24159,142 @@ entries:
   11135: |-
     Kupopopo! A patient one!
     Let's see how long you can wait before the suspense finally gets to you, kupo!${prompt}
-  11136: 'Bonne chance, ${choice: 0}[citoyen/camarade]. Je vais vous accorder le Signe de votre nation.${wait-animation: 0}${prompt}'
-  11137: Je ne peux pas vous aider. Vous devriez aller trouver un garde de votre propre pays.${prompt}
+  11136: 'Good luck, ${choice: 0}[citizen/comrade]. I will bestow upon you your nation''s Signet.${wait-animation: 0}${prompt}'
+  11137: I cannot help you. You should go find a guard from your own country.${prompt}
   11138: |-
-    Je ne peux pas accepter de cristaux de quelqu'un dont le rang est encore 1.
-    Je vous conseille de les garder jusqu'à atteindre le rang 2, ou de les utiliser pour la fabrication.${prompt}
-  11139: 'Puisque nous sommes alliés avec San d''Oria...${wait-animation: 0}${prompt}'
-  11140: 'Puisque nous sommes alliés avec Bastok...${wait-animation: 0}${prompt}'
-  11141: 'Puisque nous sommes alliés avec Windurst...${wait-animation: 0}${prompt}'
+    I cannot accept crystals from someone whose rank is still 1.
+    I advise you to either keep them until your reach rank 2, or to use them in craftwork.${prompt}
+  11139: 'Since we are allied with San d''Oria...${wait-animation: 0}${prompt}'
+  11140: 'Since we are allied with Bastok...${wait-animation: 0}${prompt}'
+  11141: 'Since we are allied with Windurst...${wait-animation: 0}${prompt}'
   11142: |-
-    Je suis désolé.
-    Je suis trop occupé avec d'autres affaires pour parler avec vous.${wait-animation: 0}${prompt}
-  11143: Ah, vous nous avez apporté des fournitures. Cela nous aidera vraiment. Je vous remercie.${prompt}
+    I am sorry.
+    I am too busy with other matters to be speaking with you.${wait-animation: 0}${prompt}
+  11143: Ah, you have brought us supplies. These will help us indeed. I thank you.${prompt}
   11144: |-
-    Hmm... Ces fournitures que vous nous avez apportées sont trop anciennes pour être utiles. Nous allons les jeter immédiatement.
-    Je vous félicite pour vos efforts. Puissiez-vous réussir la prochaine fois.${prompt}
-  11145: Vous avez gagné des points de conquête !${prompt}
+    Hmm... These supplies you have brought us are too old to be of any use. We will dispose of them promptly.
+    I do commend you for your effort. May you succeed next time.${prompt}
+  11145: You've earned conquest points!${prompt}
   11146: |-
-    Vous avez reçu le Signe de votre nation.
-    Vous participez maintenant à la campagne de conquête de votre nation !${prompt}
+    You've received your nation's Signet.
+    You are now taking part in your nation's conquest campaign!${prompt}
   11147: |-
-    Je suis ${name-npc}, un Chevalier du Temple.
-    Je suis l'un des gardes chargés de superviser la campagne de conquête de San d'Oria.${prompt}
+    I am ${name-npc}, a Temple Knight.
+    I am one of the guards charged with overseeing San d'Oria's conquest campaign.${prompt}
   11148: |-
-    Je suis ${name-npc}, un Mousquetaire de Fer.
-    Je suis l'un des gardes chargés de superviser la campagne de conquête de Bastok.${prompt}
+    I am ${name-npc}, an Iron Musketeer.
+    I am one of the guards charged with overseeing Bastok's conquest campaign.${prompt}
   11149: |-
-    Je suis ${name-npc}, un Sorcier de Guerre.
-    Je fais partie des gardes chargés de superviser la campagne de conquête de Windurst.${prompt}
+    I am ${name-npc}, a War Warlock.
+    I am one of the guards charged with overseeing Windurst's conquest campaign.${prompt}
   11150: |-
-    Quelle est votre affaire ?
+    What is your business?
     ${selection-lines}
-    Pourriez-vous me jeter le Signe ?
-    Je veux dépenser mes points de conquête.
-    ${choice: 0}[Je veux rejoindre les Forces Expéditionnaires./Téléportez-moi dans la zone des F.E.]
-    Je veux quitter les F.E./changer mes F.E.
-    Je veux aller en quête de fournitures.
-    J'ai quelques questions...
-    Rien, désolé de vous déranger.${prompt}
+    Would you cast Signet on me?
+    I want to spend my conquest points.
+    ${choice: 0}[I want to join the Expeditionary Force./Teleport me to the E.F. area.]
+    I want to quit the E.F./change my E.F.
+    I want to go on a supplies quest.
+    I have some questions...
+    Nothing, sorry to bother you.${prompt}
   11151: |-
-    Que souhaitez-vous savoir ?
+    What do you wish to know about?
     ${selection-lines}
-    Rien.
-    Conquêtes.
-    Résultats de conquête.
-    Donner des cristaux.
-    Points de conquête.
-    Les effets de la contrôle des régions.
-    Régions contrôlées par d'autres nations.
-    Régions sous contrôle des bêtes.${prompt}
-  11152: Les trois nations s'efforcent chaque jour de placer plus de régions sous leur contrôle. C'est ce que nous appelons les « conquêtes ». Vous pouvez y participer et servir votre pays en battant des ennemis pendant que vous avez le Signe national lancé sur vous.${prompt}
-  11153: Chaque région comprend plusieurs zones, et la nation qui débarrasse ces zones du plus grand nombre de monstres prend le contrôle de la région.${prompt}
-  11154: Les nations reçoivent des biens et des ressources des régions sous leur contrôle.${prompt}
-  11155: Ainsi, plus nous contrôlons de régions, plus notre nation devient riche.${prompt}
+    Nothing.
+    Conquests.
+    Conquest results.
+    Donating crystals.
+    Conquest points.
+    The effects of controlling regions.
+    Regions controlled by other nations.
+    Regions under beastman control.${prompt}
+  11152: All three nations are striving daily to put more regions under their control. This is what we call “conquests.” You can take part in it and serve your country by defeating enemies while you have Signet cast on you.${prompt}
+  11153: Each region comprises several areas, and the nation that rids those areas of the most monsters gains control of the region.${prompt}
+  11154: Nations receive goods and resources from regions under their control.${prompt}
+  11155: So, the more regions we control, the richer our nation becomes.${prompt}
   11156: |-
-    Des gardes-frontières sont également placés dans des avant-postes situés dans les régions sous notre contrôle.
-    Ils sont là pour lancer le Signe national sur des aventuriers comme vous.${prompt}
-  11157: Une fois que vous avez le Signe de votre nation, vous pourrez obtenir des cristaux en battant les ennemis.${prompt}
-  11158: Non seulement cela, mais vous recevrez également des points de conquête. Vous obtenez plus de points de conquête si vous battez des ennemis dans des régions qui ne sont pas sous le contrôle de votre nation. Ces points peuvent être utilisés pour acheter des objets auprès de gardes comme moi.${prompt}
+    Border guards are also placed in outposts within regions under our control.
+    They are there to cast Signet on adventurers like yourself.${prompt}
+  11157: Once you have your nation's Signet, you will be able to acquire crystals from enemies you defeat.${prompt}
+  11158: Not only that, but you will also receive conquest points. You get more conquest points if you defeat enemies in regions that are not under your nation's control. These points can be used to purchase items from guards like myself.${prompt}
   11159: |-
-    Vous voyez donc... les conquêtes profitent à la fois aux nations et aux aventuriers.
-    Nous comptons sur vous pour faire de votre mieux pour servir votre pays.${prompt}
+    So you see...conquests benefit nations and adventurers alike.
+    We expect you to do your best to serve your country.${prompt}
   11160: |-
-    Vous pouvez consulter l'état actuel des conquêtes en sélectionnant « Info Région » dans le menu principal.
-    Les résultats des conquêtes dans toutes les régions sont recalculés régulièrement, alors vous voudrez peut-être les vérifier de temps en temps.${prompt}
+    You can see the current state of conquests by selecting “Region Info” from the main menu.
+    Conquest results in all regions are regularly recalculated, so you may want to check them from time to time.${prompt}
   11161: |-
-    Les boutiques de notre ville vendront différents articles en fonction de notre rang de conquête.
-    La Troupe Valeriano visitera également la nation qui termine première pour apporter un peu de joie à ses citoyens.${prompt}
+    Shops in our city will be selling different items according to our conquest rank.
+    The Troupe Valeriano will also visit the nation that finishes first and bring a little joy to its citizens.${prompt}
   11162: |-
-    Vous pouvez faire don de cristaux à votre nation une fois que vous atteignez le rang 2.
-    Il vous suffit de les échanger avec des gardes comme moi, et nous nous assurerons qu'ils sont envoyés à l'endroit approprié.${prompt}
+    You can donate crystals to your nation once you achieve rank 2.
+    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
   11163: |-
-    Nous aimerions que vous fassiez don de cristaux à votre nation à partir de maintenant.
-    Il vous suffit de les échanger avec des gardes comme moi, et nous nous assurerons qu'ils sont envoyés à l'endroit approprié.${prompt}
+    We would like you to donate crystals to your nation from now on.
+    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
   11164: |-
-    Vous pouvez acquérir des cristaux en battant des ennemis pendant que vous avez le Signe de votre nation.
-    Avoir le Signe est également le seul moyen de participer aux conquêtes.${prompt}
-  11165: Des points de rang vous seront attribués pour chaque cristal que vous donnerez, et vous pourrez vous voir proposer de nouvelles missions à mesure que votre rang augmente.${prompt}
+    You can acquire crystals by defeating enemies while you have your nation's Signet.
+    Having Signet cast on you is also the only way of taking part in conquests.${prompt}
+  11165: Rank points will be awarded to you for each crystal you donate, and you may be offered new missions as your rank goes up.${prompt}
   11166: |-
-    Vous recevez également des points de rang pour accomplir des missions.
-    Complétez des missions et participez aux conquêtes pour augmenter votre rang et servir votre pays.${prompt}
+    You also receive rank points for completing missions.
+    Complete missions and take part in conquests to raise your rank and serve your country.${prompt}
   11167: |-
-    Vous recevez des points de conquête lorsque vous battez des monstres tout en participant aux conquêtes.
-    Sélectionnez "Info Région" dans le menu pour vérifier votre nombre actuel de points de conquête.${prompt}
-  11168: Vous pouvez acheter des objets auprès de gardes comme moi avec vos points de conquête, mais sachez que le nombre de points dépensés sera soustrait de votre total actuel.${prompt}
-  11169: Lorsque les résultats des conquêtes seront annoncés, on vous dira quel pays contrôle la région dans laquelle vous vous trouvez à ce moment-là. Parfois, des régions peuvent devenir neutres, ou même les hommes-bêtes peuvent prendre le contrôle des régions.${prompt}
-  11170: Si nous prenons le contrôle d'une région, des gardes-frontières seront placés dans ses avant-postes pour aider des aventuriers comme vous.${prompt}
-  11171: Des marchands y seront également installés, et les marchandises de cette région arriveront dans les magasins locaux ici.${prompt}
-  11172: Le contrôle des régions est le principe fondamental des conquêtes. Nous avons besoin que chacun de vous fasse de son mieux pour amener notre nation au sommet des classements.${prompt}
-  11173: Bien sûr, parfois nous perdons des régions au profit d'autres nations...alors nous devons essayer de les reprendre avant l'annonce des prochains résultats de la conquête.${prompt}
-  11174: En guise d'incitation, nous vous accorderons plus de points de conquête pour avoir vaincu des monstres dans ces régions.${prompt}
-  11175: Mais si nous sommes alliés avec une autre nation, vous ne recevrez que le taux habituel pour vaincre des monstres dans les régions de nos alliés. En revanche, nous vous accorderons plus de points pour combattre dans les régions de la nation en tête du classement.${prompt}
+    You are awarded conquest points when you defeat monsters while you are taking part in conquests.
+    Select "Region Info" from the menu to check your current number of conquest points.${prompt}
+  11168: You can purchase items from guards like myself with your conquest points, but be warned that the number of points you spend will be subtracted from your current total.${prompt}
+  11169: When conquest results are announced, you will be told which country controls the region you are in at that time. Sometimes regions may become neutral, or beastmen may even gain control of regions.${prompt}
+  11170: If we gain control of a region, border guards will be placed at its outposts to help adventurers like you.${prompt}
+  11171: Merchants will also be placed there, and goods from that region will find their way to the local shops here.${prompt}
+  11172: Gaining control of regions is the basic principle behind conquests. We need each of you to do your best, and bring our nation to the top of the ranks.${prompt}
+  11173: Of course, sometimes we lose regions to other nations...so we must try to take them back before the next conquest results are announced.${prompt}
+  11174: As an incentive, we will award you with more conquest points for defeating monsters in those regions.${prompt}
+  11175: But if we are allied with another nation, you will only be awarded the regular rate for defeating monsters in our allies' regions. On the other hand, we will award you with more points for fighting in the top-ranked nation's regions.${prompt}
   11176: |-
-    Notre principale préoccupation est que les hommes-bêtes prennent le contrôle de nos régions.
-    Si trop d'entre nous sont vaincus dans une région, les hommes-bêtes en prendront le contrôle.${prompt}
-  11177: Si cela se produit, non seulement c'est un coup dur pour notre fierté, mais vous ne pourrez plus obtenir de cristaux dans cette région.${prompt}
-  11178: Les hommes-bêtes sont une menace pour toutes les nations. S'ils prennent le pouvoir, nous devons tous nous unir pour chasser ces viles créatures de cette région.${prompt}
-  11179: Nous avons besoin que vous apportiez des fournitures aux gardes-frontières des avant-postes situés dans les régions sous notre contrôle.${prompt}
-  11180: Il y a un avant-poste dans chaque région. Sélectionnez « Info Région » dans le menu, et recherchez les zones avec un petit drapeau sur la carte. C'est là où ils se trouvent.${prompt}
+    Our paramount concern lies in the beastmen gaining control of our regions.
+    If too many of us are defeated in a region, the beastmen will gain control of it.${prompt}
+  11177: If this happens, not only is it a great blow to our pride, but you will be unable to acquire any crystals in that region.${prompt}
+  11178: The beastmen are a menace to all nations. If they rise to power, we must all unite and drive those vile creatures from that region.${prompt}
+  11179: We need you to bring supplies to the outpost border guards who are placed in regions under our control.${prompt}
+  11180: There is one outpost in each region. Select “Region Info” from the menu, and look for the areas with a small flag mark on the map. That is where they are.${prompt}
   11181: |-
-    Voici les fournitures. Remettez-les simplement au garde de l'avant-poste et votre mission sera terminée.
-    Maintenant, choisissez l'avant-poste où vous souhaitez aller. Nous donnons des récompenses différentes pour chaque région, alors choisissez judicieusement.${prompt}
+    Here are the supplies. Just give them to the guard at the outpost and your mission will be complete.
+    Now, choose which outpost you want to go to. We give different rewards for each region, so choose carefully.${prompt}
   11182: |-
-    Où souhaitez-vous apporter les provisions ?
+    Where do you wish to take the supplies?
     ${selection-lines}
     　
     　
     　
     　
     　
-    La région de Ronfaure.${choice: 5}[/ (Terminé)]
-    La région de Zulkheim.${choice: 6}[/ (Terminé)]
-    La région de Norvallen.${choice: 7}[/ (Terminé)]
-    La région de Gustaberg.${choice: 8}[/ (Terminé)]
-    La région de Derfland.${choice: 9}[/ (Terminé)]
-    La région de Sarutabaruta.${choice: 10}[/ (Terminé)]
-    La région de Kolshushu.${choice: 11}[/ (Terminé)]
-    La région d'Aragoneu.${choice: 12}[/ (Terminé)]
-    La région de Fauregandi.${choice: 13}[/ (Terminé)]
-    La région de Valdeaunia.${choice: 14}[/ (Terminé)]
-    L'île de Qufim.${choice: 15}[/ (Terminé)]
-    La région de Li'Telor.${choice: 16}[/ (Terminé)]
-    La région de Kuzotz.${choice: 17}[/ (Terminé)]
-    La région de Vollbow.${choice: 18}[/ (Terminé)]
-    La région des basses terres d'Elshimo.${choice: 19}[/ (Terminé)]
-    La région des hautes terres d'Elshimo.${choice: 20}[/ (Terminé)]
-    Tu'Lia.${choice: 21}[/ (Terminé)]
+    The Ronfaure Region.${choice: 5}[/ (Done)]
+    The Zulkheim Region.${choice: 6}[/ (Done)]
+    The Norvallen Region.${choice: 7}[/ (Done)]
+    The Gustaberg Region.${choice: 8}[/ (Done)]
+    The Derfland Region.${choice: 9}[/ (Done)]
+    The Sarutabaruta Region.${choice: 10}[/ (Done)]
+    The Kolshushu Region.${choice: 11}[/ (Done)]
+    The Aragoneu Region.${choice: 12}[/ (Done)]
+    The Fauregandi Region.${choice: 13}[/ (Done)]
+    The Valdeaunia Region.${choice: 14}[/ (Done)]
+    Qufim Island.${choice: 15}[/ (Done)]
+    The Li'Telor Region.${choice: 16}[/ (Done)]
+    The Kuzotz Region.${choice: 17}[/ (Done)]
+    The Vollbow Region.${choice: 18}[/ (Done)]
+    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
+    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
+    Tu'Lia.${choice: 21}[/ (Done)]
     　
-    L'archipel de Tavnazia.${choice: 23}[/ (Terminé)]
-    　
-    　
+    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
     　
     　
     　
     　
     　
-    Annuler.${prompt}
+    　
+    　
+    Cancel.${prompt}
   11183: |-
     Which E.F. would you like to join?
     ${selection-lines}
@@ -24332,57 +24331,57 @@ entries:
     .
     None.${prompt}
   11184: |-
-    Ainsi soit-il.
-    Vous avez jusqu'à l'annonce des résultats de la prochaine conquête pour terminer cette mission.
-    Bonne chance.${prompt}
-  11185: Nous nous débarrasserons de ces fournitures inutilisables.${prompt}
+    So be it.
+    You have until the next conquest results announcement to complete this mission.
+    Good luck.${prompt}
+  11185: We will dispose of those unusable supplies.${prompt}
   11186: |-
-    Vous ne pouvez entreprendre qu'une seule mission de ravitaillement par jour.
-    Revenez plus tard.${prompt}
-  11187: Je suis désolé. Il semble que nous ayons un problème. Laissez-moi l'annuler.${prompt}
+    You can only undertake one supply mission per day.
+    Come back later.${prompt}
+  11187: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
   11188: |-
-    Vous n'avez plus besoin de donner de cristaux à votre rang actuel.
-    Parlez au garde à la porte pour des instructions supplémentaires.${prompt}
+    You do not need to donate any more crystals at your current rank.
+    Speak to the guard at the gatehouse for further instructions.${prompt}
   11189: |-
-    Vos points de rang sont pleins. Nous avons ajouté l'excès à vos points de conquête.
-    Vous n'avez plus besoin de donner de cristaux. Allez à la porte pour des instructions supplémentaires.${prompt}
+    Your rank points are full. We've added the excess to your conquest points.
+    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
   11190: |-
-    Bon travail, citoyen.
-    Nous vous avons attribué des points de rang pour les cristaux que vous avez donnés.${prompt}
+    Good work, citizen.
+    We've awarded you rank points for the crystals you've donated.${prompt}
   11191: |-
-    Vous avez actuellement ${number: 0} points de conquête.
-    Souhaitez-vous les utiliser pour acheter des objets ?${prompt}
+    You currently have ${number: 0} conquest points.
+    Would you like to use them to purchase items?${prompt}
   11192: |-
-    Quel objet souhaitez-vous acheter ?
+    Which item do you wish to purchase?
     ${selection-lines}
-    Objets communs (tous rangs).
-    Objets à 1000 pts (rang 1 requis).
-    Objets à 2000 pts (rang 2 requis).
-    Objets à 4000 pts (rang 3 requis).
-    Objets à 8000 pts (rang 4 requis).
-    Objets à 16000 pts (rang 5 requis).
-    Objets à 24000 pts (rang 6 requis).
-    Objets à 32000 pts (rang 7 requis).
-    Objets à 40000 pts (rang 8 requis).
-    Objets à 48000 pts (rang 9 requis).
-    Objets à 56000 pts (rang 10 requis).
-    Annuler.${prompt}
+    Common items (all ranks).
+    1000-pt. items (rank 1 required).
+    2000-pt. items (rank 2 required).
+    4000-pt. items (rank 3 required).
+    8000-pt. items (rank 4 required).
+    16000-pt. items (rank 5 required).
+    24000-pt. items (rank 6 required).
+    32000-pt. items (rank 7 required).
+    40000-pt. items (rank 8 required).
+    48000-pt. items (rank 9 required).
+    56000-pt. items (rank 10 required).
+    Cancel.${prompt}
   11193: |-
-    Quel objet souhaitez-vous acheter ?
+    Which item do you wish to purchase?
     ${selection-lines}
-    Objets communs (tous rangs).
-    Objets à 2000 pts (rang 1 requis).
-    Objets à 4000 pts (rang 2 requis).
-    Objets à 8000 pts (rang 3 requis).
-    Objets à 16000 pts (rang 4 requis).
-    Objets à 24000 pts (rang 5 requis).
-    Objets à 32000 pts (rang 6 requis).
-    Objets à 40000 pts (rang 7 requis).
-    Objets à 48000 pts (rang 8 requis).
-    Objets à 56000 pts (rang 9 requis).
+    Common items (all ranks).
+    2000-pt. items (rank 1 required).
+    4000-pt. items (rank 2 required).
+    8000-pt. items (rank 3 required).
+    16000-pt. items (rank 4 required).
+    24000-pt. items (rank 5 required).
+    32000-pt. items (rank 6 required).
+    40000-pt. items (rank 7 required).
+    48000-pt. items (rank 8 required).
+    56000-pt. items (rank 9 required).
     .
-    Annuler.${prompt}
-  11194: Actuellement, il n’y a aucun objet disponible pour ce rang.${prompt}
+    Cancel.${prompt}
+  11194: Currently there are no items available for that rank.${prompt}
   11195: |-
     Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
     Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
@@ -24547,31 +24546,31 @@ entries:
   11263: |-
     I see.
     If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  11264: 'Votre insigne ${color: 5}EF${color: 1} disparaît !${prompt}'
-  11265: 'Points Katsu-yaku : ${number: 0}!${prompt}' 
-  11266: 'Cet ${keyitem-singular: 0[2]} n’est plus valide. Nous allons le jeter ici.${prompt}'
-  11267: Vos insignes invalides ont été éliminés.${prompt}
-  11268: Bienvenue de retour après l’expédition. Notre nation a réussi sa campagne. Laissez-moi vous donner votre récompense.${prompt}
-  11269: 'Vous avez reçu ${number: 1} points de conquête !${prompt}'
-  11270: Lors de la participation à une Force Expéditionnaire, concentrez vos efforts sur les ennemis qui vous rapportent le plus de points d'expérience. Et n'oubliez pas de confisquer le contenu de tout coffre au trésor des hommes-bêtes que vous pourriez trouver.${prompt}
+  11264: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
+  11265: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
+  11266: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
+  11267: Your invalid ensignias have been disposed of.${prompt}
+  11268: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
+  11269: 'You received ${number: 1} conquest points!${prompt}'
+  11270: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
   11271: |-
-    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l'inscription au dos avant de commencer vos tâches.
-    Une fois que le Sceau vous a été conféré, préparez-vous à être téléporté.${prompt}
-  11272: Vous n'avez pas pu être téléporté. Demandez-moi à nouveau, s'il vous plaît.${prompt}
-  11273: Les résultats de la conquête sont actuellement en cours de comptage. Revenez plus tard.${prompt}
-  11274: Vous avez reçu la permission de rejoindre les Forces Expéditionnaires !${prompt}
-  11275: Actuellement, nous sommes en première place dans la conquête de Vana'diel, mais cela ne doit pas être pris pour acquis. Nous devons continuer notre lutte pour rester au sommet.${prompt}
-  11276: Nous avions la première place entre nos mains, mais nous l'avons laissée filer. Si nous voulons être classés premiers dans Vana'diel, chacun d'entre nous doit faire sa part. J'attends avec impatience d'entendre parler de vos succès.${prompt}
-  11277: Notre pays est tombé à la troisième place dans la conquête de Vana'diel. Nous devons redoubler d'efforts pour améliorer la situation.${prompt}
-  11278: Vous devez combattre dans des batailles qui rapportent des niveaux d'expérience élevés. C'est le seul moyen de faire passer des zones sous le contrôle de notre pays.${prompt}
-  11279: Actuellement, notre pays est la force dominante dans cette région. Si nous pouvons maintenir ce niveau, le contrôle de cette zone sera à nous.${prompt}
-  11280: Actuellement, notre pays est une force majeure dans cette région. Cependant, nous ne pouvons pas prendre cela pour acquis. Si nous baissons notre garde, nous perdrons sûrement le contrôle de la zone !${prompt}
-  11281: Actuellement, notre pays a seulement une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de ce trou que nous avons creusé.${prompt}
-  11282: Actuellement, l'influence de notre pays dans cette zone est minimale. Si nous n'agissons pas rapidement, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
-  11283: Faites attention en passant, car cette zone est actuellement envahie par des hommes-bêtes ! Il faut agir, sinon l'ennemi aura le contrôle de toute la région.${prompt}
-  11284: 'Votre inventaire est plein. Vous n’avez pas pu accepter le ${item-singular: 0[2]}.${prompt}'
-  11285: Vous possédez déjà un glyphe de portail. Vous ne pouvez pas en porter davantage.${prompt}
-  11286: Je suis le Gardien Ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d'Oria et Bastok.${prompt}
+    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
+    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
+  11272: You could not be teleported. Ask me again, please.${prompt}
+  11273: The conquest results are currently being tallied. Come back later.${prompt}
+  11274: You have received permission to join the Expeditionary Forces!${prompt}
+  11275: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
+  11276: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
+  11277: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
+  11278: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
+  11279: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
+  11280: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
+  11281: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
+  11282: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
+  11283: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
+  11284: 'Your inventory is full. You could not accept the ${item-singular: 0[2]}.${prompt}'
+  11285: You already possess a gate glyph. You cannot hold any more.${prompt}
+  11286: I am Jeunoan Ducal Guard, ${name-npc}. My duty is to support the conquest efforts of Windurst, San d'Oria, and Bastok.${prompt}
   11287: 　${prompt}
   11288: 　${prompt}
   11289: 　${prompt}
@@ -36569,70 +36568,70 @@ entries:
   17369: |-
     Thanks again for everything.
     You know how it is--even if they don't say it, everyone here is grateful for what you did.${prompt}
-  17370: Vous pouvez maintenant profiter d'un nouveau scénario, *A Crystalline Prophecy*.
-17371: |-
-    Commencer *A Crystalline Prophecy* ?
+  17370: You are now able to enjoy a new storyline, A Crystalline Prophecy.
+  17371: |-
+    Start A Crystalline Prophecy?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17372: Examinez le Début des Contes à Jeuno Inférieur (G-9) lorsque vous souhaitez commencer *A Crystalline Prophecy*.
-17373: Vous pouvez maintenant profiter d'un nouveau scénario, *A Shantotto Ascension*.
-17374: |-
-    Commencer *A Shantotto Ascension* ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17372: Examine the Tales' Beginning in Lower Jeuno (G-9) when you wish to start A Crystalline Prophecy.
+  17373: You are now able to enjoy a new storyline, A Shantotto Ascension.
+  17374: |-
+    Start A Shantotto Ascension?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17375: Examinez le Début des Contes des Murs de Windurst (C-6) lorsque vous souhaitez commencer *A Shantotto Ascension*.
-17376: Vous pouvez maintenant profiter d'un nouveau scénario, *Abyssea*.
-17377: |-
-    Commencer *Abyssea* ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17375: Examine the Tales' Beginning in Windurst Walls (C-6) when you wish to start A Shantotto Ascension.
+  17376: You are now able to enjoy a new storyline, Abyssea.
+  17377: |-
+    Start Abyssea?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17378: Examinez le Début des Contes à Port Jeuno (F-8) lorsque vous souhaitez commencer *Abyssea*.
-17379: Vous pouvez maintenant profiter d'un nouveau scénario, *Chains of Promathia*.
-17380: |-
-    Commencer *Chains of Promathia* ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17378: Examine the Tales' Beginning in Port Jeuno (F-8) when you wish to start Abyssea.
+  17379: You are now able to enjoy a new storyline, Chains of Promathia.
+  17380: |-
+    Start Chains of Prromathia?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17381: Examinez le Début des Contes à la Tour de Delkfutt Inférieur (H-10) lorsque vous souhaitez commencer *Chains of Promathia*.
-17382: Vous pouvez maintenant profiter d'un nouveau scénario, *Seekers of Adoulin*.
-17383: |-
-    Commencer *Seekers of Adoulin* ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17381: Examine the Tales' Beginning in Lower Delkfutt's Tower (H-10) when you wish to start Chains of Promathia.
+  17382: You are now able to enjoy a new storyline, Seekers of Adoulin.
+  17383: |-
+    Start Seekers of Adoulin?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17384: Examinez le Début des Contes à San d'Oria Nord, au Marché de Bastok ou des Bois de Windurst lorsque vous souhaitez commencer *Seekers of Adoulin*.
-17385: Vous pouvez maintenant profiter d'un nouveau scénario, *Rhapsodies of Vana'diel*.
-17386: |-
-    Commencer *Rhapsodies of Vana'diel* ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17384: Examine the Tales' Beginning in Northern San d'Oria, Bastok Market,s or Windurst Woods when you wish to start Seekers of Adoulin.
+  17385: You are now able to enjoy a new storyline, Rhapsodies of Vana'diel.
+  17386: |-
+    Start Rhapsodies of Vana'diel?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17387: Examinez le Début des Contes dans les trois nations lorsque vous souhaitez commencer *Rhapsodies of Vana'diel*.
-17388: Vous pouvez maintenant profiter d'un nouveau scénario, *Rise of the Zilart*.
-17389: |-
-    Commencer *Rise of the Zilart* ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17387: Examine the Tales' Beginning in the three nations when you wish to start Rhapsodies of Vana'diel.
+  17388: You are now able to enjoy a new storyline, Rise of the Zilart.
+  17389: |-
+    Start Rise of the zilart?
     ${selection-lines}
-    Oui (Voir la scène).
-    Peut-être plus tard.${prompt}
-17390: Examinez le Début des Contes à Norg (H-9) lorsque vous souhaitez commencer *Rise of the Zilart*.
-17391: Souhaitez-vous commencer un nouveau scénario que vous avez précédemment reporté ?${prompt}
-17392: |-
-    Commencer lequel ?
+    Yes (View cutscene).
+    Maybe later.${prompt}
+  17390: Examine the Tales' Beginning in Norg (H-9) when you wish to start Rise of the Zilart.
+  17391: Would you like to start a new storyline that you previously postponed?${prompt}
+  17392: |-
+    Start which?
     ${selection-lines}
-    Aucun pour l'instant.
-    *Rise of the Zilart*.
-    *A Crystalline Prophecy*.
-    *A Shantotto Ascension*.
-    *Chains of Promathia*.
-    *Abyssea*.
-    *Seekers of Adoulin*.
-    *Rhapsodies of Vana'diel*.${prompt}
-17393: 'Commencer le scénario précédemment reporté ${choice: 0}[*Rise of the Zilart/*A Crystalline Prophecy/*A Shantotto Ascension/*Chains of Promathia/*Abyssea/*Seekers of Adoulin/*Rhapsodies of Vana''diel] ?${prompt}'
-17394: |-
-    Commencer le scénario ?
+    None for now.
+    Rise of the Zilart.
+    A Crystallinbe Prophecy.
+    A Shantotto Ascension.
+    Chains of Promathia.
+    Abyssea.
+    Seekers of Adoulin.
+    Rhapsodies of Vana'diel.${prompt}
+  17393: 'Start the previously postponed storyline ${choice: 0}[Rise of the Zilart/A Crystalline Prophecy/A Shantotto Ascenaion/Chains of Promthia/Abyssea/Seekers of Adoulin/Rhapsodies of Vana''diel]?${prompt}'
+  17394: |-
+    Start the storyline?
     ${selection-lines}
-    Oui, s'il vous plaît.
-    Non, merci.${prompt}
+    Yes, please.
+    No, thank you.${prompt}
