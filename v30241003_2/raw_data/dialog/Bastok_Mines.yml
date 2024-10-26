@@ -24402,27 +24402,27 @@ entries:
   11206: 'Votre rang est trop bas pour acheter le ${item-singular: 2[2]}.$ {prompt}'
   11207: 'Vous n’avez pas suffisamment de points de conquête pour acheter le ${item-singular: 2[2]}.$ {prompt}'
   11208: |-
-    You cannot equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Vous ne pouvez pas équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous toujours continuer ?${prompt}
   11209: |-
-    Your level is too low to equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Votre niveau est trop bas pour équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous toujours continuer ?${prompt}
   11210: |-
-    You seem to be able to equip the ${item-singular: 2[2]}.
-    Do you wish to proceed?${prompt}
-  11211: 'Are you sure you want to purchase the ${item-singular: 2[2]}?${prompt}'
+    Vous semblez être en mesure d'équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous continuer ?${prompt}
+  11211: 'Êtes-vous sûr de vouloir acheter le ${item-singular: 2[2]} ?${prompt}'
   11212: |-
-    Proceed?
+    Voulez-vous continuer ?
     ${selection-lines}
-    Yes, purchase item.
-    Cancel purchase.${prompt}
+    Oui, acheter l'objet.
+    Annuler l'achat.${prompt}
   11213: |-
-    Proceed?
+    Voulez-vous continuer ?
     ${selection-lines}
-    Yes, even though I can't equip it.
-    Cancel purchase.${prompt}
+    Oui, même si je ne peux pas l'équiper.
+    Annuler l'achat.${prompt}
   11214: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
@@ -24432,11 +24432,11 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   11215: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}...${number: 8} pts.
     ${lettercase: 1}${item-singular: 1[2]}...${number: 9} pts.
@@ -24446,135 +24446,134 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}...${number: 13} pts.
     ${lettercase: 1}${item-singular: 6[2]}...${number: 14} pts.
     ${lettercase: 1}${item-singular: 7[2]}...${number: 15} pts.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   11216: 'ENDPARA：${number: 0}${prompt}'
   11217: |-
-    Which service do you request?
+    Quel service demandez-vous ?
     ${selection-lines}
-    Buy/Sell items.
-    Teleportation.
-    Nothing.${prompt}
+    Acheter/Vendre des objets.
+    Téléportation.
+    Rien.${prompt}
   11218: |-
-    Do you really wish to be teleported?
+    Souhaitez-vous vraiment être téléporté ?
     ${selection-lines}
-    Yes.
-    Teleport with gil.
-    Teleport with conquest points.
-    No.${prompt}
-  11219: Welcome to the border shop! If you trade me unused equipment, I'll add their value to your country's region points!${prompt}
+    Oui.
+    Téléportation avec des gil.
+    Téléportation avec des points de conquête.
+    Non.${prompt}
+  11219: Bienvenue à la boutique de la frontière ! Si vous m'échangez de l'équipement inutilisé, j'ajouterai leur valeur aux points de région de votre pays !${prompt}
   11220: |-
-    It should please you to know that I now also deal in ${item-plural: 0[2]}.
-    Bigger pieces will earn you more points for your nation, and I'll even toss some gil into the equation!${prompt}
-  11221: I see that your home country has control of this region. Feel free to browse through my wares.${prompt}
-  11222: I see that your home country is allies with the country in control of this region. Feel free to browse through my wares.${prompt}
-  11223: 'I can teleport you to your home country for ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points].${prompt}'
-  11224: "Word has it that the entire set of mog tablets has been recovered. \nOh, happy day! In honor of the occasion, I can teleport you to your home country free of charge.${prompt}"
-  11225: I am terribly sorry, but it seems as if you do not have enough gil.${prompt}
-  11226: I am terribly sorry, but it seems as if you do not have enough conquest points.${prompt}
-  11227: However, due to your home country's lack of influence in the region, this is the only transaction I am authorized to perform with you at the moment.${prompt}
-  11228: I am looking forward to doing business with you again in the future!${prompt}
-  11229: Thank you. This will increase your nation's region points by a small amount. If you have anything else, by all means, trade them to me.${prompt}
-  11230: Thank you. This will increase your nation's region points moderately. If you have anything else, by all means, trade them to me.${prompt}
-  11231: Thank you. This will increase your nation's region points greatly. If you have anything else, by all means, trade them to me.${prompt}
-  11232: I could not accept one or more items you tried to trade me. Please remove those items and try again.${prompt}
-  11233: Sorry. I can only take certain types of weapons, shields, or armor.${prompt}
+    Il devrait vous plaire de savoir que je m'occupe maintenant aussi de ${item-plural: 0[2]}.
+    Des pièces plus grandes vous rapporteront plus de points pour votre nation, et j'ajouterai même un peu de gil à l'équation !${prompt}
+  11221: Je vois que votre pays d'origine contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
+  11222: Je vois que votre pays d'origine est allié avec le pays qui contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
+  11223: 'Je peux vous téléporter dans votre pays d’origine pour ${number: 1} gil ou ${number: 3} point ${choice-plurality: 3}[de conquête/de conquêtes].${prompt}'
+  11224: "On dit que l'ensemble des tablettes mog a été récupéré. \nOh, quel jour heureux ! Pour célébrer l'occasion, je peux vous téléporter dans votre pays d'origine gratuitement.${prompt}"
+  11225: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de gil.${prompt}
+  11226: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de points de conquête.${prompt}
+  11227: Cependant, en raison du manque d'influence de votre pays d'origine dans la région, c'est la seule transaction que je suis autorisé à effectuer avec vous pour le moment.${prompt}
+  11228: J'attends avec impatience de faire des affaires avec vous à nouveau à l'avenir !${prompt}
+  11229: Merci. Cela augmentera les points de région de votre nation d'un petit montant. Si vous avez autre chose, n'hésitez pas à me l'échanger.${prompt}
+  11230: Merci. Cela augmentera les points de région de votre nation d'un montant modéré. Si vous avez autre chose, n'hésitez pas à me l'échanger.${prompt}
+  11231: Merci. Cela augmentera les points de région de votre nation de manière significative. Si vous avez autre chose, n'hésitez pas à me l'échanger.${prompt}
+  11232: Je n'ai pas pu accepter un ou plusieurs objets que vous avez essayé de me trader. Veuillez retirer ces objets et réessayer.${prompt}
+  11233: Désolé. Je ne peux prendre que certains types d'armes, de boucliers ou d'armures.${prompt}
   11234: |-
-    Thank you. This will increase your nation's region points ${choice: 1}[by a small amount/moderately/greatly].
-    For this transaction I will also furnish you with ${number: 0} gil.${prompt}
-  11235: My apologies, but this type of item needs to be individually appraised. Please trade them to me one at a time.${prompt}
-  11236: (DEBUG) Back to hometown!${prompt}
+    Merci. Cela augmentera les points de région de votre nation ${choice: 1}[d'un petit montant/modérément/considérablement].
+    Pour cette transaction, je vous fournirai également ${number: 0} gil.${prompt}
+  11235: Je vous prie de m'excuser, mais ce type d'objet doit être évalué individuellement. Veuillez me les échanger un à un.${prompt}
+  11236: (DEBUG) Retour à la ville natale !${prompt}
   11237: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Pourriez-vous me lancer le Signet ?
+    J'aimerais définir mon point de maison ici.
+    Rien.${prompt}
   11238: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  11239: Your home point has been set.${prompt}
-  11240: You do not have enough gil to set your home point here.${prompt}
-  11241: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gil et définir mon point de maison ici.
+    Rien.${prompt}
+  11239: Votre point de maison a été défini.${prompt}
+  11240: Vous n'avez pas assez de gil pour définir votre point de maison ici.${prompt}
+  11241: 'Je vais définir votre point de maison ici.${wait-animation: 0}${prompt}'
   11242: |-
-    We are currently on a beastman-purging campaign. We support adventurers from all nations.
-    Do your best to rid the world of those vile creatures.${prompt}
+    Nous sommes actuellement en campagne de purging des bêtes. Nous soutenons les aventuriers de toutes les nations.
+    Faites de votre mieux pour débarrasser le monde de ces créatures vilaines.${prompt}
   11243: |-
-    We are currently conducting an international exchange campaign.
-    You may spend your conquest points to purchase items from foreign guards.${prompt}
+    Nous menons actuellement une campagne d'échange international.
+    Vous pouvez dépenser vos points de conquête pour acheter des objets auprès de gardes étrangers.${prompt}
   11244: |-
-    Thanks to you, our nation is now first in the conquest race!
-    Here is a small token of our appreciation.${prompt}
-  11245: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+    Grâce à vous, notre nation est maintenant première dans la course à la conquête !
+    Voici un petit signe de notre appréciation.${prompt}
+  11245: Les aventuriers des nations qui sont classées plus haut que la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un tarif plus élevé.${prompt}
   11246: |-
-    You cannot currently purchase this item.
-    Please choose another.${prompt}
-  11247: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
-  11248: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
-  11249: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
-  11250: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+    Vous ne pouvez actuellement pas acheter cet objet.
+    Veuillez choisir un autre.${prompt}
+  11247: Actuellement, notre nation dépêche des forces expéditionnaires à travers Vana'diel et demande la participation d'aventuriers courageux comme vous.${prompt}
+  11248: 'Les exigences pour participer à un E.F. sont simples. Votre groupe doit être composé de ${number: 5} membres. Chaque membre doit être de ce pays, de rang 3 ou plus, et avoir atteint un niveau suffisant.${prompt}'
+  11249: Une fois que votre groupe est prêt, venez me voir et je vous téléporterai au poste avancé le plus proche.${prompt}
+  11250: Là, vous recevrez une insigne de la Force Expéditionnaire. Lorsque vous aurez réussi à prendre le contrôle de la zone, vous pourrez échanger l'insigne contre votre récompense.${prompt}
   11251: |-
-    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Rejoindre l'E.F. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les basses terres d'Elshimo/Les hauts plateaux d'Elshimo] ?
     ${selection-lines}
-    Join the E.F.
-    Not this time.${prompt}
-  11252: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
-  11253: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
-  11254: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
-  11255: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+    Rejoindre l'E.F.
+    Pas cette fois.${prompt}
+  11252: Votre groupe n'a pas assez de membres, ou certains membres ne se trouvent pas dans cette zone. Rassemblez tous ceux qui participent et revenez ici.${prompt}
+  11253: L'un des membres de votre groupe n'est pas citoyen de ce pays. Nous n'autorisons pas de participants étrangers dans l'E.F.${prompt}
+  11254: L'un des membres de votre groupe n'a pas atteint le rang 3. Nous ne pouvons pas révéler nos stratégies tactiques à ceux qui n'ont pas montré leur loyauté envers notre pays.${prompt}
+  11255: 'L’un des membres de votre groupe est en dessous du niveau ${number: 6}. Pour la sécurité de l’aventurier et de ceux qui l’accompagnent, nous ne pouvons permettre à quiconque en dessous de la limite de participer à l’E.F.${prompt}'
   11256: |-
-    I see that you are ready.
-    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
-  11257: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+    Je vois que vous êtes prêt.
+  11257: 'Êtes-vous prêt à être téléporté vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les basses terres d’Elshimo/Les hauts plateaux d’Elshimo] ? N’oubliez pas que les membres du groupe qui n’ont pas reçu la permission d’assister à l’E.F. seront laissés derrière.${prompt}'
   11258: |-
-    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Téléporter vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les basses terres d'Elshimo/Les hauts plateaux d'Elshimo] ?
     ${selection-lines}
-    Ready!
-    Wait just a minute...${prompt}
-  11259: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+    Prêt !
+    Attendez juste une minute...${prompt}
+  11259: 'Annuler votre participation à l’E.F. vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les basses terres d’Elshimo/Les hauts plateaux d’Elshimo] ?${prompt}'
   11260: |-
-    Quit the E.F.?
+    Quitter l'E.F. ?
     ${selection-lines}
-    Yes.
-    Change locations.
-    No.${prompt}
-  11261: Are you sure?${prompt}
+    Oui.
+    Changer de lieu.
+    Non.${prompt}
+  11261: Êtes-vous sûr ?${prompt}
   11262: |-
-    Really quit the E.F.?
+    Vraiment quitter l'E.F. ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11263: |-
-    I see.
-    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  11264: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
-  11265: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
-  11266: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
-  11267: Your invalid ensignias have been disposed of.${prompt}
-  11268: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
-  11269: 'You received ${number: 1} conquest points!${prompt}'
-  11270: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+    Je vois.
+    Si vous souhaitez participer à l'avenir, je vous attendrai ici pour prendre votre demande.${prompt}
+  11264: 'Votre ${color: 5}Insigne d’E.F.${color: 1} disparaît !${prompt}'
+  11265: 'Points Katsu-yaku : ${number: 0} !${prompt}'
+  11266: 'Cet ${keyitem-singular: 0[2]} n’est plus valide. Nous allons nous en débarrasser ici.${prompt}'
+  11267: Vos insignes invalides ont été éliminés.${prompt}
+  11268: Bienvenue de retour de l'expédition. Notre nation a réussi sa campagne. Laissez-moi vous donner votre récompense.${prompt}
+  11269: 'Vous avez reçu ${number: 1} points de conquête !${prompt}'
+  11270: Lorsque vous participez à une Force Expéditionnaire, concentrez vos efforts sur le combat contre des ennemis qui vous rapportent le plus de points d'expérience. Et n'oubliez pas de confisquer le contenu de tout coffre au trésor des bêtes que vous pourriez rencontrer.${prompt}
   11271: |-
-    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
-    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
-  11272: You could not be teleported. Ask me again, please.${prompt}
-  11273: The conquest results are currently being tallied. Come back later.${prompt}
-  11274: You have received permission to join the Expeditionary Forces!${prompt}
-  11275: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
-  11276: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
-  11277: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
-  11278: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
-  11279: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
-  11280: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
-  11281: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
-  11282: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
-  11283: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
-  11284: 'Your inventory is full. You could not accept the ${item-singular: 0[2]}.${prompt}'
-  11285: You already possess a gate glyph. You cannot hold any more.${prompt}
-  11286: I am Jeunoan Ducal Guard, ${name-npc}. My duty is to support the conquest efforts of Windurst, San d'Oria, and Bastok.${prompt}
+    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l'inscription au dos avant de commencer vos fonctions.
+    Une fois le Signet appliqué, préparez-vous à être téléporté.${prompt}
+  11272: Vous n'avez pas pu être téléporté. Demandez-moi à nouveau, s'il vous plaît.${prompt}
+  11273: Les résultats de la conquête sont actuellement en cours de comptage. Revenez plus tard.${prompt}
+  11274: Vous avez reçu la permission de rejoindre les Forces Expéditionnaires !${prompt}
+  11275: Actuellement, nous sommes premiers dans la conquête de Vana'diel, mais cela ne doit pas être pris pour acquis. Nous devons continuer notre lutte pour rester en tête.${prompt}
+  11276: Nous avions la première place en main, mais nous l'avons laissée s'échapper. Si nous voulons être classés premiers dans Vana'diel, chacun d'entre nous doit faire sa part. J'attends avec impatience d'entendre parler de vos réalisations.${prompt}
+  11277: Notre pays est tombé à la troisième place dans la conquête de Vana'diel. Nous devons intensifier nos efforts pour améliorer la situation.${prompt}
+  11278: Vous devez combattre dans des batailles qui rapportent de hauts niveaux d'expérience. C'est le seul moyen pour nous d'apporter des zones sous le contrôle de notre pays.${prompt}
+  11279: Actuellement, notre pays est la force dominante dans cette région. Si nous pouvons maintenir ce niveau, le contrôle de cette zone sera à nous.${prompt}
+  11280: Actuellement, notre pays est une force majeure dans cette région. Cependant, nous ne pouvons pas prendre cela pour acquis. Si nous baissons notre garde, nous perdrons sûrement le contrôle de la zone !${prompt}
+  11281: Actuellement, notre pays n'a qu'une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de ce trou que nous avons creusé.${prompt}
+  11282: Actuellement, l'influence de notre pays dans cette zone est minimale. Si nous n'agissons pas rapidement, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
+  11283: Prenez soin de passer, car cette zone est actuellement envahie par des bêtes ! Quelque chose doit être fait, sinon l'ennemi aura le contrôle de toute la région.${prompt}
+  11284: 'Votre inventaire est plein. Vous n’avez pas pu accepter le ${item-singular: 0[2]}.${prompt}'
+  11285: Vous possédez déjà un glyphe de porte. Vous ne pouvez pas en avoir plus.${prompt}
+  11286: Je suis le garde ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d'Oria et Bastok.${prompt}
   11287: 　${prompt}
   11288: 　${prompt}
   11289: 　${prompt}
