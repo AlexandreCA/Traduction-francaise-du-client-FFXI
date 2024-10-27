@@ -16681,53 +16681,53 @@ entries:
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
   6755: |-
-    Your fate rides on the changing winds of Vana'diel.
-    I can give you insight on the local weather.${prompt}
+    Votre destin dépend des vents changeants de Vana'diel.
+    Je peux vous donner des informations sur la météo locale.${prompt}
   6756: |-
-    What area's weather do you wish to know?
+    Quelle région souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     Ronfaure.
-    La Theine Plateau.
-    Valkurm Dunes.
-    Jugner Forest.
-    Batallia Downs.
+    Plateau de La Theine.
+    Dunes de Valkurm.
+    Forêt de Jugner.
+    Plaine de Batallia.
     Gustaberg.
-    Konschtat Highlands.
-    Pashhow Marshlands.
-    Rolanberry Fields.
-    Beaucedine Glacier.
+    Highlands de Konschtat.
+    Marais de Pashhow.
+    Champs de Rolanberry.
+    Glacier de Beaucedine.
     Xarcabard.
-    Cape Teriggan.
-    Altepa Desert.
+    Cap Teriggan.
+    Désert d'Altepa.
     Sarutabaruta.
-    Tahrongi Canyon.
-    Buburimu Peninsula.
-    Meriphataud Mountains.
-    Sauromugue Champaign.
-    The Sanctuary of Zi'Tah.
-    Yuhtunga & Yhoator Jungles.
-    Qufim Island.
+    Canyon de Tahrongi.
+    Péninsule de Buburimu.
+    Montagnes de Meriphataud.
+    Champagne de Sauromugue.
+    Le Sanctuaire de Zi'Tah.
+    Jungles de Yuhtunga et Yhoator.
+    Île de Qufim.
     Tu'Lia.
     Ferry.
-    Airship.
+    Aéronef.
     Jeuno.
-    Uleguerand Range.
-    Tavnazian Archipelago.
-    Riverne - Sites #A01 & #B01.${prompt}
-  6757: 'That area''s forecast for today is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6758: 'The forecast for tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6759: 'And, the forecast for the day after tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6760: 'Today, that area''s weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6761: 'Tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6762: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6763: 'Today, the weather in that area will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6764: 'Tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6765: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6766: 'The weather in that area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6767: 'The weather tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6768: 'The weather the day after tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6769: And that's the report, straight from Vana'diel's official weather linkshell.${prompt}
+    Chaîne d'Uleguerand.
+    Archipel de Tavnazia.
+    Riverne - Sites #A01 et #B01.${prompt}
+  6757: 'Les prévisions pour cette région aujourd''hui sont de ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnels. Il y a également une légère chance de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6758: 'Les prévisions pour demain sont de ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnels. Il y a également une légère chance de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6759: 'Et, les prévisions pour après-demain sont de ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnels. Il y a également une légère chance de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6760: 'Aujourd''hui, la météo dans cette région sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6761: 'Demain, la météo sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6762: 'Et, après-demain, la météo sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6763: 'Aujourd''hui, la météo dans cette région sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6764: 'Demain, la météo sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6765: 'Et, après-demain, la météo sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6766: 'La météo dans cette région aujourd''hui sera ${weather-adjective: 0[2]}.${prompt}'
+  6767: 'La météo demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6768: 'La météo après-demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6769: 'Et c''est le rapport, tout droit venu des liens météo officiels de Vana''diel.${prompt}'
   6770: |-
     What area's weather do you wish to know?
     ${selection-lines}
