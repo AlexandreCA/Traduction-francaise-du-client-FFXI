@@ -35502,40 +35502,40 @@ entries:
   16857: 'You must take on the “${unknown: 0x01054082808080}” Records of Eminence objective before receiving the explanation.${prompt}'
   16858: 'You must complete “${unknown: 0x01054082818080}” before taking on the “${unknown: 0x01054082808080}” Records of Eminence objective.${prompt}'
   16859: |-
-    What do you want to learn about?
+    Que souhaites-tu apprendre ?
     ${selection-lines}
-    What is the Assist Channel?
-    How can I post a message?
-    What are the requirements?
-    Where can I access it?
-    Tell me about mentor messages.
-    Where can I find mentors?
-    What are Thumbs Up and Warnings?
-    What happens if I am muted?
-    When do my posting rights expire?
-    Nothing for now.${prompt}
-  16860: The Assist Channel is a special chat channel that allows adventurers to ask questions and receive advice from veteran players known as mentors.${prompt}
-  16861: Press the space bar to bring up the text window at the bottom of the screen and type “/assistj (your message)” or “/assiste (your message)” to post your message.${prompt}
-  16862: You can also use “/aj” for “/assistj”, and “/ae” for “/assiste”.${prompt}
-  16863: Additionally, pressing CTRL+Q will display “/assistj” or “/assiste” in the text window for you.${prompt}
-  16864: You can change the CTRL+Q shortcut command...${prompt}
-  16865: '...by going to Main Menu > Config > Misc. 2 > Key Assignment > Commands > Chat: /AssistE or /AssistJ.${prompt}'
-  16866: It is recommended that you use “/assistj (/aj)” when posting in Japanese, and “/assiste (/ae)” when posting in English.${prompt}
-  16867: You must meet one of the following conditions in order to post to the Assist Channel.${prompt}
+    Qu'est-ce que le Canal d'Assistance ?
+    Comment puis-je poster un message ?
+    Quelles sont les conditions requises ?
+    Où puis-je y accéder ?
+    Parle-moi des messages de mentor.
+    Où puis-je trouver des mentors ?
+    Qu'est-ce que les Thumbs Up et les Avertissements ?
+    Que se passe-t-il si je suis muet ?
+    Quand mes droits de publication expirent-ils ?
+    Rien pour l'instant.${prompt}
+  16860: Le Canal d'Assistance est un canal de chat spécial qui permet aux aventuriers de poser des questions et de recevoir des conseils de la part de joueurs vétérans appelés mentors.${prompt}
+  16861: Appuie sur la barre d'espace pour faire apparaître la fenêtre de texte en bas de l'écran et tape “/assistj (ton message)” ou “/assiste (ton message)” pour poster ton message.${prompt}
+  16862: Tu peux aussi utiliser “/aj” pour “/assistj” et “/ae” pour “/assiste”.${prompt}
+  16863: De plus, en appuyant sur CTRL+Q, tu feras apparaître “/assistj” ou “/assiste” dans la fenêtre de texte.${prompt}
+  16864: Tu peux changer la commande de raccourci CTRL+Q...${prompt}
+  16865: '...en allant dans Menu Principal > Config > Divers 2 > Assignation des touches > Commandes > Chat : /AssistE ou /AssistJ.${prompt}'
+  16866: Il est recommandé d'utiliser “/assistj (/aj)” lors de la publication en japonais et “/assiste (/ae)” lors de la publication en anglais.${prompt}
+  16867: Tu dois remplir l'une des conditions suivantes pour pouvoir poster sur le Canal d'Assistance.${prompt}
   16868: |-
-    1. You are a new player
-    You may post messages from the moment you first set foot in Vana'diel.${prompt}
+    1. Tu es un nouveau joueur.
+    Tu peux poster des messages dès que tu mets les pieds pour la première fois à Vana'diel.${prompt}
   16869: |-
-    2. You are a returnee
-    As a returning player, you may post messages upon logging in with a character that has not logged in for at least 48 days.${prompt}
+    2. Tu es un revenant.
+    En tant que joueur revenant, tu peux poster des messages dès que tu te connectes avec un personnage qui ne s'est pas connecté depuis au moins 48 jours.${prompt}
   16870: |-
-    3. You are a mentor
-    You may post messages as long as you remain a mentor to other players.${prompt}
-  16871: New players and returnees may post messages until they have been logged in for a total of 48 hours since first receiving their posting rights.${prompt}
-  16872: If you wish to check how long you can continue to post for, speak to an ${name-npc} and choose "When do my posting rights expire?" to see how much time you have left.${prompt}
-  16873: The Assist Channel can only be used in the following areas.${prompt}
+    3. Tu es un mentor.
+    Tu peux poster des messages tant que tu restes mentor pour d'autres joueurs.${prompt}
+  16871: Les nouveaux joueurs et les revenants peuvent poster des messages jusqu'à ce qu'ils aient été connectés un total de 48 heures depuis qu'ils ont reçu leurs droits de publication.${prompt}
+  16872: Si tu souhaites vérifier combien de temps tu peux continuer à poster, parle à un ${name-npc} et choisis "Quand mes droits de publication expirent-ils ?" pour voir combien de temps il te reste.${prompt}
+  16873: Le Canal d'Assistance ne peut être utilisé que dans les zones suivantes.${prompt}
   16874: |-
-    Available areas:
+    Zones disponibles :
     ${unknown: 0x01053782F38180}, ${unknown: 0x01053782F48180},
     ${unknown: 0x01053782F58180}, ${unknown: 0x01053782F68180},
     ${unknown: 0x01053782E68180}, ${unknown: 0x01053782E78180}...${prompt}
@@ -35557,10 +35557,10 @@ entries:
     Even in areas where messages are allowed, you cannot post consecutive messages.
     Please wait a while after posting a message.${prompt}
   16880: |-
-    Mentor messages are accompanied by a flag (${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF2F}) marker.
+    Mentor messages are accompanied by a flag (${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}/) marker.
     This marker indicates the mentor's reliability (Mentor Class) and experience as an adventurer (Mastery Rank).${prompt}
-  16881: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF2F} > ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF39} > ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF43}${prompt}'
-  16882: 'A ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF43} marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
+  16881: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}/ > ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}9 > ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}C${prompt}'
+  16882: 'A ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEFEF}C marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
   16883: The number affixed to the marker is the mentor's Mastery Rank, and indicates how experienced the mentor is as an adventurer.${prompt}
   16884: The higher the number, the more experienced the mentor is.${prompt}
   16885: You can check your own Mastery Rank even if you do not serve as a mentor, so feel free to take a look every now and then if you are curious.${prompt}
@@ -36540,70 +36540,70 @@ entries:
   17369: |-
     Thanks again for everything.
     You know how it is--even if they don't say it, everyone here is grateful for what you did.${prompt}
-  17370: You are now able to enjoy a new storyline, A Crystalline Prophecy.
+  17370: Tu peux maintenant profiter d'une nouvelle histoire, Une Prophétie Cristalline.
   17371: |-
-    Start A Crystalline Prophecy?
+    Commencer Une Prophétie Cristalline ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17372: Examine the Tales' Beginning in Lower Jeuno (G-9) when you wish to start A Crystalline Prophecy.
-  17373: You are now able to enjoy a new storyline, A Shantotto Ascension.
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17372: Examine le Début des Contes dans le Bas de Jeuno (G-9) quand tu souhaites commencer Une Prophétie Cristalline.
+  17373: Tu peux maintenant profiter d'une nouvelle histoire, Une Ascension de Shantotto.
   17374: |-
-    Start A Shantotto Ascension?
+    Commencer Une Ascension de Shantotto ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17375: Examine the Tales' Beginning in Windurst Walls (C-6) when you wish to start A Shantotto Ascension.
-  17376: You are now able to enjoy a new storyline, Abyssea.
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17375: Examine le Début des Contes dans les Murailles de Windurst (C-6) quand tu souhaites commencer Une Ascension de Shantotto.
+  17376: Tu peux maintenant profiter d'une nouvelle histoire, Abyssea.
   17377: |-
-    Start Abyssea?
+    Commencer Abyssea ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17378: Examine the Tales' Beginning in Port Jeuno (F-8) when you wish to start Abyssea.
-  17379: You are now able to enjoy a new storyline, Chains of Promathia.
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17378: Examine le Début des Contes dans le Port Jeuno (F-8) quand tu souhaites commencer Abyssea.
+  17379: Tu peux maintenant profiter d'une nouvelle histoire, Les Chaînes de Promathia.
   17380: |-
-    Start Chains of Prromathia?
+    Commencer Les Chaînes de Promathia ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17381: Examine the Tales' Beginning in Lower Delkfutt's Tower (H-10) when you wish to start Chains of Promathia.
-  17382: You are now able to enjoy a new storyline, Seekers of Adoulin.
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17381: Examine le Début des Contes dans la Tour de Delkfutt (H-10) quand tu souhaites commencer Les Chaînes de Promathia.
+  17382: Tu peux maintenant profiter d'une nouvelle histoire, Chercheurs d'Adoulin.
   17383: |-
-    Start Seekers of Adoulin?
+    Commencer Chercheurs d'Adoulin ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17384: Examine the Tales' Beginning in Northern San d'Oria, Bastok Market,s or Windurst Woods when you wish to start Seekers of Adoulin.
-  17385: You are now able to enjoy a new storyline, Rhapsodies of Vana'diel.
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17384: Examine le Début des Contes dans le Nord de San d'Oria, le Marché de Bastok, ou les Bois de Windurst quand tu souhaites commencer Chercheurs d'Adoulin.
+  17385: Tu peux maintenant profiter d'une nouvelle histoire, Rhapsodies de Vana'diel.
   17386: |-
-    Start Rhapsodies of Vana'diel?
+    Commencer Rhapsodies de Vana'diel ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17387: Examine the Tales' Beginning in the three nations when you wish to start Rhapsodies of Vana'diel.
-  17388: You are now able to enjoy a new storyline, Rise of the Zilart.
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17387: Examine le Début des Contes dans les trois nations quand tu souhaites commencer Rhapsodies de Vana'diel.
+  17388: Tu peux maintenant profiter d'une nouvelle histoire, L'Ascension des Zilart.
   17389: |-
-    Start Rise of the zilart?
+    Commencer L'Ascension des Zilart ?
     ${selection-lines}
-    Yes (View cutscene).
-    Maybe later.${prompt}
-  17390: Examine the Tales' Beginning in Norg (H-9) when you wish to start Rise of the Zilart.
-  17391: Would you like to start a new storyline that you previously postponed?${prompt}
+    Oui (Voir la cinématique).
+    Peut-être plus tard.${prompt}
+  17390: Examine le Début des Contes à Norg (H-9) quand tu souhaites commencer L'Ascension des Zilart.
+  17391: Souhaites-tu commencer une nouvelle histoire que tu avais précédemment reportée ?${prompt}
   17392: |-
-    Start which?
+    Commencer laquelle ?
     ${selection-lines}
-    None for now.
-    Rise of the Zilart.
-    A Crystallinbe Prophecy.
-    A Shantotto Ascension.
-    Chains of Promathia.
+    Aucune pour l'instant.
+    L'Ascension des Zilart.
+    Une Prophétie Cristalline.
+    Une Ascension de Shantotto.
+    Les Chaînes de Promathia.
     Abyssea.
-    Seekers of Adoulin.
-    Rhapsodies of Vana'diel.${prompt}
-  17393: 'Start the previously postponed storyline ${choice: 0}[Rise of the Zilart/A Crystalline Prophecy/A Shantotto Ascenaion/Chains of Promthia/Abyssea/Seekers of Adoulin/Rhapsodies of Vana''diel]?${prompt}'
+    Chercheurs d'Adoulin.
+    Rhapsodies de Vana'diel.${prompt}
+  17393: 'Commencer l’histoire précédemment reportée ${choice: 0}[L’Ascension des Zilart/Une Prophétie Cristalline/Une Ascension de Shantotto/Les Chaînes de Promathia/Abyssea/Chercheurs d’Adoulin/Rhapsodies de Vana''diel]?${prompt}'
   17394: |-
-    Start the storyline?
+    Commencer l'histoire ?
     ${selection-lines}
-    Yes, please.
-    No, thank you.${prompt}
+    Oui, s'il te plaît.
+    Non, merci.${prompt}
