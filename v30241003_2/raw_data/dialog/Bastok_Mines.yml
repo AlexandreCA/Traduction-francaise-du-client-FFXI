@@ -22999,11 +22999,14 @@ entries:
   10592: |-
     Merci.
     Cela me fait de la peine de devoir compter sur la gentillesse des gens comme ça, mais tu as ma gratitude.${prompt}
-  10594: Je dois aussi remercier Cornelia pour sa gentillesse...${prompt}
+  10593: Cela me fait mal de devoir compter sur la bonté des gens comme ça, mais je te suis reconnaissant.${prompt}
+  10594: Je dois également remercier Cornelia pour sa gentillesse...${prompt}
+
+
   10595: |-
-    Ah !
+    Ah!
     Tu m'as apporté ${keyitem-article: 7[2]} !${prompt}
-  10596: |-
+  10596: |-                                                          
     Hmm ?
     Oui, je suis Parraggoh.${prompt}
   10597: 'Quoi ? Cornelia t’a demandé... et tu m’as apporté ${keyitem-article: 7[2]} ?${prompt}'
@@ -23016,14 +23019,17 @@ entries:
     Non, attends--
     Dis-lui plutôt qu'elle ne devrait pas trop traîner avec nous, les Galka.${prompt}
   10602: Pour son propre bien.${prompt}
+  
+  
+  
   10603: |-
     Ah ! C'est bon de te revoir.
-    Comment vas-tu ?${prompt}
+    Coment vas-tu ?${prompt}
   10604: |-
     Ce n'est pas un endroit pour que tu traînes.
     Sors de ma vue, étranger.${prompt}
   10605: |-
-    As-tu vu Gumbah ?
+    As-tu vu Gumbah ?                     
     ${selection-lines}
     Oui.
     Non.${prompt}
@@ -23035,6 +23041,9 @@ entries:
   10609: Hé, toi ! As-tu vu un petit Galka appelé « Gumbah » ?${prompt}
   10610: Je suis là. Que veux-tu ?${prompt}
   10611: Ah ! Enfin, nous nous rencontrons à nouveau ! Prépare-toi à faire face à ta fin !${prompt}
+  
+  
+  
   10612: |-
     Oh, pas encore. Ne t'ai-je pas battu la dernière fois ?
     Tu as toujours été un enfant ennuyeux...${prompt}
@@ -23045,7 +23054,8 @@ entries:
   10615: |-
     Tu n'as pas dit que je ne pouvais pas.
     De plus, tu as triché en premier. Je t'ai vu emprunter l'épée de Deidogg.${prompt}
-  10616: Urk... Eh bien, euh... oublions les épées ! Cette fois, ce sera des casques !
+  10616: |- 
+    Urk... Eh bien, euh... oublions les épées ! Cette fois, ce sera des casques !
     Celui qui apporte le meilleur casque gagne !
     Et n'apporte pas un des casques de Werei, Gumbah !${prompt}
   10617: |-
@@ -23054,19 +23064,22 @@ entries:
   10618: Non, non, non ! Tu ne t'enfuis pas encore !${prompt}
   10619: |-
     De toute façon, je pense apporter ${article} ${item-article: 7[2]}.
-    Hé, tu es un aventurier, non ? Tu en as un, n'est-ce pas ?${prompt}
+    Hé, tu es un aventurier, non ? Tu en as un, n'est-ce pas ?${prompt}                                                         
   10620: |-
     Puis-je l'emprunter juste quelques secondes ?
     Je te le rendrai, promis ! Je te donnerai même une récompense !${prompt}
-  10621: |-
+  10621: |-       
     Ooh ! ${lettercase: 1}${article} ${item-article: 7[2]} ! Merci !
     Maintenant, je vais montrer ça à Gumbah...${prompt}
-  10622: Tu empruntes encore...${prompt}
-  10623: |-
+  10621: Tu empruntes encore...${prompt}
+  10622: |-
     Te voilà ! Ha-ha ! Regarde, j'ai ${article} ${item-article: 7[2]} !
     La victoire est à moi !${prompt}
   10624: Uh-huh, bien pour toi. Mon casque devrait arriver bientôt.${prompt}
   10625: 'Te voilà ! Tiens, j’ai apporté le ${item-singular: 6[2]} que tu as demandé !${prompt}'
+  
+  
+  
   10626: |-
     Comment ça ?
     Est-ce que je gagne ?${prompt}
@@ -23079,7 +23092,7 @@ entries:
   10629: |-
     Gumbah ! As-tu menti ?
     Explique-toi !${prompt}
-  10630: Eh bien, euh... Je dois y aller !${prompt}
+  10630: Eh bien, euh... Je dois y aller !${prompt}                            
   10631: |-
     Hé ! Si tu cours, je gagne !
     Ha ! Que dis-tu de ça ?!${prompt}
@@ -23721,16 +23734,16 @@ entries:
   10904: |-
     Im Rnd : ${number: 0}
     Pz Rnd : ${number: 1}${prompt}
-  10905: 'CLI_NUM0 : ${number: 0} CLI_NUM1 : ${number: 1} CLI_NUM2 : ${number: 2} CLI_NUM3 : ${number: 3}${prompt}'
-  10906: 'CLI_NUM4 : ${number: 0} CLI_NUM5 : ${number: 1} CLI_NUM6 : ${number: 2} CLI_NUM7 : ${number: 3}${prompt}'
+  10905: 'CLI_NUM0:${number: 0} CLI_NUM1:${number: 1} CLI_NUM2:${number: 2} CLI_NUM3:${number: 3}${prompt}'
+  10906: 'CLI_NUM4:${number: 0} CLI_NUM5:${number: 1} CLI_NUM6:${number: 2} CLI_NUM7:${number: 3}${prompt}'
   10907: 'compétence : ${number: 0} taille : ${number: 1} type : ${number: 2} sch : ${number: 3}${prompt}'
   10908: 'temps : ${number: 0} mes : ${number: 1} drapeau : ${number: 2} bonus : ${number: 3}${prompt}'
   10909: 'objet : ${number: 0} hp : ${number: 1} pow : ${number: 2} swing : ${number: 3}${prompt}'
   10910: 'suc : ${number: 0} cons : ${number: 1} poids : ${number: 2} +- : ${number: 3}${prompt}'
   10911: 'vitesse : ${number: 0} +- : ${number: 1} exc : ${number: 2} client : ${number: 3}${prompt}'
   10912: 'général : ${number: 0}${prompt}'
-  10913: 'ro : ${number: 0} rs : ${number: 1} ps : ${number: 2} dt : ${number: 3}${prompt}'
-  10914: 'ra : ${number: 0} ti : ${number: 1}${prompt}'
+  10913: 'ro:${number: 0} rs:${number: 1} ps:${number: 2} dt:${number: 3}${prompt}'
+  10914: 'ra:${number: 0} ti:${number: 1}${prompt}'
   10915: |-
     Vous apercevez des empreintes familières.
     Vous êtes convaincu que votre ami moogle a fouillé dans les environs immédiats.${prompt}
@@ -23752,7 +23765,7 @@ entries:
   10929: 'Vous découvrez une cache de ressources de bêtes et recevez ${number: 0} point de conquête${choice-plurality: 0}[/s]!${prompt}'
   10930: 'Vous découvrez une cache de ressources de bêtes et recevez ${number: 0} Standing impérial !${prompt}'
   10931: 'Vous découvrez une cache de ressources de la confédération des bêtes et recevez ${number: 0} note alliée${choice-plurality: 0}[/s]!${prompt}'
-  10932: 'Vous recevez ${number: 0} bayld !${prompt}'
+  10932: 'Vous recevez ${number: 0} bayld!${prompt}'
   10933: 'Votre chocobo refuse de s’approcher du ${item-singular: 0[2]}.${prompt}'
   10934: |-
     Les seules choses dont un aventurier a besoin sont du courage et une bonne armure !
@@ -23795,13 +23808,13 @@ entries:
   10950: |-
     Que voulez-vous savoir ?
     ${selection-lines}
-    Qu'est-ce que la maison des enchères ?
-    Comment se déroulent les enchères ?
-    Y a-t-il des frais ?
-    Y a-t-il des limites ?
-    Comment vérifiez-vous la marchandise ?
-    Comment retirer un objet ?
-    Ma liste de "Statut de Vente" est pleine !
+    Qu'est-ce que la maison des enchères?
+    Comment se déroulent les enchères?
+    Y a-t-il des frais?
+    Y a-t-il des limites?
+    Comment vérifiez-vous la marchandise?
+    Comment retirer un objet?
+    Ma liste de "Statut de Vente" est pleine!
     Rien pour le moment.${prompt}
   10951: Les maisons de vente aux enchères peuvent être trouvées dans toutes les grandes villes de Vana'diel. Ici, les aventuriers se rassemblent pour enchérir sur des butins de bataille, des objets indésirables, de vieilles armures... presque tout.${prompt}
   10952: Actuellement, les maisons de vente aux enchères à Bastok, San d'Oria, Windurst et Jeuno fonctionnent indépendamment. Par conséquent, les prix diffèrent d'une ville à l'autre.${prompt}
@@ -23824,7 +23837,7 @@ entries:
   10969: Par le passé, beaucoup ont amassé une grande richesse grâce à la maison de vente aux enchères. J'espère que vous trouverez également la fortune !${prompt}
   10970: |-
     Maître, Maître !
-    J'ai une faveur à demander, kupo !${prompt}
+    J'ai une faveur à demander, kupo!${prompt}
   10971: |-
     Dormir sur ${item-singular: 3[2]} me rend nostalgique, kupo.
     Mon bienveillant maître donnera-t-il à ${choice-player-gender}[son/sa] moogle un peu de temps libre pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
@@ -24113,15 +24126,15 @@ entries:
     Nous, les moogles, avons préparé de jolis petits goodies et rassemblé beaucoup d'informations top secrètes sur l'activité des aventuriers, kupo !
     Laisse-moi vérifier mon journal pour tes données statistiques...${prompt}
   11119: |-
-    Fréquence des discussions : ${number: 0}
-    Conversations avec les PNJ : ${number: 1}
-    Groupes rejoints : ${number: 2}
-    Alliances formées : ${number: 3}${prompt}
+    Fréquence des discussions: ${number: 0}
+    Conversations avec les PNJ: ${number: 1}
+    Groupes rejoints: ${number: 2}
+    Alliances formées: ${number: 3}${prompt}
   11120: |-
-    Combats menés : ${number: 4}
-    Nombre de fois KO : ${number: 5}
+    Combats menés: ${number: 4}
+    Nombre de fois KO: ${number: 5}
     Ennemis vaincus : ${number: 6}
-    Appels GM effectués : ${number: 7}${prompt}
+    Appels GM effectués: ${number: 7}${prompt}
   11121: Voici ta vie d'aventurier en un mot !${prompt}
   11122: |-
     Voici ta vie d'aventurier en un mot !
@@ -24129,7 +24142,7 @@ entries:
   11123: 'Regarde--et pense à ça, tu peux sélectionner ${number: 0} articles d’anniversaire incroyables de plus !${prompt}'
   11124: 'Regarde--et pense à ça, tu peux sélectionner ${number: 0} article d’anniversaire incroyable de plus !${prompt}'
   11125: |-
-    Lequel aimerais-tu ? (${number: 0} restant)
+    Lequel aimerais-tu? (${number: 0} restant)
     ${selection-lines}
     J'ai besoin de temps pour réfléchir.
     ${lettercase: 1}${item-singular: 1[2]}.
@@ -24142,11 +24155,11 @@ entries:
     ${lettercase: 1}${item-singular: 8[2]}.$prompt
   11126: Ah, je comprends. Avec tant de goodies à choisir, ce n'est pas surprenant que tu veuilles y réfléchir un peu plus. Je serai ici une fois que tu auras décidé, kupo.${prompt}  
   11127: |-
-    ${lettercase: 1}${item-singular: 9[2]} ? (${number: 0} restant)
+    ${lettercase: 1}${item-singular: 9[2]}? (${number: 0} restant)
     ${selection-lines}
     Oui.
     Non.${prompt}
-  11128: 'Un excellent choix ! J’espère que tu apprécieras ton tout nouveau ${item-singular: 9[2]} !${prompt}'
+  11128: 'Un excellent choix! J’espère que tu apprécieras ton tout nouveau ${item-singular: 9[2]} !${prompt}'
   11129: |-
     Voici ta vie d'aventurier en un mot !
     Et parce qu'il semble que tu es si impatient d'obtenir plus de goodies, je suppose que je pourrais trouver dans mon cœur de t'en épargner un autre... mais juste pour toi, kupo !${prompt}
