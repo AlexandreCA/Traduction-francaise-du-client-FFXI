@@ -27420,73 +27420,73 @@ entries:
     View other options.${prompt}
   12801: とおった
   12802: '${number: 0}'
-  12803: I can issue you a card that contains all your chocobo's important information.${prompt}
-  12804: 'If you trade the card to the chocobo matchmaking authority in Jeuno, you can match up your animal with other chocobos. You can buy a chococard for ${number: 0} gil.${prompt}'
+  12803: Je peux vous délivrer une carte contenant toutes les informations importantes de votre chocobo.${prompt}
+  12804: 'Si vous échangez la carte avec l’autorité de matchmaking des chocobos à Jeuno, vous pouvez associer votre animal avec d’autres chocobos. Vous pouvez acheter une chococard pour ${number: 0} gil.${prompt}'
   12805: |-
-    Purchase a chococard? (${number: 0} gil each)
+    Acheter une chococard ? (${number: 0} gil chacune)
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
-  12806: 'To enter your chocobo in one of the CRA-sanctioned races, you must first receive ${article} ${item-article: 0[2]}.${prompt}'
-  12807: Then, simply trade that document to a CRA agent to complete the registration process.${prompt}
+    Oui.
+    Pas maintenant.${prompt}
+  12806: 'Pour inscrire votre chocobo à l’une des courses sanctionnées par le CRA, vous devez d’abord recevoir ${article} ${item-article: 0[2]}.${prompt}'
+  12807: Ensuite, il vous suffit d'échanger ce document avec un agent du CRA pour compléter le processus d'inscription.${prompt}
   12808: |-
-    Would you like a free form?
+    Souhaitez-vous un formulaire gratuit ?
     ${selection-lines}
-    Right away!
-    Maybe later.${prompt}
-  12809: 'You can register a chocobo to respond to your call in the field. The chocobo will come to you when you use your ${item-singular: 0[2]}.${prompt}'
-  12810: Your chocobo's registered data determines certain features, such as its saddle, so it is wise to re-register from time to time.${prompt}
-  12811: 'You can register a retired chocobo by trading ${article} ${item-article: 0[2]} to me.${prompt}'
-  12812: However, I will require a small fee.${prompt}
+    Tout de suite !
+    Peut-être plus tard.${prompt}
+  12809: 'Vous pouvez enregistrer un chocobo pour répondre à votre appel sur le terrain. Le chocobo viendra à vous lorsque vous utiliserez votre ${item-singular: 0[2]}.${prompt}'
+  12810: Les données enregistrées de votre chocobo déterminent certaines caractéristiques, comme sa selle, donc il est sage de le réenregistrer de temps en temps.${prompt}
+  12811: 'Vous pouvez enregistrer un chocobo à la retraite en m’échangeant ${article} ${item-article: 0[2]}.${prompt}'
+  12812: Cependant, je vais exiger une petite redevance.${prompt}
   12813: |-
-    Register a chocobo? (${number: 0} gil)
+    Enregistrer un chocobo ? (${number: 0} gil)
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
-  12814: I shall make the necessary preparations, then.${prompt}
-  12815: 'I will now register ${entity: 0} to come when you call.${prompt}'
-  12816: 'I require ${number: 0} gil for preparations.${prompt}'
-  12817: I shall ready your chocobo, then.${prompt}
-  12818: 'You lost your ${item-singular: 0[2]}? Of all the irresponsible...${prompt}'
-  12819: 'Anyway, I can give you a new ${item-singular: 0[2]}, but you''re going to have to pay ${number: 1} gil for it.${prompt}'
+    Oui.
+    Pas maintenant.${prompt}
+  12814: Je vais faire les préparatifs nécessaires, alors.${prompt}
+  12815: 'Je vais maintenant enregistrer ${entity: 0} pour qu’il vienne quand vous l’appelez.${prompt}'
+  12816: 'J’ai besoin de ${number: 0} gil pour les préparatifs.${prompt}'
+  12817: Je vais préparer votre chocobo, alors.${prompt}
+  12818: 'Vous avez perdu votre ${item-singular: 0[2]} ? De toute cette irresponsabilité...${prompt}'
+  12819: 'Quoi qu’il en soit, je peux vous donner un nouveau ${item-singular: 0[2]}, mais vous allez devoir payer ${number: 1} gil pour ça.${prompt}'
   12820: |-
-    Purchase ${article} ${item-article: 0[2]}? (${number: 1} gil)
+    Acheter ${article} ${item-article: 0[2]} ? (${number: 1} gil)
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
-  12821: Hm... This seems to be in great condition! We shouldn't need to do any work on it at the moment.${prompt}
-  12822: 'Hm... This ${item-singular: 2[2]}''s power to call your chocobo seems to have grown weak...${prompt}'
-  12823: 'For a small fee, I can give you a new ${item-singular: 2[2]} in exchange for it if you wish.${prompt}'
+    Oui.
+    Pas maintenant.${prompt}
+  12821: Hmm... Cela semble en très bon état ! Nous ne devrions pas avoir besoin d'y travailler pour le moment.${prompt}
+  12822: 'Hmm... Le pouvoir de cet ${item-singular: 2[2]} à appeler votre chocobo semble s’être affaibli...${prompt}'
+  12823: 'Pour une petite somme, je peux vous donner un nouveau ${item-singular: 2[2]} en échange si vous le souhaitez.${prompt}'
   12824: |-
-    Pay for a new whistle? (${number: 1} gil)
+    Payer pour un nouveau sifflet ? (${number: 1} gil)
     ${selection-lines}
-    Yes, please.
-    Not yet.${prompt}
-  12825: Here you go. Take good care of it.${prompt}
-  12826: All right... You can have this back, then.${prompt}
-  12827: 'I cannot accept a fee from you this time. The ${item-singular: 0[2]} is all I require.${prompt}'
-  12828: Here, take this.${prompt}
-  12829: Are you sure that you want to stop caring for this chocobo?${prompt}
+    Oui, s'il vous plaît.
+    Pas encore.${prompt}
+  12825: Voici. Prenez-en bien soin.${prompt}
+  12826: Très bien... Vous pouvez le reprendre, alors.${prompt}
+  12827: 'Je ne peux pas accepter de paiement de votre part cette fois-ci. Le ${item-singular: 0[2]} est tout ce dont j’ai besoin.${prompt}'
+  12828: Tenez, prenez ça.${prompt}
+  12829: Êtes-vous sûr de vouloir arrêter de vous occuper de ce chocobo ?${prompt}
   12830: |-
-    Stop caring for your chocobo?
+    Arrêter de s'occuper de votre chocobo ?
     ${selection-lines}
-    Yes.
-    No!${prompt}
-  12831: You will never be able to see your chocobo again. Is that okay with you?${prompt}
-  12832: Understood. Care of your chocobo will transfer to the stables. Do you have any last words?${prompt}
+    Oui.
+    Non !${prompt}
+  12831: Vous ne pourrez plus jamais revoir votre chocobo. Cela vous convient-il ?${prompt}
+  12832: Compris. Les soins de votre chocobo seront transférés aux écuries. Avez-vous des derniers mots ?${prompt}
   12833: |-
-    What would you like to say?
+    Que voudriez-vous dire ?
     ${selection-lines}
-    Nothing.
-    I'm sorry.
-    It's just an animal!
-    We weren't compatible.
-    Take good care of it.${prompt}
-  12834: Is that so? I guess this is hard on you too, then. Sorry...${prompt}
-  12835: Is that so? That's a good attitude to have...${prompt}
+    Rien.
+    Je suis désolé.
+    Ce n'est qu'un animal !
+    Nous n'étions pas compatibles.
+    Prenez-en soin.${prompt}
+  12834: Est-ce vrai ? Je suppose que c'est difficile pour vous aussi, alors. Désolé...${prompt}
+  12835: Est-ce vrai ? C'est une bonne attitude à avoir...${prompt}
   12836: |-
     ...
-    I'm disappointed in you.${prompt}
+    Je suis déçu par vous.${prompt}
   12837: Je ne pense pas que ce soit une question de compatibilité. Un chocobo n'est pas un jouet !${prompt}
   12838: Nous le ferons. Je suis sûr que vous avez vos raisons, mais ce n'est pas une excuse. ${prompt}
   12839: Bien sûr que non ! Ouf, vous m'avez fait peur un instant ! Ne dites pas des choses comme ça !${prompt}
