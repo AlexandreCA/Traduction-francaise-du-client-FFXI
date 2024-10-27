@@ -27308,15 +27308,15 @@ entries:
   12784: 'Your chocobo dug for treasure in the field. We provide you with ${number: 0} gil for your services.${prompt}'
   12785: 'Your chocobo appeared in a play. The playmaster paid ${number: 0} gil for your services.${prompt}'
   12786: |-
-    What will you do?
+    Que ferez-vous?
     ${selection-lines}
-    Watch over the chocobo.
-    Tell a story.
-    Scold the chocobo.
-    Compete against others.
-    Go on a walk (short).
-    Go on a walk (regular).
-    Go on a walk (long).
+    Surveiller le chocobo.
+    Raconter une histoire.
+    Gronder le chocobo.
+    Concourir contre d'autres.
+    Aller se promener (court).
+    Aller se promener (régulier).
+    Aller se promener (long).
     ----
     ----
     ----
@@ -27341,50 +27341,50 @@ entries:
     ----
     ----
     ----
-    Nothing.${prompt}
+    Rien.${prompt}
   12787: |-
-    ${choice: 0}[Watch over the chocobo/Tell a story/Scold the chocobo/Compete against others/Go on a walk (short)/Go on a walk (regular)/Go on a walk (long)]?
+    ${choice: 0}[Surveiller le chocobo/Raconter une histoire/Gronder le chocobo/Concourir contre d'autres/Aller se promener (court)/Aller se promener (régulier)/Aller se promener (long)] ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12788: You should wait until your chocobo has more energy before doing that...${prompt}
-  12789: If you watch over your chocobo, it will gradually return your affection.${prompt}
-  12790: Telling your chocobo a story will help it develop a healthy psychological state. Remember that concentrating on your speech will have a slightly tiring effect on the animal, though.${prompt}
-  12791: When your chocobo acts stubborn, you must discipline it. Remember that reproof is an act of love. It is important to scold your chocobo the moment it acts up!${prompt}
-  12792: You're interested in entering your chocobo into competitions? Strange...there were three others who mentioned the same thing. Well, it is good for their physical development, after all. I suppose it's alright as long as it's done peacefully.${prompt}
-  12793: Venturing outside of town with your chocobo will improve the bond between the two of you. If you don't wander off too far, your chocobo should not get very tired, either.${prompt}
-  12794: Venturing outside of town with your chocobo will improve the bond between the two of you. You should try wandering out just a bit sometimes. It might tire your chocobo a bit, but could have some positive effects as well.${prompt}
-  12795: Venturing outside of town with your chocobo will improve the bond between the two of you. Wandering far from town on a walk will expose your chocobo to all sorts of new experiences!${prompt}
-  12796: Your chocobo already has a name.${prompt}
+    Oui.
+    Non.${prompt}
+  12788: Vous devriez attendre que votre chocobo ait plus d'énergie avant de faire cela...${prompt}
+  12789: Si vous surveillez votre chocobo, il vous rendra progressivement votre affection.${prompt}
+  12790: Raconter une histoire à votre chocobo l'aidera à développer un état psychologique sain. N'oubliez pas que vous concentrer sur votre discours aura un effet légèrement fatigant sur l'animal, cependant.${prompt}
+  12791: Lorsque votre chocobo se montre têtu, vous devez le discipliner. N'oubliez pas que la réprimande est un acte d'amour. Il est important de gronder votre chocobo au moment où il agit mal !${prompt}
+  12792: Vous êtes intéressé par l'inscription de votre chocobo à des compétitions ? Étrange... il y a trois autres personnes qui en ont parlé. Eh bien, c'est bon pour leur développement physique, après tout. Je suppose que tant que cela se fait paisiblement, c'est d'accord.${prompt}
+  12793: Sortir de la ville avec votre chocobo améliorera le lien entre vous deux. Si vous ne vous éloignez pas trop, votre chocobo ne devrait pas se fatiguer beaucoup non plus.${prompt}
+  12794: Sortir de la ville avec votre chocobo améliorera le lien entre vous deux. Vous devriez essayer de vous éloigner un peu parfois. Cela pourrait fatiguer un peu votre chocobo, mais cela pourrait aussi avoir des effets positifs.${prompt}
+  12795: Sortir de la ville avec votre chocobo améliorera le lien entre vous deux. S'éloigner loin de la ville lors d'une promenade exposera votre chocobo à toutes sortes de nouvelles expériences !${prompt}
+  12796: Votre chocobo a déjà un nom.${prompt}
   12797: |-
-    Choose a word category (${choice: 0}[first name/last name]).
+    Choisissez une catégorie de mots (${choice: 0}[prénom/nom de famille]).
     ${selection-lines}
-    1-letter words.
-    2-letter words.
-    3-letter words.
-    4-letter words.
-    5-letter words.
-    6-letter words.
-    7-letter words.
-    8-letter words.
-    9-letter words.
-    10-letter words.
-    11-letter words.
-    12-letter words.
-    13-letter words.
-    14-letter words.
-    Return.
-    Cancel.${prompt}
+    Mots de 1 lettre.
+    Mots de 2 lettres.
+    Mots de 3 lettres.
+    Mots de 4 lettres.
+    Mots de 5 lettres.
+    Mots de 6 lettres.
+    Mots de 7 lettres.
+    Mots de 8 lettres.
+    Mots de 9 lettres.
+    Mots de 10 lettres.
+    Mots de 11 lettres.
+    Mots de 12 lettres.
+    Mots de 13 lettres.
+    Mots de 14 lettres.
+    Retour.
+    Annuler.${prompt}
   12798: |-
-    Is this name okay?
+    Ce nom est-il correct ?
     ${selection-lines}
-    ${entity: 0} ${entity: 1}? Yes!
-    On second thought...${prompt}
+    ${entity: 0} ${entity: 1} ? Oui !
+    En y repensant...${prompt}
   12799: |-
-    That name is currently unavailable.
-    Please try another combination.${prompt}
+    Ce nom n'est actuellement pas disponible.
+    Veuillez essayer une autre combinaison.${prompt}
   12800: |-
-    Choose a word.(${entity: 0})
+    Choisissez un mot.(${entity: 0})
     ${selection-lines}
     ${chocobo-word: 0[2]}
     ${chocobo-word: 1[2]}
@@ -27416,8 +27416,8 @@ entries:
     ${chocobo-word: 27[2]}
     ${chocobo-word: 28[2]}
     ${chocobo-word: 29[2]}
-    Cancel.
-    View other options.${prompt}
+    Annuler.
+    Afficher d'autres options.${prompt}
   12801: とおった
   12802: '${number: 0}'
   12803: Je peux vous délivrer une carte contenant toutes les informations importantes de votre chocobo.${prompt}
@@ -32430,60 +32430,60 @@ entries:
   15544: ${prompt}
   15545: ${prompt}
   15546: |-
-    Where would you like to teleport to?
+    Où aimeriez-vous vous téléporter ? 
     ${selection-lines}
     .
     .
     .
     .
     .
-    The Ronfaure Region.
-    The Zulkheim Region.
-    The Norvallen Region.
-    The Gustaberg Region.
-    The Derfland Region.
-    The Sarutabaruta Region.
-    The Kolshushu Region.
-    The Aragoneu Region.
-    The Fauregandi Region.
-    The Valdeaunia Region.
-    Qufim Island.
-    The Li'Telor Region.
-    The Kuzotz Region.
-    The Vollbow Region.
-    The Elshimo Lowlands Region.
-    The Elshimo Uplands Region.
+    La région de Ronfaure.
+    La région de Zulkheim.
+    La région de Norvallen.
+    La région de Gustaberg.
+    La région de Derfland.
+    La région de Sarutabaruta.
+    La région de Kolshushu.
+    La région d'Aragoneu.
+    La région de Fauregandi.
+    La région de Valdeaunia.
+    L'île de Qufim.
+    La région de Li'Telor.
+    La région de Kuzotz.
+    La région de Vollbow.
+    La région des bas Elshimo.
+    La région des hauts Elshimo.
     Tu'Lia.
     .
-    The Tavnazian Archipelago.
+    L'archipel de Tavnazia.
     .
     .
     .
     .
     .
     .
-    Teleport?
-    Nowhere at the moment.${prompt}
-  15547: That region is under your home country's control.${prompt}
-  15548: That region is no longer under your home country's control.${prompt}
-  15549: That region is under allied control.${prompt}
-  15550: That region is under beastman control.${prompt}
-  15551: That region is neutral.${prompt}
-  15552: Welcome to the Regional Teleportation Service!${prompt}
-  15553: Greetings, adventurer. My name is ${name-npc}. I have been sent by the Specialty Goods Trade Union.${prompt}
-  15554: At the previous Conference of Nations, it was decided that the restriction on “regional teleporting” would be lifted, and that cities could now offer teleportation services to various outposts.${prompt}
-  15555: We are now authorized to teleport you to any outpost you have previously visited on a supplies quest.${prompt}
-  15556: The nominal fee we require varies with the current control of the region.${prompt}
-  15557: Also, depending on your level, there may be some areas I am not authorized to teleport you to.${prompt}
-  15558: 'That region is ${choice: 2}[no longer under your home country''s control./currently under your home country''s control.] You will require ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points] to teleport.${prompt}'
-  15559: As a special, limited-time service to commemorate the recovery of the full mog tablet set, I can teleport you to your destination absolutely free of charge!${prompt}
+    Téléportation ?
+    Nulle part pour le moment.
+  15547: Cette région est sous le contrôle de votre pays d'origine.${prompt}
+  15548: Cette région n'est plus sous le contrôle de votre pays d'origine.${prompt}
+  15549: Cette région est sous contrôle allié.${prompt}
+  15550: Cette région est sous le contrôle des hommes-bêtes.${prompt}
+  15551: Cette région est neutre.${prompt}
+  15552: Bienvenue au Service de Téléportation Régionale!${prompt}
+  15553: Salutations, aventurier. Je m'appelle ${name-npc}. J'ai été envoyé par le Syndicat du Commerce de Biens Spécialisés.${prompt}
+  15554: Lors de la précédente Conférence des Nations, il a été décidé que la restriction sur le "téléportation régionale" serait levée, et que les villes pouvaient désormais offrir des services de téléportation vers divers avant-postes.${prompt}
+  15555: Nous sommes maintenant autorisés à vous téléporter vers tout avant-poste que vous avez précédemment visité lors d'une quête de fournitures.${prompt}
+  15556: Les frais nominaux que nous demandons varient en fonction du contrôle actuel de la région.${prompt}
+  15557: De plus, en fonction de votre niveau, il se peut qu'il y ait des zones vers lesquelles je ne suis pas autorisé à vous téléporter.${prompt}
+  15558: 'Cette région est ${choice: 2}[n’est plus sous le contrôle de votre pays d’origine./actuellement sous le contrôle de votre pays d’origine.] Vous aurez besoin de ${number: 1} gil ou de ${number: 3} points de conquête pour téléporter.${prompt}'
+  15559: En tant que service spécial et temporaire pour commémorer la récupération de l'ensemble complet de tablettes mog, je peux vous téléporter à votre destination absolument gratuitement !${prompt}
   15560: |-
-    Teleport?
+    Téléporter ?
     ${selection-lines}
-    Yes.
-    Teleport with gil.
-    Teleport with conquest points.
-    Later.${prompt}
+    Oui.
+    Téléporter avec des gil.
+    Téléporter avec des points de conquête.
+    Plus tard.${prompt}
   15561: Have a wonderful journey!${prompt}
   15562: Unfortunately, at this time there is nowhere I can teleport you. Please come again.${prompt}
   15563: You have not yet reached level 10. I am sorry, but for safety reasons, I am not authorized to teleport anyone under the current level cap.${prompt}
