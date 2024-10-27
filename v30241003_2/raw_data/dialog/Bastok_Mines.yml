@@ -16194,15 +16194,6 @@ entries:
     Supprimer lequel ?
     ${selection-lines}
     Aucun de ceux-ci.${prompt}
-    ${zone: 1[2]} #${number: 17}.
-    ${zone: 2[2]} #${number: 18}.
-    ${zone: 3[2]} #${number: 19}.
-    ${zone: 4[2]} #${number: 20}.
-    ${zone: 5[2]} #${number: 21}.
-    ${zone: 6[2]} #${number: 22}.
-    ${zone: 7[2]} #${number: 23}.
-    ${zone: 8[2]} #${number: 24}.
-    ${zone: 9[2]} #${number: 25}.${prompt}
   6514: The client sent an invalid value to the server!${prompt}
   6515: Vous ne pouvez pas recevoir d'assignations de mission pour le moment.${prompt}
   6516: Je suis en charge d'assigner des missions, mais je ne peux le faire que pour ceux dont l'allégeance est à Bastok.${prompt}
@@ -16405,23 +16396,6 @@ entries:
     Quelle Mog House allez-vous visiter ?
     ${selection-lines}
     Laissez tomber.${prompt}
-    ${item: 1}
-    ${item: 2}
-    ${item: 3}
-    ${item: 4}
-    ${item: 5}
-    ${item: 6}
-    ${item: 7}
-    ${item: 8}
-    ${item: 9}
-    ${item: 10}
-    ${item: 11}
-    ${item: 12}
-    ${item: 13}
-    ${item: 14}
-    ${item: 15}
-    ${item: 16}
-    ${item: 17}${prompt}
   6595: Cette Maison Mog n'est pas actuellement ouverte aux visites.${prompt}
   6596: Calcul des résultats de la conquête...${prompt}
   6597: Résultats de la conquête calculés.${prompt}
@@ -16727,7 +16701,7 @@ entries:
   6766: 'La météo dans cette région aujourd''hui sera ${weather-adjective: 0[2]}.${prompt}'
   6767: 'La météo demain sera ${weather-adjective: 0[2]}.${prompt}'
   6768: 'La météo après-demain sera ${weather-adjective: 0[2]}.${prompt}'
-  6769: 'Et c''est le rapport, tout droit venu des liens météo officiels de Vana''diel.${prompt}'
+  6769: Et c'est le rapport, tout droit venu des liens météo officiels de Vana'diel.${prompt}
   6770: |-
     Quelle région souhaitez-vous connaître la météo ?
     ${selection-lines}
@@ -16752,12 +16726,12 @@ entries:
   6774: Vous pouvez louer un chocobo, mais comme votre niveau est si bas, vous ne pourrez pas monter longtemps. De plus, l'équipement qui prolonge votre temps de conduite n'aura aucun effet.${prompt}
   6775: 'Si vous en voulez toujours un, cela vous coûtera ${number: 0} gil. Je vois que vous avez actuellement ${number: 1} gil.${prompt}'
   6776: |-
-    Do you wish to rent a chocobo?
+    Souhaitez-vous louer un chocobo ?
     ${selection-lines}
-    Yes, I do.
-    No, thank you.${prompt}
-  6777: You don't have enough gil.${prompt}
-  6778: I realize that you are in a hurry, ${choice-player-gender}[sir/ma'am]. However, might I make a simple request? One of our associate's chocobos has lost her way and cannot return home.${prompt}
+    Oui, je le souhaite.
+    Non, merci.${prompt}
+  6777: Vous n'avez pas assez de gil.${prompt}
+  6778: Je comprends que vous êtes pressé(e), ${choice-player-gender}[monsieur/madame]. Cependant, puis-je faire une simple demande? L'un des chocobos de notre associé s'est égaré et ne peut pas rentrer chez lui.${prompt}
   6779: 'Would you be so kind as to deliver her to ${choice: 3}[the Kingdom/the Republic/the Federation/the Duchy/the Duchy/the Duchy/the hidden] stables in ${choice: 3}[Southern San d''Oria/the Bastok Mines/Windurst Woods/Upper Jeuno/Lower Jeuno/Port Jeuno/Norg]? ${prompt}'
   6780: |-
     Lend a helping hand?
@@ -35583,10 +35557,10 @@ entries:
     Even in areas where messages are allowed, you cannot post consecutive messages.
     Please wait a while after posting a message.${prompt}
   16880: |-
-    Mentor messages are accompanied by a flag (${icon: 0xEFEF}${icon: 0xEF2F}) marker.
+    Mentor messages are accompanied by a flag (${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF2F}) marker.
     This marker indicates the mentor's reliability (Mentor Class) and experience as an adventurer (Mastery Rank).${prompt}
-  16881: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEFEF}${icon: 0xEF2F} > ${icon: 0xEFEF}${icon: 0xEF39} > ${icon: 0xEFEF}${icon: 0xEF43}${prompt}'
-  16882: 'A ${icon: 0xEFEF}${icon: 0xEF43} marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
+  16881: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF2F} > ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF39} > ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF43}${prompt}'
+  16882: 'A ${icon: 0xEFEF}${icon: 0xEFEF}${icon: 0xEF43} marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
   16883: The number affixed to the marker is the mentor's Mastery Rank, and indicates how experienced the mentor is as an adventurer.${prompt}
   16884: The higher the number, the more experienced the mentor is.${prompt}
   16885: You can check your own Mastery Rank even if you do not serve as a mentor, so feel free to take a look every now and then if you are curious.${prompt}
