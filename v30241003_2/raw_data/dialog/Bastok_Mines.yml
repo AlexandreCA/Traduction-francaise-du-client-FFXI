@@ -16130,54 +16130,54 @@ entries:
     Sélectionner parmi les favoris.
     Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Arch Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvage Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
+    ${choice: 1}[Aht Urhgan Ouest/Arrapago Is].
+    ${choice: 1}[Îles Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
     ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6506: |-
-    Teleport where?
+    Téléportation où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  6507: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  6507: Vous pouvez changer la méthode de sélection de la zone de votre point de retour souhaité pour la téléportation.
   6508: |-
-    Which setting would you like?
+    Quel réglage souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  6509: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  6509: 'Vous êtes maintenant en train de sélectionner par ${choice: 1}[région/extension].'
   6510: |-
-    Teleport where?
+    Téléportation où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16187,13 +16187,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  6511: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  6512: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  6511: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] votre liste d’emplacements favoris.'
+  6512: Votre liste d'emplacements favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   6513: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16252,40 +16252,40 @@ entries:
     Oui, je suis venu.
     Non, peut-être plus tard.${prompt}
   6522: |-
-    Will you accept this mission?
+    Acceptez-vous cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6523: You have accepted the mission.${prompt}
-  6524: Then move along.${prompt}
+    Oui.
+    Non.${prompt}
+  6523: Vous avez accepté la mission.${prompt}
+  6524: Alors, avancez.${prompt}
   6525: |-
-    Good.
-    This is your first time going on a mission, is it not?${prompt}
+    Bien.
+    C'est votre première fois en mission, n'est-ce pas ?${prompt}
   6526: |-
-    Your first assignment is not a difficult one.
-    The details are as follows:${prompt}
+    Votre première mission n'est pas difficile.
+    Les détails sont les suivants :${prompt}
   6527: |-
-    You must go to the Zeruhn Mines in the western section of the Mines District.
-    Once there, you are to collect a report from the overseer.${prompt}
+    Vous devez vous rendre aux mines de Zeruhn dans la section ouest du district des mines.
+    Une fois là-bas, vous devez collecter un rapport auprès de l'inspecteur.${prompt}
   6528: |-
-    You can consult the “Mission” section of the main menu to review your objectives.
-    Speed and efficiency are your priorities. Dismissed.${prompt}
+    Vous pouvez consulter la section « Mission » du menu principal pour revoir vos objectifs.
+    La rapidité et l'efficacité sont vos priorités. Dismissed.${prompt}
   6529: |-
-    The Chief Engineer is conducting new research, and has asked for someone to assist him.
-    He can be found in the Metalworks, to the east of the administrative section.${prompt}
+    Le Chef Ingénieur mène de nouvelles recherches et a demandé de l'aide à quelqu'un.
+    Il se trouve dans les Ateliers, à l'est de la section administrative.${prompt}
   6530: |-
-    The Chief Engineer's laboratory is on the second floor of the Metalworks.
-    You don't know his name!? And you call yourself a Bastoker!${prompt}
+    Le laboratoire du Chef Ingénieur est au deuxième étage des Ateliers.
+    Vous ne connaissez pas son nom ? Et vous vous appelez un Bastoker !${prompt}
   6531: |-
-    The Chief Engineer's name is Cid. Any Bastoker would know that!
-    Now go and see him. He will give you the details of your mission.${prompt}
-  6532: The Palborough Mines, once our main source of mythril, have been under beastman control for some time.${prompt}
-  6533: 'We want you to hunt these beastmen, the Quadav, and bring back ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, and ${article} ${item-article: 7[2]} as proof of your accomplishments.${prompt}'
-  6534: You must present all four items to me or one of my colleagues in order to complete this mission.${prompt}
-  6535: Good, you've brought all four parts of the doll.${prompt}
+    Le nom du Chef Ingénieur est Cid. Tout Bastoker devrait le savoir !
+    Maintenant, allez le voir. Il vous donnera les détails de votre mission.${prompt}
+  6532: Les mines de Palborough, autrefois notre principale source de mythril, sont sous le contrôle des hommes-bêtes depuis un certain temps.${prompt}
+  6533: 'Nous voulons que vous chassiez ces hommes-bêtes, les Quadav, et que vous rameniez ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, et ${article} ${item-article: 7[2]} comme preuve de vos accomplissements.${prompt}'
+  6534: Vous devez me présenter les quatre objets ou l'un de mes collègues pour compléter cette mission.${prompt}
+  6535: Bien, vous avez apporté toutes les quatre parties de la poupée.${prompt}
   6536: |-
-    I am raising your rank to 2 for completing this mission.
-    Congratulations.${prompt}
+    J'élève votre rang à 2 pour avoir complété cette mission.
+    Félicitations.${prompt}
   6537: If you've been to the Palborough Mines, you must know now the serious nature of the threat these beastmen pose to our civilization.${prompt}
   6538: As a Bastoker, you are expected to take on more missions and go on conquests to preserve Bastok's brilliant future!${prompt}
   6539: But I cannot give you a new mission at this time.${prompt}
@@ -23467,7 +23467,7 @@ entries:
     Je suis désolée, mais pour quelque chose comme ça, je ne peux pas te payer plus que ça...${prompt}
   10783: |-
     Bonjour !
-    Vous savez, nous avons également eu un visiteur avant le départ de Werei...${prompt}
+    Vous savez, nous avons également eu un visiteur avant le retour de Werei...${prompt}
   10784: |-
     Je suis désolé de vous déranger à nouveau.
     Je souhaitais vous parler de Zeid...${prompt}
