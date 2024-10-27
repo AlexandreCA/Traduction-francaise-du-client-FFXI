@@ -4,6 +4,8 @@ ATTENTION : Les fichiers correspondent STRICTEMENT à la version v30241003_2 (oc
 
 Le programme XI Tinkerer est assez capricieux et si on traduit trop d'un coup sans compiler (générer) un .dat, il peut nous sortir des erreurs qui n'existent pas. Si vous devez traduire un fichier, faites une vingtaine de lignes à la fois environ et vérifiez fréquemment avec une génération .DAT pour être sûr que tout va dans le sens souhaité et surtout ne pas perdre son temps inutilement.
 
+Les generated_dats/ROM**** sont des menus, des commandes, ou des zones traduites ou en cours de traduction. Tout ce qui est téléversé sur GitHub est fonctionnel. Il sert essentiellement de dépot et de sauvegarde.
+
 BUT DE LA TRADUCTION :
 Square Enix ayant cessé de proposer une version française depuis 2014, j'ai décidé de poursuivre mon expérience de jeu en français en suivant l'évolution du jeu ainsi que ses nouveaux contenus. Étant donné que S.E. met régulièrement à jour son client chaque mois, ces mises à jour peuvent compromettre les centaines d'heures de travail de traduction effectuées.
 
