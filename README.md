@@ -7,6 +7,7 @@ Le programme XI Tinkerer est assez capricieux et si on traduit trop d'un coup sa
 Les generated_dats/ROM**** sont des menus, des commandes, ou des zones traduites ou en cours de traduction. Tout ce qui est téléversé sur GitHub est fonctionnel. Il sert essentiellement de dépot et de sauvegarde.
 
 La traduction sert pour le serveur Vanadiel XI, dont vous pourrez retrouver le client a ce lien: 
+
 L'adresse de connexion au serveur pour tester vos scripts et faire une partie si cela vous dit est: vanadielxi.ddns.net
 
 BUT DE LA TRADUCTION :
