@@ -10,9 +10,6 @@ La traduction sert pour le serveur Vanadiel XI, dont vous pourrez retrouver le c
 
 L'adresse de connexion au serveur pour tester vos scripts et faire une partie si cela vous dit est: vanadielxi.ddns.net
 
-BUT DE LA TRADUCTION :
-Square Enix ayant cessé de proposer une version française depuis 2014, j'ai décidé de poursuivre mon expérience de jeu en français en suivant l'évolution du jeu ainsi que ses nouveaux contenus. Étant donné que S.E. met régulièrement à jour son client chaque mois, ces mises à jour peuvent compromettre les centaines d'heures de travail de traduction effectuées.
-
 Ce projet est communautaire, donc j'invite fortement les intéressés à traduire, ne serait-ce que quelques phrases, pour faire avancer le projet. Vous souhaitez compléter une zone prétraduite ? Allez-y ! Vous voulez traduire une zone non encore faite ? Aucun problème, je les ajouterai au projet initial sur GitHub.
 
 N'hésitez pas à me contacter dans l'onglet Discussion si vous avez des questions, des idées, etc.
