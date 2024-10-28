@@ -17546,28 +17546,28 @@ entries:
   7108: Si vous le souhaitez, vous pouvez former un nouveau contrat avec nous. Cependant, si vous souhaitez échanger des articles avec une autre guilde, vous devez d'abord résilier votre contrat existant et renoncer à tous les points de guilde que vous avez accumulés.${prompt}
   7109: 'Vous avez formé un nouveau contrat d’échange avec la ${choice: 0}[Guilde des Pêcheurs/Guilde des Charpentiers/Guilde des Forgerons/Guilde des Orfèvres/Guilde des Tisserands/Guilde des Cuirs/Guilde des Travailleurs de l''Os/Guilde des Alchimistes/Guilde des Cuisiniers].${prompt}'
   7110: |-
-    The current requested item is ${article} ${item-article: 2[2]}.
-    You have ${number: 0} guild points accumulated.${prompt}
+    L'article demandé actuellement est ${article} ${item-article: 2[2]}.
+    Vous avez ${number: 0} points de guilde accumulés.${prompt}
   7111: |-
-    Currently, no items are being requested by the guild.
-    You have ${number: 0} guild points accumulated.${prompt}
+    Actuellement, aucun article n'est demandé par la guilde.
+    Vous avez ${number: 0} points de guilde accumulés.${prompt}
   7112: |-
-    Is there something you need?
+    Y a-t-il quelque chose dont vous avez besoin ?
     ${selection-lines}
-    I'm just passing through.
-    I would like to use my points.
-    What are the current limits?
-    How does the trade system work?${prompt}
-  7113: 'You have ${number: 0} more days (Vana''diel time) to provide us with the requested item.${prompt}'
-  7114: Today (Vana'diel time) is the final day we will accept the requested item.${prompt}
-  7115: 'You can still receive up to ${number: 3} guild points by trading us the item before the time limit is up.${prompt}'
-  7116: You are not eligible to receive guild points at this time.${prompt}
+    Je ne fais que passer.
+    Je voudrais utiliser mes points.
+    Quelles sont les limites actuelles ?
+    Comment fonctionne le système d'échange ?${prompt}
+  7113: 'Vous avez ${number: 0} jours supplémentaires (temps de Vana’diel) pour nous fournir l’article demandé.${prompt}'
+  7114: Aujourd'hui (temps de Vana'diel) est le dernier jour où nous accepterons l'article demandé.${prompt}
+  7115: 'Vous pouvez encore recevoir jusqu’à ${number: 3} points de guilde en nous échangeant l’article avant la limite de temps.${prompt}'
+  7116: 'Vous n’êtes pas éligible pour recevoir des points de guilde pour le moment.${prompt}'
   7117: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    Nothing.
-    A high-quality crystal.
-    Analysis crystals.
+    Rien.
+    Un cristal de haute qualité.
+    Des cristaux d'analyse.${prompt}
     ${lettercase: 1}${article} ${item-article: 0[2]} (1500).
     ${lettercase: 1}${article} ${item-article: 8[2]} (${number: 9}).
     ${lettercase: 1}${article} ${item-article: 1[2]} (70000).
@@ -17577,11 +17577,11 @@ entries:
     ${lettercase: 1}${article} ${item-article: 12[2]} (${number: 13}).
     ${lettercase: 1}${article} ${item-article: 14[2]} (${number: 15}).
     ${lettercase: 1}${article} ${item-article: 16[2]} (${number: 17}).
-    A key item.${prompt}
+    Un objet clé.${prompt}
   7118: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${article} ${item-article: 0[2]} (200).
     ${lettercase: 1}${article} ${item-article: 1[2]} (200).
     ${lettercase: 1}${article} ${item-article: 2[2]} (200).
@@ -17591,9 +17591,9 @@ entries:
     ${lettercase: 1}${article} ${item-article: 6[2]} (200).
     ${lettercase: 1}${article} ${item-article: 7[2]} (200).${prompt}
   7119: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${article} ${item-article: 0[2]} (450).
     ${lettercase: 1}${article} ${item-article: 1[2]} (450).
     ${lettercase: 1}${article} ${item-article: 2[2]} (450).
@@ -17602,17 +17602,17 @@ entries:
     ${lettercase: 1}${article} ${item-article: 5[2]} (450).
     ${lettercase: 1}${article} ${item-article: 6[2]} (450).
     ${lettercase: 1}${article} ${item-article: 7[2]} (450).${prompt}
-  7120: Yes, this is what we are asking for. Good work, ${name-player}!${prompt}
-  7121: 'Obtained: ${number: 0} guild points.${prompt}'
-  7122: You do not have enough guild points.${prompt}
-  7123: 'Trade ${number: 1} guild points for ${item-plural: 0[2]}?${prompt}'
-  7124: How many do you wish to trade for?${prompt}
-  7125: 'Trade ${number: 1} guild points for ${number: 2} ${item-given-plurality: 2[2], 0[2]}?${prompt}'
+  7120: Oui, c'est ce que nous demandons. Bon travail, ${name-player}!${prompt}
+  7121: 'Obtention : ${number: 0} points de guilde.${prompt}'
+  7122: Vous n'avez pas assez de points de guilde.${prompt}
+  7123: 'Échanger ${number: 1} point(s) de guilde contre ${item-plural: 0[2]}?${prompt}'
+  7124: Combien souhaitez-vous échanger?${prompt}
+  7125: 'Échanger ${number: 1} point(s) de guilde contre ${number: 2} ${item-given-plurality: 2[2], 0[2]}?${prompt}'
   7126: |-
-    Proceed with the transaction? (GP: ${number: 32})
+    Poursuivre la transaction ? (PG : ${number: 32})
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7127: |-
     Necessary skills: ${choice: 6}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leatherworking/Bonecraft/Alchemy/Cooking]${choice: 1}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 2}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 3}[ /, & Woodworking/, & Smithing/, & Goldsmithing/, & Clothcraft/, & Leatherworking/, & Bonecraft/, & Alchemy/, & Cooking]
     Necessary crystal: ${lettercase: 1}${item-singular: 4[2]}
