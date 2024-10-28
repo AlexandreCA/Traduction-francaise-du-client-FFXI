@@ -16355,27 +16355,27 @@ entries:
   6607: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  6608: The beastmen are gaining power.${prompt}
-  6609: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  6610: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  6611: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  6612: San d'Oria's region points have increased!${prompt}
-  6613: Bastok's region points have increased!${prompt}
-  6614: Windurst's region points have increased!${prompt}
-  6615: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  6616: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  6617: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  6618: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  6619: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  6620: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  6621: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  6622: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  6623: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  6624: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  6625: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  6626: There was a curse on the beastmen's banner!${prompt}
-  6627: The curse of the beastmen's banner has been lifted!${prompt}
-  6628: There is a beastmen's banner.${prompt}
+  6608: Les bêtes gagnent en puissance.${prompt}
+  6609: Le contrôle régional de San d'Oria est maintenant 10 % plus proche du pays en première place !${prompt}
+  6610: Le contrôle régional de Bastok est maintenant 10 % plus proche du pays en première place !${prompt}
+  6611: Le contrôle régional de Windurst est maintenant 10 % plus proche du pays en première place !${prompt}
+  6612: Les points régionaux de San d'Oria ont augmenté !${prompt}
+  6613: Les points régionaux de Bastok ont augmenté !${prompt}
+  6614: Les points régionaux de Windurst ont augmenté !${prompt}
+  6615: L'E.F. de San d'Orian défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6616: L'E.F. de Bastokan défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6617: L'E.F. de Windurst défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6618: Une force expéditionnaire de San d'Orian a été dépêchée dans cette zone.${prompt}
+  6619: Une force expéditionnaire de Bastokan a été dépêchée dans cette zone.${prompt}
+  6620: Une force expéditionnaire de Windurst a été dépêchée dans cette zone.${prompt}
+  6621: 'Influence de l’E.F. : Grande... État de la région : Dominant... Maintenez le niveau actuel de combat.${prompt}'
+  6622: 'Influence de l’E.F. : Correcte... État de la région : Majeur... Maintenez l’élan.${prompt}'
+  6623: 'Influence de l’E.F. : Pauvre... État de la région : Mineur... Augmentez les efforts.${prompt}'
+  6624: 'Influence de l’E.F. : Minimale... État de la région : Minimale... Augmentez les efforts dix fois.${prompt}'
+  6625: 'Influence de l’E.F. : Aucune... État de la région : Sous contrôle des bêtes... Gardez les pertes au minimum.${prompt}'
+  6626: Il y avait une malédiction sur la bannière des bêtes !${prompt}
+  6627: La malédiction de la bannière des bêtes a été levée !${prompt}
+  6628: Il y a une bannière des bêtes.${prompt}
   6629: 　${prompt}
   6630: 　${prompt}
   6631: 　${prompt}
@@ -16457,183 +16457,183 @@ entries:
   6705: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  6706: (...Yeah, that's what I said!)${prompt}
-  6707: (But you know what? Oh, wait. Hold on...)${prompt}
-  6708: I'm sorry, can I help you?${prompt}
-  6709: '${color-alt: 15}${name-player} points to the item in ${name-npc}''s hand.'
-  6710: 'Oh, this? It''s a magical shell called ${article} ${item-article: 1[2]}.${prompt}'
+  6706: (...Oui, c'est ce que j'ai dit !)${prompt}
+  6707: (Mais tu sais quoi ? Oh, attends. Une seconde...)${prompt}
+  6708: Je suis désolé, puis-je vous aider ?${prompt}
+  6709: '${color-alt: 15}${name-player} pointe l’objet dans la main de ${name-npc}.'
+  6710: 'Oh, ça ? C''est une coquille magique appelée ${article} ${item-article: 1[2]}.$ {prompt}'
   6711: |-
-    You want to know about ${item-plural: 1[2]}?
-    Let me tell you all about them!${prompt}
+    Vous voulez en savoir plus sur ${item-plural: 1[2]} ?
+    Laissez-moi vous en parler !${prompt}
   6712: |-
-    What do you want to ask?
+    Que voulez-vous demander ?
     ${selection-lines}
-    What's ${article} ${item-article: 1[2]}?
-    What types of ${item-plural: 1[2]} are there?
-    How do you use them?
-    Never mind.${prompt}
-  6713: These magic shells are full of mysteries...${prompt}
+    Qu'est-ce que ${article} ${item-article: 1[2]} ?
+    Quels types de ${item-plural: 1[2]} existe-t-il ?
+    Comment les utiliser ?
+    Jamais mind.${prompt}
+  6713: Ces coquilles magiques sont pleines de mystères...${prompt}
   6714: |-
-    You can get beautiful pearls from them.
-    Some say these are some new form of shall shells, but...${prompt}
+    Vous pouvez en obtenir de belles perles.
+    Certains disent que ce sont des formes nouvelles de coquillages, mais...${prompt}
   6715: |-
-    Even if you take out a pearl, they make more and more of them.
-    Strange, isn't it?${prompt}
-  6716: What's more strange is that pearls taken from the same shell actually transmit sound, no matter how far apart they are!${prompt}
-  6717: So, if you speak into one of the pearls, people who hold other pearls or the shell they were made from can hear you!${prompt}
-  6718: It's as if they were linked by an invisible thread... Huh. I guess that's why they have "link" in their names.${prompt}
-  6719: 'So anyway, the shells are called ${item-plural: 1[2]}, and the pearls ${item-plural: 2[2]}.${prompt}'
-  6720: 'There are also different types of ${item-plural: 1[2]}.${prompt}'
-  6721: Is there anything else you want to know?
+    Même si vous retirez une perle, elles en produisent de plus en plus.
+    Étrange, n'est-ce pas ?${prompt}
+  6716: Ce qui est encore plus étrange, c'est que les perles retirées de la même coquille transmettent effectivement le son, peu importe la distance !${prompt}
+  6717: Donc, si vous parlez dans l'une des perles, les personnes qui tiennent d'autres perles ou la coquille dont elles proviennent peuvent vous entendre !${prompt}
+  6718: C'est comme s'ils étaient liés par un fil invisible... Tiens. Je suppose que c'est pourquoi ils ont "lien" dans leur nom.${prompt}
+  6719: 'Quoi qu’il en soit, les coquilles s’appellent ${item-plural: 1[2]}, et les perles ${item-plural: 2[2]}.$ {prompt}'
+  6720: 'Il existe aussi différents types de ${item-plural: 1[2]}.$ {prompt}'
+  6721: Y a-t-il autre chose que vous voulez savoir ?${prompt}
   6722: |-
-    What do you want to ask about?
+    Que voulez-vous demander à propos de ?
     ${selection-lines}
     ${lettercase: 1}${item-plural: 0[2]}.
     ${lettercase: 1}${item-plural: 1[2]}.
     ${lettercase: 1}${item-plural: 2[2]}.
     ${lettercase: 1}${item-plural: 3[2]}.
-    Back.${prompt}
-  6723: '${lettercase: 1}${item-plural: 0[2]} are ${item-plural: 1[2]} when you first buy them at the store.${prompt}'
-  6724: 'Once opened, they start making ${item-plural: 2[2]} and become the communications tool everyone''s using.${prompt}'
-  6725: 'You can set the color and name of your ${item-singular: 1[2]} when you open it. Make sure to set the ones you like because you can''t change them afterwards!${prompt}'
-  6726: '${lettercase: 1}${item-plural: 1[2]} are ${item-plural: 0[2]} that have been opened and function as a communications tool.${prompt}'
+    Retour.${prompt}
+  6723: '${lettercase: 1}${item-plural: 0[2]} sont ${item-plural: 1[2]} lorsque vous les achetez pour la première fois au magasin.${prompt}'
+  6724: 'Une fois ouverts, ils commencent à produire ${item-plural: 2[2]} et deviennent l’outil de communication que tout le monde utilise.${prompt}'
+  6725: 'Vous pouvez définir la couleur et le nom de votre ${item-singular: 1[2]} lorsque vous l’ouvrez. Assurez-vous de choisir ceux que vous aimez car vous ne pourrez plus les changer ensuite!${prompt}'
+  6726: '${lettercase: 1}${item-plural: 1[2]} sont ${item-plural: 0[2]} qui ont été ouverts et fonctionnent comme un outil de communication.${prompt}'
   6727: |-
-    You can make ${item-plural: 2[2]} and ${item-plural: 3[2]} from those shells.
-    They're like the party leader of an adventuring party.${prompt}
-  6728: 'All items created by your ${item-singular: 1[2]} retain the ${item-singular: 1[2]}''s color and name.${prompt}'
-  6729: Make the name something unique so that it's easy to remember.${prompt}
-  6730: '${lettercase: 1}${item-plural: 2[2]} are pearls that ${item-plural: 1[2]} make.${prompt}'
-  6731: 'If you equip one, you can communicate with people who have the same ${item-plural: 2[2]} and the ${item-singular: 1[2]} they were made from.${prompt}'
-  6732: They're like the party members in an adventuring party.${prompt}
-  6733: '${lettercase: 1}${article} ${item-article: 3[2]} is a bag full of ${item-plural: 2[2]}. You can make one by metamorphosing a ${item-singular: 2[2]} for that purpose.${prompt}'
-  6734: 'It won''t have all the features of ${article} ${item-article: 1[2]}, but you can take out an endless amount of ${item-plural: 2[2]} like ${article} ${item-article: 1[2]}.${prompt}'
-  6735: 'You have to use ${article} ${item-article: 1[2]} to make ${article} ${item-article: 3[2]}. The same goes if you want to turn it back into ${article} ${item-article: 2[2]}.${prompt}'
-  6736: They're like the party leaders of an alliance of adventuring parties...${prompt}
+    Vous pouvez fabriquer ${item-plural: 2[2]} et ${item-plural: 3[2]} à partir de ces coquilles.
+    Elles sont comme le chef d'équipe d'un groupe d'aventuriers.${prompt}
+  6728: 'Tous les objets créés par votre ${item-singular: 1[2]} conservent la couleur et le nom de ${item-singular: 1[2]}.$ {prompt}'
+  6729: Donnez un nom unique afin qu'il soit facile à retenir.${prompt}
+  6730: '${lettercase: 1}${item-plural: 2[2]} sont des perles fabriquées par ${item-plural: 1[2]}.$ {prompt}'
+  6731: 'Si vous en équipez une, vous pouvez communiquer avec les personnes qui possèdent les mêmes ${item-plural: 2[2]} et la ${item-singular: 1[2]} dont elles proviennent.${prompt}'
+  6732: Elles sont comme les membres d'un groupe d'aventuriers.${prompt}
+  6733: '${lettercase: 1}${article} ${item-article: 3[2]} est un sac plein de ${item-plural: 2[2]}. Vous pouvez en fabriquer un en métamorphosant un ${item-singular: 2[2]} à cet effet.${prompt}'
+  6734: 'Il n’aura pas toutes les fonctionnalités de ${article} ${item-article: 1[2]}, mais vous pouvez en sortir une quantité infinie de ${item-plural: 2[2]} comme ${article} ${item-article: 1[2]}.$ {prompt}'
+  6735: 'Vous devez utiliser ${article} ${item-article: 1[2]} pour fabriquer ${article} ${item-article: 3[2]}. Il en va de même si vous souhaitez le transformer à nouveau en ${article} ${item-article: 2[2]}.$ {prompt}'
+  6736: Elles sont comme les chefs d'équipe d'une alliance de groupes d'aventuriers...${prompt}
   6737: |-
-    You want to know how to use them?
-    Where should I start?${prompt}
+    Vous voulez savoir comment les utiliser ?
+    Par où devrais-je commencer ?${prompt}
   6738: |-
-    What do you want to know about?
+    Que voulez-vous savoir à propos de ?
     ${selection-lines}
-    Where to get one.
-    Assigning a color and name.
-    Making ${item-plural: 2[2]}.
-    Equipping them.
-    Speaking into them.
-    Metamorphosing ${article} ${item-article: 2[2]}.
-    Throwing them away.
-    Back.${prompt}
-  6739: 'You can buy ${item-plural: 1[2]} in shops. They''re a little pricey, though.${prompt}'
-  6740: It might be best if you ask friends who want pearls to chip in.${prompt}
-  6741: 'A freshly bought ${item-singular: 0[2]} has neither a color nor a name.${prompt}'
-  6742: '${lettercase: 1}${article} ${item-article: 1[2]} becomes usable only after you''ve chosen its color and given it a name. Then you can use it to make ${item-plural: 2[2]}.${prompt}'
+    Où en obtenir un.
+    Attribuer une couleur et un nom.
+    Fabriquer ${item-plural: 2[2]}.
+    Les équiper.
+    Parler dans.
+    Métamorphoser ${article} ${item-article: 2[2]}.
+    Les jeter.
+    Retour.${prompt}
+  6739: 'Vous pouvez acheter ${item-plural: 1[2]} dans les magasins. Ils sont un peu chers, cependant.${prompt}'
+  6740: Il serait peut-être mieux que vous demandiez à des amis qui veulent des perles de contribuer.${prompt}
+  6741: 'Un ${item-singular: 0[2]} fraîchement acheté n’a ni couleur ni nom.${prompt}'
+  6742: '${lettercase: 1}${article} ${item-article: 1[2]} devient utilisable uniquement après que vous ayez choisi sa couleur et lui ayez donné un nom. Ensuite, vous pouvez l’utiliser pour fabriquer ${item-plural: 2[2]}.$ {prompt}'
   6743: |-
-    You can combine different amounts of blue, red, and green to make your shell's color.
-    You can only use alphabet letters for the name, but you can use capital and lowercase letters anywhere you want.${prompt}
-  6744: '${lettercase: 1}${item-plural: 2[2]} are made from ${item-plural: 1[2]}.${prompt}'
-  6745: 'Making them is easy. Just equip your ${item-singular: 1[2]}, then go to “Linkshell” in the menu and select “Create Pearl”!${prompt}'
-  6746: 'All ${item-plural: 2[2]} made this way retain the ${item-singular: 1[2]}''s color and name, so it''s easy to tell who can hear you!${prompt}'
-  6747: 'You can make as many ${item-plural: 2[2]} as you want, whenever you want, so don''t worry about making too many of them!${prompt}'
-  6748: 'You can also make ${item-plural: 2[2]} with ${article} ${item-article: 3[2]} the same way.${prompt}'
-  6749: 'Oh, and...you use your ${item-singular: 1[2]} to make ${item-plural: 3[2]}, too, but it''s a little complicated so I''ll tell you later.${prompt}'
-  6750: 'You have to equip ${article} ${item-article: 1[2]} for it to have any effect.${prompt}'
-  6751: 'Go to “Linkshell” from the menu, choose the ${item-singular: 1[2]} you want to equip, and you''re all ready to go.${prompt}'
-  6752: It's a little different from equipping weapons and armor.${prompt}
-  6753: After you've done this, an icon that represents what you've equipped will appear beside your name. This is where the color you chose becomes visible.${prompt}
-  6754: 'If someone “checks” you in this state, they will be able to see the name of the ${item-singular: 1[2]} you have on.${prompt}'
-  6755: 'Follow the same steps to equip ${item-plural: 2[2]} and ${item-plural: 3[2]}.${prompt}'
-  6756: 'To speak into ${article} ${item-article: 1[2]}, change your chat mode to “linkshell,” and whatever you say will be heard by everyone who has the same “link.”${prompt}'
-  6757: You can also type “/linkshell” and type your message. The shorter version is “/l” (lowercase “L” for “linkshell”).${prompt}
-  6758: 'Ah, but of course, you have to have ${article} ${item-article: 1[2]}, ${item-singular: 2[2]}, or ${item-singular: 3[2]} equipped first.${prompt}'
-  6759: 'Whatever you say will only be heard by people who have the ${item-singular: 1[2]}, ${item-singular: 2[2]}, or ${item-singular: 3[2]} with the same link.${prompt}'
-  6760: 'So if you want to stop listening to your link, all you have to do is unequip your ${item-singular: 1[2]}, ${item-singular: 2[2]}, or ${item-singular: 3[2]}.${prompt}'
-  6761: '${lettercase: 1}${article} ${item-article: 1[2]} can metamorphose other people''s ${item-plural: 2[2]} and ${item-plural: 3[2]}. Of course, it can only affect those that were made from the same ${item-singular: 1[2]}.${prompt}'
+    Vous pouvez combiner différentes quantités de bleu, rouge et vert pour faire la couleur de votre coquille.
+    Vous ne pouvez utiliser que des lettres de l'alphabet pour le nom, mais vous pouvez utiliser des lettres majuscules et minuscules où vous le souhaitez.${prompt}
+  6744: '${lettercase: 1}${item-plural: 2[2]} sont fabriquées à partir de ${item-plural: 1[2]}.$ {prompt}'
+  6745: 'Les fabriquer est facile. Il suffit d’équiper votre ${item-singular: 1[2]}, puis d’aller dans “Coquille de liens” dans le menu et de sélectionner “Créer une perle” !${prompt}'
+  6746: 'Tous les ${item-plural: 2[2]} fabriqués de cette manière conservent la couleur et le nom de ${item-singular: 1[2]}, donc il est facile de savoir qui peut vous entendre !${prompt}'
+  6747: 'Vous pouvez fabriquer autant de ${item-plural: 2[2]} que vous le souhaitez, quand vous le souhaitez, alors ne vous inquiétez pas d’en fabriquer trop !${prompt}'
+  6748: 'Vous pouvez également fabriquer ${item-plural: 2[2]} avec ${article} ${item-article: 3[2]} de la même manière.${prompt}'
+  6749: 'Oh, et... vous utilisez votre ${item-singular: 1[2]} pour fabriquer ${item-plural: 3[2]} aussi, mais c’est un peu compliqué, alors je vous le dirai plus tard.${prompt}'
+  6750: 'Vous devez équiper ${article} ${item-article: 1[2]} pour qu’il ait un effet.${prompt}'
+  6751: 'Allez dans “Coquille de liens” depuis le menu, choisissez le ${item-singular: 1[2]} que vous souhaitez équiper, et vous êtes prêt à partir.${prompt}'
+  6752: C'est un peu différent de l'équipement des armes et des armures.${prompt}
+  6753: Après cela, une icône représentant ce que vous avez équipé apparaîtra à côté de votre nom. C'est à ce moment que la couleur que vous avez choisie devient visible.${prompt}
+  6754: 'Si quelqu’un “vérifie” votre état, il pourra voir le nom du ${item-singular: 1[2]} que vous avez.${prompt}'
+  6755: 'Suivez les mêmes étapes pour équiper ${item-plural: 2[2]} et ${item-plural: 3[2]}.$ {prompt}'
+  6756: 'Pour parler dans ${article} ${item-article: 1[2]}, changez votre mode de chat en “coquille de liens”, et tout ce que vous dites sera entendu par tous ceux qui ont le même “lien”.${prompt}'
+  6757: Vous pouvez également taper “/coquille de liens” et écrire votre message. La version courte est “/l” (lettre “l” minuscule pour “coquille de liens”).${prompt}
+  6758: 'Ah, mais bien sûr, vous devez d’abord avoir ${article} ${item-article: 1[2]}, ${item-singular: 2[2]}, ou ${item-singular: 3[2]} équipés.${prompt}'
+  6759: 'Tout ce que vous dites ne sera entendu que par les personnes qui ont ${item-singular: 1[2]}, ${item-singular: 2[2]}, ou ${item-singular: 3[2]} avec le même lien.${prompt}'
+  6760: 'Donc, si vous voulez arrêter d’écouter votre lien, il vous suffit de déséquiper votre ${item-singular: 1[2]}, ${item-singular: 2[2]}, ou ${item-singular: 3[2]}.$ {prompt}'
+  6761: '${lettercase: 1}${article} ${item-article: 1[2]} peut métamorphoser les ${item-plural: 2[2]} et ${item-plural: 3[2]} des autres personnes. Bien sûr, cela ne peut affecter que ceux qui ont été fabriqués à partir de la même ${item-singular: 1[2]}.$ {prompt}'
   6762: |-
-    There are two types of metamorphoses, which are:
-     1: Make into sack / Make into pearl
-     2: Kick.${prompt}
-  6763: 'Both need the target ${item-singular: 2[2]} or ${item-singular: 3[2]} to be equipped at the time.${prompt}'
-  6764: '“Make into sack / Make into pearl” makes the target ${item-singular: 2[2]} into ${article} ${item-article: 3[2]} and vice-versa.${prompt}'
-  6765: 'It''s useful if you want someone else to take care of handing out ${item-plural: 2[2]} in your place.${prompt}'
-  6766: '“Kick” actually breaks the link with the target ${item-singular: 2[2]} or ${item-singular: 3[2]} and turns it into junk.${prompt}'
+    Il existe deux types de métamorphoses, qui sont :
+     1 : Faire un sac / Faire une perle
+     2 : Donner un coup.${prompt}
+  6763: 'Les deux nécessitent que le ${item-singular: 2[2]} ou ${item-singular: 3[2]} cible soit équipé au moment.${prompt}'
+  6764: '“Faire un sac / Faire une perle” transforme le ${item-singular: 2[2]} cible en ${article} ${item-article: 3[2]} et vice-versa.${prompt}'
+  6765: 'C’est utile si vous voulez que quelqu’un d’autre s’occupe de distribuer ${item-plural: 2[2]} à votre place.${prompt}'
+  6766: '“Donner un coup” brise en fait le lien avec le ${item-singular: 2[2]} ou ${item-singular: 3[2]} cible et le transforme en déchets.${prompt}'
   6767: |-
-    Once kicked, the ${item-singular: 2[2]} will become broken and unusable...
-    Only use this in extreme cases!${prompt}
-  6768: '${lettercase: 1}${item-plural: 3[2]} can also be used to “kick” but they can only affect ${item-plural: 2[2]}.${prompt}'
-  6769: '${lettercase: 1}${item-plural: 1[2]}, ${item-plural: 2[2]}, and ${item-plural: 3[2]} are normal items, so they can be thrown away easily.${prompt}'
-  6770: But as normal items, you'll lose them permanently if you throw them away.${prompt}
-  6771: 'It won''t really matter if it''s ${article} ${item-article: 2[2]}, but throwing away ${article} ${item-article: 1[2]} is not a good idea!${prompt}'
+    Une fois donné un coup, le ${item-singular: 2[2]} deviendra cassé et inutilisable...
+    N'utilisez cela qu'en cas d'extrême nécessité !${prompt}
+  6768: '${lettercase: 1}${item-plural: 3[2]} peuvent également être utilisés pour “donner un coup”, mais ils ne peuvent affecter que ${item-plural: 2[2]}.$ {prompt}'
+  6769: '${lettercase: 1}${item-plural: 1[2]}, ${item-plural: 2[2]}, et ${item-plural: 3[2]} sont des objets normaux, donc ils peuvent être facilement jetés.${prompt}'
+  6770: Mais en tant qu'objets normaux, vous les perdrez définitivement si vous les jetez.${prompt}
+  6771: 'Cela n’a pas vraiment d’importance si c’est ${article} ${item-article: 2[2]}, mais jeter ${article} ${item-article: 1[2]} n’est pas une bonne idée !${prompt}'
   6772: |-
-    Oh, are you sure?
-    Well, if you ever have any questions about ${item-plural: 1[2]} you know where to find me!${prompt}
-  6773: (So anyway, as I was saying...)
+    Oh, êtes-vous sûr ?
+    Eh bien, si vous avez des questions sur ${item-plural: 1[2]}, vous savez où me trouver !${prompt}
+  6773: (Alors, comme je le disais...)
   6774: |-
-    Welcome to ${choice: 3}[San d'Oria/Bastok/Windurst].
-    Do you wish to change your allegiance from your current one to ${choice: 3}[San d'Oria/Bastok/Windurst]?${prompt}
+    Bienvenue à ${choice: 3}[San d'Oria/Bastok/Windurst].
+    Souhaitez-vous changer votre allégeance de votre actuelle à ${choice: 3}[San d'Oria/Bastok/Windurst] ?${prompt}
   6775: |-
-    Ask about changing your allegiance?
+    Demandez à propos du changement de votre allégeance ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6776: Then, good journey, ${choice-player-gender}[sir/miss].${prompt}
-  6777: 'You can apply here to change your allegiance to ${choice: 3}[San d''Oria/Bastok/Windurst].${prompt}'
+    Oui.
+    Non.${prompt}
+  6776: Alors, bon voyage, ${choice-player-gender}[monsieur/mademoiselle].${prompt}
+  6777: 'Vous pouvez postuler ici pour changer votre allégeance à ${choice: 3}[San d''Oria/Bastok/Windurst].${prompt}'
   6778: |-
-    We will have to seal away some of your memories as an international security measure.
-    Those memories will be unsealed should you change your allegiance back to your former country.${prompt}
-  6779: Incidentally, if this is your first time changing your allegiance, you will have to start over from rank 1 in your new nation.${prompt}
-  6780: Your rank in your former nation is still kept, so if you change your allegiance back you will return to your previous rank.${prompt}
+    Nous devrons sceller certains de vos souvenirs en tant que mesure de sécurité internationale.
+    Ces souvenirs seront débloqués si vous changez à nouveau votre allégeance vers votre ancien pays.${prompt}
+  6779: Incidemment, si c’est votre première fois à changer votre allégeance, vous devrez repartir du rang 1 dans votre nouvelle nation.${prompt}
+  6780: Votre rang dans votre ancienne nation est toujours conservé, donc si vous changez votre allégeance de nouveau, vous retrouverez votre ancien rang.${prompt}
   6781: |-
-    In addition, you will retain your current conquest points as well as any records of your expeditionary force quests.
-    Oh, and you will be required to pay a processing fee of ${number: 5} gil along with your application for transfer.${prompt}
-  6782: 'You will also retain your current rank in ${choice: 3}[San d''Oria/Bastok/Windurst], which is presently rank ${number: 2}.${prompt}'
+    De plus, vous conserverez vos points de conquête actuels ainsi que tous les enregistrements de vos quêtes de force expéditionnaire.
+    Oh, et vous devrez payer des frais de traitement de ${number: 5} gil avec votre demande de transfert.${prompt}
+  6782: 'Vous conserverez également votre rang actuel dans ${choice: 3}[San d''Oria/Bastok/Windurst], qui est actuellement le rang ${number: 2}.${prompt}'
   6783: |-
-    In addition, you will retain your current conquest points as well as any records of your expeditionary force quests.
-    Oh, and you will be required to pay a processing fee of ${number: 5} gil along with your application for transfer.${prompt}
-  6784: Do you still wish to change your allegiance?${prompt}
+    De plus, vous conserverez vos points de conquête actuels ainsi que tous les enregistrements de vos quêtes de force expéditionnaire.
+    Oh, et vous devrez payer des frais de traitement de ${number: 5} gil avec votre demande de transfert.${prompt}
+  6784: Souhaitez-vous toujours changer votre allégeance ?${prompt}
   6785: |-
-    Change your allegiance to ${choice: 3}[San d'Oria/Bastok/Windurst]?
+    Changer votre allégeance vers ${choice: 3}[San d'Oria/Bastok/Windurst] ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6786: |-
-    I am obligated to ask you again:
-    Are you sure you want to go through with this?${prompt}
+    Je suis obligé de vous demander à nouveau :
+    Êtes-vous sûr de vouloir procéder ?${prompt}
   6787: |-
-    Change your allegiance to ${choice: 3}[San d'Oria/Bastok/Windurst]?
+    Changer votre allégeance vers ${choice: 3}[San d'Oria/Bastok/Windurst] ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6788: |-
-    I know it isn't an easy decision to make.
-    Please think it through before you decide.${prompt}
+    Je sais que ce n'est pas une décision facile à prendre.
+    Veuillez bien réfléchir avant de décider.${prompt}
   6789: |-
-    Very well.
-    I will accept your application for ${choice: 3}[San d'Orian/Bastokan/Windurstian] citizenship.${prompt}
+    Très bien.
+    J'accepterai votre demande de citoyenneté ${choice: 3}[San d'Orian/Bastokan/Windurstian].${prompt}
   6790: |-
-    I will now cast a spell to seal some of your memories away.
-    Close your eyes...${prompt}
-  6791: May your decision be a wise one...${prompt}
-  6792: 'You are now a citizen of ${choice: 3}[San d''Oria/Bastok/Windurst]!'
+    Je vais maintenant lancer un sort pour sceller certains de vos souvenirs.
+    Fermez les yeux...${prompt}
+  6791: Que votre décision soit sage...${prompt}
+  6792: 'Vous êtes maintenant citoyen de ${choice: 3}[San d''Oria/Bastok/Windurst] !'
   6793: |-
-    This is where citizens of other nations apply for citizenship in ${choice: 3}[San d'Oria/Bastok/Windurst].
-    Since you are ${choice: 3}[San d'Orian/Bastokan/Windurstian], there is not much I can do for you.${prompt}
-  6794: 'I cannot accept applications for ${choice: 3}[San d''Orian/Bastokan/Windurstian] citizenship while you are on a mission.${prompt}'
-  6795: 'Your home country seems to be in trouble... I cannot accept ${choice: 3}[San d''Orian/Bastokan/Windurstian] citizenship applications at this time.${prompt}'
+    C'est ici que les citoyens d'autres nations postulent pour la citoyenneté à ${choice: 3}[San d'Oria/Bastok/Windurst].
+    Puisque vous êtes ${choice: 3}[San d'Orian/Bastokan/Windurstian], il n'y a pas grand-chose que je puisse faire pour vous.${prompt}
+  6794: 'Je ne peux pas accepter les demandes de citoyenneté ${choice: 3}[San d''Orian/Bastokan/Windurstian] tant que vous êtes en mission.${prompt}'
+  6795: 'Votre pays d’origine semble en difficulté... Je ne peux pas accepter de demandes de citoyenneté ${choice: 3}[San d''Orian/Bastokan/Windurstian] pour le moment.${prompt}'
   6796: |-
-    Well, you must be new here.
-    Welcome to Bastok's renowned Blacksmiths' Guild.
-    We're a union for steelworkers, gunsmiths, armor-workers, and the like.${prompt}
+    Eh bien, vous devez être nouveau ici.
+    Bienvenue au réputé Guilde des Forgerons de Bastok.
+    Nous sommes un syndicat pour les métallurgistes, les armuriers, les fabricants d'armes, et ainsi de suite.${prompt}
   6797: |-
-    What do you mean, you don't want to join?
-    You're missing your chance to be trained by the best!${prompt}
+    Que voulez-vous dire, vous ne voulez pas rejoindre ?
+    Vous manquez votre chance d'être formé par les meilleurs !${prompt}
   6798: |-
-    So you're looking for a little work to do alongside your adventuring?
-    Well, don't take this job lightly, or you may just get burned!${prompt}
+    Donc, vous cherchez un peu de travail à faire en plus de vos aventures ?
+    Eh bien, ne prenez pas ce travail à la légère, sinon vous pourriez vous brûler !${prompt}
   6799: |-
-    Maybe we should start you off with crystal synthesis.
-    You know what a crystal is by now, don't you?
-    Well, those crystals are packed full of power that's just waiting to be unleashed.
-    The process of crystal synthesis utilizes that power for craftwork.${prompt}
+    Peut-être devrions-nous commencer par la synthèse de cristal.
+    Vous savez ce qu'est un cristal maintenant, n'est-ce pas ?
+    Eh bien, ces cristaux sont remplis de pouvoir qui n'attend que d'être libéré.
+    Le processus de synthèse de cristal utilise ce pouvoir pour le travail artisanal.${prompt}
   6800: A crystal receives an image from the user, and uses that image to transform matter. In other words, the more refined the mind, the better the product.${prompt}
   6801: Did you get all that? I don't expect you to become a master in a few days, so don't feel that there's a need to rush into things, but you know what they say--“learn by doing.”${prompt}
   6802: If you want to know more, just ask the smiths here in the guild. They're a little difficult at first, but once you get to know them, they rub off on you.${prompt}
@@ -18198,615 +18198,608 @@ entries:
   7456: 'Obtained key item: ${lettercase: 1}${keyitem-singular: 0[2]}.'
   7457: What can I do for you?${prompt}
   7458: |-
-    Voici la Guilde des Forgerons de Bastok.
-    La nôtre est la vraie--celle de San d'Oria n'a même pas la moitié de ce que nous avons !${prompt}
+    This is Bastok's Blacksmiths' Guild.
+    Ours is the real thing--the one in San d'Oria doesn't have half the things we do!${prompt}
   7459: |-
-    C'est la Salle de la Poudre.
-    Tout ici est le fruit du dur travail du chef.${prompt}
-  7460: La Salle de la Poudre devait aussi devenir une guilde, mais l'accident a tout changé...${prompt}
-  7461: On a l'air d'avoir le temps de bavarder avec chaque aventurier qui passe par ici ?${prompt}
+    This is the Gunpowder Room.
+    Everything in here is the product of the chief's hard work.${prompt}
+  7460: The Gunpowder Room was supposed to become a guild, too, but the accident changed everything...${prompt}
+  7461: Do we look like we have time to chitchat with every adventurer who comes in here?${prompt}
   7462: |-
-    Bonne chance pour ta mission.
-    Les Bastokiens aiment faire les choses selon les règles, alors évite les ennuis et suis leurs règles.${prompt}
+    Good luck on your mission.
+    Bastokers like to do things by the book, so stay out of trouble and follow their rules.${prompt}
   7463: |-
-    Tu as réussi ta mission.
-    Félicitations, et continue ton bon travail.${prompt}
-  7464: Présente ta lettre d'introduction si tu as affaire au consulat. Si tu n'en as pas, veuillez quitter les lieux.${prompt}
+    You've successfully completed your mission.
+    Congratulations, and keep up the good work.${prompt}
+  7464: Present your letter of introduction if you have business with the consulate. If you do not have one, please leave the premises.${prompt}
   7465: |-
-    Tu as une lettre d'introduction ?
-    Bien. Va parler au consul.${prompt}
-  7466: Bonne chance. Je prie pour le dénouement réussi de ta mission.${prompt}
-  7467: Il doit y avoir encore de nombreuses missions à accomplir à San d'Oria. Je prie aussi pour ta réussite.${prompt}
+    You have a letter of introduction?
+    Good. Please go speak with the consul.${prompt}
+  7466: Good luck. I pray for the successful denouement of your mission.${prompt}
+  7467: There must be many missions that still need completing in San d'Oria. I pray for your success on them as well.${prompt}
   7468: |-
-    Les Bastokiens n'ont aucun sens du style !
-    Je ne comprends pas comment on peut vivre dans un endroit si morne.
-    Oh, comme j'aimerais tant être de retour à San d'Oria !${prompt}
+    Bastokers have no sense of style!
+    I don't understand how anyone could live in such a dreary place.
+    Oh, I so wish I was back in San d'Oria!${prompt}
   7469: |-
-    Oh, tu as une lettre d'introduction.
-    Alors retourne là-bas et parle au consul.${prompt}
+    Oh, you have a letter of introduction.
+    Then go back there and talk to the consul.${prompt}
   7470: |-
-    Ils t'ont confié une tâche, à ce que j'entends.
-    Qu'ont-ils bien pu avoir besoin de toi dans ces contrées reculées ?${prompt}
+    They gave you a job to do, I hear.
+    Whatever do they need you for in these backwaters, I wonder?${prompt}
   7471: |-
-    Oh, tu es de retour.
-    Je t'envie. Tu n'es pas coincé ici comme moi...tu peux toujours retourner à San d'Oria.${prompt}
-  7472: Les nations sans histoire, comme Bastok, manquent de tradition et d'élégance. Notre chère San d'Oria, en revanche, est le parfait exemple de style ordonné.${prompt}
+    Oh, you're back.
+    I envy you. You're not stuck here like me...you can always go back to San d'Oria.${prompt}
+  7472: Nations without history, like Bastok, lack tradition and elegance. Our fair San d'Oria, on the other hand, is the prime example of orderly style.${prompt}
   7473: |-
-    Ah, vous avez une lettre d'introduction! 
-    Vite, vous devez aller parler au consul, au fond.${prompt}
-  7474: |- 
-    Adieu, aventurier.
-    Ce serait dommage de perdre quelqu'un comme vous dans un endroit comme celui-ci, si loin de San d'Oria.${prompt}
-  7475: |-
-    C'est bon de voir que vous êtes sain et sauf. Vous ne devriez pas vous attarder dans un endroit comme celui-ci. San d'Oria vous attend, mon ami. Allez-y tant que vous le pouvez !${prompt}
+    Ah, you have a letter of introduction!
+    Quickly, you must go speak to the consul, in the back.${prompt}
+  7474: |-
+    Fare thee well, adventurer.
+    It would be a shame to lose one such as you in a place like this, so far from San d'Oria.${prompt}
+  7475: It is good to see you are safe. You should not tarry in a place like this. San d'Oria awaits you, my friend. Go to her while you can!${prompt}
   7476: |-
-    Oui, je suis le consul de Windurst--mais ce n'est qu'une sinécure. 
-    Personne ne voulait de ce poste, et je ne les blâme pas.${prompt}
+    Yes, I am the Windurst consul--but it's just a sinecure.
+    No one wanted this position, and I don't blame them.${prompt}
   7477: |-
-    Bonne chance pour votre mission ! 
-    Les gens ici respectent les règles, alors vous devriez en faire autant, sinon ce sera de gros soucis pour nous !${prompt}
+    Good luck on your mission!
+    People here play by the rules, so you should, too, or there'll be trouble-rubble for us!${prompt}
   7478: |-
-    Bon travail !
-    Oh, et dites aux gens de Windurst et aux autres consuls que je leur passe le bonjour quand vous serez de retour.${prompt}
+    Good work!
+    Oh, and tell the people in Windurst and the other consuls I said “hi” when you get back.${prompt}
   7479: |-
-    Oui, c'est le consulat de Windurst. 
-    Windurst... ah, chère Windurst, comme tu me manques-tant...${prompt}
-  7480: |- 
-    Une lettre d'introduction? 
-    Vous venez de Windurst ! Dites-moi, comment vont les choses là-bas !?${prompt}
-  7481: |- 
-    Oh, vous voulez des missions... 
-    Alors, veuillez parler au Consul Patt-Pott... Ah, Windurst, comme tu me manques tant...${prompt}
+    Yes, this is the Windurst consulate.
+    Windurst...ah, fair Windurst, how I long for thee-wee...${prompt}
+  7480: |-
+    A letter of introduction?
+    You are from Windurst! Pray tell, how are things there!?${prompt}
+  7481: |-
+    Oh, you want missions...
+    Then, please speak with Consul Patt-Pott...
+    Ah, Windurst, how I long for thee-wee...${prompt}
   7482: |-
-    Vous allez là où se trouvent tous ces monstres, n'est-ce pas? 
-    J'aimerais être de retour à Windurst... c'était si paisible là-bas.${prompt}
+    You're going where all those monsters are, aren't you?
+    I wish I was back in Windurst...it was so peaceful there.${prompt}
   7483: |-
-    Vous êtes revenu. 
-    Alors, vous retournez à Windurst? Oh, comme je vous envie...${prompt}
-  7484: |- 
-    Oh, bonjour! Bienvenue au Consulat de Windurst. 
-    Ah, mais nous ne pouvons rien faire pour vous si vous n'avez pas de lettre d'introduction...${prompt}
-  7485: |- 
-    Oh ! Vous avez une lettre d'introduction ! 
-    Le consul voudra vous voir. 
-    Il est au fond--entrez sans hésiter.${prompt}
-  7486: |-  
-    Oh, vous allez vous battre et tout, n'est-ce pas ? 
-    Faites attention !${prompt}
-  7487: |- 
-    Oh ! Ça fait plaisir de vous revoir ! 
-    Vous retournez à Windurst maintenant ? 
-    Dites à tout le monde là-bas que nous allons bien !${prompt}
-  7488: |- 
-    Bonjour...? 
-    Oui, c'est le Consulat de Windurst.${prompt}
-  7489: |-  
-    Une lettre d'introduction...? 
-    Allez parler au consul, là-bas.${prompt}
-  7490: |- 
-    Vous allez vous battre...? 
-    Bonne chance.${prompt}
-  7491: |- 
-    Votre mission est terminée...? 
-    Faites un bon voyage vers Windurst.${prompt}
-  7492: |- 
-    Un aventurier, dans le Consulat de Jeuno ? 
-    Vous n'avez rien à faire ici.${prompt}
-  7493: |- 
-    Vous êtes au Consulat de Jeuno.
-    Nous ne pouvons rien faire pour vous, sauf si vous êtes citoyen de Jeuno.${prompt}
+    You've made it back.
+    Then you are returning to Windurst? Oh, how I envy you...${prompt}
+  7484: |-
+    Oh, hello! Welcome to the Consulate of Windurst.
+    Ah, but we can't do anything for you if you don't have a letter of introduction...${prompt}
+  7485: |-
+    Oh! You have a letter of introduction!
+    The consul would want to see you.
+    He's in the back--go right on in.${prompt}
+  7486: |-
+    Oh, you're going to be fighting and all, aren't you?
+    Be careful!${prompt}
+  7487: |-
+    Oh! Good to see you again!
+    Are you going back to Windurst now?
+    Tell everyone there we're doing fine!${prompt}
+  7488: |-
+    Hello...?
+    Yes, this is the Windurst Consulate.${prompt}
+  7489: |-
+    A letter of introduction...?
+    Go talk to the consul, there.${prompt}
+  7490: |-
+    Going fighting...?
+    Good luck.${prompt}
+  7491: |-
+    Your mission's over...?
+    Make it to Windurst safely.${prompt}
+  7492: |-
+    An adventurer, in the Consulate of Jeuno?
+    You have no business here.${prompt}
+  7493: |-
+    You are in the Consulate of Jeuno.
+    We cannot do anything for you unless you are a citizen of Jeuno.${prompt}
   7494: |-
-    Ceci est le Consulat de Jeuno. 
-    Il n'y a rien que nous puissions faire pour vous, sauf si vous êtes Jeunois.${prompt}
+    This is the Consulate of Jeuno.
+    There is nothing we can do for you unless you are a Jeunoan.${prompt}
   7495: |-
-    Ceci est le Consulat de Jeuno. 
-    Nous ne pouvons rien faire pour vous, sauf si vous avez la citoyenneté jeunoise.${prompt}
+    This is the Consulate of Jeuno.
+    We can't do anything for you unless you have Jeunoan citizenship.${prompt}
   7496: |-
-    Je suis désolé, mais je suis un peu occupé en ce moment. 
-    Pourriez-vous revenir plus tard ?${prompt}
+    I am sorry, but I am a little busy at the moment.
+    Would you mind coming back later?${prompt}
   7497: |-
-    Ceci est le Bureau de l'Aide Présidentielle. 
-    Monsieur Lucius est assez occupé en ce moment--veuillez essayer de ne pas le déranger.${prompt}
+    This is the Presidential Aide's Office.
+    Sir Lucius is quite busy at the moment--please try not to disturb him.${prompt}
   7498: |-
-    Oui, que désirez-vous avec le Département de l'Industrie ? 
-    Nous sommes très occupés, vous savez. Mais nous ne le serions pas si le grand patron n'était pas un amateur ignorant.${prompt}
+    Yes, what is it you want with the Department of Industry?
+    We're very busy, you know. But we wouldn't be if the big boss wasn't such an ignorant amateur.${prompt}
   7499: |-
-    Ceci est le Département de l'Industrie. 
-    L'industrie est ce qui fait avancer notre nation, donc notre département gère essentiellement tout à Bastok.${prompt}
-  7500: De bons sénateurs comme moi prennent le temps d'écouter les supplications des masses, contrairement à notre jeune et incompétent président.${prompt}
-  7501: Heh-heh-heh. Vous êtes très aimable, votre seigneurie. Vous nous avez tant donné... Heh-heh.${prompt}
+    This is the Department of Industry.
+    Industry is what drives our nation, so our department essentially manages everything in Bastok.${prompt}
+  7500: Good senators like myself take time to listen to the pleas of the masses, unlike our young and inept president.${prompt}
+  7501: Heh-heh-heh. You are very kind, your lordship. You have given us so much... Heh-heh.${prompt}
   7502: |-
-    Je dois augmenter la production de Métallurgie avant la fin de mon mandat ici. 
-    Je devrais commencer par augmenter le quota quotidien de tout le monde...${prompt}
-  7503: Ces gestionnaires qu'ils nous envoient sont tous les mêmes. Ils nous font faire tout le travail, et ils prennent tout le crédit.${prompt}
+    I must raise the Metalworks output before my term here ends.
+    I should start by raising everyone's daily quota...${prompt}
+  7503: These managers they send us are all the same. They make us do all the work, and they take all the credit.${prompt}
   7504: |-
-    Avez-vous vu les grandes roues à eau à l'étage!? 
-    Elles sont incroyables ! Elles fournissent de l'énergie à tout le Metalworks, vous savez ?${prompt}
+    Did you see the big water wheels upstairs!?
+    They're amazing! They send power to the entire Metalworks, you know?${prompt}
   7505: |-
     Tsk, tsk!
-    Les ingénieurs de nos jours comptent trop sur les machines! 
-    Pourquoi, à mon époque...${prompt}
+    Engineers these days rely too much on machines!
+    Why, in my days...${prompt}
   7506: |-
-    Ka-chink! Ka-chink! 
-    J'adore le son des marteaux frappant le métal ! 
-    Je pense que c'est même mieux que les chansons que jouent les bardes !${prompt}
-  7507: Avez-vous déjà rencontré une fille pleine de vie portant un grand foulard ? C'est la fille du président, tu sais. Non, je ne rigole pas ! J'ai aussi entendu dire qu'ils s'entendaient bien avant qu'il n'occupe son poste actuel.${prompt}
-  7508: Mec, j'ai besoin d'une pause...${prompt}
-  7509: J'ai faim... non, je veux dire, je suis affamé.${prompt}
-  7510: La nourriture ici n'est pas mauvaise, mais un peu plus de variété ne ferait pas de mal, tu vois ce que je veux dire ?${prompt}
+    Ka-chink! Ka-chink!
+    I just love the sound of hammers hitting metal!
+    I think it's even better than the songs that bards play!${prompt}
+  7507: Have you ever met a feisty girl wearing a big scarf? She's the president's daughter, you know. No, I'm not kidding! I also hear they used to get along well until he came to his present post.${prompt}
+  7508: Man, I need a break...${prompt}
+  7509: I'm hungry...no, I mean, I'm starved.${prompt}
+  7510: The food here isn't bad, but a little more variety wouldn't hurt, you know what I mean?${prompt}
   7511: |-
-    Mon ami, Offa, m'a dit que ${item-plural: 7[2]} étaient exquis !
-    J'aimerais pouvoir en avoir un jour.${prompt}
-  7512: Il m'a dit qu'il y avait un moyen facile mais dangereux de les faire, mais--hey, en parlant d'Offa, il ne vient pas travailler ces derniers temps...${prompt}
-  7513: Hmm, il doit sûrement traîner chez lui dans le quartier des Marchés encore.${prompt}
+    My friend, Offa, has been telling me that ${item-plural: 7[2]} are exquisite!
+    I wish I could have some, someday.${prompt}
+  7512: He told me that there was an easy but dangerous way of making them, but--hey, speaking of Offa, he hasn't been coming to work lately...${prompt}
+  7513: Hmm, he's probably loafing around in his house in the Markets District again.${prompt}
   7514: |-
-    Hé ! Est-ce que c'est ${article} ${item-article: 7[2]} ?
-    Laisse-moi le prendre ! Tiens, je te donnerai ça !${prompt}
+    Hey! Is that ${article} ${item-article: 7[2]}?
+    Let me have it! Here, I'll give you this!${prompt}
   7515: |-
-    Que ce soit l'exploitation minière, la forge ou l'aventure, c'est tout pareil.
-    Nous, les Galka, faisons tout le travail pénible pendant que les Humes restent là à regarder.${prompt}
-  7516: Ceci est le Bureau du Président.${prompt}
-  7517: N'as-tu pas de missions à accomplir ? Sinon, va en chercher une et arrête de me déranger.${prompt}
+    Whether it's mining, smithing, or adventuring, it's all the same.
+    We Galka do all the dirty work while the Humes sit back and watch.${prompt}
+  7516: This is the President's Office.${prompt}
+  7517: Do you not have any missions to complete? If not, go get one and stop bothering me.${prompt}
   7518: |-
-    Désolé, gamin, je suis un peu occupé en ce moment.
-    Reviens plus tard, d'accord ?${prompt}
+    I'm sorry, kid, I'm a little busy right now.
+    Come back later, hear?${prompt}
   7519: |-
-    Ah, c'est toi.
-    Tu te souviens de ce que je t'ai demandé de faire, n'est-ce pas ?${prompt}
+    Ah, it's you.
+    You remember what I asked you to do, right?${prompt}
   7520: |-
-    Ne dérange pas le chef.
-    Chaque seconde qu'il passe loin de ses recherches est une perte pour les Ateliers.${prompt}
+    Do not bother the chief.
+    Every second he spends away from his research is a loss to the Metalworks.${prompt}
   7521: |-
-    Ceci est le Bureau du Président.
-    N'entre pas à moins d'avoir des affaires officielles.${prompt}
+    This is the President's Office.
+    Don't go in unless you got official business.${prompt}
   7522: |-
-    Comment te portes-tu, aventurier ?
-    Souviens-toi, l'expérience est le meilleur enseignant.${prompt}
-  7523: Ces canons ne sont plus que des symboles maintenant, et c'est comme cela que cela devrait être.${prompt}
+    How are you faring, adventurer?
+    Remember, experience is the best teacher.${prompt}
+  7523: These cannons are nothing more than symbols now, and that is the way it should be.${prompt}
   7524: |-
-    Ces portes mènent au Bureau du Président.
-    Seules les personnes en mission spéciale et les aventuriers bastokiens de haut rang peuvent entrer.${prompt}
-    7525: |-
-    Ceci est l'Atelier du Sud.
-    Nous pouvons contrôler tous les canons de Bastok depuis ici.
-    Espérons que nous n'en aurons pas besoin de sitôt.${prompt}
+    These doors lead to the President's Office.
+    Only those on special missions and high-ranking Bastokan adventurers may enter.${prompt}
+  7525: |-
+    This is the Southern Cannonry.
+    We can control all the cannons in Bastok from here.
+    Hopefully, we won't need to any time soon.${prompt}
   7526: |-
-    Hé, tu n'es pas un gamin. Pourquoi es-tu à la chasse aux timbres ?
-    Non, ne me dis pas, je ne veux pas le savoir. Tiens.${prompt}
-  7527: Tu as reçu un timbre !${prompt}
+    Hey, you're not a kid. Why are you on the stamp hunt?
+    No, don't tell me, I don't want to know. Here.${prompt}
+  7527: You received a stamp!${prompt}
   7528: |-
-    Cet alcôve est notre Temple de la Déesse.
-    Peu de gens viennent ici--les bastokiens ne sont pas connus pour leur piété.${prompt}
-  7529: La chasse aux timbres ? Je n'apprécie pas que des gens foulent ce lieu sacré, mais... ici, finissons-en.${prompt}
+    This alcove is our Temple of the Goddess.
+    Not many come here--Bastokers are not known for their piety.${prompt}
+  7529: The stamp hunt? I do take exception to having people stomping into this sacred place, but...here, let us be done with it.${prompt}
   7530: |-
-    Cette zone est interdite... oh, vous avez apporté le rapport des mines de Zeruhn.
-    Je vais le prendre.${prompt}
+    This area is off-limits to...oh, you've brought the report from the Zeruhn Mines.
+    I'll take that.${prompt}
   7531: |-
-    C'était votre première mission, n'est-ce pas ? Bon travail.
-    Normalement, nous--${prompt}
-  7532: Monsieur Lucius ! Comment puis-je vous aider ?${prompt}
-  7533: Naji... vous avez mentionné un rapport ?${prompt}
+    This was your first mission, wasn't it? Good work.
+    Normally, we--${prompt}
+  7532: Sir Lucius! How may I help you?${prompt}
+  7533: Naji...you mentioned a report?${prompt}
   7534: |-
-    Oui, monsieur ! Cet aventurier vient de me remettre le dernier.
-    J'allais tous vous les apporter plus tard, monsieur.${prompt}
-  7535: Montrez-le-moi.${prompt}
-  7536: Donc... de plus en plus de Galka commencent à croire au retour de leur Gardien des Histoires.${prompt}
+    Yes, sir! This adventurer just brought the last one.
+    I was going to bring them all to you later, sir.${prompt}
+  7535: Show it to me.${prompt}
+  7536: So...more and more Galka are starting to believe in their Talekeeper's return.${prompt}
   7537: |-
-    Le Gardien des Histoires, monsieur ?
-    Mais je pensais que c'était juste un mythe galka, monsieur.${prompt}
-  7538: Si seulement c'était vrai... J'ai reçu des rapports disant que le Gardien des Histoires est déjà de retour parmi eux.${prompt}
+    The Talekeeper, sir?
+    But I thought that was just some Galka myth, sir.${prompt}
+  7538: If that were only true... I've received reports that the Talekeeper is already back among them.${prompt}
   7539: |-
-    Ces rapports... continuez à me les apporter, Naji.
-    Nous ne voudrions pas déranger le président avec de telles affaires triviales.${prompt}
-  7540: Oui, monsieur !${prompt}
-  7541: Quant à vous, je sais que vous n'êtes pas à Bastok depuis longtemps, alors je vais vous donner un conseil.${prompt}
+    These reports...keep bringing them to me, Naji.
+    We would not want to bother the president with such trivial matters.${prompt}
+  7540: Yes, sir!${prompt}
+  7541: As for you, I know you have not been in Bastok long, so I will give you some advice.${prompt}
   7542: |-
-    Il n'est ni d'usage ni poli d'ouvrir des documents scellés avant leur livraison.
-    Rappelez-vous cela si vous souhaitez rester à Bastok.${prompt}
+    It is neither customary nor polite to open sealed documents prior to their delivery.
+    Remember that if you wish to stay in Bastok.${prompt}
   7543: |-
-    En ce qui vous concerne, aventurier, vous avez bien travaillé.
-    Bastok a besoin de plus de gens comme vous.${prompt}
-  7544: Wow ! Pas beaucoup de gens peuvent parler à Sir Lucius après leur première mission. Il doit voir quelque chose en vous. Continuez votre bon travail !${prompt}
+    As for you, adventurer, you have done well.
+    Bastok needs more people like you.${prompt}
+  7544: Wow! Not many people get to speak to Sir Lucius after their first mission. He must see something in you. Keep up the good work!${prompt}
   7545: |-
-    Ouais, que voulez-vous ?
-    Je suis un peu occupé en ce moment.${prompt}
+    Yeah, what do you want?
+    I'm a little busy right now.${prompt}
   7546: |-
-    Hmm ? Ouais, je suis Cid.
-    Oh, vous êtes ici à propos de la mission !
-    D'accord, je vous attendais.${prompt}
-  7547: |-
-    Hé, Raibaht ! Apporte le machin ici.
+    Hmm? Yeah, I'm Cid.
+    Oh, you're here about the mission!
+    Right, I was expecting you.${prompt}
+  7547: Hey, Raibaht! Bring the thingamajig over here.${prompt}
   7548: |-
-    C'est seulement ta deuxième mission, hein ?
-    La plupart des jeunes à Bastok n'ont pas le cran d'aller à l'aventure, alors je compte sur toi. Fais de ton mieux, d'accord ?
+    This is only your second mission, huh?
+    Most of the young ones in Bastok don't have the guts to go adventuring, so I'm counting on you. Do your best, hear?${prompt}
   7549: |-
-    Eh bien, cette mission n'est pas si difficile.
-    Tu dois juste sortir...
-  7550: |-
-    ...Raibaht, vieux pote, si tu as apporté le machin, ne reste pas là à rien dire !
-  7551: |-
-    ...J'ai apporté le machin.
+    Well, this mission's not all that tough.
+    You just have to go out...${prompt}
+  7550: '...Raibaht, old buddy, if you brought the thing, don''t just stand there, say something!${prompt}'
+  7551: '...I brought the thing.${prompt}'
   7552: |-
-    Gah !
-    Si tu ne te calmes pas, je vais commencer à t'appeler “Montagne silencieuse” ou quelque chose comme ça !
+    Gah!
+    If you don't quit that, I'm gonna start calling you “Silent Mountain” or something!${prompt}
   7553: |-
-    Tu ne le ferais pas, Chef. Tu n'es pas comme les autres.
-    C'est pourquoi je travaille pour toi.
+    You would not, Chief. You are not like the others.
+    That is why I work for you.${prompt}
   7554: |-
-    Mince...
-    J'aime bien ce gars -- il travaille dur, il est minutieux dans ses recherches et tout -- mais s'il pouvait juste être un peu plus bavard, tu sais ?
-  7555: |-
-    Quoi qu'il en soit, voici ce que je veux que tu fasses. Prends ce ${keyitem-singular: 7[2]} et va au Dangruf Wadi près de Gustaberg Sud.
+    Sheesh...
+    I like the guy--he works hard, he's thorough in his research and all--but if only he was a little more talkative, you know?${prompt}
+  7555: 'Anyway, here''s what I want you to do. Take this ${keyitem-singular: 7[2]} to the Dangruf Wadi near South Gustaberg.${prompt}'
   7556: |-
-    Essaie de trouver un endroit dans le Wadi où ce ${keyitem-singular: 7[2]} change de couleur.
-    C'est tout.
-  7557: |-
-    C'est pour quoi ? Eh bien, pour que tu comprennes, je devrais te donner quelques leçons sur les modèles d'accumulation des sédiments dans le Wadi et la formation de poches de gaz dans le sol...
+    Try to find a place in the Wadi where this ${keyitem-singular: 7[2]} changes color.
+    That's all.${prompt}
+  7557: What is it for? Well, in order for you to understand, I'd have to give you some lessons on the accrual patterns of sediments in the Wadi and the formation of gas pockets in the soil...${prompt}
   7558: |-
-    ...Tu as un regard vide. Je sais, je sais, tu n'es pas devenu aventurier pour étudier la géologie, n'est-ce pas ?
-    Ne t'inquiète pas, ce n'est rien de dangereux, alors dépêche-toi !
+    ...You're getting a blank expression on your face. I know, I know, you didn't become an adventurer to study geology, right?
+    Don't worry, it's nothing dangerous, so get going!${prompt}
   7559: |-
-    Ah, tu es de retour !
-    Voyons ça. Hmm...rouge, comme je le pensais.
-    Et une réaction très forte, aussi.
-  7560: |-
-    Alors nous devrions pouvoir l'utiliser... mais nous devons nous assurer de minimiser les répercussions écologiques d'un tel travail...
-  7561: |-
-    Toujours aussi occupé, Chef ?
+    Ah, you're back!
+    Let's see it. Hmm...red, as I thought.
+    And a very strong reaction, too.${prompt}
+  7560: Then we should be able to use it...but we must make sure to minimize the ecological repercussions of such work...${prompt}
+  7561: Busy as always, Chief?${prompt}
   7562: |-
-    Volker, vieux renard !
-    Quand es-tu revenu ?${prompt}
-  7563: Récemment, monsieur. J'avais des affaires aux Forges aujourd'hui, alors j'ai pensé passer.${prompt}
+    Volker, you old dog!
+    When did you get back?${prompt}
+  7563: Just recently, sir. I had business in the Metalworks today, so I thought I'd drop by.${prompt}
   7564: |-
-    Tu dois avoir de sacrées histoires à raconter !
-    Allez, raconte !${prompt}
-  7565: Chef, ne parliez-vous pas à cette personne avant que je n'interrompe ?${prompt}
+    You must have some great stories to tell!
+    Come on, out with them!${prompt}
+  7565: Chief, were you not speaking to this person before I interrupted?${prompt}
   7566: |-
-    Ah, c'est vrai ! Désolé.
-    Cela fait longtemps que nous n'avons pas eu l'occasion de parler.${prompt}
+    Oh, right! Sorry.
+    It's been a long time since he and I had a chance to talk.${prompt}
   7567: |-
-    Permettez-moi de me présenter.
-    Je suis Volker, capitaine des Mousquetaires en Mythril.${prompt}
+    Let me introduce myself.
+    I am Volker, captain of the Mythril Musketeers.${prompt}
   7568: |-
-    Vous devez être un aventurier...et nouveau à Bastok aussi, n'est-ce pas ?
-    J'espère que tout se passera bien pour vous. Bastok a besoin de bonnes personnes.${prompt}
+    You must be an adventurer...and new to Bastok too, are you not?
+    I hope you do well. Bastok is in need of good people.${prompt}
   7569: |-
-    Oui, pour votre deuxième mission, vous avez très bien réussi.
-    Je le dirai moi-même au garde de la porte.${prompt}
+    Yeah, for your second mission, you've done very well.
+    I'll tell the guard at the gatehouse myself.${prompt}
   7570: |-
-    Eh bien, je devrais y aller.
-    Je repasserai plus tard, Chef.${prompt}
-  7571: Je dois encore aller prêter une oreille aux plaintes du président.${prompt}
+    Well, I should be going.
+    I will drop by again later, Chief.${prompt}
+  7571: I must go lend an ear to the president's gripes again.${prompt}
   7572: |-
-    Allez, il a besoin de soutien, surtout de votre part.
-    Ça ne se voit peut-être pas, mais je suis sûr qu'il fait de son mieux.${prompt}
+    Come on, he needs support, especially from you.
+    It might not look like it, but I'm sure he's doing his best.${prompt}
   7573: |-
-    Désolé de vous avoir retenu si longtemps. Merci encore, et bon travail.
-    Oh, et je pourrais avoir besoin de votre aide bientôt, alors restez en contact !${prompt}
-  7574: 'Ah, on vous a assigné l’enquête sur les ${item-plural: 7[2]} ?${prompt}'
-  7575: De nombreux phénomènes étranges sont associés à cet endroit, comme vous l'avez entendu.${prompt}
-  7576: J'ai analysé cette zone et j'ai trouvé une forte résonance de cristal sur une ligne droite entre cette structure et Jeuno.${prompt}
-  7577: Pour l'instant, je l'appelle la “Ligne de Cristal”...${prompt}
-  7578: Laissez tomber, vous avez encore cette expression vide sur le visage. Je vais passer les détails.${prompt}
+    I'm sorry to have kept you here so long. Thanks again, and good work.
+    Oh, and I might need your help again soon, so stay in touch!${prompt}
+  7574: 'Ah, you''ve been assigned to investigate the ${item-plural: 7[2]}?${prompt}'
+  7575: There are many strange phenomena associated with that place, as you've heard.${prompt}
+  7576: I've scanned that area and I've found there is a strong crystal resonance on a straight line between that structure and Jeuno.${prompt}
+  7577: For now, I'm calling it the “Crystal Line”...${prompt}
+  7578: Never mind, you're getting that blank expression on your face again. I'll skip the details.${prompt}
   7579: |-
-    Il y a trois endroits près de la structure où vous pouvez obtenir des ${item-plural: 7[2]}.
-    Ce sont des plates-formes surélevées et brillantes appelées “Télépoints”.${prompt}
+    There are three places near the structure where you can get ${item-plural: 7[2]}.
+    They're shining, raised platforms called “Telepoints.”${prompt}
   7580: |-
-    Placez un cristal sur un Télépoint, et le cristal sera vidé de son énergie.
-    Faites cela, puis rapportez-moi le cristal terni.${prompt}
+    Place a crystal on a Telepoint, and the crystal will be drained of its power.
+    Do that, and bring back the faded crystal to me.${prompt}
   7581: |-
-    Oh, encore une chose.
-    Pour placer le cristal sur un Télépoint, utilisez “Échanger”.${prompt}
+    Oh, one more thing.
+    To put the crystal on a Telepoint, use “Trade.”${prompt}
   7582: |-
-    Bien, vous avez rapporté ${article} ${item-article: 7[2]}.
-    Comme je le pensais, son schéma de détérioration est presque identique à celui trouvé à Beadeaux...${prompt}
+    Good, you've brought back ${article} ${item-article: 7[2]}.
+    As I thought, its pattern of deterioration is almost identical to the one found in Beadeaux...${prompt}
   7583: |-
-    <Soupir>
-    Je ne sais tout simplement pas quoi penser de tous les phénomènes étranges qui se produisent dernièrement...${prompt}
-  7584: Je me demande si cela a quelque chose à voir avec le Télépoint brisé que nous avons découvert récemment...${prompt}
-  7585: Je me demande si cela a un lien avec les Télépoints brisés...${prompt}
+    <Sigh>
+    I just don't know what to make of all the strange occurrences that have been happening lately...${prompt}
+  7584: I wonder if this has anything to do with the shattered Telepoint we discovered recently...${prompt}
+  7585: I wonder if this has anything to do with the shattered Telepoints...${prompt}
   7586: |-
-    Hm ? Oh, désolé. Je parlais tout seul.
-    Bon travail. Vous pouvez...attendez, puis-je vous demander de faire autre chose pour moi ?${prompt}
-  7587: Vous vous souvenez de Volker ? Il est venu ici lorsque vous me rapportiez les résultats de votre première mission.${prompt}
-  7588: Il vaudrait mieux que vous lui remettiez ceci en personne, mais c'est un homme occupé et difficile à trouver.${prompt}
-  7589: Donnez-le à l'un de ses Mousquetaires en Mythril à la place. Ayame et Naji devraient être de garde près du bureau du président. L'un ou l'autre fera l'affaire.${prompt}
+    Hm? Oh, sorry. Just talking to myself.
+    Good job. You can...wait, can I ask you to do something else for me?${prompt}
+  7587: Do you remember Volker? He came here when you were reporting the results of your first mission to me.${prompt}
+  7588: It would be best if you could deliver this to him personally, but he's a busy man and hard to find.${prompt}
+  7589: Give it to one of his Mythril Musketeers instead. Ayame and Naji should be on guard near the President's Office. Either one will do.${prompt}
   7590: |-
-    Une lettre du chef ?
-    De quoi s'agit-il ?${prompt}
+    A letter from the Chief?
+    What is it about?${prompt}
   7591: |-
-    Elle est adressée à notre capitaine.
-    Voyons voir... Hein ? Hmm ? Je n'y comprends rien...${prompt}
+    It's addressed to our captain.
+    Let's see... Hmm? Huh? I can't make heads or tails out of this...${prompt}
   7592: |-
-    Désolé, mais pourriez-vous la donner à Ayame à la place ? Elle devrait être de garde à l'arrière de ce bâtiment.
-    Ce genre de truc technique, c'est plus son domaine. Pour moi, c'est du charabia.${prompt}
-  7593: Oh, mais faites-moi une faveur... Ne lui dites pas que je vous l'ai demandé, sinon elle va encore se moquer de moi.${prompt}
+    I'm sorry, but could you give it to Ayame instead? She should be on guard at the rear of this building.
+    This kind of technical stuff's more her specialty. It's all mumbo-jumbo to me.${prompt}
+  7593: Oh, but do me a favor... Don't tell her I asked you to, or she's gonna make fun of me again.${prompt}
   7594: |-
-    Vous avez une lettre de l'ingénieur en chef ?
-    Puis-je la voir ?${prompt}
+    You have a letter from the Chief Engineer?
+    May I see it?${prompt}
   7595: |-
-    C'est un rapport sur l'enquête de la Ligne de Cristal.
-    Elle est adressée à notre capitaine... Cela pourrait signifier que notre compagnie se déplacera bientôt.${prompt}
+    This is a report on the investigation of the Crystal Line.
+    It is addressed to our captain... This might mean our company is moving out soon.${prompt}
   7596: |-
-    Merci de m'avoir apporté ceci.
-    Votre présence est très appréciée. Le chef est un peu occupé ces temps-ci pour faire ce genre de tâches lui-même.${prompt}
+    Thank you for bringing this to me.
+    Your presence is very much appreciated. The Chief is a little busy these days to do such chores himself.${prompt}
   7597: |-
-    Je dois vous poser une question, cependant.
-    Pourquoi m'avez-vous apporté ceci, et non à Naji ?
-    Il est aussi un Mousquetaire en Mythril et est posté plus près de l'entrée.${prompt}
+    I must ask you one thing, though.
+    Why did you bring this to me, and not Naji?
+    He is also a Mythril Musketeer, and posted closer to the entrance.${prompt}
   7598: |-
-    Pourquoi avez-vous apporté la lettre à Ayame ?
+    Why did you bring the letter to Ayame?
     ${selection-lines}
-    Naji n'avait pas l'air assez intelligent.
-    Ayame semblait plus fiable.
-    Parce que j'en avais envie.${prompt}
+    Naji didn't look smart enough.
+    Ayame looked more reliable.
+    Because I felt like it.${prompt}
   7599: |-
     Hah hah hah.
-    Eh bien, il dit toujours, “Je suis un combattant, pas un penseur !”
-    Sur ce point, je dois peut-être être d'accord.${prompt}
-  7600: Merci pour le compliment. Les Mousquetaires en Mythril sont censés être fiables, mais je ne savais pas si je pouvais vraiment remplir ce rôle. Eh bien, je fais au moins un peu plus que Naji.${prompt}
+    Well, he is always saying, “I'm a fighter, not a thinker!”
+    The latter, I may have to agree with.${prompt}
+  7600: Thank you for the compliment. Mythril Musketeers are supposed to be reliable, but I wasn't sure if I could fit the role. Well, at least I do a little bit more than Naji.${prompt}
   7601: |-
-    Vous êtes très perspicace ; j'aime ça chez un aventurier.
-    J'imagine que je vous reverrai beaucoup plus souvent.${prompt}
+    You're very perceptive; I like that in an adventurer.
+    I guess I'll be seeing you around a lot more.${prompt}
   7602: |-
-    Oh. Bon, peu importe.
-    Bon travail.${prompt}
+    Oh. Well, no matter.
+    Good work.${prompt}
   7603: |-
-    Oooh ! Vous m'avez apporté ${article} ${item-article: 7[2]} !
-    J'adore les manger cuits--${prompt}
+    Oooh! You've brought me ${article} ${item-article: 7[2]}!
+    I just love these cooked--${prompt}
   7604: |-
-    Euh...je veux dire, c'est très important pour la sécurité de Bastok, oui !
-    Il est impératif que vous ne disiez à personne que vous m'avez apporté ceci !${prompt}
+    Uh...I mean, this is very important to the safety of Bastok, yes!
+    It's imperative that you do not tell anyone you've brought this to me!${prompt}
   7605: |-
-    Vous avez prouvé que vous êtes un grand patriote !
-    Je suivrai votre carrière avec beaucoup d'intérêt.${prompt}
-  7606: Sénateur, monsieur...vous n'avez toujours pas remis vos ordres concernant--${prompt}
+    You have proven yourself to be a great patriot!
+    I will be following your career with great interest.${prompt}
+  7606: Senator, sir...you still haven't handed in your orders regarding--${prompt}
   7607: |-
-    Mangeur de fer ! Qu-que faites-vous ici !?
-    Je suis en plein milieu d'une tâche très importante--${prompt}
-  7608: '${lettercase: 1}${item-plural: 7[2]} encore, monsieur ?${prompt}'
+    Iron Eater! Wh-what are you doing here!?
+    I am in the middle of a very important--${prompt}
+  7608: '${lettercase: 1}${item-plural: 7[2]} again, sir?${prompt}'
   7609: |-
-    Comment saviez-vous ? Euh...je veux dire, sortez !
-    Ça va se gâter si je ne le cuisine pas--${prompt}
+    How did you know? Uh...I mean, get out!
+    It's going to spoil if I don't cook it--${prompt}
   7610: |-
-    <Soupir> Bon appétit, monsieur.
-    Remettez les papiers à l'un des Mousquetaires dès que vous avez terminé.${prompt}
-  7611: Dites-moi...ne vous demandez-vous pas parfois si ces missions valent vraiment votre temps ?${prompt}
+    <Sigh> Bon appetit, sir.
+    Just hand in the papers to one of the Musketeers as soon as you're done.${prompt}
+  7611: Tell me...do you not sometimes wonder if these missions are truly worth your time?${prompt}
   7612: |-
-    Pensez-vous que les missions sont une perte de temps ?
+    Do you think missions are a waste of time?
     ${selection-lines}
-    Oui, je le pense.
-    Non, je ne le pense pas.${prompt}
+    Yes, I do.
+    No, I don't.${prompt}
   7613: |-
     Hah hah hah.
-    Vous êtes honnête. Mais ce n'est pas quelque chose que vous devriez dire à un Mousquetaire en Mythril, surtout près du bureau du président.${prompt}
+    You are an honest one. But it is not something you should say to a Mythril Musketeer, especially when you are near the President's Office.${prompt}
   7614: |-
-    Je vois.
-    Je dois m'excuser. Il est indigne d'un Mousquetaire en Mythril de poser de telles questions.${prompt}
-  7615: Quoi qu'il en soit, il ne fait aucun doute que vous avez beaucoup fait pour la prospérité de Bastok, et que vous le ferez encore à l'avenir.${prompt}
-  7616: Je dois essayer de faire de même...${prompt}
+    I see.
+    I must apologize. It is unbecoming of a Mythril Musketeer to ask such questions.${prompt}
+  7615: Either way, there is no question that you have done a great deal for the prosperity of Bastok, and that you will in the future as well.${prompt}
+  7616: I must try to do the same...${prompt}
   7617: |-
-    Ravi de vous revoir.
-    J'ai entendu dire que vous partez à l'étranger.${prompt}
-  7618: D'habitude, je vous donnerais vos ordres, mais cette fois, l'assistant du président souhaite vous rencontrer en personne.${prompt}
-  7619: Je ne sais pas si les missions que vous avez faites jusqu'à présent ont été difficiles pour vous...${prompt}
-  7620: Mais cette fois, je suis sûr que cela va être un véritable défi.${prompt}
-  7621: Je veux dire, vous allez devoir aller à la fois à San d'Oria et à Windurst...${prompt}
+    Good to see you again.
+    I hear you're going overseas.${prompt}
+  7618: Usually, I would be giving you your orders, but this time, the president's aide wants to meet with you in person.${prompt}
+  7619: I don't know if the missions you've been on so far were tough for you...${prompt}
+  7620: But this time, I'm sure it's going to be a real challenge.${prompt}
+  7621: I mean, you're going to have to go to both San d'Oria and Windurst...${prompt}
   7622: |-
-    Ce n'est pas comme aller quelque part à proximité, comme Gustaberg ou les Hautes-Terres de Konschtat.
-    Vous devrez aussi voyager par la mer.${prompt}
+    It's not like going somewhere nearby, like Gustaberg or the Konschtat Highlands.
+    You'll have to travel by sea, too.${prompt}
   7623: |-
-    C'est la Salle du Président.
-    Rappelez-vous de rester poli.${prompt}
-  7624: (Oh, et assurez-vous de ne rien dire qui pourrait l'offenser... Il est vraiment susceptible.) ${prompt}
+    This is the President's Room.
+    Remember to be polite.${prompt}
+  7624: (Oh, and make sure you don't say anything that might offend him... He's really touchy.) ${prompt}
   7625: |-
-    Ah, nous vous attendions.
-    Je me souviens vous avoir rencontré après votre première mission.
-    Permettez-moi de vous présenter. Voici Sir Karst--${prompt}
-  7626: Président Karst. C'est ainsi que vous m'appellerez.${prompt}
-  7627: Lucius, qu'était-ce que cette histoire de première mission ?${prompt}
+    Ah, we have been expecting you.
+    I remember meeting you after your first mission.
+    Let me introduce you. This is Sir Karst--${prompt}
+  7626: President Karst. That is how you will address me.${prompt}
+  7627: Lucius, what was that about a first mission?${prompt}
   7628: |-
-    Le rapport des Mines de Zeruhn, monsieur.
-    À propos du Gardien des Âmes--${prompt}
+    The report from the Zeruhn Mines, sir.
+    About the Talekeeper--${prompt}
   7629: |-
-    Hmph. Encore ces Galka.
-    On ne m'a pas informé que vous aviez rencontré le messager, Lucius.${prompt}
-  7630: Je n'ai pas jugé nécessaire de vous déranger avec de telles futilités, monsieur.${prompt}
-  7631: “Président,” Lucius.${prompt}
-  7632: Mes excuses. Je suis désolé de ne pas vous avoir informé au sujet des Galka, Monsieur le Président.${prompt}
+    Hmph. Those Galka again.
+    I was not informed you had met with the messenger, Lucius.${prompt}
+  7630: I did not feel it was necessary to bother you with such trivial matters, sir.${prompt}
+  7631: “President,” Lucius.${prompt}
+  7632: My apologies. I am sorry for not having informed you about the Galka, Mister President.${prompt}
   7633: |-
-    Peu importe.
-    Voici vos ordres.${prompt}
+    No matter.
+    Here are your orders.${prompt}
   7634: |-
-    Comme vous le savez, il y a trois autres nations à part la nôtre dans Vana'diel.
-    Le Royaume de San d'Oria, la Fédération de Windurst, et le Grand-Duché de Jeuno.${prompt}
-  7635: Jeuno continue de proclamer sa neutralité, alors je veux que vous alliez à San d'Oria et à Windurst.${prompt}
+    As you know, there are three other nations aside from our own in Vana'diel.
+    The Kingdom of San d'Oria, the Federation of Windurst, and the Grand Duchy of Jeuno.${prompt}
+  7635: Jeuno is still professing neutrality, so I want you to go to San d'Oria and Windurst.${prompt}
   7636: It does not matter which you go to first, as long as you go to both. I will give you a letter of introduction, which you will present to the consuls in both nations. Any questions?${prompt}
   7637: |-
-    Des questions ?
+    Any questions?
     ${selection-lines}
-    Que dois-je faire une fois sur place ?
-    Pourquoi suis-je envoyé ?
-    Comment puis-je me rendre à San d'Oria ?
-    Comment puis-je me rendre à Windurst ?
-    Où sont les consulats ?
-    Pourquoi m'avez-vous appelé ici ?
-    Pas de questions.${prompt}
-  7638: "Les consuls de chaque pays vous informeront.\nNe vous inquiétez pas, nous ne vous demandons pas d'espionner--les missions qui vous seront confiées profiteront autant à ces pays qu'au nôtre.${prompt}"
+    What do I do once I get there?
+    Why am I being sent?
+    How do I get to San d'Oria?
+    How do I get to Windurst?
+    Where are the consulates?
+    Why did you call me here?
+    No questions.${prompt}
+  7638: "The consuls in each country will tell you.\nDon't worry, we are not asking you to spy--the jobs you will be given will benefit those countries as much as ours.${prompt} "
   7639: |-
-    Pourquoi ? Officiellement, pour promouvoir l'amitié entre nos nations.
-    En réalité, pour examiner l'état interne de ces pays, et aussi pour vous former.${prompt}
-  7640: San d'Oria se trouve dans le nord de Quon, le même continent que Bastok. Vous pouvez y aller par voie terrestre.${prompt}
-  7641: Rendez-vous dans la ville portuaire de Selbina, au nord-ouest. Une fois là-bas, vous pourrez prendre un bateau pour Mhaura, une petite ville à un jet de pierre de Windurst.${prompt}
+    Why? Officially, to promote friendship between our nations.
+    In reality, to investigate the internal state of those countries, and also to train you.${prompt}
+  7640: San d'Oria is in Northern Quon, the same continent as Bastok. You can get there by land.${prompt}
+  7641: Go to the port town of Selbina to the northwest. Once there, you can take a ship to Mhaura, a small town that is a stone's throw away from Windurst.${prompt}
   7642: |-
-    Demandez à quelqu'un d'autre si vous voulez des détails.
-    Je suis le président, pas un agent de voyage.${prompt}
+    Ask someone else if you want details.
+    I'm the president, not a travel agent.${prompt}
   7643: |-
-    Et vous vous appelez aventurier !?
-    Demandez simplement aux gardes du pays où vous vous trouvez !${prompt}
+    And you call yourself an adventurer!?
+    Just ask the guards of the country you're in!${prompt}
   7644: |-
-    Je ne fais pas confiance à mes subordonnés, donc je préfère donner moi-même les ordres les plus importants.
-    C'est tout ce que vous avez besoin de savoir.${prompt}
-  7645: D'autres questions ?${prompt}
+    I do not trust my subordinates, so I prefer to give the most important orders myself.
+    That is all you need to know.${prompt}
+  7645: Any other questions?${prompt}
   7646: |-
-    Bien.
-    Lucius, la lettre.${prompt}
+    Good.
+    Lucius, the letter.${prompt}
   7647: |-
-    Voici votre lettre de recommandation.
-    Présentez-la aux consuls, et ils vous donneront d'autres instructions.${prompt}
+    This is your letter of introduction.
+    Present it to the consuls and they will give you further instructions.${prompt}
   7648: |-
-    Ce sont vos ordres. Partez rapidement.
-    Vous êtes congédié.${prompt}
+    Those are your orders. Depart quickly.
+    You are dismissed.${prompt}
   7649: |-
-    Alors, comment ça s'est passé ?
-    Le président vous a-t-il sermonné ?${prompt}
-  7650: Je n'arrive toujours pas à croire que le Chef Cid ait soutenu ce type pendant les élections...${prompt}
+    So, how did it go?
+    Did the president nag at you?${prompt}
+  7650: I still can't believe that Chief Cid actually backed that guy during the elections...${prompt}
   7651: |-
-    Oups. Vous ne m'avez pas entendu dire ça, d'accord ?
-    Je dois y aller. Bonne chance pour votre mission !${prompt}
+    Oops. You didn't hear me say that, okay?
+    I gotta go. Good luck on your mission!${prompt}
   7652: |-
-    Waouh ! Vous êtes déjà allé à San d'Oria et Windurst ?
-    Permettez-moi de vous escorter jusqu'au bureau du Président.${prompt}
+    Wow! You've been to San d'Oria and Windurst already?
+    Let me escort you to the President's Office.${prompt}
   7653: |-
-    Alors, comment c'était ?
-    Les Orcs de Ghelsba ou les Yagudo de Giddeus vous ont-ils posé des problèmes ?${prompt}
-  7654: Mon dieu, je vous envie. Je suis un Mousquetaire de Mythril, mais tout ce qu'on me fait faire, c'est garder cette porte.${prompt}
-  7655: Le capitaine Volker et Mangefer ont toutes les bonnes missions, et Ayame me rabaisse toujours...${prompt}
+    So, how was it?
+    Did the Orcs in Ghelsba or the Yagudo in Giddeus give you any trouble?${prompt}
+  7654: Man, I envy you. I'm a Mythril Musketeer, but all they make me do is stand guard at that door.${prompt}
+  7655: Captain Volker and Iron Eater get all the good missions, and Ayame always puts me down...${prompt}
   7656: |-
-    Je suis un Mousquetaire de Mythril, l'élite de l'élite !
-    Pourquoi dois-je faire des tours de garde ? Ce n'est pas juste...${prompt}
-  7657: Peut-être devrais-je vous ordonner de balayer les Quadav de Palborough... tout seul.${prompt}
-  7658: M-Monsieur le Président !${prompt}
+    I'm a Mythril Musketeer, the cream of the crop!
+    Why do I have to do guard duty? It's just not fair...${prompt}
+  7657: Then perhaps I should order you to sweep the Quadav from Palborough...single-handedly.${prompt}
+  7658: M-Mister President!${prompt}
   7659: |-
-    Retournez à votre poste, Naji.
-    C'est un ordre.${prompt}
-  7660: Rapport. Qu'avez-vous appris sur Windurst et San d'Oria ?${prompt}
+    Go back to your post, Naji.
+    That is an order.${prompt}
+  7660: Report. What have you learned of Windurst and San d'Oria?${prompt}
   7661: |-
-    Que rapportez-vous ?
+    What do you report?
     ${selection-lines}
-    Les détails de votre voyage.
-    L'état interne de San d'Oria.
-    L'état interne de Windurst.
-    L'état des Kindred.${prompt}
+    The details of your trip.
+    The internal state of San d'Oria.
+    The internal state of Windurst.
+    The state of the Kindred.${prompt}
   7662: |-
-    Oh, avez-vous eu un voyage agréable, alors ?
-    Bah ! Me moquez-vous, aventurier ? Parlez-moi des autres nations, maintenant !${prompt}
+    Oh, did you have a pleasant trip, then?
+    Bah! Do you mock me, adventurer? Tell me of the other nations, now!${prompt}
   7663: |-
-    Hmph. Ils sont donc toujours piégés dans leurs traditions absurdes.
-    Ils ne sont pas meilleurs que les Orcs avec lesquels ils se battent.${prompt}
-  7664: Hmph. Alors il serait insensé d'attendre de l'aide de ces lâches dans la lutte contre les bêtes...${prompt}
-  7665: Vous voulez dire que quelqu'un dirige les hordes de bêtes, alors ?${prompt}
+    Hmph. So they are still trapped in their foolish traditions.
+    They are no better than the Orcs they fight with.${prompt}
+  7664: Hmph. Then it would be foolish to expect any help from those cowards in fighting the beastmen...${prompt}
+  7665: You mean that someone is leading the beastman hordes, then?${prompt}
   7666: |-
-    Lucius. Parlez à Volker à ce sujet, et revenez quand vous aurez un plan pour faire face à cette situation.
-    Et n'oubliez pas de surveiller les Quadav.${prompt}
-  7667: Avez-vous autre chose à rapporter ?${prompt}
+    Lucius. Speak with Volker about this, and come back when you have a plan to deal with this situation.
+    And do not forget to watch the Quadav.${prompt}
+  7667: Do you have anything else to report?${prompt}
   7668: |-
-    Je vous ai accordé tout le temps que je pouvais.
-    Lucius, restez et voyez quel sens vous pouvez tirer de cela--et ne me donnez pas tous les détails triviaux lorsque vous me ferez votre rapport.${prompt}
-  7669: Parlez-moi davantage de ce que vous avez appris sur les bêtes, s'il vous plaît.${prompt}
+    I have spared you all the time I can.
+    Lucius, stay and see what sense you can make of this--and do spare me all the trivial details when you report to me.${prompt}
+  7669: Tell me more of what you have learned about the beastmen, please.${prompt}
   7670: |-
-    Je vois... Il semble qu'il y ait effectivement quelqu'un qui contrôle leurs mouvements.
-    Mais qui pourrait être assez puissant pour unir ces hordes indisciplinées...?${prompt}
+    I see... It does seem like there is someone controlling their movements.
+    But who could be powerful enough to unite those unruly hordes...?${prompt}
   7671: |-
-    Bon travail.
-    Nous vous demanderons probablement d'entreprendre une autre mission importante dans quelques jours.${prompt}
-  7672: Le président, malgré ses paroles dures, vous estime beaucoup et s'attend à ce que vous réussissiez. Tout comme moi.${prompt}
+    Good work.
+    We will probably ask you to undertake another important mission in a few days.${prompt}
+  7672: The president, despite his harsh words, values you highly and will expect you to do well. As do I.${prompt}
   7673: |-
-    Ah, vous êtes ici pour une mission, n'est-ce pas ?
-    Nous vous attendions.
-    C'est bon de vous voir arriver ici sain et sauf.${prompt}
-  7674: Riault, s'il vous plaît.${prompt}
+    Ah, you're here on a mission, aren't you?
+    We've been expecting you.
+    It's good to see you made it here safely.${prompt}
+  7674: Riault, if you please.${prompt}
   7675: |-
-    Oui, madame.
-    Tout d'abord, laissez-moi vous parler de l'état actuel de Bastok.${prompt}
+    Yes, ma'am.
+    First, let me tell you about Bastok's current state.${prompt}
   7676: |-
-    Bastok a déjà perdu plusieurs atouts majeurs face aux Quadavs.
-    Les mines de Palborough ont été la perte la plus importante.${prompt}
+    Bastok has already lost several major assets to the Quadav.
+    The Palborough Mines were the greatest loss.${prompt}
   7677: |-
-    Leur situation récente est similaire à la nôtre dans notre lutte contre les Orcs.
-    Seule l'époque précédant la Grande Guerre a vu un tel changement de pouvoir.${prompt}
+    Their recent plight is akin to ours in our fight against the Orcs.
+    Only in the time prior to the Great War did the power balance shift so.${prompt}
   7678: |-
-    J'ai entendu une rumeur selon laquelle ils se rallieraient derrière un nouveau leader !
-    Pouvez-vous le croire ? Des bêtes organisées !?${prompt}
+    I've heard a rumor that they are rallying behind a new leader!
+    Can you believe it? Beastmen, being organized!?${prompt}
   7679: |-
-    Cela présage mal, je vous le dis.
-    Et ce qui est pire, c'est que nous sommes coincés ici dans cette ville de voyous incultes !${prompt}
+    This bodes ill, I tell you.
+    What's worse, we are stuck here in this city of uncouth ruffians!${prompt}
   7680: |-
-    Chantain ! Cela suffit.
-    Riault, veuillez continuer.${prompt}
-  7681: Votre mission est d'aller aux mines de Palborough, actuellement sous le contrôle des Quadavs, et de prendre un échantillon de la ressource décroissante appelée mythril.${prompt}
-  7682: 'Pour être précis, nous avons besoin que vous rameniez ${item-article: 7[2]}.${prompt}'
-  7683: Grâce à notre accord de coopération mutuelle, Bastok nous permet de vous envoyer dans les mines. Votre véritable objectif est de recueillir autant d'informations que possible sur la technologie avancée de Bastok.${prompt}
-  7684: Nous devons découvrir qui ou quoi rassemble les bêtes, tout en donnant l'impression que nous coopérons avec Bastok.${prompt}
-  7685: C'est pourquoi nous avons besoin que vous alliez enquêter sur les mines de Palborough. Elles étaient autrefois la propriété de Bastok... mais de nos jours, aucun Bastokien sensé ne s'approcherait à moins d'un malm de là, s'il avait le choix.${prompt}
-  7686: Si cela dépendait de nous, nous voudrions que vous alliez aux mines immédiatement, mais les autorités de Bastok nous ont dit que vous deviez d'abord vous rendre auprès d'eux pour obtenir une autorisation.${prompt}
-  7687: Je sais que vous préféreriez vous passer de toute cette paperasserie, mais supportez-nous et rendez-vous auprès du responsable de Bastok nommé Pius. Vous le trouverez dans le bureau du président.${prompt}
-  7688: Je dois vous avertir que nous pensions que les Humes étaient un peuple raisonnable avant de venir ici... mais nous avons découvert que ce n'est pas toujours le cas.${prompt}
+    Chantain! That is enough.
+    Riault, please continue.${prompt}
+  7681: Your mission is to go to the Palborough Mines, currently under Quadav control, and take a sample of the dwindling resource called mythril.${prompt}
+  7682: 'To be precise, we need you to bring back ${article} ${item-article: 7[2]}.${prompt}'
+  7683: Thanks to our agreement to mutual cooperation, Bastok is allowing us to send you into the mines. Your true objective is to gather as much information as possible on Bastok's advanced technology.${prompt}
+  7684: We need to find out who or what is rallying the beastmen, and at the same time make it look like we are cooperating with Bastok.${prompt}
+  7685: That is why we need you to go investigate the Palborough Mines. They were once the property of Bastok...but these days, no sane Bastoker would come within a malm of it, given the choice.${prompt}
+  7686: If it were up to us, we would want you to go to the mines right away, but we were told by the Bastok authorities that you must report to them first in order to receive authorization.${prompt}
+  7687: I know you'd rather do without all the red tape, but bear with us and report to the Bastokan official named Pius. He can be found in the President's Office.${prompt}
+  7688: I must warn you that we thought the Humes were a reasonable people before we came here...but we've found that this is not always the case.${prompt}
   7689: |-
-    Leur talent pour faire des profits est incomparable, mais leur sens du devoir laisse quelque peu à désirer.
-    En fait, même leurs fonctionnaires peuvent poser problème. Pour le succès de votre mission, essayez d'être patient.${prompt}
+    Their talent at making profit is incomparable, but their sense of duty is somewhat lacking.
+    In fact, even their officials can be troublesome. For the sake of your mission's success, try to be patient.${prompt}
   7690: |-
-    Ah, vous avez apporté le ${item-singular: 7[2]}.
-    Bon travail.${prompt}
+    Ah, you've brought the ${item-singular: 7[2]}.
+    Good work.${prompt}
   7691: |-
-    Je vais demander à Riault de rédiger un résumé des informations que nous avons pu rassembler sur la technologie bastokienne.
-    Riault, s'il vous plaît.${prompt}
+    I will have Riault make a brief of the information we've been able to assemble on Bastokan technology.
+    Riault, if you please.${prompt}
   7692: |-
-    Ah, vous êtes revenu. Qu'avez-vous trouvé ?
-    Hmm... je vois. Je suis content que vous soyez revenu sain et sauf.${prompt}
+    Ah, you have returned. What did you find?
+    Hmm...I see. I am glad you made it back safely.${prompt}
   7693: |-
-    Riault prendra note des détails de votre enquête.
-    Veuillez lui dire ce que vous avez vu.${prompt}
+    Riault will write down the details of your investigation.
+    Please tell him what you have seen.${prompt}
   7694: |-
-    <Soupire>
-    Quand pourrons-nous revenir à San d'Oria, je me demande.${prompt}
+    <Sigh>
+    Oh, when will we be allowed to go back to San d'Oria, I wonder.${prompt}
   7695: |-
-    J'en ai assez de ces Humes grossiers et de ces Galka sauvages.
-    Je veux partir !${prompt}
+    I've had it up to here with these crass Humes and savage Galka.
+    I want out!${prompt}
   7696: |-
-    Je comprends ce que tu veux dire.
-    Même leurs techniques architecturales sont rudimentaires. C'est un miracle que ces bâtiments tiennent encore debout !${prompt}
-  7697: Ne devrais-je pas vous rappeler que cette nation "grossière et sauvage" rivalise avec San d'Oria pour le pouvoir sur ce continent ?${prompt}
-  7698: San d'Oria ne peut guère se permettre de se reposer sur ses gloires passées. Notre complaisance et notre arrogance seront notre perte.${prompt}
-  7699: N'était-ce pas ce genre de discours qui vous a envoyé ici en premier lieu, peu importe que vous soyez de noble lignée ?${prompt}
-  7700: Oui, vous devriez faire attention. Comme disait mon grand-père, "Si tu n'as rien de gentil à dire, ne dis rien du tout."${prompt}
+    I know what you mean.
+    Even their architectural techniques are crude. It's a wonder these buildings are still standing!${prompt}
+  7697: Might I remind you two that this “crude and savage” nation is rivaling San d'Oria for power on this continent?${prompt}
+  7698: San d'Oria can ill afford to sit back on its past glories. Our complacence and arrogance will be our downfall.${prompt}
+  7699: Wasn't it that kind of talk that got you sent here in the first place, regardless of the fact that you are of noble blood?${prompt}
+  7700: Yes, you should be careful. As my grandfather used to say, “If you don't have anything nice to say, don't say anything at all.”${prompt}
   7701: |-
-    Oh, tu devrais parler, Chantain.
-    Riault, n'est-il pas temps que tu aies fini ?${prompt}
+    Oh, you should talk, Chantain.
+    Riault, isn't it about time you were done?${prompt}
   7702: |-
-    Tout est terminé, madame.
-    Cela conclut la partie concernant Bastok de cette mission.${prompt}
+    All done, ma'am.
+    This concludes the Bastok part of this mission.${prompt}
   7703: |-
-    Vous vous rendez ensuite à Windurst, n'est-ce pas ?
-    Faites comme vous avez fait ici. Rendez-vous au consulat, et ils s'occuperont de vous.${prompt}
-  7704: Gloire à San d'Oria, et que vous marchiez avec honneur.${prompt}
+    You are going to Windurst next, aren't you?
+    Do as you have done here. Head to the consulate, and they will take care of you.${prompt}
+  7704: Glory be to San d'Oria, and may you walk with honor.${prompt}
   7705: |-
-    Votre mission est presque terminée.
-    Il vous suffit de retourner à San d'Oria avec votre rapport.${prompt}
-  7706: Oh, vous êtes l'aventurier avec la lettre d'introduction, n'est-ce pas ?${prompt}
+    Your mission is almost complete.
+    You have only to return to San d'Oria with your report.${prompt}
+  7706: Oh, you're the adventurer with the letter of introduction, yes?${prompt}
   7707: |-
-    C'est bien de votre part d'être venu.
-    Ça a dû être un long voyage, monter sur un bateau pour un endroit lointain comme celui-ci.${prompt}
-  7708: J'ai étudié dur pour devenir consul, espérant être servi par des secrétaires mignonnes, mais mon destin a été d'être délégué dans ce coin perdu...${prompt}
+    It's good of you to come.
+    It must've been a long journey, riding a boat to a faraway place like this.${prompt}
+  7708: I studied hard to become a consul, hoping I'd be waited on by cutesy-wutesy secretaries, but my fate was to be delegated to this neck of the woods...${prompt}
   7709: |-
-    Oh ! Je suis désolé !
-    Ne dites à personne que j'ai dit ça, s'il vous plaît ?${prompt}
-  7710: Je veux dire, vous ne pouvez pas me blâmer - je suis entouré de Humes musclés et de Galkas effrayants au lieu de mignon... vous savez.${prompt}
+    Oh! I'm sorry-worry!
+    Don't tell anyone I said that, please?${prompt}
+  7710: I mean, you can't blame me--I'm surrounded by musky Humes and scary Galka instead of cutesy...uh, you know.${prompt}
   7711: |-
-    Oh, Mih Ketto ?
-    Nous avons un invité ici. Ne devrais-tu pas servir du thé ?${prompt}
-  7712: Quel thé ? Nous sommes à court de thé depuis des mois !${prompt}
+    Oh, Mih Ketto?
+    We have a guest here. Shouldn't you be serving tea?${prompt}
+  7712: What tea? We ran out of tea months ago!${prompt}
   7713: |-
-    Alors pourquoi n'avez-vous pas rempli notre stock ?
-    Combien de fois je vous l'ai dit...${prompt}
+    Then why haven't you refilled our stock?
+    How many times have I told you...${prompt}
   7714: |-
-    Uh... monsieur ?
-    Voulez-vous que j'aille en acheter ?${prompt}
+    Uh...sir?
+    Would you like me to go out and buy some?${prompt}
   7715: |-
-    Hmm, eh bien...
-    Maintenant que vous en parlez, je ne me rappelle pas avoir vu quelqu'un vendre du thé ici...${prompt}
-  7716: Hmm ? Vous vous moquez du thé, dites-vous ? Vous voulez entendre parler de la mission ? Oh, zut...${prompt}
-  7717: Je suis désolé, faire plaisir aux gens... Je veux dire, essayer de rendre les gens heureux, est devenu une habitude. Cela fait partie du travail.${prompt}
+    Hmm, well...
+    Now that you mention it, I don't remember seeing anyone selling tea here...${prompt}
+  7716: Hmm? You don't care about tea, you say? You want to hear about the mission? Oh, bother...${prompt}
+  7717: I'm sorry, as greasing people's...I mean, trying to make people happy-snappy has become a habit. It's part of the job.${prompt}
   7718: |-
     Anyway, here's what you have to do...
     Uh... That is... Let's see...${prompt}
@@ -18876,146 +18869,146 @@ entries:
     Since you've visited both San d'Oria and Bastok, you may now make your triumphant return to Windurst!
     Oh, and tell everyone we said hi!${prompt}
   7747: |-
-    Oui, que puis-je faire pour vous ?
-    Ah, vous êtes l'envoyé de ${choice: 0}[San d'Oria/Windurst].${prompt}
+    Yes, what is it?
+    Ah, you are the envoy from ${choice: 0}[San d'Oria/Windurst].${prompt}
   7748: |-
-    Allez parler à un Galka nommé Grohm - il faisait partie de l'expédition qui a tenté de reprendre les Mines de Palborough aux Quadav par le passé.
-    Il devrait être dans le Restauration des Artisans dans la Métallurgie.${prompt}
+    Go speak to a Galka named Grohm--he was part of the expedition that tried to reclaim the Palborough Mines from the Quadav once before.
+    He should be in the Craftsmen's Eatery in the Metalworks.${prompt}
   7749: |-
-    Pourquoi êtes-vous toujours là ?
-    Les Mousquetaires sont généralement chargés de donner des missions, et franchement, je trouve ce genre de travail fastidieux...${prompt}
+    Why are you still here?
+    The Musketeers are usually charged with giving out missions, and frankly, I find this kind of work tedious...${prompt}
   7750: |-
-    Mais étant donné que vous êtes un envoyé, vous êtes sous ma juridiction.
-    Néanmoins, je ne peux m'empêcher de me demander quels sont les véritables motivations des ${choice: 0}[San d'Oriens/Windurstiens]...${prompt}
-  7751: Puis encore, vous vous rendez volontairement dans cet endroit infesté de Quadav, alors je ne peux pas me plaindre, même si vous vous avérez être un espion.${prompt}
+    But since you are an envoy, you are under my jurisdiction.
+    Still, I can't help but wonder what you ${choice: 0}[San d'Orians/Windurstians]' true motives are...${prompt}
+  7751: Then again, you're going willingly into that Quadav-ridden place, so I can't complain, even if you do turn out to be a spy.${prompt}
   7752: |-
-    Quoi qu'il en soit... Vous voulez parler à Grohm, dans le Restauration des Artisans de la Métallurgie.
-    Bonne chance.${prompt}
+    Well, anyway... You want to speak to Grohm, in the Metalworks eatery.
+    Good luck to you.${prompt}
   7753: |-
-    Oh, et lorsque vous aurez terminé votre enquête, rapportez directement à votre consulat.
-    C'est notre protocole. Je serais plutôt contrarié si vous reveniez ici.${prompt}
+    Oh, and when you're done with your investigation, report directly to your consulate.
+    That is our protocol. I would be rather annoyed if you were to come back here.${prompt}
   7754: |-
-    Hm ? Que voulez-vous ?
-    Hé, vous n'êtes pas de Bastok, n'est-ce pas ?${prompt}
-  7755: 'Quoi !? Vous êtes ${choice: 0}[San d’Orien/Windurstien], et vous avez écouté ce qu’un officiel de Bastok vous a dit de faire ?${prompt}'
-  7756: Hah ! Je ne sais pas pourquoi ce Hume vous a envoyé ici... ou pourquoi votre consulat vous a envoyé chez lui en premier lieu.${prompt}
-  7757: Vous feriez mieux d'écouter attentivement. Beaucoup d'entre nous sont morts en essayant de reprendre les Mines de Palborough aux Quadav...${prompt}
-  7758: Cela pourrait ne pas importuner un étranger comme vous, mais ils nous envoient toujours, nous les Galka, faire le sale boulot !${prompt}
+    Hm? What do you want?
+    Hey, you're not from Bastok, are you?${prompt}
+  7755: 'What!? You''re ${choice: 0}[San d''Orian/Windurstian], and you listened to what a Bastokan official told you to do?${prompt}'
+  7756: Hah! I have no idea why that Hume sent you here...or why your consulate sent you to him in the first place.${prompt}
+  7757: You better listen good. A lot of us died trying to win the Palborough Mines back from the Quadav...${prompt}
+  7758: It might not matter to a foreigner like you, but they always send us Galka to do the dirty work!${prompt}
   7759: |-
-    Ce qui m'agace le plus, c'est qu'ils n'y réfléchissent même pas à deux fois !
-    Même si vous n'êtes pas ici depuis longtemps, vous avez dû voir comment ils nous traitent.${prompt}
+    What gets me the most is that they don't even think about it twice!
+    Even if you haven't been here long, you must've seen how they treat us.${prompt}
   7760: |-
-    Peu importe. Vous crier dessus ne changera rien.
-    Vous vouliez savoir comment raffiner le minerai, n'est-ce pas ? C'est simple, mais vous devez vous souvenir des étapes.${prompt}
+    Never mind. Shouting at you won't change anything.
+    You wanted to know about refining ore, right? It's easy, but you have to remember the steps.${prompt}
   7761: |-
     Here goes:
     1. Get ${article} ${item-article: 6[2]}.
     2. Put that into the upper part of the refiner.
     3. Take the ${item-singular: 7[2]} out of the lower part of the refiner.${prompt}
-  7762: 'Vous pouvez soit acheter ${article} ${item-article: 6[2]} à quelqu’un, soit en obtenir en utilisant ${article} ${item-article: 5[2]} sur une veine de mythril à l’intérieur de Palborough.${prompt}'
+  7762: 'You can either buy ${article} ${item-article: 6[2]} from someone, or get some by using ${article} ${item-article: 5[2]} on a mythril seam inside Palborough.${prompt}'
   7763: |-
-    La machine de raffinage est si grande que ses parties supérieure et inférieure se trouvent à différents étages.
-    Mettez ${article} ${item-article: 6[2]} dedans au troisième étage, et elle produira ${article} ${item-article: 7[2]} au deuxième étage.${prompt}
-  7764: Je sais que ça a l'air simple, mais ce n'est pas le cas. Vous avez les Quadav à gérer, et ils sont partout.${prompt}
+    The refining machine is so big, its upper and lower sections are on different floors.
+    Put ${article} ${item-article: 6[2]} into it on the third floor, and it'll produce ${article} ${item-article: 7[2]} on the second floor.${prompt}
+  7764: I know it sounds simple, but it's not. You've got the Quadav to deal with, and they're everywhere.${prompt}
   7765: |-
-    Tiens, prends ces ${item-plural: 5[2]}.
-    Bonne chance. Vous en aurez besoin.${prompt}
-  7766: Hé, vous êtes un aventurier, non ? D'un autre pays ?${prompt}
+    Here, take these ${item-plural: 5[2]}.
+    Good luck. You're gonna need it.${prompt}
+  7766: Hey, you're an adventurer, right? From another country?${prompt}
   7767: |-
-    Désolé, je n'ai pas pu m'empêcher d'écouter aux portes.
-    Je vais aussi aux Mines de Palborough.${prompt}
+    Sorry, I couldn't help but eavesdrop.
+    I'm going to the Palborough Mines, too.${prompt}
   7768: |-
-    Ne t'inquiète pas, je ne vais pas te gêner.
-    Je ne pense pas que nous recherchons la même chose de toute façon.${prompt}
-  7769: Du moins, pour l'instant.${prompt}
-  7770: Mais tu ne devrais pas penser que ta mission se résume à une simple étude de mine.${prompt}
-  7771: Les bêtes semblent avoir trouvé un nouveau leader, et les Quadav deviennent plus puissants de jour en jour. Il pourrait y avoir une autre guerre...${prompt}
-  7772: Oh, il y a une chose que tu devrais savoir. Sais-tu pourquoi les Quadav ont pris les Mines de Palborough ?${prompt}
-  7773: Les Humes prétendent que les Quadav leur ont volé les mines, mais en réalité, les mines sont le foyer des Quadav... non, leur terre sainte.${prompt}
-  7774: Les Quadav préféreraient mourir plutôt que de la perdre. Mais les Humes de Bastok ne le savent pas, et ils ne veulent pas  le savoir.${prompt}
-  7775: Eh bien, il est temps pour moi d'y aller. Oh, et mon nom est Lion. Je suis un aventurier, comme toi. On se reverra.${prompt}
+    Don't worry, I won't get in your way.
+    I don't think we're going after the same thing anyway.${prompt}
+  7769: At least, for now.${prompt}
+  7770: But you shouldn't think your mission is just a mine survey.${prompt}
+  7771: The beastmen seem to have found a new leader, and the Quadav are getting more powerful with each passing day. There could be another war...${prompt}
+  7772: Oh, there's one thing you should know. Do you know why the Quadav took the Palborough Mines?${prompt}
+  7773: Humes claim that the Quadav stole the mines from them, but in reality, the mines are the Quadav's home...no, their holy land.${prompt}
+  7774: The Quadav would die rather than lose it. But the Humes in Bastok don't know, and they don't care to know.${prompt}
+  7775: Well, it's time for me to go. Oh, and my name is Lion. I'm an adventurer, like you. I'll be seeing you around.${prompt}
   7776: |-
-    Peu importe, te crier dessus ne changera rien.
-    Tu voulais en savoir plus sur les bêtes, n'est-ce pas ?${prompt}
-  7777: J'ai entendu des rumeurs selon lesquelles ces Quadav stupides agissent de manière organisée.${prompt}
-  7778: On dit même qu'ils ont un chef maintenant, comme pendant la Grande Guerre...${prompt}
-  7779: Oh, et il y a un étrange cercle magique au fond des Mines de Palborough. On dit que quiconque le franchit ne revient jamais.${prompt}
+    Never mind, shouting at you won't change anything.
+    You wanted to know about the beastmen, right?${prompt}
+  7777: I've heard rumors that those dumb Quadav are acting organized.${prompt}
+  7778: There's even talk that they have a leader now, like in the Great War...${prompt}
+  7779: Oh, and there's a strange magic circle at the deepest end of the Palborough Mines. It's said that whoever goes beyond it never comes back.${prompt}
   7780: |-
-    Ça sonne vraiment suspect, n'est-ce pas ?
-    Je suis sûr que tu trouveras tes réponses là-bas.${prompt}
+    Sounds real suspicious, doesn't it?
+    I'm sure you'll find your answers there.${prompt}
   7781: |-
-    Moi ? Oh non. Je n'y retournerai jamais.
-    Bonne chance. Tu en auras besoin !${prompt}
-  7782: Ah, tu dois être l'aventurier qui va nous rejoindre pour notre mission. J'ai beaucoup entendu parler de toi.${prompt}
-  7783: Nous aimerions tenir un briefing bientôt. Vous aurez le temps de vous préparer pour la mission par la suite, mais le briefing pourrait prendre un peu de temps. Êtes-vous prêt maintenant ?${prompt}
+    Me? Oh, no. I'm never going back there.
+    Good luck. You're gonna need it!${prompt}
+  7782: Ah, you must be the adventurer who is to join us on our mission. I have heard much about you.${prompt}
+  7783: We would like to hold a briefing soon. You will be allowed time to prepare for the mission afterwards, but the briefing might take a bit of time. Are you ready now?${prompt}
   7784: |-
-    Quand souhaitez-vous être informé ?
+    When would you like to be briefed?
     ${selection-lines}
-    Tout de suite.
-    Plus tard.${prompt}
-  7785: Bien. Suivez-moi.${prompt}
+    Right away.
+    Later.${prompt}
+  7785: Good. Come with me.${prompt}
   7786: |-
-    Attendez, Milady !
-    Où allez-vous ?${prompt}
+    Hold, Milady!
+    Where are you going!?${prompt}
   7787: |-
-    Oh, salut !
-    Ne faites pas attention à moi, je vais juste au district des mines !${prompt}
-  7788: Encore ? Nous, les Mousquetaires du Mythril, ne pouvons pas vous escorter à chaque fois que vous décidez de partir en excursion...${prompt}
+    Oh, hi!
+    Don't mind me, I'm just going to the Mines District!${prompt}
+  7788: Again? We Mythril Musketeers cannot chaperone you every time you decide to go on these excursions...${prompt}
   7789: |-
-    Je sais, c'est pourquoi j'y vais seule ! Ne vous inquiétez pas, je serai bien !
-    Au revoir !${prompt}
+    I know, that's why I'm going by myself! Don't worry, I'll be fine!
+    Bye!${prompt}
   7790: |-
-    Non, attends --
-    Zut !${prompt}
-  7791: Hé, où va-t-elle ?${prompt}
+    No, wait--
+    Drat!${prompt}
+  7791: Hey, where's she going?${prompt}
   7792: |-
-    "Où va-t-elle"!?
-    Vous, Monsieur, étiez chargé de l'arrêter !${prompt}
-  7793: Mais... mais...${prompt}
-  7794: Pas de réplique aux Mousquetaires seniors, Naji -- ou devrais-je vous appeler "Numéro Cinq" ?${prompt}
+    “Where's she going”!?
+    You, sir, were stationed to stop her!${prompt}
+  7793: But...but...${prompt}
+  7794: No talking back to senior Musketeers, Naji--or should I call you, “Number Five”?${prompt}
   7795: Urgh...${prompt}
-  7796: Allez, montez !${prompt}
+  7796: Come on, get in!${prompt}
   7797: |-
-    Merci à tous d'être venus si rapidement.
-    Voici votre mission : Vous devez monter une attaque sur le bastion Quadav à Beadeaux.${prompt}
+    Thank you all for coming on such short notice.
+    Here is your mission: You are to mount an assault on the Quadav stronghold in Beadeaux.${prompt}
   7798: |-
-    Soyez prévenus que cela ne sera qu'une frappe limitée.
-    Vos principaux objectifs sont de coordonner les tactiques avec des aventuriers expérimentés et de vous familiariser avec le terrain local.${prompt}
-  7799: Comme vous pouvez le constater, certains de nos bons amis aventuriers ont accepté de se joindre aux Mousquetaires pour cette opération.${prompt}
-  7800: Le Numéro Quatre, Ayame, a planifié cette opération, elle sera donc en charge.${prompt}
+    Be forewarned that this is only to be a limited strike.
+    Your main objectives are to coordinate tactics with experienced adventurers, and to familiarize yourselves with the local terrain.${prompt}
+  7799: As you see, some of our good adventuring friends have agreed to join the Musketeers on this operation.${prompt}
+  7800: Number Four, Ayame, planned this operation, so she will be in charge.${prompt}
   7801: |-
-    Le Numéro Cinq, Naji, l'assistera.
-    Vous devez tous suivre leurs ordres pendant l'opération.
-    Ayame, je vous prie ?${prompt}
+    Number Five, Naji, will be assisting her.
+    All of you are to follow their orders during the operation.
+    Ayame, if you please?${prompt}
   7802: |-
-    Tout d'abord, nous devons nous retrouver à Beadeaux, près de l'entrée du bastion Quadav.
-    Vos cibles sont les Quadav de cuivre en charge de la défense périmétrique.${prompt}
+    First, we are to rendezvous in Beadeaux, near the entrance to the Quadav stronghold.
+    Your targets are the Copper Quadav in charge of perimeter defense.${prompt}
   7803: |-
-    Chacun de vous doit vaincre vingt Quadav de cuivre.
-    Une fois cet objectif accompli, vous devez vous disperser et battre en retraite, puis vous regrouper à nouveau à l'entrée.${prompt}
+    Each of you are to defeat twenty Copper Quadav.
+    Once you have accomplished this objective, you are to disperse and retreat, then regroup at the entrance once again.${prompt}
   7804: |-
-    N'oubliez pas, le point de rendez-vous est juste à l'intérieur de Beadeaux !
-    Personne ne se perdra, d'accord ?${prompt}
-  7805: Tu ferais mieux de te taire. Tu te perdrais même dans ta propre retour Mog.${prompt} 
+    Don't forget, the rendezvous point is right inside Beadeaux!
+    Nobody get lost, now!${prompt}
+  7805: You should talk. You'd even get lost in your own Mog House.${prompt}
   7806: |-
-    Dès que vous êtes prêts, ne perdez pas de temps pour vous rendre au point de rendez-vous.
-    Dégagés.${prompt}
-  7807: Le chemin vers le point de rendez-vous passe par les marais de Pashhow. Il est juste à l'intérieur de Beadeaux.${prompt}
+    Once you are prepared, waste no time going to the rendezvous point.
+    Dismissed.${prompt}
+  7807: The way to the rendezvous point is through the Pashhow Marshlands. It is right inside Beadeaux.${prompt}
   7808: |-
-    Traversez les marais de Pashhow pour atteindre le point de rendez-vous.
-    C'est juste à l'intérieur de Beadeaux. Assurez-vous d'avoir tout ce dont vous avez besoin !${prompt}
+    Walk across the Pashhow Marshlands to get to the rendezvous point.
+    It's right inside Beadeaux. Make sure to bring everything you'll need!${prompt}
   7809: |-
-    Le point de rendez-vous est à travers les marais de Pashhow, et juste à l'intérieur de Beadeaux.
-    Soyez prêts à tout.${prompt}
-  7810: Ah, vous êtes là. Bien.${prompt}
-  7811: Vous avez sûrement déjà entendu cela, mais nous avons besoin de quelqu'un de fiable pour prendre en charge les missions centrées autour de notre ambassade à Jeuno.${prompt}
-  7812: J'ai parlé tant au président qu'au Capitaine Volker, et c'est notre avis unanime que vous êtes la seule personne adéquate pour la tâche.${prompt}
-  7813: Nous vous remettrons une lettre d'introduction, que vous présenterez à notre ambassade à Jeuno pour recevoir de plus amples instructions.${prompt}
+    The rendezvous point is across the Pashhow Marshlands, and right inside Beadeaux.
+    Be prepared for anything.${prompt}
+  7810: Ah, you are here. Good.${prompt}
+  7811: You must have heard this already, but we need someone reliable to take on missions centered around our embassy in Jeuno.${prompt}
+  7812: I've talked to both the president and Captain Volker, and it is our unanimous opinion that you are the only person adequate for the task.${prompt}
+  7813: We will give you a letter of introduction, which you will present at our embassy in Jeuno to receive further instructions.${prompt}
   7814: Hans, the letter.${prompt}
   7815: Yes, sir. Here you go.${prompt}
   7816: |-
-    Bonne chance.
-    Je compte sur vous.${prompt}
+    Good luck.
+    I am counting on you.${prompt}
   7817: |-
     You're back from Jeuno.
     No time to chat. Come with me.${prompt}
@@ -19283,52 +19276,52 @@ entries:
     What are you talking about, Volker?
     They probably defeated him and sent him back where he belongs!
     Am I right?${prompt}
-  7941: Quoi ? Le vaincre ? Mais c'est...${prompt}
-  7942: Impossible ? Vous trouvez difficile de croire qu'un aventurier pourrait vaincre le Seigneur des Ombres, Capitaine ? N'avez-vous pas entendu ce que disent les habitants ?${prompt}
-  7943: Ils disent que l'Âge des Aventuriers est arrivé !${prompt}
-  7944: Hmph. Seuls les historiens, avec le recul, ont le privilège de dire de telles choses.${prompt}
-  7945: Et il n'importe pas s'ils ont seulement empêché le retour du Seigneur des Ombres, ou s'ils l'ont réellement vaincu.${prompt}
+  7941: What? Defeat him? But that's...${prompt}
+  7942: Impossible? You find it hard to believe that some adventurer could defeat the Shadow Lord, Captain? Have you not heard what the townspeople are saying?${prompt}
+  7943: They're saying the Age of the Adventurers has come!${prompt}
+  7944: Hmph. Only historians, in posterity, have the privilege of saying such things.${prompt}
+  7945: And it does not matter if they only stopped the Shadow Lord from returning, or if they actually defeated him.${prompt}
   7946: |-
-    L'important, c'est qu'ils ont empêché les Kindred de gagner en puissance.
-    Et cela, je crois, mérite une récompense.${prompt}
+    The important thing is that they kept the Kindred from gaining power.
+    And that, I believe, deserves a reward.${prompt}
   7947: |-
-    Bon travail. Je vous augmente en grade.
-    Et voici votre récompense bien méritée.${prompt}
+    Good work. I am raising your rank.
+    And here is your well-deserved reward.${prompt}
   7948: |-
-    Le Seigneur des Ombres a peut-être été vaincu à nouveau, mais les Kindred sont loin d'être battus.
-    J'ai reçu des rapports d'événements étranges dans les forteresses des hommes-bêtes.${prompt}
-  7949: Vous avez probablement entendu cela trop de fois, mais...nous comptons sur vous.${prompt}
+    The Shadow Lord may have been vanquished again, but the Kindred are far from defeated.
+    I have received reports of strange goings-on in the beastmen's strongholds.${prompt}
+  7949: You've probably heard this too many times, but...we're counting on you.${prompt}
   7950: |-
-    Alors c'était qui le Seigneur des Ombres...
-    Zeid devait le savoir, et c'est probablement pourquoi il est parti seul.${prompt}
-  7951: Ne dites rien de cela à Volker. Le sort d'Ulrich doit également lui être caché. Il ne pourrait peut-être pas l'accepter encore.${prompt}
-  7952: Il admirait beaucoup son grand-père...c'est pourquoi cela lui faisait mal d'entendre dire que Volker lui-même n'était devenu Capitaine que parce que Raogrimm n'était plus là.${prompt}
-  7953: Je sais que lui cacher la vérité n'est pas une bonne chose, mais la plupart d'entre nous ne sont pas aussi forts que vous. Nous avons besoin de temps pour guérir.${prompt}
-  7954: Désolé de vous interrompre. De quoi parlez-vous tous les deux ?${prompt}
-  7955: Euh...juste de dire que Karst n'a vraiment pas changé, même après tout cela.${prompt}
+    So that was who the Shadow Lord was...
+    Zeid must have known, and that's probably why he went off on his own.${prompt}
+  7951: Don't tell Volker about this. Ulrich's fate should also be kept from him, too. He may not be able to accept it yet.${prompt}
+  7952: He admired his grandfather a lot...that's why it pained him to hear people say that Volker, himself, only became Captain because Raogrimm was gone.${prompt}
+  7953: I know that hiding the truth from him is not a good thing, but most of us are not as strong as you. We need time to heal.${prompt}
+  7954: Sorry to interrupt. What are you two talking about?${prompt}
+  7955: Uh...just saying that Karst really hasn't changed, even after all of this.${prompt}
   7956: |-
-    Oui, mais je pense que je le comprends mieux maintenant.
-    Je l'ai peut-être jugé trop sévèrement.${prompt}
-  7957: En parlant de cela...vous ne nous avez toujours pas dit pourquoi vous avez soutenu le Président Karst lors des dernières élections, Chef.${prompt}
-  7958: Oh, ça. Eh bien... Il y a quinze ans, même après ma démission de mon poste de chef de la Salle de la Poudre, le Sénat était toujours en chaos, essayant de trouver plus de personnes à blâmer pour l'accident à Palborough.${prompt}
-  7959: Mais il y avait un jeune sénateur qui a proposé d'abandonner Palborough et de rouvrir les Mines de Zeruhn. Ce jeune sénateur était Karst.${prompt}
+    Yes, but I think I understand him better now.
+    I may have been judging him too harshly.${prompt}
+  7957: Speaking of which...you still have not told us why you backed President Karst in the last elections, Chief.${prompt}
+  7958: Oh, that. Well... Fifteen years ago, even after I resigned my post as head of the Gunpowder Room, the Senate was still in chaos, trying to find more people to blame for the accident in Palborough.${prompt}
+  7959: But there was one junior senator there who proposed we abandon Palborough and reopen the Zeruhn Mines. That junior senator was Karst.${prompt}
   7960: |-
-    Les mineurs risquaient de perdre beaucoup, mais à l'époque, sa proposition était le meilleur pari pour Bastok.
-    Je suis un ingénieur, donc je respecte la compétence. Et j'ai senti que les compétences politiques de Karst pouvaient être dignes de confiance.${prompt}
+    The miners stood to lose a lot, but at the time, his proposal was Bastok's best bet.
+    I'm an engineer, so I respect skill. And I felt that Karst's political skills could be trusted.${prompt}
   7961: |-
-    Et c'est un vrai Bastoker aussi--très ambitieux et facile à comprendre.
-    Je me souviens encore du regard enthousiaste qu'il avait lorsqu'il a annoncé sa proposition au Sénat !${prompt}
+    And he's a real Bastoker, too--very ambitious, and real easy to figure out.
+    I can still remember the eager look on his face when he announced his proposal to the Senate!${prompt}
   7962: Hah hah hah!${prompt}
   7963: |-
-    Lady Cornelia n'est pas ici en ce moment.
-    J'espère qu'elle ne rentrera pas trop tard...${prompt}
+    Lady Cornelia is not here at the moment.
+    I hope she doesn't stay out too late...${prompt}
   7964: |-
-    Lady Cornelia est dans sa chambre en train d'étudier.
-    Revenez une autre fois--${prompt}
-  7965: J'en ai assez d'étudier. Je sors !${prompt}
+    Lady Cornelia is in her room doing her studies.
+    Please come back some other--${prompt}
+  7965: I've had enough of studying. I'm going out!${prompt}
   7966: |-
-    Milady, ne--
-    Oh, encore une fois !${prompt}
+    Milady, don't--
+    Oh, not again!${prompt}
   7967: |-
     Why must she be like this?
     If the First Lady were still alive, she would never have tolerated this kind of behavior!${prompt}
@@ -19629,132 +19622,132 @@ entries:
   8123: You know, if you show them really interesting sights, it'd make them want to go out and see more, right?${prompt}
   8124: Of course, it won't be free once it gets going, but for now, I'm looking for volunteers to try it out and tell me what they think! No charge!${prompt}
   8125: |-
-    Tu veux essayer ?
-    Tu devras être dans un groupe où tous les membres sont de niveau quinze ou moins.${prompt}
+    You wanna try?
+    You'll have to be in a party where all members are level fifteen or less.${prompt}
   8126: |-
-    Mon partenaire, Hunting Bear, attend près de Drachenfall dans le Nord Gustaberg.
-    C'est sur la route qui va du Nord Gustaberg à Konschtat.${prompt}
-  8127: Rejoins-le après avoir formé un groupe qui répond à mes exigences, et il te paiera pour ta participation au test.${prompt}
-  8128: Hmm... Je suppose que démarrer un nouveau type de business est plus difficile que je ne le pensais...${prompt}
-  8129: J'ai entendu un aventurier dire qu'il y avait parfois ces monstres huileux à Beadeaux. Je me demande...${prompt}
+    My partner, Hunting Bear, is waiting near Drachenfall in North Gustaberg.
+    It's on the road that goes from North Gustaberg to Konschtat.${prompt}
+  8127: Meet up with him after you form a party that meets my requirements, and he'll pay you for taking part in the test.${prompt}
+  8128: Hmm... I guess starting a new kind of business is harder than I thought...${prompt}
+  8129: I've heard an adventurer say that there were these oily monsters in Beadeaux sometimes. I wonder...${prompt}
   8130: |-
-    Il y a une urgence.
-    Rendez-vous rapidement au bureau du Président.
-    Demandez à Naji, et il vous guidera.${prompt}
-  8131: Maître Oggbi ! Il n'était pas nécessaire que vous veniez jusqu'ici. Nous serions venus à vous.${prompt}
-  8132: Non, quand j'ai entendu parler de « son » revival, mon sang a commencé à bouillir.${prompt}
-  8133: Nous pensons qu'il pourrait s'agir d'une progéniture de la nouvelle génération de Yagudo. Nous pensons également que l'augmentation de pouvoir des Kindred pourrait également jouer un rôle dans son retour.${prompt}
-  8134: Actuellement, les Mousquetaires Mythril ne sont composés que de guerriers, de samouraïs et d'un chevalier noir manquant. Il n'existe aucun moine compétent.${prompt}
-  8135: "San d'Oria est probablement dans la même situation. Le monastère n'est plus capable de produire la qualité de moines d'autrefois. \nEt Windurst... ces Tarutaru et leur magie ne servent à rien.${prompt}"
-  8136: J'ai tenté de contacter Norg, mais personne ne semble disposé à coopérer...${prompt}
-  8137: S'ils ne veulent même pas accepter une proposition de quelqu'un qui y a fait son apprentissage, ils ne m'écouteront sûrement pas.${prompt}
-  8138: Norg n'a plus aucun intérêt pour la voie des moines de San d'Orian. Leur attention s'est tournée vers les arts du samouraï et du ninja.${prompt}
-  8139: Et Dalzakk... Dalzakk est en mission, donc il ne reste plus que...${prompt}
-  8140: Eh bien, si ce n'est pas ${name-player} ! Tu serais parfait pour le job !${prompt}
-  8141: Penses-tu que tu serais à la hauteur ?${prompt}
-  8142: Maître Oggbi. Je pense que notre aventurier n'est pas encore informé des détails de cette situation.${prompt}
-  8143: Tout a commencé il y a trente ans. Un Yagudo avec un pouvoir exponentiel a émergé dans Vana'diel...${prompt}
-  8144: Maître ! S'il vous plaît, laissez-moi vous accompagner ! Je suis plus que prêt !${prompt}
-  8145: Non, non, non ! Tu as peut-être suffisamment de pouvoir pour faire sortir ce Yagudo de sa cachette, mais tu manques encore d'expérience pour le vaincre.${prompt}
-  8146: Mais Maître, la raison pour laquelle je suis devenu votre élève était pour acquérir suffisamment de compétences afin de le vaincre... Pour pouvoir venger la mort de mon frère...${prompt}
+    There is an emergency.
+    Promptly make your way to the President's Office.
+    Ask Naji, and he will guide you.${prompt}
+  8131: Master Oggbi! There was no need for you to come all the way here. We would have come to you.${prompt}
+  8132: No, when I heard of “his” revival, my blood began to boil.${prompt}
+  8133: We think that it may be an offspring of the new generation of Yagudo. We also feel that the Kindred's rise in power may also factor into his return.${prompt}
+  8134: Currently, the Mythril Musketeers are comprised solely of warriors, samurai, and a missing dark knight. No competent monks exist.${prompt}
+  8135: "San d'Oria is more than likely in the same predicament. The monastery is no longer able to produce the quality monks of old. \nAnd Windurst...those Tarutaru and their magic aren't good for anything.${prompt}"
+  8136: I've made attempts to contact Norg, but no one seems willing to cooperate...${prompt}
+  8137: If they won't even take up a proposal from someone who did her training there, they definitely won't listen to me.${prompt}
+  8138: Norg no longer has any interest in the way of the San d'Orian monks. Their attention has turned to the arts of the samurai and ninja.${prompt}
+  8139: And Dalzakk... Dalzakk is off on another mission, so that leaves only...${prompt}
+  8140: Why, if it isn't ${name-player}! You'd be perfect for the job!${prompt}
+  8141: Do you think you'd be up to it?${prompt}
+  8142: Master Oggbi. I think our adventurer has yet to be informed on the details of this predicament.${prompt}
+  8143: It all began thirty years ago. A Yagudo with exponential power rose up in Vana'diel...${prompt}
+  8144: Master! Please let me go with you! I'm more than ready!${prompt}
+  8145: No, no, no! You may have enough power to draw that Yagudo out of hiding, but you still lack the experience to defeat him.${prompt}
+  8146: But Master, the reason I became your student was so I could gain enough skill to defeat him... So I could avenge my brother's death...${prompt}
   8147: |-
-    Tu penses que je ne le savais pas ?
-    Ton frère était un moine talentueux qui a rencontré une mort tragique.
-    Quand tu es venu me voir, j'ai mis deux et deux ensemble.${prompt}
-  8148: Cependant, ta vision est encore troublée... troublée par l'obscurité de la vengeance.${prompt}
+    Do you think I didn't know that?
+    Your brother was a talented monk who met a tragic death.
+    When you came to me, I put two and two together.${prompt}
+  8148: However, your vision is still clouded...clouded by the darkness of revenge.${prompt}
   8149: |-
-    Maître Oggbi... Vous m'avez bien formé, et je vous en remercie.
-    Mais si vous pensez que ma vision est encore troublée...${prompt}
-  8150: '...Alors je dois partir seul pour la clarifier !${prompt}'
+    Master Oggbi... You have trained me well, and I thank you.
+    But if you believe that my vision is still clouded...${prompt}
+  8150: '...Then I must set out on my own to clear it!${prompt}'
   8151: Cornelia...${prompt}
-  8152: Et elle a réussi à vaincre ce Yagudo. Que cela ait éclairci sa vision ou non...${prompt}
-  8153: Eh bien, il s'intéresse aux moines qui sont à son niveau de pouvoir, et ne sort que lorsque des adversaires appropriés pénètrent dans son repaire.${prompt}
-  8154: 'Prends ${article} ${item-article: 7[2]} et place-le profondément dans le château. Ta force attirera certainement son attention et le fera sortir de sa cachette.${prompt}'
-  8155: 'Si tu le vaincs, il devrait laisser ${article} ${item-article: 6[2]}. Ramène-le moi et je te récompenserai pour tes efforts.${prompt}'
-  8156: C'est une tâche que je devrais entreprendre moi-même, mais je n'ai tout simplement plus les jambes pour cela...${prompt}
+  8152: And she succeeded in bringing down that Yagudo. Whether that cleared her vision or not...${prompt}
+  8153: Well, he shows interest in monks who are at his level of power, and only comes out when suitable opponents make their way into his lair.${prompt}
+  8154: 'Take ${article} ${item-article: 7[2]} and place it deep within the castle. Your strength is certain to catch his eye and draw him out of hiding.${prompt}'
+  8155: 'If you defeat him, he should leave ${article} ${item-article: 6[2]}. Bring that back to me and I will reward you for your efforts.${prompt}'
+  8156: This is a task that I should be taking on myself, but I just don't have the legs for it anymore...${prompt}
   8157: |-
-    C'est... Alors tu as pu vaincre le Yagudo ?
-    Je ne savais pas que de tels moines puissants existaient encore...${prompt}
-  8158: Il y a longtemps, Maître Oggbi a travaillé dur pour promouvoir la fusion des arts martiaux et des techniques de combat san d'oriennes. Une telle collaboration a évidemment produit de nombreux combattants exceptionnels.${prompt}
-  8159: Même un samouraï comme moi est en admiration devant ton extraordinaire capacité. Accepte cela comme paiement pour tes services.${prompt}
-  8160: Un autre objet avait été prévu pour toi, mais Maître Oggbi a demandé à te présenter cela à la place.${prompt}
+    This is... So you were able to defeat the Yagudo?
+    I did not know such powerful monks still existed...${prompt}
+  8158: Long ago, Master Oggbi worked hard to promote the fusion of martial arts and San d'Orian combat techniques. Such a collaboration has obviously produced many outstanding fighters.${prompt}
+  8159: Even a samurai such as myself is in awe of your extraordinary ability. Please accept this as payment for your service.${prompt}
+  8160: Another item had been arranged for you, but Master Oggbi asked to present this to you instead.${prompt}
   8161: |-
-    Je vois que tu es revenu sain et sauf...
-    Tu as bien mûri en tant que moine.${prompt}
-  8162: C'est un signe de ma gratitude. Tu me rappelles beaucoup Cornelia...${prompt}
-  8163: Oui, je me souviens qu'elle est venue me voir dans les Métaux quand elle est revenue...${prompt}
-  8164: Cornelia ! Tu es enfin de retour...${prompt}
-  8165: Maître... Je m'excuse d'avoir créé tant de problèmes.${prompt}
+    I see you have returned safely...
+    You have matured well as a monk.${prompt}
+  8162: This is a token of my gratitude. You remind me much of Cornelia...${prompt}
+  8163: Yes, I remember she came to see me in the Metalworks when she returned...${prompt}
+  8164: Cornelia! You're finally back...${prompt}
+  8165: Master... I apologize for creating so much trouble.${prompt}
   8166: |-
-    Tu n'as pas à t'inquiéter de cela...
-    Ta vision... Est-elle toujours troublée comme avant ?${prompt}
+    You need not worry of that...
+    Your vision... Is it still clouded as before?${prompt}
   8167: |-
-    C'est justement ça...
-    Je pensais qu'en vengeant la mort de mon frère, je serais libre des démons qui me hantaient... mais en vérité, j'ai l'impression qu'une partie de moi est morte quand j'ai vaincu ce Yagudo...${prompt}
-  8168: Je vois...${prompt}
-  8169: Rien ne sort de la vengeance. Cela ne résulte que par la perte de ce qui nous pousse à avancer.${prompt}
-  8170: Toi...${prompt}
-  8171: On dit que ceux qui n'ont rien à perdre sont souvent les plus forts.${prompt}
+    That's just it...
+    I thought that by avenging my brother's death, I would be free of the demons that haunted me...but in truth, I feel as though a part of me died when I defeated that Yagudo...${prompt}
+  8168: I see...${prompt}
+  8169: Nothing comes of revenge. It merely results in us losing that which drives us.${prompt}
+  8170: You...${prompt}
+  8171: It is said that those with nothing to lose are often the strongest.${prompt}
   8172: |-
-    Tu as probablement ressenti la même chose, Cornelia.
-    Mais souviens-toi que si tu n'as rien à perdre, tu n'as peut-être rien du tout...${prompt}
+    More than likely you felt the same way, Cornelia.
+    But remember that if you have nothing to lose, you may have nothing at all...${prompt}
   8173: |-
-    ...rien qui vaut la peine d'être protégé.
-    La véritable force vient de ceux qui ont quelque chose, ou quelqu'un, à protéger.${prompt}
-  8174: Et toi... as-tu quelque chose qui vaut la peine d'être protégé ?${prompt}
-  8175: Je porte en moi plus de deux cents ans de souvenirs. Parfois, ils peuvent être un fardeau, mais c'est mon devoir de les protéger.${prompt}
-  8176: Pour protéger les sourires des gens dans ces souvenirs, je peux supporter le traitement que je reçois de ces politiciens mesquins dans le bureau du Président.${prompt}
-  8177: Trouverai-je un jour quelque chose... quelque chose qui vaut la peine d'être protégé ? ${prompt}
-  8178: Je suis certain qu'un jour tu le feras.${prompt}
-  8179: Et c'était l'aube d'un nouveau Mousquetaire en Cornelia.${prompt}
+    ...nothing worth protecting.
+    True strength comes to those who have something, or someone, to protect.${prompt}
+  8174: And you...have something worth protecting?${prompt}
+  8175: I carry with me over two hundred years of memories. At times they can be a burden, but it is my duty to protect them.${prompt}
+  8176: To protect the smiles of the people in those memories, I can handle the treatment I receive from those petty politicians in the President's Office.${prompt}
+  8177: Will I ever find something...something worth protecting? ${prompt}
+  8178: I am certain that one day you will.${prompt}
+  8179: And that was the dawn of a new Musketeer in Cornelia.${prompt}
   8180: |-
-    Toi aussi, tu dois faire un serment--que tu n'utiliseras jamais ta capacité pour perdre quelque chose.
-    Fais ce serment, et ton pouvoir ne te trahira jamais.${prompt}
-  8181: Je crois encore aujourd'hui que Cornelia a fait ce serment...${prompt}
-  8182: 'Quoi ? Ma grand-mère t’a demandé d’apporter ${keyitem-singular: 7[2]} pour moi ?${prompt}'
+    You, too, must make a pledge--that you will never use your ability to lose something.
+    Make that pledge, and your power will never betray you.${prompt}
+  8181: I still believe to this day that Cornelia made that pledge...${prompt}
+  8182: 'What? My grandma asked you to bring ${keyitem-singular: 7[2]} to me?${prompt}'
   8183: |-
-    Je n'arrive pas à le croire. "Mon petit-fils le portier." Ayame me taquine assez, mais être ridiculisé par ma propre chair et mon propre sang !
-    Et cette épée... Quel est le problème, de toute façon ?${prompt}
-  8184: Qu'est-ce qui ne va pas, Naji ?${prompt}
+    I can't believe her. “My grandson the doorman.” I get teased enough by Ayame, but to be ridiculed by my own flesh and blood!
+    And this sword... What's the big deal, anyway?${prompt}
+  8184: What's wrong, Naji?${prompt}
   8185: |-
     Ah, Sir Iron Eater.
-    Ma grand-mère...${prompt}
+    My grandmother...${prompt}
   8186: |-
-    Je vois.
-    Cette épée appartenait à ton père, Lord Yasin.
-    C'est peut-être même l'épée qu'il a utilisée quand...${prompt}
+    I see.
+    This sword belonged to your father, Lord Yasin.
+    This may even be the sword that he used when...${prompt}
   8187: |-
-    Monsieur ?
-    Vous avez rencontré mon père auparavant ?${prompt}
-  8188: Une fois, il y a trente ans... Mais j'étais encore un enfant.${prompt}
+    Sir?
+    You have met my father before?${prompt}
+  8188: Once, thirty years ago... But I was still a child.${prompt}
   8189: |-
-    Bienvenue de retour, Sir Raogrimm !
-    Avez-vous battu des Orcs cette fois-ci ?${prompt}
-  8190: Pagdako. Ma mission cette fois-ci était une simple expédition. Il n'y a pas eu de "battage" d'Orcs.${prompt}
-  8191: Ouais, mais ça ne fait aucune différence pour un mercenaire comme moi. Je me suis bien amusé et j'ai trouvé du bon matériel pour faire une nouvelle épée en prime !${prompt}
-  8192: On a croisé un autre groupe aussi... Ouais, un vieux moine qui voyageait avec une jeune fille mignonne et pleine de tempérament.${prompt}
-  8193: Je n'ai aucun intérêt pour les méthodes que tu utilises pour "trouver" du bon matériel, mais je sais que tu es un combattant redoutable. C'est dommage que tu gaspilles ton talent dans l'aventure.${prompt}
-  8194: Oh, s'il te plaît. Quelles aventures m'attendent avec le titre de Mousquetaire ? Garder la porte ? Heh, je ne suis pas un portier !${prompt}
+    Welcome back, Sir Raogrimm!
+    Did you beat up some Orcs this time?${prompt}
+  8190: Pagdako. My mission this time was a simple expedition. There was no “beating up” of any Orcs.${prompt}
+  8191: Yeah, but it makes no difference for a hired hand like me. I had me some fun, and found some good material for making a new sword to boot!${prompt}
+  8192: We bumped into this other party too... Yeah, some old monk traveling with a cute, feisty young girl.${prompt}
+  8193: I have no interest in the methods you use in “finding” good material, but I do know you are quite a fighter. It is a pity that you waste your talent on adventuring.${prompt}
+  8194: Oh, please. What adventures await me with the title of Musketeer? Guard duty? Heh, I'm no doorman!${prompt}
   8195: |-
-    Tu es un drôle de type, Yasin.
-    Ce matériel que tu as ramené--je vais demander à l'un de mes compagnons forgerons d'en faire une épée pour toi. Ce sera ton paiement pour tes devoirs cette fois-ci. D'accord ?${prompt}
-  8196: Ça me va, Mousquetaire.${prompt}
-  8197: Quand je serai grand, je veux être un grand et brave Mousquetaire, tout comme Sir Raogrimm !${prompt}
-  8198: Pagdako, être Mousquetaire n'est pas forcément une question de missions et de combats contre des monstres. Parfois, nous devons faire face à des ennemis qui sont derrière nos propres murs. Si tu peux gérer ce fardeau aussi, je crois que tu feras un excellent Mousquetaire.${prompt}
-  8199: Il n'y a aucun doute là-dessus. Cette épée est celle que Sir Raogrimm--le Mousquetaire Mythril et le Gardien Galka lui-même--avait faite pour ton père.${prompt}
+    You are a strange sort, Yasin.
+    That material you brought back--I'll have one of my blacksmith companions make it into a sword for you. That will be your payment for your duties this time. Agreed?${prompt}
+  8196: Sounds good to me, Musketeer.${prompt}
+  8197: When I grow up, I wanna be a big, brave Musketeer, just like Sir Raogrimm!${prompt}
+  8198: Pagdako, being a Musketeer is not necessarily about going out on missions and fighting monsters. At times, we must deal with enemies who are behind our own walls. If you can handle that burden as well, I believe you will make a fine Musketeer indeed.${prompt}
+  8199: There's no doubt about it. That sword is the one that Sir Raogrimm--the Mythril Musketeer and Galka Talekeeper himself--had made for your father.${prompt}
   8200: |-
-    Wow... Je ne savais pas que mon père connaissait des gens si importants.
-    Et Sir Iron Eater, je ne savais pas que ton vrai nom était... comment as-tu dit que c'était, Pacdaco ?${prompt}
+    Wow... I never knew that my father knew such important people.
+    And Sir Iron Eater, I never knew your real name was...what did you say it was, Pacdaco?${prompt}
   8201: |-
     ......
-    N'hésite pas à m'appeler comme il te plaît. Cela ne me fait aucune différence. Un nom n'est pas important, seul l'homme qui se cache derrière l'importe.${prompt}
+    Feel free to call me whichever is easiest for you to pronounce. It makes no difference to me. A name is not important, only the man behind it.${prompt}
   8202: |-
-    Eh bien, merci de me l'avoir apporté. J'essaierai de l'utiliser comme mon père le faisait.
-    Tiens, tu peux prendre ça. Il a été pas mal utilisé, mais je suis sûr que tu lui trouveras une bonne place.${prompt}
-  8203: Tu ne reçois rien du lapin de la lune...${prompt}
-  8204: Le lapin de la lune a amené un monstre !${prompt}
-  8205: Tu dois faire quelque chose contre ces arbres fous, kupo !${prompt}
-  8206: Tu as fini de te battre contre les arbres, kupo ?${prompt}
+    Well, thanks for bringing this to me. I'll try to use it as my father did.
+    Here, you can have this. It's been used quite a bit, but I'm sure you'll find a good home for it.${prompt}
+  8203: You receive nothing from the moon rabbit...${prompt}
+  8204: The moon rabbit has brought along a monster!${prompt}
+  8205: You have to do something about those crazy trees, kupo!${prompt}
+  8206: You're done fighting trees, kupo?${prompt}
   8207: ${prompt}
   8208: ${prompt}
   8209: ${prompt}
@@ -22965,37 +22958,37 @@ entries:
   10025: However, if the plan you received from the tactician staying in Kazham has dulled the edge of Moblin hostility...${prompt}
   10026: I cannot with all confidence say that beginning a war with Movalpolos is the wisest course.${prompt}
   10027: |-
-    Je ferai rapport de ces découvertes au président.
-    Son évaluation aidera à décider de notre implication militaire--si implication il y a.${prompt}
+    I will report these findings to the president.
+    His evaluation will help decide our military involvement--if any.${prompt}
   10028: |-
-    Vos services continus pour Bastok sont dignes de louanges.
-    Veuillez accepter cette récompense.${prompt}
+    You are to be commended for your continuing service to Bastok.
+    Please accept this reward.${prompt}
   10029: |-
-    Je ferai rapport de ces découvertes au président.
-    Son évaluation aidera à décider de notre implication militaire--si implication il y a.${prompt}
-  10030: Les aventuriers semblent ignorer le fait, mais la marine de Bastok est la force la plus puissante des hautes mers. Nous avons une tolérance zéro pour les actes de piraterie dans nos eaux.${prompt}
+    I will report these findings to the president.
+    His evaluation will help decide our military involvement--if any.${prompt}
+  10030: Adventurers don't seem to be aware of the fact, but the Bastokan navy is the most powerful force on the high seas. We have zero tolerance for acts of piracy in our waters.${prompt}
   10031: |-
-    Je suis Vladinek, Officier de Formation des Recrues de la Marine.
-    Que puis-je faire pour vous ?${prompt}
+    I am Naval Recruit Training Officer Vladinek.
+    What can I do for you?${prompt}
   10032: |-
-    Super !
-    Je t'ai enfin trouvé !${prompt}
+    Great!
+    I finally found you!${prompt}
   10033: |-
-    Encore toi ?
-    Pourquoi continues-tu de me suivre ?${prompt}
-  10034: Peu importe. Je dois parler à Monsieur Vladinek.${prompt}
-  10035: Puis-je vous aider en quelque chose, jeune fille ?${prompt}
+    You again?
+    Why do you keep following me?${prompt}
+  10034: Whatever. I have to speak with Mister Vladinek.${prompt}
+  10035: Is there something I can help you with, young lady?${prompt}
   10036: |-
-    Oui. Je m'appelle Sanctia.
-    Je recherche le chasseur de primes Goldmane pour lui poser une question très importante.${prompt}
-  10037: Goldmane ?${prompt}
-  10038: Oui. J'ai des raisons de croire qu'il est hébergé par la marine de Bastok.${prompt}
-  10039: Et qu'il paie cette protection avec la prime d'Atarefaunet.${prompt}
+    Yes. My name is Sanctia.
+    I am searching for the bounty hunter Goldmane to ask him something very important.${prompt}
+  10037: Goldmane?${prompt}
+  10038: Yes. I have reason to believe he is being sheltered by the Bastokan navy.${prompt}
+  10039: And that he is paying for that protection with Atarefaunet's bounty.${prompt}
   10040: |-
     Ahahaha.
-    Quelle idée amusante.${prompt}
-  10041: La marine de Bastok n'est pas à louer, ma chère.${prompt}
-  10042: Et je ne connais personne qui pourrait supporter de vivre sur un de nos navires de guerre pendant vingt ans !${prompt}
+    What an amusing idea.${prompt}
+  10041: The Bastokan navy is not for rent, my dear.${prompt}
+  10042: And I don't know anyone who could stand to live on one of our battleships for twenty years!${prompt}
   10043: "But... \nBut the letter had your name...${prompt}"
   10044: |-
     I see.
@@ -24653,30 +24646,30 @@ entries:
   11029: Yes! I had faith in you, ${name-player}, but this is wonderful!${prompt}
   11030: Take pride in your accomplishment today, and go forth. Not just for the sake of my alter ego, but for Bastok--and all Vana'diel.${prompt}
   11031: |-
-    Vous pouvez définir ceci comme votre point de retour actuel.
-    Une fois que vous avez défini un point de retour, vous y retournerez chaque fois que vous êtes incapable d'agir.
+    You can set this as your current home point.
+    Once you set a home point, you will return there whenever you are incapacitated.
   11032: |-
-    Définir ceci comme point de retour actuel ?
+    Set this as current home point?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  11033: Point de retour défini !${prompt}
-  11034: Un point de retour peut être défini comme un endroit où vous reviendrez à Vana'diel lorsque vous aurez été mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+    Yes.
+    No.${prompt}
+  11033: Home point set!${prompt}
+  11034: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
   11035: |-
-    Que ferez-vous ?
+    What will you do?
     ${selection-lines}
-    Voyager vers un autre point de retour.
-    Définir ceci comme votre point de retour.
-    Autres paramètres.
-    En y réfléchissant bien, laissez tomber.${prompt}
+    Travel to another home point.
+    Set this as your home point.
+    Other settings.
+    On second thought, never mind.${prompt}
   11036: |-
-    Vous avez enregistré un nouveau point de retour !
-    Vous pouvez désormais vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
-  11037: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
+    You have registered a new home point!
+    You are now able to teleport here from any other home point.${prompt}
+  11037: You may teleport from here to any other home point you have registered.
   11038: |-
-    Téléportation où ?
+    Teleport where?
     ${selection-lines}
-    Laissez tomber.
+    Never mind.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -24693,81 +24686,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Page précédente.
-    Page suivante.${prompt}
+    Previous page.
+    Next page.${prompt}
   11039: |-
-    Téléportation où ? (${zone: 33[2]})
+    Teleport where?（${zone: 33[2]}）
     ${selection-lines}
-    Nulle part.
-    Point de retour #1 ${choice: 1}[/ (M)/ (A)/ (E)].
-    Point de retour #2 ${choice: 2}[/ (M)/ (A)/ (E)].
-    Point de retour #3 ${choice: 3}[/ (M)/ (A)/ (E)].
-    Point de retour #4 ${choice: 4}[/ (M)/ (A)/ (E)].
-    Point de retour #5 ${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  11040: Vous n'avez pas encore enregistré d'autres points de retour, et vous ne pouvez donc pas téléporter.${prompt}
-  11041: 'Il en coûte ${number: 3} gil pour téléporter vers le Point de retour #${number: 2} dans ${zone: 1[2]}.'
-  11042: 'Il n’y a pas de frais pour téléporter vers le Point de retour #${number: 2} dans ${zone: 1[2]}.'
+    Nowhere.
+    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  11040: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
+  11041: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
+  11042: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
   11043: |-
-    Téléporter ? (Gil actuel : ${number: 0})
+    Teleport? (Current gil: ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s'il vous plaît.
-    Non, merci.${prompt}
+    ${choice: 33}[Add to favorites/Remove from favorites].
+    Yes, please.
+    No, thank you.${prompt}
   11044: |-
-    Téléporter vers quelle région ?
+    Teleport to which region?
     ${selection-lines}
-    Après réflexion, aucune.
-    Sélectionner parmi les favoris.
-    Région actuelle.
+    On second thought, none.
+    Select from favorites.
+    Current region.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Arch de Tavnazia].
+    ${choice: 1}[Bastok/Tavnazian Arch].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Sauvage Mamool Ja].
+    ${choice: 1}[Jeuno/Mamool Ja Savage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[Aht Urhgan Ouest/Arrapago Is].
-    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
-    ${choice: 1}[Ronfaure/Front de Ronfaure].
-    ${choice: 1}[Zulkheim/Front de Norvallen].
-    ${choice: 1}[Norvallen/Front de Gustaberg].
-    ${choice: 1}[Gustaberg/Front de Derfland].
-    ${choice: 1}[Derfland/Front de Sarutabaruta].
-    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
-    ${choice: 1}[Kolshushu/Front de Fauregandi].
-    ${choice: 1}[Aragoneu/Front de Valdeaunia].
-    ${choice: 1}[Fauregandi/Est d'Ulbuka].
+    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
+    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
+    ${choice: 1}[Ronfaure/Ronfaure Front].
+    ${choice: 1}[Zulkheim/Norvallen Front].
+    ${choice: 1}[Norvallen/Gustaberg Front].
+    ${choice: 1}[Gustaberg/Derfland Front].
+    ${choice: 1}[Derfland/Sarutabaruta Front].
+    ${choice: 1}[Sarutabaruta/Aragoneu Front].
+    ${choice: 1}[Kolshushu/Fauregandi Front].
+    ${choice: 1}[Aragoneu/Valdeaunia Front].
+    ${choice: 1}[Fauregandi/East. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Bas/].
-    ${choice: 1}[Elshimo Haut/].
+    ${choice: 1}[Elshimo Low/].
+    ${choice: 1}[Elshimo Up/].
     ${choice: 1}[Tu'Lia/].
-    Page précédente.
-    Page suivante.${prompt}
+    Previous page.
+    Next page.${prompt}
   11045: |-
-    Téléporter où ?
+    Teleport where?
     ${selection-lines}
-    Aucun de ceux-ci.
-    Un emplacement favori.
-    Une zone d'origine.
-    Une zone de Rise of the Zilart.
-    Une zone de Chains of Promathia.
-    Une zone de Treasures of Aht Urhgan.
-    Une zone de Wings of the Goddess.
-    Une zone de Seekers of Adoulin.${prompt}
-  11046: Vous pouvez changer la méthode de sélection de la zone de votre point de retour souhaité pour téléporter.
+    None of these.
+    A favorited location.
+    An original area.
+    A Rise of the Zilart area.
+    A Chains of Promathia area.
+    A Treasures of Aht Urhgan area.
+    A Wings of the Goddess area.
+    A Seekers of Adoulin area.${prompt}
+  11046: You may change the method of selecting the area of your desired home point to teleport to.
   11047: |-
-    Quel paramètre souhaitez-vous ?
+    Which setting would you like?
     ${selection-lines}
-    Mon paramètre actuel.
-    Sélectionner par région.
-    Sélectionner par extension.${prompt}
-  11048: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
+    My current setting.
+    Select by region.
+    Select by expansion.${prompt}
+  11048: 'You are now selecting by ${choice: 1}[region/expansion].'
   11049: |-
-    Téléporter où ?
+    Teleport where?
     ${selection-lines}
-    Aucun de ceux-ci.
+    None of these.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -24777,13 +24770,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  11050: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] votre liste d’emplacements favoris.'
-  11051: Votre liste d’emplacements favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.
+    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
+  11050: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
+  11051: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
   11052: |-
-    Supprimer lequel ?
+    Delete which?
     ${selection-lines}
-    Aucun de ceux-ci.
+    None of these.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
