@@ -16281,7 +16281,9 @@ entries:
   6537: |-
     Tu ne veux pas que je reste ?
     Miaou...${prompt}
-  6538: '${choice: 0}[/Eh bien./On n’a pas fini, n’est-ce pas ?/Tu as changé d’avis ?/Tu veux continuer ?/On n’a pas fini, n’est-ce pas ?/On est toujours prêts à y aller, n’est-ce pas ?/Tu as changé d’avis !?/Tu veux continuer?]${prompt}'
+  6538: |-
+    ${choice: 0}[/Eh bien./On n’a pas fini, n’est-ce pas ?/Tu as changé d’avis ?/Tu veux continuer ?/On n’a pas fini, n’est-ce pas ?/On est toujours prêts à y aller, n’est-ce pas ?/Tu as changé d’avis !?/Tu veux continuer?]${prompt}
+    ${choice: 0}[/Je suppose que je peux rester un peu./Allons-y !/Pas de problème./Très bien, continuons./Reprenons donc./D'accord, c'est parti !/Je peux rester un peu plus longtemps./Super, je suis prêt à continuer !/Très bien, continuons.]${prompt}
   6539: |-
     Eh bien.
     Je suppose que je pourrais rester.${prompt}
@@ -16294,7 +16296,7 @@ entries:
   6542: |-
     Tu veux continuer ?
     Très bien, continuons.${prompt}
-  6543: 'Hourra ! Continuons !${prompt} '
+  6543: 'Hourra ! Continuons !${prompt}'
   6544: |-
     C'est une belle musique à mes oreilles !
     Il est bien trop tôt pour que la fête se termine !${prompt}
@@ -16335,7 +16337,9 @@ entries:
   6565: Je serai ton adversaire aujourd'hui !${prompt}
   6566: Regarde-moi quand je te parle !${prompt}
   6567: Hisss !!!${prompt}
-  6568: '${choice: 0}[/Tu as appelé ?/Me voilà !/Tu es là. Je suis là./Salutations./Bien sûr, je vais aider./Salut !/Bonne journée./Bonjour !/Salutations.]${prompt}'
+  6568: |-
+    '${choice: 0}[/Tu as appelé ?/Me voilà !/Tu es là. Je suis là./Salutations./Bien sûr, je vais aider./Salut !/Bonne journée./Bonjour !/Salutations.]${prompt}'
+     ${choice: 0}[/Je suis prêt à y aller./Prêt pour n'importe quoi !/Allons-y./Une belle journée pour l'aventure./Essayez de ne pas me ralentir./Je suis prêt à y aller !/Prêts à partir ?/Qu'est-ce qu'on fait aujourd'hui ?/Une belle journée pour l'aventure.]${prompt}
   6569: |-
     Tu as appelé ?
     Je suis prêt à y aller.${prompt}
