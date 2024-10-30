@@ -19196,10 +19196,11 @@ entries:
     This is the Cermet Refinery.
     The factory is off-limits to unauthorized personnel.${prompt}
   7905: Then again, even if those anachronistic San d'Orians did manage to get in, they probably wouldn't be able to make heads or tails out of our instruments!${prompt}
-  7906: The younger Galka who work here answer to their Hume-given names, like pets to their master! Have they no shame!?${prompt}
+  7906: |-
+    Les jeunes Galka qui travaillent ici répondent à leurs noms donnés par les Humes, comme des animaux de compagnie à leur maître ! N'ont-ils donc aucune honte ?${prompt}
   7907: |-
-    It is all because of the loss of our Talekeeper.
-    If only Sir Raogrimm were here...${prompt}
+    Tout cela est à cause de la perte de notre Gardien de la Parole.
+    Si seulement Sir Raogrimm était ici...${prompt}
   7908: |-
     I've heard good things about you. It seems you're quite the adventurer now.
     I have a job for you.${prompt}
@@ -24646,30 +24647,30 @@ entries:
   11029: Yes! I had faith in you, ${name-player}, but this is wonderful!${prompt}
   11030: Take pride in your accomplishment today, and go forth. Not just for the sake of my alter ego, but for Bastok--and all Vana'diel.${prompt}
   11031: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir cela comme votre point de retour actuel.
+    Une fois que vous avez défini un point de retour, vous y retournerez chaque fois que vous serez incapable d'agir.
   11032: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11033: Home point set!${prompt}
-  11034: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  11033: Point de retour défini !${prompt}
+  11034: Un point de retour peut être défini comme un endroit où vous reviendrez à Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   11035: |-
-    What will you do?
+    Que ferez-vous ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    En y réfléchissant, laissez tomber.${prompt}
   11036: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  11037: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
+  11037: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
   11038: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -24686,32 +24687,32 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédante..
+    Page suivante.${prompt}
   11039: |-
-    Teleport where?（${zone: 33[2]}）
+    Téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  11040: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  11041: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  11042: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  11040: Vous n'avez pas encore enregistré d'autres points de retour, et vous ne pouvez donc pas vous téléporter.${prompt}
+  11041: 'Il en coûte ${number: 3} gil pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  11042: 'Il n’y a aucun frais pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   11043: |-
-    Teleport? (Current gil: ${number: 0})
+    Téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   11044: |-
-    Teleport to which region?
+    Téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    En y réfléchissant, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
     ${choice: 1}[Bastok/Tavnazian Arch].
     ${choice: 1}[Windurst/Lumoria].
@@ -24736,31 +24737,31 @@ entries:
     ${choice: 1}[Elshimo Low/].
     ${choice: 1}[Elshimo Up/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   11045: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  11046: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucune de ces options.
+    Un emplacement favorisé.
+    Une zone d'origine.
+    Une zone Rise of the Zilart.
+    Une zone Chains of Promathia.
+    Une zone Treasures of Aht Urhgan.
+    Une zone Wings of the Goddess.
+    Une zone Seekers of Adoulin.${prompt}
+  11046: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour vous téléporter.
   11047: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  11048: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  11048: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
   11049: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucune de ces options.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -24770,13 +24771,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  11050: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  11051: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  11050: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré/retiré] de votre liste d’emplacements favoris.'
+  11051: Votre liste d’emplacements favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.
   11052: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucune de ces options.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
