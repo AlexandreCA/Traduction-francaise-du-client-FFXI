@@ -17342,92 +17342,92 @@ entries:
   7011: Moogles are awesome!♪${prompt}
   7012: I wish I could fill my house with lots of prrretty flowers!${prompt}
   7013: |-
-    I am charged with the task of assisting novice adventurers.
-    What would you like to know?${prompt}
+    Je suis chargé d'aider les aventuriers novices.
+    Que souhaitez-vous savoir ?${prompt}
   7014: |-
-    What would you like to know?
+    Que souhaitez-vous savoir ?
     ${selection-lines}
-    How do I give items to people?
-    Where can I fight monsters?
-    What are quests and missions?
-    I want to see a map of the city.
-    Nothing for now.${prompt}
+    Comment donner des objets aux gens ?
+    Où puis-je combattre des monstres ?
+    Que sont les quêtes et les missions ?
+    Je veux voir une carte de la ville.
+    Rien pour l'instant.${prompt}
   7015: |-
-    Giving items to other people is called “trading.”
-    It is done by selecting “Trade” from the main menu on the right.${prompt}
+    Donner des objets à d'autres personnes s'appelle “échanger”.
+    Cela se fait en sélectionnant “Échange” dans le menu principal à droite.${prompt}
   7016: |-
-    You must target the person either before or after selecting “Trade.”
-    Then just choose the items you wish to give the person when your inventory window appears.${prompt}
+    Vous devez cibler la personne soit avant, soit après avoir sélectionné “Échange”.
+    Ensuite, choisissez simplement les objets que vous souhaitez donner lorsque votre fenêtre d'inventaire apparaît.${prompt}
   7017: |-
-    “Trading” is crucial to completing quests and missions, and also during conquests.
-    Remember it well.${prompt}
-  7018: 'If you have ${article} ${item-article: 7[2]} in your possession, use “Trade” now to give it to me. I will hand you some starting gil in return.${prompt}'
-  7019: Before you take on any fiends, there are a few things you should remember. First, always have weapons and armor equipped, and spells memorized from scrolls.${prompt}
-  7020: Second, always “check” your target before engaging it. Never take on a foe that seems too strong for you to defeat alone.${prompt}
-  7021: Third, when you are in a party, make it a habit to cast lots for your share of the party “spoils” after successfully defeating a monster.${prompt}
-  7022: Some people in town will ask you to do certain tasks for them. These are called “quests.” Complete them, and they should reward you for your efforts.${prompt}
-  7023: There are also tasks you can do for your country, known as “missions.” There is a guard at each gate charged with assigning them. Speak to the guards for more details.${prompt}
-  7024: Come to me if there is anything more you would like to know.${prompt}
+    “Échanger” est essentiel pour accomplir des quêtes et des missions, ainsi que lors des conquêtes.
+    Retenez-le bien.${prompt}
+  7018: 'Si vous avez ${article} ${item-article: 7[2]} en votre possession, utilisez “Échange” maintenant pour me le donner. Je vous remettrai un peu de gil de départ en échange.${prompt}'
+  7019: Avant d'affronter des ennemis, il y a quelques points à retenir. D'abord, ayez toujours des armes et des armures équipées, et mémorisez des sorts à partir de parchemins.${prompt}
+  7020: Ensuite, “vérifiez” toujours votre cible avant de l'engager. Ne combattez jamais un ennemi qui semble trop puissant pour vous tout seul.${prompt}
+  7021: Troisièmement, lorsque vous êtes en groupe, prenez l'habitude de tirer au sort pour votre part du “butin” après avoir vaincu un monstre.${prompt}
+  7022: Certaines personnes en ville vous demanderont d'effectuer certaines tâches pour elles. On appelle cela des “quêtes”. Terminez-les, et elles devraient vous récompenser pour vos efforts.${prompt}
+  7023: Il y a aussi des tâches que vous pouvez accomplir pour votre pays, appelées “missions”. Il y a un garde à chaque porte chargé de les attribuer. Parlez aux gardes pour plus de détails.${prompt}
+  7024: Revenez me voir si vous souhaitez savoir autre chose.${prompt}
   7025: |-
-    ${lettercase: 1}${article} ${item-article: 7[2]}, good.
-    Here is your starting gil.${prompt}
+    ${lettercase: 1}${article} ${item-article: 7[2]}, bon.
+    Voici votre gil de départ.${prompt}
   7026: |-
-    Here is a map of the entire city.
-    You are currently in ${choice: 1}[the Mines District/the Markets District/Port Bastok/the Metalworks].${prompt}
-  7027: Use the “Map” in the main menu for a more detailed view of your surroundings.${prompt}
-  7028: You would do well to speak with a man named Gulldago. You can find him by the West Gate in Bastok Markets.${prompt}
+    Voici une carte de toute la ville.
+    Vous êtes actuellement dans ${choice: 1}[le Quartier des Mines/le Quartier des Marchés/Port Bastok/les Ateliers].${prompt}
+  7027: Utilisez la “Carte” dans le menu principal pour une vue plus détaillée de votre environnement.${prompt}
+  7028: Il serait bon de parler à un homme nommé Gulldago. Vous pouvez le trouver près de la Porte Ouest dans le Quartier des Marchés de Bastok.${prompt}
   7029: |-
-    Inquire about what?
+    Renseigner sur quoi ?
     ${selection-lines}
-    I want to find some quests!
-    I want to try the tutorial event!
-    Teach me about Records of Eminence!
-    Teach me about the Trust initiative!
-    I want a map of my current area!
-    I want maps of Bastok!
-    How do I give items to people?
-    How do I fight outside town?
-    What are quests and missions?
-    I have other questions.
-    Nothing for now.${prompt}
-  7030: I can bestow some magical markings on your map of the Bastok area if you want to know some helpful spots.${prompt}
-  7031: There are vendors that sell maps in both Bastok Markets and Port Bastok, but the former is closer.${prompt}
-  7032: The map vendor's in one of the tents up that stairway to the north.${prompt}
-  7033: If you're looking for someone selling maps, head down those stairs to the south and keep going until you reach an open area. The vendor's tent should be there.${prompt}
-  7034: We've prepared a variety of instructional tasks for Bastokers new to the whole adventuring thing.${prompt}
-  7035: If you're interested, talk to Gulldago near the gate to South Gustaberg in Bastok Markets.${prompt}
-  7036: First, head west of here, then turn north towards a tunnel. Pass through it and you should arrive at the markets.${prompt}
-  7037: Head west of here until you can't go any further, then turn south and cross over Rye Bridge. That should get you to the markets.${prompt}
-  7038: Once you're there, go find Gulldago. I'll mark him on your map for you.${prompt}
-  7039: To confirm what you've marked, select “Markers” under “Map” in the main menu, then press the right arrow key.${prompt}
-  7040: You can also select “Wide Scan” under the “Map” submenu to search for people in your vicinity.${prompt}
-  7041: Whether you're new to Vana'diel or a veteran chomping at the bit, Records of Eminence is a great way to easily participate in a variety of content and earn dazzling rewards.${prompt}
-  7042: Open up the main menu, go to the right, and select “Objective List” under the “Quests” submenu.${prompt}
-  7043: From there, open up the “Tutorial” menu and select “Basics”, and get started with “First Step Forward.”${prompt}
-  7044: I'll even give you a little hint for completing “First Step Forward.”${prompt}
-  7045: Go forth in Bastok Markets and speak with the designated individual. Here, let me place a marker on your map.${prompt}
-  7046: Records of Eminence has a little bit of something for everyone, so be sure to give it a go!${prompt}
-  7047: The Trust initiative consists of a new type of magic developed by one of Vana'diel's most prestigious magical organizations.${prompt}
-  7048: Those who pass the initiation rites and form special bonds will be rewarded with allies to join them on their journeys.${prompt}
-  7049: You must be level five or greater to participate in the Trust initiative. I'll be glad to guide you once you are.${prompt}
-  7050: Clarion Star in Port Bastok is in charge of the Trust initiative here in our fair city. Let me mark his location on your map.${prompt}
-  7051: Opening the main menu and pressing the right arrow key will bring you to the second page of the menu, where the “Help Desk” option is.${prompt}
-  7052: Select that, then click the “Help Desk” option again in the menu that pops up. After that, one of the categories will be “I need help with the game controls.”${prompt}
-  7053: If you ever have a problem, a quick look there might help you figure things out.${prompt}
-  7054: Citizens all over the republic need your help. Do you want to search my records to find some of them?${prompt}
+    Je veux trouver des quêtes !
+    Je veux essayer l'événement tutoriel !
+    Apprenez-moi sur les Archives d'Éminence !
+    Apprenez-moi sur l'initiative Trust !
+    Je veux une carte de ma zone actuelle !
+    Je veux des cartes de Bastok !
+    Comment donner des objets aux gens ?
+    Comment combattre hors de la ville ?
+    Que sont les quêtes et les missions ?
+    J'ai d'autres questions.
+    Rien pour l'instant.${prompt}
+  7030: Je peux apposer quelques marques magiques sur votre carte de la zone de Bastok si vous souhaitez connaître quelques endroits utiles.${prompt}
+  7031: Il y a des vendeurs de cartes à la fois dans le Quartier des Marchés de Bastok et à Port Bastok, mais le premier est plus proche.${prompt}
+  7032: Le vendeur de cartes se trouve dans l'une des tentes en haut de cet escalier au nord.${prompt}
+  7033: Si vous cherchez quelqu'un qui vend des cartes, descendez ces escaliers au sud et continuez jusqu'à atteindre une zone ouverte. La tente du vendeur devrait y être.${prompt}
+  7034: Nous avons préparé une variété de tâches d'instruction pour les Bastokers nouveaux dans l'aventure.${prompt}
+  7035: Si vous êtes intéressé, parlez à Gulldago près de la porte vers Gustaberg Sud dans le Quartier des Marchés de Bastok.${prompt}
+  7036: D'abord, dirigez-vous vers l'ouest d'ici, puis tournez au nord vers un tunnel. Passez à travers et vous arriverez aux marchés.${prompt}
+  7037: Allez vers l'ouest d'ici jusqu'à ce que vous ne puissiez plus aller plus loin, puis tournez au sud et traversez le Pont Rye. Cela devrait vous mener aux marchés.${prompt}
+  7038: Une fois là-bas, allez trouver Gulldago. Je vais le marquer sur votre carte pour vous.${prompt}
+  7039: Pour confirmer ce que vous avez marqué, sélectionnez “Marqueurs” sous “Carte” dans le menu principal, puis appuyez sur la touche fléchée droite.${prompt}
+  7040: Vous pouvez également sélectionner “Large Scan” sous le sous-menu “Carte” pour chercher des personnes dans votre proximité.${prompt}
+  7041: Que vous soyez nouveau dans Vana'diel ou un vétéran impatient, les Archives d'Éminence sont un excellent moyen de participer facilement à une variété de contenus et de gagner des récompenses éblouissantes.${prompt}
+  7042: Ouvrez le menu principal, allez à droite et sélectionnez “Liste d'Objectifs” sous le sous-menu “Quêtes”.${prompt}
+  7043: À partir de là, ouvrez le menu “Tutoriel” et sélectionnez “Bases”, puis commencez avec “Premier Pas en Avant”.${prompt}
+  7044: Je vais même vous donner un petit indice pour compléter “Premier Pas en Avant”.${prompt}
+  7045: Allez à Bastok Markets et parlez à la personne désignée. Voici, laissez-moi placer un marqueur sur votre carte.${prompt}
+  7046: Les Archives d'Éminence ont un peu de quelque chose pour tout le monde, alors assurez-vous de les essayer !${prompt}
+  7047: L'initiative Trust consiste en un nouveau type de magie développé par l'une des organisations magiques les plus prestigieuses de Vana'diel.${prompt}
+  7048: Ceux qui passent les rites d'initiation et forment des liens spéciaux seront récompensés par des alliés pour les accompagner dans leurs aventures.${prompt}
+  7049: Vous devez être de niveau cinq ou plus pour participer à l'initiative Trust. Je serai heureux de vous guider une fois que vous serez prêt.${prompt}
+  7050: Clarion Star à Port Bastok est en charge de l'initiative Trust ici dans notre belle ville. Laissez-moi marquer son emplacement sur votre carte.${prompt}
+  7051: Ouvrir le menu principal et appuyer sur la touche fléchée droite vous amènera à la deuxième page du menu, où se trouve l'option “Help Desk”.${prompt}
+  7052: Sélectionnez cela, puis cliquez à nouveau sur l'option “Help Desk” dans le menu qui apparaît. Après cela, l'une des catégories sera “J'ai besoin d'aide avec les contrôles du jeu”.${prompt}
+  7053: Si jamais vous avez un problème, un coup d'œil rapide là-bas pourrait vous aider à comprendre les choses.${prompt}
+  7054: Des citoyens dans toute la république ont besoin de votre aide. Voulez-vous rechercher mes dossiers pour en trouver quelques-uns ?${prompt}
   7055: |-
-    Inquire about which locale?
+    Renseigner sur quel lieu ?
     ${selection-lines}
-    None.
-    Bastok Mines: ${number: 1} individual${choice-plurality: 1}[/s].
-    Bastok Markets: ${number: 2} individual${choice-plurality: 2}[/s].
-    Port Bastok: ${number: 3} individual${choice-plurality: 3}[/s].
-    Metalworks: ${number: 4} individual${choice-plurality: 4}[/s].${prompt}
-  7056: 'Talk to the following people in ${choice: 0}[the mines/the markets/the port/the Metalworks], who should be more than happy to entrust you with some tasks.${prompt}'
+    Aucun.
+    Bastok Mines : ${number: 1} individu${choice-plurality: 1}[/s].
+    Bastok Markets : ${number: 2} individu${choice-plurality: 2}[/s].
+    Port Bastok : ${number: 3} individu${choice-plurality: 3}[/s].
+    Metalworks : ${number: 4} individu${choice-plurality: 4}[/s].${prompt}
+  7056: 'Parlez aux personnes suivantes dans ${choice: 0}[les mines/les marchés/le port/les Ateliers], qui devraient être plus qu’heureuses de vous confier quelques tâches.${prompt}'
   7057: |-
-    Who will you go see in Bastok Mines?
+    Qui irez-vous voir dans Bastok Mines ?
     ${selection-lines}
-    No one.
+    Personne.
     Wahid.
     Elki.
     Tami.
@@ -17447,9 +17447,9 @@ entries:
     Gumbah.
     Selliste.${prompt}
   7058: |-
-    Who will you go see in Bastok Markets?
+    Qui irez-vous voir dans Bastok Markets ?
     ${selection-lines}
-    No one.
+    Personne.
     Malene.
     Salimah.
     Michea.
@@ -17470,9 +17470,9 @@ entries:
     Brygid.
     Shamarhaan.${prompt}
   7059: |-
-    Who will you go see in Port Bastok?
+    Qui irez-vous voir dans Port Bastok ?
     ${selection-lines}
-    No one.
+    Personne.
     Powhatan.
     Corann.
     Talib.
@@ -17505,9 +17505,9 @@ entries:
     Grin.${prompt}
   7060: |-
     ヒルドルフ(Hildolf)
-    Who will you go see in the Metalworks?
+    Qui irez-vous voir dans les Ateliers ?
     ${selection-lines}
-    No one.
+    Personne.
     Hungry Wolf.
     Izabele.
     Ferghus.
@@ -17754,154 +17754,154 @@ entries:
   7213: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
   7214: 'You receive ${number: 0} bayld!${prompt}'
   7215: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
-  7216: The tavern is closed.${prompt}
-  7217: Item OK!${prompt}
-  7218: I don't need this.${prompt}
-  7219: You cannot cross the drawbridge while it is raised.${prompt}
+  7216: La taverne est fermée.${prompt}
+  7217: Objet OK !${prompt}
+  7218: Je n'en ai pas besoin.${prompt}
+  7219: Vous ne pouvez pas traverser le pont-levis lorsqu'il est relevé.${prompt}
   7220: |-
-    The mission you were on is now complete.
-    Rank points have also been raised to the max.${prompt}
-  7221: '${number: 0} seconds until zone change.${wait-animation: 2}${prompt}'
-  7222: The ship is leaving soon.${prompt}
-  7223: The ship has come.${prompt}
-  7224: Welcome!${prompt}
-  7225: Opening scene (still working on it).${prompt}
-  7226: 'Docking (15 second event)${wait-animation: 10}${prompt}'
+    La mission que vous avez accomplie est maintenant terminée.
+    Les points de rang ont également été augmentés au maximum.${prompt}
+  7221: '${number: 0} secondes avant le changement de zone.${wait-animation: 2}${prompt}'
+  7222: Le bateau part bientôt.${prompt}
+  7223: Le bateau est arrivé.${prompt}
+  7224: Bienvenue !${prompt}
+  7225: Scène d'ouverture (encore en cours de travail).${prompt}
+  7226: 'Amarrage (événement de 15 secondes)${wait-animation: 10}${prompt}'
   7227: |-
-    Go where?(↓List scrolls down)
+    Où aller ? (↓Liste déroulante)
     ${selection-lines}
-    Stay here.
+    Rester ici.
     San d'Oria.
     Windurst.
-    Ghelsba lift.
-    Valley of hot springs.
-    Ronfaure Forest.${prompt}
-  7228: 'The airship will ${choice: 2}[arrive/depart] in ${choice: 3}[less than an hour/about 1 hour/about 2 hours/about 3 hours/about 4 hours/about 5 hours/about 6 hours/about 7 hours] (${number: 1} ${choice-plurality: 1}[minute/minutes] in Earth time).${prompt}'
-  7229: 'The airship will ${choice: 2}[arrive/depart] soon.${prompt}'
-  7230: You need an airship pass to go through here.${prompt}
+    Ascenseur de Ghelsba.
+    Vallée des sources chaudes.
+    Forêt de Ronfaure.${prompt}
+  7228: 'Le dirigeable ${choice: 2}[arrivera/partira] dans ${choice: 3}[moins d’une heure/environ 1 heure/environ 2 heures/environ 3 heures/environ 4 heures/environ 5 heures/environ 6 heures/environ 7 heures] (${number: 1} ${choice-plurality: 1}[minute/minutes] en temps terrestre).${prompt}'
+  7229: 'Le dirigeable ${choice: 2}[arrivera/partira] bientôt.${prompt}'
+  7230: Vous avez besoin d'un laissez-passer pour dirigeable pour passer par ici.${prompt}
   7231: |-
-    In the Gustaberg Mountains of
-    Southern Quon lies the industrial
-    nation known as the Republic of Bastok.${wait-animation: 6}
+    Dans les montagnes de Gustaberg
+    au sud de Quon se trouve la nation
+    industrielle connue sous le nom de la République de Bastok.${wait-animation: 6}
   7232: |-
-    Compared to San d'Oria, with its legendary
-    orders of knights, or Windurst, with its
-    ancient institutes of magic, Bastok is still
-    but a newborn nation.${wait-animation: 8}
+    Comparée à San d'Oria, avec ses légendaires
+    ordres de chevaliers, ou à Windurst, avec ses
+    anciens instituts de magie, Bastok est encore
+    une nation toute jeune.${wait-animation: 8}
   7233: |-
-    But advanced technology and near limitless
-    underground resources have allowed Bastok
-    to rival the other two nations in power.${wait-animation: 8}
+    Mais la technologie avancée et les ressources
+    souterraines presque illimitées ont permis à
+    Bastok de rivaliser en puissance avec les deux autres nations.${wait-animation: 8}
   7234: |-
-    Innovative and adaptable Humes make up
-    more than half the population of Bastok.${wait-animation: 6}
+    Les Humes, innovants et adaptables,
+    représentent plus de la moitié de la population de Bastok.${wait-animation: 6}
   7235: |-
-    With their flair for industry, economy,
-    and politics, they were the driving force
-    behind Bastok's rapid growth. Even now,
-    Humes hold key positions in those areas.${wait-animation: 8}
+    Avec leur talent pour l'industrie, l'économie
+    et la politique, ils ont été la force motrice
+    derrière la croissance rapide de Bastok. Même
+    aujourd'hui, les Humes occupent des positions clés dans ces domaines.${wait-animation: 8}
   7236: |-
-    The Galka, a race of hulking humanoids,
-    comprise a third of Bastok's population.
-    Originally hailing from Zepwell, they came
-    to this land over six hundred years ago.${wait-animation: 8}
+    Les Galka, une race de humanoïdes imposants,
+    composent un tiers de la population de Bastok.
+    Originaires de Zepwell, ils sont arrivés
+    dans cette région il y a plus de six cents ans.${wait-animation: 8}
   7237: |-
-    Without their incomparable strength,
-    the countless ore mines that drive Bastok's
-    economy would never have been dug.${wait-animation: 6}
+    Sans leur force incomparable,
+    les innombrables mines de minerai qui font
+    tourner l'économie de Bastok n'auraient jamais été creusées.${wait-animation: 6}
   7238: |-
-    Adventurers seeking fame and fortune
-    flock to rising nations like Bastok.
-    You are one of them.${wait-animation: 6}
+    Les aventuriers en quête de gloire et de fortune
+    affluent vers des nations montantes comme Bastok.
+    Vous êtes l'un d'eux.${wait-animation: 6}
   7239: |-
-    Your story begins here, amid the smoke
-    and bustle of the industrial city of Bastok.${wait-animation: 5}
+    Votre histoire commence ici, au milieu de la fumée
+    et de l'agitation de la ville industrielle de Bastok.${wait-animation: 5}
   7240: |-
-    Why!?
-    Why won't you let me go outside!?${prompt}
+    Pourquoi !?
+    Pourquoi ne me laisses-tu pas sortir !?${prompt}
   7241: |-
-    As I've said, we have strict orders not to let you pass, Milady.
-    It'll mean our heads if we let you go outside!${prompt}
-  7242: But why!?${prompt}
-  7243: Well, uh...${prompt}
-  7244: You know as well as we do, Milady.${prompt}
+    Comme je l'ai dit, nous avons des ordres stricts de ne pas vous laisser passer, Milady.
+    Ce sera notre tête si nous vous laissons sortir !${prompt}
+  7242: Mais pourquoi !?${prompt}
+  7243: Eh bien, euh...${prompt}
+  7244: Vous le savez aussi bien que nous, Milady.${prompt}
   7245: |-
-    Please, I'll only be gone a second!
-    I have to help a friend!${prompt}
-  7246: Did this friend of yours ask you to risk your life? You know how dangerous it is outside.${prompt}
-  7247: Well, no, but...${prompt}
+    S'il vous plaît, je ne serai partie qu'une seconde !
+    Je dois aider un ami !${prompt}
+  7246: Cet ami vous a-t-il demandé de risquer votre vie ? Vous savez à quel point c'est dangereux dehors.${prompt}
+  7247: Eh bien, non, mais...${prompt}
   7248: |-
-    That's what I thought.
-    You should know better than to go meddling in other people's affairs, Milady.${prompt}
+    C'est bien ce que je pensais.
+    Vous devriez savoir qu'il ne faut pas vous mêler des affaires des autres, Milady.${prompt}
   7249: '...${prompt}'
   7250: |-
-    Hey, what'd you go and upset her for?
-    What if she tells the boss?${prompt}
+    Hé, pourquoi l'avez-vous contrariée ?
+    Et si elle le disait au patron ?${prompt}
   7251: |-
-    Oh... Hi there. Were you there the whole time?
-    Aren't I pitiful? Not even allowed out of the city gates by myself...${prompt}
+    Oh... Salut. Tu étais là depuis le début ?
+    Je ne suis pas pitoyable ? Même pas autorisée à sortir des portes de la ville toute seule...${prompt}
   7252: |-
-    I'm sorry, I didn't mean to gripe.
-    You look like a fledgling adventurer. Is this your first time in Bastok?${prompt}
+    Je suis désolée, je ne voulais pas me plaindre.
+    Tu as l'air d'un aventurier débutant. C'est ta première fois à Bastok ?${prompt}
   7253: |-
-    First time in Bastok?
+    Première fois à Bastok ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7254: |-
-    Welcome to Bastok, then.
-    I'd show you around, but I'm a little busy right now...${prompt}
+    Bienvenue à Bastok, alors.
+    Je te montrerais bien les environs, mais je suis un peu occupée en ce moment...${prompt}
   7255: |-
-    Really?
-    I thought you were a newcomer, the way you dress and talk...${prompt}
+    Vraiment ?
+    Je pensais que tu étais un nouveau, à la façon dont tu t'habilles et parles...${prompt}
   7256: |-
-    Well, I've gotta go.
-    I have to find a way to get outside these walls!${prompt}
+    Bon, je dois y aller.
+    Je dois trouver un moyen de sortir de ces murs !${prompt}
   7257: |-
-    Phew...
-    She's finally gone.${prompt}
+    Ouf...
+    Elle est enfin partie.${prompt}
   7258: |-
-    Why won't we let her go outside, you ask?
-    Oh, you'll find out soon enough.${prompt}
+    Pourquoi ne la laissons-nous pas sortir, demandes-tu ?
+    Oh, tu le découvriras bientôt.${prompt}
   7259: |-
-    So, you're new in Bastok, huh?
-    What are you thinking of doing first?${prompt}
+    Alors, tu es nouveau à Bastok, hein ?
+    Qu'est-ce que tu comptes faire en premier ?${prompt}
   7260: |-
-    What do you want to do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Fight monsters!
-    Go shopping.
-    Find some work.${prompt}
+    Combattre des monstres !
+    Faire du shopping.
+    Trouver du travail.${prompt}
   7261: |-
-    Hey, not so fast! It's dangerous out there!
-    Well, if you really want to go outside, you can go back the way you came, through the gate. But don't come complaining to me if you get hurt.${prompt}
-  7262: 'If you do go, one piece of advice: “check” your target before fighting it, and only fight creatures you''re sure you can beat. Got that?${prompt}'
-  7263: Well, there are a few street vendors around...but if you want better stuff, you should go to the Markets District.${prompt}
-  7264: The stores there have a pretty good selection, but you don't look like you can afford to buy much from them now.${prompt}
-  7265: That's very vague. What kind of work are you looking for?${prompt}
+    Hé, pas si vite ! C'est dangereux dehors !
+    Bon, si tu veux vraiment sortir, tu peux repartir par là d'où tu es venu, par la porte. Mais ne viens pas te plaindre si tu te blesses.${prompt}
+  7262: 'Si tu y vas, un conseil : “vérifie” ta cible avant de la combattre, et ne combats que des créatures que tu es sûr de pouvoir battre. Compris ?${prompt}'
+  7263: Eh bien, il y a quelques marchands ambulants par ici... mais si tu veux de meilleures choses, tu devrais aller dans le quartier des Marchés.${prompt}
+  7264: Les magasins là-bas ont une bonne sélection, mais tu ne sembles pas avoir les moyens d'acheter grand-chose pour le moment.${prompt}
+  7265: C'est très vague. Quel genre de travail cherches-tu ?${prompt}
   7266: |-
-    What do you want to do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Serve Bastok.
-    Help people.
-    Get rich, quick.${prompt}
+    Servir Bastok.
+    Aider les gens.
+    Devenir riche, vite.${prompt}
   7267: |-
-    Ah, good! You've come to the right person. I'm the guard in charge of assigning missions--there's one of us at each gate.
-    Since you seem so eager, I'll assign you one.${prompt}
+    Ah, bien ! Vous êtes venu voir la bonne personne. Je suis le garde chargé d'assigner des missions – il y en a un de nous à chaque porte.
+    Puisque vous semblez si enthousiaste, je vais vous en attribuer une.${prompt}
   7268: |-
-    Don't worry, it's an easy one, even for a tenderfoot like you.
-    All you have to do is collect a report from the overseer of the Zeruhn Mines.${prompt}
+    Ne vous inquiétez pas, c'est une mission facile, même pour un novice comme vous.
+    Tout ce que vous avez à faire est de collecter un rapport de l'intendant des Mines de Zeruhn.${prompt}
   7269: |-
-    Let me give you the directions:
-    Cross the bridge southwest of here and go to the Bastok Markets. Once there, head south, and you'll be in the Mines District. The Zeruhn Mines are in the western section.${prompt}
+    Permettez-moi de vous donner les instructions :
+    Traversez le pont au sud-ouest d'ici et allez aux Marchés de Bastok. Une fois là-bas, dirigez-vous vers le sud, et vous serez dans le quartier des Mines. Les Mines de Zeruhn se trouvent dans la section ouest.${prompt}
   7270: |-
-    Did you get all that?
-    If you get lost, just ask people along the way.${prompt}
-  7271: Ah, that's very commendable! There aren't enough people like you these days.${prompt}
-  7272: Why don't you start by helping that girl who was here earlier?${prompt}
+    Vous avez tout compris ?
+    Si vous vous perdez, demandez simplement aux gens en chemin.${prompt}
+  7271: Ah, c'est très louable ! Il n'y a pas assez de personnes comme vous de nos jours.${prompt}
+  7272: Pourquoi ne commencez-vous pas par aider cette fille qui était là plus tôt ?${prompt}
   7273: |-
-    She's been frequently seen going to the Tenshodo warehouse west of here.
-    I hope she doesn't get into trouble with them.${prompt}
+    On l'a souvent vue se rendre à l'entrepôt de Tenshodo à l'ouest d'ici.
+    J'espère qu'elle ne s'attire pas d'ennuis avec eux.${prompt}
   7274: Money, huh? You might want to try the Steaming Sheep Restaurant, a tavern that caters to all sorts. One of their patrons might know something useful.${prompt}
   7275: |-
     The tavern's a little ways west of here.
@@ -18242,164 +18242,164 @@ entries:
   7414: The presidential aide, Sir Lucius himself, recommended you. It is a great honor--you should be proud!${prompt}
   7415: Sir Lucius wishes to see you as soon as possible. Go meet him in his office in the administrative section at the top of the Metalworks.${prompt}
   7416: |-
-    I have orders for you from the president himself.
-    You must have heard already, but he wants you to go to Fei'Yin.${prompt}
+    J'ai des ordres pour vous de la part du président lui-même.
+    Vous avez sûrement entendu dire qu'il veut que vous alliez à Fei'Yin.${prompt}
   7417: |-
-    Go speak to Sir Naji at the President's Office.
-    He will show you in.${prompt}
-  7418: So, it has finally come to this... You are to infiltrate the Kindred's main stronghold of Zvahl.${prompt}
+    Allez parler à Sir Naji au bureau du président.
+    Il vous fera entrer.${prompt}
+  7418: Donc, il en est enfin arrivé là... Vous devez infiltrer le bastion principal des Kindred à Zvahl.${prompt}
   7419: |-
-    The president will brief you himself in his office.
-    Good luck, adventurer!${prompt}
+    Le président vous informera lui-même dans son bureau.
+    Bonne chance, aventurier !${prompt}
   7420: |-
-    Ah, you have returned from Jeuno.
-    Go to the President's Office right away.
-    Sir Naji will show you in.${prompt}
+    Ah, vous êtes de retour de Jeuno.
+    Allez immédiatement au bureau du président.
+    Sir Naji vous fera entrer.${prompt}
   7421: |-
-    Take it from me, a guard's job is pretty boring.
-    Not that I'd rather have trouble, mind you.${prompt}
+    Croyez-moi, le travail d'un garde est plutôt ennuyeux.
+    Pas que je préfère avoir des ennuis, cela dit.${prompt}
   7422: |-
-    The North Gate and Beligen Square are down these stairs.
-    Cross the drawbridge from the square if you want to get to the residential area.${prompt}
+    La porte nord et la place Beligen sont en bas de ces escaliers.
+    Traversez le pont-levis depuis la place si vous voulez aller dans le quartier résidentiel.${prompt}
   7423: |-
-    Go straight west and you'll come across a goods store and the tavern.
-    Further west is the road leading to the Markets District.${prompt}
+    Allez tout droit vers l'ouest et vous tomberez sur un magasin de marchandises et la taverne.
+    Plus à l'ouest se trouve la route menant au quartier des marchés.${prompt}
   7424: |-
-    The residential area is on the other side of this drawbridge.
-    Cross it while it's down if you need to go to your Mog House.${prompt}
-  7425: 'Incoming ship! Everyone off the bridge!${wait-animation: 1}${prompt}'
+    Le quartier résidentiel est de l'autre côté de ce pont-levis.
+    Traversez-le quand il est baissé si vous devez vous rendre à votre maison de Mog.${prompt}
+  7425: 'Bateau entrant ! Tout le monde hors du pont !${wait-animation: 1}${prompt}'
   7426: |-
-    I'm helping Evelyn with her store.
-    She said she'd give me a present if I worked hard!${prompt}
+    J'aide Evelyn avec sa boutique.
+    Elle a dit qu'elle me donnerait un cadeau si je travaillais dur !${prompt}
   7427: |-
-    You lost?
-    Where you goin'?${prompt}
+    Tu es perdu ?
+    Tu vas où ?${prompt}
   7428: |-
-    Which area do you want to ask about?
+    Quelle zone veux-tu demander ?
     ${selection-lines}
-    None.
-    The western section.
-    The eastern section.${prompt}
+    Aucune.
+    La section ouest.
+    La section est.${prompt}
   7429: |-
-    All-righty.
-    Come back anytime. Have a nice day.${prompt}
+    D'accord.
+    Reviens quand tu veux. Passe une bonne journée.${prompt}
   7430: |-
-    All right, let's see...
-    See all those doors to the west, there?${prompt}
+    D'accord, voyons voir...
+    Tu vois toutes ces portes à l'ouest, là ?${prompt}
   7431: |-
-    The ones on the right are your run-of-the-mill warehouses.
-    Some real shady characters've been seen going in there, so you be careful, all right?${prompt}
+    Celles de droite sont des entrepôts ordinaires.
+    On a vu des personnages pas très recommandables y entrer, donc fais attention, d'accord ?${prompt}
   7432: |-
-    On the left you've got the air travel agency, or “the door to the world,” as they say.
-    You need an airship pass to get in, though. And not through that door, either--that's the exit. Heh-heh.${prompt}
-  7433: The entrance is around the corner. Once you're in, you gotta walk down to the pier to get on airships.${prompt}
-  7434: Airships there only go to Jeuno--but of course, you knew that, right?${prompt}
+    À gauche, tu as l'agence de voyage aérien, ou "la porte vers le monde", comme on dit.
+    Il te faut un pass aérien pour entrer, cependant. Et pas par cette porte non plus -- c'est la sortie. Heh-heh.${prompt}
+  7433: L'entrée est juste au coin. Une fois à l'intérieur, tu dois marcher jusqu'au quai pour embarquer sur les aéronefs.${prompt}
+  7434: Les aéronefs là-bas vont seulement à Jeuno -- mais bien sûr, tu le savais, n'est-ce pas ?${prompt}
   7435: |-
-    A little further on, we have Galvin's Travel Gear--a goods shop.
-    They've got a few things adventurers like yourself might need.${prompt}
+    Un peu plus loin, nous avons le magasin de voyages de Galvin -- un magasin de marchandises.
+    Ils ont quelques affaires dont des aventuriers comme vous pourriez avoir besoin.${prompt}
   7436: |-
-    Above Galvin's, you've got the Steaming Sheep Restaurant, which most people just call “the tavern.”
-    It's a good place if you want to eat, drink, or hear a good story or two.${prompt}
+    Au-dessus de Galvin, vous avez le restaurant Steaming Sheep, que la plupart des gens appellent "la taverne".
+    C'est un bon endroit si vous voulez manger, boire ou entendre une bonne histoire ou deux.${prompt}
   7437: |-
-    And further down west...you'll come to a bridge.
-    It leads to the Markets District, a nicer part of town.${prompt}
-  7438: You can get to both the Metalworks and the Mines District from the markets. It's like the crossroads of Bastok, if you know what I mean.${prompt}
-  7439: Okay, to the east--we've got a few houses on the left, a few merchant stalls on the right...${prompt}
+    Et plus loin à l'ouest... vous arriverez à un pont.
+    Il mène au quartier des marchés, une partie plus agréable de la ville.${prompt}
+  7438: Vous pouvez accéder à la fois aux Ateliers et au quartier des Mines depuis les marchés. C'est comme le carrefour de Bastok, si vous voyez ce que je veux dire.${prompt}
+  7439: D'accord, à l'est -- nous avons quelques maisons à gauche, quelques étals de marchands à droite...${prompt}
   7440: |-
-    Oh, those merchants don't have much to sell, by the way.
-    They're only useful if you want to sell off stuff you don't need and go back outside right away.${prompt}
-  7441: Right, further on down the stairs is...the North Gate!${prompt}
-  7442: You can get missions from the guards there or ask to join in conquests.${prompt}
-  7443: Just south of the square is one of our major landmarks, the drawbridge!${prompt}
-  7444: It's gotta be drawn up when airships come in, so be careful. The residential area on the other side is where your room is. Go there if you need to store stuff.${prompt}
-  7445: Oh, but you have to be a Bastoker or have a Rent-a-Room to do that.${prompt}
-  7446: That's about it. Come back if you have any more questions, all right?${prompt}
-  7447: This building here is where you get on airships. I'm usually here all day, so I hear a lot of stories about things happening in other countries.${prompt}
+    Oh, ces marchands n'ont pas grand-chose à vendre, au fait.
+    Ils ne sont utiles que si vous voulez vendre des choses dont vous n'avez pas besoin et retourner dehors immédiatement.${prompt}
+  7441: Exact, plus bas dans les escaliers se trouve... la porte nord !${prompt}
+  7442: Vous pouvez obtenir des missions auprès des gardes là-bas ou demander à participer à des conquêtes.${prompt}
+  7443: Juste au sud de la place se trouve l'un de nos principaux monuments, le pont-levis !${prompt}
+  7444: Il doit être levé lorsque des aéronefs arrivent, donc faites attention. Le quartier résidentiel de l'autre côté est là où se trouve votre chambre. Allez-y si vous devez stocker des affaires.${prompt}
+  7445: Oh, mais vous devez être un Bastoker ou avoir une chambre à louer pour faire cela.${prompt}
+  7446: C'est à peu près tout. Revenez si vous avez d'autres questions, d'accord ?${prompt}
+  7447: Ce bâtiment ici est où vous embarquez sur les aéronefs. Je suis généralement ici toute la journée, donc j'entends beaucoup d'histoires sur ce qui se passe dans d'autres pays.${prompt}
   7448: |-
-    Traveling on airships is a right only given to those who've proven themselves worthy.
-    It's still a little early for you, I would think.${prompt}
-  7449: I am from San d'Oria. Have you ever gone there? You do not want to. It is a nation trapped in old traditions and foolish rules.${prompt}
-  7450: The San d'Orian army is thought the mightiest in Vana'diel, but it is only a shadow of its past self.${prompt}
-  7451: I chose to let my soul be ravaged by the cruel wheel of time rather than spend an eternity in that timeless city. Here, at least, I feel alive.${prompt}
+    Voyager en aéronef est un droit réservé à ceux qui se sont prouvés dignes.
+    Il est encore un peu tôt pour vous, je pense.${prompt}
+  7449: Je viens de San d'Oria. Y êtes-vous déjà allé ? Vous ne voulez pas. C'est une nation piégée dans de vieilles traditions et des règles absurdes.${prompt}
+  7450: L'armée san d'orienne est considérée comme la plus puissante de Vana'diel, mais elle n'est qu'une ombre de ce qu'elle était autrefois.${prompt}
+  7451: J'ai choisi de laisser mon âme être ravagée par la cruel rouage du temps plutôt que de passer une éternité dans cette ville intemporelle. Ici, au moins, je me sens vivant.${prompt}
   7452: |-
-    Rafaela and I love taking walks along this road.
-    The sea wind seeps deep and soothes the soul. Do you feel it as well?${prompt}
+    Rafaela et moi adorons nous promener le long de ce chemin.
+    Le vent de la mer pénètre profondément et apaise l'âme. Vous le ressentez aussi ?${prompt}
   7453: |-
-    Bastok's sea is the same shade of blue as the one near San d'Oria. They are one and the same.
-    I do not long for my homeland anymore...I have Rafaela, now.${prompt}
-  7454: Sometimes, as we look at the sea together, Evi gets this real sad look on his face...${prompt}
-  7455: And I think, maybe he was never meant to be one of us, and that he should not stay here in Bastok.${prompt}
-  7456: Are you looking for something? There is nothing here you would want.${prompt}
+    La mer de Bastok est de la même teinte de bleu que celle près de San d'Oria. Elles ne font qu'une.
+    Je ne désire plus mon pays natal... J'ai Rafaela, maintenant.${prompt}
+  7454: Parfois, alors que nous regardons la mer ensemble, Evi a ce regard vraiment triste sur son visage...${prompt}
+  7455: Et je pense, peut-être qu'il n'était jamais censé être l'un d'entre nous, et qu'il ne devrait pas rester ici à Bastok.${prompt}
+  7456: Cherchez-vous quelque chose ? Il n'y a rien ici que vous voudriez.${prompt}
   7457: |-
-    If you are looking for my daughter Ayame, she is working at the President's Office.
-    She does not come back home often.${prompt}
-  7458: Everyone says that they're all proud of sis.${prompt}
+    Si vous cherchez ma fille Ayame, elle travaille au bureau du président.
+    Elle ne rentre pas souvent à la maison.${prompt}
+  7458: Tout le monde dit qu'ils sont tous fiers de ma sœur.${prompt}
   7459: |-
-    I am, too--she's strong, cool, and smart.
-    I'm not any of those...I can never be like her.${prompt}
-  7460: The Humes were planning on raising a new building here.${prompt}
-  7461: But when the Hume head engineer switched departments, they canceled the whole project, leaving us out to dry. I hate Hume bureaucracy.${prompt}
-  7462: There's nothing to see here. Just another forgotten Hume project, where we Galka did all the work and were left with nothing to show for our sweat and toil.${prompt}
+    Moi aussi—elle est forte, cool et intelligente.
+    Je ne suis aucune de ces choses... Je ne pourrai jamais être comme elle.${prompt}
+  7460: Les Humes prévoyaient de construire un nouveau bâtiment ici.${prompt}
+  7461: Mais lorsque le chef ingénieur Hume a changé de département, ils ont annulé tout le projet, nous laissant sur le carreau. Je déteste la bureaucratie Hume.${prompt}
+  7462: Il n'y a rien à voir ici. Juste un autre projet Hume oublié, où nous, les Galka, avons fait tout le travail et n'avons rien à montrer pour notre sueur et notre labeur.${prompt}
   7463: |-
-    It's a great day, isn't it?
-    Bastok has changed. There's that drawbridge there, and airships in the air...
-    But the sun still shines as brightly as when we were children.${prompt}
-  7464: This used to be the secret place where young lovers met. Qiji and I used to come here, too, before we moved in together.${prompt}
+    C'est une belle journée, n'est-ce pas ?
+    Bastok a changé. Il y a ce pont-levis là-bas et des aéronefs dans les airs...
+    Mais le soleil brille toujours aussi fort que quand nous étions enfants.${prompt}
+  7464: C'était l'endroit secret où les jeunes amoureux se rencontraient. Qiji et moi venions ici aussi, avant de nous installer ensemble.${prompt}
   7465: |-
-    People say the drawbridge is getting old, but it looks as sturdy to me as the first time I laid eyes on it.
-    If anything has changed, it must be something within us...${prompt}
-  7466: I'm happy that my granddaughter likes me, but I must say I have trouble keeping up with her at my age.${prompt}
+    Les gens disent que le pont-levis vieillit, mais il me semble aussi solide que la première fois que je l'ai vu.
+    Si quelque chose a changé, cela doit être quelque chose en nous...${prompt}
+  7466: Je suis heureux que ma petite-fille m'aime, mais je dois dire que j'ai du mal à suivre son rythme à mon âge.${prompt}
   7467: |-
-    C'mon, Grandma!
-    Over here!${prompt}
+    Allez, Grand-mère !
+    Par ici !${prompt}
   7468: |-
-    I don't know what's wrong with my son. He stays home all day and does nothing.
-    I wish there were something I could do.${prompt}
+    Je ne sais pas ce qui ne va pas avec mon fils. Il reste à la maison toute la journée et ne fait rien.
+    J'aimerais pouvoir faire quelque chose.${prompt}
   7469: |-
-    Leave me alone! I don't wanna go outside!
-    I'm safe here...no one can hurt me...${prompt}
-  7470: It pays better to work for the Humes in this district than to dig in the mines.${prompt}
-  7471: Those good-for-nothing hard-heads in the Mines District don't know what they're missing.${prompt}
+    Laissez-moi tranquille ! Je ne veux pas sortir !
+    Je suis en sécurité ici... personne ne peut me faire de mal...${prompt}
+  7470: Il est mieux rémunéré de travailler pour les Humes dans ce quartier que de creuser dans les mines.${prompt}
+  7471: Ces bons à rien de têtes dures dans le quartier des mines ne savent pas ce qu'ils ratent.${prompt}
   7472: |-
-    Can I help you? No, you can't store personal items here.
-    Our space is rented out to major trading companies and ministries of the government.${prompt}
+    Puis-je vous aider ? Non, vous ne pouvez pas entreposer d'objets personnels ici.
+    Notre espace est loué à de grandes entreprises commerciales et à des ministères du gouvernement.${prompt}
   7473: |-
-    I've seen some real shady characters going into the warehouse next door. I wonder what kind of business they're in?
-    Actually, never mind. I don't want to know.${prompt}
-  7474: We came all the way here from Windurst hoping to make some quick gil, but business has been rrreally slow...almost as slow as Panana's Cures.${prompt}
-  7475: I really don't like fighting, but Konty here takes us to dangerous places all the time!${prompt}
-  7476: Why did I ever agree to leave Windurst? I wanna go home... <Sigh>${prompt}
+    J'ai vu des personnages vraiment louches entrer dans l'entrepôt à côté. Je me demande quel genre de business ils font ?
+    En fait, peu importe. Je ne veux pas savoir.${prompt}
+  7474: Nous sommes venus ici depuis Windurst en espérant gagner un peu de gil rapidement, mais les affaires sont vraiment très lentes... presque aussi lentes que les remèdes de Panana.${prompt}
+  7475: Je n'aime vraiment pas me battre, mais Konty nous emmène tout le temps dans des endroits dangereux !${prompt}
+  7476: Pourquoi ai-je jamais accepté de quitter Windurst ? Je veux rentrer chez moi... <soupir>${prompt}
   7477: |-
-    Hey, you a rookie?
-    If I were you, I'd go hunt lizards.
-    They're worth the trouble--take my word for it.${prompt}
+    Hé, tu es un novice ?
+    Si j'étais toi, j'irais chasser des lézards.
+    Ils valent le coup, fais-moi confiance.${prompt}
   7478: |-
-    Cross this bridge to go to the Markets District.
-    Also take this road to get to the Metalworks--which include forges and administrative buildings--and the Mines District.${prompt}
-  7479: An Elvaan knight named Domien?${prompt}
-  7480: Yes, I believe I've seen someone matching that description walk by earlier...wait, is that him?${prompt}
-  7481: 'That ${item-singular: 7[2]}...are you Powhatan?${prompt}'
+    Traverse ce pont pour aller au quartier des marchés.
+    Prends aussi cette route pour arriver aux usines—qui incluent des forges et des bâtiments administratifs—et au quartier des mines.${prompt}
+  7479: Un chevalier Elvaan nommé Domien ?${prompt}
+  7480: Oui, je crois que j'ai vu quelqu'un correspondant à cette description passer tout à l'heure... attends, est-ce lui ?${prompt}
+  7481: 'Ce ${item-singular: 7[2]}... es-tu Powhatan ?${prompt}'
   7482: |-
-    You're his representative?
-    No matter--you should know that being late to a meeting is rude, not to say unforgivable, where I am from.${prompt}
+    Tu es son représentant ?
+    Peu importe—tu devrais savoir que le retard à une réunion est impoli, pour ne pas dire impardonnable, d'où je viens.${prompt}
   7483: |-
-    I have written a letter of complaint to Mister Powhatan.
-    Give it to him--I am going back to Jeuno.
-    Goodbye.${prompt}
+    J'ai écrit une lettre de plainte à Monsieur Powhatan.
+    Donnez-la lui—je retourne à Jeuno.
+    Au revoir.${prompt}
   7484: |-
-    What's wrong with me?
-    I'm too scared to go outside...I want to hide in a small, narrow place...${prompt}
+    Qu'est-ce qui ne va pas avec moi ?
+    J'ai trop peur de sortir... je veux me cacher dans un petit endroit étroit...${prompt}
   7485: |-
-    I need something big enough to hide my whole body!
-    Do you have something like that? Can you find one for me? Please?${prompt}
+    J'ai besoin de quelque chose de suffisamment grand pour cacher tout mon corps !
+    Avez-vous quelque chose comme ça ? Pouvez-vous en trouver un pour moi ? S'il vous plaît ?${prompt}
   7486: |-
-    Yes, yes! This is great!
-    Finally, I can sleep in peace!
-    I'm never going out again! Hah hah!${prompt}
+    Oui, oui ! C'est génial !
+    Enfin, je peux dormir en paix !
+    Je ne sortirai plus jamais ! Hah hah !${prompt}
   7487: |-
-    Ah, it's you!
-    That shell you gave me is great!
-    I must've been a turtle in a past life!${prompt}
+    Ah, c'est toi !
+    Cette coquille que tu m'as donnée est géniale !
+    J'ai dû être une tortue dans une vie antérieure !${prompt}
   7488: You! You're the one who gave my son that cursed thing, aren't you!?${prompt}
   7489: Thanks to you, not only does he never go out, he stays in that shell all day!${prompt}
   7490: Do something! Isn't there anything you can do to make him come out of his shell?${prompt}
@@ -24159,63 +24159,63 @@ entries:
     22. ${lettercase: 1}${item-plural: 21[2]}
     23. ${lettercase: 1}${item-plural: 22[2]}
     24. ${lettercase: 1}${item-plural: 23[2]}${prompt}
-  9986: '${color-alt: 15}${name-player}''s badge flashes brightly.${prompt}'
-  9987: I heard somebody at the warehouse saying that the people from Aht Urhgan are sneaky.${prompt}
-  9988: I wonder if that's true...${prompt}
-  9989: Being a mercenary sounds so much more exciting than staying cooped up in this town all day.${prompt}
-  9990: Man, I'd really like to go to Aht Urhgan...${prompt}
+  9986: '${color-alt: 15}L’insigne de ${name-player} brille intensément.${prompt}'
+  9987: J'ai entendu quelqu'un à l'entrepôt dire que les gens d'Aht Urhgan sont sournois.${prompt}
+  9988: Je me demande si c'est vrai...${prompt}
+  9989: Être mercenaire semble tellement plus excitant que de rester enfermé dans cette ville toute la journée.${prompt}
+  9990: J'aimerais vraiment aller à Aht Urhgan...${prompt}
   9991: |-
-    What's an adventurer doing back here?
-    Look, buddy, I've got all these boxes to sort through.
-    If you're looking for work, you should go to the Near East.${prompt}
-  9992: I am surprised that someone like you would be interested in the Empire of Aht Urhgan.${prompt}
-  9993: Lately, the beastmen there have been causing all sorts of havoc. The effect on trade has been rather negative, I'm afraid.${prompt}
-  9994: I'd take my hat off to anyone who could think of a way to actually profit from the situation.${prompt}
-  9995: I'm pretty sure someone mentioned something about a nation called the “Empire of Aht Urhgan” to me before...${prompt}
-  9996: Now who was that, again...?${prompt}
+    Que fait un aventurier ici derrière ?
+    Écoute, mon pote, j'ai toutes ces caisses à trier.
+    Si tu cherches du travail, tu devrais aller au Proche-Orient.${prompt}
+  9992: Je suis surpris que quelqu'un comme vous s'intéresse à l'Empire d'Aht Urhgan.${prompt}
+  9993: Dernièrement, les hommes-bêtes là-bas causent toutes sortes de ravages. L'effet sur le commerce est plutôt négatif, je le crains.${prompt}
+  9994: Je tirerais mon chapeau à quiconque pourrait trouver un moyen de tirer profit de la situation.${prompt}
+  9995: Je suis presque sûr que quelqu'un m'a déjà parlé d'une nation appelée “l'Empire d'Aht Urhgan”...${prompt}
+  9996: Qui cela pouvait-il bien être, déjà...?${prompt}
   9997: |-
-    Wait...
-    Would you happen to be one of those “adventurers”?${prompt}
+    Attendez...
+    Seriez-vous l'un de ces “aventuriers” ?${prompt}
   9998: |-
-    Well, are you?
+    Eh bien, l'êtes-vous ?
     ${selection-lines}
-    Yes, and proud of it!
-    I know you are but what am I!?${prompt}
-  9999: Well then, I shall entrust you with this!${prompt}
+    Oui, et fier de l'être !
+    Je sais que tu l'es, mais moi, qui suis-je !?${prompt}
+  9999: Eh bien, je vais vous confier ceci !${prompt}
   10000: |-
-    It seems I was mistaken.
-    Oh well, I have plenty of these to spare. Take one anyway.${prompt}
-  10001: '${color-alt: 15}${name-player} obtains ${keyitem-article: 0[2]}!${prompt}'
+    Il semble que je me sois trompé.
+    Oh, peu importe, j'en ai beaucoup en réserve. Prenez-en un quand même.${prompt}
+  10001: '${color-alt: 15}${name-player} obtient ${keyitem-article: 0[2]} !${prompt}'
   10002: |-
-    You would like to know more about the badge, would you?
-    Well, do you see how it is shaped like a wildcat's head? That is our company emblem.
-    Go ahead--put it on. It won't hurt you.${prompt}
+    Vous voulez en savoir plus sur l'insigne, n'est-ce pas ?
+    Eh bien, voyez-vous comme il est en forme de tête de chat sauvage ? C'est l'emblème de notre compagnie.
+    Allez-y--mettez-le. Cela ne vous fera aucun mal.${prompt}
   10003: |-
-    You want to know more? Quite the bother, aren't you?
-    Our company, “Salaheem's Sentinels,” is the largest, most prestigious, and esteemed establishment in Vana'diel!${prompt}
+    Vous voulez en savoir plus ? Vous êtes plutôt curieux, non ?
+    Notre compagnie, “Les Sentinelles de Salaheem”, est la plus grande, la plus prestigieuse et la plus estimée de Vana'diel !${prompt}
   10004: |-
-    We have even been sanctioned by the mighty Empire of Aht Urhgan!
-    Alright... To put it in words you might understand, we are mercenaries.${prompt}
+    Nous avons même été sanctionnés par le puissant Empire d'Aht Urhgan !
+    Bon... Pour que vous compreniez mieux, nous sommes des mercenaires.${prompt}
   10005: |-
-    And...! We are currently recruiting new members!
-    Therefore, it would be much appreciated if you could show that badge to others in this town. A bit of advertising would really help us out.${prompt}
+    Et... ! Nous recrutons actuellement de nouveaux membres !
+    Donc, si vous pouviez montrer cet insigne aux autres dans cette ville, cela nous aiderait beaucoup. Un peu de publicité ne ferait pas de mal.${prompt}
   10006: |-
-    Oh, hello.
-    It seems that the number of people interested in our organization has begun to increase.${prompt}
-  10007: 'Your ${keyitem-singular: 0[2]} was created using advanced alchemy techniques. It will shine brightly near people whose thoughts are currently drifting across the vast sea towards the golden fields of Aht Urhgan.${prompt}'
+    Oh, bonjour.
+    Il semble que le nombre de personnes intéressées par notre organisation commence à augmenter.${prompt}
+  10007: 'Votre ${keyitem-singular: 0[2]} a été créé en utilisant des techniques avancées d’alchimie. Il brillera intensément près des personnes dont les pensées dérivent actuellement à travers la vaste mer vers les champs dorés d’Aht Urhgan.${prompt}'
   10008: |-
-    Oh, it's you!
-    Many people have expressed interest in Salaheem's Sentinels!${prompt}
-  10009: 'It looks like your ${keyitem-singular: 0[2]} has lost its luster, so I will take it back now.${prompt}'
-  10010: '${color-alt: 15}${name-player} hands over the ${keyitem-singular: 0[2]}.${prompt}'
+    Oh, c'est vous !
+    De nombreuses personnes ont exprimé leur intérêt pour les Sentinelles de Salaheem !${prompt}
+  10009: 'On dirait que votre ${keyitem-singular: 0[2]} a perdu de son éclat, alors je vais le reprendre maintenant.${prompt}'
+  10010: '${color-alt: 15}${name-player} remet le ${keyitem-singular: 0[2]}.${prompt}'
   10011: |-
-    I will give you this in its place.
-    If you ever go to Aht Urhgan, please stop by Salaheem's Sentinels.${prompt}
-  10012: 'You obtain ${keyitem-article: 0[2]}.${prompt}'
-  10013: Remember to visit Salaheem's Sentinels in Al Zahbi the next time you visit the Empire of Aht Urhgan!${prompt}
+    Je vais vous donner ceci à la place.
+    Si jamais vous allez à Aht Urhgan, passez donc voir les Sentinelles de Salaheem.${prompt}
+  10012: 'Vous obtenez ${keyitem-article: 0[2]}.${prompt}'
+  10013: N'oubliez pas de visiter les Sentinelles de Salaheem à Al Zahbi la prochaine fois que vous irez dans l'Empire d'Aht Urhgan !${prompt}
   10014: |-
-    Hello! When it comes to celebrating and festivities, I'm your moogle, kupo!
-    Today I'm here on behalf of the M.H.M.U. to reward adventurers for their hard work in protecting our cities!${prompt}
+    Bonjour ! Quand il s'agit de célébrations et de festivités, je suis votre mog, kupo !
+    Aujourd'hui, je suis ici au nom de la M.H.M.U. pour récompenser les aventuriers pour leur dur labeur à protéger nos villes !${prompt}
   10015: |-
     Greetings from the Mog House Management Union!
     When it comes to celebrating and festivities, I'm your moogle, kupo!${prompt}
