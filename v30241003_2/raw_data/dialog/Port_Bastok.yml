@@ -18115,42 +18115,42 @@ entries:
   7363: |-
     No? You've come in his place?
     Mister Powhatan is in the tavern, you say?${prompt}
-  7364: He shouldn't have gone through all this trouble for me, you know. I've been to Bastok before.${prompt}
-  7365: I'll go meet him in the tavern, then. Don't worry, I know the way.${prompt}
-  7366: The client sent an invalid value to the server!${prompt}
-  7367: You cannot receive mission assignments at this time.${prompt}
-  7368: I am in charge of assigning missions, but I am only allowed to do so to those whose allegiance is to Bastok.${prompt}
+  7364: Il n'aurait pas dû se donner tant de mal pour moi, vous savez. Je suis déjà allé à Bastok auparavant.${prompt}
+  7365: Je vais aller le retrouver dans la taverne, alors. Ne vous inquiétez pas, je connais le chemin.${prompt}
+  7366: Le client a envoyé une valeur invalide au serveur !${prompt}
+  7367: Vous ne pouvez pas recevoir d'assignations de mission pour le moment.${prompt}
+  7368: Je suis en charge d'assigner des missions, mais je ne peux le faire qu'à ceux dont l'allégeance est à Bastok.${prompt}
   7369: |-
-    You cannot undertake two missions at the same time.
-    Finish the one you are on now before asking for a new one.${prompt}
-  7370: Missions currently available are as follows:${prompt}
+    Vous ne pouvez pas entreprendre deux missions en même temps.
+    Terminez celle que vous êtes en train de faire avant de demander une nouvelle.${prompt}
+  7370: Les missions actuellement disponibles sont les suivantes :${prompt}
   7371: |-
-    Which mission will you undertake?
+    Quelle mission allez-vous entreprendre ?
     ${selection-lines}
-    The Zeruhn Report.
-    A Geological Survey.
-    Fetichism.
-    The Crystal Line.
-    Wading Beasts.
-    The Emissary.
+    Le Rapport de Zeruhn.
+    Une Étude Géologique.
+    Fétichisme.
+    La Ligne Cristalline.
+    Bêtes en Marécage.
+    L'Émissaire.
     2-3-1A.
     2-3-1B.
     2-3-2A.
     2-3-2B.
-    The Four Musketeers.
-    To the Forsaken Mines.
+    Les Quatre Mousquetaires.
+    Vers les Mines Abandonnées.
     Jeuno.
     ダミー.
-    Darkness Rising.
-    Xarcabard, Land of Truths.
-    Return of the Talekeeper.
-    The Pirates' Cove.
-    The Final Image.
-    On My Way.
-    The Chains That Bind Us.
-    Enter the Talekeeper.
-    The Salt of the Earth.
-    Where Two Paths Converge.
+    L'Obscurité se Lève.
+    Xarcabard, Terre des Vérités.
+    Retour du Gardien des Talents.
+    La Baie des Pirates.
+    La Dernière Image.
+    En Route.
+    Les Chaînes qui Nous Lient.
+    Entrez dans le Gardien des Talents.
+    Le Sel de la Terre.
+    Où Deux Chemins se Rencontrent.
     ダミー１０.
     ダミー１１.
     ダミー１２.
@@ -18158,48 +18158,48 @@ entries:
     ダミー１４.
     ダミー１５.
     ダミー１６.
-    None.${prompt}
-  7372: I am in charge of assigning missions to Bastokers who wish to serve their country. Are you one of them?${prompt}
+    Aucun.${prompt}
+  7372: Je suis chargé d'assigner des missions aux Bastokans qui souhaitent servir leur pays. Faites-vous partie d'eux ?${prompt}
   7373: |-
-    Have you come to undertake a mission?
+    Êtes-vous venu pour entreprendre une mission ?
     ${selection-lines}
-    Yes, I have.
-    No, maybe later.${prompt}
+    Oui, c'est le cas.
+    Non, peut-être plus tard.${prompt}
   7374: |-
-    Will you accept this mission?
+    Acceptez-vous cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7375: You have accepted the mission.${prompt}
-  7376: Then move along.${prompt}
+    Oui.
+    Non.${prompt}
+  7375: Vous avez accepté la mission.${prompt}
+  7376: Alors, allez-y.${prompt}
   7377: |-
-    Good.
-    This is your first time going on a mission, is it not?${prompt}
+    Bien.
+    C'est votre première fois en mission, n'est-ce pas ?${prompt}
   7378: |-
-    Your first assignment is not a difficult one.
-    The details are as follows:${prompt}
+    Votre première mission n'est pas difficile.
+    Les détails sont les suivants :${prompt}
   7379: |-
-    You must go to the Zeruhn Mines in the western section of the Mines District.
-    Once there, you are to collect a report from the overseer.${prompt}
+    Vous devez vous rendre aux Mines de Zeruhn dans la section ouest du Quartier des Mines.
+    Une fois sur place, vous devez récupérer un rapport auprès du surveillant.${prompt}
   7380: |-
-    You can consult the “Mission” section of the main menu to review your objectives.
-    Speed and efficiency are your priorities. Dismissed.${prompt}
+    Vous pouvez consulter la section “Mission” dans le menu principal pour revoir vos objectifs.
+    La rapidité et l'efficacité sont vos priorités. Rompez.${prompt}
   7381: |-
-    The Chief Engineer is conducting new research, and has asked for someone to assist him.
-    He can be found in the Metalworks, to the east of the administrative section.${prompt}
+    Le Chef Ingénieur mène de nouvelles recherches et a demandé que quelqu'un l'aide.
+    Il se trouve dans les Ateliers, à l'est de la section administrative.${prompt}
   7382: |-
-    The Chief Engineer's laboratory is on the second floor of the Metalworks.
-    You don't know his name!? And you call yourself a Bastoker!${prompt}
+    Le laboratoire du Chef Ingénieur est au deuxième étage des Ateliers.
+    Vous ne connaissez pas son nom !? Et vous vous dites Bastokan !${prompt}
   7383: |-
-    The Chief Engineer's name is Cid. Any Bastoker would know that!
-    Now go and see him. He will give you the details of your mission.${prompt}
-  7384: The Palborough Mines, once our main source of mythril, have been under beastman control for some time.${prompt}
-  7385: 'We want you to hunt these beastmen, the Quadav, and bring back ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, and ${article} ${item-article: 7[2]} as proof of your accomplishments.${prompt}'
-  7386: You must present all four items to me or one of my colleagues in order to complete this mission.${prompt}
-  7387: Good, you've brought all four parts of the doll.${prompt}
+    Le nom du Chef Ingénieur est Cid. Tout Bastokan le saurait !
+    Allez le voir maintenant. Il vous donnera les détails de votre mission.${prompt}
+  7384: Les Mines de Palborough, autrefois notre principale source de mithril, sont sous le contrôle des hommes-bêtes depuis un certain temps.${prompt}
+  7385: 'Nous voulons que vous chassiez ces hommes-bêtes, les Quadav, et que vous rameniez ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, et ${article} ${item-article: 7[2]} comme preuve de vos accomplissements.${prompt}'
+  7386: Vous devez me présenter les quatre objets ou à l'un de mes collègues pour accomplir cette mission.${prompt}
+  7387: Bien, vous avez apporté les quatre parties de la poupée.${prompt} 
   7388: |-
-    I am raising your rank to 2 for completing this mission.
-    Congratulations.${prompt}
+    Je vous élève au rang 2 pour avoir terminé cette mission.
+    Félicitations.${prompt}
   7389: If you've been to the Palborough Mines, you must know now the serious nature of the threat these beastmen pose to our civilization.${prompt}
   7390: As a Bastoker, you are expected to take on more missions and go on conquests to preserve Bastok's brilliant future!${prompt}
   7391: But I cannot give you a new mission at this time.${prompt}
@@ -19742,41 +19742,7 @@ entries:
   8071: |-
     Voici les fournitures. Il suffit de les donner au garde au poste avancé et votre mission sera accomplie.
     Maintenant, choisissez à quel poste avancé vous souhaitez aller. Nous offrons différentes récompenses pour chaque région, alors choisissez judicieusement.${prompt}
-  8072: |-
-    Où souhaitez-vous apporter les fournitures ?${prompt}
-    ${selection-lines}
-    　
-    　
-    　
-    　
-    　
-    The Ronfaure Region.${choice: 5}[/ (Done)]
-    The Zulkheim Region.${choice: 6}[/ (Done)]
-    The Norvallen Region.${choice: 7}[/ (Done)]
-    The Gustaberg Region.${choice: 8}[/ (Done)]
-    The Derfland Region.${choice: 9}[/ (Done)]
-    The Sarutabaruta Region.${choice: 10}[/ (Done)]
-    The Kolshushu Region.${choice: 11}[/ (Done)]
-    The Aragoneu Region.${choice: 12}[/ (Done)]
-    The Fauregandi Region.${choice: 13}[/ (Done)]
-    The Valdeaunia Region.${choice: 14}[/ (Done)]
-    Qufim Island.${choice: 15}[/ (Done)]
-    The Li'Telor Region.${choice: 16}[/ (Done)]
-    The Kuzotz Region.${choice: 17}[/ (Done)]
-    The Vollbow Region.${choice: 18}[/ (Done)]
-    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
-    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
-    Tu'Lia.${choice: 21}[/ (Done)]
-    　
-    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
-    　
-    　
-    　
-    　
-    　
-    　
-    　
-    Cancel.${prompt}
+  8072: Où souhaitez-vous apporter les fournitures ?${prompt}
   8073: |-
     Which E.F. would you like to join?
     ${selection-lines}
@@ -20050,7 +20016,7 @@ entries:
   8171: Actuellement, notre pays n'a qu'une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de ce trou dans lequel nous nous sommes enfoncés.${prompt}
   8172: Actuellement, l'influence de notre pays dans cette zone est minimale. Si nous n'agissons pas rapidement, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
   8173: Faites attention en passant, car cette zone est actuellement envahie par des hommes-bêtes ! Quelque chose doit être fait, sinon l'ennemi contrôlera toute la région.${prompt}
-  8174: 'Votre inventaire est plein. Vous n’avez pas pu accepter le ${item-singular: 0[2]}.${prompt}'  
+  8174: 'Votre inventaire est plein. Vous n’avez pas pu accepter le ${item-singular: 0[2]}.${prompt}'
   8175: Vous possédez déjà un glyphe de porte. Vous ne pouvez pas en avoir d'autres.${prompt}
   8176: Je suis un garde ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d'Oria et Bastok.${prompt}
   8177: 　${prompt}
@@ -33072,10 +33038,10 @@ entries:
     Even in areas where messages are allowed, you cannot post consecutive messages.
     Please wait a while after posting a message.${prompt}
   14081: |-
-    Mentor messages are accompanied by a flag (${icon: 0xEF2F}) marker.
+    Mentor messages are accompanied by a flag (${icon: 0xEFEF}/) marker.
     This marker indicates the mentor's reliability (Mentor Class) and experience as an adventurer (Mastery Rank).${prompt}
-  14082: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEF2F} > ${icon: 0xEF39} > ${icon: 0xEF43}${prompt}'
-  14083: 'A ${icon: 0xEF43} marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
+  14082: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEFEF}/ > ${icon: 0xEFEF}9 > ${icon: 0xEFEF}C${prompt}'
+  14083: 'A ${icon: 0xEFEF}C marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
   14084: The number affixed to the marker is the mentor's Mastery Rank, and indicates how experienced the mentor is as an adventurer.${prompt}
   14085: The higher the number, the more experienced the mentor is.${prompt}
   14086: You can check your own Mastery Rank even if you do not serve as a mentor, so feel free to take a look every now and then if you are curious.${prompt}
