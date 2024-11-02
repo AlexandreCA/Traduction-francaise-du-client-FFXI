@@ -16143,32 +16143,32 @@ entries:
     ${item: 15}
     ${item: 16}
     ${item: 17}${prompt}
-  6518: That Mog House is not currently open for visits.${prompt}
+  6518: Cette retour Mog n'est pas actuellement ouverte aux visites.${prompt}
   6519: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir cela comme votre point de retour actuel.
+    Une fois que vous avez défini un point de retour, vous y retournerez chaque fois que vous serez incapacité.
   6520: |-
-    Set this as current home point?
+    Définir cela comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6521: Home point set!${prompt}
-  6522: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  6521: Point de retour défini !${prompt}
+  6522: Un point de retour peut être défini comme un endroit où vous reviendrez à Vana'diel lorsque vous aurez été mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6523: |-
-    What will you do?
+    Que ferez-vous ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir cela comme votre point de retour.
+    Autres paramètres.
+    Après réflexion, laissez tomber.${prompt}
   6524: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6525: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
+  6525: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
   6526: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16185,81 +16185,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6527: |-
-    Teleport where?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6528: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  6529: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  6530: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  6528: Vous n'avez pas encore enregistré d'autres points de retour, vous ne pouvez donc pas vous téléporter.${prompt}
+  6529: 'Il en coûte ${number: 3} gil pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  6530: 'Il n’y a pas de frais pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   6531: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   6532: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    En y réfléchissant, aucun.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Arch Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Mamool Ja Sauvage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Ouest/Arrapago Is].
+    ${choice: 1}[Îles Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6533: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  6534: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ces choix.
+    Un lieu favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  6534: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour le téléport.
   6535: |-
-    Which setting would you like?
+    Quel réglage souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  6536: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  6536: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
   6537: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16269,13 +16269,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  6538: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  6539: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  6538: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.'
+  6539: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.
   6540: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16285,145 +16285,145 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6541: Tallying conquest results...${prompt}
-  6542: Conquest results tallied.${prompt}
-  6543: This region is currently under San d'Orian control.${prompt}
-  6544: This region is currently under Bastokan control.${prompt}
-  6545: This region is currently under Windurstian control.${prompt}
+  6541: Comptage des résultats de conquête...${prompt}
+  6542: Résultats de conquête comptabilisés.${prompt}
+  6543: Cette région est actuellement sous le contrôle de San d'Orian.${prompt}
+  6544: Cette région est actuellement sous le contrôle de Bastokan.${prompt}
+  6545: Cette région est actuellement sous le contrôle de Windurstian.${prompt}
   6546: |-
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  6547: This region is currently neutral.${prompt}
+    Cette région est actuellement sous le contrôle des bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  6547: Cette région est actuellement neutre.${prompt}
   6548: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Windurst
-    3rd: Bastok${prompt}
-  6549: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2ème : Windurst
+    3ème : Bastok${prompt}
+  6549: Les trois nations sont à égalité en première place.${prompt}
   6550: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3ème : Bastok${prompt}
   6551: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2ème : Bastok et Windurst (égalité)${prompt}
   6552: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok
-    3rd: Windurst${prompt}
-  6553: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2ème : Bastok
+    3ème : Windurst${prompt}
+  6553: Les trois nations sont à égalité en première place.${prompt}
   6554: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3ème : Windurst${prompt}
   6555: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2ème : Bastok et Windurst (égalité)${prompt}
   6556: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria
-    3rd: Windurst${prompt}
-  6557: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2ème : San d'Oria
+    3ème : Windurst${prompt}
+  6557: Les trois nations sont à égalité en première place.${prompt}
   6558: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3ème : Windurst${prompt}
   6559: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2ème : San d'Oria et Windurst (égalité)${prompt}
   6560: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: Windurst
-    3rd: San d'Oria${prompt}
-  6561: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2ème : Windurst
+    3ème : San d'Oria${prompt}
+  6561: Les trois nations sont à égalité en première place.${prompt}
   6562: |-
-    Global balance of power:
-    1st: Bastok and Windurst (tie)
-    3rd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst (égalité)
+    3ème : San d'Oria${prompt}
   6563: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2ème : San d'Oria et Windurst (égalité)${prompt}
   6564: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2ème : San d'Oria
+    3ème : Bastok${prompt}
   6565: |-
-    Global balance of power:
-    All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    Les trois nations sont à égalité en première place.${prompt}
   6566: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3ème : Bastok${prompt}
   6567: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2ème : San d'Oria et Bastok (égalité)${prompt}
   6568: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: Bastok
-    3rd: San d'Oria${prompt}
-  6569: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2ème : Bastok
+    3ème : San d'Oria${prompt}
+  6569: Les trois nations sont à égalité en première place.${prompt}
   6570: |-
-    Global balance of power:
-    1st: Bastok and Windurst
-    2nd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst
+    2ème : San d'Oria${prompt}
   6571: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2ème : San d'Oria et Bastok${prompt}
   6572: |-
-    Conquest update:
-    This region is currently neutral.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement neutre.${prompt}
   6573: |-
-    Conquest update:
-    This region is currently under San d'Orian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
   6574: |-
-    Conquest update:
-    This region is currently under Bastokan control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Bastok.${prompt}
   6575: |-
-    Conquest update:
-    This region is currently under Windurstian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Windurst.${prompt}
   6576: |-
-    Conquest update:
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  6577: All three nations are at a deadlock.${prompt}
-  6578: The beastmen are on the rise.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle des bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  6577: Les trois nations sont dans une impasse.${prompt}
+  6578: Les bêtes sont en hausse.${prompt}
   6579: |-
-    Regional influence:
+    Influence régionale :
     San d'Oria - Dominant${prompt}
   6580: |-
-    Regional influence:
-    San d'Oria - Major${prompt}
+    Influence régionale :
+    San d'Oria - Majeur${prompt}
   6581: |-
-    Regional influence:
-    San d'Oria - Minor${prompt}
+    Influence régionale :
+    San d'Oria - Mineur${prompt}
   6582: |-
-    Regional influence:
-    San d'Oria - Minimal${prompt}
+    Influence régionale :
+    San d'Oria - Minime${prompt}
   6583: Bastok - Dominant${prompt}
-  6584: Bastok - Major${prompt}
-  6585: Bastok - Minor${prompt}
-  6586: Bastok - Minimal${prompt}
+  6584: Bastok - Majeur${prompt}
+  6585: Bastok - Mineur${prompt}
+  6586: Bastok - Minime${prompt}
   6587: Windurst - Dominant${prompt}
-  6588: Windurst - Major${prompt}
-  6589: Windurst - Minor${prompt}
-  6590: Windurst - Minimal${prompt}
-  6591: Bastok and Windurst have formed an alliance.${prompt}
-  6592: San d'Oria and Windurst have formed an alliance.${prompt}
-  6593: San d'Oria and Bastok have formed an alliance.${prompt}
-  6594: Bastok and Windurst are currently allies.${prompt}
-  6595: San d'Oria and Windurst are currently allies.${prompt}
-  6596: San d'Oria and Bastok are currently allies.${prompt}
+  6588: Windurst - Majeur${prompt}
+  6589: Windurst - Mineur${prompt}
+  6590: Windurst - Minime${prompt}
+  6591: Bastok et Windurst ont formé une alliance.${prompt}
+  6592: San d'Oria et Windurst ont formé une alliance.${prompt}
+  6593: San d'Oria et Bastok ont formé une alliance.${prompt}
+  6594: Bastok et Windurst sont actuellement alliés.${prompt}
+  6595: San d'Oria et Windurst sont actuellement alliés.${prompt}
+  6596: San d'Oria et Bastok sont actuellement alliés.${prompt}
   6597: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
@@ -16440,27 +16440,27 @@ entries:
   6601: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  6602: The beastmen are gaining power.${prompt}
-  6603: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  6604: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  6605: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  6606: San d'Oria's region points have increased!${prompt}
-  6607: Bastok's region points have increased!${prompt}
-  6608: Windurst's region points have increased!${prompt}
-  6609: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  6610: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  6611: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  6612: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  6613: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  6614: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  6615: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  6616: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  6617: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  6618: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  6619: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  6620: There was a curse on the beastmen's banner!${prompt}
-  6621: The curse of the beastmen's banner has been lifted!${prompt}
-  6622: There is a beastmen's banner.${prompt}
+  6602: Les bêtes sont en train de gagner en puissance.${prompt}
+  6603: Le contrôle régional de San d'Oria est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  6604: Le contrôle régional de Bastok est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  6605: Le contrôle régional de Windurst est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  6606: Les points régionaux de San d'Oria ont augmenté !${prompt}
+  6607: Les points régionaux de Bastok ont augmenté !${prompt}
+  6608: Les points régionaux de Windurst ont augmenté !${prompt}
+  6609: La force expéditionnaire de San d'Oria a défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6610: La force expéditionnaire de Bastok a défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6611: La force expéditionnaire de Windurst a défait les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6612: Une force expéditionnaire de San d'Oria a été envoyée dans cette région.${prompt}
+  6613: Une force expéditionnaire de Bastok a été envoyée dans cette région.${prompt}
+  6614: Une force expéditionnaire de Windurst a été envoyée dans cette région.${prompt}
+  6615: 'Influence de la force expéditionnaire : Grande... État de la région : Dominant... Maintenez le niveau actuel de combat.${prompt}'
+  6616: 'Influence de la force expéditionnaire : Fair... État de la région : Majeur... Maintenez l’élan.${prompt}'
+  6617: 'Influence de la force expéditionnaire : Pauvre... État de la région : Mineur... Augmentez les efforts.${prompt}'
+  6618: 'Influence de la force expéditionnaire : Minime... État de la région : Minime... Multipliez les efforts par dix.${prompt}'
+  6619: 'Influence de la force expéditionnaire : Aucune... État de la région : Sous contrôle des bêtes... Limitez les pertes au minimum.${prompt}'
+  6620: Il y avait une malédiction sur la bannière des bêtes !${prompt}
+  6621: La malédiction de la bannière des bêtes a été levée !${prompt}
+  6622: Il y a une bannière des bêtes.${prompt}
   6623: 　${prompt}
   6624: 　${prompt}
   6625: 　${prompt}
@@ -16542,12 +16542,12 @@ entries:
   6699: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  6700: How about a magic map to help you on your adventures?${prompt}
+  6700: Que diriez-vous d'une carte magique pour vous aider dans vos aventures ?${prompt}
   6701: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
+    Décliner.
+    Renseignez-vous sur les cartes.
     ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
     ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
     ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
@@ -16564,91 +16564,91 @@ entries:
     ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
     ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
     ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6702: If you have a map, you can check both the lay of the land and your location whenever you enter an area.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
+  6702: Si vous avez une carte, vous pouvez vérifier à la fois la configuration du terrain et votre emplacement chaque fois que vous entrez dans une zone.${prompt}
   6703: |-
-    If you belong to a party or alliance, you can also check the position of your allies.
-    And depending on your job, you can find NPCs and enemies from afar.${prompt}
+    Si vous faites partie d'un groupe ou d'une alliance, vous pouvez également vérifier la position de vos alliés.
+    Et selon votre métier, vous pouvez trouver des PNJ et des ennemis de loin.${prompt}
   6704: |-
-    Furthermore, you can even record specific points in the area or have places marked down for certain events.
-    So you see, magic maps are extremely useful.${prompt}
+    De plus, vous pouvez même enregistrer des points spécifiques dans la zone ou faire marquer des endroits pour certains événements.
+    Donc, vous voyez, les cartes magiques sont extrêmement utiles.${prompt}
   6705: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Théine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d'Oria.
+    Il coûte ${number: 3} gil.${prompt}
   6706: |-
-    The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} couvre Gustaberg, les Hautes terres de Konschtat, les Marais de Pashhow, et Bastok.
+    Il coûte ${number: 3} gil.${prompt}
   6707: |-
-    The ${keyitem-singular: 1[2]} covers Sarutabaruta, the Tahrongi Canyon, the Buburimu Peninsula, the Meriphataud Mountains, Mhaura, and Windurst.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst.
+    Il coûte ${number: 3} gil.${prompt}
   6708: |-
-    The ${keyitem-singular: 1[2]} covers Batallia Downs, Rolanberry Fields, the Sauromugue Champaign, and Jeuno.
-    It costs ${number: 3} gil.${prompt}
-  6709: 'This complete ${keyitem-singular: 1[2]}, which extend far beneath La Theine Plateau, costs ${number: 3} gil.${prompt}'
-  6710: '${lettercase: 1}${keyitem-plural: 1[2]} include layouts for both outpost and fortress of Ghelsba, as well as the Yughott Grotto. It costs ${number: 3} gil.${prompt}'
-  6711: 'The ${keyitem-singular: 1[2]} shows the notorious Orcish stronghold hidden within Jugner Forest. It is priced at ${number: 3} gil.${prompt}'
-  6712: 'This map shows the waterways and islands that make up Carpenters'' Landing. It is priced at ${number: 3} gil.${prompt}'
+    Le ${keyitem-singular: 1[2]} couvre Batallia Downs, les Champs de Rolanberry, le Champagne de Sauromugue, et Jeuno.
+    Il coûte ${number: 3} gil.${prompt}
+  6709: 'Ce ${keyitem-singular: 1[2]} complet, qui s’étend profondément sous le Plateau de La Théine, coûte ${number: 3} gil.${prompt}'
+  6710: '${lettercase: 1}${keyitem-plural: 1[2]} incluent les plans de l’avant-poste et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Il coûte ${number: 3} gil.${prompt}'
+  6711: 'Le ${keyitem-singular: 1[2]} montre le célèbre bastion orc caché dans la Forêt de Jugner. Il est au prix de ${number: 3} gil.${prompt}'
+  6712: 'Cette carte montre les voies navigables et les îles qui composent le Port des Charpentiers. Elle est au prix de ${number: 3} gil.${prompt}'
   6713: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Bastok's Zeruhn Mines.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan des Mines de Zeruhn à Bastok.
+    Il coûte ${number: 3} gil.${prompt}
   6714: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Palborough Mines, which lie in North Gustaberg.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan des Mines de Palborough, qui se trouvent dans le Nord de Gustaberg.
+    Il coûte ${number: 3} gil.${prompt}
   6715: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Quadav stronghold, Beadeaux, that is located in the Pashhow Marshlands.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan du bastion Quadav, Beadeaux, qui est situé dans les Marais de Pashhow.
+    Il coûte ${number: 3} gil.${prompt}
   6716: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Giddeus, which you can reach from West Sarutabaruta.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan de Giddeus, que vous pouvez atteindre depuis l'Ouest de Sarutabaruta.
+    Il coûte ${number: 3} gil.${prompt}
   6717: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the Yagudo stronghold, Castle Oztroja, located in the Meriphataud Mountains.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} contient le plan du bastion Yagudo, le Château Oztroja, situé dans les Montagnes de Meriphataud.
+    Il coûte ${number: 3} gil.${prompt}
   6718: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the underground maze of Shakhrami that can be found in the Tahrongi Canyon area.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} contient le plan du labyrinthe souterrain de Shakhrami que l'on peut trouver dans la région du Canyon de Tahrongi.
+    Il coûte ${number: 3} gil.${prompt}
   6719: |-
-    The ${keyitem-singular: 1[2]} covers the Sanctuary of Zi'Tah, Ro'Maeve, and the Hall of the Gods.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} couvre le Sanctuaire de Zi'Tah, Ro'Maeve, et la Salle des Dieux.
+    Il coûte ${number: 3} gil.${prompt}
   6720: |-
-    This map covers Bibiki Bay and its nearby islands.
-    It costs ${number: 3} gil.${prompt}
-  6721: 'The ${keyitem-singular: 1[2]} outlines the geography of nearby Qufim Island. It costs ${number: 3} gil.${prompt}'
-  6722: 'Located beneath Batallia Downs, the Eldieme Necropolis is shown in detail on this map. The price is ${number: 3} gil.${prompt}'
-  6723: 'The Garlaige Citadel, which lies upon the Sauromugue Champaign, is illustrated in this map. Each copy costs ${number: 3} gil.${prompt}'
-  6724: '${lettercase: 1}${keyitem-plural: 1[2]} include Kazham, as well as both jungles of Yuhtunga and Yhoator for ${number: 3} gil.${prompt}'
-  6725: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} for ${number: 3} gil.${prompt}'
-  6726: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} as well as ${zone: 4[2]} for ${number: 3} gil.${prompt}'
-  6727: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]}, as well as ${zone: 4[2]} and ${zone: 5[2]} for ${number: 3} gil.${prompt}'
+    Cette carte couvre la Baie de Bibiki et ses îles environnantes.
+    Elle coûte ${number: 3} gil.${prompt}
+  6721: 'Le ${keyitem-singular: 1[2]} décrit la géographie de l’île Qufim à proximité. Il coûte ${number: 3} gil.${prompt}'
+  6722: 'Située sous Batallia Downs, la Nécropole Eldieme est montrée en détail sur cette carte. Le prix est de ${number: 3} gil.${prompt}'
+  6723: 'La Citadelle de Garlaige, qui se trouve sur le Champagne de Sauromugue, est illustrée sur cette carte. Chaque exemplaire coûte ${number: 3} gil.${prompt}'
+  6724: '${lettercase: 1}${keyitem-plural: 1[2]} incluent Kazham, ainsi que les deux jungles de Yuhtunga et Yhoator pour ${number: 3} gil.${prompt}'
+  6725: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} pour ${number: 3} gil.${prompt}'
+  6726: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} ainsi que ${zone: 4[2]} pour ${number: 3} gil.${prompt}'
+  6727: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]}, ainsi que ${zone: 4[2]} et ${zone: 5[2]} pour ${number: 3} gil.${prompt}'
   6728: |-
-    Buy ${keyitem-article: 0[2]}?
+    Acheter ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6729: You don't have enough money.${prompt}
-  6730: 'Maps of the Kuzotz region include Altepa Desert as well as Rabao for ${number: 3} gil.${prompt}'
-  6731: 'Maps of the Vollbow region include Cape Teriggan, as well as Valley of Sorrows and Gustav Tunnel for ${number: 3} gil.${prompt}'
-  6732: Maps of the Korroloka Tunnel are, as their names imply, maps of the Korroloka Tunnel, which connects Altepa Desert and Zeruhn Mines.${prompt}
-  6733: 'The map of Al Zahbi also includes Aht Urhgan Whitegate and the Colosseum. It costs ${number: 2} gil.${prompt}'
-  6734: 'This map shows the layout of the Azouph Isle town of Nashmau. It costs ${number: 3} gil.${prompt}'
-  6735: 'This map shows the forest tract stretching west of Al Zahbi. A map of the Wajaom Woodlands can be yours for ${number: 3} gil.${prompt}'
-  6736: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
-  6737: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
-  6738: I have nothing to sell you.${prompt}
+    Oui.
+    Non.${prompt}
+  6729: Vous n'avez pas assez d'argent.${prompt}
+  6730: 'Les cartes de la région de Kuzotz incluent le Désert d’Altepa ainsi que Rabao pour ${number: 3} gil.${prompt}'
+  6731: 'Les cartes de la région de Vollbow incluent le Cap Teriggan, ainsi que la Vallée des Larmes et le Tunnel de Gustav pour ${number: 3} gil.${prompt}'
+  6732: Les cartes du Tunnel de Korroloka sont, comme leurs noms l'indiquent, des cartes du Tunnel de Korroloka, qui relie le Désert d'Altepa et les Mines de Zeruhn.${prompt}
+  6733: 'La carte d’Al Zahbi inclut également la Porte Blanche d’Aht Urhgan et le Colisée. Elle coûte ${number: 2} gil.${prompt}'
+  6734: 'Cette carte montre le plan de la ville de Nashmau sur l’île d’Azouph. Elle coûte ${number: 3} gil.${prompt}'
+  6735: 'Cette carte montre la forêt s’étendant à l’ouest d’Al Zahbi. Une carte des Bois de Wajaom peut être à vous pour ${number: 3} gil.${prompt}'
+  6736: 'Cette carte montre les fourrés de Bhaflau, situés au nord d’Al Zahbi. Elle coûte ${number: 3} gil.${prompt}'
+  6737: '${keyitem-article: 1[2]} est une ancienne carte qui était souvent utilisée pour représenter ${zone: 2[2]}. Elle coûte ${number: 3} gil.${prompt}'
+  6738: Je n’ai rien à vous vendre.${prompt}
   6739: |-
-    Ah, you have come from headquarters.
-    I will entrust you with ${keyitem-article: 7[2]}.
-    Take it back to headquarters.${prompt}
-  6740: You must leave your past behind--that is the way of the underworld.${prompt}
+    Ah, vous venez du quartier général.
+    Je vais vous confier ${keyitem-article: 7[2]}.
+    Ramenez-le au quartier général.${prompt}
+  6740: Vous devez laisser votre passé derrière vous--c'est la voie du monde souterrain.${prompt}
   6741: |-
-    Take ${keyitem-article: 7[2]} back to headquarters.
-    You must leave your past behind--that is the way of the underworld.${prompt}
+    Ramenez ${keyitem-article: 7[2]} au quartier général.
+    Vous devez laisser votre passé derrière vous--c'est la voie du monde souterrain.${prompt}
   6742: |-
-    Ah, one of our members.
-    Welcome to the Tenshodo shop.${prompt}
+    Ah, l'un de nos membres.
+    Bienvenue au magasin Tenshodo.${prompt}
   6743: |-
-    Your fate rides on the changing winds of Vana'diel.
-    I can give you insight on the local weather.${prompt}
+    Votre destin dépend des vents changeants de Vana'diel.
+    Je peux vous donner un aperçu de la météo locale.${prompt}
   6744: |-
     What area's weather do you wish to know?
     ${selection-lines}
@@ -18097,7 +18097,7 @@ entries:
     Cette fille fougueuse, Cornelia ? J'ai entendu dire qu'elle traîne dans le district des Mines, là où sont tous les Galka.
     Pourquoi elle le fait, ça me dépasse.${prompt}
   7355: Parraggoh vit là-bas, d'ailleurs. Quand il s'est blessé et n'a pas pu livrer les marchandises, elle a dû se proposer pour aider. Elle est comme ça.${prompt}
-  7356: Chez Parraggoh, c'est la première maison après le grand arc menant à la ville minière. C'est un quartier rude, mais Cornelia ne reste jamais loin de là.${prompt}
+  7356: Chez Parraggoh, c'est la première retour après le grand arc menant à la ville minière. C'est un quartier rude, mais Cornelia ne reste jamais loin de là.${prompt}
   7357: |-
     Hé, ${article} ${item-article: 7[2]} !
     Je n'arrive pas à croire que vous faites ça pour un type comme Parraggoh.${prompt}
@@ -18107,7 +18107,7 @@ entries:
     C'est la récompense qu'il a demandée.${prompt}
   7360: |-
     Vous savez où il habite, n'est-ce pas ?
-    C'est la première maison que vous voyez en descendant au niveau inférieur du district des Mines.${prompt}
+    C'est la première retour que vous voyez en descendant au niveau inférieur du district des Mines.${prompt}
   7361: "Puis-je vous aider ? \n...Un mage blanc nommé Evrain ?\nNon, je suis désolé, je ne pense pas l'avoir vu.${prompt}"
   7362: |-
     Ce ${item-singular: 7[2]}...
@@ -18266,7 +18266,7 @@ entries:
     Plus à l'ouest se trouve la route menant au quartier des marchés.${prompt}
   7424: |-
     Le quartier résidentiel est de l'autre côté de ce pont-levis.
-    Traversez-le quand il est baissé si vous devez vous rendre à votre maison de Mog.${prompt}
+    Traversez-le quand il est baissé si vous devez vous rendre à votre retour de Mog.${prompt}
   7425: 'Bateau entrant ! Tout le monde hors du pont !${wait-animation: 1}${prompt}'
   7426: |-
     J'aide Evelyn avec sa boutique.
@@ -18304,7 +18304,7 @@ entries:
     Et plus loin à l'ouest... vous arriverez à un pont.
     Il mène au quartier des marchés, une partie plus agréable de la ville.${prompt}
   7438: Vous pouvez accéder à la fois aux Ateliers et au quartier des Mines depuis les marchés. C'est comme le carrefour de Bastok, si vous voyez ce que je veux dire.${prompt}
-  7439: D'accord, à l'est -- nous avons quelques maisons à gauche, quelques étals de marchands à droite...${prompt}
+  7439: D'accord, à l'est -- nous avons quelques retours à gauche, quelques étals de marchands à droite...${prompt}
   7440: |-
     Oh, ces marchands n'ont pas grand-chose à vendre, au fait.
     Ils ne sont utiles que si vous voulez vendre des choses dont vous n'avez pas besoin et retourner dehors immédiatement.${prompt}
@@ -18332,7 +18332,7 @@ entries:
   7456: Cherchez-vous quelque chose ? Il n'y a rien ici que vous voudriez.${prompt}
   7457: |-
     Si vous cherchez ma fille Ayame, elle travaille au bureau du président.
-    Elle ne rentre pas souvent à la maison.${prompt}
+    Elle ne rentre pas souvent à la retour.${prompt}
   7458: Tout le monde dit qu'ils sont tous fiers de ma sœur.${prompt}
   7459: |-
     Moi aussi—elle est forte, cool et intelligente.
@@ -18353,7 +18353,7 @@ entries:
     Allez, Grand-mère !
     Par ici !${prompt}
   7468: |-
-    Je ne sais pas ce qui ne va pas avec mon fils. Il reste à la maison toute la journée et ne fait rien.
+    Je ne sais pas ce qui ne va pas avec mon fils. Il reste à la retour toute la journée et ne fait rien.
     J'aimerais pouvoir faire quelque chose.${prompt}
   7469: |-
     Laissez-moi tranquille ! Je ne veux pas sortir !
@@ -21004,7 +21004,7 @@ entries:
     Accepter la tâche ?
     ${selection-lines}
     Vous pouvez compter sur moi !
-    Je dois nettoyer ma maison Mog...${prompt}
+    Je dois nettoyer ma retour Mog...${prompt}
   8806: |-
     Je savais que vous aideriez !
     Apportez-moi la preuve que vous avez vaincu ces créatures, et je vous paierai une récompense du fonds du Réseau d'Initiative de Gestion des Ressources Environnementales de Vana'diel.${prompt}
@@ -21734,15 +21734,15 @@ entries:
   9118: Oh, why does Cid always have to go off and make things hectic for everyone?${prompt}
   9119: I mean, taking that airship to the skies while still in its testing phase...without even a single member of the repair crew...${prompt}
   9120: |-
-    Ah!
-    You didn't happen to hear me just now...did you?${prompt}
+    Ah !
+    Vous ne m'avez pas entendu tout à l'heure... n'est-ce pas ?${prompt}
   9121: |-
-    Adventurers, one and all!
-    Your help is needed to investimigate the Moblin settlement that has appeared in North Gustaberg!${prompt}
-  9122: Reportificate to Mythril Musketeer Ayame for the details!${prompt}
+    Aventuriers, tous autant que vous êtes !
+    Votre aide est nécessaire pour enquêter sur le peuplement des Moblins qui est apparu dans le Nord de Gustaberg !${prompt}
+  9122: Signalez-vous auprès de la Mousquetaire Mythril Ayame pour plus de détails !${prompt}
   9123: |-
-    Yes?
-    Oh, you've decidified to undertake the task from Mythril Musketeer Ayame?${prompt}
+    Oui ?
+    Oh, vous avez décidé d'entreprendre la tâche de la Mousquetaire Mythril Ayame ?${prompt}
   9124: |-
     Welcome aboard.
     I am a researcher affilimiated with the Rhinostery in Windurst.${prompt}
