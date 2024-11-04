@@ -27906,52 +27906,52 @@ entries:
   12522: Peut-être que vous avez déjà remarqué, mais parfois en combattant un ennemi, vos “compétences” augmentent petit à petit.${prompt}
   12523: Lorsque votre compétence avec l'arme que vous maniez atteint une valeur prédéterminée, les compétences d'arme deviendront disponibles à l'utilisation.${prompt}
   12524: |-
-    “Combo” for those adept with hand-to-hand weapons. “Wasp Sting” for those who fight with daggers.
-    “Fast Blade” for those who prefer the sword.${prompt}
+    « Combo » pour ceux qui sont habiles avec les armes de corps à corps. « Piqûre de guêpe » pour ceux qui se battent avec des dagues.
+    « Coup rapide » pour ceux qui préfèrent l'épée.${prompt}
   12525: |-
-    “Shining Strike” for wielders of the club. “Heavy Swing” for those who take up the staff.
-    And on, and on, and on...${prompt}
+    « Frappe éclatante » pour les manieurs de massue. « Frappe lourde » pour ceux qui prennent le bâton.
+    Et ainsi de suite...${prompt}
   12526: |-
-    Selecting “Status” from the main menu will bring up the “Combat Skl.” option.
-    This will display all of the current skill values in all weapon categories.${prompt}
+    Sélectionner « Statut » dans le menu principal affichera l'option « Compétences de combat ».
+    Cela affichera toutes les valeurs de compétences actuelles dans toutes les catégories d'armes.${prompt}
   12527: |-
-    The first weapon skill for each weapon type can be learned at a skill value of 5.
-    So make that your first goal, and we'll take it from there!${prompt}
+    La première compétence d'arme pour chaque type d'arme peut être apprise à une valeur de compétence de 5.
+    Fixe-toi cela comme premier objectif, et nous partirons de là !${prompt}
   12528: |-
-    Ohhh! Somebody went and learned a new weapon skill, didn't ${choice-player-gender}[he/she]?
-    Very good!${prompt}
+    Ohhh ! Quelqu'un est allé apprendre une nouvelle compétence d'arme, n'est-ce pas ${choice-player-gender}[lui/elle] ?
+    Très bien !${prompt}
   12529: |-
-    I can see by that twinkle in your eyes that you've already used it on some poor, unfortunate creature, but I'll explain just a bit more.
-    Whenever your “Tactical Points” (TP) reach 1000 or more, selecting “Abilities” and then “Weapon Skl.” from the menu will display a list of usable weapon skills.${prompt}
+    Je peux voir à l'éclat dans tes yeux que tu l'as déjà utilisée sur une pauvre créature malchanceuse, mais je vais expliquer un peu plus.
+    Chaque fois que tes « Points tactiques » (PT) atteignent 1000 ou plus, sélectionner « Capacités » puis « Compétence d'arme » dans le menu affichera une liste de compétences d'arme utilisables.${prompt}
   12530: |-
-    These are deadly techniques capable of rendering massive damage on enemies.
-    It is well worth an adventurer's time to learn and master them.${prompt}
-  12531: Ah, by the way, were you fortunate enough to receive some items from the monsters you fought?${prompt}
+    Ce sont des techniques mortelles capables de causer d'énormes dégâts aux ennemis.
+    Il vaut vraiment la peine pour un aventurier de les apprendre et de les maîtriser.${prompt}
+  12531: Ah, au fait, as-tu eu la chance de recevoir des objets des monstres que tu as combattus ?${prompt}
   12532: |-
-    If you were lucky enough to come across any ${item-plural: 0[2]}, make sure you hang onto them.
-    They may pay dividends later on...${prompt}
+    Si tu as eu la chance de trouver des ${item-plural: 0[2]}, assure-toi de les garder.
+    Ils pourraient rapporter des dividendes plus tard...${prompt}
   12533: |-
-    Also, that reminds me. There is another lesson better learned sooner than later.
-    The items you will no doubt come across known as “crystals,” such as ${item-plural: 1[2]} and ${item-plural: 2[2]}, are extremely significant.${prompt}
+    Aussi, cela me rappelle. Il y a une autre leçon qui est mieux apprise tôt que tard.
+    Les objets que tu ne manqueras pas de croiser, connus sous le nom de « cristaux », tels que ${item-plural: 1[2]} et ${item-plural: 2[2]}, sont extrêmement importants.${prompt}
   12534: |-
-    They are truly versatile items that can be used for a number of purposes.
-    These include trading them to guards for certain rewards, and selling them to earn money, just to name a few.${prompt}
-  12535: For now, I'd like to explain more about another of their uses. Namely, the role they play in “synthesis.”${prompt}
+    Ce sont des objets vraiment polyvalents qui peuvent être utilisés à plusieurs fins.
+    Cela inclut les échanger avec des gardes contre certaines récompenses, et les vendre pour gagner de l'argent, pour ne nommer que quelques exemples.${prompt}
+  12535: Pour l'instant, j'aimerais expliquer davantage sur une autre de leurs utilisations. À savoir, le rôle qu'ils jouent dans la « synthèse ».${prompt}
   12536: |-
-    But first things first. Your reward for completing your last assignment! Here you are, then.
-    ${lettercase: 1}${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, and last but not least, ${article} ${item-article: 3[2]}.${prompt}
+    Mais d'abord, les choses sérieuses. Ta récompense pour avoir complété ta dernière mission ! Te voilà, alors.
+    ${lettercase: 1}${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, et enfin, mais non des moindres, ${article} ${item-article: 3[2]}.${prompt}
   12537: |-
-    Now, using ${article} ${item-article: 3[2]} will bring up the synthesis interface.
-    Once there, select the ${item-singular: 1[2]} and ${item-singular: 2[2]} as the ingredients to be added.${prompt}
-  12538: All that remains is to select the “OK” option, and the synthesis will commence!${prompt}
+    Maintenant, en utilisant ${article} ${item-article: 3[2]}, l'interface de synthèse s'affichera.
+    Une fois là-bas, sélectionne ${item-singular: 1[2]} et ${item-singular: 2[2]} comme ingrédients à ajouter.${prompt}
+  12538: Tout ce qui reste à faire est de sélectionner l'option « OK », et la synthèse commencera !${prompt}
   12539: |-
-    You'll find that the crafting process will never begin, should the ingredients you've selected not form a viable synthesis recipe.
-    Also, even when your materials are correct, there is always a chance that your synthesis will fail, so please be wary.${prompt}
-  12540: The majority of items which you create via synthesis, as well as most of those dropped by enemies you defeat, can be placed on the “Auction House” for sale.${prompt}
-  12541: The auction house is an ultra-consumer venue where you can attempt to purchase the wares of other players by placing bids, as well as have other players bid on items you have put up for sale.${prompt}
+    Tu constateras que le processus de fabrication ne commencera jamais si les ingrédients que tu as sélectionnés ne forment pas une recette de synthèse viable.
+    De plus, même lorsque tes matériaux sont corrects, il y a toujours une chance que ta synthèse échoue, alors fais attention.${prompt}
+  12540: La majorité des objets que tu crées par synthèse, ainsi que la plupart de ceux qui sont lâchés par les ennemis que tu as vaincus, peuvent être placés sur la « Maison de vente aux enchères » pour être vendus.${prompt}
+  12541: La maison de vente aux enchères est un lieu ultra-consommateur où tu peux essayer d'acheter les marchandises d'autres joueurs en plaçant des enchères, ainsi que permettre à d'autres joueurs d'enchérir sur les objets que tu as mis en vente.${prompt}
   12542: |-
-    My words alone can do no justice to the vast cornucopia of goods that is the auction house.
-    One simply must see it with one's own eyes.${prompt}
+    Mes mots à eux seuls ne rendent pas justice à la vaste corne d'abondance de biens qu'est la maison de vente aux enchères.
+    Il faut simplement le voir de ses propres yeux.${prompt}
   12543: |-
     Are you still with me?
     ${selection-lines}
