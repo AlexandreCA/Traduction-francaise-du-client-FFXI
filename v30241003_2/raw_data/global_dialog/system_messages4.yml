@@ -96,34 +96,26 @@ entries:
   79: 'Débogage : ${entity-target} ${choice-plurality-entity: 1}[utilise/utilise] Double Attaque(${number-alt: 0}％).${prompt}'
   80: 'Débogage : ${entity-target} ${choice-plurality-entity: 1}[utilise/utilise] Triple Attaque(${number-alt: 0}％).${prompt}'
   81: 'Débogage : Battle Debug No. (${number-alt: 0}) utilisé sur ${entity-target}.${prompt}'
-  82: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] ${status-effect-adjective: 1[2]}!${prompt}
-  83: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${choice-definite-entity: 0}[The /]${entity-source} successfully ${choice-plurality-entity: 0}[removes/remove] ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] ${status-effect-noun: 1[2]}.${prompt}
-  84: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[is/are] paralyzed.${prompt}'
-  85: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[resists/resist] the spell.${prompt}
-  86: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}, but ${choice-definite-entity: 1}[the /]${entity-target} ${choice-plurality-entity: 1}[is/are] outside the area of effect.${prompt}'
-  87: Unable to use job ability.${prompt}
-  88: Unable to use job ability.${prompt}
-  89: Unable to use weapon skill.${prompt}
-  90: Unable to use weapon skill.${prompt}
-  91: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[does/do] not have any ${item-plural-alt: 0[2]}.${prompt}'
-  92: 'Cannot use the ${item-singular-alt: 0[2]} on ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
-  93: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[vanishes/vanish].${prompt}
-  94: '${color-alt: 123}You must wait longer to perform that action.${prompt}'
-  95: 'You cannot learn ${spell-alt: 0}. You do not meet the job or level requirements.${prompt}'
-  96: 'You already know ${spell-alt: 0}.${prompt}'
-  97: '${choice-definite-entity: 1}[The /]${entity-target} was defeated by ${choice-definite-entity: 0}[the /]${entity-source}.${prompt}'
-  98: 'You obtain ${article} ${item-article-alt: 0[2]} from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+  82: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}. ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] ${status-effect-adjective: 1[2]}!${prompt}'
+  83: '${unknown-84: 0}${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}. ${choice-definite-entity: 0}[Le /]${entity-source} réussit ${choice-plurality-entity: 0}[à enlever/enlever] ${choice-definite-entity: 1}[le /]${entity-target}${choice-plurality-entity: 1}[s/] ${status-effect-noun: 1[2]}.${prompt}'
+  84: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[est/sont] paralysé.${prompt}'
+  85: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}. ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[résiste/résistent] au sort.${prompt}' 
+  86: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}, mais ${choice-definite-entity: 1}[le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] hors de la zone d’effet.${prompt}'
+  87: Impossible d'utiliser la capacité de job.${prompt}
+  88: Impossible d'utiliser la capacité de job.${prompt}
+  89: Impossible d'utiliser la compétence d'arme.${prompt}
+  90: Impossible d'utiliser la compétence d'arme.${prompt}
+  91: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[n’a/n’ont] pas de ${item-plural-alt: 0[2]}.${prompt}'
+  92: 'Impossible d’utiliser ${item-singular-alt: 0[2]} sur ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}'
+  93: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}. ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[disparaît/disparaissent].${prompt}'
+  94: '${color-alt: 123}Vous devez attendre plus longtemps pour effectuer cette action.${prompt}'
+  95: 'Vous ne pouvez pas apprendre ${spell-alt: 0}. Vous ne remplissez pas les conditions de job ou de niveau.${prompt}'
+  96: 'Vous connaissez déjà ${spell-alt: 0}.${prompt}'
+  97: '${choice-definite-entity: 1}[Le /]${entity-target} a été vaincu par ${choice-definite-entity: 0}[le /]${entity-source}.${prompt}'
+  98: 'Vous obtenez ${article} ${item-article-alt: 0[2]} de ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}'
   99: '${entity-source}>${entity-target}: ${number-alt: 0}, ${number-alt: 1}${prompt}'
-  100: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.${prompt}'
-  101: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.${prompt}'
+  100: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.${prompt}'
+  101: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.${prompt}'
   102: |-
     ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
     ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[recovers/recover] ${number-alt: 1} HP.${prompt}
