@@ -117,66 +117,66 @@ entries:
   100: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.${prompt}'
   101: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.${prompt}'
   102: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[recovers/recover] ${number-alt: 1} HP.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[récupère/récupèrent] ${number-alt: 1} HP.${prompt}
   103: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[recovers/recover] ${number-alt: 1} HP.${prompt}
-  104: Unable to use item. You do not meet the level requirement.${prompt}
-  105: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 1} experience point${choice-plurality-number: 1}[/s].${prompt}'
-  106: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[is/are] intimidated by ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[''s/''] presence.${prompt}'
-  107: '${color-alt: 123}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] temporarily unable to access support job abilities.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[récupère/récupèrent] ${number-alt: 1} HP.${prompt}
+  104: 'Impossible d''utiliser l''objet. Vous ne remplissez pas les conditions de niveau.${prompt}'
+  105: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagne] ${number-alt: 1} point d''expérience${choice-plurality-number: 1}.[/s]${prompt}'
+  106: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[est/est] intimidé par ${choice-definite-entity: 1}[la /]${entity-target}${choice-plurality-entity: 1}[''s/''] présence.${prompt}'
+  107: '${color-alt: 123}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] temporairement incapable(s) d''accéder aux compétences de travail de soutien.${prompt}'
   108: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Pet's powers increase!${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    Les pouvoirs du familier augmentent !${prompt}
   109: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Pet's powers increase!${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.
+    Les pouvoirs du familier augmentent !${prompt}
   110: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 1} point${choice-plurality-number: 1}[/s] of damage.${prompt}
-  111: 'You cannot use ${item-plural-alt: 0[2]} while medicated.${prompt}'
-  112: '${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] doom counter is now down to ${number-alt: 0}.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[prend/prennent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] de dégâts.${prompt}
+  111: 'Vous ne pouvez pas utiliser ${item-plural-alt: 0[2]} tant que vous êtes sous médication.${prompt}'
+  112: '${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] compteur de malédiction est désormais de ${number-alt: 0}.${prompt}'
   113: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[falls/fall] to the ground.${prompt}
-  114: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0} on ${choice-definite-entity: 1}[the /]${entity-target}, but the spell fails to take effect.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[tombe/tombent] au sol.${prompt}
+  114: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0} sur ${choice-definite-entity: 1}[le /]${entity-target}, mais le sort échoue à prendre effet.${prompt}'
   115: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Attacks are enhanced but defense weakens.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    Les attaques sont améliorées, mais la défense est affaiblie.${prompt}
   116: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] attacks are enhanced.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] les attaques sont améliorées.${prompt}
   117: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Defense is enhanced but attacks weaken.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    La défense est améliorée, mais les attaques sont affaiblies.${prompt}
   118: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Accuracy is enhanced but evasion is impaired.${prompt}
-  119: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0} on ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    La précision est améliorée, mais l'évasion est altérée.${prompt}
+  119: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0} sur ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}'
   120: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] accuracy is enhanced.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] la précision est améliorée.${prompt}
   121: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] evasion is enhanced.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] l'évasion est améliorée.${prompt}
   122: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[recovers/recover] ${number-alt: 1} HP.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[récupère/récupère] ${number-alt: 1} HP.${prompt}
   123: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} successfully ${choice-plurality-entity: 0}[removes/remove] ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] ${status-effect-noun: 1[2]}.${prompt}
-  124: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[achieves/achieve] Gate Breach status!${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /]${entity-source} réussit à ${choice-plurality-entity: 0}[retirer/retirer] ${choice-definite-entity: 1}[le /]${entity-target}${choice-plurality-entity: 1}[''s/''] ${status-effect-noun: 1[2]}.${prompt}
+  124: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[atteint/atteint] le statut de Brèche du portail !${prompt}'
   125: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 0}[The /]${entity-source} steals ${article} ${item-article-alt: 1[2]} from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 0}[Le /]${entity-source} vole ${article} ${item-article-alt: 1[2]} de ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
   126: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] movement speed increases.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] la vitesse de mouvement augmente.${prompt}
   127: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] ${status-effect-adjective: 1[2]}.${prompt}
-  128: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] ${status-effect-adjective: 0[2]} and cannot perform that action.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plplurality-entity: 1}[est/sont] ${status-effect-adjective: 1[2]}.${prompt}
+  128: '${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] ${status-effect-adjective: 0[2]} et ne peut pas effectuer cette action.${prompt}'
   129: |-
     ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
     ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[mugs/mug] ${gil: 1} from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
