@@ -22,7 +22,7 @@ entries:
     Debug Message:
     　${entity-source}: ${entity-target} est maintenant invincible.${prompt}
   14: '${choice-definite-entity: 0}[L’ /]${entity-source}${choice-plurality-entity: 0}[''s/''] l’attaque est contrée par ${choice-definite-entity: 1}[le /]${entity-target}. ${number-alt: 3} des ${choice-definite-entity: 1}[l’ /]${entity-source}${choice-plurality-entity: 1}[''s/''] ombres ${choice-plurality-number: 3}[absorbent/absorbe] les dégâts et ${choice-plurality-number: 3}[disparaissent/disparaît].${prompt}'
-  15: '${choice-definite-entity: 0}[L’ /]${entity-source} ${choice-plurality-entity: 0}[manque/manque] ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}'
+  15: '${choice-definite-entity: 0}[L’ /]${entity-source} ${choice-plurality-entity: 0}[manque/manque] ${choice-definite-entity: 1}[la /]${entity-target}.${prompt}'
   16: '${choice-definite-entity: 0}[L’ /]${entity-source}${choice-plurality-entity: 0}[''s/''] le sort est interrompu.${prompt}'
   17: Impossible de lancer des sorts pour le moment.${prompt}
   18: Impossible de lancer des sorts pour le moment.${prompt}
