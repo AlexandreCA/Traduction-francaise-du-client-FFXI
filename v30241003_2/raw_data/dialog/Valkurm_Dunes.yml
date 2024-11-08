@@ -1,29 +1,29 @@
 entries:
   0: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    0: Vous pouvez définir ceci comme votre point de retour.
+    Une fois que vous avez défini un point de retour, vous y retournerez chaque fois que vous serez incapacité.
   1: |-
-    Set this as current home point?
+    Définir ceci comme le point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  2: Home point set!${prompt}
-  3: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  2: Point de retour défini !${prompt}
+  3: Un point de retour peut être défini comme un lieu où revenir à Vana'diel lorsque vous avez été mis hors combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   4: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    Finalement, peu importe.${prompt}
   5: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez désormais vous téléporter ici depuis tout autre point de retour.${prompt}
+  6: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
   7: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -40,81 +40,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   8: |-
-    Teleport where?（${zone: 33[2]}）
+    Téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  9: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  10: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  11: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  9: Vous n'avez encore enregistré aucun autre point de retour et ne pouvez donc pas vous téléporter.${prompt}
+  10: 'Le coût est de ${number: 3} gil pour vous téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  11: 'Il n’y a pas de frais pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   12: |-
-    Teleport? (Current gil: ${number: 0})
+    Téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   13: |-
-    Teleport to which region?
+    Téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    En y repensant, aucune.
+    Sélectionner depuis les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Zone sauvage des Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Ouest d'Aht Urhgan/Île Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est d'Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   14: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  15: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un emplacement favori.
+    Une zone d'origine.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  15: Vous pouvez changer la méthode de sélection de la zone du point de retour souhaité pour la téléportation.
   16: |-
-    Which setting would you like?
+    Quel réglage souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  17: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  17: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   18: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -124,13 +124,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  19: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  20: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  19: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/supprimé de] votre liste de lieux favoris.'
+  20: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   21: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18918,101 +18918,101 @@ entries:
   7860: test4${prompt}
   7861: test5${prompt}
   7862: test6${prompt}
-  7863: 'time：${number: 0}/状態：${number: 1}/status:${number: 2}${prompt}'
-  7864: '0:${number: 0}/1:${number: 1}/2:${number: 2}/ALL:${number: 3}${prompt}'
+  7863: 'temps：${number: 0}/état：${number: 1}/statut:${number: 2}${prompt}'
+  7864: '0:${number: 0}/1:${number: 1}/2:${number: 2}/TOUS:${number: 3}${prompt}'
   7865: |-
-    You hear a mysterious, floating voice:
-    Bring forth the ${item-singular: 0[2]}...${prompt}
-  7866: You do not meet the requirements.${prompt}
+    Vous entendez une voix mystérieuse et flottante :
+    Apportez le/la ${item-singular: 0[2]}...${prompt}
+  7866: Vous ne remplissez pas les conditions requises.${prompt}
   7867: |-
-    The time and destination for your foray into Dynamis will be recorded on your ${item-singular: 6[2]}.
-    === Destination: Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ===${prompt}
+    L'heure et la destination de votre incursion dans Dynamis seront enregistrées sur votre ${item-singular: 6[2]}.
+    === Destination : Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ===${prompt}
   7868: |-
-    Record the time and destination?
+    Enregistrer l'heure et la destination ?
     ${selection-lines}
-    Proceed.
-    Not yet.
-    Entering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Reentering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Battles in Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
-  7869: Connecting with server. Please wait.
-  7870: Unable to connect.${prompt}
-  7871: You have not traded the necessary item.${prompt}
-  7872: 'Another group of player characters is currently occupying Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
-  7873: 'The time and destination for your foray into Dynamis has been recorded on your ${item-singular: 0[2]}.${prompt}'
-  7874: You do not possess an item that fulfills the requirements.${prompt}
-  7875: 'You will now be warped to Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+    Procéder.
+    Pas encore.
+    Entrée dans Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Ré-entrée dans Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Combats dans Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
+  7869: Connexion au serveur. Veuillez patienter.
+  7870: Impossible de se connecter.${prompt}
+  7871: Vous n'avez pas échangé l'objet requis.${prompt}
+  7872: 'Un autre groupe de personnages joueurs occupe actuellement Dynamis - ${choice: 0}[Fictif/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+  7873: 'L’heure et la destination de votre incursion dans Dynamis ont été enregistrées sur votre ${item-singular: 0[2]}.${prompt}'
+  7874: Vous ne possédez pas un objet qui satisfait aux exigences.${prompt}
+  7875: 'Vous allez maintenant être téléporté à Dynamis - ${choice: 0}[Fictif/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
   7876: |-
-    Ready to warp to Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia]?
+    Prêt à être téléporté à Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ?
     ${selection-lines}
-    Ready!
-    Ready! (Support jobs unlocked).
-    Ready! (Support jobs restricted).
-    Not yet.
-    Entering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Reentering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Battles in Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
-  7877: 'You cannot enter Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] for ${number: 0} ${choice-plurality: 0}[day/days] (Vana''diel time).${prompt}'
+    Prêt !
+    Prêt ! (Jobs de soutien débloqués).
+    Prêt ! (Jobs de soutien restreints).
+    Pas encore.
+    Entrée dans Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Ré-entrée dans Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Combats dans Dynamis - ${choice: 0}[Fictif/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
+  7877: 'Vous ne pouvez pas entrer dans Dynamis - ${choice: 1}[Fictif/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] pendant ${number: 0} ${choice-plurality: 0}[jour/jours] (temps de Vana''diel).${prompt}'
   7878: |-
-    You hear a mysterious, floating voice:
-    The guiding aura has not yet faded... Bring forth the ${item-singular: 0[2]}.${prompt}
-  7879: 'Players who have not reached level ${number: 0} are prohibited from entering Dynamis.${prompt}'
-  7880: 'Players who do not possess ${keyitem-article: 0[2]} are prohibited from entering Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
-  7881: '${lettercase: 1}${item-plural: 0[2]} and ${item-plural: 1[2]} cannot be used here.${prompt}'
+    Vous entendez une voix mystérieuse et flottante :
+    L'aura de guidance ne s'est pas encore dissipée... Apportez le/la ${item-singular: 0[2]}.${prompt}
+  7879: 'Les joueurs n’ayant pas atteint le niveau ${number: 0} ne sont pas autorisés à entrer dans Dynamis.${prompt}'
+  7880: 'Les joueurs ne possédant pas ${keyitem-article: 0[2]} ne sont pas autorisés à entrer dans Dynamis - ${choice: 1}[Fictif/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+  7881: '${lettercase: 1}${item-plural: 0[2]} et ${item-plural: 1[2]} ne peuvent pas être utilisés ici.${prompt}'
   7882: |-
     ${name-player}...
-    Now that I have passed from the mortal realm, I have only you to turn to.
-    The time left to me is short.
-  7883: Thirty years ago, I came into contact with the insidious power of this land, and rose from the grave. However, at the same time, this world laid claim to a part of my soul...${prompt}
+    Maintenant que j'ai quitté le monde des mortels, tu es mon seul espoir.
+    Le temps qui me reste est court.
+  7883: Il y a trente ans, j'ai été exposé au pouvoir insidieux de cette terre et suis revenu d'entre les morts. Cependant, en même temps, ce monde a réclamé une part de mon âme...${prompt}
   7884: |-
-    I have been released from the hate that consumed me, but the half of my soul that was taken captive all those years ago is calling to me...
-    It has become a towering darkness. A raging hatred, spawned from the depths of my being...${prompt}
-  7885: Very soon I will be drawn into that soul. I no longer have the strength to resist. The soul that was divided will become whole once more, and that rage will take on physical form.${prompt}
-  7886: A new Shadow Lord will be born. Surely you have sensed the growing evil? The beastman armies that are imprisoned here are massing for battle. They plan a return to the world of their origin, the realm that exists beneath the light of hope.${prompt}
+    J'ai été libéré de la haine qui me consumait, mais la moitié de mon âme qui a été capturée il y a toutes ces années m'appelle...
+    Elle est devenue une obscurité immense. Une haine furieuse, née des profondeurs de mon être...${prompt}
+  7885: Bientôt, je serai attiré dans cette âme. Je n'ai plus la force de résister. L'âme qui a été divisée deviendra entière à nouveau, et cette rage prendra une forme physique.${prompt}
+  7886: Un nouveau Seigneur des Ombres naîtra. Tu as sûrement ressenti le mal croissant ? Les armées de bêtes emprisonnées ici se rassemblent pour la bataille. Elles prévoient de retourner dans le monde de leur origine, le royaume qui existe sous la lumière de l'espoir.${prompt}
   7887: |-
-    My link to you will soon be severed, so listen carefully.
-    Thirty years ago, an expeditionary squad formed from the elite soldiers of each nation was sent to investigate the Northlands. You must have seen their memories when you first laid your hand upon the chunks of magicite.${prompt}
+    Mon lien avec toi sera bientôt rompu, alors écoute attentivement.
+    Il y a trente ans, une escouade expéditionnaire composée des soldats d'élite de chaque nation a été envoyée pour explorer les Terres du Nord. Tu as dû voir leurs souvenirs lorsque tu as posé ta main pour la première fois sur les morceaux de magicite.${prompt}
   7888: |-
-    Seek out the markings that the expedition members left behind. They will aid you in gaining entrance to this world.
-    You must defeat the Shadow Lord before our unification is complete.
-    My hopes go with you, ${name-player}.${prompt}
-  7889: There is an unusual arrangement of branches here.${prompt}
-  7890: There is an unusual arrangement of pebbles here.${prompt}
-  7891: The strands of grass here have been tied together.${prompt}
-  7892: There is an unusual arrangement of leaves on the ground.${prompt}
+    Recherche les marques laissées par les membres de l'expédition. Elles t'aideront à accéder à ce monde.
+    Tu dois vaincre le Seigneur des Ombres avant que notre unification soit complète.
+    Je place mes espoirs en toi, ${name-player}.${prompt}
+  7889: Il y a ici un arrangement inhabituel de branches.${prompt}
+  7890: Il y a ici un arrangement inhabituel de cailloux.${prompt}
+  7891: Les brins d’herbe ici sont attachés ensemble.${prompt}
+  7892: Il y a un arrangement inhabituel de feuilles sur le sol.${prompt}
   7893: |-
-    I see you have met with Raogrimm.
-    His soul is no longer confined to that incarnation of rage, the Shadow Lord, yet the fact remains that he has committed sins beyond redemption.${prompt}
-  7894: In spite of those sins, I still wish to rescue him from the darkness. I no longer have a mortal body with which to act, and so the most I can do is guide you in my stead.${prompt}
-  7895: 'You will need the ${keyitem-singular: 0[2]}, a key that bridges the void between Vana''diel and that other world.${prompt}'
-  7896: 'It is said that there are items in this world that gain a soul of their own through contact with the thoughts and dreams of other living creatures. The ${keyitem-singular: 0[2]} is one of those items.${prompt}'
-  7897: 'You must look for the Goblin peddlers. They are certain to have knowledge of the ${keyitem-singular: 0[2]}. When you have it safely within your grasp, seek out the markings that we left behind...${prompt}'
-  7898: That world is a land now draped in the blackest night. We can pass from one world to the other, but without the physical forms lost to us thirty years ago, there is little we can do to intervene.${prompt}
-  7899: Raogrimm is the one who... No, the world has been divided into separate realms through the machinations of the new Shadow Lord.${prompt}
-  7900: The Shadow Lord resides in the Xarcabard of the other reality. However, I fear you would be marching to your death should you go to confront him... I ask you to first obtain trophies from four of the alternate realms.${prompt}
-  7901: We understand that there is little time to spare. But without a certain degree of power, it will be impossible to traverse the land the Shadow Lord holds in thrall. Show me your strength with the four trophies you bring back.${prompt}
-  7902: 'Those whose fate is linked to his world will empower the ${keyitem-singular: 0[2]} to guide you...${prompt}'
-  7903: I never believed that my indifference to the state of other nations would cause harm to my beloved San d'Oria...${prompt}
-  7904: 'As part of my penance, I will infuse the ${keyitem-singular: 0[2]} with what guidance I can.'
+    Je vois que vous avez rencontré Raogrimm.
+    Son âme n'est plus confinée dans cette incarnation de rage, le Seigneur des Ombres, mais il reste le fait qu'il a commis des péchés irréparables.${prompt}
+  7894: Malgré ces péchés, je souhaite encore le sauver des ténèbres. Je n’ai plus de corps mortel pour agir, donc le mieux que je puisse faire est de vous guider en mon nom.${prompt}
+  7895: 'Vous aurez besoin du/de la ${keyitem-singular: 0[2]}, une clé qui relie le vide entre Vana''diel et cet autre monde.${prompt}'
+  7896: 'On dit que certains objets dans ce monde acquièrent une âme propre par le contact avec les pensées et les rêves d’autres créatures vivantes. Le/la ${keyitem-singular: 0[2]} est l’un de ces objets.${prompt}'
+  7897: 'Vous devez chercher les marchands gobelins. Ils sont sûrs d’avoir des informations sur le/la ${keyitem-singular: 0[2]}. Lorsque vous l’aurez en votre possession, cherchez les marques que nous avons laissées...${prompt}'
+  7898: Ce monde est désormais enveloppé dans la nuit la plus noire. Nous pouvons passer d’un monde à l’autre, mais sans les formes physiques que nous avons perdues il y a trente ans, nous ne pouvons guère intervenir.${prompt}
+  7899: Raogrimm est celui qui... Non, le monde a été divisé en royaumes distincts par les machinations du nouveau Seigneur des Ombres.${prompt}
+  7900: Le Seigneur des Ombres réside dans le Xarcabard de l’autre réalité. Cependant, j’ai peur que vous marchiez vers votre mort si vous cherchez à l’affronter... Je vous demande d’obtenir d’abord des trophées dans quatre des royaumes alternatifs.${prompt}
+  7901: Nous comprenons qu’il reste peu de temps. Mais sans un certain degré de puissance, il sera impossible de traverser la terre que le Seigneur des Ombres maintient sous son joug. Montrez-moi votre force avec les quatre trophées que vous ramènerez.${prompt}
+  7902: 'Ceux dont le destin est lié à son monde renforceront le/la ${keyitem-singular: 0[2]} pour vous guider...${prompt}'
+  7903: Je n’aurais jamais cru que mon indifférence au sort des autres nations causerait du tort à ma chère San d’Oria...${prompt}
+  7904: 'Dans le cadre de ma pénitence, j’infuserai le/la ${keyitem-singular: 0[2]} de toute la guidance que je peux apporter.${prompt}'
   7905: |-
-    I betrayed him...
-    And now I am needed, the one who cut down poor Cornelia. The man cursed with the brand of traitor...${prompt}
-  7906: Sure, I got everything I wanted, but what was left to me in the end? For one rash action, all I gained was an empty title and irreconcilable guilt...${prompt}
-  7907: I doubt you'll listen to the words of a traitor, but please, help free him from the bonds of his eternal night...
-  7908: Our expedition was supposed to have been an allied effortaru, but not one of us was interested in the fate of the other nations. In our hasty-waste to outdo each other, we failed to see to the heart of the mattaru.${prompt}
+    Je l'ai trahi...
+    Et maintenant on a besoin de moi, celui qui a abattu la pauvre Cornelia. L'homme maudit par la marque de traître...${prompt}
+  7906: Bien sûr, j’ai obtenu tout ce que je voulais, mais qu’est-ce qu’il me reste au final ? Pour une action impulsive, tout ce que j’ai gagné, c’est un titre vide et une culpabilité irrémédiable...${prompt}
+  7907: Je doute que vous écoutiez les paroles d’un traître, mais s’il vous plaît, aidez à le libérer des chaînes de sa nuit éternelle...
+  7908: Notre expédition était censée être un effort allié, mais aucun de nous ne s’intéressait au sort des autres nations. Dans notre hâte de nous surpasser, nous n’avons pas vu le cœur du problème.${prompt}
   7909: |-
-    Our attitudes led to the death of two of our members, and precipitated the birth of the Shadow Lord...
-    This sin does not belong on Raogrimm's shoulders alone. We all mustaru atone for our actions.${prompt}
-  7910: Please help him. Help Raogrimm escape from his horrid-worrid darkness, forever this time.
-  7911: Humes and Galka have never been the best of friends. I used to think that was just the way it was, and always would be.${prompt}
-  7912: I figured I'd be causing myself grrrief if I stuck my whiskers into other nations' problems. My next catnap was all that mattered to me in those days. Ignorrrance is bliss, as they say.${prompt}
-  7913: Responsibility for Raogrimm's trrransformation lies with all of us who traveled with him on that expedition. By sharing the blame for the crimes he committed as the Shadow Lord, we can finally call ourselves his trrrue companions.${prompt}
+    Nos attitudes ont conduit à la mort de deux de nos membres et précipité la naissance du Seigneur des Ombres...
+    Ce péché n'appartient pas seulement à Raogrimm. Nous devons tous expier nos actions.${prompt}
+  7910: Aidez-le, je vous en prie. Aidez Raogrimm à échapper à son horrible obscurité, une fois pour toutes.
+  7911: Les Humes et les Galka n’ont jamais été les meilleurs amis. Je pensais que c’était simplement ainsi, et que ça le resterait toujours.${prompt}
+  7912: Je me disais que je me causerais des ennuis si je me mêlais des problèmes des autres nations. Ma prochaine sieste était tout ce qui comptait pour moi à l'époque. L'ignorance est une bénédiction, comme on dit.${prompt}
+  7913: La responsabilité de la transformation de Raogrimm repose sur nous tous qui avons voyagé avec lui lors de cette expédition. En partageant la culpabilité des crimes qu'il a commis en tant que Seigneur des Ombres, nous pouvons enfin nous appeler ses véritables compagnons.${prompt}
   7914: |-
-    Let me help you on your path. May guiding light fill this ${keyitem-singular: 0[2]}!
-    Raogrimm's fate is in your hands.
-  7915: There is a broken branch thrust into the ground here.${prompt}
-  7916: There is a symbol carved into the rock here.${prompt}
-  7917: I have been waiting for you.${prompt}
+    Laissez-moi vous aider sur votre chemin. Que la lumière guide ce ${keyitem-singular: 0[2]}!
+    Le destin de Raogrimm est entre vos mains.
+  7915: Il y a ici une branche cassée plantée dans le sol.${prompt}
+  7916: Il y a ici un symbole gravé dans la roche.${prompt}
+  7917: Je vous attendais.${prompt}
   7918: |-
     Do you remember the last words Raogrimm spoke to you? "The link will soon be severed"...
     Do you understand the significance of these words?${prompt}
