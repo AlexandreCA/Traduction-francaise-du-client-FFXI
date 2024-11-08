@@ -16063,30 +16063,30 @@ entries:
   6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
   6492: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour actuel.
+    Une fois que vous définissez un point de retour, vous y reviendrez chaque fois que vous serez inconscient.
   6493: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6494: Home point set!${prompt}
-  6495: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  6494: Point de retour défini !${prompt}
+  6495: Un point de retour peut être défini comme un endroit où vous reviendrez à Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6496: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    Finalement, oubliez ça.${prompt}
   6497: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6498: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour que vous avez enregistré.${prompt}
+  6498: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.${prompt}
   6499: |-
-    Teleport where?
+    Où voulez-vous vous téléporter ?
     ${selection-lines}
-    Never mind.
+    Jamais l'esprit.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16103,81 +16103,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6500: |-
-    Teleport where?（${zone: 33[2]}）
+    Où voulez-vous vous téléporter ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6501: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  6502: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  6503: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  6501: Vous n'avez pas encore enregistré d'autres points de retour, vous ne pouvez donc pas vous téléporter.${prompt}
+  6502: 'Il coûte ${number: 3} gil pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  6503: 'Il n’y a pas de frais pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   6504: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   6505: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    Finalement, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Savage Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Ouest/Isle d'Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6506: |-
-    Teleport where?
+    Où voulez-vous vous téléporter ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  6507: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ces choix.
+    Un endroit favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  6507: Vous pouvez changer la méthode de sélection de la zone de votre point de retour souhaité pour vous téléporter.
   6508: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  6509: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  6509: 'Vous êtes maintenant en train de sélectionner par ${choice: 1}[région/extension].'
   6510: |-
-    Teleport where?
+    Où voulez-vous vous téléporter ?
     ${selection-lines}
-    None of these.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16187,13 +16187,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  6511: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  6512: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  6511: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré/supprimé] de votre liste d’endroits favoris.'
+  6512: Votre liste d'endroits favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.
   6513: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16203,12 +16203,12 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6514: How about a magic map to help you on your adventures?${prompt}
+  6514: Que diriez-vous d'une carte magique pour vous aider dans vos aventures ?${prompt}
   6515: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
+    Refuser.
+    Renseigner sur les cartes.
     ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
     ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
     ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
@@ -16225,18 +16225,18 @@ entries:
     ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
     ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
     ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6516: If you have a map, you can check both the lay of the land and your location whenever you enter an area.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
+  6516: Si vous possédez une carte, vous pouvez vérifier à la fois la topographie et votre position chaque fois que vous entrez dans une zone.${prompt}
   6517: |-
-    If you belong to a party or alliance, you can also check the position of your allies.
-    And depending on your job, you can find NPCs and enemies from afar.${prompt}
+    Si vous faites partie d'un groupe ou d'une alliance, vous pouvez également vérifier la position de vos alliés.
+    Et selon votre métier, vous pouvez repérer les PNJ et ennemis à distance.${prompt}
   6518: |-
-    Furthermore, you can even record specific points in the area or have places marked down for certain events.
-    So you see, magic maps are extremely useful.${prompt}
+    De plus, vous pouvez même enregistrer des points spécifiques dans la zone ou marquer des endroits pour certains événements.
+    Comme vous pouvez le voir, les cartes magiques sont extrêmement utiles.${prompt}
   6519: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    Le ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d'Oria.
+    Elle coûte ${number: 3} gil.${prompt}
   6520: |-
     The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
     It costs ${number: 3} gil.${prompt}
@@ -17772,410 +17772,410 @@ entries:
     Set Free.
     The Beginning(pt.1).
     The Beginning(pt.2).${prompt}
-  7338: Do we have a mannequin!? What do you think we are, crazy? Because that's what you'd have to be to have one of those cursed things in your shop!${prompt}
+  7338: On a un mannequin !? Qu'est-ce que tu crois, qu'on est fous ? Parce que c'est ce qu'il faudrait être pour avoir une de ces choses maudites dans notre boutique !${prompt}
   7339: |-
-    Don't tell me you don't know what I'm talking about. Beastmen, ${choice-player-gender}[young boy/young girl]. Beastmen!
-    I'd keep your whipper-snapping hands off those evil dolls unless you want to be robbed or kidnapped...or worse.${prompt}
-  7340: Why? Because my grandfather told me, that's why! You wouldn't be calling my grandfather a liar now, would you?${prompt}
+    Ne me dis pas que tu ne sais pas de quoi je parle. Les bêtes, ${choice-player-gender}[jeune garçon/jeune fille]. Les bêtes !
+    Je garderais tes mains loin de ces poupées maléfiques, à moins que tu veuilles être volé, kidnappé... ou pire.${prompt}
+  7340: Pourquoi ? Parce que mon grand-père me l'a dit, voilà pourquoi ! Tu n'insinuerais quand même pas que mon grand-père est un menteur, si ?${prompt}
   7341: |-
-    Wait a minute...
-    If you really want to learn more about those goddessforsaken contraptions, I think I might have something that can help you.${prompt}
+    Attends une minute...
+    Si tu veux vraiment en savoir plus sur ces trucs maudits, je pense avoir quelque chose qui pourrait t'aider.${prompt}
   7342: |-
-    Here, take this catalog.
-    Oh, don't worry about reimbursing me. Even pictures of those mannequins give me the chills. I'm just glad to have them out of my sight!${prompt}
+    Tiens, prends ce catalogue.
+    Oh, ne t'inquiète pas pour me rembourser. Même les images de ces mannequins me donnent des frissons. Je suis juste content de m'en débarrasser !${prompt}
   7343: |-
-    You want to make one!? Well, it's your funeral.
-    I heard they were made of wood, so there might be someone in San d'Oria that could help you. But that's all you'll get out of me.${prompt}
+    Tu veux en fabriquer un !? Eh bien, c'est ton problème.
+    J'ai entendu dire qu'ils étaient faits en bois, alors il y a peut-être quelqu'un à San d'Oria qui pourrait t'aider. Mais c'est tout ce que tu tireras de moi.${prompt}
   7344: |-
-    Hello?
-    Can I help you...?${prompt}
-  7345: Your name wouldn't be Emeline, by any chance?${prompt}
+    Bonjour ?
+    Puis-je vous aider...?${prompt}
+  7345: Votre nom ne serait pas Emeline, par hasard ?${prompt}
   7346: |-
-    My name is Ulmia.
-    We were in the choir together, do you remember...?${prompt}
+    Mon nom est Ulmia.
+    Nous étions dans la chorale ensemble, tu te souviens...?${prompt}
   7347: '...?${prompt}'
-  7348: I'm sorry, I don't remember much about my childhood.${prompt}
+  7348: Désolée, je ne me souviens pas de grand-chose de mon enfance.${prompt}
   7349: |-
-    But I'm sure you must be mistaken. My name is Mathilde.
-    I work here at the Weavers' Guild.${prompt}
+    Mais je suis sûre que vous devez vous tromper. Mon nom est Mathilde.
+    Je travaille ici, à la guilde des Tisserands.${prompt}
   7350: |-
     ...
-    Yes, you're right, I must be mistaken.
-    Please accept my apologies.${prompt}
-  7351: You so resemble a girl that used to sing in the choir with me, I just...${prompt}
-  7352: You don't happen to have a younger brother, do you?${prompt}
+    Oui, vous avez raison, je dois me tromper.
+    Veuillez accepter mes excuses.${prompt}
+  7351: Vous ressemblez tellement à une fille qui chantait dans la chorale avec moi, je...${prompt}
+  7352: Vous n'auriez pas un frère cadet, par hasard ?${prompt}
   7353: |-
-    A younger brother...
-    Why, yes, I did have a younger brother, only...
-    We were separated in the war.${prompt}
+    Un frère cadet...
+    Eh bien, oui, j'avais un frère cadet, seulement...
+    Nous avons été séparés pendant la guerre.${prompt}
   7354: |-
-    But I believe he is still out there...somewhere...
-    I do hope he is happy...${prompt}
+    Mais je crois qu'il est encore quelque part... quelque part...
+    J'espère qu'il est heureux...${prompt}
   7355: |-
-    I am sorry to have brought up this painful subject.
-    I'll be on my way...${prompt}
-  7356: I have one last request for you.${prompt}
+    Je suis désolée d'avoir évoqué ce sujet douloureux.
+    Je vais m'en aller...${prompt}
+  7356: J'ai une dernière demande à vous faire.${prompt}
   7357: |-
-    There is a certain song that you might know.
-    Will you sing it for us?${prompt}
-  7358: A...song?${prompt}
-  7359: I am sure you have this song locked somewhere in your heart. Please try to remember.${prompt}
+    Il y a une certaine chanson que vous pourriez connaître.
+    La chanterez-vous pour nous ?${prompt}
+  7358: Une... chanson ?${prompt}
+  7359: Je suis sûr que cette chanson est enfermée quelque part dans ton cœur. Essaie de t'en souvenir, s'il te plaît.${prompt}
   7360: |-
-    The Tavnazian Cathedral...
-    Cardinal Mildaurion...
-    A song known as the “Lay of the Immortals”...${prompt}
-  7361: The fifth verse...
+    La cathédrale de Tavnazia...
+    Le cardinal Mildaurion...
+    Une chanson connue sous le nom de "Le Chant des Immortels"...${prompt}
+  7361: Le cinquième verset...
   7362: |-
     　
-    And so the legend ends...${prompt}
+    Et ainsi la légende se termine...${prompt}
   7363: |-
     　
-    ...began......crystal......${prompt}
+    ...commença... cristal...${prompt}
   7364: |-
     ...
-    Was that some kind of spell...?${prompt}
+    Était-ce une sorte de sortilège...?${prompt}
   7365: |-
-    The Mimeo Mirror is a device known by any self-respecting rogue.
-    It was finally returned to me.${prompt}
-  7366: Ulmia, are you able to sing the verse we just heard?${prompt}
-  7367: But, I...!${prompt}
-  7368: You do have a penchant for expecting the worst, dear Ulmia.${prompt}
-  7369: There may not be a need for that melody at all.${prompt}
+    Le Miroir de Mimeo est un appareil connu de tout voleur qui se respecte.
+    Il m'a finalement été rendu.${prompt}
+  7366: Ulmia, es-tu capable de chanter le verset que nous venons d'entendre ?${prompt}
+  7367: Mais, je...!${prompt}
+  7368: Tu as vraiment tendance à t'attendre au pire, chère Ulmia.${prompt}
+  7369: Il n'y aura peut-être même pas besoin de cette mélodie.${prompt}
   7370: |-
-    I...!?
-    Why would that be?${prompt}
-  7371: Once Lord Bahamut sees Prishe's magicite, it may be enough to convince him. And...${prompt}
-  7372: And we would not want to lose the Star of Tavnazia...${prompt}
+    Je...!?
+    Pourquoi donc ?${prompt}
+  7371: Une fois que Lord Bahamut verra la magicite de Prishe, cela pourrait suffire à le convaincre. Et...${prompt}
+  7372: Et nous ne voudrions pas perdre l'Étoile de Tavnazia...${prompt}
   7373: |-
     ...?
-    What do you mean?${prompt}
+    Que veux-tu dire ?${prompt}
   7374: |-
     ...
-    There is something I would like to ask Prishe.
-    Ulmia, let us meet with her in Jeuno.${prompt}
-  7375: ${name-player}, please go on ahead to Bastok.${prompt}
+    Il y a quelque chose que j'aimerais demander à Prishe.
+    Ulmia, rencontrons-la à Jeuno.${prompt}
+  7375: ${name-player}, veuillez partir en avance pour Bastok.${prompt}
   7376: '　　 ${wait-animation: 1}'
-  7377: I'm Abelard, mayor of this village.${prompt}
-  7378: You say you're looking for Lady Leffine?${prompt}
-  7379: You're not the first to ask that question, but I'm sorry to say there's no one here by that name.${prompt}
-  7380: Even if you've been requested to do so, you shouldn't be poking around into other people's pasts.${prompt}
+  7377: Je suis Abelard, le maire de ce village.${prompt}
+  7378: Vous dites que vous cherchez Dame Leffine ?${prompt}
+  7379: Vous n'êtes pas le premier à poser cette question, mais je suis désolé de dire qu'il n'y a personne ici portant ce nom.${prompt}
+  7380: Même si on vous l'a demandé, vous ne devriez pas fouiller dans le passé des autres.${prompt}
   7381: |-
-    What's that?
-    So why am I trying to find out about Gwynham Ironheart, you ask?${prompt}
-  7382: Sure, I've been doing research into Ironheart's past, but...${prompt}
+    Quoi ?
+    Alors pourquoi est-ce que j'essaie de découvrir des informations sur Gwynham Ironheart, vous demandez-vous ?${prompt}
+  7382: Oui, j'ai fait des recherches sur le passé d'Ironheart, mais...${prompt}
   7383: |-
-    That's not the same thing, ${choice-player-gender}[sonny/lass].
-    I haven't got the slightest interest in his private life.${prompt}
-  7384: I already know all there is to know about him, in any case.${prompt}
+    Ce n'est pas la même chose, ${choice-player-gender}[mon garçon/ma fille].
+    Je n'ai pas le moindre intérêt pour sa vie privée.${prompt}
+  7384: De toute façon, je connais déjà tout ce qu'il y a à savoir sur lui.${prompt}
   7385: |-
-    Have you heard of Lord Torresapet B Ordelle?
-    It was feared he would die a demented death in Ordelle's Caves before he completed the map of those twisted tunnels.${prompt}
-  7386: He gathered the facts about Gwynham Ironheart's life into a single volume. I have the book right there.${prompt}
-  7387: "It's just that... \nBefore that book came into my possession, Gwynham's daughter, Enid, tore out several pages and threw them away.${prompt}"
-  7388: I'm curious as to what was written on those pages, but I suppose there's a reason Enid removed them in the first place.${prompt}
+    Avez-vous entendu parler de Lord Torresapet B Ordelle ?
+    On craignait qu'il ne meure une mort insensée dans les cavernes d'Ordelle avant d'avoir achevé la carte de ces tunnels tortueux.${prompt}
+  7386: Il a rassemblé les faits de la vie de Gwynham Ironheart dans un seul volume. J'ai le livre juste ici.${prompt}
+  7387: "C'est juste que... \nAvant que ce livre ne soit en ma possession, la fille de Gwynham, Enid, a arraché plusieurs pages et les a jetées.${prompt}"
+  7388: Je suis curieux de savoir ce qui était écrit sur ces pages, mais je suppose qu'il y a une raison pour laquelle Enid les a enlevées dès le départ.${prompt}
   7389: |-
-    I guess I should respect that.
-    Besides, I doubt anyone could find them anyway...${prompt}
+    Je suppose que je devrais respecter cela.
+    D'ailleurs, je doute que quelqu'un puisse les retrouver de toute façon...${prompt}
   7390: |-
-    Th-these are the missing pages!
-    Where did you find them!?${prompt}
-  7391: They were left inside Ordelle's Caves...?${prompt}
-  7392: If somebody left these pages on purpose, then we have a duty to read them. Seems that Enid didn't throw them away after all.${prompt}
+    C-ce sont les pages manquantes !
+    Où les avez-vous trouvées !?${prompt}
+  7391: Elles étaient laissées dans les cavernes d'Ordelle...?${prompt}
+  7392: Si quelqu'un a laissé ces pages intentionnellement, alors nous avons le devoir de les lire. Il semble qu'Enid ne les a pas jetées après tout.${prompt}
   7393: |-
-    Hm?
-    If I'm going to read these pages, then I should tell you where to find Lady Leffine?${prompt}
+    Hm ?
+    Si je vais lire ces pages, alors je devrais vous dire où trouver Dame Leffine ?${prompt}
   7394: |-
-    Fair enough.
-    As did the great Gwynham Ironheart, Lady Leffine passed away many years ago.${prompt}
+    C'est juste.
+    Comme le grand Gwynham Ironheart, Dame Leffine est décédée il y a de nombreuses années.${prompt}
   7395: |-
-    However, her son, Louverance, grew up to become a fine young man.
-    Last I heard, he joined the Royal Knights of San d'Oria.${prompt}
+    Cependant, son fils, Louverance, est devenu un jeune homme prometteur.
+    La dernière fois que j'ai entendu parler de lui, il avait rejoint les Chevaliers Royaux de San d'Oria.${prompt}
   7396: |-
-    I haven't seen him visit his mother's grave lately, though.
-    Has something happened to him, I wonder.${prompt}
-  7397: Speaking of which, there's another thing that's been bugging me.${prompt}
-  7398: Earlier, I had another visitor looking for Louverance.${prompt}
-  7399: It was a young Hume lady. Made some mention of Atarefaunet's Band.${prompt}
-  7400: In any case, she left Selbina after discovering Lady Leffine was no longer with us.${prompt}
+    Je ne l'ai pas vu venir rendre visite à la tombe de sa mère récemment.
+    Je me demande s'il lui est arrivé quelque chose.${prompt}
+  7397: D'ailleurs, il y a une autre chose qui me tracasse.${prompt}
+  7398: Plus tôt, j'ai reçu un autre visiteur à la recherche de Louverance.${prompt}
+  7399: C'était une jeune Hume. Elle a mentionné la Bande d'Atarefaunet.${prompt}
+  7400: Quoi qu'il en soit, elle a quitté Selbina après avoir découvert que Dame Leffine n'était plus parmi nous.${prompt}
   7401: |-
-    Is that all you wanted to know?
-    Now if you don't mind, I'll get to reading these pages you retrieved.${prompt}
+    C'est tout ce que vous vouliez savoir ?
+    Maintenant, si ça ne vous dérange pas, je vais lire ces pages que vous avez retrouvées.${prompt}
   7402: |-
-    A girl by the name of Sanctia?
-    Yes, I seem to recall a young lady blowing into town quite a while back, and then blowing straight back out.
-    You've missed her, I'm afraid.${prompt}
+    Une fille du nom de Sanctia ?
+    Oui, il me semble me souvenir d'une jeune femme qui est passée en ville il y a un moment, puis qui est repartie aussi vite.
+    Vous l'avez manquée, j'en ai bien peur.${prompt}
   7403: |-
-    Didn't I tell you this already?
-    It was a young Hume girl that mentioned Atarefaunet's Band, remember?${prompt}
-  7404: She said she was looking for some bounty hunter that had crossed that group of merciless cutthroats.${prompt}
-  7405: Talk around town says that Louverance was searching for the very same man...${prompt}
-  7406: She wanted to meet with someone that lived here a long time ago.${prompt}
-  7407: Seems she meant to ask him about some bounty hunter he was looking for...${prompt}
+    Ne vous l'ai-je pas déjà dit ?
+    C'était une jeune fille Hume qui a mentionné la Bande d'Atarefaunet, souvenez-vous ?${prompt}
+  7404: Elle a dit qu'elle cherchait un chasseur de primes qui avait contrarié ce groupe de bandits impitoyables.${prompt}
+  7405: On dit en ville que Louverance recherchait le même homme...${prompt}
+  7406: Elle voulait rencontrer quelqu'un qui vivait ici il y a longtemps.${prompt}
+  7407: Il semble qu'elle voulait lui poser des questions sur un chasseur de primes qu'il recherchait...${prompt}
   7408: |-
-    Hm? The young lady was determined to find her way to the Tavnazian Archipelago?
-    And you think she went to one of the caves in the Valkurm Dunes?${prompt}
-  7409: We've had a warning from a high-ranking Jeunoan official not to go anywhere near the vortex in that cave.${prompt}
+    Hm ? La jeune femme était déterminée à trouver un chemin vers l'archipel de Tavnazia ?
+    Et vous pensez qu'elle est allée dans une des grottes des Dunes de Valkurm ?${prompt}
+  7409: Nous avons reçu un avertissement d'un haut fonctionnaire de Jeuno nous conseillant d'éviter le vortex dans cette grotte.${prompt}
   7410: |-
-    Rumors say that travelers drawn into its depths are never heard from again.
-    You might be too late to save your friend.${prompt}
-  7411: Did the young lady really go into that cave in the Valkurm Dunes?${prompt}
-  7412: She's either extremely brave or extremely foolish to try and reach Tavnazia through that vortex.${prompt}
-  7413: I've got me a painting on the way from an artist named Angelica.${prompt}
-  7414: She's pretty well known among adventurers, so I can't wait to see her work.${prompt}
-  7415: I've really gone and landed myself in it this time...${prompt}
-  7416: I've got to... No, I can't. This is awful!${prompt}
-  7417: Oh, sorry. I didn't see you there. I was just thinking.${prompt}
-  7418: Hey, would you happen to be an adventurer?${prompt}
-  7419: I knew it!${prompt}
-  7420: If you have a moment, could you listen to what I have to say?${prompt}
+    Les rumeurs disent que les voyageurs aspirés dans ses profondeurs ne réapparaissent jamais.
+    Vous arrivez peut-être trop tard pour sauver votre amie.${prompt}
+  7411: La jeune femme est-elle vraiment entrée dans cette grotte des Dunes de Valkurm ?${prompt}
+  7412: Elle est soit extrêmement courageuse, soit extrêmement imprudente d'essayer d'atteindre Tavnazia par ce vortex.${prompt}
+  7413: J'attends un tableau d'une artiste nommée Angelica.${prompt}
+  7414: Elle est assez connue parmi les aventuriers, alors j'ai hâte de voir son travail.${prompt}
+  7415: Cette fois, je me suis vraiment mis dans de beaux draps...${prompt}
+  7416: Je dois... Non, je ne peux pas. C'est terrible !${prompt}
+  7417: Oh, désolé. Je ne vous avais pas vu. Je réfléchissais.${prompt}
+  7418: Dites, seriez-vous un aventurier par hasard ?${prompt}
+  7419: Je le savais !${prompt}
+  7420: Si vous avez un moment, pourriez-vous m'écouter ?${prompt}
   7421: |-
-    Listen to Diederik's problems?
+    Écouter les problèmes de Diederik ?
     ${selection-lines}
-    Sure.
-    I'm busy right now.${prompt}
-  7422: Oh, thank you! I was starting to get desperate!${prompt}
-  7423: Well, be on with your work, then. Sorry for bothering you!${prompt}
-  7424: I've been working knots in my stomach worrying about this...${prompt}
-  7425: Anyway, I guess I'd better start from the beginning.${prompt}
-  7426: The name's Diederik. I'm currently working as a middleman to fulfill my customers' needs.${prompt}
-  7427: The other day, one of my clients, an old man in Bastok, said he wanted a painting. So I put in an order with a painter from Windurst.${prompt}
-  7428: Her name was...Angelica, I think it was. She seems to be rather well known among adventurers.${prompt}
-  7429: Anyway, I picked up the finished painting and everything seemed to be going fine...${prompt}
-  7430: That is, until my ship was attacked by pirates.${prompt}
-  7431: We were lucky that no one on board was harmed. But afterwards, I couldn't find the painting anywhere.${prompt}
-  7432: I'm supposed to deliver it soon, though, and it puts me in a sweat just thinking about it!${prompt}
-  7433: Not only that, but my client is a cranky old man who'll string me up by the ears if he doesn't get what he wants! I can't face that!${prompt}
-  7434: He's not going to let me off easy after losing his precious painting.${prompt}
-  7435: Even explaining what happened wouldn't do any good with such a sour person.${prompt}
-  7436: That's why I can't go to him. I don't know what I'd say! I was about to go back to Angelica and see if she would redo the painting for me...${prompt}
-  7437: '...but I can''t tell her, either! She''s so passionate and loves her craft so much, I''m afraid I''d break down if I saw the disappointment on her face when I told her I lost the painting.${prompt}'
-  7438: You see, I'm hopeless. I can't carry this burden alone!${prompt}
-  7439: Hey! You're an adventurer, so I bet you know Angelica, don't you?${prompt}
-  7440: You even modeled for one of her paintings? Excellent!${prompt}
-  7441: I bet she would listen to you if you asked her to redo a painting...${prompt}
-  7442: Hey! I just got a brilliant idea! Why don't you go and ask Angelica to redo the painting?${prompt}
-  7443: You just heard why I couldn't go! You're my only option!${prompt}
-  7444: You're her friend, so of course she'll listen to you!${prompt}
-  7445: Not that I have the courage to face that old scrooge alone, either...${prompt}
-  7446: Oh hey, ${name-player}.${prompt}
-  7447: Hey, ${name-player}, what are you doing here?${prompt}
+    Bien sûr.
+    Je suis occupé en ce moment.${prompt}
+  7422: Oh, merci ! Je commençais à désespérer !${prompt}
+  7423: Eh bien, continuez donc votre travail, alors. Désolé de vous avoir dérangé !${prompt}
+  7424: J'ai l'estomac noué à force de m'inquiéter de tout ça...${prompt}
+  7425: Bon, je suppose que je ferais mieux de commencer par le début.${prompt}
+  7426: Je m'appelle Diederik. Je travaille actuellement comme intermédiaire pour répondre aux besoins de mes clients.${prompt}
+  7427: L'autre jour, un de mes clients, un vieil homme à Bastok, m'a dit qu'il voulait une peinture. J'ai donc passé commande auprès d'une peintre de Windurst.${prompt}
+  7428: Elle s'appelait... Angelica, il me semble. Elle semble assez connue parmi les aventuriers.${prompt}
+  7429: Bref, j'ai récupéré la peinture terminée, et tout semblait bien se passer...${prompt}
+  7430: Jusqu'à ce que mon navire soit attaqué par des pirates.${prompt}
+  7431: Nous avons eu de la chance que personne à bord ne soit blessé. Mais ensuite, je n'ai pas pu retrouver la peinture nulle part.${prompt}
+  7432: Je dois pourtant la livrer bientôt, et rien que d'y penser, ça me fait suer !${prompt}
+  7433: En plus, mon client est un vieil homme grincheux qui me pendrait par les oreilles s'il n'obtient pas ce qu'il veut ! Je ne peux pas affronter ça !${prompt}
+  7434: Il ne va pas me laisser tranquille après avoir perdu sa précieuse peinture.${prompt}
+  7435: Même lui expliquer ce qui s'est passé ne servirait à rien avec une personne aussi acariâtre.${prompt}
+  7436: C'est pour ça que je ne peux pas aller le voir. Je ne saurais pas quoi lui dire ! J'étais sur le point de retourner voir Angelica pour lui demander de refaire la peinture...${prompt}
+  7437: '...mais je ne peux pas lui dire non plus ! Elle est tellement passionnée et aime tellement son art, j’aurais peur de m’effondrer en voyant sa déception quand je lui dirai que j’ai perdu la peinture.${prompt}'
+  7438: Vous voyez, je suis désespéré. Je ne peux pas porter ce fardeau seul !${prompt}
+  7439: Hé ! Vous êtes un aventurier, donc je parie que vous connaissez Angelica, non ?${prompt}
+  7440: Vous avez même posé pour une de ses peintures ? Excellent !${prompt}
+  7441: Je parie qu'elle vous écouterait si vous lui demandiez de refaire une peinture...${prompt}
+  7442: Hé ! Je viens d'avoir une idée brillante ! Pourquoi n'allez-vous pas demander à Angelica de refaire la peinture ?${prompt}
+  7443: Vous venez d'entendre pourquoi je ne pouvais pas y aller ! Vous êtes ma seule option !${prompt}
+  7444: Vous êtes son ami, donc bien sûr elle vous écoutera !${prompt}
+  7445: Et puis, je n'ai pas le courage de faire face à ce vieux grincheux seul non plus...${prompt}
+  7446: Oh, ${name-player}.${prompt}
+  7447: Hé, ${name-player}, que faites-vous ici ?${prompt}
   7448: '...${name-player}?${prompt}'
-  7449: Greetings, ${name-player}.${prompt}
-  7450: Oh, it's you, ${name-player}.${prompt}
-  7451: ${name-player}, you came here, too?${prompt}
-  7452: Hello, ${name-player}!${prompt}
-  7453: Hey, it's ${name-player}!${prompt}
-  7454: Oh, it's ${name-player}.${prompt}
-  7455: Oh, hi, ${name-player}!${prompt}
-  7456: Greetings, ${name-player}.${prompt}
-  7457: Hm? ${name-player}?${prompt}
-  7458: This a friend of yours?${prompt}
-  7459: Yeah, sometimes ${choice-player-gender}[he/she] and I go on adventures together. So what's up? I miss something?${prompt}
-  7460: Of course! ${name-player} and I are always up for an adventure together! Hey, what were you guys just talking about?${prompt}
-  7461: You might say that. Anyway, what were you just talking about?${prompt}
-  7462: ${name-player} and I occasionally adventure together. Were you discussing important matters?${prompt}
-  7463: We adventure together sometimes. What were you two talking about just now? Sounded serious...${prompt}
-  7464: Yeah, we're sort of like adventuring partners. Did I butt in on an important discussion?${prompt}
-  7465: Yes, we sometimes adventure together. Anyway, is something up?${prompt}
-  7466: Yeah! We like to go on adventures together! Hey, what were you guys talking about a second ago?${prompt}
-  7467: Yes, ${name-player} and I occasionally adventure together. Anyway, what were you just talking about?${prompt}
-  7468: Yep, we sometimes go on adventures together! Um, what were you just talking about?${prompt}
-  7469: ${name-player} and I occasionally adventure together. Were you discussing important matters?${prompt}
-  7470: ${name-player} and I occasionally journey together. It appears I interrupted your conversation. Carry on.${prompt}
-  7471: Well, actually, I'm in a bit of a fix. I'd appreciate it if you could hear me out, too.${prompt}
-  7472: Losing the painting on top of getting attacked by pirates? That's rough.${prompt}
-  7473: You got attacked by pirates and lost the painting? What bad luck!${prompt}
-  7474: So you lost the painting to pirates. Hm, not your lucky day.${prompt}
-  7475: I see. You must have been disappointed to lose the painting to pirates.${prompt}
-  7476: Pirates attacked your ship, and took your painting? Oh no!${prompt}
+  7449: Salutations, ${name-player}.${prompt}
+  7450: Oh, c'est vous, ${name-player}.${prompt}
+  7451: ${name-player}, vous êtes venu ici aussi ?${prompt}
+  7452: Bonjour, ${name-player} !${prompt}
+  7453: Hé, c'est ${name-player} !${prompt}
+  7454: Oh, c'est ${name-player}.${prompt}
+  7455: Oh, salut, ${name-player} !${prompt}
+  7456: Salutations, ${name-player}.${prompt}
+  7457: Hm ? ${name-player}?${prompt}
+  7458: C'est un ami à vous ?${prompt}
+  7459: Ouais, parfois ${choice-player-gender}[il/elle] et moi partons ensemble à l'aventure. Alors, quoi de neuf ? J'ai manqué quelque chose ?${prompt}
+  7460: Bien sûr ! ${name-player} et moi sommes toujours prêts pour une aventure ensemble ! Hé, de quoi parliez-vous juste ?${prompt}
+  7461: On peut dire ça. Alors, de quoi parliez-vous ?${prompt}
+  7462: ${name-player} et moi partons parfois en aventure ensemble. Discutiez-vous de sujets importants ?${prompt}
+  7463: Nous partons parfois ensemble à l'aventure. De quoi parliez-vous à l'instant ? Ça semblait sérieux...${prompt}
+  7464: Oui, on est un peu comme des partenaires d'aventure. J'ai interrompu une discussion importante ?${prompt}
+  7465: Oui, nous partons parfois ensemble en aventure. Au fait, est-ce que quelque chose ne va pas ?${prompt}
+  7466: Ouais ! On aime partir ensemble à l'aventure ! Hé, de quoi parliez-vous à l'instant ?${prompt}
+  7467: Oui, ${name-player} et moi partons parfois ensemble en aventure. Au fait, de quoi parliez-vous à l'instant ?${prompt}
+  7468: Oui, nous partons parfois ensemble à l'aventure ! Euh, de quoi parliez-vous juste maintenant ?${prompt}
+  7469: ${name-player} et moi partons parfois ensemble en aventure. Discutiez-vous de sujets importants ?${prompt}
+  7470: ${name-player} et moi voyageons ensemble de temps en temps. Il semble que j'ai interrompu votre conversation. Continuez.${prompt}
+  7471: Eh bien, en fait, je suis dans un petit pétrin. J'apprécierais si vous pouviez m'écouter aussi.${prompt}
+  7472: Perdre la peinture en plus d'être attaqué par des pirates ? C'est dur.${prompt}
+  7473: Vous avez été attaqué par des pirates et avez perdu la peinture ? Quelle malchance !${prompt}
+  7474: Donc vous avez perdu la peinture à cause des pirates. Hm, ce n'est pas votre jour de chance.${prompt}
+  7475: Je vois. Vous avez dû être déçu de perdre la peinture à cause des pirates.${prompt}
+  7476: Des pirates ont attaqué votre navire et ont pris votre peinture ? Oh non !${prompt}
   7477: |-
-    Having the painting taken by pirates like that...
-    I can't imagine how frustrated you must have felt.${prompt}
-  7478: You got attacked by pirates and lost the painting? That's not good.${prompt}
-  7479: You got attacked by pirates and lost the painting? Oh, that's too bad!${prompt}
-  7480: So you lost the painting to pirates. Lady Luck smiles upon you not.${prompt}
-  7481: You got attacked by pirates? And lost the painting? I'm sooo sorry!${prompt}
-  7482: I see. You must have been disappointed to lose the painting to pirates.${prompt}
-  7483: So the pirates went so far as to single out your painting. It seems you chose the wrong day to be at sea.${prompt}
-  7484: If ${name-player}'s okay with it, I'd like to go with ${choice-player-gender}[him/her].${prompt}
-  7485: If ${name-player} doesn't mind, I'd also like to help!${prompt}
-  7486: If ${name-player} doesn't mind, I suppose I should join ${choice-player-gender}[him/her].${prompt}
-  7487: I suppose I should accompany ${name-player} on ${choice-player-gender}[his/her] journey.${prompt}
-  7488: I know! How about I go to Windurst with ${name-player}?${prompt}
-  7489: Hey, how about I go to Windurst, too? I'm sure ${name-player} won't mind.${prompt}
-  7490: If ${name-player} doesn't mind, do you think I could come along, too?${prompt}
-  7491: If ${name-player} doesn't mind, I'd like to come along, too!${prompt}
-  7492: If ${name-player} doesn't mind, I suppose I should join ${choice-player-gender}[him/her].${prompt}
-  7493: Think I could come along too, ${name-player}?${prompt}
-  7494: I suppose I should accompany ${name-player} on ${choice-player-gender}[his/her] journey.${prompt}
-  7495: I can accompany ${name-player} on ${choice-player-gender}[his/her] journey. ${choice-player-gender}[He/She] won't mind.${prompt}
-  7496: Wait a minute. Since there are two of you now, I've got one more thing I wonder if you could do for me.${prompt}
-  7497: I want one of you to earn me time while Angelica is redoing the painting.${prompt}
-  7498: What do you mean by that?${prompt}
-  7499: What's that supposed to mean?${prompt}
-  7500: Meaning?${prompt}
-  7501: Earning time, sir?${prompt}
-  7502: What do you mean?${prompt}
-  7503: How do we do that?${prompt}
-  7504: Hm? What do you mean?${prompt}
-  7505: Earning time, eh? What do you mean?${prompt}
-  7506: Meaning what, exactly?${prompt}
-  7507: Huh? Earning time?${prompt}
-  7508: Earning time, sir?${prompt}
-  7509: Earn you time? Care to elaborate?${prompt}
-  7510: I want you to bring that old crank an empty box...${prompt}
-  7511: And I want you to tell him that it holds the painting, but that he can't open it until you say he can, because the painting is so delicate, you see?${prompt}
-  7512: That scrooge'll believe that the painting is in the box, and we'll have earned enough time to get the real thing!${prompt}
-  7513: When Angelica finishes the painting, we can just exchange it for the empty box, and the old man will be none the wiser!${prompt}
-  7514: That way, I won't have to tell him I lost the painting...${prompt}
-  7515: '...and I can avoid punishment...${prompt}'
-  7516: However, I can't do it alone! That's right! I need your help, brave adventurers!${prompt}
-  7517: So you're asking us to deceive a poor old man?${prompt}
-  7518: You've got a lot of nerve, asking us to deceive a poor old man!${prompt}
-  7519: You want us to deceive a fragile old man, eh?${prompt}
-  7520: So you want us to deceive an elderly man.${prompt}
-  7521: You want us to lie to the old man?${prompt}
-  7522: Deceiving a poor old man just isn't my style...${prompt}
-  7523: So you want us to trick a poor old man?${prompt}
-  7524: You mean you want us to trick a poor old man!?${prompt}
-  7525: Hmph. Deceiving a poor old man...${prompt}
-  7526: Eh～? You want us to trick a poor old man!${prompt}
-  7527: So you want us to deceive an elderly man.${prompt}
-  7528: Deception goes against my principles...${prompt}
-  7529: You do look like you need help. Okay, we'll do it!${prompt}
-  7530: You're my kind of guy! Let's do it!${prompt}
-  7531: Fine, whatever. We will help.${prompt}
-  7532: It appears to be a necessary sacrifice, though. We will help.${prompt}
-  7533: But, I suppose it can't be helped. We'll do it!${prompt}
-  7534: But, you're trying to do a good thing. So we'll help you.${prompt}
-  7535: Well, you are in a desperate situation. Okay, we'll do it!${prompt}
-  7536: Guess that's just the way it is! We'll help!${prompt}
-  7537: You do need our help, though. Count me in.${prompt}
-  7538: But it looks like there's no way around it... Okay, we'll do it!${prompt}
-  7539: It appears to be a necessary sacrifice, though. We will help.${prompt}
-  7540: But, your circumstance cannot be ignored. We will help you.${prompt}
-  7541: Really? Oh, thank you!${prompt}
-  7542: So, ${name-player}, which will it be?${prompt}
-  7543: Would you rather go to Angelica to reorder the painting, or would you rather come with me to the old man's place to earn time?${prompt}
+    Se faire prendre la peinture par des pirates comme ça...
+    Je ne peux pas imaginer à quel point vous avez dû être frustré.${prompt}
+  7478: Vous avez été attaqué par des pirates et avez perdu la peinture ? Ce n'est pas de chance.${prompt}
+  7479: Vous avez été attaqué par des pirates et avez perdu la peinture ? Oh, c'est dommage !${prompt} 
+  7480: Vous avez perdu la peinture à cause des pirates. La chance ne vous sourit pas.${prompt}
+  7481: Vous avez été attaqué par des pirates ? Et perdu la peinture ? Je suis vraiment désolé !${prompt}
+  7482: Je vois. Vous avez dû être déçu de perdre la peinture à cause des pirates.${prompt}
+  7483: Donc, les pirates ont même pris votre peinture. On dirait que vous avez choisi le mauvais jour pour être en mer.${prompt}
+  7484: Si ${name-player} est d'accord, j'aimerais bien aller avec ${choice-player-gender}[lui/elle].${prompt}
+  7485: Si ${name-player} ne voit pas d'inconvénient, j'aimerais aussi aider !${prompt}
+  7486: Si ${name-player} ne s'en soucie pas, je suppose que je devrais rejoindre ${choice-player-gender}[lui/elle].${prompt}
+  7487: Je suppose que je devrais accompagner ${name-player} dans ${choice-player-gender}[son/sa] voyage.${prompt}
+  7488: Je sais ! Que diriez-vous que j'aille à Windurst avec ${name-player} ?${prompt}
+  7489: Hé, et si j'allais aussi à Windurst ? Je suis sûr que ${name-player} ne verra pas d'inconvénient.${prompt}
+  7490: Si ${name-player} ne voit pas d'inconvénient, pensez-vous que je pourrais venir aussi ?${prompt}
+  7491: Si ${name-player} ne voit pas d'inconvénient, j'aimerais venir aussi !${prompt}
+  7492: Si ${name-player} ne s'en soucie pas, je suppose que je devrais rejoindre ${choice-player-gender}[lui/elle].${prompt}
+  7493: Vous pensez que je pourrais venir aussi, ${name-player} ?${prompt}
+  7494: Je suppose que je devrais accompagner ${name-player} dans ${choice-player-gender}[son/sa] voyage.${prompt}
+  7495: Je peux accompagner ${name-player} dans ${choice-player-gender}[son/sa] voyage. ${choice-player-gender}[Il/Elle] ne verra pas d'inconvénient.${prompt}
+  7496: Attendez une minute. Puisqu'il y a deux d'entre vous maintenant, j'ai une dernière chose que je me demande si vous pourriez faire pour moi.${prompt}
+  7497: Je veux que l'un de vous me fasse gagner du temps pendant qu'Angelica refait la peinture.${prompt}
+  7498: Que voulez-vous dire par là ?${prompt}
+  7499: Qu'est-ce que ça veut dire ?${prompt}
+  7500: Qu'entendez-vous par là ?${prompt}
+  7501: Gagner du temps, monsieur ?${prompt}
+  7502: Que voulez-vous dire ?${prompt}
+  7503: Comment allons-nous faire ça ?${prompt}
+  7504: Hm ? Que voulez-vous dire ?${prompt}
+  7505: Gagner du temps, hein ? Que voulez-vous dire ?${prompt}
+  7506: Que voulez-vous dire exactement ?${prompt}
+  7507: Hein ? Gagner du temps ?${prompt}
+  7508: Gagner du temps, monsieur ?${prompt}
+  7509: Gagner du temps pour vous ? Vous voulez développer ?${prompt}
+  7510: Je veux que vous apportiez une boîte vide à ce vieux grincheux...${prompt}
+  7511: Et je veux que vous lui disiez qu'elle contient la peinture, mais qu'il ne peut pas l'ouvrir avant que vous lui disiez que c'est bon, car la peinture est très délicate, vous voyez ?${prompt}
+  7512: Ce vieux radin croira que la peinture est dans la boîte, et nous aurons gagné suffisamment de temps pour récupérer la vraie !${prompt}
+  7513: Quand Angelica finira la peinture, on pourra simplement l'échanger contre la boîte vide, et le vieux ne saura rien !${prompt}
+  7514: De cette manière, je n'aurai pas à lui dire que j'ai perdu la peinture...${prompt}
+  7515: '...et je pourrai éviter la punition...${prompt}'
+  7516: Cependant, je ne peux pas le faire seul ! C'est ça ! J'ai besoin de votre aide, courageux aventuriers !${prompt}
+  7517: Vous nous demandez de tromper un pauvre vieux ?${prompt}
+  7518: Vous avez du culot, nous demander de tromper un pauvre vieux !${prompt}
+  7519: Vous voulez que l'on trompe un vieux fragile, hein ?${prompt}
+  7520: Donc, vous voulez qu'on trompe un homme âgé.${prompt}
+  7521: Vous voulez qu'on mente au vieux ?${prompt}
+  7522: Tromper un pauvre vieux n'est tout simplement pas dans ma nature...${prompt}
+  7523: Donc vous voulez qu'on trompe un pauvre vieux ?${prompt}
+  7524: Vous voulez dire que vous voulez qu'on trompe un pauvre vieux !?${prompt}
+  7525: Hmph. Tromper un pauvre vieux...${prompt}
+  7526: Eh～ ? Vous voulez qu'on trompe un pauvre vieux !${prompt}
+  7527: Donc, vous voulez qu'on trompe un homme âgé.${prompt}
+  7528: La tromperie va à l'encontre de mes principes...${prompt}
+  7529: Vous avez bien l'air d'avoir besoin d'aide. D'accord, on le fera !${prompt}
+  7530: Vous êtes mon genre de gars ! On le fait !${prompt}
+  7531: Bon, peu importe. On aidera.${prompt}
+  7532: Cela semble être un sacrifice nécessaire, donc. On aidera.${prompt}
+  7533: Mais, je suppose qu'on ne peut pas y échapper. On le fera !${prompt}
+  7534: Mais, vous essayez de faire une bonne action. Alors, on vous aidera.${prompt}
+  7535: Eh bien, vous êtes dans une situation désespérée. D'accord, on le fera !${prompt}
+  7536: On dirait que c'est comme ça ! On aidera !${prompt}
+  7537: Vous avez besoin de notre aide, en effet. Comptez sur moi.${prompt}
+  7538: Mais on dirait qu'on n'a pas le choix... D'accord, on le fera !${prompt}
+  7539: Cela semble être un sacrifice nécessaire, donc. On aidera.${prompt}
+  7540: Mais, votre situation ne peut être ignorée. On vous aidera.${prompt}
+  7541: Vraiment ? Oh, merci !${prompt}
+  7542: Alors, ${name-player}, qu'est-ce que tu choisis ?${prompt}
+  7543: Préfères-tu aller voir Angelica pour recommander la peinture, ou venir avec moi chez le vieux pour gagner du temps ?${prompt}
   7544: |-
-    What will you do?
+    Que vas-tu faire ?
     ${selection-lines}
-    Go to Angelica.
-    Go to the old man with Diederik.${prompt}
-  7545: Well, I guess I'd better go earn you time, then. Good luck, ${name-player}.${prompt}
-  7546: Time to go earn some time! Later, ${name-player}!${prompt}
-  7547: I suppose I should go earn time. Later, ${name-player}.${prompt}
-  7548: I will earn time, then. May luck be with you, ${name-player}.${prompt}
-  7549: I'll go and buy us some time. Good luck, ${name-player}!${prompt}
-  7550: Leave the time-earning to me, ${name-player}. Let's do this!${prompt}
-  7551: I'll go earn you time, then. Good luck, ${name-player}.${prompt}
-  7552: I'll earn you time! Go get 'em, ${name-player}!${prompt}
-  7553: I suppose I shall go earn you time, then. Later, ${name-player}.${prompt}
-  7554: Okay, I'll earn time for you! Bye-bye, ${name-player}!${prompt}
-  7555: I will earn time, then. May luck be with you, ${name-player}.${prompt}
-  7556: I will see to the old man. Head to Windurst and do what you can, ${name-player}.${prompt}
-  7557: Well, I guess I'd better be off to see Angelica, then! Good luck, ${name-player}!${prompt}
-  7558: I'm off to catch Angelica, then! Later, ${name-player}!${prompt}
-  7559: I suppose I should go see Angelica, then. Later, ${name-player}.${prompt}
-  7560: I will go to Angelica, then. May luck be with you, ${name-player}.${prompt}
-  7561: Okay, guess I'll go see Angelica. Good luck, ${name-player}!${prompt}
-  7562: It's off to Windurst for me, then. Go earn us some time, ${name-player}!${prompt}
-  7563: I'll go meet Angelica, then. Good luck, ${name-player}.${prompt}
-  7564: I'll go talk to Angelica! Go get 'em, ${name-player}!${prompt}
-  7565: I suppose I shall go speak with Angelica, then. Later, ${name-player}.${prompt}
-  7566: Okay, I'll go talk to Angelica! Bye-bye, ${name-player}!${prompt}
-  7567: I will go to Angelica, then. May luck be with you, ${name-player}.${prompt}
-  7568: I will see to the painter. Head to Bastok and do what you can, ${name-player}.${prompt}
-  7569: Well then, it's decided. Thanks--this is a big load off my back. Things are starting to look up for me!${prompt}
-  7570: We should be fine, with all three of us working together!${prompt}
-  7571: I'll go get ready now.${prompt}
-  7572: Oh, it's you again. Angelica should be at the hostelry in Windurst.${prompt}
-  7573: Please get her to redo the painting for me!${prompt}
-  7574: Oh, it's you again. The old man's name is Umberto, and you should be able to find him in Bastok.${prompt}
-  7575: If you don't hurry, the delivery date is going to come and go! Now get out there, already!${prompt}
-  7576: 'Sorry, but you''re the only one I can count on. Please find the ${item-singular: 0[2]} for me.${prompt}'
-  7577: Back when I used to stock them, my supplier said he got them from the Korroloka Tunnel.${prompt}
-  7578: I've been waiting for you! I've got big news!${prompt}
-  7579: I found the painting that I thought I lost to the pirates!${prompt}
-  7580: I'm so relieved. Now I can just put it in that old man's box and be done with it all.${prompt}
-  7581: Eh? What'd you mean, asking me what I'm going to do with the redone painting? We've found the original, so we don't need it!${prompt}
-  7582: Think you could just hop over to Windurst for me real quick and let Angelica know she doesn't have to redo it?${prompt}
-  7583: I mean, I won't force you or anything...${prompt}
-  7584: But I've got to go pick up that original painting, you know, so it would be really nice of you if you could help me out.${prompt}
-  7585: It's not like I don't want to meet her or anything! Of course not.${prompt}
-  7586: I would be so grateful if you went and told Angelica for me.${prompt}
-  7587: What's wrong? You don't look so good. Run into trouble somewhere?${prompt}
-  7588: What!? Your friend is in trouble?${prompt}
-  7589: So what are you doing standing around here for?${prompt}
-  7590: Go and save your friend!${prompt}
-  7591: Don't you care what happens to your friend? Get out there and be brave!${prompt}
-  7592: Your friend is okay? What a relief!${prompt}
-  7593: Could you hop over to see Angelica and tell her that we don't need her to redo the painting after all?${prompt}
-  7594: She redid the painting already!? Why would she do that?${prompt}
-  7595: Anyway, I guess I'd better go slip the original painting in the box before the old man notices...${prompt}
-  7596: Thanks for all your help.${prompt}
-  7597: I'm sure your good deeds will come back to you someday. I won't forget this!${prompt}
-  7598: So what's your friend up to now?${prompt}
-  7599: If you don't know, maybe you should find out!${prompt}
-  7600: My independent survey confirms the town entrance as the preferred location from which adventurers send parcels.${prompt}
-  7601: My independent survey confirms the inn as the preferred location from which adventurers send parcels.${prompt}
-  7602: This is the information desk for the Fishermen's Guild ranking system, also known as “Fish Ranking.”${prompt}
-  7603: 'We are currently ${choice: 0}[contesting the rules for the next ranking/preparing to accept entries/accepting entries/preparing to release results/presenting ranking results to the public/on hiatus/closed].${prompt}'
+    Aller voir Angelica.
+    Aller chez le vieux avec Diederik.${prompt} 
+  7545: Eh bien, je suppose que je ferais bien d'aller gagner du temps, alors. Bonne chance, ${name-player}.${prompt}
+  7546: Il est temps de gagner du temps ! À plus, ${name-player} !${prompt}
+  7547: Je suppose que je devrais aller gagner du temps. À plus, ${name-player}.${prompt}  
+  7548: Je vais gagner du temps, alors. Que la chance soit avec toi, ${name-player}.${prompt}
+  7549: Je vais aller nous acheter un peu de temps. Bonne chance, ${name-player} !${prompt}
+  7550: Laisse-moi m'occuper de gagner du temps, ${name-player}. On y va !${prompt}
+  7551: Je vais gagner du temps, alors. Bonne chance, ${name-player}.${prompt}
+  7552: Je vais gagner du temps pour toi ! Bonne chance, ${name-player} !${prompt}
+  7553: Je suppose que je vais aller gagner du temps pour toi, alors. À plus, ${name-player}.${prompt}
+  7554: D'accord, je vais gagner du temps pour toi ! À bientôt, ${name-player} !${prompt}
+  7555: Je vais gagner du temps, alors. Que la chance soit avec toi, ${name-player}.${prompt}
+  7556: Je vais m'occuper du vieux. Va à Windurst et fais ce que tu peux, ${name-player}.${prompt}
+  7557: Eh bien, je suppose que je ferais bien d'aller voir Angelica, alors ! Bonne chance, ${name-player} !${prompt}
+  7558: Je vais aller retrouver Angelica, alors ! À plus, ${name-player} !${prompt}
+  7559: Je suppose que je devrais aller voir Angelica, alors. À plus, ${name-player}.${prompt}
+  7560: Je vais aller voir Angelica, alors. Que la chance soit avec toi, ${name-player}.${prompt}
+  7561: D'accord, je suppose que je vais aller voir Angelica. Bonne chance, ${name-player} !${prompt}
+  7562: C'est à Windurst pour moi, alors. Va gagner du temps pour nous, ${name-player} !${prompt}
+  7563: Je vais aller rencontrer Angelica, alors. Bonne chance, ${name-player}.${prompt}
+  7564: Je vais aller parler à Angelica ! Bonne chance, ${name-player} !${prompt}
+  7565: Je suppose que je vais aller parler à Angelica, alors. À plus, ${name-player}.${prompt}
+  7566: D'accord, je vais aller parler à Angelica ! À bientôt, ${name-player} !${prompt}
+  7567: Je vais aller voir Angelica, alors. Que la chance soit avec toi, ${name-player}.${prompt}
+  7568: Je vais m'occuper du peintre. Va à Bastok et fais ce que tu peux, ${name-player}.${prompt}
+  7569: Eh bien, c'est décidé. Merci -- ça me soulage beaucoup. Les choses commencent à s'arranger pour moi !${prompt}
+  7570: On devrait être bons, avec nous trois qui travaillons ensemble !${prompt}
+  7571: Je vais me préparer maintenant.${prompt}
+  7572: Oh, c'est encore toi. Angelica devrait être à l'auberge de Windurst.${prompt}
+  7573: S'il te plaît, fais-lui refaire la peinture pour moi !${prompt}
+  7574: Oh, c'est encore toi. Le nom du vieux est Umberto, et tu devrais pouvoir le trouver à Bastok.${prompt}
+  7575: Si tu ne te dépêches pas, la date de livraison va passer et tout sera foutu ! Alors, bouge !${prompt}
+  7576: 'Désolé, mais tu es le seul sur qui je puisse compter. Trouve-moi ${item-singular: 0[2]}${prompt}'
+  7577: Quand je les vendais, mon fournisseur disait qu'il les avait obtenus dans le Tunnel de Korroloka.${prompt}
+  7578: Je t'attendais ! J'ai une grande nouvelle !${prompt}
+  7579: J'ai retrouvé la peinture que je pensais avoir perdue aux mains des pirates !${prompt}
+  7580: Je suis tellement soulagé. Maintenant, je peux juste la mettre dans la boîte de ce vieux et en finir avec tout ça.${prompt}
+  7581: Eh ? Qu'est-ce que tu veux dire en me demandant ce que je vais faire de la peinture refaite ? On a retrouvé l'original, donc on n'en a pas besoin !${prompt}
+  7582: Tu crois pouvoir aller à Windurst vite fait pour dire à Angelica qu'elle n'a pas besoin de la refaire ?${prompt}
+  7583: Je veux dire, je ne vais pas te forcer ou quoi que ce soit...${prompt}
+  7584: Mais je dois récupérer cette peinture originale, tu sais, donc ce serait vraiment gentil de ta part de m'aider.${prompt}
+  7585: Ce n'est pas que je n'ai pas envie de la rencontrer ! Bien sûr que non.${prompt}
+  7586: Je te serais tellement reconnaissant si tu allais dire à Angelica pour moi.${prompt}
+  7587: Qu'est-ce qui ne va pas ? Tu n'as pas l'air bien. Tu as eu des ennuis quelque part ?${prompt}
+  7588: Quoi !? Ton ami est en difficulté ?${prompt}
+  7589: Alors, qu'est-ce que tu fais là, debout ?${prompt}
+  7590: Va sauver ton ami !${prompt}
+  7591: Tu ne te soucies pas de ce qui arrive à ton ami ? Sors et sois courageux !${prompt}
+  7592: Ton ami va bien ? Quel soulagement !${prompt} 
+  7593: Tu pourrais aller voir Angelica et lui dire qu'on n'a finalement pas besoin qu'elle refasse la peinture ?${prompt}
+  7594: Elle a déjà refait la peinture !? Pourquoi aurait-elle fait ça ?${prompt}
+  7595: Bref, je suppose que je ferais bien d'aller glisser l'original dans la boîte avant que le vieux ne remarque...${prompt}
+  7596: Merci pour toute ton aide.${prompt}
+  7597: Je suis sûr que tes bonnes actions te reviendront un jour. Je n'oublierai pas ça !${prompt}
+  7598: Alors, que fait ton ami maintenant ?${prompt}
+  7599: Si tu ne sais pas, peut-être que tu devrais aller le découvrir !${prompt}
+  7600: Mon enquête indépendante confirme que l'entrée de la ville est l'emplacement préféré des aventuriers pour envoyer des colis.${prompt}
+  7601: Mon enquête indépendante confirme que l'auberge est l'emplacement préféré des aventuriers pour envoyer des colis.${prompt}
+  7602: Voici le bureau d'information pour le système de classement de la Guilde des Pêcheurs, également connu sous le nom de « Classement des Poissons ».${prompt}
+  7603: 'Nous sommes actuellement ${choice: 0}[en train de contester les règles pour le prochain classement/en préparation pour accepter les inscriptions/acceptant les inscriptions/en préparation pour publier les résultats/présentant les résultats du classement au public/en pause/fermé].${prompt}'
   7604: |-
-    We are currently ${choice: 0}[contesting the rules for the next ranking/preparing to accept entries/accepting entries/preparing to release results/presenting ranking results to the public/on hiatus/closed].
-    You are eligible to receive an award.${prompt}
-  7605: We will now begin accepting entries for Fish Ranking. If you would like to submit an entry, please register it here.
-  7606: We are no longer accepting entries for Fish Ranking. Thank you for your submissions.
-  7607: Fish Ranking results are now available for viewing.
-  7608: Fish Ranking results are no longer available for viewing. Thank you for your cooperation.
-  7609: I'm sorry, but I cannot process your request now.${prompt}
+    Nous sommes actuellement ${choice: 0}[en train de contester les règles pour le prochain classement/en préparation pour accepter les inscriptions/acceptant les inscriptions/en préparation pour publier les résultats/présentant les résultats du classement au public/en pause/fermé].
+    Vous êtes éligible pour recevoir une récompense.${prompt}
+  7605: Nous allons maintenant commencer à accepter les inscriptions pour le Classement des Poissons. Si vous souhaitez soumettre une inscription, veuillez la enregistrer ici.
+  7606: Nous n'acceptons plus les inscriptions pour le Classement des Poissons. Merci pour vos soumissions.
+  7607: Les résultats du Classement des Poissons sont maintenant disponibles pour consultation.
+  7608: Les résultats du Classement des Poissons ne sont plus disponibles pour consultation. Merci pour votre coopération.
+  7609: Désolé, mais je ne peux pas traiter votre demande maintenant.${prompt}
   7610: |-
-    Ask about what?
+    Demander quoi ?
     ${selection-lines}
-    Current rules.
-    Confirm an entry.
-    Withdraw an entry.
-    View award history.
-    What is Fish Ranking?
-    Nothing in particular.${prompt}
-  7611: I am preparing your entry information now... Due to the high volume of applications, this may take a while.${prompt}
+    Règles actuelles.
+    Confirmer une inscription.
+    Retirer une inscription.
+    Voir l'historique des récompenses.
+    Qu'est-ce que le Classement des Poissons ?
+    Rien de particulier.${prompt}
+  7611: Je prépare maintenant les informations de votre inscription... En raison du grand nombre de candidatures, cela peut prendre un certain temps.${prompt}
   7612: |-
-    Check your entries?
+    Vérifier vos inscriptions ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7613: You currently have no entries registered for Fish Ranking.${prompt}
-  7614: 'You currently have an entry worth ${number: 0} ${choice-plurality: 0}[point/points] registered.${prompt}'
-  7615: I see you wish to withdraw your entry. I am preparing your entry information now... Due to the high volume of applications, this may take a while.${prompt}
-  7616: 'You currently have an entry worth ${number: 0} ${choice-plurality: 0}[point/points] registered.${prompt}'
+    Oui.
+    Non.${prompt}
+  7613: Vous n'avez actuellement aucune inscription enregistrée pour le Classement des Poissons.${prompt}
+  7614: 'Vous avez actuellement une inscription d’une valeur de ${number: 0} ${choice-plurality: 0}[point/points] enregistrée.${prompt}'
+  7615: Je vois que vous souhaitez retirer votre inscription. Je prépare maintenant les informations de votre inscription... En raison du grand nombre de candidatures, cela peut prendre un certain temps.${prompt}
+  7616: 'Vous avez actuellement une inscription d’une valeur de ${number: 0} ${choice-plurality: 0}[point/points] enregistrée.${prompt}'
   7617: |-
-    Withdraw this entry?
+    Retirer cette inscription ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7618: Your entry has been withdrawn.${prompt}
-  7619: Your entry could not be withdrawn.${prompt}
-  7620: Canceling entry withdrawal.${prompt}
-  7621: You currently have no entries registered for Fish Ranking.${prompt}
-  7622: 'Your fish comes to ${number: 5} ${choice-plurality: 5}[point/points] under the current rules.${prompt}'
-  7623: 'Overwrite your current high score of ${number: 1} ${choice-plurality: 1}[point/points]?${prompt}'
+    Oui.
+    Non.${prompt}
+  7618: Votre inscription a été retirée.${prompt}
+  7619: Votre inscription n'a pas pu être retirée.${prompt}
+  7620: Annulation de l'annulation d'inscription.${prompt}
+  7621: Vous n'avez actuellement aucune inscription enregistrée pour le Classement des Poissons.${prompt}
+  7622: 'Votre poisson vaut ${number: 5} ${choice-plurality: 5}[point/points] selon les règles actuelles.${prompt}'
+  7623: 'Écraser votre meilleur score actuel de ${number: 1} ${choice-plurality: 1}[point/points] ?${prompt}'
   7624: |-
-    Register your new high score?
+    Enregistrer votre nouveau meilleur score ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7625: So you would like to participate in Fish Ranking, would you? Let me examine this fish. Please wait a moment.${prompt}
+    Oui.
+    Non.${prompt}
+  7625: Donc, vous souhaitez participer au Classement des Poissons, n'est-ce pas ? Laissez-moi examiner ce poisson. Veuillez patienter un instant.${prompt}
   7626: '...'
-  7627: I'm terribly sorry, but this fish doesn't meet the requirements for entry. Please try again!${prompt}
-  7628: Great! Your fish meets the requirements.${prompt}
-  7629: 'There is a registration fee of ${number: 0} gil.${prompt}'
+  7627: Je suis vraiment désolé, mais ce poisson ne répond pas aux critères d'inscription. Veuillez réessayer !${prompt}
+  7628: Super ! Votre poisson répond aux critères.${prompt}
+  7629: 'Il y a des frais d’inscription de ${number: 0} gil.${prompt}'
   7630: |-
-    Pay up?
+    Payer ?
     ${selection-lines}
-    Sure.
-    No, thanks.${prompt}
-  7631: I will register your entry now. Please wait a moment.${prompt}
-  7632: I'm terribly sorry, but it seems that there was an error registering your entry. I'll have to return it to you.${prompt}
+    Oui.
+    Non, merci.${prompt}
+  7631: Je vais enregistrer votre inscription maintenant. Veuillez patienter un instant.${prompt}
+  7632: Je suis vraiment désolé, mais il semble qu'il y ait eu une erreur lors de l'enregistrement de votre inscription. Je vais devoir vous la rendre.${prompt}
   7633: |-
     I have registered your entry, but could not complete a final confirmation.
     Please wait a while before choosing to confirm your entry.${prompt}
@@ -19083,70 +19083,70 @@ entries:
     ${selection-lines}
     Yes, please.
     No, thank you.${prompt}
-  7980: I will get started right away. Be advised that the process is quite intricate, and thus may take a little while.${prompt}
-  7981: 'Handed over key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  7982: Selbina's mayor is looking for adventurers to fulfill a special task for him. I'm not familiar with the particulars...${prompt}
-  7983: '...But Flandiace is. He can direct you to the mayor''s residence.${prompt}'
-  7984: The mayor has been putting out the call for a particular adventurer, and I think you may be just the person he's looking for.${prompt}
-  7985: Make haste for his residence and see if you can lend him a hand.${prompt}
+  7980: Je vais commencer tout de suite. Sachez que le processus est assez complexe et pourrait donc prendre un certain temps.${prompt}
+  7981: 'Objet clé remis : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  7982: Le maire de Selbina recherche des aventuriers pour accomplir une tâche spéciale pour lui. Je ne connais pas tous les détails...${prompt}
+  7983: '...Mais Flandiace les connaît. Il peut vous diriger vers la résidence du maire.${prompt}'
+  7984: Le maire a lancé un appel pour un aventurier en particulier, et je pense que vous êtes la personne qu'il recherche.${prompt}
+  7985: Dépêchez-vous de vous rendre à sa résidence et voyez si vous pouvez lui prêter main-forte.${prompt}
   7986: |-
-    What would you like to know?
+    Que voulez-vous savoir ?
     ${selection-lines}
-    You wanted an adventurer?
-    About this town.
-    About the shops and services here.
-    Nothing.${prompt}
-  7987: Ah, you must be ${name-player}.${prompt}
-  7988: Thank you for answering the summons. One of the mayor's confidantes has been asking for you.${prompt}
-  7989: I'm Abelard, mayor of this village. It's so tiny, you see, that all I do is mediate when there are disagreements.${prompt}
-  7990: A pira...entrepreneur associate of mine known as Gilgamesh has had your name on his lips the past several days.${prompt}
-  7991: He rescued a young woman adrift at sea, and she spoke quite highly of you when she woke up.${prompt}
-  7992: Finding you has removed one burden off my shoulders, but there remains yet another.${prompt}
-  7993: You see, Gilgamesh made a second request.${prompt}
-  7994: 'He''s looking for ${item-plural: 1[2]} that can be procured from some of the large bees around the Crag of Holla or Crag of Dem.${prompt}'
-  7995: Their medicinal properties are highly valued even during times of peace, and what with the recent strange happenings...${prompt}
-  7996: You probably know what I'm going to ask.${prompt}
-  7997: 'Wrest three ${item-plural: 1[2]} from those buzzing menaces located around either of the two aforementioned crags.${prompt}'
-  7998: Of course, your efforts will be duly rewarded.${prompt}
-  7999: Best of luck!${prompt}
-  8000: Oho! You've brought them back safely, then?${prompt}
-  8001: Gilgamesh and his entourage've just arrived back in port.${prompt}
-  8002: ${name-player}, good t' see yer face again!${prompt}
-  8003: So you're ${name-player}, eh? I've heard much 'bout ya.${prompt}
-  8004: 'My friend, ${name-player} gathered these ${item-plural: 1[2]}, just as you requested.${prompt}'
-  8005: Aye, this be just what we ordered. Now a little tit-fer-tat...${prompt}
-  8006: Excellent. I think adventurers would have a use for these.${prompt}
-  8007: So here, ${name-player}--for you.${prompt}
-  8008: Suppose we'd best get down t' business.${prompt}
-  8009: ${name-player}, yer intimately familiar with my journeys as a pirate on the Bastore Sea.${prompt}
-  8010: ${name-player}, might come as a bit of a surprise to hear this, but I'm a pirate known for roamin' the Bastore Sea.${prompt}
-  8011: The oceans ta the west have been a bit stormier'n usual of late, an' me crew an' I came across a small vessel adrift upon the tides.${prompt}
-  8012: So 'course I say to meself, who'd'a thunk that such a delicate rowboat could stay whole in such a terrible brew...an' then the whole thin' started flashin' red.${prompt}
-  8013: Being the curious sailor I am, I went an' investigated. Lo and behold, there was a pretty young lass lyin' prone along the deck.${prompt}
-  8014: I've always had quite the fondness fer the color red. Figurin' it must be a sign from Altana herself, I took her on board and brought her back with me ta Norg.${prompt}
-  8015: When she came to, the first words from those pale lips of hers were yer name.${prompt}
-  8016: So I want ya ta come back ta Norg with us. She was quite insistent on meetin' ya.${prompt}
-  8017: Ya see, she's gone on a bit of a...hunger strike.${prompt}
-  8018: The ship's docked at port waitin' ta take you whenever ya've got yer affairs in order here.${prompt}
-  8019: I just remembered a bit of a pressin' engagement I've gotta attend to, but I'll catch up with ya there.${prompt}
-  8020: I...I have a request. Don't breathe a word to the populace that I aided a known pirate.${prompt}
-  8021: Their activities aren't completely on the up-and-up, but as a port town, we still depend on them.${prompt}
-  8022: And while we're talking of aid, remember to use that item I gave you.${prompt}
-  8023: Isacio here in town will know what to do with it.${prompt}
-  8024: I'm sure it'll aid you in your travels.${prompt}
-  8025: We're settin' sail fer Norg, landlubber! Hopefully you can handle the rough seas.${prompt}
+    Vous recherchiez un aventurier ?
+    À propos de cette ville.
+    À propos des magasins et services ici.
+    Rien.${prompt}
+  7987: Ah, vous devez être ${name-player}.${prompt}
+  7988: Merci d'avoir répondu à l'appel. L'un des confidents du maire vous attend.${prompt}
+  7989: Je suis Abelard, maire de ce village. Il est tellement petit, vous voyez, que tout ce que je fais, c'est intervenir en cas de désaccord.${prompt}
+  7990: Un pira...associé entrepreneur à moi nommé Gilgamesh n'arrête pas de prononcer votre nom depuis plusieurs jours.${prompt}
+  7991: Il a sauvé une jeune femme perdue en mer, et elle a parlé de vous en des termes très élogieux lorsqu'elle s'est réveillée.${prompt}
+  7992: Vous m'avez ôté un fardeau, mais il reste encore une autre tâche.${prompt}
+  7993: Vous voyez, Gilgamesh a fait une deuxième demande.${prompt}
+  7994: 'Il cherche ${item-plural: 1[2]} que l’on peut obtenir auprès de certaines grandes abeilles autour du Crag of Holla ou du Crag of Dem.${prompt}'
+  7995: Leurs propriétés médicinales sont très appréciées, même en temps de paix, et avec les récents événements étranges...${prompt}
+  7996: Vous savez probablement ce que je vais vous demander.${prompt}
+  7997: 'Arrachez trois ${item-plural: 1[2]} à ces nuisances bourdonnantes situées autour de l’un des deux crags mentionnés.${prompt}'
+  7998: Bien sûr, vos efforts seront dûment récompensés.${prompt}
+  7999: Bonne chance !${prompt}
+  8000: Oho ! Vous les avez ramenées en toute sécurité, alors ?${prompt}
+  8001: Gilgamesh et son entourage viennent tout juste de revenir au port.${prompt}
+  8002: ${name-player}, heureux de revoir votre visage !${prompt}
+  8003: Donc, vous êtes ${name-player}, hein ? J'ai entendu beaucoup parler de vous.${prompt}
+  8004: 'Mon ami, ${name-player} a rassemblé ces ${item-plural: 1[2]}, comme vous l’avez demandé.${prompt}'
+  8005: Aye, c'est exactement ce que nous avons commandé. Maintenant, un petit échange...${prompt}
+  8006: 'Excellent. Je pense que les aventuriers auraient bien l’usage de ces ${item-plural: 1[2]}.${prompt}'
+  8007: Voici, ${name-player}--pour vous.${prompt}
+  8008: Je suppose que nous devrions passer aux choses sérieuses.${prompt}
+  8009: ${name-player}, vous êtes intimement familier avec mes voyages en tant que pirate sur la mer de Bastore.${prompt}
+  8010: ${name-player}, cela pourrait vous surprendre, mais je suis un pirate connu pour errer sur la mer de Bastore.${prompt}
+  8011: Les océans à l'ouest sont un peu plus orageux que d'habitude ces derniers temps, et mon équipage et moi avons trouvé un petit navire à la dérive sur les vagues.${prompt}
+  8012: Donc bien sûr, je me suis dit, qui aurait cru qu'un petit canot pourrait rester intact dans une tempête aussi violente... et puis toute la chose a commencé à clignoter en rouge.${prompt}
+  8013: Étant le marin curieux que je suis, je suis allé enquêter. Et voilà, il y avait une jolie jeune fille allongée sur le pont.${prompt}
+  8014: J'ai toujours eu une certaine affection pour la couleur rouge. Pensant que c'était un signe d'Altana elle-même, je l'ai prise à bord et je l'ai ramenée avec moi à Norg.${prompt}
+  8015: Lorsqu'elle est revenue à elle, ses premiers mots de ses lèvres pâles ont été votre nom.${prompt}
+  8016: Alors je veux que vous veniez avec nous à Norg. Elle tenait absolument à vous rencontrer.${prompt}
+  8017: Vous voyez, elle a un peu... entrepris une grève de la faim.${prompt}
+  8018: Le navire est amarré au port, prêt à vous emmener dès que vous aurez réglé vos affaires ici.${prompt}
+  8019: Je viens de me rappeler un engagement pressant, mais je vous retrouverai là-bas.${prompt}
+  8020: Je... J'ai une demande. Ne dites rien à la population sur le fait que j'ai aidé un pirate connu.${prompt}
+  8021: Leurs activités ne sont pas complètement irréprochables, mais en tant que ville portuaire, nous en dépendons encore.${prompt}
+  8022: Et tant qu'on parle d'aide, n'oubliez pas d'utiliser cet objet que je vous ai donné.${prompt}
+  8023: Isacio ici en ville saura quoi en faire.${prompt}
+  8024: Je suis sûr qu'il vous aidera dans vos voyages.${prompt}
+  8025: Nous mettons les voiles pour Norg, moussaillon ! J'espère que vous pourrez supporter la mer agitée.${prompt}
   8026: |-
-    Travel to Norg?
+    Voyager vers Norg ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  8027: Hoist the sails, mateys! We're off!${prompt}
-  8028: Bwahaha, take all the time ye need!${prompt}
-  8029: Sod off.${prompt}
-  8030: There appears to be a tear in the fabric of space...${prompt}
-  8031: Your party's leader is currently examining the entrance.${prompt}
-  8032: Only party leaders may examine the entrance.${prompt}
-  8033: Only party leaders may enter the instance.${prompt}
+    Oui.
+    Non.${prompt}
+  8027: Hissez les voiles, camarades ! Nous partons !${prompt}
+  8028: Bwahaha, prends tout le temps qu'il te faut !${prompt}
+  8029: Dégage.${prompt}
+  8030: Il semble y avoir une déchirure dans le tissu de l'espace...${prompt}
+  8031: Le chef de votre groupe examine actuellement l'entrée.${prompt}
+  8032: Seuls les chefs de groupe peuvent examiner l'entrée.${prompt}
+  8033: Seuls les chefs de groupe peuvent entrer dans l'instance.${prompt}
   8034: |-
     Select a difficulty.
     ${selection-lines}
