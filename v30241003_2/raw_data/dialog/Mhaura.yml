@@ -18061,6 +18061,9 @@ entries:
           Plus profonde...${wait-36: 2}
             ......${wait-36: 2}
               Plus forte...${wait-animation: 2}${prompt}
+  7389: |-        
+    ...? 
+    ...quelque chose...d'interférer...?${prompt}                                     
   7390: |-
     ${name-player}... !
     Écoute la voix en toi !${prompt}
@@ -18837,25 +18840,25 @@ entries:
     Take this, and may it serve you well.${prompt}
   7777: Mauriri is my name, and sending parcels from Mhaura is my game.♪${prompt}
   7778: |-
-    À la recherche d'une entreprise de livraison qui n'est pas banale ?
-    La qualité de mon service met Mauriri au défi !${prompt}
-  7779: Impossible d'entrer dans la zone suivante. Extension non installée.${prompt}
-  7780: 'Vous ne possédez pas ${keyitem-article: 0[2]}. Vous n’avez pas été autorisé à monter à bord du navire...${prompt}'
+    Looking for a delivery company that isn't lamey-wame?
+    The quality of my service puts Mauriri to shame!${prompt}
+  7779: Unable to enter next area. Expansion pack not installed.${prompt}
+  7780: 'You do not possess ${keyitem-article: 0[2]}. You were not permitted to board the ship...${prompt}'
   7781: |-
-    Bienvenue au service de portage de la MHMU, kupo !
-    De quels objets encombrants souhaitez-vous vous décharger aujourd'hui ?${prompt}
+    Welcome to the MHMU's porter service, kupo!
+    Which of your burdensome belongings shall I take off your hands today?${prompt}
   7782: |-
-    Faire quelque chose, kupo ?
+    Do something, kupo?
     ${selection-lines}
-    Service de portage ?
-    Acheter un ticket de stockage.
-    Non, merci.${prompt}
+    Porter service?
+    Buy a storage slip.
+    No, thank you.${prompt}
   7783: |-
-    Votre gobbiebag déborde ? Mog Safe est plein à craquer ?
-    Eh bien, un aventurier accompli comme vous a sûrement plus de choses qu'il ne sait en faire.${prompt}
+    Is your gobbiebag splitting at the seams? Mog Safe spilling over?
+    Why, an accomplished adventurer like yourself surely has more stuff than you know what to do with.${prompt}
   7784: |-
-    C'est là que j'interviens, kupo.
-    Je garderai volontiers vos objets précieux, libérant ainsi de la place pour que vous puissiez ramasser encore plus de trésors.${prompt}
+    That's where I come in, kupo.
+    I'll gladly hold onto your prized possessions, freeing you space to gather up even grander goodies.${prompt}
   7785: 'To make use of my services, first you''ll need to buy one of these storage slips for the low, low fee of ${number: 19} gil.${prompt}'
   7786: Storage slips come in numerous varieties, kupo, each corresponding to a different type of item.${prompt}
   7787: You'll want to peruse the fine print closely, so you don't end up paying good gil for a scrap of parchment useless for the particular item you wish to store.${prompt}
@@ -19518,28 +19521,28 @@ entries:
   8035: Ah, you must be the adventurer the governor was looking for!${prompt}
   8036: She has been putting out a call for days now--see if you can lend her a hand.${prompt}
   8037: |-
-    What do you wish to know?
+    Que souhaitez-vous savoir ?
     ${selection-lines}
-    You're searching for adventurers?
-    Tell me about Mhaura.
-    Any shops or guilds in town?
-    Where can I find some work?
-    Nothing for now.${prompt}
-  8038: Ah, I was told to expect someone named ${name-player}. Would that be you?${prompt}
-  8039: Forgive me for not recognizing you sooner. I had been told to be on the lookout and usher you into the governor's office without delay.${prompt}
-  8040: Oh, this is wonderful, indeed! I was worried I'd have to hunt and peck for you all down the coast.${prompt}
-  8041: I, Ekokoko, serve as the governor of our bright town.${prompt}
-  8042: Truth be told, I was not the one who sought you out. No, that would be Gilgamesh, one of Vana'diel's most renowned pir--er, entrepreneurs.${prompt}
-  8043: Something about setting sail and finding someone lost at sea? Bah, I never had much of a head for details.${prompt}
-  8044: What I do know is that your name came up on more than one occasion.${prompt}
-  8045: 'He also mentioned something about wanting you to procure some ${item-plural: 1[2]} from mandragoras around the Crag of Mea before you meet him.${prompt}'
-  8046: He hopes to use it to create a special herbal remedy for his crew--er, associates.${prompt}
-  8047: The world has been bursting at the seams with odd news these days, and frankly, none of us here can make heads or tails of it all.${prompt}
-  8048: 'And Mhaura has felt the effects particularly hard--our supply of ${item-plural: 1[2]} has been dwindling.${prompt}'
-  8049: I'll call Gilgamesh back to port immediately.${prompt}
-  8050: 'In the meantime, rough up some of those mandragoras and come back with three ${item-plural: 1[2]}.${prompt}'
-  8051: And yes, I am well aware that adventurers often charge a fee for their services, and I will personally see to it that you are properly recompensed.${prompt}
-  8052: Come back soon!${prompt}
+    Vous cherchez des aventuriers ?
+    Parlez-moi de Mhaura.
+    Y a-t-il des magasins ou des guildes en ville ?
+    Où puis-je trouver du travail ?
+    Rien pour le moment.${prompt}
+  8038: Ah, on m'a dit de m'attendre à quelqu'un nommé ${name-player}. Ce serait vous ?${prompt}
+  8039: Pardonnez-moi de ne pas vous avoir reconnu plus tôt. On m'avait dit de vous surveiller et de vous faire entrer dans le bureau du gouverneur sans délai.${prompt}
+  8040: Oh, c'est merveilleux, en effet ! Je craignais de devoir vous chercher sur toute la côte.${prompt}
+  8041: Je suis Ekokoko, gouverneur de notre belle ville.${prompt}
+  8042: À vrai dire, ce n'est pas moi qui vous ai cherché. Non, c'est Gilgamesh, l'un des plus célèbres pir--euh, entrepreneurs de Vana'diel.${prompt}
+  8043: Quelque chose à propos de prendre le large et de retrouver quelqu'un perdu en mer ? Bah, je n'ai jamais été doué pour les détails.${prompt}
+  8044: Ce que je sais, c'est que votre nom a été mentionné plus d'une fois.${prompt}
+  8045: 'Il a aussi mentionné qu’il voulait que vous vous procuriez des ${item-plural: 1[2]} de mandragores autour du Crag of Mea avant de le rencontrer.${prompt}'
+  8046: Il espère s'en servir pour créer un remède à base de plantes spécial pour son équipage--euh, ses associés.${prompt}
+  8047: Le monde regorge de nouvelles étranges ces derniers temps, et franchement, aucun d'entre nous ici n'arrive à y voir clair.${prompt}
+  8048: 'Et Mhaura a particulièrement ressenti les effets--notre réserve de ${item-plural: 1[2]} s’est réduite.${prompt}'
+  8049: Je vais rappeler Gilgamesh au port immédiatement.${prompt}
+  8050: 'En attendant, embêtez quelques mandragores et revenez avec trois ${item-plural: 1[2]}.${prompt}'
+  8051: Et oui, je suis bien conscient que les aventuriers demandent souvent une rétribution pour leurs services, et je veillerai personnellement à ce que vous soyez correctement rémunéré.${prompt}
+  8052: Revenez vite !${prompt}
   8053: How fabulous that you made it back safe, ${name-player}!${prompt}
   8054: Your return couldn't have been more timely--Gilgamesh's ship has only just docked.${prompt}
   8055: ${name-player}, good t' see yer face again!${prompt}
