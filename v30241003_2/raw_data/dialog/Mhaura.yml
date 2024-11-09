@@ -18053,64 +18053,61 @@ entries:
     ${selection-lines}
     Oui.
     Attends !${prompt}
-  7387: Listen...to the voice without--my voice--with your ears...and your heart...${prompt}
+  7387: Écoute...la voix sans--ma voix--avec tes oreilles...et ton cœur...${prompt}
   7388: |-
-    Bring me...${wait-36: 3}
-      Power...${wait-36: 3}
-        Higher...${wait-36: 2}
-          Deeper...${wait-36: 2}
+    Apporte-moi...${wait-36: 3}
+      La puissance...${wait-36: 3}
+        Plus élevée...${wait-36: 2}
+          Plus profonde...${wait-36: 2}
             ......${wait-36: 2}
-              Stronger...${wait-animation: 2}${prompt}
-  7389: |-
-    ...?
-    ...something...interfering...?${prompt}
+              Plus forte...${wait-animation: 2}${prompt}
   7390: |-
-    ${name-player}...!
-    Listen to the voice within you!${prompt}
-  7391: If you focus, you will see the true Vana'diel!${prompt}
-  7392: '...Even if...that...'
+    ${name-player}... !
+    Écoute la voix en toi !${prompt}
+  7391: Si tu te concentres, tu verras le véritable Vana'diel !${prompt}
+  7392: '...Même si...ça...${prompt}'
   7393: |-
-    Uh?
-    Huh? I went all spacey-wacey for a moment there...${prompt}
+    Hein ?
+    Quoi ? Je me suis un peu perdu là...${prompt}
   7394: |-
-    Um, excuse me, but who were you again?
-    Was I speaking with you? What were we talking about?${prompt}
-  7395: Did I already tell you I'm a researcher from the Rhinostery in Windurst?${prompt}
-  7396: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
-  7397: Owzie-wowzie! Don't make me talk. I hurt all over!${prompt}
-  7398: Hey, Juroro!
-  7399: Oh, it's Ildy-Goldy!${prompt}
-  7400: It's been some time since you made that tuning fork. Are you still researching those giant-viant crystals?${prompt}
-  7401: Ah, yes, I've asked a veteran adventurer to look into that for me, but ${choice-player-gender}[he/she] hasn't come back yet.${prompt}
+    Euh, excuse-moi, mais qui étais-tu déjà ?
+    Est-ce que je parlais avec toi ? De quoi parlions-nous ?${prompt}
+  7395: Est-ce que je t'ai déjà dit que je suis chercheur au Rhinostery de Windurst ?${prompt}
+  7396: 'Tu es maintenant capable d’invoquer ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
+  7397: Owzie-wowzie ! Ne me fais pas parler. J'ai mal partout !${prompt}
+  7398: Hé, Juroro !
+  7399: Oh, c'est Ildy-Goldy !${prompt}
+  7400: Cela fait un moment depuis que tu as fabriqué ce diapason. Tu continues de faire des recherches sur ces cristaux géants ?${prompt}
+  7401: Ah, oui, j'ai demandé à un aventurier vétéran de s'en occuper pour moi, mais ${choice-player-gender}[il/elle] n'est pas encore revenu(e).${prompt}
   7402: |-
-    ...Wait.
-    Did ${choice-player-gender}[he/she] come back already?
-    ...Or did I even ask ${choice-player-gender}[him/her] to do that yet?${prompt}
+    ...Attends.
+    Est-ce que ${choice-player-gender}[il/elle] est déjà revenu(e) ?
+    ...Ou est-ce que je lui ai même demandé de faire ça ?${prompt}
   7403: |-
-    Vhat's wrong vith you? Pull yourself together, man.
-    I don't think the food in this country agrees with you. Or maybe you haven't been getting enough snoozy-vooze time lately?${prompt}
+    Qu'est-ce qui ne va pas chez toi ? Reprends-toi, mon gars.
+    Je ne pense pas que la nourriture dans ce pays te convienne. Ou peut-être que tu n'as pas assez dormi récemment ?${prompt}
   7404: |-
-    No, it's nothing like that...
-    I guess I have been kinda tired lately, though...${prompt}
+    Non, ce n'est pas ça...
+    Je suppose que j'ai été un peu fatigué ces derniers temps, quand même...${prompt}
   7405: |-
-    Vell, no mattaru.
-    I'll go take a look. I've been asked to carry out an experiment with the new version of the ${keyitem-singular: 1[2]}, the ${color: 5}improved tuning fork of earth${color: 1}.${prompt}
-  7406: 'Hey ${choice-player-gender}[Mister/Miss] Adventurer, you look like the reliable-viable type. Maybe you can help me out here. Take this ${item-singular: 3[2]} to the Quicksand Caves in the Eastern Altepa Desert.${prompt}'
-  7407: 'Using my improved tuning fork of earth along with the ${item-singular: 3[2]}, should allow more people to be drawn into the crystal than using the regular ${keyitem-singular: 1[2]}.${prompt}'
-  7408: Ildy-Goldy is extremely-wemely proficient in hand-to-hand combat, something very unusual among we Tarutaru. He's always high on the list when researchers are looking for a Rhinostery adventurer to accompany them to the wild lands.${prompt}
-  7409: With his skill, he's likely to defeat the avatar that slumbers within the protocrystal.${prompt}
-  7410: 'Please make your way to the Quicksand Caves of the Eastern Altepa Desert and bring the ${item-singular: 5[2]} into contact with the crystal.${prompt}'
+    Eh bien, peu importe.
+    Je vais aller jeter un œil. On m'a demandé de mener une expérience avec la nouvelle version du ${keyitem-singular: 1[2]}, le ${color: 5}diapason amélioré de terre${color: 1}.${prompt}
+  7406: 'Hé ${choice-player-gender}[Monsieur/Mademoiselle] Aventurier, tu as l’air du type fiable et compétent. Peut-être que tu peux m’aider ici. Prends ce ${item-singular: 3[2]} et va aux Cavernes de Sables mouvants dans le Désert Altepa de l’Est.${prompt}'
+  7407: 'En utilisant mon diapason amélioré de terre avec le ${item-singular: 3[2]}, plus de personnes devraient pouvoir être attirées vers le cristal que si on utilise le diapason classique ${keyitem-singular: 1[2]}.${prompt}'
+  7408: Ildy-Goldy est extrêmement compétent en combat à mains nues, ce qui est très rare chez les Tarutaru. Il est toujours en haut de la liste lorsque les chercheurs cherchent un aventurier du Rhinostery pour les accompagner dans les terres sauvages.${prompt}
+  7409: Avec ses compétences, il est probablement capable de vaincre l'avatar qui sommeille dans le protocrystal.${prompt}
+  7410: 'S’il te plaît, rends-toi aux Cavernes de Sables mouvants dans le Désert Altepa de l’Est et mets le ${item-singular: 5[2]} en contact avec le cristal.${prompt}'
   7411: |-
-    ...By the way...
-    You probably want to assist Ildy-Goldy with his experiment, but have you ever thought of doing your own investigation into the protocrystals?${prompt}
+    ...Au fait...
+    Tu veux probablement aider Ildy-Goldy avec son expérience, mais as-tu déjà pensé à mener ta propre enquête sur les protocrystaux ?${prompt}
   7412: |-
-    Do you want to do your own investigation?
+    Tu veux mener ta propre enquête ?
     ${selection-lines}
-    Yes, I thirst for knowledge!
-    Um, not really...${prompt}
+    Oui, je soif de connaissance !
+    Euh, pas vraiment...${prompt}
   7413: |-
-    Well, then.
-    First, let me introduce myself.${prompt}
+    Eh bien, dans ce cas.
+    Laisse-moi d'abord me présenter.${prompt}
   7414: I am a researcher from the Rhinostery in Windurst. Rhinostery researchers study all kinds of plants and animals in every corner of Vana'diel.${prompt}
   7415: 'You lost the ${item-singular: 1[2]}!?${prompt}'
   7416: |-
