@@ -18279,13 +18279,13 @@ entries:
   7531: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
   7532: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
   7533: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
-  7534: 'Currently, ${number: 3} members of your party (including yourself) have clearance to enter the battlefield.${prompt}'
-  7535: 'Currently, ${number: 3} members of your alliance (including yourself) have clearance to enter the battlefield.${prompt}'
-  7536: Only ${name-player} can enter the battlefield.${prompt}
-  7537: 'The time limit for this battle is ${number: 3} minutes.${prompt}'
-  7538: 'There is a crack in the ${item-singular: 3[2]}. It no longer contains a monster.${prompt}'
-  7539: 'A crack has formed on the ${item-singular: 3[2]}, and the beast inside has been unleashed!${prompt}'
-  7540: 'Boss mode : ${number: 6}!!${wait-animation: 1}${prompt}'
+  7534: 'Actuellement, ${number: 3} membres de ton groupe (y compris toi-même) ont l’autorisation d’entrer sur le champ de bataille.'
+  7535: 'Actuellement, ${number: 3} membres de ton alliance (y compris toi-même) ont l’autorisation d’entrer sur le champ de bataille.'
+  7536: 'Seul ${name-player} peut entrer sur le champ de bataille.'
+  7537: 'Le temps imparti pour cette bataille est de ${number: 3} minutes.'
+  7538: 'Il y a une fissure dans le ${item-singular: 3[2]}. Il ne contient plus de monstre.'
+  7539: 'Une fissure s’est formée sur le ${item-singular: 3[2]}, et la bête à l’intérieur a été libérée !'
+  7540: 'Mode boss : ${number: 6} !!'
   7541: |-
     Room number to attempt: ${number: 0}.
     Desired boss mode: ${number: 1}.
@@ -18335,10 +18335,10 @@ entries:
     ${selection-lines}
     Oui.
     Non.${prompt}
-  7563: 'Temps de clear du champ de bataille : ${number: 3} seconde${choice-plurality: 3}[/s] !'
-  7564: 'Temps de clear du champ de bataille : ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} seconde${choice-plurality: 2}[/s] !'
-  7565: 'Le record actuel du temps de clear du champ de bataille est de ${number: 3} seconde${choice-plurality: 3}[/s].'
-  7566: 'Le record actuel du temps de clear du champ de bataille est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
+  7563: 'Le record de temps du champ de bataille : ${number: 3} seconde${choice-plurality: 3}[/s] !'
+  7564: 'Le record de temps du champ de bataille : ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} seconde${choice-plurality: 2}[/s] !'
+  7565: 'Le record de temps actuel sur le champ de bataille est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7566: 'Le record de temps actuel sur le champ de bataille est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
   7567: |-
     NPC appelé !
     ID PC = ${number: 0} !
