@@ -16203,12 +16203,12 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6514: How about a magic map to help you on your adventures?${prompt}
+  6514: Que dirais-tu d'une carte magique pour t'aider dans tes aventures ?${prompt}
   6515: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
+    Refuser.
+    Demander des informations sur les cartes.
     ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
     ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
     ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
@@ -16225,31 +16225,31 @@ entries:
     ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
     ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
     ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6516: If you have a map, you can check both the lay of the land and your location whenever you enter an area.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
+  6516: Si tu as une carte, tu peux consulter à la fois le terrain et ta position chaque fois que tu entres dans une zone.${prompt}
   6517: |-
-    If you belong to a party or alliance, you can also check the position of your allies.
-    And depending on your job, you can find NPCs and enemies from afar.${prompt}
+    Si tu fais partie d'un groupe ou d'une alliance, tu peux également voir la position de tes alliés.
+    Et en fonction de ton métier, tu peux repérer les PNJ et les ennemis de loin.${prompt}
   6518: |-
-    Furthermore, you can even record specific points in the area or have places marked down for certain events.
-    So you see, magic maps are extremely useful.${prompt}
+    De plus, tu peux même enregistrer des points spécifiques dans la zone ou marquer des lieux pour certains événements.
+    Comme tu vois, les cartes magiques sont extrêmement utiles.${prompt}
   6519: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d'Oria.
+    Elle coûte ${number: 3} gils.${prompt}
   6520: |-
-    The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Gustaberg, les Hautes terres de Konschtat, les Marécages de Pashhow et Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6521: |-
-    The ${keyitem-singular: 1[2]} covers Sarutabaruta, the Tahrongi Canyon, the Buburimu Peninsula, the Meriphataud Mountains, Mhaura, and Windurst.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Monts Meriphataud, Mhaura et Windurst.
+    Elle coûte ${number: 3} gils.${prompt}
   6522: |-
-    The ${keyitem-singular: 1[2]} covers Batallia Downs, Rolanberry Fields, the Sauromugue Champaign, and Jeuno.
-    It costs ${number: 3} gil.${prompt}
-  6523: 'This complete ${keyitem-singular: 1[2]}, which extend far beneath La Theine Plateau, costs ${number: 3} gil.${prompt}'
-  6524: '${lettercase: 1}${keyitem-plural: 1[2]} include layouts for both outpost and fortress of Ghelsba, as well as the Yughott Grotto. It costs ${number: 3} gil.${prompt}'
-  6525: 'The ${keyitem-singular: 1[2]} shows the notorious Orcish stronghold hidden within Jugner Forest. It is priced at ${number: 3} gil.${prompt}'
-  6526: 'This map shows the waterways and islands that make up Carpenters'' Landing. It is priced at ${number: 3} gil.${prompt}'
+    La ${keyitem-singular: 1[2]} couvre Batallia Downs, les Champs de Rolanberry, la Campagne de Sauromugue et Jeuno.
+    Elle coûte ${number: 3} gils.${prompt}
+  6523: 'Cette ${keyitem-singular: 1[2]} complète, qui s’étend bien en dessous du Plateau de La Theine, coûte ${number: 3} gils.${prompt}'
+  6524: '${lettercase: 1}${keyitem-plural: 1[2]} incluent les plans du poste avancé et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Elle coûte ${number: 3} gils.${prompt}'
+  6525: 'La ${keyitem-singular: 1[2]} montre le célèbre bastion Orc caché dans la Forêt de Jugner. Elle est au prix de ${number: 3} gils.${prompt}'
+  6526: 'Cette carte montre les cours d’eau et les îles qui composent le Débarcadère des Charpentiers. Elle est au prix de ${number: 3} gils.${prompt}'
   6527: |-
     The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Bastok's Zeruhn Mines.
     It costs ${number: 3} gil.${prompt}
@@ -16801,43 +16801,43 @@ entries:
   6834: Item transfer complete, kupo.${prompt}
   6835: '${number: 2} , ${number: 3}${prompt}'
   6836: |-
-    Greetings adventurer! I'm so glad you've come, kupo!
-    To celebrate the safe recovery of all eleven of King Kupofried's mog tablets, we're offering a limited-time teleportation service for the low, low price of ${number: 0} gil! What do you say?${prompt}
+    Salutations, aventurier ! Je suis si heureux que tu sois venu, kupo !
+    Pour célébrer la récupération sécurisée des onze tablettes mog de Roi Kupofried, nous offrons un service de téléportation pour le prix très bas de ${number: 0} gil ! Qu'en dis-tu ?${prompt}
   6837: |-
-    Teleport to where? (Cost: ${number: 0} gil.)
+    Téléporter vers où ? (Coût : ${number: 0} gil.)
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     San d'Oria.
     Bastok.
     Windurst.
     Selbina.
     Mhaura.${prompt}
   6838: |-
-    Your wish is my command, kupo!
-    For a small fee of ${number: 0} gil, that is...${prompt}
-  6839: Safe travels, kupo!
-  6840: Looks like you're light on funds, kupo... Sorry!${prompt}
+    Ton souhait est mon commandement, kupo !
+    Pour un petit prix de ${number: 0} gil, bien sûr...${prompt}
+  6839: Bon voyage, kupo !
+  6840: On dirait que tu es à court de fonds, kupo... Désolé !${prompt}
   6841: |-
-    What's this? You're still new to this land?
-    I'm afraid you're not yet strong enough to handle our potent moogle magic!
-    Just forget I said anything, kupo!${prompt}
+    Qu'est-ce que c'est ? Tu es encore nouveau dans cette contrée ?
+    J'ai bien peur que tu ne sois pas encore assez fort pour supporter notre puissante magie mog !
+    Oublie ce que j'ai dit, kupo !${prompt}
   6842: |-
-    Oh, what a shame! The mog tablets have been scattered to the winds once more!
-    Without their power, I'm afraid we can't help you, kupo.${prompt}
+    Oh, quel dommage ! Les tablettes mog ont été de nouveau dispersées aux quatre vents !
+    Sans leur pouvoir, j'ai bien peur de ne pouvoir t'aider, kupo.${prompt}
   6843: |-
-    Hello.
-    I haven't seen you around here beforrre. Are you new in town?${prompt}
+    Bonjour.
+    Je ne t'ai jamais vu par ici auparavantrrre. Es-tu nouveau en ville ?${prompt}
   6844: |-
-    Are you new to Mhaura?
+    Es-tu nouveau à Mhaura ?
     ${selection-lines}
-    Yes, it's my first time here.
-    No, I've come here plenty of times.${prompt}
+    Oui, c'est ma première fois ici.
+    Non, je suis venu ici de nombreuses fois.${prompt}
   6845: |-
-    Ah, I thought so. Welcome to Mhaura.
-    You should go to the governor's house. They'll tell you all you need to know about our little town.${prompt}
-  6846: First, climb the stairs there, and walk along the ledge to another set of stairs. Go up, and you're therrre.${prompt}
-  6847: You're not pulling my tail, are you? Hmm...I guess I must've just missed you. Still, you look lost.${prompt}
-  6848: Have you been to the governor's house yet? If not, you should. They'll tell you all you need to know about our little town.${prompt}
+    Ah, c'est bien ce que je pensais. Bienvenue à Mhaura.
+    Tu devrais aller à la maison du gouverneur. Ils te diront tout ce que tu dois savoir sur notre petite ville.${prompt}
+  6846: D'abord, monte les escaliers là-bas, et marche le long de la corniche jusqu'à un autre escalier. Monte, et tu y esrrres.${prompt}
+  6847: Tu ne te moques pas de moi, hein ? Hmm... Je suppose que j'ai dû te manquer de peu. Mais tu as l'air perdu.${prompt}
+  6848: Es-tu allé à la maison du gouverneur ? Si ce n'est pas le cas, tu devrais y aller. Ils te diront tout ce que tu dois savoir sur notre petite ville.${prompt}
   6849: |-
     Bonjour, par ici.
     Je ne crois pas vous avoir déjà vu.
@@ -18280,35 +18280,35 @@ entries:
     ${selection-lines}
     Fork me baby, one more time.
     Stick a fork in me, I'm done.${prompt}
-  7494: Hey! You're that famous adventurer, ${name-player}!${prompt}
-  7495: Maybe you can help us outaru!${prompt}
-  7496: Let me introduce myself. I am from the Rhinostery in Windurst. I do research on various living things.${prompt}
-  7497: You already-weddy know about the super-giant crystals, rightaru?${prompt}
+  7494: Hé ! Tu es cet aventurier célèbre, ${name-player} !${prompt}
+  7495: Peut-être que tu peux nous aideraru !${prompt}
+  7496: Permets-moi de me présenter. Je viens du Rhinostery à Windurst. Je fais des recherches sur diverses formes de vie.${prompt}
+  7497: Tu connais déjà les super-cristaux géants, n'est-ce pasaru ?${prompt}
   7498: |-
-    Why do these avatars so despise talking with us that they would rather fight?
-    And what on Vana'diel would happen if someone were to defeat them?${prompt}
-  7499: You were able to handle one all by yourself. You should have no problem defeating one with your buddy-wuddies. You'll help us out, right?${prompt}
-  7500: Ahem, now let me introduce myself...${prompt}
-  7501: Ah, you are back. How was your battle with the avatar?${prompt}
-  7502: Remember, the protocrystals will only resonate with the tuning forks ever so often. Use this time to rest before taking upon another challenge.${prompt}
-  7503: I got no business with a flea like you. Get outta my face before I decide to messy-wess you up.${prompt}
-  7504: You're ${name-player}, right? Ha ha ha! I knew it! Just like Gilgamesh described. Lemme tell you what I gotty-wot so far.${prompt}
-  7505: The creepy-weep that stole our helmet isn't from any large syndicate. He isn't even very famous among other pirates. He's just a simple thiefy-weef trying to pull off a big job for a big profit.${prompt}
-  7506: According to the owner of that inn, he traveled numerous timey-wimes between here and Selbina, and would sometimes talk about his plans after a few too many drinky-winks. But then one day, he just disappeared.${prompt}
-  7507: After looking at Norg's nautical loggy-wogs, I learned that the time he disappeared matches the time he must have entered our headquarters. But where he went from therey-where, I don't know.${prompt}
-  7508: Wa-wa-wait! There's something else.${prompt}
-  7509: One of our men in Bastok is piecing together all the information we've gathered so far. He's hiding out in a run-down old housey-wouse in the Mines District (J-6). He should be able to give you something juicy-wuicy.${prompt}
-  7510: I thought that this might have been the work of some large groupy-woop, but when I heard that it was just one guy...boy, was I surprisey-wised!${prompt}
-  7511: I can understand wanting to makey-wake it big overnight, but he should have thought a little bitty-wit longer before deciding to take us on!${prompt}
-  7512: Would you mind leaving me alone? I have no time for small talk.${prompt}
-  7513: You are ${name-player}, are you not? I have been waiting for your arrival. I do not have much time, so I will keep this quick.${prompt}
-  7514: The day of the theft, there were numerous reports of a strange character wearing an even stranger helmet traveling on foot towards Zulkheim.${prompt}
-  7515: I journeyed here from San d'Oria, but heard nothing of such sightings on my way. This leaves the possibility that he may have turned back to Jeuno.${prompt}
-  7516: I feel that he may still be in the area. I am going to continue my search here.${prompt}
-  7517: And one other thing.${prompt}
-  7518: One more of us is stationed in a small, run-down building in the Bastok Mines (J-6). He may have some useful information.${prompt}
-  7519: The type of helmet that was stolen is known in the Far East as a “kabuto.” Many people find its design strange, but I find it quite interesting.${prompt}
-  7520: You're finally here, ${name-player}.${prompt}
+    Pourquoi ces avatars détestent-ils tellement nous parler qu'ils préfèrent se battre ?
+    Et qu'est-ce qui se passerait à Vana'diel si quelqu'un venait à les vaincre ?${prompt}
+  7499: Tu as pu en gérer un tout seul. Tu ne devrais avoir aucun problème à en vaincre un avec tes copains. Tu vas nous aider, n'est-ce pas ?${prompt}
+  7500: Hum, laissez-moi maintenant me présenter...${prompt}
+  7501: Ah, tu es de retour. Comment s'est passée ta bataille avec l'avatar ?${prompt}
+  7502: Rappelle-toi, les protocrystaux ne résonneront avec les diapasons que de temps en temps. Profite de ce moment pour te reposer avant d'affronter un autre défi.${prompt}
+  7503: J'ai rien à faire avec une puce comme toi. Dégage de ma vue avant que je décide de te mettre en morceaux.${prompt}
+  7504: Tu es bien ${name-player}, n'est-ce pas ? Ha ha ha ! Je le savais ! Juste comme Gilgamesh l'a décrit. Laisse-moi te dire ce que j'ai découvert jusqu'à présent.${prompt}
+  7505: Le type louche qui a volé notre casque n'appartient à aucun grand syndicat. Il n'est même pas très célèbre parmi les autres pirates. C'est juste un petit voleur qui essaie de réaliser un gros coup pour un gros profit.${prompt}
+  7506: D'après le propriétaire de cette auberge, il a voyagé de nombreuses fois entre ici et Selbina, et parlait parfois de ses plans après avoir bu un peu trop. Mais un jour, il a juste disparu.${prompt}
+  7507: En examinant le journal de bord de Norg, j'ai appris que le moment de sa disparition correspond au moment où il a dû entrer dans notre quartier général. Mais où il est allé ensuite, je ne sais pas.${prompt}
+  7508: At-att-attends ! Il y a autre chose.${prompt}
+  7509: Un de nos hommes à Bastok rassemble toutes les informations que nous avons collectées jusqu'à présent. Il se cache dans une vieille maison délabrée dans le quartier des Mines (J-6). Il devrait pouvoir te donner quelque chose d'intéressant.${prompt}
+  7510: Je pensais que cela pouvait être l'œuvre d'un grand groupe, mais quand j'ai entendu que c'était juste un type... j'ai été bien surpris !${prompt}
+  7511: Je peux comprendre qu'on veuille faire un gros coup du jour au lendemain, mais il aurait dû réfléchir un peu plus avant de décider de s'attaquer à nous !${prompt}
+  7512: Pourrais-tu me laisser tranquille ? Je n'ai pas de temps pour les bavardages.${prompt}
+  7513: Tu es ${name-player}, n'est-ce pas ? J'attendais ton arrivée. Je n'ai pas beaucoup de temps, alors je vais être bref.${prompt}
+  7514: Le jour du vol, il y a eu de nombreux rapports d'un personnage étrange portant un casque encore plus étrange, se déplaçant à pied vers Zulkheim.${prompt}
+  7515: J'ai voyagé ici depuis San d'Oria, mais je n'ai rien entendu de tel sur mon chemin. Cela laisse la possibilité qu'il ait fait demi-tour vers Jeuno.${prompt}
+  7516: Je pense qu'il pourrait encore être dans la région. Je vais continuer mes recherches ici.${prompt}
+  7517: Et une autre chose.${prompt}
+  7518: Un autre de nos hommes est en poste dans un petit bâtiment délabré dans les Mines de Bastok (J-6). Il pourrait avoir des informations utiles.${prompt}
+  7519: Le type de casque qui a été volé est connu en Extrême-Orient sous le nom de “kabuto”. Beaucoup trouvent son design étrange, mais moi, je le trouve plutôt intéressant.${prompt}
+  7520: Te voilà enfin, ${name-player}.${prompt}
   7521: |-
     I've heard of you from my associates in Norg. As much as I would like to sit and chat with you about your adventures, we must work quickly to find our thief.
     I have just received a new piece of information and will be setting out shortly to investigate.${prompt}
@@ -18482,7 +18482,7 @@ entries:
     Laisser tomber.${prompt}
   7601: Et quel type de mannequin voudrais-tu ?${prompt}
   7602: |-
-    Well...?
+    Eh bien...?
     ${selection-lines}
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
@@ -18492,59 +18492,59 @@ entries:
     ${lettercase: 1}${article} ${item-article: 5[2]}.
     ${lettercase: 1}${article} ${item-article: 6[2]}.
     ${lettercase: 1}${article} ${item-article: 7[2]}.
-    Never mind.${prompt}
-  7603: Are you surrre that's the one you want?${prompt}
+    Peu importe.${prompt}
+  7603: Es-tu sûûûr(e) que c'est bien celui-là que tu veux ?${prompt}
   7604: |-
-    Well...?
+    Eh bien...?
     ${selection-lines}
-    I'm sure.
-    I don't know...${prompt}
-  7605: Alrrright! Here you... Wait a minute. Are you trying to pull a fast one on me? That's not enough gil to feed my dog his supperrr!${prompt}
+    J'en suis sûr(e).
+    Je ne sais pas...${prompt}
+  7605: D'accorrd ! Voilà... Attends une minute. Tu essaies de me rouler ? Ce n'est pas assez de gils pour nourrir mon chien !${prompt}
   7606: |-
-    Alrrright! Here you go.
-    Sorry that I couldn't ship it to your Mog House.${prompt}
-  7607: Okay. Well, if you change your mind, you know where I'll be!${prompt}
-  7608: 'Trrrade me the goods and I''ll see if it''s worth exchanging. Oh, and don''t forget to have your ${number: 3} gil rrready to pay the difference.${prompt}'
-  7609: 'Hmmm... It''s still in prrretty good condition. I''d have no problem exchanging this for a new mannequin...if you had the ${number: 3} gil I was asking for.${prompt}'
-  7610: 'Hmmm... It''s still in prrretty good condition. For ${number: 3} gil, you can exchange it for a new mannequin.${prompt}'
+    D'accorrd ! Voici pour toi.
+    Désolé de ne pas pouvoir te l'envoyer directement à ton Mog House.${prompt}
+  7607: Bon. Eh bien, si tu changes d'avis, tu sais où me trouver !${prompt}
+  7608: 'Donne-moi les marchandises, et je verrai si ça vaut la peine d’échanger. Ah, et n’oublie pas d’avoir tes ${number: 3} gils prêts pour payer la différence.${prompt}'
+  7609: 'Hmm... C’est encore en assez bon état. Je pourrais échanger ça contre un nouveau mannequin... si tu avais les ${number: 3} gils que je demandais.${prompt}'
+  7610: 'Hmm... C’est encore en assez bon état. Pour ${number: 3} gils, tu peux l’échanger contre un nouveau mannequin.${prompt}'
   7611: |-
-    What do you say?
+    Que dis-tu ?
     ${selection-lines}
-    Let's do it.
-    Forget it.${prompt}
-  7612: Hey! I rrremember you. You're that ${choice-player-gender}[guy/lady] who...no, wait... Hm?${prompt}
-  7613: What? You met a rrreal, live mannequin crrraftsman!? Unbelievable! What did he say?${prompt}
-  7614: 'He needs ${keyitem-article: 0[2]}...?${prompt}'
+    Allons-y.
+    Laisse tomber.${prompt}
+  7612: Hé ! Je me rrappelle de toi. Tu es bien ${choice-player-gender}[ce gars/cette dame] qui... non, attends... Hein ?${prompt}
+  7613: Quoi ? Tu as rencontré un vrai fabricant de mannequins vivant ? Incroyable ! Que t'a-t-il dit ?${prompt}
+  7614: 'Il a besoin de ${keyitem-article: 0[2]}...?${prompt}'
   7615: |-
     ${lettercase: 1}${keyitem-singular: 0[2]}...
     ${lettercase: 1}${keyitem-singular: 0[2]}......
-    I'm sorry. I'm afraid I don't have any.${prompt}
-  7616: The plans that you brrrought me talked about it, but I was never able to find the stuff. I've been using slime oil as a substitute.${prompt}
-  7617: I wouldn't even know where to start looking...${prompt}
-  7618: Wait a minute... Do you rrremember the stories about how the Orcs would steal mannequin parts? Maybe some of the beasts also stole bottles of the oil...${prompt}
-  7619: But that's just a hunch. I'm sorry I couldn't be of any rrreal help.${prompt}
-  7620: Hey, if I ever get any time off, would you take me to where the mannequin crrraftsman lives? I'd love to learn all his techniques!${prompt}
-  7621: Hey hey! It's my best customer, ${name-player}. No, and I'm not just saying that!${prompt}
-  7622: Thanks to you and your frrriends, my business is booming! You want a new mannequin, I have all shapes and sizes! You want to trrrade in your old mannequin? I'll give you a grrreat deal!${prompt}
-  7623: And now, for a limited time only, I'll even customize your mannequin! That's right, for a nominal fee, I'll brrring that piece of wood to life by changing its pose!${prompt}
+    Désolé. J'ai bien peur de ne pas en avoir.${prompt}
+  7616: Les plans que tu m'as apportés en parlaient, mais je n'ai jamais réussi à trouver la substance. J'utilise de l'huile de slime comme substitut.${prompt}
+  7617: Je ne saurais même pas par où commencer pour chercher...${prompt}
+  7618: Attends une minute... Tu te rappelles les histoires sur les Orcs qui volaient des pièces de mannequins ? Peut-être que certaines de ces bêtes ont aussi volé des bouteilles d'huile...${prompt}
+  7619: Mais ce n'est qu'une intuition. Désolé de ne pas pouvoir être d'une grande aide.${prompt}
+  7620: Hé, si jamais j'ai un jour de congé, tu m'emmènerais voir où vit le fabricant de mannequins ? J'adorerais apprendre toutes ses techniques !${prompt}
+  7621: Hé hé ! C'est mon meilleur client, ${name-player}. Non, et je ne dis pas ça pour plaisanter !${prompt}  
+  7622: Grâce à toi et à tes amis, mon commerce est florissant ! Tu veux un nouveau mannequin, j'en ai de toutes les formes et tailles ! Tu veux échanger ton vieux mannequin ? Je te ferai un super prix !${prompt}
+  7623: Et maintenant, pour une durée limitée, je personnaliserai même ton mannequin ! Oui, pour un petit supplément, je donnerai vie à ce morceau de bois en changeant sa pose !${prompt}
   7624: |-
-    My price list is as follows...
-    1 new mannequin (without trade-in): ${number: 2} gil.
-    1 new mannequin (with trade-in): ${number: 3} gil.
-    Pose change: ${number: 4} gil.${prompt}
-  7625: So, what do you say?${prompt}
+    Voici ma liste de prix...
+    1 mannequin neuf (sans échange) : ${number: 2} gils.
+    1 mannequin neuf (avec échange) : ${number: 3} gils.
+    Changement de pose : ${number: 4} gils.${prompt}
+  7625: Alors, qu'en dis-tu ?${prompt}
   7626: |-
-    Which transaction do you request?
+    Quelle transaction souhaites-tu ?
     ${selection-lines}
-    Nothing.
-    Buy (${number: 2} gil).
-    Trade (${number: 3} gil).
-    Pose (${number: 4} gil).${prompt}
+    Rien.
+    Acheter (${number: 2} gils).
+    Échanger (${number: 3} gils).
+    Pose (${number: 4} gils).${prompt} 
   7627: |-
-    Alright!
-    Just trrrade me your mannequin and I can begin! Oh, and don't forget to be carrying the rrremarkably rrreasonable fee of ${number: 3} gil.${prompt}
-  7628: 'I can only accept your trrrade-in after you''ve paid the ${number: 3}-gil difference. Don''t worry, I''ll be waiting rrright here for you!${prompt}'
-  7629: 'Trrrading in your old mannequin for a new one? Rrremember, I''ll need a ${number: 3}-gil fee.${prompt}'
+    D'accord !
+    Échange-moi ton mannequin et je peux commencer ! Oh, et n'oublie pas d'avoir sur toi les frais rrraisonnables de ${number: 3} gils.${prompt}
+  7628: 'Je ne peux accepter ton échange qu’après que tu aies payé la différence de ${number: 3} gils. Ne t’inquiète pas, je t’attendrai juste ici !${prompt}'
+  7629: 'Tu veux échanger ton vieux mannequin pour un neuf ? Rappelle-toi, j’aurai besoin d’une taxe de ${number: 3} gils.${prompt}'
   7630: |-
     Now let's see...
     Which of your mannequins' poses would you like to change?${prompt}
@@ -18840,63 +18840,63 @@ entries:
     Take this, and may it serve you well.${prompt}
   7777: Mauriri is my name, and sending parcels from Mhaura is my game.♪${prompt}
   7778: |-
-    Looking for a delivery company that isn't lamey-wame?
-    The quality of my service puts Mauriri to shame!${prompt}
-  7779: Unable to enter next area. Expansion pack not installed.${prompt}
-  7780: 'You do not possess ${keyitem-article: 0[2]}. You were not permitted to board the ship...${prompt}'
+    Vous cherchez une entreprise de livraison qui n'est pas toute pourrie-wourrie ?
+    La qualité de mon service fait honte à Mauriri !${prompt}
+  7779: Impossible d'entrer dans la zone suivante. Extension non installée.${prompt}
+  7780: 'Vous ne possédez pas ${keyitem-article: 0[2]}. Vous n’avez pas été autorisé à embarquer sur le navire...${prompt}'
   7781: |-
-    Welcome to the MHMU's porter service, kupo!
-    Which of your burdensome belongings shall I take off your hands today?${prompt}
+    Bienvenue au service de porteur de la MHMU, kupo !
+    Parmi vos affaires encombrantes, que puis-je prendre en charge aujourd'hui ?${prompt}
   7782: |-
-    Do something, kupo?
+    Faire quelque chose, kupo ?
     ${selection-lines}
-    Porter service?
-    Buy a storage slip.
-    No, thank you.${prompt}
+    Service de porteur ?
+    Acheter un bon de stockage.
+    Non, merci.${prompt}
   7783: |-
-    Is your gobbiebag splitting at the seams? Mog Safe spilling over?
-    Why, an accomplished adventurer like yourself surely has more stuff than you know what to do with.${prompt}
+    Votre sac gobbie déborde-t-il de partout ? Votre Coffre Mog est-il plein à craquer ?
+    Un aventurier accompli comme vous doit sûrement avoir plus de choses qu'il ne sait quoi en faire.${prompt}
   7784: |-
-    That's where I come in, kupo.
-    I'll gladly hold onto your prized possessions, freeing you space to gather up even grander goodies.${prompt}
-  7785: 'To make use of my services, first you''ll need to buy one of these storage slips for the low, low fee of ${number: 19} gil.${prompt}'
-  7786: Storage slips come in numerous varieties, kupo, each corresponding to a different type of item.${prompt}
-  7787: You'll want to peruse the fine print closely, so you don't end up paying good gil for a scrap of parchment useless for the particular item you wish to store.${prompt}
-  7788: Not that we moogles would object to that sort of donation, kupo.${prompt}
+    C'est là que j'interviens, kupo.
+    Je me ferai un plaisir de garder vos précieux objets, vous libérant de l'espace pour ramasser des trésors encore plus grandioses.${prompt}
+  7785: 'Pour utiliser mes services, vous devrez d’abord acheter un de ces bons de stockage pour le prix modique de ${number: 19} gil.${prompt}'
+  7786: Les bons de stockage se déclinent en plusieurs variétés, kupo, chacune correspondant à un type d’article différent.${prompt}
+  7787: Vous voudrez lire les petits caractères attentivement, pour ne pas finir par payer de bons gils pour un bout de parchemin inutile pour l’article que vous souhaitez stocker.${prompt}
+  7788: Ce n’est pas que nous, les mogs, refuserions ce genre de don, kupo.${prompt}
   7789: |-
-    Choose the item you wish to entrust, then trade it to me along with a single storage slip.
-    I will take the item and return the slip to you, marked with an invisible seal.${prompt}
+    Choisissez l'objet que vous souhaitez confier, puis échangez-le avec moi en ajoutant un seul bon de stockage.
+    Je prendrai l'objet et vous rendrai le bon, marqué d'un sceau invisible.${prompt}
   7790: |-
-    Invisible to you, at least.
-    It's plain as day to us moogles, so don't even think of trying to pull one over on us, kupo.${prompt}
-  7791: When it comes time to retrieve your item, just trade to me a single storage slip--any slip--once again.${prompt}
+    Invisible pour vous, en tout cas.
+    C'est clair comme de l'eau de roche pour nous, les mogs, alors ne pensez même pas à nous rouler, kupo.${prompt}
+  7791: Quand vous voudrez récupérer votre objet, échangez-moi simplement un bon de stockage, n'importe lequel, encore une fois.${prompt}
   7792: |-
-    I will present you with a list of all the items currently in my care, and you may choose the one you wish to withdraw.
-    Simple as that, kupo!${prompt}
+    Je vous présenterai une liste de tous les objets actuellement sous ma garde, et vous pourrez choisir celui que vous souhaitez retirer.
+    Aussi simple que ça, kupo !${prompt}
   7793: |-
-    What's more, no additional transaction fees will be incurred!
-    Pretty generous of us for a change, no?${prompt}
+    De plus, aucuns frais de transaction supplémentaires ne seront appliqués !
+    Plutôt généreux de notre part, non ?${prompt}
   7794: |-
-    Now I bet you're wondering what the catch is, kupo.
-    So as not to disappoint you, there are a few!${prompt}
-  7795: For one, any signed items will lose their signatures if you store them with me.${prompt}
+    Maintenant, je parie que vous vous demandez où est l'astuce, kupo.
+    Pour ne pas vous décevoir, il y en a quelques-unes !${prompt}
+  7795: Par exemple, tout objet signé perdra sa signature si vous le stockez chez moi.${prompt}
   7796: |-
-    Why, you say? Hey, even we moogles aren't perfect!
-    It's better for both of us if you keep your most precious possessions close at hand, kupo.${prompt}
-  7797: Now listen up, because there's another catch, and it's a doozy.${prompt}
+    Pourquoi, demandez-vous ? Hé, même nous, les mogs, ne sommes pas parfaits !
+    C'est mieux pour nous deux si vous gardez vos possessions les plus précieuses à portée de main, kupo.${prompt}
+  7797: Maintenant, écoutez bien, car il y a une autre subtilité, et elle est de taille.${prompt}
   7798: |-
-    If you lose your storage slip, I won't be able to return your item. Ever. No ifs, ands, or buts!
-    No “I'm sorry, Mister Porter Moogle, it'll never happen again!”
-    Rules are rules, kupo, and someone has to keep them.${prompt}
-  7799: Last, but not least, I can't accept equipment bearing Magian trial insignia.${prompt}
-  7800: If you have such an item that you're simply dying to entrust to me, you'll have to abandon your trial first, kupo.${prompt}
+    Si vous perdez votre bon de stockage, je ne pourrai jamais vous rendre votre objet. Jamais. Pas de "et si" ou "mais" !
+    Pas de "Je suis désolé, M. Mog porteur, ça n'arrivera plus jamais !"
+    Les règles sont les règles, kupo, et il faut bien quelqu'un pour les faire respecter.${prompt}
+  7799: Dernière chose, je ne peux accepter aucun équipement portant l'insigne des épreuves Magian.${prompt}
+  7800: Si vous avez un tel objet que vous mourez d'envie de me confier, vous devrez d'abord abandonner votre épreuve, kupo.${prompt}
   7801: |-
-    And that's all there is to it.
-    This humble moogle can hardly wait to serve you!${prompt}
+    Et voilà, c'est tout.
+    Ce humble mog a hâte de vous servir !${prompt}
   7802: |-
-    Buy something? (p. ${number: 16}/${number: 17}).
+    Acheter quelque chose ? (p. ${number: 16}/${number: 17}).
     ${selection-lines}
-    Previous page.
+    Page précédente.
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
@@ -18913,8 +18913,8 @@ entries:
     ${lettercase: 1}${article} ${item-article: 13[2]}.
     ${lettercase: 1}${article} ${item-article: 14[2]}.
     ${lettercase: 1}${article} ${item-article: 15[2]}.
-    Next page.
-    Cancel.${prompt}
+    Page suivante.
+    Annuler.${prompt}
   7803: |-
     ${lettercase: 1}${article} ${item-article: 32[2]} will cost you ${number: 19} gil.
     Do we have a deal, kupo?${prompt}
@@ -19705,39 +19705,39 @@ entries:
   8148: |-
     DEBUG : make_ticketid_with_parameter 2
     time:${number: 0} ticket:${number: 1}${prompt}
-  8149: A fantastic day to you, good ${choice-player-gender}[sir/lady]! I, Gorpa-Masorpa, have been dispatch-watched from the Adventurers' Mutual Aid Network to...to...${prompt}
-  8150: '...to serve adventurers...${prompt}'
-  8151: '...under the auspices of...${prompt}'
-  8152: '...the great, almightaruly...${prompt}'
+  8149: Une journée fantastique à vous, bon ${choice-player-gender}[monsieur/dame] ! Je suis Gorpa-Masorpa, envoyé par le Réseau d'Aide Mutuelle des Aventuriers pour... pour...${prompt}
+  8150: '...servir les aventuriers...${prompt}'
+  8151: '...sous les auspices de...${prompt}'
+  8152: '...le grand, tout-puissant...${prompt}'
   8153: |-
     Abdhaljs!${wait-36: 2}
     <Cough, cough>${prompt}
   8154: Urk...${prompt}
   8155: Tohoho...hohohohohohohoho!${prompt}
-  8156: You, uh, see...${prompt}
-  8157: Abdhaljs, creator of the tiny, tiny place known as Legion, has seen fitaru to permit us the use of his creation!${prompt}
-  8158: Oh, does the luck-wuck of the A.M.A.N. know no bounds!?${prompt}
-  8159: This slightly repurposed Maquette Abdhaljs - Legion has undergone a variety of improvementarus by some of our association's most skilled thaumaturges.${prompt}
-  8160: Steel yourselves for our latestaru creation--Ambuscade!${prompt}
-  8161: In Ambuscade, you'll square off againstaru a bevy of foes just chomping at the bit to see you torn into itty-bitty pieces!${prompt}
-  8162: Every month (Earth time), new challengers enter the arena, providing different challenges from the month before.${prompt}
-  8163: Now, now, wipe that dribble off your chin, for there are a couple hoops-woops we're going to make you jump through before you can join.${prompt}
-  8164: First, you must be in a party of up to six players.${prompt}
-  8165: 'Second, you must be in possession of either ${keyitem-article: 0[2]} or ${keyitem-article: 1[2]}. Either of the two will suffice.${prompt}'
-  8166: These two goodies can be procured by completaruing specific Records of Eminence objectives.${prompt}
-  8167: You mightaru think those tasks to be laughably simple, but trust me--it keeps out the riffraff. When you're prepared, examine the Ambuscade tome and be on your way.${prompt}
-  8168: And now, I would like to discuss the rewards.${prompt}
-  8169: Simply put, all you need to know is that victory in Ambuscade will reward you with a special currency known as hallmarks.${prompt}
-  8170: 'There are two varieties of reward available: those that are purchasable in exchange for a certain number of hallmarks, and those you receive once you have reached a particular-wicular running total of hallmarks.${prompt}'
-  8171: If you're inclined to join forces with other player-wayers, you'll receive an even more special currency known as “gallantry.”${prompt}
-  8172: It goes withoutaru saying that there are special rewards available in exchange for badges of gallantry, too.${prompt}
-  8173: I can see your lips quivering at the thought of receiving such extraordinary spoils!${prompt}
-  8174: Be advised-wised in advance that you will lose all your hallmarks and badges of gallantry once the Ambuscade has switched to new content.${prompt}
-  8175: (...And I'm not supposed to tell you this, but the rewards change as the Ambuscade does.)${prompt}
-  8176: That's the long and short--mostly long--of it. Now get those items and try your luck!${prompt}
-  8177: Wh-what's this? You're unfamiliar with Records of Eminence? Then firstaru speak with one of our representatives in charge of Eminence to get started.${prompt}
-  8178: '...To ask you to set the Ambuscade Records of Eminence objective from the “Tutorial” category!${prompt}'
-  8179: Welcome, welcome! Back for more?${prompt}
+  8156: Vous, euh, voyez...${prompt}
+  8157: Abdhaljs, créateur du petit, petit endroit connu sous le nom de Légion, a jugé bon de nous permettre d'utiliser sa création !${prompt}
+  8158: Oh, la chance du A.M.A.N. ne connaît-elle donc aucune limite ?!${prompt}
+  8159: Cette Maquette Abdhaljs - Légion légèrement réutilisée a subi une variété d'améliorations par certains des thaumaturges les plus habiles de notre association.${prompt}
+  8160: Préparez-vous pour notre toute dernière création -- Ambuscade !${prompt}
+  8161: Dans Ambuscade, vous vous opposerez à une multitude d'ennemis, tous impatients de vous déchirer en mille morceaux !${prompt}
+  8162: Chaque mois (en temps terrestre), de nouveaux challengers entrent dans l'arène, offrant des défis différents de ceux du mois précédent.${prompt}
+  8163: Maintenant, maintenant, essuyez cette bavure de votre menton, car il y a quelques obstacles à franchir avant de pouvoir participer.${prompt}
+  8164: D'abord, vous devez être dans un groupe de jusqu'à six joueurs.${prompt}
+  8165: 'Deuxièmement, vous devez posséder soit ${keyitem-article: 0[2]} ou ${keyitem-article: 1[2]}. L’un ou l’autre suffira.${prompt}'
+  8166: Ces deux objets peuvent être obtenus en complétant des objectifs spécifiques des Records of Eminence.${prompt}
+  8167: Vous pourriez penser que ces tâches sont ridiculement simples, mais croyez-moi -- cela évite les éléments indésirables. Lorsque vous êtes prêts, examinez le tome d'Ambuscade et partez.${prompt}
+  8168: Et maintenant, j'aimerais discuter des récompenses.${prompt}
+  8169: En termes simples, tout ce que vous devez savoir est que la victoire dans Ambuscade vous récompensera avec une monnaie spéciale appelée des "hallmarks".${prompt}
+  8170: 'Il existe deux variétés de récompenses disponibles : celles qui sont achetables contre un certain nombre de hallmarks, et celles que vous recevez une fois que vous avez atteint un total particulier de hallmarks.${prompt}'
+  8171: Si vous êtes disposé à vous allier à d'autres joueurs, vous recevrez une monnaie encore plus spéciale appelée “gallantry”.${prompt}
+  8172: Il va sans dire qu'il existe également des récompenses spéciales disponibles en échange de badges de gallantry.${prompt}
+  8173: Je vois vos lèvres trembler à la pensée de recevoir de tels trophées extraordinaires !${prompt}
+  8174: Sachez à l'avance que vous perdrez tous vos hallmarks et badges de gallantry une fois qu'Ambuscade passera à un nouveau contenu.${prompt}
+  8175: (...Et je ne suis pas censé vous dire ça, mais les récompenses changent avec le contenu d'Ambuscade.)${prompt}
+  8176: C'est en gros tout -- principalement tout -- ce qu'il y a à savoir. Maintenant, obtenez ces objets et tentez votre chance !${prompt}
+  8177: Qu-quoi ? Vous ne connaissez pas les Records of Eminence ? Alors parlez d'abord avec l'un de nos représentants en charge de l'Eminence pour commencer.${prompt}
+  8178: '...Pour vous demander de définir l’objectif des Records of Eminence d’Ambuscade dans la catégorie “Tutoriel” !${prompt}'
+  8179: Bienvenue, bienvenue ! De retour pour plus ?${prompt}
   8180: |-
     Inquire about what?
     ${selection-lines}
