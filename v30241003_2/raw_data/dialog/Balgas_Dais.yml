@@ -18331,112 +18331,112 @@ entries:
   7560: 'CLI_NUM6 = ${number: 6}${wait-animation: 1}${prompt}'
   7561: 'CLI_NUM7 = ${number: 6}${wait-animation: 1}${prompt}'
   7562: |-
-    Skip the event?
+    Passer l'événement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7563: 'Battlefield clear time: ${number: 3} second${choice-plurality: 3}[/s]!'
-  7564: 'Battlefield clear time: ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} second${choice-plurality: 2}[/s]!'
-  7565: 'The current battlefield clear time record is ${number: 3} second${choice-plurality: 3}[/s].'
-  7566: 'The current battlefield clear time record is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
+    Oui.
+    Non.${prompt}
+  7563: 'Temps de clear du champ de bataille : ${number: 3} seconde${choice-plurality: 3}[/s] !'
+  7564: 'Temps de clear du champ de bataille : ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} seconde${choice-plurality: 2}[/s] !'
+  7565: 'Le record actuel du temps de clear du champ de bataille est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7566: 'Le record actuel du temps de clear du champ de bataille est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
   7567: |-
-    Called the NPC!
-    PC ID = ${number: 0}!
-    RESULT = ${number: 1}!${prompt}
+    NPC appelé !
+    ID PC = ${number: 0} !
+    RÉSULTAT = ${number: 1} !${prompt}
   7568: |-
-    Got rid of the NPC!
-    PC ID = ${number: 0}!${prompt}
-  7569: The NPC has fallen, and he can't get up! Leaving room A!${prompt}
-  7570: The NPC has fallen, and he can't get up! Leaving room B!${prompt}
-  7571: The NPC has fallen, and he can't get up! Leaving room C!${prompt}
-  7572: The NPC has fallen, and he can't get up! Leaving room D!${prompt}
-  7573: All party members have fallen in battle. Now leaving the battlefield.${prompt}
+    NPC éliminé !
+    ID PC = ${number: 0} !${prompt}
+  7569: 'Le NPC est tombé et il ne peut pas se relever ! Quitte la salle A !${prompt}'
+  7570: 'Le NPC est tombé et il ne peut pas se relever ! Quitte la salle B !${prompt}'
+  7571: 'Le NPC est tombé et il ne peut pas se relever ! Quitte la salle C !${prompt}'
+  7572: 'Le NPC est tombé et il ne peut pas se relever ! Quitte la salle D !${prompt}'
+  7573: 'Tous les membres du groupe sont tombés au combat. Quitte maintenant le champ de bataille.${prompt}'
   7574: |-
-    Everybody's fallen in room A, and they can't get up!
-    Leaving room A!${prompt}
+    Tout le monde est tombé dans la salle A et ils ne peuvent pas se relever !
+    Quitte la salle A !${prompt}
   7575: |-
-    Everybody's fallen in room B, and they can't get up!
-    Leaving room B!${prompt}
+    Tout le monde est tombé dans la salle B et ils ne peuvent pas se relever !
+    Quitte la salle B !${prompt}
   7576: |-
-    Everybody's fallen in room C, and they can't get up!
-    Leaving room C!${prompt}
+    Tout le monde est tombé dans la salle C et ils ne peuvent pas se relever !
+    Quitte la salle C !${prompt}
   7577: |-
-    Everybody's fallen in room D, and they can't get up!
-    Leaving room D!${prompt}
+    Tout le monde est tombé dans la salle D et ils ne peuvent pas se relever !
+    Quitte la salle D !${prompt}
   7578: |-
-    Everybody's fallen in room E, and they can't get up!
-    Leaving room E!${prompt}${prompt}
-  7579: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s], the party will be removed from the battlefield.${prompt}'
-  7580: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s], the party will be removed from the battlefield.${prompt}'
-  7581: What the hell is that number!? It's not possible!!!${prompt}
-  7582: 'Only ${number: 3} ${choice-plurality: 3}[member/members] have clearance to enter the battlefield. This room has reached its maximum capacity.${prompt}'
-  7583: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
-  7584: You do not meet the requirements to enter the battlefield with your party members. Access is denied.${prompt}
-  7585: The Shimmering Circle you are trying to enter differs from the one your party members have entered. Access is denied.${prompt}
-  7586: 'That record is held by ${number: 5} adventurers, including ${entity: 0}!'
-  7587: 'That record is held by ${entity: 0}!'
+    Tout le monde est tombé dans la salle E et ils ne peuvent pas se relever !
+    Quitte la salle E !${prompt}${prompt}
+  7579: 'Si les PV de tous les membres du groupe sont toujours à zéro après ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s], le groupe sera retiré du champ de bataille.${prompt}'
+  7580: 'Si les PV de tous les membres du groupe sont toujours à zéro après ${number: 3} minute${choice-plurality: 3}[/s], le groupe sera retiré du champ de bataille.${prompt}'
+  7581: 'C’est quoi ce nombre!? Ce n’est pas possible!!!${prompt}'
+  7582: 'Seul${choice-plurality: 3} ${number: 3} ${choice-plurality: 3}[membre/membres] a${choice-plurality: 3} l’autorisation d’entrer dans le champ de bataille. Cette salle a atteint sa capacité maximale.${prompt}'
+  7583: 'Vous pouvez maintenant invoquer ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
+  7584: 'Vous ne remplissez pas les conditions pour entrer dans le champ de bataille avec vos membres de groupe. L’accès est refusé.${prompt}'
+  7585: 'Le cercle scintillant dans lequel vous tentez d’entrer diffère de celui dans lequel vos membres de groupe sont entrés. L’accès est refusé.${prompt}'
+  7586: 'Ce record est détenu par ${number: 5} aventuriers, dont ${entity: 0} !'
+  7587: 'Ce record est détenu par ${entity: 0} !'
   7588: |-
-    Select difficulty.
+    Sélectionner la difficulté.
     ${selection-lines}
-    Very difficult. (Level: ???)
-    Difficult. (Level: ???)
-    Normal. (Level: ${number: 18})
-    Easy. (Level: ${number: 17})
-    Very Easy. (Level: ${number: 16})
-    Leave.${prompt}
-  7589: 'Current difficulty level: ${choice: 2}[Normal/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}'
-  7590: 'A malignant force escapes from your ${item-singular: 3[2]}.${prompt}'
-  7591: 'You are unable to enter the battlefield because ${choice: 0}[one or more of your party members does not have the job master designation/you do not have the job master designation].${prompt}'
-  7592: 'Your ${item-singular: 3[2]} is calling out to something...${prompt}'
-  7593: 'The ${item-singular: 0[2]} has a large crack running straight down the side.${prompt}'
-  7594: 'Something awakens owing to the presence of the ${item-singular: 3[2]}...${prompt}'
-  7595: 'The oath has been fulfilled owing to the power of your ${item-singular: 3[2]}.${prompt}'
-  7596: RETURNING TO BIND POINT. PRESS CONFIRM BUTTON.${prompt}
-  7597: There is no response. You cannot escape!${prompt}
-  7598: 'You have broken the clear time record for “${choice: 5}[The Rank 2 Final Mission/Steamed Sprouts/Divine Punishers/Saintly Invitation/Treasure and Tribulations/Shattering Stars (MNK)/Shattering Stars (WHM)/Shattering Stars (SMN)/Creeping Doom/Charming Trio/Harem Scarem/Early Bird Catches the Wyrm/Royal Succession/Rapid Raptors/Wild Wild Whiskers/Seasons Greetings/Royale Ramble/Moa Constrictors/The V Formation/Avian Apostates/Beyond Infinity/★Steamed Sprouts/★Divine Punishers/A Feast Most Dire/A.M.A.N. Trove (Mars)/A.M.A.N. Trove (Venus)/Inv. from Kupipi/Inv. from Kupipi and Co.]”!'
-  7599: 'The current battlefield clear time record for “${choice: 1}[The Rank 2 Final Mission/Steamed Sprouts/Divine Punishers/Saintly Invitation/Treasure and Tribulations/Shattering Stars (MNK)/Shattering Stars (WHM)/Shattering Stars (SMN)/Creeping Doom/Charming Trio/Harem Scarem/Early Bird Catches the Wyrm/Royal Succession/Rapid Raptors/Wild Wild Whiskers/Seasons Greetings/Royale Ramble/Moa Constrictors/The V Formation/Avian Apostates/Beyond Infinity/★Steamed Sprouts/★Divine Punishers/A Feast Most Dire/A.M.A.N. Trove (Mars)/A.M.A.N. Trove (Venus)/Inv. from Kupipi/Inv. from Kupipi and Co.]” is ${number: 3} second${choice-plurality: 3}[/s].'
-  7600: 'The current battlefield clear time record for “${choice: 1}[The Rank 2 Final Mission/Steamed Sprouts/Divine Punishers/Saintly Invitation/Treasure and Tribulations/Shattering Stars (MNK)/Shattering Stars (WHM)/Shattering Stars (SMN)/Creeping Doom/Charming Trio/Harem Scarem/Early Bird Catches the Wyrm/Royal Succession/Rapid Raptors/Wild Wild Whiskers/Seasons Greetings/Royale Ramble/Moa Constrictors/The V Formation/Avian Apostates/Beyond Infinity/★Steamed Sprouts/★Divine Punishers/A Feast Most Dire/A.M.A.N. Trove (Mars)/A.M.A.N. Trove (Venus)/Inv. from Kupipi/Inv. from Kupipi and Co.]” is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
-  7601: 'Entering the battlefield for “${choice: 1}[The Rank 2 Final Mission/Steamed Sprouts/Divine Punishers/Saintly Invitation/Treasure and Tribulations/Shattering Stars (MNK)/Shattering Stars (WHM)/Shattering Stars (SMN)/Creeping Doom/Charming Trio/Harem Scarem/Early Bird Catches the Wyrm/Royal Succession/Rapid Raptors/Wild Wild Whiskers/Seasons Greetings/Royale Ramble/Moa Constrictors/The V Formation/Avian Apostates/Beyond Infinity/★Steamed Sprouts/★Divine Punishers/A Feast Most Dire/A.M.A.N. Trove (Mars)/A.M.A.N. Trove (Venus)/Inv. from Kupipi/Inv. from Kupipi and Co.]”!'
+    Très difficile. (Niveau : ???)
+    Difficile. (Niveau : ???)
+    Normal. (Niveau : ${number: 18})
+    Facile. (Niveau : ${number: 17})
+    Très facile. (Niveau : ${number: 16})
+    Quitter.${prompt}
+  7589: 'Niveau de difficulté actuel : ${choice: 2}[Normal/Très difficile/Difficile/Normal/Facile/Très facile].${prompt}'
+  7590: 'Une force maligne s’échappe de votre ${item-singular: 3[2]}.${prompt}'
+  7591: 'Vous ne pouvez pas entrer dans le champ de bataille car ${choice: 0}[un ou plusieurs de vos membres de groupe n’ont pas la désignation de maître de classe/vous n’avez pas la désignation de maître de classe].${prompt}'
+  7592: 'Votre ${item-singular: 3[2]} appelle quelque chose...${prompt}'
+  7593: 'Le ${item-singular: 0[2]} a une grande fissure qui court droit sur le côté.${prompt}'
+  7594: 'Quelque chose s’éveille à cause de la présence du ${item-singular: 3[2]}...${prompt}'
+  7595: 'Le serment a été rempli grâce au pouvoir de votre ${item-singular: 3[2]}.${prompt}'
+  7596: RETOUR AU POINT DE LIAISON. APPUYEZ SUR LE BOUTON DE CONFIRMATION.${prompt}
+  7597: Il n’y a pas de réponse. Vous ne pouvez pas échapper !${prompt}
+  7598: 'Vous avez battu le record de temps de “${choice: 5}[La Mission Finale Rang 2/Germes de Choux/Châtiments Divins/Invitation Sainte/Trésor et Tribulations/Étoiles Éclatantes (MNK)/Étoiles Éclatantes (WHM)/Étoiles Éclatantes (SMN)/Doom Rampant/Trio Charmant/Harem en Détresse/L’oiseau matinal attrape le Wyrm/Succession Royale/Raptors Rapides/Moustaches Sauvages/Vœux de Saison/Promenade Royale/Serpents Moa/La Formation V/Apostats Aviaires/Au-delà de l’Infini/★Germes de Choux/★Châtiments Divins/Un Festin des Plus Funestes/Trésor A.M.A.N. (Mars)/Trésor A.M.A.N. (Vénus)/Inv. de Kupipi/Inv. de Kupipi et Co.]” !'
+  7599: 'Le record de temps actuel pour réussir “${choice: 1}[La Mission Finale Rang 2/Germes de Choux/Châtiments Divins/Invitation Sainte/Trésor et Tribulations/Étoiles Éclatantes (MNK)/Étoiles Éclatantes (WHM)/Étoiles Éclatantes (SMN)/Doom Rampant/Trio Charmant/Harem en Détresse/L’oiseau matinal attrape le Wyrm/Succession Royale/Raptors Rapides/Moustaches Sauvages/Vœux de Saison/Promenade Royale/Serpents Moa/La Formation V/Apostats Aviaires/Au-delà de l’Infini/★Germes de Choux/★Châtiments Divins/Un Festin des Plus Funestes/Trésor A.M.A.N. (Mars)/Trésor A.M.A.N. (Vénus)/Inv. de Kupipi/Inv. de Kupipi et Co.]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7600: 'Le record de temps actuel pour réussir “${choice: 1}[La Mission Finale Rang 2/Germes de Choux/Châtiments Divins/Invitation Sainte/Trésor et Tribulations/Étoiles Éclatantes (MNK)/Étoiles Éclatantes (WHM)/Étoiles Éclatantes (SMN)/Doom Rampant/Trio Charmant/Harem en Détresse/L’oiseau matinal attrape le Wyrm/Succession Royale/Raptors Rapides/Moustaches Sauvages/Vœux de Saison/Promenade Royale/Serpents Moa/La Formation V/Apostats Aviaires/Au-delà de l’Infini/★Germes de Choux/★Châtiments Divins/Un Festin des Plus Funestes/Trésor A.M.A.N. (Mars)/Trésor A.M.A.N. (Vénus)/Inv. de Kupipi/Inv. de Kupipi et Co.]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
+  7601: 'Entrée dans le champ de bataille pour “${choice: 1}[La Mission Finale Rang 2/Germes de Choux/Châtiments Divins/Invitation Sainte/Trésor et Tribulations/Étoiles Éclatantes (MNK)/Étoiles Éclatantes (WHM)/Étoiles Éclatantes (SMN)/Doom Rampant/Trio Charmant/Harem en Détresse/L’oiseau matinal attrape le Wyrm/Succession Royale/Raptors Rapides/Moustaches Sauvages/Vœux de Saison/Promenade Royale/Serpents Moa/La Formation V/Apostats Aviaires/Au-delà de l’Infini/★Germes de Choux/★Châtiments Divins/Un Festin des Plus Funestes/Trésor A.M.A.N. (Mars)/Trésor A.M.A.N. (Vénus)/Inv. de Kupipi/Inv. de Kupipi et Co.]” !'
   7602: |-
-    Which battlefield will you enter?
+    Quel champ de bataille souhaitez-vous entrer ?
     ${selection-lines}
-    None.
-    The Rank 2 Final Mission.
-    Steamed Sprouts.
-    Divine Punishers.
-    Saintly Invitation.
-    Treasure and Tribulations.
-    Shattering Stars (MNK).
-    Shattering Stars (WHM).
-    Shattering Stars (SMN).
-    Creeping Doom.
-    Charming Trio.
-    Harem Scarem.
-    Early Bird Catches the Wyrm.
-    Royal Succession.
-    Rapid Raptors.
-    Wild Wild Whiskers.
-    Seasons Greetings.
-    Royale Ramble.
-    Moa Constrictors.
-    The V Formation.
-    Avian Apostates.
-    Beyond Infinity.
-    ★Steamed Sprouts
-    ★Divine Punishers
-    A Feast Most Dire.
-    A.M.A.N. Trove (Mars).
-    A.M.A.N. Trove (Venus).
-    Inv. from Kupipi.
-    Inv. from Kupipi and Co.
+    Aucun.
+    La Mission Finale Rang 2.
+    Germes de Choux.
+    Châtiments Divins.
+    Invitation Sainte.
+    Trésor et Tribulations.
+    Étoiles Éclatantes (MNK).
+    Étoiles Éclatantes (WHM).
+    Étoiles Éclatantes (SMN).
+    Doom Rampant.
+    Trio Charmant.
+    Harem en Détresse.
+    L'oiseau matinal attrape le Wyrm.
+    Succession Royale.
+    Raptors Rapides.
+    Moustaches Sauvages.
+    Vœux de Saison.
+    Promenade Royale.
+    Serpents Moa.
+    La Formation V.
+    Apostats Aviaires.
+    Au-delà de l'Infini.
+    ★Germes de Choux
+    ★Châtiments Divins
+    Un Festin des Plus Funestes.
+    Trésor A.M.A.N. (Mars).
+    Trésor A.M.A.N. (Vénus).
+    Inv. de Kupipi.
+    Inv. de Kupipi et Co.
     .
     .
     .
     .
     ${prompt}
-  7603: CHANT EFFECT.${prompt}
-  7604: SUMMON EFFECT.${prompt}
-  7605: PRESS BUTTON TO PROCEED.${prompt}
+  7603: EFFET DU CHANT.${prompt}
+  7604: EFFET DE L'INVOCATION.${prompt}
+  7605: APPUYEZ SUR LE BOUTON POUR CONTINUER.${prompt}
   7606: |-
     BOSS ROOM DEBUG (*BATTLE ONLY)
     ${selection-lines}
@@ -18448,121 +18448,121 @@ entries:
     ${selection-lines}
     DON'T SKIP.
     DO SKIP.${prompt}
-  7609: |-
-    Heh-heh-heh... I'm so glad you could come.
-    I didn't realize that little rumor I spread would be so effective.${prompt}
+    7609: |-
+    Hé-hé-hé... Je suis tellement content que tu sois venu.
+    Je ne réalisais pas que cette petite rumeur que j'ai lancée serait aussi efficace.${prompt}
   7610: |-
-    Yes, I'm the “ferocious monster” you were told about...
-    One who will rally the beastman hordes on a grand campaign to rid the world of you and your kind!${prompt}
+    Oui, je suis le "monstre féroce" dont on t'a parlé...
+    Celui qui rassemblera les hordes de bêtes humaines pour mener une grande campagne afin de vous débarrasser de toi et de tes semblables !${prompt}
   7611: |-
-    The day of reckoning will come, and the beastmen will be the ones to rule this world!
-    Not that you'll be there to see it...${prompt}
-  7612: Because you'll already be dead!${prompt}
+    Le jour du jugement viendra, et les bêtes humaines seront celles qui régneront sur ce monde !
+    Pas que tu sois là pour le voir...${prompt}
+  7612: Parce que tu seras déjà mort !${prompt}
   7613: |-
-    Arise, Wyrm of Darkness, Devourer of Light!
-    I command you! Smite my enemies where they stand!${wait-animation: 2}
+    Lève-toi, Dragon des Ténèbres, Dévoreur de Lumière !
+    Je t'ordonne ! Frappe mes ennemis là où ils se tiennent !${wait-animation: 2}
   7614: |-
-    “Rrrally the beastman hordes”?
-    Almost sounds as if you're planning to wage another Crystal War!${prompt}
-  7615: Heh-heh-heh. I see you catch on quick.${prompt}
+    "Rassembler les hordes de bêtes humaines" ?
+    On dirait presque que tu prévois de mener une autre Guerre des Cristaux !${prompt}
+  7615: Hé-hé-hé. Je vois que tu comprends vite.${prompt}
   7616: |-
-    A spatial distorrrtion...?
-    This can only mean...!?${wait-animation: 1}
-  7617: A...a drrragon?${prompt}
+    Une distorsion spatiale... ?
+    Cela ne peut signifier... !?${wait-animation: 1}
+  7617: Un... un dragon ?${prompt}
   7618: |-
-    Phew. Heh-heh...
-    I knew it couldn't have been old you-know-who.
-    I was getting carried away therrre.${prompt}
+    Ouf. Hé-hé...
+    Je savais que ça ne pouvait pas être le vieux vous-savez-qui.
+    J'étais en train de m'emporter là.${prompt}
   7619: |-
-    Hah! Is this all you can musterrr?
-    ...Your pet drrragon?${prompt}
+    Ah ! C'est tout ce que tu peux rassembler ?
+    ...Ton dragon de compagnie ?${prompt}
   7620: |-
-    Hm...? Here come the reinforrrcements.
-    Looks like they'll be able to handle this.
-    I have more pressing matters than dealing with the likes of these.
-    I'll leave it in theirrr hands.${prompt}
-  7621: |-
-    This...this cannot be!
-    Me, defeated...by these weaklings!?${prompt}
-  7622: Oops, I guess I missed the show.${prompt}
-  7623: Hey, wait a minute. This dragon...${prompt}
+    Hm...? Voici les renforts.
+    On dirait qu'ils vont pouvoir gérer ça.
+    J'ai des affaires plus pressantes que de m'occuper de ces individus.
+    Je vais leur laisser ça.${prompt}
+    7621: |-
+    Cela... cela ne peut être !
+    Moi, vaincu... par ces misérables !?${prompt}
+  7622: Oups, je crois que j'ai raté le spectacle.${prompt}
+  7623: Hé, attends une minute. Ce dragon...${prompt}
   7624: |-
-    No doubt about it, it's a nether beast from the Northlands!
-    What's it doing here!?${prompt}
-  7625: Their kind haven't been seen ever since the Shadow Lord was destroyed and the Northlands sealed...${prompt}
-  7626: To see one here, with the beastmen, it's as if...${prompt}
+    Sans aucun doute, c'est une créature des ténèbres des Terres du Nord !
+    Que fait-elle ici ?!${prompt}
+  7625: Leur espèce n'a pas été vue depuis que le Seigneur des Ombres a été détruit et que les Terres du Nord ont été scellées...${prompt}
+  7626: Voir l'un d'eux ici, avec les bêtes humaines, c'est comme si...${prompt}
   7627: |-
-    The Shadow Lord will soon be brought back to this world.
-    I was merely making preparations for His return...${prompt}
+    Le Seigneur des Ombres sera bientôt ramené dans ce monde.
+    Je faisais simplement des préparatifs pour son retour...${prompt}
   7628: |-
-    What!?
-    Who are you!?${prompt}
+    Quoi !?
+    Qui es-tu ?${prompt}
   7629: |-
-    I am Searcher, a servant of the Shadow Lord.
-    The “Great Hero” that saved you twenty years ago is gone--none has the power to defeat Him now.${prompt}
-  7630: While your peoples were busy squabbling with each other, we have been preparing for His return.${prompt}
-  7631: And when He comes...He will destroy you all!${prompt}
+    Je suis Searcher, un serviteur du Seigneur des Ombres.
+    Le "Grand Héros" qui vous a sauvés il y a vingt ans est parti--personne n'a le pouvoir de le vaincre maintenant.${prompt}
+  7630: Pendant que vos peuples se querellaient, nous préparions son retour.${prompt}
+  7631: Et quand il viendra... Il vous détruira tous !${prompt}
   7632: |-
-    Enjoy your lives...while they last...
-    Foolish...weaklings... Hah hah...hah...
-    Eye-eye-e～ye...!${prompt}
+    Profitez de vos vies... tant qu'elles dureront...
+    Fous... misérables... Ah ah... ah...
+    Ai-ai-e～ye...!${prompt}
   7633: |-
-    The Shadow Lord...is coming back...
-    There's going to be another war...${prompt}
-  7634: Our days will be filled with hatred and sorrow once more...${prompt}
+    Le Seigneur des Ombres... revient...
+    Il y aura une autre guerre...${prompt}
+  7634: Nos jours seront remplis de haine et de tristesse une fois de plus...${prompt}
   7635: |-
-    ${name-player}! You should head back to your country.
-    And don't forget to report what happened here!
-    If it's true the Shadow Lord is being resurrected, we can expect great trouble to follow!${prompt}
+    ${name-player}! Tu devrais retourner dans ton pays.
+    Et n'oublie pas de rapporter ce qui s'est passé ici !
+    Si le Seigneur des Ombres est en train de renaître, nous pouvons nous attendre à de grands troubles à suivre !${prompt}
   7636: |-
-    I've got to get going.
-    I hope to see you around again someday, ${name-player}.${prompt}
-  7637: I am Kaa Toru the Just.${prompt}
+    Je dois partir.
+    J'espère te revoir un jour, ${name-player}.${prompt}
+  7637: Je suis Kaa Toru le Juste.${prompt}
   7638: |-
-    Peace be.
-    By grace of the Yagudo Holy One and the Star Sibyl of Windurst, I be holding Balga Contest here today.${prompt}
-  7639: In south corner, representing Yagudo, we be having blademaster Buu Xolo the Bloodfaced.${prompt}
-  7640: In north corner, representing Windurst, we be having ${name-player} the Unremarkable.${prompt}
-  7641: Outcome of this battle will be affecting the “Windurstian offerings to Oztroja” clause of Windurst-Oztroja peace treaty.${prompt}
-  7642: Combatants, swear that you will be fighting with honor, kyah!${prompt}
-  7643: Victor is ${name-player} of Windurst.${prompt}
+    Paix soit avec vous.
+    Par la grâce de l'Être Sacré Yagudo et de la Sibylle des Étoiles de Windurst, je tiens le Balga Contest ici aujourd'hui.${prompt}
+    7639: Dans le coin sud, représentant les Yagudos, nous avons le maître d'armes Buu Xolo le Visage de Sang.${prompt}
+  7640: Dans le coin nord, représentant Windurst, nous avons ${name-player} l'Ordinaire.${prompt}
+  7641: Le résultat de ce combat affectera la clause “Offrandes Windurstiennes à Oztroja” du traité de paix Windurst-Oztroja.${prompt}
+  7642: Combattants, jurez que vous combattrez avec honneur, kyah !${prompt}
+  7643: Le vainqueur est ${name-player} de Windurst.${prompt}
   7644: |-
-    ...Listen to me, smoothskin.
-    Take this ${keyitem-singular: 2[2]} to Castle Oztroja. There you can exchange it for the ${keyitem-singular: 1[2]}, an oath that be concerning the Windurst offerings to Oztroja.${prompt}
+    ...Écoute-moi, peau lisse.
+    Prends ce ${keyitem-singular: 2[2]} pour le Château Oztroja. Là-bas, tu pourras l'échanger contre le ${keyitem-singular: 1[2]}, un serment concernant les offrandes Windurstiennes à Oztroja.${prompt}
   7645: |-
-    Got it, quawk?
-    You be making your way to the top level of Castle Oztroja as fast as smoothskin two-legs can take you.${prompt}
-  7646: I now be closing the Balga Contest. Now flock off, kyah!${prompt}
+    Compris, quawk ?
+    Tu devras te rendre au niveau supérieur du Château Oztroja aussi vite que tes petites jambes de peau lisse peuvent t'y emmener.${prompt}
+  7646: Je vais maintenant clore le Balga Contest. Maintenant, envole-toi, kyah !${prompt}
   7647: |-
-    So, you decided to show up.
-    Now it's time to see what you're really made of, heh heh heh.${prompt}
+    Alors, tu as décidé de venir.
+    Maintenant, voyons ce que tu vaux vraiment, heh heh heh.${prompt}
   7648: |-
-    Looks like you weren't ready for me, were you?
-    Now go home, wash your face, and come back when you think you've got what it takes.${prompt}
-  7649: Hm. That was a mighty fine display of skill there, ${name-player}. You've come a long way...${prompt}
-  7650: I'll teach you to respect your elders!${prompt}
-  7651: Take that, you whippersnapper!${prompt}
-  7652: Now that I'm warmed up...${prompt}
+    On dirait que tu n'étais pas prêt pour moi, hein ?
+    Maintenant rentre chez toi, lave-toi le visage, et reviens quand tu penseras avoir ce qu'il faut.${prompt}
+  7649: Hm. C'était une belle démonstration de compétences, ${name-player}. Tu as bien progressé...${prompt}
+  7650: Je vais t'apprendre à respecter tes aînés !${prompt}
+  7651: Prends ça, toi petit garnement !${prompt}
+  7652: Maintenant que je suis échauffé...${prompt}
   7653: |-
     Ungh...
-    That'll hurt in the morning...${prompt}
-  7654: There is nothing out of the ordinary here.${prompt}
+    Ça va faire mal demain...${prompt}
+  7654: Il n'y a rien d'inhabituel ici.${prompt}
   7655: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
+    Tu entends une voix étrange...
+    "Objets, objets, la la la la la～♪"${prompt}
   7656: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
+    Oh mon Gob ! T'es un de ces aventuriers, non ?
+    T'as rien sur moi, ${choice-player-gender}[homme./femme.] Je faisais juste mes affaires, cherchant des trucs et des machins.${prompt}
   7657: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7658: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7659: Now, listen close...${prompt}
+    Hé, fais attention. Tu ne veux pas te battre avec moi. Je vais te transformer en viande séchée !
+    Attends, et si on devenait amis à la place ? Ça te va ?${prompt}
+  7658: Je voyage partout dans le monde et j'entends plein d'histoires différentes. J'entends même les tiennes. Si tu veux, je peux t'en raconter une.${prompt}
+  7659: Maintenant, écoute bien...${prompt}
   7660: |-
     Oh...
-    Well, if that's the case, I'm outta here.${prompt}
-  7661: The Goblin slipped away when you were not looking...${prompt}
-  7662: You can hear a strange, raspy voice...${prompt}
+    Eh bien, si c'est le cas, je m'en vais.${prompt}
+  7661: Le Gobelin s'est échappé lorsque tu ne regardais pas...${prompt}
+  7662: Tu entends une voix étrange et rauque...${prompt}
   7663: |-
     I travel......hear lots...
     Hear...stories... Can tell...if...${prompt}
