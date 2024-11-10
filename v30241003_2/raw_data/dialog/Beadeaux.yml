@@ -17940,40 +17940,40 @@ entries:
   7380: Vous ne pouvez pas ouvrir le coffre pendant l'événement mog.${prompt}
   7381: Le coffre n'était qu'une illusion...${prompt}
   7382: |-
-    The chest appears to be locked.
-    If only you had ${article} ${item-article: 0[2]}, perhaps you could open it...${prompt}
-  7383: A piece of parchment has been nailed here.${prompt}
+    Le coffre semble être verrouillé.
+    Si seulement tu avais ${article} ${item-article: 0[2]}, peut-être que tu pourrais l'ouvrir...${prompt}
+  7383: Un morceau de parchemin a été cloué ici.${prompt}
   7384: |-
-    Do you want to read it?
+    Veux-tu le lire ?
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
+    Oui.
+    Pas maintenant.${prompt}
   7385: Mrahcva dauqe htsi yekllec eht.${prompt}
   7386: Vada uqons naem dnuos on.${prompt}
-  7387: I can see this place still lingers in your heart. Here is where it all began--where you set out on your journey as a Dark Knight.${prompt}
-  7388: You've become stronger. However, you must never forget the souls of those that you have brought down with your mighty blade.${prompt}
-  7389: You have made many sacrifices to come this far. That is the road you have chosen, but also your sin.${prompt}
-  7390: However, at the same time, one life cannot continue on without the loss of another. Denying this truth would mean the end of all life in Vana'diel. This vicious circle must continue on.${prompt}
-  7391: Does the sword you wield shine as dark as the purest ebony? Do you thirst for new challenges that lie ahead? If so, seek out and destroy Gerwitz's Scythe.${prompt}
-  7392: The scythe will be making its way toward the place where crystals gather. It will replenish its power there and then set out to seek fresh blood.${prompt}
-  7393: To prove your strength to Gerwitz's beast, seek out the blood of a beast worthy enough and take it to the place where crystals gather. There you can call him.${prompt}
-  7394: His beast is cautious and will not show itself to me. But to you...to you it may just...${prompt}
-  7395: 'Lemme see here. Looks like you''ve brought me ${number: 1} ${item-given-plurality: 1[2], 0[2]}. A deal''s a deal, so here''s the ${item-singular: 2[2]}.${prompt}'
-  7396: 'They''re not worth a whole lot, but ya done good to collect ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Here''s ${article} ${item-article: 2[2]} for yer trouble.${prompt}'
-  7397: 'Whatcha got there? Looks like ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Guess that means I gotta give you this ${item-singular: 2[2]}.${prompt}'
-  7398: 'Here ya go, kid. ${lettercase: 1}${article} ${item-article: 2[2]} in exchange for ya ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
-  7399: 'Well, you make an old Gob smile, you do. Not many people hand over ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Take this ${item-singular: 2[2]} and get outta here.${prompt}'
-  7400: 'Now you''re just showing off, bringing me ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Here''s your ${item-singular: 2[2]}. Now scram, kid.${prompt}'
-  7401: Whaddaya want? You wanna talk to me? Well, I don't wanna talk to you until you got something I wanna hear. Take a hike, buddy.${prompt}
-  7402: I got no interest in dealing with the likes of you. Don'tcha got a home to go to?${prompt}
+  7387: Je peux voir que cet endroit hante toujours ton cœur. C'est ici que tout a commencé—là où tu t'es lancé dans ton voyage en tant que Chevalier Noir.${prompt}
+  7388: Tu es devenu plus fort. Cependant, tu ne dois jamais oublier les âmes de ceux que tu as abattus avec ta puissante lame.${prompt}
+  7389: Tu as fait de nombreux sacrifices pour arriver jusque-là. C'est la route que tu as choisie, mais aussi ton péché.${prompt}
+  7390: Cependant, en même temps, une vie ne peut continuer sans la perte d'une autre. Nier cette vérité signifierait la fin de toute vie à Vana'diel. Ce cercle vicieux doit continuer.${prompt}
+  7391: Est-ce que l'épée que tu manies brille aussi sombrement que l'ébène la plus pure ? As-tu soif de nouveaux défis à venir ? Si c'est le cas, cherche et détruis la Faux de Gerwitz.${prompt}
+  7392: La faux se dirigera vers l'endroit où les cristaux se rassemblent. Elle y rechargera sa puissance puis partira chercher un nouveau sang.${prompt}
+  7393: Pour prouver ta force au monstre de Gerwitz, cherche le sang d'une bête digne de ce nom et amène-le à l'endroit où les cristaux se rassemblent. Là, tu pourras l'appeler.${prompt}
+  7394: Sa bête est prudente et ne se montrera pas à moi. Mais à toi... à toi, elle pourrait bien...${prompt}
+  7395: 'Lemme voir. On dirait que tu m’as apporté ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Un marché est un marché, alors voici ${article} ${item-singular: 2[2]}.${prompt}'
+  7396: 'Ce n’est pas grand-chose, mais t’as bien fait de ramasser ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Voici ${article} ${item-article: 2[2]} pour ton mal.${prompt}'
+  7397: 'Qu’est-ce que tu as là ? On dirait ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Ça veut dire que je dois te donner ça ${item-singular: 2[2]}.${prompt}'
+  7398: 'Tiens, gamin. ${lettercase: 1}${article} ${item-article: 2[2]} en échange de tes ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
+  7399: 'Eh bien, tu fais sourire un vieux Gob. Pas beaucoup de gens me donnent ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Prends ce ${item-singular: 2[2]} et file.${prompt}'
+  7400: 'Maintenant tu fais du zèle, tu m’apportes ${number: 1} ${item-given-plurality: 1[2], 0[2]}. Voici ton ${item-singular: 2[2]}. Maintenant file, gamin.${prompt}'
+  7401: Qu’est-ce que tu veux ? Tu veux me parler ? Eh bien, je ne veux pas te parler tant que tu n'as rien d'intéressant à dire. Va-t’en, mon gars.${prompt}
+  7402: Je n’ai aucun intérêt à traiter avec des gens comme toi. T’as pas un chez-toi où aller ?${prompt}
   7403: |-
-    ${lettercase: 1}${keyitem-singular: 2[2]}?
-    Didn't think I'd ever hear those words from someone who wasn't a Gob. You know some weird stuff, for a person.${prompt}
-  7404: There's a story that says some things have their own soul.${prompt}
-  7405: 'The ${keyitem-plural: 2[2]} used to be just simple hourglasses. But as they passed through the hands of dozens of people, and even a few beastmen as well, the hourglasses were transformed by all their thoughts and feelings.${prompt}'
-  7406: They have the ability to focus mysterious powers. In our travels through all the lands of this world, us Goblins often come across this sorta thing.${prompt}
-  7407: 'Now we come to the fun part. If you want a ${keyitem-singular: 2[2]}, I''d be willing to sell one to you. And you should know that only us Gobs can tell if an item has its own soul.${prompt}'
-  7408: You people--heck, even other beastmen--have no idea. I've seen you guys throw away these items like they were junk.${prompt}
+    ${lettercase: 1}${keyitem-singular: 2[2]} ?
+    Je n'aurais jamais pensé entendre ces mots de quelqu'un qui n'est pas un Gob. Tu sais des trucs bizarres, pour un humain.${prompt}
+  7404: Il y a une histoire qui dit que certaines choses ont leur propre âme.${prompt}
+  7405: 'Les ${keyitem-plural: 2[2]} étaient autrefois de simples sabliers. Mais au fur et à mesure qu’ils passaient entre les mains de dizaines de personnes, et même quelques bêtes, les sabliers ont été transformés par toutes leurs pensées et émotions.${prompt}'
+  7406: Ils ont la capacité de concentrer des pouvoirs mystérieux. Lors de nos voyages à travers tous les territoires de ce monde, nous les Gobelins tombons souvent sur ce genre de choses.${prompt}
+  7407: 'Maintenant, vient la partie amusante. Si tu veux un ${keyitem-singular: 2[2]}, je serais prêt à t’en vendre un. Et tu devrais savoir que seuls nous Gobelins pouvons dire si un objet a une âme.${prompt}'
+  7408: Vous autres—même d'autres bêtes—n'avez aucune idée. Je vous ai vus jeter ces objets comme si c’était des ordures.${prompt}
   7409: |-
     They may look like garbage, but souled items are rare and valuable.
     You still want an hourglass, you gotta cough up ${number: 3} gil.${prompt}
