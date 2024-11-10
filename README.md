@@ -1,6 +1,6 @@
 TRADUCTION DU CLIENT FINAL FANTASY XI
 
-ATTENTION : Les fichiers correspondent STRICTEMENT à la version v30241003_2 (octobre 2024). Si quelqu'un souhaite m'aider, je l’en remercie vivement ! Utilisez l’extension de comparaison de Notepad++ (voir le Wiki). Si un outil plus performant existe, merci de l'ajouter au Wiki en français clair ! La version d'avril 2024 est abandonnée mais elle peut servir d'aide a la traduction car beaucoup de zone sont déja traduite.
+ATTENTION : Les fichiers correspondent STRICTEMENT à la version v30241003_2 (octobre 2024). Si quelqu'un souhaite m'aider, je l’en remercie vivement ! Utilisez l’extension de comparaison de Notepad++ (voir le Wiki). Si un outil plus performant existe, merci de l'ajouter au Wiki en français clair !
 
 Le programme XI Tinkerer est assez capricieux et si on traduit trop d'un coup sans compiler (générer) un .dat, il peut nous sortir des erreurs qui n'existent pas. Si vous devez traduire un fichier, faites une vingtaine de lignes à la fois environ et vérifiez fréquemment avec une génération .DAT pour être sûr que tout va dans le sens souhaité et surtout ne pas perdre son temps inutilement.
 
