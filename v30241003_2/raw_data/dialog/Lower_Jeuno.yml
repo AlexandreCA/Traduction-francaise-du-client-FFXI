@@ -16159,7 +16159,7 @@ entries:
     Oui.
     Non.${prompt}
   6532: Point de retour défini !${prompt}
-  6533: Un point de retour peut être défini comme un lieu où vous reviendrez dans Vana'diel lorsque vous serez mis KO. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+  6533: Un point de retour peut être défini comme un lieu où vous reviendrez dans Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6534: |-
     Que voulez-vous faire ?
     ${selection-lines}
@@ -16169,12 +16169,12 @@ entries:
     Finalement, non.${prompt}
   6535: |-
     Vous avez enregistré un nouveau point de retour !
-    Vous pouvez désormais vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
-  6536: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
+    Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
+  6536: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
   6537: |-
-    Où souhaitez-vous vous téléporter ?
+    Se téléporter où ?
     ${selection-lines}
-    Finalement, non.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16194,7 +16194,7 @@ entries:
     Page précédente.
     Page suivante.${prompt}                               
   6538: |-
-    Où souhaitez-vous vous téléporter ?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
     Nulle part.
     Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
@@ -16206,22 +16206,22 @@ entries:
   6540: 'La téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]} coûte ${number: 3} gils.'
   6541: 'Il n’y a pas de frais pour la téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]}.'
   6542: |-
-    Téléporter ? (Gils actuels : ${number: 0})
+    Se téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
     Oui, s'il vous plaît.
     Non, merci.${prompt}
   6543: |-
-    Vers quelle région souhaitez-vous vous téléporter ?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    Finalement, aucune.
+    En y réfléchissant, aucune.
     Sélectionner parmi les favoris.
     Région actuelle.
   
     ${choice: 1}[San d'Oria/Movalpolos].
     ${choice: 1}[Bastok/Archipel de Tavnazia].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Mamool Ja Sauvage].
     ${choice: 1}[Tavnazia/Halvung].
     ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
     ${choice: 1}[Îles Adoulin/Ruines d'Alzadaal].
@@ -16245,9 +16245,9 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   6544: |-
-    Où souhaitez-vous vous téléporter ?
+    Se téléporter où ?
     ${selection-lines}
-    Aucun de ces endroits.
+    Aucun de ces choix.
     Un lieu favori.
     Une zone originale.
     Une zone de Rise of the Zilart.
@@ -16255,7 +16255,7 @@ entries:
     Une zone de Treasures of Aht Urhgan.
     Une zone de Wings of the Goddess.
     Une zone de Seekers of Adoulin.${prompt}
-  6545: Vous pouvez changer la méthode de sélection de la zone vers laquelle vous souhaitez téléporter votre point de retour.
+  6545: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour le téléport.
   6546: |-
     Quel paramètre souhaitez-vous ?
     ${selection-lines}
@@ -16264,9 +16264,9 @@ entries:
     Sélectionner par extension.${prompt}
   6547: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
   6548: |-
-    Où souhaitez-vous vous téléporter ?
+    Se téléporter où ?
     ${selection-lines}
-    Aucun de ces endroits.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16277,12 +16277,12 @@ entries:
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  6549: 'Le point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.'
-  6550: Votre liste de lieux favoris est pleine. Vous devez supprimer un élément existant pour enregistrer un nouveau.
+  6549: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.'
+  6550: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.
   6551: |-
     Supprimer lequel ?
     ${selection-lines}
-    Aucun de ces endroits.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
