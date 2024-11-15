@@ -16408,30 +16408,30 @@ entries:
   6687: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
   6688: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
   6689: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour.
+    Une fois défini, vous reviendrez à ce point lorsque vous serez mis hors de combat.
   6690: |-
-    Set this as current home point?
+    Définir ceci comme votre point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6691: Home point set!${prompt}
-  6692: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  6691: Point de retour défini !${prompt}
+  6692: Un point de retour peut être défini comme un lieu où vous reviendrez dans Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6693: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    Finalement, non.${prompt}
   6694: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6695: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
+  6695: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
   6696: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16448,81 +16448,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}                               
   6697: |-
-    Teleport where?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6698: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  6699: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  6700: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  6698: Vous n'avez encore enregistré aucun autre point de retour, il est donc impossible de vous téléporter.${prompt}
+  6699: 'La téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]} coûte ${number: 3} gils.'
+  6700: 'Il n’y a pas de frais pour la téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]}.'
   6701: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   6702: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    En y réfléchissant, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel de Tavnazia].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Mamool Ja Sauvage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6703: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  6704: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ces choix.
+    Un lieu favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  6704: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour le téléport.
   6705: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  6706: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  6706: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
   6707: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16532,13 +16532,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  6708: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  6709: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  6708: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.'
+  6709: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.
   6710: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16573,91 +16573,91 @@ entries:
     Hmmm... It looks like you don't have enough Allied Notes.
     Sorry, but these birds aren't going to feed and groom themselves.${prompt}
   6722: 'I''m sorry, but we don''t put our chocobos in the hands of people with ${keyitem-article: 0[2]}. We wouldn''t want our feathered friends dying from fright now, would we?${prompt}'
-  6723: Step right this way to entaru your Rent-a-Roomie!${prompt}
-  6724: Say, I can reserve a Rent-a-Roomie for you. All your stuff will be taken from your Moggie-Woggie House and brought here!${prompt}
+  6723: Entre ici pour entamer ton Rent-a-Roomie !${prompt}
+  6724: Dis, je peux réserver un Coloc à louer pour toi. Toutes tes affaires seront prises de ta Maison Moggie-Woggie et amenées ici !${prompt}
   6725: |-
-    Do you want to move to Jeuno?
+    Tu veux déménager à Jeuno ?
     ${selection-lines}
-    Right away.
-    Not now, thanks.${prompt}
-  6726: Very well. I've completed the necessary procedure-wedures! Make yourself at home in your home away from home! Hehehe!${prompt}
-  6727: Oh, okay. Fine! Be that way!${prompt}
+    Tout de suite.
+    Pas maintenant, merci.${prompt}
+  6726: Très bien. J’ai terminé les procédures-nécessaires-ssaires ! Faites comme chez vous dans votre chez-vous loin de chez vous ! Hehehe !${prompt}
+  6727: Oh, d’accord. Très bien ! Soit !${prompt}
   6728: |-
-    Enter the residential area?
+    Entrer dans la zone résidentielle ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6729: (DEBUG) Flag raised, kupo!${prompt}
-  6730: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
-  6731: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
-  6732: I'll tell you all about your Mog House, kupo!${prompt}
+  6730: Bienvenue, Maître ! Voici ta maison, la "Mog House", kupo !${prompt}
+  6731: Je suis un moogle ! Nous, les moogles, aimons prendre soin des maisons et des objets ! Enchanté de te rencontrer, kupo !${prompt}
+  6732: Je vais tout te dire sur ta Mog House, kupo !${prompt}
   6733: |-
-    First, the basics, kupo!
-    Open your main menu, Master. The button at the very bottom changes to “Mog House” when you're in your Mog House, kupo!${prompt}
-  6734: Press it and the “Mog House” menu will appear! Everything you can do in your Mog House is there, kupo!${prompt}
-  6735: There are lots of things you can do in your Mog House, kupo! It can be too much for some masters, kupo...${prompt}
-  6736: So I'll teach you about each one of them! Ask me what you want to know about, kupo!${prompt}
-  6737: Choose the Mog House command you want to know about, kupo!${prompt}
+    D'abord, les bases, kupo !
+    Ouvre ton menu principal, Maître. Le bouton tout en bas change en “Mog House” quand tu es dans ta Mog House, kupo !${prompt}
+  6734: Appuie dessus et le menu “Mog House” apparaîtra ! Tout ce que tu peux faire dans ta Mog House y est, kupo !${prompt}
+  6734: Il y a plein de choses que tu peux faire dans ta Mog House, kupo ! C'est parfois un peu trop pour certains maîtres, kupo...${prompt}
+  6736: Alors je vais t'expliquer chacune de ces choses ! Demande-moi ce que tu veux savoir, kupo !${prompt}
+  6737: Choisis la commande de Mog House dont tu veux connaître le fonctionnement, kupo !${prompt}
   6738: |-
-    What do you want to know about?
+    Que veux-tu savoir ?
     ${selection-lines}
-    The Mog Safe.
-    Storage.
-    The Delivery Box.
-    Changing jobs.
-    Gardening.
-    Changing the layout.
-    Mog House invitations.
-    I got it, thanks, kupo!${prompt}
-  6739: The Mog Safe is where I keep items that you can't carry! It's an especially secure and solid safe, kupo!${prompt}
-  6740: You can only put so many items in it, kupo... But I'll guard them even if it means my life, kupo!${prompt}
-  6741: The Delivery Box is where you can send letters to friends and receive items from various places, kupo!${prompt}
-  6742: You should take the items from your Delivery Box and put them in your inventory when they arrive, kupo!${prompt}
-  6743: If your Delivery Box is full, no more deliveries can be made, and you can't send any mail either, kupo!${prompt}
-  6744: You can send items and gil to your friends with the “Send” command, kupo!${prompt}
-  6745: (Sometimes, if a special force takes hold, you can even deliver items with the "Exclusive" attribute, kupo...!)${prompt}
-  6746: Changing people's jobs is a secret ability only we moogles can use, kupo!${prompt}
-  6747: I take off all your equipment and take you to a mysterious place, kupo!${prompt}
-  6748: And...the rest is a secret, kupo!${prompt}
-  6749: All moogles like taking care of plants, kupo!${prompt}
-  6750: As long as you have a flowerpot and seeds, I'll make it my personal responsibility to look after the plants you raise, kupo!${prompt}
-  6751: This Mog House is your very own room, kupo! But it's still a little bare, kupo...${prompt}
-  6752: It needs some furniture and maybe some paintings to make it more cozy, kupo!${prompt}
-  6753: If you find any during your travels, I'll help you lay them out, kupo! I can't wait, kupo!${prompt}
-  6754: Storage space becomes available when you place furniture in your Mog House using the “Layout” command, kupo!${prompt}
+    Le Mog Safe.
+    Stockage.
+    La boîte de livraison.
+    Changer de métier.
+    Jardinage.
+    Changer l'aménagement.
+    Invitations à la Mog House.
+    C'est bon, merci, kupo !${prompt}
+  6739: Le Mog Safe est là où je garde les objets que tu ne peux pas porter ! C'est un coffre spécialement sécurisé et solide, kupo !${prompt}
+  6740: Tu ne peux y mettre qu'un nombre limité d'objets, kupo... Mais je les garderai même si ça doit me coûter la vie, kupo !${prompt}
+  6741: La boîte de livraison est l'endroit où tu peux envoyer des lettres à tes amis et recevoir des objets de divers endroits, kupo !${prompt}
+  6742: Tu devrais prendre les objets de ta boîte de livraison et les mettre dans ton inventaire quand ils arrivent, kupo !${prompt}
+  6743: Si ta boîte de livraison est pleine, tu ne peux plus recevoir de livraisons, et tu ne peux pas envoyer de courrier non plus, kupo !${prompt}
+  6744: Tu peux envoyer des objets et des gil à tes amis avec la commande “Envoyer”, kupo !${prompt}
+  6745: (Parfois, si une force spéciale prend le dessus, tu peux même livrer des objets avec l'attribut "Exclusif", kupo... !)${prompt}
+  6746: Changer de métier est une capacité secrète que seuls nous, les moogles, pouvons utiliser, kupo !${prompt}
+  6747: Je retire tout ton équipement et je t'emmène dans un endroit mystérieux, kupo !${prompt}
+  6748: Et... le reste est un secret, kupo !${prompt}
+  6749: Tous les moogles aiment prendre soin des plantes, kupo !${prompt}
+  6750: Tant que tu as un pot de fleurs et des graines, je prendrai personnellement en charge les plantes que tu cultiveras, kupo !${prompt}
+  6751: Cette Mog House est ta propre chambre, kupo ! Mais elle est encore un peu vide, kupo...${prompt}
+  6752: Il lui faut des meubles et peut-être des tableaux pour la rendre plus cosy, kupo !${prompt}
+  6753: Si tu en trouves pendant tes voyages, je t'aiderai à les disposer, kupo ! J'ai hâte, kupo !${prompt}
+  6754: L'espace de stockage devient disponible quand tu places des meubles dans ta Mog House avec la commande “Aménagement”, kupo !${prompt}
   6755: |-
-    It's almost exactly the same as using your Mog Safe, kupo!
-    Leave your items here for me to look after, kupo!${prompt}
-  6756: You can invite party and alliance members into your Mog House, kupo!${prompt}
-  6757: You can show off your expensive furniture, have tea parties, plan your next great adventure--the possibilities are endless, kupo!${prompt}
-  6758: Are you sure, kupo? You know everything about your Mog House, kupo?${prompt}
+    C'est presque exactement comme utiliser ton Mog Safe, kupo !
+    Laisse-moi prendre soin de tes objets ici, kupo !${prompt}
+  6756: Tu peux inviter des membres de ton groupe ou de ton alliance dans ta Mog House, kupo !${prompt}
+  6757: Tu peux montrer tes meubles chers, organiser des goûters, planifier ta prochaine grande aventure--les possibilités sont infinies, kupo !${prompt}
+  6758: Es-tu sûr, kupo ? Tu sais tout sur ta Mog House, kupo ?${prompt}
   6759: |-
-    Are you sure?
+    Es-tu sûr ?
     ${selection-lines}
-    I'm sure!
-    Maybe I'm not so sure...${prompt}
-  6760: And finally, a little bit of advice!${prompt}
-  6761: If you ever run into any problems, just ask your fellow adventurers for help!${prompt}
-  6762: If you type “/ae Hello!”, then your message will be heard by many people.${prompt}
-  6763: If you type “/ae” followed by your issue or question, other adventurers will help you!${prompt}
-  6764: Remember that you can only do this while in town, kupo!${prompt}
+    Je suis sûr !
+    Peut-être que je ne suis pas si sûr...${prompt}
+  6760: Et enfin, un petit conseil !${prompt}
+  6761: Si tu rencontres des problèmes, demande de l'aide à tes camarades aventuriers !${prompt}
+  6762: Si tu tapes “/ae Bonjour !”, ton message sera entendu par beaucoup de gens.${prompt}
+  6763: Si tu tapes “/ae” suivi de ton problème ou question, d'autres aventuriers t'aideront !${prompt} 
+  6764: N'oublie pas que tu peux faire ça uniquement quand tu es en ville, kupo !${prompt}
   6765: |-
-    Okay, kupo!
-    Good luck on your adventuring, kupo!${prompt}
-  6766: Do you want me to teach you about your Mog House again, kupo?${prompt}
+    D'accord, kupo !
+    Bonne chance pour tes aventures, kupo !${prompt}
+  6766: Veux-tu que je te réexplique ta Mog House, kupo ?${prompt}
   6767: |-
-    Ask about your Mog House again?
+    Demander à propos de ta Mog House à nouveau ?
     ${selection-lines}
-    Don't ask.
-    Ask.${prompt}
+    Ne demande pas.
+    Demande.${prompt}
   6768: |-
-    Over the mountains and the rolling hills,
-    I'll go wherever my master wills.♪${prompt}
+    Au-delà des montagnes et des collines ondulées,
+    J'irai où mon maître me commandera.♪${prompt}
   6769: |-
-    Master!
-    I traveled all the way here at your bidding, kupo! Even a Rent-a-Room needs a moogle, kupo!${prompt}
-  6770: But there are a few things you can't do in a Rent-a-Room, kupo. Select “Mog House” from the main menu and check, kupo!${prompt}
-  6771: When you go back home, talk to the guard in front of the residential area to call me back to the Mog House, kupo!${prompt}
+    Maître !
+    J'ai voyagé jusqu'ici à ton ordre, kupo ! Même un Rent-a-Room a besoin d'un moogle, kupo !${prompt}
+  6770: Mais il y a quelques choses que tu ne peux pas faire dans un Rent-a-Room, kupo. Sélectionne “Mog House” dans le menu principal et vérifie, kupo !${prompt}
+  6771: Quand tu rentreras chez toi, parle au garde devant la zone résidentielle pour me rappeler dans la Mog House, kupo !${prompt}
   6772: |-
     Master!
     I have something to tell you, kupo!${prompt}
