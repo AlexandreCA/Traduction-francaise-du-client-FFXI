@@ -16254,14 +16254,14 @@ entries:
     Une zone de Treasures of Aht Urhgan.
     Une zone de Wings of the Goddess.
     Une zone de Seekers of Adoulin.${prompt}
-  6545: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour le téléport.
+  6545: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour le téléport.${prompt}
   6546: |-
     Quel paramètre souhaitez-vous ?
     ${selection-lines}
     Mon paramètre actuel.
     Sélectionner par région.
     Sélectionner par extension.${prompt}
-  6547: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
+  6547: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].${prompt}'
   6548: |-
     Se téléporter où ?
     ${selection-lines}
@@ -16276,8 +16276,8 @@ entries:
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  6549: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.'
-  6550: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.
+  6549: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.${prompt}'
+  6550: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.${prompt}
   6551: |-
     Supprimer lequel ?
     ${selection-lines}

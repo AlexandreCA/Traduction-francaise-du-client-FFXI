@@ -16408,15 +16408,15 @@ entries:
   6687: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
   6688: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
   6689: |-
-    Tu peux définir ceci comme ton point de retour actuel.
-    Une fois que tu as défini un point de retour, tu y reviendras chaque fois que tu seras incapé.
+    Vous pouvez définir ceci comme votre point de retour.
+    Une fois défini, vous reviendrez à ce point lorsque vous serez mis hors de combat.
   6690: |-
     Définir ceci comme point de retour actuel ?
     ${selection-lines}
     Oui.
     Non.${prompt}
   6691: Point de retour défini !${prompt}
-  6692: Un point de retour peut être défini comme un endroit où tu reviendras à Vana'diel lorsque tu seras mis hors de combat. Tu peux également utiliser un point de retour pour te téléporter vers d'autres points de retour.
+  6692: Un point de retour peut être défini comme un lieu où vous reviendrez dans Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6693: |-
     Que souhaites-tu faire ?
     ${selection-lines}
@@ -16425,9 +16425,9 @@ entries:
     Autres paramètres.
     En fait, oublie ça.${prompt}
   6694: |-
-    Tu as enregistré un nouveau point de retour !
-    Tu peux maintenant te téléporter ici depuis n'importe quel autre point de retour.${prompt} 
-  6695: Tu peux te téléporter depuis ici vers n'importe quel autre point de retour que tu as enregistré.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
+  6695: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
   6696: |-
     Téléportation où ?
     ${selection-lines}
@@ -16451,15 +16451,15 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   6697: |-
-    Téléportation où ?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
     Nulle part.
-    point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
-    point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
-    point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
-    point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
-    point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6698: Tu n'as pas encore enregistré d'autres points de retour, tu ne peux donc pas te téléporter.${prompt}
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  6698: Vous n'avez encore enregistré aucun autre point de retour, il est donc impossible de vous téléporter.${prompt}
   6699: 'Il en coûte ${number: 3} gil pour se téléporter au point de retour #${number: 2} dans ${zone: 1[2]}.'
   6700: 'Il n’y a pas de frais pour se téléporter au point de retour #${number: 2} dans ${zone: 1[2]}.'
   6701: |-
@@ -16469,7 +16469,7 @@ entries:
     Oui, s'il vous plaît.
     Non, merci.${prompt}
   6702: |-
-    Téléportation vers quelle région ?
+    Se téléporter vers quelle région ?
     ${selection-lines}
     En fait, aucune.
     Sélectionner parmi les favoris.
@@ -16501,9 +16501,9 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   6703: |-
-    Téléportation où ?
+    Se téléporter où ?
     ${selection-lines}
-    Aucune de ces options.
+    Aucune de ces choix.
     Un lieu favori.
     Une zone originale.
     Une zone de Rise of the Zilart.
@@ -16513,16 +16513,16 @@ entries:
     Une zone de Seekers of Adoulin.${prompt}
   6704: Tu peux changer la méthode de sélection de la zone de ton point de départ pour la téléportation.${prompt}
   6705: |-
-    Quel paramètre souhaites-tu ?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
     Mon paramètre actuel.
     Sélectionner par région.
     Sélectionner par extension.${prompt}
-  6706: 'Tu sélectionnes maintenant par ${choice: 1}[région/extension].${prompt}'
+  6706: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].${prompt}'
   6707: |-
-    Téléportation où ?
+    Se téléporter où ?
     ${selection-lines}
-    Aucune de ces options.
+    Aucune de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16534,11 +16534,11 @@ entries:
     ${zone: 9[2]} #${number: 25}.
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
   6708: 'Le point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] à ta liste de lieux favoris.${prompt}'
-  6709: Ta liste de lieux favoris est pleine. Tu dois supprimer une entrée existante pour en enregistrer une nouvelle.${prompt}
+  6709: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.${prompt}
   6710: |-
     Supprimer lequel ?
     ${selection-lines}
-    Aucune de ces options.
+    Aucune de ces choix.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
