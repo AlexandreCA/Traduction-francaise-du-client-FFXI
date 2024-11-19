@@ -16408,30 +16408,30 @@ entries:
   6687: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
   6688: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
   6689: |-
-    Vous pouvez définir ceci comme votre point de retour.
-    Une fois défini, vous reviendrez à ce point lorsque vous serez mis hors de combat.
+    You can set this as your current home point.
+    Once you set a home point, you will return there whenever you are incapacitated.
   6690: |-
-    Définir ceci comme votre point de retour actuel ?
+    Set this as current home point?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  6691: Point de retour défini !${prompt}
-  6692: Un point de retour peut être défini comme un lieu où vous reviendrez dans Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+    Yes.
+    No.${prompt}
+  6691: Home point set!${prompt}
+  6692: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
   6693: |-
-    Que voulez-vous faire ?
+    What will you do?
     ${selection-lines}
-    Voyager vers un autre point de retour.
-    Définir ceci comme votre point de retour.
-    Autres paramètres.
-    Finalement, non.${prompt}
+    Travel to another home point.
+    Set this as your home point.
+    Other settings.
+    On second thought, never mind.${prompt}
   6694: |-
-    Vous avez enregistré un nouveau point de retour !
-    Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
-  6695: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
+    You have registered a new home point!
+    You are now able to teleport here from any other home point.${prompt}
+  6695: You may teleport from here to any other home point you have registered.
   6696: |-
-    Se téléporter où ?
+    Teleport where?
     ${selection-lines}
-    Laissez tomber.
+    Never mind.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16448,81 +16448,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Page précédente.
-    Page suivante.${prompt}                               
+    Previous page.
+    Next page.${prompt}
   6697: |-
-    Se téléporter où ?（${zone: 33[2]}）
+    Teleport where?（${zone: 33[2]}）
     ${selection-lines}
-    Nulle part.
-    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6698: Vous n'avez encore enregistré aucun autre point de retour, il est donc impossible de vous téléporter.${prompt}
-  6699: 'La téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]} coûte ${number: 3} gils.'
-  6700: 'Il n’y a pas de frais pour la téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]}.'
+    Nowhere.
+    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  6698: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
+  6699: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
+  6700: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
   6701: |-
-    Se téléporter ? (Gils actuels : ${number: 0})
+    Teleport? (Current gil: ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s'il vous plaît.
-    Non, merci.${prompt}
+    ${choice: 33}[Add to favorites/Remove from favorites].
+    Yes, please.
+    No, thank you.${prompt}
   6702: |-
-    Se téléporter vers quelle région ?
+    Teleport to which region?
     ${selection-lines}
-    En y réfléchissant, aucune.
-    Sélectionner parmi les favoris.
-    Région actuelle.
+    On second thought, none.
+    Select from favorites.
+    Current region.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Archipel de Tavnazia].
+    ${choice: 1}[Bastok/Tavnazian Arch].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Sauvage].
+    ${choice: 1}[Jeuno/Mamool Ja Savage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
-    ${choice: 1}[Îles Adoulin/Ruines d'Alzadaal].
-    ${choice: 1}[Ronfaure/Front de Ronfaure].
-    ${choice: 1}[Zulkheim/Front de Norvallen].
-    ${choice: 1}[Norvallen/Front de Gustaberg].
-    ${choice: 1}[Gustaberg/Front de Derfland].
-    ${choice: 1}[Derfland/Front de Sarutabaruta].
-    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
-    ${choice: 1}[Kolshushu/Front de Fauregandi].
-    ${choice: 1}[Aragoneu/Front de Valdeaunia].
-    ${choice: 1}[Fauregandi/Est. Ulbuka].
+    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
+    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
+    ${choice: 1}[Ronfaure/Ronfaure Front].
+    ${choice: 1}[Zulkheim/Norvallen Front].
+    ${choice: 1}[Norvallen/Gustaberg Front].
+    ${choice: 1}[Gustaberg/Derfland Front].
+    ${choice: 1}[Derfland/Sarutabaruta Front].
+    ${choice: 1}[Sarutabaruta/Aragoneu Front].
+    ${choice: 1}[Kolshushu/Fauregandi Front].
+    ${choice: 1}[Aragoneu/Valdeaunia Front].
+    ${choice: 1}[Fauregandi/East. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Bas/].
-    ${choice: 1}[Elshimo Haut/].
+    ${choice: 1}[Elshimo Low/].
+    ${choice: 1}[Elshimo Up/].
     ${choice: 1}[Tu'Lia/].
-    Page précédente.
-    Page suivante.${prompt}
+    Previous page.
+    Next page.${prompt}
   6703: |-
-    Se téléporter où ?
+    Teleport where?
     ${selection-lines}
-    Aucun de ces choix.
-    Un lieu favori.
-    Une zone originale.
-    Une zone de Rise of the Zilart.
-    Une zone de Chains of Promathia.
-    Une zone de Treasures of Aht Urhgan.
-    Une zone de Wings of the Goddess.
-    Une zone de Seekers of Adoulin.${prompt}
-  6704: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour le téléport.
+    None of these.
+    A favorited location.
+    An original area.
+    A Rise of the Zilart area.
+    A Chains of Promathia area.
+    A Treasures of Aht Urhgan area.
+    A Wings of the Goddess area.
+    A Seekers of Adoulin area.${prompt}
+  6704: You may change the method of selecting the area of your desired home point to teleport to.
   6705: |-
-    Quel paramètre souhaitez-vous ?
+    Which setting would you like?
     ${selection-lines}
-    Mon paramètre actuel.
-    Sélectionner par région.
-    Sélectionner par extension.${prompt}
-  6706: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
+    My current setting.
+    Select by region.
+    Select by expansion.${prompt}
+  6706: 'You are now selecting by ${choice: 1}[region/expansion].'
   6707: |-
-    Se téléporter où ?
+    Teleport where?
     ${selection-lines}
-    Aucun de ces choix.
+    None of these.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16532,13 +16532,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  6708: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de votre liste de lieux favoris.'
-  6709: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.
+    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
+  6708: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
+  6709: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
   6710: |-
-    Supprimer lequel ?
+    Delete which?
     ${selection-lines}
-    Aucun de ces choix.
+    None of these.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16573,91 +16573,91 @@ entries:
     Hmmm... It looks like you don't have enough Allied Notes.
     Sorry, but these birds aren't going to feed and groom themselves.${prompt}
   6722: 'I''m sorry, but we don''t put our chocobos in the hands of people with ${keyitem-article: 0[2]}. We wouldn''t want our feathered friends dying from fright now, would we?${prompt}'
-  6723: Entre ici pour entamer ton Rent-a-Roomie !${prompt}
-  6724: Dis, je peux réserver un Coloc à louer pour toi. Toutes tes affaires seront prises de ta Maison Moggie-Woggie et amenées ici !${prompt}
+  6723: Step right this way to entaru your Rent-a-Roomie!${prompt}
+  6724: Say, I can reserve a Rent-a-Roomie for you. All your stuff will be taken from your Moggie-Woggie House and brought here!${prompt}
   6725: |-
-    Tu veux déménager à Jeuno ?
+    Do you want to move to Jeuno?
     ${selection-lines}
-    Tout de suite.
-    Pas maintenant, merci.${prompt}
-  6726: Très bien. J’ai terminé les procédures-nécessaires-ssaires ! Faites comme chez vous dans votre chez-vous loin de chez vous ! Hehehe !${prompt}
-  6727: Oh, d’accord. Très bien ! Soit !${prompt}
+    Right away.
+    Not now, thanks.${prompt}
+  6726: Very well. I've completed the necessary procedure-wedures! Make yourself at home in your home away from home! Hehehe!${prompt}
+  6727: Oh, okay. Fine! Be that way!${prompt}
   6728: |-
-    Entrer dans la zone résidentielle ?
+    Enter the residential area?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Yes.
+    No.${prompt}
   6729: (DEBUG) Flag raised, kupo!${prompt}
-  6730: Bienvenue, Maître ! Voici ta maison, la "Mog House", kupo !${prompt}
-  6731: Je suis un moogle ! Nous, les moogles, aimons prendre soin des maisons et des objets ! Enchanté de te rencontrer, kupo !${prompt}
-  6732: Je vais tout te dire sur ta Mog House, kupo !${prompt}
+  6730: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
+  6731: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
+  6732: I'll tell you all about your Mog House, kupo!${prompt}
   6733: |-
-    D'abord, les bases, kupo !
-    Ouvre ton menu principal, Maître. Le bouton tout en bas change en “Mog House” quand tu es dans ta Mog House, kupo !${prompt}
-  6734: Appuie dessus et le menu “Mog House” apparaîtra ! Tout ce que tu peux faire dans ta Mog House y est, kupo !${prompt}
-  6734: Il y a plein de choses que tu peux faire dans ta Mog House, kupo ! C'est parfois un peu trop pour certains maîtres, kupo...${prompt}
-  6736: Alors je vais t'expliquer chacune de ces choses ! Demande-moi ce que tu veux savoir, kupo !${prompt}
-  6737: Choisis la commande de Mog House dont tu veux connaître le fonctionnement, kupo !${prompt}
+    First, the basics, kupo!
+    Open your main menu, Master. The button at the very bottom changes to “Mog House” when you're in your Mog House, kupo!${prompt}
+  6734: Press it and the “Mog House” menu will appear! Everything you can do in your Mog House is there, kupo!${prompt}
+  6735: There are lots of things you can do in your Mog House, kupo! It can be too much for some masters, kupo...${prompt}
+  6736: So I'll teach you about each one of them! Ask me what you want to know about, kupo!${prompt}
+  6737: Choose the Mog House command you want to know about, kupo!${prompt}
   6738: |-
-    Que veux-tu savoir ?
+    What do you want to know about?
     ${selection-lines}
-    Le Mog Safe.
-    Stockage.
-    La boîte de livraison.
-    Changer de métier.
-    Jardinage.
-    Changer l'aménagement.
-    Invitations à la Mog House.
-    C'est bon, merci, kupo !${prompt}
-  6739: Le Mog Safe est là où je garde les objets que tu ne peux pas porter ! C'est un coffre spécialement sécurisé et solide, kupo !${prompt}
-  6740: Tu ne peux y mettre qu'un nombre limité d'objets, kupo... Mais je les garderai même si ça doit me coûter la vie, kupo !${prompt}
-  6741: La boîte de livraison est l'endroit où tu peux envoyer des lettres à tes amis et recevoir des objets de divers endroits, kupo !${prompt}
-  6742: Tu devrais prendre les objets de ta boîte de livraison et les mettre dans ton inventaire quand ils arrivent, kupo !${prompt}
-  6743: Si ta boîte de livraison est pleine, tu ne peux plus recevoir de livraisons, et tu ne peux pas envoyer de courrier non plus, kupo !${prompt}
-  6744: Tu peux envoyer des objets et des gil à tes amis avec la commande “Envoyer”, kupo !${prompt}
-  6745: (Parfois, si une force spéciale prend le dessus, tu peux même livrer des objets avec l'attribut "Exclusif", kupo... !)${prompt}
-  6746: Changer de métier est une capacité secrète que seuls nous, les moogles, pouvons utiliser, kupo !${prompt}
-  6747: Je retire tout ton équipement et je t'emmène dans un endroit mystérieux, kupo !${prompt}
-  6748: Et... le reste est un secret, kupo !${prompt}
-  6749: Tous les moogles aiment prendre soin des plantes, kupo !${prompt}
-  6750: Tant que tu as un pot de fleurs et des graines, je prendrai personnellement en charge les plantes que tu cultiveras, kupo !${prompt}
-  6751: Cette Mog House est ta propre chambre, kupo ! Mais elle est encore un peu vide, kupo...${prompt}
-  6752: Il lui faut des meubles et peut-être des tableaux pour la rendre plus cosy, kupo !${prompt}
-  6753: Si tu en trouves pendant tes voyages, je t'aiderai à les disposer, kupo ! J'ai hâte, kupo !${prompt}
-  6754: L'espace de stockage devient disponible quand tu places des meubles dans ta Mog House avec la commande “Aménagement”, kupo !${prompt}
+    The Mog Safe.
+    Storage.
+    The Delivery Box.
+    Changing jobs.
+    Gardening.
+    Changing the layout.
+    Mog House invitations.
+    I got it, thanks, kupo!${prompt}
+  6739: The Mog Safe is where I keep items that you can't carry! It's an especially secure and solid safe, kupo!${prompt}
+  6740: You can only put so many items in it, kupo... But I'll guard them even if it means my life, kupo!${prompt}
+  6741: The Delivery Box is where you can send letters to friends and receive items from various places, kupo!${prompt}
+  6742: You should take the items from your Delivery Box and put them in your inventory when they arrive, kupo!${prompt}
+  6743: If your Delivery Box is full, no more deliveries can be made, and you can't send any mail either, kupo!${prompt}
+  6744: You can send items and gil to your friends with the “Send” command, kupo!${prompt}
+  6745: (Sometimes, if a special force takes hold, you can even deliver items with the "Exclusive" attribute, kupo...!)${prompt}
+  6746: Changing people's jobs is a secret ability only we moogles can use, kupo!${prompt}
+  6747: I take off all your equipment and take you to a mysterious place, kupo!${prompt}
+  6748: And...the rest is a secret, kupo!${prompt}
+  6749: All moogles like taking care of plants, kupo!${prompt}
+  6750: As long as you have a flowerpot and seeds, I'll make it my personal responsibility to look after the plants you raise, kupo!${prompt}
+  6751: This Mog House is your very own room, kupo! But it's still a little bare, kupo...${prompt}
+  6752: It needs some furniture and maybe some paintings to make it more cozy, kupo!${prompt}
+  6753: If you find any during your travels, I'll help you lay them out, kupo! I can't wait, kupo!${prompt}
+  6754: Storage space becomes available when you place furniture in your Mog House using the “Layout” command, kupo!${prompt}
   6755: |-
-    C'est presque exactement comme utiliser ton Mog Safe, kupo !
-    Laisse-moi prendre soin de tes objets ici, kupo !${prompt}
-  6756: Tu peux inviter des membres de ton groupe ou de ton alliance dans ta Mog House, kupo !${prompt}
-  6757: Tu peux montrer tes meubles chers, organiser des goûters, planifier ta prochaine grande aventure--les possibilités sont infinies, kupo !${prompt}
-  6758: Es-tu sûr, kupo ? Tu sais tout sur ta Mog House, kupo ?${prompt}
+    It's almost exactly the same as using your Mog Safe, kupo!
+    Leave your items here for me to look after, kupo!${prompt}
+  6756: You can invite party and alliance members into your Mog House, kupo!${prompt}
+  6757: You can show off your expensive furniture, have tea parties, plan your next great adventure--the possibilities are endless, kupo!${prompt}
+  6758: Are you sure, kupo? You know everything about your Mog House, kupo?${prompt}
   6759: |-
-    Es-tu sûr ?
+    Are you sure?
     ${selection-lines}
-    Je suis sûr !
-    Peut-être que je ne suis pas si sûr...${prompt}
-  6760: Et enfin, un petit conseil !${prompt}
-  6761: Si tu rencontres des problèmes, demande de l'aide à tes camarades aventuriers !${prompt}
-  6762: Si tu tapes “/ae Bonjour !”, ton message sera entendu par beaucoup de gens.${prompt}
-  6763: Si tu tapes “/ae” suivi de ton problème ou question, d'autres aventuriers t'aideront !${prompt} 
-  6764: N'oublie pas que tu peux faire ça uniquement quand tu es en ville, kupo !${prompt}
+    I'm sure!
+    Maybe I'm not so sure...${prompt}
+  6760: And finally, a little bit of advice!${prompt}
+  6761: If you ever run into any problems, just ask your fellow adventurers for help!${prompt}
+  6762: If you type “/ae Hello!”, then your message will be heard by many people.${prompt}
+  6763: If you type “/ae” followed by your issue or question, other adventurers will help you!${prompt}
+  6764: Remember that you can only do this while in town, kupo!${prompt}
   6765: |-
-    D'accord, kupo !
-    Bonne chance pour tes aventures, kupo !${prompt}
-  6766: Veux-tu que je te réexplique ta Mog House, kupo ?${prompt}
+    Okay, kupo!
+    Good luck on your adventuring, kupo!${prompt}
+  6766: Do you want me to teach you about your Mog House again, kupo?${prompt}
   6767: |-
-    Demander à propos de ta Mog House à nouveau ?
+    Ask about your Mog House again?
     ${selection-lines}
-    Ne demande pas.
-    Demande.${prompt}
+    Don't ask.
+    Ask.${prompt}
   6768: |-
-    Au-delà des montagnes et des collines ondulées,
-    J'irai où mon maître me commandera.♪${prompt}
+    Over the mountains and the rolling hills,
+    I'll go wherever my master wills.♪${prompt}
   6769: |-
-    Maître !
-    J'ai voyagé jusqu'ici à ton ordre, kupo ! Même un Rent-a-Room a besoin d'un moogle, kupo !${prompt}
-  6770: Mais il y a quelques choses que tu ne peux pas faire dans un Rent-a-Room, kupo. Sélectionne “Mog House” dans le menu principal et vérifie, kupo !${prompt}
-  6771: Quand tu rentreras chez toi, parle au garde devant la zone résidentielle pour me rappeler dans la Mog House, kupo !${prompt}
+    Master!
+    I traveled all the way here at your bidding, kupo! Even a Rent-a-Room needs a moogle, kupo!${prompt}
+  6770: But there are a few things you can't do in a Rent-a-Room, kupo. Select “Mog House” from the main menu and check, kupo!${prompt}
+  6771: When you go back home, talk to the guard in front of the residential area to call me back to the Mog House, kupo!${prompt}
   6772: |-
     Master!
     I have something to tell you, kupo!${prompt}
@@ -17720,72 +17720,72 @@ entries:
     ${selection-lines}
     At once.
     Not yet.${prompt}
-  7436: Oh, what a kind soul! I'll be waiting here.${prompt}
-  7437: Oh, of course. You must have so many things to attend to. I'll find someone else.${prompt}
-  7438: I think the Temple of the Goddess should have some candles. I know it's a bother, but would you mind fetching one?${prompt}
-  7439: Oh, splendid. Now I can tell my husband. And for you, here's a little something for your trouble.${prompt}
-  7440: It's not much, but I believe it will watch over you in times of need. Come, don't be shy... Take it!${prompt}
-  7441: It's been so long since my husband died in the war. This was a small house for two of us, and it's always seemed so big with just me.${prompt}
-  7442: Well, feel free to stop by if you're ever in the neighborhood. I've always got a pot of tea ready for company.${prompt}
-  7443: And thank you so much. My husband must be very pleased. Don't be a stranger, all right?${prompt}
-  7444: Hah! You're wasting your time!${prompt}
-  7445: I'm helping Verena and Fickie grow flowers. We water them every-wevery day. I sure hope they bloom soon!${prompt}
-  7446: Yeah, right. No way seeds from beastmen'll ever grow.${prompt}
-  7447: Nuh-uh! They'll grow!${prompt}
-  7448: Yuh-huh! My daddy said that beastmen are gonna start another war! Fickie's the enemy!${prompt}
-  7449: Nuh-uh! Fickie's our friend!${prompt}
-  7450: Fickie told us that when they bloom, it means that people and beasty-weastymen can be friends. I was surprised to hear that, 'specially from a gobbie-wobbie!${prompt}
-  7451: I know they'll bloom. I'm gonna make them.${prompt}
-  7452: Just you watch them wither and die.${prompt}
-  7453: Hi, Fickie! Hi, Verena!${prompt}
-  7454: So, still no sprout, huh?${prompt}
-  7455: I know, it's such a bummer-wummer. I water them every-wevery day, though!${prompt}
-  7456: They'll never grow.${prompt}
-  7457: Water 'em all you want. No way Fickie's seeds'll ever sprout here in Jeuno. Ever!${prompt}
-  7458: Look, why don't you just hush! You never know till you try.${prompt}
-  7459: Oh! You're always on Fickie's side, aren't ya?${prompt}
-  7460: I think they'll sprout.${prompt}
-  7461: Huh?${prompt}
-  7462: Everyone talks to me now that I've planted them. That makes me so happy.${prompt}
-  7463: So, even if the flowers never bloom, it was still good.${prompt}
+  7436: Oh, quelle âme généreuse ! Je vais attendre ici.${prompt}
+  7437: Oh, bien sûr. Vous devez avoir tellement de choses à faire. Je vais trouver quelqu’un d’autre.${prompt}
+  7438: Je pense que le Temple de la Déesse devrait avoir des bougies. Je sais que c’est embêtant, mais pourriez-vous aller en chercher une ?${prompt}
+  7439: Oh, splendide. Maintenant je peux le dire à mon mari. Et pour vous, voici un petit quelque chose pour votre peine.${prompt}
+  7440: Ce n’est pas grand-chose, mais je crois que cela veillera sur vous en cas de besoin. Allez, ne soyez pas timide... Prenez-le !${prompt}
+  7441: Cela fait si longtemps que mon mari est mort à la guerre. Cette maison était petite pour nous deux, et elle semble toujours si grande rien qu’avec moi.${prompt}
+  7442: Eh bien, n’hésitez pas à passer si vous êtes dans le quartier. J’ai toujours une théière prête pour recevoir des invités.${prompt}
+  7443: Et merci beaucoup. Mon mari doit être très content. Ne soyez pas un étranger, d’accord ?${prompt}
+  7444: Ha ! Vous perdez votre temps !${prompt}
+  7445: J’aide Verena et Fickie à faire pousser des fleurs. On les arrose tous les jours. J’espère vraiment qu’elles fleuriront bientôt !${prompt}
+  7446: Ouais, c’est ça. Jamais les graines des hommes-bêtes ne pousseront.${prompt}
+  7447: Nan ! Elles pousseront !${prompt}
+  7448: Ouais ! Mon papa a dit que les hommes-bêtes allaient déclencher une nouvelle guerre ! Fickie est l’ennemi !${prompt}
+  7449: Nan ! Fickie est notre ami !${prompt}
+  7450: Fickie nous a dit que quand elles fleuriront, cela voudra dire que les gens et les "bébêtes" peuvent être amis. J’ai été surpris d’entendre ça, surtout venant d’un gobbie-wobbie !${prompt}
+  7451: Je sais qu’elles fleuriront. Je vais y arriver.${prompt}
+  7452: Juste pour te montrer qu’elles vont se faner et mourir.${prompt}
+  7453: Salut, Fickie ! Salut, Verena !${prompt}
+  7454: Alors, toujours pas de pousse, hein ?${prompt}
+  7455: Oui, je sais, c’est vraiment décevant. Pourtant, je les arrose tous les jours !${prompt}
+  7456: Elles ne pousseront jamais.${prompt}
+  7457: Arrose-les autant que tu veux. Les graines de Fickie ne pousseront jamais ici, à Jeuno. Jamais !${prompt}
+  7458: Regarde, pourquoi tu ne te tais pas ! On ne sait jamais tant qu’on n’a pas essayé.${prompt}
+  7459: Oh ! T’es toujours du côté de Fickie, pas vrai ?${prompt}
+  7460: Je pense qu’elles vont pousser.${prompt}
+  7461: Hein ?${prompt}
+  7462: Tout le monde me parle maintenant que je les ai plantées. Ça me rend si heureux.${prompt}
+  7463: Alors, même si les fleurs ne fleurissent jamais, c’était quand même bien.${prompt}
   7464: Fickie...${prompt}
-  7465: Whatever!${prompt}
-  7466: I have to get back to Muck's. I'll see you guys tomorrow.${prompt}
-  7467: Take care, Fickblix. I'm going home, too.${prompt}
-  7468: I hope they sprouty-wout tomorrow! Bye!${prompt}
-  7469: Thanks for everything.${prompt}
-  7470: And thanks for bringing the fertilizer, Geebeh.${prompt}
-  7471: Whatever! I'm not doing it for you.${prompt}
-  7472: Since Fickie left, I don't see Verena around anymore. Even the Tenshodo guys won't talky-walk to me.${prompt}
-  7473: He's a loser! He ran away before the flowers bloomed at all! That's not fair!${prompt}
-  7474: I'm tellin' you to sprout! You're our flowers! Ours and Fickie's! Now sprout, darnit!${prompt}
-  7475: Hold on, Geebeh. Take a looky-wooky at this!${prompt}
-  7476: Oh, what now? Is that...a sprout!? It's sprouting?${prompt}
-  7477: That's right, Geebeh! You can't tell just by looking, but it's started to sprouty-wout under the dirt!${prompt}
-  7478: We planted those seeds! Us and Fickie! And now they're sprouting!${prompt}
-  7479: Give this to Verena. Tell her the flowers that we planted with Fickie have started to sprouty-wout!${prompt}
-  7480: I'm sure they're gonna bloom big!${prompt}
-  7481: I hope we can plant lots of seeds, and people and beasty-weastymen can get along, like Fickie said.${prompt}
+  7465: Peu importe !${prompt}
+  7466: Je dois retourner chez Muck. Je vous vois demain.${prompt}
+  7467: Prends soin de toi, Fickblix. Moi aussi, je rentre à la maison.${prompt}
+  7468: J’espère qu’elles pousseront demain ! Bye !${prompt}
+  7469: Merci pour tout.${prompt}
+  7470: Et merci d’avoir apporté l’engrais, Geebeh.${prompt}
+  7471: Peu importe ! Ce n’est pas pour toi que je le fais.${prompt}
+  7472: Depuis que Fickie est parti, je ne vois plus Verena dans le coin. Même les gars du Tenshodo ne me parlent plus.${prompt}
+  7473: C’est un lâche ! Il s’est enfui avant que les fleurs n’aient eu le temps de fleurir ! Ce n’est pas juste !${prompt}
+  7474: Je te dis de pousser ! Vous êtes nos fleurs ! À nous et à Fickie ! Alors poussez, nom d’un chien !${prompt}
+  7475: Attends, Geebeh. Regarde-moi ça !${prompt}
+  7476: Oh, quoi encore ? C’est... une pousse ? Ça pousse ?${prompt}
+  7477: Exactement, Geebeh ! On ne peut pas le voir juste en regardant, mais ça commence à pousser sous la terre !${prompt}
+  7478: On a planté ces graines ! Nous et Fickie ! Et maintenant elles poussent !${prompt}
+  7479: Donne ça à Verena. Dis-lui que les fleurs que nous avons plantées avec Fickie commencent à pousser !${prompt}
+  7480: Je suis sûr qu’elles vont devenir magnifiques !${prompt}
+  7481: J’espère qu’on pourra planter plein de graines, et que les gens et les bébêtes pourront s’entendre, comme Fickie l’a dit.${prompt}
   7482: |-
-    Race: ${number: 0}
-    Job: ${number: 1}
-    Nationality: ${number: 2}
-    Sex: ${number: 3}${prompt}
+    Race : ${number: 0}
+    Métier : ${number: 1}
+    Nationalité : ${number: 2}
+    Sexe : ${number: 3}${prompt}
   7483: |-
-    Our valued customers:
-    It's always a special day at our tavern.${prompt}
-  7484: It seems you're not welcome today.${prompt}
-  7485: It seems you're welcome today.${prompt}
+    À nos précieux clients :
+    Chaque jour est spécial dans notre taverne.${prompt}
+  7484: Il semble que vous n'êtes pas le bienvenu aujourd'hui.${prompt}
+  7485: Il semble que vous êtes le bienvenu aujourd'hui.${prompt}
   7486: |-
-    Enter the tavern?
+    Entrer dans la taverne ?
     ${selection-lines}
-    Yes.
-    No, not now.${prompt}
+    Oui.
+    Non, pas maintenant.${prompt}
   7487: |-
-    Exit the tavern?
+    Quitter la taverne ?
     ${selection-lines}
-    Yes.
-    Not quite yet.${prompt}
+    Oui.
+    Pas tout de suite.${prompt}
   7488: I'm sorry, but we're going to have to ask you to leave.${prompt}
   7489: '***Today the Marble Bridge welcomes citizens of San d''Oria!***${prompt}'
   7490: '***Today the Marble Bridge welcomes citizens of Bastok!***${prompt}'
@@ -17912,76 +17912,76 @@ entries:
     You want to return it!?
     Well, I can't force you to carry it around... You know what they say, “The customer is always right.”
     But if you ever need another one, you know where to come!${prompt}
-  7573: Heh heh! I knew you'd say that!${prompt}
-  7574: 'You return the ${keyitem-singular: 0[2]}.${prompt}'
-  7575: Greetings! We deal in all sorts of armor. They say the best defense is a good offense, but it never hurts to play it safe.${prompt}
-  7576: I know it sounds obvious, but a good suit of armor can save your life.${prompt}
-  7577: Hello! We've got everything from double-edged swords to big, two-handed axes.${prompt}
-  7578: Hello. How about some produce from Aragoneu?${prompt}
-  7579: I've got produce from Ronfaure!${prompt}
-  7580: Hello. Gustaberg produce for sale!${prompt}
-  7581: Fresh produce from Fauregandi!${prompt}
-  7582: Looking for Derfland produce?${prompt}
-  7583: How about some fresh goods from Norvallen?${prompt}
-  7584: Long ago, the Goddess Altana took pity on the barren world of Vana'diel and shed five tears. Our ancestors sprouted from each one.${prompt}
-  7585: But the god Promathia saw this, and condemned her work. He cursed all her people to eternal conflict among each other.${prompt}
-  7586: Altana would not be pleased to see us now, squabbling over our petty causes. Please, at least while you are here, shun conflict and pray for peace.${prompt}
-  7587: 'The candles made here are blessed with a special prayer: “May this holy light cleanse the world of shadow.”${prompt}'
-  7588: Say, you here for business? This town's a mecca for merchants, you know, since all roads lead to Jeuno!${prompt}
-  7589: People come full of hope, with great dreams and plans for the future. Our free city is a melting pot for all mankind!${prompt}
-  7590: But not everybody. Some just pick up and head for home. Where there is light, there is shadow. That's Jeuno!${prompt}
-  7591: You know, Wolfgang has changed so much ever since he became captain of the guard. It's like he's always wearing a mask. He never smiles anymore.${prompt}
-  7592: He even gives his old pal Monberaux the cold shoulder. Just who does he think he is!${prompt}
-  7593: Somewhere out there, my nemesis awaits... Her power is so great, I tremble just mentioning her.${prompt}
-  7594: Yes, only the sturdiest mail could save me from her terrible strikes! Armor should always be carefully chosen!${prompt}
-  7595: Hey, have you seen my good-for-nothing husband anywhere? I know he's cheating on me!${prompt}
-  7596: Once I get my hands on him I'll mash him into a bloody pulp! Now, which weapon would inflict the most pain... We must choose our weapons carefully!${prompt}
-  7597: Glory be to Altana! Ever does she watch over her flock.${prompt}
-  7598: If you find yourself in need, pray to her. Only through her divine light can we see the truth.${prompt}
-  7599: You know, this pub's got different requirements to get in every day. Like on Tarutaru Day, only Tarutaru can get intaru!${prompt}
-  7600: So whenever you're there, you can talk with your peers... You know? I always have a blast, so try it outaru!${prompt}
-  7601: I've never lost a fight here. This town is full of wimps!${prompt}
-  7602: How dare that Panta send me a challenge! I bet he's still fuming over that beating I gave him.${prompt}
-  7603: I wonder what Panta's gonna bring this time. Eh, won't help that pipsqueak anyway.${prompt}
-  7604: Hah! That Panta's still at it.. Well, I don't care. He'll never beat me with this kind of stuff!${prompt}
-  7605: Oh, yeah. The Goblins were carrying Panta's Cardian to the doctor's. I wonder what's going on...${prompt}
-  7606: Panta never cries after he loses a fight, but he was bawling after he left the doctor's. Maybe he had a cavity?${prompt}
-  7607: Panta said he's gonna give up fighting. Geez, what a coward! I think I'm gonna miss him.${prompt}
-  7608: Would you like to see a map of Jeuno?${prompt}
+  7573: Hé hé ! Je savais que tu dirais ça !${prompt}
+  7574: 'Vous rendez le ${keyitem-singular: 0[2]}.${prompt}'
+  7575: Bonjour ! Nous proposons toutes sortes d'armures. On dit que la meilleure défense, c'est une bonne attaque, mais mieux vaut jouer la prudence.${prompt}
+  7576: Je sais que ça peut sembler évident, mais une bonne armure peut vous sauver la vie.${prompt}
+  7577: Bonjour ! Nous avons tout, des épées à double tranchant aux grandes haches à deux mains.${prompt} 
+  7578: Bonjour. Que diriez-vous de quelques produits de l'Aragoneu ?${prompt}
+  7579: J'ai des produits frais de Ronfaure !${prompt}
+  7580: Bonjour. Produits de Gustaberg à vendre !${prompt}
+  7581: Produits frais de Fauregandi !${prompt}
+  7582: Vous cherchez des produits de Derfland ?${prompt}
+  7583: Que diriez-vous de marchandises fraîches de Norvallen ?${prompt}
+  7584: Il y a longtemps, la Déesse Altana a pris pitié du monde stérile de Vana'diel et a versé cinq larmes. Nos ancêtres sont nés de chacune d'elles.${prompt}
+  7585: Mais le dieu Promathia a vu cela, et a condamné son œuvre. Il a maudit tous ses peuples à un conflit éternel entre eux.${prompt}
+  7586: Altana ne serait pas heureuse de nous voir maintenant, nous querellant pour des causes futiles. S'il vous plaît, au moins pendant votre séjour ici, évitez les conflits et priez pour la paix.${prompt}
+  7587: 'Les bougies fabriquées ici sont bénies avec une prière spéciale : “Que cette lumière sacrée purifie le monde de l’ombre.”${prompt}'
+  7588: Dites, vous êtes ici pour affaires ? Cette ville est un carrefour pour les marchands, vous savez, puisque toutes les routes mènent à Jeuno !${prompt}
+  7589: Les gens arrivent pleins d'espoir, avec de grands rêves et des projets pour l'avenir. Notre ville libre est un creuset pour toute l'humanité !${prompt}
+  7590: Mais pas tout le monde. Certains repartent chez eux. Là où il y a de la lumière, il y a de l'ombre. Voilà Jeuno !${prompt}
+  7591: Vous savez, Wolfgang a tellement changé depuis qu'il est devenu capitaine de la garde. C'est comme s'il portait toujours un masque. Il ne sourit plus jamais.${prompt}
+  7592: Il donne même un froid refus à son vieil ami Monberaux. Pour qui se prend-il ?${prompt}
+  7593: Quelque part là-bas, mon ennemi juré m'attend... Son pouvoir est si grand que je tremble rien qu'à la mentionner.${prompt}
+  7594: Oui, seule la maille la plus robuste pourrait me sauver de ses terribles coups ! L'armure doit toujours être soigneusement choisie !${prompt}
+  7595: Hé, as-tu vu mon bon à rien de mari quelque part ? Je sais qu'il me trompe !${prompt}
+  7596: Une fois que je l'aurai entre les mains, je vais le réduire en bouillie ! Maintenant, quelle arme infligerait le plus de douleur... Nous devons choisir nos armes avec soin !${prompt}
+  7597: Gloire à Altana ! Elle veille toujours sur son troupeau.${prompt}
+  7598: Si vous êtes dans le besoin, priez-la. C'est uniquement grâce à sa lumière divine que nous pouvons voir la vérité.${prompt}
+  7599: Vous savez, ce pub a des conditions d'entrée différentes chaque jour. Comme le jour des Tarutarus, seuls les Tarutarus peuvent entreraru !${prompt}
+  7600: Donc, chaque fois que vous y êtes, vous pouvez parler avec vos pairs... Vous savez ? Je m'amuse toujours, alors essayez-le, okaytaru !${prompt}
+  7601: Je n'ai jamais perdu un combat ici. Cette ville est remplie de mauviettes !${prompt}
+  7602: Comment ose ce Panta m'envoyer un défi ! Je parie qu'il fulmine encore à cause de la raclée que je lui ai mise.${prompt}
+  7603: Je me demande ce que Panta va apporter cette fois. Eh, ça n'aidera pas ce gringalet de toute façon.${prompt}
+  7604: Ah ! Ce Panta est encore en train d'essayer... Eh bien, je m'en fiche. Il ne me battra jamais avec ce genre de trucs !${prompt}
+  7605: Oh, ouais. Les Gobelins portaient le Cardian de Panta chez le médecin. Je me demande ce qui se passe...${prompt}
+  7606: Panta ne pleure jamais après avoir perdu un combat, mais il pleurait en sortant du médecin. Peut-être qu'il avait une carie ?${prompt}
+  7607: Panta a dit qu'il allait abandonner les combats. Eh bien, quel lâche ! Je pense qu'il va me manquer.${prompt}
+  7608: Souhaitez-vous voir une carte de Jeuno ?${prompt}
   7609: |-
-    Well?
+    Alors ?
     ${selection-lines}
-    I suppose.
-    No, thank you.${prompt}
-  7610: You are currently in Upper Jeuno, one level below the very top.${prompt}
-  7611: Upper Jeuno is known for its many artisans! And who could forget the clock tower, the greatest symbol of crrraftsmanship!${prompt}
-  7612: Everrryone's proud of its accuracy. It's so cutting-edge!${prompt}
-  7613: Welcome to Upper Jeuno! This neighborhood lacks pizzaz, but more than makes up for it with its great industrial enterprises.${prompt}
-  7614: A lot of stubborn people live here, but don't worry, since they're nice once you get to know them.${prompt}
-  7615: Behold! Jeuno's residential structure towers above the city! Without it, where would all of Jeuno's visitors stay?${prompt}
-  7616: Atop stand Ru'Lude Gardens, the Auroral Palace and the embassies. Great is the awe that place inspires!${prompt}
-  7617: You always check the merchandise before you decide what to craft, right?${prompt}
-  7618: But in Jeuno, you can buy goods from anywhere, anytime! Me, I always end up checking it all!${prompt}
-  7619: The master of this chocobo stable is famous! It is an honor to ride a bird here.${prompt}
-  7620: I want to have one of the chocobos for my own, but the master's stubborn! I wonder if he'll ever say yes.${prompt}
-  7621: I often forget that we live above the ocean. A long time ago these brrridges were just ruins. I don't know how travelers made it anywhere back then.${prompt}
-  7622: But once the brrridges were rebuilt, this town really began to grow. Our ancestors would be proud, I'm sure.${prompt}
-  7623: Something has been irking me for quite some time. Would you hear me out?${prompt}
+    Je suppose.
+    Non, merci.${prompt}
+  7610: Vous êtes actuellement dans le Haut Jeuno, un niveau en dessous du sommet.${prompt}
+  7611: Le Haut Jeuno est connu pour ses nombreux artisans ! Et qui pourrait oublier la tour de l'horloge, le plus grand symbole de l'artisanat !${prompt}
+  7612: Tout le monde est fier de sa précision. Elle est à la pointe de la technologie !${prompt}
+  7613: Bienvenue au Haut Jeuno ! Ce quartier manque de charme, mais compense largement avec ses grandes entreprises industrielles.${prompt}
+  7614: Beaucoup de gens têtus vivent ici, mais ne vous inquiétez pas, ils sont gentils une fois qu'on les connaît.${prompt}
+  7615: Regardez ! La structure résidentielle de Jeuno s'élève au-dessus de la ville ! Sans elle, où logeraient tous les visiteurs de Jeuno ?${prompt}
+  7616: Au sommet se trouvent les jardins de Ru'Lude, le Palais Auroral et les ambassades. Cet endroit inspire une grande admiration !${prompt}
+  7617: Vous vérifiez toujours la marchandise avant de décider quoi fabriquer, n'est-ce pas ?${prompt}
+  7618: Mais à Jeuno, vous pouvez acheter des marchandises de partout, à tout moment ! Moi, je finis toujours par tout vérifier !${prompt}
+  7619: Le maître de cette écurie de chocobos est célèbre ! C'est un honneur de monter un oiseau ici.${prompt}
+  7620: Je voudrais avoir un des chocobos pour moi, mais le maître est têtu ! Je me demande s'il dira un jour oui.${prompt}
+  7621: J'oublie souvent que nous vivons au-dessus de l'océan. Il y a longtemps, ces ponts n'étaient que des ruines. Je ne sais pas comment les voyageurs faisaient à l'époque.${prompt}
+  7622: Mais une fois les ponts reconstruits, cette ville a vraiment commencé à prospérer. Nos ancêtres seraient fiers, j'en suis sûr.${prompt}
+  7623: Quelque chose m'irrite depuis un bon moment. Voudriez-vous m'écouter ?${prompt}
   7624: |-
-    Will you listen?
+    M'écouterez-vous ?
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
-  7625: You see, chocobos have wings, do they not? But they cannot fly! So they cannot really be birds, can they?${prompt}
-  7626: Everyone thinks about such things before they learn to accept them. But I think it's good to question.${prompt}
-  7627: I will be up all night thinking about this!${prompt}
-  7628: I haul up cargo from the ships with those cranes, and move it all into the warehouse.${prompt}
-  7629: But those cranes just don't cut it anymore. I could sure use at least one more...${prompt}
-  7630: It's not easy to see the archduke. But people who have say he's different. Like he's got this...aura...${prompt}
-  7631: I wish I could see him. That way, I could find out if it's true!${prompt}
-  7632: Long have I hoarded my gil, and the time for purchase is at hand! But shall I buy weaponry or armor?${prompt}
-  7633: In offense the best defense may lie, but quickly is the unarmored knight struck down. Hmm... Which to choose...${prompt}
-  7634: Move itaru! I want to join the Ducal Guards! Must...march...more...${prompt}
+    Oui.
+    Pas maintenant.${prompt}
+  7625: Vous voyez, les chocobos ont des ailes, n'est-ce pas ? Mais ils ne peuvent pas voler ! Alors, peuvent-ils vraiment être des oiseaux ?${prompt}
+  7626: Tout le monde pense à ce genre de choses avant d'apprendre à les accepter. Mais je pense qu'il est bon de se poser des questions.${prompt}
+  7627: Je vais rester éveillé toute la nuit à réfléchir à ça !${prompt}
+  7628: Je décharge les cargaisons des navires avec ces grues et je les transporte dans l'entrepôt.${prompt}
+  7629: Mais ces grues ne suffisent plus. Une de plus ne serait pas de refus...${prompt}
+  7630: Ce n'est pas facile de voir l'archiduc. Mais ceux qui l'ont vu disent qu'il est différent. Comme s'il avait une... aura...${prompt}
+  7631: J'aimerais pouvoir le voir. Ainsi, je pourrais découvrir si c'est vrai !${prompt}
+  7632: J'ai accumulé mon gil pendant longtemps, et le moment est venu d'acheter ! Mais devrais-je acheter des armes ou des armures ?${prompt}
+  7633: La meilleure défense est peut-être une bonne attaque, mais un chevalier sans armure est vite abattu. Hmm... Que choisir...${prompt}
+  7634: Bouge, Itaru ! Je veux rejoindre les Gardes Ducaux ! Je dois... marcher... encore...${prompt}
   7635: |-
     Master, Master!
     I have a favor to ask, kupo!${prompt}
@@ -20064,32 +20064,32 @@ entries:
   8760: |-
     These...creatures...are no longer natural beings of Vana'diel.
     They must be destroyed.${prompt}
-  8761: I cannot elaborate on the details, but know that the fate of the world depends on the early elimination of this threat...${prompt}
-  8762: Then perhaps it is best if you forget this conversation entirely.${prompt}
-  8763: I hope I have been of some assistance to you.${prompt}
+  8761: Je ne peux pas entrer dans les détails, mais sachez que le sort du monde dépend de l'élimination rapide de cette menace...${prompt}
+  8762: Alors peut-être vaut-il mieux oublier cette conversation entièrement.${prompt}
+  8763: J'espère vous avoir été d'une quelconque aide.${prompt}
   8764: |-
-    This dark plague grows ever stronger...
-    If it is not stopped soon...${prompt}
+    Ce sombre fléau devient de plus en plus puissant...
+    S'il n'est pas arrêté rapidement...${prompt}
   8765: |-
-    Which item will you use to enter?
+    Quel objet utiliserez-vous pour entrer ?
     ${selection-lines}
     ${lettercase: 1}${keyitem-article: 0[2]}.
     ${lettercase: 1}${keyitem-article: 1[2]}.${prompt}
   8766: |-
-    ${name-player}!
-    Lady Esha'ntarl's ship has returned.${prompt}
+    ${name-player} !
+    Le navire de Dame Esha'ntarl est de retour.${prompt}
   8767: |-
-    This is excellent timing.
-    I was ordered to find you and ask that you proceed to the Marble Bridge--the tavern in Upper Jeuno.${prompt}
+    C'est un excellent moment.
+    J'ai reçu l'ordre de vous trouver et de vous demander de vous rendre au Pont de Marbre--la taverne à Upper Jeuno.${prompt}
   8768: |-
-    My duty here is done.
-    I must now journey to each nation and report that the Wyrmking Bahamut no longer poses a threat.${prompt}
+    Mon devoir ici est accompli.
+    Je dois maintenant voyager vers chaque nation et rapporter que le Roi Dragon Bahamut ne représente plus une menace.${prompt}
   8769: |-
-    I hear that this development is all thanks to you and your companions.
-    You have the gratitude of all Jeunoans.${prompt}
+    J'entends dire que ce développement est entièrement grâce à vous et vos compagnons.
+    Vous avez la gratitude de tous les Junois.${prompt}
   8770: |-
-    I have awaited your return, ${name-player}.
-    You must tell me all that has happened.${prompt}
+    J'attendais votre retour, ${name-player}.
+    Vous devez me raconter tout ce qui s'est passé.${prompt}
   8771: After clashing with our army several times, the dragons suddenly broke off their attack and disappeared into the distant clouds.${prompt}
   8772: There were voices raised in support of hunting the wyrms into extinction, but for the moment we have returned to resupply and reconsider our position.${prompt}
   8773: Now that you are here, I can finally be certain.${prompt}
@@ -24426,23 +24426,23 @@ entries:
   11008: 'This ${item-singular: 0[2]} can no longer be used. You may dispose of it now.${prompt}'
   11009: Your level is lower than the restriction. Please be warned that by traveling to the Isle at this level, you may not be eligible to participate in the match(es) held.${prompt}
   11010: |-
-    Travel to the Isle? (${number: 0} gil)
+    Voyagez jusqu'à l'Île ? (${number: 0} gil)
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
+    Oui.
+    Pas encore.${prompt}
   11011: |-
-    Travel to the Isle?
+    Voyagez jusqu'à l'Île ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
-  11012: 'You do not possess the ${number: 0} gil necessary for teleportation.${prompt}'
-  11013: The current Isle reservation has expired. I can no longer teleport you.${prompt}
-  11014: An unknown force whisks you away to Abdhaljs Isle-Purgonorgo!${prompt}
-  11015: 'Since you already possess ${article} ${item-article: 0[2]}, I cannot allow you to make any further reservations. Also, remember to dispose of the ${item-singular: 0[2]} after the time inscribed on it has passed.${prompt}'
-  11016: 'Any participants with the date ${earthtime: 1} inscribed on their ${item-singular: 0[2]} can enter the Isle until ${earthtime: 3}.${prompt}'
-  11017: I have been informed of some trouble with the Isle. I deeply apologize for any inconvenience.${prompt}
-  11018: By allowing a gallery, I can teleport to the Isle anyone who wishes to view the matches (for a small fee).${prompt}
-  11019: However, remember that these gallery members will be restricted from match participation.${prompt}
+    Oui.
+    Pas encore.${prompt}
+  11012: 'Vous ne possédez pas les ${number: 0} gil nécessaires pour la téléportation.${prompt}'
+  11013: La réservation actuelle pour l'Île a expiré. Je ne peux plus vous téléporter.${prompt}
+  11014: Une force inconnue vous emporte vers l'Île-Purgonorgo d'Abdhaljs !${prompt}
+  11015: 'Comme vous possédez déjà ${article} ${item-article: 0[2]}, je ne peux pas vous permettre de faire d’autres réservations. Rappelez-vous également de jeter le/la ${item-singular: 0[2]} après que le temps inscrit dessus soit écoulé.${prompt}'
+  11016: 'Tous les participants avec la date ${earthtime: 1} inscrite sur leur ${item-singular: 0[2]} peuvent accéder à l’Île jusqu’à ${earthtime: 3}.${prompt}'
+  11017: On m'a informé de quelques problèmes concernant l'Île. Je suis profondément désolé pour tout inconvénient.${prompt}
+  11018: En autorisant une galerie, je peux téléporter jusqu'à l'Île toute personne souhaitant assister aux matchs (contre une petite somme).${prompt}
+  11019: Cependant, souvenez-vous que les membres de la galerie ne pourront pas participer aux matchs.${prompt}
   11020: |-
     Allow gallery attendance?
     ${selection-lines}
