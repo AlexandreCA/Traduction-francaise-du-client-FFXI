@@ -16291,18 +16291,18 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6552: I have nothing to sell you.${prompt}
+  6552: Je n'ai rien à vous vendre.${prompt}
   6553: |-
-    Ah, you have come from headquarters.
-    I will entrust you with ${keyitem-article: 7[2]}.
-    Take it back to headquarters.${prompt}
-  6554: You must leave your past behind--that is the way of the underworld.${prompt}
+    Ah, vous venez du siège.
+    Je vais vous confier ${keyitem-article: 7[2]}.
+    Ramenez-le au siège.${prompt} 
+  6554: Vous devez laisser votre passé derrière vous:telle est la voie du monde souterrain.${prompt}
   6555: |-
-    Take ${keyitem-article: 7[2]} back to headquarters.
-    You must leave your past behind--that is the way of the underworld.${prompt}
+    Ramenez ${keyitem-article: 7[2]} au siège.
+    Vous devez laisser votre passé derrière vous : telle est la voie du monde souterrain.${prompt}
   6556: |-
-    Ah, one of our members.
-    Welcome to the Tenshodo shop.${prompt}
+    Ah, l'un de nos membres.
+    Bienvenue à la boutique Tenshodo.${prompt}
   6557: Tallying conquest results...${prompt}
   6558: Conquest results tallied.${prompt}
   6559: This region is currently under San d'Orian control.${prompt}
@@ -16560,30 +16560,30 @@ entries:
   6715: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  6716: 'If you wish to ride a chocobo, you must possess ${keyitem-article: 7[2]} and have a high enough job level.${prompt}'
-  6717: 'You can rent a chocobo for ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
-  6718: You can rent a chocobo, but because your level is so low, you won't be able to ride for very long. Also, equipment that extends your riding time will have no effect.${prompt}
-  6719: 'If you still want one, it will cost you ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
+  6716: 'Si vous souhaitez monter un chocobo, vous devez posséder ${keyitem-article: 7[2]} et avoir un niveau de métier suffisamment élevé.${prompt}'
+  6717: 'Vous pouvez louer un chocobo pour ${number: 0} gils. Je vois que vous avez actuellement ${number: 1} gils.${prompt}'
+  6718: Vous pouvez louer un chocobo, mais étant donné votre faible niveau, vous ne pourrez pas monter très longtemps. De plus, l'équipement prolongeant le temps de chevauchée n'aura aucun effet.${prompt}
+  6719: 'Si vous en voulez tout de même un, cela vous coûtera ${number: 0} gils. Je vois que vous avez actuellement ${number: 1} gils.${prompt}'
   6720: |-
-    Do you wish to rent a chocobo?
+    Souhaitez-vous louer un chocobo ?
     ${selection-lines}
-    Yes, I do.
-    No, thank you.${prompt}
-  6721: You don't have enough gil.${prompt}
+    Oui, je veux bien.
+    Non, merci.${prompt}
+  6721: Vous n'avez pas assez de gils.${prompt}
   6722: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back after sorting your inventory.${prompt}
-  6723: 'Would you be so kind as to deliver her to ${choice: 3}[the entrance to the Gustav Tunnel (B-8)/Bibiki Bay (G-10)/the entrance of Uggalepih Temple (J-11)]?${prompt}'
+    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
+    Revenez après avoir trié votre inventaire.${prompt}
+  6723: 'Auriez-vous l’amabilité de la livrer à ${choice: 3}[l’entrée du tunnel Gustav (B-8)/Bibiki Bay (G-10)/l’entrée du temple Uggalepih (J-11)] ?${prompt}'
   6724: |-
-    Only those fulfilling both requirements set forth by the alliance may ride a chocobo.
-    First, you must be a soldier of a respectable level in the Allied Forces. Secondly, you must be in possession of ${keyitem-article: 7[2]}.${prompt}
+    Seules les personnes remplissant les deux critères fixés par l'alliance peuvent monter un chocobo.
+    Premièrement, vous devez être un soldat d’un niveau respectable dans les Forces Alliées. Deuxièmement, vous devez être en possession de ${keyitem-article: 7[2]}.${prompt}
   6725: |-
-    Any of our fine birds here will bear you directly to the frontlines of battle.
-    We charge a service fee of ${number: 0} Allied Notes, which goes towards seeing that the chocobos are well taken care of.
-    My records indicate that you currently have ${number: 1} Allied Notes.${prompt}
+    N'importe lequel de nos magnifiques oiseaux vous emmènera directement sur les lignes de front.
+    Nous demandons des frais de service de ${number: 0} Notes Alliées, qui servent à prendre soin des chocobos.
+    Mes registres indiquent que vous possédez actuellement ${number: 1} Notes Alliées.${prompt}
   6726: |-
-    Hmmm... It looks like you don't have enough Allied Notes.
-    Sorry, but these birds aren't going to feed and groom themselves.${prompt}
+    Hmmm... On dirait que vous n'avez pas assez de Notes Alliées.
+    Désolé, mais ces oiseaux ne vont pas se nourrir et se toiletter tout seuls.${prompt}
   6727: 'Je suis désolé, mais nous ne confions pas nos chocobos à des personnes avec ${keyitem-article: 0[2]}. Nous ne voudrions pas que nos amis à plumes meurent de peur, n’est-ce pas ?${prompt}'
   6728: Je suis un ménestrel itinérant. Les terres que j'ai parcourues sont nombreuses, tout comme les souvenirs que j'ai partagés avec mes compagnons de voyage.${prompt}
   6729: Un ménestrel de Windurst, hein ? Oui, je connais un Jatan-Paratan, en fait. Il y a longtemps, nous avons entrepris un voyage périlleux ensemble.${prompt}
