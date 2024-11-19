@@ -16561,76 +16561,76 @@ entries:
   6717: |-
     Tu ne peux pas obtenir ${item-singular: 0[2]}.
     Reviens après avoir trié ton inventaire.${prompt}
-  6718: 'Would you be so kind as to deliver her to ${choice: 3}[the entrance to the Gustav Tunnel (B-8)/Bibiki Bay (G-10)/the entrance of Uggalepih Temple (J-11)]?${prompt}'
+  6718: 'Auriez-vous l’amabilité de la livrer à ${choice: 3}[l’entrée du tunnel Gustav (B-8)/Bibiki Bay (G-10)/l’entrée du temple Uggalepih (J-11)] ?${prompt}'
   6719: |-
-    Only those fulfilling both requirements set forth by the alliance may ride a chocobo.
-    First, you must be a soldier of a respectable level in the Allied Forces. Secondly, you must be in possession of ${keyitem-article: 7[2]}.${prompt}
+    Seules les personnes remplissant les deux critères fixés par l'alliance peuvent monter un chocobo.
+    Premièrement, vous devez être un soldat d’un niveau respectable dans les Forces Alliées. Deuxièmement, vous devez être en possession de ${keyitem-article: 7[2]}.${prompt}
   6720: |-
-    Any of our fine birds here will bear you directly to the frontlines of battle.
-    We charge a service fee of ${number: 0} Allied Notes, which goes towards seeing that the chocobos are well taken care of.
-    My records indicate that you currently have ${number: 1} Allied Notes.${prompt}
+    N'importe lequel de nos magnifiques oiseaux vous emmènera directement sur les lignes de front.
+    Nous demandons des frais de service de ${number: 0} Notes Alliées, qui servent à prendre soin des chocobos.
+    Mes registres indiquent que vous possédez actuellement ${number: 1} Notes Alliées.${prompt}
   6721: |-
-    Hmmm... It looks like you don't have enough Allied Notes.
-    Sorry, but these birds aren't going to feed and groom themselves.${prompt}
-  6722: 'I''m sorry, but we don''t put our chocobos in the hands of people with ${keyitem-article: 0[2]}. We wouldn''t want our feathered friends dying from fright now, would we?${prompt}'
-  6723: Step right this way to entaru your Rent-a-Roomie!${prompt}
-  6724: Say, I can reserve a Rent-a-Roomie for you. All your stuff will be taken from your Moggie-Woggie House and brought here!${prompt}
+    Hmmm... On dirait que vous n'avez pas assez de Notes Alliées.
+    Désolé, mais ces oiseaux ne vont pas se nourrir et se toiletter tout seuls.${prompt}
+  6722: 'Je suis désolé, mais nous ne confions pas nos chocobos à des personnes possédant ${keyitem-article: 0[2]}. Nous ne voudrions pas que nos amis à plumes meurent de peur, n’est-ce pas ?${prompt}'
+  6723: Passez par ici pour entrer dans votre chambre de location !${prompt}
+  6724: Disons que je peux vous réserver une chambre de location. Toutes vos affaires seront transférées de votre maison Moggie-Woggie ici !${prompt}
   6725: |-
-    Do you want to move to Jeuno?
+    Souhaitez-vous déménager à Jeuno ?
     ${selection-lines}
-    Right away.
-    Not now, thanks.${prompt}
-  6726: Very well. I've completed the necessary procedure-wedures! Make yourself at home in your home away from home! Hehehe!${prompt}
-  6727: Oh, okay. Fine! Be that way!${prompt}
+    Tout de suite.
+    Pas maintenant, merci.${prompt}
+  6726: Très bien. J'ai terminé les procédures nécessaires ! Faites comme chez vous dans votre chez-vous loin de chez vous ! Hehehe !${prompt}
+  6727: Oh, d'accord. Très bien ! Faites comme vous voulez !${prompt}
   6728: |-
-    Enter the residential area?
+    Entrer dans la zone résidentielle ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6729: (DEBUG) Flag raised, kupo!${prompt}
-  6730: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
-  6731: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
-  6732: I'll tell you all about your Mog House, kupo!${prompt}
+    Oui.
+    Non.${prompt}
+  6729: (DEBUG) Drapeau activé, kupo !${prompt}
+  6730: Bienvenue, Maître ! Voici votre maison, la “Maison Mog,” kupo !${prompt}
+  6731: Je suis un mog ! Nous, les mogs, adorons nous occuper des maisons et des objets ! Enchanté de vous rencontrer, kupo !${prompt}
+  6732: Je vais tout vous expliquer à propos de votre Maison Mog, kupo !${prompt}
   6733: |-
-    First, the basics, kupo!
-    Open your main menu, Master. The button at the very bottom changes to “Mog House” when you're in your Mog House, kupo!${prompt}
-  6734: Press it and the “Mog House” menu will appear! Everything you can do in your Mog House is there, kupo!${prompt}
-  6735: There are lots of things you can do in your Mog House, kupo! It can be too much for some masters, kupo...${prompt}
-  6736: So I'll teach you about each one of them! Ask me what you want to know about, kupo!${prompt}
-  6737: Choose the Mog House command you want to know about, kupo!${prompt}
+    Tout d'abord, les bases, kupo !
+    Ouvrez votre menu principal, Maître. Le bouton tout en bas devient “Maison Mog” lorsque vous êtes dans votre Maison Mog, kupo !${prompt}
+  6734: Appuyez dessus et le menu “Maison Mog” apparaîtra ! Tout ce que vous pouvez faire dans votre Maison Mog s'y trouve, kupo !${prompt}
+  6735: Il y a tellement de choses que vous pouvez faire dans votre Maison Mog, kupo ! Ça peut être trop pour certains maîtres, kupo...${prompt}
+  6736: Je vais donc vous apprendre chacune d'elles ! Demandez-moi ce que vous voulez savoir, kupo !${prompt}
+  6737: Choisissez la commande Maison Mog que vous souhaitez connaître, kupo !${prompt}
   6738: |-
-    What do you want to know about?
+    Que voulez-vous savoir ?
     ${selection-lines}
-    The Mog Safe.
-    Storage.
-    The Delivery Box.
-    Changing jobs.
-    Gardening.
-    Changing the layout.
-    Mog House invitations.
-    I got it, thanks, kupo!${prompt}
-  6739: The Mog Safe is where I keep items that you can't carry! It's an especially secure and solid safe, kupo!${prompt}
-  6740: You can only put so many items in it, kupo... But I'll guard them even if it means my life, kupo!${prompt}
-  6741: The Delivery Box is where you can send letters to friends and receive items from various places, kupo!${prompt}
-  6742: You should take the items from your Delivery Box and put them in your inventory when they arrive, kupo!${prompt}
-  6743: If your Delivery Box is full, no more deliveries can be made, and you can't send any mail either, kupo!${prompt}
-  6744: You can send items and gil to your friends with the “Send” command, kupo!${prompt}
-  6745: (Sometimes, if a special force takes hold, you can even deliver items with the "Exclusive" attribute, kupo...!)${prompt}
-  6746: Changing people's jobs is a secret ability only we moogles can use, kupo!${prompt}
-  6747: I take off all your equipment and take you to a mysterious place, kupo!${prompt}
-  6748: And...the rest is a secret, kupo!${prompt}
-  6749: All moogles like taking care of plants, kupo!${prompt}
-  6750: As long as you have a flowerpot and seeds, I'll make it my personal responsibility to look after the plants you raise, kupo!${prompt}
-  6751: This Mog House is your very own room, kupo! But it's still a little bare, kupo...${prompt}
-  6752: It needs some furniture and maybe some paintings to make it more cozy, kupo!${prompt}
-  6753: If you find any during your travels, I'll help you lay them out, kupo! I can't wait, kupo!${prompt}
-  6754: Storage space becomes available when you place furniture in your Mog House using the “Layout” command, kupo!${prompt}
+    Le Coffre Mog.
+    Le Stockage.
+    La Boîte de Livraison.
+    Changer de métier.
+    Le Jardinage.
+    Changer l'agencement.
+    Invitations à la Maison Mog.
+    J'ai compris, merci, kupo !${prompt}
+  6739: Le Coffre Mog est l'endroit où je garde les objets que vous ne pouvez pas porter ! C'est un coffre particulièrement sûr et solide, kupo !${prompt}
+  6740: Vous ne pouvez y mettre qu'un nombre limité d'objets, kupo... Mais je les protégerai même au péril de ma vie, kupo !${prompt} 
+  6741: La Boîte de Livraison est là où vous pouvez envoyer des lettres à vos amis et recevoir des objets de divers endroits, kupo !${prompt}
+  6742: Vous devriez prendre les objets de votre Boîte de Livraison et les mettre dans votre inventaire dès leur arrivée, kupo !${prompt}
+  6743: Si votre Boîte de Livraison est pleine, plus aucune livraison ne pourra être effectuée, et vous ne pourrez pas envoyer de courrier non plus, kupo !${prompt}
+  6744: Vous pouvez envoyer des objets et des gils à vos amis avec la commande “Envoyer”, kupo !${prompt}
+  6745: (Parfois, sous l'effet d'une force spéciale, vous pouvez même livrer des objets avec l'attribut "Exclusif", kupo... !)${prompt}
+  6746: Changer le métier des gens est une capacité secrète que seuls nous, les mogs, pouvons utiliser, kupo !${prompt}
+  6747: Je retire tout votre équipement et vous emmène dans un endroit mystérieux, kupo !${prompt}
+  6748: Et... le reste est un secret, kupo !${prompt}
+  6749: Tous les mogs aiment s'occuper des plantes, kupo !${prompt}
+  6750: Tant que vous avez un pot de fleurs et des graines, je prendrai personnellement la responsabilité de m'occuper des plantes que vous cultivez, kupo !${prompt}
+  6751: Cette Maison Mog est votre propre pièce, kupo ! Mais elle est encore un peu vide, kupo...${prompt}
+  6752: Il lui faut quelques meubles et peut-être des tableaux pour la rendre plus confortable, kupo !${prompt}
+  6753: Si vous en trouvez pendant vos voyages, je vous aiderai à les disposer, kupo ! J'ai hâte, kupo !${prompt}
+  6754: De l'espace de stockage devient disponible lorsque vous placez des meubles dans votre Maison Mog en utilisant la commande “Disposition”, kupo !${prompt}
   6755: |-
-    It's almost exactly the same as using your Mog Safe, kupo!
-    Leave your items here for me to look after, kupo!${prompt}
-  6756: You can invite party and alliance members into your Mog House, kupo!${prompt}
-  6757: You can show off your expensive furniture, have tea parties, plan your next great adventure--the possibilities are endless, kupo!${prompt}
-  6758: Are you sure, kupo? You know everything about your Mog House, kupo?${prompt}
+    C'est presque exactement pareil que d'utiliser votre Coffre Mog, kupo !
+    Laissez vos objets ici et je m'en occuperai, kupo !${prompt}
+  6756: Vous pouvez inviter des membres de groupe ou d'alliance dans votre Maison Mog, kupo !${prompt}
+  6757: Vous pouvez montrer vos meubles coûteux, organiser des goûters, planifier votre prochaine grande aventure... les possibilités sont infinies, kupo !${prompt}
+  6758: Vous êtes sûr, kupo ? Vous savez tout sur votre Maison Mog, kupo ?${prompt}
   6759: |-
     Are you sure?
     ${selection-lines}
@@ -18162,135 +18162,135 @@ entries:
   7753: 'Puisque nous sommes alliés avec Bastok...${wait-animation: 0}${prompt}'
   7754: 'Puisque nous sommes alliés avec Windurst...${wait-animation: 0}${prompt}'
   7755: |-
-    I am sorry.
-    I am too busy with other matters to be speaking with you.${wait-animation: 0}${prompt}
-  7756: Ah, you have brought us supplies. These will help us indeed. I thank you.${prompt}
+    Je suis désolé.
+    Je suis trop occupé par d'autres affaires pour vous parler.${wait-animation: 0}${prompt}
+  7756: Ah, vous nous avez apporté des provisions. Cela nous sera d'une grande aide. Je vous remercie.${prompt}
   7757: |-
-    Hmm... These supplies you have brought us are too old to be of any use. We will dispose of them promptly.
-    I do commend you for your effort. May you succeed next time.${prompt}
-  7758: You've earned conquest points!${prompt}
+    Hmm... Ces provisions que vous nous avez apportées sont trop vieilles pour être utiles. Nous allons les éliminer rapidement.
+    Je salue toutefois vos efforts. Que vous réussissiez la prochaine fois.${prompt}
+  7758: Vous avez gagné des points de conquête !${prompt}
   7759: |-
-    You've received your nation's Signet.
-    You are now taking part in your nation's conquest campaign!${prompt}
+    Vous avez reçu le Signe de votre nation.
+    Vous participez désormais à la campagne de conquête de votre nation !${prompt}
   7760: |-
-    I am ${name-npc}, a Temple Knight.
-    I am one of the guards charged with overseeing San d'Oria's conquest campaign.${prompt}
+    Je suis ${name-npc}, Chevalier du Temple.
+    Je fais partie des gardes chargés de superviser la campagne de conquête de San d'Oria.${prompt}
   7761: |-
-    I am ${name-npc}, an Iron Musketeer.
-    I am one of the guards charged with overseeing Bastok's conquest campaign.${prompt}
+    Je suis ${name-npc}, Mousquetaire d'Acier.
+    Je fais partie des gardes chargés de superviser la campagne de conquête de Bastok.${prompt}
   7762: |-
-    I am ${name-npc}, a War Warlock.
-    I am one of the guards charged with overseeing Windurst's conquest campaign.${prompt}
+    Je suis ${name-npc}, Sorcier de Guerre.
+    Je fais partie des gardes chargés de superviser la campagne de conquête de Windurst.${prompt}
   7763: |-
-    What is your business?
+    Quelle est votre requête ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I want to spend my conquest points.
-    ${choice: 0}[I want to join the Expeditionary Force./Teleport me to the E.F. area.]
-    I want to quit the E.F./change my E.F.
-    I want to go on a supplies quest.
-    I have some questions...
-    Nothing, sorry to bother you.${prompt}
+    Pourriez-vous m'accorder le Signe ?
+    Je veux utiliser mes points de conquête.
+    ${choice: 0}[Je veux rejoindre la Force Expéditionnaire./Téléportez-moi dans la zone de la F.E.]
+    Je veux quitter la F.E./changer ma F.E.
+    Je veux entreprendre une quête de ravitaillement.
+    J'ai quelques questions...
+    Rien, désolé de vous déranger.${prompt}
   7764: |-
-    What do you wish to know about?
+    Que voulez-vous savoir ?
     ${selection-lines}
-    Nothing.
-    Conquests.
-    Conquest results.
-    Donating crystals.
-    Conquest points.
-    The effects of controlling regions.
-    Regions controlled by other nations.
-    Regions under beastman control.${prompt}
-  7765: All three nations are striving daily to put more regions under their control. This is what we call “conquests.” You can take part in it and serve your country by defeating enemies while you have Signet cast on you.${prompt}
-  7766: Each region comprises several areas, and the nation that rids those areas of the most monsters gains control of the region.${prompt}
-  7767: Nations receive goods and resources from regions under their control.${prompt}
-  7768: So, the more regions we control, the richer our nation becomes.${prompt}
+    Rien.
+    Les conquêtes.
+    Les résultats de conquête.
+    La donation de cristaux.
+    Les points de conquête.
+    Les effets du contrôle des régions.
+    Les régions contrôlées par d'autres nations.
+    Les régions sous contrôle des hommes-bêtes.${prompt}
+  7765: Les trois nations s'efforcent chaque jour de mettre plus de régions sous leur contrôle. C'est ce que nous appelons les « conquêtes ». Vous pouvez y participer et servir votre pays en éliminant des ennemis tant que le Signe est lancé sur vous.${prompt}
+  7766: Chaque région est composée de plusieurs zones, et la nation qui élimine le plus de monstres dans ces zones prend le contrôle de la région.${prompt}
+  7767: Les nations reçoivent des biens et des ressources des régions sous leur contrôle.${prompt}
+  7768: Ainsi, plus de régions nous contrôlons, plus notre nation devient riche.${prompt}
   7769: |-
-    Border guards are also placed in outposts within regions under our control.
-    They are there to cast Signet on adventurers like yourself.${prompt}
-  7770: Once you have your nation's Signet, you will be able to acquire crystals from enemies you defeat.${prompt}
-  7771: Not only that, but you will also receive conquest points. You get more conquest points if you defeat enemies in regions that are not under your nation's control. These points can be used to purchase items from guards like myself.${prompt}
+    Des gardes-frontières sont également placés dans les avant-postes des régions sous notre contrôle.
+    Ils sont là pour lancer le Signe sur les aventuriers comme vous.${prompt}
+  7770: Une fois que vous avez le Signe de votre nation, vous pourrez acquérir des cristaux en éliminant les ennemis que vous vainquez.${prompt}
+  7771: Non seulement cela, mais vous recevrez aussi des points de conquête. Vous obtenez plus de points de conquête si vous éliminez des ennemis dans des régions qui ne sont pas sous le contrôle de votre nation. Ces points peuvent être utilisés pour acheter des objets auprès des gardes comme moi.${prompt}
   7772: |-
-    So you see...conquests benefit nations and adventurers alike.
-    We expect you to do your best to serve your country.${prompt}
+    Vous voyez... les conquêtes bénéficient autant aux nations qu'aux aventuriers.
+    Nous attendons de vous que vous fassiez de votre mieux pour servir votre pays.${prompt}
   7773: |-
-    You can see the current state of conquests by selecting “Region Info” from the main menu.
-    Conquest results in all regions are regularly recalculated, so you may want to check them from time to time.${prompt}
+    Vous pouvez voir l'état actuel des conquêtes en sélectionnant « Infos sur les régions » dans le menu principal.
+    Les résultats de conquête dans toutes les régions sont régulièrement recalculés, donc vous voudrez peut-être les vérifier de temps en temps.${prompt}
   7774: |-
-    Shops in our city will be selling different items according to our conquest rank.
-    The Troupe Valeriano will also visit the nation that finishes first and bring a little joy to its citizens.${prompt}
+    Les magasins de notre ville vendront différents articles en fonction de notre rang de conquête.
+    La Troupe Valeriano visitera également la nation qui finit première et apportera un peu de joie à ses citoyens.${prompt}
   7775: |-
-    You can donate crystals to your nation once you achieve rank 2.
-    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+    Vous pouvez faire des dons de cristaux à votre nation une fois que vous atteignez le rang 2.
+    Il vous suffit de les échanger auprès des gardes comme moi, et nous nous assurerons qu'ils sont envoyés au bon endroit.${prompt}
   7776: |-
-    We would like you to donate crystals to your nation from now on.
-    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+    Nous aimerions que vous fassiez des dons de cristaux à votre nation à partir de maintenant.
+    Il vous suffit de les échanger auprès des gardes comme moi, et nous nous assurerons qu'ils sont envoyés au bon endroit.${prompt}
   7777: |-
-    You can acquire crystals by defeating enemies while you have your nation's Signet.
-    Having Signet cast on you is also the only way of taking part in conquests.${prompt}
-  7778: Rank points will be awarded to you for each crystal you donate, and you may be offered new missions as your rank goes up.${prompt}
+    Vous pouvez obtenir des cristaux en éliminant des ennemis tant que le Signe de votre nation est sur vous.
+    Avoir le Signe lancé sur vous est également la seule manière de participer aux conquêtes.${prompt}
+  7778: Des points de rang vous seront attribués pour chaque cristal que vous donnez, et vous pourrez recevoir de nouvelles missions au fur et à mesure que votre rang augmente.${prompt}
   7779: |-
-    You also receive rank points for completing missions.
-    Complete missions and take part in conquests to raise your rank and serve your country.${prompt}
+    Vous recevez également des points de rang pour l'accomplissement de missions.
+    Accomplissez des missions et participez aux conquêtes pour élever votre rang et servir votre pays.${prompt}
   7780: |-
-    You are awarded conquest points when you defeat monsters while you are taking part in conquests.
-    Select "Region Info" from the menu to check your current number of conquest points.${prompt}
-  7781: You can purchase items from guards like myself with your conquest points, but be warned that the number of points you spend will be subtracted from your current total.${prompt}
-  7782: When conquest results are announced, you will be told which country controls the region you are in at that time. Sometimes regions may become neutral, or beastmen may even gain control of regions.${prompt}
-  7783: If we gain control of a region, border guards will be placed at its outposts to help adventurers like you.${prompt}
-  7784: Merchants will also be placed there, and goods from that region will find their way to the local shops here.${prompt}
-  7785: Gaining control of regions is the basic principle behind conquests. We need each of you to do your best, and bring our nation to the top of the ranks.${prompt}
-  7786: Of course, sometimes we lose regions to other nations...so we must try to take them back before the next conquest results are announced.${prompt}
-  7787: As an incentive, we will award you with more conquest points for defeating monsters in those regions.${prompt}
-  7788: But if we are allied with another nation, you will only be awarded the regular rate for defeating monsters in our allies' regions. On the other hand, we will award you with more points for fighting in the top-ranked nation's regions.${prompt}
+    Vous obtenez des points de conquête lorsque vous éliminez des monstres pendant que vous participez aux conquêtes.
+    Sélectionnez « Infos sur les régions » dans le menu pour vérifier votre nombre actuel de points de conquête.${prompt}
+  7781: Vous pouvez acheter des objets auprès des gardes comme moi avec vos points de conquête, mais attention, le nombre de points que vous dépensez sera soustrait de votre total actuel.${prompt}
+  7782: Lorsque les résultats des conquêtes sont annoncés, on vous indiquera quel pays contrôle la région dans laquelle vous vous trouvez à ce moment-là. Parfois, les régions peuvent devenir neutres, ou les hommes-bêtes peuvent même prendre le contrôle des régions.${prompt}
+  7783: Si nous prenons le contrôle d'une région, des gardes-frontières seront placés dans ses avant-postes pour aider les aventuriers comme vous.${prompt}
+  7784: Des marchands seront également placés là, et les biens de cette région trouveront leur chemin vers les magasins locaux ici.${prompt}
+  7785: Prendre le contrôle des régions est le principe de base des conquêtes. Nous avons besoin que chacun de vous fasse de son mieux et place notre nation en tête des classements.${prompt}
+  7786: Bien sûr, parfois nous perdons des régions au profit d'autres nations... nous devons donc essayer de les reprendre avant l'annonce des résultats de la prochaine conquête.${prompt}
+  7787: Comme incitation, nous vous récompenserons avec plus de points de conquête pour avoir éliminé des monstres dans ces régions.${prompt}
+  7788: Mais si nous sommes alliés avec une autre nation, vous ne recevrez que le taux régulier pour avoir éliminé des monstres dans les régions de nos alliés. En revanche, nous vous récompenserons avec plus de points pour combattre dans les régions de la nation classée première.${prompt}
   7789: |-
-    Our paramount concern lies in the beastmen gaining control of our regions.
-    If too many of us are defeated in a region, the beastmen will gain control of it.${prompt}
-  7790: If this happens, not only is it a great blow to our pride, but you will be unable to acquire any crystals in that region.${prompt}
-  7791: The beastmen are a menace to all nations. If they rise to power, we must all unite and drive those vile creatures from that region.${prompt}
-  7792: We need you to bring supplies to the outpost border guards who are placed in regions under our control.${prompt}
-  7793: There is one outpost in each region. Select “Region Info” from the menu, and look for the areas with a small flag mark on the map. That is where they are.${prompt}
+    Notre principale préoccupation est que les hommes-bêtes prennent le contrôle de nos régions.
+    Si trop d'entre nous sont vaincus dans une région, les hommes-bêtes prendront le contrôle de celle-ci.${prompt}
+  7790: Si cela se produit, non seulement ce sera un grand coup porté à notre fierté, mais vous ne pourrez également pas acquérir de cristaux dans cette région.${prompt}
+  7791: Les hommes-bêtes sont une menace pour toutes les nations. S'ils prennent le pouvoir, nous devons tous nous unir et chasser ces créatures viles de cette région.${prompt}
+  7792: Nous avons besoin que vous apportiez des fournitures aux gardes-frontières des avant-postes qui sont placés dans les régions sous notre contrôle.${prompt}
+  7793: Il y a un avant-poste dans chaque région. Sélectionnez « Infos sur les régions » dans le menu et recherchez les zones marquées d'un petit drapeau sur la carte. C'est là qu'ils se trouvent.${prompt}
   7794: |-
-    Here are the supplies. Just give them to the guard at the outpost and your mission will be complete.
-    Now, choose which outpost you want to go to. We give different rewards for each region, so choose carefully.${prompt}
+    Voici les fournitures. Il vous suffit de les remettre au garde de l'avant-poste et votre mission sera terminée.
+    Maintenant, choisissez l'avant-poste où vous souhaitez vous rendre. Nous offrons des récompenses différentes pour chaque région, alors choisissez avec soin.${prompt}
   7795: |-
-    Where do you wish to take the supplies?
+    Où souhaitez-vous apporter les fournitures ?
     ${selection-lines}
     　
     　
     　
     　
     　
-    The Ronfaure Region.${choice: 5}[/ (Done)]
-    The Zulkheim Region.${choice: 6}[/ (Done)]
-    The Norvallen Region.${choice: 7}[/ (Done)]
-    The Gustaberg Region.${choice: 8}[/ (Done)]
-    The Derfland Region.${choice: 9}[/ (Done)]
-    The Sarutabaruta Region.${choice: 10}[/ (Done)]
-    The Kolshushu Region.${choice: 11}[/ (Done)]
-    The Aragoneu Region.${choice: 12}[/ (Done)]
-    The Fauregandi Region.${choice: 13}[/ (Done)]
-    The Valdeaunia Region.${choice: 14}[/ (Done)]
-    Qufim Island.${choice: 15}[/ (Done)]
-    The Li'Telor Region.${choice: 16}[/ (Done)]
-    The Kuzotz Region.${choice: 17}[/ (Done)]
-    The Vollbow Region.${choice: 18}[/ (Done)]
-    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
-    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
-    Tu'Lia.${choice: 21}[/ (Done)]
+    La région de Ronfaure.${choice: 5}[/ (Terminé)]
+    La région de Zulkheim.${choice: 6}[/ (Terminé)]
+    La région de Norvallen.${choice: 7}[/ (Terminé)]
+    La région de Gustaberg.${choice: 8}[/ (Terminé)]
+    La région de Derfland.${choice: 9}[/ (Terminé)]
+    La région de Sarutabaruta.${choice: 10}[/ (Terminé)]
+    La région de Kolshushu.${choice: 11}[/ (Terminé)]
+    La région d'Aragoneu.${choice: 12}[/ (Terminé)]
+    La région de Fauregandi.${choice: 13}[/ (Terminé)]
+    La région de Valdeaunia.${choice: 14}[/ (Terminé)]
+    L'île de Qufim.${choice: 15}[/ (Terminé)]
+    La région de Li'Telor.${choice: 16}[/ (Terminé)]
+    La région de Kuzotz.${choice: 17}[/ (Terminé)]
+    La région de Vollbow.${choice: 18}[/ (Terminé)]
+    Les basses terres d'Elshimo.${choice: 19}[/ (Terminé)]
+    Les hauteurs d'Elshimo.${choice: 20}[/ (Terminé)]
+    Tu'Lia.${choice: 21}[/ (Terminé)]
     　
-    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
-    　
-    　
+    L'archipel de Tavnazia.${choice: 23}[/ (Terminé)]
     　
     　
     　
     　
     　
-    Cancel.${prompt}
+    　
+    　
+    Annuler.${prompt}
   7796: |-
-    Which E.F. would you like to join?
+    À quel E.F. souhaitez-vous vous joindre ?
     ${selection-lines}
     .
     .
@@ -18298,23 +18298,21 @@ entries:
     .
     .
     .
-    The Zulkheim Region (Lv.20～).
-    The Norvallen Region (Lv.25～).
+    La région de Zulkheim (Niv.20～).
+    La région de Norvallen (Niv.25～).
     .
-    The Derfland Region (Lv.25～).
+    La région de Derfland (Niv.25～).
     .
-    The Kolshushu Region (Lv.20～).
-    The Aragoneu Region (Lv.25～).
-    The Fauregandi Region (Lv.35～).
-    The Valdeaunia Region (Lv.40～).
-    The Qufim Region (Lv.25～).
-    The Li'Telor Region (Lv.35～).
-    The Kuzotz Region (Lv.40～).
-    The Vollbow Region (Lv.65～).
-    The Elshimo Lowlands Region (Lv.35～).
-    The Elshimo Uplands Region (Lv.45～).
-    .
-    .
+    La région de Kolshushu (Niv.20～).
+    La région d'Aragoneu (Niv.25～).
+    La région de Fauregandi (Niv.35～).
+    La région de Valdeaunia (Niv.40～).
+    La région de Qufim (Niv.25～).
+    La région de Li'Telor (Niv.35～).
+    La région de Kuzotz (Niv.40～).
+    La région de Vollbow (Niv.65～).
+    La région des basses terres d'Elshimo (Niv.35～).
+    La région des hauteurs d'Elshimo (Niv.45～).
     .
     .
     .
@@ -18323,62 +18321,64 @@ entries:
     .
     .
     .
-    None.${prompt}
+    .
+    .
+    Aucun.${prompt}
   7797: |-
-    So be it.
-    You have until the next conquest results announcement to complete this mission.
-    Good luck.${prompt}
-  7798: We will dispose of those unusable supplies.${prompt}
+    Ainsi soit-il.
+    Vous avez jusqu'à l'annonce des résultats de la prochaine conquête pour accomplir cette mission.
+    Bonne chance.${prompt}
+  7798: Nous allons disposer de ces fournitures inutilisables.${prompt}
   7799: |-
-    You can only undertake one supply mission per day.
-    Come back later.${prompt}
-  7800: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
+    Vous ne pouvez entreprendre qu'une seule mission de fournitures par jour.
+    Revenez plus tard.${prompt}
+  7800: Je suis désolé. Il semble que nous ayons un problème. Laissez-moi annuler cela.${prompt}
   7801: |-
-    You do not need to donate any more crystals at your current rank.
-    Speak to the guard at the gatehouse for further instructions.${prompt}
+    Vous n'avez plus besoin de faire don de cristaux à votre rang actuel.
+    Parlez au garde à la porte pour plus d'instructions.${prompt}
   7802: |-
-    Your rank points are full. We've added the excess to your conquest points.
-    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
+    Vos points de rang sont pleins. Nous avons ajouté l'excédent à vos points de conquête.
+    Vous n'avez plus besoin de faire don de cristaux. Allez à la porte pour plus d'instructions.${prompt}
   7803: |-
-    Good work, citizen.
-    We've awarded you rank points for the crystals you've donated.${prompt}
+    Bon travail, citoyen.
+    Nous vous avons attribué des points de rang pour les cristaux que vous avez donnés.${prompt}
   7804: |-
-    You currently have ${number: 0} conquest points.
-    Would you like to use them to purchase items?${prompt}
+    Vous avez actuellement ${number: 0} points de conquête.
+    Souhaitez-vous les utiliser pour acheter des objets ?${prompt}
   7805: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    1000-pt. items (rank 1 required).
-    2000-pt. items (rank 2 required).
-    4000-pt. items (rank 3 required).
-    8000-pt. items (rank 4 required).
-    16000-pt. items (rank 5 required).
-    24000-pt. items (rank 6 required).
-    32000-pt. items (rank 7 required).
-    40000-pt. items (rank 8 required).
-    48000-pt. items (rank 9 required).
-    56000-pt. items (rank 10 required).
-    Cancel.${prompt}
+    Objets communs (tous les rangs).
+    Objets à 1000 points (rang 1 requis).
+    Objets à 2000 points (rang 2 requis).
+    Objets à 4000 points (rang 3 requis).
+    Objets à 8000 points (rang 4 requis).
+    Objets à 16000 points (rang 5 requis).
+    Objets à 24000 points (rang 6 requis).
+    Objets à 32000 points (rang 7 requis).
+    Objets à 40000 points (rang 8 requis).
+    Objets à 48000 points (rang 9 requis).
+    Objets à 56000 points (rang 10 requis).
+    Annuler.${prompt}
   7806: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    2000-pt. items (rank 1 required).
-    4000-pt. items (rank 2 required).
-    8000-pt. items (rank 3 required).
-    16000-pt. items (rank 4 required).
-    24000-pt. items (rank 5 required).
-    32000-pt. items (rank 6 required).
-    40000-pt. items (rank 7 required).
-    48000-pt. items (rank 8 required).
-    56000-pt. items (rank 9 required).
+    Objets communs (tous les rangs).
+    Objets à 2000 points (rang 1 requis).
+    Objets à 4000 points (rang 2 requis).
+    Objets à 8000 points (rang 3 requis).
+    Objets à 16000 points (rang 4 requis).
+    Objets à 24000 points (rang 5 requis).
+    Objets à 32000 points (rang 6 requis).
+    Objets à 40000 points (rang 7 requis).
+    Objets à 48000 points (rang 8 requis).
+    Objets à 56000 points (rang 9 requis).
     .
-    Cancel.${prompt}
-  7807: Currently there are no items available for that rank.${prompt}
+    Annuler.${prompt}
+  7807: Actuellement, aucun objet n'est disponible pour ce rang.${prompt}
   7808: |-
-    Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
-    Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
+    En raison de sa nature spéciale, vous ne pouvez acheter ou recharger ${article} ${item-article: 2[2]} qu'une seule fois avant l'annonce des résultats de la conquête.
+    De plus, vous ne pouvez pas acheter cet objet si un objet similaire est déjà en votre possession.${prompt}
   7809: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 50 conquest points.${prompt}'
   7810: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 100 conquest points.${prompt}'
   7811: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 200 conquest points.${prompt}'
@@ -18550,21 +18550,21 @@ entries:
   7884: |-
     I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
     Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
-  7885: You could not be teleported. Ask me again, please.${prompt}
-  7886: The conquest results are currently being tallied. Come back later.${prompt}
-  7887: You have received permission to join the Expeditionary Forces!${prompt}
-  7888: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
-  7889: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
-  7890: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
-  7891: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
-  7892: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
-  7893: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
-  7894: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
-  7895: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
-  7896: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
-  7897: 'Your inventory is full. You could not accept the ${item-singular: 0[2]}.${prompt}'
-  7898: You already possess a gate glyph. You cannot hold any more.${prompt}
-  7899: I am Jeunoan Ducal Guard, ${name-npc}. My duty is to support the conquest efforts of Windurst, San d'Oria, and Bastok.${prompt}
+  7885: Vous n'avez pas pu être téléporté. Veuillez me demander à nouveau.${prompt}
+  7886: Les résultats de la conquête sont actuellement en cours de comptabilisation. Revenez plus tard.${prompt}
+  7887: Vous avez reçu la permission de rejoindre les Forces Expéditionnaires !${prompt}
+  7888: Actuellement, nous sommes classés premiers dans la conquête de Vana'diel, mais cela ne doit pas être pris pour acquis. Nous devons continuer notre lutte pour rester en tête.${prompt}
+  7889: Nous avions la première place en main, mais nous l'avons laissée filer. Si nous voulons être classés premiers dans Vana'diel, chacun d'entre nous doit faire sa part. J'ai hâte d'entendre parler de vos réalisations.${prompt}
+  7890: Notre pays est passé à la troisième place dans la conquête de Vana'diel. Nous devons redoubler d'efforts pour améliorer la situation.${prompt}
+  7891: Vous devez combattre dans des batailles qui rapportent beaucoup d'expérience. C'est la seule façon pour nous de mettre des zones sous le contrôle de notre pays.${prompt}
+  7892: Actuellement, notre pays est la force dominante dans cette région. Si nous maintenons ce niveau, le contrôle de cette zone sera à nous.${prompt}
+  7893: Actuellement, notre pays est une force majeure dans cette région. Cependant, nous ne pouvons pas prendre cela pour acquis. Si nous baissons notre garde, nous perdrons sûrement le contrôle de la zone !${prompt}
+  7894: Actuellement, notre pays a une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de ce trou dans lequel nous nous sommes enfoncés.${prompt}
+  7895: Actuellement, l'influence de notre pays dans cette zone est minimale. Si nous n'agissons pas rapidement, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
+  7896: Faites attention en passant, car cette zone est actuellement envahie par les bêtes ! Il faut faire quelque chose, sinon l'ennemi prendra le contrôle de toute la région.${prompt}
+  7897: 'Votre inventaire est plein. Vous n’avez pas pu accepter le ${item-singular: 0[2]}.${prompt}'
+  7898: Vous possédez déjà un glyphe de portail. Vous ne pouvez en porter aucun autre.${prompt}
+  7899: Je suis le Gardien Ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d'Oria et Bastok.${prompt}
   7900: 　${prompt}
   7901: 　${prompt}
   7902: 　${prompt}
@@ -26082,200 +26082,200 @@ entries:
     Ah, my favorite customer!
     I've been hoping you'd walk through my door.${prompt}
   11777: Doesn't this ring belong to you?${prompt}
-  11778: I remembered it because of the pretty blon...ah, I mean, the peculiar shape.${prompt}
+  11778: Je m'en souviens à cause de la jolie blonde... ah, je veux dire, de la forme particulière.${prompt}
   11779: |-
-    Hm? Beautiful?
-    Oh yes, she was quite attractive...${prompt}
-  11780: Oh! The ring! Yes, exquisite!${prompt}
-  11781: You must have dropped it right outside the tavern--I found it lying on one of the drains at the bottom of the stairs.${prompt}
+    Hein ? Belle ?
+    Oh oui, elle était assez attirante...${prompt}
+  11780: Oh ! L'anneau ! Oui, exquis !${prompt}
+  11781: Tu as dû le laisser juste devant la taverne—je l'ai trouvé posé sur une des grilles en bas des escaliers.${prompt}
   11782: |-
-    You're lucky it got caught in the grille.
-    One good storm and it would've been washed out to sea!${prompt}
-  11783: Ah, yes!${prompt}
+    T'as de la chance qu'il soit resté coincé dans la grille.
+    Un bon orage et il serait parti en mer !${prompt}
+  11783: Ah, oui !${prompt}
   11784: |-
-    It just so happens that I have yet to return the remaining rings.
-    Which means I have all three rattling in my hand here.${prompt}
+    Il se trouve que je n'ai pas encore rendu les autres anneaux.
+    Ce qui signifie que j'ai les trois ici dans ma main.${prompt}
   11785: |-
-    Sooo...
-    (The one you dropped is still in fine shape, now's your chance to choose a different one!)${prompt}
+    Alors...
+    (Celui que tu as perdu est encore en bon état, c'est le moment de choisir un autre !)${prompt}
   11786: |-
-    What's your poison?
+    Quel est ton poison ?
     ${selection-lines}
-    I-I'm not ready...
-    Choose a ring.${prompt}
-  11787: I know, I know. It's a difficult choice to make.${prompt}
+    Je... je ne suis pas prêt...
+    Choisis un anneau.${prompt}
+  11787: Je sais, je sais. C'est un choix difficile à faire.${prompt}
   11788: |-
-    I tell you what; I'll be happy to look after them until you're ready to make a decision.
-    Please come again any time!${prompt}
+    Je te dis quoi ; je serai heureux de m'occuper de ceux-ci jusqu'à ce que tu sois prêt à prendre une décision.
+    Reviens quand tu veux !${prompt}
   11789: |-
-    You seem distraught, ${choice-player-gender}[sir/madame]...
-    You've gone and dropped it again, haven't you?${prompt}
-  11790: And it just so happens that I found another ring lying in the exact same place.${prompt}
-  11791: The thing is, though...${prompt}
+    Tu sembles perturbé, ${choice-player-gender}[monsieur/madame]...
+    Tu l'as encore fait tomber, hein ?${prompt}
+  11790: Et il se trouve que j'ai trouvé un autre anneau au même endroit.${prompt}
+  11791: Le problème, c'est que...${prompt}
   11792: |-
-    It rolled away when I tried to pick it up.
-    I'm not sure if it was yours or not.${prompt}
-  11793: Although, the look on your face tells me...${prompt}
-  11794: Hm? The other rings?${prompt}
-  11795: Now, now, let's not be greedy, ${choice-player-gender}[sir/madame].${prompt}
-  11796: I made a promise to a customer--you can't ask me to break my word.${prompt}
-  11797: Who would then trust the owner of the Marble Bridge!?${prompt}
-  11798: '${color-alt: 121}You must wait ${number: 1} ${choice-plurality: 1}[day/days] Vana''diel time (${number: 2} ${choice-plurality: 1}[day/days] Earth time) until you are once again eligible to obtain the ring.${prompt}'
-  11799: What would ye be wantin' with me?${prompt}
-  11800: And I don't want t'hear any nonsense about yer desire t'be a dancer in Troupe Brilioth.${prompt}
+    Il a roulé quand j'ai essayé de le ramasser.
+    Je ne suis pas sûr que ce soit le tien.${prompt}
+  11793: Pourtant, la tête que tu fais me dit...${prompt}
+  11794: Hein ? Les autres anneaux ?${prompt}
+  11795: Non, non, ne sois pas avide, ${choice-player-gender}[monsieur/madame].${prompt}
+  11796: J'ai fait une promesse à un client—tu ne peux pas me demander de briser ma parole.${prompt}
+  11797: Qui ferait alors confiance au propriétaire du Marble Bridge !?${prompt}
+  11798: '${color-alt: 121}Tu dois attendre ${number: 1} ${choice-plurality: 1}[jour/jours] en temps Vana’diel (${number: 2} ${choice-plurality: 1}[jour/jours] en temps Terre) avant de pouvoir à nouveau obtenir l’anneau.${prompt}'
+  11799: Que veux-tu de moi ?${prompt}
+  11800: Et je ne veux pas entendre de bêtises sur ton désir de devenir danseur dans la Troupe Brilioth.${prompt}
   11801: |-
-    Do you want to be a dancer?
+    Tu veux devenir danseur ?
     ${selection-lines}
-    I surely do.
-    No, I have two left feet.${prompt}
+    Oui, sûrement.
+    Non, j'ai deux pieds gauches.${prompt}
   11802: |-
-    Wonderful.
-    Try not t'trip over yeself on the way out.${prompt}
-  11803: <Sigh>...not another one.${prompt}
-  11804: Listen here. I've handpicked ev'ry member of Troupe Brilioth for reasons o' style an' grace.${prompt}
-  11805: This is no meltin' pot o' entertainment like a certain Troupe Valeriano.${prompt}
+    Merveilleux.
+    Essaye de ne pas trébucher sur toi-même en sortant.${prompt}
+  11803: <Soupir>... encore un autre.${prompt}
+  11804: Écoute bien. J'ai sélectionné chaque membre de la Troupe Brilioth pour des raisons de style et de grâce.${prompt}
+  11805: Ce n'est pas un melting-pot d'animation comme une certaine Troupe Valeriano.${prompt}
   11806: |-
-    I can't be lettin' in ev'ry heavy-footed Galka and rhythmless Hume that walks in me door.
-    If it's dancin' lessons ye want, go ask yer auntie.${prompt}
+    Je ne peux pas laisser entrer n'importe quel Galka lourd ou Hume sans rythme qui passe la porte.
+    Si c'est des cours de danse que tu veux, va demander à ta tante.${prompt}
   11807: |-
-    Give up?
+    Abandonner ?
     ${selection-lines}
-    Guess I'll go visit Auntie...
-    Never!${prompt}
+    Je vais aller rendre visite à Tante...
+    Jamais !${prompt}
   11808: |-
-    Ye're a stubborn ${choice-player-gender}[lad/lass], t'be sure.
-    I'll tell ye what. If ye can bring me ${keyitem-article: 0[2]}, I'll rethink me stance.${prompt}
+    Tu es un ${choice-player-gender}[garçon/fille] têtu, c'est sûr.
+    Je vais te dire ce que. Si tu peux me rapporter ${keyitem-article: 0[2]}, je réfléchirai à ma position.${prompt}
   11809: |-
-    And what kind o' rock is that, ye ask?
-    Well, that's fer ye t'find out.${prompt}
-  11810: 'If ye can bring me ${keyitem-article: 0[2]}, I''ll rethink me stance on lettin'' ye into me troupe.${prompt}'
-  11811: Feast your eyes on the stunning steps of Troupe Brilioth!${prompt}
+    Et quel genre de roche est-ce, tu demandes ?
+    Eh bien, ça, c'est à toi de le découvrir.${prompt}
+  11810: 'Si tu peux me rapporter ${keyitem-article: 0[2]}, je réfléchirai à ma position pour te laisser entrer dans ma troupe.${prompt}'
+  11811: Régale-toi des magnifiques pas de la Troupe Brilioth !${prompt}
   11812: |-
-    I began studying here after one of Laila's performances moved me to tears.
-    Such grrrace...such talent...${prompt}
+    J'ai commencé à étudier ici après qu'une des performances de Laila m'ait émue aux larmes.
+    Tellement de grâce...tellement de talent...${prompt}
   11813: |-
-    I overheard you speaking with Laila.
-    So, you think you can dance?${prompt}
-  11814: You'll have to show you're absolutely committed before she'll even think about taking you under her wing.${prompt}
-  11815: 'Maybe I could ask Laila for some hints about this ${keyitem-singular: 0[2]}. But how can I be sure you''re rrreally serious...?${prompt}'
+    J'ai entendu que tu parlais avec Laila.
+    Donc, tu penses pouvoir danser ?${prompt}
+  11814: Tu devras montrer que tu es absolument déterminé avant qu'elle ne pense même à t'adopter sous son aile.${prompt}
+  11815: 'Peut-être que je pourrais demander à Laila des indices sur ce ${keyitem-singular: 0[2]}. Mais comment puis-je être sûr que tu es vraiment sérieux...?${prompt}'
   11816: |-
-    I know!
-    Have you heard of the Lion Springs Tavern in San d'Oria?${prompt}
-  11817: If you have the courrrage to dance on that stage, it will prrrove to me you have a passion for performance.${prompt}
-  11818: 'If you have the courrrage to dance on the stage in the Lion Springs Tavern, I''ll ask Laila about that ${keyitem-singular: 0[2]}.${prompt}'
-  11819: That must have been some performance you put on in the Lion Springs. News of your “unique” dancing style made it all the way to Jeuno.${prompt}
-  11820: Well, I guess I have to keep my end of the deal and tell you what I learned about that stone.${prompt}
-  11821: 'I hate to brrreak it to you, but finding ${keyitem-article: 0[2]} might be close to impossible.${prompt}'
-  11822: 'Twenty years ago, ${keyitem-plural: 0[2]} could be found lying at the bottom of Lake Mechieume in Jugner Forest.${prompt}'
-  11823: But their dazzling glow made them such a collector's item that not a single one remains there today.${prompt}
-  11824: I believe our merciless leader has set you a task that cannot be completed.${prompt}
+    Je sais !
+    As-tu entendu parler de la taverne Lion Springs à San d'Oria ?${prompt}
+  11817: Si tu as le courage de danser sur cette scène, cela prouvera que tu as une passion pour la performance.${prompt}
+  11818: 'Si tu as le courage de danser sur la scène de la taverne Lion Springs, je demanderai à Laila ce que je sais sur ce ${keyitem-singular: 0[2]}.${prompt}'
+  11819: Cela devait être une performance incroyable que tu as donnée à la taverne Lion Springs. La nouvelle de ton “style de danse unique” est allée jusqu'à Jeuno.${prompt}
+  11820: Eh bien, je suppose que je dois tenir ma parole et te dire ce que j'ai appris sur cette pierre.${prompt}
+  11821: 'Je déteste te briser la nouvelle, mais trouver ${keyitem-article: 0[2]} pourrait être presque impossible.${prompt}'
+  11822: 'Il y a vingt ans, ${keyitem-plural: 0[2]} pouvaient être trouvés au fond du lac Mechieume dans la forêt de Jugner.${prompt}'
+  11823: Mais leur éclat éblouissant en a fait un objet de collection tellement prisé qu'il n'en reste plus un seul aujourd'hui.${prompt}
+  11824: Je crois que notre leader impitoyable t'a assigné une tâche impossible à réaliser.${prompt}
   11825: |-
-    It's a shame.
-    While you still lack the skill, you certainly have the spirit of a dancer...${prompt}
-  11826: Ye here again?${prompt}
+    C'est dommage.
+    Bien que tu manques encore de compétence, tu as certainement l'esprit d'un danseur...${prompt}
+  11826: Tu es encore là ?${prompt}
   11827: |-
-    Ye've brought me ${keyitem-article: 0[2]}?
-    If ye think ye can trick me with some painted piece o'...${prompt}
+    Tu m'as rapporté ${keyitem-article: 0[2]} ?
+    Si tu penses pouvoir me tromper avec un morceau peint de...${prompt} 
   11828: '!!!${prompt}'
-  11829: Wh-where did ye get this!?${prompt}
-  11830: And now I s'pose ye're going to hold me to my word, are ye?${prompt}
+  11829: D'où viens-tu de trouver ça ?${prompt}
+  11830: Et maintenant, je suppose que tu vas me tenir parole, n'est-ce pas ?${prompt}
   11831: |-
-    <Sigh>...
-    Well, ye were up t'the task, and no mistakin'.
-    Welcome to Troupe Brilioth.${prompt}
-  11832: 'Ye know, I have another ${keyitem-singular: 0[2]}, but its light faded years ago...${prompt}'
-  11833: Lookin' at this rock reminds me o' the day I learned the true joy of dancin'.${prompt}
-  11834: I can still hear the sound of the pipes...${prompt}
+    <Soupir>...
+    Eh bien, tu as été à la hauteur de la tâche, sans aucun doute.
+    Bienvenue dans la Troupe Brilioth.${prompt}
+  11832: 'Tu sais, j’ai un autre ${keyitem-singular: 0[2]}, mais sa lumière s’est éteinte il y a des années...${prompt}'
+  11833: Regarder cette roche me rappelle le jour où j'ai appris la véritable joie de la danse.${prompt}
+  11834: Je peux encore entendre le son des pipes...${prompt}
   11835: '...?${prompt}'
-  11836: Ye look awfully familiar fer some reason...${prompt}
-  11837: Nah, it couldn't be...${prompt}
-  11838: Now, before ye begin yer trainin', let me tell ye a little somethin' about the origin o' our dance.${prompt}
-  11839: It's a martial style based on the traditional Bastokan “Kriegstanz”--a dance used in actual battle.${prompt}
-  11840: O' course, we've learned how t'adapt this martial style into a form suitable fer performances.${prompt}
-  11841: But first, ye'll have t'work on the basic, martial movements.${prompt}
+  11836: Tu me sembles étrangement familier pour une raison...${prompt}
+  11837: Non, ça ne peut pas être...${prompt}
+  11838: Maintenant, avant de commencer ton entraînement, laisse-moi te raconter un peu l'origine de notre danse.${prompt}
+  11839: C'est un style martial basé sur le "Kriegstanz" traditionnel bastokien -- une danse utilisée lors des batailles réelles.${prompt}
+  11840: Bien sûr, nous avons appris à adapter ce style martial en une forme adaptée aux performances.${prompt}
+  11841: Mais d'abord, tu devras travailler les mouvements de base, martiaux.${prompt}
   11842: |-
-    Rhea!
-    Show this rookie the ropes!${prompt}
-  11843: And now yer body has been conditioned fer the fundamental movements o' the Kriegstanz.${prompt}
+    Rhea !
+    Montre à ce rookie comment faire !${prompt}
+  11843: Et maintenant, ton corps a été conditionné pour les mouvements fondamentaux du Kriegstanz.${prompt}
   11844: |-
-    Don't just stand there scuffin' yer feet!
-    I expect ye t'spend ev'ry spare moment practicin' those moves!
-    Troupe Brilioth only accepts the best!${prompt}
-  11845: You can now become a dancer!${prompt}
+    Ne reste pas là à traîner des pieds !
+    Je m'attends à ce que tu passes chaque moment libre à pratiquer ces mouvements !
+    La Troupe Brilioth n'accepte que les meilleurs !${prompt}
+  11845: Tu peux maintenant devenir danseur !${prompt}
   11846: |-
-    Dance is learned by doin', not by watchin'.
-    Get yer body movin', and dance until ye drop!${prompt}
+    La danse s'apprend en la pratiquant, pas en la regardant.
+    Bouge ton corps et danse jusqu'à ce que tu tombes !${prompt}
   11847: |-
-    What are you gawpin' at?
-    I don't give out autographs.${prompt}
-  11848: 'I''m glad you''ve joined our little grrroup, but be warned: the hard work has only just begun!${prompt}'
+    Qu'est-ce que tu regardes ?
+    Je ne distribue pas d'autographes.${prompt}
+  11848: 'Je suis content que tu aies rejoint notre petit groupe, mais sois averti : le travail difficile ne fait que commencer !${prompt}'
   11849: |-
-    They're so pretty!
-    I wanna be a dancer too someday!${prompt}
-  11850: Two maidens of the battlefield...and a Galka?${prompt}
-  11851: There are many “dancers,” but only a select few are truly brilliant.${prompt}
+    Elles sont tellement belles !
+    J'aimerais aussi devenir danseuse un jour !${prompt}
+  11850: Deux jeunes filles sur le champ de bataille... et un Galka ?${prompt}
+  11851: Il y a beaucoup de "danseurs", mais seuls quelques-uns sont vraiment brillants.${prompt}
   11852: |-
-    And among those brilliant few, they say the most talented and graceful is visited by the Divinity of Dance.
-    Could that be true?${prompt}
-  11853: I've learned a lot about the Crystal War while looking after Ilumida.${prompt}
-  11854: She's even told me about those awful statues people are calling “maws.”${prompt}
-  11855: I haven't had the experience myself, but they say just the very sight of these idols brings back the most horrendous memories of the war...${prompt}
+    Et parmi ces brillants élus, on dit que le plus talentueux et gracieux est visité par la Divinité de la Danse.
+    Cela pourrait-il être vrai ?${prompt}
+  11853: J'ai beaucoup appris sur la Guerre du Cristal en m'occupant d'Ilumida.${prompt}
+  11854: Elle m'a même parlé de ces horribles statues que les gens appellent "les gouffres".${prompt}
+  11855: Je n'ai pas vécu cette expérience moi-même, mais on dit que rien que la vue de ces idoles ravive les souvenirs les plus horribles de la guerre...${prompt}
   11856: |-
-    I wonder if there are other things in the world that remind people of that horrible time.
-    If only such atrocities could be buried forever.${prompt}
-  11857: Do the beastmen also have a god to whom they pray, in the same way we ask for the blessings of Altana?${prompt}
+    Je me demande s'il existe d'autres choses dans le monde qui rappellent aux gens cette époque horrible.
+    Si seulement de telles atrocités pouvaient être enterrées pour toujours.${prompt}
+  11857: Est-ce que les bêtes ont aussi un dieu à qui elles prient, de la même manière que nous demandons les bénédictions d'Altana ?${prompt}
   11858: |-
-    Although I'm not sure I would want to know what twisted prayers the beastmen might make.
-    Would you?${prompt}
-  11859: Why, isn't it ${name-player}? Been workin' hard on yer steps, have ye?${prompt}
-  11860: Why don't ye show me some o' yer moves? Go on, let me see.${prompt}
-  11861: Hmmm...sharp, conf'dent steps, an' great upper body balance t'boot. Without a doubt, ye've improved.${prompt}
-  11862: Looks like ye've been faithfully rehearsin' the basics o' our martial style, the “Kriegstanz.”${prompt}
-  11863: But yer dance still lacks a certain...“shine.”${prompt}
-  11864: Listen up. What Troupe Brilioth is aimin' fer is a dance style that captivates an' enchants.${prompt}
-  11865: I want ye to think about how ye can make yer dance “shine.”${prompt}
-  11866: What Troupe Brilioth is aimin' fer is a dance style that captivates and enchants.${prompt}
-  11867: What? You want to know what's lacking in your dance?${prompt}
-  11868: That's a tough one... I personally believe you've imprrroved in leaps and bounds.${prompt}
-  11869: Laila once told me about her childhood. Witchfire Glen, in Grauberg, was where her mother taught her to dance. She said that it was there she learned the true essence of dance.${prompt}
-  11870: During the Great War, Witchfire Glen was rumored to be a mystical place, where pixies could be seen frolicking.${prompt}
-  11871: Laila's mother selected only the most talented dancers, and trrrained them there. I would love to have been part of those lessons!${prompt}
-  11872: I'm sorry I couldn't help you spice up your steps...${prompt}
-  11873: Laila's mother selected only the most talented dancers, and trrrained them at Witchfire Glen, in Grauberg.${prompt}
-  11874: So, ${name-player}. Did ye work out how to make yer dance “shine”?${prompt}
-  11875: Ye think ye got the goods now? Go on then, give us a gander.${prompt}
-  11876: Well, well, wasn't that somethin'.${prompt}
+    Bien que je ne sois pas sûr de vouloir savoir quelles prières tordues les bêtes pourraient faire.
+    Et toi ?${prompt}
+  11859: Pourquoi, ce n'est pas ${name-player} ? T'as bien travaillé sur tes pas, hein ?${prompt}
+  11860: Pourquoi tu ne me montres pas quelques-uns de tes mouvements ? Allez, laisse-moi voir.${prompt}
+  11861: Hmmm... des pas nets, confiants, et un excellent équilibre du haut du corps en prime. Sans aucun doute, tu t'es amélioré.${prompt}
+  11862: On dirait que tu as fidèlement répété les bases de notre style martial, le “Kriegstanz”.${prompt}
+  11863: Mais ta danse manque encore d'un certain... "éclat".${prompt}
+  11864: Écoute bien. Ce que la Troupe Brilioth cherche, c'est un style de danse qui captive et envoûte.${prompt}
+  11865: Je veux que tu réfléchisses à comment tu pourrais faire briller ta danse.${prompt}
+  11866: Ce que la Troupe Brilioth cherche, c'est un style de danse qui captive et envoûte.${prompt}
+  11867: Quoi ? Tu veux savoir ce qui manque dans ta danse ?${prompt}
+  11868: C'est une question difficile... Personnellement, je crois que tu t'es énormément amélioré.${prompt}
+  11869: Laila m'a un jour parlé de son enfance. Le Witchfire Glen, à Grauberg, était l'endroit où sa mère lui apprenait à danser. Elle disait que c'était là qu'elle avait appris l'essence véritable de la danse.${prompt}
+  11870: Pendant la Grande Guerre, on disait que le Witchfire Glen était un lieu mystique, où des fées pouvaient être vues en train de gambader.${prompt}
+  11871: La mère de Laila ne sélectionnait que les danseurs les plus talentueux, et les formait là-bas. J'aurais adoré faire partie de ces leçons !${prompt}
+  11872: Désolé de ne pas avoir pu t'aider à pimenter tes pas...${prompt}
+  11873: La mère de Laila ne sélectionnait que les danseurs les plus talentueux, et les formait au Witchfire Glen, à Grauberg.${prompt}
+  11874: Alors, ${name-player}. As-tu trouvé comment faire briller ta danse ?${prompt}
+  11875: Tu penses avoir ce qu'il faut maintenant ? Allez, montre-nous un peu.${prompt}
+  11876: Eh bien, eh bien, c'était quelque chose.${prompt}
   11877: |-
-    “A masterful dance can be the most lethal of weapons; a skillful fight, the most elegant of dances.”
-    These be the words of me dear mother.${prompt}
-  11878: But there's a key difference b'tween dancin' on stage, an' dancin' in battle.${prompt}
-  11879: On stage, ye're dancin' in front o' an audience, with the goal o' bringin' smiles to their faces.${prompt}
-  11880: Yer desire to entertain an' please the audience is what makes yer dance “shine.” Don't ye be forgettin' that.${prompt}
-  11881: Laila! I've just met with Wyatt, the guy who runs a business prrromoting performance troupes...${prompt}
-  11882: He said that Troupe Valeriano is next scheduled to perform rrright here, in Jeuno.${prompt}
-  11883: Troupe Valeriano...in Jeuno!?${prompt}
-  11884: Apparently, the leader of the trrroupe wants to come speak with you when they arrive.${prompt}
-  11885: What business would the likes o' Troupe Valeriano possibly have with me?${prompt}
+    “Une danse magistrale peut être l'arme la plus létale ; un combat habile, la danse la plus élégante.”
+    Ce sont les mots de ma chère mère.${prompt}
+  11878: Mais il y a une différence essentielle entre danser sur scène, et danser au combat.${prompt}
+  11879: Sur scène, tu danses devant un public, dans le but de leur apporter un sourire.${prompt}
+  11880: Ton désir de divertir et de plaire au public est ce qui fait briller ta danse. N'oublie pas ça.${prompt}
+  11881: Laila ! Je viens de rencontrer Wyatt, le gars qui gère une entreprise de promotion de troupes de performance...${prompt}
+  11882: Il m'a dit que la Troupe Valeriano est la prochaine à se produire ici, à Jeuno.${prompt}
+  11883: La Troupe Valeriano... à Jeuno !?${prompt}
+  11884: Apparemment, le chef de la troupe veut venir te parler quand ils arriveront.${prompt}
+  11885: Quel genre d'affaire une troupe comme Valeriano pourrait-elle bien avoir avec moi ?${prompt}
   11886: '...${prompt}'
-  11887: Hey hey, that's enough daydreamin' already! Get back t'yer practicin'!${prompt}
-  11888: I won't tolerate any o' yer makin' a fool o' yerself in front o' Troupe Valeriano!${prompt}
-  11889: I wonder why she's gotten crrranky all of a sudden.${prompt}
-  11890: Just a minute ago she was singing prrraises of you, ${name-player}, and even asked me to prepare something to give to you.${prompt}
-  11891: I didn't think the news would tick her off like that... No news is good news, huh?${prompt}
-  11892: Enough with the daydreamin'! ${name-player}, I wanna see more “shine” on that dance o' yers!${prompt}
-  11893: I wonder why she's gotten cranky all of a sudden...${prompt}
-  11894: Practicin' hard, ${name-player}?${prompt}
-  11895: Show me yer progress from time t'time, will ye?${prompt}
+  11887: Hé hé, ça suffit les rêveries ! Retourne à tes répétitions !${prompt}
+  11888: Je ne tolérerai pas que tu te ridiculises devant la Troupe Valeriano !${prompt}
+  11889: Je me demande pourquoi elle est devenue si grincheuse tout à coup.${prompt}
+  11890: Il y a à peine un instant, elle chantait tes louanges, ${name-player}, et elle m'a même demandé de préparer quelque chose pour toi.${prompt}
+  11891: Je ne pensais pas que la nouvelle la contrarierait autant... Pas de nouvelles, bonnes nouvelles, hein ?${prompt}
+  11892: Assez de rêveries ! ${name-player}, je veux voir plus de “brillance” dans cette danse !${prompt}
+  11893: Je me demande pourquoi elle est devenue si grincheuse tout à coup...${prompt}
+  11894: Tu répètes dur, ${name-player} ?${prompt}
+  11895: Montre-moi tes progrès de temps en temps, hein ?${prompt}
   11896: Hmmm...${prompt}
-  11897: Not bad, but ye still have a long way t'go if ye want t'be diva o' the dance troupe.${prompt}
-  11898: Have ye ever danced to a musician's tune?${prompt}
-  11899: On stage, a dancer must be one with the musicians who perform the accompaniment.${prompt}
-  11900: Even when ye practice, ye've to visualize the music in yer mind, or ye'll become a self-centered dancer.${prompt}
-  11901: An' I guarantee ye, self-centered dancers don't get very far.${prompt}
-  11902: To become a top-notch dancer, ye have t'work with a top-notch musician. I recommend ye find yerself a good musician who'll play a tune fer ye t'dance to.${prompt}
-  11903: Let me tell ye a story. When I was little, I once skipped practice an' stole off to a lake in Jugner Forest. It was there that me ears were treated to a most marvelous pipe tune. Its soul-stirrin' melody is still vivid in me mind t'this day.${prompt}
-  11904: Even though I never actually saw the person playin', it was this chance encounter that made me the dancer I am today.${prompt}
-  11905: If only I knew who was playing that tune, I would share its inspiration with ye, ${name-player}.${prompt}
+  11897: Pas mal, mais tu as encore du chemin à faire si tu veux devenir la diva de la troupe de danse.${prompt}
+  11898: As-tu déjà dansé sur la musique d'un musicien ?${prompt}
+  11899: Sur scène, un danseur doit être en harmonie avec les musiciens qui jouent l'accompagnement.${prompt}
+  11900: Même quand tu répètes, tu dois visualiser la musique dans ta tête, sinon tu deviendras un danseur égocentrique.${prompt}
+  11901: Et je te garantis que les danseurs égocentriques ne vont pas très loin.${prompt}
+  11902: Pour devenir un danseur de haut niveau, tu dois travailler avec un musicien de haut niveau. Je te conseille de trouver un bon musicien qui jouera une mélodie pour que tu danses.${prompt}
+  11903: Laisse-moi te raconter une histoire. Quand j'étais petite, une fois j'ai sauté une répétition et me suis faufilée vers un lac dans la forêt de Jugner. C'est là que mes oreilles ont été envoûtées par une mélodie de pipe merveilleuse. Sa mélodie envoûtante est encore vive dans mon esprit à ce jour.${prompt}
+  11904: Même si je n'ai jamais vu la personne qui jouait, cette rencontre fortuite m'a fait devenir la danseuse que je suis aujourd'hui.${prompt}
+  11905: Si seulement je savais qui jouait cette mélodie, je pourrais partager son inspiration avec toi, ${name-player}.${prompt}
   11906: |-
     <Sigh>
     It was such a long time ago...${prompt}
