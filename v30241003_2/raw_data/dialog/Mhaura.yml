@@ -16063,26 +16063,26 @@ entries:
   6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
   6492: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ce point comme votre point de retour actuel.
+    Une fois défini, vous y retournerez chaque fois que vous serez incapable de continuer.
   6493: |-
-    Set this as current home point?
+    Définir ce point comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6494: Home point set!${prompt}
-  6495: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  6494: Point de retour défini !${prompt}
+  6495: Un point de retour peut être défini comme un endroit où revenir à Vana'diel lorsque vous êtes mis hors combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6496: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ce point comme point de retour.
+    Autres paramètres.
+    Finalement, peu importe.${prompt}
   6497: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6498: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez désormais vous y téléporter depuis n'importe quel autre point de retour.${prompt}
+  6498: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   6499: |-
     Teleport where?
     ${selection-lines}
@@ -16787,18 +16787,18 @@ entries:
   6824: 'You discover a cache of beastman resources and receive ${number: 0} Imperial Standing!${prompt}'
   6825: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
   6826: 'You receive ${number: 0} bayld!${prompt}'
-  6827: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
-  6828: I'm a traveling moogle, kupo. I help adventurers in the Outlands access items they have stored in a Mog House elsewhere, kupo.${prompt}
-  6829: This isn't a Mog House, so you can only use the “Mog Safe,” “Change Jobs,” and “Delivery Box” commands, kupo.${prompt}
-  6830: 'You have to pay fee of ${number: 0} gil to transfer your items to the Outlands, kupo. Why? Because the world is a cold place for rogue moogles, kupo.${prompt}'
-  6831: Of course, you can move your items back to your Mog House in town, but if you want to transfer them to the Outlands again, you'll have to pay another fee, kupo. I've got to make a living too, kupo.${prompt}
+  6827: 'Votre chocobo refuse de consommer le ${item-singular: 0[2]}.${prompt}'
+  6828: Je suis un mog voyageur, kupo. J'aide les aventuriers dans les contrées éloignées à accéder aux objets qu'ils ont stockés dans une maison Mog ailleurs, kupo.${prompt}
+  6829: Ce n'est pas une maison Mog, donc vous ne pouvez utiliser que les commandes “Coffre Mog”, “Changer de métier” et “Boîte aux lettres”, kupo.${prompt}
+  6830: 'Vous devez payer des frais de ${number: 0} gil pour transférer vos objets vers les contrées éloignées, kupo. Pourquoi ? Parce que le monde est un endroit froid pour les mogs solitaires, kupo.${prompt}'
+  6831: Bien sûr, vous pouvez déplacer vos objets vers votre maison Mog en ville, mais si vous voulez les transférer à nouveau vers les contrées éloignées, vous devrez payer d'autres frais, kupo. Moi aussi, je dois gagner ma vie, kupo.${prompt}
   6832: |-
-    Transfer items? (Current gil:${number: 1})
+    Transférer des objets ? (Gil actuel : ${number: 1})
     ${selection-lines}
-    Pay ${number: 0} gil.
-    Don't transfer items.${prompt}
-  6833: You don't have enough gil, kupo.${prompt}
-  6834: Item transfer complete, kupo.${prompt}
+    Payer ${number: 0} gil.
+    Ne pas transférer d'objets.${prompt}
+  6833: Vous n'avez pas assez de gil, kupo.${prompt}
+  6834: Transfert d'objets terminé, kupo.${prompt}
   6835: '${number: 2} , ${number: 3}${prompt}'
   6836: |-
     Salutations, aventurier ! Je suis si heureux que tu sois venu, kupo !
@@ -18800,45 +18800,45 @@ entries:
   7759: |-
     May your name be praised, adventurer!
     With this, restoration of the light divinity shall proceed in leaps and bounds!${prompt}
-  7760: It appears that these “adventurers” are even more remarkable than I have heard. I would very much appreciate it if you would come to visit our great nation someday!${prompt}
-  7761: Rifaqat, get off your tail and give this adventurer ${choice-player-gender}[his/her] reward, now! Let us hope ${choice-player-gender}[he/she] finds it most useful on ${choice-player-gender}[his/her] adventures.${prompt}
-  7762: The most skilled armorers in Aht Urhgan forged this over a span of ten years. It is a gift of utmost quality...and I humbly present it to you.${prompt}
-  7763: If you acquire any more segments of Omega, I would greatly appreciate it if you could bring them to me.${prompt}
-  7764: Another segment from Omega! You have my utmost gratitude. Please accept this in return.${prompt}
+  7760: Il semble que ces « aventuriers » soient encore plus remarquables que ce que j'ai entendu dire. Je serais très honoré si vous pouviez venir visiter notre grande nation un jour !${prompt}
+  7761: Rifaqat, lève-toi de ta chaise et remets à cet aventurier ${choice-player-gender}[sa/ses] récompense, immédiatement ! Espérons que ${choice-player-gender}[il/elle] la trouvera très utile pour ${choice-player-gender}[ses/ses] aventures.${prompt}
+  7762: Les armuriers les plus talentueux d'Aht Urhgan ont forgé ceci au cours de dix années. C'est un cadeau de la plus haute qualité... et je vous le présente humblement.${prompt}
+  7763: Si vous acquérez d'autres segments d'Omega, je vous serais très reconnaissant de bien vouloir me les apporter.${prompt}
+  7764: Un autre segment d'Omega ! Vous avez toute ma gratitude. Veuillez accepter ceci en retour.${prompt}
   7765: |-
-    Yes...it's unmistakable.
-    A fragment of Omega, and a far more ancient specimen than any we've encountered thus far!${prompt}
+    Oui... c'est indubitable.
+    Un fragment d'Omega, et un spécimen bien plus ancien que tout ce que nous avons rencontré jusqu'à présent !${prompt}
   7766: |-
-    Now, Hadiyah will have no choice but to recognize my efforts!
-    Wilhelm's day has come, and it shall be a glorious one! Muahahahahahaha!${prompt}
+    Maintenant, Hadiyah n'aura d'autre choix que de reconnaître mes efforts !
+    L'heure de Wilhelm est arrivée, et ce sera une heure glorieuse ! Mwahahahahaha !${prompt}
   7767: |-
-    <Ahem>... Word has it that there are other curious materials to be found in this otherworldly place.
-    Deliver to me some samples along with this fragment, and I shall reward you with rare pieces of equipment from the Consortium's vaults.${prompt}
-  7768: Furthermore, should you already possess any pieces of equipment from a previous transaction, I would encourage you to deliver them to me along with this segment.${prompt}
+    <Ahem>... On raconte qu'il y a d'autres matériaux curieux à découvrir dans cet endroit surnaturel.
+    Apportez-moi des échantillons ainsi que ce fragment, et je vous récompenserai avec des pièces d'équipement rares issues des coffres du Consortium.${prompt}
+  7768: De plus, si vous possédez déjà des pièces d'équipement issues d'une transaction précédente, je vous encourage à me les remettre avec ce segment.${prompt}
   7769: |-
-    The Consortium has in its employ a smith of the highest renown.
-    He shall work his genius upon your treasured possession.${prompt}
+    Le Consortium emploie un forgeron de la plus haute renommée.
+    Il exercera son génie sur votre possession précieuse.${prompt}
   7770: |-
-    I see you are a ${choice-player-gender}[man/woman] of your word.
-    As am I, my friend. Take this, for you have earned it many times over.${prompt}
+    Je vois que vous êtes un ${choice-player-gender}[homme/femme] de parole.
+    Tout comme moi, mon ami. Prenez ceci, car vous l'avez mérité à maintes reprises.${prompt}
   7771: |-
-    Why, this is...! A segment of Ultima, and one unlike any I have seen before!
-    Wherever, pray tell, did you come upon this?${prompt}
+    Mais, c'est... ! Un segment d'Ultima, et différent de tout ce que j'ai vu auparavant !
+    Où, je vous prie, l'avez-vous trouvé ?${prompt}
   7772: |-
-    Ah, but it matters not. What matters is that Kamaal--that blustering blowhard--will finally be forced to show me some respect!
-    Heh! Hah! Heahaheahehahyah!${prompt}
+    Ah, mais cela importe peu. Ce qui importe, c'est que Kamaal--ce fanfaron--sera enfin forcé de me montrer du respect !
+    Hé ! Ha ! Héaheahehahya !${prompt}
   7773: |-
-    <Ahem>... Word has it that there are other curious materials to be found in this otherworldly place.
-    Deliver to me some samples along with this fragment, and I shall reward you with rare pieces of equipment from the Consortium's vaults.${prompt}
-  7774: Furthermore, should you already possess any pieces of equipment from a previous transaction, I would encourage you to deliver them to me along with this segment.${prompt}
+    <Ahem>... On raconte qu'il y a d'autres matériaux curieux à découvrir dans cet endroit surnaturel.
+    Apportez-moi des échantillons ainsi que ce fragment, et je vous récompenserai avec des pièces d'équipement rares issues des coffres du Consortium.${prompt}
+  7774: De plus, si vous possédez déjà des pièces d'équipement issues d'une transaction précédente, je vous encourage à me les remettre avec ce segment.${prompt}
   7775: |-
-    The Consortium has in its employ a smith of the highest renown.
-    He shall work his genius upon your treasured possession.${prompt}
+    Le Consortium emploie un forgeron de la plus haute renommée.
+    Il exercera son génie sur votre possession précieuse.${prompt}
   7776: |-
-    Ah, exactly what I had hoped to see!
-    The Consortium is ever grateful for your contributions, friend.
-    Take this, and may it serve you well.${prompt}
-  7777: Mauriri is my name, and sending parcels from Mhaura is my game.♪${prompt}
+    Ah, exactement ce que j'espérais voir !
+    Le Consortium vous est infiniment reconnaissant pour vos contributions, ami.
+    Prenez ceci, et qu'il vous serve bien.${prompt}
+  7777: Mauriri est mon nom, et envoyer des colis depuis Mhaura est mon jeu.♪${prompt}
   7778: |-
     Vous cherchez une entreprise de livraison qui n'est pas toute pourrie-wourrie ?
     La qualité de mon service fait honte à Mauriri !${prompt}
