@@ -17433,20 +17433,18 @@ entries:
   7058: 'Waouh, c’est un vrai ${item-singular: 0[2]} ! Bon, voici ton ${keyitem-singular: 1[2]}. Et ne viens pas me dire que tu veux le rendre !${prompt}'
   7059: Tu vas à la Tour de Delkfutt, hein ? Sois prudent.${prompt}
   7060: Tu vas à la Tour de Delkfutt, hein ?${prompt}
-  7061: |-
-    Are you going to Delkfutt's Tower?
+  7086: |-
+    Payer ${number: 7} gil et passer par là ?
     ${selection-lines}
-    That's right.
-    No, I'm not.${prompt}
-  7062: Oh? My mistake, then.${prompt}
-  7063: It's so confusing with all the portals and trap doors in there. Ain't no walk in the park, ${choice-player-gender}[sonny/kiddo]!${prompt}
-  7064: 'But it''s smooth sailing with this here ${keyitem-singular: 7[2]}. I dug it up at the book fair the other day.${prompt}'
-  7065: 'It''s just another piece of paper to me, so... I know! I''ll trade you ${article} ${item-article: 6[2]} for it! Yeah, I love antiquities.${prompt}'
-  7066: |-
-    Will you bring me ${article} ${item-article: 6[2]}?
+    Oui.
+    Non.${prompt}
+  7087: C'est la sortie des arrivées. L'entrée des départs est juste à côté.${prompt}
+  7088: Une fois que vous passez la douane, vous devrez payer pour revenir à bord. Ça vous va ?${prompt}
+  7089: |-
+    Vous rendre à l'agence de voyage aérien ?
     ${selection-lines}
-    I'll try.
-    Not now.${prompt}
+    Oui.
+    Non.${prompt}
   7067: 'Super ! Reviens vite avec ${article} ${item-article: 6[2]} ! Et fais attention !${prompt}'
   7068: Ah bon ? Eh bien, c'est ta perte, ${choice-player-gender}[pal/sœur].${prompt}
   7069: 'Regarde, apporte-moi juste ${article} ${item-article: 6[2]}. Et fais attention aussi.${prompt}'
@@ -18599,62 +18597,62 @@ entries:
   7738: 　${prompt}
   7739: PAUSE${prompt}
   7740: '${number: 1}${prompt}'
-  7741: This flight is full.${prompt}
-  7742: I got no business with a flea like you. Get outta my face before I decide to messy-wess you up.${prompt}
-  7743: You're ${name-player}, right? Ha ha ha! I knew it! Just like Gilgamesh described. Lemme tell you what I gotty-wot so far.${prompt}
-  7744: The creepy-weep that stole our helmet isn't from any large syndicate. He isn't even very famous among other pirates. He's just a simple thiefy-weef trying to pull off a big job for a big profit.${prompt}
-  7745: According to the owner of that inn, he traveled numerous timey-wimes between here and Selbina, and would sometimes talk about his plans after a few too many drinky-winks. But then one day, he just disappeared.${prompt}
-  7746: After looking at Norg's nautical loggy-wogs, I learned that the time he disappeared matches the time he must have entered our headquarters. But where he went from therey-where, I don't know.${prompt}
-  7747: Wa-wa-wait! There's something else.${prompt}
-  7748: One of our men in Bastok is piecing together all the information we've gathered so far. He's hiding out in a run-down old housey-wouse in the Mines District (J-6). He should be able to give you something juicy-wuicy.${prompt}
-  7749: I thought that this might have been the work of some large groupy-woop, but when I heard that it was just one guy...boy, was I surprisey-wised!${prompt}
-  7750: I can understand wanting to makey-wake it big overnight, but he should have thought a little bitty-wit longer before deciding to take us on!${prompt}
-  7751: Would you mind leaving me alone? I have no time for small talk.${prompt}
-  7752: You are ${name-player}, are you not? I have been waiting for your arrival. I do not have much time, so I will keep this quick.${prompt}
-  7753: The day of the theft, there were numerous reports of a strange character wearing an even stranger helmet traveling on foot towards Zulkheim.${prompt}
-  7754: I journeyed here from San d'Oria, but heard nothing of such sightings on my way. This leaves the possibility that he may have turned back to Jeuno.${prompt}
-  7755: I feel that he may still be in the area. I am going to continue my search here.${prompt}
-  7756: And one other thing.${prompt}
-  7757: One more of us is stationed in a small, run-down building in the Bastok Mines (J-6). He may have some useful information.${prompt}
-  7758: The type of helmet that was stolen is known in the Far East as a “kabuto.” Many people find its design strange, but I find it quite interesting.${prompt}
-  7759: You're finally here, ${name-player}.${prompt}
+  7741: Ce vol est complet.${prompt}
+  7742: Je n'ai rien à faire avec une puce comme toi. Dégage de ma vue avant que je décide de te remettre en place.${prompt}
+  7743: Tu es ${name-player}, c'est ça ? Ha ha ha ! Je m'en doutais ! Juste comme Gilgamesh l'a décrit. Laisse-moi te dire ce que j'ai pu découvrir jusqu'à maintenant.${prompt}
+  7744: Le type louche qui a volé notre casque ne vient pas d'un grand syndicat. Il n'est même pas très connu parmi les autres pirates. C'est juste un voleur ordinaire qui essaie de réaliser un gros coup pour un gros profit.${prompt}
+  7745: D'après le propriétaire de cette auberge, il a fait de nombreux allers-retours entre ici et Selbina, et parlait parfois de ses projets après quelques verres de trop. Mais un jour, il a tout simplement disparu.${prompt}
+  7746: En examinant le journal maritime de Norg, j'ai découvert que le moment où il a disparu correspond au moment où il a dû entrer dans notre quartier général. Mais où il est allé ensuite, je l'ignore.${prompt} 
+  7747: Attends, attends ! Il y a autre chose.${prompt}
+  7748: L'un de nos hommes à Bastok est en train de rassembler toutes les informations que nous avons collectées jusqu'à maintenant. Il se cache dans une vieille maison délabrée dans le quartier des Mines (J-6). Il devrait pouvoir te donner quelque chose d'intéressant.${prompt}
+  7749: Je pensais que cela pouvait être l'œuvre d'un grand groupe, mais quand j'ai appris que c'était juste un type... eh bien, j'ai été vraiment surpris !${prompt}
+  7750: Je peux comprendre qu'on veuille devenir riche du jour au lendemain, mais il aurait dû réfléchir un peu plus longtemps avant de s'attaquer à nous !${prompt}
+  7751: Ça te dérangerait de me laisser tranquille ? Je n'ai pas de temps à perdre avec des bavardages.${prompt}
+  7752: Tu es ${name-player}, n'est-ce pas ? J'attendais ton arrivée. Je n'ai pas beaucoup de temps, alors je vais aller droit au but.${prompt}
+  7753: Le jour du vol, il y a eu plusieurs rapports faisant état d'un personnage étrange portant un casque encore plus étrange se dirigeant à pied vers Zulkheim.${prompt} 
+  7754: Je suis venu ici depuis San d'Oria, mais je n'ai rien entendu à propos de telles observations sur mon chemin. Cela laisse la possibilité qu'il soit revenu à Jeuno.${prompt}
+  7755: Je pense qu'il est toujours dans le coin. Je vais poursuivre ma recherche ici.${prompt}
+  7756: Et une autre chose.${prompt}
+  7757: Un autre de nos hommes est posté dans un petit bâtiment délabré dans les Mines de Bastok (J-6). Il pourrait avoir des informations utiles.${prompt}
+  7758: Le type de casque volé est connu en Extrême-Orient sous le nom de "kabuto". Beaucoup de gens trouvent son design étrange, mais moi je le trouve plutôt intéressant.${prompt}
+  7759: Tu es enfin arrivé, ${name-player}.${prompt}
   7760: |-
-    I've heard of you from my associates in Norg. As much as I would like to sit and chat with you about your adventures, we must work quickly to find our thief.
-    I have just received a new piece of information and will be setting out shortly to investigate.${prompt}
-  7761: To the northeast of here is a place called the Palborough Mines. I've received information on several adventurers sighting a young man wearing a strangely shaped helmet journeying deep into those caves.${prompt}
-  7762: This is more than likely the same character that Sanosuke learned of in Jeuno. But why would he head to the Palborough Mines? I'm heading there myself to find out.${prompt}
-  7763: I have heard that the Quadav made that place into one of their strongholds. I wonder if there could be some connection...${prompt}
-  7764: You may journey to the mines with me if you wish. When you have made your preparations, meet me there. I will be waiting.${prompt}
-  7765: I-it's you...${prompt}
-  7766: We're too...late. He's already...passed through the...portal. The seal...on the helmet...won't hold much...longer.${prompt}
-  7767: Unless you want to end up...like me, don't...touch the burning circle. It's protected...by a powerful curse.${prompt}
-  7768: Hurry...back to Norg and tell...them what's happened. Get something to...break the curse...keep the demon...from escaping...${prompt}
+    J'ai entendu parler de toi par mes associés à Norg. Aussi bien que j'aimerais m'asseoir et discuter avec toi de tes aventures, nous devons travailler rapidement pour retrouver notre voleur.
+    Je viens de recevoir une nouvelle information et je m'apprête à partir enquêter.${prompt}
+  7761: Au nord-est d'ici se trouve un endroit appelé les Mines de Palborough. J'ai reçu des informations selon lesquelles plusieurs aventuriers ont vu un jeune homme portant un casque de forme étrange s'enfoncer profondément dans ces cavernes.${prompt}
+  7762: Il est fort probable qu'il s'agisse du même personnage dont Sanosuke a entendu parler à Jeuno. Mais pourquoi irait-il aux Mines de Palborough ? Je m'y rends moi-même pour découvrir cela.${prompt}
+  7763: On m'a dit que les Quadavs avaient transformé cet endroit en l'un de leurs bastions. Je me demande s'il pourrait y avoir une connexion...${prompt}
+  7764: Tu peux voyager jusqu'aux mines avec moi si tu le souhaites. Lorsque tu auras fait tes préparatifs, rejoins-moi là-bas. Je t'attendrai.${prompt}
+  7765: C-c'est toi...${prompt}
+  7766: Nous sommes trop...en retard. Il a déjà...traversé le...portail. Le sceau...sur le casque...ne tiendra plus...longtemps.${prompt}
+  7767: À moins que tu ne veuilles finir...comme moi, ne...touche pas au cercle brûlant. Il est protégé...par une malédiction puissante.${prompt}
+  7768: Vite...retourne à Norg et dis-leur...ce qui s'est passé. Trouve quelque chose pour...briser la malédiction...empêcher le démon...de s'échapper...${prompt}
   7769: '.........${prompt}'
-  7770: 'He has lost consciousness.${wait-animation: 2}'
-  7771: The time has come for me to rise again... I am no longer bound by the chains that annoying Hume forced upon me...${prompt}
-  7772: Many a night I wasted away, rotting in the darkness of my prison...${prompt}
-  7773: Gnyah-hah-hah! But Humes are a frail species. They grow old and wither away. The one who sent me to my hell is no more...${prompt}
-  7774: Now there are none who can stand in my way!${prompt}
-  7775: What is this? I sense someone approaching... Someone with the same power as that Hume...${prompt}
-  7776: You did it!${prompt}
-  7777: The seal was broken, but thanks to you, the demon has been put to rest.${prompt}
-  7778: 'Our ancestors'' ${item-singular: 0[2]} has been damaged, but its tattered appearance is proof of the evil sprit''s demise. Take this back to Norg and inform them of your deeds.${prompt}'
+  7770: 'Il a perdu connaissance.${wait-animation: 2}'
+  7771: Il est temps pour moi de renaître... Je ne suis plus lié par les chaînes que ce Hume agaçant m'a imposées...${prompt}
+  7772: Nombreuses sont les nuits que j'ai gaspillées, pourrissant dans l'obscurité de ma prison...${prompt}
+  7773: Gnyah-hah-hah ! Mais les Humes sont une espèce fragile. Ils vieillissent et se fanent. Celui qui m'a envoyé en enfer n'est plus...${prompt}
+  7774: Maintenant, il n'y a plus personne pour se dresser sur mon chemin !${prompt}
+  7775: Qu'est-ce que c'est ? Je sens quelqu'un approcher... Quelqu'un avec le même pouvoir que ce Hume...${prompt}
+  7776: Tu l'as fait !${prompt}
+  7777: Le sceau a été brisé, mais grâce à toi, le démon a été mis au repos.${prompt}
+  7778: 'Notre ancêtre'' ${item-singular: 0[2]} a été endommagé, mais son apparence déchirée est la preuve de la disparition de l’esprit maléfique. Ramène ceci à Norg et informe-les de tes actes.${prompt}'
   7779: |-
-    Much of the cursed seal still remains. I will remain here and attempt to clear the rest of it away.
-    Until we meet again, ${name-player}!${prompt}
+    Il reste encore beaucoup de sceau maudit. Je vais rester ici et tenter de l'enlever entièrement.
+    Jusqu'à ce que nous nous rencontrions à nouveau, ${name-player} !${prompt}
   7780: |-
-    The ${item-singular: 1[2]} has been badly damaged...
-    You obtain ${keyitem-article: 0[2]}.${prompt}
-  7781: 'The ${item-singular: 3[2]} you carry has lost its effectiveness. You may dispose of it now.${prompt}'
-  7782: You've cleared Samurai AF 2!${prompt}
-  7783: 'You don''t have ${article} ${item-article: 1[2]}!${prompt}'
-  7784: Press any button to continue (probably the confirmation one, though).${prompt}
-  7785: Currently, only players above level 49 can use the Ru'Lude Gardens auction house. Thank you for your cooperation.${prompt}
-  7786: Currently, only players between levels 35 and 55 can use the Upper Jeuno auction service. Thank you for your cooperation.${prompt}
-  7787: Currently, only players between levels 20 and 40 can use the Lower Jeuno auction house. Thank you for your cooperation.${prompt}
-  7788: Currently, only players below level 26 can use the Port Jeuno auction service. Thank you for your cooperation.${prompt}
-  7789: It was quite some time ago now, but I saw this young Elvaan girl heading into that cave with a fishing rod in her hand.${prompt}
-  7790: When she came back, she told me some “damn huge octopus” had whipped the rod right out of her grasp...${prompt}
+    Le ${item-singular: 1[2]} a été gravement endommagé...
+    Tu as obtenu ${keyitem-article: 0[2]}.${prompt}
+  7781: 'Le ${item-singular: 3[2]} que tu portes a perdu son efficacité. Tu peux maintenant t’en débarrasser.${prompt}' 
+  7782: Tu as terminé l'AF 2 du Samurai !${prompt}
+  7783: 'Tu n’as pas ${article} ${item-article: 1[2]} !${prompt}'
+  7784: Appuie sur n'importe quelle touche pour continuer (probablement celle de confirmation).${prompt}
+  7785: Actuellement, seuls les joueurs de niveau 49 ou plus peuvent utiliser la maison des enchères des Jardins de Ru'Lude. Merci de ta coopération.${prompt}
+  7786: Actuellement, seuls les joueurs entre les niveaux 35 et 55 peuvent utiliser le service d'enchères de Jeuno supérieur. Merci de ta coopération.${prompt}
+  7787: Actuellement, seuls les joueurs entre les niveaux 20 et 40 peuvent utiliser la maison des enchères de Jeuno inférieur. Merci de ta coopération.${prompt}
+  7788: Actuellement, seuls les joueurs de niveau inférieur à 26 peuvent utiliser le service d'enchères du Port Jeuno. Merci de ta coopération.${prompt}
+  7789: Cela fait un moment maintenant, mais j'ai vu cette jeune Elvaan se diriger vers cette grotte avec une canne à pêche à la main.${prompt}
+  7790: Lorsqu'elle est revenue, elle m'a dit qu'un "putain de gros poulpe" lui avait arraché la canne de ses mains...${prompt}
   7791: |-
     The minstrel of melodies is my name,
     For a mere ${number: 6} gil I'll recall your past.

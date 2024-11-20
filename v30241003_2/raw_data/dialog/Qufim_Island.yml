@@ -18276,42 +18276,42 @@ entries:
     Teleport with gil.
     Teleport with conquest points.
     No.${prompt}
-  7466: Welcome to the border shop! If you trade me unused equipment, I'll add their value to your country's region points!${prompt}
+  7466: Bienvenue à la boutique frontalière ! Si tu m'échanges des équipements inutilisés, j'ajouterai leur valeur aux points régionaux de ton pays !${prompt}
   7467: |-
-    It should please you to know that I now also deal in ${item-plural: 0[2]}.
-    Bigger pieces will earn you more points for your nation, and I'll even toss some gil into the equation!${prompt}
-  7468: I see that your home country has control of this region. Feel free to browse through my wares.${prompt}
-  7469: I see that your home country is allies with the country in control of this region. Feel free to browse through my wares.${prompt}
-  7470: 'I can teleport you to your home country for ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points].${prompt}'
-  7471: "Word has it that the entire set of mog tablets has been recovered. \nOh, happy day! In honor of the occasion, I can teleport you to your home country free of charge.${prompt}"
-  7472: I am terribly sorry, but it seems as if you do not have enough gil.${prompt}
-  7473: I am terribly sorry, but it seems as if you do not have enough conquest points.${prompt}
-  7474: However, due to your home country's lack of influence in the region, this is the only transaction I am authorized to perform with you at the moment.${prompt}
-  7475: I am looking forward to doing business with you again in the future!${prompt}
-  7476: Thank you. This will increase your nation's region points by a small amount. If you have anything else, by all means, trade them to me.${prompt}
-  7477: Thank you. This will increase your nation's region points moderately. If you have anything else, by all means, trade them to me.${prompt}
-  7478: Thank you. This will increase your nation's region points greatly. If you have anything else, by all means, trade them to me.${prompt}
-  7479: I could not accept one or more items you tried to trade me. Please remove those items and try again.${prompt}
-  7480: Sorry. I can only take certain types of weapons, shields, or armor.${prompt}
+    Sache que je traite désormais aussi des ${item-plural: 0[2]}.
+    Les plus gros objets te rapporteront plus de points pour ta nation, et j'ajouterai même quelques gils dans l'équation !${prompt}
+  7468: Je vois que ton pays d'origine contrôle cette région. N'hésite pas à parcourir mes marchandises.${prompt}
+  7469: Je vois que ton pays d'origine est allié au pays contrôlant cette région. N'hésite pas à parcourir mes marchandises.${prompt}
+  7470: 'Je peux te téléporter dans ton pays d’origine pour ${number: 1} gil ou ${number: 3} ${choice-plurality: 3}[point/points] de conquête.${prompt}'
+  7471: "On dit que l'ensemble des tablettes mog a été récupéré. \nOh, quel jour heureux ! Pour l'occasion, je peux te téléporter dans ton pays d'origine gratuitement.${prompt}"
+  7472: Je suis navré, mais il semble que tu n'as pas assez de gils.${prompt}
+  7473: Je suis navré, mais il semble que tu n'as pas assez de points de conquête.${prompt}
+  7474: Cependant, en raison du manque d'influence de ton pays dans cette région, c'est la seule transaction que je suis autorisé à effectuer avec toi pour le moment.${prompt}
+  7475: J'espère faire affaire avec toi à nouveau dans le futur !${prompt}
+  7476: Merci. Cela augmentera légèrement les points régionaux de ta nation. Si tu as d'autres objets, n'hésite pas à me les échanger.${prompt}
+  7477: Merci. Cela augmentera modérément les points régionaux de ta nation. Si tu as d'autres objets, n'hésite pas à me les échanger.${prompt}
+  7478: Merci. Cela augmentera grandement les points régionaux de ta nation. Si tu as d'autres objets, n'hésite pas à me les échanger.${prompt}
+  7479: Je n'ai pas pu accepter un ou plusieurs des objets que tu as essayé de m'échanger. Veuillez retirer ces objets et réessayer.${prompt}
+  7480: Désolé. Je ne peux accepter que certains types d'armes, boucliers ou armures.${prompt}
   7481: |-
-    Thank you. This will increase your nation's region points ${choice: 1}[by a small amount/moderately/greatly].
-    For this transaction I will also furnish you with ${number: 0} gil.${prompt}
-  7482: My apologies, but this type of item needs to be individually appraised. Please trade them to me one at a time.${prompt}
+    Merci. Cela augmentera ${choice: 1}[légèrement/modérément/grandement] les points régionaux de ta nation.
+    Pour cette transaction, je te donnerai également ${number: 0} gils.${prompt}
+  7482: Toutes mes excuses, mais ce type d'objet doit être évalué individuellement. Veuillez me les échanger un par un.${prompt}
   7483: (DEBUG) Back to hometown!${prompt}
   7484: |-
-    What do you want?
+    Que veux-tu ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Pourrais-tu me lancer Signet ?
+    J'aimerais définir mon point de retour ici.
+    Rien.${prompt}
   7485: |-
-    What do you want?
+    Que veux-tu ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  7486: Your home point has been set.${prompt}
-  7487: You do not have enough gil to set your home point here.${prompt}
-  7488: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gil pour définir mon point de retour ici.
+    Rien.${prompt}
+  7486: Ton point de retour a été défini.${prompt}
+  7487: Tu n'as pas assez de gil pour définir ton point de retour ici.${prompt}
+  7488: 'Je vais définir ton point de retour ici.${wait-animation: 0}${prompt}'
   7489: |-
     We are currently on a beastman-purging campaign. We support adventurers from all nations.
     Do your best to rid the world of those vile creatures.${prompt}
