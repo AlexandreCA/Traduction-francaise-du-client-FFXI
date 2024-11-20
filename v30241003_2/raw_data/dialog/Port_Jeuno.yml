@@ -17433,18 +17433,20 @@ entries:
   7058: 'Waouh, c’est un vrai ${item-singular: 0[2]} ! Bon, voici ton ${keyitem-singular: 1[2]}. Et ne viens pas me dire que tu veux le rendre !${prompt}'
   7059: Tu vas à la Tour de Delkfutt, hein ? Sois prudent.${prompt}
   7060: Tu vas à la Tour de Delkfutt, hein ?${prompt}
-  7086: |-
-    Payer ${number: 7} gil et passer par là ?
+  7061: |-
+    Allez-vous à la Tour de Delkfutt ?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  7087: C'est la sortie des arrivées. L'entrée des départs est juste à côté.${prompt}
-  7088: Une fois que vous passez la douane, vous devrez payer pour revenir à bord. Ça vous va ?${prompt}
-  7089: |-
-    Vous rendre à l'agence de voyage aérien ?
+    C'est exact.
+    Non, je n'y vais pas.${prompt}
+  7062: Ah ? Autant pour moi, alors.${prompt}
+  7063: C'est tellement déroutant avec tous ces portails et pièges dans cette tour. Ce n'est pas une simple promenade, ${choice-player-gender}[mon petit/ma petite]!${prompt}
+  7064: 'Mais tout se passe bien avec ce ${keyitem-singular: 7[2]}. Je l’ai déniché à la foire aux livres l’autre jour.${prompt}'
+  7065: 'Ce n’est qu’un autre bout de papier pour moi, alors... Je sais ! Je te l’échange contre ${article} ${item-article: 6[2]} ! Oui, j’adore les antiquités.${prompt}'
+  7066: |-
+    M'apporteras-tu ${article} ${item-article: 6[2]} ?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Je vais essayer.
+    Pas maintenant.${prompt}
   7067: 'Super ! Reviens vite avec ${article} ${item-article: 6[2]} ! Et fais attention !${prompt}'
   7068: Ah bon ? Eh bien, c'est ta perte, ${choice-player-gender}[pal/sœur].${prompt}
   7069: 'Regarde, apporte-moi juste ${article} ${item-article: 6[2]}. Et fais attention aussi.${prompt}'
