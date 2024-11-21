@@ -28671,45 +28671,45 @@ entries:
     ${zone: 7[2]}.
     ${zone: 8[2]}.
     ${zone: 9[2]}.${prompt}
-  12696: This...this is it.${prompt}
-  12697: If the rumors are true, this vortex connects to another dimension.${prompt}
-  12698: Do you suppose...it leads us to the future?${prompt}
-  12699: Master! You must not get any closer!${prompt}
-  12700: That eddy is comprised of the selfsame darkness that swallowed the Vana'diel of my era!${prompt}
-  12701: I understand your desire to save Lion...
-  12702: '...but you must stop that beast first!${prompt}'
-  12703: Master, you must stop that beast!${prompt}
-  12704: A battle worthy of the master!${prompt}
-  12705: Forgive me for pointing out the obvious, but that monster clearly came from beyond the vortex.${prompt}
-  12706: But we must not let fear overwhelm us. Come, Lion needs saving!${prompt}
-  12707: But we must not let fear overwhelm us. Come!${prompt}
-  12708: The other dimension awaits!${prompt}
-  12709: '...At last. There she is...${prompt}'
+  12696: Cela... c'est ça.${prompt}
+  12697: Si les rumeurs sont vraies, ce vortex mène à une autre dimension.${prompt}
+  12698: Penses-tu... qu'il nous mène vers le futur ?${prompt}
+  12699: Maître ! Vous ne devez pas vous en approcher davantage !${prompt}
+  12700: Ce tourbillon est constitué de la même obscurité qui a englouti le Vana'diel de mon époque !${prompt}
+  12701: Je comprends votre désir de sauver Lion...
+  12702: '...mais vous devez d’abord arrêter cette bête !${prompt}'
+  12703: Maître, vous devez arrêter cette bête !${prompt}
+  12704: Un combat digne du maître !${prompt}
+  12705: Pardonnez-moi de souligner l'évidence, mais ce monstre vient clairement d'au-delà du vortex.${prompt}
+  12706: Mais nous ne devons pas laisser la peur nous submerger. Venez, Lion a besoin d'être sauvé !${prompt}
+  12707: Mais nous ne devons pas laisser la peur nous submerger. Venez !${prompt}
+  12708: L'autre dimension nous attend !${prompt}
+  12709: '...Enfin. La voilà...${prompt}'
   12710: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ce point comme votre point de retour actuel.
+    Une fois que vous avez défini un point de retour, vous y reviendrez chaque fois que vous serez hors d'état de combattre.
   12711: |-
-    Set this as current home point?
+    Définir ce point comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12712: Home point set!${prompt}
-  12713: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  12712: Point de retour défini !${prompt}
+  12713: Un point de retour peut être défini comme un endroit où vous revenir dans Vana'diel lorsque vous êtes K.O. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   12714: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ce point comme votre point de retour.
+    Autres paramètres.
+    Finalement, laissez tomber.${prompt}
   12715: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  12716: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
+  12716: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   12717: |-
-    Teleport where?
+    Où souhaitez-vous vous téléporter ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -28726,81 +28726,82 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    12717: |-
+    Page précédente.
+    Page suivante.${prompt}
   12718: |-
-    Teleport where?（${zone: 33[2]}）
+    Où souhaitez-vous vous téléporter ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  12719: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  12720: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  12721: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de repère #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de repère #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de repère #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de repère #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de repère #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  12719: Vous n'avez pas encore enregistré d'autres points de repère, vous ne pouvez donc pas vous téléporter.${prompt}
+  12720: 'Il vous en coûtera ${number: 3} gil pour vous téléporter au Point de repère #${number: 2} à ${zone: 1[2]}.'
+  12721: 'Aucun frais pour se téléporter au Point de repère #${number: 2} à ${zone: 1[2]}.'
   12722: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   12723: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    Après réflexion, non.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel de Tavnaz].
     ${choice: 1}[Windurst/Lumoria].
     ${choice: 1}[Jeuno/Mamool Ja Savage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Ouest/Arrapago Is].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   12724: |-
-    Teleport where?
+    Où souhaitez-vous vous téléporter ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  12725: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucune de ces options.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  12725: Vous pouvez changer la méthode de sélection de la zone de votre point de repère à téléporter.
   12726: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  12727: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  12727: 'Vous êtes maintenant en train de sélectionner par ${choice: 1}[région/extension].'
   12728: |-
-    Teleport where?
+    Où souhaitez-vous vous téléporter ?
     ${selection-lines}
-    None of these.
+    Aucune de ces options.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -28810,13 +28811,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  12729: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  12730: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  12729: 'Le Point de Repère #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/enlevé de] votre liste de lieux favoris.'
+  12730: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.
   12731: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
