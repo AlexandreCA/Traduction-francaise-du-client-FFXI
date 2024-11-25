@@ -29651,36 +29651,36 @@ entries:
     ${selection-lines}
     Yes.
     No.${prompt}
-  14293: These two chocobos are of the same gender. I cannot check their compatibility.${prompt}
-  14294: 'If ${chocobo-name: 0[2]} and ${chocobo-name: 1[2]} were to mate...${prompt}'
-  14295: 'I hope ${chocobo-name: 0[2]} grows up soon.${prompt}'
-  14296: I hope they both grow up soon.${prompt}
-  14297: I'm certain I told you that I can only check the compatibility of your chocobo and another once a day (Earth time). Please keep that in mind.${prompt}
-  14298: I'm sorry, but your chocobo must step forth from the cozy refines of its egg before taking part in camp activities.${prompt}
-  14299: I'm sorry, but your chocobo's current condition prohibits it from taking part in camp activities. Please come back when the problem is solved.${prompt}
-  14300: I'm sorry, but it seems you haven't checked in on your chocobo for an extended period of time. Please visit the stables and speak with me again.${prompt}
-  14301: I'm sorry, but your chocobo does not yet have a name. Please give it a good one and speak with me again.${prompt}
-  14302: I'm sorry, but you haven't been taking care of your chocobo. Please attend to it and speak with me again.${prompt}
-  14303: Good day, ${choice-player-gender}[sir/ma'am], and welcome to the San d'Orian branch of the VCS Chocobuck Exchange Depot.${prompt}
-  14304: Good day, ${choice-player-gender}[sir/ma'am], and welcome to the Bastokan branch of the VCS Chocobuck Exchange Depot.${prompt}
-  14305: Good day, ${choice-player-gender}[sir/ma'am], and welcome to the Windurstian branch of the VCS Chocobuck Exchange Depot.${prompt}
-  14306: Here you can use chocobucks to purchase items or enroll your chocobo in our top-secret intensive training program to improve its attributes.${prompt}
+  14293: Ces deux chocobos sont du même sexe. Je ne peux pas vérifier leur compatibilité.${prompt}
+  14294: 'Si ${chocobo-name: 0[2]} et ${chocobo-name: 1[2]} devaient s'accoupler...${prompt}'
+  14295: 'J'espère que ${chocobo-name: 0[2]} grandira bientôt.${prompt}'
+  14296: J'espère qu'ils grandiront tous les deux bientôt.${prompt}
+  14297: Je suis certain de vous avoir dit que je ne peux vérifier la compatibilité de votre chocobo et d'un autre qu'une seule fois par jour (heure terrestre). Veuillez en tenir compte.${prompt}
+  14298: Je suis désolé, mais votre chocobo doit sortir des conforts douillets de son œuf avant de participer aux activités du camp.${prompt}
+  14299: Je suis désolé, mais l'état actuel de votre chocobo l'empêche de participer aux activités du camp. Revenez une fois le problème résolu.${prompt}
+  14300: Je suis désolé, mais il semble que vous n'ayez pas rendu visite à votre chocobo depuis une longue période. Veuillez vous rendre aux écuries et me parler à nouveau.${prompt}
+  14301: Je suis désolé, mais votre chocobo n'a pas encore de nom. Donnez-lui un bon nom et revenez me voir.${prompt}
+  14302: Je suis désolé, mais vous ne vous êtes pas occupé de votre chocobo. Veuillez vous en occuper et revenez me voir.${prompt}
+  14303: Bonjour, ${choice-player-gender}[monsieur/madame], et bienvenue à l'agence VCS de San d'Oria pour l'échange de chocobucks.${prompt}
+  14304: Bonjour, ${choice-player-gender}[monsieur/madame], et bienvenue à l'agence VCS de Bastok pour l'échange de chocobucks.${prompt}
+  14305: Bonjour, ${choice-player-gender}[monsieur/madame], et bienvenue à l'agence VCS de Windurst pour l'échange de chocobucks.${prompt}
+  14306: Ici, vous pouvez utiliser vos chocobucks pour acheter des objets ou inscrire votre chocobo à notre programme intensif top-secret pour améliorer ses attributs.${prompt}
   14307: |-
-    Oh wait...
-    I'm sorry, but we only offer our services to members of this nation's CRA branch. If you wish to browse our wares, you must first sign up with the local CRA official.${prompt}
+    Oh, attendez...
+    Je suis désolé, mais nous n'offrons nos services qu'aux membres de la branche CRA de cette nation. Si vous souhaitez consulter nos articles, vous devez d'abord vous inscrire auprès de l'officiel CRA local.${prompt}
   14308: |-
-    Oh wait...
-    I'm sorry, but we only offer our services to members of this nation's CRA branch. If you wish to browse our wares, you must first sign up with the local CRA official.${prompt}
+    Oh, attendez...
+    Je suis désolé, mais nous n'offrons nos services qu'aux membres de la branche CRA de cette nation. Si vous souhaitez consulter nos articles, vous devez d'abord vous inscrire auprès de l'officiel CRA local.${prompt}
   14309: |-
-    Oh wait...
-    I'm sorry, but we only offer our services to members of this nation's CRA branch. If you wish to browse our wares, you must first sign up with the local CRA official.${prompt}
+    Oh, attendez...
+    Je suis désolé, mais nous n'offrons nos services qu'aux membres de la branche CRA de cette nation. Si vous souhaitez consulter nos articles, vous devez d'abord vous inscrire auprès de l'officiel CRA local.${prompt}
   14310: |-
-    Begin shopping?
+    Commencer à magasiner ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   14311: |-
-    Browse which items? (${number: 1} chocobuck${choice-plurality: 1}[/s])
+    Parcourir quels objets ? (${number: 1} chocobuck${choice-plurality: 1}[/s])
     ${selection-lines}
     1-chocobuck.
     3-chocobuck.
@@ -29694,31 +29694,31 @@ entries:
     100-chocobuck.
     150-chocobuck.
     500-chocobuck.
-    Quit.
-    Back.${prompt}
+    Quitter.
+    Retour.${prompt}
   14312: |-
-    Which items? (${number: 1} chocobuck${choice-plurality: 1}[/s])
+    Quels objets ? (${number: 1} chocobuck${choice-plurality: 1}[/s])
     ${selection-lines}
     50-chocobuck.
-    Intensive training. (75 chocobucks)
-    Special training. (80 chocobucks)
-    View current chocobo.
-    Quit.
-    Back.${prompt}
-  14313: 'Currently, you have ${number: 1} ${choice-plurality: 1}[chocobuck/chocobucks].${prompt}'
+    Entraînement intensif. (75 chocobucks)
+    Entraînement spécial. (80 chocobucks)
+    Voir le chocobo actuel.
+    Quitter.
+    Retour.${prompt}
+  14313: 'Actuellement, vous avez ${number: 1} ${choice-plurality: 1}[chocobuck/chocobucks].${prompt}'
   14314: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Purchase items.
-    Raise attributes.
-    Dye feathers.
-    Nothing.${prompt}
-  14315: For 1 chocobuck, you can purchase items that are useful during chocobo training. Additionally, we will give you a freebie for every 5 simultaneous exchanges you make.${prompt}
-  14316: For 3 chocobucks, you can purchase items that are useful during chocobo training. Additionally, we will give you a freebie for every 5 simultaneous exchanges you make.${prompt}
-  14317: For 10 chocobucks, you can purchase one dozen of an item that is useful during chocobo training.${prompt}
-  14318: For 30 chocobucks, you can purchase one dozen of an item that is useful during chocobo training.${prompt}
-  14319: For 40 chocobucks, you can purchase items that are useful during chocobo training.${prompt}
-  14320: For 50 chocobucks, you can purchase items that are useful during chocobo training.${prompt}
+    Acheter des objets.
+    Améliorer les attributs.
+    Teindre les plumes.
+    Rien.${prompt}
+  14315: Pour 1 chocobuck, vous pouvez acheter des objets utiles pendant l'entraînement des chocobos. De plus, nous vous offrons un cadeau pour chaque 5 échanges simultanés effectués.${prompt}
+  14316: Pour 3 chocobucks, vous pouvez acheter des objets utiles pendant l'entraînement des chocobos. De plus, nous vous offrons un cadeau pour chaque 5 échanges simultanés effectués.${prompt}
+  14317: Pour 10 chocobucks, vous pouvez acheter une douzaine d'un objet utile pendant l'entraînement des chocobos.${prompt}
+  14318: Pour 30 chocobucks, vous pouvez acheter une douzaine d'un objet utile pendant l'entraînement des chocobos.${prompt}
+  14319: Pour 40 chocobucks, vous pouvez acheter des objets utiles pendant l'entraînement des chocobos.${prompt}
+  14320: Pour 50 chocobucks, vous pouvez acheter des objets utiles pendant l'entraînement des chocobos.${prompt}
   14321: |-
     For 75 chocobucks, you can purchase a special type of feather dye that will change the color of your chocobo.
     Your chocobo will sport its stylish new color until you alter its registration.${prompt}
