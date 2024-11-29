@@ -17886,24 +17886,24 @@ entries:
   7335: 'The fiend appears vulnerable to ${choice: 0}[/fire/ice/wind/earth/lightning/water/light/darkness] elemental magic!${prompt}'
   7336: 'The fiend appears vulnerable to ${choice: 0}[/hand-to-hand/dagger/sword/great sword/axe/great axe/scythe/polearm/katana/great katana/club/staff/archery/marksmanship] weapon skills!${prompt}'
   7337: 'The fiend appears vulnerable to ${choice: 0}[/fire/ice/wind/earth/lightning/water/light/darkness] elemental weapon skills!${prompt}'
-  7338: 'Your visitant status will wear off in ${number: 0} ${choice: 1}[second/minute].${prompt}'
-  7339: 'Your visitant status will wear off in ${number: 0} ${choice: 1}[seconds/minutes].${prompt}'
-  7340: Your visitant status has worn off.${prompt}
-  7341: '${color-alt: 121}Your visitant status has been extended by ${number: 0} ${choice-plurality: 0}[minute/minutes].${prompt}'
-  7342: 'Exiting in ${number: 0} ${choice-plurality: 0}[minute/minutes].${prompt}'
+  7338: 'Votre statut de visitant disparaîtra dans ${number: 0} ${choice: 1}[seconde/minute].${prompt}'
+  7339: 'Votre statut de visitant disparaîtra dans ${number: 0} ${choice: 1}[secondes/minutes].${prompt}'
+  7340: Votre statut de visitant a disparu.${prompt}
+  7341: '${color-alt: 121}Votre statut de visitant a été prolongé de ${number: 0} ${choice-plurality: 0}[minute/minutes].${prompt}'
+  7342: 'Sortie dans ${number: 0} ${choice-plurality: 0}[minute/minutes].${prompt}'
   7343: |-
-    Those without visitant status will be ejected from the area in ${number: 0} ${choice-plurality: 0}[minute/minutes].
-    To learn about this status, please consult a Conflux Surveyor.${prompt}
-  7344: 'Exiting in ${number: 0} ${choice: 1}[second/minute].${prompt}'
-  7345: 'Exiting in ${number: 0} ${choice: 1}[seconds/minutes].${prompt}'
-  7346: Exiting now.${prompt}
-  7347: 'Returning to the Searing Ward in ${number: 0} ${choice-plurality: 0}[second/seconds].${prompt}'
+    Ceux sans statut de visitant seront expulsés de la zone dans ${number: 0} ${choice-plurality: 0}[minute/minutes].
+    Pour en savoir plus sur ce statut, veuillez consulter un Conflux Surveyor.${prompt}
+  7344: 'Sortie dans ${number: 0} ${choice: 1}[seconde/minute].${prompt}'
+  7345: 'Sortie dans ${number: 0} ${choice: 1}[secondes/minutes].${prompt}'
+  7346: Sortie immédiate.${prompt}
+  7347: 'Retour au Searing Ward dans ${number: 0} ${choice-plurality: 0}[seconde/se secondes].${prompt}'
   7348: |-
-    You do not have visitant status.
-    Returning to the Searing Ward in ${number: 0} ${choice-plurality: 0}[second/seconds].${prompt}
-  7349: 'Returning to the Searing Ward in ${number: 0} ${choice-plurality: 0}[second/seconds].${prompt}'
-  7350: Returning to the Searing Ward now.${prompt}
-  7351: 'If you wish to journey within Abyssea, bring me ${keyitem-plural: 0[2]} and I will grant you visitant status.${prompt}'
+    Vous n'avez pas le statut de visitant.
+    Retour au Searing Ward dans ${number: 0} ${choice-plurality: 0}[seconde/se secondes].${prompt}
+  7349: 'Retour au Searing Ward dans ${number: 0} ${choice-plurality: 0}[secondes/seconde].${prompt}'
+  7350: Retour au Searing Ward maintenant.${prompt}
+  7351: 'Si vous souhaitez voyager dans Abyssea, apportez-moi ${keyitem-plural: 0[2]} et je vous accorderai le statut de visitant.${prompt}'
   7352: |-
     What would you like to do?
     ${selection-lines}
@@ -19347,15 +19347,15 @@ entries:
     Previous monster defeated: ${number: 0}.
     No. of same ID defeated: ${number: 1}.
     No. of diff. ID defeated: ${number: 2}.${prompt}
-  7778: Nothing happens...${prompt}
-  7779: You can feel the warm, moist breath of the maw on your skin.${prompt}
-  7780: An unseen force is drawing you towards the maw.${prompt}
-  7781: '${color-alt: 121}A portal has opened within the depths of the maw.'
+  7778: Rien ne se passe...${prompt}
+  7779: Vous pouvez sentir la chaleur humide du gouffre sur votre peau.${prompt}
+  7780: Une force invisible vous attire vers le gouffre.${prompt}
+  7781: '${color-alt: 121}Un portail s’est ouvert dans les profondeurs du gouffre.'
   7782: |-
-    Raise your ${keyitem-singular: 0[2]}?
+    Soulevez votre ${keyitem-singular: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7783: 'You fit the ${keyitem-singular: 0[2]} into the hollow.${prompt}'
   7784: 'There is a hollow here in the shape of ${keyitem-article: 0[2]}.${prompt}'
   7785: The lycopodium is entranced by a sparkling light...${prompt}
