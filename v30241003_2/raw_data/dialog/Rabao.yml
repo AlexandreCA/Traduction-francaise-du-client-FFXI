@@ -1,29 +1,29 @@
 entries:
   0: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ce point comme votre point de retour actuel.
+    Une fois défini, vous y retournerez chaque fois que vous serez mis hors combat.
   1: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  2: Home point set!${prompt}
-  3: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  2: Point de retour défini !${prompt}
+  3: Un point de retour peut être défini comme l’endroit où vous revenez à Vana’diel après avoir été mis hors combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d’autres points de retour.
   4: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    Finalement, laissez tomber.${prompt}
   5: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez désormais vous téléporter ici depuis n’importe quel autre point de retour.${prompt}
+  6: Vous pouvez vous téléporter d’ici vers n’importe quel autre point de retour que vous avez enregistré.
   7: |-
-    Teleport where?
+    Où se téléporter ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -40,81 +40,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   8: |-
-    Teleport where?（${zone: 33[2]}）
+    Où se téléporter ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  9: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  10: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  11: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour n°1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour n°2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour n°3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour n°4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour n°5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  9: Vous n'avez pas encore enregistré d'autres points de retour, vous ne pouvez donc pas vous téléporter.${prompt}
+  10: 'Il vous en coûtera ${number: 3} gil pour vous téléporter vers le Point de retour n°${number: 2} dans ${zone: 1[2]}.'
+  11: 'Il n’y a pas de frais pour vous téléporter vers le Point de retour n°${number: 2} dans ${zone: 1[2]}.'
   12: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   13: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    Finalement, pas de téléportation.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
     ${choice: 1}[Jeuno/Mamool Ja Savage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   14: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  15: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ces lieux.
+    Un lieu favori.
+    Une zone d'origine.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  15: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour la téléportation.
   16: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  17: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  17: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   18: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ces lieux.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -124,13 +124,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  19: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  20: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  19: 'Le Point de retour n°${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré/retiré] de votre liste de lieux favoris.'
+  20: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouvel emplacement.
   21: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ces lieux.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -21615,30 +21615,30 @@ entries:
   10036: |-
     You probably weren't aware of it, but this island is the lost homeland of the Galka...
     Even in these endless sands, the joy of setting foot in your homeland is a difficult emotion to express.${prompt}
-  10037: Behold! The sign upon this arch proclaims the existence of the auction house beyond. A bounty of food and supplies in the center of the desert! What more could one ask for in this life?${prompt}
-  10038: A little further north of here is the Rabao oasis. It's not much, but there are goods for sale in the tents.${prompt}
-  10039: Outside of Rabao, the desert stretches for as far as the eye can see. Rabao is the only place to gather supplies for your journey and acts as a waypoint for adventurers. It's important for us to work together out here.${prompt}
+  10037: Voici ! Le panneau sur cet arc proclame l'existence de la maison d'enchères au-delà. Une abondance de nourriture et de provisions au centre du désert ! Que pourrait-on demander de plus dans cette vie ?${prompt}
+  10038: Un peu plus au nord d'ici se trouve l'oasis de Rabao. Ce n'est pas grand-chose, mais il y a des marchandises à vendre dans les tentes.${prompt}
+  10039: En dehors de Rabao, le désert s'étend à perte de vue. Rabao est le seul endroit pour rassembler des provisions pour votre voyage et sert de point de passage pour les aventuriers. Il est important que nous travaillions ensemble ici.${prompt}
   10040: |-
-    Welcome, adventurer.
-    This is Rabao, a precious oasis in the middle of the vast Altepa Desert.
-    Take the chance to revitalize yourself before continuing on your journey.${prompt}
-  10041: When your pack is fit to burrrst, send your non-essential items to your delivery box and bam, prrroblem solved!${prompt}
-  10042: We can deliver goods to your residence or to the residences of your friends.${prompt}
+    Bienvenue, aventurier.
+    Voici Rabao, une précieuse oasis au milieu du vaste désert d'Altepa.
+    Profitez de l'occasion pour vous revitaliser avant de poursuivre votre voyage.${prompt}
+  10041: Lorsque votre sac est prêt à éclater, envoyez vos objets non essentiels à votre boîte de livraison et bam, problème résolu !${prompt}
+  10042: Nous pouvons livrer des biens à votre résidence ou à celle de vos amis.${prompt}
   10043: |-
-    Welcome to Rabao.
-    My name is Cavalgrinne, and I'm in charge of the auction house services.${prompt}
+    Bienvenue à Rabao.
+    Je m'appelle Cavalgrinne, et je suis en charge des services de la maison d'enchères.${prompt}
   10044: |-
-    There are no set prices in the auction house.
-    Don't forget to check the price history when you make a bid or put an item up for sale.${prompt}
+    Il n'y a pas de prix fixes à la maison d'enchères.
+    N'oubliez pas de vérifier l'historique des prix lorsque vous enchérissez ou mettez un objet en vente.${prompt}
   10045: |-
-    Browsing the auction house is free!
-    Checking the goods for sale every day can turn up some truly wondrous items.${prompt}
+    Parcourir la maison d'enchères est gratuit !
+    Vérifier les biens en vente chaque jour peut révéler des objets vraiment merveilleux.${prompt}
   10046: |-
-    Well met, adventurer.
-    If you're looking for a weapon to carve through those desert beasts, you've come to the right place.${prompt}
-  10047: For rainy days and windy days, or for days when someone tries to thrust a spear in your guts, having a good set of armor can set your mind at ease.${prompt}
-  10048: These days, you can get weapons and armor cheap at the auction houses. But magic is expensive no matter where you go.${prompt}
-  10049: No problem, Scamplix not bad guy. Scamplix is good guy, sells stuff to adventurers. Scamplix got lots of good stuff for you.${prompt}
+    Bien rencontré, aventurier.
+    Si vous cherchez une arme pour trancher ces bêtes du désert, vous êtes au bon endroit.${prompt}
+  10047: Pour les jours de pluie et les jours venteux, ou pour les jours où quelqu'un essaie de vous planter une lance dans le ventre, avoir une bonne armure peut vous tranquilliser.${prompt}
+  10048: De nos jours, vous pouvez obtenir des armes et des armures à bon marché dans les maisons d'enchères. Mais la magie reste chère où que vous alliez.${prompt}
+  10049: Pas de problème, Scamplix n'est pas un mauvais gars. Scamplix est un bon gars, vend des objets aux aventuriers. Scamplix a plein de bonnes choses pour vous.${prompt}
   10050: |-
     個人デバッグ用メニュー
     ${selection-lines}
