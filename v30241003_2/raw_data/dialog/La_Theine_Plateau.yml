@@ -17959,45 +17959,45 @@ entries:
   7374: ${prompt}
   7375: ${prompt}
   7376: ${prompt}
-  7377: Nothing happens...${prompt}
-  7378: You can feel the warm, moist breath of the maw on your skin.${prompt}
-  7379: An unseen force is drawing you towards the maw.${prompt}
-  7380: '${color-alt: 121}A portal has opened within the depths of the maw.'
+  7377: Rien ne se passe...${prompt}
+  7378: Vous pouvez sentir la chaleur humide du gouffre sur votre peau.${prompt}
+  7379: Une force invisible vous attire vers le gouffre.${prompt}
+  7380: '${color-alt: 121}Un portail s’est ouvert dans les profondeurs du gouffre.'
   7381: |-
-    Raise your ${keyitem-singular: 0[2]}?
+    Soulevez votre ${keyitem-singular: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7382: 'You fit the ${keyitem-singular: 0[2]} into the hollow.${prompt}'
-  7383: 'There is a hollow here in the shape of ${keyitem-article: 0[2]}.${prompt}'
-  7384: The lycopodium is entranced by a sparkling light...${prompt}
-  7385: '${color-alt: 15}Your memory is engraved with an image of your surroundings and the fragrance of flowers...'
-  7386: The ground is sparkling with a strange light.${prompt}
-  7387: The sparkling light seems vaguely familiar to you...${prompt}
-  7388: You sense that a certain trigger may awaken the memories slumbering in your mind.${prompt}
-  7389: '${color-alt: 15}The fragrance of the flower sends your senses reeling back to the world of the past...'
-  7390: '${color-alt: 121}The relevant battle data has been recorded in your ${keyitem-singular: 0[2]}.'
-  7391: An unseen force is drawing you towards the maw.${prompt}
+    Oui.
+    Non.${prompt}
+  7382: 'Vous placez le ${keyitem-singular: 0[2]} dans le creux.${prompt}'
+  7383: 'Il y a un creux ici en forme de ${keyitem-article: 0[2]}.${prompt}'
+  7384: Le lycopode est envoûté par une lumière scintillante...${prompt}
+  7385: '${color-alt: 15}Votre mémoire est gravée d’une image de votre environnement et du parfum des fleurs...'
+  7386: Le sol scintille d'une lumière étrange.${prompt}
+  7387: La lumière scintillante vous semble vaguement familière...${prompt}
+  7388: Vous sentez qu'un certain déclencheur pourrait réveiller les souvenirs endormis dans votre esprit.${prompt}
+  7389: '${color-alt: 15}Le parfum de la fleur envoie vos sens basculer dans le monde du passé...'
+  7390: '${color-alt: 121}Les données de bataille pertinentes ont été enregistrées dans votre ${keyitem-singular: 0[2]}.'
+  7391: Une force invisible vous attire vers le gouffre.${prompt}
   7392: |-
-    Warp to Abyssea - ${choice: 0}[Dummy/La Theine/Konschtat/Tahrongi/Attohwa/Misareaux/Vunkerl/Altepa/Grauberg/Uleguerand]?
+    Téléportation vers Abyssea - ${choice: 0}[Dummy/La Theine/Konschtat/Tahrongi/Attohwa/Misareaux/Vunkerl/Altepa/Grauberg/Uleguerand] ?
     ${selection-lines}
-    Proceed.
-    Not yet.${prompt}
+    Continuer.
+    Pas encore.${prompt}
   7393: |-
-    Warp to ${choice: 0}[Dummy/the La Theine Plateau/the Konschtat Highlands/the Tahrongi Canyon/the Buburimu Peninsula/the Valkurm Dunes/the Jugner Forest/South Gustaberg/North Gustaberg/Xarcabard/Qufim Island]?
+    Téléportation vers ${choice: 0}[Dummy/le Plateau de La Theine/les Hautes Terres de Konschtat/le Canyon de Tahrongi/la Péninsule de Buburimu/les Dunes de Valkurm/la Forêt de Jugner/Sud Gustaberg/Nord Gustaberg/Xarcabard/l'île de Qufim] ?
     ${selection-lines}
-    Proceed.
-    Not yet.${prompt}
-  7394: 'You do not possess ${keyitem-article: 0[2]}...${prompt}'
+    Continuer.
+    Pas encore.${prompt}
+  7394: 'Vous ne possédez pas ${keyitem-article: 0[2]}...${prompt}'
   7395: |-
-    Your body cannot cope with further strain.
-    You must rest for another ${number: 0} ${choice-plurality: 0}[minute/minutes].${prompt}
+    Votre corps ne peut pas supporter davantage de tension.
+    Vous devez vous reposer pendant ${number: 0} ${choice-plurality: 0}[minute/minutes] supplémentaires.${prompt}
   7396: |-
-    To where will you head?
+    Où souhaitez-vous aller ?
     ${selection-lines}
-    ${choice: 0}[The past/The present].
-    Walk of Echoes.
-    Nowhere for now.${prompt}
+    ${choice: 0}[Le passé/Le présent].
+    Marche des Échos.
+    Nulle part pour l'instant.${prompt}
   7397: '　　 ${wait-animation: 1}'
   7398: Temple Knights of San d'Oria, friend. We're conducting rescue drills in this valley. You're free to go down; just stay out of the way.${prompt}
   7399: Rescue drills in progress. Try to stay out of the way.${prompt}
