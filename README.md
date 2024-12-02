@@ -1,4 +1,4 @@
-TRADUCTION DU CLIENT FINAL FANTASY XI
+TRADUCTION DU CLIENT FINAL FANTASY XI - VANADIEL XI
 
 ATTENTION : Les fichiers correspondent STRICTEMENT à la version v30241003_2 (octobre 2024). Si quelqu'un souhaite m'aider, je l’en remercie vivement ! Utilisez l’extension de comparaison de Notepad++ (voir le Wiki). Si un outil plus performant existe, merci de l'ajouter au Wiki en français clair !
 
