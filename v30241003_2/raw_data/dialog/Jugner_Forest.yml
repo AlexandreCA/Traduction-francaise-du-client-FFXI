@@ -19900,95 +19900,95 @@ entries:
   8153: My apologies, but this type of item needs to be individually appraised. Please trade them to me one at a time.${prompt}
   8154: (DEBUG) Back to hometown!${prompt}
   8155: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Pourriez-vous m'appliquer le Signe ?
+    Je voudrais définir ce lieu comme point de retour.
+    Rien.${prompt}
   8156: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  8157: Your home point has been set.${prompt}
-  8158: You do not have enough gil to set your home point here.${prompt}
-  8159: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gils et définir ce lieu comme point de retour.
+    Rien.${prompt}
+  8157: Votre point de retour a été défini.${prompt}
+  8158: Vous n'avez pas assez de gils pour définir ce lieu comme point de retour.${prompt}
+  8159: 'Je vais définir votre point de retour ici.${wait-animation: 0}${prompt}'
   8160: |-
-    We are currently on a beastman-purging campaign. We support adventurers from all nations.
-    Do your best to rid the world of those vile creatures.${prompt}
+    Nous menons actuellement une campagne de purge des hommes-bêtes. Nous soutenons les aventuriers de toutes les nations.
+    Faites de votre mieux pour débarrasser le monde de ces créatures viles.${prompt}
   8161: |-
-    We are currently conducting an international exchange campaign.
-    You may spend your conquest points to purchase items from foreign guards.${prompt}
+    Nous menons actuellement une campagne d'échange international.
+    Vous pouvez dépenser vos points de conquête pour acheter des objets auprès des gardes étrangers.${prompt}
   8162: |-
-    Thanks to you, our nation is now first in the conquest race!
-    Here is a small token of our appreciation.${prompt}
-  8163: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+    Grâce à vous, notre nation est maintenant en tête de la course à la conquête !
+    Voici un petit signe de notre reconnaissance.${prompt}
+  8163: Les aventuriers des nations mieux classées que la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un taux plus élevé.${prompt}
   8164: |-
-    You cannot currently purchase this item.
-    Please choose another.${prompt}
-  8165: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
-  8166: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
-  8167: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
-  8168: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+    Vous ne pouvez pas actuellement acheter cet objet.
+    Veuillez en choisir un autre.${prompt}
+  8165: Actuellement, notre nation déploie des Forces Expéditionnaires à travers Vana'diel et demande la participation de braves aventuriers comme vous.${prompt}
+  8166: 'Les conditions pour participer à une F.E. sont simples. Votre groupe doit se composer de ${number: 5} membres. Chaque membre doit être de ce pays, avoir un rang 3 ou plus, et avoir atteint un niveau suffisant.${prompt}'
+  8167: Une fois votre groupe prêt, venez me voir et je vous téléporterai au poste avancé le plus proche.${prompt}
+  8168: Là-bas, vous recevrez une insigne de la Force Expéditionnaire. Une fois la zone sous contrôle, vous pourrez échanger l'insigne contre votre récompense.${prompt}
   8169: |-
-    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Joindre la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Basses-Terres d'Elshimo/Les Hautes-Terres d'Elshimo] ?
     ${selection-lines}
-    Join the E.F.
-    Not this time.${prompt}
-  8170: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
-  8171: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
-  8172: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
-  8173: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+    Joindre la F.E.
+    Pas cette fois.${prompt}
+  8170: Votre groupe ne contient pas assez de membres, ou certains ne sont pas dans cette zone. Rassemblez tous les participants et revenez ici.${prompt}
+  8171: Un membre de votre groupe n'est pas citoyen de ce pays. Nous n'acceptons pas les participants étrangers à la F.E.${prompt}
+  8172: Un membre de votre groupe n'a pas atteint le rang 3. Nous ne pouvons pas partager nos stratégies tactiques avec ceux qui n'ont pas montré leur loyauté envers notre pays.${prompt}
+  8173: 'Un membre de votre groupe est en dessous du niveau ${number: 6}. Pour sa sécurité et celle de ses compagnons, nous ne pouvons pas autoriser la participation à la F.E. en dessous de cette limite.${prompt}'
   8174: |-
-    I see that you are ready.
-    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
-  8175: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+    Je vois que vous êtes prêts.
+    Je vous donne la permission de rejoindre la Force Expéditionnaire actuelle. Lorsque vous êtes prêts à être téléportés, parlez-moi à nouveau.${prompt}
+  8175: 'Êtes-vous prêt à être téléporté à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Basses-Terres d’Elshimo/Les Hautes-Terres d’Elshimo] ? Notez que les membres de groupe sans permission seront laissés derrière.${prompt}'
   8176: |-
-    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Téléporter vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Basses-Terres d'Elshimo/Les Hautes-Terres d'Elshimo] ?
     ${selection-lines}
-    Ready!
-    Wait just a minute...${prompt}
-  8177: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+    Prêt !
+    Attendez une minute...${prompt}
+  8177: 'Annuler votre participation à la F.E. pour ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Basses-Terres d’Elshimo/Les Hautes-Terres d’Elshimo] ?${prompt}'
   8178: |-
-    Quit the E.F.?
+    Quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    Change locations.
-    No.${prompt}
-  8179: Are you sure?${prompt}
+    Oui.
+    Changer d'emplacement.
+    Non.${prompt}
+  8179: Êtes-vous sûr ?${prompt}
   8180: |-
-    Really quit the E.F.?
+    Quitter vraiment la F.E. ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   8181: |-
-    I see.
-    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  8182: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
-  8183: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
-  8184: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
-  8185: Your invalid ensignias have been disposed of.${prompt}
-  8186: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
-  8187: 'You received ${number: 1} conquest points!${prompt}'
-  8188: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+    Je vois.
+    Si vous souhaitez participer à l'avenir, je serai ici pour recevoir votre candidature.${prompt}
+  8182: 'Votre ${color: 5}Insigne F.E.${color: 1} disparaît !${prompt}'
+  8183: 'Points Katsu-yaku : ${number: 0} !${prompt}'
+  8184: 'Cet(te) ${keyitem-singular: 0[2]} n’est plus valide. Nous allons nous en débarrasser ici.${prompt}'
+  8185: Vos insignes invalides ont été détruits.${prompt}
+  8186: Bienvenue de retour de l'expédition. Notre nation a remporté la campagne avec succès. Voici votre récompense.${prompt}
+  8187: 'Vous avez reçu ${number: 1} points de conquête !${prompt}'
+  8188: Pendant votre participation à une Force Expéditionnaire, concentrez-vous sur les ennemis qui donnent le plus de points d'expérience. Et n'oubliez pas de confisquer le contenu des coffres au trésor des hommes-bêtes que vous trouvez.${prompt}
   8189: |-
-    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
-    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
-  8190: You could not be teleported. Ask me again, please.${prompt}
-  8191: The conquest results are currently being tallied. Come back later.${prompt}
-  8192: You have received permission to join the Expeditionary Forces!${prompt}
-  8193: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
-  8194: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
-  8195: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
-  8196: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
-  8197: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
-  8198: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
-  8199: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
-  8200: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
-  8201: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
-  8202: 'Your inventory is full. You could not accept the ${item-singular: 0[2]}.${prompt}'
-  8203: You already possess a gate glyph. You cannot hold any more.${prompt}
-  8204: I am Jeunoan Ducal Guard, ${name-npc}. My duty is to support the conquest efforts of Windurst, San d'Oria, and Bastok.${prompt}
+    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l'inscription au dos avant de commencer vos devoirs.
+    Une fois que le Signe vous a été appliqué, préparez-vous à être téléporté.${prompt}
+  8190: Vous n'avez pas pu être téléporté. Demandez-moi à nouveau, s'il vous plaît.${prompt}
+  8191: Les résultats de la conquête sont en cours de calcul. Revenez plus tard.${prompt}
+  8192: Vous avez reçu l'autorisation de rejoindre les Forces Expéditionnaires !${prompt}
+  8193: Actuellement, nous sommes en tête dans la conquête de Vana'diel, mais cela ne doit pas nous faire baisser notre garde. Continuons à nous battre pour rester au sommet.${prompt}
+  8194: Nous avions la première place entre nos mains, mais nous l'avons perdue. Si nous voulons redevenir premiers à Vana'diel, chacun de nous doit jouer son rôle. J'attends avec impatience d'entendre parler de vos exploits.${prompt}
+  8195: Notre pays est tombé au troisième rang dans la conquête de Vana'diel. Nous devons redoubler d'efforts pour améliorer la situation.${prompt}
+  8196: Vous devez combattre dans des batailles qui rapportent un maximum de points d'expérience. C'est le seul moyen de ramener les zones sous le contrôle de notre pays.${prompt}
+  8197: Actuellement, notre pays est la force dominante dans cette région. Si nous maintenons ce niveau, le contrôle de cette zone sera à nous.${prompt}
+  8198: Actuellement, notre pays est une force majeure dans cette région. Cependant, nous ne devons pas baisser notre garde, sinon nous perdrons le contrôle de la zone !${prompt}
+  8199: Actuellement, notre pays a une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de ce gouffre où nous nous trouvons.${prompt}
+  8200: Actuellement, l'influence de notre pays dans cette région est minimale. Si nous n'agissons pas rapidement, le contrôle de cette région sera certainement pris par une nation rivale.${prompt}
+  8201: Faites attention en traversant cette zone, car elle est actuellement envahie par des hommes-bêtes ! Quelque chose doit être fait, sinon l'ennemi prendra le contrôle de toute la région.${prompt}
+  8202: 'Votre inventaire est plein. Vous n’avez pas pu accepter le(la) ${item-singular: 0[2]}.${prompt}'
+  8203: Vous possédez déjà un glyphe de portail. Vous ne pouvez pas en transporter plus.${prompt}
+  8204: Je suis garde ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d'Oria et Bastok.${prompt}
   8205: 　${prompt}
   8206: 　${prompt}
   8207: 　${prompt}
