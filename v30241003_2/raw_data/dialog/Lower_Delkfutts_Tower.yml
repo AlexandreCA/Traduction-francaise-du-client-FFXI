@@ -26350,7 +26350,8 @@ entries:
     Capacité X.
     Capacité X.${prompt}
   11753: '${choice: 0}[Découverte accrue des coffres au trésor/Augmentation des gains de compétences en combat et en magie/Augmentation des cristaux récoltés/Bonus Chasseur de trésor/Vitesse d’attaque accrue/Augmentation des PV et PM/Précision améliorée et précision à distance/Attaque améliorée et attaque à distance/Précision magique améliorée et attaque magique améliorée/Potence améliorée pour "Cure"/Augmentation des dégâts des compétences d’armes/Bonus des effets "Killer"/Capacité X/Capacité X/Capacité X/Capacité X] la prouesse est au niveau ${number: 1}.${prompt}'
-  11754: Êtes-vous certain ?${prompt}
+  11754: |-
+    Êtes-vous certain ?${prompt}
     ${selection-lines}
     Oui.
     Non.${prompt}
