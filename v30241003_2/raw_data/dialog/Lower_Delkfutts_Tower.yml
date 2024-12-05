@@ -26392,32 +26392,32 @@ entries:
     ${selection-lines}
     Yes.
     No.${prompt}
-  11770: '${name-player} learns ${item-singular: 0[2]}!${prompt}'
+  11770: '${name-player} apprend ${item-singular: 0[2]} !${prompt}'
   11771: ${prompt}
-  11772: You are assaulted by an uncanny sensation.${prompt}
-  11773: The arcane energies begin to course within your veins.${prompt}
-  11774: You feel a mystical warmth welling up inside you!${prompt}
-  11775: 'The heat seems to have drained from your ${keyitem-singular: 0[2]}.${prompt}'
-  11776: 'Something''s not quite right. Head to ${zone: 0[2]}, where Arciela awaits you.${prompt}'
-  11777: A strange force fills your soul.
-  11778: You begin to glow with an inner warmth!
-  11779: It appears that you have arrived at a new survival guide provided by the Adventurers' Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
-  11780: Before you lies a survival guide penned by the Adventurers' Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
-  11781: It appears that you have arrived at a new survival guide provided by the Servicemen's Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
-  11782: Before you lies a survival guide penned by the Servicemen's Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
+  11772: Vous êtes assiégé par une sensation étrange.${prompt}
+  11773: Les énergies arcaniques commencent à circuler dans vos veines.${prompt}
+  11774: Vous ressentez une chaleur mystique s'épanouir en vous !${prompt}
+  11775: 'La chaleur semble s’être échappée de votre ${keyitem-singular: 0[2]}.${prompt}'
+  11776: 'Quelque chose ne va pas. Rendez-vous à ${zone: 0[2]}, où Arciela vous attend.${prompt}'
+  11777: Une étrange force envahit votre âme.${prompt}
+  11778: Vous commencez à briller d'une chaleur intérieure !${prompt}
+  11779: Il semble que vous êtes arrivé à un nouveau guide de survie fourni par le Réseau d'Aide Mutuelle des Aventuriers. Le bon sens indique que vous devriez désormais être capable de vous téléporter ici à partir d'autres tomes similaires à travers le monde.${prompt}
+  11780: Devant vous se trouve un guide de survie rédigé par le Réseau d'Aide Mutuelle des Aventuriers. Il aborde des sujets tels que la téléportation et les records de bataille.${prompt}
+  11781: Il semble que vous êtes arrivé à un nouveau guide de survie fourni par le Réseau d'Aide Mutuelle des Servicemen. Le bon sens indique que vous devriez désormais être capable de vous téléporter ici à partir d'autres tomes similaires à travers le monde.${prompt}
+  11782: Devant vous se trouve un guide de survie rédigé par le Réseau d'Aide Mutuelle des Servicemen. Il aborde des sujets tels que la téléportation et les records de bataille.${prompt}
   11783: |-
-    What chapter will you read?
+    Quel chapitre allez-vous lire ?
     ${selection-lines}
-    None.
-    “Teleportation Assistance.”
-    “Field Support.”
-    “Other mysteries.”${prompt}
-  11784: The meticulously illuminated text within explains that adventurers may travel to the location of any previous books visited after paying a sum of gil or the requisite amount of tabs.${prompt}
-  11785: No other survival guide locations have been recorded. Visiting another one would certainly alleviate this issue.${prompt}
+    Aucun.
+    “Assistance en téléportation.”
+    “Soutien sur le terrain.”
+    “Autres mystères.”${prompt}
+  11784: Le texte minutieusement illuminé explique que les aventuriers peuvent se rendre à l'emplacement de n'importe quel livre précédemment visité après avoir payé une somme de gil ou la quantité requise de tabulations.${prompt}
+  11785: Aucune autre localisation de guide de survie n'a été enregistrée. Visiter un autre guide résoudrait certainement ce problème.${prompt}
   11786: |-
-    Where will you travel?
+    Où voulez-vous voyager ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -26438,11 +26438,11 @@ entries:
     ${zone: 18[2]}.
     ${zone: 19[2]}.
     ${zone: 20[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   11787: |-
-    It will cost ${number: 2} gil to teleport to ${zone: 1[2]}.
-    (${number: 3} gil on hand)${prompt}
+    Il en coûtera ${number: 2} gil pour se téléporter à ${zone: 1[2]}.
+    (${number: 3} gil en main)${prompt}
   11788: 'All mog tablets have currently been found, so you may teleport to ${zone: 1[2]} at no charge.${prompt}'
   11789: |-
     Travel to ${zone: 1[2]}?
