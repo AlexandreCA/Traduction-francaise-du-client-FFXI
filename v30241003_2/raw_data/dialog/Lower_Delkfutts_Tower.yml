@@ -26305,93 +26305,92 @@ entries:
   11747: 'Training area: West Ronfaure.${prompt}'
   11748: 'Training area: West Ronfaure.${prompt}'
   11749: (End of list.)${prompt}
-  11750: The tabs you acquire can be spent on field support.${prompt}
+  11750: Les tabulations que vous acquérez peuvent être dépensées pour un soutien sur le terrain.${prompt}
   11751: |-
-    Which one? (You have ${number: 8} ${choice-plurality: 8}[tab/tabs]).
+    Lequel ? (Vous avez ${number: 8} ${choice-plurality: 8}[tabulation/tabulations]).
     ${selection-lines}
-    Nothing for now.
-    Repatriation (${number: 9}).
-    Circumspection (${number: 10}).
-    Homing Instinct (${number: 11}).
-    White magic: Reraise (${number: 12}).
-    White magic: Reraise II (${number: 13}).
-    White magic: Reraise III (${number: 14}).
-    White magic: Regen (${number: 15}).
-    White magic: Refresh (${number: 16}).
-    White magic: Protect (${number: 17}).
-    White magic: Shell (${number: 18}).
-    White magic: Haste (${number: 19}).
-    Field recipe: Dried Meat (${number: 20}).
-    Field recipe: Salted Fish (${number: 21}).
-    Field recipe: Hard Cookie (${number: 22}).
-    Field recipe: Instant Noodles (${number: 23}).
-    Field recipe: Dried Agaricus (${number: 24}).
-    Field recipe: Instant Rice (${number: 25}).
-    Receive alter ego: Sakura (${number: 26}).
-    Receive alter ego: Koru-Moru (${number: 27}).${prompt}
+    Rien pour l'instant.
+    Rapatriement (${number: 9}).
+    Circonspection (${number: 10}).
+    Instinct de localisation (${number: 11}).
+    Magie blanche : Reraise (${number: 12}).
+    Magie blanche : Reraise II (${number: 13}).
+    Magie blanche : Reraise III (${number: 14}).
+    Magie blanche : Regen (${number: 15}).
+    Magie blanche : Refresh (${number: 16}).
+    Magie blanche : Protect (${number: 17}).
+    Magie blanche : Shell (${number: 18}).
+    Magie blanche : Haste (${number: 19}).
+    Recette sur le terrain : Viande séchée (${number: 20}).
+    Recette sur le terrain : Poisson salé (${number: 21}).
+    Recette sur le terrain : Biscuit dur (${number: 22}).
+    Recette sur le terrain : Nouilles instantanées (${number: 23}).
+    Recette sur le terrain : Agaricus séché (${number: 24}).
+    Recette sur le terrain : Riz instantané (${number: 25}).
+    Recevoir alter ego : Sakura (${number: 26}).
+    Recevoir alter ego : Koru-Moru (${number: 27}).${prompt}
   11752: |-
-    Active prowess list.
+    Liste des prouesses actives.
     ${selection-lines}
-    Go back.
-    Increased treasure casket discovery.
-    Increased combat and magic skill gain.
-    Increased crystal yield.
-    Treasure Hunter bonus.
-    Increased attack speed.
-    Increased HP and MP.
-    Enhanced accuracy and ranged accuracy.
-    Enhanced attack and ranged attack.
-    Enhanced magic acc. and magic atk.
-    Enhanced "Cure" potency.
-    Increased weapon skill damage.
-    "Killer" effects bonus.
-    Ability X.
-    Ability X.
-    Ability X.
-    Ability X.${prompt}
-  11753: '${choice: 0}[Increased treasure casket discovery/Increased combat and magic skill gain/Increased crystal yield/Treasure Hunter bonus/Increased attack speed/Increased HP and MP/Enhanced accuracy and ranged accuracy/Enhanced attack and ranged attack/Enhanced magic accuracy and magic attack/Enhanced "Cure" potency/Increased weapon skill damage/"Killer" effects bonus/Effect X/Effect X/Effect X/Effect X] prowess stands at level ${number: 1}.${prompt}'
-  11754: |-
-    Are you certain?
+    Revenir.
+    Découverte accrue des coffres au trésor.
+    Augmentation des gains de compétences en combat et en magie.
+    Augmentation des cristaux récoltés.
+    Bonus Chasseur de trésor.
+    Vitesse d'attaque accrue.
+    Augmentation des PV et PM.
+    Précision améliorée et précision à distance.
+    Attaque améliorée et attaque à distance.
+    Précision magique améliorée et attaque magique améliorée.
+    Potence améliorée pour "Cure".
+    Augmentation des dégâts des compétences d'armes.
+    Bonus des effets "Killer".
+    Capacité X.
+    Capacité X.
+    Capacité X.
+    Capacité X.${prompt}
+  11753: '${choice: 0}[Découverte accrue des coffres au trésor/Augmentation des gains de compétences en combat et en magie/Augmentation des cristaux récoltés/Bonus Chasseur de trésor/Vitesse d’attaque accrue/Augmentation des PV et PM/Précision améliorée et précision à distance/Attaque améliorée et attaque à distance/Précision magique améliorée et attaque magique améliorée/Potence améliorée pour "Cure"/Augmentation des dégâts des compétences d’armes/Bonus des effets "Killer"/Capacité X/Capacité X/Capacité X/Capacité X] la prouesse est au niveau ${number: 1}.${prompt}'
+  11754: Êtes-vous certain ?${prompt}
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11755: |-
-    Return to your home nation?
+    Retourner dans votre nation d'origine ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11756: |-
-    Receive the effects of Invisible and Sneak?
+    Recevoir les effets d'Invisible et Sneak ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11757: |-
-    Return to your home point?
+    Retourner à votre point d'origine ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11758: You do not have enough tabs.${prompt}
-  11759: '${color-alt: 122}${name-player} is full and cannot eat anything right now.${prompt}'
-  11760: You must wait longer before you are able to register a new training regime. It is recommended that you use this time to recuperate.${prompt}
-  11761: You cannot undertake a training regime while a hunt is active.${prompt}
+    Oui.
+    Non.${prompt}
+  11758: Vous n'avez pas assez de tabulations.${prompt}
+  11759: '${color-alt: 122}${name-player} est plein et ne peut rien manger pour l’instant.${prompt}'
+  11760: Vous devez attendre plus longtemps avant de pouvoir enregistrer un nouveau régime d'entraînement. Il est recommandé d'utiliser ce temps pour récupérer.${prompt}
+  11761: Vous ne pouvez pas entreprendre un régime d'entraînement tant qu'une chasse est active.${prompt}
   11762: |-
-    Cancel hunt?
+    Annuler la chasse ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11763: Hunt canceled.${prompt}
+    Oui.
+    Non.${prompt}
+  11763: Chasse annulée.${prompt}
   11764: |-
-    ${color-alt: 141}The requisite time has not yet elapsed since the completion of your last regime.
-    You may be ineligible to receive gil and tab rewards.
-  11765: Prowesses are unique enhancement effects, the benefits of which can be unlocked and strengthened through sustained training.${prompt}
-  11766: Please note, however, that their effects are temporary and will be lost should you venture into a different area.${prompt}
-  11767: No prowesses are active at present.${prompt}
-  11768: Set training regime to automatically repeat upon completion?
+    ${color-alt: 141}Le temps requis n'a pas encore été écoulé depuis l'achèvement de votre dernier régime.
+    Vous pourriez être inéligible pour recevoir des récompenses en gil et en tabulations.
+  11765: Les prouesses sont des effets d'amélioration uniques, dont les avantages peuvent être débloqués et renforcés grâce à un entraînement soutenu.${prompt}
+  11766: Veuillez noter cependant que leurs effets sont temporaires et seront perdus si vous vous aventurez dans une autre zone.${prompt}
+  11767: Aucune prouesse n'est active pour le moment.${prompt}
+  11768: Définir le régime d'entraînement pour qu'il se répète automatiquement après chaque complétion ?
   11769: |-
-    Set training regime to repeat?
+    Définir le régime d'entraînement pour qu'il se répète ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11770: '${name-player} apprend ${item-singular: 0[2]} !${prompt}'
   11771: ${prompt}
   11772: Vous êtes assiégé par une sensation étrange.${prompt}
