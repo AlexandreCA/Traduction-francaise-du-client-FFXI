@@ -1,29 +1,29 @@
 entries:
   0: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour actuel.
+    Une fois le point de retour défini, vous y reviendrez chaque fois que vous serez hors combat.
   1: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  2: Home point set!${prompt}
-  3: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  2: Point de retour défini !${prompt}
+  3: Un point de retour peut être défini comme un endroit où revenir à Vana'diel lorsque vous avez été mis hors combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   4: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    Finalement, laissez tomber.${prompt}
   5: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez désormais vous y téléporter depuis n'importe quel autre point de retour.${prompt}
+  6: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   7: |-
-    Teleport where?
+    Où voulez-vous vous téléporter ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -40,81 +40,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   8: |-
-    Teleport where?（${zone: 33[2]}）
+    Où voulez-vous vous téléporter ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  9: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  10: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  11: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour n°1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour n°2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour n°3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour n°4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour n°5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  9: Vous n'avez encore enregistré aucun autre point de retour, vous ne pouvez donc pas vous téléporter.${prompt}
+  10: 'Cela coûte ${number: 3} gils pour vous téléporter vers le point de retour n°${number: 2} à ${zone: 1[2]}.'
+  11: 'Il n’y a pas de frais pour vous téléporter vers le point de retour n°${number: 2} à ${zone: 1[2]}.' 
   12: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   13: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    Finalement, aucune.
+    Sélectionner depuis les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel de Tavnazian].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Territoire sauvage des Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Ouest d'Aht Urhgan/Île d'Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est d'Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo inférieur/].
+    ${choice: 1}[Elshimo supérieur/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   14: |-
-    Teleport where?
+    Où voulez-vous vous téléporter ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  15: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un lieu favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  15: Vous pouvez modifier la méthode de sélection de la zone pour le point de retour souhaité où vous téléporter.
   16: |-
-    Which setting would you like?
+    Quel réglage souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  17: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  17: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   18: |-
-    Teleport where?
+    Où voulez-vous vous téléporter ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -124,13 +124,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  19: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  20: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  19: 'Le Point de Retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/supprimé de] votre liste des lieux favoris.'
+  20: Votre liste des lieux favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   21: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -17583,145 +17583,145 @@ entries:
   7083: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
   7084: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   7085: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
-  7086: Tallying conquest results...${prompt}
-  7087: Conquest results tallied.${prompt}
-  7088: This region is currently under San d'Orian control.${prompt}
-  7089: This region is currently under Bastokan control.${prompt}
-  7090: This region is currently under Windurstian control.${prompt}
+  7086: Calcul des résultats de la conquête...${prompt}
+  7087: Résultats de la conquête calculés.${prompt}
+  7088: Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
+  7089: Cette région est actuellement sous le contrôle de Bastok.${prompt}
+  7090: Cette région est actuellement sous le contrôle de Windurst.${prompt}
   7091: |-
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  7092: This region is currently neutral.${prompt}
+    Cette région est actuellement sous le contrôle des hommes-bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  7092: Cette région est actuellement neutre.${prompt}
   7093: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Windurst
-    3rd: Bastok${prompt}
-  7094: All three nations are tied for first place.${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria
+    2e : Windurst
+    3e : Bastok${prompt}
+  7094: Les trois nations sont à égalité à la première place.${prompt}
   7095: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   7096: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   7097: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok
-    3rd: Windurst${prompt}
-  7098: All three nations are tied for first place.${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok
+    3e : Windurst${prompt}
+  7098: Les trois nations sont à égalité à la première place.${prompt}
   7099: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   7100: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   7101: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria
-    3rd: Windurst${prompt}
-  7102: All three nations are tied for first place.${prompt}
+    Équilibre global des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria
+    3e : Windurst${prompt}
+  7102: Les trois nations sont à égalité à la première place.${prompt}
   7103: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   7104: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre global des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   7105: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: Windurst
-    3rd: San d'Oria${prompt}
-  7106: All three nations are tied for first place.${prompt}
+    Équilibre global des pouvoirs :
+    1er : Bastok
+    2e : Windurst
+    3e : San d'Oria${prompt}
+  7106: Les trois nations sont à égalité à la première place.${prompt}
   7107: |-
-    Global balance of power:
-    1st: Bastok and Windurst (tie)
-    3rd: San d'Oria${prompt}
+    Équilibre global des pouvoirs :
+    1er : Bastok et Windurst (égalité)
+    3e : San d'Oria${prompt}
   7108: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre global des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   7109: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria
-    3rd: Bastok${prompt}
+    Équilibre global des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria
+    3e : Bastok${prompt}
   7110: |-
-    Global balance of power:
-    All three nations are tied for first place.${prompt}
+    Équilibre global des pouvoirs :
+    Les trois nations sont à égalité à la première place.${prompt}
   7111: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre global des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   7112: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok (tie)${prompt}
+    Équilibre global des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok (égalité)${prompt}
   7113: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: Bastok
-    3rd: San d'Oria${prompt}
-  7114: All three nations are tied for first place.${prompt}
+    Équilibre global des pouvoirs :
+    1er : Windurst
+    2e : Bastok
+    3e : San d'Oria${prompt}
+  7114: Les trois nations sont à égalité à la première place.${prompt}
   7115: |-
-    Global balance of power:
-    1st: Bastok and Windurst
-    2nd: San d'Oria${prompt}
+    Équilibre global des pouvoirs :
+    1er : Bastok et Windurst
+    2e : San d'Oria${prompt}
   7116: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok${prompt}
+    Équilibre global des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok${prompt}
   7117: |-
-    Conquest update:
-    This region is currently neutral.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement neutre.${prompt}
   7118: |-
-    Conquest update:
-    This region is currently under San d'Orian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de San d'Oria.${prompt}
   7119: |-
-    Conquest update:
-    This region is currently under Bastokan control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Bastok.${prompt}
   7120: |-
-    Conquest update:
-    This region is currently under Windurstian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Windurst.${prompt}
   7121: |-
-    Conquest update:
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  7122: All three nations are at a deadlock.${prompt}
-  7123: The beastmen are on the rise.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle des hommes-bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  7122: Les trois nations sont dans une impasse.${prompt}
+  7123: Les hommes-bêtes prennent de l'ampleur.${prompt}
   7124: |-
-    Regional influence:
-    San d'Oria - Dominant${prompt}
+    Influence régionale :
+    San d'Oria - Dominante${prompt}
   7125: |-
-    Regional influence:
-    San d'Oria - Major${prompt}
+    Influence régionale :
+    San d'Oria - Importante${prompt}
   7126: |-
-    Regional influence:
-    San d'Oria - Minor${prompt}
+    Influence régionale :
+    San d'Oria - Mineure${prompt}
   7127: |-
-    Regional influence:
-    San d'Oria - Minimal${prompt}
-  7128: Bastok - Dominant${prompt}
-  7129: Bastok - Major${prompt}
-  7130: Bastok - Minor${prompt}
-  7131: Bastok - Minimal${prompt}
-  7132: Windurst - Dominant${prompt}
-  7133: Windurst - Major${prompt}
-  7134: Windurst - Minor${prompt}
-  7135: Windurst - Minimal${prompt}
-  7136: Bastok and Windurst have formed an alliance.${prompt}
-  7137: San d'Oria and Windurst have formed an alliance.${prompt}
-  7138: San d'Oria and Bastok have formed an alliance.${prompt}
-  7139: Bastok and Windurst are currently allies.${prompt}
-  7140: San d'Oria and Windurst are currently allies.${prompt}
-  7141: San d'Oria and Bastok are currently allies.${prompt}
+    Influence régionale :
+    San d'Oria - Minimale${prompt}
+  7128: Bastok - Dominante${prompt}
+  7129: Bastok - Importante${prompt}
+  7130: Bastok - Mineure${prompt}
+  7131: Bastok - Minimale${prompt}
+  7132: Windurst - Dominante${prompt}
+  7133: Windurst - Importante${prompt}
+  7134: Windurst - Mineure${prompt}
+  7135: Windurst - Minimale${prompt}
+  7136: Bastok et Windurst ont formé une alliance.${prompt}
+  7137: San d'Oria et Windurst ont formé une alliance.${prompt}
+  7138: San d'Oria et Bastok ont formé une alliance.${prompt}
+  7139: Bastok et Windurst sont actuellement alliés.${prompt}
+  7140: San d'Oria et Windurst sont actuellement alliés.${prompt}
+  7141: San d'Oria et Bastok sont actuellement alliés.${prompt}
   7142: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
