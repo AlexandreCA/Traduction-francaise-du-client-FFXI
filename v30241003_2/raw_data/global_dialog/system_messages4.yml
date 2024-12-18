@@ -975,19 +975,19 @@ entries:
   556: |-
     La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
     Le joueur désigné pour la synchronisation de niveau est incapable de recevoir des points d'expérience.${prompt}
-  557: '${unknown-84: 0}${entity-target} receives ${number-alt: 1} ${choice-plurality-number: 1}[piece/pieces] of alexandrite.${prompt}'
-  558: 'You defeated a designated target. (Progress: ${number-alt: 0}/${number-alt: 1})${prompt}'
-  559: You have successfully completed the training regime.${prompt}
-  560: '${entity-source} uses ${ability: 0}. Finishing ${choice-plurality-number: 1}[move/moves] now ${number-alt: 1}.${prompt}'
-  561: "Unable to perform that action. \nYour have already earned the maximum number of finishing moves.${prompt}"
-  562: The status parameters of ${entity-target} have increased.${prompt}
-  563: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[destroys/destroy] ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
-  564: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[were/was] destroyed.${prompt}'
-  565: '${entity-target} obtains ${gil: 0}.${prompt}'
-  566: '${entity-target} obtains ${number-alt: 0} ${choice-plurality-number: 0}[tab/tabs]. (Total: ${number-alt: 1})${prompt}'
-  567: '${entity-source} stowed away ${article} ${item-article-alt: 1[2]} in ${choice-source-gender}[his/her] tattered Maze Monger pouch.${prompt}'
-  568: 'Your tattered Maze Monger pouch already contains ${article} ${item-article-alt: 1[2]} and cannot hold another.${prompt}'
-  569: '${color-alt: 123}Your current status prevents you from using that ability.${prompt}'
+  557: '${unknown-84: 0}${entity-target} reçoit ${number-alt: 1} ${choice-plurality-number: 1}[pièce/pièces] d’alexandrite.${prompt}'
+  558: 'Vous avez vaincu un objectif désigné. (Progression : ${number-alt: 0}/${number-alt: 1})${prompt}'
+  559: 'Vous avez réussi à compléter le régime d’entraînement.${prompt}'
+  560: '${entity-source} utilise ${ability: 0}. Le nombre de coups finis est maintenant de ${number-alt: 1}.${prompt}'
+  561: "Impossible d’effectuer cette action. \nVous avez déjà gagné le nombre maximal de coups finis.${prompt}"
+  562: 'Les paramètres de statut de ${entity-target} ont augmenté.${prompt}'
+  563: '${choice-definite-entity: 0}[La /]${entity-source} ${choice-plurality-entity: 0}[détruit/détruisent] ${choice-definite-entity: 1} [la /]${entity-target}.${prompt}'
+  564: '${choice-definite-entity: 1}[La /]${entity-target} ${choice-plurality-entity: 1}[a été/ont été] détruit.${prompt}'
+  565: '${entity-target} obtient ${gil: 0}.${prompt}'
+  566: '${entity-target} obtient ${number-alt: 0} ${choice-plurality-number: 0}[tab/tabs]. (Total : ${number-alt: 1})${prompt}'
+  567: '${entity-source} a rangé ${article} ${item-article-alt: 1[2]} dans ${choice-source-gender}[sa/son] poche déchirée de Maze Monger.${prompt}'
+  568: 'Votre poche déchirée de Maze Monger contient déjà ${article} ${item-article-alt: 1[2]} et ne peut pas en contenir un autre.${prompt}'
+  569: '${color-alt: 123}Votre statut actuel vous empêche d’utiliser cette capacité.${prompt}'
   570: |-
     ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
     ${unknown-84: 0}${number-alt: 1} of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] status ailments disappear${choice-plurality-number: 1}[s/]!${prompt}
