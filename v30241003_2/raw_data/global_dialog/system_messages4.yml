@@ -701,166 +701,166 @@ entries:
   402: |-
     ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
     ${unknown-84: 0}${choice-definite-entity: 1}[La /]${entity-target}${choice-plurality-entity: 1}[''s/''] défense magique est renforcée.${prompt}
-  403: '${unknown-84: 0}${number-alt: 1} of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[''s/''] attributes ${choice-plurality-number: 1}[is/are] drained.${prompt}'
-  404: '${unknown-84: 0}${number-alt: 1} status ${choice-plurality-number: 1}[effect is/effects are] drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+  403: '${unknown-84: 0}${number-alt: 1} des ${choice-definite-entity: 1}[des /]${entity-target}${choice-plurality-entity: 1}[''s/''] attributs ${choice-plurality-number: 1}[sont/est] drainé${choice-plurality-number: 1}[s/].${prompt}'
+  404: '${unknown-84: 0}${number-alt: 1} de l’état ${choice-plurality-number: 1}[est/les effets sont] drainé${choice-plurality-number: 1}[s/] de ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}'
   405: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${unknown-84: 0}${number-alt: 1} of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] effects disappear${choice-plurality-number: 1}[s/]!${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.
+    ${unknown-84: 0}${number-alt: 1} des ${choice-definite-entity: 1}[des /]${entity-target}${choice-plurality-entity: 1}['s/'] effets disparaissent${choice-plurality-number: 1}[s/]!${prompt}
   406: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[falls/fall] to the ground.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[tombe/tombe] au sol.${prompt}
   407: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${article} ${item-article-alt: 0[2]}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] TP is reduced.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${article} ${item-article-alt: 0[2]}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] TP sont réduits.${prompt}
   408: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${article} ${item-article-alt: 0[2]}.
-    ${unknown-84: 0}No effect on ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${article} ${item-article-alt: 0[2]}.
+    ${unknown-84: 0}Aucun effet sur ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
   409: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] TP is increased to ${number-alt: 1}.${prompt}
-  410: No target available. Unable to use item.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] TP sont augmentés à ${number-alt: 1}.${prompt}
+  410: Aucun cible disponible. Impossible d'utiliser l'objet.${prompt}
   411: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[attempts/attempt] to use the ${item-singular-alt: 0[2]}, but ${choice-plurality-entity: 0}[lacks/lack] the required number of Ballista Points.
-    You currently have ${number-alt: 1} Ballista ${choice-plurality-number: 1}[Point/Points].${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[essaye/essaie] d'utiliser ${article} ${item-singular-alt: 0[2]}, mais ${choice-plurality-entity: 0}[manque/manquent] des Ballista Points nécessaires.
+    Vous avez actuellement ${number-alt: 1} Ballista ${choice-plurality-number: 1}[Point/Points].${prompt}
   412: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${article} ${item-article-alt: 0[2]}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${status-effect-noun: 1[2]}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${article} ${item-article-alt: 0[2]}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de ${status-effect-noun: 1[2]}.${prompt}
   413: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${article} ${item-article-alt: 0[2]}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 1} point${choice-plurality-number: 1}[/s] of damage.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${article} ${item-article-alt: 0[2]}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[prend/prennent] ${number-alt: 1} point${choice-plurality-number: 1} de dégât${choice-plurality-number: 1}[s].${prompt}
   414: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of Magic Attack Boost and Magic Defense Boost.${prompt}
-  415: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of Magic Attack Boost and Magic Defense Boost.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de Magic Attack Boost et Magic Defense Boost.${prompt}
+  415: '${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l’effet de Magic Attack Boost et Magic Defense Boost.${prompt}'
   416: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of Magic Attack Boost and Magic Defense Boost.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de Magic Attack Boost et Magic Defense Boost.${prompt}
   417: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${unknown-84: 0}${number-alt: 1} of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] attributes ${choice-plurality-number: 1}[is/are] drained.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${unknown-84: 0}${number-alt: 1} des ${choice-definite-entity: 1}[des /]${entity-target}${choice-plurality-entity: 1}['s/'] attributs ${choice-plurality-number: 1}[sont/est] drainé${choice-plurality-number: 1}[s/].${prompt}
   418: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0} on ${choice-definite-entity: 1}[the /]${entity-target}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] target switches to ${choice-definite-entity: 0}[the /]${entity-source}!${prompt}
-  419: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[learns/learn] ${spell-alt: 0}!${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${skill-alt: 0} sur ${choice-definite-entity: 1}[le /]${entity-target}.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] cible change pour ${choice-definite-entity: 0}[le /]${entity-source}!${prompt}
+  419: '${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[apprend/apprennent] ${spell-alt: 0}!${prompt}'
   420: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}. The total comes to ${number-alt: 1}!
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${ability: 0}.${prompt}
-  421: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${ability: 0}.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}. Le total atteint ${number-alt: 1}!
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de ${ability: 0}.${prompt}
+  421: '${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l’effet de ${ability: 0}.${prompt}'
   422: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}. The total comes to ${number-alt: 1}!
-    No effect on ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
-  423: 'No effect on ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}. Le total atteint ${number-alt: 1}!
+    Aucun effet sur ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
+  423: 'Aucun effet sur ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}'
   424: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] Double-Up.
-    The total for ${ability: 0} increases to ${number-alt: 1}!
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${ability: 0}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] Double-Up.
+    Le total pour ${ability: 0} augmente à ${number-alt: 1}!
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de ${ability: 0}.${prompt}
   425: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] Double-Up.
-    The total for ${ability: 0} increases to ${number-alt: 1}!
-    No effect on ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] Double-Up.
+    Le total pour ${ability: 0} augmente à ${number-alt: 1}!
+    Aucun effet sur ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
   426: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] Double-Up.
-    Bust!
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[loses/lose] the effect of ${ability: 0}.${prompt}
-  427: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[loses/lose] the effect of ${ability: 0}.${prompt}'
-  428: There are no rolls eligible for Double-Up. Unable to use ability.${prompt}
-  429: 'The same roll is already active on ${choice-definite-entity: 0}[the /]${entity-source}.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] Double-Up.
+    Échec!
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[perd/perdent] l'effet de ${ability: 0}.${prompt}
+  427: '${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[perd/perdent] l’effet de ${ability: 0}.${prompt}'
+  428: Il n’y a pas de lancers éligibles pour Double-Up. Impossible d'utiliser l’aptitude.${prompt}
+  429: 'Le même lancer est déjà actif sur ${choice-definite-entity: 0}[le /]${entity-source}.${prompt}'
   430: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    1 of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] magic effects is drained.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    1 des effets magiques de ${choice-definite-entity: 1}[le /]${entity-target}${choice-plurality-entity: 1}['s/'] est drainé.${prompt}
   431: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] TP is reduced.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] TP sont réduits.${prompt}
   432: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of Accuracy Boost and Evasion Boost.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de Boost de Précision et Boost d'Esquive.${prompt}
   433: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of Magic Attack Boost and Magic Defense Boost.${prompt}
-  434: You cannot customize an activated automaton.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de Boost d'Attaque Magique et Boost de Défense Magique.${prompt}
+  434: Vous ne pouvez pas personnaliser un automate activé.${prompt}
   435: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}!
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] abilities are recharged.${prompt}
-  436: '${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] abilities are recharged.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}!
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] aptitudes sont rechargées.${prompt}
+  436: '${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] aptitudes sont rechargées.${prompt}'
   437: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}!
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] abilities are recharged.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] TP is increased.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}!
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] aptitudes sont rechargées.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] TP sont augmentés.${prompt}
   438: |-
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] abilities are recharged.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] TP is increased.${prompt}
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] aptitudes sont rechargées.
+    ${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] TP sont augmentés.${prompt}
   439: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}!
-    All of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] abilities are recharged.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[regains/regain] MP.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}!
+    Toutes les aptitudes de ${choice-definite-entity: 1}[le /]${entity-target}${choice-plurality-entity: 1}['s/'] sont rechargées.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[régagne/régagnent] des PM.${prompt}
   440: |-
-    All of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] abilities are recharged.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[regains/regain] MP.${prompt}
+    Toutes les aptitudes de ${choice-definite-entity: 1}[le /]${entity-target}${choice-plurality-entity: 1}['s/'] sont rechargées.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[régagne/régagnent] des PM.${prompt}
   441: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${ability: 0}.${prompt}
-  442: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[learns/learn] a new ability!${prompt}'
-  443: 'You cannot learn ${ability: 0}. You do not meet the job or level requirements.${prompt}'
-  444: 'You already know ${ability: 0}.${prompt}'
-  445: '${color-alt: 141}You cannot use items at this time.${prompt}'
-  446: '${color-alt: 141}You cannot attack that target.${prompt}'
-  447: '${color-alt: 141}You are provoked and unable to change your target.${prompt}'
-  448: '${color-alt: 141}Time allowed in Dynamis has been extended by ${number-alt: 0} ${choice-plurality-number: 0}[minute/minutes].${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilise] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de ${ability: 0}.${prompt}
+  442: '${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[apprend/apprend] une nouvelle aptitude !${prompt}'
+  443: 'Vous ne pouvez pas apprendre ${ability: 0}. Vous ne remplissez pas les conditions de métier ou de niveau.${prompt}'
+  444: 'Vous connaissez déjà ${ability: 0}.${prompt}'
+  445: '${color-alt: 141}Vous ne pouvez pas utiliser d’objets pour le moment.${prompt}'
+  446: '${color-alt: 141}Vous ne pouvez pas attaquer cette cible.${prompt}'
+  447: '${color-alt: 141}Vous êtes provoqué et incapable de changer de cible.${prompt}'
+  448: '${color-alt: 141}Le temps autorisé dans Dynamis a été prolongé de ${number-alt: 0} ${choice-plurality-number: 0}[minute/minutes].${prompt}'
   449: |-
-    ${color-alt: 141}----== WARNING ==----
-    Time remaining in Dynamis: ${number-alt: 0} ${choice-plurality-number: 0}[minute/minutes].${prompt}
-  450: 'WATCH${number-alt: 0} ${entity-target}:${number-alt: 1}${prompt}'
+    ${color-alt: 141}----== AVERTISSEMENT ==----
+    Temps restant dans le Dynamis : ${number-alt: 0} ${choice-plurality-number: 0}[minute/minutes].${prompt}
+  450: 'REGARDER${number-alt: 0} ${entity-target}:${number-alt: 1}${prompt}'
   451: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[regains/regain] ${number-alt: 1} MP.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[régénère/régénère] ${number-alt: 1} MP.${prompt}
   452: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[regains/regain] ${number-alt: 1} TP.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[régénère/régénère] ${number-alt: 1} TP.${prompt}
   453: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[steals/steal] the effect of ${status-effect-noun: 1[2]} from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[vole/vole] l'effet de ${status-effect-noun: 1[2]} à ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
   454: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${number-alt: 1} TP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
-  455: 'Debug : Fishing skill check: ${item-singular-alt: 0[2]} : 難易度${number-alt: 1}${prompt}'
-  456: 'Debug : Level Restriction on. PetType ${number-alt: 0}/ID ${number-alt: 1}${prompt}'
-  457: 'Debug : Level restriction off. PetType ${number-alt: 0}/ID ${number-alt: 1}${prompt}'
-  458: 'Debug : Dif - Now > ${number-alt: 0}  RATE ${number-alt: 1}/1000${prompt}'
-  459: 'Self-destruct check: skipping calculation of ${entity-target}''s self-destruct process md_no${number-alt: 0}/cmd_arg${number-alt: 1}！${prompt}'
-  460: 'EXP Check: ${entity-source} > ${entity-target} XP:${number-alt: 0}/LvUp${number-alt: 1} ${prompt}'
-  461: '${entity-target}:STR ${number-alt: 0}/${number-alt: 1}${prompt}'
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${number-alt: 1} TP drainé de ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
+  455: 'Débogage : Vérification de compétence de pêche : ${item-singular-alt: 0[2]} : 難易度${number-alt: 1}${prompt}'
+  456: 'Débogage : Restriction de niveau activée. Type de familier ${number-alt: 0}/ID ${number-alt: 1}${prompt}'
+  457: 'Débogage : Restriction de niveau désactivée. Type de familier ${number-alt: 0}/ID ${number-alt: 1}${prompt}'
+  458: 'Débogage : Diff - Maintenant > ${number-alt: 0}  TAUX ${number-alt: 1}/1000${prompt}'
+  459: 'Vérification de l’auto-destruction : saut de calcul du processus d’auto-destruction de ${entity-target} md_no${number-alt: 0}/cmd_arg${number-alt: 1}！${prompt}'
+  460: 'Vérification EXP : ${entity-source} > ${entity-target} XP:${number-alt: 0}/LvUp${number-alt: 1} ${prompt}'
+  461: '${entity-target}:FOR ${number-alt: 0}/${number-alt: 1}${prompt}'
   462: '${entity-target}:DEX ${number-alt: 0}/${number-alt: 1}${prompt}'
   463: '${entity-target}:VIT ${number-alt: 0}/${number-alt: 1}${prompt}'
   464: '${entity-target}:AGI ${number-alt: 0}/${number-alt: 1}${prompt}'
   465: '${entity-target}:INT ${number-alt: 0}/${number-alt: 1}${prompt}'
   466: '${entity-target}:MND ${number-alt: 0}/${number-alt: 1}${prompt}'
   467: '${entity-target}:CHR ${number-alt: 0}/${number-alt: 1}${prompt}'
-  468: 'Wyvern: JobLv<${number-alt: 0}>  TaskLv<${number-alt: 1}>${prompt}'
-  469: 'ID: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  470: 'Wyvern routine type: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  471: 'Avatar type: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  472: 'Avatar MP: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  473: 'Avatar HP: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  474: 'Avatar level: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  475: 'Avatar No.: Master<${number-alt: 0}>  Pet<${number-alt: 1}>${prompt}'
-  476: 'Probability of ${entity-target} dropping ${item-singular-alt: 0[2]}: ${number-alt: 1}/10000${prompt}'
-  477: '${color-alt: 123}Unable to target ${choice-definite-entity: 1}[the /]${entity-target}. You have not received the level cap status.${prompt}'
-  478: 'Height differential between ${entity-source} and ${entity-target}: ${number-alt: 0}mm.${prompt}'
-  479: Damage taken.${prompt}
-  480: '   Number of Targets (${number-alt: 0})  Damage (${number-alt: 1})${prompt}'
-  481: 'Overall: Number of Attacks (${number-alt: 0})  Misses (${number-alt: 1})${prompt}'
-  482: '   Number of Targets (${number-alt: 0})  Damage (${number-alt: 1})${prompt}'
-  483: 'Ranged Attack: Number of Attacks (${number-alt: 0})  Misses (${number-alt: 1})${prompt}'
-  484: '   Number of Targets (${number-alt: 0})  Damage (${number-alt: 1})${prompt}'
-  485: 'JA: Number of Attacks (${number-alt: 0})  Misses (${number-alt: 1})${prompt}'
-  486: '   Number of Targets (${number-alt: 0})  Damage (${number-alt: 1})${prompt}'
-  487: 'Weapon Skill: Number of Attacks (${number-alt: 0})  Misses (${number-alt: 1})${prompt}'
-  488: '   Number of Targets (${number-alt: 0})  Damage(${number-alt: 1})${prompt}'
-  489: 'Spell: Number of Attacks (${number-alt: 0})  Misses (${number-alt: 1})${prompt}'
-  490: '   Number of Targets (${number-alt: 0})  Damage(${number-alt: 1})${prompt}'
-  491: 'AA: Number of Attacks (${number-alt: 0})  Misses (${number-alt: 1})${prompt}'
-  492: 'Time: ${number-alt: 0}${prompt}'
-  493: ${entity-source}'s log${prompt}
+  468: 'Wyvern : Niveau de travail <${number-alt: 0}>  Niveau de tâche <${number-alt: 1}>${prompt}'
+  469: 'ID : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  470: 'Type de routine de Wyvern : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  471: 'Type d’Avatar : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  472: 'MP d’Avatar : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  473: 'HP d’Avatar : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  474: 'Niveau d’Avatar : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  475: 'Numéro d’Avatar : Maître <${number-alt: 0}>  Familier <${number-alt: 1}>${prompt}'
+  476: 'Probabilité que ${entity-target} laisse tomber ${item-singular-alt: 0[2]} : ${number-alt: 1}/10000${prompt}'
+  477: '${color-alt: 123}Impossible de cibler ${choice-definite-entity: 1}[le /]${entity-target}. Vous n’avez pas reçu le statut de limite de niveau.${prompt}'
+  478: 'Différentiel de hauteur entre ${entity-source} et ${entity-target} : ${number-alt: 0}mm.${prompt}'
+  479: Dégâts subis.${prompt}
+  480: '   Nombre de cibles (${number-alt: 0})  Dégâts (${number-alt: 1})${prompt}'
+  481: 'Global : Nombre d’attaques (${number-alt: 0})  Manqués (${number-alt: 1})${prompt}'
+  482: '   Nombre de cibles (${number-alt: 0})  Dégâts (${number-alt: 1})${prompt}'
+  483: 'Attaque à distance : Nombre d’attaques (${number-alt: 0})  Manqués (${number-alt: 1})${prompt}'
+  484: '   Nombre de cibles (${number-alt: 0})  Dégâts (${number-alt: 1})${prompt}'
+  485: 'JA : Nombre d’attaques (${number-alt: 0})  Manqués (${number-alt: 1})${prompt}'
+  486: '   Nombre de cibles (${number-alt: 0})  Dégâts (${number-alt: 1})${prompt}'
+  487: 'Compétence d’arme : Nombre d’attaques (${number-alt: 0})  Manqués (${number-alt: 1})${prompt}'
+  488: '   Nombre de cibles (${number-alt: 0})  Dégâts(${number-alt: 1})${prompt}'
+  489: 'Sort : Nombre d’attaques (${number-alt: 0})  Manqués (${number-alt: 1})${prompt}'
+  490: '   Nombre de cibles (${number-alt: 0})  Dégâts(${number-alt: 1})${prompt}'
+  491: 'AA : Nombre d’attaques (${number-alt: 0})  Manqués (${number-alt: 1})${prompt}'
+  492: 'Temps : ${number-alt: 0}${prompt}'
+  493: Journal de ${entity-source}${prompt}
   494: '揮発キャップ:${number-alt: 0}　蓄積キャップ:${number-alt: 1}${prompt}'
   495: '${entity-source}の生産:${sys-msg-3: 0}>成功確率${number-alt: 1}%${prompt}'
   496: '${entity-source}の生産:${sys-msg-3: 0}>スキル上昇${number-alt: 1}%${prompt}'
@@ -879,102 +879,102 @@ entries:
   509: '${entity-target}:< ${number-alt: 0}/${number-alt: 1} >${prompt}'
   510: 'DEBUG:${entity-target}>${sys-msg-3: 1} = ${number-alt: 0}%${prompt}'
   511: 'DEBUG:${entity-target}>${number-alt: 0}%の成功確率(${number-alt: 1})。${prompt}'
-  512: '${color-alt: 123}You must have a two-handed weapon equipped in the main weapon slot in order to equip a grip.${prompt}'
-  513: '${color-alt: 123}This grip is not compatible with the two-handed weapon you currently have equipped.${prompt}'
-  514: 'You do not have the proper items equipped to use the ${item-singular-alt: 0[2]}.${prompt}'
-  515: '${entity-source} has successfully recorded the target''s image onto ${article} ${item-article-alt: 1[2]}.${prompt}'
-  516: ${entity-source} was unable to capture the target's image.${prompt}
-  517: 'The ${item-singular-alt: 0[2]} cannot be used on that target.${prompt}'
-  518: 'The ${item-singular-alt: 0[2]} cannot be used while under the effect of Invisible or Sneak.${prompt}'
+  512: '${color-alt: 123}Vous devez avoir une arme à deux mains équipée dans le slot principal d’arme pour pouvoir équiper une prise.${prompt}'
+  513: '${color-alt: 123}Cette prise n’est pas compatible avec l’arme à deux mains que vous avez actuellement équipée.${prompt}'
+  514: 'Vous n’avez pas les objets appropriés équipés pour utiliser ${item-singular-alt: 0[2]}.${prompt}'
+  515: '${entity-source} a réussi à enregistrer l’image de la cible sur ${article} ${item-article-alt: 1[2]}.${prompt}'
+  516: '${entity-source} n’a pas pu capturer l’image de la cible.${prompt}'  
+  517: 'Le ${item-singular-alt: 0[2]} ne peut pas être utilisé sur cette cible.${prompt}'
+  518: 'Le ${item-singular-alt: 0[2]} ne peut pas être utilisé sous l’effet d’Invisible ou de Sneak.${prompt}'
   519: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] afflicted with Lethargic Daze (lv.${number-alt: 1}).${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] affecté(s) par Lethargic Daze (niv.${number-alt: 1}).${prompt}
   520: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] afflicted with Sluggish Daze (lv.${number-alt: 1}).${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] affecté(s) par Sluggish Daze (niv.${number-alt: 1}).${prompt}
   521: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] afflicted with Weakened Daze (lv.${number-alt: 1}).${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] affecté(s) par Weakened Daze (niv.${number-alt: 1}).${prompt}
   522: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 1} point${choice-plurality-number: 1}[/s] of damage and is stunned.${prompt}
-  523: 'The same effect is already active on ${choice-definite-entity: 0}[the /]${entity-source}.${prompt}'
-  524: You have not earned enough finishing moves to perform that action.${prompt}
-  525: '${ability: 0} can only be performed during battle.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 1} point${choice-plurality-number: 1} de dégât${choice-plurality-number: 1}[/s] et est/sonst étourdi.${prompt}
+  523: 'Le même effet est déjà actif sur ${choice-definite-entity: 0}[le /]${entity-source}.${prompt}'
+  524: 'Vous n’avez pas gagné suffisamment de mouvements de finition pour effectuer cette action.${prompt}'
+  525: '${ability: 0} ne peut être effectué que pendant un combat.${prompt}'
   526: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Enmity is stolen from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    L'aggro est volé à ${choice-definite-entity: 1}[le /]${entity-target}.${prompt}
   527: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Ranged attack power and speed are increased. Melee attack power and speed are reduced.${prompt}
-  528: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Enmity is transferred to ${choice-definite-entity: 0}[the /]${entity-source}${choice-plurality-entity: 0}['s/'] pet.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    La puissance et la vitesse des attaques à distance sont augmentées. La puissance et la vitesse des attaques de mêlée sont réduites.${prompt}
+  528: |- 
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    L'aggro est transférée à ${choice-definite-entity: 0}[le /]${entity-source}${choice-plurality-entity: 0}['s/'] familier.${prompt}
   529: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] chainbound.${prompt}
-  530: '${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] petrification counter is now down to ${number-alt: 0}.${prompt}'
-  531: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] no longer ${status-effect-adjective: 0[2]}.${prompt}'
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[est/sont] enchaîné(s).${prompt}
+  530: '${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] compteur de pétrification est maintenant à ${number-alt: 0}.${prompt}'
+  531: '${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[n’est/sont plus] ${status-effect-adjective: 0[2]}.${prompt}'
   532: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of Sneak and Invisible.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${ability: 0}.
+    ${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de Sneak et Invisible.${prompt}
   533: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] Accuracy is drained.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] Précision est drainée.${prompt}
   534: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[casts/cast] ${spell-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] Attack is drained.${prompt}
-  535: '${choice-definite-entity: 1}[The /]${entity-target} retaliates. ${number-alt: 3} of ${choice-definite-entity: 1}[the /]${entity-source}${choice-plurality-entity: 1}[''s/''] shadows ${choice-plurality-number: 3}[absorbs/absorb] the damage and ${choice-plurality-number: 3}[disappears/disappear].${prompt}'
-  536: '${choice-definite-entity: 1}[The /]${entity-target} retaliates. ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[takes/take] ${number-alt: 3} points of damage.${prompt}'
-  537: '${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] TP is increased to ${number-alt: 1}%.${prompt}'
-  538: A protective energy absorbs the malice of your enemy!${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[lance/lance] ${spell-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}['s/'] Attaque est drainée.${prompt}
+  535: '${choice-definite-entity: 1}[Le /]${entity-target} riposte. ${number-alt: 3} des ${choice-definite-entity: 1}[le /]${entity-source}${choice-plurality-entity: 1}[''s/''] ombres ${choice-plurality-number: 3}[absorbe/absorbent] les dégâts et ${choice-plurality-number: 3}[disparaît/disparaissent].${prompt}'
+  536: '${choice-definite-entity: 1}[Le /]${entity-target} riposte. ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[prend/prennent] ${number-alt: 3} points de dégâts.${prompt}'
+  537: '${choice-definite-entity: 1}[Le /]${entity-target}${choice-plurality-entity: 1}[''s/''] TP est augmenté à ${number-alt: 1}%.${prompt}'
+  538: 'Une énergie protectrice absorbe la malice de votre ennemi !${prompt}'
   539: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[regains/regain] HP.${prompt}
+    ${choice-definite-entity: 0}[Le /]${entity-source} ${choice-plurality-entity: 0}[utilise/emploie] ${skill-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /]${entity-target} ${choice-plurality-entity: 1}[régénère/régénèrent] HP.${prompt}
   540: |-
-    Level Sync activated. Your level has been restricted to ${number-alt: 1}.
-    Equipment affected by the level restriction will be adjusted accordingly.
-    Experience points will become unavailable for all party members should the Level Sync designee stray too far from the enemy.${prompt}
+    La synchronisation de niveau activée. Votre niveau a été restreint à ${number-alt: 1}.
+    L'équipement affecté par la restriction de niveau sera ajusté en conséquence.
+    Les points d'expérience seront indisponibles pour tous les membres du groupe si le désigné pour la synchronisation de niveau s'éloigne trop de l'ennemi.${prompt}
   541: |-
-    Level Sync could not be activated.
-    The designated player is below level 10.${prompt}
+    La synchronisation de niveau n'a pas pu être activée.
+    Le joueur désigné est sous le niveau 10.${prompt}
   542: |-
-    Level Sync could not be activated.
-    The designated player is in a different area.${prompt}
+    La synchronisation de niveau n'a pas pu être activée.
+    Le joueur désigné se trouve dans une autre zone.${prompt}
   543: |-
-    Level Sync could not be activated.
-    One or more party members are currently under the effect of a status which prevents synchronization.${prompt}
-  544: 'Level synchronization will be removed in ${number-alt: 1} seconds.${prompt}'
+    La synchronisation de niveau n'a pas pu être activée.
+    Un ou plusieurs membres du groupe sont actuellement sous l'effet d'un statut empêchant la synchronisation.${prompt}
+  544: 'La synchronisation de niveau sera supprimée dans ${number-alt: 1} secondes.${prompt}'
   545: |-
-    No experience points gained...
-    The Level Sync designee is either too far from the enemy, or unconscious.${prompt}
-  546: 'Your ${status-effect-noun: 1[2]} effect duration has been extended.${prompt}'
-  547: This ability can only be used on targets under the effect of a helix.${prompt}
-  548: The party member you have selected is incapable of receiving experience points, and as such cannot be a Level Sync designee.${prompt}
+    Aucun point d'expérience gagné...
+    Le joueur désigné pour la synchronisation de niveau est soit trop loin de l'ennemi, soit inconscient.${prompt}
+  546: 'La durée de votre effet ${status-effect-noun: 1[2]} a été prolongée.${prompt}'
+  547: 'Cette capacité ne peut être utilisée que sur des cibles sous l’effet d’un hélice.${prompt}'
+  548: 'Le membre du groupe que vous avez sélectionné est incapable de recevoir des points d’expérience, et ne peut donc pas être désigné pour la synchronisation de niveau.${prompt}'
   549: |-
-    No experience points gained...
-    The Level Sync designee is incapable of receiving experience points.${prompt}
+    Aucun point d'expérience gagné...
+    Le joueur désigné pour la synchronisation de niveau est incapable de recevoir des points d'expérience.${prompt}
   550: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    One or more party members have received the effect of a status which prevents synchronization.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Un ou plusieurs membres du groupe ont reçu l'effet d'un statut empêchant la synchronisation.${prompt}
   551: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    The party leader or the Level Sync designee has left the area.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Le chef de groupe ou le joueur désigné pour la synchronisation de niveau a quitté la zone.${prompt}
   552: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    Less than two party members fulfill the requirements for Level Sync.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Moins de deux membres du groupe remplissent les conditions pour la synchronisation de niveau.${prompt}
   553: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    The party leader has removed synchronization, or the Level Sync designee has left the party.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Le chef de groupe a retiré la synchronisation, ou le joueur désigné pour la synchronisation de niveau a quitté le groupe.${prompt}
   554: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    The Level Sync designee has fallen below level 10.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Le joueur désigné pour la synchronisation de niveau est tombé sous le niveau 10.${prompt}
   555: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    A party member has undergone a job change.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Un membre du groupe a changé de métier.${prompt}
   556: |-
-    Level Sync will be deactivated in ${number-alt: 1} seconds.
-    The Level Sync designee is incapable of receiving experience points.${prompt}
+    La synchronisation de niveau sera désactivée dans ${number-alt: 1} secondes.
+    Le joueur désigné pour la synchronisation de niveau est incapable de recevoir des points d'expérience.${prompt}
   557: '${unknown-84: 0}${entity-target} receives ${number-alt: 1} ${choice-plurality-number: 1}[piece/pieces] of alexandrite.${prompt}'
   558: 'You defeated a designated target. (Progress: ${number-alt: 0}/${number-alt: 1})${prompt}'
   559: You have successfully completed the training regime.${prompt}
