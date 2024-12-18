@@ -1211,39 +1211,39 @@ entries:
   696: |-
     ${color-alt: 123}You have yet to receive certain special bonuses from objectives you have completed.
     Make room in your inventory and receive your rewards from the Records of Eminence menu.${prompt}
-  697: 'Records of Eminence: ${roe: 0[2]}.${prompt}'
-  698: 'Progress: ${number-alt: 0}/${number-alt: 1}.${prompt}'
-  699: A new objective has been added!${prompt}
-  700: You are unable to use Trust magic at this time.${prompt}
-  701: There's no time to do that now!${prompt}
+  697: 'Archives d’Éminence : ${roe: 0[2]}.${prompt}'
+  698: 'Progression : ${number-alt: 0}/${number-alt: 1}.${prompt}'
+  699: Un nouvel objectif a été ajouté !${prompt}
+  700: Vous ne pouvez pas utiliser la magie des Trusts pour le moment.${prompt}
+  701: Il n'y a pas de temps pour cela maintenant !${prompt}
   702: ${prompt}
   703: ${prompt}
-  704: 'You have undertaken “${roe: 0[2]}.”${prompt}'
-  705: 'You have undertaken the limited-time Records of Eminence challenge “${roe: 0[2]}.”${prompt}'
-  706: '${color-alt: 121}You have obtained ${keyitem-with-article: 0[2]} as a special reward!${prompt}'
-  707: 'As a first-time bonus, you receive ${number-alt: 0} ${choice-plurality-number: 0}[spark/sparks] of eminence for a total of ${number-alt: 1}!${prompt}'
-  708: 'This place is now known as a location that brings memories flooding back to ${choice-definite-entity: 0}[the /]${entity-source}.${prompt}'
-  709: '${color-alt: 121}As a special bonus for your valiant efforts, you have been awarded the following: ${item-singular-alt: 0[2]} x${number-alt: 1}!${prompt}'
-  710: You are cleared to fulfill this objective once again.${prompt}
+  704: 'Vous avez entrepris « ${roe: 0[2]} ».${prompt}'
+  705: 'Vous avez entrepris le défi limité « ${roe: 0[2]} ».${prompt}'
+  706: '${color-alt: 121}Vous avez obtenu ${keyitem-with-article: 0[2]} en récompense spéciale !${prompt}'
+  707: 'En tant que bonus de première fois, vous recevez ${number-alt: 0} ${choice-plurality-number: 0}[étincelle/étincelles] d’éminence pour un total de ${number-alt: 1} !${prompt}'
+  708: 'Cet endroit est désormais connu comme un lieu qui ravive des souvenirs pour ${choice-definite-entity: 0}[le / la]${entity-source}.${prompt}'
+  709: '${color-alt: 121}En tant que bonus spécial pour vos efforts valeureux, vous avez été récompensé par : ${item-singular-alt: 0[2]} x${number-alt: 1} !${prompt}'
+  710: Vous êtes autorisé à accomplir à nouveau cet objectif.${prompt}
   711: '(${entity-source}) ${ally-dialog: 0[2]}${prompt}'
-  712: 'Primary Accuracy: ${number-alt: 0} / Primary Attack: ${number-alt: 1}.${prompt}'
-  713: 'Auxiliary Accuracy: ${number-alt: 0} / Auxiliary Attack: ${number-alt: 1}.${prompt}'
-  714: 'Ranged Accuracy: ${number-alt: 0} / Ranged Attack: ${number-alt: 1}.${prompt}'
-  715: 'Evasion: ${number-alt: 0} / Defense: ${number-alt: 1}.${prompt}'
-  716: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[starts/start] casting ${skill-alt: 1}.${prompt}'
-  717: You cannot call forth alter egos here.${prompt}
-  718: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} capacity point${choice-plurality-number: 0}[/s].${prompt}'
-  719: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[earns/earn] a job point! (Total: ${number-alt: 0})${prompt}'
-  720: 'Your ${title-alt: 0} modification has risen to level ${number-alt: 1}.${prompt}'
-  721: 'You receive a bonus of ${number-alt: 0} fishing guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  722: 'You receive a bonus of ${number-alt: 0} woodworking guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  723: 'You receive a bonus of ${number-alt: 0} smithing guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  724: 'You receive a bonus of ${number-alt: 0} goldsmithing guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  725: 'You receive a bonus of ${number-alt: 0} clothcraft guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  726: 'You receive a bonus of ${number-alt: 0} leathercraft guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  727: 'You receive a bonus of ${number-alt: 0} bonecraft guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  728: 'You receive a bonus of ${number-alt: 0} alchemy guild point${choice-plurality-number: 0}[/s]!${prompt}'
-  729: 'You receive a bonus of ${number-alt: 0} cooking guild point${choice-plurality-number: 0}[/s]!${prompt}'
+  712: 'Précision principale : ${number-alt: 0} / Attaque principale : ${number-alt: 1}.${prompt}'
+  713: 'Précision auxiliaire : ${number-alt: 0} / Attaque auxiliaire : ${number-alt: 1}.${prompt}'
+  714: 'Précision à distance : ${number-alt: 0} / Attaque à distance : ${number-alt: 1}.${prompt}'
+  715: 'Esquive : ${number-alt: 0} / Défense : ${number-alt: 1}.${prompt}'
+  716: '${choice-definite-entity: 0}[Le / La]${entity-source} ${choice-plurality-entity: 0}[commence/commencent] à lancer ${skill-alt: 1}.${prompt}'
+  717: Vous ne pouvez pas invoquer des alter ego ici.${prompt}
+  718: '${choice-definite-entity: 0}[Le / La]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] de capacité.${prompt}'
+  719: '${choice-definite-entity: 0}[Le / La]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] un point de métier ! (Total : ${number-alt: 0})${prompt}'
+  720: 'Votre modification de ${title-alt: 0} a atteint le niveau ${number-alt: 1}.${prompt}'
+  721: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de pêche !${prompt}'
+  722: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de menuiserie !${prompt}'
+  723: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de forge !${prompt}'
+  724: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de joaillerie !${prompt}'
+  725: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de couture !${prompt}'
+  726: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de travail du cuir !${prompt}'
+  727: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de travail des os !${prompt}'
+  728: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde d’alchimie !${prompt}'
+  729: 'Vous recevez un bonus de ${number-alt: 0} point${choice-plurality-number: 0}[/s] de guilde de cuisine !${prompt}'
   730: |-
     ${unknown-84: 0}${choice-definite-entity: 0}[L'/]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${ability: 0}.
     ${choice-definite-entity: 1}[L'/]${entity-target}${choice-plurality-entity: 1}[' TP est réduite à / Les TP sont réduits à '] ${number-alt: 1}.${prompt}
