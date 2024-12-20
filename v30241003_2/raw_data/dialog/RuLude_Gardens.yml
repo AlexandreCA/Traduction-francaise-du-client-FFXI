@@ -23374,68 +23374,68 @@ entries:
   11229: Actuellement, seuls les joueurs entre les niveaux 20 et 40 peuvent utiliser la maison d'enchères de Jeuno inférieur. Merci de votre coopération.${prompt}
   11230: Actuellement, seuls les joueurs de niveau inférieur à 26 peuvent utiliser le service d'enchères du Port Jeuno. Merci de votre coopération.${prompt}
   11231: |-
-    You hear a mysterious, floating voice:
-    Bring forth the ${item-singular: 0[2]}...${prompt}
-  11232: You do not meet the requirements.${prompt}
+    Vous entendez une voix mystérieuse et flottante :
+    Apportez le ${item-singular: 0[2]}...${prompt}
+  11232: Vous ne remplissez pas les conditions requises.${prompt}
   11233: |-
-    The time and destination for your foray into Dynamis will be recorded on your ${item-singular: 6[2]}.
-    === Destination: Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ===${prompt}
+    L'heure et la destination de votre expéditions dans Dynamis seront enregistrées sur votre ${item-singular: 6[2]}.
+    === Destination : Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ===${prompt}
   11234: |-
-    Record the time and destination?
+    Enregistrer l'heure et la destination ?
     ${selection-lines}
-    Proceed.
-    Not yet.
-    Entering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Reentering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Battles in Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
-  11235: Connecting with server. Please wait.
-  11236: Unable to connect.${prompt}
-  11237: You have not traded the necessary item.${prompt}
-  11238: 'Another group of player characters is currently occupying Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
-  11239: 'The time and destination for your foray into Dynamis has been recorded on your ${item-singular: 0[2]}.${prompt}'
-  11240: You do not possess an item that fulfills the requirements.${prompt}
-  11241: 'You will now be warped to Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+    Procéder.
+    Pas encore.
+    Entrée dans Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Réentrée dans Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Combats dans Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
+  11235: Connexion au serveur. Veuillez patienter.
+  11236: Impossible de se connecter.${prompt}
+  11237: Vous n'avez pas échangé l'objet nécessaire.${prompt}
+  11238: 'Un autre groupe de personnages joueurs occupe actuellement Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+  11239: 'L’heure et la destination de votre expéditions dans Dynamis ont été enregistrées sur votre ${item-singular: 0[2]}.${prompt}'
+  11240: Vous ne possédez pas un objet qui remplit les conditions requises.${prompt}
+  11241: 'Vous serez maintenant transporté vers Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
   11242: |-
-    Ready to warp to Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia]?
+    Prêt à être transporté vers Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ?
     ${selection-lines}
-    Ready!
-    Ready! (Support jobs unlocked).
-    Ready! (Support jobs restricted).
-    Not yet.
-    Entering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Reentering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Battles in Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
-  11243: 'You cannot enter Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] for ${number: 0} ${choice-plurality: 0}[day/days] (Vana''diel time).${prompt}'
+    Prêt !
+    Prêt ! (Métiers de soutien débloqués).
+    Prêt ! (Métiers de soutien restreints).
+    Pas encore.
+    Entrée dans Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Réentrée dans Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Combats dans Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
+  11243: 'Vous ne pouvez pas entrer dans Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] pendant ${number: 0} ${choice-plurality: 0}[jour/jours] (temps de Vana''diel).${prompt}'
   11244: |-
-    You hear a mysterious, floating voice:
-    The guiding aura has not yet faded... Bring forth the ${item-singular: 0[2]}.${prompt}
-  11245: 'Players who have not reached level ${number: 0} are prohibited from entering Dynamis.${prompt}'
-  11246: 'Players who do not possess ${keyitem-article: 0[2]} are prohibited from entering Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
-  11247: '${lettercase: 1}${item-plural: 0[2]} and ${item-plural: 1[2]} cannot be used here.${prompt}'
+    Vous entendez une voix mystérieuse et flottante :
+    L'aura guidante n'a pas encore disparu... Apportez le ${item-singular: 0[2]}.${prompt}
+  11245: 'Les joueurs n’ayant pas atteint le niveau ${number: 0} sont interdits d’entrée dans Dynamis.${prompt}'
+  11246: 'Les joueurs ne possédant pas ${keyitem-article: 0[2]} sont interdits d’entrée dans Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+  11247: '${lettercase: 1}${item-plural: 0[2]} et ${item-plural: 1[2]} ne peuvent pas être utilisés ici.${prompt}'
   11248: |-
     ${name-player}...
-    Now that I have passed from the mortal realm, I have only you to turn to.
-    The time left to me is short.
-  11249: Thirty years ago, I came into contact with the insidious power of this land, and rose from the grave. However, at the same time, this world laid claim to a part of my soul...${prompt}
+    Maintenant que je suis passé du royaume des mortels, je n'ai plus que toi à qui m'adresser.
+    Le temps qu'il me reste est court.
+  11249: Il y a trente ans, j'ai été en contact avec le pouvoir insidieux de cette terre, et je suis ressuscité. Cependant, en même temps, ce monde a revendiqué une partie de mon âme...${prompt}
   11250: |-
-    I have been released from the hate that consumed me, but the half of my soul that was taken captive all those years ago is calling to me...
-    It has become a towering darkness. A raging hatred, spawned from the depths of my being...${prompt}
-  11251: Very soon I will be drawn into that soul. I no longer have the strength to resist. The soul that was divided will become whole once more, and that rage will take on physical form.${prompt}
-  11252: A new Shadow Lord will be born. Surely you have sensed the growing evil? The beastman armies that are imprisoned here are massing for battle. They plan a return to the world of their origin, the realm that exists beneath the light of hope.${prompt}
+    J'ai été libéré de la haine qui me consumait, mais la moitié de mon âme qui a été capturée il y a tant d'années m'appelle...
+    Elle est devenue une obscurité imposante. Une haine déchaînée, née des profondeurs de mon être...${prompt}
+  11251: Très bientôt, je serai attiré dans cette âme. Je n'ai plus la force de résister. L'âme qui a été divisée sera réunifiée, et cette rage prendra forme physique.${prompt}
+  11252: Un nouveau Seigneur des Ombres naîtra. Vous avez sûrement ressenti le mal grandissant ? Les armées des bêtes-hommes qui sont emprisonnées ici se massent pour la bataille. Ils prévoient de retourner dans le monde d'où ils viennent, le royaume qui existe sous la lumière de l'espoir.${prompt}
   11253: |-
-    My link to you will soon be severed, so listen carefully.
-    Thirty years ago, an expeditionary squad formed from the elite soldiers of each nation was sent to investigate the Northlands. You must have seen their memories when you first laid your hand upon the chunks of magicite.${prompt}
+    Mon lien avec toi sera bientôt coupé, alors écoute attentivement.
+    Il y a trente ans, une escouade d'expédition formée des soldats d'élite de chaque nation a été envoyée enquêter sur les Terres du Nord. Vous avez dû voir leurs souvenirs lorsque vous avez posé la main sur les morceaux de magisite.${prompt}
   11254: |-
-    Seek out the markings that the expedition members left behind. They will aid you in gaining entrance to this world.
-    You must defeat the Shadow Lord before our unification is complete.
-    My hopes go with you, ${name-player}.${prompt}
-  11255: There is an unusual arrangement of branches here.${prompt}
-  11256: There is an unusual arrangement of pebbles here.${prompt}
-  11257: The strands of grass here have been tied together.${prompt}
-  11258: There is an unusual arrangement of leaves on the ground.${prompt}
+    Cherche les marques laissées par les membres de l'expédition. Elles t'aideront à pénétrer dans ce monde.
+    Tu dois vaincre le Seigneur des Ombres avant que notre unification soit complète.
+    Mes espoirs vont avec toi, ${name-player}.${prompt}
+  11255: Il y a une disposition inhabituelle de branches ici.${prompt}
+  11256: Il y a une disposition inhabituelle de cailloux ici.${prompt}
+  11257: Les brins d'herbe ici ont été liés ensemble.${prompt}
+  11258: Il y a une disposition inhabituelle de feuilles au sol.${prompt}
   11259: |-
-    I see you have met with Raogrimm.
-    His soul is no longer confined to that incarnation of rage, the Shadow Lord, yet the fact remains that he has committed sins beyond redemption.${prompt}
+    Je vois que tu as rencontré Raogrimm.
+    Son âme n'est plus confinée à cette incarnation de rage, le Seigneur des Ombres, mais il reste qu'il a commis des péchés au-delà de la rédemption.${prompt}
   11260: In spite of those sins, I still wish to rescue him from the darkness. I no longer have a mortal body with which to act, and so the most I can do is guide you in my stead.${prompt}
   11261: 'You will need the ${keyitem-singular: 0[2]}, a key that bridges the void between Vana''diel and that other world.${prompt}'
   11262: 'It is said that there are items in this world that gain a soul of their own through contact with the thoughts and dreams of other living creatures. The ${keyitem-singular: 0[2]} is one of those items.${prompt}'
