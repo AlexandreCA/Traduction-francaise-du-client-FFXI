@@ -35344,107 +35344,107 @@ entries:
   16773: Je ne dirais pas que j'ai un “mauvais pressentiment,” mais il y a un petit obstacle à franchir. Elle dit qu'elle recherche de nouveaux participants pour un défilé qui va bientôt commencer et qu'elle n'a pas beaucoup de temps à nous consacrer.${prompt}
   16774: Et c'est là que vous intervenez !${prompt}
   16775: Si vous pouvez aider Brygid avec son défilé, alors elle devra absolument nous aider ! Allez, viens !${prompt}
-  16776: |-
-    Cornelia! Corn--${wait-36: 1}
-    Darn it, she ran off again. Leave it to her to just assume we'll follow this plan to the letter.${prompt}
-  16777: But I guess we don't have any choice now, do we? I know it's an odd request, but think of it as helping to protect an innocent child. Let's go find Brygid.${prompt}
-  16778: I know that Cornelia's plan may sound a bit half-baked, but I can't come up with anything better. Let's go find Brygid.${prompt}
-  16779: ${choice-player-gender}[Mr./Ms.] Adventurer, you remember our friend Raebrimm, right? The Galkan child in the unforgettable Goblin getup?${prompt}
+  116776: |-
+    Cornelia ! Corn--${wait-36: 1}
+    Zut, elle est encore partie en courant. C'est bien son genre de supposer qu'on suivra son plan à la lettre.${prompt}
+  16777: Mais je suppose qu'on n'a pas vraiment le choix maintenant, n'est-ce pas ? Je sais que c'est une demande étrange, mais pensez-y comme une façon de protéger un enfant innocent. Allons trouver Brygid.${prompt}
+  16778: Je sais que le plan de Cornelia peut sembler un peu improvisé, mais je ne peux rien trouver de mieux. Allons trouver Brygid.${prompt}
+  16779: ${choice-player-gender}[M./Mme] Aventurier, vous vous souvenez de notre ami Raebrimm, n'est-ce pas ? L'enfant Galka avec cette tenue de Gobelin inoubliable ?${prompt}
   16780: |-
-    Do you remember Raebrimm?
+    Vous vous souvenez de Raebrimm ?
     ${selection-lines}
-    Of course.
-    Who's that, again?${prompt}
-  16781: Oh, good. I'm glad to hear that your mind is sound.${prompt}
-  16782: How could you forget? After all, you were the one who went to the Zeruhn Mines and saved him from a vicious assault.${prompt}
-  16783: I've got some news on the black-clad Goblin that was threatening him.${prompt}
-  16784: Evidently we've been able to learn about where the menace was headed next.${prompt}
-  16785: Cornelia asked the Mythril Musketeers for their help in tracking the beastman down--and I'm pleased to report that they agreed to aid us.${prompt}
-  16786: Gumbah, I'm back!
-  16787: Oh, and look who's with you!${prompt}
-  16788: ${name-player}, your timing is impeccable, as always. I wanted to share this with the both of you.${prompt}
-  16789: Iron Eater, if you would.${prompt}
-  16790: <Sigh> How could I say no to that face?${prompt}
-  16791: We Mythril Musketeers have worked tirelessly to gather information on your little Goblin problem. While we haven't identified who exactly that little beastie is...${prompt}
-  16792: We do know that a strange Goblin was seen flitting about the markets, darting from shadow to shadow in an attempt to avoid detection.${prompt}
-  16793: I would imagine that a Goblin dressed in black from head to toe would arouse some amount of suspicion.${prompt}
-  16794: Aye, and surely we would have heard more reports if the beast moved via ordinary means...but his modes of transportation are a bit more arcane, which would explain why he is able to mostly avoid detection in his search for Raebrimm.${prompt}
-  16795: The good news is that Brygid's disguise seems to be working, because Raebrimm remains unharmed.${prompt}
-  16796: In fact, that's why we have any information at all--the Goblin must be getting desperate and resorting to more overt means of tracking his quarry, and just now we got word that someone matching his description was spotted in Korroloka Tunnel.${prompt}
-  16797: That's great news!${prompt}
-  16798: Is it really? I mean, we haven't exactly stopped his advance.${prompt}
-  16799: Fear not--we have no intention of letting him walk. In fact, I ordered Naji to go after him posthaste.${prompt}
-  16800: And by “we,” I mean the Mythril Musketeers. Miss Cornelia, you are to remain within the city walls.${prompt}
-  16801: You're going to let Naji take the lead AND make me stay here!?${prompt}
-  16802: No way. I've got to see this through to its conclusion.${prompt}
-  16803: While I share your distaste at letting Naji run point...${prompt}
-  16804: He is a Mythril Musketeer, unreliable though he may be.${prompt}
-  16805: Still, I agree that it couldn't hurt to send backup of some sort. Adventurer, I'd wager you're more than willing to volunteer.${prompt}
-  16806: What a splendid idea!${prompt}
-  16807: Most assuredly. We've got to let Raebrimm know that we will do anything to ensure his safety.${prompt}
-  16808: We're counting on you, ${name-player}!${prompt}
-  16809: I know it's only Korroloka Tunnel, but Naji is definitely going to be in over his head.${prompt}
-  16810: Would you mind heading over? Not for my sake, but for Raebrimm's.${prompt}
-  16811: Raebrimm filled us in on what happened. You have my sincere thanks.${prompt}
-  16812: But “Gloom Phantom,” eh? What a straightforward moniker.${prompt}
-  16813: And the three of them call themselves “The Destiny Destroyers.” Well, at least their naming sense is on point.${prompt}
-  16814: I've known beastmen to be a bit odd, but an egg hunt? Something tells me they don't simply want initial eggs.${prompt}
-  16815: ${name-player}! I heard that everything went well.${prompt}
-  16816: You're just the person I wanted to see, too. There's something I don't quite understand.${prompt}
-  16817: Cornelia? Did something happen?${prompt}
-  16818: Well, it's about Naji...${prompt}
-  16819: He hasn't returned to file his report, and it's well past time for him to make his way back the city.${prompt}
+    Bien sûr.
+    C'était qui, déjà ?${prompt}
+  16781: Ah, bien. Je suis ravi d'entendre que vous avez toute votre tête.${prompt}
+  16782: Comment pourriez-vous oublier ? Après tout, c'est vous qui êtes allé(e) dans les Mines de Zeruhn pour le sauver d'une attaque vicieuse.${prompt}
+  16783: J'ai des nouvelles concernant le Gobelin vêtu de noir qui le menaçait.${prompt}
+  16784: Il semble que nous avons pu apprendre où cette menace se dirigeait ensuite.${prompt}
+  16785: Cornelia a demandé l'aide des Mousquetaires de Mythril pour traquer le homme-bête, et je suis heureux de dire qu'ils ont accepté de nous aider.${prompt}
+  16786: Gumbah, je suis de retour !
+  16787: Oh, et regardez qui est avec vous !${prompt}
+  16788: ${name-player}, votre timing est impeccable, comme toujours. Je voulais partager ceci avec vous deux.${prompt}
+  16789: Mangefer, si tu veux bien.${prompt}
+  16790: <Soupir> Comment pourrais-je dire non à ce visage ?${prompt}
+  16791: Nous, les Mousquetaires de Mythril, avons travaillé sans relâche pour recueillir des informations sur votre petit problème de Gobelin. Bien que nous n'ayons pas encore identifié exactement ce petit homme-bête...${prompt}
+  16792: Nous savons qu'un Gobelin étrange a été aperçu rôdant dans les marchés, passant d'une ombre à l'autre pour éviter d'être détecté.${prompt}
+  16793: Je suppose qu'un Gobelin habillé tout en noir éveillerait une certaine suspicion.${prompt}
+  16794: Oui, et nous aurions sûrement entendu plus de rapports si la bête se déplaçait par des moyens ordinaires... mais ses modes de transport sont un peu plus occultes, ce qui explique pourquoi il arrive à éviter en grande partie la détection dans sa recherche de Raebrimm.${prompt}
+  16795: La bonne nouvelle est que le déguisement de Brygid semble fonctionner, car Raebrimm reste sain et sauf.${prompt}
+  16796: En fait, c'est pourquoi nous avons des informations--le Gobelin doit désespérer et recourir à des moyens plus ouverts pour traquer sa proie, et nous venons juste d'apprendre que quelqu'un correspondant à sa description a été aperçu dans le Tunnel de Korroloka.${prompt}
+  16797: C'est une excellente nouvelle !${prompt}
+  16798: Vraiment ? Je veux dire, nous n'avons pas exactement arrêté sa progression.${prompt}
+  16799: Ne vous inquiétez pas--nous n'avons aucune intention de le laisser passer. En fait, j'ai ordonné à Naji de partir à sa poursuite immédiatement.${prompt}
+  16800: Et par "nous," je veux dire les Mousquetaires de Mythril. Mlle Cornelia, vous devez rester à l'intérieur des murs de la ville.${prompt}
+  16801: Vous allez laisser Naji diriger ET me faire rester ici !?${prompt}
+  16802: Pas question. Je dois voir ça jusqu'à la fin.${prompt}
+  16803: Bien que je partage votre aversion à laisser Naji mener...${prompt}
+  16804: Il est un Mousquetaire de Mythril, aussi peu fiable soit-il.${prompt}
+  16805: Cependant, je suis d'accord pour dire qu'il ne ferait pas de mal d'envoyer un renfort quelconque. Aventurier, je parierais que vous êtes plus que disposé(e) à vous porter volontaire.${prompt}
+  16806: Quelle excellente idée !${prompt}
+  16807: Tout à fait. Nous devons faire savoir à Raebrimm que nous ferons tout pour assurer sa sécurité.${prompt}
+  16808: Nous comptons sur vous, ${name-player} !${prompt}
+  16809: Je sais que ce n'est que le Tunnel de Korroloka, mais Naji sera définitivement dépassé.${prompt}
+  16810: Cela vous dérangerait-il d'y aller ? Pas pour moi, mais pour Raebrimm.${prompt}
+  16811: Raebrimm nous a expliqué ce qui s'est passé. Vous avez toute ma gratitude.${prompt}
+  16812: Mais "Fantôme Lugubre," hein ? Quel surnom direct.${prompt}
+  16813: Et ils se font appeler "Les Destructeurs de Destinée." Eh bien, au moins leur sens des noms est au point.${prompt}
+  16814: J'ai connu des hommes-bêtes un peu bizarres, mais une chasse aux œufs ? Quelque chose me dit qu'ils ne veulent pas seulement des œufs initiaux.${prompt}
+  16815: ${name-player} ! J'ai entendu dire que tout s'est bien passé.${prompt}
+  16816: Vous êtes justement la personne que je voulais voir. Il y a quelque chose que je ne comprends pas tout à fait.${prompt}
+  16817: Cornelia ? Quelque chose s'est passé ?${prompt}
+  16818: Eh bien, c'est à propos de Naji...${prompt}
+  16819: Il n'est pas encore revenu pour faire son rapport, et il est largement temps qu'il retourne en ville.${prompt}
   16820: |-
-    Any info on Naji?
+    Des nouvelles sur Naji ?
     ${selection-lines}
-    He went after the three.
-    He wasn't of much use.
-    No clue.${prompt}
-  16821: The three? You mean the Goblin and friends?${prompt}
-  16822: While his desire to get to the heart of the matter is commendable, that doesn't change the fact that he left the Galkan child behind.${prompt}
-  16823: Nor did he send word back of his intentions.${prompt}
-  16824: I hope everything's okay. What if he was hurt? Or captured?${prompt}
-  16825: No, others have already reported seeing him back in the city with no apparent injuries.${prompt}
-  16826: Until he reports in, I suppose I'll have to ask you, Gumbah, to get the full story from Raebrimm.${prompt}
-  16827: Hmmm... Although I did order Naji to track down the source of the problem, he may have gotten in over his head.${prompt}
-  16828: But the most critical mission--ensuring Raebrimm's safety--appears to have been a rousing success. You have my thanks.${prompt}
-  16829: We couldn't have done it without you, ${name-player}.${prompt}
-  16830: Gumbah, I'd like to hear what happened directly from Raebrimm's mouth. Perhaps we might glean some deeper insight into this matter.${prompt}
-  16831: Leave it to Naji to go traipsing off without backup.${prompt}
-  16832: According to Raebrimm, the Goblin succeeded in...whatever it was that they were trying to do.${prompt}
-  16833: As long as they'll leave him alone, though, does it really matter whether or not they're brought into custody?${prompt}
-  16834: That may very well be, but I'm afraid we're left with more questions than answers. I'd like to talk to Raebrimm myself.${prompt}
-  16835: Of course. I'll get him right away.${prompt}
-  16836: ${name-player}, there's something that's been bothering me.${prompt}
-  16837: What exactly was the deal with that egg...or eggshell, I suppose?${prompt}
+    Il est parti après les trois.
+    Il n'a pas été d'une grande utilité.
+    Aucune idée.${prompt}
+  16821: Les trois ? Vous voulez dire le Gobelin et ses amis ?${prompt}
+  16822: Bien que son désir de comprendre la situation soit louable, cela ne change rien au fait qu'il a laissé l'enfant Galkan derrière.${prompt}
+  16823: Et il n'a pas non plus donné de nouvelles de ses intentions.${prompt}
+  16824: J'espère que tout va bien. Et s'il a été blessé ? Ou capturé ?${prompt}
+  16825: Non, d'autres ont déjà signalé l'avoir vu de retour en ville sans blessure apparente.${prompt}
+  16826: Tant qu'il ne donne pas son rapport, je suppose que je vais devoir te demander, Gumbah, d'obtenir l'histoire complète de la part de Raebrimm.${prompt}
+  16827: Hmmm... Bien que j'aie ordonné à Naji de traquer la source du problème, il se pourrait qu'il ait été dépassé par les événements.${prompt}
+  16828: Mais la mission la plus critique--assurer la sécurité de Raebrimm--semble avoir été un grand succès. Vous avez ma gratitude.${prompt}
+  16829: Nous n'aurions pas pu le faire sans vous, ${name-player}.${prompt}
+  16830: Gumbah, j'aimerais entendre ce qui s'est passé directement de la bouche de Raebrimm. Peut-être pourrions-nous en apprendre davantage sur cette affaire.${prompt}
+  16831: C'est bien le genre de Naji de partir sans renfort.${prompt}
+  16832: D'après Raebrimm, le Gobelin a réussi dans... enfin, ce qu'il essayait de faire.${prompt}
+  16833: Tant qu'ils le laissent tranquille, après tout, est-ce vraiment important de savoir s'ils sont arrêtés ou non ?${prompt}
+  16834: C'est peut-être vrai, mais je crains que nous n'ayons plus de questions que de réponses. J'aimerais parler à Raebrimm moi-même.${prompt}
+  16835: Bien sûr. Je vais aller le chercher immédiatement.${prompt}
+  16836: ${name-player}, il y a quelque chose qui me tracasse.${prompt}
+  16837: Qu'en était-il exactement avec cet œuf... ou cette coquille d'œuf, je suppose ?${prompt}
   16838: |-
-    Any idea?
+    Des idées ?
     ${selection-lines}
-    Egg...sandwich?
-    Galkan rebirth...?
-    No idea.${prompt}
-  16839: Huh? You think they had a case of the munchies?${prompt}
-  16840: If it was a whole egg, then I would understand, but wasn't it just an eggshell?${prompt}
-  16841: The journey of Galkan rebirth...${prompt}
-  16842: I wish I knew more about it, but Gumbah practically had my hide the last time I asked him about his own journey...${prompt}
-  16843: I suppose you'd rather not talk about it.${prompt}
-  16844: Maybe you think I'm just some girl in over my head, like everyone else...${prompt}
-  16845: Cornelia, the conclusion we came to is that the Goblin wasn't after the eggshell itself, but rather a whole egg.${prompt}
-  16846: They were trailing Raebrimm because they caught the scent of it, but what they found was just a “shell” of what they thought it would be.${prompt}
-  16847: That's the lamest pun I've ever heard.${prompt}
-  16848: |-
-    I couldn't resist.
-    Perhaps that mystery will have to wait for later, and we'll have to content ourselves with Raebrimm's freedom.${prompt}
-  16849: You're right.${prompt}
-  16850: ${name-player}, we'll let you know if we hear anything else.${prompt}
-  16851: As will the Mythril Musketeers. Naji's heart is in the right place.${prompt}
-  16852: I'd like to give you something other than just platitudes for your efforts.${prompt}
-  16853: Me too. It's a special recipe favored by my extended family.${prompt}
-  16854: Until next time!${prompt}
-  16855: Your help was critical in ensuring Raebrimm's safety. Here's a little something from me and Cornelia.${prompt}
-  16856: This is an explanation of the Assist Channel feature, which allows new and returning players to seek help from veteran adventurers.${prompt}
-  16857: 'You must take on the “${unknown: 0x01054082808080}” Records of Eminence objective before receiving the explanation.${prompt}'
-  16858: 'You must complete “${unknown: 0x01054082818080}” before taking on the “${unknown: 0x01054082808080}” Records of Eminence objective.${prompt}'
+    Un œuf...sandwich ?
+    La renaissance Galkan... ?
+    Aucune idée.${prompt}
+  16839: Hein ? Tu penses qu'ils avaient une envie de manger ?${prompt}
+  16840: Si c'était un œuf entier, je comprendrais, mais n'était-ce pas juste une coquille d'œuf ?${prompt}
+  16841: Le voyage de la renaissance Galkan...${prompt}
+  16842: J'aimerais en savoir plus à ce sujet, mais Gumbah m'a pratiquement arraché la peau la dernière fois que je lui ai demandé à propos de son propre voyage...${prompt}
+  16843: Je suppose que tu préférerais ne pas en parler.${prompt}
+  16844: Peut-être que tu penses que je ne suis qu'une simple fille dépassée par les événements, comme tout le monde...${prompt}
+  16845: Cornelia, la conclusion à laquelle nous sommes arrivés est que le Gobelin ne cherchait pas la coquille d'œuf en elle-même, mais plutôt un œuf entier.${prompt}
+  16846: Ils suivaient Raebrimm parce qu'ils ont senti son odeur, mais ce qu'ils ont trouvé n'était qu'une "coquille" de ce qu'ils pensaient que ce serait.${prompt}
+  16847: C'est le jeu de mots le plus nul que j'aie jamais entendu.${prompt}
+  16848:  |-
+    Je n'ai pas pu résister.
+    Peut-être que ce mystère devra attendre pour plus tard, et nous devrons nous contenter de la liberté de Raebrimm.${prompt}
+  16849: Tu as raison.${prompt}
+  16850: ${name-player}, nous te tiendrons au courant si nous apprenons quelque chose d'autre.${prompt}
+  16851: Ce sera aussi le cas pour les Mythril Musketeers. Le cœur de Naji est à la bonne place.${prompt}
+  16852: J'aimerais te donner quelque chose de plus que de simples platitudes pour tes efforts.${prompt}
+  16853: Moi aussi. C'est une recette spéciale que ma famille élargie apprécie.${prompt}
+  16854: À la prochaine fois !${prompt}
+  16855: Ton aide a été cruciale pour assurer la sécurité de Raebrimm. Voici un petit quelque chose de ma part et de celle de Cornelia.${prompt}
+  16856: Voici une explication de la fonctionnalité du Canal d'Aide, qui permet aux nouveaux joueurs et aux joueurs de retour de demander de l'aide à des aventuriers vétérans.${prompt}
+  16857: 'Tu dois entreprendre l’objectif “${unknown: 0x01054082808080}” des Records d’Éminence avant de recevoir l’explication.${prompt}'
+  16858: 'Tu dois compléter “${unknown: 0x01054082818080}” avant d’entreprendre l’objectif “${unknown: 0x01054082808080}” des Records d’Éminence.${prompt}'
   16859: |-
     Que souhaites-tu apprendre ?
     ${selection-lines}
