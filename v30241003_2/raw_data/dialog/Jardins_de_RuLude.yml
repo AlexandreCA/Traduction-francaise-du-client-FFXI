@@ -21476,7 +21476,7 @@ entries:
   10088: Grâce à votre courage désintéressé à la Tour de Delkfutt, je veux vous recommander pour cette mission.${prompt}
   10089: Servirez-vous ?${prompt}
   10090: Alors, qu'en dites-vous ?${prompt}
-  10091: Acceptez-vous ?${prompt} 
+  10091: Acceptez-vous ?${prompt}
   10092: Réussissez, et vous nous honorerez tous, ${name-player}. Je suis optimiste que vous gagnerez la faveur de l'archiduc.${prompt}
   10093: Cela représente un grand honneur, ${name-player}. Je suis sûr que vous gagnerez la confiance de l'archiduc.${prompt}
   10094: Vos actes brilleront pour nous tous, ${name-player}. Je suis sûr que vous pourrez apaiser les inquiétudes de l'archiduc.${prompt}
@@ -21547,7 +21547,7 @@ entries:
   10155: Oui, Votre Grâce.${prompt}
   10156: Maudits soient-ils ! Ils ont une longueur d'avance sur nous.${prompt}
   10157: Alors, ils cherchent à ressusciter le Seigneur des Ombres... Un objectif bien ambitieux pour des monstres.${prompt}
-  10158: Soit. Peut-être devriez-vous retourner à votre ambassade.${prompt} 
+  10158: Soit. Peut-être devriez-vous retourner à votre ambassade.${prompt}
   10159: Je ferai appel à vous de nouveau bientôt. D'ici là, portez-vous bien.${prompt}
   10160: Hé, que se passe-t-il ? Oh, inutile de me le dire.${prompt}
   10161: Ah, vous êtes allé au Château d'Oztroja et vous avez rencontré une fille nommée Verena là-bas.${prompt}
@@ -21740,28 +21740,7 @@ entries:
     Vous avez enregistré un nouveau point de retour !
     Vous pouvez désormais vous y téléporter depuis n'importe quel autre point de retour.${prompt}
   10295: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
-  10296: |-
-    Où voulez-vous vous téléporter ?
-    ${selection-lines}
-    Finalement, rien.
-    ${zone: 1[2]}.
-    ${zone: 2[2]}.
-    ${zone: 3[2]}.
-    ${zone: 4[2]}.
-    ${zone: 5[2]}.
-    ${zone: 6[2]}.
-    ${zone: 7[2]}.
-    ${zone: 8[2]}.
-    ${zone: 9[2]}.
-    ${zone: 10[2]}.
-    ${zone: 11[2]}.
-    ${zone: 12[2]}.
-    ${zone: 13[2]}.
-    ${zone: 14[2]}.
-    ${zone: 15[2]}.
-    ${zone: 16[2]}.
-    Page précédente.    
-    Page suivante.${prompt}
+  10296: "Où voulez-vous vous téléporter ?\n${selection-lines}\nFinalement, rien.\n${zone: 1[2]}.\n${zone: 2[2]}.\n${zone: 3[2]}.\n${zone: 4[2]}.\n${zone: 5[2]}.\n${zone: 6[2]}.\n${zone: 7[2]}.\n${zone: 8[2]}.\n${zone: 9[2]}.\n${zone: 10[2]}.\n${zone: 11[2]}.\n${zone: 12[2]}.\n${zone: 13[2]}.\n${zone: 14[2]}.\n${zone: 15[2]}.\n${zone: 16[2]}.\nPage précédente.    \nPage suivante.${prompt}"
   10297: |-
     Où voulez-vous vous téléporter ?（${zone: 33[2]}）
     ${selection-lines}
@@ -21905,83 +21884,83 @@ entries:
   10341: ${prompt}
   10342: ${prompt}
   10343: |-
-    Master, Master!
-    I have a favor to ask, kupo!${prompt}
+    Maître, Maître !
+    J'ai une faveur à demander, kupo !${prompt}
   10344: |-
-    Sleeping on that ${item-singular: 3[2]} has made me homesick, kupo.
-    Will my benevolent master give ${choice-player-gender}[his/her] moogle some time off to visit with Mama and Papa Moogle, kupo?${prompt}
-  10345: "Give your moogle a vacation？\n${selection-lines}\nSure, kupo! \nNo, your time is mine!${prompt}"
-  10346: Oh, what a cruel, cruel master, kupo!!!${prompt}
+    Dormir sur ce ${item-singular: 3[2]} m'a donné le mal du pays, kupo.
+    Mon maître bienveillant permettra-t-il à ${choice-player-gender}[son/sa] moogle de prendre un peu de repos pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
+  10345: "Donner des vacances à votre moogle？\n${selection-lines}\nBien sûr, kupo ! \nNon, ton temps m'appartient !${prompt}"
+  10346: Oh, quel maître cruel, cruel, kupo !!!${prompt}
   10347: |-
-    Thank you, kupo!
-    I...have one more favor to ask.
-    It's almost time for the festival in the moogles' hometown, kupo!${prompt}
-  10348: 'Papa Moogle will be entering the archery contest, so I want to bring him ${article} ${item-article: 5[2]} as a gift, kupo!${prompt}'
-  10349: 'Mama Moogle always likes to dress up for the occasion, and ${article} ${item-article: 6[2]} would make the perfect present, kupo!${prompt}'
+    Merci, kupo !
+    J'ai... encore une faveur à demander.
+    C'est presque le moment du festival dans la ville natale des moogles, kupo !${prompt}
+  10348: 'Papa Moogle participera au concours de tir à l’arc, alors je veux lui offrir ${article} ${item-article: 5[2]} en cadeau, kupo !${prompt}'
+  10349: 'Maman Moogle adore toujours se déguiser pour l’occasion, et ${article} ${item-article: 6[2]} ferait le cadeau parfait, kupo !${prompt}'
   10350: |-
-    But I have no idea how to go about finding ${article} ${item-article: 5[2]} or ${article} ${item-article: 6[2]}, kupo...
-    I can't go home empty-handed, kupo...${prompt}
-  10351: 'Papa Moogle will be entering the archery contest, so I want to bring him ${article} ${item-article: 5[2]} as a gift, kupo!${prompt}'
-  10352: 'Mama Moogle always likes to dress up for the occasion, and ${article} ${item-article: 6[2]} would make the perfect present, kupo!${prompt}'
+    Mais je n'ai aucune idée de comment trouver ${article} ${item-article: 5[2]} ou ${article} ${item-article: 6[2]}, kupo...
+    Je ne peux pas rentrer les mains vides, kupo...${prompt}
+  10351: 'Papa Moogle participera au concours de tir à l’arc, alors je veux lui offrir ${article} ${item-article: 5[2]} en cadeau, kupo !${prompt}'
+  10352: 'Maman Moogle adore toujours se déguiser pour l’occasion, et ${article} ${item-article: 6[2]} ferait le cadeau parfait, kupo !${prompt}'
   10353: |-
-    But I have no idea how to go about finding ${article} ${item-article: 5[2]} or ${article} ${item-article: 6[2]}, kupo...
-    I can't go home empty-handed, kupo...${prompt}
+    Mais je n'ai aucune idée de comment trouver ${article} ${item-article: 5[2]} ou ${article} ${item-article: 6[2]}, kupo...
+    Je ne peux pas rentrer les mains vides, kupo...${prompt}
   10354: |-
-    Master!
-    I'm overwhelmed by your kindness, kupo!!!${prompt}
+    Maître !
+    Je suis submergé par votre gentillesse, kupo !!!${prompt}
   10355: |-
-    I'll bring you a nice present from the moogles' hometown, kupo!
-    I'll be back in a few days, kupo!${prompt}
+    Je vous rapporterai un beau cadeau de la ville natale des moogles, kupo !
+    Je reviendrai dans quelques jours, kupo !${prompt}
   10356: |-
-    Master!
-    I'm back from my vacation, kupo!${prompt}
-  10357: Here's your present--a shiny new Mog Safe, kupo! Now you can store as many as 60 items, kupo!${prompt}
+    Maître !
+    Je suis de retour de mes vacances, kupo !${prompt}
+  10357: Voici votre cadeau:un tout nouveau Coffre Mog, kupo ! Maintenant, vous pouvez stocker jusqu’à 60 objets, kupo !${prompt}
   10358: |-
-    Looking at that shabby old bed makes me feel homesick, kupo.
-    Will my benevolent master give ${choice-player-gender}[his/her] moogle some time off to visit with Mama and Papa Moogle, kupo?${prompt}
+    Regarder ce vieux lit délabré me donne le mal du pays, kupo.
+    Mon maître bienveillant permettra-t-il à ${choice-player-gender}[son/sa] moogle de prendre un peu de repos pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
   10359: |-
-    Master, Master!
-    I have a favor to ask, kupo!${prompt}
+    Maître, Maître !
+    J'ai une faveur à demander, kupo !${prompt}
   10360: |-
-    Sleeping on that ${item-singular: 3[2]} has made me homesick, kupo.
-    Will my benevolent master give ${choice-player-gender}[his/her] moogle some time off to visit with Mama and Papa Moogle, kupo?${prompt}
-  10361: "Give your moogle a vacation？\n${selection-lines}\nSure, kupo! \nNo, your time is mine!${prompt}"
+    Dormir sur ce ${item-singular: 3[2]} m'a donné le mal du pays, kupo.
+    Mon maître bienveillant permettra-t-il à ${choice-player-gender}[son/sa] moogle de prendre un peu de repos pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
+  10361: "Donner des vacances à votre moogle？\n${selection-lines}\nBien sûr, kupo ! \nNon, ton temps m'appartient !${prompt}"
   10362: |-
-    Thank you, kupo!
-    I have one more favor to ask... I want to take my family on a picnic, kupo!${prompt}
-  10363: 'Papa Moogle is mad for fishing, so I want to give him ${article} ${item-article: 5[2]}, kupo!${prompt}'
-  10364: 'Mama Moogle would bake a scrumptious mooglepie to take with us, but she''d need ${article} ${item-article: 6[2]}, kupo!${prompt}'
+    Merci, kupo !
+    J'ai encore une faveur à demander... Je veux emmener ma famille en pique-nique, kupo !${prompt}
+  10363: 'Papa Moogle adore la pêche, alors je veux lui offrir ${article} ${item-article: 5[2]}, kupo !${prompt}'
+  10364: 'Maman Moogle préparerait une délicieuse mooglepie pour l’occasion, mais elle aurait besoin de ${article} ${item-article: 6[2]}, kupo !${prompt}'
   10365: |-
-    But...I haven't the foggiest idea of how to get either of these things, kupo...
-    Whatever am I to do, kupo?${prompt}
-  10366: 'Papa Mog is mad for fishing, so I want to give him ${article} ${item-article: 5[2]}, kupo!${prompt}'
-  10367: 'Mama Moogle would bake a scrumptious mooglepie to take with us, but she''d need ${article} ${item-article: 6[2]}, kupo!${prompt}'
+    Mais... je n'ai pas la moindre idée de comment obtenir ces choses, kupo...
+    Que vais-je faire, kupo ?${prompt}
+  10366: 'Papa Mog adore la pêche, alors je veux lui offrir ${article} ${item-article: 5[2]}, kupo !${prompt}'
+  10367: 'Maman Moogle préparerait une délicieuse mooglepie pour l’occasion, mais elle aurait besoin de ${article} ${item-article: 6[2]}, kupo !${prompt}'
   10368: |-
-    But...I haven't the foggiest idea of how to get either of these things, kupo...
-    Whatever am I to do, kupo?${prompt}
+    Mais... je n'ai pas la moindre idée de comment obtenir ces choses, kupo...
+    Que vais-je faire, kupo ?${prompt}
   10369: |-
-    Master!
-    I'm overwhelmed by your kindness, kupo!!!${prompt}
+    Maître !
+    Je suis submergé par votre gentillesse, kupo !!!${prompt}
   10370: |-
-    I'll bring you a nice present from the moogles' hometown, kupo!
-    I'll be back in a few days, kupo!${prompt}
+    Je vous rapporterai un beau cadeau de la ville natale des moogles, kupo !
+    Je reviendrai dans quelques jours, kupo !${prompt}
   10371: |-
-    Master!
-    I'm back from my vacation, kupo!${prompt}
-  10372: Here's your present--the behemoth of Mog Safes, kupo! Now you can store as many as 70 items, kupo!${prompt}
-  10373: The capacity of your Mog Safe has increased!${prompt}
+    Maître !
+    Je suis de retour de mes vacances, kupo !${prompt}
+  10372: Voici votre cadeau:le mastodonte des Coffres Mog, kupo ! Maintenant, vous pouvez stocker jusqu’à 70 objets, kupo !${prompt}
+  10373: La capacité de votre Coffre Mog a augmenté !${prompt}
   10374: |-
-    Master, Master!
-    I have a favor to ask, kupo!${prompt}
-  10375: 'After resting on the ${item-singular: 3[2]}, I noticed a letter had arrived from some old moogle friends, kupo! Will my magnanimous master give me some time off to go visit my old buddies?${prompt}'
+    Maître, Maître !
+    J'ai une faveur à demander, kupo !${prompt}
+  10375: 'Après m’être reposé sur le ${item-singular: 3[2]}, j’ai remarqué qu’une lettre était arrivée de vieux amis moogles, kupo ! Mon maître magnanime me permettra-t-il de prendre un peu de temps pour aller rendre visite à mes vieux camarades ?${prompt}'
   10376: |-
-    Give your moogle some time off?
+    Donner un peu de temps libre à votre moogle ?
     ${selection-lines}
-    Have fun, kupo!
-    No, I am your only friend now!${prompt}
+    Amuse-toi bien, kupo !
+    Non, je suis ton seul ami maintenant !${prompt}
   10377: |-
-    Oh, thank you, master!
-    My moogle friends live across the seas, so I have another favor to ask you, kupo!${prompt}
+    Oh, merci, maître !
+    Mes amis moogles vivent de l'autre côté des mers, alors j'ai une autre faveur à vous demander, kupo !${prompt}
   10378: 'Le soleil tape sans pitié dans la terre au-delà de la mer de l’ouest, donc je dois emporter ${article} ${item-article: 5[2]} pour mes amis là-bas, kupo !${prompt}'
   10379: 'Et mes autres amis ont besoin de ${article} ${item-article: 6[2]} pour les pluies torrentielles qui ravagent les terres de l’autre côté de la mer de l’est, kupo !${prompt}'
   10380: 'Je ne peux pas aider mes amis si je n’ai pas ${article} ${item-article: 5[2]} et ${article} ${item-article: 6[2]}, kupo...${prompt}'
@@ -22006,170 +21985,170 @@ entries:
   10393: C'est bien, très bien ! Aujourd'hui, tu as franchi ton premier pas dans un monde plus vaste !${prompt}
   10394: Quoi, tu comprends pas ? Sors là-bas et bats-toi. Alors tu verras !${prompt}
   10395: Ta limite de niveau est maintenant de 55.${prompt}
-  10396: 'Comment ça se sent d’être au sommet, ${choice-player-gender}[mon petit/loulou] ? Eh bien, t’es même pas encore arrivé. Tu viens juste de commencer !${prompt}'
+  10396: Comment ça se sent d’être au sommet, ${choice-player-gender}[mon petit/loulou] ? Eh bien, t’es même pas encore arrivé. Tu viens juste de commencer !${prompt}
   10397: Tu penses avoir eu du mal avec cette dernière quête ? Quand j'avais ton âge, je devais ramasser deux fois plus d'objets en moitié moins de temps ! Alors, arrête de te plaindre !${prompt}
   10398: Tu crois que tu as ce qu'il faut pour franchir l'étape suivante ? Ne crois pas que je te force, ou quoi que ce soit !${prompt}
   10399: |-
-    Accept the challenge?
+    Accepter le défi ?
     ${selection-lines}
-    Of course!
-    No, not yet.${prompt}
-  10400: Good answer! I'm proud to have a pupil like you! Anyway, listen close to what I have to say.${prompt}
-  10401: Many caverns to the north are home to fiends that can find you even when you're invisible. Bring me three samples of frigicite from deep within.${prompt}
-  10402: This time, it's a test of wits. Barrier-breakers need brains, after all. Well, get going!${prompt}
-  10403: Oh? Very well. It's your life.${prompt}
-  10404: Many caverns to the north house fiends that can see the unseen. Visit them and bring me three samples of frigicite.${prompt}
-  10405: Yes, the very thing! You've crossed another great threshold today! Of course, this is merely a prologue of things to come!${prompt}
-  10406: The ultimate barrier is still far away. Don't worry about it. What matters is effort!${prompt}
-  10407: Your level limit is now 60.${prompt}
-  10408: So you think you're ready for the next challenge?${prompt}
+    Bien sûr !
+    Non, pas encore.${prompt}
+  10400: Bonne réponse ! Je suis fier d'avoir un élève comme toi ! Maintenant, écoute attentivement ce que j'ai à dire.${prompt}
+  10401: De nombreuses cavernes au nord abritent des monstres capables de te trouver même si tu es invisible. Apporte-moi trois échantillons de frigicite provenant de leurs profondeurs.${prompt}
+  10402: Cette fois, c'est un test d'ingéniosité. Les brise-barrières ont besoin de cervelle, après tout. Allez, au travail !${prompt}
+  10403: Oh ? Très bien. C'est ta vie.${prompt}
+  10404: De nombreuses cavernes au nord abritent des monstres capables de voir l'invisible. Rends-toi là-bas et rapporte-moi trois échantillons de frigicite.${prompt}
+  10405: Oui, exactement ça ! Tu as franchi un autre grand seuil aujourd'hui ! Bien sûr, ce n'est qu'un prologue de ce qui t'attend !${prompt}
+  10406: La barrière ultime est encore loin. Ne t'en fais pas. Ce qui compte, c'est l'effort !${prompt}
+  10407: Ton niveau maximum est désormais 60.${prompt}
+  10408: Alors, tu penses être prêt pour le prochain défi ?${prompt}
   10409: |-
-    Do you think you can handle it?
+    Tu penses pouvoir gérer ça ?
     ${selection-lines}
-    Of course!
-    Not just yet.${prompt}
-  10410: That's the spirit. You'll never get anything in this world unless you really want it.${prompt}
-  10411: '${lettercase: 1}${keyitem-article: 0[2]}, ${keyitem-article: 1[2]}, and ${keyitem-article: 2[2]}. Bring these three items here to me.${prompt}'
-  10412: I know you can do it. There's something different about you. I can feel it in my bones!${prompt}
-  10413: Well, the choice is yours. I won't goad you into anything.${prompt}
-  10414: '${lettercase: 1}${keyitem-article: 0[2]}, ${keyitem-article: 1[2]}, and ${keyitem-article: 2[2]}. Bring those three items here to me.${prompt}'
-  10415: I knew you could do it! I believed in you all along.${prompt}
-  10416: Your level limit is now 65.${prompt}
-  10417: I see you're becoming stronger by the day. Maybe you're ready for my next test. How about it?${prompt}
-  10418: Your next test will span over the farthest reaches of Vana'diel. You'll have to give it your all, or you're sure to fail.${prompt}
-  10419: 'Now listen carefully. First, you must get your hands on four ${item-plural: 7[2]}. I''m going to give you four hints. You have to figure out who I am talking about, and give one of those ${item-plural: 7[2]} to each of them.${prompt}'
-  10420: 'I''ve already talked to them, so all you have to do is hand over the ${item-singular: 7[2]} and they will trade you back a ${color: 5}strange stone${color: 1}.${prompt}'
-  10421: If the person you try to trade it to doesn't accept it, then it means you've got the wrong person.${prompt}
-  10422: Here are your four hints, so listen up. I want you to find these people...${prompt}
-  10423: '${number: 5}. A boy who only thinks of his sick mother.${prompt}'
-  10424: '${number: 5}. An Elvaan who likes her knives sharp.${prompt}'
-  10425: '${number: 5}. A little girl who wants to be a Royal Knight, just like her brother.${prompt}'
-  10426: '${number: 5}. A young Elvaan whose breath stinks.${prompt}'
-  10427: '${number: 5}. A young man looking for a job where they''re not too rough with him.${prompt}'
-  10428: '${number: 5}. An old man running the Consortium warehouses.${prompt}'
-  10429: '${number: 5}. A second knight who specializes in the nirvana slash.${prompt}'
-  10430: '${number: 5}. A shopkeeper who longs for customers that want more than scrolls of Stone.${prompt}'
-  10431: '${number: 5}. A pioneer of the Palborough Mines.${prompt}'
-  10432: '${number: 5}. A boy watching over Dalzakk''s home while he''s off adventuring.${prompt}'
-  10433: '${number: 5}. A girl who is positive robes and bronze subligaria are the latest fashion.${prompt}'
-  10434: '${number: 5}. A girl who thinks she can never be as good as her sister.${prompt}'
-  10435: '${number: 5}. A woman who lost her husband in an accident in the Palborough Mines.${prompt}'
-  10436: '${number: 5}. Bastok''s number five “doorman.”${prompt}'
-  10437: '${number: 5}. A man so quiet, his boss is ready to call him “Silent Mountain.”${prompt}'
-  10438: '${number: 5}. A man who is ready to move Bastok into the age of magic.${prompt}'
-  10439: '${number: 5}. The smartest looking Mithra child.${prompt}'
-  10440: '${number: 5}. A man looking for something snappy to hook his customers.${prompt}'
-  10441: '${number: 5}. A woman everybody called a “strange little poppet” when she was younger.${prompt}'
-  10442: '${number: 5}. A man known for his magic doll upgrades.${prompt}'
-  10443: '${number: 5}. A little girl sick of being left out all the time.${prompt}'
-  10444: '${number: 5}. A man that gets upset when anyone tells him that “hats suck.”${prompt}'
-  10445: '${number: 5}. A lady looking for another tasty frog.${prompt}'
-  10446: '${number: 5}. A lady that jumps for joy at the sight of rolanberry souvenirs.${prompt}'
-  10447: '${number: 5}. A weaving woman who lost her memory in Selbina.${prompt}'
-  10448: '${number: 5}. A Galkan child who is great at hiding.${prompt}'
-  10449: '${number: 5}. A man who started raising his own sheep to get some good wool.${prompt}'
-  10450: '${number: 5}. A pupil of Zaldon who knows his fish.${prompt}'
-  10451: '${number: 5}. A girl whose fiancé is all the way in Selbina.${prompt}'
-  10452: '${number: 5}. A small mayor in a small town.${prompt}'
-  10453: '${number: 5}. A guy who knows a lot about pirates for somebody that''s never met one.${prompt}'
-  10454: '${number: 5}. A kid that wants to work with monsters when he grows up.${prompt}'
-  10455: Think hard. You'll figure out who I'm talking about.${prompt}
-  10456: What? You need the hints again? Listen up, then. I want you to find these people...${prompt}
+    Bien sûr !
+    Pas encore.${prompt}
+  10410: Voilà l'esprit. Tu n'obtiendras rien dans ce monde si tu ne le veux pas vraiment.${prompt}
+  10411: '${lettercase: 1}${keyitem-article: 0[2]}, ${keyitem-article: 1[2]} et ${keyitem-article: 2[2]}. Apporte-moi ces trois objets ici.${prompt}'
+  10412: Je sais que tu peux le faire. Il y a quelque chose de différent chez toi. Je le ressens jusque dans mes os !${prompt}
+  10413: Eh bien, le choix t'appartient. Je ne vais pas te pousser à faire quoi que ce soit.${prompt}
+  10414: '${lettercase: 1}${keyitem-article: 0[2]}, ${keyitem-article: 1[2]} et ${keyitem-article: 2[2]}. Apporte-moi ces trois objets ici.${prompt}'
+  10415: Je savais que tu pouvais le faire ! J'ai toujours cru en toi.${prompt}
+  10416: Ton niveau maximum est désormais 65.${prompt}
+  10417: Je vois que tu deviens plus fort chaque jour. Peut-être es-tu prêt pour mon prochain test. Qu'en dis-tu ?${prompt}
+  10418: Ton prochain test s'étendra sur les contrées les plus éloignées de Vana'diel. Tu devras donner le meilleur de toi-même, sinon tu échoueras à coup sûr.${prompt}
+  10419: 'Écoute bien maintenant. Tout d’abord, tu dois te procurer quatre ${item-plural: 7[2]}. Je vais te donner quatre indices. Tu devras deviner de qui je parle et donner un de ces ${item-plural: 7[2]} à chacun d’eux.${prompt}'
+  10420: 'J''ai déjà parlé avec eux, donc tout ce que tu as à faire est de remettre le ${item-singular: 7[2]} et ils te rendront une ${color: 5}pierre étrange${color: 1}.${prompt}'
+  10421: Si la personne à qui tu essaies de l'échanger ne l'accepte pas, cela signifie que tu t'es trompé de personne.${prompt}
+  10422: Voici tes quatre indices, alors écoute bien. Je veux que tu trouves ces personnes...${prompt}
+  10423: '${number: 5}. Un garçon qui ne pense qu’à sa mère malade.${prompt}'
+  10424: '${number: 5}. Une Elvaan qui aime ses couteaux bien aiguisés.${prompt}'
+  10425: '${number: 5}. Une petite fille qui veut devenir Chevalier Royal, tout comme son frère.${prompt}'
+  10426: '${number: 5}. Un jeune Elvaan dont l’haleine est nauséabonde.${prompt}'
+  10427: '${number: 5}. Un jeune homme à la recherche d’un travail où on n’est pas trop dur avec lui.${prompt}'
+  10428: '${number: 5}. Un vieil homme qui gère les entrepôts du Consortium.${prompt}'
+  10429: '${number: 5}. Un second chevalier spécialisé dans le nirvana slash.${prompt}'
+  10430: '${number: 5}. Un commerçant qui rêve de clients recherchant autre chose que des parchemins de Pierre.${prompt}'
+  10431: '${number: 5}. Un pionnier des Mines de Palborough.${prompt}'
+  10432: '${number: 5}. Un garçon qui garde la maison de Dalzakk pendant qu’il est parti à l’aventure.${prompt}'
+  10433: '${number: 5}. Une fille convaincue que les robes et les subligarias en bronze sont à la mode.${prompt}'
+  10434: '${number: 5}. Une fille qui pense ne jamais pouvoir égaler sa sœur.${prompt}'
+  10435: '${number: 5}. Une femme qui a perdu son mari dans un accident aux Mines de Palborough.${prompt}'
+  10436: '${number: 5}. Le numéro cinq des “portiers” de Bastok.${prompt}'
+  10437: '${number: 5}. Un homme si silencieux que son patron est prêt à l’appeler “Montagne Silencieuse”.${prompt}'
+  10438: '${number: 5}. Un homme prêt à propulser Bastok dans l’âge de la magie.${prompt}'
+  10439: '${number: 5}. L’enfant Mithra à l’air le plus intelligent.${prompt}'
+  10440: '${number: 5}. Un homme à la recherche d’un slogan percutant pour attirer ses clients.${prompt}'
+  10441: '${number: 5}. Une femme que tout le monde appelait une “petite poupée étrange” dans sa jeunesse.${prompt}'
+  10442: '${number: 5}. Un homme connu pour ses améliorations de poupées magiques.${prompt}'
+  10443: '${number: 5}. Une petite fille fatiguée d’être toujours mise à l’écart.${prompt}'
+  10444: '${number: 5}. Un homme qui se fâche dès qu’on lui dit que “les chapeaux, c’est nul.”${prompt}'
+  10445: '${number: 5}. Une dame à la recherche d’une autre grenouille délicieuse.${prompt}'
+  10446: '${number: 5}. Une dame qui saute de joie à la vue de souvenirs de rolanberry.${prompt}'
+  10447: '${number: 5}. Une tisserande qui a perdu la mémoire à Selbina.${prompt}'
+  10448: '${number: 5}. Un enfant Galkan qui excelle dans l’art de se cacher.${prompt}'
+  10449: '${number: 5}. Un homme qui a commencé à élever ses propres moutons pour obtenir une bonne laine.${prompt}'
+  10450: '${number: 5}. Un élève de Zaldon qui connaît bien ses poissons.${prompt}'
+  10451: '${number: 5}. Une fille dont le fiancé est à Selbina.${prompt}'
+  10452: '${number: 5}. Un petit maire dans une petite ville.${prompt}'
+  10453: '${number: 5}. Un gars qui en sait beaucoup sur les pirates sans jamais en avoir rencontré.${prompt}'
+  10454: '${number: 5}. Un enfant qui veut travailler avec des monstres quand il sera grand.${prompt}'
+  10455: Réfléchis bien. Tu comprendras de qui je parle.${prompt}
+  10456: Quoi ? Tu as besoin des indices encore une fois ? Alors écoute bien. Je veux que tu trouves ces personnes...${prompt}
   10457: |-
-    Excellent job!
-    Remember, adventuring is not all just about battles and monsters, but about the people you meet along the way. Try not to forget those faces.${prompt}
-  10458: Your level limit is now 70.${prompt}
+    Excellent travail !
+    Souviens-toi, l'aventure ne se résume pas seulement aux combats et aux monstres, mais aussi aux personnes que tu rencontres en chemin. Essaye de ne pas oublier ces visages.${prompt}
+  10458: La limite de ton niveau est maintenant 70.${prompt}
   10459: |-
-    Hm?
-    I don't have time to play with half-grown puppies.
-    Why don't you head back to your Mog House and come see me when you're more prepared.${prompt}
-  10460: 'You''ve been whisked off to zone ${number: 0}!${prompt}'
-  10461: It's been a long road to the top, and I'm sure you've had your share of hard times along the way.${prompt}
+    Hein ?
+    Je n'ai pas de temps à perdre avec des chiots à moitié dressés.
+    Pourquoi ne retournerais-tu pas à ta Mog House et ne viendrais-tu pas me voir quand tu seras mieux préparé ?${prompt}
+  10460: 'Tu as été transporté vers la zone ${number: 0} !${prompt}'
+  10461: Ce fut une longue route jusqu'au sommet, et je suis sûr que tu as connu des moments difficiles en chemin.${prompt}
   10462: |-
-    I want you to remember back to the very first day you stepped out into the Vana'diel sun. You were still a tiny ant trying to climb a mountain...
-    But now look at you--riding the clouds to the stars.${prompt}
-  10463: But don't think that you've reached the top. Even if you break one limit, there's always another waiting for you. But it's our persistent aiming for the top that makes us great.${prompt}
-  10464: However, I'm growing old, and there's not much left to teach you. Our tale together has reached its final chapter, so to speak.${prompt}
+    Je veux que tu te rappelles du tout premier jour où tu as mis le pied sous le soleil de Vana'diel. Tu n'étais qu'une petite fourmi essayant d'escalader une montagne...
+    Mais regarde-toi maintenant : tu chevauches les nuages pour atteindre les étoiles.${prompt}
+  10463: Mais ne pense pas que tu as atteint le sommet. Même si tu franchis une limite, il y en aura toujours une autre qui t'attend. Mais c'est notre persévérance à viser toujours plus haut qui nous rend grands.${prompt}
+  10464: Cependant, je vieillis, et il ne me reste plus grand-chose à t'apprendre. Notre histoire commune est arrivée à son dernier chapitre, pour ainsi dire.${prompt}
   10465: |-
-    But before we turn the page, I'll need you to bring me ${article} ${item-article: 1[2]}.
-    What's that look on your face? Rounding up something like that should be no problem for a ${choice-player-gender}[guy/lady] like you!${prompt}
-  10466: Master Maat!${prompt}
+    Mais avant de tourner la page, j'aurai besoin que tu m'apportes ${article} ${item-article: 1[2]}.
+    Pourquoi cette tête ? Réunir quelque chose comme ça ne devrait poser aucun problème à un(e) ${choice-player-gender}[gars/dame] comme toi !${prompt}
+  10466: Maître Maat !${prompt}
   10467: |-
-    Wh-wh-what in...!?
-    Oh, it's you, Wolfgang. I wish you'd stop sneaking up on me like that. It's bad for my heart!${prompt}
-  10468: It is time, sir.${prompt}
-  10469: Oh, yes. Of course.${prompt}
-  10470: Sir, you are not still bothering adventurers with your games, are you?${prompt}
-  10471: Games? You should talk, Wolfgang. Why, ${name-player} here could slice you up and eat you for breakfast.${prompt}
+    Qu-qu-quoi dans... !?
+    Oh, c'est toi, Wolfgang. J'aimerais que tu arrêtes de me surprendre comme ça. Ce n'est pas bon pour mon cœur !${prompt}
+  10468: Il est temps, monsieur.${prompt}
+  10469: Ah oui, bien sûr.${prompt}
+  10470: Monsieur, vous n'êtes pas encore en train d'importuner les aventuriers avec vos jeux, n'est-ce pas ?${prompt}
+  10471: Des jeux ? Tu devrais parler, Wolfgang. Pourquoi, ${name-player} ici présent(e) pourrait te découper et te manger au petit déjeuner.${prompt}
   10472: |-
-    Yes, sir...
-    Now, we must be off. I will meet you at the gate when you arrive.${prompt}
-  10473: 'I''m sorry about the interruption. Anyway, you go get me that ${item-singular: 1[2]}. While you''re doing that, I''ll finish my business with Wolfgang.${prompt}'
-  10474: 'Find me ${article} ${item-article: 1[2]} and bring it back here. Then we can see what the final chapter holds for you.${prompt}'
-  10475: That wasn't so hard now, was it?${prompt}
-  10476: I bet you're wondering why I keep having you travel around the globe, collecting all these rare and obscure items for me.${prompt}
-  10477: Heh heh heh. I know what you're thinking. You're sick and tired of playing fetch for old Maat. You want a chance to show me what you're really made of.${prompt}
-  10478: Well, now that you mention it, I think I'd be delighted to test your might with my own hands.${prompt}
-  10479: I may look old, but I still have a lot of spunk in me. I can take anything and everything you've got.${prompt}
-  10480: What do you say? You'll get your chance to get back at me for all the trouble I've put you through, and I'll get some good exercise.${prompt}
+    Oui, monsieur...
+    Maintenant, nous devons partir. Je vous retrouverai à la porte quand vous arriverez.${prompt}
+  10473: 'Je suis désolé pour l’interruption. Bref, va me chercher cet(te) ${item-singular: 1[2]}. Pendant que tu fais ça, je finirai mes affaires avec Wolfgang.${prompt}'
+  10474: 'Trouve-moi ${article} ${item-article: 1[2]} et rapporte-le-moi. Ensuite, nous verrons ce que le dernier chapitre te réserve.${prompt}'
+  10475: Ce n'était pas si difficile, n'est-ce pas ?${prompt}
+  10476: Je parie que tu te demandes pourquoi je continue de te faire voyager à travers le monde, à collecter tous ces objets rares et obscurs pour moi.${prompt}
+  10477: Heh heh heh. Je sais ce que tu penses. Tu en as assez de jouer les coursiers pour le vieux Maat. Tu veux une chance de me montrer de quoi tu es vraiment capable.${prompt}
+  10478: Eh bien, maintenant que tu le mentionnes, je pense que je serais ravi de tester ta force de mes propres mains.${prompt}
+  10479: Je peux avoir l'air vieux, mais j'ai encore beaucoup d'énergie en moi. Je peux encaisser tout ce que tu as à offrir.${prompt}
+  10480: Qu'en dis-tu ? Tu auras ta chance de te venger pour tous les ennuis que je t'ai causés, et moi, je prendrai un peu d'exercice.${prompt}
   10481: |-
-    Challenge Maat?
+    Défier Maat ?
     ${selection-lines}
-    You bet!
-    I'm not ready to hit the mat.${prompt}
+    Tu paries !
+    Je ne suis pas encore prêt à tomber sur le tapis.${prompt}
   10482: |-
-    Heh heh heh! That's the spirit!
-    Now take that ${item-singular: 1[2]} to the burning circle and throw it in. I'll be waiting for you inside.${prompt}
-  10483: Huh? You're not afraid of an old man now, are you? Well, I guess I can give you a little more time to prepare. You can call it a handicap. Heh heh heh.${prompt}
-  10484: So, are you ready to take me on?${prompt}
-  10485: 'Hey, that ${item-singular: 1[2]} you''ve got there is a piece of junk. You''ll need a new one if you want to fight me.${prompt}'
+    Heh heh heh ! Voilà l'esprit !
+    Maintenant, prends ce ${item-singular: 1[2]} et jette-le dans le cercle brûlant. Je t'attendrai à l'intérieur.${prompt}
+  10483: Tsk ? Tu n'as pas peur d'un vieux maintenant, hein ? Bon, je suppose que je peux te donner un peu plus de temps pour te préparer. Appelle ça un handicap. Heh heh heh.${prompt}
+  10484: Alors, es-tu prêt à m'affronter ?${prompt}
+  10485: 'Hé, ce ${item-singular: 1[2]} que tu as là, c’est un morceau de ferraille. Il te faudra un neuf si tu veux te battre contre moi.${prompt}'
   10486: |-
-    Let's see...
-    How about we duel it out ${choice: 0}[ /at Horlais Peak/at Balga's Dais/at Balga's Dais/at Horlais Peak/in the Waughroon Shrine/in the Waughroon Shrine/at the Qu'Bia Arena/at the Qu'Bia Arena/in the Waughroon Shrine/at the Qu'Bia Arena/at Horlais Peak/in the Chamber of Oracles/in the Chamber of Oracles/in the Chamber of Oracles/at Balga's Dais]? You know what to do with the ${item-singular: 1[2]} when you get there, right?${prompt}
+    Voyons voir...
+    Que dirais-tu de nous affronter ${choice: 0}[ /au Horlais Peak/au Dais de Balga/au Dais de Balga/au Horlais Peak/dans le Waughroon Shrine/dans le Waughroon Shrine/au Qu'Bia Arena/au Qu'Bia Arena/dans le Waughroon Shrine/au Qu'Bia Arena/au Horlais Peak/dans la Chambre des Oracles/dans la Chambre des Oracles/dans la Chambre des Oracles/au Dais de Balga] ? Tu sais ce que tu dois faire avec ce ${item-singular: 1[2]} quand tu arrives, n'est-ce pas ?${prompt}
   10487: |-
-    Now if you show me that ${item-singular: 1[2]}, I'll even teleport you to the battlefield.
-    Boy, are we going to have some fun!${prompt}
-  10488: I have to admit, that was one fine display of fighting, ${name-player}.${prompt}
-  10489: It's kind of hard to believe, but did you know that Jeuno was once a run-down, tiny little fishing village?${prompt}
+    Maintenant, si tu me montres ce ${item-singular: 1[2]}, je te téléporterai même jusqu'au champ de bataille.
+    Garçon, on va bien s'amuser !${prompt}
+  10488: Je dois admettre, c'était une belle démonstration de combat, ${name-player}.${prompt}
+  10489: C'est difficile à croire, mais savais-tu que Jeuno était autrefois un petit village de pêcheurs en ruines ?${prompt}
   10490: |-
-    Now look at her... There isn't a soul in Vana'diel who doesn't know her beauty.
-    Let me tell you a story...${prompt}
-  10491: Long ago, there was a young man--captain of a fishing boat, he was--who lived a modest life in the peaceful harbors of Jeuno. It was often hard for him to make ends meet, but he and his fishing buddies had no complaints. They loved their tiny village...${prompt}
-  10492: However, one stormy night, fate came knocking at his door when he rescued two strange lads from the nearby waters. From that day on, the wheels of change began to turn.${prompt}
-  10493: There was something different--something special--about those two. They possessed a great deal of knowledge and leadership, and in just a short period of time, they transformed Jeuno from an insignificant dot on the map into a giant metropolis.${prompt}
-  10494: At first, the captain welcomed these changes with open arms. However, later he began to ask himself if all this was truly for the good of Jeuno, or if the city was just being used as a piece of some bigger plan put into motion by the two mysterious men...${prompt}
-  10495: But by then it was too late... Jeuno and the people living within her walls had changed... There was no turning back.${prompt}
-  10496: 'And so the captain decided: While he still had life inside his bones, he would make it his mission to remain and watch over his hometown.${prompt}'
-  10497: Good day, Maat.${prompt}
-  10498: Oh, if it isn't Doctor Monberaux.${prompt}
-  10499: You are looking quite healthy these days, old chap.${prompt}
-  10500: As healthy as a Hobgoblin, thanks to your treatment. You sure know how to keep your patients happy, heh heh heh.${prompt}
-  10501: Ha ha. I'm just doing my job.${prompt}
-  10502: By the way...${prompt}
-  10503: Hm?${prompt}
-  10504: You mentioned this “captain” watching over Jeuno. What exactly was he making sure of?${prompt}
+    Maintenant, regarde-la... Il n'y a pas une âme à Vana'diel qui ne connaît pas sa beauté.
+    Laisse-moi te raconter une histoire...${prompt}
+  10491: Il y a bien longtemps, un jeune homme -- capitaine d'un bateau de pêche -- vivait une vie modeste dans les paisibles ports de Jeuno. Il avait souvent du mal à joindre les deux bouts, mais lui et ses camarades pêcheurs n'avaient pas de plainte. Ils aimaient leur petit village...${prompt}
+  10492: Cependant, une nuit orageuse, le destin frappa à sa porte lorsqu'il sauva deux jeunes hommes étranges des eaux voisines. À partir de ce jour, les rouages du changement commencèrent à tourner.${prompt}
+  10493: Il y avait quelque chose de différent -- quelque chose de spécial -- chez ces deux-là. Ils possédaient une grande connaissance et un sens du leadership, et en peu de temps, ils transformèrent Jeuno, de minuscule point sur la carte, en une gigantesque métropole.${prompt}
+  10494: Au début, le capitaine accueillit ces changements à bras ouverts. Cependant, plus tard, il commença à se demander si tout cela était réellement pour le bien de Jeuno, ou si la ville n'était qu'un simple outil dans un plan plus vaste mis en marche par les deux hommes mystérieux...${prompt}
+  10495: Mais à ce moment-là, il était trop tard... Jeuno et les habitants de ses murs avaient changé... Il n'y avait plus de retour en arrière.${prompt}
+  10496: 'Et ainsi, le capitaine décida : Tant qu’il aurait encore de la vie dans ses os, il ferait de sa mission de rester et veiller sur sa ville natale.${prompt}'
+  10497: Bonne journée, Maat.${prompt}
+  10498: Oh, si ce n'est pas le Docteur Monberaux.${prompt}
+  10499: Vous avez l'air en pleine forme ces jours-ci, mon vieux.${prompt}
+  10500: Aussi en forme qu'un Hobgoblin, grâce à votre traitement. Vous savez vraiment comment garder vos patients heureux, heh heh heh.${prompt}
+  10501: Ha ha. Je fais juste mon travail.${prompt}
+  10502: D'ailleurs...${prompt}
+  10503: Hein ?${prompt}
+  10504: Vous avez mentionné ce "capitaine" veillant sur Jeuno. Que faisait-il exactement pour s'assurer de quoi ?${prompt}
   10505: |-
     Hmmm...
-    Well, he was probably just making sure that everybody was happy.${prompt}
-  10506: You know, I think you are probably right.${prompt}
-  10507: There are many things out there that threaten the happiness of all Jeunoans, and he couldn't stand to sit back and watch that happiness be snatched away from them.${prompt}
+    Eh bien, il faisait probablement juste en sorte que tout le monde soit heureux.${prompt}
+  10506: Tu sais, je pense que tu as probablement raison.${prompt}
+  10507: Il y a beaucoup de choses qui menacent le bonheur des habitants de Jeuno, et il ne pouvait pas rester là, à regarder ce bonheur lui être arraché.${prompt}
   10508: Maat...${prompt}
   10509: |-
-    Ahem. Ah, will you look at the time.
-    I must be getting back to the infirmary. Take care, my friend.${prompt}
+    Ahem. Ah, regarde l'heure.
+    Je dois retourner à l'infirmerie. Prends soin de toi, mon ami.${prompt}
   10510: |-
-    Don't you worry, doctor. I always do.
-    Oh, and you keep working on Wolfgang. Once he sees what's really going on in this place, he'll start to change. I know it...${prompt}
-  10511: As do I...${prompt}
-  10512: Now, where was I...${prompt}
-  10513: As much as I long to see it, it's likely I won't be around when the truth finally comes out. But young adventurers like you will. That's why I want you to be all that you can be.${prompt}
-  10514: Do not forget the hardships you have endured to make it this far, and maybe one day you, too, will find something worth giving your life to protect.${prompt}
-  10515: They say that where there is a beginning, there is an end. However, I believe that some things, like memories, don't have to end. That is where you young folk come in...${prompt}
-  10516: And that is all this simple old man can ask for...${prompt}
-  10517: Your level limit is now 75.${prompt}
+    Ne t'inquiète pas, docteur. Je fais toujours attention.
+    Oh, et continue de travailler sur Wolfgang. Une fois qu'il verra ce qui se passe réellement ici, il commencera à changer. Je le sais...${prompt}
+  10511: Je le sais aussi...${prompt}
+  10512: Maintenant, où en étais-je...${prompt}
+  10513: Aussi désireux que je sois de le voir, il est probable que je ne serai pas là quand la vérité éclatera enfin. Mais des jeunes aventuriers comme toi, oui. C'est pourquoi je veux que tu deviennes tout ce que tu peux être.${prompt}
+  10514: N'oublie pas les difficultés que tu as endurées pour en arriver là, et peut-être qu'un jour, toi aussi, tu trouveras quelque chose pour lequel tu donneras ta vie afin de le protéger.${prompt}
+  10515: On dit que là où il y a un commencement, il y a une fin. Cependant, je crois que certaines choses, comme les souvenirs, n'ont pas à finir. C'est là que vous entrez en jeu, vous les jeunes...${prompt}
+  10516: Et c'est tout ce que cet humble vieil homme peut demander...${prompt}
+  10517: Votre limite de niveau est maintenant de 75.${prompt}
   10518: |-
-    Now that you've reached the stars, there's nothing left that I can do for you.
-    Unless you'd like to go another round with a frail old man. If you're up to it, that is...${prompt}
+    Maintenant que tu as atteint les étoiles, il n'y a plus rien que je puisse faire pour toi.
+    À moins que tu veuilles faire un autre tour avec un vieil homme frêle. Si tu es prêt, bien sûr...${prompt}
   10519: 'When you''re ready, I''ll be waiting for you ${choice: 0}[ /at Horlais Peak/at Balga''s Dais/at Balga''s Dais/at Horlais Peak/in the Waughroon Shrine/in the Waughroon Shrine/at the Qu''Bia Arena/at the Qu''Bia Arena/in the Waughroon Shrine/at the Qu''Bia Arena/at Horlais Peak/in the Chamber of Oracles/in the Chamber of Oracles/in the Chamber of Oracles/at Balga''s Dais]. Oh, and don''t forget to bring along ${article} ${item-article: 1[2]}.${prompt}'
   10520: But just because I'm old doesn't mean I'm not a busy man. I don't need any half-hearted whippersnappers banging on my door, just to run off with their tails between their legs. If you want some thrill in your life, you had better be ready for the consequences! Heh heh heh!${prompt}
   10521: |-
@@ -22376,42 +22355,42 @@ entries:
     Voici les fournitures. Remettez-les simplement au garde de l'avant-poste et votre mission sera accomplie.
     Maintenant, choisissez quel avant-poste vous voulez visiter. Nous offrons des récompenses différentes pour chaque région, alors choisissez avec soin.${prompt}
   10615: |-
-    Où souhaitez-vous livrer les provisions ?
+    Where do you wish to take the supplies?
     ${selection-lines}
     　
     　
     　
     　
     　
-    La région de Ronfaure.${choice: 5}[/ (Terminé)]
-    La région de Zulkheim.${choice: 6}[/ (Terminé)]
-    La région de Norvallen.${choice: 7}[/ (Terminé)]
-    La région de Gustaberg.${choice: 8}[/ (Terminé)]
-    La région de Derfland.${choice: 9}[/ (Terminé)]
-    La région de Sarutabaruta.${choice: 10}[/ (Terminé)]
-    La région de Kolshushu.${choice: 11}[/ (Terminé)]
-    La région d'Aragoneu.${choice: 12}[/ (Terminé)]
-    La région de Fauregandi.${choice: 13}[/ (Terminé)]
-    La région de Valdeaunia.${choice: 14}[/ (Terminé)]
-    L'île de Qufim.${choice: 15}[/ (Terminé)]
-    La région de Li'Telor.${choice: 16}[/ (Terminé)]
-    La région de Kuzotz.${choice: 17}[/ (Terminé)]
-    La région de Vollbow.${choice: 18}[/ (Terminé)]
-    La région des basses terres d'Elshimo.${choice: 19}[/ (Terminé)]
-    La région des hautes terres d'Elshimo.${choice: 20}[/ (Terminé)]
-    Tu'Lia.${choice: 21}[/ (Terminé)]
+    The Ronfaure Region.${choice: 5}[/ (Done)]
+    The Zulkheim Region.${choice: 6}[/ (Done)]
+    The Norvallen Region.${choice: 7}[/ (Done)]
+    The Gustaberg Region.${choice: 8}[/ (Done)]
+    The Derfland Region.${choice: 9}[/ (Done)]
+    The Sarutabaruta Region.${choice: 10}[/ (Done)]
+    The Kolshushu Region.${choice: 11}[/ (Done)]
+    The Aragoneu Region.${choice: 12}[/ (Done)]
+    The Fauregandi Region.${choice: 13}[/ (Done)]
+    The Valdeaunia Region.${choice: 14}[/ (Done)]
+    Qufim Island.${choice: 15}[/ (Done)]
+    The Li'Telor Region.${choice: 16}[/ (Done)]
+    The Kuzotz Region.${choice: 17}[/ (Done)]
+    The Vollbow Region.${choice: 18}[/ (Done)]
+    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
+    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
+    Tu'Lia.${choice: 21}[/ (Done)]
     　
-    L'archipel de Tavnazia.${choice: 23}[/ (Terminé)]
-    　
-    　
+    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
     　
     　
     　
     　
     　
-    Annuler.${prompt}
+    　
+    　
+    Cancel.${prompt}
   10616: |-
-    Quelle E.F. souhaitez-vous rejoindre ?
+    Which E.F. would you like to join?
     ${selection-lines}
     .
     .
@@ -22419,23 +22398,21 @@ entries:
     .
     .
     .
-    La région de Zulkheim (Niv.20～).
-    La région de Norvallen (Niv.25～).
+    The Zulkheim Region (Lv.20～).
+    The Norvallen Region (Lv.25～).
     .
-    La région de Derfland (Niv.25～).
+    The Derfland Region (Lv.25～).
     .
-    La région de Kolshushu (Niv.20～).
-    La région d'Aragoneu (Niv.25～).
-    La région de Fauregandi (Niv.35～).
-    La région de Valdeaunia (Niv.40～).
-    La région de Qufim (Niv.25～).
-    La région de Li'Telor (Niv.35～).
-    La région de Kuzotz (Niv.40～).
-    La région de Vollbow (Niv.65～).
-    La région des basses terres d'Elshimo (Niv.35～).
-    La région des hautes terres d'Elshimo (Niv.45～).
-    .
-    .
+    The Kolshushu Region (Lv.20～).
+    The Aragoneu Region (Lv.25～).
+    The Fauregandi Region (Lv.35～).
+    The Valdeaunia Region (Lv.40～).
+    The Qufim Region (Lv.25～).
+    The Li'Telor Region (Lv.35～).
+    The Kuzotz Region (Lv.40～).
+    The Vollbow Region (Lv.65～).
+    The Elshimo Lowlands Region (Lv.35～).
+    The Elshimo Uplands Region (Lv.45～).
     .
     .
     .
@@ -22444,96 +22421,98 @@ entries:
     .
     .
     .
-    Aucune.${prompt}
+    .
+    .
+    None.${prompt}
   10617: |-
-    Ainsi soit-il.
-    Vous avez jusqu'à la prochaine annonce des résultats de la conquête pour terminer cette mission.
-    Bonne chance.${prompt}
-  10618: Nous allons nous débarrasser de ces fournitures inutilisables.${prompt}
+    So be it.
+    You have until the next conquest results announcement to complete this mission.
+    Good luck.${prompt}
+  10618: We will dispose of those unusable supplies.${prompt}
   10619: |-
-    Vous ne pouvez entreprendre qu'une seule mission de ravitaillement par jour.
-    Revenez plus tard.${prompt}
-  10620: Je suis désolé. Nous semblons avoir un problème. Laissez-moi l'annuler.${prompt}
+    You can only undertake one supply mission per day.
+    Come back later.${prompt}
+  10620: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
   10621: |-
-    Vous n'avez pas besoin de donner plus de cristaux à votre rang actuel.
-    Parlez au garde à la porte pour obtenir de nouvelles instructions.${prompt}
+    You do not need to donate any more crystals at your current rank.
+    Speak to the guard at the gatehouse for further instructions.${prompt}
   10622: |-
-    Vos points de rang sont pleins. Nous avons ajouté l'excédent à vos points de conquête.
-    Vous n'avez pas besoin de donner plus de cristaux. Rendez-vous à la porte pour obtenir de nouvelles instructions.${prompt}
+    Your rank points are full. We've added the excess to your conquest points.
+    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
   10623: |-
-    Bon travail, citoyen.
-    Nous vous avons attribué des points de rang pour les cristaux que vous avez donnés.${prompt}
+    Good work, citizen.
+    We've awarded you rank points for the crystals you've donated.${prompt}
   10624: |-
-    Vous avez actuellement ${number: 0} points de conquête.
-    Souhaitez-vous les utiliser pour acheter des objets ?${prompt}
+    You currently have ${number: 0} conquest points.
+    Would you like to use them to purchase items?${prompt}
   10625: |-
-    Quel objet souhaitez-vous acheter ?
+    Which item do you wish to purchase?
     ${selection-lines}
-    Objets communs (tous rangs).
-    Objets à 1000 points (rang 1 requis).
-    Objets à 2000 points (rang 2 requis).
-    Objets à 4000 points (rang 3 requis).
-    Objets à 8000 points (rang 4 requis).
-    Objets à 16000 points (rang 5 requis).
-    Objets à 24000 points (rang 6 requis).
-    Objets à 32000 points (rang 7 requis).
-    Objets à 40000 points (rang 8 requis).
-    Objets à 48000 points (rang 9 requis).
-    Objets à 56000 points (rang 10 requis).
-    Annuler.${prompt}
+    Common items (all ranks).
+    1000-pt. items (rank 1 required).
+    2000-pt. items (rank 2 required).
+    4000-pt. items (rank 3 required).
+    8000-pt. items (rank 4 required).
+    16000-pt. items (rank 5 required).
+    24000-pt. items (rank 6 required).
+    32000-pt. items (rank 7 required).
+    40000-pt. items (rank 8 required).
+    48000-pt. items (rank 9 required).
+    56000-pt. items (rank 10 required).
+    Cancel.${prompt}
   10626: |-
-    Quel objet souhaitez-vous acheter ?
+    Which item do you wish to purchase?
     ${selection-lines}
-    Objets communs (tous rangs).
-    Objets à 2000 points (rang 1 requis).
-    Objets à 4000 points (rang 2 requis).
-    Objets à 8000 points (rang 3 requis).
-    Objets à 16000 points (rang 4 requis).
-    Objets à 24000 points (rang 5 requis).
-    Objets à 32000 points (rang 6 requis).
-    Objets à 40000 points (rang 7 requis).
-    Objets à 48000 points (rang 8 requis).
-    Objets à 56000 points (rang 9 requis).
+    Common items (all ranks).
+    2000-pt. items (rank 1 required).
+    4000-pt. items (rank 2 required).
+    8000-pt. items (rank 3 required).
+    16000-pt. items (rank 4 required).
+    24000-pt. items (rank 5 required).
+    32000-pt. items (rank 6 required).
+    40000-pt. items (rank 7 required).
+    48000-pt. items (rank 8 required).
+    56000-pt. items (rank 9 required).
     .
-    Annuler.${prompt}
-  10627: Actuellement, aucun objet n'est disponible pour ce rang.${prompt}
+    Cancel.${prompt}
+  10627: Currently there are no items available for that rank.${prompt}
   10628: |-
-    En raison de sa nature particulière, vous pouvez seulement acheter ou recharger ${article} ${item-article: 2[2]} une fois jusqu'à ce que les résultats de la conquête soient comptabilisés.
-    De plus, vous ne pouvez pas acheter cet objet si un objet similaire est déjà en votre possession.${prompt}
-  10629: 'Il est possible de recharger entièrement ${article} ${item-article: 2[2]} en l'échangeant avec l'un des gardes de votre nation, y compris les gardes des avant-postes. Une recharge coûte 50 points de conquête.${prompt}'
-  10630: 'Il est possible de recharger entièrement ${article} ${item-article: 2[2]} en l'échangeant avec l'un des gardes de votre nation, y compris les gardes des avant-postes. Une recharge coûte 100 points de conquête.${prompt}'
-  10631: 'Il est possible de recharger entièrement ${article} ${item-article: 2[2]} en l'échangeant avec l'un des gardes de votre nation, y compris les gardes des avant-postes. Une recharge coûte 200 points de conquête.${prompt}'
-  10632: Pendant la Grande Guerre, il était possible de recharger cet objet en échange de Notes Alliées. D'après ce que j'ai compris, cette pratique est récemment devenue courante au Proche-Orient. Cependant, vous aurez besoin de crédits d'Impériale pour utiliser ce service là-bas.${prompt}
-  10633: 'Vous ne possédez pas les ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête] nécessaires pour recharger entièrement le ${item-singular: 0[2]}.${prompt}'
-  10634: 'Veuillez noter que vous pouvez seulement acheter ou recharger ${article} ${item-article: 0[2]} une fois pendant la période entre chaque comptabilisation des résultats de la conquête.${prompt}'
-  10635: 'Le ${item-singular: 0[2]} est déjà entièrement chargé.${prompt}'
-  10636: 'Votre ${item-singular: 0[2]} a reçu ${number: 2} ${choice-plurality: 2}[charge/charges] en échange de ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête]. Il est maintenant entièrement rechargé.${prompt}'
-  10637: 'Je vous échangerai ${article} ${item-article: 0[2]} contre votre ${item-singular: 1[2]}. Puisse-t-il vous servir efficacement.${prompt}'
-  10638: 'Vous ne remplissez pas les conditions pour acheter le ${item-singular: 2[2]}.${prompt}'
-  10639: 'Votre rang est trop bas pour acheter le ${item-singular: 2[2]}.${prompt}'
-  10640: 'Vous n'avez pas assez de points de conquête pour acheter le ${item-singular: 2[2]}.${prompt}'
+    Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
+    Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
+  10629: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 50 conquest points.${prompt}'
+  10630: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 100 conquest points.${prompt}'
+  10631: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 200 conquest points.${prompt}'
+  10632: During the time of the Great War, it was possible to have this item recharged in exchange for Allied Notes. From my understanding, that practice has recently become commonplace in the Near East. Though you'll be needing Imperial Standing credits if you wish to use the service there.${prompt}
+  10633: 'You do not possess the ${number: 1} ${choice-plurality: 1}[conquest point/conquest points] required to fully recharge the ${item-singular: 0[2]}.${prompt}'
+  10634: 'Please be aware that you can only purchase or recharge ${article} ${item-article: 0[2]} once during the period between each conquest results tally.${prompt}'
+  10635: 'The ${item-singular: 0[2]} is already fully charged.${prompt}'
+  10636: 'Your ${item-singular: 0[2]} has received ${number: 2} ${choice-plurality: 2}[charge/charges] in exchange for ${number: 1} ${choice-plurality: 1}[conquest point/conquest points]. It is now fully recharged.${prompt}'
+  10637: 'I will trade you ${article} ${item-article: 0[2]} for your ${item-singular: 1[2]}. May it serve you well.${prompt}'
+  10638: 'You do not meet the requirements to purchase the ${item-singular: 2[2]}.${prompt}'
+  10639: 'Your rank is too low to purchase the ${item-singular: 2[2]}.${prompt}'
+  10640: 'You do not have enough conquest points to purchase the ${item-singular: 2[2]}.${prompt}'
   10641: |-
-    Vous ne pouvez pas équiper le ${item-singular: 2[2]}.
-    Voulez-vous quand même continuer ?${prompt}
+    You cannot equip the ${item-singular: 2[2]}.
+    Do you still wish to proceed?${prompt}
   10642: |-
-    Votre niveau est trop bas pour équiper le ${item-singular: 2[2]}.
-    Voulez-vous quand même continuer ?${prompt}
+    Your level is too low to equip the ${item-singular: 2[2]}.
+    Do you still wish to proceed?${prompt}
   10643: |-
-    Vous semblez pouvoir équiper le ${item-singular: 2[2]}.
-    Voulez-vous continuer ?${prompt}
-  10644: 'Êtes-vous sûr de vouloir acheter le ${item-singular: 2[2]} ?${prompt}'
+    You seem to be able to equip the ${item-singular: 2[2]}.
+    Do you wish to proceed?${prompt}
+  10644: 'Are you sure you want to purchase the ${item-singular: 2[2]}?${prompt}'
   10645: |-
-    Continuer ?
+    Proceed?
     ${selection-lines}
-    Oui, acheter l'objet.
-    Annuler l'achat.${prompt}
+    Yes, purchase item.
+    Cancel purchase.${prompt}
   10646: |-
-    Continuer ?
+    Proceed?
     ${selection-lines}
-    Oui, même si je ne peux pas l'équiper.
-    Annuler l'achat.${prompt}
+    Yes, even though I can't equip it.
+    Cancel purchase.${prompt}
   10647: |-
-    Quel objet souhaitez-vous acheter ?
+    Which item do you wish to purchase?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
@@ -22543,11 +22522,11 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Page suivante.
-    Page précédente.
-    Retour.${prompt}
+    Next page.
+    Previous page.
+    Back.${prompt}
   10648: |-
-    Quel objet souhaitez-vous acheter ?
+    Which item do you wish to purchase?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}...${number: 8} pts.
     ${lettercase: 1}${item-singular: 1[2]}...${number: 9} pts.
@@ -22557,9 +22536,9 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}...${number: 13} pts.
     ${lettercase: 1}${item-singular: 6[2]}...${number: 14} pts.
     ${lettercase: 1}${item-singular: 7[2]}...${number: 15} pts.
-    Page suivante.
-    Page précédente.
-    Retour.${prompt}
+    Next page.
+    Previous page.
+    Back.${prompt}
   10649: 'ENDPARA：${number: 0}${prompt}'
   10650: |-
     Quel service demandes-tu ?
@@ -22639,28 +22618,28 @@ entries:
   10689: |-
     Je vois que tu es prêt.
     Je t'accorde la permission de rejoindre la force expéditionnaire actuelle. Lorsque tu seras prêt à être téléporté à l'outpost, parle-moi à nouveau.${prompt}
-  10690: 'Êtes-vous prêt à être téléporté vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Basses-Terres d''Elshimo/Les Hautes-Terres d''Elshimo] ? N'oubliez pas que les membres du groupe n'ayant pas obtenu l'autorisation de participer à l'E.F. seront laissés derrière.${prompt}'
+  10690: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
   10691: |-
-    Téléporter vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Basses-Terres d'Elshimo/Les Hautes-Terres d'Elshimo] ?
+    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
     ${selection-lines}
-    Prêt !
-    Attends une minute...${prompt}
-  10692: 'Annuler votre participation à l''E.F. pour ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Basses-Terres d''Elshimo/Les Hautes-Terres d''Elshimo] ?${prompt}'
+    Ready!
+    Wait just a minute...${prompt}
+  10692: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
   10693: |-
-    Quitter l'E.F. ?
+    Quit the E.F.?
     ${selection-lines}
-    Oui.
-    Changer de destination.
-    Non.${prompt}
-  10694: Êtes-vous sûr ?${prompt}
+    Yes.
+    Change locations.
+    No.${prompt}
+  10694: Are you sure?${prompt}
   10695: |-
-    Vraiment quitter l'E.F. ?
+    Really quit the E.F.?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Yes.
+    No.${prompt}
   10696: |-
-    Je vois.
-    Si vous souhaitez participer à l'avenir, je serai ici pour prendre votre candidature.${prompt}
+    I see.
+    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
   10697: 'Ton ${color: 5}badge F.E.${color: 1} disparaît !${prompt}'
   10698: 'Katsu-yaku points : ${number: 0} !${prompt}'
   10699: 'Cet ${keyitem-singular: 0[2]} n’est plus valide. Nous allons nous en débarrasser ici.${prompt}'
@@ -23164,7 +23143,7 @@ entries:
     Avec toute cette sécurité renforcée, comment quelqu'un a-t-il pu réaliser un exploit aussi grandiose que de voler un aéronef !?${prompt}
   11090: Tandis que l'armada de Jeuno mène sa mission dans les cieux, il reste de la responsabilité de la Garde Ducale d'assurer la sécurité des citoyens de Jeuno.${prompt}
   11091: Avez-vous découvert quelque chose de plus concernant l'arme super-secrète que l'armada a emportée avec elle ?${prompt}
-  11092: 'Non... Cependant, j’ai entendu dire que le dispositif a porté un coup sévère au puissant Wyrmking lors de l’assaut.${prompt}'
+  11092: Non... Cependant, j’ai entendu dire que le dispositif a porté un coup sévère au puissant Wyrmking lors de l’assaut.${prompt}
   11093: Wowzie ! Si j'avais un appareil aussi génial, je mangerais des burgers de dragon rôti chaque nuit !${prompt}
   11094: Les derniers rapports affirment que la récente mission de l'armada a été un succès. Cependant, elle n'a pas complètement arrêté le Wyrmking et ses sbires. On dit que la flotte lancera une deuxième attaque une fois que les réparations actuelles des vaisseaux de guerre seront terminées.${prompt}
   11095: Si vous avez des informations sur l'endroit où se trouve la fille que le Duché recherchait, je suis désolé, mais le mandat d'arrêt a été levé.${prompt}
