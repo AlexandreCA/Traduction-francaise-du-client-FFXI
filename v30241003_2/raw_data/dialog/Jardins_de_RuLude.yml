@@ -21941,11 +21941,15 @@ entries:
     Mon maître bienveillant permettra-t-il à ${choice-player-gender}[son/sa] moogle de prendre un peu de repos pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
   10359: |-
     Maître, Maître !
-    J'ai une faveur à demander, kupo !${prompt}
+    J'ai une faveur à demander, kupo!${prompt}
   10360: |-
     Dormir sur ce ${item-singular: 3[2]} m'a donné le mal du pays, kupo.
-    Mon maître bienveillant permettra-t-il à ${choice-player-gender}[son/sa] moogle de prendre un peu de repos pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
-  10361: "Donner des vacances à votre moogle？\n${selection-lines}\nBien sûr, kupo ! \nNon, ton temps m'appartient !${prompt}"
+    Mon maître bienveillant permettra-t-il à ${choice-player-gender}[son/sa] moogle de prendre un peu de repos pour rendre visite à Maman et Papa Moogle, kupo?${prompt}
+  10361: |-
+    Donner des vacances à votre moogle？
+    ${selection-lines}
+    Bien sûr, kupo! 
+    Non, ton temps m'appartient!${prompt}
   10362: |-
     Merci, kupo !
     J'ai encore une faveur à demander... Je veux emmener ma famille en pique-nique, kupo !${prompt}
