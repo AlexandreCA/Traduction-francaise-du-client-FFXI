@@ -26952,156 +26952,160 @@ entries:
   12895: 'De plus, davantage de ${item-plural: 1[2]} peuvent être créés simplement en ${color: 5}utilisant${color: 1} la page comme un objet normal.${prompt}'
   12896: 'Vous pouvez désormais effectuer et confirmer des réservations à l’aide de la liste de statut des réservations.${prompt}'
   12897: |-
-    The status of each time block will be displayed in symbols. The symbols' meanings are as follows:
-    “？”: The reservation documents have been misplaced.
-    “－”: No reservation.
-    “OM”: Official match.${prompt}
-  12898: You can select a block marked with “－” to make a reservation.${prompt}
+    Le statut de chaque créneau horaire sera affiché sous forme de symboles. Voici la signification des symboles :
+    “？” : Les documents de réservation ont été égarés.
+    “－” : Aucune réservation.
+    “MO” : Match officiel.${prompt}
+  12898: 'Vous pouvez sélectionner un créneau marqué par “－” pour effectuer une réservation.${prompt}'
   12899: |-
-    A “✕” mark represents a block that is already reserved.
-    “✕!” designates a reserved block whose team is still recruiting. You can select the block to find out more.${prompt}
-  12900: 'If not a single adventurer possessing the appropriate ${item-singular: 0[2]} or ${item-singular: 1[2]} reports for reservation reconfirmation (up until 15 Earth minutes before the reserved time), the reservation will be cancelled.${prompt}'
-  12901: 'Once the reservation has been cancelled, the ${item-singular: 0[2]} and all ${item-plural: 1[2]} will become void. At this time, other adventurers will have the opportunity to immediately reserve the area.${prompt}'
+    Un symbole “✕” représente un créneau déjà réservé.
+    “✕!” désigne un créneau réservé pour lequel une équipe recrute encore. Vous pouvez sélectionner ce créneau pour en savoir plus.${prompt}
+  12900: 'Si aucun aventurier possédant le ${item-singular: 0[2]} ou le ${item-singular: 1[2]} approprié ne se présente pour confirmer la réservation (jusqu’à 15 minutes terrestres avant l’heure réservée), la réservation sera annulée.${prompt}'
+  12901: 'Une fois la réservation annulée, le ${item-singular: 0[2]} et tous les ${item-plural: 1[2]} deviendront inutilisables. À ce moment-là, d’autres aventuriers auront l’opportunité de réserver immédiatement la zone.${prompt}'
   12902: |-
-    Ah, welcome, ${name-player}!
-    I see that you are on the Ballista Royale participation list. I will now present you with the item you will need to enter the special Ballista area being used for the event.${prompt}
-  12903: 'Please review the time inscribed on the bottom of the codex. This is when the check-in period will begin. At that time, please show me the item once more and I shall teleport you to the ${color: 5}Diorama${color: 1}.${prompt}'
-  12904: 'The entry period will end and briefing will commence ${number: 10} ${choice-plurality: 10}[minute/minutes] (Earth time) after the check-in period starts.${prompt}'
+    Ah, bienvenue, ${name-player} !
+    Je vois que vous êtes inscrit sur la liste des participants à la Ballista Royale. Je vais maintenant vous remettre l’objet dont vous aurez besoin pour accéder à la zone spéciale de Ballista utilisée pour l’événement.${prompt}
+  12903: 'Veuillez consulter l’heure inscrite au bas du codex. C’est à ce moment que la période d’enregistrement commencera. À ce moment-là, montrez-moi à nouveau l’objet et je vous téléporterai vers le ${color: 5}Diorama${color: 1}.${prompt}'
+  12904: 'La période d’entrée se terminera, et le briefing commencera ${number: 10} ${choice-plurality: 10}[minute/minutes] (temps terrestre) après le début de la période d’enregistrement.${prompt}'
   12905: |-
-    The maximum number of members allowed on one team is ${number: 11}.
-    Entries during matches are ${choice: 13}[not allowed/allowed], and entry cancellation during matches is ${choice: 12}[not permitted/permitted].
-    Also, players with the same job are not allowed to serve on the same team, ${choice: 24}[and support jobs are prohibited./though there are no restrictions on support jobs.]${prompt}
+    Le nombre maximum de membres autorisés dans une équipe est de ${number: 11}.
+    Les inscriptions pendant les matchs sont ${choice: 13}[interdites/autorisées], et l’annulation des inscriptions pendant les matchs est ${choice: 12}[non permise/permise].
+    De plus, les joueurs ayant le même métier ne peuvent pas être dans la même équipe, ${choice: 24}[et les sous-métiers sont interdits./mais aucune restriction n’est appliquée aux sous-métiers.]${prompt}
   12906: |-
-    The maximum level allowed is ${choice: 14}[not set/set to 60/set to 50/set to 40/set to 30/set to 20/set to 10].
-    The minimum level required is ${choice: 15}[not set/set to 60/set to 50/set to 40/set to 30/set to 20/set to 10].${prompt}
+    Le niveau maximum autorisé est ${choice: 14}[non défini/fixé à 60/fixé à 50/fixé à 40/fixé à 30/fixé à 20/fixé à 10].
+    Le niveau minimum requis est ${choice: 15}[non défini/fixé à 60/fixé à 50/fixé à 40/fixé à 30/fixé à 20/fixé à 10].${prompt}
   12907: |-
-    Matches will be played in the “${choice: 17}[all or nothing/best of three/]” style, with ${choice: 17}[/single-]match length set at ${choice: 16}[10 minutes/15 minutes/20 minutes/30 minutes/45 minutes/1 Vana'diel day (57 minutes, 36 seconds)/60 minutes/] (Earth time).
-    Normal item usage is ${choice: 18}[not allowed/allowed] and the maximum number of temporary items carryable is ${choice: 19}[10/15/20].${prompt}
+    Les matchs se joueront selon le style “${choice: 17}[tout ou rien/meilleur sur trois/]”, avec une durée de ${choice: 17}[/simple-]match fixée à ${choice: 16}[10 minutes/15 minutes/20 minutes/30 minutes/45 minutes/1 jour de Vana'diel (57 minutes, 36 secondes)/60 minutes/] (temps terrestre).
+    L’utilisation normale d’objets est ${choice: 18}[interdite/autorisée], et le nombre maximum d’objets temporaires transportables est de ${choice: 19}[10/15/20].${prompt}
   12908: |-
-    Participants will${choice: 20}[ not/] be able to choose whether or not they can keep Petras they find, and Petras or items will${choice: 21}[/ not] be found with every /quarry.
-    The maximum number of Petras a player can score at one time is ${choice: 22}[1/2/3/4/5/10/15/not set], and a match will ${choice: 20}[not be called as a result of a large lead/be called the moment one team leads by 10/be called the moment one team leads by 20/be called the moment one team leads by 30/be called the moment one team leads by 40/be called the moment one team leads by 50/be called the moment one team leads by 60/be called the moment one team leads by 70/be called the moment one team leads by 80/be called the moment one team leads by 90/be called the moment one team leads by 100].${prompt}
-  12909: 'Also, it is possible to use ${keyitem-article: 25[2]} and ${keyitem-article: 26[2]}.${prompt}'
-  12910: You may review these rules again by showing me your proof of participation.${prompt}
-  12911: Also, the tournament rules can be reconfirmed by speaking with a Herald within the Diorama.${prompt}
-  12912: Finally, if you lose your proof of participation, please speak with me again and I shall reissue you a new one.${prompt}
+    Les participants pourront${choice: 20}[ ne pas/] choisir s’ils peuvent conserver les Petras qu’ils trouvent, et les Petras ou objets seront${choice: 21}[/ ne pas] trouvés à chaque /quarry.
+    Le nombre maximum de Petras qu’un joueur peut marquer en une seule fois est ${choice: 22}[1/2/3/4/5/10/15/non défini], et un match ${choice: 20}[ne sera pas arrêté en cas d’écart important/sera arrêté dès qu’une équipe mène de 10/sera arrêté dès qu’une équipe mène de 20/.../sera arrêté dès qu’une équipe mène de 100].${prompt}
+  12909: 'De plus, il est possible d’utiliser ${keyitem-article: 25[2]} et ${keyitem-article: 26[2]}.${prompt}'
+  12910: 'Vous pouvez revoir ces règles en me montrant votre preuve de participation.${prompt}'
+  12911: 'De plus, les règles du tournoi peuvent être revues en s’adressant à un Héraut dans le Diorama.${prompt}'
+  12912: 'Enfin, si vous perdez votre preuve de participation, veuillez revenir me voir et je vous en fournirai une nouvelle.${prompt}'
   12913: |-
-    I am not yet authorized to teleport you to the Ballista Royale tournament.
-    While you wait, let me explain the rules of the event.${prompt}
+    Je ne suis pas encore autorisé à vous téléporter vers le tournoi de la Ballista Royale.
+    En attendant, laissez-moi vous expliquer les règles de l’événement.${prompt}
   12914: |-
-    That is all.
-    I suggest you spend your remaining time preparing for the match.${prompt}
+    C'est tout.
+    Je vous conseille de passer votre temps restant à vous préparer pour le match.${prompt}
   12915: |-
-    The Ballista Royale is about to begin!
-    Let me teleport you to ${color: 5}Diorama Abdhaljs-Ghelsba${color: 1} immediately!${prompt}
-  12916: 'This ${item-singular: 0[2]} is no longer valid. Please dispose of it in one of the Duchy''s fine waste receptacle units.${prompt}'
+    La Ballista Royale est sur le point de commencer !
+    Laissez-moi vous téléporter immédiatement vers ${color: 5}Diorama Abdhaljs-Ghelsba${color: 1} !${prompt}
+  12916: 'Ce ${item-singular: 0[2]} n’est plus valide. Veuillez vous en débarrasser dans l’un des réceptacles à déchets de la Duché.${prompt}'
   12917: |-
-    We've been waiting for your arrival ${choice-player-gender}[Mr./Ms.]... Ah, yes, here it is--${choice-player-gender}[Mr./Ms.] ${name-player}.
-    Congratulations on your team's victory in the Ballista Royale preliminaries. You have successfully earned your ticket to the finals!${prompt}
-  12918: Come to think of it, I knew that ${choice-player-gender}[Mr./Ms.]...${name-player}...yes, ${choice-player-gender}[Mr./Ms.] ${name-player}'s team would win all along! There was just something different about you... Something that smelled...like a winner, of course!${prompt}
-  12919: Ahem! Anyway, now let me present you with your prize and a new title. I'm looking forward to seeing your name in my register again in the near future! Au Revoir!${prompt}
+    Nous attendions votre arrivée ${choice-player-gender}[Monsieur/Madame]... Ah, oui, le voilà--${choice-player-gender}[Monsieur/Madame] ${name-player}.
+    Félicitations pour la victoire de votre équipe lors des éliminatoires de la Ballista Royale. Vous avez réussi à obtenir votre ticket pour la finale !${prompt}
+  12918: |-
+    En y repensant, je savais que ${choice-player-gender}[Monsieur/Madame]...${name-player}...oui, l’équipe de ${choice-player-gender}[Monsieur/Madame] ${name-player} allait forcément gagner ! Il y avait quelque chose de différent chez vous... Quelque chose qui sentait...comme un gagnant, bien sûr !${prompt}
+  12919: |-
+    Hem ! Quoi qu'il en soit, laissez-moi vous remettre votre prix et un nouveau titre. J’ai hâte de revoir votre nom dans mon registre dans un futur proche ! Au revoir !${prompt}
   12920: |-
-    Ah, we've been waiting for you arrival ${choice-player-gender}[Mr./Ms.] ${name-player}. (You see? Win enough times and I'm bound to remember your name!)
-    Congratulations on your team's victory in the Ballista Royale Grand Tournament!${prompt}
+    Ah, nous attendions votre arrivée ${choice-player-gender}[Monsieur/Madame] ${name-player}. (Vous voyez ? Gagnez assez souvent et je finirai par me souvenir de votre nom !)
+    Félicitations pour la victoire de votre équipe lors du Grand Tournoi de la Ballista Royale !${prompt}
   12921: |-
-    I knew that you were talented, but it looks like you also had a smite of fortune on your side.
-    How much did you pay off Lady Luck to have her smile down on only you?
-    Hah hah hah... I'm sorry. That wasn't very funny...${prompt}
-  12922: But seriously, the blood you spilled, the tears you shed, the sweat you...you...sweat--all of these made you and your companions that much stronger. It was truly your hard work and perserverance that lead you to victory. Though, I knew all along that your team would win.${prompt}
-  12923: Ahem! Now let me present you with your royale prize and new title, fit for a champion! Good show, ${choice-player-gender}[Lord/Lady] ${name-player}!${prompt}
+    Je savais que vous étiez talentueux, mais il semble aussi que vous ayez eu un peu de chance de votre côté.
+    Combien avez-vous payé Dame Chance pour qu’elle vous sourie à vous seul ?
+    Hah hah hah... Je suis désolé. Ce n'était pas très drôle...${prompt}
+  12922: |-
+    Mais sérieusement, le sang que vous avez versé, les larmes que vous avez versées, la sueur que vous avez...vous...sueur--tout cela vous a rendu vous et vos compagnons bien plus forts. C’est vraiment votre travail acharné et votre persévérance qui vous ont mené à la victoire. Bien que, je savais depuis le début que votre équipe allait gagner.${prompt}
+  12923: |-
+    Hem ! Maintenant, laissez-moi vous remettre votre prix royal et un nouveau titre, digne d’un champion ! Beau travail, ${choice-player-gender}[Seigneur/Dame] ${name-player} !${prompt}
   12924: 'DEBUG: Phase change!${prompt}'
   12925: '${number: 0}${prompt}'
   12926: |-
-    DEBUG: Which do you want?
+    DEBUG : Que voulez-vous ?
     ${selection-lines}
-    Current phase: ${item-singular: 0[2]}
-    Next phase: ${item-singular: 0[2]}
-    Previous phase:${item-singular: 0[2]}
-    Current phase: ${item-singular: 1[2]}
-    Next phase: ${item-singular: 1[2]}
-    Previous phase:${item-singular: 1[2]}
-    Current phase: ${item-singular: 2[2]}
-    Previous phase:${item-singular: 2[2]}
-    Current phase: ${item-singular: 3[2]}
-    Previous phase:${item-singular: 3[2]}
-    Current phase: ${item-singular: 4[2]}
-    Previous phase:${item-singular: 4[2]}
-    Next phase: ${item-singular: 4[2]}
-    Current phase: ${item-singular: 5[2]}
-    Previous phase:${item-singular: 5[2]}
-    Next phase: ${item-singular: 5[2]}
-    More ${item-plural: 0[2]}.
-    Nothing.${prompt}
+    Phase actuelle : ${item-singular: 0[2]}
+    Prochaine phase : ${item-singular: 0[2]}
+    Phase précédente : ${item-singular: 0[2]}
+    Phase actuelle : ${item-singular: 1[2]}
+    Prochaine phase : ${item-singular: 1[2]}
+    Phase précédente : ${item-singular: 1[2]}
+    Phase actuelle : ${item-singular: 2[2]}
+    Phase précédente : ${item-singular: 2[2]}
+    Phase actuelle : ${item-singular: 3[2]}
+    Phase précédente : ${item-singular: 3[2]}
+    Phase actuelle : ${item-singular: 4[2]}
+    Phase précédente : ${item-singular: 4[2]}
+    Prochaine phase : ${item-singular: 4[2]}
+    Phase actuelle : ${item-singular: 5[2]}
+    Phase précédente : ${item-singular: 5[2]}
+    Prochaine phase : ${item-singular: 5[2]}
+    Plus de ${item-plural: 0[2]}.
+    Rien.${prompt}
   12927: |-
-    DEBUG: For when?
+    DEBUG : Pour quand ?
     ${selection-lines}
-    After phase 1.
-    After phase 2.
-    After phase 3.
-    After phase 4.
-    After phase 5.
-    After phase 6.
-    After phase 7.
-    After phase 8.
-    After phase 9.
-    After phase 10.
-    After phase 11.
-    After phase 12.
-    After phase 13.
-    After phase 14.
-    After phase 15.
-    After phase 16.
-    After phase 17.
-    After phase 18.
-    After phase 19.
-    After phase 20.
-    After phase 21.
-    After phase 22.
-    After phase 23.
-    After phase 24.
-    Nothing.${prompt}
+    Après la phase 1.
+    Après la phase 2.
+    Après la phase 3.
+    Après la phase 4.
+    Après la phase 5.
+    Après la phase 6.
+    Après la phase 7.
+    Après la phase 8.
+    Après la phase 9.
+    Après la phase 10.
+    Après la phase 11.
+    Après la phase 12.
+    Après la phase 13.
+    Après la phase 14.
+    Après la phase 15.
+    Après la phase 16.
+    Après la phase 17.
+    Après la phase 18.
+    Après la phase 19.
+    Après la phase 20.
+    Après la phase 21.
+    Après la phase 22.
+    Après la phase 23.
+    Après la phase 24.
+    Rien.${prompt}
   12928: |-
-    DEBUG: Level restriction?
+    DEBUG : Restriction de niveau ?
     ${selection-lines}
-    None.
+    Aucune.
     60.
     50.
     40.
     30.
     20.
     10.
-    Nevermind.${prompt}
+    Laisse tomber.${prompt}
   12929: |-
-    Which memory will you have recalled?
+    Quel souvenir voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Missions.
-    Jeuno Quests.
-    Other Quests.
-    Promathia Missions.
-    Aht Urhgan Missions.
-    Rhapsodies of Vana'diel.${prompt}
+    Quêtes de Jeuno.
+    Autres quêtes.
+    Missions de Promathia.
+    Missions d'Aht Urhgan.
+    Rhapsodies de Vana'diel.${prompt}
   12930: |-
-    Which memory will you have recalled?
+    Quel souvenir voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
-    Appointment to Jeuno(pt.1).
-    Appointment to Jeuno(pt.2).
-    Jeuno(pt.1).
-    Jeuno(pt.2).
-    A New Journey(pt.1).
-    A New Journey(pt.2).
-    Magicite/San d'Orian Embassy.
-    Magicite/Bastokan Embassy.
-    Magicite/Windurstian Embassy.
-    Magicite/Grand Duke Palace(pt.1).
+    Rien.
+    Rendez-vous à Jeuno (pt.1).
+    Rendez-vous à Jeuno (pt.2).
+    Jeuno (pt.1).
+    Jeuno (pt.2).
+    Un Nouveau Voyage (pt.1).
+    Un Nouveau Voyage (pt.2).
+    Magicite/Ambassade de San d'Oria.
+    Magicite/Ambassade de Bastok.
+    Magicite/Ambassade de Windurst.
+    Magicite/Palais du Grand Duc (pt.1).
     Magicite/Davoi.
     Magicite/Beadeaux.
-    Magicite/Castle Oztroja.
-    Magicite/Grand Duke Palace(pt.2).${prompt}
+    Magicite/Château Oztroja.
+    Magicite/Palais du Grand Duc (pt.2).${prompt}
   12931: |-
-    Which memory will you have recalled?
+    Quelle mémoire voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Shattering Stars(pt.1).
     Shattering Stars(pt.2).
     Shattering Stars(pt.3).
@@ -27130,9 +27134,9 @@ entries:
     Martial Mastery(pt.1).
     Martial Mastery(pt.2).${prompt}
   12932: |-
-    Which memory will you have recalled?
+    Quelle mémoire voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Dynamis - The Shrouded Land(pt.1).
     Dynamis - The Shrouded Land(pt.2).
     Dynamis Interloper.
@@ -27154,9 +27158,9 @@ entries:
     Trust (Cherukiki).
     Trust (Maat).${prompt}
   12933: |-
-    Which memory will you have recalled?
+    Quelle mémoire voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Below the Arks.
     A Vessel Without a Captain.
     Branded.
@@ -27168,17 +27172,17 @@ entries:
     Flames in the Darkness.
     The Chains Fall Free.${prompt}
   12934: |-
-    Which memory will you have recalled?
+    Quelle mémoire voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Easterly Winds.
     Unraveling Reason.
     Light of Judgment(pt.1).
     Light of Judgment(pt.2).${prompt}
   12935: |-
-    Which memory will you have recalled?
+    Quelle mémoire voulez-vous rappeler ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Call to Serve(pt.1).
     Call to Serve(pt.2).
     Call to Serve(pt.3).
@@ -31981,32 +31985,32 @@ entries:
   14836: |-
     ${name-player} and ${choice: 0}[Durib/Dzapiwa/Jugowa/Mugido/Voldai/Wagwei/Zayag/Zoldof], was it?
     You have done well to return. The time for your next trial is at hand, kupo.${prompt}
-  14837: It's about time.${prompt}
-  14838: Bring it on!${prompt}
-  14839: '...I am ready.${prompt}'
-  14840: Let's hear what you have in store for us this time.${prompt}
-  14841: Woo boy! My heart won't stop pounding.${prompt}
-  14842: Ahaha! These are the times I feel alive!${prompt}
-  14843: Why, I thought I'd die of waiting!${prompt}
-  14844: You hear that, ${name-player}? Let's go!${prompt}
-  14845: I wonder what challenges await us this time.${prompt}
-  14846: Ooh, ooh! What's on the menu this time, Mister Moogle?${prompt}
-  14847: I am ready for whatever comes my way!${prompt}
-  14848: Spare us the dramatics and get on with it, would you?${prompt}
-  14849: Your eagerness is admirable, but let it not turn to impatience, lest it doom you to downfall...${prompt}
+  14837: Il était temps.${prompt}
+  14838: Allons-y !${prompt}
+  14839: '...Je suis prêt.${prompt}'
+  14840: Dis-moi ce que tu as en réserve pour nous cette fois.${prompt}
+  14841: Woo boy ! Mon cœur ne cesse de battre.${prompt}
+  14842: Ahaha ! Ce sont les moments où je me sens vivant !${prompt}
+  14843: Pourquoi, je pensais que j’allais mourir d’attente !${prompt}
+  14844: Tu entends ça, ${name-player} ? Allons-y !${prompt}
+  14845: Je me demande quels défis nous attendent cette fois.${prompt}
+  14846: Ooh, ooh ! Qu’est-ce qu’il y a au menu cette fois, Monsieur Moogle ?${prompt}
+  14847: Je suis prêt à tout ce qui se présente à moi !${prompt}
+  14848: Épargne-nous tes dramatiques et passe à l’action, veux-tu ?${prompt}
+  14849: Ton empressement est admirable, mais qu’il ne se transforme pas en impatience, sinon il te condamnera à l’échec...${prompt}
   14850: |-
-    Lost your item, have you? I fear I can provide no insurance for such irresponsibility.
-    You will simply have to undertake the trial once more from the beginning.${prompt}
+    Tu as perdu ton objet, n'est-ce pas ? Je crains de ne pouvoir offrir aucune assurance pour une telle irresponsabilité.
+    Tu devras simplement entreprendre l'épreuve à nouveau depuis le début.${prompt}
   14851: |-
-    But it is not all for naught, kupo.
-    I am certain that the experience you have earned will serve you well.${prompt}
+    Mais ce n’est pas entièrement vain, kupo.
+    Je suis certain que l'expérience que tu as acquise te servira bien.${prompt}
   14852: |-
-    Ah, you must be the one they call ${name-player}.
-    It's an honor to finally make your acquaintance.${prompt}
+    Ah, tu dois être celui qu'on appelle ${name-player}.
+    C’est un honneur de enfin faire ta connaissance.${prompt}
   14853: |-
-    My compatriot Joachim has told me much of your exploits.
-    It'd be my pleasure to assist you any way I can.${prompt}
-  14854: Good day, ${name-player}. Is there something you need?${prompt}
+    Mon camarade Joachim m’a beaucoup parlé de tes exploits.
+    Ce serait un plaisir pour moi de t’aider de toutes les manières possibles.${prompt}
+  14854: Bonjour, ${name-player}. As-tu besoin de quelque chose ?${prompt}
   14855: |-
     What would like to ask about?
     ${selection-lines}
