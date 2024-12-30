@@ -26732,92 +26732,92 @@ entries:
   12788: |-
     I will begin the synthesis right away.
     Please wait a few moments.${prompt}
-  12789: Ah, what a heavenly glow!${prompt}
-  12790: By throwing this anima back at the Empty, they will temporarily regain a splinter of consciousness. It is during this time that you may be able to find their weaknesses.${prompt}
-  12791: 'Greetings, adventurer! My name is Tillecoe, pupil of the great and powerful mage Abdhaljs, and I have been assigned with the management of my master''s greatest creation--${color: 5}Diorama Abdhaljs-Ghelsba${color: 1}.${prompt}'
-  12792: 'Diorama access for the period of ${earthtime: 0} to ${earthtime: 1} is no longer available.${prompt}'
-  12793: 'Since you are a candidate for ${color: 5}Master of Ceremonies${color: 1} (MC), you are authorized to make certain rule changes concerning participation.${prompt}'
+  12789: 'Ah, quelle lumière céleste !${prompt}'
+  12790: 'En lançant cet anima sur le Vide, ils retrouveront temporairement un éclat de conscience. C’est durant ce moment que vous pourrez peut-être découvrir leurs faiblesses.${prompt}'
+  12791: 'Salutations, aventurier ! Je me nomme Tillecoe, élève du grand et puissant mage Abdhaljs, et j’ai été chargé de la gestion de la plus grande création de mon maître -- le ${color: 5}Diorama Abdhaljs-Ghelsba${color: 1}.${prompt}'
+  12792: 'L’accès au Diorama pour la période du ${earthtime: 0} au ${earthtime: 1} n’est plus disponible.${prompt}'
+  12793: 'Étant donné que vous êtes un candidat au poste de ${color: 5}Maître de Cérémonies${color: 1} (MC), vous êtes autorisé à effectuer certains changements aux règles concernant la participation.${prompt}'
   12794: |-
-    The current Diorama Ballista participation rules set by the ${color: 5}Master of Ceremonies${color: 1} are as follows:
-    ${choice: 0}[ /Anyone can attend/Anyone can participate/Anyone can attend or participate].${prompt}
+    Les règles actuelles de participation au Ballista Diorama, définies par le ${color: 5}Maître de Cérémonies${color: 1}, sont les suivantes :
+    ${choice: 0}[ /Tout le monde peut assister/Tout le monde peut participer/Tout le monde peut assister ou participer].${prompt}
   12795: |-
-    Select one...
+    Sélectionnez une option...
     ${selection-lines}
-    Quit.
-    Reserve the Diorama (2 days from now).
-    Reserve the Diorama (now).
-    View the reservation list.
-    ${choice: 0}[Allow/Restrict] gallery.
-    ${choice: 1}[Allow/Restrict] participation.
-    View a match.
-    Participate in a match.
-    Enter the Diorama.
-    FAQ: What is the Diorama?
-    FAQ: Reserving the Diorama.${prompt}
+    Quitter.
+    Réserver le Diorama (dans 2 jours).
+    Réserver le Diorama (maintenant).
+    Consulter la liste des réservations.
+    ${choice: 0}[Autoriser/Restreindre] la galerie.
+    ${choice: 1}[Autoriser/Restreindre] la participation.
+    Voir un match.
+    Participer à un match.
+    Entrer dans le Diorama.
+    FAQ : Qu’est-ce que le Diorama ?
+    FAQ : Réserver le Diorama.${prompt}
   12796: |-
-    I see that you have recently utilized our Diorama services.
-    I apologize, but I must ask that you wait a few more moments before attempting any further transactions.${prompt}
-  12797: 'Currently, the Diorama can be reserved from ${earthtime: 0} to ${earthtime: 1}.${prompt}'
-  12798: 'The ${item-singular: 2[2]} necessary for access to the Diorama from ${earthtime: 0} to ${earthtime: 1} has already been distributed.${prompt}'
-  12799: 'The next printing of the ${item-singular: 2[2]} will begin on ${earthtime: 3}, allowing Diorama access for the period of ${earthtime: 0} to ${earthtime: 1}.${prompt}'
-  12800: 'The Diorama will be unavailable for reservation from ${earthtime: 0} to ${earthtime: 1}.${prompt}'
-  12801: I am currently not accepting Diorama reservations.${prompt}
-  12802: I apologize, but the Diorama is currently out of service.${prompt}
-  12803: Currently, no parties occupy the Diorama.${prompt}
-  12804: 'The Diorama is currently under occupation from ${earthtime: 0} until ${earthtime: 1}.${prompt}'
-  12805: 'In addition, reservations for ${earthtime: 0} to ${earthtime: 1} have also come to a close.${prompt}'
-  12806: 'Reservations for the next available block will be accepted from ${earthtime: 0}.${prompt}'
-  12807: 'Since you already possess ${article} ${item-article: 0[2]}, I cannot allow you to make any further reservations. Also, remember to dispose of the ${item-singular: 0[2]} after the time inscribed on it has passed.${prompt}'
-  12808: '${lettercase: 1}${article} ${item-article: 0[2]} for ${earthtime: 1} has already been distributed.${prompt}'
-  12809: 'To provide you with ${article} ${item-article: 0[2]}, you must have already earned your ${keyitem-singular: 1[2]}.${prompt}'
-  12810: "I do not think you meet the requirements necessary to participate in events held in ${color: 5}Diora...${color: 1} \nAhem! Excuse me, ${choice-player-gender}[sir/madame]. I am not authorized to disclose any further information to those who have not yet met all IRNC qualifications.${prompt}"
-  12811: '${number: 1} Ballista Points are required to purchase ${article} ${item-article: 0[2]} (you currently have ${number: 2} ${choice-plurality: 2}[point/points]).${prompt}'
+    Je vois que vous avez récemment utilisé nos services de Diorama.
+    Je m'excuse, mais je dois vous demander d'attendre encore un moment avant d'effectuer d'autres transactions.${prompt}
+  12797: 'Actuellement, le Diorama peut être réservé de ${earthtime: 0} à ${earthtime: 1}.${prompt}'
+  12798: 'Le ${item-singular: 2[2]} nécessaire pour accéder au Diorama de ${earthtime: 0} à ${earthtime: 1} a déjà été distribué.${prompt}'
+  12799: 'La prochaine impression du ${item-singular: 2[2]} commencera le ${earthtime: 3}, permettant l’accès au Diorama pour la période de ${earthtime: 0} à ${earthtime: 1}.${prompt}'
+  12800: 'Le Diorama ne sera pas disponible pour réservation de ${earthtime: 0} à ${earthtime: 1}.${prompt}'
+  12801: Je n'accepte actuellement pas de réservations pour le Diorama.${prompt}
+  12802: Je m'excuse, mais le Diorama est actuellement hors service.${prompt}
+  12803: Actuellement, aucune partie n'occupe le Diorama.${prompt}
+  12804: 'Le Diorama est actuellement occupé de ${earthtime: 0} à ${earthtime: 1}.${prompt}'
+  12805: 'De plus, les réservations pour ${earthtime: 0} à ${earthtime: 1} sont également terminées.${prompt}'
+  12806: 'Les réservations pour le prochain créneau disponible seront acceptées à partir de ${earthtime: 0}.${prompt}'
+  12807: 'Étant donné que vous possédez déjà ${article} ${item-article: 0[2]}, je ne peux pas vous permettre de faire d’autres réservations. N’oubliez pas de vous débarrasser du ${item-singular: 0[2]} après l’expiration du délai inscrit dessus.${prompt}'
+  12808: '${lettercase: 1}${article} ${item-article: 0[2]} pour ${earthtime: 1} a déjà été distribué.${prompt}'
+  12809: 'Pour obtenir ${article} ${item-article: 0[2]}, vous devez avoir déjà acquis votre ${keyitem-singular: 1[2]}.${prompt}'
+  12810: "Je ne pense pas que vous remplissiez les conditions nécessaires pour participer aux événements organisés dans ${color: 5}Diora...${color: 1} \nHum ! Excusez-moi, ${choice-player-gender}[monsieur/madame]. Je ne suis pas autorisé à divulguer plus d'informations à ceux qui n'ont pas encore satisfait à toutes les qualifications IRNC.${prompt}"
+  12811: '${number: 1} points Ballista sont requis pour acheter ${article} ${item-article: 0[2]} (vous avez actuellement ${number: 2} ${choice-plurality: 2}[point/points]).${prompt}'
   12812: |-
-    Would you like a copy?
+    Voulez-vous une copie ?
     ${selection-lines}
-    Not at this time.
-    Level restriction: ∞.
-    Level restriction: 60.
-    Level restriction: 50.
-    Level restriction: 40.
-    Level restriction: 30.
-    Level restriction: 20.
-    Level restriction: 10.${prompt}
-  12813: 'Please note that teleportation to the Diorama will require a one-time fee of ${number: 4} gil.${prompt}'
-  12814: When you set a reservation comment, it will be reflected in your reservation status information.${prompt}
+    Pas pour le moment.
+    Restriction de niveau : ∞.
+    Restriction de niveau : 60.
+    Restriction de niveau : 50.
+    Restriction de niveau : 40.
+    Restriction de niveau : 30.
+    Restriction de niveau : 20.
+    Restriction de niveau : 10.${prompt}
+  12813: 'Veuillez noter que la téléportation vers le Diorama nécessitera un paiement unique de ${number: 4} gils.${prompt}'
+  12814: Lorsque vous définissez un commentaire de réservation, celui-ci sera reflété dans les informations sur votre statut de réservation.${prompt}
   12815: |-
-    Set a reservation comment?
+    Définir un commentaire de réservation ?
     ${selection-lines}
-    Set to “Recruiting Members.”
-    No thanks.${prompt}
-  12816: 'By setting your comment to “Recruiting Members,” I can provide ${article} ${item-article: 6[2]} for that time block to anyone who wishes to join the match.${prompt}'
+    Définir sur « Recrutement de membres ».
+    Non merci.${prompt}
+  12816: 'En définissant votre commentaire sur « Recrutement de membres », je peux fournir ${article} ${item-article: 6[2]} pour ce créneau horaire à quiconque souhaite participer au match.${prompt}'
   12817: |-
-    Set to “Recruiting Members”?
+    Définir sur « Recrutement de membres » ?
     ${selection-lines}
-    Set comment.
-    Return.${prompt}
-  12818: 'Are you sure you wish to purchase ${article} ${item-article: 0[2]} (${choice: 3}[no level restriction/level restriction: 60/level restriction: 50/level restriction: 40/level restriction: 30/level restriction: 20/level restriction: 10]) with a reservation comment of ${choice: 5}[no comment/Recruiting Members] and reserve the Diorama for ${earthtime: 1}?${prompt}'
-  12819: 'Are you sure you wish to purchase ${article} ${item-article: 0[2]} (${choice: 3}[no level restriction/level restriction: 60/level restriction: 50/level restriction: 40/level restriction: 30/level restriction: 20/level restriction: 10]) and reserve the Diorama for ${earthtime: 1}?${prompt}'
+    Définir le commentaire.
+    Retour.${prompt}
+  12818: 'Êtes-vous sûr de vouloir acheter ${article} ${item-article: 0[2]} (${choice: 3}[sans restriction de niveau/restriction de niveau : 60/restriction de niveau : 50/restriction de niveau : 40/restriction de niveau : 30/restriction de niveau : 20/restriction de niveau : 10]) avec un commentaire de réservation de ${choice: 5}[aucun commentaire/Recrutement de membres] et réserver le Diorama pour ${earthtime: 1} ?${prompt}'
+  12819: 'Êtes-vous sûr de vouloir acheter ${article} ${item-article: 0[2]} (${choice: 3}[sans restriction de niveau/restriction de niveau : 60/restriction de niveau : 50/restriction de niveau : 40/restriction de niveau : 30/restriction de niveau : 20/restriction de niveau : 10]) et réserver le Diorama pour ${earthtime: 1} ?${prompt}'
   12820: |-
-    Complete the transaction?
+    Finaliser la transaction ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12821: 'Congratulations. You have reserved the Diorama from ${earthtime: 1} to ${earthtime: 5}. The level restriction will be set to ${choice: 2}[∞/60/50/40/30/20/10].${prompt}'
-  12822: All other rules regarding gameplay can be changed by speaking with the Herald stationed within the Diorama.${prompt}
-  12823: Finally, remember that your reservation at this time does not guarantee your entry into the Diorama.${prompt}
-  12824: 'Only by showing me ${article} ${item-article: 0[2]} or ${article} ${item-article: 3[2]} between ${earthtime: 4} and ${earthtime: 1} will you be granted access to the area.${prompt}'
-  12825: If you fail to speak with me during this period, your reservation will be lost. In this event, no Ballista Points will be refunded.${prompt}
-  12826: 'Access to the Diorama is currently possible. ${choice: 2}[There is no level limit set/The level limit is set to 60/The level limit is set to 50/The level limit is set to 40/The level limit is set to 30/The level limit is set to 20/The level limit is set to 10].${prompt}'
-  12827: 'Since you are a candidate for ${color: 5}Master of Ceremonies${color: 1} (MC), you are authorized to make certain rule changes concerning participation. You can also adjust the rules of play after entering the Diorama.${prompt}'
-  12828: 'You must be in possession of your ${item-singular: 0[2]} if you wish to make any rule adjustments, so take care not to misplace it. No refunds will be granted in the event of loss and/or theft.${prompt}'
-  12829: 'Also, ${item-plural: 3[2]} can be taken from the ${item-singular: 0[2]} by ${color: 5}using${color: 1} it. Give the pages to any and all adventurers you wish to join you in the Diorama.${prompt}'
-  12830: '${lettercase: 1}${item-plural: 3[2]} can also be reproduced by ${color: 5}using${color: 1} them in the same manner as you would with the book.${prompt}'
-  12831: 'I am sorry. The reservation period starting on ${earthtime: 1} has just concluded. Please start the application process once again.${prompt}'
+    Oui.
+    Non.${prompt}
+  12821: 'Félicitations. Vous avez réservé le Diorama de ${earthtime: 1} à ${earthtime: 5}. La restriction de niveau sera définie sur ${choice: 2}[∞/60/50/40/30/20/10].${prompt}'
+  12822: Toutes les autres règles concernant le gameplay peuvent être modifiées en parlant au Héraut stationné dans le Diorama.${prompt}
+  12823: Enfin, rappelez-vous que votre réservation à ce moment-là ne garantit pas votre entrée dans le Diorama.${prompt}
+  12824: 'Seule la présentation de ${article} ${item-article: 0[2]} ou ${article} ${item-article: 3[2]} entre ${earthtime: 4} et ${earthtime: 1} vous permettra d’accéder à la zone.${prompt}'
+  12825: Si vous ne parvenez pas à me parler durant cette période, votre réservation sera annulée. Dans ce cas, aucun point Ballista ne sera remboursé.${prompt}
+  12826: 'L’accès au Diorama est actuellement possible. ${choice: 2}[Aucune limite de niveau n’est définie/La limite de niveau est définie à 60/La limite de niveau est définie à 50/La limite de niveau est définie à 40/La limite de niveau est définie à 30/La limite de niveau est définie à 20/La limite de niveau est définie à 10].${prompt}'
+  12827: 'Puisque vous êtes candidat pour ${color: 5}Maître de Cérémonies${color: 1} (MC), vous êtes autorisé à effectuer certains changements de règles concernant la participation. Vous pouvez également ajuster les règles de jeu après être entré dans le Diorama.${prompt}'
+  12828: 'Vous devez être en possession de votre ${item-singular: 0[2]} si vous souhaitez effectuer des ajustements de règles, alors veillez à ne pas le perdre. Aucun remboursement ne sera accordé en cas de perte et/ou de vol.${prompt}'
+  12829: 'De plus, ${item-plural: 3[2]} peuvent être extraits de ${item-singular: 0[2]} en les ${color: 5}utilisant${color: 1}. Donnez les pages à tous les aventuriers que vous souhaitez inviter dans le Diorama.${prompt}'
+  12830: '${lettercase: 1}${item-plural: 3[2]} peuvent également être reproduits en les ${color: 5}utilisant${color: 1} de la même manière que vous le feriez avec le livre.${prompt}'
+  12831: 'Je suis désolé. La période de réservation débutant le ${earthtime: 1} vient de se terminer. Veuillez recommencer le processus de candidature.${prompt}'
   12832: |-
-    Reservation status is as follows:
+    Le statut de réservation est le suivant :
     ${selection-lines}
-    Previous page.
+    Page précédente.
     ${earthtime: 0} ${choice: 12}[？/－/✕/✕!/OM] ${choice: 24}[∞/60/50/40/30/20/10/]
     ${earthtime: 1} ${choice: 13}[？/－/✕/✕!/OM] ${choice: 25}[∞/60/50/40/30/20/10/]
     ${earthtime: 2} ${choice: 14}[？/－/✕/✕!/OM] ${choice: 26}[∞/60/50/40/30/20/10/]
@@ -26830,25 +26830,25 @@ entries:
     ${earthtime: 9} ${choice: 21}[？/－/✕/✕!/OM] ${choice: 33}[∞/60/50/40/30/20/10/]
     ${earthtime: 10} ${choice: 22}[？/－/✕/✕!/OM] ${choice: 34}[∞/60/50/40/30/20/10/]
     ${earthtime: 11} ${choice: 23}[？/－/✕/✕!/OM] ${choice: 35}[∞/60/50/40/30/20/10/]
-    Next Page.
-    Return.${prompt}
+    Page suivante.
+    Retour.${prompt}
   12833: |-
-    There is currently a reservation for the Diorama on ${earthtime: 1}.
-    Level restriction: ${choice: 0}[None/60/50/40/30/20/10]
-    Comment: ${choice: 2}[None/Recruiting]${prompt}
-  12834: 'Currently, no reservations have been made for ${earthtime: 1}.${prompt}'
-  12835: 'I am sorry. I seem to have misplaced the reservation documents for ${earthtime: 1}...${prompt}'
-  12836: 'However, any reservation you might have made for this block is still in effect. I can replace the information if you bring me the correct ${item-singular: 0[2]}.${prompt}'
-  12837: 'Current settings allow anyone who wishes to join the match to receive ${article} ${item-article: 6[2]}.${prompt}'
+    Il y a actuellement une réservation pour le Diorama à ${earthtime: 1}.
+    Limitation de niveau : ${choice: 0}[Aucune/60/50/40/30/20/10]
+    Commentaire : ${choice: 2}[Aucun/Recrutement]${prompt}
+  12834: 'Actuellement, aucune réservation n’a été faite pour ${earthtime: 1}.${prompt}'
+  12835: 'Je suis désolé. Il semble que j’aie égaré les documents de réservation pour ${earthtime: 1}...${prompt}'
+  12836: 'Cependant, toute réservation que vous auriez faite pour cette période reste valable. Je peux remplacer les informations si vous me remettez le ${item-singular: 0[2]} approprié.${prompt}'
+  12837: 'Les paramètres actuels permettent à quiconque souhaite participer au match de recevoir ${article} ${item-article: 6[2]}.${prompt}'
   12838: |-
-    Would you like to apply for the match?
+    Souhaitez-vous vous inscrire au match ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12839: I apologize, but I was unable to process your application. Please try again.${prompt}
-  12840: 'According to the ${item-singular: 0[2]} you currently possess, you must apply with me between ${earthtime: 1} and ${earthtime: 2} for access to the Diorama.${prompt}'
-  12841: 'Thanks to your efforts, I have recovered your reservation information for ${earthtime: 2}.${prompt}'
-  12842: 'Now you may change your reservation comment by ${color: 5}trading${color: 1} the ${article} ${item-article: 0[2]} to me.${prompt}'
+    Oui.
+    Non.${prompt}
+  12839: 'Je m’excuse, mais je n’ai pas pu traiter votre demande. Veuillez réessayer.${prompt}'
+  12840: 'Selon le ${item-singular: 0[2]} que vous possédez actuellement, vous devez faire votre demande auprès de moi entre ${earthtime: 1} et ${earthtime: 2} pour accéder au Diorama.${prompt}'
+  12841: 'Grâce à vos efforts, j’ai récupéré vos informations de réservation pour ${earthtime: 2}.${prompt}'
+  12842: 'Vous pouvez maintenant modifier votre commentaire de réservation en ${color: 5}me donnant en échange${color: 1} le ${article} ${item-article: 0[2]}.${prompt}'
   12843: |-
     Currently, your reservation comment is set to:
     ${choice: 5}[None/Recruiting]${prompt}
