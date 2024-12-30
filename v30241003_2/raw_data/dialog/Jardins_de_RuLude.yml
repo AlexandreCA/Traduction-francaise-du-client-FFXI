@@ -26850,107 +26850,107 @@ entries:
   12841: 'Grâce à vos efforts, j’ai récupéré vos informations de réservation pour ${earthtime: 2}.${prompt}'
   12842: 'Vous pouvez maintenant modifier votre commentaire de réservation en ${color: 5}me donnant en échange${color: 1} le ${article} ${item-article: 0[2]}.${prompt}'
   12843: |-
-    Currently, your reservation comment is set to:
-    ${choice: 5}[None/Recruiting]${prompt}
+    Actuellement, votre commentaire de réservation est défini comme suit :
+    ${choice: 5}[Aucun/Recrutement]${prompt}
   12844: |-
-    Change your reservation comment?
+    Modifier votre commentaire de réservation ?
     ${selection-lines}
-    No changes.
-    Delete comment.
-    Change to “Recruiting Members.”${prompt}
+    Pas de modification.
+    Supprimer le commentaire.
+    Changer en « Recrutement de membres ».${prompt}
   12845: |-
-    Your reservation comment has been set to:
-    ${choice: 5}[None/Recruiting Members]${prompt}
+    Votre commentaire de réservation a été défini comme suit :
+    ${choice: 5}[Aucun/Recrutement de membres]${prompt}
   12846: |-
-    Your application for access to the Diorama (${earthtime: 2} ～ ${earthtime: 3}) has been granted.
-    Teleportation services will begin shortly. Please wait one moment.${prompt}
-  12847: 'You must present your ${item-singular: 0[2]} at the time of teleportation. Take care not to lose it.${prompt}'
+    Votre demande d’accès au Diorama (${earthtime: 2} ～ ${earthtime: 3}) a été approuvée.
+    Le service de téléportation va commencer sous peu. Veuillez patienter un instant.${prompt}
+  12847: 'Vous devez présenter votre ${item-singular: 0[2]} au moment de la téléportation. Faites attention à ne pas le perdre.${prompt}'
   12848: |-
-    Your have been granted access to the Diorama (${earthtime: 2} ～ ${earthtime: 3}).
-    Teleportation services will begin shortly. Please wait one moment.${prompt}
-  12849: 'As ${color: 5}Master of Ceremonies${color: 1} (MC), you will be required to conduct the proceedings of all matches held within the Diorama. This includes the adjustment of participation rules (speak with me) and the setting of match rules (speak with the Herald).${prompt}'
-  12850: 'Any participants with the date ${earthtime: 1} inscribed on their ${item-singular: 0[2]} can enter the Diorama until ${earthtime: 3}.${prompt}'
-  12851: 'I am sorry, but you were required to reconfirm your reservation on ${earthtime: 2}. You no longer have access to the Diorama.${prompt}'
-  12852: 'Your ${item-singular: 0[2]} can no longer be used. Please dispose of it (and remember to recycle).${prompt}'
-  12853: 'This ${item-singular: 0[2]} can no longer be used. Please dispose of it (and remember to recycle).${prompt}'
-  12854: Your level is lower than the restriction. Please be warned that by entering the Diorama at this level, you may not be eligible to participate in the match(es) held.${prompt}
+    Vous avez obtenu l’accès au Diorama (${earthtime: 2} ～ ${earthtime: 3}).
+    Le service de téléportation va commencer sous peu. Veuillez patienter un instant.${prompt}
+  12849: 'En tant que ${color: 5}Maître de cérémonie${color: 1} (MC), vous serez chargé de superviser toutes les rencontres organisées dans le Diorama. Cela inclut l’ajustement des règles de participation (parlez-moi) et la définition des règles des matchs (parlez au Héraut).${prompt}'
+  12850: 'Tous les participants possédant une date ${earthtime: 1} inscrite sur leur ${item-singular: 0[2]} peuvent entrer dans le Diorama jusqu’à ${earthtime: 3}.${prompt}'
+  12851: 'Je suis désolé, mais vous deviez reconfirmer votre réservation le ${earthtime: 2}. Vous n’avez plus accès au Diorama.${prompt}'
+  12852: 'Votre ${item-singular: 0[2]} ne peut plus être utilisée. Veuillez vous en débarrasser (et pensez à recycler).${prompt}'
+  12853: 'Ce ${item-singular: 0[2]} ne peut plus être utilisé. Veuillez vous en débarrasser (et pensez à recycler).${prompt}'
+  12854: 'Votre niveau est inférieur à la restriction. Veuillez noter qu’en entrant dans le Diorama avec ce niveau, vous pourriez ne pas être éligible pour participer aux matchs organisés.${prompt}'
   12855: |-
-    Travel to the Diorama? (${number: 0} gil)
+    Voyager vers le Diorama ? (${number: 0} gil)
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
+    Oui.
+    Pas encore.${prompt}
   12856: |-
-    Travel to the Diorama?
+    Voyager vers le Diorama ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
-  12857: 'You do not possess the ${number: 0} gil necessary for teleportation.${prompt}'
-  12858: The current Diorama reservation has expired. I can no longer teleport you.${prompt}
-  12859: An unknown force whisks you away to Diorama Abdhaljs-Ghelsba!${prompt}
-  12860: 'Since you already possess ${article} ${item-article: 0[2]}, I cannot allow you to make any further reservations. Also, remember to dispose of the ${item-singular: 0[2]} after the time inscribed on it has passed.${prompt}'
-  12861: 'Any participants with the date ${earthtime: 1} inscribed on their ${item-singular: 0[2]} can enter the Diorama until ${earthtime: 3}.${prompt}'
-  12862: I have been informed of some trouble with the Diorama. I deeply apologize for any inconvenience.${prompt}
-  12863: By allowing a gallery, I can teleport to the Diorama (for a small fee) anyone who wishes to view the matches.${prompt}
-  12864: However, remember that these gallery members will be restricted from match participation.${prompt}
+    Oui.
+    Pas encore.${prompt}
+  12857: 'Vous ne possédez pas les ${number: 0} gils nécessaires pour la téléportation.${prompt}'
+  12858: 'La réservation actuelle pour le Diorama a expiré. Je ne peux plus vous téléporter.${prompt}'
+  12859: 'Une force inconnue vous emporte vers le Diorama Abdhaljs-Ghelsba !${prompt}'
+  12860: 'Comme vous possédez déjà ${article} ${item-article: 0[2]}, je ne peux pas vous permettre de faire d’autres réservations. N’oubliez pas non plus de vous débarrasser de ${item-singular: 0[2]} après que le temps indiqué dessus soit écoulé.${prompt}'
+  12861: 'Tous les participants dont la date ${earthtime: 1} est inscrite sur leur ${item-singular: 0[2]} peuvent entrer dans le Diorama jusqu’à ${earthtime: 3}.${prompt}'
+  12862: 'J’ai été informé de certains problèmes liés au Diorama. Je suis profondément désolé pour tout inconvénient.${prompt}'
+  12863: 'En autorisant une galerie, je peux téléporter au Diorama (pour une somme modique) quiconque souhaite assister aux matchs.${prompt}'
+  12864: 'Cependant, n’oubliez pas que ces membres de la galerie ne pourront pas participer aux matchs.${prompt}' 
   12865: |-
-    Allow gallery attendance?
+    Autoriser la participation à la galerie ?
     ${selection-lines}
-    No.
-    Yes.
-    Leave at current setting.${prompt}
-  12866: 'Understood. Gallery attendance will ${choice: 0}[not /]be allowed in the Diorama.${prompt}'
-  12867: 'By allowing general participation, I can provide adventurers with ${item-plural: 0[2]} that they can use to travel to the Diorama and take part in any Ballista matches held within.${prompt}'
+    Non.
+    Oui.
+    Laisser les paramètres actuels.${prompt}
+  12866: 'Compris. La participation à la galerie ${choice: 0}[ne sera pas /]sera autorisée dans le Diorama.${prompt}'
+  12867: 'En autorisant la participation générale, je peux fournir aux aventuriers ${item-plural: 0[2]} qu’ils pourront utiliser pour se rendre au Diorama et participer à tous les matchs de Ballista qui s’y dérouleront.${prompt}'
   12868: |-
-    Allow general participation?
+    Autoriser la participation générale ?
     ${selection-lines}
-    No.
-    Yes.
-    Leave at current setting.${prompt}
-  12869: 'Understood. General participation will ${choice: 0}[not /]be allowed in the Diorama.${prompt}'
-  12870: Any adventurers who wish to travel to the Diorama to witness the events currently being held may do so. However, please note that all “gallery members” will not be allowed to participate in any matches.${prompt}
-  12871: 'If you still wish to be teleported, I will require a fee of ${number: 0} gil.${prompt}'
+    Non.
+    Oui.
+    Laisser les paramètres actuels.${prompt}
+  12869: 'Compris. La participation générale ${choice: 0}[ne sera pas /]sera autorisée dans le Diorama.${prompt}'
+  12870: 'Tous les aventuriers souhaitant se rendre au Diorama pour assister aux événements en cours peuvent le faire. Cependant, veuillez noter que tous les “membres de la galerie” ne pourront participer à aucun match.${prompt}'
+  12871: 'Si vous souhaitez toujours être téléporté, des frais de ${number: 0} gils seront requis.${prompt}'
   12872: |-
-    Become a gallery member?
+    Devenir membre de la galerie ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12873: 'General participation is currently being allowed for the next Diorama Ballista match. ${choice: 2}[There is no level limit set/The level limit is set to 60/The level limit is set to 50/The level limit is set to 40/The level limit is set to 30/The level limit is set to 20/The level limit is set to 10].${prompt}'
-  12874: 'I have been given authorization by the acting ${color: 5}Master of Ceremonies${color: 1} to provide any adventurer who wishes to take part in the event with ${article} ${item-article: 1[2]}, as well as teleport him or her to the battlefield (for a small fee of ${number: 0} gil).${prompt}'
+    Oui.
+    Non.${prompt}
+  12873: 'La participation générale est actuellement autorisée pour le prochain match de Ballista dans le Diorama. ${choice: 2}[Aucune limite de niveau n’est définie/La limite de niveau est fixée à 60/La limite de niveau est fixée à 50/La limite de niveau est fixée à 40/La limite de niveau est fixée à 30/La limite de niveau est fixée à 20/La limite de niveau est fixée à 10].${prompt}'
+  12874: 'J’ai reçu l’autorisation du ${color: 5}Maître de cérémonie${color: 1} en fonction pour fournir à tout aventurier souhaitant participer à l’événement ${article} ${item-article: 1[2]}, ainsi que pour le téléporter sur le champ de bataille (pour une somme modique de ${number: 0} gils).${prompt}'
   12875: |-
-    Do you wish to participate?
+    Souhaitez-vous participer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12876: 'When you have made your preparations, show me your ${item-singular: 0[2]} and I shall teleport you to the Diorama.${prompt}'
-  12877: Many years ago, before Conflict was banned, my master, the almighty Abdhaljs, honed his magical battle techniques on the fields of Ballista.${prompt}
-  12878: 'And now with the recent reinstatement of the exercises, the great mage has been working feverishly to complete a creation he believes can be of great assistance to Conflict--${color: 5}Diorama Abdhaljs-Ghelsba${color: 1}.${prompt}'
+    Oui.
+    Non.${prompt}
+  12876: 'Lorsque vous aurez terminé vos préparatifs, montrez-moi votre ${item-singular: 0[2]} et je vous téléporterai au Diorama.${prompt}'
+  12877: 'Il y a de nombreuses années, avant l’interdiction du Conflit, mon maître, l’illustre Abdhaljs, perfectionnait ses techniques de combat magique sur les champs de Ballista.${prompt}'
+  12878: 'Et maintenant, avec la récente réintroduction des exercices, le grand mage travaille d’arrache-pied pour achever une création qu’il estime être d’une grande aide pour le Conflit--${color: 5}Diorama Abdhaljs-Ghelsba${color: 1}.${prompt}'
   12879: |-
-    What is a Diorama?
-    Similar to the one used in the popular children's board game “Battleista,” Diorama Abdhaljs is a miniature version of an actual location in Vana'diel.${prompt}
-  12880: However, there is one thing that sets Diorama Abdhaljs apart from its counterpart. In the place of wooden game pieces, living, breathing warriors are used!${prompt}
-  12881: How is that possible, you ask? Well, in his studies, my master was able to unlock the secrets of the ancient magic known as “Mini”--a forbidden spell with the power to reduce objects to a fraction of their original size.${prompt}
-  12882: By using the incantations inscribed on codices authored by Abdhaljs, players can be temporarily shrunk down and teleported to the miniature battlefield hidden on a secluded island somewhere in the Tavnazian Archipelago.${prompt}
-  12883: It is all perfectly safe, and the all-seeing Abdhaljs guarantees that you will be satisfied with your experience within his creation (though no refunds will be offered if you are not).${prompt}
-  12884: 'A valid ${item-singular: 0[2]}, ${item-singular: 1[2]}, ${item-singular: 2[2]}, or ${item-singular: 3[2]} is required for access to the Diorama.${prompt}'
-  12885: Present one to me when you have completed your preparations.${prompt}
+    Qu’est-ce qu’un Diorama ?
+    Semblable à celui utilisé dans le jeu de société populaire pour enfants « Battleista », le Diorama Abdhaljs est une version miniature d’un lieu réel de Vana’diel.${prompt}
+  12880: Cependant, une chose distingue le Diorama Abdhaljs de son homologue. Au lieu de pions en bois, ce sont des guerriers vivants et respirants qui sont utilisés !${prompt}
+  12881: 'Comment est-ce possible, me demandez-vous ? Eh bien, dans ses recherches, mon maître a découvert les secrets de la magie ancienne connue sous le nom de « Mini »--un sort interdit ayant le pouvoir de réduire des objets à une fraction de leur taille originale.${prompt}'
+  12882: 'En utilisant les incantations inscrites dans les codex écrits par Abdhaljs, les participants peuvent être temporairement réduits et téléportés sur le champ de bataille miniature, caché sur une île isolée quelque part dans l’archipel Tavnazien.${prompt}'
+  12883: 'Tout est parfaitement sûr, et l’omniscient Abdhaljs garantit que vous serez satisfait de votre expérience dans sa création (bien qu’aucun remboursement ne soit offert si ce n’est pas le cas).${prompt}'
+  12884: 'Un ${item-singular: 0[2]}, ${item-singular: 1[2]}, ${item-singular: 2[2]} ou ${item-singular: 3[2]} valide est requis pour accéder au Diorama.${prompt}'
+  12885: 'Présentez-en un lorsque vous aurez terminé vos préparatifs.${prompt}'
   12886: |-
-    What would you like to know?
+    Que souhaitez-vous savoir ?
     ${selection-lines}
-    About making reservations.
-    About reservation guidelines.
-    About reservation status.
-    About the waiting list.
-    Return.${prompt}
-  12887: The Diorama can be reserved in blocks of two hours (Earth time).${prompt}
-  12888: 'Reservations can be made for same-day blocks, as well as blocks two days in advance. For example, you could currently reserve the two-hour block from ${earthtime: 0} to ${earthtime: 1}.${prompt}'
-  12889: If no reservations have been made for the current block, or a person fails to reconfirm his or her reservation, other adventurers may be granted access to the area.${prompt}
-  12890: 'At the time of the reservation, the client will be required to decide on a level restriction. Once this is set, ${article} ${item-article: 0[2]} inscribed with the Diorama access time and the level restriction will be presented.${prompt}'
-  12891: If there is no reservation for the current two-hour block, or a person fails to reconfirm his or her reservation, other adventurers may be granted access to the area.${prompt}
-  12892: 'The person who possesses the original ${item-singular: 0[2]} is automatically named the ${color: 5}Master of Ceremonies${color: 1} (MC), and will be granted authorization to change various Diorama access settings, as well as Ballista-related rules within the area.${prompt}'
-  12893: Reservations are only good for blocks of two hours. When a party's time in the Diorama is up, all participants will be teleported back here to the Ru'Lude Gardens.${prompt}
-  12894: 'By ${color: 5}using${color: 1} ${article} ${item-article: 0[2]}, adventurers can create ${item-plural: 1[2]}. Any person who possesses one of these pages will be granted access to the Diorama from the time indicated on the bottom.${prompt}'
-  12895: 'Also, more ${item-plural: 1[2]} can be made by simply ${color: 5}using${color: 1} the page as one would a normal item.${prompt}'
-  12896: You can now make and confirm reservations using the reservation status list.${prompt}
+    À propos des réservations.
+    À propos des règles de réservation.
+    À propos du statut des réservations.
+    À propos de la liste d’attente.
+    Retour.${prompt}
+  12887: 'Le Diorama peut être réservé par blocs de deux heures (temps terrestre).${prompt}'
+  12888: 'Les réservations peuvent être effectuées pour les blocs du jour même, ainsi que pour les blocs jusqu’à deux jours à l’avance. Par exemple, vous pourriez réserver actuellement le bloc de deux heures allant de ${earthtime: 0} à ${earthtime: 1}.${prompt}'
+  12889: 'Si aucune réservation n’a été faite pour le bloc actuel, ou si une personne ne reconfirme pas sa réservation, d’autres aventuriers peuvent se voir accorder l’accès à la zone.${prompt}'
+  12890: 'Au moment de la réservation, le client devra décider d’une restriction de niveau. Une fois celle-ci définie, ${article} ${item-article: 0[2]} indiquant l’heure d’accès au Diorama et la restriction de niveau sera remis.${prompt}'
+  12891: 'Si aucune réservation n’est en place pour le bloc actuel de deux heures, ou si une personne ne reconfirme pas sa réservation, d’autres aventuriers peuvent se voir accorder l’accès à la zone.${prompt}'
+  12892: 'La personne possédant l’original ${item-singular: 0[2]} est automatiquement désignée ${color: 5}Maître de cérémonie${color: 1} (MC), et se verra accorder l’autorisation de modifier divers paramètres d’accès au Diorama, ainsi que les règles liées à la Ballista dans la zone.${prompt}'
+  12893: 'Les réservations ne sont valables que pour des blocs de deux heures. Lorsque le temps d’un groupe dans le Diorama est écoulé, tous les participants seront téléportés ici, dans les jardins de Ru’Lude.${prompt}'
+  12894: 'En ${color: 5}utilisant${color: 1} ${article} ${item-article: 0[2]}, les aventuriers peuvent créer ${item-plural: 1[2]}. Toute personne possédant une de ces pages se verra accorder l’accès au Diorama à partir de l’heure indiquée en bas.${prompt}'
+  12895: 'De plus, davantage de ${item-plural: 1[2]} peuvent être créés simplement en ${color: 5}utilisant${color: 1} la page comme un objet normal.${prompt}'
+  12896: 'Vous pouvez désormais effectuer et confirmer des réservations à l’aide de la liste de statut des réservations.${prompt}'
   12897: |-
     The status of each time block will be displayed in symbols. The symbols' meanings are as follows:
     “？”: The reservation documents have been misplaced.
