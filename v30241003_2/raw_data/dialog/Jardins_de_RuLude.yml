@@ -25215,26 +25215,26 @@ entries:
     Lv. 50 matches: ${number: 2} gil
     Lv. 60 matches: ${number: 3} gil
     Unrestricted matches: ${number: 4} gil${prompt}
-  12118: Participating nations are selected in the following manner...${prompt}
+  12118: Les nations participantes sont sélectionnées de la manière suivante...${prompt}
   12119: |-
-    Matches for the 1st～4th month are:
-    Jugner: Bastok vs San d'Oria
-    Pashhow: Bastok vs Windurst
-    Meriphataud: San d'Oria vs Windurst${prompt}
+    Les matchs pour le 1er～4ème mois sont :
+    Jugner : Bastok contre San d'Oria
+    Pashhow : Bastok contre Windurst
+    Meriphataud : San d'Oria contre Windurst${prompt}
   12120: |-
-    Matches for the 5th～8th month are:
-    Jugner: Bastok vs Windurst
-    Pashhow: San d'Oria vs Windurst
-    Meriphataud: Bastok vs San d'Oria${prompt}
+    Les matchs pour le 5ème～8ème mois sont :
+    Jugner : Bastok contre Windurst
+    Pashhow : San d'Oria contre Windurst
+    Meriphataud : Bastok contre San d'Oria${prompt}
   12121: |-
-    Matches for the 9th～12th month are:
-    Jugner: San d'Oria vs Windurst
-    Pashhow: San d'Oria vs Bastok
-    Meriphataud: Bastok vs Windurst${prompt}
+    Les matchs pour le 9ème～12ème mois sont :
+    Jugner : San d'Oria contre Windurst
+    Pashhow : San d'Oria contre Bastok
+    Meriphataud : Bastok contre Windurst${prompt}
   12122: |-
-    Learn about which match:
+    Apprenez-en plus sur quel match :
     ${selection-lines}
-    View previous month.
+    Voir le mois précédent.
     ${number: 3}/${number: 4}/2  Lv.30  Jugner
     ${number: 3}/${number: 4}/4  Lv.30  Pashhow
     ${number: 3}/${number: 4}/6  Lv.30  Meriphataud
@@ -25250,12 +25250,12 @@ entries:
     ${number: 3}/${number: 4}/26  Lv.∞  Jugner
     ${number: 3}/${number: 4}/28  Lv.∞  Pashhow
     ${number: 3}/${number: 4}/30  Lv.∞  Meriphataud
-    View next month.
-    Quit.${prompt}
+    Voir le mois suivant.
+    Quitter.${prompt}
   12123: |-
-    Learn about which match:
+    Apprenez-en plus sur quel match :
     ${selection-lines}
-    View previous month.
+    Voir le mois précédent.
     ${number: 4}/2/${number: 3}  Lv.30  Jugner
     ${number: 4}/4/${number: 3}  Lv.30  Pashhow
     ${number: 4}/6/${number: 3}  Lv.30  Meriphataud
@@ -25271,12 +25271,12 @@ entries:
     ${number: 4}/26/${number: 3}  Lv.∞  Jugner
     ${number: 4}/28/${number: 3}  Lv.∞  Pashhow
     ${number: 4}/30/${number: 3}  Lv.∞  Meriphataud
-    View next month.
-    Quit.${prompt}
+    Voir le mois suivant.
+    Quitter.${prompt}
   12124: |-
-    Learn about which match:
+    Apprenez-en plus sur quel match :
     ${selection-lines}
-    View previous month.
+    Voir le mois précédent.
     2/${number: 4}/${number: 3}  Lv.30  Jugner
     4/${number: 4}/${number: 3}  Lv.30  Pashhow
     6/${number: 4}/${number: 3}  Lv.30  Meriphataud
@@ -25292,230 +25292,236 @@ entries:
     26/${number: 4}/${number: 3}  Lv.∞  Jugner
     28/${number: 4}/${number: 3}  Lv.∞  Pashhow
     30/${number: 4}/${number: 3}  Lv.∞  Meriphataud
-    View next month.
-    Quit.${prompt}
+    Voir le mois suivant.
+    Quitter.${prompt}
   12125: |-
-    Place: ${choice: 3}[Jugner Forest/Pashhow Marshlands/Meriphataud Mountains]
-    Nations: ${choice: 0}[San d'Oria/Bastok/Windurst] vs ${choice: 1}[San d'Oria/Bastok/Windurst]
-    Level Restriction: ${choice: 2}[None/ / /30/40/50/60/]
-    Participation Fee: ${number: 4} gil
-    Match Format: ${choice: 5}[All or Nothing/Best of Three] * ${choice: 6}[Normal Items Restricted/Normal Items Allowed]${prompt}
+    Lieu : ${choice: 3}[Forêt de Jugner/Mars des Pashhow/Montagnes de Meriphataud]
+    Nations : ${choice: 0}[San d'Oria/Bastok/Windurst] contre ${choice: 1}[San d'Oria/Bastok/Windurst]
+    Restriction de niveau : ${choice: 2}[Aucune/ / /30/40/50/60/]
+    Frais de participation : ${number: 4} gil
+    Format du match : ${choice: 5}[Tout ou Rien/Meilleur des Trois] * ${choice: 6}[Objets Normaux Interdits/Objets Normaux Autorisés]${prompt}
   12126: |-
-    Entry period begins:
-    Vana'diel: ${vanatime: 0}
-    Earth: ${earthtime: 0}${prompt}
+    Période d'inscription commence :
+    Vana'diel : ${vanatime: 0}
+    Terre : ${earthtime: 0}${prompt}
   12127: |-
-    Match begins:
-    Vana'diel: ${vanatime: 0}
-    Earth: ${earthtime: 0}${prompt}
-  12128: I'm a traveling Moogle, always on the road... In search of the secrets of true strength, kupo.${prompt}
-  12129: And this time I think I might have found one. That's why I'm visiting Maat to see what he thinks, kupo.${prompt}
-  12130: I could fill you in on the details, but you don't look like you'd understand what I have to say. Come back when you think you've got some more seasoning under your belt, kupo...${prompt}
+    Début du match :
+    Vana'diel : ${vanatime: 0}
+    Terre : ${earthtime: 0}${prompt}
+  12128: |-
+    Je suis un Moogle voyageur, toujours sur la route... À la recherche des secrets de la véritable force, kupo.${prompt}
+  12129: |-
+    Et cette fois, je pense avoir trouvé quelque chose. C'est pourquoi je rends visite à Maat pour voir ce qu'il en pense, kupo.${prompt}
+  12130: |-
+    Je pourrais vous expliquer en détail, mais vous ne semblez pas comprendre ce que j'ai à dire. Revenez quand vous aurez un peu plus d'expérience, kupo...${prompt}
   12131: |-
-    I've discovered a way to increase the potential of those who have reached their “limits.” However, I haven't found anyone to pass that method on to, kupo.
-    Hey, you look pretty tough. How would you like to be my guinea...errr, assistant?${prompt}
+    J'ai découvert un moyen d'augmenter le potentiel de ceux qui ont atteint leurs “limites.” Cependant, je n'ai trouvé personne à qui transmettre cette méthode, kupo.
+    Hé, tu as l'air assez costaud. Ça te dirait de devenir mon cobaye... euh, mon assistant ?${prompt}
   12132: |-
-    Wait a minute! I remember you!
-    I already filled you in on the secrets of the Moogle Merit Management system, kupo! Stop wasting your time here; get fighting, kupo!${prompt}
+    Attends une minute ! Je me souviens de toi !
+    Je t'ai déjà expliqué les secrets du système de gestion des mérites des Moogles, kupo ! Arrête de perdre ton temps ici ; va combattre, kupo !${prompt}
   12133: |-
-    Become his “assistant”?
+    Devenir son “assistant” ?
     ${selection-lines}
-    Let's do it!
-    No way!
-    Tell me more...${prompt}
+    On y va !
+    Pas question !
+    Dis m'en plus...${prompt}
   12134: |-
     Excellent, kupo...
-    Ahem! I shall now pass on to you the secrets of the “Moogle Merit Management” system. Use this legendary method to extend your limits. Watch as your strength soars beyond the stars, kupo!${prompt}
-  12135: Now, when the level of your main job has reached 75 or higher, a new button, “Merit Points,” will appear under “Status” in the main menu.${prompt}
-  12136: Press this button to change experience accumulation modes as well as adjust skills and attributes. Just remember, you can only adjust your attributes while in your Mog House or Mog Garden, kupo!${prompt}
-  12137: ${name-npc} casts a strange spell on you...${prompt}
+    Ahem ! Je vais maintenant te transmettre les secrets du système de “Gestion des Mérites des Moogles.” Utilise cette méthode légendaire pour dépasser tes limites. Regarde ta force s'élever au-delà des étoiles, kupo !${prompt}
+  12135: |-
+    Maintenant, lorsque le niveau de ton travail principal aura atteint 75 ou plus, un nouveau bouton, “Points de Mérite,” apparaîtra sous “Statut” dans le menu principal.${prompt}
+  12136: |-
+    Appuie sur ce bouton pour changer les modes d'accumulation d'expérience ainsi que pour ajuster tes compétences et tes attributs. Souviens-toi, tu ne peux ajuster tes attributs que lorsque tu es dans ta Maison Mog ou ton Jardin Mog, kupo !${prompt}
+  12137: |-
+    ${name-npc} lance un étrange sort sur toi...${prompt}
   12138: |-
-    Hmmm... That didn't work, kupo...
-    I guess I still have some research to do. We'll have to put the experiment on hold for a while.${prompt}
+    Hmmm... Ça n'a pas marché, kupo...
+    Il semblerait que j'ai encore des recherches à faire. Nous devrons mettre l'expérience en pause pendant un moment.${prompt}
   12139: |-
-    Huh? What good is an adventurer that's not willing to take on a little adventure?
-    Well, come back to me if you ever change your mind, kupo...${prompt}
+    Hein ? À quoi bon un aventurier qui n'est pas prêt à relever un petit défi ?
+    Eh bien, reviens me voir si tu changes d'avis, kupo...${prompt}
   12140: |-
-    Been working hard, or hardly working, kupo?
-    Remember that by pressing the “Merit Points” button in the “Status” menu, you can check merit point totals, change experience accumulation modes, and adjust skills and attributes.${prompt}
+    Tu as travaillé dur, ou tu as fait semblant de travailler, kupo ?
+    Souviens-toi qu'en appuyant sur le bouton “Points de Mérite” dans le menu “Statut”, tu peux consulter le total des points de mérite, changer les modes d'accumulation d'expérience, et ajuster les compétences et les attributs.${prompt}
   12141: |-
-    Oho, kupo! Or perhaps you're looking to transcend your limits?
-    Because that could also be arranged...${prompt}
+    Oho, kupo ! Ou peut-être cherches-tu à transcender tes limites ?
+    Parce que cela pourrait aussi être arrangé...${prompt}
   12142: |-
-    Ask about merit points?
+    Demander des informations sur les points de mérite ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   12143: |-
-    What will you ask about?
+    Que vas-tu demander ?
     ${selection-lines}
-    Exceeding your limits.
-    Merit points.
-    Nothing.${prompt}
-  12144: Well, if you ever need a refresher, you know where I'll be, kupo!${prompt}
-  12145: Or perhaps you've finally mustered the courage to conquer your inner limits, kupo?${prompt}
+    Dépasser tes limites.
+    Points de mérite.
+    Rien.${prompt}
+  12144: Eh bien, si jamais tu as besoin d'une petite révision, tu sais où me trouver, kupo !${prompt}
+  12145: Ou peut-être as-tu enfin trouvé le courage de conquérir tes limites intérieures, kupo ?${prompt}
   12146: |-
-    Before you rush into anything, let me inform you of the disclaim...errr, the details of the method, kupo.
-    Have you ever stopped to wonder what happens to all the experience you accumulate after maxing out your level?${prompt}
-  12147: 'In recent months, I have discovered that this type of experience builds up in your body in a completely different form--a type of super experience, if you will. I have given this phenomenon the name ${color: 5}limit points${color: 1}, kupo!${prompt}'
-  12148: When you accumulate ten thousand of these points, they are magically transformed into an even more super type of experience--super-duper experience, if you will. I call these ultra-special points “merit points,” kupo!${prompt}
-  12149: But that is not all I have discovered. I think I have also come across a method to manage those points and use them to boost the levels of your body and mind beyond their current limits! I call it “Moogle Merit Management,” kupo!${prompt}
+    Avant de te lancer dans quoi que ce soit, laisse-moi te renseigner sur les avertissements... euh, les détails de la méthode, kupo.
+    T'es-tu déjà demandé ce qui arrive à toute l'expérience que tu accumules après avoir atteint ton niveau maximum ?${prompt}
+  12147: 'Ces derniers mois, j’ai découvert que ce type d’expérience s’accumule dans ton corps sous une forme complètement différente -- une sorte de super expérience, si tu veux. J’ai donné à ce phénomène le nom de ${color: 5}points de limite${color: 1}, kupo !${prompt}'
+  12148: Lorsque tu accumules dix mille de ces points, ils se transforment magiquement en un type d'expérience encore plus super -- une super expérience, si tu veux. Je les appelle ces points ultra-spéciaux “points de mérite”, kupo !${prompt}
+  12149: Mais ce n'est pas tout ce que j'ai découvert. Je pense avoir également trouvé une méthode pour gérer ces points et les utiliser pour booster les niveaux de ton corps et de ton esprit au-delà de leurs limites actuelles ! Je l'appelle la “Gestion des Mérites Moogle”, kupo !${prompt}
   12150: |-
-    I can tell by the look on your face that you're pretty interested, kupo.
-    So, what would you like to know?${prompt}
+    Je peux voir sur ton visage que tu es assez intéressé, kupo.
+    Alors, qu'aimerais-tu savoir ?${prompt}
   12151: |-
-    Ask about...
+    Demander à propos de...
     ${selection-lines}
-    How to accumulate merit points.
-    How to adjust attributes.
-    Nothing at this time.${prompt}
-  12152: Well, you already know that by reaching level 75 you're ready to start collecting limit points, right, kupo?${prompt}
-  12153: Well, before you begin, don't forget that you have to press the “Merit Points” button in the “Status” menu.${prompt}
-  12154: It only appears when your main job is level 75 or higher, kupo.${prompt}
-  12155: By pressing this button, you can toggle between “experience point accumulation mode” and “limit point accumulation mode,” kupo.${prompt}
-  12156: In experience point accumulation mode, you will gain normal EXP after every battle until you reach the maximum...${prompt}
-  12157: '...while in limit point accumulation mode, you will receive limit points after every battle. It''s that easy, kupo!${prompt}'
-  12158: Oh, and by the way--if you are still in experience point accumulation mode after you've reached your maximum amount of EXP, any battles fought from that moment on will earn you limit points, regardless of the mode you are in, kupo!${prompt}
-  12159: Normally, you can only accumulate limit points when you're playing a job that has reached level 75 or higher. However, there is one exception, kupo!${prompt}
-  12160: When a job capable of receiving limit points has been reduced via a level restriction, you can still earn limit points by defeating enemies!${prompt}
-  12161: Just don't forget to switch modes before heading out on a hunting trip! When you're in limit point accumulation mode, the color of the text in the “Status” window will change a little to let you know, kupo!${prompt}
-  12162: Finally, if you level down or switch jobs while in limit point accumulation mode, you will automatically be switched back to experience point accumulation mode.${prompt}
-  12163: 'Ah, and one more point of advice: You can always check the amount of limit points and merit points you have earned by viewing the “Merit Point” menu.${prompt}'
-  12164: Ummm, first of all, you can check the number of merit points you have accumulated by pressing the “Merit Points” button under “Status” in the main menu.${prompt}
-  12165: The data I have collected so far tells me that it is quite difficult to raise these attributes, and that there seems to be a limit to the amount any certain attribute can be boosted, kupo.${prompt}
-  12166: It also seems that certain attributes and skills are connected in some way. I call these groups “categories.”${prompt}
-  12167: 'For example, imagine the attributes in the “HP/MP” category can be raised a ${color: 5}“combination”${color: 1} of seven times, kupo.${prompt}'
-  12168: That means if you raise your “Max HP” five times, you can only raise your “Max MP” two times.${prompt}
-  12169: In other words, you cannot raise all of the attributes to their limits. The body must maintain a certain balance, or it will explode! Or something like that, kupo.${prompt}
-  12170: There is also a way to lower attributes that have been pushed past their limits. Unfortunately, every time this is tried, the merit points used to originally raise that attribute are lost, kupo...${prompt}
-  12171: Oh, and finally, there are some attributes and skills in the same category that have different limits. I'm still not sure about all of these, so I'd suggest asking some of your level 75 buddies for advice, kupo!${prompt}
+    Comment accumuler des points de mérite.
+    Comment ajuster les attributs.
+    Rien pour le moment.${prompt}
+  12152: Eh bien, tu sais déjà qu'en atteignant le niveau 75, tu es prêt à commencer à collectionner des points de limite, n'est-ce pas, kupo ?${prompt}
+  12153: Eh bien, avant de commencer, n'oublie pas que tu dois appuyer sur le bouton “Points de mérite” dans le menu “Statut”.${prompt}
+  12154: Il n'apparaît que lorsque ton métier principal est de niveau 75 ou plus, kupo.${prompt}
+  12155: En appuyant sur ce bouton, tu pourras basculer entre le mode “accumulation de points d'expérience” et le mode “accumulation de points de limite”, kupo.${prompt}
+  12156: En mode accumulation de points d'expérience, tu gagneras de l'EXP normal après chaque combat jusqu'à ce que tu atteignes le maximum...${prompt}
+  12157: '...tandis qu’en mode accumulation de points de limite, tu recevras des points de limite après chaque combat. C’est aussi simple que ça, kupo !${prompt}'
+  12158: Oh, et au fait -- si tu es encore en mode accumulation de points d’expérience après avoir atteint ton maximum d’EXP, tous les combats effectués à partir de ce moment-là te rapporteront des points de limite, peu importe le mode dans lequel tu te trouves, kupo !${prompt}
+  12159: Normalement, tu peux seulement accumuler des points de limite lorsque tu joues un métier qui a atteint le niveau 75 ou plus. Cependant, il y a une exception, kupo !${prompt}
+  12160: Lorsqu'un métier capable de recevoir des points de limite a été restreint par une limitation de niveau, tu peux quand même gagner des points de limite en battant des ennemis !${prompt}
+  12161: N'oublie juste pas de changer de mode avant de partir en chasse ! Lorsque tu es en mode accumulation de points de limite, la couleur du texte dans la fenêtre “Statut” changera un peu pour te prévenir, kupo !${prompt}
+  12162: Enfin, si tu descends de niveau ou changes de métier en étant en mode accumulation de points de limite, tu reviendras automatiquement en mode accumulation de points d'expérience.${prompt}
+  12163: 'Ah, et un dernier conseil : Tu peux toujours vérifier le nombre de points de limite et de points de mérite que tu as gagnés en consultant le menu “Points de mérite”.${prompt}'
+  12164: Euh, d'abord, tu peux vérifier le nombre de points de mérite que tu as accumulés en appuyant sur le bouton “Points de mérite” sous “Statut” dans le menu principal.${prompt}
+  12165: Les données que j'ai collectées jusqu'à présent me disent qu'il est assez difficile d'augmenter ces attributs, et qu'il semble y avoir une limite à l'augmentation de chaque attribut, kupo.${prompt}
+  12166: Il semble aussi que certains attributs et compétences soient liés d'une certaine manière. J'appelle ces groupes “catégories”.${prompt}
+  12167: 'Par exemple, imagine que les attributs de la catégorie “HP/MP” peuvent être augmentés ${color: 5}“combinaison”${color: 1} sept fois, kupo.${prompt}'
+  12168: Cela signifie que si tu augmentes ton “HP max” cinq fois, tu ne peux augmenter ton “MP max” que deux fois.${prompt}
+  12169: En d'autres termes, tu ne peux pas augmenter tous les attributs jusqu'à leurs limites. Le corps doit maintenir un certain équilibre, ou il explosera ! Ou quelque chose comme ça, kupo.${prompt}
+  12170: Il existe aussi un moyen de réduire les attributs qui ont été poussés au-delà de leurs limites. Malheureusement, chaque fois que cela est tenté, les points de mérite utilisés pour augmenter cet attribut sont perdus, kupo...${prompt}
+  12171: Oh, et enfin, il y a certains attributs et compétences dans la même catégorie qui ont des limites différentes. Je ne suis pas encore sûr de tous ces détails, alors je te conseille de demander conseil à certains de tes amis de niveau 75, kupo !${prompt}
   12172: |-
-    Hrm?
+    Hm ?
     Hmmm...
-    I need a little time alone to think...
-    Would you mind coming back a little later, kupo?${prompt}
+    J'ai besoin d'un peu de temps seul pour réfléchir...
+    Est-ce que ça te dérange de revenir un peu plus tard, kupo ?${prompt}
   12173: |-
     0:${number: 0}     4:${number: 4}
     1:${number: 1}     5:${number: 5}
     2:${number: 2}     6:${number: 6}
     3:${number: 3}     7:${number: 7}
   12174: |-
-    I had a feeling that's what you'd say, kupo!
-    Well, Maat? How about it?${prompt}
-  12175: We stand on the cusp of a new era. It's the Goddess-given duty of an old warrior like me to prepare the younger generation to follow in my footsteps. And who better than a young ${choice-player-gender}[man/woman] who's met every challenge sent ${choice-player-gender}[his/her] way?${prompt}
-  12176: You can say that again, my friend!${prompt}
-  12177: No doubt you've heard of the mog tablets--those stone slabs engraved with the timeless wisdom of King Kupofried the Great that have been popping up periodically throughout the land.${prompt}
+    Je me doutais bien que tu dirais ça, kupo !
+    Eh bien, Maat ? Qu'en dis-tu ?${prompt}
+  12175: Nous sommes au bord d'une nouvelle ère. C'est le devoir divin d'un vieux guerrier comme moi de préparer la jeune génération à suivre mes pas. Et qui de mieux qu'un jeune ${choice-player-gender}[homme/femme] qui a relevé tous les défis lancés sur ${choice-player-gender}[lui/elle] ?${prompt}
+  12176: Tu peux bien le dire, mon ami !${prompt}
+  12177: Il ne fait aucun doute que tu as entendu parler des tablettes mog--ces plaques de pierre gravées de la sagesse intemporelle du Roi Kupofried le Grand qui apparaissent périodiquement à travers le pays.${prompt}
   12178: |-
-    The tablets hold many secrets that we moogles have yet to unravel, kupo.
-    Why are our wings purple? Why are our noses red? How can we better assist our adventuring friends?${prompt}
-  12179: Why, I was just having a discussion with a friend of mine from the Magian Mooglehood on the very subject... That's when it hit me on the head like a herd of hecteyes!${prompt}
-  12180: What if the ancient moogle arts could be used to augment not only adventurers' possessions, but the adventurers themselves, kupo!?${prompt}
+    Les tablettes cachent de nombreux secrets que nous, moogles, n'avons pas encore élucidés, kupo.
+    Pourquoi nos ailes sont-elles violettes ? Pourquoi nos nez sont-ils rouges ? Comment pouvons-nous mieux aider nos amis aventuriers ?${prompt}
+  12179: Pourquoi, je discutais justement avec un ami du Moogle Magien à ce sujet... C'est alors que cela m'a frappé sur la tête comme un troupeau de hecteyes !${prompt}
+  12180: Et si les anciennes arts moogles pouvaient être utilisés pour augmenter non seulement les possessions des aventuriers, mais aussi les aventuriers eux-mêmes, kupo !?${prompt}
   12181: |-
-    Using my knowledge of merit points--and drawing upon the martial mastery of Maat here--I've whipped up a method that just might work!
-    What say you, adventurer? Care to be my test subject?${prompt}
+    En utilisant mes connaissances sur les points de mérite--et en m'inspirant de la maîtrise martiale de Maat ici--j'ai concocté une méthode qui pourrait bien fonctionner !
+    Qu'en dis-tu, aventurier ? Tu veux être mon cobaye ?${prompt}
   12182: |-
-    'Course, nobody'd blame you for not trustin' the little devil.
-    I'm not even sure I do. Heh heh heh...${prompt}
+    Bien sûr, personne ne t'en tiendrait rigueur si tu ne faisais pas confiance à ce petit diable.
+    Je ne suis même pas sûr de lui faire confiance. Heh heh heh...${prompt}
   12183: |-
-    Is an adventurer who would spurn greater strength truly an adventurer?
-    Come, now! What have you got to lose, kupo?${prompt}
+    Un aventurier qui rejette une plus grande force est-il vraiment un aventurier ?
+    Allez, quoi ! Qu'as-tu à perdre, kupo ?${prompt}
   12184: |-
-    Give it a go, kupo?
+    Tu veux tenter le coup, kupo ?
     ${selection-lines}
-    Will I ever!
-    Not today.${prompt}
+    Bien sûr !
+    Pas aujourd'hui.${prompt}
   12185: |-
-    Marvelous! Magnificent!
-    First, I'll need you to bring me ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}
+    Merveilleux ! Magnifique !
+    D'abord, il me faut que tu m'apportes ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}
   12186: |-
-    They're needed to channel the ancient moogle magic, you see.
-    You'll also have to accumulate ${number: 0} merit point${choice-plurality: 0}[/s] to provide the necessary energy to trigger the reaction, kupo.${prompt}
+    Ils sont nécessaires pour canaliser la magie moogle ancienne, tu vois.
+    Tu devras aussi accumuler ${number: 0} point${choice-plurality: 0}[/s] de mérite pour fournir l'énergie nécessaire pour déclencher la réaction, kupo.${prompt}
   12187: |-
-    I'll be sittin' this one out, I fear.
-    I may have mastered the martial arts, but I know better than to get mixed up with moogle mumbo-jumbo. Heh heh heh...
-    Now go get 'em!${prompt}
+    Je vais m'asseoir sur celle-ci, je crois.
+    J'ai peut-être maîtrisé les arts martiaux, mais je sais mieux que de me mêler au charabia moogle. Heh heh heh...
+    Maintenant, vas-y !${prompt}
   12188: |-
-    Say it ain't so, kupo!
-    Ah, but it is not a moogle's place to question the judgment of an accomplished adventurer such as yourself.
-    Come back if you ever have a change of heart.${prompt}
-  12189: 'Have you acquired the ${number: 1} ${item-given-plurality: 1[2], 0[2]} and ${number: 2} merit point${choice-plurality: 2}[/s] needed to transcend your limits, kupo?${prompt}'
+    Dis-moi que ce n'est pas vrai, kupo !
+    Ah, mais il n'est pas de la place d'un moogle de remettre en question le jugement d'un aventurier accompli tel que toi.
+    Reviens si jamais tu changes d'avis.${prompt}
+  12189: 'As-tu acquis le ${number: 1} ${item-given-plurality: 1[2], 0[2]} et ${number: 2} point${choice-plurality: 2}[/s] de mérite nécessaires pour transcender tes limites, kupo ?${prompt}'
   12190: |-
-    If so, then trade me the ${number: 1} ${item-given-plurality: 1[2], 0[2]} and we'll be on our way!
-    My wings are aflutter with anticipation!${prompt}
-  12191: Or did you just drop by to hear about merit points, kupo?${prompt}
-  12192: 'The ancient moogle incantation requires ${number: 1} ${item-given-plurality: 1[2], 0[2]} and ${number: 2} merit point${choice-plurality: 2}[/s], kupo.${prompt}'
+    Si oui, alors échange-moi le ${number: 1} ${item-given-plurality: 1[2], 0[2]} et nous serons prêts à commencer !
+    Mes ailes frétillent d'anticipation !${prompt}
+  12191: Ou alors, tu es juste venu pour entendre parler des points de mérite, kupo ?${prompt}
+  12192: 'L’incantation moogle ancienne nécessite ${number: 1} ${item-given-plurality: 1[2], 0[2]} et ${number: 2} point${choice-plurality: 2}[/s] de mérite, kupo.${prompt}'
   12193: |-
-    Spectacular! Stupendous! Let's get started, shall we?
-    If you'll just excuse me for a moment, kupo...${prompt}
+    Spectaculaire ! Stupéfiant ! Allons-y, voulez-vous ?
+    Excusez-moi un instant, kupo...${prompt}
   12194: |-
-    Yoo-hoooooo! Mister Magian Moogle man!
-    Yes, you! Over here!${prompt}
+    Yoo-hoooooo ! Mister Magian Moogle man !
+    Oui, toi ! Par ici !${prompt}
   12195: |-
-    What is it this time?
-    And you'd do well to adopt a more courteous tone when addressing your elders, kupo...${prompt}
+    Qu'est-ce qu'il y a cette fois ?
+    Et tu ferais bien d'adopter un ton plus courtois lorsque tu t'adresses à tes aînés, kupo...${prompt}
   12196: |-
-    I'd call you by your proper name if you'd actually tell anyone what it is!
-    But nooo, the Magian Mooglehood must ever be shrouded in secrecy, kupo...${prompt}
-  12197: You would make mock of the wisdom of your forefathers, kupo!?${prompt}
-  12198: (I've a mind to ku-pound the both of them into the next millennium if they don't settle down...)${prompt}
-  12199: Anyhow, if you would just crouch down right here, kupo...${prompt}
-  12200: <Mumble, grumble>... I am ready, kupo.${prompt}
+    Je t'appellerais par ton nom propre si tu daignais bien le dire à quelqu'un !
+    Mais non, le Moogle Magien doit toujours être entouré de secret, kupo...${prompt}
+  12197: Tu te moquerais donc de la sagesse de tes ancêtres, kupo !?${prompt}
+  12198: (J'ai bien envie de les ku-punir tous les deux et de les envoyer au prochain millénaire s'ils ne se calment pas...)${prompt}
+  12199: Quoi qu'il en soit, si tu veux bien t'accroupir juste ici, kupo...${prompt}
+  12200: <Marmonne, grogne>... Je suis prêt, kupo.${prompt}
   12201: |-
-    Excellent! Our magian friend here will fire a potent dose of moogle magic directly at you.
-    All you have to do, my dear adventurer, is stay alive! Easy breezy, wouldn't you say, kupo?${prompt}
-  12202: Now, kupo!
-  12203: (This is reckless even for these moogles. Sends a shiver up my spine, it does...)${prompt}
-  12204: '${color-alt: 15}${name-player} feels a sudden surge of power well up from the pit of ${choice-player-gender}[his/her] stomach, coursing through ${choice-player-gender}[his/her] veins and limbs...!'
-  12205: Kupo-ho! It would seem the procedure has gone off precisely as we predicted!${prompt}
-  12206: That it has, kupo. I must say, the sheer stamina of these adventurers never ceases to astound me.${prompt}
+    Excellent ! Notre ami magien va envoyer une puissante dose de magie moogle directement sur toi.
+    Tout ce que tu as à faire, mon cher aventurier, c'est de rester en vie ! Facile, n'est-ce pas, kupo ?${prompt}
+  12202: Maintenant, kupo !${prompt}
+  12203: (C'est imprudent, même pour ces moogles. Ça me fait froid dans le dos, je t'assure...)${prompt}
+  12204: '${color-alt: 15}${name-player} ressent une soudaine montée de pouvoir qui jaillit du fond de ${choice-player-gender}[son/sa] ventre, traversant ${choice-player-gender}[ses/ses] veines et membres...!${prompt}'
+  12205: Kupo-ho ! Il semblerait que la procédure se soit déroulée exactement comme prévu !${prompt}
+  12206: C'est le cas, kupo. Je dois dire que l'endurance de ces aventuriers ne cesse de m'étonner.${prompt}
   12207: |-
-    My friend, you've been the perfect test subject...<ahem>...I mean, you are clearly an ideal heir for the powers of the moogle ancients.
-    Should our research bear further fruit, you shall be among the first to know!${prompt}
+    Mon ami, tu as été le cobaye parfait... <hum hum> ...je veux dire, tu es clairement un héritier idéal pour les pouvoirs des anciens moogles.
+    Si nos recherches portent encore leurs fruits, tu seras parmi les premiers à le savoir !${prompt}
   12208: |-
-    But why are you still standing around here?
-    There's a whole new world waiting for you to explore, kupo!${prompt}
-  12209: Your level limit is now 80!
+    Mais pourquoi traînes-tu encore ici ?
+    Il y a tout un nouveau monde qui t'attend pour l'explorer, kupo !${prompt}
+  12209: Ta limite de niveau est désormais 80 !${prompt}
   12210: |-
-    Let me guess, kupo.
-    You have caught word of my latest miraculous method for padding the already-puissant powers of adventurers like yourself.${prompt}
-  12211: Yes, the positively esurient expression on your face tells me all I need know.${prompt}
-  12212: Is there no point at which your penchant for power will be sated, kupo?${prompt}
-  12213: It cannot be easy, walking around as a veritable avatar of avarice and avidity.${prompt}
+    Laisse-moi deviner, kupo.
+    Tu as entendu parler de ma dernière méthode miraculeuse pour gonfler les pouvoirs déjà puissants des aventuriers comme toi.${prompt}
+  12211: Oui, l'expression positivement insatiable sur ton visage me dit tout ce que je dois savoir.${prompt}
+  12212: N'y a-t-il donc aucun moment où ta soif de pouvoir sera étanchée, kupo ?${prompt}
+  12213: Cela ne doit pas être facile, de se promener en étant une véritable incarnation de la cupidité et de l'avidité.${prompt}
   12214: |-
-    Still, I've taken a liking to your kind, kupo.
-    And since you were such a wonderful guinea pig last time, I'd be positively elated to experiment upon you again!${prompt}
+    Pourtant, j'ai pris une affinité pour ton genre, kupo.
+    Et puisque tu as été un si merveilleux cobaye la dernière fois, je serais absolument ravi de t'expérimenter à nouveau !${prompt}
   12215: |-
-    That said, I must warn you that I'm still working out some of the kinks.
-    I can give you no guarantees this time.${prompt}
-  12216: That is to say, don't come crying to me if your level of strength ends up plunging precipitously, kupo!${prompt}
-  12217: Are you still keen for the challenge?${prompt}
+    Cela dit, je dois te prévenir que je travaille encore sur certains détails.
+    Je ne peux rien garantir cette fois-ci.${prompt}
+  12216: C'est-à-dire, ne viens pas pleurer si ta force chute brusquement, kupo !${prompt}
+  12217: Es-tu toujours partant pour le défi ?${prompt}
   12218: |-
-    Give it a go, kupo?
+    Tu veux tenter le coup, kupo ?
     ${selection-lines}
-    Will I ever!
-    On second thought...${prompt}
+    Bien sûr !
+    En y réfléchissant bien...${prompt}
   12219: |-
-    Ever the confident one, I see.
-    Very well! Go procure the ${number: 1} ${item-given-plurality: 1[2], 0[2]} needed for the procedure...${prompt}
-  12220: '...And store your spiritual energies to the tune of ${number: 0} merit ${choice-plurality: 0}[point/points], and we''ll give it a go, kupo!${prompt}'
+    Toujours aussi confiant, je vois.
+    Très bien ! Va te procurer les ${number: 1} ${item-given-plurality: 1[2], 0[2]} nécessaires pour la procédure...${prompt}
+  12220: '...Et accumule tes énergies spirituelles à hauteur de ${number: 0} point${choice-plurality: 0}[de mérite], et on pourra tenter le coup, kupo !${prompt}'
   12221: |-
-    You sure you want to go ahead with this, ${name-player}?
-    This moogle mumbo-jumbo gets sketchier and sketchier each time, if you ask me.${prompt}
+    Tu es sûr de vouloir continuer, ${name-player} ?
+    Ce charabia moogle devient de plus en plus douteux à chaque fois, si tu veux mon avis.${prompt}
   12222: |-
-    Is that so? Very well.
-    I cannot fault you for exercising a modicum of moderation, kupo.${prompt}
-  12223: 'Have you acquired the ${number: 1} ${item-given-plurality: 1[2], 0[2]} and ${number: 2} merit point${choice-plurality: 2}[/s] needed to transcend your limits?${prompt}'
-  12224: Then trade them to me and we shall begin the festivities, kupo!${prompt}
+    Ah, c'est comme ça ? Très bien.
+    Je ne peux pas te reprocher de faire preuve d'une certaine modération, kupo.${prompt}
+  12223: 'As-tu acquis les ${number: 1} ${item-given-plurality: 1[2], 0[2]} et ${number: 2} point${choice-plurality: 2}[/s] de mérite nécessaires pour transcender tes limites ?${prompt}'
+  12224: Alors échange-les avec moi et nous commencerons les festivités, kupo !${prompt}
   12225: |-
-    Or did you just drop by to ask me about merit points?
-    Because I would be happy to oblige, kupo.${prompt}
-  12226: 'My latest marvel of moogle magic requires ${number: 1} ${item-given-plurality: 1[2], 0[2]} and ${number: 2} merit point${choice-plurality: 2}[/s], kupo.${prompt}'
+    Ou bien es-tu juste venu me poser des questions sur les points de mérite ?
+    Car je serais heureux de te satisfaire, kupo.${prompt}
+  12226: 'Ma dernière merveille de magie moogle nécessite ${number: 1} ${item-given-plurality: 1[2], 0[2]} et ${number: 2} point${choice-plurality: 2}[/s] de mérite, kupo.${prompt}'
   12227: |-
-    Splendid! Superlative!
-    In that case, without further ado...${prompt}
+    Splendide ! Superbe !
+    Dans ce cas, sans plus tarder...${prompt}
   12228: |-
-    Yoo-hoooooo! Mister Magian Moogle man!
-    Over here, kupo!${prompt}
+    Yoo-hoooooo ! Monsieur le Moogle Magien !
+    Par ici, kupo !${prompt}
   12229: |-
     Yes, yes... I'm coming already.
     And keep your voice down, will you? I could hear your hooting and hollering from a malm away, kupo...${prompt}
@@ -26518,139 +26524,139 @@ entries:
   12677: |-
     After the passing of ten thousand years, a child of destiny would be born in the fated land.
     The Keeper of the Apocalypse...the one I have sworn to destroy.${prompt}
-  12678: I have spent many years preparing for the coming of the keeper.${prompt}
-  12679: It has been an incredibly long journey.${prompt}
-  12680: I have traveled to the far reaches of Vana'diel in search of lost secrets...${prompt}
-  12681: I have found solace and encouragement in the many encounters I have had along the way...${prompt}
-  12682: But then, when I came to a certain place, I was warned:${prompt}
-  12683: Destroying the Keeper of the Apocalypse will merely set the darkness free to reincarnate in another body.${prompt}
-  12684: To break this cycle, the darkness itself must be obliterated.${prompt}
-  12685: It must be erased from the place where all life originates and where all life eventually returns--the mothercrystal.${prompt}
-  12686: To fully eradicate the darkness, the Keeper of the Apocalypse must be destroyed not in the form of a human, but in the form of a god.${prompt}
-  12687: That is why I conceived a plan to use the Lay of the Immortals to resurrect Promathia.${prompt}
-  12688: Resurrection...and destruction...?${prompt}
-  12689: But that plan eventually failed.${prompt}
-  12690: At the baptismal ceremony, I...${prompt}
-  12691: At that time, I was having my strings pulled by the Emptiness inside me.${prompt}
-  12692: I lived in the Tavnazian Cathedral since the time of my earliest memories, and believed that the Gates of Paradise must be opened.${prompt}
-  12693: But as my bad luck would have it, the Emptiness inside me reacted to the baptismal vessel and was sealed within this magicite.${prompt}
+  12678: J'ai passé de nombreuses années à préparer l'arrivée du Gardien.${prompt}
+  12679: Cela a été un voyage incroyablement long.${prompt}
+  12680: J'ai voyagé aux quatre coins de Vana'diel à la recherche de secrets perdus...${prompt}
+  12681: J'ai trouvé du réconfort et de l'encouragement dans les nombreuses rencontres que j'ai faites en chemin...${prompt}
+  12682: Mais ensuite, lorsque je suis arrivé à un endroit particulier, on m'a averti :${prompt}
+  12683: Détruire le Gardien de l'Apocalypse ne fera que libérer les ténèbres pour se réincarner dans un autre corps.${prompt}
+  12684: Pour briser ce cycle, les ténèbres elles-mêmes doivent être anéanties.${prompt}
+  12685: Elles doivent être effacées de l'endroit où toute vie prend naissance et où toute vie retourne finalement—le cristal-mère.${prompt}
+  12686: Pour éradiquer complètement les ténèbres, le Gardien de l'Apocalypse doit être détruit non sous forme humaine, mais sous forme de dieu.${prompt}
+  12687: C'est pourquoi j'ai conçu un plan pour utiliser le Chant des Immortels afin de ressusciter Promathia.${prompt}
+  12688: Résurrection... et destruction...?${prompt}
+  12689: Mais ce plan a finalement échoué.${prompt}
+  12690: Lors de la cérémonie de baptême, je...${prompt}
+  12691: À ce moment-là, mes fils étaient tirés par le Vide en moi.${prompt}
+  12692: J'ai vécu dans la cathédrale de Tavnazia depuis les premiers souvenirs de ma vie, et je croyais que les Portes du Paradis devaient être ouvertes.${prompt}
+  12693: Mais comme cela m'arrivait souvent, le Vide en moi a réagi au vaisseau de baptême et a été scellé dans ce magiçite.${prompt}
   12694: |-
-    My world was tipped upside down.
-    I was suddenly able to read people's thoughts and, just like Cardinal Mildaurion, I never aged another day.${prompt}
+    Mon monde a été bouleversé.
+    J'ai soudainement pu lire les pensées des gens et, tout comme le Cardinal Mildaurion, je n'ai plus vieilli d'un jour.${prompt}
   12695: |-
-    So that is what happened.
-    You were the Keeper of the Apocalypse...${prompt}
+    Ainsi, c'est ce qui s'est passé.
+    Tu étais le Gardien de l'Apocalypse...${prompt}
   12696: |-
-    But things are different now.
-    You are no longer the one, are you?${prompt}
+    Mais les choses sont différentes maintenant.
+    Tu n'es plus celui qu'on croyait, n'est-ce pas ?${prompt}
   12697: '...${prompt}'
-  12698: Are you saying that nothing has changed? What is to happen to Prishe?${prompt}
-  12699: Judging by the actions of Bahamut, the keeper is still among us.${prompt}
-  12700: But over the last twenty years I have watched over the lands of Vana'diel, I have seen no other possible incarnations...${prompt}
-  12701: Bahamut wishes to see me smashed to bits in the form of the Twilight God.${prompt}
-  12702: It was Diabolos that let me in on my destiny as the Keeper of the Apocalypse.${prompt}
-  12703: It is my fate to be destroyed along with this magicite, and set adrift from the cycle of the mothercrystal.${prompt}
-  12704: No! This is too horrible!${prompt}
+  12698: Dis-tu que rien n'a changé ? Que va-t-il arriver à Prishe ?${prompt}
+  12699: À en juger par les actions de Bahamut, le gardien est toujours parmi nous.${prompt}
+  12700: Mais au cours des vingt dernières années, j'ai surveillé les terres de Vana'diel, et je n'ai vu aucune autre incarnation possible...${prompt}
+  12701: Bahamut souhaite me voir écrasé en morceaux sous la forme du Dieu du Crépuscule.${prompt}
+  12702: C'est Diabolos qui m'a fait découvrir mon destin en tant que Gardien de l'Apocalypse.${prompt}
+  12703: Il est de mon destin d'être détruit avec ce magiçite, et d'être jeté hors du cycle du cristal-mère.${prompt}
+  12704: Non ! C'est trop horrible !${prompt}
   12705: |-
-    Listen to me, Ulmia.
-    We've come pretty far in this quest.
-    I've already heard four of the verses needed to resurrect the Twilight God.${prompt}
-  12706: Once we have the last verse, we can finally stand before Bahamut...!${prompt}
+    Écoute-moi, Ulmia.
+    Nous avons bien progressé dans cette quête.
+    J'ai déjà entendu quatre des versets nécessaires pour ressusciter le Dieu du Crépuscule.${prompt}
+  12706: Une fois que nous aurons le dernier verset, nous pourrons enfin affronter Bahamut... !${prompt}
   12707: |-
-    Please, Prishe!
-    Do you hear what you are saying!?${prompt}
+    S'il te plaît, Prishe !
+    Tu entends ce que tu dis ! ?${prompt}
   12708: |-
-    How can I let you offer your very existence to Promathia?
-    There must be another way...!${prompt}
+    Comment puis-je te laisser offrir ton existence à Promathia ?
+    Il doit y avoir une autre façon... !${prompt}
   12709: |-
-    Calm yourself, Ulmia.
-    Prishe will not be coming with us.${prompt}
-  12710: The last verse of the “Memoria de la S^tona” no longer exists, and there is no weapon left to battle the Twilight God.${prompt}
-  12711: Pitting the full force of Jeuno against the wyrms is our only recourse.${prompt}
-  12712: There is no other way to save the children of Altana from extinction.${prompt}
-  12713: But Miss Mildaurion! What about me?${prompt}
+    Calme-toi, Ulmia.
+    Prishe ne viendra pas avec nous.${prompt}
+  12710: Le dernier verset de la “Memoria de la S^tona” n'existe plus, et il ne reste plus d'arme pour combattre le Dieu du Crépuscule.${prompt}
+  12711: Opposer toute la force de Jeuno aux wyrms est notre seul recours.${prompt}
+  12712: Il n'y a pas d'autre moyen de sauver les enfants d'Altana de l'extinction.${prompt}
+  12713: Mais Mademoiselle Mildaurion ! Et moi ?${prompt}
   12714: |-
-    Lady Esha'ntarl!
-    The Jeunoan Armada is prepared for battle!${prompt}
+    Lady Esha'ntarl !
+    L'armada de Jeuno est prête pour le combat !${prompt}
   12715: |-
-    I must go.
-    Beyond the sea of endless clouds.${prompt}
-  12716: Cardinal Mildaurion!${prompt}
+    Je dois partir.
+    Au-delà de la mer de nuages sans fin.${prompt}
+  12716: Cardinal Mildaurion !${prompt}
   12717: |-
     Prishe. Ulmia.
-    It is only a matter of time until Jeuno becomes a war zone.${prompt}
-  12718: I will prepare an airship for your return to Tavnazia.${prompt}
-  12719: Protect that which is most dear to you.${prompt}
+    Il ne faudra pas longtemps avant que Jeuno ne devienne une zone de guerre.${prompt}
+  12718: Je vais préparer un vaisseau aérien pour votre retour à Tavnazia.${prompt}
+  12719: Protégez ce qui vous est le plus cher.${prompt}
   12720: |-
-    Dammit!
-    There's no way in hell it's ending this way!
-    It's time to put it all on the line!${prompt}
-  12721: Prishe!?${prompt}
+    Fichu !
+    Il n'est pas question que cela se termine ainsi !
+    Il est temps de tout miser !${prompt}
+  12721: Prishe !?${prompt}
   12722: |-
-    ${name-player}!
-    Ulmia!${prompt}
-  12723: I know you guys can do it!${prompt}
-  12724: You're strong enough now to beat the hell out of me when I become Promathia...${prompt}
+    ${name-player} !
+    Ulmia !${prompt}
+  12723: Je sais que vous pouvez le faire !${prompt}
+  12724: Vous êtes maintenant assez forts pour me foutre une raclée quand je deviendrai Promathia...${prompt}
   12725: |-
-    Listen, there is someone in Selbina who knows the fifth verse.
-    Her memory is a little shoddy, though...${prompt}
-  12726: Find the fifth verse!${prompt}
+    Écoutez, il y a quelqu'un à Selbina qui connaît le cinquième verset.
+    Sa mémoire est un peu défaillante, cependant...${prompt}
+  12726: Trouvez le cinquième verset !${prompt}
   12727: |-
-    I need you to do this!
-    You hear me!?${prompt}
+    J'ai besoin que vous fassiez cela !
+    Vous m'entendez ! ?${prompt}
   12728: |-
-    I cannot...!
-    Prishe, wait!${prompt}
-  12729: Ulmia, I have heard the entire story.${prompt}
-  12730: Louverance!?${prompt}
+    Je ne peux pas... !
+    Prishe, attends !${prompt}
+  12729: Ulmia, j'ai entendu toute l'histoire.${prompt}
+  12730: Louverance !?${prompt}
   12731: |-
-    This must be the guidance of Altana.
-    The girl with a “shoddy memory” in Selbina is well known to me.${prompt}
+    Cela doit être la guidance d'Altana.
+    La fille avec une "mémoire défaillante" à Selbina m'est bien connue.${prompt}
   12732: |-
-    And I also happen to possess the means to revive her past.
-    Let us be on our way.${prompt}
+    Et je possède également les moyens de faire revivre son passé.
+    Partons.${prompt}
   12733: |-
-    What?
-    Is there a girl in Selbina with a serious case of amnesia?${prompt}
+    Quoi ?
+    Il y a une fille à Selbina avec une grave amnésie ?${prompt}
   12734: |-
-    How would I know? I'm always confined to my post here in Jeuno.
-    You're the adventurer. Why don't you know these things?${prompt}
-  12735: Those three Tarutaru brought to Jeuno by Nag'molada have been granted amnesty by Lady Esha'ntarl.${prompt}
-  12736: However, I don't believe they have much of a future here in the Duchy.${prompt}
-  12737: 'Once you have angered ${choice: 0}[the Armathrwn Society/the archduke], it would take no less than a miracle to regain ${choice: 0}[their/his] trust.${prompt}'
+    Comment pourrais-je le savoir ? Je suis toujours cantonné à mon poste ici à Jeuno.
+    Vous êtes l'aventurier. Pourquoi ne savez-vous pas ces choses ?${prompt}
+  12735: Les trois Tarutaru amenés à Jeuno par Nag'molada ont été graciés par Lady Esha'ntarl.${prompt}
+  12736: Cependant, je ne crois pas qu'ils aient un grand avenir ici dans le Duché.${prompt}
+  12737: 'Une fois que vous avez mis en colère ${choice: 0}[la Société Armathrwn/l’archiduc], il faudrait pas moins qu’un miracle pour regagner ${choice: 0}[leur/son] confiance.${prompt}'
   12738: |-
-    ${name-player}!
-    It appears you caught up with the armada.${prompt}
+    ${name-player} !
+    Il semble que vous ayez rejoint l'armada.${prompt}
   12739: |-
-    I heard the report.
-    The attack against Bahamut failed, but we have dealt him a critical blow.${prompt}
-  12740: Lady Esha'ntarl is to join the main fleet and lead our forces in a mass assault.${prompt}
+    J'ai entendu le rapport.
+    L'attaque contre Bahamut a échoué, mais nous lui avons porté un coup critique.${prompt}
+  12740: Lady Esha'ntarl doit rejoindre la flotte principale et diriger nos forces dans une attaque de masse.${prompt}
   12741: |-
-    She mentioned that she would like to meet with you all before the attack commences.
-    You are to meet her for a confidential briefing in the tavern in Upper Jeuno.${prompt}
+    Elle a mentionné qu'elle souhaiterait vous rencontrer avant le début de l'attaque.
+    Vous devez la rencontrer pour un briefing confidentiel dans la taverne du Haut Jeuno.${prompt}
   12742: |-
-    Do not keep Lady Esha'ntarl waiting.
-    May victory in battle be yours.${prompt}
-  12743: Captain Wolfgang has asked me to remind you that you are to hurry to the Marble Bridge in Upper Jeuno.${prompt}
-  12744: It sounded as if it was urgent. You had best be on your way!${prompt}
-  12745: Recently, there have been no signs of Nag'molada or those annoying Tarutaru entering the Grand Duke Palace.${prompt}
-  12746: I heard from one of the guards that the Tarutaru were seen riding an airship to Bastok, but as for Nag'molada...${prompt}
+    Ne faites pas attendre Lady Esha'ntarl.
+    Que la victoire au combat soit vôtre.${prompt}
+  12743: Le capitaine Wolfgang m'a demandé de vous rappeler que vous devez vous rendre rapidement au Pont de Marbre dans le Haut Jeuno.${prompt}
+  12744: Il semblait que c'était urgent. Vous feriez bien de vous dépêcher !${prompt}
+  12745: Récemment, il n'y a eu aucun signe de Nag'molada ou de ces Tarutaru gênants entrant dans le Palais du Grand-Duc.${prompt}
+  12746: J'ai entendu dire par un des gardes que les Tarutaru ont été vus embarquant dans un vaisseau aérien à destination de Bastok, mais quant à Nag'molada...${prompt}
   12747: |-
-    The palace is often the site for grand banquets that are attended by dignitaries from every nation.
-    In times like these, we do our utmost to see that the needs of our important visitors are met.${prompt}
-  12748: 'Recently, ${choice: 0}[Lord Nag''molada/Lady Esha''ntarl] has been requesting the oddest things from the palace staff.${prompt}'
-  12749: These requests appear to be for objects desired by guests of the Duchy.${prompt}
-  12750: These requests appear to be for objects desired by guests of our eminent official.${prompt}
-  12751: If the requested items could be found in Jeuno, nay, in the markets of any country, we would endeavor to procure them.${prompt}
+    Le palais est souvent le site de grands banquets auxquels assistent des dignitaires de toutes les nations.
+    En ces temps, nous faisons tout notre possible pour répondre aux besoins de nos invités importants.${prompt}
+  12748: 'Récemment, ${choice: 0}[Seigneur Nag''molada/Dame Esha''ntarl] a demandé les choses les plus étranges au personnel du palais.${prompt}'
+  12749: Ces demandes semblent concerner des objets désirés par les invités du Duché.${prompt}
+  12750: Ces demandes semblent concerner des objets désirés par les invités de notre éminent officiel.${prompt}
+  12751: Si les objets demandés pouvaient être trouvés à Jeuno, non, dans les marchés de n'importe quel pays, nous nous efforcerions de les obtenir.${prompt}
   12752: |-
-    However, many of these objects are not available for purchase.
-    I am in quite a quandary, as you can see.${prompt}
-  12753: Perhaps if I were to offer a reward, you would be so kind as to locate these items on my behalf?${prompt}
+    Cependant, beaucoup de ces objets ne sont pas disponibles à l'achat.
+    Je suis dans une sacrée impasse, comme vous pouvez le voir.${prompt}
+  12753: Peut-être que si je vous offrais une récompense, seriez-vous assez aimable pour localiser ces objets en mon nom ?${prompt}
   12754: |-
-    Would you be so kind?
+    Seriez-vous assez aimable ?
     ${selection-lines}
-    Certainly.
-    I am afraid not.${prompt}
+    Bien sûr.
+    Je crains que non.${prompt}
   12755: |-
     The following items have been requested:
     ${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, and ${article} ${item-article: 3[2]}.
