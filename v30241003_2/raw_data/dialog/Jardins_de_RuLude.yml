@@ -24761,31 +24761,31 @@ entries:
   11946: 経験値取得${prompt}
   11947: '暫定残り${number: 0}人${prompt}'
   11948: |-
-    I have been dispatched by the IRNC to handle all affairs dealing with Ballista Points and Ballista Point Ranking.
-    My records show that you scored ${number: 0} Ballista ${choice-plurality: 0}[Point/Points] in your previous match, bringing your cumulative total to ${number: 1}.${prompt}
+    J’ai été mandaté par le RICNL pour gérer toutes les affaires liées aux Points Ballista et au Classement des Points Ballista.
+    Mes dossiers indiquent que vous avez marqué ${number: 0} ${choice-plurality: 0}[Point/Points] Ballista lors de votre dernier match, portant votre total cumulé à ${number: 1}.${prompt}
   11949: |-
-    You have obtained the maximum number of Ballista Points (${number: 0}).
-    Please note that you cannot earn any more until you have used the ones you possess.${prompt}
+    Vous avez atteint le nombre maximum de Points Ballista (${number: 0}).
+    Veuillez noter que vous ne pouvez plus en gagner tant que vous n’avez pas utilisé ceux que vous possédez.${prompt}
   11950: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Exchange points for items.
-    View the previous match MVPs.
-    Sign up for B.P. Ranking.
-    View the B.P. Ranking.
-    Learn more about Ballista Points.
-    Learn more about ranking.
-    Nothing at the moment.${prompt}
+    Échanger des points contre des objets.
+    Consulter les MVP du match précédent.
+    S’inscrire au classement des Points Ballista.
+    Consulter le classement des Points Ballista.
+    En savoir plus sur les Points Ballista.
+    En savoir plus sur le classement.
+    Rien pour le moment.${prompt}
   11951: |-
-    You currently possess ${number: 0} Ballista ${choice-plurality: 0}[Point/Points] and ${number: 1} temporary item ${choice-plurality: 1}[voucher/vouchers].
-    Remember, you can carry a maximum of ${number: 2} ${choice-plurality: 2}[voucher/vouchers] at a time, but no more than one of each type.${prompt}
+    Vous possédez actuellement ${number: 0} ${choice-plurality: 0}[Point/Points] Ballista et ${number: 1} ${choice-plurality: 1}[bon/bon de réduction] temporaire(s).
+    Rappelez-vous que vous pouvez transporter un maximum de ${number: 2} ${choice-plurality: 2}[bon/bon de réduction] à la fois, mais pas plus d’un de chaque type.${prompt}
   11952: |-
-    You currently possess ${number: 0} Ballista ${choice-plurality: 0}[Point/Points] and ${number: 1} temporary item ${choice-plurality: 1}[voucher/vouchers].
-    Remember, you can carry a maximum of ${number: 2} ${choice-plurality: 2}[voucher/vouchers] at a time, but no more than one of each type.${prompt}
+    Vous possédez actuellement ${number: 0} ${choice-plurality: 0}[Point/Points] Ballista et ${number: 1} ${choice-plurality: 1}[bon/bon de réduction] temporaire(s).
+    Rappelez-vous que vous pouvez transporter un maximum de ${number: 2} ${choice-plurality: 2}[bon/bon de réduction] à la fois, mais pas plus d’un de chaque type.${prompt}
   11953: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    Previous page.
+    Page précédente.
     ${lettercase: 1}${keyitem-article: 0[2]} (${number: 1} ${choice-plurality: 1}[pt./pts.])
     ${lettercase: 1}${keyitem-article: 2[2]} (${number: 3} ${choice-plurality: 3}[pt./pts.])
     ${lettercase: 1}${keyitem-article: 4[2]} (${number: 5} ${choice-plurality: 5}[pt./pts.])
@@ -24801,167 +24801,167 @@ entries:
     ${lettercase: 1}${keyitem-article: 24[2]} (${number: 25} ${choice-plurality: 25}[pt./pts.])
     ${lettercase: 1}${keyitem-article: 26[2]} (${number: 27} ${choice-plurality: 27}[pt./pts.])
     ${lettercase: 1}${keyitem-article: 28[2]} (${number: 29} ${choice-plurality: 29}[pt./pts.])
-    Next page.
-    Nothing.${prompt}
+    Page suivante.
+    Rien.${prompt}
   11954: |-
-    I see that you are wearing ${keyitem-article: 7[2]}.
-    Ballista point exchange authorization has been granted.${prompt}
-  11955: I am sorry. You have not earned the right to exchange your points for that item.${prompt}
-  11956: 'The following is the item that will be automatically presented to you at the start of the Ballista match in exchange for the ${keyitem-singular: 0[2]}:${prompt}'
+    Je vois que vous portez ${keyitem-article: 7[2]}.
+    L’autorisation pour échanger des points Ballista a été accordée.${prompt}
+  11955: Je suis désolé. Vous n’avez pas obtenu le droit d’échanger vos points contre cet objet.${prompt}
+  11956: 'Voici l’objet qui vous sera automatiquement remis au début du match Ballista en échange de ${keyitem-singular: 0[2]}:${prompt}'
   11957: |-
-    Obtain this item for ${number: 1} ${choice-plurality: 1}[point/points]?
+    Obtenir cet objet pour ${number: 1} ${choice-plurality: 1}[point/points] ?
     ${selection-lines}
-    Yes.
-    Return.
-    No.${prompt}
-  11958: You do not have enough Ballista Points to purchase that item.${prompt}
+    Oui.
+    Retour.
+    Non.${prompt}
+  11958: Vous n’avez pas assez de points Ballista pour acheter cet objet.${prompt}
   11959: |-
-    You already possess ${keyitem-article: 0[2]}.
-    Remember, you cannot hold more than one of each type of temporary item voucher.${prompt}
-  11960: 'You exchange ${number: 1} ${choice-plurality: 1}[point/points] for ${keyitem-article: 0[2]}.${prompt}'
+    Vous possédez déjà ${keyitem-article: 0[2]}.
+    Rappelez-vous que vous ne pouvez pas avoir plus d’un bon temporaire de chaque type.${prompt}
+  11960: 'Vous échangez ${number: 1} ${choice-plurality: 1}[point/points] contre ${keyitem-article: 0[2]}.${prompt}'
   11961: |-
-    Adventurers are only allowed to possess a maximum of ${number: 3} temporary item ${choice-plurality: 3}[voucher/vouchers].
-    I am sorry, but I cannot proceed with the transaction.${prompt}
-  11962: Understood. Let me read to you the official Ballista rulebook chapter on Ballista Points.${prompt}
-  11963: Is there anything else I can do for you?${prompt}
-  11964: Understood. Let me read to you the official Ballista rulebook chapter on Ballista Point Ranking.${prompt}
-  11965: Is there anything else I can do for you?${prompt}
+    Les aventuriers ne peuvent posséder qu’un maximum de ${number: 3} ${choice-plurality: 3}[bon/bon de réduction] temporaire(s).
+    Je suis désolé, mais je ne peux pas procéder à cette transaction.${prompt}
+  11962: Compris. Laissez-moi vous lire le chapitre officiel du règlement Ballista sur les points Ballista.${prompt}
+  11963: Y a-t-il autre chose que je puisse faire pour vous ?${prompt}
+  11964: Compris. Laissez-moi vous lire le chapitre officiel du règlement Ballista sur le classement des points Ballista.${prompt}
+  11965: Y a-t-il autre chose que je puisse faire pour vous ?${prompt}
   11966: |-
-    The MVPs of the previous match were:
-    1st: ${entity: 0} -> ${number: 4} ${choice-plurality: 4}[pt./pts.]
-    2nd: ${entity: 1} -> ${number: 5} ${choice-plurality: 5}[pt./pts.]
-    3rd: ${entity: 2} -> ${number: 6} ${choice-plurality: 6}[pt./pts.]${prompt}
+    Les MVPs du dernier match étaient :
+    1er : ${entity: 0} -> ${number: 4} ${choice-plurality: 4}[pt./pts.]
+    2ème : ${entity: 1} -> ${number: 5} ${choice-plurality: 5}[pt./pts.]
+    3ème : ${entity: 2} -> ${number: 6} ${choice-plurality: 6}[pt./pts.]${prompt}
   11967: |-
-    The high scorer was:
+    Le meilleur scoreur était :
     ${entity: 3} (${number: 7} ${choice-plurality: 7}[Petra/Petras])${prompt}
-  11968: There were no MVPs or high scorers recorded for the previous Ballista match.${prompt}
+  11968: Aucun MVP ou meilleur scoreur n’a été enregistré pour le dernier match Ballista.${prompt}
   11969: |-
-    Well done, ${name-player}!
-    You are right on track to become the next ${color: 5}“Balli☆star”${color: 1}!${prompt}
-  11970: 'Ballista Point Ranking registration ${choice: 2}[/for the Jugner Forest match/for the Pashhow Marshlands match/for the Meriphataud Mountains match] has concluded. Please do not forget to register your Ballista Points immediately after each match to avoid any confusion.${prompt}'
-  11971: You did not obtain any Ballista Points in the previous match; thus, I cannot register you.${prompt}
-  11972: 'Please participate in a future match to qualify once again for Ballista Point Ranking. The next exercise is scheduled to take place ${choice: 2}[soon/in the Jugner Forest/in the Pashhow Marshlands/in the Meriphataud Mountains].${prompt}'
-  11973: Your current job does not coincide with the data we have recorded for the previous match. You must return to your residence and change jobs before I can register you for Ballista Point Ranking.${prompt}
-  11974: 'According to the ${choice: 2}[/Jugner Forest/Pashhow Marshlands/Meriphataud Mountains] match records for ${vanatime: 0}, you earned ${number: 1} Ballista ${choice-plurality: 1}[Point/Points].${prompt}'
+    Bravo, ${name-player} !
+    Vous êtes sur la bonne voie pour devenir le prochain ${color: 5}« Balli☆star »${color: 1} !${prompt}
+  11970: 'L’inscription au classement des points Ballista ${choice: 2}[/pour le match de la forêt de Jugner/pour le match des marécages de Pashhow/pour le match des montagnes de Meriphataud] est terminée. N’oubliez pas d’enregistrer vos points Ballista immédiatement après chaque match pour éviter toute confusion.${prompt}'
+  11971: Vous n’avez obtenu aucun point Ballista lors du dernier match ; par conséquent, je ne peux pas vous enregistrer.${prompt}
+  11972: 'Veuillez participer à un futur match pour vous qualifier à nouveau pour le classement des points Ballista. Le prochain exercice est prévu ${choice: 2}[bientôt/dans la forêt de Jugner/dans les marécages de Pashhow/dans les montagnes de Meriphataud].${prompt}'
+  11973: Votre emploi actuel ne correspond pas aux données que nous avons enregistrées pour le dernier match. Vous devez retourner à votre résidence et changer d’emploi avant que je puisse vous inscrire au classement des points Ballista.${prompt}
+  11974: 'D’après les archives du match ${choice: 2}[/de la forêt de Jugner/des marécages de Pashhow/des montagnes de Meriphataud] pour ${vanatime: 0}, vous avez obtenu ${number: 1} point${choice-plurality: 1}[ Ballista/Ballista].${prompt}'
   11975: |-
-    Shall I register your statistics?
-    (This may take a few moments.)${prompt}
+    Dois-je enregistrer vos statistiques ?
+    (Cela peut prendre quelques instants.)${prompt}
   11976: |-
-    Register?
+    Enregistrer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11977: |-
-    Which ranking do you wish to view?
+    Quel classement souhaitez-vous consulter ?
     ${selection-lines}
-    Jugner Forest.
-    Pashhow Marshlands.
-    Meriphataud Mountains.
-    None of the above.${prompt}
-  11978: It may take a few moments for me to find the ranking list.${prompt}
+    Forêt de Jugner.
+    Marécages de Pashhow.
+    Montagnes de Meriphataud.
+    Aucun des précédents.${prompt}
+  11978: Cela peut prendre quelques instants pour que je trouve la liste des classements.${prompt}
   11979: |-
-    Do you still wish to see it?
+    Souhaitez-vous toujours la consulter ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11980: |-
-    Your points have been registered.
-    Congratulations! You currently rank in the top ten!${prompt}
+    Vos points ont été enregistrés.
+    Félicitations ! Vous êtes actuellement classé parmi les dix premiers !${prompt}
   11981: |-
-    Your points have been registered.
-    Congratulations! You are currently ranked as the top ${choice: 6}[/warrior/monk/white mage/black mage/red mage/thief/paladin/dark knight/beastmaster/bard/ranger/samurai/ninja/dragoon/summoner/blue mage/corsair/puppetmaster]! (Total ${choice: 6}[/warriors/monks/white mages/black mages/red mages/thieves/paladins/dark knights/beastmasters/bards/rangers/samurais/ninjas/dragoons/summoners/blue mages/corsairs/puppetmasters/dancers/scholars/geomancers/rune fencers] registered: ${number: 7})${prompt}
+    Vos points ont été enregistrés.
+    Félicitations ! Vous êtes actuellement classé comme le meilleur ${choice: 6}[/guerrier/moine/prêtre blanc/mage noir/mage rouge/voyou/paladin/chevalier noir/dompteur/barde/éclaireur/samouraï/ninja/dragonnier/invocateur/mage bleu/corsaire/marionnettiste] ! (Total des ${choice: 6}[/guerriers/moines/prêtres blancs/mages noirs/mages rouges/voyous/paladins/chevaliers noirs/dompteurs/bardes/éclaireurs/samouraïs/ninjas/dragons/invocateurs/mages bleus/corsaires/marionnettistes/danseurs/savants/géomanciens/fourreurs runiques] enregistrés : ${number: 7})${prompt}
   11982: |-
-    We ask that you check the rankings on the following date:
-    Vana'diel: ${vanatime: 0}
-    Earth: ${earthtime: 0}${prompt}
-  11983: If, at that time, you still remain in the top ten, you will be rewarded with a special prize.${prompt}
-  11984: If, at this time, you still remain in first place, you will be recognized as the match MVP.${prompt}
-  11985: 'However, all records of the match will be destroyed on ${vanatime: 1} (Vana''diel) or ${earthtime: 1} (Earth).${prompt}'
-  11986: If you do not speak with a Marshal by that date, you will lose the opportunity to claim that prize.${prompt}
-  11987: If you do not speak with a Marshal by that date, you forfeit all benefits that accompany MVP status.${prompt}
+    Nous vous demandons de vérifier les classements à la date suivante :
+    Vana'diel : ${vanatime: 0}
+    Terre : ${earthtime: 0}${prompt}
+  11983: Si, à cette date, vous êtes toujours dans les dix premiers, vous recevrez un prix spécial.${prompt}
+  11984: Si, à cette date, vous êtes toujours en première place, vous serez reconnu comme le MVP du match.${prompt}
+  11985: 'Cependant, tous les enregistrements du match seront détruits le ${vanatime: 1} (Vana''diel) ou le ${earthtime: 1} (Terre).${prompt}'
+  11986: Si vous ne parlez pas à un maréchal avant cette date, vous perdrez l’opportunité de réclamer ce prix.${prompt}
+  11987: Si vous ne parlez pas à un maréchal avant cette date, vous renoncez à tous les avantages liés au statut de MVP.${prompt}
   11988: |-
-    You currently possess ${keyitem-article: 7[2]}.
-    Ballista regulations allow you to wear that chevron until ${vanatime: 6} (Vana'diel), or ${earthtime: 6} (Earth).${prompt}
+    Vous possédez actuellement ${keyitem-article: 7[2]}.
+    Les règles de la Ballista vous permettent de porter ce chevron jusqu’au ${vanatime: 6} (Vana'diel) ou ${earthtime: 6} (Terre).${prompt}
   11989: |-
-    Our records show that you have previously been presented the following rewards:
-    Gold chevron: ${number: 1} ${choice-plurality: 1}[time/times]
-    Mythril chevron: ${number: 2} ${choice-plurality: 2}[time/times]
-    Silver chevron: ${number: 3} ${choice-plurality: 3}[time/times]
-    Bronze chevron: ${number: 4} ${choice-plurality: 4}[time/times]
-    Job-specific chevron: ${number: 5} ${choice-plurality: 5}[time/times]${prompt}
+    Nos archives montrent que vous avez déjà reçu les récompenses suivantes :
+    Chevron d’or : ${number: 1} ${choice-plurality: 1}[fois/fois]
+    Chevron de mithril : ${number: 2} ${choice-plurality: 2}[fois/fois]
+    Chevron d’argent : ${number: 3} ${choice-plurality: 3}[fois/fois]
+    Chevron de bronze : ${number: 4} ${choice-plurality: 4}[fois/fois]
+    Chevron spécifique à un emploi : ${number: 5} ${choice-plurality: 5}[fois/fois]${prompt}
   11990: |-
-    The ranking information given by Marshals in Jeuno may be slightly older than the current data.
-    For the most up-to-date numbers, we suggest that you speak with the officials stationed in each partcipating Ballista area.${prompt}
-  11991: Please note that because the point registration period for the previous match has not yet ended, your ranking may change. We ask that you check back later for the final results.${prompt}
-  11992: Your performance in the last match earned you a place in the overall ranking. However, because you did not check with a Herald before the records were destroyed, you have lost the opportunity to claim your prize.${prompt}
+    Les informations sur les classements fournies par les maréchaux à Jeuno peuvent être légèrement obsolètes par rapport aux données actuelles.
+    Pour des chiffres plus récents, nous vous suggérons de vous adresser aux responsables stationnés dans chaque zone de Ballista participante.${prompt}
+  11991: Veuillez noter que la période d’enregistrement des points pour le dernier match n’est pas encore terminée. Votre classement peut donc changer. Nous vous invitons à revenir plus tard pour les résultats finaux.${prompt}
+  11992: Votre performance lors du dernier match vous a valu une place dans le classement général. Cependant, comme vous n’avez pas consulté un héraut avant que les archives ne soient détruites, vous avez perdu l’occasion de réclamer votre récompense.${prompt}
   11993: |-
-    Your points have been registered.
-    Congratulations! You are currently in first place!${prompt}
+    Vos points ont été enregistrés.
+    Félicitations ! Vous êtes actuellement en première place !${prompt}
   11994: |-
-    Congratulations!
-    Ballista Point Ranking registration for the previous match has come to a close, and your final overall rank is ${number: 0}!
-    You shall be presented with ${keyitem-article: 1[2]} and a new title.${prompt}
+    Félicitations !
+    L’enregistrement des classements pour le dernier match est terminé, et votre rang final est ${number: 0} !
+    Vous recevrez ${keyitem-article: 1[2]} ainsi qu’un nouveau titre.${prompt}
   11995: |-
-    Good show!
-    Ballista Point Ranking registration for the previous match has come to a close, and your final rank among participating ${choice: 2}[/warriors/monks/white mages/black mages/red mages/thieves/paladins/dark knights/beastmasters/bards/rangers/samurais/ninjas/dragoons/summoners/blue mage/corsairs/puppetmasters/dancers/scholars/geomancers/rune fencers] (${number: 3} total) is first!
-    You shall be presented with ${keyitem-article: 4[2]} and a new title.${prompt}
+    Bravo !
+    L’enregistrement des classements pour le dernier match est terminé, et votre rang final parmi les ${choice: 2}[/guerriers/moines/prêtres blancs/mages noirs/mages rouges/voyous/paladins/chevaliers noirs/dompteurs/bardes/éclaireurs/samouraïs/ninjas/dragons/invocateurs/mages bleus/corsaires/marionnettistes/danseurs/savants/géomanciens/fourreurs runiques] participants (${number: 3} au total) est premier !
+    Vous recevrez ${keyitem-article: 4[2]} ainsi qu’un nouveau titre.${prompt}
   11996: |-
-    Well done!
-    Ballista Point Ranking registration for the previous match has come to a close, and your final overall rank is ${number: 0}!
-    In addition, your final rank among participating ${choice: 2}[/warriors/monks/white mages/black mages/red mages/thieves/paladins/dark knights/beastmasters/bards/rangers/samurais/ninjas/dragoons/summoners/blue mage/corsairs/puppetmasters/dancers/scholars/geomancers/rune fencers] (${number: 3} total) is first!
-    You shall be presented with ${keyitem-article: 1[2]} or ${keyitem-article: 4[2]}, as well as a new title.${prompt}
-  11997: While our records will clearly indicate that you were rewarded both chevrons, Ballista regulations only allow participants to wear one at a time. Therefore, you must choose which one you wish to receive at this time.${prompt}
+    Bien joué !
+    L’enregistrement des classements pour le dernier match est terminé, et votre rang final est ${number: 0} !
+    De plus, votre rang final parmi les ${choice: 2}[/guerriers/moines/prêtres blancs/mages noirs/mages rouges/voyous/paladins/chevaliers noirs/dompteurs/bardes/éclaireurs/samouraïs/ninjas/dragons/invocateurs/mages bleus/corsaires/marionnettistes/danseurs/savants/géomanciens/fourreurs runiques] participants (${number: 3} au total) est premier !
+    Vous recevrez ${keyitem-article: 1[2]} ou ${keyitem-article: 4[2]}, ainsi qu’un nouveau titre.${prompt}
+  11997: Bien que nos archives indiquent clairement que vous avez reçu les deux chevrons, les règles de la Ballista n’autorisent les participants à porter qu’un seul à la fois. Par conséquent, vous devez choisir lequel vous souhaitez recevoir maintenant.${prompt}
   11998: |-
-    Please select one...
+    Veuillez en sélectionner un...
     ${selection-lines}
     ${lettercase: 1}${keyitem-singular: 1[2]}.
     ${lettercase: 1}${keyitem-singular: 4[2]}.${prompt}
-  11999: 'You are currently wearing ${keyitem-article: 0[2]}. If you wish to accept the chevron you earned this match, you must return the one you currently possess.${prompt}'
+  11999: 'Vous portez actuellement ${keyitem-article: 0[2]}. Si vous souhaitez accepter le chevron que vous avez gagné lors de ce match, vous devez retourner celui que vous possédez actuellement.${prompt}'
   12000: |-
-    Accept the ${keyitem-singular: 1[2]}?
+    Accepter le ${keyitem-singular: 1[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12001: 'Are you sure you wish to exchange your ${keyitem-singular: 0[2]} for ${keyitem-article: 1[2]}?${prompt}'
-  12002: 'Are you sure you do not wish to accept the ${keyitem-singular: 1[2]}? Remember that even if you do not accept the chevron, a record of your award will be kept.${prompt}'
+    Oui.
+    Non.${prompt}
+  12001: 'Êtes-vous sûr de vouloir échanger votre ${keyitem-singular: 0[2]} contre ${keyitem-article: 1[2]} ?${prompt}'
+  12002: 'Êtes-vous sûr de ne pas vouloir accepter le ${keyitem-singular: 1[2]} ? N’oubliez pas que même si vous n’acceptez pas le chevron, une trace de votre récompense sera conservée.${prompt}'
   12003: |-
-    Well?
+    Alors ?
     ${selection-lines}
-    I'm sure.
-    No.${prompt}
-  12004: 'As long as you are in possession of the ${keyitem-singular: 1[2]}, you will bear the aforementioned title while participating in Ballista.${prompt}'
-  12005: 'Upon the chance another contestant “checks” you during a match, not only will he be able to see your title, but also the total number of ${color: 5}chevrons${color: 1} you have accumulated in your battles.${prompt}'
-  12006: Finally, the official rules of Ballista state that after a set period of time, you are required to return any chevrons received. When that time has come, a Herald will collect your chevrons at the time of entry into a new match.${prompt}
+    Je suis sûr.
+    Non.${prompt}
+  12004: 'Tant que vous serez en possession du ${keyitem-singular: 1[2]}, vous porterez le titre susmentionné lors de votre participation à la Ballista.${prompt}'
+  12005: 'Si un autre participant « vous examine » pendant un match, il pourra non seulement voir votre titre, mais également le nombre total de ${color: 5}chevrons${color: 1} que vous avez accumulés lors de vos combats.${prompt}'
+  12006: Les règles officielles de la Ballista stipulent qu’après une période déterminée, vous devez rendre tout chevron reçu. Lorsqu’il sera temps, un héraut récupérera vos chevrons à votre entrée dans un nouveau match.${prompt}
   12007: |-
-    Congratulations!
-    Ballista Point Ranking registration for the previous match has come to a close, and you have once again been deemed the most valuable player!
-    You are a fine example to Conflict participants across Vana'diel! Keep up the fine work, ${name-player}!${prompt}
-  12008: 'You have already confirmed your data for the ${choice: 0}[/Jugner Forest/Pashhow Marshlands/Meriphataud Mountains] match. We look forward to your participation in future matches!${prompt}'
-  12009: 'You have been rewarded with ${keyitem-article: 2[2]}!${prompt}'
-  12010: 'You have been rewarded with ${keyitem-article: 2[2]}!${prompt}'
+    Félicitations !
+    L’enregistrement des classements pour le dernier match est terminé, et vous avez de nouveau été désigné comme joueur le plus précieux !
+    Vous êtes un exemple remarquable pour les participants au Conflit à travers Vana'diel ! Continuez sur cette voie, ${name-player} !${prompt}
+  12008: 'Vous avez déjà confirmé vos données pour le match de ${choice: 0}[/Jugner/Marais de Pashhow/Montagnes de Mériphataud]. Nous attendons avec impatience votre participation aux prochains matchs !${prompt}'
+  12009: 'Vous avez reçu ${keyitem-article: 2[2]} !${prompt}'
+  12010: 'Vous avez reçu ${keyitem-article: 2[2]} !${prompt}'
   12011: |-
-    You have previously been presented the following chevrons:
-    Gold: ${number: 0} ${choice-plurality: 0}[time/times]
-    Mythril: ${number: 1} ${choice-plurality: 1}[time/times]
-    Silver: ${number: 2} ${choice-plurality: 2}[time/times]
-    Bronze: ${number: 3} ${choice-plurality: 3}[time/times]${prompt}
-  12012: 'Job-specific: ${number: 0} ${choice-plurality: 0}[time/times]${prompt}'
-  12013: Your data did not make the final ranking list.${prompt}
+    Vous avez précédemment reçu les chevrons suivants :
+    Or : ${number: 0} ${choice-plurality: 0}[fois/fois]
+    Mithril : ${number: 1} ${choice-plurality: 1}[fois/fois]
+    Argent : ${number: 2} ${choice-plurality: 2}[fois/fois]
+    Bronze : ${number: 3} ${choice-plurality: 3}[fois/fois]${prompt}
+  12012: 'Spécifique à la classe : ${number: 0} ${choice-plurality: 0}[fois/fois]${prompt}'
+  12013: Vos données n'ont pas figuré sur la liste finale des classements.${prompt}
   12014: |-
-    I have finished registering your data.
-    Your final Ballista Point Ranking for the previous match is: ${number: 7}.${prompt}
+    J'ai terminé l'enregistrement de vos données.
+    Votre classement final pour le dernier match de Ballista est : ${number: 7}.${prompt}
   12015: |-
-    I registered your point total; however, it seems you did not make the final list.
-    But do not fret. You will have many chances to redeem yourself in future matches. Good luck, ${name-player}!${prompt}
+    J'ai enregistré votre total de points ; cependant, il semble que vous n'ayez pas figuré sur la liste finale.
+    Mais ne vous inquiétez pas. Vous aurez de nombreuses occasions de vous racheter lors des prochains matchs. Bonne chance, ${name-player} !${prompt}
   12016: |-
-    Your final Ballista Point Ranking for the previous match is: ${number: 0}.
-    (Rank among ${choice: 2}[/warriors/monks/white mages/black mages/red mages/thieves/paladins/dark knights/beastmasters/bards/rangers/samurais/ninjas/dragoons/summoners/blue mages/corsairs/puppetmasters/dancers/scholars/geomancers/rune fencers]: ${number: 3})
-    However, a little more practice, and the champion's throne is yours for the taking!${prompt}
-  12017: I am sorry, but we are no longer accepting Ballista Point Ranking registrations for the match in which you previously participated.${prompt}
-  12018: For future reference, please note that the registration period is exactly four hours (Vana'diel time) from the close of each Ballista match.${prompt}
-  12019: I apologize, but it seems that I am having a bit of trouble trying to find the ranking list. Please come back later.${prompt}
-  12020: I apologize, but it seems that I am having a bit of trouble registering your data. Please come back in a few moments.${prompt}
-  12021: 'You have already registered your Ballista Points for the previous match. Your current rank is ${number: 0}.${prompt}'
+    Votre classement final pour le dernier match de Ballista est : ${number: 0}.
+    (Classement parmi ${choice: 2}[/guerriers/moines/mages blancs/mages noirs/mages rouges/voleurs/paladins/chevaliers noirs/maîtres de bêtes/bards/rangers/samouraïs/ninjas/dragoons/summoners/mages bleus/corsaires/puppets/danseurs/scholar/geomancers/rune fencers] : ${number: 3})
+    Cependant, un peu plus d'entraînement et le trône du champion est à vous !${prompt}
+  12017: Je suis désolé, mais nous n'acceptons plus les inscriptions aux classements de Ballista pour le match auquel vous avez participé précédemment.${prompt}
+  12018: À titre d'information, veuillez noter que la période d'inscription est exactement de quatre heures (heure de Vana'diel) après la fin de chaque match de Ballista.${prompt}
+  12019: Je m'excuse, mais il semble que j'ai un peu de mal à trouver la liste des classements. Veuillez revenir plus tard.${prompt}
+  12020: Je m'excuse, mais il semble que j'ai un peu de mal à enregistrer vos données. Veuillez revenir dans quelques instants.${prompt}
+  12021: 'Vous avez déjà enregistré vos points de Ballista pour le match précédent. Votre rang actuel est ${number: 0}.${prompt}'
   12022: |-
     ★システム:${number: 0}　★総登録数:${number: 1}
     ★自順位:${number: 2}　★登録ジョブ:${number: 3}
@@ -24970,151 +24970,151 @@ entries:
   12023: デバッグ：記録を認定。${prompt}
   12024: 'endpara=${number: 0}${prompt}'
   12025: |-
-    What do you wish to know about?
+    Que souhaitez-vous savoir ?
     ${selection-lines}
-    Basic rules.
-    About the ${color: 5}Petra${color: 1}.
-    About ${color: 5}Sprint${color: 1}.
-    About ${color: 5}Scout${color: 1}.
-    About ${color: 5}Gate Breach${color: 1}.
-    About area-specific rules.
-    About returning to battle.
-    About special rules.
-    Nothing at the moment.${prompt}
-  12026: Ballista is an exercise once used by the San d'Orian armies to train the Royal Knights in the art of the siege. The word “ballista” means “to throw a stone,” and the game has been a part of Vana'dielian military history for centuries.${prompt}
+    Règles de base.
+    À propos de ${color: 5}Petra${color: 1}.
+    À propos de ${color: 5}Sprint${color: 1}.
+    À propos de ${color: 5}Scout${color: 1}.
+    À propos de ${color: 5}Gate Breach${color: 1}.
+    À propos des règles spécifiques à la zone.
+    À propos du retour au combat.
+    À propos des règles spéciales.
+    Rien pour le moment.${prompt}
+  12026: Ballista est un exercice autrefois utilisé par les armées de San d'Oria pour former les Chevaliers Royaux à l'art du siège. Le mot "ballista" signifie "lancer une pierre", et le jeu fait partie de l'histoire militaire de Vana'diel depuis des siècles.${prompt}
   12027: |-
-    The rules are simple.
-    Ballista is played by two teams over a number of hours (Vana'diel time). The team with the most points at the end of the match is the victor.${prompt}
-  12028: 'Players from both teams must search for ${color: 5}Petras${color: 1} that a ${color: 5}Herald${color: 1} has buried in various locations across the battlefield. The players must then take these stones and throw them into targets known as ${color: 5}Rooks${color: 1}.${prompt}'
-  12029: 'These ${color: 5}Rooks${color: 1} can appear in various locations around the battlefield, and both teams are allowed to throw their ${color: 5}Petras${color: 1} into them.${prompt}'
-  12030: Finally, a player's strength is adjusted depending on his or her level. It is felt that this ultimately allows for a more balanced battle.${prompt}
-  12031: '${color: 5}Petras${color: 1} can be buried anywhere. Once a player believes he or she has found one, the ${color: 5}Quarry${color: 1} (/quarry) command should be used to dig up the area at his or her feet.${prompt}'
-  12032: 'Sometimes a player may find items other than ${color: 5}Petras${color: 1}, such as potions. These ${color: 5}temporary items${color: 1} can only be used during the current match (or Best of Three series).${prompt}'
+    Les règles sont simples.
+    Ballista se joue par deux équipes pendant plusieurs heures (heure de Vana'diel). L'équipe avec le plus de points à la fin du match est la gagnante.${prompt}
+  12028: 'Les joueurs des deux équipes doivent rechercher des ${color: 5}Petras${color: 1} qu’un ${color: 5}Héraut${color: 1} a enterrées à divers endroits sur le champ de bataille. Les joueurs doivent ensuite prendre ces pierres et les lancer dans des cibles appelées ${color: 5}Tours${color: 1}.${prompt}'
+  12029: 'Ces ${color: 5}Tours${color: 1} peuvent apparaître à différents endroits autour du champ de bataille, et les deux équipes peuvent y lancer leurs ${color: 5}Petras${color: 1}.${prompt}'
+  12030: Enfin, la force d'un joueur est ajustée en fonction de son niveau. On estime que cela permet finalement d'avoir un combat plus équilibré.${prompt}
+  12031: '${color: 5}Petras${color: 1} peuvent être enterrées n’importe où. Lorsqu’un joueur pense en avoir trouvé un, il doit utiliser la commande ${color: 5}Carrière${color: 1} (/carrière) pour creuser à l’endroit où il se trouve.${prompt}'
+  12032: 'Parfois, un joueur peut trouver d’autres objets que des ${color: 5}Petras${color: 1}, comme des potions. Ces ${color: 5}objets temporaires${color: 1} ne peuvent être utilisés que pendant le match actuel (ou la série Best of Three).${prompt}'
   12033: |-
-    Players can carry more than one ${color: 5}Petra${color: 1}, but they cannot throw the stones away once they have obtained them.
-    However, players will lose their ${color: 5}Petras${color: 1} if they:
-    (1) Successfully throw them into a rook.
-    (2) Leave the area.
-    (3) Are knocked out.${prompt}
-  12034: 'But don''t forget, a player will be unable to use the ${color: 5}Sprint${color: 1} command while in possession of a ${color: 5}Petra${color: 1}. And, players can only use the ${color: 5}Scout${color: 1} command if they carry one of the stones.${prompt}'
-  12035: As one can see, careful planning and impeccable timing are the keys to victory.${prompt}
-  12036: 'All participants of Ballista will have the ability to use the ${color: 5}Sprint${color: 1} command. This will temporarily increase one''s movement speed, creating a better chance to find and obtain ${color: 5}Petras${color: 1}.${prompt}'
-  12037: 'However, remember that once a player has obtained a ${color: 5}Petra${color: 1}, he or she will be unable to use the ${color: 5}Sprint${color: 1} command. In its place, though, one may use the ${color: 5}Scout${color: 1} command.${prompt}'
-  12038: 'The locations of the ${color: 5}Rooks${color: 1} are constantly changing. This makes it quite difficult to find the targets by just randomly walking about the area.${prompt}'
-  12039: 'Communication with one''s team members is, of course, one way to locate ${color: 5}Rooks${color: 1}. However, another way is by using the ${color: 5}Scout${color: 1} command. This will inform a player of the approximate location of the nearest ${color: 5}Rook${color: 1}.${prompt}'
-  12040: 'Finally, ${color: 5}Scout${color: 1} can only be used when a player is carrying a ${color: 5}Petra${color: 1}. Because ${color: 5}Sprint${color: 1} cannot be used at this time, players must be weary of approaching enemies.${prompt}'
-  12041: 'So, a ${color: 5}Petra${color: 1} has been obtained and a ${color: 5}Rook${color: 1} located. Now all that''s left is tossing the stone in, right? Wrong.${prompt}'
-  12042: There is one aspect of Ballista that has yet to be mentioned...and this is where the real battle begins.${prompt}
-  12043: 'To throw a ${color: 5}Petra${color: 1} into a ${color: 5}Rook${color: 1}, a player must first wait until the ${color: 5}Rook''s${color: 1} gate is open. This takes impeccable timing, as the gate is only open for a short while.${prompt}'
+    Les joueurs peuvent porter plus d'un ${color: 5}Petra${color: 1}, mais ils ne peuvent pas jeter les pierres une fois qu'ils les ont obtenues.
+    Cependant, les joueurs perdront leurs ${color: 5}Petras${color: 1} s'ils :
+    (1) Les lancent avec succès dans une tour.
+    (2) Quittent la zone.
+    (3) Sont mis KO.${prompt}
+  12034: 'Mais n''oubliez pas, un joueur ne pourra pas utiliser la commande ${color: 5}Sprint${color: 1} tant qu''il possède un ${color: 5}Petra${color: 1}. De plus, les joueurs ne peuvent utiliser la commande ${color: 5}Scout${color: 1} que s''ils portent l''une des pierres.${prompt}'
+  12035: Comme vous pouvez le voir, une planification minutieuse et un timing impeccable sont les clés de la victoire.${prompt}
+  12036: 'Tous les participants à Ballista auront la possibilité d''utiliser la commande ${color: 5}Sprint${color: 1}. Cela augmentera temporairement leur vitesse de déplacement, offrant une meilleure chance de trouver et obtenir des ${color: 5}Petras${color: 1}.${prompt}'
+  12037: 'Cependant, rappelez-vous qu''une fois qu''un joueur a obtenu un ${color: 5}Petra${color: 1}, il ne pourra plus utiliser la commande ${color: 5}Sprint${color: 1}. À la place, il pourra utiliser la commande ${color: 5}Scout${color: 1}.${prompt}'
+  12038: 'Les emplacements des ${color: 5}Tours${color: 1} changent constamment. Cela rend assez difficile de trouver les cibles en marchant simplement dans la zone.${prompt}'
+  12039: 'La communication avec les membres de son équipe est, bien sûr, un moyen de localiser les ${color: 5}Tours${color: 1}. Cependant, une autre méthode consiste à utiliser la commande ${color: 5}Scout${color: 1}. Cela informera un joueur de l''emplacement approximatif de la ${color: 5}Tour${color: 1} la plus proche.${prompt}'
+  12040: 'Enfin, la commande ${color: 5}Scout${color: 1} ne peut être utilisée que lorsqu''un joueur porte un ${color: 5}Petra${color: 1}. Comme la commande ${color: 5}Sprint${color: 1} ne peut pas être utilisée à ce moment, les joueurs doivent être prudents lorsqu''ils approchent des ennemis.${prompt}'
+  12041: 'Ainsi, un ${color: 5}Petra${color: 1} a été obtenu et une ${color: 5}Tour${color: 1} localisée. Maintenant, tout ce qu''il reste à faire est de lancer la pierre, n''est-ce pas ? Faux.${prompt}'
+  12042: Il y a un aspect de Ballista qui n''a pas encore été mentionné... et c''est là que commence la véritable bataille.${prompt}
+  12043: 'Pour lancer un ${color: 5}Petra${color: 1} dans une ${color: 5}Tour${color: 1}, un joueur doit d''abord attendre que la porte de la ${color: 5}Tour${color: 1} soit ouverte. Cela nécessite un timing impeccable, car la porte est ouverte seulement pendant un court moment.${prompt}'
   12044: |-
-    But not just anyone can score points this way. A player must first take down a member of the opposing team and achieve ${color: 5}Gate Breach${color: 1} status.
-    Only then will his or her shots count.${prompt}
-  12045: This extreme method of combat is what made the ancient game of Ballista famous, and transformed its participants into heroes.${prompt}
-  12046: Running about looking for stones is no different from a child's game of hide-and-seek. Knowing when to strike is what separates the men from the boys.${prompt}
+    Mais pas n''importe qui ne peut marquer des points de cette manière. Un joueur doit d''abord abattre un membre de l''équipe adverse et obtenir le statut ${color: 5}Gate Breach${color: 1}.
+    Ce n''est qu''alors que ses tirs compteront.${prompt}
+  12045: Cette méthode de combat extrême est ce qui a rendu l''ancien jeu de Ballista célèbre et transformé ses participants en héros.${prompt}
+  12046: Courir à la recherche de pierres n''est pas différent d''un jeu d''enfants de cache-cache. Savoir quand frapper est ce qui sépare les hommes des garçons.${prompt}
   12047: |-
-    The following match types are area-specific:
-    All or Nothing (one match) * Normal Items Allowed: Jugner Forest
-    All or Nothing (one match) * Normal Items Restricted: Pashhow Marshlands
-    Best of Three (three matches) * Normal Items Allowed: Meriphataud Mountains${prompt}
+    Les types de matchs suivants sont spécifiques à certaines zones :
+    Tout ou rien (un match) * Objets normaux autorisés : Forêt de Jugner
+    Tout ou rien (un match) * Objets normaux restreints : Marais de Pashhow
+    Meilleur des trois (trois matchs) * Objets normaux autorisés : Montagnes de Meriphataud${prompt}
   12048: |-
-    ${color: 5}Best of Three${color: 1} series rules are as follows:
-    Winning a match will earn a nation one “match point.” The nation with the most match points at the end of the series will be declared the victor. Winning the third and final match and producing the high scorer will result in two match points awarded. This allows both sides the chance for “come-from-behind” victories.${prompt}
-  12049: Between each of the matches, a short interval will be implemented. During this interval, Invisible and Sneak will be cast on all participants. We suggest this time be used to discuss strategies with the other members of your nation's forces.${prompt}
-  12050: Players will be forbidden from using any items they bring to the battlefield. Only temporary items that are quarried may be used. A total of fifteen temporary items (though only one of each type) can be carried.${prompt}
-  12051: When this rule is in effect, all players will be presented with five complimentary temporary items at the beginning of the match.${prompt}
-  12052: For more information on temporary items, refer to the “special rules.”${prompt}
-  12053: After being KO'd, if a player chooses to be revived at the spot he was defeated, 100% of all HP and 50% of all MP will be restored. In addition, the player will maintain 50% of the TP he had earned.${prompt}
-  12054: If a player chooses to return to their force's camp, HP and MP will be fully restored, but all TP will be lost.${prompt}
+    Les règles de la série ${color: 5}Best of Three${color: 1} sont les suivantes :
+    Gagner un match rapportera à une nation un “point de match”. La nation avec le plus de points de match à la fin de la série sera déclarée victorieuse. Gagner le troisième et dernier match et produire le meilleur scoreur rapportera deux points de match. Cela permet aux deux camps d''avoir une chance de renverser la situation.${prompt}
+  12049: Entre chaque match, un court intervalle sera mis en place. Pendant cet intervalle, Invisibilité et Sneak seront lancés sur tous les participants. Nous suggérons que ce temps soit utilisé pour discuter des stratégies avec les autres membres des forces de votre nation.${prompt}
+  12050: Les joueurs seront interdits d''utiliser les objets qu''ils apportent sur le champ de bataille. Seuls les objets temporaires trouvés par forage peuvent être utilisés. Un total de quinze objets temporaires (mais seulement un de chaque type) peut être porté.${prompt}
+  12051: Lorsque cette règle est en vigueur, tous les joueurs recevront cinq objets temporaires gratuits au début du match.${prompt}
+  12052: Pour plus d''informations sur les objets temporaires, consultez les “règles spéciales”.${prompt}
+  12053: Après avoir été mis KO, si un joueur choisit d''être réanimé à l''endroit où il a été défait, 100 % de ses PV et 50 % de ses PM seront restaurés. De plus, le joueur conservera 50 % du TP qu''il avait accumulé.${prompt}
+  12054: Si un joueur choisit de retourner au camp de son équipe, ses PV et PM seront complètement restaurés, mais tous les TP seront perdus.${prompt}
   12055: |-
-    Please note that many of the rules previously considered “special” have been fully implemented.
-    Also, several new special rules have been added.${prompt}
+    Veuillez noter que de nombreuses règles précédemment considérées comme "spéciales" ont été complètement mises en œuvre.
+    De plus, plusieurs nouvelles règles spéciales ont été ajoutées.${prompt}
   12056: |-
-    Learn about which special rules?
+    Découvrez quelles règles spéciales ?
     ${selection-lines}
-    ${color: 5}Temporary items${color: 1}.
-    Ballista Points.
-    Scoring restrictions.
-    ${color: 5}Gate Breach${color: 1} radius expansion.
-    Resistance to Sleep.
-    Open entries.
-    Minimum level restrictions.
-    Re-entry restrictions.
-    Participant & Rook numbers.
-    Experience Points.
-    Return.${prompt}
-  12057: 'Previously, participants in Ballista were required to use an item the moment they dug it up using the /quarry command. However, players can now stock these items as ${color: 5}temporary items${color: 1} for use at any time during the match.${prompt}'
-  12058: 'Players can hold up to ten ${color: 5}temporary items${color: 1}, but only one of each type. If a player finds an item that they already possess, they must use it immediately or throw it away.${prompt}'
-  12059: 'If players who possess ten ${color: 5}temporary items${color: 1} find an item that they have not already obtained, they will also have the option to exchange it with one of their current items.${prompt}'
-  12060: Also, players will not, at any time, be allowed to trade temporary items. However, there are items that can be used on other Ballista participants. Please note that players may not be able to use these special items as soon as they are quarried.${prompt}
-  12061: 'Finally, the Heralds will collect ${color: 5}temporary items${color: 1} when the match (the third in a Best of Three series) has concluded.${prompt}'
-  12062: 'Ballista Points are rewarded to each competitor based on his or her performance in a single Ballista match. The maximum number of points that can be accumulated per match is ${number: 0}.${prompt}'
-  12063: 'While it is taken into consideration, scoring ${color: 5}Petras${color: 1} is not the only way to earn Ballista Points. Assisting allies and defeating members of the enemy forces can also earn a high score.${prompt}'
-  12064: 'Ballista Points can be traded for special “vouchers,” which may be exchanged for free ${color: 5}temporary items${color: 1} at the start of new matches.${prompt}'
+    ${color: 5}Objets temporaires${color: 1}.
+    Points de Ballista.
+    Restrictions de scoring.
+    Extension du rayon de ${color: 5}Gate Breach${color: 1}.
+    Résistance au sommeil.
+    Entrées ouvertes.
+    Restrictions de niveau minimum.
+    Restrictions de réentrée.
+    Nombre de participants et de Tours.
+    Points d'expérience.
+    Retour.${prompt}
+  12057: 'Auparavant, les participants à Ballista devaient utiliser un objet dès qu''ils le découvraient grâce à la commande /quarry. Cependant, les joueurs peuvent maintenant stocker ces objets en tant qu''${color: 5}objets temporaires${color: 1} et les utiliser à tout moment pendant le match.${prompt}'
+  12058: 'Les joueurs peuvent porter jusqu''à dix ${color: 5}objets temporaires${color: 1}, mais seulement un de chaque type. Si un joueur trouve un objet qu''il possède déjà, il doit l''utiliser immédiatement ou le jeter.${prompt}'
+  12059: 'Si des joueurs qui possèdent dix ${color: 5}objets temporaires${color: 1} trouvent un objet qu''ils n''ont pas encore obtenu, ils auront aussi la possibilité de l''échanger contre l''un de leurs objets actuels.${prompt}'
+  12060: De plus, les joueurs ne pourront, à aucun moment, échanger des objets temporaires. Cependant, certains objets peuvent être utilisés sur d''autres participants de Ballista. Veuillez noter que les joueurs peuvent ne pas être en mesure d''utiliser ces objets spéciaux dès qu''ils sont récoltés.${prompt}
+  12061: 'Enfin, les Hérauts collecteront les ${color: 5}objets temporaires${color: 1} lorsque le match (le troisième d''une série Best of Three) sera terminé.${prompt}'
+  12062: 'Les Points de Ballista sont attribués à chaque concurrent en fonction de ses performances dans un seul match de Ballista. Le nombre maximum de points pouvant être accumulés par match est de ${number: 0}.${prompt}'
+  12063: 'Bien que cela soit pris en compte, marquer des ${color: 5}Petras${color: 1} n''est pas la seule manière de gagner des Points de Ballista. Aider ses alliés et vaincre les membres des forces ennemies peuvent aussi permettre de marquer un score élevé.${prompt}'
+  12064: 'Les Points de Ballista peuvent être échangés contre des "bons" spéciaux, qui peuvent être échangés contre des ${color: 5}objets temporaires${color: 1} gratuits au début des nouveaux matchs.${prompt}'
   12065: |-
-    However, remember that depending on the level restriction of the match, certain vouchers will not be redeemed at the beginning of a match.
-    Speak with a ${color: 5}Marshal${color: 1} directly after a match to register your points.${prompt}
-  12066: 'Players will only be allowed to score up to five ${color: 5}Petras${color: 1} at a time. Also, a player''s ${color: 5}Gate Breach${color: 1} status will be automatically disengaged if a ${color: 5}Petra${color: 1} is not scored within a certain amount of time. The amount of time is increased for those members of the team currently behind in points.${prompt}'
-  12067: 'All allies within a certain radius will achieve ${color: 5}Gate Breach${color: 1} status when a member of the enemy forces is defeated.${prompt}'
-  12068: Players' resistance to sleep will be increased.${prompt}
-  12069: 'During the entry period, from ${number: 0}:${number-2-digits: 1}, all adventurers will be allowed to join the forces with the smallest number of participants, regardless of allegiance. Open entries will be accepted until both sides have reached maximum capacity.${prompt}'
+    Cependant, rappelez-vous qu''en fonction de la restriction de niveau du match, certains bons ne seront pas échangés au début du match.
+    Parlez directement à un ${color: 5}Maréchal${color: 1} après un match pour enregistrer vos points.${prompt}
+  12066: 'Les joueurs ne pourront marquer que jusqu''à cinq ${color: 5}Petras${color: 1} à la fois. De plus, le statut ${color: 5}Gate Breach${color: 1} d''un joueur sera automatiquement désactivé si un ${color: 5}Petra${color: 1} n''est pas marqué dans un certain délai. Le temps imparti est augmenté pour les membres de l''équipe actuellement en retard en points.${prompt}'
+  12067: 'Tous les alliés dans un certain rayon obtiendront le statut ${color: 5}Gate Breach${color: 1} lorsqu''un membre des forces ennemies sera vaincu.${prompt}'
+  12068: La résistance des joueurs au sommeil sera augmentée.${prompt}
+  12069: 'Pendant la période d''entrée, de ${number: 0}:${number-2-digits: 1}, tous les aventuriers pourront rejoindre les forces ayant le plus petit nombre de participants, quelle que soit leur allégeance. Les entrées ouvertes seront acceptées jusqu''à ce que les deux côtés atteignent leur capacité maximale.${prompt}'
   12070: |-
-    In order to ensure balanced matches, the following level limits are enforced:
-    Level 30 matches: 1～30${prompt}
+    Afin d'assurer des matchs équilibrés, les limites de niveau suivantes sont appliquées :
+    Matchs de niveau 30 : 1～30${prompt}
   12071: |-
-    Level 40 matches: 31～40
-    Level 50 matches: 41～50
-    Level 60 matches: 51～60
-    Unrestricted matches: 61～${prompt}
-  12072: Please note that any participant who cancels his or her registration will not be allowed to re-apply for the same match.${prompt}
-  12073: When the total number of participants in a match is less than 40, the location of the two camps will be adjusted. Also in this case, the number of Rooks will be reduced to two.${prompt}
-  12074: Any adventurer whose main level is over 30 will receive EXP for participating in a Ballista match. However, no EXP will be rewarded if the adventurer fails to actively take part in the match.${prompt}
+    Matchs de niveau 40 : 31～40
+    Matchs de niveau 50 : 41～50
+    Matchs de niveau 60 : 51～60
+    Matchs sans restriction de niveau : 61～${prompt}
+  12072: Veuillez noter que tout participant annulant son inscription ne pourra pas se réinscrire pour le même match.${prompt}
+  12073: Lorsque le nombre total de participants à un match est inférieur à 40, l'emplacement des deux camps sera ajusté. De plus, dans ce cas, le nombre de Tours sera réduit à deux.${prompt}
+  12074: Tout aventurier dont le niveau principal est supérieur à 30 recevra de l'EXP pour sa participation à un match de Ballista. Cependant, aucune EXP ne sera récompensée si l'aventurier ne prend pas activement part au match.${prompt}
   12075: |-
-    Read which chapter on B.P. Ranking?
+    Lisez quel chapitre sur le classement des Points de Ballista ?
     ${selection-lines}
-    Basic Information.
-    Registering Points.
-    Rewards.
-    Chevron & Title List.
-    None.${prompt}
-  12076: Ballista Point Ranking is based upon all Ballista Points registered from the past ten matches in each of the three participating battle areas.${prompt}
-  12077: Anyone who wishes to take part in the ranking needs to register ${choice-player-gender}[his/her] points within four hours (Vana'diel time) from the end of the previous match.${prompt}
-  12078: After the registration period ends, players can compare their record with those of the previous nine matches.${prompt}
-  12079: 'If, at any time, a player ranks in the top ten (overall) or first for a specific job, ${choice-player-gender}[he/she] will have the opportunity to receive a special ${color: 5}chevron${color: 1} as well as a new ${color: 5}title${color: 1}.${prompt}'
-  12080: There are four types of chevrons and titles awarded to top-ten players (gold/mythril/silver/bronze), as well as two different types awarded for outstanding performances by players of each of the twenty-two jobs.${prompt}
-  12081: Wearing a chevron during a Ballista match will automatically change a player's current title. If a player wishes to possess this title after a match as well, ${choice-player-gender}[he/she] must contact a certain bard in San d'Oria.${prompt}
-  12082: Also, while wearing a chevron, players will be able to trade Ballista Points for temporary items not available to all players.${prompt}
-  12083: However, the rules of Ballista state that players may only possess a certain chevron for no longer than one half Vana'diel year. When that time comes, they are required to return the chevron before being allowed to participate in any further matches.${prompt}
-  12084: 'Finally, ${color: 5}checking${color: 1} someone during a Ballista match will display the total number of chevrons that person has accumulated to date.${prompt}'
+    Informations de base.
+    Enregistrement des points.
+    Récompenses.
+    Liste des Chevron & Titres.
+    Aucun.${prompt}
+  12076: Le classement des Points de Ballista est basé sur tous les Points de Ballista enregistrés lors des dix derniers matchs dans chacun des trois secteurs de bataille participants.${prompt}
+  12077: Toute personne souhaitant participer au classement doit enregistrer ${choice-player-gender}[ses] points dans les quatre heures (heure de Vana'diel) suivant la fin du match précédent.${prompt}
+  12078: Après la fin de la période d'enregistrement, les joueurs peuvent comparer leur score avec ceux des neuf matchs précédents.${prompt}
+  12079: 'Si, à tout moment, un joueur se classe dans le top dix (général) ou premier pour un job spécifique, ${choice-player-gender}[il/elle] aura la possibilité de recevoir un ${color: 5}chevron${color: 1} spécial ainsi qu’un nouveau ${color: 5}titre${color: 1}.${prompt}'
+  12080: Il existe quatre types de chevrons et de titres attribués aux dix premiers joueurs (or/mythril/argent/bronze), ainsi que deux types différents attribués pour des performances exceptionnelles des joueurs de chacun des vingt-deux jobs.${prompt}
+  12081: Porter un chevron pendant un match de Ballista changera automatiquement le titre actuel du joueur. Si un joueur souhaite conserver ce titre après le match, ${choice-player-gender}[il/elle] doit contacter un certain barde à San d'Oria.${prompt}
+  12082: De plus, en portant un chevron, les joueurs pourront échanger des Points de Ballista contre des objets temporaires non disponibles pour tous les joueurs.${prompt}
+  12083: Cependant, les règles de Ballista stipulent que les joueurs ne peuvent posséder un chevron qu'un maximum de la moitié d'une année de Vana'diel. Lorsque ce délai est écoulé, ils doivent rendre le chevron avant de pouvoir participer à de futurs matchs.${prompt}
+  12084: 'Enfin, ${color: 5}vérifier${color: 1} quelqu’un pendant un match de Ballista affichera le nombre total de chevrons que cette personne a accumulés à ce jour.${prompt}'
   12085: |-
-    View which chevron/title?
+    Voir quel chevron/titre ?
     ${selection-lines}
-    1st (overall).
-    2nd (overall).
-    3rd (overall).
-    4th-10th (overall).
-    1st (warrior).
-    1st (monk).
-    1st (white mage).
-    1st (black mage).
-    1st (red mage).
-    1st (thief).
-    1st (paladin).
-    1st (dark knight).
-    1st (beastmaster).
-    1st (bard).
-    1st (ranger).
-    1st (samurai).
-    1st (ninja).
-    1st (dragoon).
-    1st (summoner).
-    1st (blue mage).
-    1st (corsair).
-    1st (puppetmaster).
-    1st (dancer).
-    1st (scholar).
-    1st (geomancer).
-    1st (rune fencer).
-    Return.${prompt}
+    1er (général).
+    2e (général).
+    3e (général).
+    4e-10e (général).
+    1er (guerrier).
+    1er (moine).
+    1er (mage blanc).
+    1er (mage noir).
+    1er (mage rouge).
+    1er (voleur).
+    1er (paladin).
+    1er (chevalier noir).
+    1er (dompteur).
+    1er (barde).
+    1er (ranger).
+    1er (samouraï).
+    1er (ninja).
+    1er (dragoon).
+    1er (invocateur).
+    1er (mage bleu).
+    1er (corsaire).
+    1er (marionnettiste).
+    1er (danseur).
+    1er (érudit).
+    1er (géomancien).
+    1er (épéiste runique).
+    Retour.${prompt}
   12086: |-
     Key Item: ${keyitem-singular: 0[2]}
     Title: Gold Balli☆☆☆☆star${prompt}
@@ -31768,103 +31768,103 @@ entries:
     None.
     Return to original trial.
     End confirmation.${prompt}
-  14741: I'm still new here, kupo. Bear with me a second, will you?
+  14741: Je suis encore nouveau ici, kupo. Supporte-moi une seconde, veux-tu ?
   14742: |-
-    Trial ${number: 0}?
-    Let's see here, kupo...${prompt}
-  14743: You'll need to start off with this item:${prompt}
-  14744: And you'll get this one as a reward:${prompt}
+    Essai ${number: 0} ?
+    Voyons voir, kupo...${prompt}
+  14743: Vous devrez commencer par cet objet :${prompt}
+  14744: Et vous recevrez celui-ci en récompense :${prompt}
   14745: |-
-    Oh. You can't hold more than one ${item-singular: 0[2]}, so you'll want to take care of the one you have before you come back.
-    I'm new, but even I know that, kupo!${prompt}
+    Oh. Vous ne pouvez pas en porter plus d'un ${item-singular: 0[2]}, alors vous devrez vous occuper de celui que vous avez avant de revenir.
+    Je suis nouveau, mais même moi, je sais ça, kupo !${prompt}
   14746: |-
-    Capacity-challenged adventurers, come one, come all, kupo!
-    The Mog House Management Union (MHMU) has developed the supreme solution for your storage woes!${prompt}
+    Aventuriers en manque de capacité, venez tous, venez tous, kupo !
+    L'Union de Gestion des Maisons Moogle (MHMU) a développé la solution suprême à vos problèmes de stockage !${prompt}
   14747: |-
-    Ah, another adventurer has arrived to take advantage of world-renowned moogle altruism and artisanship!
-    Rest assured that you will not depart disappointed, my friend.${prompt}
-  14748: Feast your eyes on the stylish, fashionable Mog Sack!${prompt}
+    Ah, un autre aventurier est arrivé pour profiter de l'altruisme et du savoir-faire moogle mondialement reconnus !
+    Soyez assuré que vous ne repartirez pas déçu, mon ami.${prompt}
+  14748: Régalez vos yeux avec le chic et élégant Sac de Mog !${prompt}
   14749: |-
-    Why, it's the perfect union of form and function!
-    Who could ask for more, kupo?${prompt}
+    Pourquoi, c'est l'union parfaite de la forme et de la fonction !
+    Qui pourrait demander plus, kupo ?${prompt}
   14750: |-
-    What's more, its carrying capacity can be customized to meet its owner's needs.
-    Greedaloxes and Grand Greedaloxes haven't seen anything like this!${prompt}
+    De plus, sa capacité de stockage peut être personnalisée pour répondre aux besoins de son propriétaire.
+    Les Greedaloxes et Grands Greedaloxes n'ont rien vu de tel !${prompt}
   14751: |-
-    And it can be yours--yes, yours!--for the low, low price of only ${number: 1} gil!
-    Why, that's ${number: 2} gil off the moogle manufacturer's suggested retail price.${prompt}
+    Et il peut être à vous--oui, à vous!--pour le prix modique de seulement ${number: 1} gil !
+    Pourquoi, c'est ${number: 2} gil de moins que le prix de vente suggéré par le fabricant moogle.${prompt}
   14752: |-
-    That's right, we at the MHMU don't care how far into debt we go this time!
-    Why, I personally would starve to death in the streets of San d'Oria to free adventurers the world over from inventory frustration! So how about it, kupo?${prompt}
+    C'est vrai, nous, à la MHMU, peu importe jusqu'où nous nous enfonçons dans les dettes cette fois-ci !
+    Moi, personnellement, je mourrais de faim dans les rues de San d'Oria pour libérer les aventuriers du monde entier de la frustration de l'inventaire ! Alors, qu'en dites-vous, kupo ?${prompt}
   14753: |-
-    Kupo? (Current gil: ${number: 2})
+    Kupo ? (Gil actuel : ${number: 2})
     ${selection-lines}
-    Buy a mog sack. (${number: 1} gil)
-    Expand your mog sack.
-    About mog sacks.
-    About expansion.
-    Do nothing.${prompt}
+    Acheter un sac de mog. (${number: 1} gil)
+    Étendre votre sac de mog.
+    À propos des sacs de mog.
+    À propos de l'extension.
+    Ne rien faire.${prompt}
   14754: |-
-    I'm sorry, kupo.
-    Our special-order mog sacks are limited to one per adventurer.${prompt}
+    Je suis désolé, kupo.
+    Nos sacs de mog en commande spéciale sont limités à un par aventurier.${prompt}
   14755: |-
-    Transaction complete, kupo!
-    Say goodbye to days of rummaging through your gobbiebag, and hello to a life of haute hupoture, because you are now the proud owner of a spectacular, snazzy, state-of-the-art mog sack!${prompt}
+    Transaction terminée, kupo !
+    Dites adieu aux journées passées à fouiller dans votre gobbiebag, et bonjour à une vie de haute hupe, car vous êtes désormais le fier propriétaire d'un sac de mog spectaculaire, branché et à la pointe de la technologie !${prompt}
   14756: |-
-    We go through such pains for you adventurers, and you would try to procure our products without sufficient funds, kupo?
-    Will you not be content until every last moogle is in the poorhouse!? <Sniff>...<sob>... ${prompt}
-  14757: Oh dear! I almost forgot the most important part, kupo!${prompt}
-  14758: Looking to expand your mog sack? You've come to the right place, kupo!${prompt}
+    Nous nous donnons tant de mal pour vous, aventuriers, et vous tenteriez de vous procurer nos produits sans fonds suffisants, kupo ?
+    Ne serez-vous pas satisfaits tant que chaque dernier moogle ne sera pas à la rue !? <Snif>...<sanglot>... ${prompt}
+  14757: Oh là là ! J'ai presque oublié la partie la plus importante, kupo !${prompt}
+  14758: Vous cherchez à étendre votre sac de mog ? Vous êtes au bon endroit, kupo !${prompt}
   14759: |-
-    A little dose of moogle magic, and...voila, kupo!
-    Your mog sack can now hold an incredible ${choice: 0}[/35/40/45/50/55/60/65/70/75/80] items!${prompt}
-  14760: '${color-alt: 15}You hear the disconcerting sound of fabric being stretched to its limits...'
+    Un petit coup de magie moogle, et...voilà, kupo !
+    Votre sac de mog peut maintenant contenir un incroyable ${choice: 0}[/35/40/45/50/55/60/65/70/75/80] objets !${prompt}
+  14760: '${color-alt: 15}Vous entendez le bruit inquiétant du tissu qui atteint ses limites...'
   14761: |-
-    There you go, kupo!
-    And with that, it looks like I've enlarged your mog sack as far as it will go.${prompt}
+    Voilà, kupo !
+    Et avec cela, il semble que j'ai agrandi votre sac de mog à son maximum.${prompt}
   14762: |-
-    A ripping sound? I haven't the foggiest idea what you're talking about, kupo.
-    My, oh my, that's one stupendous mog sack you've got there!${prompt}
+    Un bruit déchirant ? Je n'ai pas la moindre idée de ce dont vous parlez, kupo.
+    Mon, oh mon, c'est un sac de mog stupéfiant que vous avez là !${prompt}
   14763: |-
-    I'm afraid your mog sack has already been enlarged to its limits.
-    We wouldn't want to have any...fabric malfunctions, would we, kupo?${prompt}
+    Je crains que votre sac de mog soit déjà agrandi à ses limites.
+    Nous ne voudrions pas avoir de... pannes de tissu, n'est-ce pas, kupo ?${prompt}
   14764: |-
-    I'm afraid your mog sack has reached its limits.
-    Your gobbiebag, on the other hand, looks like it could still be tailored up in the right hands.${prompt}
-  14765: The mog sack is a marvel of modern moogle craftsmanship, imbued with moogle magic that allows its capacity to be increased proportional to the size of your gobbiebag!${prompt}
+    Je crains que votre sac de mog ait atteint ses limites.
+    Votre gobbiebag, en revanche, semble encore pouvoir être ajusté entre de bonnes mains.${prompt}
+  14765: Le sac de mog est une merveille de l'artisanat moogle moderne, imprégné de magie moogle permettant d'augmenter sa capacité en fonction de la taille de votre gobbiebag !${prompt}
   14766: |-
-    How does that work, you ask? Let's just call it a moogle and Gobbie mystery!
-    Kupohohoho!${prompt}
+    Comment cela fonctionne, demandez-vous ? Appelons ça un mystère moogle et Gobbie !
+    Kupohohoho !${prompt}
   14767: |-
-    Ah, yes. And for being such a valued customer, here's a special present from the MHMU to you!
-    Truly, our benevolence knows no bounds, kupo!${prompt}
+    Ah, oui. Et pour être un client aussi précieux, voici un cadeau spécial du MHMU pour vous !
+    Vraiment, notre bienveillance n'a pas de limites, kupo !${prompt}
   14768: |-
-    Sack storage space: ${number: 1}
-    Gobbiebag storage space: expanded to ${choice: 2}[30/35/40/45/50/55/60/65/70/75/80] .${prompt}
-  14769: 'Processing: ${number: 0}${prompt}'
-  14770: 'Kupo-ho-ho? Is that ${keyitem-article: 0[2]} I see?${prompt}'
-  14771: In that case, my infallible instincts tell me you possess a partner who will be paying a visit to this venue at any moment now...${prompt}
-  14772: ${name-player}. Here you are.${prompt}
-  14773: ${name-player}! Phew, I'm glad I caught up with you!${prompt}
-  14774: Ah, ${name-player}. I thought I might find you here.${prompt}
-  14775: Ever the elusive type, aren't you, ${name-player}?${prompt}
-  14776: There you are, ${name-player}! I thought I'd never find you!${prompt}
-  14777: Tsk, tsk, ${name-player}... Playing hard to get, are we?${prompt}
-  14778: Ah, ${name-player}! I've been looking all over for you.${prompt}
-  14779: ${name-player}! Found you at last!${prompt}
-  14780: ${name-player}. I thought I might come across you here.${prompt}
-  14781: Peekaboo! I found you, ${name-player}!${prompt}
-  14782: ${name-player}. I'm relieved to find you at last.${prompt}
-  14783: ${name-player}. You've quite some nerve, making me hunt you down like this.${prompt}
-  14784: '...Right on cue, kupo. Truly, I never cease to amaze myself.${prompt}'
-  14785: '${choice: 0}[Feliz/Ferdinand/Gunnar/Massimo/Oldrich/Siegward/Theobald/Zenji], was it?${prompt}'
-  14786: '${choice: 0}[Amerita/Beatrice/Henrietta/Jesimae/Karyn/Nanako/Sharlene/Sieghilde], was it?${prompt}'
-  14787: '${choice: 0}[Chanandit/Deulmaeux/Demresinaux/Ephealgaux/Gauldeval/Grauffemart/Migaifongut/Romidiant], was it?${prompt}'
-  14788: '${choice: 0}[Armittie/Cadepure/Clearite/Epilleve/Liabelle/Nauthima/Radille/Vimechue], was it?${prompt}'
-  14789: '${choice: 0}[Balu-Falu/Burg-Ladarg/Ehgo-Ryuhgo/Kolui-Pelui/Nokum-Akkum/Savul-Kivul/Vinja-Kanja/Yarga-Umiga], was it?${prompt}'
-  14790: '${choice: 0}[Cupapa/Jajuju/Kalokoko/Mahoyaya/Pakurara/Ripokeke/Yawawa/Yufafa], was it?${prompt}'
-  14791: '${choice: 0}[Fhig Lahrv/Khuma Tagyawhan/Pimy Kettihl/Raka Maimhov/Sahyu Banjyao/Sufhi Uchnouma/Tsuim Nhomango/Yoli Kohlpaka], was it?${prompt}'
-  14792: '${choice: 0}[Durib/Dzapiwa/Jugowa/Mugido/Voldai/Wagwei/Zayag/Zoldof], was it?${prompt}'
+    Espace de stockage du sac : ${number: 1}
+    Espace de stockage du gobbiebag : agrandi à ${choice: 2}[30/35/40/45/50/55/60/65/70/75/80].${prompt}
+  14769: 'Traitement : ${number: 0}${prompt}'
+  14770: 'Kupo-ho-ho ? Est-ce que c’est ${keyitem-article: 0[2]} que je vois ?${prompt}'
+  14771: Dans ce cas, mes instincts infaillibles me disent que vous avez un partenaire qui va visiter ce lieu à tout moment...${prompt}
+  14772: ${name-player}. Vous voilà.${prompt}
+  14773: ${name-player}! Ouf, je suis content de vous avoir rattrapé !${prompt}
+  14774: Ah, ${name-player}. Je pensais vous trouver ici.${prompt}
+  14775: Toujours aussi insaisissable, n'est-ce pas, ${name-player} ?${prompt}
+  14776: Vous voilà, ${name-player} ! Je pensais que je ne vous trouverais jamais !${prompt}
+  14777: Tsk, tsk, ${name-player}... Vous jouez à cache-cache, n'est-ce pas ?${prompt}
+  14778: Ah, ${name-player} ! Je vous ai cherché partout.${prompt}
+  14779: ${name-player}! Je vous ai enfin trouvé !${prompt}
+  14780: ${name-player}. Je pensais que je pourrais vous croiser ici.${prompt}
+  14781: Coucou ! Je vous ai trouvé, ${name-player} !${prompt}
+  14782: ${name-player}. Je suis soulagé de vous avoir enfin trouvé.${prompt}
+  14783: ${name-player}. Vous avez bien du cran, à me faire vous chercher ainsi.${prompt}
+  14784: '...Juste à temps, kupo. Vraiment, je ne cesse de m’épater moi-même.${prompt}'
+  14785: '${choice: 0}[Feliz/Ferdinand/Gunnar/Massimo/Oldrich/Siegward/Theobald/Zenji], c’était bien ça ?${prompt}'
+  14786: '${choice: 0}[Amerita/Beatrice/Henrietta/Jesimae/Karyn/Nanako/Sharlene/Sieghilde], c’était bien ça ?${prompt}'
+  14787: '${choice: 0}[Chanandit/Deulmaeux/Demresinaux/Ephealgaux/Gauldeval/Grauffemart/Migaifongut/Romidiant], c’était bien ça ?${prompt}'
+  14788: '${choice: 0}[Armittie/Cadepure/Clearite/Epilleve/Liabelle/Nauthima/Radille/Vimechue], c’était bien ça ?${prompt}'
+  14789: '${choice: 0}[Balu-Falu/Burg-Ladarg/Ehgo-Ryuhgo/Kolui-Pelui/Nokum-Akkum/Savul-Kivul/Vinja-Kanja/Yarga-Umiga], c’était bien ça ?${prompt}'
+  14790: '${choice: 0}[Cupapa/Jajuju/Kalokoko/Mahoyaya/Pakurara/Ripokeke/Yawawa/Yufafa], c’était bien ça ?${prompt}'
+  14791: '${choice: 0}[Fhig Lahrv/Khuma Tagyawhan/Pimy Kettihl/Raka Maimhov/Sahyu Banjyao/Sufhi Uchnouma/Tsuim Nhomango/Yoli Kohlpaka], c’était bien ça ?${prompt}'
+  14792: '${choice: 0}[Durib/Dzapiwa/Jugowa/Mugido/Voldai/Wagwei/Zayag/Zoldof], c’était bien ça ?${prompt}'
   14793: |-
     I have been apprised of your crisis of confidence from a certain mesmerizing Mithran lass, kupo.
     Said something must be done about this sorry state of affairs, kupo.${prompt}
