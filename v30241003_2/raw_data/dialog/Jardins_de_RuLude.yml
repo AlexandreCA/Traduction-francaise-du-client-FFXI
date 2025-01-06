@@ -29776,23 +29776,23 @@ entries:
     I'm curious to see how it turns out, all the same...${prompt}
   14007: DEBUG:「02協商会議」メッセージ待ち${prompt}
   14008: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Please change areas and come back to this location after sorting your inventory.${prompt}
-  14009: 'Well met! I''m a Merry Map Marker, and I''d love to make marks all over your merry ${keyitem-singular: 0[2]}, but it appears you are missing the markable map I mention.${prompt}'
-  14010: Good day! I'm a Merry Map Marker, and I'd be emphatically ecstatic if you'd allow me to mark your magical map!${prompt}
-  14011: 'A markless ${keyitem-singular: 0[2]} is like a motherless maiden, meandering through a miasmatic mire of misery.${prompt}'
+    Vous ne pouvez pas obtenir le ${item-singular: 0[2]}.
+    Veuillez changer de zone et revenir ici après avoir trié votre inventaire.${prompt}
+  14009: 'Bonne journée! Je suis un Joyeux Marqueur de Carte, et j''adorerais marquer votre joyeux ${keyitem-singular: 0[2]}, mais il semble qu''il vous manque la carte à marquer que je mentionne.${prompt}'
+  14010: Bonne journée! Je suis un Joyeux Marqueur de Carte, et je serais absolument ravi si vous me permettiez de marquer votre carte magique !${prompt}
+  14011: 'Une carte sans marques ${keyitem-singular: 0[2]} est comme une jeune fille sans mère, errant dans un marais nauséabond de misère.${prompt}'
   14012: |-
-    Embark on a map-marking mission?
+    Embarquer pour une mission de marquage de carte ?
     ${selection-lines}
-    Mark me up!
-    Keep your mitts off my map!${prompt}
-  14013: Marvelous! Now allow me a minute to make all my marks.${prompt}
-  14014: Methinks I have marked your map with as many marks as I might manage.${prompt}
-  14015: 'Monitoring and managing your marks is as simple as merely opening your map and selecting ${color: 5}Markers${color: 1} from the main menu.${prompt}'
-  14016: If the marks on your map might vanish, mope not like a melancholy milksop. Make another meeting with me and I shall make it my mission to mark the map once more.${prompt}
+    Marquez-moi !
+    Gardez vos mains loin de ma carte !${prompt}
+  14013: Merveilleux ! Laissez-moi une minute pour faire toutes mes marques.${prompt}
+  14014: Je pense avoir marqué votre carte avec autant de marques que possible.${prompt}
+  14015: 'Surveiller et gérer vos marques est aussi simple que d''ouvrir votre carte et de sélectionner ${color: 5}Marqueurs${color: 1} dans le menu principal.${prompt}'
+  14016: Si les marques sur votre carte venaient à disparaître, ne vous morfondez pas comme un triste pleurnichard. Prenez un autre rendez-vous avec moi et je me ferai une mission de marquer la carte à nouveau.${prompt}
   14017: |-
-    Good day, ${choice-player-gender}[milord/milady].
-    May your marches across meadow and mountain be markedly memorable!${prompt}
+    Bonne journée, ${choice-player-gender}[monseigneur/madame].
+    Que vos marches à travers champs et montagnes soient inoubliablement marquées !${prompt}
   14018: 'Voici le ${color: 5}point de retour${color: 1} de la zone. Une fois défini, vos restes réduits au silence seront déplacés ici si vous êtes un jour... mortellement mutilé en plein milieu d’un combat.${prompt}'
   14019: 'Ici, vous trouverez les ${color: 5}ministres de l’immigration${color: 1}. Ils vous aideront si vous souhaitez immédiatement modifier votre nationalité.${prompt}'
   14020: 'Et peut-être êtes-vous immensément motivé pour participer à l’effervescence médiévale du Conflit ? Puis-je vous suggérer de vous mêler aux modestes ${color: 5}Pursuivants${color: 1} qui se trouvent ici ?${prompt}'
