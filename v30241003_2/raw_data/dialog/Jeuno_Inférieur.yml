@@ -20673,21 +20673,21 @@ entries:
     1:${number: 1}     5:${number: 5}
     2:${number: 2}     6:${number: 6}
     3:${number: 3}     7:${number: 7}
-  9010: 'You hand the clerk the ${keyitem-singular: 0[2]} and ${number: 1} gil, and your set of armor is returned.${prompt}'
-  9011: Hello, ${choice-player-gender}[sir/ma'am]. Have you ever found yourself throwing away items because your Mog Safe is overflowing with dusty sets of armor collected on your many adventures? My colleagues and I have heard the cries of our fellow adventurers and joined together to aid all those in need.${prompt}
-  9012: Trade me a full set, and for a small fee (payable on pickup) we will hold on to it, all the while protecting it from thieves, moths, and any/all acts of god and/or goddess.${prompt}
-  9013: Please be forewarned that we cannot store any high-quality equipment, and that the signatures on any pieces of collected armor will be lost.${prompt}
-  9014: How may I be of service today?${prompt}
+  9010: 'Vous remettez au commis la ${keyitem-singular: 0[2]} et ${number: 1} gil, et votre ensemble d''armure vous est rendu.${prompt}'
+  9011: Bonjour, ${choice-player-gender}[monsieur/madame]. Vous est-il déjà arrivé de jeter des objets parce que votre Mog Safe déborde de vieux ensembles d'armure accumulés lors de vos nombreuses aventures ? Mes collègues et moi avons entendu les plaintes de nos compagnons aventuriers et nous nous sommes réunis pour venir en aide à tous ceux qui en ont besoin.${prompt}
+  9012: Échangez-moi un ensemble complet, et pour un petit frais (payable à la récupération), nous le garderons, tout en le protégeant des voleurs, des mites, et de tout acte de dieu et/ou déesse.${prompt}
+  9013: Soyez avertis que nous ne pouvons pas stocker d'équipements de haute qualité, et que les signatures sur les pièces d'armure collectées seront perdues.${prompt}
+  9014: Comment puis-je vous être utile aujourd'hui ?${prompt}
   9015: |-
-    What to do...
+    Que faire...
     ${selection-lines}
-    Nothing.
-    View list of storable armor sets.
-    Have stored armor returned.${prompt}
-  9016: We are currently offering storage service for the following armor sets:${prompt}
+    Rien.
+    Voir la liste des ensembles d'armure stockables.
+    Récupérer l'armure stockée.${prompt}
+  9016: Nous offrons actuellement un service de stockage pour les ensembles d'armure suivants :${prompt}
   9017: |-
-    Let me see... Ah yes, ${choice-player-gender}[Lord/Lady] ${name-player}.
-    We are currently holding the following garments...${prompt}
+    Laissez-moi voir... Ah oui, ${choice-player-gender}[seigneur/dame] ${name-player}.
+    Nous avons actuellement en garde les vêtements suivants...${prompt}
   9018: |-
     ${choice: 7}[View which set?/Remove which set from storage?]
     ${selection-lines}
