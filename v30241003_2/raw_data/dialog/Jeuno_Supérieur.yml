@@ -18379,40 +18379,40 @@ entries:
   7808: |-
     En raison de sa nature spéciale, vous ne pouvez acheter ou recharger ${article} ${item-article: 2[2]} qu'une seule fois avant l'annonce des résultats de la conquête.
     De plus, vous ne pouvez pas acheter cet objet si un objet similaire est déjà en votre possession.${prompt}
-  7809: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 50 conquest points.${prompt}'
-  7810: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 100 conquest points.${prompt}'
-  7811: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 200 conquest points.${prompt}'
-  7812: During the time of the Great War, it was possible to have this item recharged in exchange for Allied Notes. From my understanding, that practice has recently become commonplace in the Near East. Though you'll be needing Imperial Standing credits if you wish to use the service there.${prompt}
-  7813: 'You do not possess the ${number: 1} ${choice-plurality: 1}[conquest point/conquest points] required to fully recharge the ${item-singular: 0[2]}.${prompt}'
-  7814: 'Please be aware that you can only purchase or recharge ${article} ${item-article: 0[2]} once during the period between each conquest results tally.${prompt}'
-  7815: 'The ${item-singular: 0[2]} is already fully charged.${prompt}'
-  7816: 'Your ${item-singular: 0[2]} has received ${number: 2} ${choice-plurality: 2}[charge/charges] in exchange for ${number: 1} ${choice-plurality: 1}[conquest point/conquest points]. It is now fully recharged.${prompt}'
-  7817: 'I will trade you ${article} ${item-article: 0[2]} for your ${item-singular: 1[2]}. May it serve you well.${prompt}'
-  7818: 'You do not meet the requirements to purchase the ${item-singular: 2[2]}.${prompt}'
-  7819: 'Your rank is too low to purchase the ${item-singular: 2[2]}.${prompt}'
-  7820: 'You do not have enough conquest points to purchase the ${item-singular: 2[2]}.${prompt}'
+  7809: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en l''échangeant contre un des gardes de votre nation, y compris les gardes d''avant-poste. Une charge nécessite 50 points de conquête.${prompt}'
+  7810: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en l''échangeant contre un des gardes de votre nation, y compris les gardes d''avant-poste. Une charge nécessite 100 points de conquête.${prompt}'
+  7811: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en l''échangeant contre un des gardes de votre nation, y compris les gardes d''avant-poste. Une charge nécessite 200 points de conquête.${prompt}'
+  7812: Pendant la Grande Guerre, il était possible de recharger cet objet en échange de Billets Alliés. D'après ce que je comprends, cette pratique est devenue courante récemment dans le Proche-Orient. Cependant, vous aurez besoin de crédits de Standing Impérial pour utiliser ce service là-bas.${prompt}
+  7813: 'Vous ne possédez pas les ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête] nécessaires pour recharger complètement le ${item-singular: 0[2]}.${prompt}'
+  7814: 'Veuillez noter que vous ne pouvez acheter ou recharger ${article} ${item-article: 0[2]} qu''une seule fois pendant la période entre chaque décompte des résultats de conquête.${prompt}'
+  7815: 'Le ${item-singular: 0[2]} est déjà complètement chargé.${prompt}'
+  7816: 'Votre ${item-singular: 0[2]} a reçu ${number: 2} ${choice-plurality: 2}[charge/charges] en échange de ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête]. Il est maintenant complètement rechargé.${prompt}'
+  7817: 'Je vais échanger ${article} ${item-article: 0[2]} contre votre ${item-singular: 1[2]}. Qu''il vous soit utile.${prompt}'
+  7818: 'Vous ne répondez pas aux exigences pour acheter le ${item-singular: 2[2]}.${prompt}'
+  7819: 'Votre rang est trop bas pour acheter le ${item-singular: 2[2]}.${prompt}'
+  7820: 'Vous n''avez pas assez de points de conquête pour acheter le ${item-singular: 2[2]}.${prompt}'
   7821: |-
-    You cannot equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Vous ne pouvez pas équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   7822: |-
-    Your level is too low to equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Votre niveau est trop bas pour équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   7823: |-
-    You seem to be able to equip the ${item-singular: 2[2]}.
-    Do you wish to proceed?${prompt}
-  7824: 'Are you sure you want to purchase the ${item-singular: 2[2]}?${prompt}'
+    Il semble que vous puissiez équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous continuer ?${prompt}
+  7824: 'Êtes-vous sûr de vouloir acheter le ${item-singular: 2[2]}?${prompt}'
   7825: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, purchase item.
-    Cancel purchase.${prompt}
+    Oui, acheter l'objet.
+    Annuler l'achat.${prompt}
   7826: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, even though I can't equip it.
-    Cancel purchase.${prompt}
+    Oui, même si je ne peux pas l'équiper.
+    Annuler l'achat.${prompt}
   7827: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
@@ -18422,11 +18422,11 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   7828: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}...${number: 8} pts.
     ${lettercase: 1}${item-singular: 1[2]}...${number: 9} pts.
@@ -18436,120 +18436,120 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}...${number: 13} pts.
     ${lettercase: 1}${item-singular: 6[2]}...${number: 14} pts.
     ${lettercase: 1}${item-singular: 7[2]}...${number: 15} pts.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   7829: 'ENDPARA：${number: 0}${prompt}'
   7830: |-
-    Which service do you request?
+    Quel service demandez-vous ?
     ${selection-lines}
-    Buy/Sell items.
-    Teleportation.
-    Nothing.${prompt}
+    Acheter/Vendre des objets.
+    Téléportation.
+    Rien.${prompt}
   7831: |-
-    Do you really wish to be teleported?
+    Souhaitez-vous vraiment être téléporté ?
     ${selection-lines}
-    Yes.
-    Teleport with gil.
-    Teleport with conquest points.
-    No.${prompt}
-  7832: Welcome to the border shop! If you trade me unused equipment, I'll add their value to your country's region points!${prompt}
+    Oui.
+    Téléportation avec du gil.
+    Téléportation avec des points de conquête.
+    Non.${prompt}
+  7832: Bienvenue au magasin frontalier ! Si vous me tradez de l'équipement inutilisé, j'ajouterai leur valeur aux points de région de votre pays !${prompt}
   7833: |-
-    It should please you to know that I now also deal in ${item-plural: 0[2]}.
-    Bigger pieces will earn you more points for your nation, and I'll even toss some gil into the equation!${prompt}
-  7834: I see that your home country has control of this region. Feel free to browse through my wares.${prompt}
-  7835: I see that your home country is allies with the country in control of this region. Feel free to browse through my wares.${prompt}
-  7836: 'I can teleport you to your home country for ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points].${prompt}'
-  7837: "Word has it that the entire set of mog tablets has been recovered. \nOh, happy day! In honor of the occasion, I can teleport you to your home country free of charge.${prompt}"
-  7838: I am terribly sorry, but it seems as if you do not have enough gil.${prompt}
-  7839: I am terribly sorry, but it seems as if you do not have enough conquest points.${prompt}
-  7840: However, due to your home country's lack of influence in the region, this is the only transaction I am authorized to perform with you at the moment.${prompt}
-  7841: I am looking forward to doing business with you again in the future!${prompt}
-  7842: Thank you. This will increase your nation's region points by a small amount. If you have anything else, by all means, trade them to me.${prompt}
-  7843: Thank you. This will increase your nation's region points moderately. If you have anything else, by all means, trade them to me.${prompt}
-  7844: Thank you. This will increase your nation's region points greatly. If you have anything else, by all means, trade them to me.${prompt}
-  7845: I could not accept one or more items you tried to trade me. Please remove those items and try again.${prompt}
-  7846: Sorry. I can only take certain types of weapons, shields, or armor.${prompt}
+    Il devrait vous faire plaisir de savoir que je traite également maintenant des ${item-plural: 0[2]}.
+    Les plus gros morceaux vous rapporteront plus de points pour votre nation, et je vais même ajouter un peu de gil à l'équation !${prompt}
+  7834: Je vois que votre pays d'origine contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
+  7835: Je vois que votre pays d'origine est allié avec le pays qui contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
+  7836: 'Je peux vous téléporter dans votre pays d''origine pour ${number: 1} gil ou ${number: 3} ${choice-plurality: 3}[point de conquête/points de conquête].${prompt}'
+  7837: "On dit que l'ensemble complet des tablettes mog a été récupéré. \nOh, joyeux jour ! En l'honneur de l'occasion, je peux vous téléporter dans votre pays d'origine gratuitement.${prompt}"
+  7838: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de gil.${prompt}
+  7839: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de points de conquête.${prompt}
+  7840: Cependant, en raison du manque d'influence de votre pays d'origine dans la région, c'est la seule transaction que je suis autorisé à effectuer avec vous pour l'instant.${prompt}
+  7841: J'espère faire affaire avec vous à nouveau dans le futur !${prompt}
+  7842: Merci. Cela augmentera les points de région de votre nation d'une petite quantité. Si vous avez autre chose, n'hésitez pas à me les trader.${prompt}
+  7843: Merci. Cela augmentera modérément les points de région de votre nation. Si vous avez autre chose, n'hésitez pas à me les trader.${prompt}
+  7844: Merci. Cela augmentera considérablement les points de région de votre nation. Si vous avez autre chose, n'hésitez pas à me les trader.${prompt}
+  7845: Je n'ai pas pu accepter un ou plusieurs des objets que vous avez essayé de me trader. Veuillez retirer ces objets et réessayer.${prompt}
+  7846: Désolé. Je ne peux accepter que certains types d'armes, de boucliers ou d'armures.${prompt}
   7847: |-
-    Thank you. This will increase your nation's region points ${choice: 1}[by a small amount/moderately/greatly].
-    For this transaction I will also furnish you with ${number: 0} gil.${prompt}
-  7848: My apologies, but this type of item needs to be individually appraised. Please trade them to me one at a time.${prompt}
-  7849: (DEBUG) Back to hometown!${prompt}
+    Merci. Cela augmentera les points de région de votre nation ${choice: 1}[d'une petite quantité/modérément/considérablement].
+    Pour cette transaction, je vous fournirai également ${number: 0} gil.${prompt}
+  7848: Mes excuses, mais ce type d'objet doit être évalué individuellement. Veuillez me les trader un par un.${prompt}
+  7849: (DEBUG) Retour à la patrie !${prompt}
   7850: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Pourriez-vous lancer un Signe sur moi ?
+    J'aimerais définir mon point de retour ici.
+    Rien.${prompt}
   7851: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  7852: Your home point has been set.${prompt}
-  7853: You do not have enough gil to set your home point here.${prompt}
-  7854: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gil et définir mon point de retour ici.
+    Rien.${prompt}
+  7852: Votre point de retour a été défini.${prompt}
+  7853: Vous n'avez pas assez de gil pour définir votre point de retour ici.${prompt}
+  7854: 'Je vais définir votre point de retour ici.${wait-animation: 0}${prompt}'
   7855: |-
-    We are currently on a beastman-purging campaign. We support adventurers from all nations.
-    Do your best to rid the world of those vile creatures.${prompt}
+    Nous menons actuellement une campagne d'extermination des hommes-bêtes. Nous soutenons les aventuriers de toutes les nations.
+    Faites de votre mieux pour débarrasser le monde de ces créatures viles.${prompt}
   7856: |-
-    We are currently conducting an international exchange campaign.
-    You may spend your conquest points to purchase items from foreign guards.${prompt}
+    Nous menons actuellement une campagne d'échange international.
+    Vous pouvez dépenser vos points de conquête pour acheter des objets auprès de gardes étrangers.${prompt}
   7857: |-
-    Thanks to you, our nation is now first in the conquest race!
-    Here is a small token of our appreciation.${prompt}
-  7858: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+    Grâce à vous, notre nation est désormais première dans la course à la conquête !
+    Voici un petit témoignage de notre reconnaissance.${prompt}
+  7858: Les aventuriers des nations qui sont classées plus haut que la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un taux plus élevé.${prompt}
   7859: |-
-    You cannot currently purchase this item.
-    Please choose another.${prompt}
-  7860: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
-  7861: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
-  7862: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
-  7863: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+    Vous ne pouvez pas acheter cet objet actuellement.
+    Veuillez en choisir un autre.${prompt}
+  7860: Actuellement, notre nation envoie des Forces Expéditionnaires à travers Vana'diel et sollicite la participation de braves aventuriers comme vous.${prompt}
+  7861: 'Les exigences pour participer à une F.E. sont simples. Votre groupe doit comporter ${number: 5} membres. Chaque membre doit être de ce pays, du rang 3 ou supérieur, et avoir atteint un niveau suffisant.${prompt}'
+  7862: Une fois que votre groupe est prêt, venez me voir et je vous téléporterai au poste avancé le plus proche.${prompt}
+  7863: Là, vous recevrez un insigne de la Force Expéditionnaire. Lorsque vous réussirez à prendre le contrôle de la zone, vous pourrez échanger l'insigne contre votre récompense.${prompt}
   7864: |-
-    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Rejoindre la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Bas Plateaux d'Elshimo/Les Hauts Plateaux d'Elshimo] ?
     ${selection-lines}
-    Join the E.F.
-    Not this time.${prompt}
-  7865: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
-  7866: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
-  7867: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
-  7868: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+    Rejoindre la F.E.
+    Pas cette fois-ci.${prompt}
+  7865: Votre groupe n'a pas assez de membres, ou certains des membres ne sont pas dans cette zone. Rassemblez tous ceux qui participent et revenez ici.${prompt}
+  7866: Un membre de votre groupe n'est pas citoyen de ce pays. Nous n'autorisons pas de participants étrangers dans la F.E.${prompt}
+  7867: Un membre de votre groupe n'a pas atteint le niveau de rang 3. Nous ne pouvons pas révéler nos stratégies tactiques à ceux qui n'ont pas prouvé leur loyauté envers notre pays.${prompt}
+  7868: 'Un membre de votre groupe est en dessous du niveau ${number: 6}. Pour la sécurité de l''aventurier et ceux qui l''accompagnent, nous ne pouvons pas permettre à ceux en dessous de la limite de participer à la F.E.${prompt}'
   7869: |-
-    I see that you are ready.
-    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
-  7870: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+    Je vois que vous êtes prêts.
+    Je vous accorde la permission de rejoindre la Force Expéditionnaire actuelle. Quand vous serez prêts à être téléportés à l'avant-poste, parlez-moi à nouveau.${prompt}
+  7870: 'Êtes-vous prêt à être téléporté à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Bas Plateaux d''Elshimo/Les Hauts Plateaux d''Elshimo] ? Souvenez-vous que les membres du groupe qui n''ont pas été autorisés à participer à la F.E. seront laissés derrière.${prompt}'
   7871: |-
-    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Téléportation à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Bas Plateaux d'Elshimo/Les Hauts Plateaux d'Elshimo] ?
     ${selection-lines}
-    Ready!
-    Wait just a minute...${prompt}
-  7872: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+    Prêt !
+    Attendez une minute...${prompt}
+  7872: 'Annuler votre participation à la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Bas Plateaux d''Elshimo/Les Hauts Plateaux d''Elshimo] ?${prompt}'
   7873: |-
-    Quit the E.F.?
+    Quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    Change locations.
-    No.${prompt}
-  7874: Are you sure?${prompt}
+    Oui.
+    Changer de lieu.
+    Non.${prompt}
+  7874: Êtes-vous sûr ?${prompt}
   7875: |-
-    Really quit the E.F.?
+    Vraiment quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7876: |-
-    I see.
-    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  7877: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
-  7878: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
-  7879: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
-  7880: Your invalid ensignias have been disposed of.${prompt}
-  7881: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
-  7882: 'You received ${number: 1} conquest points!${prompt}'
-  7883: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+    Je vois.
+    Si vous souhaitez participer à l'avenir, je serai ici pour accepter votre candidature.${prompt}
+  7877: 'Votre ${color: 5}Badge de la F.E.${color: 1} disparaît !${prompt}'
+  7878: 'Points de participation : ${number: 0} !${prompt}'
+  7879: 'Ce ${keyitem-singular: 0[2]} n''est plus valide. Nous allons nous en débarrasser ici.${prompt}'
+  7880: Vos insignes invalides ont été éliminés.${prompt}
+  7881: Bienvenue de retour de l'expédition. Notre nation a réussi sa campagne. Laissez-moi vous remettre votre récompense.${prompt}
+  7882: 'Vous avez reçu ${number: 1} points de conquête !${prompt}'
+  7883: En participant à une Force Expéditionnaire, concentrez vos efforts sur le combat contre les ennemis qui vous donnent le plus de points d'expérience. Et n'oubliez pas de confisquer le contenu de toute boîte au trésor des hommes-bêtes que vous trouvez.${prompt}
   7884: |-
-    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
-    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
+    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l'inscription au dos avant de commencer vos fonctions.
+    Une fois que le Signe vous aura été conféré, préparez-vous à être téléporté.${prompt}
   7885: Vous n'avez pas pu être téléporté. Veuillez me demander à nouveau.${prompt}
   7886: Les résultats de la conquête sont actuellement en cours de comptabilisation. Revenez plus tard.${prompt}
   7887: Vous avez reçu la permission de rejoindre les Forces Expéditionnaires !${prompt}
