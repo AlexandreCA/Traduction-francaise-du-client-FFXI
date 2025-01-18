@@ -18279,17 +18279,17 @@ entries:
   7531: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
   7532: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
   7533: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
-  7534: 'Currently, ${number: 3} members of your party (including yourself) have clearance to enter the battlefield.${prompt}'
-  7535: 'Currently, ${number: 3} members of your alliance (including yourself) have clearance to enter the battlefield.${prompt}'
-  7536: Only ${name-player} can enter the battlefield.${prompt}
-  7537: 'The time limit for this battle is ${number: 3} minutes.${prompt}'
-  7538: 'There is a crack in the ${item-singular: 3[2]}. It no longer contains a monster.${prompt}'
-  7539: 'A crack has formed on the ${item-singular: 3[2]}, and the beast inside has been unleashed!${prompt}'
-  7540: 'Boss mode : ${number: 6}!!${wait-animation: 1}${prompt}'
+  7534: 'Actuellement, ${number: 3} membres de votre groupe (y compris vous) ont l''autorisation d''entrer sur le champ de bataille.${prompt}'
+  7535: 'Actuellement, ${number: 3} membres de votre alliance (y compris vous) ont l''autorisation d''entrer sur le champ de bataille.${prompt}'
+  7536: Seul ${name-player} peut entrer sur le champ de bataille.${prompt}
+  7537: 'La limite de temps pour cette bataille est de ${number: 3} minutes.${prompt}'
+  7538: 'Il y a une fissure dans le ${item-singular: 3[2]}. Il ne contient plus de monstre.${prompt}'
+  7539: 'Une fissure s''est formée sur le ${item-singular: 3[2]}, et la bête à l''intérieur a été libérée !${prompt}'
+  7540: 'Mode boss : ${number: 6}!!${wait-animation: 1}${prompt}'
   7541: |-
-    Room number to attempt: ${number: 0}.
-    Desired boss mode: ${number: 1}.
-    Difficulty: ${number: 2} (${choice: 2}[Not set/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}
+    Numéro de la salle à tenter : ${number: 0}.
+    Mode boss désiré : ${number: 1}.
+    Difficulté : ${number: 2} (${choice: 2}[Non défini/Très difficile/Difficile/Normal/Facile/Très facile].${prompt}
   7542: '${number: 7}${prompt}'
   7543: DEBUG1${prompt}
   7544: |-
@@ -18346,10 +18346,10 @@ entries:
   7568: |-
     Débarrassé du PNJ !
     ID PC = ${number: 0} !${prompt}
-  7569: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle A !${prompt}
-  7570: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle B !${prompt}
-  7571: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle C !${prompt}
-  7572: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle D !${prompt}
+  7569: Le PNJ est tombé et ne peut plus se relever! Quitte la salle A !${prompt}
+  7570: Le PNJ est tombé et ne peut plus se relever! Quitte la salle B !${prompt}
+  7571: Le PNJ est tombé et ne peut plus se relever! Quitte la salle C !${prompt}
+  7572: Le PNJ est tombé et ne peut plus se relever! Quitte la salle D !${prompt}
   7573: Tous les membres du groupe sont tombés au combat. Quitte maintenant le champ de bataille.${prompt}
   7574: |-
     Tout le monde est tombé dans la salle A et ne peut plus se relever !
