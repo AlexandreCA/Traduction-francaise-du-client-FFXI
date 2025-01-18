@@ -1275,150 +1275,150 @@ entries:
   744: '${unity: 0[2], 1[2]}${prompt}' 
   745: Votre automate dépasse une ou plusieurs valeurs de capacité élémentaire et ne peut pas être activé.${prompt}
   746: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${number-alt: 1} TP drained from ${unknown-84: 0}${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${ability: 0}.
+    ${number-alt: 1} TP drainé${choice-plurality-number: 1}[/s] de ${unknown-84: 0}${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
   747: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Magic Burst! ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 1} point${choice-plurality-number: 1}[/s] of damage.${prompt}
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Explosion Magique ! ${unknown-84: 0}${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] de dégâts.${prompt}
   748: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Magic Burst! ${number-alt: 1} HP drained from ${unknown-84: 0}${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
-  749: 'Magic Burst! ${number-alt: 1} HP drained from ${unknown-84: 0}${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Explosion Magique ! ${number-alt: 1} HP drainé${choice-plurality-number: 1}[/s] de ${unknown-84: 0}${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
+  749: 'Explosion Magique ! ${number-alt: 1} HP drainé${choice-plurality-number: 1}[/s] de ${unknown-84: 0}${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}'
   750: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Magic Burst! ${number-alt: 1} MP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
-  751: 'Magic Burst! ${number-alt: 1} MP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Explosion Magique ! ${number-alt: 1} MP drainé${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
+  751: 'Explosion Magique ! ${number-alt: 1} MP drainé${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}'
   752: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Magic Burst! ${number-alt: 1} TP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
-  753: 'Magic Burst! ${number-alt: 1} TP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}'
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Explosion Magique ! ${number-alt: 1} TP drainé${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
+  753: 'Explosion Magique ! ${number-alt: 1} TP drainé${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}'
   754: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Magic Burst! ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] ${status-effect-adjective: 1[2]}.${prompt}
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Explosion Magique ! ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[est/sont] ${status-effect-adjective: 1[2]}.${prompt}
   755: |-
-    ${unknown-84: 0}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Magic Burst! ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${status-effect-noun: 1[2]}.${prompt}
-  756: '${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] spikes cause ${choice-definite-entity: 1}[the /]${entity-target} to fall to the ground.${prompt}'
-  757: '${number-alt: 1} of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[''s/''] effects disappear${choice-plurality-number: 1}[s/]!${prompt}'
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Explosion Magique ! ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de ${status-effect-noun: 1[2]}.${prompt}
+  756: '${choice-definite-entity: 1}[Les /Les /]${entity-target}${choice-plurality-entity: 1}[s de/ de] piquants font tomber ${choice-definite-entity: 1}[le /la /]${entity-target} au sol.${prompt}'
+  757: '${number-alt: 1} des effets de ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[s de/de] disparaissent${choice-plurality-number: 1}[/ent] !${prompt}'
   758: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${article} ${item-article-alt: 0[2]}.
-    →Obtained key item: ${keyitem: 1[2]}.${prompt}
-  759: 'You already have key item: ${keyitem: 1[2]}.${prompt}'
-  760: '${color-alt: 123}You are only able to possess one ${item-singular-alt: 0[2]} and thus are unable to receive your just reward. Clear out your inventory and receive the item from the Records of Eminence Menu.${prompt}'
-  761: '${color-alt: 123}You were unable to receive your just reward because you need ${number-alt: 0} free space${choice-plurality-number: 0}[/s] in your inventory. Clear out your bags and receive your item${choice-plurality-number: 0}[/s] from the Records of Eminence Menu.${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${article} ${item-article-alt: 0[2]}.
+    →Obtenu objet clé : ${keyitem: 1[2]}.${prompt}
+  759: 'Vous avez déjà l''objet clé : ${keyitem: 1[2]}.${prompt}'
+  760: '${color-alt: 123}Vous ne pouvez posséder qu''un seul ${item-singular-alt: 0[2]} et ne pouvez donc pas recevoir votre juste récompense. Libérez de l''espace dans votre inventaire et recevez l''objet depuis le menu Records of Eminence.${prompt}'
+  761: '${color-alt: 123}Vous n''avez pas pu recevoir votre juste récompense car vous avez besoin de ${number-alt: 0} espace${choice-plurality-number: 0}[/s] libre${choice-plurality-number: 0}[/s] dans votre inventaire. Libérez de l''espace dans vos sacs et recevez votre/vos objet${choice-plurality-number: 0}[/s] depuis le menu Records of Eminence.${prompt}'
   762: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${unknown-84: 0}All of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] status parameters are boosted.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${unknown-84: 0}Tous les paramètres d'état de ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[s de/de] sont améliorés.${prompt}
   763: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[ has/s have] grown noticeably bored.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[ a/ont] visiblement ennuyé${choice-plurality-entity: 1}[/s].${prompt}
   764: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[ feels/s feel] the Fever!${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[ ressent/ressentent] la Fièvre !${prompt}
   765: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${article} ${item-article-alt: 0[2]}.
-    ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[ obtains/s obtained] ${number-alt: 1} escha silt.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${article} ${item-article-alt: 0[2]}.
+    ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[ obtient/obtiennent] ${number-alt: 1} sable d'escha.${prompt}
   766: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${article} ${item-article-alt: 0[2]}.
-    ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}[ obtains/s obtained] ${number-alt: 1} escha bead${choice-plurality-number: 1}[/s].${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${article} ${item-article-alt: 0[2]}.
+    ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[ obtient/obtiennent] ${number-alt: 1} perle${choice-plurality-number: 1}[/s] d'escha.${prompt}
   767: |-
-    Skillchain: Radiance.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 2} point${choice-plurality-number: 2}[/s] of damage.${prompt}
+    Chaîne de compétences : Radiance.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 2} point${choice-plurality-number: 2}[/s] de dégâts.${prompt}
   768: |-
-    Skillchain: Umbra.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 2} point${choice-plurality-number: 2}[/s] of damage.${prompt}
+    Chaîne de compétences : Ombre.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 2} point${choice-plurality-number: 2}[/s] de dégâts.${prompt}
   769: |-
-    Skillchain: Radiance.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[recovers/recover] ${number-alt: 2} hit point${choice-plurality-number: 2}[/s]!${prompt}
+    Chaîne de compétences : Radiance.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[récupère/récupèrent] ${number-alt: 2} point${choice-plurality-number: 2}[/s] de vie !${prompt}
   770: |-
-    Skillchain: Umbra.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[recovers/recover] ${number-alt: 2} hit point${choice-plurality-number: 2}[/s]!${prompt}
-  771: Congratulations! Your deeds of valor will ring throughout the ages, providing inspiration for generations to come.${prompt}
-  772: '${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[stands/stand] resolute thanks to the power of the bonds that tie you!${prompt}'
-  773: 'You are unable to call forth your mount because your main job level is not at least ${number-alt: 0}.${prompt}'
-  774: '${color-alt: 121}You already possess that item and are unable to receive your just reward!${prompt}'
-  775: A new objective has been added in the Contents > Content (Ambuscade) Records of Eminence category!${prompt}
-  776: 'Additional effect:${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[is/are] chainbound.${prompt}'
-  777: You cannot mount at this time.${prompt}
+    Chaîne de compétences : Ombre.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[récupère/récupèrent] ${number-alt: 2} point${choice-plurality-number: 2}[/s] de vie !${prompt}
+  771: Félicitations ! Vos actes de bravoure résonneront à travers les âges, inspirant les générations à venir.${prompt}
+  772: '${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[reste/restent] résolu${choice-plurality-entity: 1}[/e/s/es] grâce au pouvoir des liens qui vous unissent !${prompt}'
+  773: 'Vous ne pouvez pas appeler votre monture car votre niveau de job principal n''est pas d''au moins ${number-alt: 0}.${prompt}'
+  774: '${color-alt: 121}Vous possédez déjà cet objet et ne pouvez pas recevoir votre juste récompense !${prompt}'
+  775: Un nouvel objectif a été ajouté dans la catégorie Records of Eminence > Contenu (Embuscade) !${prompt}
+  776: 'Effet supplémentaire : ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[est/sont] enchaîné${choice-plurality-entity: 1}[/e/s/es].${prompt}'
+  777: Vous ne pouvez pas monter en ce moment.${prompt}
   778: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${skill-alt: 0}.
-    ${choice-definite-entity: 0}[The /]${entity-source} copies ${number-alt: 1} magical effect${choice-plurality-number: 1}[/s] from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${skill-alt: 0}.
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} copie ${number-alt: 1} effet${choice-plurality-number: 1}[/s] magique${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
   779: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${skill-alt: 0}.
-    A barrier begins to pulsate around ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${skill-alt: 0}.
+    Une barrière commence à pulser autour de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
   780: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} uses ${skill-alt: 0}.
-    ${choice-definite-entity: 0}[The /]${entity-source} takes aim at ${choice-definite-entity: 1}[the /]${entity-target}!${prompt}
-  781: '${choice-definite-entity: 1}[The /]${entity-target} retaliates, absorbing ${number-alt: 3} TP from ${choice-definite-entity: 0}[the /]${entity-source}.${prompt}'
-  782: 'The bonus condition for increasing the Craftsmanship has changed to ${augment: 0[2]}!${prompt}'
-  783: The Craftsmanship bonus conditions have disappeared!${prompt}
-  784: 'Craftsmanship has increased by ${number-alt: 0}.${number-alt: 1}%!${prompt}'
-  785: 'Craftsmanship has increased by ${number-alt: 0}.0${number-alt: 1}%!${prompt}'
-  786: 'Craftsmanship has increased to ${number-alt: 1}%!${prompt}'
-  787: '${choice-definite-entity: 1}[The /]${entity-target} has had the fun sucked out of them!${prompt}'
-  788: '${choice-definite-entity: 1}[The /]${entity-target} no longer recalls what fun is...${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} utilise ${skill-alt: 0}.
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} vise ${choice-definite-entity: 1}[le /la /]${entity-target} !${prompt}
+  781: '${choice-definite-entity: 1}[Le /La /]${entity-target} riposte, absorbant ${number-alt: 3} TP de ${choice-definite-entity: 0}[le /la /]${entity-source}.${prompt}'
+  782: 'La condition de bonus pour augmenter l''Artisanat a changé en ${augment: 0[2]} !${prompt}'
+  783: Les conditions de bonus d'Artisanat ont disparu !${prompt}
+  784: 'L''Artisanat a augmenté de ${number-alt: 0}.${number-alt: 1}% !${prompt}'
+  785: 'L''Artisanat a augmenté de ${number-alt: 0}.0${number-alt: 1}% !${prompt}'
+  786: 'L''Artisanat a augmenté à ${number-alt: 1}% !${prompt}'
+  787: '${choice-definite-entity: 1}[Le /La /]${entity-target} a perdu tout son plaisir !${prompt}'
+  788: '${choice-definite-entity: 1}[Le /La /]${entity-target} ne se souvient plus ce qu''est le plaisir...${prompt}'
   789: 'dmgfix(${number-alt: 0})${prompt}'
-  790: 'The ${item-singular-alt: 0[2]} contains ${gil: 1}.${prompt}'
+  790: 'Le ${item-singular-alt: 0[2]} contient ${gil: 1}.${prompt}'
   791: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] ${number-alt: 1} mote${choice-plurality-number: 1}[/s] of paradise.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] ${number-alt: 1} mot${choice-plurality-number: 1}[/s] de paradis.${prompt}
   792: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${spell-alt: 0}.
-    ${number-alt: 1} of ${choice-definite-entity: 1}[the /]${entity-target}${choice-plurality-entity: 1}['s/'] effects disappear${choice-plurality-number: 1}[s/]!${prompt}
-  793: 'You find ${number-alt: 2} ${item-singular-alt: 1[2]}.${prompt}'
-  794: 'You find ${number-alt: 2} ${item-plural-alt: 1[2]}.${prompt}'
-  795: '${color-alt: 121}You receive ${number-alt: 0} deeds of heroism, for a total of ${number-alt: 1}!${prompt}'
-  796: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] potpourri for a total of ${number-alt: 0}!${prompt}'
-  797: '${color-alt: 121}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[attains/attain] level ${number-alt: 0}!${prompt}'
-  798: '${choice-definite-entity: 0}[The /]${entity-source}''s ${ability: 0} overload chance is ${number-alt: 1}%.${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${spell-alt: 0}.
+    ${number-alt: 1} des effets de ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[s de/de] disparaissent${choice-plurality-number: 1}[/ent] !${prompt}
+  793: 'Vous trouvez ${number-alt: 2} ${item-singular-alt: 1[2]}.${prompt}'
+  794: 'Vous trouvez ${number-alt: 2} ${item-plural-alt: 1[2]}.${prompt}'
+  795: '${color-alt: 121}Vous recevez ${number-alt: 0} acte${choice-plurality-number: 0}[/s] d''héroïsme, pour un total de ${number-alt: 1} !${prompt}'
+  796: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] du potpourri pour un total de ${number-alt: 0} !${prompt}'
+  797: '${color-alt: 121}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[atteint/atteignent] le niveau ${number-alt: 0} !${prompt}'
+  798: 'La chance de surcharge de ${ability: 0} de ${choice-definite-entity: 0}[le /la /]${entity-source} est de ${number-alt: 1}%.${prompt}'
   799: |-
-    ${choice-definite-entity: 0}[The /]${entity-source}'s ${ability: 0} overload chance is ${number-alt: 1}%.
-    ${choice-definite-entity: 0}[The /]${entity-source} is overloaded!${prompt}
-  800: '${status-effect-noun: 0[2]} activates. ${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[takes/take] ${number-alt: 1} point${choice-plurality-number: 1}[/s] of damage.${prompt}'
-  801: 'You cannot use the ${item-singular-alt: 0[2]} until the ${status-effect-noun: 1[2]} effect expires.${prompt}'
+    La chance de surcharge de ${ability: 0} de ${choice-definite-entity: 0}[le /la /]${entity-source} est de ${number-alt: 1}%.
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} est en surcharge !${prompt}
+  800: '${status-effect-noun: 0[2]} s''active. ${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] de dégâts.${prompt}'
+  801: 'Vous ne pouvez pas utiliser le ${item-singular-alt: 0[2]} jusqu''à ce que l''effet ${status-effect-noun: 1[2]} expire.${prompt}'
   802: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    ${number-alt: 1} HP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${ability: 0}.
+    ${number-alt: 1} HP drainé${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
   803: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Magic Burst! ${number-alt: 1} HP drained from ${choice-definite-entity: 1}[the /]${entity-target}.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${ability: 0}.
+    Explosion Magique ! ${number-alt: 1} HP drainé${choice-plurality-number: 1}[/s] de ${choice-definite-entity: 1}[le /la /]${entity-target}.${prompt}
   804: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${ability: 0}.
-    Magic Burst! ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target} ${choice-plurality-entity: 1}[receives/receive] the effect of ${status-effect-noun: 1[2]}.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${ability: 0}.
+    Explosion Magique ! ${unknown-84: 0}${choice-definite-entity: 1}[Le /La /]${entity-target} ${choice-plurality-entity: 1}[reçoit/reçoivent] l'effet de ${status-effect-noun: 1[2]}.${prompt}
   805: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] ${status-effect-noun: 1[2]} effect disappears!${prompt}
-  806: '${unknown-84: 0}${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] ${status-effect-noun: 1[2]} effect disappears!${prompt}'
-  807: '${choice-definite-entity: 1}[The /]${entity-target} receive${choice-plurality-entity: 1}[s/] ${number-alt: 1} job point${choice-plurality-number: 1}[/s].${prompt}'
-  808: '${choice-definite-entity: 1}[The /]${entity-target} was unable to use that because they cannot hold any more.${prompt}'
-  809: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} exemplar point${choice-plurality-number: 0}[/s].${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le /La /]${entity-target}${choice-plurality-entity: 1}[s de/de] voit l'effet ${status-effect-noun: 1[2]} disparaître !${prompt}
+  806: '${unknown-84: 0}${choice-definite-entity: 1}[Le /La /]${entity-target}${choice-plurality-entity: 1}[s de/de] voit l''effet ${status-effect-noun: 1[2]} disparaître !${prompt}'
+  807: '${choice-definite-entity: 1}[Le /La /]${entity-target} reçoit ${number-alt: 1} point${choice-plurality-number: 1}[/s] de job.${prompt}'
+  808: '${choice-definite-entity: 1}[Le /La /]${entity-target} n''a pas pu utiliser cela car il/elle ne peut plus en contenir.${prompt}'
+  809: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] exemplaire.${prompt}'
   810: |-
-    Master chain #${number-alt: 1}!
-    ${color-alt: 121}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} exemplar point${choice-plurality-number: 0}[/s].${prompt}
-  811: '${color-alt: 121}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[attains/attain] master level ${number-alt: 0}!${prompt}'
-  812: 'Master Level: ${number-alt: 0} (${number-alt: 1} experience)${prompt}'
-  813: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[falls/fall] to master level ${number-alt: 0}.${prompt}'
+    Chaîne maître #${number-alt: 1} !
+    ${color-alt: 121}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] exemplaire.${prompt}
+  811: '${color-alt: 121}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[atteint/atteignent] le niveau maître ${number-alt: 0} !${prompt}'
+  812: 'Niveau Maître : ${number-alt: 0} (${number-alt: 1} expérience)${prompt}'
+  813: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[descend/descendent] au niveau maître ${number-alt: 0}.${prompt}'
   814: |-
-    Level Sync activated. Your master level has been restricted to ${number-alt: 1}.
-    Experience points will become unavailable for all party members should the Level Sync designee stray too far from the enemy.${prompt}
+    Synchronisation de niveau activée. Votre niveau maître a été limité à ${number-alt: 1}.
+    Les points d'expérience deviendront indisponibles pour tous les membres du groupe si le détenteur de la synchronisation de niveau s'éloigne trop de l'ennemi.${prompt}
   815: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} is knocked back far into the distance!${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} est projeté${choice-plurality-entity: 1}[/e] loin dans la distance !${prompt}
   816: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} will expire in ${number-alt: 1}.${prompt}
-  817: '${choice-definite-entity: 1}[The /]${entity-target} will expire in ${number-alt: 1}.${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} expirera dans ${number-alt: 1}.${prompt}
+  817: '${choice-definite-entity: 1}[Le /La /]${entity-target} expirera dans ${number-alt: 1}.${prompt}'
   818: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    Countdown complete. ${choice-definite-entity: 1}[The /]${entity-target} expires.${prompt}
-  819: 'Countdown complete. ${choice-definite-entity: 1}[The /]${entity-target} expires.${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Compte à rebours terminé. ${choice-definite-entity: 1}[Le /La /]${entity-target} expire.${prompt}
+  819: 'Compte à rebours terminé. ${choice-definite-entity: 1}[Le /La /]${entity-target} expire.${prompt}'
   820: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} sacrifices themselves to protect the bearer of the Prime Weapon.${prompt}
-  821: '${choice-definite-entity: 1}[The /]${entity-target} sacrifices themselves to protect the bearer of the Prime Weapon.${prompt}'
-  822: '${color-alt: 121}${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 1} exemplar point${choice-plurality-number: 1}[/s].${prompt}'
-  823: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} plaudit${choice-plurality-number: 0}[/s].${prompt}'
-  824: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} moogle segment${choice-plurality-number: 0}[/s].${prompt}'
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} se sacrifie pour protéger le porteur de l'Arme Primordiale.${prompt}
+  821: '${choice-definite-entity: 1}[Le /La /]${entity-target} se sacrifie pour protéger le porteur de l''Arme Primordiale.${prompt}'
+  822: '${color-alt: 121}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] exemplaire.${prompt}'
+  823: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} plaudit${choice-plurality-number: 0}[/s].${prompt}'
+  824: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} segment${choice-plurality-number: 0}[/s] de mog.${prompt}'
   825: ${prompt}
   826: ${prompt}
   827: ${prompt}
@@ -1615,10 +1615,10 @@ entries:
   1018: ${prompt}
   1019: ${prompt}
   1020: ${prompt}
-  1021: '${color-alt: 121}Flower-viewing time!${prompt}'
+  1021: '${color-alt: 121}Temps de contemplation des fleurs !${prompt}'
   1022: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target} is ready for flower viewing!${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    ${choice-definite-entity: 1}[Le /La /]${entity-target} est prêt${choice-plurality-entity: 1}[/e] pour la contemplation des fleurs !${prompt}
   1023: |-
-    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/use] ${skill-alt: 0}.
-    ${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}['s/'] attacks and defenses are enhanced.${prompt}
+    ${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] ${skill-alt: 0}.
+    Les attaques et défenses de ${choice-definite-entity: 1}[le /la /]${entity-target}${choice-plurality-entity: 1}[s de/de] sont améliorées.${prompt}
