@@ -18279,17 +18279,17 @@ entries:
   7531: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
   7532: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
   7533: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
-  7534: 'Currently, ${number: 3} members of your party (including yourself) have clearance to enter the battlefield.${prompt}'
-  7535: 'Currently, ${number: 3} members of your alliance (including yourself) have clearance to enter the battlefield.${prompt}'
-  7536: Only ${name-player} can enter the battlefield.${prompt}
-  7537: 'The time limit for this battle is ${number: 3} minutes.${prompt}'
-  7538: 'There is a crack in the ${item-singular: 3[2]}. It no longer contains a monster.${prompt}'
-  7539: 'A crack has formed on the ${item-singular: 3[2]}, and the beast inside has been unleashed!${prompt}'
-  7540: 'Boss mode : ${number: 6}!!${wait-animation: 1}${prompt}'
+  7534: 'Actuellement, ${number: 3} membres de votre groupe (y compris vous) ont l''autorisation d''entrer sur le champ de bataille.${prompt}'
+  7535: 'Actuellement, ${number: 3} membres de votre alliance (y compris vous) ont l''autorisation d''entrer sur le champ de bataille.${prompt}'
+  7536: Seul ${name-player} peut entrer sur le champ de bataille.${prompt}
+  7537: 'La limite de temps pour cette bataille est de ${number: 3} minutes.${prompt}'
+  7538: 'Il y a une fissure dans le ${item-singular: 3[2]}. Il ne contient plus de monstre.${prompt}'
+  7539: 'Une fissure s''est formée sur le ${item-singular: 3[2]}, et la bête à l''intérieur a été libérée !${prompt}'
+  7540: 'Mode boss : ${number: 6}!!${wait-animation: 1}${prompt}'
   7541: |-
-    Room number to attempt: ${number: 0}.
-    Desired boss mode: ${number: 1}.
-    Difficulty: ${number: 2} (${choice: 2}[Not set/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}
+    Numéro de la salle à tenter : ${number: 0}.
+    Mode boss désiré : ${number: 1}.
+    Difficulté : ${number: 2} (${choice: 2}[Non défini/Très difficile/Difficile/Normal/Facile/Très facile].${prompt}
   7542: '${number: 7}${prompt}'
   7543: DEBUG1${prompt}
   7544: |-
@@ -18331,271 +18331,271 @@ entries:
   7560: 'CLI_NUM6 = ${number: 6}${wait-animation: 1}${prompt}'
   7561: 'CLI_NUM7 = ${number: 6}${wait-animation: 1}${prompt}'
   7562: |-
-    Skip the event?
+    Sauter l'événement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7563: 'Battlefield clear time: ${number: 3} second${choice-plurality: 3}[/s]!'
-  7564: 'Battlefield clear time: ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} second${choice-plurality: 2}[/s]!'
-  7565: 'The current battlefield clear time record is ${number: 3} second${choice-plurality: 3}[/s].'
-  7566: 'The current battlefield clear time record is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
+    Oui.
+    Non.${prompt}
+  7563: 'Temps de clairance du champ de bataille : ${number: 3} seconde${choice-plurality: 3}[/s] !'
+  7564: 'Temps de clairance du champ de bataille : ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} seconde${choice-plurality: 2}[/s] !'
+  7565: 'Le record actuel de temps de clairance du champ de bataille est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7566: 'Le record actuel de temps de clairance du champ de bataille est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
   7567: |-
-    Called the NPC!
-    PC ID = ${number: 0}!
-    RESULT = ${number: 1}!${prompt}
+    PNJ appelé !
+    ID PC = ${number: 0} !
+    RÉSULTAT = ${number: 1} !${prompt}
   7568: |-
-    Got rid of the NPC!
-    PC ID = ${number: 0}!${prompt}
-  7569: The NPC has fallen, and he can't get up! Leaving room A!${prompt}
-  7570: The NPC has fallen, and he can't get up! Leaving room B!${prompt}
-  7571: The NPC has fallen, and he can't get up! Leaving room C!${prompt}
-  7572: The NPC has fallen, and he can't get up! Leaving room D!${prompt}
-  7573: All party members have fallen in battle. Now leaving the battlefield.${prompt}
+    PNJ éliminé !
+    ID PC = ${number: 0} !${prompt}
+  7569: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle A !${prompt}
+  7570: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle B !${prompt}
+  7571: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle C !${prompt}
+  7572: Le PNJ est tombé et ne peut plus se relever ! Quitte la salle D !${prompt}
+  7573: Tous les membres du groupe sont tombés au combat. Quitte maintenant le champ de bataille.${prompt}
   7574: |-
-    Everybody's fallen in room A, and they can't get up!
-    Leaving room A!${prompt}
+    Tout le monde est tombé dans la salle A et ne peut plus se relever !
+    Quitte la salle A !${prompt}
   7575: |-
-    Everybody's fallen in room B, and they can't get up!
-    Leaving room B!${prompt}
+    Tout le monde est tombé dans la salle B et ne peut plus se relever !
+    Quitte la salle B !${prompt}
   7576: |-
-    Everybody's fallen in room C, and they can't get up!
-    Leaving room C!${prompt}
+    Tout le monde est tombé dans la salle C et ne peut plus se relever !
+    Quitte la salle C !${prompt}
   7577: |-
-    Everybody's fallen in room D, and they can't get up!
-    Leaving room D!${prompt}
+    Tout le monde est tombé dans la salle D et ne peut plus se relever !
+    Quitte la salle D !${prompt}
   7578: |-
-    Everybody's fallen in room E, and they can't get up!
-    Leaving room E!${prompt}${prompt}
-  7579: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s], the party will be removed from the battlefield.${prompt}'
-  7580: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s], the party will be removed from the battlefield.${prompt}'
-  7581: What the hell is that number!? It's not possible!!!${prompt}
-  7582: 'Only ${number: 3} ${choice-plurality: 3}[member/members] have clearance to enter the battlefield. This room has reached its maximum capacity.${prompt}'
-  7583: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
-  7584: You do not meet the requirements to enter the battlefield with your party members. Access is denied.${prompt}
-  7585: The Shimmering Circle you are trying to enter differs from the one your party members have entered. Access is denied.${prompt}
-  7586: 'That record is held by ${number: 5} adventurers, including ${entity: 0}!'
-  7587: 'That record is held by ${entity: 0}!'
+    Tout le monde est tombé dans la salle E et ne peut plus se relever !
+    Quitte la salle E !${prompt}${prompt}
+  7579: 'Si les PV de tous les membres du groupe sont toujours à zéro après ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s], le groupe sera retiré du champ de bataille.${prompt}'
+  7580: 'Si les PV de tous les membres du groupe sont toujours à zéro après ${number: 3} minute${choice-plurality: 3}[/s], le groupe sera retiré du champ de bataille.${prompt}'
+  7581: Quel est ce nombre !? C'est impossible !!!${prompt}
+  7582: 'Seuls ${number: 3} ${choice-plurality: 3}[membre/membres] ont l''autorisation d''entrer sur le champ de bataille. Cette salle a atteint sa capacité maximale.${prompt}'
+  7583: 'Vous êtes maintenant capable d''invoquer ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
+  7584: Vous ne remplissez pas les conditions pour entrer sur le champ de bataille avec les membres de votre groupe. L'accès est refusé.${prompt}
+  7585: Le Cercle Scintillant que vous essayez d'entrer diffère de celui que vos membres de groupe ont déjà rejoint. L'accès est refusé.${prompt}
+  7586: 'Ce record est détenu par ${number: 5} aventuriers, dont ${entity: 0} !'
+  7587: 'Ce record est détenu par ${entity: 0} !'
   7588: |-
-    Select difficulty.
+    Sélectionnez la difficulté.
     ${selection-lines}
-    Very difficult. (Level: ???)
-    Difficult. (Level: ???)
-    Normal. (Level: ${number: 18})
-    Easy. (Level: ${number: 17})
-    Very Easy. (Level: ${number: 16})
-    Leave.${prompt}
-  7589: 'Current difficulty level: ${choice: 2}[Normal/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}'
-  7590: 'A malignant force escapes from your ${item-singular: 3[2]}.${prompt}'
-  7591: 'You are unable to enter the battlefield because ${choice: 0}[one or more of your party members does not have the job master designation/you do not have the job master designation].${prompt}'
-  7592: 'Your ${item-singular: 3[2]} is calling out to something...${prompt}'
-  7593: 'The ${item-singular: 0[2]} has a large crack running straight down the side.${prompt}'
-  7594: 'Something awakens owing to the presence of the ${item-singular: 3[2]}...${prompt}'
-  7595: 'The oath has been fulfilled owing to the power of your ${item-singular: 3[2]}.${prompt}'
-  7596: It seems impassable for now.${prompt}
-  7597: 'You have broken the clear time record for “${choice: 5}[The Shadow Lord Battle/Where Two Paths Converge/Kindred Spirits/Survival of the Wisest/Smash! A Malevolent Menace/★Kindred Spirits/★The Shadow Lord Battle/True Love/A Fond Farewell/Kipdrix the Faithful]”!'
-  7598: 'The current battlefield clear time record for “${choice: 1}[The Shadow Lord Battle/Where Two Paths Converge/Kindred Spirits/Survival of the Wisest/Smash! A Malevolent Menace/★Kindred Spirits/★The Shadow Lord Battle/True Love/A Fond Farewell/Kipdrix the Faithful]” is ${number: 3} second${choice-plurality: 3}[/s].'
-  7599: 'The current battlefield clear time record for “${choice: 1}[The Shadow Lord Battle/Where Two Paths Converge/Kindred Spirits/Survival of the Wisest/Smash! A Malevolent Menace/★Kindred Spirits/★The Shadow Lord Battle/True Love/A Fond Farewell/Kipdrix the Faithful]” is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
-  7600: 'Entering the battlefield for “${choice: 1}[The Shadow Lord Battle/Where Two Paths Converge/Kindred Spirits/Survival of the Wisest/Smash! A Malevolent Menace/★Kindred Spirits/★The Shadow Lord Battle/True Love/A Fond Farewell/Kipdrix the Faithful]”!'
+    Très difficile. (Niveau : ???)
+    Difficile. (Niveau : ???)
+    Normal. (Niveau : ${number: 18})
+    Facile. (Niveau : ${number: 17})
+    Très facile. (Niveau : ${number: 16})
+    Quitter.${prompt}
+  7589: 'Niveau de difficulté actuel : ${choice: 2}[Normal/Très difficile/Difficile/Normal/Facile/Très facile].${prompt}'
+  7590: 'Une force maléfique s''échappe de votre ${item-singular: 3[2]}.${prompt}'
+  7591: 'Vous ne pouvez pas entrer sur le champ de bataille parce que ${choice: 0}[un ou plusieurs membres de votre groupe n''ont pas la désignation de maître d''emploi/vous n''avez pas la désignation de maître d''emploi].${prompt}'
+  7592: 'Votre ${item-singular: 3[2]} appelle quelque chose...${prompt}'
+  7593: 'Le ${item-singular: 0[2]} présente une grande fissure qui court de haut en bas.${prompt}'
+  7594: 'Quelque chose s''éveille grâce à la présence du ${item-singular: 3[2]}...${prompt}'
+  7595: 'Le serment a été accompli grâce au pouvoir de votre ${item-singular: 3[2]}.${prompt}'
+  7596: Cela semble impraticable pour le moment.${prompt}
+  7597: 'Vous avez battu le record de temps pour “${choice: 5}[La Bataille du Seigneur des Ombres/Où Deux Chemins se Convergent/Esprits Similaires/La Survie des Plus Sages/Écrasez ! Une Menace Malveillante/★Esprits Similaires/★La Bataille du Seigneur des Ombres/Amour Vrai/Adieux Tendres/Kipdrix le Fidèle]” !'
+  7598: 'Le record actuel de temps de clairance pour “${choice: 1}[La Bataille du Seigneur des Ombres/Où Deux Chemins se Convergent/Esprits Similaires/La Survie des Plus Sages/Écrasez ! Une Menace Malveillante/★Esprits Similaires/★La Bataille du Seigneur des Ombres/Amour Vrai/Adieux Tendres/Kipdrix le Fidèle]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7599: 'Le record actuel de temps de clairance pour “${choice: 1}[La Bataille du Seigneur des Ombres/Où Deux Chemins se Convergent/Esprits Similaires/La Survie des Plus Sages/Écrasez ! Une Menace Malveillante/★Esprits Similaires/★La Bataille du Seigneur des Ombres/Amour Vrai/Adieux Tendres/Kipdrix le Fidèle]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
+  7600: 'Entrée sur le champ de bataille pour “${choice: 1}[La Bataille du Seigneur des Ombres/Où Deux Chemins se Convergent/Esprits Similaires/La Survie des Plus Sages/Écrasez ! Une Menace Malveillante/★Esprits Similaires/★La Bataille du Seigneur des Ombres/Amour Vrai/Adieux Tendres/Kipdrix le Fidèle]” !'
   7601: |-
-    Which battlefield will you enter?
+    Quel champ de bataille allez-vous entrer ?
     ${selection-lines}
-    None.
-    The Shadow Lord Battle.
-    Where Two Paths Converge.
-    Kindred Spirits.
-    Survival of the Wisest.
-    Smash! A Malevolent Menace.
-    ★Kindred Spirits.
-    ★The Shadow Lord Battle.
-    True Love.
-    A Fond Farewell.
-    Kipdrix the Faithful.
+    Aucun.
+    La Bataille du Seigneur des Ombres.
+    Où Deux Chemins se Convergent.
+    Esprits Similaires.
+    La Survie des Plus Sages.
+    Écrasez ! Une Menace Malveillante.
+    ★Esprits Similaires.
+    ★La Bataille du Seigneur des Ombres.
+    Amour Vrai.
+    Adieux Tendres.
+    Kipdrix le Fidèle.
     ${prompt}
-  7602: The door is sealed.${prompt}
+  7602: La porte est scellée.${prompt}
   7603: |-
     Boss A ${selection-lines}
-     B, transform!!!${prompt}
-  7604: Press button to continue.${prompt}
+     B, transforme-toi !!!!${prompt}
+  7604: Appuyez sur le bouton pour continuer.${prompt}
   7605: |-
-    Boss room debug. (battle only)
+    Débogage de la salle du boss. (combat uniquement)
     ${selection-lines}
-    do nothing
-    unlock boss room.${prompt}
-  7606: Unlocked boss room.${prompt}
-  7607: ZoneChange:d_zva01${prompt}
+    Ne rien faire
+    Déverrouiller la salle du boss.${prompt}
+  7606: Salle du boss déverrouillée.${prompt}
+  7607: Changement de Zone:d_zva01${prompt}
   7608: |-
-    ★Event Skip Menu
+    ★Menu de Saut d'Événement
     ${selection-lines}
-    Don't skip!
-    Skip! Skip!${prompt}
-  7609: Could this be...${prompt}
-  7610: Yes, it is the tomb of the Shadow Lord!${prompt}
+    Ne pas sauter !
+    Sauter ! Sauter !${prompt}
+  7609: Cela pourrait-il être...${prompt}
+  7610: Oui, c'est le tombeau du Seigneur des Ombres !${prompt}
   7611: |-
-    Ah, the dark knight...
-    It's been twenty years since we last met, Zeid.${prompt}
-  7612: No! How is this possible? I defeated you!${prompt}
-  7613: I cannot die. Not until I have eradicated you and your kind from this world.${prompt}
-  7614: So it is true... I suspected as much since we last met. You are a Galka!${prompt}
-  7615: Thirty years ago, I was in a group that came to this cursed land, seeking to uncover the secrets of a lost civilization.${prompt}
-  7616: And it is here that I fell, betrayed by one I trusted with my life.${prompt}
-  7617: My friend Ulrich could not abide the fact that I was the best swordsman of the Mythril Musketeers. That I was advocating peace with the beastmen at the time was not to his liking, either.${prompt}
-  7618: Cornelia died protecting me...${prompt}
-  7619: But I came back. Not even death could keep me from exacting revenge on those who wronged me.${prompt}
-  7620: A power hidden deep beneath the earth gave me a new form and granted me control over the nether beasts.${prompt}
-  7621: It was then that I became aware--that I was made aware--of the dark anger smoldering deep within my soul.${prompt}
-  7622: 'I realized it was not revenge that drove me, but the old, undying anger of our race: the wrath of the Galka!${prompt}'
+    Ah, le chevalier noir...
+    Cela fait vingt ans que nous nous sommes vus, Zeid.${prompt}
+  7612: Non ! Comment est-ce possible ? Je vous ai vaincu !${prompt}
+  7613: Je ne peux pas mourir. Pas avant d'avoir éradiqué vous et votre espèce de ce monde.${prompt}
+  7614: Donc c'est vrai... Je le soupçonnais depuis notre dernière rencontre. Vous êtes un Galka !${prompt}
+  7615: Il y a trente ans, je faisais partie d'un groupe venu dans cette terre maudite, cherchant à découvrir les secrets d'une civilisation perdue.${prompt}
+  7616: Et c'est ici que je suis tombé, trahi par quelqu'un en qui j'avais confiance pour ma vie.${prompt}
+  7617: Mon ami Ulrich ne pouvait pas supporter le fait que j'étais le meilleur épéiste des Mousquetaires de Mythril. Le fait que je prônais la paix avec les hommes-bêtes à l'époque ne lui plaisait pas non plus.${prompt}
+  7618: Cornelia est morte en me protégeant...${prompt}
+  7619: Mais je suis revenu. Même la mort ne pouvait m'empêcher de me venger de ceux qui m'ont fait du tort.${prompt}
+  7620: Un pouvoir caché profondément sous terre m'a donné une nouvelle forme et m'a accordé le contrôle sur les bêtes des ténèbres.${prompt}
+  7621: C'est alors que je suis devenu conscient -- que j'ai pris conscience -- de la colère noire qui couvait au fond de mon âme.${prompt}
+  7622: 'J''ai réalisé que ce n''était pas la vengeance qui me motivait, mais la vieille colère indestructible de notre race: la colère des Galka !${prompt}'
   7623: |-
-    Others cannot fathom the depth of our rage.
-    But I cast myself willingly into its flames, and broke the chains of mortality!${prompt}
-  7624: Your kind awoke the fury within me, and I was reborn into rage incarnate--as the Shadow Lord!${prompt}
-  7625: 'I swore to myself then to purge this world of your kind, and I will not rest until I crush every last one of you!${wait-animation: 4}'
-  7626: 'I underestimated you twenty years ago, but I will not make that mistake again!${wait-animation: 2}'
-  7627: What!? No!${prompt}
-  7628: Stand there and watch, Zeid. Search within for the dark rage, the flame that burns in the souls of all Galka!${prompt}
-  7629: Now...I will cleanse this world of your filth, unless I am first consumed by fury!${prompt}
-  7630: Come, it is the hour of reckoning! Death itself failed to stay my wrath. Let us see if you can do any better!${prompt}
-  7631: No...it is not over yet! I told you, even death cannot stop my revenge!${prompt}
-  7632: I will not fall! I will keep coming back, until the fires of wrath consume me!${prompt}
-  7633: Raogrimm, stop! Listen to me, it is over!${prompt}
-  7634: “Rao...grimm”?${prompt}
-  7635: No, that is not my name! I am... I am the Shadow Lord!${prompt}
-  7636: You are no such thing! Search your memories for your true self! You are Raogrimm, the Galka's greatest swordsman!${prompt}
-  7637: I...${prompt}
-  7638: I am...Rao...Raogrimm!? Aaargh!${prompt}
-  7639: Do you remember?${prompt}
-  7640: Yes... I do now.${prompt}
-  7641: Raogrimm, it is good to have you back. How has all this come to be?${prompt}
-  7642: As you know, I was the Talekeeper of the Galka--the keeper of our race's memories. But there was so much pain, so much anger...${prompt}
-  7643: I let myself become trapped in a dark abyss of swirling rage and madness...${prompt}
+    Les autres ne peuvent pas saisir la profondeur de notre rage.
+    Mais je me suis jeté volontairement dans ses flammes et j'ai brisé les chaînes de la mortalité !${prompt}
+  7624: Votre espèce a éveillé la fureur en moi, et j'ai été réincarné en incarnation de la rage -- comme le Seigneur des Ombres !${prompt}
+  7625: 'Je me suis juré alors d''épurer ce monde de votre espèce, et je ne me reposerai pas tant que je n''aurai pas écrasé le dernier d''entre vous !${wait-animation: 4}'
+  7626: 'Je vous ai sous-estimé il y a vingt ans, mais je ne commettrai pas cette erreur à nouveau !${wait-animation: 2}'
+  7627: Quoi!? Non !${prompt}
+  7628: Restez là et regardez, Zeid. Cherchez en vous la rage obscure, la flamme qui brûle dans les âmes de tous les Galka !${prompt}
+  7629: Maintenant... Je vais purger ce monde de votre souillure, à moins que je ne sois d'abord consumé par la fureur !${prompt}
+  7630: Venez, l'heure du jugement est arrivée ! Même la mort n'a pas pu apaiser ma colère. Voyons si vous pouvez faire mieux !${prompt}
+  7631: Non... ce n'est pas fini ! Je vous l'ai dit, même la mort ne peut pas arrêter ma vengeance !${prompt}
+  7632: Je ne tomberai pas ! Je reviendrai encore et encore, jusqu'à ce que les feux de la colère me consument !${prompt}
+  7633: Raogrimm, arrête ! Écoute-moi, c'est fini !${prompt}
+  7634: '"Rao...grimm"?${prompt}'
+  7635: Non, ce n'est pas mon nom ! Je suis... je suis le Seigneur des Ombres !${prompt}
+  7636: Vous n'êtes pas cela ! Cherchez dans vos souvenirs votre véritable moi ! Vous êtes Raogrimm, le plus grand épéiste des Galka !${prompt}
+  7637: Je...${prompt}
+  7638: Je suis... Rao... Raogrimm!? Aaargh !${prompt}
+  7639: Vous vous souvenez ?${prompt}
+  7640: Oui... je m'en souviens maintenant.${prompt}
+  7641: Raogrimm, c'est bon de vous revoir. Comment tout cela est-il arrivé ?${prompt}
+  7642: Comme vous le savez, j'étais le Gardien de la Parole des Galka -- le gardien des mémoires de notre race. Mais il y avait tant de douleur, tant de colère...${prompt}
+  7643: Je me suis laissé piéger dans un abîme sombre de rage et de folie tourbillonnantes...${prompt}
   7644: Raogrimm...${prompt}
-  7645: People are capable of kindness beyond angels, yet we also commit sins that would put a demon to shame...${prompt}
-  7646: We all stand precariously on the edge between darkness and light... And when we fall, we are greeted by only madness and chaos.${prompt}
-  7647: And so I have fallen...${prompt}
-  7648: There is no salvation for me. The Raogrimm whom you once knew is gone, forever.${prompt}
-  7649: I expect no forgiveness for what I have done, but...${prompt}
-  7650: Come on! This way, hurry!${prompt}
-  7651: My true self died thirty years ago... All that remains is an empty shell...${prompt}
-  7652: Cornelia... Finally, we may meet again...${prompt}
+  7645: Les gens sont capables de bonté au-delà des anges, mais nous commettons aussi des péchés qui feraient honte à un démon...${prompt}
+  7646: Nous sommes tous en équilibre précaire entre l'ombre et la lumière... Et quand nous tombons, nous sommes accueillis par la folie et le chaos.${prompt}
+  7647: Et donc je suis tombé...${prompt}
+  7648: Il n'y a pas de salut pour moi. Le Raogrimm que vous avez connu autrefois est parti, pour toujours.${prompt}
+  7649: Je n'attends aucun pardon pour ce que j'ai fait, mais...${prompt}
+  7650: Allez ! Par ici, dépêchez-vous !${prompt}
+  7651: Mon vrai moi est mort il y a trente ans... Tout ce qui reste est une coquille vide...${prompt}
+  7652: Cornelia... Enfin, nous pourrons nous retrouver...${prompt}
   7653: |-
-    And so the Shadow Lord was defeated,
-    thanks to ${name-player}'s selfless courage and sacrifice.${wait-animation: 6}
+    Et ainsi le Seigneur des Ombres a été vaincu,
+    grâce au courage désintéressé et au sacrifice de ${name-player}.${wait-animation: 6}
   7654: |-
-    Through the clouds shines a symbol of
-    newfound hope for the peoples of Vana'diel.
-    But none should forget that wherever there
-    is light, there is always shadow.${wait-animation: 10}
+    À travers les nuages brille un symbole d'
+    espoir nouveau pour les peuples de Vana'diel.
+    Mais personne ne devrait oublier que là où il y a
+    de la lumière, il y a toujours de l'ombre.${wait-animation: 10}
   7655: |-
-    The legend goes on to say...
-    From the darkest depths of the earth
-    the Warriors of the Crystal rose...${wait-animation: 10}
+    La légende continue en disant...
+    Des profondeurs les plus sombres de la terre,
+    les Guerriers du Cristal se sont levés...${wait-animation: 10}
   7656: |-
-    So...I guess this is goodbye for now.
-    I hear they've started flights to the Outlands. If you ever get your hands on ${keyitem-article: 0[2]}, come see me in Norg sometime.${prompt}
-  7657: I'll be seeing you, ${name-player}. Bye!${prompt}
-  7658: 'I, too, feel that our paths may cross again. Until then, I wish you farewell.${wait-animation: 3}'
-  7659: Hello!${prompt}
-  7660: You're in Castle Zvahl! And deep in it, too!${prompt}
-  7661: So, Volker is not with you...${prompt}
-  7662: No matter how many of the Kindred are slain, the darkness that engulfs Bastok will remain until the past that haunts him is vanquished.${prompt}
+    Alors... Je suppose que c'est un au revoir pour l'instant.
+    J'ai entendu dire qu'ils ont commencé des vols vers les Terres Extérieures. Si vous mettez jamais la main sur ${keyitem-article: 0[2]}, venez me voir à Norg un de ces jours.${prompt}
+  7657: À bientôt, ${name-player}. Au revoir !${prompt}
+  7658: 'Moi aussi, je sens que nos chemins se croiseront à nouveau. En attendant, je vous souhaite adieu.${wait-animation: 3}'
+  7659: Bonjour !${prompt}
+  7660: Vous êtes au Château Zvahl ! Et bien profond dedans, en plus !${prompt}
+  7661: Donc, Volker n'est pas avec vous...${prompt}
+  7662: Peu importe combien de Kindred sont abattus, l'obscurité qui submerge Bastok restera jusqu'à ce que le passé qui le hante soit vaincu.${prompt}
   7663: |-
-    The enemy lies within me.
-    Raogrimm stood up to rid himself of what plagued him. Now it is time for Volker to do the same.${prompt}
+    L'ennemi est en moi.
+    Raogrimm s'est levé pour se débarrasser de ce qui le hantait. Maintenant, c'est au tour de Volker de faire de même.${prompt}
   7664: |-
-    Take up your weapon...
-    I will not let Raogrimm's death be in vain. Where there is light, there is pain for Bastok...${prompt}
-  7665: And now one of us must journey to the dark to wake those that still dwell in the light.${prompt}
-  7666: Let the sound of our blades ring forth to Gustaberg...and to Volker's ears. You need not hold back. I am prepared to face whatever may come.${prompt}
-  7667: Learn from my blade the true meaning of your existence!${prompt}
-  7668: Is this the extent of your power? Why do you hesitate?${prompt}
-  7669: This will not appease...${prompt}
+    Prenez votre arme...
+    Je ne laisserai pas la mort de Raogrimm être vaine. Là où il y a de la lumière, il y a de la douleur pour Bastok...${prompt}
+  7665: Et maintenant, l'un d'entre nous doit voyager dans l'obscurité pour réveiller ceux qui vivent encore dans la lumière.${prompt}
+  7666: Que le son de nos lames résonne jusqu'à Gustaberg... et aux oreilles de Volker. Vous n'avez pas besoin de vous retenir. Je suis prêt à affronter tout ce qui peut venir.${prompt}
+  7667: Apprenez de ma lame le véritable sens de votre existence !${prompt}
+  7668: Est-ce l'étendue de votre pouvoir ? Pourquoi hésitez-vous ?${prompt}
+  7669: Cela n'apaisera pas...${prompt}
   7670: '...!?${prompt}'
   7671: Volker...${prompt}
-  7672: I apologize for making you wait.${prompt}
-  7673: Wait? I've waited twenty years...${prompt}
-  7674: I want some answers, Zeid. Why are you doing this?${prompt}
-  7675: Why do you have to play these games? If you want my position so badly, why don't you just come back to Bastok and take it? It's yours!${prompt}
-  7676: I will answer your question with another. What has brought you here, Volker?${prompt}
-  7677: I...${prompt}
+  7672: Je m'excuse de vous avoir fait attendre.${prompt}
+  7673: Attendre ? J'ai attendu vingt ans...${prompt}
+  7674: Je veux des réponses, Zeid. Pourquoi faites-vous cela ?${prompt}
+  7675: Pourquoi devez-vous jouer à ces jeux ? Si vous voulez tellement ma position, pourquoi ne revenez-vous pas à Bastok pour la prendre ? Elle est à vous !${prompt}
+  7676: Je répondrai à votre question par une autre. Qu'est-ce qui vous amène ici, Volker ?${prompt}
+  7677: Je...${prompt}
   7678: |-
-    How dare you!
-    You vehemently deny that your success has been a result of your uncle's deeds; however, when you learn of the crime he has committed, you are at a loss for words.${prompt}
-  7679: What...?${prompt}
+    Comment osez-vous !
+    Vous niez fermement que votre succès est le résultat des actions de votre oncle ; cependant, quand vous apprenez le crime qu'il a commis, vous restez sans voix.${prompt}
+  7679: Quoi...?${prompt}
   7680: |-
-    Do not mock me!
-    Do you not realize!? You are just another page in the bloody history of the Talekeeper!${prompt}
-  7681: You... How can you know the pain that I feel!?${prompt}
-  7682: And if you cannot find within that pain the answers that you seek, then learn from my blade the true meaning of your pitiful existence!${prompt}
-  7683: If it is our destiny, then so be it...${prompt}
-  7684: From this point, twenty years ago, our lives took different paths... And this is where those paths are to end!${prompt}
+    Ne vous moquez pas de moi !
+    Ne réalisez-vous pas !? Vous n'êtes qu'une autre page dans l'histoire sanglante du Gardien de la Parole !${prompt}
+  7681: Vous... Comment pouvez-vous savoir la douleur que je ressens !?${prompt}
+  7682: Et si vous ne trouvez pas dans cette douleur les réponses que vous cherchez, alors apprenez de ma lame le véritable sens de votre existence pitoyable !${prompt}
+  7683: Si c'est notre destin, alors qu'il en soit ainsi...${prompt}
+  7684: À partir de ce moment, il y a vingt ans, nos vies ont pris des chemins différents... Et c'est ici que ces chemins doivent se terminer !${prompt}
   7685: Ugh...${prompt}
-  7686: Zeid!${prompt}
-  7687: You have become quite...a warrior, Volker.${prompt}
-  7688: It is only because this adventurer was with me. Alone, I could not have defeated you...${prompt}
+  7686: Zeid !${prompt}
+  7687: Vous êtes devenu... un sacré guerrier, Volker.${prompt}
+  7688: C'est uniquement parce que cet aventurier était avec moi. Seul, je n'aurais pas pu vous vaincre...${prompt}
   7689: |-
-    You finally see...
-    You do not need to fight alone. Others will always be there to...${prompt}
+    Vous comprenez enfin...
+    Vous n'avez pas besoin de vous battre seul. D'autres seront toujours là pour...${prompt}
   7690: Zeid...${prompt}
-  7691: Twenty years ago, when my blade met that of the Shadow Lord, I felt his anguish... That anguish forced me into the shadows.${prompt}
-  7692: However, there I did not find what I sought. It was only then that I realized the answer lay in the light.${prompt}
-  7693: While it is my destiny to remain trapped in the darkness of my soul, yours is not. Your place is out in the light. And that is why Bastok is better in your hands than mine.${prompt}
-  7694: What are you saying? Don't you realize how many people out there are waiting for your return?${prompt}
-  7695: They only await my return because they do not have faith in yours. Look behind you, Volker. Look at the worry on their faces. Listen to the story those faces tell.${prompt}
-  7696: Why are you...${prompt}
+  7691: Il y a vingt ans, lorsque ma lame a croisé celle du Seigneur des Ombres, j'ai ressenti son anguish... Cette angoisse m'a forcé dans les ombres.${prompt}
+  7692: Cependant, je n'ai pas trouvé ce que je cherchais là-bas. C'est alors que j'ai réalisé que la réponse résidait dans la lumière.${prompt}
+  7693: Alors que mon destin est de rester piégé dans l'obscurité de mon âme, le vôtre ne l'est pas. Votre place est dans la lumière. Et c'est pourquoi Bastok est mieux entre vos mains que les miennes.${prompt}
+  7694: Que voulez-vous dire ? Ne réalisez-vous pas combien de personnes attendent votre retour ?${prompt}
+  7695: Ils n'attendent mon retour que parce qu'ils n'ont pas confiance en vous. Regardez derrière vous, Volker. Regardez l'inquiétude sur leurs visages. Écoutez l'histoire que ces visages racontent.${prompt}
+  7696: Pourquoi êtes-vous...${prompt}
   7697: |-
-    Captain!
-    It's not fair! Why didn't you tell us you were coming?${prompt}
-  7698: I would have given anything to go a few rounds with the legendary dark knight!${prompt}
-  7699: And you wonder why you are still a doorboy...${prompt}
-  7700: Our purpose is not to merely improve our skills as fighters, but to protect and ensure the happiness of the citizens of the Republic. We bring them hope.${prompt}
-  7701: It is ironic, but it is our duty to create a society where people like Naji are forced to complain about “having nothing to pummel.”${prompt}
-  7702: But if we only had something to pummel...${prompt}
+    Capitaine !
+    Ce n'est pas juste ! Pourquoi ne nous avez-vous pas dit que vous veniez ?${prompt}
+  7698: J'aurais tout donné pour faire quelques rounds avec le légendaire chevalier noir !${prompt}
+  7699: Et vous vous demandez pourquoi vous êtes encore un portier...${prompt}
+  7700: Notre but n'est pas seulement d'améliorer nos compétences en tant que combattants, mais de protéger et d'assurer le bonheur des citoyens de la République. Nous leur apportons de l'espoir.${prompt}
+  7701: C'est ironique, mais notre devoir est de créer une société où des gens comme Naji sont forcés de se plaindre de "n'avoir rien à cogner".${prompt}
+  7702: Mais si seulement nous avions quelque chose à cogner...${prompt}
   7703: |-
-    The age of adventurers...
-    It is an age without heroes, as well as an age where anyone can become one.${prompt}
-  7704: An age such as this requires a strong leader to help the people overcome their troubling pasts. You are best suited for that position.${prompt}
-  7705: But can I truly lead them...?${prompt}
-  7706: You are the only one who can.${prompt}
-  7707: I...I will now return to the shadows. I look forward to seeing how our country prospers under its leaders.${prompt}
-  7708: Sir! The Galka still await your...${prompt}
-  7709: If I were to return now, I would destroy everything Gumbah has attempted to build.${prompt}
-  7710: The time for conflict between the Galka and the Humes is over. I ask you to support Gumbah in his efforts in bringing our people together.${prompt}
+    L'ère des aventuriers...
+    C'est une ère sans héros, ainsi qu'une ère où n'importe qui peut en devenir un.${prompt}
+  7704: Une ère comme celle-ci nécessite un leader fort pour aider les gens à surmonter leurs passés troublants. Vous êtes le mieux placé pour ce poste.${prompt}
+  7705: Mais puis-je vraiment les guider...?${prompt}
+  7706: Vous êtes le seul qui puisse le faire.${prompt}
+  7707: Je... je retourne maintenant dans les ombres. J'attends avec impatience de voir comment notre pays prospère sous ses dirigeants.${prompt}
+  7708: Monsieur ! Les Galka attendent toujours votre...${prompt}
+  7709: Si je revenais maintenant, je détruirais tout ce que Gumbah a tenté de construire.${prompt}
+  7710: Le temps des conflits entre les Galka et les Humes est révolu. Je vous demande de soutenir Gumbah dans ses efforts pour unir notre peuple.${prompt}
   7711: |-
     Zeid...
-    When I have fulfilled my duties...I wish another round with you.${prompt}
-  7712: Hmph. I accept your challenge, but on one condition--that you don't hold back like you did this time.${prompt}
-  7713: I'm sorry you had to see that.${prompt}
+    Quand j'aurai accompli mes devoirs... je souhaite un autre round avec vous.${prompt}
+  7712: Hmph. J'accepte votre défi, mais à une condition -- que vous ne vous reteniez pas comme cette fois-ci.${prompt}
+  7713: Je suis désolé que vous ayez dû voir cela.${prompt}
   7714: |-
-    I should head back to the President's Office now. I have a lot of explaining to do...
-    We will be waiting for you as well, ${name-player}.${prompt}
-  7715: I have not been hiding away from my troubles!
-  7716: Feel my twenty years of pain!
-  7717: Is that your answer!?
-  7718: Return with your soul to the darkness you came from!
-  7719: You--a man who has never lived bound by the chains of his country--how can you understand my pain!?
-  7720: Let my blade be the answer!
-  7721: There is nothing out of the ordinary here.${prompt}
+    Je devrais retourner au bureau du Président maintenant. J'ai beaucoup d'explications à donner...
+    Nous vous attendrons aussi, ${name-player}.${prompt}
+  7715: Je ne me suis pas caché de mes problèmes !
+  7716: Ressens la douleur de mes vingt années !
+  7717: Est-ce votre réponse !?
+  7718: Retourne avec ton âme dans l'obscurité d'où tu viens !
+  7719: Vous -- un homme qui n'a jamais vécu enchaîné par les liens de son pays -- comment pouvez-vous comprendre ma douleur !?
+  7720: Que ma lame soit la réponse !
+  7721: Il n'y a rien d'inhabituel ici.${prompt}
   7722: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
+    Vous pouvez entendre une voix étrange...
+    “Objets, objets, la la la la la～♪”${prompt}
   7723: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
+    Oh mon Gob ! Vous êtes un de ces aventuriers, n'est-ce pas ?
+    Vous ne me faites pas peur, ${choice-player-gender}[mon gars./ma dame.] J'étais en train de m'occuper de mes affaires, à chercher des trucs et des machins.${prompt}
   7724: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7725: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7726: Now, listen close...${prompt}
+    Hé, fais attention. Tu ne veux pas te battre contre moi. Je vais te transformer en viande séchée !
+    Attends, et si on devenait amis plutôt ? Ça te va ?${prompt}
+  7725: Je voyage dans le monde entier et j'entends toutes sortes d'histoires différentes. J'entends même tes histoires. Je peux t'en raconter une, si tu veux.${prompt}
+  7726: Maintenant, écoute bien...${prompt}
   7727: |-
     Oh...
-    Well, if that's the case, I'm outta here.${prompt}
-  7728: The Goblin slipped away when you were not looking...${prompt}
-  7729: You can hear a strange, raspy voice...${prompt}
+    Eh bien, si c'est comme ça, je me casse.${prompt}
+  7728: Le Gobelin s'est éclipsé pendant que vous ne regardiez pas...${prompt}
+  7729: Vous pouvez entendre une voix étrange, rauque...${prompt}
   7730: |-
-    I travel......hear lots...
-    Hear...stories... Can tell...if...${prompt}
-  7731: '.........listen......${prompt}'
+    Je voyage......j'entends beaucoup...
+    Entends...histoires... Peut raconter...si...${prompt}
+  7731: '.........écoute......${prompt}'
   7732: |-
-    Oh......
+    Oh...${prompt}
     ...outta here.........${prompt}
   7733: |-
     Do you want to hear a story?
