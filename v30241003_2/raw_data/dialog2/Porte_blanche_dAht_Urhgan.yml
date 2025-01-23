@@ -17723,229 +17723,229 @@ entries:
     予約時刻をリセット
     やめておく${prompt}
   9772: |-
-    This is the center for Mog Locker administration and expan--wait, you're not a mercenary, are you?
-    Good day to you, ${choice-player-gender}[sir/madame].${prompt}
+    C'est le centre d'administration et d'expansion du Mog Locker -- attends, tu n'es pas un mercenaire, n'est-ce pas ?
+    Bonne journée à vous, ${choice-player-gender}[monsieur/madame].${prompt}
   9773: |-
-    This is the center for Mog Locker administration and expansion.
-    How may I help you?${prompt}
+    C'est le centre d'administration et d'expansion du Mog Locker.
+    Comment puis-je vous aider ?${prompt}
   9774: |-
-    How may I help you?
+    Comment puis-je vous aider ?
     ${selection-lines}
-    Wait, this isn't the auction house...
-    Mog Locker administration.
-    Mog Locker expansion.
-    Mog Locker accessibility.${prompt}
-  9775: It appears your Mog Locker lease is currently expired.${prompt}
-  9776: 'Your current Mog Locker lease is valid until ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (Earth time).${prompt}'
-  9777: 'If you wish to extend your lease, please pay the fee of 1 ${item-singular: 8[2]}.${prompt}'
-  9778: 'Lease extensions are valid for a period of ${number: 9} ${choice-plurality: 9}[day/days] (${number: 2} ${choice-plurality: 2}[Earth day/Earth days]).${prompt}'
-  9779: If you allow your lease to expire, you will lose access to the items stored within your Mog Locker. Please be assured that these items will not be permanently lost or confiscated.${prompt}
-  9780: 'Regaining access to the items in your Mog Locker simply requires you to pay the fee of 1 ${item-singular: 8[2]}. It is also possible to pay this fee to the moogle in your Mog House.${prompt}'
-  9781: 'Your Mog Locker can currently hold ${number: 3} ${choice-plurality: 3}[item/items].${prompt}'
-  9782: Due to limited resources, this service is unavailable to customers who have recently requested a Mog Locker expansion.${prompt}
-  9783: 'Your Mog Locker can be expanded to hold ${number: 11} ${choice-plurality: 11}[item/items] for a fee of ${number: 4} ${item-given-plurality: 4[2], 10[2]}.${prompt}'
-  9784: Your lease extension has been approved.${prompt}
-  9785: 'Your Mog Locker lease is now valid until ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (Earth time).${prompt}'
-  9786: Your Mog Locker expansion has been approved.${prompt}
-  9787: 'Your Mog locker can now hold ${number: 3} ${choice-plurality: 3}[item/items].${prompt}'
-  9788: Your Mog Locker is currently available for use in Al Zahbi only.${prompt}
-  9789: It is possible to extend the availability of your Mog Locker to include the nations of San d'Oria, Bastok, Windurst, and Jeuno.${prompt}
-  9790: 'If you choose this option, however, the lease extension granted for the fee of 1 ${item-singular: 8[2]} will be reduced from ${number: 9} ${choice-plurality: 9}[day/days] (Earth time: ${number: 2} ${choice-plurality: 2}[day/days]) to ${number: 12} ${choice-plurality: 12}[day/days] (Earth time: ${number: 7} ${choice-plurality: 7}[day/days]).${prompt}'
-  9791: 'Furthermore, the remaining time on your current lease will be reduced to ${number: 7}/${number: 2}.${prompt}'
-  9792: It is possible to once again restrict the availability of your Mog Locker to Al Zahbi, however the remaining time on your current lease will not be extended. The lease period will revert to the usual length starting from the following lease payment.${prompt}
+    Attendez, ce n'est pas la maison des enchères...
+    Administration du Mog Locker.
+    Expansion du Mog Locker.
+    Accessibilité du Mog Locker.${prompt}
+  9775: Il semble que votre bail pour le Mog Locker soit actuellement expiré.${prompt}
+  9776: 'Votre bail actuel pour le Mog Locker est valide jusqu''au ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (heure terrestre).${prompt}'
+  9777: 'Si vous souhaitez prolonger votre bail, veuillez payer les frais de 1 ${item-singular: 8[2]}.${prompt}'
+  9778: 'Les prolongations de bail sont valables pour une période de ${number: 9} ${choice-plurality: 9}[jour/jours] (${number: 2} ${choice-plurality: 2}[jour terrestre/jours terrestres]).${prompt}'
+  9779: Si vous laissez votre bail expirer, vous perdrez l'accès aux objets stockés dans votre Mog Locker. Soyez assuré que ces objets ne seront pas perdus de manière permanente ou confisqués.${prompt}
+  9780: 'Pour retrouver l''accès aux objets dans votre Mog Locker, il suffit de payer les frais de 1 ${item-singular: 8[2]}. Il est également possible de payer ces frais au mog dans votre Mog Maison.${prompt}'
+  9781: 'Votre Mog Locker peut actuellement contenir ${number: 3} ${choice-plurality: 3}[objet/objets].${prompt}'
+  9782: En raison de ressources limitées, ce service n'est pas disponible pour les clients qui ont récemment demandé une expansion de Mog Locker.${prompt}
+  9783: 'Votre Mog Locker peut être étendu pour contenir ${number: 11} ${choice-plurality: 11}[objet/objets] moyennant des frais de ${number: 4} ${item-given-plurality: 4[2], 10[2]}.${prompt}'
+  9784: Votre prolongation de bail a été approuvée.${prompt}
+  9785: 'Votre bail pour le Mog Locker est maintenant valide jusqu''au ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (heure terrestre).${prompt}'
+  9786: Votre expansion de Mog Locker a été approuvée.${prompt}
+  9787: 'Votre Mog Locker peut maintenant contenir ${number: 3} ${choice-plurality: 3}[objet/objets].${prompt}'
+  9788: Votre Mog Locker est actuellement disponible uniquement à Al Zahbi.${prompt}
+  9789: Il est possible d'étendre la disponibilité de votre Mog Locker pour inclure les nations de San d'Oria, Bastok, Windurst et Jeuno.${prompt}
+  9790: 'Si vous choisissez cette option, cependant, la prolongation de bail accordée pour le paiement de 1 ${item-singular: 8[2]} sera réduite de ${number: 9} ${choice-plurality: 9}[jour/jours] (temps terrestre : ${number: 2} ${choice-plurality: 2}[jour/jours]) à ${number: 12} ${choice-plurality: 12}[jour/jours] (temps terrestre : ${number: 7} ${choice-plurality: 7}[jour/jours]).${prompt}'
+  9791: 'De plus, le temps restant sur votre bail actuel sera réduit à ${number: 7}/${number: 2}.${prompt}'
+  9792: Il est possible de restreindre à nouveau la disponibilité de votre Mog Locker à Al Zahbi, cependant le temps restant sur votre bail actuel ne sera pas prolongé. La période de bail reviendra à la longueur habituelle à partir du prochain paiement de bail.${prompt}
   9793: |-
-    Increase Mog Locker availability?
+    Augmenter la disponibilité du Mog Locker ?
     ${selection-lines}
-    Yes, please!
-    No thanks!${prompt}
+    Oui, s'il vous plaît !
+    Non merci !${prompt}
   9794: |-
-    Your Mog Locker is now available in the nations of San d'Oria, Bastok, Windurst, and Jeuno.
-    Accordingly, your lease is now valid until ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (Earth time).${prompt}
-  9795: 'The availability of your Mog Locker ${choice: 0}[has been expanded to other areas/has been restricted to Al Zahbi], however your lease has already expired.${prompt}'
-  9796: 'You Mog Locker is currently accessible from the following nations: Al Zahbi, San d''Oria, Bastok, Windurst, and Jeuno${prompt}'
-  9797: It is possible to once again restrict the availability of your Mog Locker to Al Zahbi.${prompt}
-  9798: 'If you choose this option, the lease extension granted for the fee of 1 ${item-singular: 8[2]} will be increased from ${number: 12} ${choice-plurality: 12}[day/days] (Earth time: ${number: 7} ${choice-plurality: 7}[day/days]) to ${number: 9} ${choice-plurality: 9}[day/days] (Earth time: ${number: 2} ${choice-plurality: 2}[day/days]).${prompt}'
-  9799: 'Furthermore, the remaining time on your current lease will be increased to ${number: 2}/${number: 7}.${prompt}'
+    Votre Mog Locker est maintenant disponible dans les nations de San d'Oria, Bastok, Windurst et Jeuno.
+    Par conséquent, votre bail est maintenant valide jusqu'au ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (heure terrestre).${prompt}
+  9795: 'La disponibilité de votre Mog Locker ${choice: 0}[a été étendue à d''autres zones/a été restreinte à Al Zahbi], cependant votre bail a déjà expiré.${prompt}'
+  9796: 'Votre Mog Locker est actuellement accessible depuis les nations suivantes : Al Zahbi, San d''Oria, Bastok, Windurst et Jeuno${prompt}'
+  9797: Il est possible de restreindre à nouveau la disponibilité de votre Mog Locker à Al Zahbi.${prompt}
+  9798: 'Si vous choisissez cette option, la prolongation de bail accordée pour le paiement de 1 ${item-singular: 8[2]} sera augmentée de ${number: 12} ${choice-plurality: 12}[jour/jours] (temps terrestre : ${number: 7} ${choice-plurality: 7}[jour/jours]) à ${number: 9} ${choice-plurality: 9}[jour/jours] (temps terrestre : ${number: 2} ${choice-plurality: 2}[jour/jours]).${prompt}'
+  9799: 'De plus, le temps restant sur votre bail actuel sera augmenté à ${number: 2}/${number: 7}.${prompt}'
   9800: |-
-    Restrict access to Al Zahbi?
+    Restreindre l'accès à Al Zahbi ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   9801: |-
-    Your Mog Locker is now only available in Al Zahbi.
-    Accordingly, your lease is now valid until ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (Earth time).${prompt}
+    Votre Mog Locker est maintenant uniquement disponible à Al Zahbi.
+    Par conséquent, votre bail est maintenant valide jusqu'au ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0} (heure terrestre).${prompt}
   9802: |-
-    It is not possible to expand your Mog Locker any further, I'm afraid.
-    A thousand pardons.${prompt}
-  9803: You wish to know the way to the Alzadaal Undersea Ruins?${prompt}
-  9804: The closest entrance from Al Zahbi would be in the northwest of Bhaflau Thickets.${prompt}
-  9805: Travel until you can see the waters of the Cyan Deep, and you should come upon the tunnel entrance.${prompt}
-  9806: Follow the tunnel and you will find yourself in the Alzadaal Undersea Ruins.${prompt}
+    Il n'est pas possible d'étendre davantage votre Mog Locker, j'en ai peur.
+    Mille pardons.${prompt}
+  9803: Vous souhaitez connaître le chemin vers les Ruines Sous-Marines d'Alzadaal ?${prompt}
+  9804: L'entrée la plus proche depuis Al Zahbi se trouve au nord-ouest des Fourrés de Bhaflau.${prompt}
+  9805: Avancez jusqu'à voir les eaux des Profondeurs Cyan, et vous devriez trouver l'entrée du tunnel.${prompt}
+  9806: Suivez le tunnel et vous vous retrouverez dans les Ruines Sous-Marines d'Alzadaal.${prompt}
   9807: |-
-    Those ruins are part of our nation's cultural heritage.
-    Remember to be respectful.${prompt}
+    Ces ruines font partie du patrimoine culturel de notre nation.
+    Souvenez-vous d'être respectueux.${prompt}
   9808: '!!!${prompt}'
-  9809: You want to know what's behind the gate?${prompt}
+  9809: Vous voulez savoir ce qu'il y a derrière la porte ?${prompt}
   9810: |-
-    This gate leads to the Imperial Ward.
-    You may only enter by the grace of Her Magnificence, the Empress, or if you have Al Zahbi citizenship.${prompt}
+    Cette porte mène au Quartier Impérial.
+    Vous ne pouvez entrer que par la grâce de Sa Magnificence, l'Impératrice, ou si vous avez la citoyenneté d'Al Zahbi.${prompt}
   9811: |-
-    No place for a mercenary like you.
-    Be on your way.${prompt}
+    Pas de place pour un mercenaire comme vous.
+    Partez.${prompt}
   9812: |-
-    Not so fast.
-    I have to check this with my superior.${prompt}
-  9813: I am ${name-npc}, officer of the Imperial Army.${prompt}
-  9814: Don't waste my time, adventurer.${prompt}
+    Pas si vite.
+    Je dois vérifier ça avec mon supérieur.${prompt}
+  9813: Je suis ${name-npc}, officier de l'Armée Impériale.${prompt}
+  9814: Ne perdez pas mon temps, aventurier.${prompt}
   9815: |-
-    ${lettercase: 1}${article} ${item-article: 0[2]}! Excellent work.
-    I will inform the commander immediately.${prompt}
-  9816: Your Imperial Standing has increased!${prompt}
+    ${lettercase: 1}${article} ${item-article: 0[2]} ! Excellent travail.
+    Je vais informer le commandant immédiatement.${prompt}
+  9816: Votre Standing Impérial a augmenté !${prompt}
   9817: |-
-    What is your business?
+    Quelle est votre affaire ?
     ${selection-lines}
-    I want to receive Sanction.
-    I want to spend my credits.
-    I have some questions...
-    Nothing, sorry to bother you.${prompt}
-  9818: 'I will bestow upon you the Empire''s Sanction. Good luck.${wait-animation: 0}${prompt}'
-  9819: The Astral Candescence is now in Al Zahbi, so you will receive an experience bonus from battles. You can also select one of the following bonuses in exchange for a slight decrease in your Imperial Standing.${prompt}
+    Je veux recevoir la Sanction.
+    Je veux dépenser mes crédits.
+    J'ai quelques questions...
+    Rien, désolé de vous déranger.${prompt}
+  9818: 'Je vais vous accorder la Sanction de l''Empire. Bonne chance.${wait-animation: 0}${prompt}'
+  9819: La Candescence Astrale est maintenant à Al Zahbi, donc vous recevrez un bonus d'expérience des combats. Vous pouvez également choisir l'un des bonus suivants en échange d'une légère diminution de votre Standing Impérial.${prompt}
   9820: |-
-    Choose a bonus for ${number: 8} ${choice-plurality: 8}[credit/credits]?
+    Choisir un bonus pour ${number: 8} ${choice-plurality: 8}[crédit/crédits] ?
     ${selection-lines}
-    Not now.
-    Regen.
-    Refresh.
-    Increased meal duration.${prompt}
-  9821: You have received the Empire's Sanction.${prompt}
-  9822: You do not have enough Imperial Standing credits to receive the bonus.${prompt}
+    Pas maintenant.
+    Régénération.
+    Rafraîchissement.
+    Augmentation de la durée des repas.${prompt}
+  9821: Vous avez reçu la Sanction de l'Empire.${prompt}
+  9822: Vous n'avez pas assez de crédits de Standing Impérial pour recevoir le bonus.${prompt}
   9823: |-
-    You cannot receive the bonus.
-    The Astral Candescence has been taken.${prompt}
+    Vous ne pouvez pas recevoir le bonus.
+    La Candescence Astrale a été prise.${prompt}
   9824: |-
-    You currently possess ${number: 0} ${choice-plurality: 0}[Imperial Standing credit/Imperial Standing credits].
-    Would you like to use them to purchase items?${prompt}
+    Vous possédez actuellement ${number: 0} ${choice-plurality: 0}[crédit de Standing Impérial/crédits de Standing Impérial].
+    Souhaitez-vous les utiliser pour acheter des articles ?${prompt}
   9825: |-
-    Which item do you wish to purchase?
+    Quel article souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (All ranks).
-    1000-pt. items (Private 2nd Class).
-    2000-pt. items (Private 1st Class).
-    4000-pt. items (Superior Private).
-    8000-pt. items (Lance Corporal).
-    16000-pt. items (Corporal).
-    24000-pt. items (Sergeant).
-    32000-pt. items (Sergeant Major).
-    40000-pt. items (Chief Sergeant).
-    48000-pt. items (Second Lieutenant).
-    56000-pt. items (First Lieutenant).
-    Cancel.${prompt}
-  9826: There are currently no items available for that rank.${prompt}
-  9827: 'Your Imperial Standing is too low to purchase the ${keyitem-singular: 8[2]}.${prompt}'
-  9828: 'Are you sure you want to purchase the ${keyitem-singular: 8[2]}?${prompt}'
-  9829: 'You already possess ${keyitem-article: 0[2]}.${prompt}'
+    Articles courants (Tous les grades).
+    Articles de 1000 points (Soldat de 2ème classe).
+    Articles de 2000 points (Soldat de 1ère classe).
+    Articles de 4000 points (Soldat Supérieur).
+    Articles de 8000 points (Caporal).
+    Articles de 16000 points (Caporal-chef).
+    Articles de 24000 points (Sergent).
+    Articles de 32000 points (Sergent-major).
+    Articles de 40000 points (Sergent-chef).
+    Articles de 48000 points (Sous-lieutenant).
+    Articles de 56000 points (Lieutenant).
+    Annuler.${prompt}
+  9826: Il n'y a actuellement aucun article disponible pour ce grade.${prompt}
+  9827: 'Votre Standing Impérial est trop bas pour acheter le ${keyitem-singular: 8[2]}.${prompt}'
+  9828: 'Êtes-vous sûr de vouloir acheter le ${keyitem-singular: 8[2]}?${prompt}'
+  9829: 'Vous possédez déjà ${keyitem-article: 0[2]}.${prompt}'
   9830: |-
-    Which item do you wish to purchase?
+    Quel article souhaitez-vous acheter ?
     ${selection-lines}
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 20} credits).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 20} credits).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 20} credits).
-    Return.${prompt}
-  9831: 'You do not meet the requirements to purchase the ${item-singular: 8[2]}.${prompt}'
-  9832: 'Your rank is too low to purchase the ${item-singular: 8[2]}.${prompt}'
-  9833: 'Your Imperial Standing is too low to purchase the ${item-singular: 8[2]}.${prompt}'
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 20} crédits).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 20} crédits).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 20} crédits).
+    Retour.${prompt}
+  9831: 'Vous ne remplissez pas les conditions pour acheter le ${item-singular: 8[2]}.${prompt}'
+  9832: 'Votre grade est trop bas pour acheter le ${item-singular: 8[2]}.${prompt}'
+  9833: 'Votre Standing Impérial est trop bas pour acheter le ${item-singular: 8[2]}.${prompt}'
   9834: |-
-    You cannot equip the ${item-singular: 8[2]}.
-    Do you still wish to proceed?${prompt}
+    Vous ne pouvez pas équiper le ${item-singular: 8[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   9835: |-
-    Your level is too low to equip the ${item-singular: 8[2]}.
-    Do you still wish to proceed?${prompt}
+    Votre niveau est trop bas pour équiper le ${item-singular: 8[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   9836: |-
-    You seem to be able to equip the ${item-singular: 8[2]}.
-    Do you wish to proceed?${prompt}
-  9837: 'Are you sure you want to purchase the ${item-singular: 8[2]}?${prompt}'
+    Il semble que vous puissiez équiper le ${item-singular: 8[2]}.
+    Souhaitez-vous continuer ?${prompt}
+  9837: 'Êtes-vous sûr de vouloir acheter le ${item-singular: 8[2]}?${prompt}'
   9838: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, purchase item.
-    Cancel purchase.${prompt}
+    Oui, acheter l'article.
+    Annuler l'achat.${prompt}
   9839: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, even though I can't equip it.
-    Cancel purchase.${prompt}
+    Oui, même si je ne peux pas l'équiper.
+    Annuler l'achat.${prompt}
   9840: |-
-    Which item do you wish to purchase?
+    Quel article souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 9[2]}.
     ${lettercase: 1}${item-singular: 10[2]}.
     ${lettercase: 1}${item-singular: 11[2]}.
-    Back.${prompt}
+    Retour.${prompt}
   9841: |-
-    Which item do you wish to purchase?
+    Quel article souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 9[2]}.
     ${lettercase: 1}${item-singular: 10[2]}.
     ${lettercase: 1}${item-singular: 11[2]}.
     ${lettercase: 1}${item-singular: 12[2]}.
-    Back.${prompt}
+    Retour.${prompt}
   9842: |-
-    Which item do you wish to purchase?
+    Quel article souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 9[2]}.
     ${lettercase: 1}${item-singular: 10[2]}.
     ${lettercase: 1}${item-singular: 11[2]}.
     ${lettercase: 1}${item-singular: 12[2]}.
     ${lettercase: 1}${item-singular: 13[2]}.
-    Back.${prompt}
+    Retour.${prompt}
   9843: |-
-    Which item do you wish to purchase?
+    Quel article souhaitez-vous acheter ?
     ${selection-lines}
-    ${lettercase: 1}${item-singular: 9[2]} (${number: 20} credits).
-    ${lettercase: 1}${item-singular: 10[2]} (${number: 21} credits).
-    ${lettercase: 1}${item-singular: 11[2]} (${number: 22} credits).
-    ${lettercase: 1}${item-singular: 12[2]} (${number: 23} credits).
-    ${lettercase: 1}${item-singular: 13[2]} (${number: 24} credits).
-    ${lettercase: 1}${item-singular: 14[2]} (${number: 25} credits).
-    ${lettercase: 1}${item-singular: 15[2]} (${number: 26} credits).
-    ${lettercase: 1}${item-singular: 16[2]} (${number: 27} credits).
-    ${lettercase: 1}${item-singular: 17[2]} (${number: 28} credits).
-    Next page.
-    Previous page.
-    Back.${prompt}
+    ${lettercase: 1}${item-singular: 9[2]} (${number: 20} crédits).
+    ${lettercase: 1}${item-singular: 10[2]} (${number: 21} crédits).
+    ${lettercase: 1}${item-singular: 11[2]} (${number: 22} crédits).
+    ${lettercase: 1}${item-singular: 12[2]} (${number: 23} crédits).
+    ${lettercase: 1}${item-singular: 13[2]} (${number: 24} crédits).
+    ${lettercase: 1}${item-singular: 14[2]} (${number: 25} crédits).
+    ${lettercase: 1}${item-singular: 15[2]} (${number: 26} crédits).
+    ${lettercase: 1}${item-singular: 16[2]} (${number: 27} crédits).
+    ${lettercase: 1}${item-singular: 17[2]} (${number: 28} crédits).
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   9844: |-
-    What do you wish to know about?
+    Sur quoi souhaitez-vous en savoir plus ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Sanction.
-    Imperial Standing.
-    Besieged.${prompt}
+    Standing Impérial.
+    Assiégé.${prompt}
   9845: |-
-    What about Besieged?
+    À propos de quoi concernant Assiégé ?
     ${selection-lines}
-    Never mind.
-    Besieged basics.
-    “Serpent Generals.”
-    Astral Candescence in Al Zahbi.
-    Astral Candescence with beastmen.
-    Empire's current state of defense.${prompt}
-  9846: “Sanction” is a magic spell that we use to observe and assess mercenaries' actions.${prompt}
-  9847: Defeating enemies while you have Sanction cast on you will raise your Imperial Standing. Also, the stronger the monsters you fight, the higher your Imperial Standing will become.${prompt}
-  9848: When fighting in a beastman stronghold that has taken the Astral Candescence, your Imperial Standing will rise by a significant amount as thanks for your participation in the recovery effort.${prompt}
-  9849: Sanction is also necessary in order to receive crystals from the enemies you defeat.${prompt}
-  9850: But you must take caution. Stepping too far out of the Empire's boundaries will cause Sanction to wear off.${prompt}
-  9851: You can raise your Imperial Standing by defeating enemies while you have Sanction cast on you.${prompt}
-  9852: Saving a captured prisoner in a beastman stronghold and submitting archaic mirrors to Imperial guards will also result in an increased Imperial Standing.${prompt}
-  9853: You can view your Imperial Standing by selecting “Besieged” under “Region Info.”${prompt}
-  9854: You can also speak to me at any time to exchange your Imperial Standing credits for items.${prompt}
-  9855: “Besieged” occurs when the beastman armies breach the walls of Al Zahbi.${prompt}
-  9856: Everyone in town who is capable of wielding a weapon is called to action to defend Al Zahbi alongside the Imperial Army.${prompt}
-  9857: The beastmen's main purpose is to enter the Hall of Binding and wrest the “Astral Candescence” from the Empire's control.${prompt}
-  9858: You need not know what the Astral Candescence is.${prompt}
-  9859: All you must know is that it is your duty to protect the five Serpent Generals who hold the keys to the Hall of Binding, and to drive the beastman hordes from the Imperial capital.${prompt}
+    Laissez tomber.
+    Bases d'Assiégé.
+    "Généraux Serpents".
+    Candescence Astrale à Al Zahbi.
+    Candescence Astrale avec les hommes-bêtes.
+    État actuel de la défense de l'Empire.${prompt}
+  9846: '"Sanction" est un sort de magie que nous utilisons pour observer et évaluer les actions des mercenaires.${prompt}'
+  9847: Vaincre des ennemis alors que vous avez Sanction sur vous augmentera votre Standing Impérial. De plus, plus les monstres que vous combattez sont forts, plus votre Standing Impérial augmentera.${prompt}
+  9848: En combattant dans une forteresse d'hommes-bêtes qui a pris la Candescence Astrale, votre Standing Impérial augmentera de manière significative en reconnaissance de votre participation à l'effort de récupération.${prompt}
+  9849: Sanction est également nécessaire pour recevoir des cristaux des ennemis que vous vainquez.${prompt}
+  9850: Mais soyez prudent. S'éloigner trop des frontières de l'Empire fera que Sanction disparaîtra.${prompt}
+  9851: Vous pouvez augmenter votre Standing Impérial en vainquant des ennemis alors que vous avez Sanction sur vous.${prompt}
+  9852: Sauver un prisonnier capturé dans une forteresse d'hommes-bêtes et remettre des miroirs archaïques aux gardes impériaux augmenteront également votre Standing Impérial.${prompt}
+  9853: Vous pouvez consulter votre Standing Impérial en sélectionnant "Assiégé" sous "Infos Région".${prompt}
+  9854: Vous pouvez également me parler à tout moment pour échanger vos crédits de Standing Impérial contre des objets.${prompt}
+  9855: '"Assiégé" se produit lorsque les armées d''hommes-bêtes franchissent les murs d''Al Zahbi.${prompt}'
+  9856: Tous ceux en ville capables de manier une arme sont appelés à agir pour défendre Al Zahbi aux côtés de l'Armée Impériale.${prompt}
+  9857: Le principal objectif des hommes-bêtes est d'entrer dans la Salle du Lien et de s'emparer de la "Candescence Astrale" du contrôle de l'Empire.${prompt}
+  9858: Vous n'avez pas besoin de savoir ce qu'est la Candescence Astrale.${prompt}
+  9859: Tout ce que vous devez savoir, c'est qu'il est de votre devoir de protéger les cinq Généraux Serpents qui détiennent les clés de la Salle du Lien, et de repousser les hordes d'hommes-bêtes de la capitale impériale.${prompt}
   9860: |-
-    The Empire's safety and its future rest on your capable shoulders!
-    Rest assured that you will be rewarded for your efforts.${prompt}
+    La sécurité et l'avenir de l'Empire reposent sur vos épaules capables !
+    Soyez assuré que vos efforts seront récompensés.${prompt}
   9861: La défense de l'Empire est confiée à cinq généraux.${prompt}
   9862: Chacun porte un nom correspondant aux symboles de l'Empire - les serpents de flamme, d'eau, de pierre, de bourrasques et de ciel.${prompt}
   9863: De plus, les miroirs utilisés pour ouvrir la Salle du Lien sont répartis entre eux. Ainsi, le sort des généraux détermine le cours de la bataille.${prompt}
