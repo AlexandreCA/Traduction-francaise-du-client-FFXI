@@ -10630,7 +10630,7 @@ entries:
   5844: 'Tu peux utiliser ce ${item-singular: 1[2]} pour donner des directives à ton automate !${prompt}'
   5845: Oh ! Et tu devrais aussi donner un nom à ton automate. Il est maintenant entièrement à toi, donc c'est à toi de décider !${prompt}
   5846: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Luron
     Drille
@@ -10664,29 +10664,29 @@ entries:
     Kenbishi
     Hannya
     Mashira${prompt}
-  5847: Your automaton has a new name.${prompt}
+  5847: Votre automate a un nouveau nom.${prompt}
   5848: |-
-    Are you sure this name is okay?
+    Êtes-vous sûr que ce nom convient ?
     ${selection-lines}
-    Yes, this is it.
-    On second thought...${prompt}
-  5849: Good luck! I'm behind you all the way!${prompt}
-  5850: You can now become a puppetmaster!${prompt}
-  5851: Leave me alone...${prompt}
-  5852: How are you and your automaton doing? Is it getting more responsive?${prompt}
+    Oui, c'est celui-là.
+    Après réflexion...${prompt}
+  5849: Bonne chance ! Je suis derrière vous à 100% !${prompt}
+  5850: Vous pouvez maintenant devenir un maître de marionnettes !${prompt}
+  5851: Laissez-moi tranquille...${prompt}
+  5852: Comment vous et votre automate vous en sortez-vous ? Devient-il plus réactif ?${prompt}
   5853: |-
-    You're a puppetmaster, right?
-    Come on, anyone can tell!${prompt}
-  5854: What's your automaton's name?${prompt}
-  5855: 'If you''d rather name it something different, just pay me ${number: 1} gil and I''ll help you out!${prompt}'
+    Vous êtes un maître de marionnettes, n'est-ce pas ?
+    Allez, ça se voit !${prompt}
+  5854: Comment s'appelle votre automate ?${prompt}
+  5855: 'Si vous préférez lui donner un autre nom, payez-moi juste ${number: 1} gil et je vous aiderai !${prompt}'
   5856: |-
-    Rename your automaton?
+    Renommer votre automate ?
     ${selection-lines}
-    I would love to.
-    No thanks.${prompt}
-  5857: Hmmm... How about one of these?${prompt}
+    J'aimerais bien.
+    Non merci.${prompt}
+  5857: Hmmm... Qu'en dites-vous, l'un de ceux-ci ?${prompt}
   5858: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Luron
     Drille
@@ -10720,10 +10720,10 @@ entries:
     Kenbishi
     Hannya
     Mashira
-    View more.
-    Cancel.${prompt}
+    Voir plus.
+    Annuler.${prompt}
   5859: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Nadeshiko
     E100
@@ -10757,11 +10757,11 @@ entries:
     Moppet
     Nutcracker
     Erwin
-    View previous.
-    View more.
-    Cancel.${prompt}
+    Voir précédent.
+    Voir plus.
+    Annuler.${prompt}
   5860: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Otto
     Gustav
@@ -10795,11 +10795,11 @@ entries:
     Zero
     Dreizehn
     Seize
-    View previous.
-    View more.
-    Cancel.${prompt}
+    Voir précédent.
+    Voir plus.
+    Annuler.${prompt}
   5861: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Fukusuke
     Mataemon
@@ -10833,11 +10833,11 @@ entries:
     Bito-Rabito
     Cocoa
     Totomo
-    View previous.
-    View more.
-    Cancel.${prompt}
+    Voir précédent.
+    Voir plus.
+    Annuler.${prompt}
   5862: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Centurion
     A7V
@@ -10871,11 +10871,11 @@ entries:
     Dora
     Data
     Robin
-    View previous.
-    View more.
-    Cancel.${prompt}
+    Voir précédent.
+    Voir plus.
+    Annuler.${prompt}
   5863: |-
-    Choose your automaton's name.
+    Choisissez le nom de votre automate.
     ${selection-lines}
     Robby
     Porlo-Moperlo
@@ -10895,127 +10895,127 @@ entries:
     Sarumaro
     Picket
     Mushroom
-    View previous.
-    Cancel.${prompt}
-  5864: You don't have enough gil! Get lost!${prompt}
+    Voir précédent.
+    Annuler.${prompt}
+  5864: Vous n'avez pas assez de gil ! Dégagez !${prompt}
   5865: |-
-    Oh, nice choice!
-    Congratulations on your new name!${prompt}
-  5866: Your automaton has a new name.${prompt}
+    Oh, bon choix !
+    Félicitations pour votre nouveau nom !${prompt}
+  5866: Votre automate a un nouveau nom.${prompt}
   5867: |-
-    Are you sure this name is okay?
+    Êtes-vous sûr que ce nom convient ?
     ${selection-lines}
-    Yes, this is it.
-    On second thought...
-    Cancel.${prompt}
+    Oui, c'est celui-là.
+    Après réflexion...
+    Annuler.${prompt}
   5868: |-
-    What? You lost your ${item-singular: 0[2]}?
-    Well... I suppose I can provide you with a spare if you pay me 10000 gil.${prompt}
-  5869: You better not lose it again.${prompt}
-  5870: Oh, it's you...just when I needed some help, too. You've got great timing, you know that?${prompt}
-  5871: I want you to help me look for my automaton.${prompt}
+    Quoi ? Vous avez perdu votre ${item-singular: 0[2]} ?
+    Eh bien... je suppose que je peux vous en fournir un de rechange si vous me payez 10000 gil.${prompt}
+  5869: Vous feriez mieux de ne pas le perdre à nouveau.${prompt}
+  5870: Oh, c'est vous... juste au moment où j'avais besoin d'aide, aussi. Vous avez un timing parfait, vous savez ?${prompt}
+  5871: Je veux que vous m'aidiez à chercher mon automate.${prompt}
   5872: |-
-    What?
-    You mean I never told you that my automaton was stolen?${prompt}
-  5873: I still remember it like it was yesterday...${prompt}
-  5874: It was not long before I met you...${prompt}
-  5875: In an effort to gather knowledge on my audience, I made it a point to observe the people at Balrahn Way each day.${prompt}
-  5876: On this particular day, I headed out for the crowds as always...${prompt}
-  5877: That's when tragedy struck.${prompt}
-  5878: Oh oh, and you wouldn't belieeeve...${prompt}
-  5879: Haha, that's a wig? Get out of here! Are you serious?${prompt}
-  5880: And you should see that other guy...${prompt}
-  5881: No way! Why would he be wearing a fake beard? What's the point?${prompt}
-  5882: And for some reason, that guy...${prompt}
-  5883: Have you ever seen that guy's sideburns? Out of this world!${prompt}
-  5884: Hahaha, where did you manage to find such a ridiculous person?${prompt}
-  5885: Oh, come on. You know! He's always at that teahouse...the big lout...${prompt}
+    Quoi ?
+    Vous voulez dire que je ne vous ai jamais dit que mon automate avait été volé ?${prompt}
+  5873: Je m'en souviens encore comme si c'était hier...${prompt}
+  5874: Ce n'était pas longtemps avant que je vous rencontre...${prompt}
+  5875: Pour recueillir des connaissances sur mon public, j'ai pris l'habitude d'observer les gens au Balrahn Way chaque jour.${prompt} 
+  5876: Ce jour-là, je suis sorti pour la foule comme d'habitude...${prompt}
+  5877: C'est là que la tragédie a frappé.${prompt}
+  5878: Oh oh, et vous ne croiriez jamais...${prompt}
+  5879: Haha, c'est une perruque ? Fichez le camp ! Vous êtes sérieux ?${prompt}
+  5880: Et vous devriez voir l'autre type...${prompt}
+  5881: Impossible ! Pourquoi porterait-il une fausse barbe ? Quel est l'intérêt ?${prompt}
+  5882: Et pour une raison quelconque, ce type...${prompt}
+  5883: Avez-vous déjà vu les favoris de ce gars ? Hors du commun !${prompt}
+  5884: Hahaha, où avez-vous réussi à trouver un type aussi ridicule ?${prompt}
+  5885: Allez, vous savez ! Il est toujours dans ce salon de thé... le grand balourd...${prompt}
   5886: '...${prompt}'
-  5887: '...That''s...my father.${prompt}'
+  5887: '...C''est... mon père.${prompt}'
   5888: '...${prompt}'
   5889: '...${prompt}'
-  5890: Well, ummm... Today's teatime's on me, okay?${prompt}
-  5891: What would you like, coffee or chai?${prompt}
-  5892: '...Just leave me alone...${prompt}'
-  5893: '...And that was it.${prompt}'
-  5894: Everything happened so fast... I lost track of the two girls while searching for my automaton.${prompt}
-  5895: Where could they have gone?${prompt}
-  5896: Oh yeah, it was later that I met someone who witnessed the whole thing...and that's how I found out my automaton was actually stolen.${prompt}
-  5897: Well? Do you think you could help me find it?${prompt}
-  5898: You understand how difficult it would be to have your automaton torn away from you, don't you?${prompt}
+  5890: Eh bien, euh... Aujourd'hui, c'est moi qui offre le thé, d'accord ?${prompt}
+  5891: Que voulez-vous, du café ou du chai ?${prompt}
+  5892: '...Laissez-moi tranquille...${prompt}'
+  5893: '...Et c''était tout.${prompt}'
+  5894: Tout s'est passé si vite... J'ai perdu de vue les deux filles en cherchant mon automate.${prompt}
+  5895: Où ont-elles bien pu aller ?${prompt}
+  5896: Oh oui, c'est plus tard que j'ai rencontré quelqu'un qui a tout vu... et c'est ainsi que j'ai découvert que mon automate avait réellement été volé.${prompt}
+  5897: Alors ? Pensez-vous pouvoir m'aider à le retrouver ?${prompt}
+  5898: Vous comprenez à quel point ce serait difficile d'avoir votre automate arraché de vous, n'est-ce pas ?${prompt}
   5899: |-
-    Sympathize with him?
+    Lui témoigner de la sympathie ?
     ${selection-lines}
-    Must be terrible...
-    No.
+    Ça doit être terrible...
+    Non.
     ...${prompt}
-  5900: And it is! I knew you'd understand!${prompt}
-  5901: How can you say that? Think! Just think about it for a while! Imagine my pain!${prompt}
+  5900: Et ça l'est ! Je savais que vous comprendriez !${prompt}
+  5901: Comment pouvez-vous dire ça ? Réfléchissez ! Pensez-y un peu ! Imaginez ma douleur !${prompt}
   5902: |-
-    Sympathize with him?
+    Lui témoigner de la sympathie ?
     ${selection-lines}
-    You poor thing...
-    Whatever.${prompt}
-  5903: Your hesitation is a little suspicious...but thanks for your sympathy!${prompt}
-  5904: Oh please! Just think about it a little more!${prompt}
+    Pauvre de vous...
+    Peu importe.${prompt}
+  5903: Votre hésitation est un peu suspecte... mais merci pour votre sympathie !${prompt}
+  5904: Oh, allez ! Réfléchissez-y un peu plus !${prompt}
   5905: |-
-    All right, then.
-    You go check Nashmau. Leave Al Zahbi to me.${prompt}
-  5906: And remember, we're not just looking for the thief. I want my automaton back, too!${prompt}
+    D'accord, alors.
+    Allez vérifier Nashmau. Je m'occupe d'Al Zahbi.${prompt}
+  5906: Et souvenez-vous, nous ne cherchons pas seulement le voleur. Je veux aussi récupérer mon automate !${prompt}
   5907: |-
-    Ack, I almost left out some important information!
-    Let me describe my automaton and the thief to you...${prompt}
-  5908: My automaton is...ummm... Well, let's just say you'll know it when you see it.${prompt}
-  5909: It looks just like a normal automaton, but the way it acts is completely unique. You'll notice it immediately.${prompt}
-  5910: Anyway, just be careful.${prompt}
-  5911: I've heard that the thief is a bald Hume. Finding him might lead you to the automaton.${prompt}
-  5912: I want to know where he is and what he's doing. If you find anything, don't mess around--come straight to me.${prompt}
-  5913: Remember, I'm counting on you! Good luck, and be careful!${prompt}
-  5914: You should head for Nashmau. Good luck, and be careful.${prompt}
-  5915: So how did it go? No luck at all here...${prompt}
+    Aïe, j'ai failli oublier des informations importantes !
+    Laissez-moi vous décrire mon automate et le voleur...${prompt}
+  5908: Mon automate est... euh... Disons simplement que vous le reconnaîtrez quand vous le verrez.${prompt}
+  5909: Il ressemble à un automate normal, mais son comportement est complètement unique. Vous le remarquerez immédiatement.${prompt}
+  5910: Bref, soyez prudent.${prompt}
+  5911: J'ai entendu dire que le voleur est un Hume chauve. Le trouver pourrait vous mener à l'automate.${prompt}
+  5912: Je veux savoir où il se trouve et ce qu'il fait. Si vous trouvez quoi que ce soit, ne perdez pas de temps - venez directement me voir.${prompt}
+  5913: Souvenez-vous, je compte sur vous ! Bonne chance, et soyez prudent !${prompt}
+  5914: Vous devriez vous rendre à Nashmau. Bonne chance, et soyez prudent.${prompt}
+  5915: Alors, comment ça s'est passé ? Pas de chance ici non plus...${prompt}
   5916: |-
-    Everyone in this town just has a different shape to their hips...totally not what I'm looking for...
-    Ah, of course I'm talking about automatons!${prompt}
-  5917: So you couldn't find anything either, could you?${prompt}
+    Tout le monde dans cette ville a une forme de hanches différente... totalement pas ce que je cherche...
+    Ah, bien sûr, je parle des automates !${prompt}
+  5917: Donc vous n'avez rien pu trouver non plus, n'est-ce pas ?${prompt}
   5918: |-
-    What!?
-    You found an automaton that fit my description?${prompt}
+    Quoi !?
+    Vous avez trouvé un automate qui correspond à ma description ?${prompt}
   5919: |-
     Hmmm...
-    An automaton with a foul mouth...fluent in the common tongue...${prompt}
-  5920: And accompanied by a bald Hume? That sounds like...no, that must be my automaton!${prompt}
-  5921: Well, how was it? Did everything seem okay?${prompt}
+    Un automate avec une bouche sale... parlant couramment le langage commun...${prompt}
+  5920: Et accompagné d'un Hume chauve ? Ça semble être... non, ça doit être mon automate !${prompt}
+  5921: Alors, comment était-il ? Tout semblait-il en ordre ?${prompt}
   5922: |-
-    What!?
-    It had the bald Hume at its beck and call?${prompt}
+    Quoi !?
+    Il avait le Hume chauve sous ses ordres ?${prompt}
   5923: |-
-    ...I should have known.
-    I was a fool for worrying.${prompt}
-  5924: Anyway, just knowing that my automaton is well is all the information I need for now.${prompt}
-  5925: Thanks for your help. Here's a little token of thanks for your time.${prompt}
-  5926: Master Shamarhaan gave this to me, but I've never had the chance to use it... You'd probably appreciate it more than I could.${prompt}
-  5927: If anything else comes up, just let me know!${prompt}
-  5928: It's a foolproof plan! I'm a genius!${prompt}
+    ... J'aurais dû le savoir.
+    J'étais un idiot de m'inquiéter.${prompt}
+  5924: En tout cas, savoir que mon automate va bien est toute l'information dont j'ai besoin pour l'instant.${prompt}
+  5925: Merci pour votre aide. Voici un petit cadeau pour vous remercier de votre temps.${prompt}
+  5926: Maître Shamarhaan m'a donné ceci, mais je n'ai jamais eu l'occasion de l'utiliser... Vous l'apprécierez probablement plus que moi.${prompt}
+  5927: Si autre chose se présente, faites-le-moi savoir !${prompt}
+  5928: C'est un plan infaillible ! Je suis un génie !${prompt}
   5929: |-
-    Oh...you again!
-    You always have such great timing...${prompt}
-  5930: I've been thinking of a way to get my automaton back.${prompt}
-  5931: It would be nice if this could all be solved by talking it out, but the thief knows me... As soon as he catches sight of my face, he's sure to take off at top speed.${prompt}
-  5932: It would bring all our efforts to nothing if he escaped, so I've been hard at work formulating a foolproof strategy to recover what is rightfully mine.${prompt}
-  5933: I can't do it without you, though. You will help me, right?${prompt}
+    Oh... vous encore !
+    Vous avez toujours un timing parfait...${prompt}
+  5930: J'ai réfléchi à un moyen de récupérer mon automate.${prompt}
+  5931: Ce serait bien si tout pouvait être résolu en discutant, mais le voleur me connaît... Dès qu'il apercevra mon visage, il s'enfuira à toute vitesse.${prompt}
+  5932: Ça réduirait tous nos efforts à néant s'il s'échappait, donc j'ai travaillé dur pour élaborer une stratégie infaillible pour récupérer ce qui me revient de droit.${prompt}
+  5933: Je ne peux pas le faire sans vous, cependant. Vous allez m'aider, n'est-ce pas ?${prompt}
   5934: |-
-    Help him out?
+    L'aider ?
     ${selection-lines}
-    Of course!
-    Don't feel like it...${prompt}
+    Bien sûr !
+    Pas envie...${prompt}
   5935: |-
-    It's settled, then!
-    First, we've got to make the preparations...${prompt}
-  5936: 'I need you to bring me ${article} ${item-article: 0[2]} and ${article} ${item-article: 1[2]}.${prompt}'
-  5937: Give them to me as soon as you can find them. In the meantime, I'll be busy gathering the other necessary items...${prompt}
-  5938: I'll let you know the details of the plan after the preparations are complete. Good luck!${prompt}
-  5939: 'Bring me ${article} ${item-article: 0[2]} and ${article} ${item-article: 1[2]}, and I''ll explain to you my plan.${prompt}'
-  5940: This is exactly what I needed! Thanks! I've finished my preparations, too.${prompt}
+    C'est décidé, alors !
+    D'abord, il faut faire les préparatifs...${prompt}
+  5936: 'J''ai besoin que vous m''apportiez ${article} ${item-article: 0[2]} et ${article} ${item-article: 1[2]}.${prompt}'
+  5937: Donnez-les-moi dès que vous les aurez trouvés. Pendant ce temps, je serai occupé à rassembler les autres articles nécessaires...${prompt}
+  5938: Je vous expliquerai les détails du plan après que les préparatifs seront terminés. Bonne chance !${prompt}
+  5939: 'Apportez-moi ${article} ${item-article: 0[2]} et ${article} ${item-article: 1[2]}, et je vous expliquerai mon plan.${prompt}'
+  5940: C'est exactement ce dont j'avais besoin ! Merci ! J'ai aussi terminé mes préparatifs.${prompt}
   5941: |-
     Okay, just let me confirm one thing...
     You've managed to get in the thief's good graces, right?${prompt}
