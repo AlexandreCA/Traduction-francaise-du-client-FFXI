@@ -2993,30 +2993,30 @@ entries:
     I'm back from visiting my old moogle friends, kupo!${prompt}
   1380: We all got together and made you a new Mog Safe, kupo! Now you can store as many as 80 items, kupo!${prompt}
   1381: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour actuel.
+    Une fois un point de retour défini, vous y reviendrez chaque fois que vous serez hors combat.
   1382: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  1383: Home point set!${prompt}
-  1384: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  1383: Point de retour défini !${prompt}
+  1384: Un point de retour peut être configuré comme un endroit où retourner à Vana'diel quand vous êtes assommé. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   1385: |-
-    What will you do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres réglages.
+    Après réflexion, laissez tomber.${prompt}
   1386: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  1387: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
+  1387: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   1388: |-
-    Teleport where?
+    Téléportation vers où ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -3033,81 +3033,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   1389: |-
-    Teleport where?（${zone: 33[2]}）
+    Téléportation vers où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  1390: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  1391: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  1392: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  1390: Vous n'avez pas encore enregistré d'autres points de retour et ne pouvez donc pas vous téléporter.${prompt}
+  1391: 'La téléportation vers le point de retour #${number: 2} dans ${zone: 1[2]} coûte ${number: 3} gil.'
+  1392: 'Il n''y a pas de frais pour se téléporter vers le point de retour #${number: 2} dans ${zone: 1[2]}.'
   1393: |-
-    Teleport? (Current gil: ${number: 0})
+    Téléportation ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   1394: |-
-    Teleport to which region?
+    Téléportation vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    Après réflexion, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
     ${choice: 1}[Bastok/Tavnazian Arch].
     ${choice: 1}[Windurst/Lumoria].
     ${choice: 1}[Jeuno/Mamool Ja Savage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Ouest. Aht Urhgan/Île Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   1395: |-
-    Teleport where?
+    Téléportation vers où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  1396: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un lieu favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  1396: Vous pouvez changer la méthode de sélection de la zone pour le point de retour où vous souhaitez vous téléporter.
   1397: |-
-    Which setting would you like?
+    Quel réglage souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  1398: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélection par région.
+    Sélection par extension.${prompt}
+  1398: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   1399: |-
-    Teleport where?
+    Téléportation vers où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -3117,13 +3117,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  1400: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  1401: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  1400: 'Le point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/supprimé de] votre liste de lieux favoris.'
+  1401: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   1402: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16619,179 +16619,179 @@ entries:
   9292: |-
     Magic scrolls!
     Get your magic scrolls here!${prompt}
-  9293: Why not sit back a spell and enjoy the rich aroma and taste of a cup of chai?${prompt}
-  9294: There's nothing like the mature taste and luxurious aroma of coffee... Would you like a cup?${prompt}
-  9295: All the fishing gear you'll ever need, here in one place!${prompt}
+  9293: Pourquoi ne pas vous détendre un peu et savourer l'arôme riche et le goût d'une tasse de chai ?${prompt}
+  9294: Rien ne vaut le goût mature et l'arôme luxueux du café... Vous en voudriez une tasse ?${prompt}
+  9295: Tout l'équipement de pêche dont vous aurez jamais besoin, ici en un seul endroit !${prompt}
   9296: |-
-    Welcome to the Alchemists' Guild.
-    We open ourselves to the hidden secrets of nature in order to create wonders. Are you looking to buy one of them?${prompt}
-  9297: Only members of the Alchemists' Guild have the vision to create such fine products... Would you like to purchase something?${prompt}
+    Bienvenue à la Guilde des Alchimistes.
+    Nous nous ouvrons aux secrets cachés de la nature afin de créer des merveilles. Voulez-vous en acheter une ?${prompt}
+  9297: Seuls les membres de la Guilde des Alchimistes ont la vision pour créer de tels produits fins... Souhaitez-vous acheter quelque chose ?${prompt}
   9298: |-
-    Beyond this gate lies the Commoners' Ward.
-    The area is plagued by the frequent appearance of beastmen. Take care not to meet your demise at their hands, would you?${prompt}
-  9299: The walls built to protect Al Zahbi from the beastmen have been reduced to rubble in several places by the endless waves of attacks. We cannot trust in them to keep us safe any longer.${prompt}
+    Au-delà de cette porte se trouve le Quartier des Communs.
+    La zone est infestée par l'apparition fréquente de bêtes. Prenez garde à ne pas y perdre la vie, voulez-vous ?${prompt}
+  9299: Les murs construits pour protéger Al Zahbi des bêtes ont été réduits en ruines en plusieurs endroits par les vagues incessantes d'attaques. Nous ne pouvons plus nous fier à eux pour notre sécurité.${prompt}
   9300: |-
-    This is the Commissions Agency.
-    If you are a mercenary looking for work, you have come to the right place.${prompt}
+    Voici l'Agence des Commissions.
+    Si vous êtes un mercenaire à la recherche de travail, vous êtes au bon endroit.${prompt}
   9301: |-
-    Welcome to the Chamber of Passage.
-    You must have permission from the Imperial Army if you want to use the runic portal inside.${prompt}
+    Bienvenue à la Chambre du Passage.
+    Vous devez avoir la permission de l'Armée Impériale si vous voulez utiliser le portail runique à l'intérieur.${prompt}
   9302: |-
-    This is Walahra Temple.
-    Our doors are always open to those who seek knowledge.${prompt}
+    Voici le Temple de Walahra.
+    Nos portes sont toujours ouvertes à ceux qui cherchent le savoir.${prompt}
   9303: |-
-    Ahead lies the Imperial Ward.
-    Only citizens of the Empire and those granted consent by the Empress may enter.${prompt}
-  9304: This is Victory Gate, built in commemoration of former Emperor Ulthalam's subjugation of the beastman hordes.${prompt}
-  9305: No matter the size of the crowd, a trained Imperial guard can spot a suspicious character at a hundred yalms.${prompt}
-  9306: Ahead you can find a secret passage that will lead you to a hidden fortress in Bhaflau Thickets.${prompt}
+    Devant vous se trouve le Quartier Impérial.
+    Seuls les citoyens de l'Empire et ceux ayant reçu le consentement de l'Impératrice peuvent y entrer.${prompt}
+  9304: Voici la Porte de la Victoire, construite en commémoration de la soumission des hordes de bêtes par l'ancien Empereur Ulthalam.${prompt}
+  9305: Peu importe la taille de la foule, un garde impérial entraîné peut repérer un personnage suspect à cent yalms.${prompt}
+  9306: Devant vous se trouve un passage secret qui vous mènera à une forteresse cachée dans les Fourrés de Bhaflau.${prompt}
   9307: |-
-    Ahead you can find a passage used for secret envoys and ambush troops.
-    The door at the end of the passage leads to a hidden fortress in the Wajaom Woodlands.${prompt}
-  9308: You're an adventurer, aren't you?${prompt}
-  9309: You look pretty strong, too...${prompt}
-  9310: To tell the truth, I've got a personal request... Would you like to hear it?${prompt}
+    Devant vous se trouve un passage utilisé pour les émissaires secrets et les troupes embusquées.
+    La porte à la fin du passage mène à une forteresse cachée dans les Bois de Wajaom.${prompt}
+  9308: Vous êtes un aventurier, n'est-ce pas ?${prompt}
+  9309: Vous avez l'air plutôt fort aussi...${prompt}
+  9310: Pour être honnête, j'ai une requête personnelle... Voulez-vous l'entendre ?${prompt}
   9311: |-
-    Help him out?
+    L'aider ?
     ${selection-lines}
-    Sure.
-    Not now.${prompt}
-  9312: Oh, thank you!${prompt}
-  9313: Oh well, I'm not going to force you into anything. Just let me know if you change your mind.${prompt}
-  9314: Anyway, I'm sure you've noticed that Al Zahbi isn't very peaceful...${prompt}
-  9315: We're doing our best to ensure the residents' safety, but there are simply too many lawbreakers to handle...${prompt}
-  9316: There are always problems coming in by the bucketload, but among them...${prompt}
-  9317: The other day, a guy named Duuruhn went missing while undergoing an investigation of the infamous “Two Horn.”${prompt}
+    Bien sûr.
+    Pas maintenant.${prompt}
+  9312: Oh, merci !${prompt}
+  9313: Eh bien, je ne vais pas vous forcer à quoi que ce soit. Faites-le moi savoir si vous changez d'avis.${prompt}
+  9314: De toute façon, je suis sûr que vous avez remarqué qu'Al Zahbi n'est pas très paisible...${prompt}
+  9315: Nous faisons de notre mieux pour assurer la sécurité des résidents, mais il y a tout simplement trop de contrevenants à gérer...${prompt}
+  9316: Il y a toujours des problèmes qui arrivent par seaux, mais parmi eux...${prompt}
+  9317: L'autre jour, un type nommé Duuruhn a disparu alors qu'il menait une enquête sur le tristement célèbre « Deux Corne ».${prompt}
   9318: |-
-    You've never heard of Two Horn?
-    Two Horn's the leader of a gang of hot-blooded hooligans...${prompt}
-  9319: I've heard frightening things...that Two Horn is a Galka as big as a Troll, and hefts an enormous two-handed axe...${prompt}
-  9320: Anyway, they're all just rumors, and no one actually knows who Two Horn really is.${prompt}
-  9321: Duuruhn was supposed to be investigating the matter, but all contact with him has been broken off since yesterday.${prompt}
-  9322: We sent his friend Ahtuuzah after him not long ago, but...${prompt}
-  9323: What's happened? Are you all right!?${prompt}
+    Vous n'avez jamais entendu parler de Deux Corne ?
+    Deux Corne est le chef d'une bande de voyous à sang chaud...${prompt}
+  9319: J'ai entendu des choses effrayantes... qu'il s'agit d'un Galka aussi grand qu'un Troll, maniant une énorme hache à deux mains...${prompt}
+  9320: Enfin, ce ne sont que des rumeurs, et personne ne sait vraiment qui est Deux Corne.${prompt}
+  9321: Duuruhn était censé enquêter sur cette affaire, mais tout contact avec lui a été rompu depuis hier.${prompt}
+  9322: Nous avons envoyé son ami Ahtuuzah à sa recherche il y a peu, mais...${prompt}
+  9323: Que s'est-il passé ? Est-ce que vous allez bien !?${prompt}
   9324: |-
-    It's no use...
-    I followed one of Two Horn's henchmen as far as Mamook, but they caught on...${prompt}
-  9325: They caught me off guard...${prompt}
+    C'est inutile...
+    J'ai suivi un des sbires de Deux Corne jusqu'à Mamook, mais ils m'ont repéré...${prompt}
+  9325: Ils m'ont pris par surprise...${prompt}
   9326: |-
-    This is terrible...
-    Did you manage to catch a glimpse of Two Horn?${prompt}
-  9327: I did...manage that. Two Horn is...${prompt}
-  9328: Is...?${prompt}
-  9329: A Mamool Ja...an...absolutely terrifying Mamool Ja...${prompt}
+    C'est terrible...
+    Avez-vous réussi à apercevoir Deux Corne ?${prompt}
+  9327: J'ai... réussi à le voir. Deux Corne est...${prompt}
+  9328: Est...?${prompt}
+  9329: Un Mamool Ja... un... Mamool Ja absolument terrifiant...${prompt}
   9330: Mamool Ja?${prompt}
-  9331: After this much time has passed, Duuruhn must be...${prompt}
-  9332: No, I refuse to believe it. We must hurry.${prompt}
-  9333: Adventurer, this is the task I lay before you. Please investigate this matter.${prompt}
-  9334: Unfortunately, I think this may be the toughest problem we have ever faced...${prompt}
-  9335: It would be wise to stop by the information center before you go. The Qiqirn who works there may have some useful information.${prompt}
-  9336: And remember, this is top secret.${prompt}
-  9337: No one must know that a soldier of the Imperial Army was done in by the Mamool Ja...${prompt}
-  9338: I wish you luck, adventurer.${prompt}
-  9339: You made it back alive?${prompt}
-  9340: H-how was it?${prompt}
+  9331: Après tout ce temps, Duuruhn doit être...${prompt}
+  9332: Non, je refuse d'y croire. Nous devons nous dépêcher.${prompt}
+  9333: Aventurier, voici la tâche que je vous confie. Veuillez enquêter sur cette affaire.${prompt}
+  9334: Malheureusement, je pense que c'est peut-être le plus gros problème auquel nous ayons jamais été confrontés...${prompt}
+  9335: Il serait sage de passer par le centre d'information avant de partir. Le Qiqirn qui y travaille pourrait avoir des informations utiles.${prompt}
+  9336: Et souvenez-vous, c'est top secret.${prompt}
+  9337: Personne ne doit savoir qu'un soldat de l'Armée Impériale a été vaincu par un Mamool Ja...${prompt}
+  9338: Je vous souhaite bonne chance, aventurier.${prompt}
+  9339: Vous êtes revenu vivant ?${prompt}
+  9340: C-comment ça s'est passé ?${prompt}
   9341: |-
-    What?
-    Two Horn was nothing more than a rumor?${prompt}
-  9342: So it was just a regular Mamool Ja...and Duuruhn is still missing...${prompt}
+    Quoi ?
+    Deux Corne n'était qu'une rumeur ?${prompt}
+  9342: Donc ce n'était qu'un Mamool Ja ordinaire... et Duuruhn est toujours porté disparu...${prompt}
   9343: |-
-    That's a disappointment...
-    Thanks for your work, though.${prompt}
+    C'est décevant...
+    Merci pour le travail, cependant.${prompt}
   9344: |-
-    Something's not sitting quite right with me, though...
-    Oh well. As long as you've taken care of the Mamool Ja, that should be enough.${prompt}
+    Quelque chose ne me semble pas tout à fait juste, cependant...
+    Oh, tant pis. Tant que vous avez traité le Mamool Ja, ça devrait suffire.${prompt}
   9345: |-
-    Please accept my thanks.
-    I hope to have your assistance again if anything arises.${prompt}
-  9346: Bask in the brilliance of Victory Gate. Nothing better represents the glory of the Empire!${prompt}
-  9347: The information center is located to the south, in Stoneserpent Square.${prompt}
+    Veuillez accepter mes remerciements.
+    J'espère pouvoir compter sur votre aide à nouveau si quelque chose se présente.${prompt}
+  9346: Baignez dans l'éclat de la Porte de la Victoire. Rien ne représente mieux la gloire de l'Empire !${prompt}
+  9347: Le centre d'information se trouve au sud, sur la Place du Serpent de Pierre.${prompt}
   9348: |-
-    Welcome to the resplendent Imperial Whitegate.
-    Commoners are denied entry.${prompt}
-  9349: The Seagull Phratrie's headquarters are said to be located somewhere on Arrapago Reef, but we have yet to pinpoint their exact location.${prompt}
+    Bienvenue dans la splendide Porte Blanche Impériale.
+    L'entrée est refusée aux roturiers.${prompt}
+  9349: On dit que le quartier général de la Fratrie des Mouettes se trouve quelque part sur le Récif d'Arrapago, mais nous n'avons pas encore localisé exactement l'endroit.${prompt}
   9350: |-
-    Greetings...
-    I see you have been drawn in by the spectacle of my massive magical aura...
-    Do not be embarrassed. You are not the first.${prompt}
+    Salutations...
+    Je vois que vous avez été attiré par le spectacle de mon immense aura magique...
+    N'ayez pas honte. Vous n'êtes pas le premier.${prompt}
   9351: |-
-    Perhaps I shall bless you with a demonstration?
-    I can snatch you up in an eldritch embrace and transport you to a far-off land.
-    How does Jeuno sound?${prompt}
+    Peut-être devrais-je vous bénir avec une démonstration ?
+    Je peux vous envelopper dans une étreinte mystique et vous transporter vers une terre lointaine.
+    Que diriez-vous de Jeuno ?${prompt}
   9352: |-
-    But I must have a tribute to match my brilliance...
-    Ah yes, ${article} ${item-article: 0[2]} would be perfect!${prompt}
+    Mais je dois recevoir un tribut à la hauteur de mon éclat...
+    Ah oui, ${article} ${item-article: 0[2]} serait parfait !${prompt}
   9353: |-
-    There is no hurry--the stream of time shall wait for one such as I.
-    When you are prepared, trade me the treasure I ask for and you will find yourself whisked to the center of Jeuno in a twinkling...${prompt}
+    Il n'y a pas d'urgence - le cours du temps attendra pour quelqu'un comme moi.
+    Quand vous serez prêt, échangez-moi le trésor que je demande et vous vous retrouverez propulsé au centre de Jeuno en un clin d'œil...${prompt}
   9354: |-
-    I see you have brought me my ${item-singular: 0[2]}.
-    Your tribute has bought you a first-class ticket to the Duchy of Jeuno!${prompt}
-  9355: Prepare yourself for the height of teleportation excellence!
+    Je vois que vous m'avez apporté mon ${item-singular: 0[2]}.
+    Votre tribut vous a acheté un billet de première classe pour le Duché de Jeuno !${prompt}
+  9355: Préparez-vous pour l'excellence ultime en matière de téléportation !
   9356: |-
-    That smell...
-    You reek of amateur sorcery.${prompt}
-  9357: It seems my superior services have been spurned for back-alley parlor tricks.${prompt}
-  9358: I'll thank you to take that offensive stink elsewhere.${prompt}
-  9359: I see you have developed a fondness for my mystical magnificence.${prompt}
+    Cette odeur...
+    Vous empestez la sorcellerie d'amateur.${prompt}
+  9357: Il semble que mes services supérieurs aient été dédaignés pour des tours de magie de bas étage.${prompt}
+  9358: Je vous remercie de bien vouloir emporter cette puanteur offensante ailleurs.${prompt}
+  9359: Je vois que vous avez développé un penchant pour ma magnificence mystique.${prompt}
   9360: |-
-    Again, you come to me.
-    You can never forget the enchanted exhiliration that accompanies a top-class teleportation...${prompt}
-  9361: You are a slave to my superlative spellcraft.${prompt}
-  9362: And since you find me in high spirits this day, I will even consent to transport you to the nation of your allegiance.${prompt}
+    Encore, vous venez à moi.
+    Vous ne pouvez jamais oublier l'exaltation enchantée qui accompagne une téléportation de classe supérieure...${prompt}
+  9361: Vous êtes esclave de mon art magique inégalé.${prompt}
+  9362: Et comme vous me trouvez de bonne humeur ce jour, je consens même à vous transporter dans la nation de votre allégeance.${prompt}
   9363: |-
-    There is no hurry--the stream of time shall wait for one such as I.
-    When you are prepared, trade me the treasure I ask for and you will find yourself instantly whisked to the center of your destination...${prompt}
-  9364: Have you decided the destination for this intoxicating transit?${prompt}
+    Il n'y a pas d'urgence - le cours du temps attendra pour quelqu'un comme moi.
+    Quand vous serez prêt, échangez-moi le trésor que je demande et vous vous retrouverez instantanément propulsé au centre de votre destination...${prompt}
+  9364: Avez-vous décidé de la destination pour ce transit enivrant ?${prompt}
   9365: |-
-    Your destination?
+    Votre destination ?
     ${selection-lines}
-    The Duchy of Jeuno.
-    Nation of allegiance.${prompt}
+    Le Duché de Jeuno.
+    Nation d'allégeance.${prompt}
   9366: |-
-    I see you have brought me my ${item-singular: 0[2]}.
-    Your tribute has bought you a first-class ticket to ${choice: 1}[the Kingdom of San d'Oria/the Republic of Bastok/the Federation of Windurst]!${prompt}
+    Je vois que vous m'avez apporté mon ${item-singular: 0[2]}.
+    Votre tribut vous a acheté un billet de première classe pour ${choice: 1}[le Royaume de San d'Oria/la République de Bastok/la Fédération de Windurst] !${prompt}
   9367: 'DEBUG:${number: 2}${prompt}'
-  9368: You have something you want delivered?${prompt}
+  9368: Vous avez quelque chose que vous souhaitez faire livrer ?${prompt}
   9369: |-
-    Parcel delivery.
-    I am at your service.${prompt}
-  9370: You are a mercenary from Salaheem's Sentinels, aren't you?${prompt}
-  9371: This is just between me and you, but there are certain jobs that they don't even trust the Commissions Agency with. Would you be interested?${prompt}
-  9372: What you will be doing is extremely straightforward.${prompt}
-  9373: Go to a designated area and annihilate the enemy.${prompt}
-  9374: I don't know what the Imperial Army seeks to gain from this, and I don't ask. I'm just a middleman, nothing more.${prompt}
-  9375: I can determine whether or not you are suitable for a job based on your Imperial Standing...${prompt}
+    Livraison de colis.
+    Je suis à votre service.${prompt}
+  9370: Vous êtes un mercenaire des Sentinelles de Salaheem, n'est-ce pas ?${prompt}
+  9371: Ceci reste entre nous, mais il y a certains travaux qu'ils ne confient même pas à l'Agence des Commissions. Seriez-vous intéressé ?${prompt}
+  9372: Ce que vous ferez est extrêmement simple.${prompt}
+  9373: Allez dans une zone désignée et anéantissez l'ennemi.${prompt}
+  9374: Je ne sais pas ce que l'Armée Impériale cherche à en tirer, et je ne demande pas. Je ne suis qu'un intermédiaire, rien de plus.${prompt}
+  9375: Je peux déterminer si vous êtes apte pour un travail en fonction de votre Prestige Impérial...${prompt}
   9376: |-
-    Well, well...
-    ${number: 0} ${choice-plurality: 0}[Imperial Standing credit/Imperial Standing credits], I see...${prompt}
-  9377: Um... Let's just pretend you never met me, all right? Fate permitting, we'll meet again someday when you're ready.${prompt}
-  9378: If you think you can handle it and you're willing to sacrifice some of your Imperial Standing, I have a number of jobs for you to attempt.${prompt}
+    Eh bien, eh bien...
+    ${number: 0} ${choice-plurality: 0}[point de Prestige Impérial/points de Prestige Impérial], je vois...${prompt}
+  9377: Euh... Faisons comme si vous ne m'aviez jamais rencontré, d'accord ? Le destin aidant, nous nous reverrons un jour quand vous serez prêt.${prompt}
+  9378: Si vous pensez pouvoir le gérer et que vous êtes prêt à sacrifier une partie de votre Prestige Impérial, j'ai plusieurs jobs à vous proposer.${prompt}
   9379: |-
-    Which would you like to accept?
+    Lequel souhaitez-vous accepter ?
     ${selection-lines}
-    None.
-    ${number: 2} ${choice-plurality: 2}credit[/s]: Level 60 offer
-    ${number: 3} ${choice-plurality: 3}credit[/s]: Level 75 offer${prompt}
-  9380: Is that so? Too bad... Well then, please forget you ever met me.${prompt}
-  9381: Okay. Your Imperial Standing has decreased some, just like I told you it would.${prompt}
-  9382: 'Here, you''ll need this ${keyitem-singular: 1[2]}.${prompt}'
-  9383: This will get you through to the Jade Sepulcher, Navukgo Execution Chamber, and Talacca Cove.${prompt}
-  9384: There is no need to inform me whether you succeed or fail. You will receive your reward on site.${prompt}
-  9385: Safe travels!${prompt}
-  9386: Hey, hey... What are you doing, running off from a job? Get back out there!${prompt}
-  9387: You might be interested in me, but I'm not interested in you. Sorry.${prompt}
-  9388: I can't give you a job like that with your Imperial Standing. Forget about it, all right?${prompt}
-  9389: I don't have any offers for you at the moment, but I'll let you know when something comes up.${prompt}
-  9390: I'm Nadee Periyaha, the mercenary! I used to live in Nashmau.${prompt}
-  9391: Oh, don't tell me...you've met me there before?${prompt}
-  9392: I started to pick up Qiqirn ways when I was there. It can make life difficult, so you should be careful too!${prompt}
-  9393: There are many Qiqirn even in this town... Don't let your guard down, or yooo could end up speaking slooowly just like they dooo.${prompt}
-  9394: '...Oh no! I didn''t do it again, did I!?${prompt}'
-  9395: Mamoook very spoooky place. Cacaroon never want go there.${prompt}
-  9396: Welcome to Walahra Temple. Our doors are always open to those seeking knowledge.${prompt}
-  9397: Our sanctuary is the resting place of the Gordeus--that which holds the answer to all existence on Urhguum...${prompt}
-  9398: Here you may gaze upon the “Gordeus,” the very embodiment of Sage Walahra's philosophies.${prompt}
+    Aucun.
+    ${number: 2} ${choice-plurality: 2}crédit[/s]: Offre de niveau 60
+    ${number: 3} ${choice-plurality: 3}crédit[/s]: Offre de niveau 75${prompt}
+  9380: C'est comme ça ? Dommage... Eh bien, oubliez que vous m'ayez jamais rencontré.${prompt}
+  9381: D'accord. Votre Prestige Impérial a diminué quelque peu, comme je vous l'avais dit.${prompt}
+  9382: 'Voici, vous aurez besoin de ce ${keyitem-singular: 1[2]}.${prompt}'
+  9383: Cela vous permettra d'accéder au Sépulcre de Jade, à la Chambre d'Exécution de Navukgo, et à la Baie de Talacca.${prompt}
+  9384: Il n'est pas nécessaire de m'informer de votre réussite ou de votre échec. Vous recevrez votre récompense sur place.${prompt}
+  9385: Bon voyage !${prompt}
+  9386: Hé, hé... Qu'est-ce que vous faites, à fuir un travail ? Retournez là-bas !${prompt}
+  9387: Vous pourriez être intéressé par moi, mais je ne le suis pas par vous. Désolé.${prompt}
+  9388: Je ne peux pas vous donner ce genre de travail avec votre Prestige Impérial. Oubliez ça, d'accord ?${prompt}
+  9389: Je n'ai aucune offre pour vous en ce moment, mais je vous préviendrai si quelque chose se présente.${prompt}
+  9390: Je suis Nadee Periyaha, le mercenaire ! J'ai vécu à Nashmau auparavant.${prompt}
+  9391: Oh, ne me dites pas... nous nous sommes déjà rencontrés là-bas ?${prompt}
+  9392: J'ai commencé à adopter les manières des Qiqirn quand j'étais là-bas. Ça peut rendre la vie difficile, alors soyez prudent également !${prompt}
+  9393: Il y a beaucoup de Qiqirn même dans cette ville... Ne relâchez pas votre garde, ou vous pourriez vous retrouver à parler lentement comme eux...${prompt}
+  9394: '...Oh non ! Je ne l''ai pas fait encore une fois, n''est-ce pas !?${prompt}'
+  9395: Mamoook très endroit effrayant. Cacaroon jamais vouloir aller là.${prompt}
+  9396: Bienvenue au Temple de Walahra. Nos portes sont toujours ouvertes à ceux qui cherchent le savoir.${prompt}
+  9397: Notre sanctuaire est le lieu de repos du Gordeus - ce qui détient la réponse à toute l'existence sur Urhguum...${prompt}
+  9398: Ici, vous pouvez contempler le "Gordeus", l'incarnation même des philosophies du Sage Walahra.${prompt}
   9399: |-
     Sage Walahra was the founder of the philosophy “From the void all things are born. To the void all things return.”
     Without a full understanding of those words, one shall never approach the fundamental truth of existence.${prompt}
