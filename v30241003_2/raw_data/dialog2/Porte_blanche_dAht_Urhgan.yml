@@ -12814,99 +12814,99 @@ entries:
   7023: Ahem. Naturellement, je ne fais pas cette demande sans la promesse d'une compensation. Une fois l'armure examinée, elle vous sera rendue dans un état impeccable, reforgée en une forme plus puissante.${prompt}
   7024: Peut-être que ce catalogue expliquera mieux ce que vous avez à gagner...${prompt}
   7025: |-
-    Which do you wish to see?
+    Lequel souhaitez-vous voir ?
     ${selection-lines}
-    Ares Plate Armor.
-    Skadi Leather Armor.
-    Usukane Armor.
-    Marduk Jubbah.
-    Morrigan Robe.
-    None.${prompt}
-  7026: 'Ah, so the ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe] has caught your eye. Would you like to hear more about the separate parts of the armor?${prompt}'
+    Armure de Plaques d'Arès.
+    Armure de Cuir de Skadi.
+    Armure d'Usukane.
+    Jubbah de Marduk.
+    Robe de Morrigan.
+    Aucun.${prompt}
+  7026: 'Ah, donc l''{choice: 0}[Armure de Plaques d''Arès/Armure de Cuir de Skadi/Armure d''Usukane/Jubbah de Marduk/Robe de Morrigan] a attiré votre attention. Voulez-vous en savoir plus sur les différentes parties de l''armure ?${prompt}'
   7027: |-
-    Hear about the parts?
+    En savoir plus sur les parties ?
     ${selection-lines}
-    Do tell.
-    Not right now.${prompt}
+    Dites-moi.
+    Pas tout de suite.${prompt}
   7028: |-
-    Which part do you ask about?
+    À propos de quelle partie demandez-vous ?
     ${selection-lines}
-    The head.
-    The body.
-    The hands.
-    The legs.
-    The feet.
-    None.${prompt}
-  7029: 'To create this part, you will need to prepare ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, and ${article} ${item-article: 2[2]}.${prompt}'
-  7030: 'As the mediator in this transaction, I also ask the paltry sum of 6 ${item-plural: 0[2]} and 10 ${item-plural: 1[2]}.${prompt}'
-  7031: After the meticulous ministrations of the Rogue Artisan Guild, the armor will be returned to you as an item of true magnificence.${prompt}
-  7032: There are five sets of armor that can be forged in this way.${prompt}
-  7033: You will have the chance to select which of these wondrous sets of armor you wish the Rogue Artisan Guild to focus their attention upon.${prompt}
-  7034: As long as the guild isn't in the middle of reforging the set you have chosen, you can change your mind at any time.${prompt}
-  7035: Feel free to bring me even a single piece you have found in the remnants--I shall store it in my gallery with the utmost care and vigilance.${prompt}
-  7036: Be aware that I cannot accept pieces from more than one set at a time. I would dearly love to store them all, but the space is limited.${prompt}
-  7037: My gallery was meant to house my own personal collection, but...<sob>.${prompt}
-  7038: Ahem. Yes. I will gladly offer the use of my gallery, if only to display those treasures, for a short while...${prompt}
-  7039: Do not be concerned by my zeal--the armor will be available to you at any time.${prompt}
-  7040: I anxiously await any news of your success in obtaining these truly epic pieces.${prompt}
-  7041: It has come to my attention that weapons of extraordinary quality have also been discovered within the ruins. I would be more than happy to offer the use of my gallery should you acquire any of these masterful pieces.${prompt}
+    La tête.
+    Le corps.
+    Les mains.
+    Les jambes.
+    Les pieds.
+    Aucune.${prompt}
+  7029: 'Pour créer cette partie, vous devrez préparer ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, et ${article} ${item-article: 2[2]}.${prompt}'
+  7030: 'En tant que médiateur dans cette transaction, je demande également la somme dérisoire de 6 ${item-plural: 0[2]} et 10 ${item-plural: 1[2]}.${prompt}'
+  7031: Après les minutieuses interventions de la Guilde des Artisans Renégats, l'armure vous sera rendue sous forme d'un véritable objet de magnificence.${prompt}
+  7032: Il existe cinq ensembles d'armure qui peuvent être forgés de cette manière.${prompt}
+  7033: Vous aurez l'occasion de choisir sur quel ensemble merveilleux d'armures vous souhaitez que la Guilde des Artisans Renégats concentre son attention.${prompt}
+  7034: Tant que la guilde n'est pas en train de reforger l'ensemble que vous avez choisi, vous pouvez changer d'avis à tout moment.${prompt}
+  7035: N'hésitez pas à m'apporter même une seule pièce que vous avez trouvée dans les vestiges - je la conserverai dans ma galerie avec le plus grand soin et la plus grande vigilance.${prompt}
+  7036: Sachez que je ne peux accepter des pièces de plus d'un ensemble à la fois. J'aimerais tant les conserver tous, mais l'espace est limité.${prompt}
+  7037: Ma galerie était destinée à abriter ma propre collection personnelle, mais... <sanglot>.${prompt}
+  7038: Hum. Oui. Je serai heureux d'offrir l'utilisation de ma galerie, ne serait-ce que pour exposer ces trésors, pour un court moment...${prompt}
+  7039: Ne vous inquiétez pas de mon zèle - l'armure vous sera disponible à tout moment.${prompt}
+  7040: J'attends avec impatience toute nouvelle de votre succès dans l'obtention de ces pièces vraiment épiques.${prompt}
+  7041: Il est venu à ma connaissance que des armes de qualité extraordinaire ont également été découvertes dans les ruines. Je serais plus qu'heureux d'offrir l'utilisation de ma galerie si vous acquérez l'une de ces pièces maîtresses.${prompt}
   7042: |-
-    Sadly, though, I originally fashioned my display cases and cabinets for the express purpose of housing fine armors.
-    Weapons must to be stored separately and carefully, to ensure they don't suffer any nicks or dings.
-    Should you want me to store a weapon, I'm afraid I'll have to ask that you contribute ${article} ${item-article: 0[2]} to my gallery.${prompt}
-  7043: '${color-alt: 121}Turning in a weapon for safekeeping will result in all data associated with that weapon to be reset. Please exercise caution!${prompt}'
-  7044: Ah, you have returned.${prompt}
+    Malheureusement, cependant, j'ai initialement conçu mes vitrines et mes armoires dans le but exprès d'abriter de belles armures.
+    Les armes doivent être stockées séparément et avec soin, pour s'assurer qu'elles ne subissent pas de rayures ou de chocs.
+    Si vous voulez que je stocke une arme, j'ai bien peur de devoir vous demander de contribuer ${article} ${item-article: 0[2]} à ma galerie.${prompt}
+  7043: '${color-alt: 121}Déposer une arme pour conservation entraînera la réinitialisation de toutes les données associées à cette arme. Soyez prudent !${prompt}'
+  7044: Ah, vous êtes de retour.${prompt}
   7045: |-
-    What would you wish of me?
+    Que souhaitez-vous de moi ?
     ${selection-lines}
-    Choose armor set.
-    Retrieve armor.
-    Retrieve weapon.
-    Nothing.${prompt}
-  7046: Which set of armor do you have your eye on?${prompt}
+    Choisir un ensemble d'armure.
+    Récupérer de l'armure.
+    Récupérer une arme.
+    Rien.${prompt}
+  7046: Sur quel ensemble d'armure avez-vous jeté votre dévolu ?${prompt}
   7047: |-
-    Which do you choose?
+    Lequel choisissez-vous ?
     ${selection-lines}
-    Ares Plate Armor.
-    Skadi Leather Armor.
-    Usukane Armor.
-    Marduk Jubbah.
-    Morrigan Robe.
-    None.${prompt}
+    Armure de Plaques d'Arès.
+    Armure de Cuir de Skadi.
+    Armure d'Usukane.
+    Jubbah de Marduk.
+    Robe de Morrigan.
+    Aucun.${prompt}
   7048: |-
-    Have you decided?
+    Avez-vous décidé ?
     ${selection-lines}
-    Ask about the parts.
-    This is the one.
-    Not yet.${prompt}
+    Demander à propos des parties.
+    C'est celui-ci.
+    Pas encore.${prompt}
   7049: |-
-    Very well.
-    I will ask for my mediation fee once you have all the required pieces of armor for a certain part.${prompt}
-  7050: That is the armor set you've already chosen.${prompt}
+    Très bien.
+    Je demanderai mon tarif de médiation une fois que vous aurez toutes les pièces d'armure requises pour une certaine partie.${prompt}
+  7050: C'est l'ensemble d'armure que vous avez déjà choisi.${prompt}
   7051: |-
-    I believe you had already decided on the ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].
-    Will you abandon your decision, and focus on the ${choice: 1}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe] instead?${prompt}
+    Je crois que vous aviez déjà décidé pour l'{choice: 0}[Armure de Plaques d'Arès/Armure de Cuir de Skadi/Armure d'Usukane/Jubbah de Marduk/Robe de Morrigan].
+    Allez-vous abandonner votre décision, et vous concentrer sur l'{choice: 1}[Armure de Plaques d'Arès/Armure de Cuir de Skadi/Armure d'Usukane/Jubbah de Marduk/Robe de Morrigan] à la place ?${prompt}
   7052: |-
-    Of course.
-    Your armor will be returned to you at once.${prompt}
+    Bien sûr.
+    Votre armure vous sera rendue immédiatement.${prompt}
   7053: |-
-    Change to a different set?
+    Changer pour un autre ensemble ?
     ${selection-lines}
-    Yes.
-    Maybe not.${prompt}
-  7054: Here is your armor.${prompt}
+    Oui.
+    Peut-être pas.${prompt}
+  7054: Voici votre armure.${prompt}
   7055: |-
-    Hmmm, I'm afraid you're unable to carry any more of these.
-    Please organize your belongings before speaking to me again.${prompt}
-  7056: Hmmm, I'm afraid you would topple over if you tried to carry any more. Perhaps you should unburden yourself before you speak to me again.${prompt}
-  7057: It appears you already have this armor on your person.${prompt}
+    Hmmm, j'ai bien peur que vous ne puissiez en porter davantage.
+    Veuillez organiser vos affaires avant de me reparler.${prompt}
+  7056: Hmmm, j'ai bien peur que vous vous écrouleriez si vous essayiez d'en porter plus. Peut-être devriez-vous vous délester avant de me reparler.${prompt}
+  7057: Il semble que vous ayez déjà cette armure sur vous.${prompt}
   7058: |-
-    As you wish.
-    I will be here when you are ready.${prompt}
+    Comme vous voulez.
+    Je serai ici quand vous serez prêt.${prompt}
   7059: |-
-    My gallery is currently a barren space of wasted potential...
-    Not a piece of armor in sight...${prompt}
-  7060: You...want your armor back?${prompt}
+    Ma galerie est actuellement un espace vide et sans potentiel...
+    Pas une pièce d'armure en vue...${prompt}
+  7060: Vous... voulez récupérer votre armure ?${prompt}
   7061: |-
     Which do you want back?
     ${selection-lines}
@@ -13014,107 +13014,107 @@ entries:
   7093: |-
     Here is your completed armor.
     Such masterful work...<sob>.${prompt}
-  7094: Grrr... Who in Altana's name does that vixen think she is!? I'll quit that company of herrrs, just watch me!${prompt}
-  7095: And why can't those three idiots keep theirrr traps shut? Once one pops, they just can't stop, can they?
-  7096: If they'd just go back to holding each other's hands, I could concentrate on my work--not that I'm going to be working here much longerrr!${prompt}
-  7097: If you'd just calm down once in a while, maybe we could finally finish a mission without having to return to our home points after every other battle.${prompt}
-  7098: It was only because you went off ahead of us that we ended up ambushed by those beastmen.${prompt}
-  7099: Hey, don't look at me! If I hadn't taken the lead, we'd have been hiding behind those rocks waiting for Foudeel to make up his mind on whether we should lace our gaiters with single or double knots!${prompt}
-  7100: I was simply attempting to contrive a battle plan that even Bashraf could not foul up.${prompt}
-  7101: Hey! Don't try to put all the blame on me!${prompt}
-  7102: Look who's talking!${prompt}
-  7103: <Sigh> Not one of them man enough to take rrresponsibility for their own blunders. I swear, they haven't changed a bit since their mercenarrry days.${prompt}
-  7104: Now with all this recent quarrelling, I'm usually the one that has to bail them out every time they bungle an assignment.${prompt}
-  7105: And that's why I thought Tehf was tugging my tail when she told me that the three had signed up to be volunteer soldiers.${prompt}
-  7106: Fighting for the Empire... Could they have finally recovered some of those beans that they spilled oh so long ago?${prompt}
-  7107: Foul up? I don't foul up anything!
-  7108: Most of the time...
-  7109: Excuse you!${prompt}
-  7110: Huh?${prompt}
-  7111: I... Uh... You didn't see anything!${prompt}
-  7112: Are you okay, Bash?${prompt}
-  7113: I think so.${prompt}
-  7114: Now where were we?${prompt}
-  7115: Huh? Oh, that. It was all my fault. I'm sorry guys. I'll try to do better next time.${prompt}
-  7116: What's got into you all of a sudden? If you've something to say, say it.${prompt}
-  7117: No. I was just thinking that maybe I am the reason we always fail our missions. I'm not the greatest fighter, you know.${prompt}
-  7118: Maybe you could teach me, Wahboud.${prompt}
-  7119: Well, well. It looks like that fall finally knocked some sense into you. Come on, I know a good place in Wajaom we can practice.${prompt}
-  7120: Ah yes, I know the place of which you speak. Perhaps the lesser colibri will provide ample fodder for Bashraf's training.${prompt}
-  7121: Um, actually, I was hoping we could go alone.${prompt}
-  7122: What do you mean? I know Foudeel can be a bit annoying, but that's no reason to leave him out. You'll want to suck up a little of his brain after basking in my brawn, anyway.${prompt}
-  7123: I don't know if I can handle all that at once. I think I'd better just concentrate on one thing at a time. You understand, right?${prompt}
-  7124: You have made your point quite clear. We shall work on refining your mind at a later date.${prompt}
-  7125: Thanks.${prompt}
-  7126: Now that's odd. You three are usually like bluepeas in a pod.${prompt}
-  7127: I think not, fine lady. To the contrary, there are instances where the needs of the individual take precedence over those of the group.${prompt}
-  7128: Though, it would be an atrocity if one of those individuals were to become more skilled in the arts of combat than another. Might you spare some time and accompany me in polishing my fencing skills in the woodlands?${prompt}
-  7129: As much as I'd like to say "yes," my heart, mind, and common sense advise otherwise. Sorry, Foud.${prompt}
-  7130: But what about this hearty adventurer here? ${choice-player-gender}[He/She] obviously has a lot of free time on ${choice-player-gender}[his/her] hands to be out here listening to us.${prompt}
-  7131: Good day, adventurer. My name is Foudeel P. Fessenphepper III. There has never been a confrontation in which my tactical prowess could not provide my allies the upper hand.${prompt}
-  7132: If you wish to experience my grace and prowess firsthand, I shall be waiting immediately outside the secret passage leading into the Wajaom wilds.${prompt}
-  7133: Quite a show he's putting on, but the truth is that he just wants to keep an eye on his two buddies.${prompt}
-  7134: Sure, he's a pompous, crumpet-eating show-off, but there is a glimmer of good deep down there somewherrre. Why don't you go and play along, just this time? Thanks. I'll owe you one.${prompt}
-  7135: Foudeel should be waiting rrright outside the secret passage to the Wajaom Woodlands. Do this for me and I promise I'll make it up to you.${prompt}
-  7136: That was quick. How was the...training?${prompt}
-  7137: Uneventful.${prompt}
-  7138: Hey, I was just asking...${prompt}
-  7139: Foudeel! Why don't you join us? There are more than enough marids for everybody.${prompt}
-  7140: I believe I'll pass.${prompt}
+  7094: Grrr... Qui cette renarde pense-t-elle être dans le nom d'Altana !? Je vais quitter sa compagnie, regardez-moi !${prompt}
+  7095: Et pourquoi ces trois idiots ne peuvent-ils pas la fermer ? Une fois que l'un commence, ils ne peuvent plus s'arrêter, n'est-ce pas ?
+  7096: S'ils retournaient simplement à se tenir la main, je pourrais me concentrer sur mon travail - pas que je vais rester ici beaucoup plus longerrr !${prompt}
+  7097: Si tu te calmais un peu de temps en temps, peut-être pourrions-nous enfin terminer une mission sans avoir à retourner à nos points de retour après chaque bataille.${prompt}
+  7098: C'est uniquement parce que tu es parti en avant que nous avons été embusqués par ces bêtes.${prompt}
+  7099: Hé, ne me regarde pas ! Si je n'avais pas pris la tête, nous serions encore à nous cacher derrière ces rochers en attendant que Foudeel décide si nous devrions attacher nos jambières avec un ou deux nœuds !${prompt}
+  7100: J'essayais simplement de concocter un plan de bataille que même Bashraf ne pourrait pas saboter.${prompt}
+  7101: Hé ! Ne tente pas de tout me mettre sur le dos !${prompt}
+  7102: Regarde qui parle !${prompt}
+  7103: <Soupir> Pas un seul d'entre eux assez homme pour assumer ses propres erreurs. Je le jure, ils n'ont pas changé depuis leurs jours de mercenaires.${prompt}
+  7104: Avec toutes ces disputes récentes, c'est généralement moi qui dois les sortir du pétrin chaque fois qu'ils ratent une mission.${prompt}
+  7105: Et c'est pourquoi j'ai cru que Tehf me tirait la queue quand elle m'a dit que les trois s'étaient inscrits comme volontaires pour l'armée.${prompt}
+  7106: Combattre pour l'Empire... Ont-ils enfin récupéré quelques-unes de ces informations qu'ils ont divulguées il y a si longtemps ?${prompt}
+  7107: Saboter ? Je ne sabote rien !
+  7108: La plupart du temps...
+  7109: Excuse-moi !${prompt}
+  7110: Hein ?${prompt}
+  7111: Je... Euh... Tu n'as rien vu !${prompt}
+  7112: Ça va, Bash ?${prompt}
+  7113: Je crois que oui.${prompt}
+  7114: Maintenant, où en étions-nous ?${prompt}
+  7115: Hein ? Oh, ça. C'était de ma faute. Je suis désolé les gars. J'essaierai de faire mieux la prochaine fois.${prompt}
+  7116: Qu'est-ce qui t'arrive soudainement ? Si tu as quelque chose à dire, dis-le.${prompt}
+  7117: Non. Je pensais juste que peut-être je suis la raison pour laquelle nous échouons toujours nos missions. Je ne suis pas le plus grand combattant, vous savez.${prompt}
+  7118: Peut-être que tu pourrais m'enseigner, Wahboud.${prompt}
+  7119: Eh bien, eh bien. On dirait que cette chute t'a enfin mis du plomb dans la tête. Viens, je connais un bon endroit à Wajaom où nous pouvons nous entraîner.${prompt}
+  7120: Ah oui, je connais l'endroit dont tu parles. Peut-être que les petits colibris fourniront suffisamment de cible pour l'entraînement de Bashraf.${prompt}
+  7121: Euh, en fait, j'espérais que nous pourrions y aller seuls.${prompt}
+  7122: Qu'est-ce que tu veux dire ? Je sais que Foudeel peut être un peu ennuyeux, mais ce n'est pas une raison de l'exclure. Tu voudras absorber un peu de son cerveau après avoir profité de ma force, de toute façon.${prompt}
+  7123: Je ne sais pas si je peux gérer tout ça en même temps. Je pense qu'il vaut mieux que je me concentre sur une chose à la fois. Tu comprends, n'est-ce pas ?${prompt}
+  7124: Tu as été très clair. Nous travaillerons à affiner ton esprit à une date ultérieure.${prompt}
+  7125: Merci.${prompt}
+  7126: C'est étrange. Vous trois êtes habituellement comme des pois dans une gousse.${prompt}
+  7127: Je ne crois pas, belle dame. Au contraire, il y a des moments où les besoins de l'individu priment sur ceux du groupe.${prompt}
+  7128: Cependant, ce serait un crime si l'un de ces individus devenait plus habile dans les arts du combat que l'autre. Pouvez-vous m'accorder un peu de temps et m'accompagner pour affiner mes compétences en escrime dans les bois ?${prompt}
+  7129: Autant j'aimerais dire "oui", mais mon cœur, mon esprit et mon bon sens me conseillent le contraire. Désolé, Foud.${prompt}
+  7130: Mais qu'en est-il de cet aventurier débrouillard ici ? ${choice-player-gender}[Il/Elle] a visiblement beaucoup de temps libre pour être ici à nous écouter.${prompt}
+  7131: Bonjour, aventurier. Je m'appelle Foudeel P. Fessenphepper III. Il n'y a jamais eu de confrontation où ma prouesse tactique n'a pas donné l'avantage à mes alliés.${prompt}
+  7132: Si vous souhaitez expérimenter ma grâce et mon talent de première main, je serai en attente juste à l'extérieur du passage secret menant aux sauvages de Wajaom.${prompt}
+  7133: Il fait tout un spectacle, mais la vérité est qu'il veut juste garder un œil sur ses deux copains.${prompt}
+  7134: D'accord, c'est un vantard qui mange des crumpets et se donne en spectacle, mais il y a une étincelle de bien là-dedans, quelque part. Pourquoi ne pas jouer le jeu, juste cette fois ? Merci. Je te revaudrai ça.${prompt}
+  7135: Foudeel devrait attendre juste à l'extérieur du passage secret vers les Bois de Wajaom. Fais ça pour moi et je te promets de te le rendre.${prompt}
+  7136: C'était rapide. Comment s'est passé... l'entraînement ?${prompt}
+  7137: Sans incident.${prompt}
+  7138: Hé, je demandais juste...${prompt}
+  7139: Foudeel ! Pourquoi ne pas te joindre à nous ? Il y a plus que assez de marids pour tout le monde.${prompt}
+  7140: Je crois que je vais passer.${prompt}
   7141: |-
-    What's with you?
-    Come on! Turn that frown upside down!${prompt}
-  7142: Perhaps another time.${prompt}
-  7143: Hey, Wahb, he says he doesn't want to come.${prompt}
-  7144: Whatever.${prompt}
-  7145: Did I miss something?${prompt}
-  7146: So that's why Foudeel has his subligarrr in a jumble.${prompt}
-  7147: Well, I wouldn't worry too much. Knowing those three, they'll be back sipping chai before the sun sets.${prompt}
-  7148: Although on the other hand, Foudeel can be a little stubborn at times...${prompt}
-  7149: Hey, do you think you could go check up on him for me? I'll owe you one, okay?${prompt}
-  7150: If he is rrreally as upset as I think he is, he'll probably be over at Shararat's drowning in his sorrows.${prompt}
-  7151: I'm positive that you'll find Foudeel wallowing away at the Shararat Teahouse. Ask arrround for him when you get there.${prompt}
-  7152: Hello, ${choice-player-gender}[sir/ma'am]. May I interest you in today's special--pamama thundermelon chai a la mode?${prompt}
-  7153: You're looking for Foudeel? Oh, well, he's sitting over there.${prompt}
-  7154: Or should I say, loitering... He's usually such a good customer, but today the boy has just been standing there, brooding over his distilled water.${prompt}
-  7155: Oh, it is you...${prompt}
-  7156: You may scurry back off to your adventures, now. I require none of your or Kubhe's shallow sentiment.${prompt}
+    Qu'est-ce qui t'arrive ?
+    Allez ! Transforme ce froncement de sourcils en sourire !${prompt}
+  7142: Peut-être une autre fois.${prompt}
+  7143: Hé, Wahb, il dit qu'il ne veut pas venir.${prompt}
+  7144: Peu importe.${prompt}
+  7145: Ai-je raté quelque chose ?${prompt}
+  7146: C'est pour ça que Foudeel a son subligarrr en désordre.${prompt}
+  7147: Eh bien, je ne m'inquiéterais pas trop. Connaissant ces trois-là, ils seront de retour à siroter du chai avant que le soleil ne se couche.${prompt}
+  7148: D'un autre côté, Foudeel peut parfois être un peu têtu...${prompt}
+  7149: Hé, tu penses que tu pourrais aller voir comment il va pour moi ? Je te revaudrai ça, d'accord ?${prompt}
+  7150: S'il est rrréellement aussi bouleversé que je le pense, il sera probablement chez Shararat à noyer son chagrin.${prompt}
+  7151: Je suis certain que vous trouverez Foudeel en train de se morfondre au Salon de Thé Shararat. Demandez-le quand vous y serez.${prompt}
+  7152: Bonjour, ${choice-player-gender}[monsieur/madame]. Puis-je vous intéresser par la spécialité du jour--un chai à la mode de pamama et de pastèque tonnerre ?${prompt}
+  7153: Vous cherchez Foudeel ? Oh, eh bien, il est assis là-bas.${prompt}
+  7154: Ou devrais-je dire, il traîne... D'habitude, c'est un si bon client, mais aujourd'hui, le garçon est juste resté là, à ruminer sur son eau distillée.${prompt}
+  7155: Oh, c'est vous...${prompt}
+  7156: Vous pouvez retourner à vos aventures, maintenant. Je n'ai besoin d'aucun de vos sentiments superficiels ou de ceux de Kubhe.${prompt}
   7157: |-
-    <Sigh>
-    I cannot begin to fathom why Bashraf insists on spending time alone with Wahboud.${prompt}
-  7158: Wasn't it that milksop who always declared there was nothing that could tear the three of us apart? The three of us...${prompt}
-  7159: But what about me!?${prompt}
+    <Soupir>
+    Je ne peux même pas commencer à comprendre pourquoi Bashraf insiste pour passer du temps seul avec Wahboud.${prompt}
+  7158: N'était-ce pas ce pleutre qui proclamait toujours qu'il n'y avait rien qui pourrait nous séparer, nous trois ? Nous trois...${prompt}
+  7159: Mais moi, alors !?${prompt}
   7160: |-
     Foudeel.
-    I wanted to apologi--
-  7161: Hey wait. This is that ${choice-player-gender}[guy/chick] who was hanging around with you a while back. What have you two been up to?${prompt}
-  7162: What does it matter...?${prompt}
-  7163: Why are you so distant lately? Are you trying to tell me this adventurer is more important to you than I am?${prompt}
-  7164: And what if ${choice-player-gender}[he/she] is? Must I receive permission from you regarding with whom I make my acquaintances?${prompt}
+    Je voulais m'excus--
+  7161: Attendez. C'est ce ${choice-player-gender}[type/nana] qui traînait avec vous il y a un moment. Qu'est-ce que vous avez fait tous les deux ?${prompt}
+  7162: Qu'est-ce que ça peut faire... ?${prompt}
+  7163: Pourquoi es-tu si distant ces derniers temps ? Essaies-tu de me dire que cet aventurier compte plus pour toi que moi ?${prompt}
+  7164: Et si ${choice-player-gender}[il/elle] compte plus ? Dois-je recevoir ta permission pour choisir avec qui je me lie d'amitié ?${prompt}
   7165: '!${prompt}'
-  7166: Oh... I guess you don't... I'm sorry... I was...${prompt}
-  7167: I was just a little worried, but I guess you'll be fine on your own.${prompt}
-  7168: Be seeing you.${prompt}
-  7169: The nerve of that mindless brute... I wonder where he has left Bashraf.${prompt}
-  7170: If anything terrible were to befall him...${prompt}
-  7171: Nothing but whimpering soldiers, meddling adventurers, and snooping Mithra... Why can't I get any paying customers!?${prompt}
-  7172: Foudeel is still at the Shararat Teahouse? Wow... Whateverrr has him down must be really serious.${prompt}
-  7173: Hm? Have I been over therrre to check up on him? Hah! I haven't moved a muscle since we last talked. Just ask anybody.${prompt}
-  7174: Spying? How darrre you accuse me of spying! Obserrrving is a much better way to put it.${prompt}
-  7175: I was minding my business, indulging myself in a pamama thundermelon chai a la mode, when I simply happened to hear my good frrriends Foudeel and Wahboud having a rather heated conversation at the next table.${prompt}
-  7176: You think there is something wrrrong with them?${prompt}
-  7177: I-I have no idea what you're talking a-about.${prompt}
-  7178: I removed the words "scheming," "conniving," and "hustling" from my vocabulary after my last rrrun-in with those three.${prompt}
+  7166: Oh... Je suppose que non... Je suis désolé... J'étais...${prompt}
+  7167: J'étais juste un peu inquiet, mais je suppose que tu t'en sortiras seul.${prompt}
+  7168: À plus tard.${prompt}
+  7169: L'audace de ce brute sans cervelle... Je me demande où il a laissé Bashraf.${prompt}
+  7170: Si jamais quelque chose de terrible devait lui arriver...${prompt}
+  7171: Rien que des soldats pleurnichards, des aventuriers fouineurs et des Mithra curieux... Pourquoi n'ai-je pas de clients payants !?${prompt}
+  7172: Foudeel est toujours au Salon de Thé Shararat ? Waouh... Quoi qu'il ait, ça doit être vraiment sérieux.${prompt}
+  7173: Hm ? Suis-je allé le voir ? Ha ! Je n'ai pas bougé un muscle depuis notre dernière conversation. Demandez à n'importe qui.${prompt}
+  7174: Espionner ? Comment osez-vous m'accuser d'espionner ! Obserrrver est une bien meilleure façon de le dire.${prompt}
+  7175: Je m'occupais de mes affaires, en me délectant d'un chai à la mode de pamama et de pastèque tonnerre, quand j'ai simplement entendu mes bons amis Foudeel et Wahboud avoir une conversation plutôt animée à la table d'à côté.${prompt}
+  7176: Vous pensez qu'il y a quelque chose qui ne va pas chez eux ?${prompt}
+  7177: J-je ne sais absolument pas de quoi vous parlez.${prompt}
+  7178: J'ai banni les mots "comploter," "ourdir," et "arnaquer" de mon vocabulaire après ma dernière rencontre avec ces trois-là.${prompt}
   7179: |-
-    I'm clean, I tell you!
+    Je suis clean, je vous dis !
     ${selection-lines}
-    You do look awfully nice today.
-    Alright. I give up.${prompt}
-  7180: Good! Now off with you. I'm a busy woman!${prompt}
-  7181: Wh-why would I know the reason those thrrree are acting like nutkins in a peanut field?${prompt}
-  7182: I do, don't I? Some women find it harrrd to keep up their looks, but for me, maintaining this pristine visage comes as natural as waking up in the morrrning.${prompt}
-  7183: I know, I know. There are thousands of girrrls out there with charm, and thousands more with faces to die for. But only once in a generation does there come along someone blessed with a perrrfect combination of both--an angel created in the image of the goddess herself.${prompt}
-  7184: <Sigh>... And I know that a woman with so much shouldn't have to lie about what she may or may not have done...${prompt}
+    Vous avez l'air vraiment bien aujourd'hui.
+    D'accord. Je capitule.${prompt}
+  7180: Bien ! Maintenant, partez. Je suis une femme occupée !${prompt}
+  7181: P-pourquoi saurais-je pourquoi ces trrrois se comportent comme des écureuils dans un champ de cacahuètes ?${prompt}
+  7182: Je l'ai, n'est-ce pas ? Certaines femmes trouvent difficile de maintenir leur apparence, mais pour moi, garder ce visage impeccable est aussi naturel que de se réveiller le matin.${prompt}
+  7183: Je sais, je sais. Il y a des milliers de filles là dehors avec du charme, et des milliers d'autres avec des visages à tomber par terre. Mais une fois par génération, il y a quelqu'un de béni avec une combinaison parfaite des deux - un ange créé à l'image de la déesse elle-même.${prompt}
+  7184: <Soupir>... Et je sais qu'une femme avec tant de qualités ne devrait pas avoir à mentir sur ce qu'elle a ou n'a pas fait...${prompt}
   7185: |-
     I'm sorry, ${name-player}!
     It's all my fault!
