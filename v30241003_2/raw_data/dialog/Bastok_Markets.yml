@@ -16680,12 +16680,12 @@ entries:
   6754: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  6755: How about a magic map to help you on your adventures?${prompt}
+  6755: Que diriez-vous d'une carte magique pour vous aider dans vos aventures ?${prompt}
   6756: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
+    Refuser.
+    Demander des informations sur les cartes.
     ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
     ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
     ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
@@ -16702,254 +16702,254 @@ entries:
     ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
     ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
     ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6757: If you have a map, you can check both the lay of the land and your location whenever you enter an area.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
+  6757: Si vous avez une carte, vous pouvez vérifier à la fois la topographie et votre position chaque fois que vous entrez dans une zone.${prompt}
   6758: |-
-    If you belong to a party or alliance, you can also check the position of your allies.
-    And depending on your job, you can find NPCs and enemies from afar.${prompt}
+    Si vous faites partie d'un groupe ou d'une alliance, vous pouvez également vérifier la position de vos alliés.
+    Et selon votre métier, vous pouvez repérer des PNJ et des ennemis à distance.${prompt}
   6759: |-
-    Furthermore, you can even record specific points in the area or have places marked down for certain events.
-    So you see, magic maps are extremely useful.${prompt}
+    De plus, vous pouvez même enregistrer des points spécifiques dans la zone ou marquer des endroits pour certains événements.
+    Donc, vous voyez, les cartes magiques sont extrêmement utiles.${prompt}
   6760: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d'Oria.
+    Elle coûte ${number: 3} gil.${prompt}
   6761: |-
-    The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Gustaberg, les Hautes Terres de Konschtat, les Marais de Pashhow et Bastok.
+    Elle coûte ${number: 3} gil.${prompt}
   6762: |-
-    The ${keyitem-singular: 1[2]} covers Sarutabaruta, the Tahrongi Canyon, the Buburimu Peninsula, the Meriphataud Mountains, Mhaura, and Windurst.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst.
+    Elle coûte ${number: 3} gil.${prompt}
   6763: |-
-    The ${keyitem-singular: 1[2]} covers Batallia Downs, Rolanberry Fields, the Sauromugue Champaign, and Jeuno.
-    It costs ${number: 3} gil.${prompt}
-  6764: 'This complete ${keyitem-singular: 1[2]}, which extend far beneath La Theine Plateau, costs ${number: 3} gil.${prompt}'
-  6765: '${lettercase: 1}${keyitem-plural: 1[2]} include layouts for both outpost and fortress of Ghelsba, as well as the Yughott Grotto. It costs ${number: 3} gil.${prompt}'
-  6766: 'The ${keyitem-singular: 1[2]} shows the notorious Orcish stronghold hidden within Jugner Forest. It is priced at ${number: 3} gil.${prompt}'
-  6767: 'This map shows the waterways and islands that make up Carpenters'' Landing. It is priced at ${number: 3} gil.${prompt}'
+    La ${keyitem-singular: 1[2]} couvre les Plaines de Batallia, les Champs de Rolanberry, la Champaign de Sauromugue et Jeuno.
+    Elle coûte ${number: 3} gil.${prompt}
+  6764: 'Cette ${keyitem-singular: 1[2]} complète, qui s'étend loin sous le Plateau de La Theine, coûte ${number: 3} gil.${prompt}'
+  6765: '${lettercase: 1}${keyitem-plural: 1[2]} incluent la disposition à la fois de l'avant-poste et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Elle coûte ${number: 3} gil.${prompt}'
+  6766: 'La ${keyitem-singular: 1[2]} montre le bastion Orc redoutable caché dans la Forêt de Jugner. Elle est au prix de ${number: 3} gil.${prompt}'
+  6767: 'Cette carte montre les voies navigables et les îles qui composent le Débarcadère des Charpentiers. Elle est au prix de ${number: 3} gil.${prompt}'
   6768: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Bastok's Zeruhn Mines.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan des Mines de Zeruhn de Bastok.
+    Elle coûte ${number: 3} gil.${prompt}
   6769: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Palborough Mines, which lie in North Gustaberg.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan des Mines de Palborough, situées dans le Gustaberg Nord.
+    Elle coûte ${number: 3} gil.${prompt}
   6770: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Quadav stronghold, Beadeaux, that is located in the Pashhow Marshlands.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan de la forteresse Quadav, Beadeaux, située dans les Marais de Pashhow.
+    Elle coûte ${number: 3} gil.${prompt}
   6771: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Giddeus, which you can reach from West Sarutabaruta.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan de Giddeus, auquel on peut accéder depuis Sarutabaruta Ouest.
+    Elle coûte ${number: 3} gil.${prompt}
   6772: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the Yagudo stronghold, Castle Oztroja, located in the Meriphataud Mountains.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} contient le plan de la forteresse Yagudo, Château Oztroja, situé dans les Montagnes de Meriphataud.
+    Elle coûte ${number: 3} gil.${prompt}
   6773: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the underground maze of Shakhrami that can be found in the Tahrongi Canyon area.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} contient le plan du labyrinthe souterrain de Shakhrami, que l'on peut trouver dans la région du Canyon de Tahrongi.
+    Elle coûte ${number: 3} gil.${prompt}
   6774: |-
-    The ${keyitem-singular: 1[2]} covers the Sanctuary of Zi'Tah, Ro'Maeve, and the Hall of the Gods.
-    It costs ${number: 3} gil.${prompt}
+    Cette carte couvre le Sanctuaire de Zi'Tah, Ro'Maeve et la Salle des Dieux.
+    Elle coûte ${number: 3} gil.${prompt}
   6775: |-
-    This map covers Bibiki Bay and its nearby islands.
-    It costs ${number: 3} gil.${prompt}
-  6776: 'The ${keyitem-singular: 1[2]} outlines the geography of nearby Qufim Island. It costs ${number: 3} gil.${prompt}'
-  6777: 'Located beneath Batallia Downs, the Eldieme Necropolis is shown in detail on this map. The price is ${number: 3} gil.${prompt}'
-  6778: 'The Garlaige Citadel, which lies upon the Sauromugue Champaign, is illustrated in this map. Each copy costs ${number: 3} gil.${prompt}'
-  6779: '${lettercase: 1}${keyitem-plural: 1[2]} include Kazham, as well as both jungles of Yuhtunga and Yhoator for ${number: 3} gil.${prompt}'
-  6780: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} for ${number: 3} gil.${prompt}'
-  6781: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} as well as ${zone: 4[2]} for ${number: 3} gil.${prompt}'
-  6782: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]}, as well as ${zone: 4[2]} and ${zone: 5[2]} for ${number: 3} gil.${prompt}'
+    Cette carte couvre la Baie de Bibiki et ses îles environnantes.
+    Elle coûte ${number: 3} gil.${prompt}
+  6776: 'La ${keyitem-singular: 1[2]} décrit la géographie de l'île voisine de Qufim. Elle coûte ${number: 3} gil.${prompt}'
+  6777: 'Située sous les Plaines de Batallia, la Nécropole d'Eldieme est détaillée sur cette carte. Le prix est de ${number: 3} gil.${prompt}'
+  6778: 'La Citadelle de Garlaige, située sur la Champaign de Sauromugue, est illustrée sur cette carte. Chaque copie coûte ${number: 3} gil.${prompt}'
+  6779: '${lettercase: 1}${keyitem-plural: 1[2]} incluent Kazham, ainsi que les deux jungles de Yuhtunga et Yhoator pour ${number: 3} gil.${prompt}'
+  6780: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} pour ${number: 3} gil.${prompt}'
+  6781: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} ainsi que ${zone: 4[2]} pour ${number: 3} gil.${prompt}'
+  6782: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]}, ainsi que ${zone: 4[2]} et ${zone: 5[2]} pour ${number: 3} gil.${prompt}'
   6783: |-
-    Buy ${keyitem-article: 0[2]}?
+    Acheter ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6784: You don't have enough money.${prompt}
-  6785: 'Maps of the Kuzotz region include Altepa Desert as well as Rabao for ${number: 3} gil.${prompt}'
-  6786: 'Maps of the Vollbow region include Cape Teriggan, as well as Valley of Sorrows and Gustav Tunnel for ${number: 3} gil.${prompt}'
-  6787: Maps of the Korroloka Tunnel are, as their names imply, maps of the Korroloka Tunnel, which connects Altepa Desert and Zeruhn Mines.${prompt}
-  6788: 'The map of Al Zahbi also includes Aht Urhgan Whitegate and the Colosseum. It costs ${number: 2} gil.${prompt}'
-  6789: 'This map shows the layout of the Azouph Isle town of Nashmau. It costs ${number: 3} gil.${prompt}'
-  6790: 'This map shows the forest tract stretching west of Al Zahbi. A map of the Wajaom Woodlands can be yours for ${number: 3} gil.${prompt}'
-  6791: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
-  6792: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
+    Oui.
+    Non.${prompt}
+  6784: Vous n'avez pas assez d'argent.${prompt}
+  6785: 'Les cartes de la région de Kuzotz incluent le Désert d'Altepa ainsi que Rabao pour ${number: 3} gil.${prompt}'
+  6786: 'Les cartes de la région de Vollbow incluent le Cap Teriggan, ainsi que la Vallée des Souffrances et le Tunnel de Gustav pour ${number: 3} gil.${prompt}'
+  6787: Les cartes du Tunnel de Korroloka sont, comme leur nom l'indique, des cartes du Tunnel de Korroloka, qui relie le Désert d'Altepa et les Mines de Zeruhn.${prompt}
+  6788: 'La carte d'Al Zahbi inclut également Aht Urhgan Whitegate et le Colisée. Elle coûte ${number: 2} gil.${prompt}'
+  6789: 'Cette carte montre le plan de la ville de Nashmau sur l'île d'Azouph. Elle coûte ${number: 3} gil.${prompt}'
+  6790: 'Cette carte montre la bande forestière s'étendant à l'ouest d'Al Zahbi. Une carte des Bois de Wajaom peut être à vous pour ${number: 3} gil.${prompt}'
+  6791: 'Cette carte montre les Fourrés de Bhaflau, situés au nord d'Al Zahbi. Elle coûte ${number: 3} gil.${prompt}'
+  6792: '${keyitem-article: 1[2]} est une ancienne carte souvent utilisée pour représenter ${zone: 2[2]}. Elle coûte ${number: 3} gil.${prompt}'
   6793: |-
-    Your fate rides on the changing winds of Vana'diel.
-    I can give you insight on the local weather.${prompt}
+    Votre destin repose sur les vents changeants de Vana'diel.
+    Je peux vous donner des informations sur le temps local.${prompt}
   6794: |-
-    What area's weather do you wish to know?
+    De quelle zone souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     Ronfaure.
-    La Theine Plateau.
-    Valkurm Dunes.
-    Jugner Forest.
-    Batallia Downs.
+    Plateau de La Theine.
+    Dunes de Valkurm.
+    Forêt de Jugner.
+    Plaines de Batallia.
     Gustaberg.
-    Konschtat Highlands.
-    Pashhow Marshlands.
-    Rolanberry Fields.
-    Beaucedine Glacier.
+    Hautes Terres de Konschtat.
+    Marais de Pashhow.
+    Champs de Rolanberry.
+    Glacier de Beaucedine.
     Xarcabard.
-    Cape Teriggan.
-    Altepa Desert.
+    Cap Teriggan.
+    Désert d'Altepa.
     Sarutabaruta.
-    Tahrongi Canyon.
-    Buburimu Peninsula.
-    Meriphataud Mountains.
-    Sauromugue Champaign.
-    The Sanctuary of Zi'Tah.
-    Yuhtunga & Yhoator Jungles.
-    Qufim Island.
+    Canyon de Tahrongi.
+    Péninsule de Buburimu.
+    Montagnes de Meriphataud.
+    Champaign de Sauromugue.
+    Sanctuaire de Zi'Tah.
+    Jungles de Yuhtunga et Yhoator.
+    Île de Qufim.
     Tu'Lia.
     Ferry.
-    Airship.
+    Dirigeable.
     Jeuno.
-    Uleguerand Range.
-    Tavnazian Archipelago.
+    Chaîne d'Uleguerand.
+    Archipel de Tavnazia.
     Riverne - Sites #A01 & #B01.${prompt}
-  6795: 'That area''s forecast for today is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6796: 'The forecast for tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6797: 'And, the forecast for the day after tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6798: 'Today, that area''s weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6799: 'Tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6800: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6801: 'Today, the weather in that area will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6802: 'Tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6803: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6804: 'The weather in that area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6805: 'The weather tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6806: 'The weather the day after tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6807: And that's the report, straight from Vana'diel's official weather linkshell.${prompt}
+  6795: 'La prévision météorologique pour aujourd'hui dans cette zone est pour ${weather-noun: 0[2]} avec des passages de ${weather-noun: 1[2]}. Il y a également une faible probabilité de ${weather-noun: 2[2]}, donc soyez prudent.${prompt}'
+  6796: 'La prévision pour demain est pour ${weather-noun: 0[2]} avec des passages de ${weather-noun: 1[2]}. Il y a également une faible probabilité de ${weather-noun: 2[2]}, donc soyez prudent.${prompt}'
+  6797: 'Et, la prévision pour après-demain est pour ${weather-noun: 0[2]} avec des passages de ${weather-noun: 1[2]}. Il y a également une faible probabilité de ${weather-noun: 2[2]}, donc soyez prudent.${prompt}'
+  6798: 'Aujourd'hui, la météo de cette zone sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6799: 'Demain, la météo sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6800: 'Et, après-demain, la météo sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6801: 'Aujourd'hui, la météo dans cette zone sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc soyez prudent.${prompt}'
+  6802: 'Demain, la météo sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc soyez prudent.${prompt}'
+  6803: 'Et, après-demain, la météo sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc soyez prudent.${prompt}'
+  6804: 'La météo dans cette zone aujourd'hui sera ${weather-adjective: 0[2]}.${prompt}'
+  6805: 'La météo demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6806: 'La météo après-demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6807: Et voilà le rapport, directement depuis le lien officiel de la météo de Vana'diel.${prompt}
   6808: |-
-    What area's weather do you wish to know?
+    De quelle zone souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
-    Wajaom Woodlands.
-    Bhaflau Thickets.
-    Mount Zhayolm.
-    Caedarva Mire.${prompt}
+    Nulle part.
+    Bois de Wajaom.
+    Fourrés de Bhaflau.
+    Mont Zhayolm.
+    Marais de Caedarva.${prompt}
   6809: |-
-    What area's weather do you wish to know?
+    De quelle zone souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
-    Ceizak Battlegrounds.
-    Yahse Hunting Grounds.
-    Foret de Hennetiel.
-    Morimar Basalt Fields.
-    Yorcia Weald.
-    Marjami Ravine.
-    Kamihr Drifts.${prompt}
-  6810: (DEBUG) Flag raised, kupo!${prompt}
-  6811: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
-  6812: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
-  6813: I'll tell you all about your Mog House, kupo!${prompt}
+    Nulle part.
+    Champs de Bataille de Ceizak.
+    Terrains de Chasse de Yahse.
+    Forêt de Hennetiel.
+    Champs de Basalte de Morimar.
+    Forêt de Yorcia.
+    Ravine de Marjami.
+    Dérives de Kamihr.${prompt}
+  6810: (DEBUG) Drapeau levé, kupo !${prompt}
+  6811: Bienvenue, Maître ! C'est votre maison, la “Maison Mog”, kupo !${prompt}
+  6812: Je suis un mog ! Nous, les mogs, aimons nous occuper des maisons et des objets ! Enchanté de vous rencontrer, kupo !${prompt}
+  6813: Je vais tout vous dire sur votre Maison Mog, kupo !${prompt}
   6814: |-
-    First, the basics, kupo!
-    Open your main menu, Master. The button at the very bottom changes to “Mog House” when you're in your Mog House, kupo!${prompt}
-  6815: Press it and the “Mog House” menu will appear! Everything you can do in your Mog House is there, kupo!${prompt}
-  6816: There are lots of things you can do in your Mog House, kupo! It can be too much for some masters, kupo...${prompt}
-  6817: So I'll teach you about each one of them! Ask me what you want to know about, kupo!${prompt}
-  6818: Choose the Mog House command you want to know about, kupo!${prompt}
+    D'abord, les bases, kupo !
+    Ouvrez votre menu principal, Maître. Le bouton tout en bas passe à “Maison Mog” quand vous êtes dans votre Maison Mog, kupo !${prompt}
+  6815: Appuyez dessus et le menu “Maison Mog” apparaîtra ! Tout ce que vous pouvez faire dans votre Maison Mog est là, kupo !${prompt}
+  6816: Il y a beaucoup de choses que vous pouvez faire dans votre Maison Mog, kupo ! Cela peut être trop pour certains maîtres, kupo...${prompt}
+  6817: Donc, je vais vous enseigner chacun de ces éléments ! Demandez-moi ce que vous voulez savoir, kupo !${prompt}
+  6818: Choisissez la commande de la Maison Mog dont vous voulez en savoir plus, kupo !${prompt}
   6819: |-
-    What do you want to know about?
+    Qu'est-ce que vous voulez savoir ?
     ${selection-lines}
-    The Mog Safe.
-    Storage.
-    The Delivery Box.
-    Changing jobs.
-    Gardening.
-    Changing the layout.
-    Mog House invitations.
-    I got it, thanks, kupo!${prompt}
-  6820: The Mog Safe is where I keep items that you can't carry! It's an especially secure and solid safe, kupo!${prompt}
-  6821: You can only put so many items in it, kupo... But I'll guard them even if it means my life, kupo!${prompt}
-  6822: The Delivery Box is where you can send letters to friends and receive items from various places, kupo!${prompt}
-  6823: You should take the items from your Delivery Box and put them in your inventory when they arrive, kupo!${prompt}
-  6824: If your Delivery Box is full, no more deliveries can be made, and you can't send any mail either, kupo!${prompt}
-  6825: You can send items and gil to your friends with the “Send” command, kupo!${prompt}
-  6826: (Sometimes, if a special force takes hold, you can even deliver items with the "Exclusive" attribute, kupo...!)${prompt}
-  6827: Changing people's jobs is a secret ability only we moogles can use, kupo!${prompt}
-  6828: I take off all your equipment and take you to a mysterious place, kupo!${prompt}
-  6829: And...the rest is a secret, kupo!${prompt}
-  6830: All moogles like taking care of plants, kupo!${prompt}
-  6831: As long as you have a flowerpot and seeds, I'll make it my personal responsibility to look after the plants you raise, kupo!${prompt}
-  6832: This Mog House is your very own room, kupo! But it's still a little bare, kupo...${prompt}
-  6833: It needs some furniture and maybe some paintings to make it more cozy, kupo!${prompt}
-  6834: If you find any during your travels, I'll help you lay them out, kupo! I can't wait, kupo!${prompt}
-  6835: Storage space becomes available when you place furniture in your Mog House using the “Layout” command, kupo!${prompt}
+    Le Coffre Mog.
+    Le Stockage.
+    La Boîte de Livraison.
+    Changer de métier.
+    Le jardinage.
+    Changer l'agencement.
+    Invitations pour la Maison Mog.
+    J'ai compris, merci, kupo !${prompt}
+  6820: Le Coffre Mog est là où je garde les objets que vous ne pouvez pas transporter ! C'est un coffre particulièrement sécurisé et solide, kupo !${prompt}
+  6821: Vous ne pouvez y mettre qu'un certain nombre d'objets, kupo... Mais je les garderai même si cela doit me coûter la vie, kupo !${prompt}
+  6822: La Boîte de Livraison est là où vous pouvez envoyer des lettres à des amis et recevoir des objets de divers endroits, kupo !${prompt}
+  6823: Vous devriez prendre les objets de votre Boîte de Livraison et les mettre dans votre inventaire quand ils arrivent, kupo !${prompt}
+  6824: Si votre Boîte de Livraison est pleine, plus de livraisons ne peuvent être faites, et vous ne pouvez pas non plus envoyer de courrier, kupo !${prompt}
+  6825: Vous pouvez envoyer des objets et du gil à vos amis avec la commande “Envoyer”, kupo !${prompt}
+  6826: (Parfois, si une force spéciale s'empare de vous, vous pouvez même livrer des objets avec l'attribut "Exclusif", kupo... !)${prompt}
+  6827: Changer le métier des gens est une capacité secrète que seuls nous, les mogs, pouvons utiliser, kupo !${prompt}
+  6828: Je retire tout votre équipement et je vous emmène dans un endroit mystérieux, kupo !${prompt}
+  6829: Et... le reste est un secret, kupo !${prompt}
+  6830: Tous les mogs aiment s'occuper des plantes, kupo !${prompt}
+  6831: Tant que vous avez un pot de fleurs et des graines, je ferai de son entretien ma responsabilité personnelle, kupo !${prompt}
+  6832: Cette Maison Mog est votre propre pièce, kupo ! Mais elle est encore un peu vide, kupo...${prompt} 
+  6833: Elle a besoin de quelques meubles et peut-être de quelques tableaux pour la rendre plus chaleureuse, kupo !${prompt} 
+  6834: Si vous en trouvez pendant vos voyages, je vous aiderai à les disposer, kupo ! Je suis impatient, kupo !${prompt}
+  6835: L'espace de stockage devient disponible lorsque vous placez des meubles dans votre Maison Mog en utilisant la commande “Agencement”, kupo !${prompt}
   6836: |-
-    It's almost exactly the same as using your Mog Safe, kupo!
-    Leave your items here for me to look after, kupo!${prompt}
-  6837: You can invite party and alliance members into your Mog House, kupo!${prompt}
-  6838: You can show off your expensive furniture, have tea parties, plan your next great adventure--the possibilities are endless, kupo!${prompt}
-  6839: Are you sure, kupo? You know everything about your Mog House, kupo?${prompt}
+    C'est presque exactement la même chose que d'utiliser votre Coffre Mog, kupo !
+    Laissez vos objets ici pour que je m'en occupe, kupo !${prompt}
+  6837: Vous pouvez inviter des membres de votre groupe et de votre alliance dans votre Maison Mog, kupo !${prompt}
+  6838: Vous pouvez montrer vos meubles coûteux, organiser des thés, planifier votre prochaine grande aventure -- les possibilités sont infinies, kupo !${prompt}
+  6839: Êtes-vous sûr, kupo ? Vous savez tout sur votre Maison Mog, kupo ?${prompt}
   6840: |-
-    Are you sure?
+    Êtes-vous sûr ?
     ${selection-lines}
-    I'm sure!
-    Maybe I'm not so sure...${prompt}
-  6841: And finally, a little bit of advice!${prompt}
-  6842: If you ever run into any problems, just ask your fellow adventurers for help!${prompt}
-  6843: If you type “/ae Hello!”, then your message will be heard by many people.${prompt}
-  6844: If you type “/ae” followed by your issue or question, other adventurers will help you!${prompt}
-  6845: Remember that you can only do this while in town, kupo!${prompt}
+    Je suis sûr !
+    Peut-être que je ne suis pas si sûr...${prompt}
+  6841: Et enfin, un petit conseil !${prompt}
+  6842: Si jamais vous rencontrez des problèmes, demandez de l'aide à vos compagnons aventuriers !${prompt}
+  6843: Si vous tapez “/ae Bonjour !”, alors votre message sera entendu par beaucoup de gens.${prompt}
+  6844: Si vous tapez “/ae” suivi de votre problème ou question, d'autres aventuriers vous aideront !${prompt}
+  6845: Souvenez-vous que vous pouvez le faire uniquement en ville, kupo !${prompt}
   6846: |-
-    Okay, kupo!
-    Good luck on your adventuring, kupo!${prompt}
-  6847: Do you want me to teach you about your Mog House again, kupo?${prompt}
+    D'accord, kupo !
+    Bonne chance dans vos aventures, kupo !${prompt}
+  6847: Voulez-vous que je vous réexplique comment fonctionne votre Maison Mog, kupo ?${prompt}
   6848: |-
-    Ask about your Mog House again?
+    Redemander des informations sur votre Maison Mog ?
     ${selection-lines}
-    Don't ask.
-    Ask.${prompt}
+    Ne pas demander.
+    Demander.${prompt}
   6849: |-
-    Over the mountains and the rolling hills,
-    I'll go wherever my master wills.♪${prompt}
+    Par-delà les montagnes et les collines ondulantes,
+    J'irai là où mon maître le désire.♪${prompt}
   6850: |-
-    Master!
-    I traveled all the way here at your bidding, kupo! Even a Rent-a-Room needs a moogle, kupo!${prompt}
-  6851: But there are a few things you can't do in a Rent-a-Room, kupo. Select “Mog House” from the main menu and check, kupo!${prompt}
-  6852: When you go back home, talk to the guard in front of the residential area to call me back to the Mog House, kupo!${prompt}
+    Maître !
+    Je suis venu ici sur votre demande, kupo ! Même une Chambre de Location a besoin d'un mog, kupo !${prompt}
+  6851: Mais il y a quelques choses que vous ne pouvez pas faire dans une Chambre de Location, kupo. Sélectionnez “Maison Mog” dans le menu principal et vérifiez, kupo !${prompt}
+  6852: Quand vous retournerez chez vous, parlez au garde devant la zone résidentielle pour me rappeler à la Maison Mog, kupo !${prompt}
   6853: |-
-    Master!
-    I have something to tell you, kupo!${prompt}
-  6854: 'I found this precious item under the ${item-singular: 3[2]} pillow, kupo!${prompt}'
-  6855: It's all yours, kupo!${prompt}
-  6856: 'I used the ${item-singular: 3[2]} to write a song for you, kupo!${prompt}'
-  6857: Here, kupo! Please think of the lonely moogle waiting for you back home when you hear this song, kupo!${prompt}
-  6858: 'I found this item in the back of one of the ${item-singular: 3[2]}''s drawers, kupo!${prompt}'
-  6859: It's all yours, kupo!${prompt}
-  6860: 'I found this in the back of the ${item-singular: 3[2]}, kupo!${prompt}'
+    Maître !
+    J'ai quelque chose à vous dire, kupo !${prompt}
+  6854: 'J'ai trouvé cet objet précieux sous l'oreiller du ${item-singular: 3[2]}, kupo !${prompt}'
+  6855: Tout cela est à vous, kupo !${prompt}
+  6856: 'J'ai utilisé le ${item-singular: 3[2]} pour écrire une chanson pour vous, kupo !${prompt}'
+  6857: Tenez, kupo ! Pensez au mog solitaire qui vous attend à la maison quand vous entendrez cette chanson, kupo !${prompt} 
+  6858: 'J'ai trouvé cet objet au fond d'un des tiroirs du ${item-singular: 3[2]}, kupo !${prompt}'
+  6859: Tout cela est à vous, kupo !${prompt}
+  6860: 'J'ai trouvé ceci au fond du ${item-singular: 3[2]}, kupo !${prompt}'
   6861: |-
-    It must be a gift from the heavens, kupo!
-    Here, take it, kupo!${prompt}
-  6862: 'I found this item inside the ${item-singular: 3[2]}, kupo!${prompt}'
+    Ça doit être un cadeau du ciel, kupo !
+    Tenez, prenez-le, kupo !${prompt}
+  6862: 'J'ai trouvé cet objet à l'intérieur du ${item-singular: 3[2]}, kupo !${prompt}'
   6863: |-
-    Luck is on your side, kupo!
-    Take it, kupo!${prompt}
-  6864: 'I fished this item out of the ${item-singular: 3[2]}, kupo!${prompt}'
+    La chance est de votre côté, kupo !
+    Prenez-le, kupo !${prompt}
+  6864: 'J'ai pêché cet objet dans le ${item-singular: 3[2]}, kupo !${prompt}'
   6865: |-
-    It was very hard work, kupo...
-    I'm very tired, kupo...${prompt}
-  6866: 'I found this behind the ${item-singular: 3[2]} painting, kupo!${prompt}'
+    C'était un travail très dur, kupo...
+    Je suis très fatigué, kupo...${prompt}
+  6866: 'J'ai trouvé ceci derrière la peinture du ${item-singular: 3[2]}, kupo !${prompt}'
   6867: |-
-    This must be what they mean when they say, there are many mysteries behind works of art, kupo!
-    It's all yours, kupo!${prompt}
-  6868: 'Something clattered inside the ${item-singular: 3[2]} when I shook it! Look what fell out when I turned it upside down, kupo!${prompt}'
-  6869: It's all yours, kupo!${prompt}
-  6870: 'I felt there was something strange about the ${item-singular: 3[2]}, and when I looked into it, I found this, kupo!${prompt}'
+    Ça doit être ce qu'ils veulent dire quand ils disent qu'il y a beaucoup de mystères derrière les œuvres d'art, kupo !
+    Tout cela est à vous, kupo !${prompt}
+  6868: 'Quelque chose a cliqueté à l'intérieur du ${item-singular: 3[2]} quand je l'ai secoué ! Regardez ce qui est tombé quand je l'ai retourné, kupo !${prompt}'
+  6869: Tout cela est à vous, kupo !${prompt}
+  6870: 'J'avais le sentiment qu'il y avait quelque chose d'étrange avec le ${item-singular: 3[2]}, et quand j'ai regardé dedans, j'ai trouvé ceci, kupo !${prompt}'
   6871: |-
-    We moogles have very good intuition, kupo!
-    It's all yours, kupo!${prompt}
-  6872: Oh, Master! You won't believe what I found out on the doorstep this morning, kupo!${prompt}
+    Nous, les mogs, avons une très bonne intuition, kupo !
+    Tout cela est à vous, kupo !${prompt}
+  6872: Oh, Maître ! Vous n'allez pas croire ce que j'ai trouvé sur le pas de la porte ce matin, kupo !${prompt}
   6873: |-
-    At once so glorious and so ghastly, and just for you!
-    Think of it as a holiday gift from a humble moogle to his favorite (and only) master, kupo!${prompt}
-  6874: For your own safety, it is recommended you set the Mog House exit as your home point after changing jobs.${prompt}
-  6875: 'Is my assistance reaching you, Master? Your Mog House is currently aglow with ${choice: 0}[overwhelming/powerful/faint] ${choice: 1}[fire/ice/wind/earth/lightning/water/light/dark] energy, kupo!${prompt}'
-  6876: 'Is my assistance reaching you, Master? Your Mog House is currently aglow with ${choice: 0}[the overwhelming/the powerful/the faint] energy of many different elements, kupo!${prompt}'
-  6877: Each item of furniture you place using the “Layout” command corresponds to a different element, kupo! The type of energy that envelops your Mog House changes depending on those elements, kupo!${prompt}
-  6878: When that energy changes, my powers change as well, kupo! Master, you should try placing all sorts of furniture in your Mog House, kupo!${prompt}
+    À la fois si glorieux et si effroyable, et rien que pour vous !
+    Considérez-le comme un cadeau de fête de la part d'un humble mog à son maître préféré (et unique), kupo !${prompt}
+  6874: Pour votre propre sécurité, il est recommandé de définir la sortie de la Maison Mog comme point de retour après avoir changé de métier.${prompt}
+  6875: 'Mon aide vous parvient-elle, Maître ? Votre Maison Mog brille actuellement d'une énergie ${choice: 0}[débordante/puissante/faible] de ${choice: 1}[feu/glace/vent/terre/foudre/eau/lumière/obscurité], kupo !${prompt}'
+  6876: 'Mon aide vous parvient-elle, Maître ? Votre Maison Mog brille actuellement avec l'énergie ${choice: 0}[débordante/puissante/faible] de nombreux éléments différents, kupo !${prompt}'
+  6877: Chaque meuble que vous placez en utilisant la commande “Agencement” correspond à un élément différent, kupo ! Le type d'énergie qui enveloppe votre Maison Mog change en fonction de ces éléments, kupo !${prompt}
+  6878: Quand cette énergie change, mes pouvoirs changent aussi, kupo ! Maître, vous devriez essayer de placer toutes sortes de meubles dans votre Maison Mog, kupo !${prompt}
   6879: ${prompt}
   6880: mes7${prompt}
   6881: mes8${prompt}
