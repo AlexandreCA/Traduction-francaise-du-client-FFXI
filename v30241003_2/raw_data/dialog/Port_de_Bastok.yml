@@ -19744,7 +19744,7 @@ entries:
     Maintenant, choisissez à quel poste avancé vous souhaitez aller. Nous offrons différentes récompenses pour chaque région, alors choisissez judicieusement.${prompt}
   8072: Où souhaitez-vous apporter les fournitures ?${prompt}
   8073: |-
-    Which E.F. would you like to join?
+    À quelle F.E. souhaitez-vous vous joindre ?
     ${selection-lines}
     .
     .
@@ -19752,23 +19752,21 @@ entries:
     .
     .
     .
-    The Zulkheim Region (Lv.20～).
-    The Norvallen Region (Lv.25～).
+    La Région de Zulkheim (Lv.20～).
+    La Région de Norvallen (Lv.25～).
     .
-    The Derfland Region (Lv.25～).
+    La Région de Derfland (Lv.25～).
     .
-    The Kolshushu Region (Lv.20～).
-    The Aragoneu Region (Lv.25～).
-    The Fauregandi Region (Lv.35～).
-    The Valdeaunia Region (Lv.40～).
-    The Qufim Region (Lv.25～).
-    The Li'Telor Region (Lv.35～).
-    The Kuzotz Region (Lv.40～).
-    The Vollbow Region (Lv.65～).
-    The Elshimo Lowlands Region (Lv.35～).
-    The Elshimo Uplands Region (Lv.45～).
-    .
-    .
+    La Région de Kolshushu (Lv.20～).
+    La Région d'Aragoneu (Lv.25～).
+    La Région de Fauregandi (Lv.35～).
+    La Région de Valdeaunia (Lv.40～).
+    La Région de Qufim (Lv.25～).
+    La Région de Li'Telor (Lv.35～).
+    La Région de Kuzotz (Lv.40～).
+    La Région de Vollbow (Lv.65～).
+    Les Terres Basses d'Elshimo (Lv.35～).
+    Les Hautes Terres d'Elshimo (Lv.45～).
     .
     .
     .
@@ -19777,96 +19775,98 @@ entries:
     .
     .
     .
-    None.${prompt}
+    .
+    .
+    Aucune.${prompt}
   8074: |-
-    So be it.
-    You have until the next conquest results announcement to complete this mission.
-    Good luck.${prompt}
-  8075: We will dispose of those unusable supplies.${prompt}
+    Ainsi soit-il.
+    Vous avez jusqu'à l'annonce des résultats de la prochaine conquête pour accomplir cette mission.
+    Bonne chance.${prompt}
+  8075: Nous allons nous débarrasser de ces approvisionnements inutilisables.${prompt}
   8076: |-
-    You can only undertake one supply mission per day.
-    Come back later.${prompt}
-  8077: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
+    Vous ne pouvez entreprendre qu'une mission d'approvisionnement par jour.
+    Revenez plus tard.${prompt}
+  8077: Je suis désolé. Il semble que nous ayons un problème. Laissez-moi l'annuler.${prompt}
   8078: |-
-    You do not need to donate any more crystals at your current rank.
-    Speak to the guard at the gatehouse for further instructions.${prompt}
+    Vous n'avez plus besoin de faire don de cristaux à votre rang actuel.
+    Parlez à la garde à la maison du portier pour de nouvelles instructions.${prompt}
   8079: |-
-    Your rank points are full. We've added the excess to your conquest points.
-    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
+    Vos points de rang sont pleins. Nous avons ajouté l'excédent à vos points de conquête.
+    Vous n'avez plus besoin de faire don de cristaux. Allez à la maison du portier pour de nouvelles instructions.${prompt}
   8080: |-
-    Good work, citizen.
-    We've awarded you rank points for the crystals you've donated.${prompt}
+    Bon travail, citoyen.
+    Nous vous avons attribué des points de rang pour les cristaux que vous avez donnés.${prompt}
   8081: |-
-    You currently have ${number: 0} conquest points.
-    Would you like to use them to purchase items?${prompt}
+    Vous avez actuellement ${number: 0} points de conquête.
+    Souhaitez-vous les utiliser pour acheter des objets ?${prompt}
   8082: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    1000-pt. items (rank 1 required).
-    2000-pt. items (rank 2 required).
-    4000-pt. items (rank 3 required).
-    8000-pt. items (rank 4 required).
-    16000-pt. items (rank 5 required).
-    24000-pt. items (rank 6 required).
-    32000-pt. items (rank 7 required).
-    40000-pt. items (rank 8 required).
-    48000-pt. items (rank 9 required).
-    56000-pt. items (rank 10 required).
-    Cancel.${prompt}
+    Objets communs (tous rangs).
+    Objets à 1000 points (rang 1 requis).
+    Objets à 2000 points (rang 2 requis).
+    Objets à 4000 points (rang 3 requis).
+    Objets à 8000 points (rang 4 requis).
+    Objets à 16000 points (rang 5 requis).
+    Objets à 24000 points (rang 6 requis).
+    Objets à 32000 points (rang 7 requis).
+    Objets à 40000 points (rang 8 requis).
+    Objets à 48000 points (rang 9 requis).
+    Objets à 56000 points (rang 10 requis).
+    Annuler.${prompt}
   8083: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    2000-pt. items (rank 1 required).
-    4000-pt. items (rank 2 required).
-    8000-pt. items (rank 3 required).
-    16000-pt. items (rank 4 required).
-    24000-pt. items (rank 5 required).
-    32000-pt. items (rank 6 required).
-    40000-pt. items (rank 7 required).
-    48000-pt. items (rank 8 required).
-    56000-pt. items (rank 9 required).
+    Objets communs (tous rangs).
+    Objets à 2000 points (rang 1 requis).
+    Objets à 4000 points (rang 2 requis).
+    Objets à 8000 points (rang 3 requis).
+    Objets à 16000 points (rang 4 requis).
+    Objets à 24000 points (rang 5 requis).
+    Objets à 32000 points (rang 6 requis).
+    Objets à 40000 points (rang 7 requis).
+    Objets à 48000 points (rang 8 requis).
+    Objets à 56000 points (rang 9 requis).
     .
-    Cancel.${prompt}
-  8084: Currently there are no items available for that rank.${prompt}
+    Annuler.${prompt}
+  8084: Il n'y a actuellement aucun objet disponible pour ce rang.${prompt}
   8085: |-
-    Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
-    Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
-  8086: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 50 conquest points.${prompt}'
-  8087: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 100 conquest points.${prompt}'
-  8088: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 200 conquest points.${prompt}'
-  8089: During the time of the Great War, it was possible to have this item recharged in exchange for Allied Notes. From my understanding, that practice has recently become commonplace in the Near East. Though you'll be needing Imperial Standing credits if you wish to use the service there.${prompt}
-  8090: 'You do not possess the ${number: 1} ${choice-plurality: 1}[conquest point/conquest points] required to fully recharge the ${item-singular: 0[2]}.${prompt}'
-  8091: 'Please be aware that you can only purchase or recharge ${article} ${item-article: 0[2]} once during the period between each conquest results tally.${prompt}'
-  8092: 'The ${item-singular: 0[2]} is already fully charged.${prompt}'
-  8093: 'Your ${item-singular: 0[2]} has received ${number: 2} ${choice-plurality: 2}[charge/charges] in exchange for ${number: 1} ${choice-plurality: 1}[conquest point/conquest points]. It is now fully recharged.${prompt}'
-  8094: 'I will trade you ${article} ${item-article: 0[2]} for your ${item-singular: 1[2]}. May it serve you well.${prompt}'
-  8095: 'You do not meet the requirements to purchase the ${item-singular: 2[2]}.${prompt}'
-  8096: 'Your rank is too low to purchase the ${item-singular: 2[2]}.${prompt}'
-  8097: 'You do not have enough conquest points to purchase the ${item-singular: 2[2]}.${prompt}'
+    En raison de sa nature spéciale, vous ne pouvez acheter ou recharger ${article} ${item-article: 2[2]} qu'une seule fois jusqu'au décompte des résultats de la conquête.
+    De plus, vous ne pouvez pas acheter cet objet si vous en possédez déjà un similaire.${prompt}
+  8086: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en le troquant contre un des gardes de votre nation, y compris les gardes des avant-postes. Une charge nécessite 50 points de conquête.${prompt}'
+  8087: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en le troquant contre un des gardes de votre nation, y compris les gardes des avant-postes. Une charge nécessite 100 points de conquête.${prompt}'
+  8088: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en le troquant contre un des gardes de votre nation, y compris les gardes des avant-postes. Une charge nécessite 200 points de conquête.${prompt}'
+  8089: Pendant la Grande Guerre, il était possible de faire recharger cet objet en échange de Notes Alliées. De ce que je comprends, cette pratique est récemment devenue courante au Proche-Orient. Bien que vous aurez besoin de crédits de Position Impériale si vous souhaitez utiliser ce service là-bas.${prompt}
+  8090: 'Vous ne possédez pas les ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête] nécessaires pour recharger complètement le ${item-singular: 0[2]}.${prompt}'
+  8091: 'Veuillez noter que vous ne pouvez acheter ou recharger ${article} ${item-article: 0[2]} qu''une fois entre chaque décompte de résultats de conquête.${prompt}'
+  8092: 'Le ${item-singular: 0[2]} est déjà complètement chargé.${prompt}' 
+  8093: 'Votre ${item-singular: 0[2]} a reçu ${number: 2} ${choice-plurality: 2}[charge/charges] en échange de ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête]. Il est maintenant complètement rechargé.${prompt}'
+  8094: 'Je vais vous échanger ${article} ${item-article: 0[2]} contre votre ${item-singular: 1[2]}. Qu''il vous soit utile.${prompt}'
+  8095: 'Vous ne répondez pas aux exigences pour acheter le ${item-singular: 2[2]}.${prompt}'
+  8096: 'Votre rang est trop bas pour acheter le ${item-singular: 2[2]}.${prompt}'
+  8097: 'Vous n''avez pas assez de points de conquête pour acheter le ${item-singular: 2[2]}.${prompt}'
   8098: |-
-    You cannot equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Vous ne pouvez pas équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   8099: |-
-    Your level is too low to equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Votre niveau est trop bas pour équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   8100: |-
-    You seem to be able to equip the ${item-singular: 2[2]}.
-    Do you wish to proceed?${prompt}
-  8101: 'Are you sure you want to purchase the ${item-singular: 2[2]}?${prompt}'
+    Il semble que vous pouvez équiper le ${item-singular: 2[2]}.
+    Souhaitez-vous continuer ?${prompt}
+  8101: 'Êtes-vous sûr de vouloir acheter le ${item-singular: 2[2]}?${prompt}'
   8102: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, purchase item.
-    Cancel purchase.${prompt}
+    Oui, acheter l'objet.
+    Annuler l'achat.${prompt}
   8103: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, even though I can't equip it.
-    Cancel purchase.${prompt}
+    Oui, même si je ne peux pas l'équiper.
+    Annuler l'achat.${prompt}
   8104: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
@@ -19876,11 +19876,11 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   8105: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}...${number: 8} pts.
     ${lettercase: 1}${item-singular: 1[2]}...${number: 9} pts.
@@ -19890,120 +19890,120 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}...${number: 13} pts.
     ${lettercase: 1}${item-singular: 6[2]}...${number: 14} pts.
     ${lettercase: 1}${item-singular: 7[2]}...${number: 15} pts.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   8106: 'ENDPARA：${number: 0}${prompt}'
   8107: |-
-    Which service do you request?
+    Quel service demandez-vous ?
     ${selection-lines}
-    Buy/Sell items.
-    Teleportation.
-    Nothing.${prompt}
+    Acheter/Vendre des objets.
+    Téléportation.
+    Rien.${prompt}
   8108: |-
-    Do you really wish to be teleported?
+    Souhaitez-vous vraiment être téléporté ?
     ${selection-lines}
-    Yes.
-    Teleport with gil.
-    Teleport with conquest points.
-    No.${prompt}
-  8109: Welcome to the border shop! If you trade me unused equipment, I'll add their value to your country's region points!${prompt}
+    Oui.
+    Téléporter avec des gil.
+    Téléporter avec des points de conquête.
+    Non.${prompt}
+  8109: Bienvenue au magasin frontalier ! Si vous me donnez de l'équipement inutilisé, j'ajouterai leur valeur aux points de région de votre pays !${prompt}
   8110: |-
-    It should please you to know that I now also deal in ${item-plural: 0[2]}.
-    Bigger pieces will earn you more points for your nation, and I'll even toss some gil into the equation!${prompt}
-  8111: I see that your home country has control of this region. Feel free to browse through my wares.${prompt}
-  8112: I see that your home country is allies with the country in control of this region. Feel free to browse through my wares.${prompt}
-  8113: 'I can teleport you to your home country for ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points].${prompt}'
-  8114: "Word has it that the entire set of mog tablets has been recovered. \nOh, happy day! In honor of the occasion, I can teleport you to your home country free of charge.${prompt}"
-  8115: I am terribly sorry, but it seems as if you do not have enough gil.${prompt}
-  8116: I am terribly sorry, but it seems as if you do not have enough conquest points.${prompt}
-  8117: However, due to your home country's lack of influence in the region, this is the only transaction I am authorized to perform with you at the moment.${prompt}
-  8118: I am looking forward to doing business with you again in the future!${prompt}
-  8119: Thank you. This will increase your nation's region points by a small amount. If you have anything else, by all means, trade them to me.${prompt}
-  8120: Thank you. This will increase your nation's region points moderately. If you have anything else, by all means, trade them to me.${prompt}
-  8121: Thank you. This will increase your nation's region points greatly. If you have anything else, by all means, trade them to me.${prompt}
-  8122: I could not accept one or more items you tried to trade me. Please remove those items and try again.${prompt}
-  8123: Sorry. I can only take certain types of weapons, shields, or armor.${prompt}
+    Cela devrait vous réjouir de savoir que je m'occupe maintenant également des ${item-plural: 0[2]}.
+    Les plus gros morceaux vous rapporteront plus de points pour votre nation, et je vous donnerai même un peu de gil en plus !${prompt}
+  8111: Je vois que votre pays d'origine contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
+  8112: Je vois que votre pays d'origine est allié avec le pays qui contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
+  8113: 'Je peux vous téléporter dans votre pays d''origine pour ${number: 1} gil ou ${number: 3} ${choice-plurality: 3}[point de conquête/points de conquête].${prompt}' 
+  8114: "On dit que l'ensemble complet des tablettes mog a été récupéré. \nOh, quel jour heureux ! En l'honneur de l'occasion, je peux vous téléporter dans votre pays d'origine gratuitement.${prompt}"
+  8115: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de gil.${prompt}
+  8116: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de points de conquête.${prompt}
+  8117: Cependant, en raison du manque d'influence de votre pays d'origine dans la région, c'est la seule transaction que je suis autorisé à effectuer avec vous pour le moment.${prompt}
+  8118: J'ai hâte de faire à nouveau affaire avec vous à l'avenir !${prompt}
+  8119: Merci. Cela augmentera légèrement les points de région de votre nation. Si vous avez autre chose, par tous les moyens, faites-le moi savoir.${prompt}
+  8120: Merci. Cela augmentera modérément les points de région de votre nation. Si vous avez autre chose, par tous les moyens, faites-le moi savoir.${prompt}
+  8121: Merci. Cela augmentera considérablement les points de région de votre nation. Si vous avez autre chose, par tous les moyens, faites-le moi savoir.${prompt}
+  8122: Je n'ai pas pu accepter un ou plusieurs des objets que vous avez essayé de me donner. Veuillez retirer ces objets et réessayez.${prompt}
+  8123: Désolé. Je ne peux accepter que certains types d'armes, de boucliers ou d'armures.${prompt}
   8124: |-
-    Thank you. This will increase your nation's region points ${choice: 1}[by a small amount/moderately/greatly].
-    For this transaction I will also furnish you with ${number: 0} gil.${prompt}
-  8125: My apologies, but this type of item needs to be individually appraised. Please trade them to me one at a time.${prompt}
-  8126: (DEBUG) Back to hometown!${prompt}
+    Merci. Cela augmentera les points de région de votre nation ${choice: 1}[d'une petite quantité/modérément/considérablement].
+    Pour cette transaction, je vous fournirai également ${number: 0} gil.${prompt}
+  8125: Mes excuses, mais ce type d'objet doit être évalué individuellement. Veuillez me les échanger un par un.${prompt}
+  8126: (DEBUG) Retour à la ville natale !${prompt}
   8127: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Pourriez-vous me lancer le Signet ?
+    J'aimerais définir mon point de retour ici.
+    Rien.${prompt}
   8128: |-
-    What do you want?
+    Que voulez-vous ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  8129: Your home point has been set.${prompt}
-  8130: You do not have enough gil to set your home point here.${prompt}
-  8131: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gil et définir mon point de retour ici.
+    Rien.${prompt}
+  8129: Votre point de retour a été défini.${prompt}
+  8130: Vous n'avez pas assez de gil pour définir votre point de retour ici.${prompt}
+  8131: 'Je vais définir votre point de retour ici.${wait-animation: 0}${prompt}'
   8132: |-
-    We are currently on a beastman-purging campaign. We support adventurers from all nations.
-    Do your best to rid the world of those vile creatures.${prompt}
+    Nous menons actuellement une campagne de purge des bêtes. Nous soutenons les aventuriers de toutes les nations.
+    Faites de votre mieux pour débarrasser le monde de ces créatures viles.${prompt}
   8133: |-
-    We are currently conducting an international exchange campaign.
-    You may spend your conquest points to purchase items from foreign guards.${prompt}
+    Nous menons actuellement une campagne d'échange international.
+    Vous pouvez dépenser vos points de conquête pour acheter des objets auprès des gardes étrangers.${prompt}
   8134: |-
-    Thanks to you, our nation is now first in the conquest race!
-    Here is a small token of our appreciation.${prompt}
-  8135: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+    Grâce à vous, notre nation est maintenant première dans la course à la conquête !
+    Voici un petit témoignage de notre gratitude.${prompt}
+  8135: Les aventuriers des nations qui sont classées plus haut que la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un taux plus élevé.${prompt}
   8136: |-
-    You cannot currently purchase this item.
-    Please choose another.${prompt}
-  8137: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
-  8138: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
-  8139: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
-  8140: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+    Vous ne pouvez actuellement pas acheter cet objet.
+    Veuillez en choisir un autre.${prompt}
+  8137: Notre nation envoie actuellement des Forces Expéditionnaires à travers Vana'diel et demande la participation de braves aventuriers comme vous.${prompt}
+  8138: 'Les exigences pour participer à une F.E. sont simples. Votre groupe doit être composé de ${number: 5} membres. Chaque membre doit être de ce pays, de rang 3 ou supérieur, et avoir atteint un niveau suffisant.${prompt}'
+  8139: Une fois que votre groupe est prêt, venez me voir et je vous téléporterai à l'avant-poste le plus proche.${prompt}
+  8140: Là-bas, vous recevrez un insigne de la Force Expéditionnaire. Lorsque vous réussirez à prendre le contrôle de la zone, vous pourrez échanger l'insigne contre votre récompense.${prompt}
   8141: |-
-    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Rejoindre la F.E. dans ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Terres Basses d'Elshimo/Les Hautes Terres d'Elshimo] ?
     ${selection-lines}
-    Join the E.F.
-    Not this time.${prompt}
-  8142: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
-  8143: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
-  8144: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
-  8145: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+    Rejoindre la F.E.
+    Pas cette fois.${prompt}
+  8142: Votre groupe n'a pas assez de membres, ou certains membres ne sont pas dans cette zone. Rassemblez tous ceux qui participent et revenez ici.${prompt}
+  8143: Un des membres de votre groupe n'est pas citoyen de ce pays. Nous n'autorisons pas les participants étrangers dans la F.E.${prompt}
+  8144: Un des membres de votre groupe n'a pas atteint le rang de niveau 3. Nous ne pouvons pas révéler nos stratégies tactiques à ceux qui n'ont pas prouvé leur loyauté envers notre pays.${prompt}
+  8145: 'Un des membres de votre groupe est en dessous du niveau ${number: 6}. Pour la sécurité de l''aventurier et de ceux qui l''accompagnent, nous ne pouvons permettre à quiconque en dessous de la limite de participer à la F.E.${prompt}'
   8146: |-
-    I see that you are ready.
-    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
-  8147: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+    Je vois que vous êtes prêts.
+    Je vous donne la permission de rejoindre la Force Expéditionnaire actuelle. Quand vous serez prêts à être téléportés à l'avant-poste, parlez-moi à nouveau.${prompt}
+  8147: 'Êtes-vous prêt à être téléporté à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Terres Basses d''Elshimo/Les Hautes Terres d''Elshimo] ? Rappelez-vous que les membres du groupe qui n''ont pas reçu l''autorisation de participer à la F.E. seront laissés derrière.${prompt}'
   8148: |-
-    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Se téléporter à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Terres Basses d'Elshimo/Les Hautes Terres d'Elshimo] ?
     ${selection-lines}
-    Ready!
-    Wait just a minute...${prompt}
-  8149: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+    Prêt !
+    Attendez une minute...${prompt}
+  8149: 'Annuler votre participation à la F.E. pour ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Terres Basses d''Elshimo/Les Hautes Terres d''Elshimo] ?${prompt}'
   8150: |-
-    Quit the E.F.?
+    Quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    Change locations.
-    No.${prompt}
-  8151: Are you sure?${prompt}
+    Oui.
+    Changer de lieu.
+    Non.${prompt}
+  8151: Êtes-vous sûr ?${prompt}
   8152: |-
-    Really quit the E.F.?
+    Vraiment quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   8153: |-
-    I see.
-    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  8154: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
-  8155: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
-  8156: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
-  8157: Your invalid ensignias have been disposed of.${prompt}
-  8158: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
-  8159: 'You received ${number: 1} conquest points!${prompt}'
-  8160: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+    Je vois.
+    Si jamais vous souhaitez participer à l'avenir, je serai ici pour prendre votre demande.${prompt}
+  8154: 'Votre ${color: 5}Badge de la F.E.${color: 1} disparaît !${prompt}'
+  8155: 'Points de katsu-yaku : ${number: 0} !${prompt}'
+  8156: 'Ce ${keyitem-singular: 0[2]} n''est plus valide. Nous allons nous en débarrasser ici.${prompt}'
+  8157: Vos insignes invalides ont été éliminés.${prompt}
+  8158: Bienvenue de retour de l'expédition. Notre nation a réussi sa campagne. Laissez-moi vous donner votre récompense.${prompt}
+  8159: 'Vous avez reçu ${number: 1} points de conquête !${prompt}'
+  8160: Lorsque vous participez à une Force Expéditionnaire, concentrez vos efforts sur le combat contre les ennemis qui vous donnent le plus de points d'expérience. Et n'oubliez pas de confisquer le contenu de tout coffre au trésor de bêtes que vous trouvez.${prompt}
   8161: |-
-    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
-    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
+    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l'inscription au dos avant de commencer vos tâches.
+    Une fois que le Signet vous aura été accordé, préparez-vous à être téléporté.${prompt}
   8162: Vous n'avez pas pu être téléporté. Demandez-moi à nouveau, s'il vous plaît.${prompt}
   8163: Les résultats de la conquête sont actuellement en cours de comptage. Revenez plus tard.${prompt}
   8164: Vous avez reçu la permission de rejoindre les Forces Expéditionnaires !${prompt}
@@ -20210,351 +20210,351 @@ entries:
   8365: 　${prompt}
   8366: PAUSE${prompt}
   8367: '${number: 1}${prompt}'
-  8368: I see you're working hard.${prompt}
-  8369: Ch...Chief Cid!${prompt}
+  8368: Je vois que vous travaillez dur.${prompt}
+  8369: Ch...Chef Cid !${prompt}
   8370: |-
-    Oh, you don't have to go and be all formal.
-    Have there been any changes around here?${prompt}
+    Oh, vous n'avez pas besoin d'être si formel.
+    Y a-t-il eu des changements par ici ?${prompt}
   8371: |-
-    No sir!
-    There has been an increase in the number of adventurers using the airship, as well as an all-around increase in exports, but no signs of any disturbances.${prompt}
-  8372: Truly, Chief Cid's wonderful innovations have brought wealth and prosperity to the Port Distr--${prompt}
+    Non, monsieur !
+    Il y a eu une augmentation du nombre d'aventuriers utilisant le dirigeable, ainsi qu'une augmentation générale des exportations, mais aucun signe de troubles.${prompt}
+  8372: Vraiment, les merveilleuses innovations du Chef Cid ont apporté richesse et prospérité au District du Port --${prompt}
   8373: |-
-    Enough with the flattery!
-    That airship was just one invention, like many others.${prompt}
-  8374: What we need to worry about is the unrest in the Mines District. I'm concerned that the trouble down there is going to spill over into Port Bastok.${prompt}
-  8375: The escalation in activity around Norg also troubles me. Soon there will be airships going to the Outlands. Who knows what those adventurers will be up to when that starts?${prompt}
-  8376: Ah, and what about the Steaming Sheep Restaurant? That old place still doing fine? I mean...it's making money, right? There aren't any strange guys hanging around the proprietor...are there?${prompt}
+    Assez de flatteries !
+    Ce dirigeable n'était qu'une invention parmi d'autres.${prompt}
+  8374: Ce qui nous préoccupe, c'est l'agitation dans le District des Mines. Je crains que les problèmes là-bas ne s'étendent à Port Bastok.${prompt}
+  8375: L'augmentation de l'activité autour de Norg m'inquiète aussi. Bientôt, il y aura des dirigeables pour les Terres Extérieures. Qui sait ce que ces aventuriers feront alors ?${prompt}
+  8376: Ah, et qu'en est-il du restaurant Steaming Sheep ? Cet ancien établissement se porte bien ? Je veux dire... il fait de l'argent, non ? Il n'y a pas de types louches autour du propriétaire... n'est-ce pas ?${prompt}
   8377: |-
-    Sir?
-    I stop in every day after my duties are complete, and business seems decent as usual...${prompt}
+    Monsieur ?
+    Je passe tous les jours après mes devoirs, et les affaires semblent bonnes comme d'habitude...${prompt}
   8378: |-
-    Good...good.
-    Forget what I said.${prompt}
-  8379: I wonder what's wrong with Chief Cid.${prompt}
+    Bien... bien.
+    Oubliez ce que j'ai dit.${prompt}
+  8379: Je me demande ce qui ne va pas avec le Chef Cid.${prompt}
   8380: |-
-    You mean you haven't heard?
-    Cid's got the hots for the lady at the tavern.
-    Word has it that she's a widow...${prompt}
-  8381: Wow. Maybe Chief Cid's got a soft spot after all.${prompt}
+    Vous n'êtes pas au courant ?
+    Cid a le béguin pour la dame de la taverne.
+    On dit qu'elle est veuve...${prompt}
+  8381: Waouh. Peut-être que le Chef Cid a finalement un côté tendre.${prompt}
   8382: |-
-    Welcome back.
-    How are the adventurers faring?${prompt}
+    Bienvenue.
+    Comment se portent les aventuriers ?${prompt}
   8383: |-
-    Lady Ayame!
-    What brings you to this area?${prompt}
+    Dame Ayame !
+    Qu'est-ce qui vous amène dans ce coin ?${prompt}
   8384: |-
-    I was just on my way to another appointment and decided to stop by.
-    What is the status of Port Bastok? Is everything all right?${prompt}
+    Je me rendais juste à un autre rendez-vous et j'ai décidé de faire un arrêt.
+    Quel est l'état de Port Bastok ? Tout va bien ?${prompt}
   8385: |-
-    Chief Cid asked us the same question earlier...
-    But there is nothing out of the ordinary, and Port Bastok is safe as long as we are here, Lady Ayame!${prompt}
+    Le Chef Cid nous a posé la même question plus tôt...
+    Mais il n'y a rien d'inhabituel, et Port Bastok est en sécurité tant que nous sommes ici, Dame Ayame !${prompt}
   8386: |-
-    Very well.
-    The one thing that concerns me, though, is the recent activity of the Tenshodo.
-    Now that the airship will be making trips to the Outlands, I feel that they may team up with the pirates in Norg for another one of their get-rich-quick schemes.${prompt}
+    Très bien.
+    La seule chose qui m'inquiète, c'est l'activité récente du Tenshodo.
+    Maintenant que le dirigeable fera des voyages vers les Terres Extérieures, je crains qu'ils s'associent avec les pirates de Norg pour un autre de leurs plans rapides pour s'enrichir.${prompt}
   8387: |-
-    I have heard that Milady conducted her training in Norg.
-    I am grateful for this important piece of information. I will reinforce the number of guards I have patrolling the area.${prompt}
-  8388: Understood. Carry on.${prompt}
+    J'ai entendu dire que Milady a fait son entraînement à Norg.
+    Je suis reconnaissant pour cette information importante. Je vais renforcer le nombre de gardes qui patrouillent dans la région.${prompt}
+  8388: Compris. Continuez ainsi.${prompt}
   8389: |-
-    <Sigh>...
-    Surely there isn't another woman as beautiful as Lady Ayame. In the desert of Musketeers, she's a garden of roses.
-    But I wonder why she was all the way out here.${prompt}
+    <Soupir>...
+    Il n'y a sûrement pas d'autre femme aussi belle que Dame Ayame. Dans le désert des Mousquetaires, elle est un jardin de roses.
+    Mais je me demande pourquoi elle était jusqu'ici.${prompt}
   8390: |-
-    You didn't know?
-    Lady Ayame grew up here in Port Bastok.
-    Right over there.${prompt}
-  8391: Wow... I bet her whole family is as beautiful and valiant as she is.${prompt}
-  8392: Like, these dudes from the Tenshodo were like, “sell these beans,” so like, here I am. Are you gonna buy some beans, dude?
-  8393: Like, these dudes from the Tenshodo were like, “sell these fireworks,” so like, here I am. But like, don't go using those things around my hair, dude.
+    Vous ne saviez pas ?
+    Dame Ayame a grandi ici, à Port Bastok.
+    Juste là-bas.${prompt}
+  8391: Waouh... Je parie que toute sa famille est aussi belle et vaillante qu'elle.${prompt}
+  8392: Comme, ces mecs du Tenshodo étaient comme, "vends ces haricots", donc comme, me voilà. Tu vas acheter des haricots, mec ?
+  8393: Comme, ces mecs du Tenshodo étaient comme, "vends ces feux d'artifice", donc comme, me voilà. Mais comme, ne les utilise pas près de mes cheveux, mec.
   8394: |-
-    Today, festival day!
-    You must buy. You buy now.
+    Aujourd'hui, jour de fête !
+    Vous devez acheter. Achetez maintenant.
   8395: |-
-    Welcome to my humble establishment.
-    I have a wide variety of specialty goods from Kuzotz.${prompt}
-  8396: Hey therrre! I've got lots of wonderrrful goodies, fresh from the Elshimo Lowlands.${prompt}
-  8397: I'm trrrying to start a business selling goods from the Elshimo Lowlands, but it's not easy getting stuff from areas that aren't under Bastokan contrrrol.${prompt}
+    Bienvenue dans mon humble établissement.
+    J'ai une grande variété de marchandises spéciales de Kuzotz.${prompt}
+  8396: Salut ! J'ai plein de merveilleuses choses, toutes fraîches des Terres Basses d'Elshimo.${prompt}
+  8397: J'essaye de lancer une entreprise de vente de biens des Terres Basses d'Elshimo, mais ce n'est pas facile de se procurer des articles de zones non contrôlées par Bastok.${prompt}
   8398: |-
-    Welcome! Welcome!
-    Take a wonderrr at these specialty goods from the Elshimo Uplands!${prompt}
-  8399: I'm trrrying to start a business selling goods from the Elshimo Uplands, but it's not easy transporting goods from areas that aren't under Bastokan contrrrol.${prompt}
-  8400: Hey. Have you heard of my sister Ayame? She's a samurai and a member of the Mythril Musketeers. She's so cool. Me? I'm nothing compared to her...${prompt}
-  8401: But I was thinking. If I could use a katana, too, I could be cool and strong like her.${prompt}
-  8402: But when I asked my dad about it, he got mad and said I couldn't.${prompt}
-  8403: My dad's been acting strange lately. I think that he's been visiting that Kagetora from the Tenshodo.${prompt}
-  8404: Kaede? What are you up to now? You know you shouldn't be bothering our visitors.${prompt}
-  8405: I just know he's hiding something!${prompt}
-  8406: What do you want? You want to know about Ensetsu?${prompt}
-  8407: Can't even hide something from his kid. Ha! That would explain why he never was called for battle.${prompt}
-  8408: If you want to know why that old man is coming here, you ask him yourself. He's obviously having money problems. Maybe you can help him out.${prompt}
-  8409: How do I know Ensetsu? I guess you could ask the lady we both loved for that answer. Ha ha ha!${prompt}
-  8410: Kagetora told you that? What was he thinking? He usually isn't the type to go telling other people's secrets...${prompt}
-  8411: Secrets? What secrets? I knew you were hiding something, Father!${prompt}
-  8412: I'm not hiding anything! Children should keep their noses out of their parents' business!${prompt}
-  8413: Stop treating me like I'm a child! You were never like this with Ayame! I know I can learn to use a katana and be cool, just like her!${prompt}
+    Bienvenue ! Bienvenue !
+    Admirez ces marchandises spéciales des Hautes Terres d'Elshimo !${prompt}
+  8399: J'essaye de lancer une entreprise de vente de biens des Hautes Terres d'Elshimo, mais ce n'est pas facile de transporter des articles de zones non contrôlées par Bastok.${prompt}
+  8400: Hé. Avez-vous entendu parler de ma sœur Ayame ? C'est une samouraï et membre des Mousquetaires de Mythril. Elle est tellement cool. Moi ? Je ne suis rien comparé à elle...${prompt}
+  8401: Mais je pensais. Si je pouvais aussi utiliser un katana, je pourrais être cool et fort comme elle.${prompt}
+  8402: Mais quand j'ai demandé à mon père, il s'est énervé et a dit que je ne pouvais pas.${prompt}
+  8403: Mon père a agi bizarrement ces derniers temps. Je pense qu'il a rendu visite à ce Kagetora du Tenshodo.${prompt}
+  8404: Kaede ? Qu'est-ce que tu fais encore ? Tu sais que tu ne devrais pas déranger nos visiteurs.${prompt}
+  8405: Je sais qu'il cache quelque chose !${prompt}
+  8406: Qu'est-ce que vous voulez ? Vous voulez en savoir plus sur Ensetsu ?${prompt}
+  8407: On ne peut même pas cacher quelque chose à son propre enfant. Ha ! Cela expliquerait pourquoi il n'a jamais été appelé au combat.${prompt}
+  8408: Si vous voulez savoir pourquoi ce vieil homme vient ici, demandez-lui directement. Il a visiblement des problèmes d'argent. Peut-être pouvez-vous l'aider.${prompt}
+  8409: Comment je connais Ensetsu ? Vous pourriez demander à la dame que nous avons tous les deux aimée pour cette réponse. Ha ha ha !${prompt}
+  8410: Kagetora vous a dit ça ? À quoi pensait-il ? Ce n'est généralement pas le genre à révéler les secrets des autres...${prompt}
+  8411: Des secrets ? Quels secrets ? Je savais que vous cachiez quelque chose, Père !${prompt}
+  8412: Je ne cache rien ! Les enfants devraient se mêler de leurs affaires et non de celles de leurs parents !${prompt}
+  8413: Arrêtez de me traiter comme une enfant ! Vous n'étiez jamais comme ça avec Ayame ! Je sais que je peux apprendre à utiliser un katana et être cool, comme elle !${prompt}
   8414: Kaede...${prompt}
-  8415: Father, you are buying your katana from Mr. Kagetora, aren't you? You can use one, can't you?${prompt}
-  8416: Ayame says she went on a journey to learn the ways of the blade, but I bet it was you who taught her!${prompt}
-  8417: What are you talking about...?${prompt}
-  8418: I hate you! Why won't you tell me the truth!?${prompt}
-  8419: I'm sorry that you had to see that... Girls these days grow up so fast. What is a father to do?${prompt}
-  8420: One day, I know I'll have to tell her the truth about...${prompt}
-  8421: Excuse me. I know that you must be busy, but could I ask a favor of you?${prompt}
-  8422: I would like to buy something back that I recently sold through the Tenshodo. However, I was told by Kagetora that it has already been shipped to Norg.${prompt}
-  8423: 'He told me that if I bring him ${keyitem-article: 7[2]} from the Korroloka Tunnel, he would return my item.${prompt}'
-  8424: However, there is no way that I would survive a trip to that tunnel... I would be in your debt if you could travel there in my place.${prompt}
-  8425: '${lettercase: 1}${keyitem-article: 7[2]}! I am grateful for your help...but there is one problem.${prompt}'
-  8426: Kagetora told me that if I wanted my item back, I would need to go to Norg and get it myself.${prompt}
-  8427: As much as I would like to go, I cannot.${prompt}
-  8428: 'I hate to ask you again after all the trouble you have gone through, but would it be too much to ask you to take that ${keyitem-singular: 7[2]} to Ryoma in Norg? I would be in your debt...${prompt}'
-  8429: I appreciate all that you have done for me, and apologize for having you travel to Norg in my place.${prompt}
-  8430: The item Ensetsu sold here? Yeah, that's already on its way to Norg. Once I've collected my cut, I have no reason to help anybody.${prompt}
-  8431: I cannot express in words the gratitude I feel towards your kindness. I sold this to help support my family, but then I realized that my daughter needed it once more.${prompt}
+  8415: Père, vous achetez votre katana à M. Kagetora, n'est-ce pas ? Vous pouvez en utiliser un, non ?${prompt}
+  8416: Ayame dit qu'elle est partie en voyage pour apprendre les voies de la lame, mais je parie que c'est vous qui l'avez enseignée !${prompt}
+  8417: De quoi parles-tu... ?${prompt}
+  8418: Je vous déteste ! Pourquoi ne me dites-vous pas la vérité ?!${prompt}
+  8419: Je suis désolé que vous ayez dû voir ça... Les filles de nos jours grandissent si vite. Qu'est-ce qu'un père peut faire ?${prompt}
+  8420: Un jour, je sais que je devrai lui dire la vérité à propos de...${prompt}
+  8421: Excusez-moi. Je sais que vous devez être occupé, mais pourrais-je vous demander une faveur ?${prompt}
+  8422: J'aimerais racheter quelque chose que j'ai récemment vendu par l'intermédiaire du Tenshodo. Cependant, Kagetora m'a dit que cela avait déjà été expédié à Norg.${prompt}
+  8423: 'Il m''a dit que si je lui apportais ${keyitem-article: 7[2]} du Tunnel de Korroloka, il me rendrait mon objet.${prompt}'
+  8424: Cependant, il n'y a aucune chance que je survive à un voyage dans ce tunnel... Je serais en dette avec vous si vous pouviez y aller à ma place.${prompt}
+  8425: '${lettercase: 1}${keyitem-article: 7[2]} ! Je suis reconnaissant pour votre aide... mais il y a un problème.${prompt}'
+  8426: Kagetora m'a dit que si je voulais récupérer mon objet, je devrais aller à Norg et le chercher moi-même.${prompt}
+  8427: Autant j'aimerais y aller, autant je ne peux pas.${prompt}
+  8428: 'Je déteste devoir vous demander à nouveau après tout le mal que vous vous êtes donné, mais serait-ce trop demander que vous emmeniez ce ${keyitem-singular: 7[2]} à Ryoma à Norg ? Je serais en dette avec vous...${prompt}'
+  8429: J'apprécie tout ce que vous avez fait pour moi et m'excuse de vous avoir fait voyager à Norg à ma place.${prompt}
+  8430: L'objet qu'Ensetsu a vendu ici ? Ouais, c'est déjà en route pour Norg. Une fois que j'aurai pris ma part, je n'ai aucune raison d'aider qui que ce soit.${prompt}
+  8431: Je ne peux exprimer en mots la gratitude que je ressens pour votre gentillesse. J'ai vendu ceci pour aider à soutenir ma famille, mais ensuite j'ai réalisé que ma fille en avait à nouveau besoin.${prompt}
   8432: |-
-    Father!
-    What is that? You bought another sword for Ayame, didn't you? It's just not fair!${prompt}
-  8433: Would you stop going on about that! I have never purchased a weapon for your sister. Every katana she owns was acquired without my, or anyone else's, help.${prompt}
-  8434: Then what is that for?${prompt}
-  8435: I was going to wait, but I guess you are old enough to know...${prompt}
-  8436: This dagger was your mother's...${prompt}
-  8437: You mean this old thing was...${prompt}
-  8438: Mom's...?${prompt}
-  8439: Yes. Its real name is a shinobi gatana.${prompt}
-  8440: Mom was a ninja?${prompt}
-  8441: Long ago, Yomi...your mother and I lived in Norg. Norg is a haven for the arts of the Far East.${prompt}
-  8442: I was just a lowly crew member on a pirate ship. Your mother, on the other hand, was a master of ninjutsu--almost as strong as she was beautiful...${prompt}
-  8443: And that's probably why she found comfort in a normal, boring man like me.${prompt}
-  8444: When we found that your mother was carrying your sister, we left Norg and traveled here in search of a more simple life.${prompt}
-  8445: 'It was at that time that your mother told me this: she was proud of the road she had taken, and it was that very road that led her to her new life.${prompt}'
-  8446: The hardships that she had to endure made her into the strong mother that she was.${prompt}
-  8447: Perhaps at that time, she realized that she did not have much longer in this world...${prompt}
-  8448: But she fought for ten long years until she exchanged her life for the life of our second daughter...you, Kaede.${prompt}
-  8449: B-but...${prompt}
-  8450: I never wanted you or your sister to take up the katana.${prompt}
-  8451: When your sister said she wanted to travel to Norg to study the way of the samurai, of course I was against it. However, if it was to keep her from becoming a ninja...${prompt}
-  8452: Kaede... Each day, you remind me more and more of your mother.${prompt}
-  8453: I remind you of...Mom?${prompt}
-  8454: And that's why I have been so protective of you. But maybe I was wrong...${prompt}
-  8455: Unlike most fighters, ninjas do not just wave their swords. They lurk in the shadows and stalk their enemies. One must have the highest level of patience and concentration to draw that blade.${prompt}
-  8456: Your mother left this blade sheathed to remind her of that, and now this blade will be passed on to you.${prompt}
-  8457: The road you travel is for you to decide, but do not forget the message that remains in your mother's katana.${prompt}
-  8458: Mom!${prompt}
-  8459: I thank you so much for your help in bringing the blade back to my home. I do not have much to offer you, but take this scroll detailing the secrets of the ninja as a token of my appreciation. It was my wife's.${prompt}
-  8460: No, Kaede won't be needing it. All she really needed was her mother's strong will and spirit. If she wishes to walk the path Yomi chose, it will be her decision.${prompt}
-  8461: But I have the feeling she will be traveling to Norg soon...to find that path.${prompt}
-  8462: You can now become a ninja.${prompt}
-  8463: Ah, ${name-player}. Thank you again for all you have done for my daughter and me.${prompt}
-  8464: I'm going to take good care of my mom's katana. I, too, will learn to be strong like her.${prompt}
-  8465: I remember my sister talking about how the strongest warriors are the ones who draw their blades the least. I think I know what she was talking about now...${prompt}
-  8466: A Mister Hani? Now that you mention it, I do remember an adventurer going by that name... He was talking about a letter he received from some Galka.${prompt}
-  8467: However, he seemed more interested in his next quest than that letter. He kept asking if I knew anything about the Palborough Mines.${prompt}
-  8468: My late husband knew much of those mines. When I told him the stories my husband had told me, the adventurer got excited and said he was setting off for the Mines the next day.${prompt}
-  8469: And that was the last I heard of him. I hope nothing terrible has happened to him...${prompt}
-  8470: What do you mean, Ryoma sent you? He wants to know about that old scroll we found nearly two decades ago?${prompt}
-  8471: Why me? Ryoma knows I don't want to deal with that guy anymore...${prompt}
-  8472: Oh well... Listen up. It all started twenty years ago...${prompt}
-  8473: This is what you were looking for, right? Just where the ancient writings said it would be.${prompt}
-  8474: Damn, you're good, Yomi. How did you...${prompt}
-  8475: A ninja wouldn't be any good if she went around telling everyone her secrets now, would she?${prompt}
+    Père !
+    Qu'est-ce que c'est ? Vous avez acheté une autre épée pour Ayame, n'est-ce pas ? Ce n'est pas juste !${prompt}
+  8433: Arrête de parler de ça ! Je n'ai jamais acheté d'arme pour ta sœur. Chaque katana qu'elle possède a été acquis sans mon aide, ni celle de quiconque d'autre.${prompt}
+  8434: Alors, à quoi ça sert ?${prompt}
+  8435: J'allais attendre, mais je suppose que tu es assez grande pour savoir...${prompt}
+  8436: Ce poignard appartenait à ta mère...${prompt}
+  8437: Tu veux dire que ce vieux truc était...${prompt}
+  8438: À maman... ?${prompt}
+  8439: Oui. Son vrai nom est un shinobi gatana.${prompt}
+  8440: Maman était une ninja ?${prompt}
+  8441: Il y a longtemps, Yomi... ta mère et moi vivions à Norg. Norg est un havre pour les arts de l'Extrême-Orient.${prompt}
+  8442: Je n'étais qu'un simple membre d'équipage sur un navire pirate. Ta mère, en revanche, était une maîtresse du ninjutsu - presque aussi forte qu'elle était belle...${prompt}
+  8443: Et c'est probablement pourquoi elle a trouvé du réconfort auprès d'un homme normal et ennuyeux comme moi.${prompt}
+  8444: Quand nous avons découvert que ta mère attendait ta sœur, nous avons quitté Norg pour chercher une vie plus simple ici.${prompt}
+  8445: 'C''est à ce moment-là que ta mère m''a dit ceci : elle était fière de la voie qu''elle avait empruntée, et c''est cette voie qui l''avait menée à sa nouvelle vie.${prompt}'
+  8446: Les difficultés qu'elle a dû surmonter l'ont rendue la mère forte qu'elle était.${prompt}
+  8447: Peut-être à ce moment-là, elle a réalisé qu'il ne lui restait pas beaucoup de temps dans ce monde...${prompt}
+  8448: Mais elle a lutté pendant dix longues années jusqu'à ce qu'elle échange sa vie contre celle de notre deuxième fille... toi, Kaede.${prompt}
+  8449: M-mais...${prompt}
+  8450: Je n'ai jamais voulu que toi ou ta sœur preniez le katana.${prompt}
+  8451: Quand ta sœur a dit qu'elle voulait voyager à Norg pour étudier l'art du samouraï, bien sûr, j'étais contre. Cependant, si c'était pour l'empêcher de devenir ninja...${prompt}
+  8452: Kaede... Chaque jour, tu me rappelles de plus en plus ta mère.${prompt}
+  8453: Je te rappelle... maman ?${prompt}
+  8454: Et c'est pour ça que j'ai été si protecteur envers toi. Mais peut-être que j'avais tort...${prompt}
+  8455: Contrairement à la plupart des combattants, les ninjas ne se contentent pas d'agiter leurs épées. Ils se cachent dans l'ombre et traquent leurs ennemis. Il faut le plus haut niveau de patience et de concentration pour dégainer cette lame.${prompt}
+  8456: Ta mère a laissé cette lame gainée pour se rappeler cela, et maintenant cette lame te sera transmise.${prompt}
+  8457: Le chemin que tu emprunteras est à toi de décider, mais n'oublie pas le message qui reste dans le katana de ta mère.${prompt}
+  8458: Maman !${prompt}
+  8459: Je vous remercie tellement pour votre aide à ramener la lame à la maison. Je n'ai pas grand-chose à vous offrir, mais prenez ce parchemin détaillant les secrets des ninjas en guise de remerciement. C'était à ma femme.${prompt}
+  8460: Non, Kaede n'en aura pas besoin. Tout ce dont elle avait vraiment besoin, c'était de la volonté et de l'esprit forts de sa mère. Si elle souhaite suivre le chemin choisi par Yomi, ce sera sa décision.${prompt}
+  8461: Mais j'ai le sentiment qu'elle ira bientôt à Norg... pour trouver ce chemin.${prompt}
+  8462: Vous pouvez maintenant devenir ninja.${prompt}
+  8463: Ah, ${name-player}. Merci encore pour tout ce que vous avez fait pour ma fille et moi.${prompt}
+  8464: Je vais bien prendre soin du katana de ma mère. Moi aussi, j'apprendrai à être forte comme elle.${prompt}
+  8465: Je me souviens que ma sœur parlait de comment les guerriers les plus forts sont ceux qui dégainent leurs lames le moins souvent. Je pense comprendre ce qu'elle voulait dire maintenant...${prompt}
+  8466: Un Monsieur Hani ? Maintenant que vous en parlez, je me souviens d'un aventurier portant ce nom... Il parlait d'une lettre qu'il avait reçue d'un Galka.${prompt} 
+  8467: Cependant, il semblait plus intéressé par sa prochaine quête que par cette lettre. Il continuait à demander si je savais quelque chose sur les Mines de Palborough.${prompt}
+  8468: Mon défunt mari connaissait bien ces mines. Quand je lui ai raconté les histoires que mon mari m'avait racontées, l'aventurier s'est enthousiasmé et a dit qu'il partait pour les Mines le lendemain.${prompt}
+  8469: Et c'était la dernière fois que j'en ai entendu parler. J'espère qu'il ne lui est rien arrivé de terrible...${prompt}
+  8470: Qu'est-ce que vous voulez dire, Ryoma vous a envoyé ? Il veut savoir à propos de ce vieux parchemin que nous avons trouvé il y a presque vingt ans ?${prompt}
+  8471: Pourquoi moi ? Ryoma sait que je ne veux plus avoir affaire avec ce type...${prompt}
+  8472: Oh, bon... Écoutez bien. Tout a commencé il y a vingt ans...${prompt}
+  8473: C'est ce que vous cherchiez, n'est-ce pas ? Exactement là où les anciens écrits disaient qu'il serait.${prompt}
+  8474: Bon sang, tu es douée, Yomi. Comment as-tu...${prompt}
+  8475: Un ninja ne serait pas bon s'il allait raconter ses secrets à tout le monde, n'est-ce pas ?${prompt}
   8476: |-
-    Ha-ha. True.
-    Now, let me get you up to speed on your next job.${prompt}
-  8477: Have you forgotten already, Kagetora? I told you before I left that this was going to be my last mission.${prompt}
-  8478: But you were kidding, right? You can't leave us now.${prompt}
-  8479: No, I was not kidding. If you have any problems with my decision, you can take them up with Gilgamesh.${prompt}
-  8480: Hey! What the hell are you doing here!?${prompt}
-  8481: To think that a weasel like that would end up with the hand of the most beautiful woman to ever set foot in Norg... Oh, sorry about that. I got side-tracked.${prompt}
-  8482: Anyway, that scroll Ryoma wants to decipher is the same one that Yomi used on her final job for Norg.${prompt}
-  8483: All information on it was lost after Yomi and that insect of a husband of hers moved here.${prompt}
-  8484: If you want to know any more, try asking Ensetsu. Rough him up a little, and the wimp is sure to spill his guts.${prompt}
-  8485: Ah, ${name-player}. Thank you again for all you have done for my fami...${prompt}
-  8486: What? My wife's final job?${prompt}
-  8487: I can tell you what I know...though it is not much.${prompt}
-  8488: Our investigation into the contents of that ancient scroll took us to the Altepa Desert region of Zepwell Island. There, Yomi succeeded in deciphering it.${prompt}
-  8489: 'Just a simple ship hand, I remained on the boat during the investigation, though I did happen to get a glimpse of the deciphered scroll. The following words were written: “Search out the point in the desert where rations lie stacked one upon another.”${prompt}'
-  8490: 'However, Yomi already traveled to that area and took ${keyitem-article: 7[2]} that she had found there back to Norg. If you journeyed to that place now, I do not know if you would find anything.${prompt}'
-  8491: 'Yes, this resembles the same ${keyitem-singular: 7[2]} that Yomi brought back from Altepa many years ago. But it looks fairly new... What do you think this could mean?${prompt}'
-  8492: 'You want to know more about the ${keyitem-singular: 7[2]}? Well, I am sorry, but I have told you all I know.${prompt}'
-  8493: The information that Yomi came across on that mission was from Mitsunari's grandson.${prompt}
-  8494: Mitsunari left the ancient scroll to his grandson. It was this grandson who helped Yomi decipher it.${prompt}
-  8495: What? You too were attacked by poisonous spiders at the location shown in that scroll--the same location my Yomi was attacked?${prompt}
+    Ha-ha. Vrai.
+    Laissez-moi vous mettre au courant de votre prochaine mission.${prompt}
+  8477: As-tu déjà oublié, Kagetora ? Je t'ai dit avant de partir que ce serait ma dernière mission.${prompt}
+  8478: Mais tu plaisantais, n'est-ce pas ? Tu ne peux pas nous quitter maintenant.${prompt}
+  8479: Non, je ne plaisantais pas. Si tu as des problèmes avec ma décision, tu peux en discuter avec Gilgamesh.${prompt}
+  8480: Hé ! Qu'est-ce que tu fais ici, bon sang !?${prompt}
+  8481: Pour penser qu'un rat comme celui-là finirait avec la main de la plus belle femme à avoir jamais mis les pieds à Norg... Oh, désolé, je me suis laissé emporter.${prompt}
+  8482: Bref, ce parchemin que Ryoma veut déchiffrer est le même que celui que Yomi a utilisé pour sa dernière mission pour Norg.${prompt}
+  8483: Toutes les informations à ce sujet ont été perdues après que Yomi et ce mari insecte aient déménagé ici.${prompt}
+  8484: Si tu veux en savoir plus, essaie de demander à Ensetsu. Malmène-le un peu, et ce faible parlera sûrement.${prompt}
+  8485: Ah, ${name-player}. Merci encore pour tout ce que vous avez fait pour ma fami...${prompt}
+  8486: Quoi ? La dernière mission de ma femme ?${prompt}
+  8487: Je peux vous dire ce que je sais... bien que ce ne soit pas grand-chose.${prompt}
+  8488: Notre enquête sur le contenu de ce vieux parchemin nous a menés dans la région du désert d'Altepa sur l'île de Zepwell. Là, Yomi a réussi à le déchiffrer.${prompt}
+  8489: 'Simple matelot, je suis resté sur le bateau pendant l''enquête, mais j''ai eu un aperçu du parchemin déchiffré. Les mots suivants y étaient écrits : “Cherchez le point dans le désert où les rations sont empilées les unes sur les autres.”${prompt}'
+  8490: 'Cependant, Yomi s''est déjà rendue dans cette zone et a ramené ${keyitem-article: 7[2]} qu''elle y avait trouvé à Norg. Si vous vous rendiez là-bas maintenant, je ne sais pas si vous trouveriez quoi que ce soit.${prompt}'
+  8491: 'Oui, cela ressemble à la même ${keyitem-singular: 7[2]} que Yomi a ramenée d''Altepa il y a des années. Mais ça semble assez neuf... Qu''est-ce que ça pourrait signifier ?${prompt}'
+  8492: 'Vous voulez en savoir plus sur la ${keyitem-singular: 7[2]} ? Eh bien, je suis désolé, mais je vous ai dit tout ce que je sais.${prompt}'
+  8493: Les informations que Yomi a découvertes lors de cette mission provenaient du petit-fils de Mitsunari.${prompt}
+  8494: Mitsunari a laissé l'ancien parchemin à son petit-fils. C'est ce petit-fils qui a aidé Yomi à le déchiffrer.${prompt}
+  8495: Quoi ? Vous aussi, vous avez été attaqué par des araignées venimeuses à l'emplacement indiqué sur ce parchemin - le même endroit où ma Yomi a été attaquée ?${prompt}
   8496: |-
-    It was a trap...
-    Mitsunari had much knowledge in the area of poisons. Only he could devise such a plan...${prompt}
-  8497: Mitsunari's grandson used to live in a tent somewhere in the Altepa Desert. You could try looking for him, but where he resides now, I do not know.${prompt}
-  8498: There has been some commotion in the Mines District near Ore Street. People are saying that a new Talekeeper has appeared.${prompt}
-  8499: It sounds fishy to me, but with the disappearance of their elder, Werei, anything could be possible. And the last thing we want is an uprising by the Galka.${prompt}
-  8500: Go to Ore Street and talk to Medicine Eagle. He says he was there when the commotion started.${prompt}
-  8501: I assume an adventurer of your caliber has heard of Norg.${prompt}
-  8502: Well, the place is a haven for pirates. They even have ties with the Tenshodo. In any case, it's an area that cannot be looked upon lightly.${prompt}
-  8503: That is why we want you to travel there as an emissary. Report to Sir Naji in the President's Office for details.${prompt}
-  8504: Currently, Chief Engineer Cid is conducting research on the architecture in Ro'Maeve near the Sanctuary of Zi'Tah. Your next mission is to travel there and assist him.${prompt}
-  8505: Report to the Chief Engineer in the Metalworks for further details.${prompt}
-  8506: We are searching for an adventurer holding vital information dealing with a certain national investigation.${prompt}
-  8507: The president himself has expressed great interest in this case. Proceed to the President's Office for the details of this mission.${prompt}
-  8508: 'You''ve been ordered by the president to deliver that ${keyitem-singular: 7[2]}. When you have completed that task, you can return here for your next mission.${prompt}'
-  8509: It looks like Bastok is really going to begin an investigation of the Galka homeland of Altepa.${prompt}
-  8510: Your role in this investigation will have you traveling to the Quicksand Caves. Get the details of this mission from Iron Eater in the President's Office.${prompt}
-  8511: As a continuation of Bastok's investigation of Altepa, this time you will be traveling to Zepwell Island.${prompt}
-  8512: You will be carrying out your part of the investigation in the Kuftal Tunnel, which connects Cape Teriggan to Zepwell Island. Report to Drake Fang in the Zeruhn Mines for details.${prompt}
-  8513: Senator Alois has asked for your assistance.${prompt}
-  8514: It is something about an expedition to Vollbow...${prompt}
-  8515: I just hope he's not asking you to go get lizard eggs again... Wait, you didn't hear me say that.${prompt}
-  8516: Recently, an adventurer who was sent to investigate the Northlands has been attacked.${prompt}
-  8517: According to her report, the attacker resembled the dark knight Zeid.${prompt}
-  8518: The strange thing is that the attacker passed a letter to the adventurer before letting her go. Now, this letter's content is causing quite a commotion in the President's Office.${prompt}
-  8519: You have been asked to report directly to President Karst for further details.${prompt}
-  8520: Owzie-wowzie! Don't make me talk. I hurt all over!${prompt}
-  8521: Try though you may, there will come a time when failure is inevitable.${prompt}
-  8522: Channel that agony and bitterness into creating a new plan.${prompt}
-  8523: Owzie-wowzie! Don't make me talk. I hurt all over!${prompt}
-  8524: Hey! You're that famous adventurer, ${name-player}!${prompt}
-  8525: Yippee! It must be destiny that brought us together!${prompt}
-  8526: Let me introduce myself. I am from the Rhinostery in Windurst. I do research on various living things.${prompt}
-  8527: And I'm the besty-westy they've got! I've been looking into phenomena at a certain place.${prompt}
+    C'était un piège...
+    Mitsunari avait beaucoup de connaissances en matière de poisons. Seul lui aurait pu concevoir un tel plan...${prompt}
+  8497: Le petit-fils de Mitsunari vivait autrefois dans une tente quelque part dans le désert d'Altepa. Vous pourriez essayer de le chercher, mais où il réside maintenant, je n'en sais rien.${prompt}
+  8498: Il y a eu du remue-ménage dans le quartier des Mines près de la rue des Minerais. On dit qu'un nouveau Gardien des Contes est apparu.${prompt}
+  8499: Cela me semble louche, mais avec la disparition de leur aîné, Werei, tout est possible. Et la dernière chose que nous voulons est une révolte des Galka.${prompt}
+  8500: Allez à la rue des Minerais et parlez à Aigle-Médecine. Il dit qu'il était là quand le remue-ménage a commencé.${prompt}
+  8501: Je suppose qu'un aventurier de votre calibre a entendu parler de Norg.${prompt}
+  8502: Eh bien, l'endroit est un havre pour les pirates. Ils ont même des liens avec le Tenshodo. En tout cas, c'est une zone qu'on ne peut pas prendre à la légère.${prompt}
+  8503: C'est pourquoi nous voulons que vous y alliez en tant qu'émissaire. Rendez-vous auprès de Sir Naji au Bureau du Président pour les détails.${prompt}
+  8504: Actuellement, l'Ingénieur en Chef Cid mène des recherches sur l'architecture à Ro'Maeve près du Sanctuaire de Zi'Tah. Votre prochaine mission est de vous y rendre pour l'assister.${prompt}
+  8505: Rendez-vous auprès de l'Ingénieur en Chef aux Ateliers Métallurgiques pour plus de détails.${prompt}
+  8506: Nous recherchons un aventurier détenant des informations vitales concernant une certaine enquête nationale.${prompt}
+  8507: Le président lui-même a exprimé un grand intérêt pour ce cas. Rendez-vous au Bureau du Président pour les détails de cette mission.${prompt}
+  8508: 'Vous avez été ordonné par le président de livrer cette ${keyitem-singular: 7[2]}. Une fois cette tâche accomplie, vous pouvez revenir ici pour votre prochaine mission.${prompt}'
+  8509: Il semble que Bastok va vraiment commencer une enquête sur la patrie des Galka à Altepa.${prompt}
+  8510: Votre rôle dans cette enquête vous conduira dans les Cavernes de Sable. Obtenez les détails de cette mission auprès de Mangeur de Fer au Bureau du Président.${prompt}
+  8511: En continuation de l'enquête de Bastok sur Altepa, cette fois, vous vous rendrez sur l'île de Zepwell.${prompt}
+  8512: Vous mènerez votre partie de l'enquête dans le Tunnel de Kuftal, qui relie le Cap Teriggan à l'île de Zepwell. Rendez-vous auprès de Croc de Dragon aux Mines de Zeruhn pour les détails.${prompt}
+  8513: Le sénateur Alois a demandé votre aide.${prompt}
+  8514: Il s'agit de quelque chose à propos d'une expédition à Vollbow...${prompt}
+  8515: J'espère juste qu'il ne vous demande pas d'aller chercher des œufs de lézard à nouveau... Attendez, vous ne m'avez pas entendu dire ça.${prompt}
+  8516: Récemment, un aventurier envoyé pour enquêter sur les Terres du Nord a été attaqué.${prompt}
+  8517: Selon son rapport, l'attaquant ressemblait au chevalier noir Zeid.${prompt}
+  8518: La chose étrange est que l'attaquant a remis une lettre à l'aventurière avant de la laisser partir. Maintenant, le contenu de cette lettre cause tout un émoi au Bureau du Président.${prompt}
+  8519: On vous a demandé de vous présenter directement au Président Karst pour plus de détails.${prompt}
+  8520: Aïe-aïe-aïe ! Ne me faites pas parler. J'ai mal partout !${prompt}
+  8521: Essayez autant que vous voulez, il viendra un moment où l'échec sera inévitable.${prompt}
+  8522: Canalisez cette douleur et cette amertume pour créer un nouveau plan.${prompt}
+  8523: Aïe-aïe-aïe ! Ne me faites pas parler. J'ai mal partout !${prompt}
+  8524: Hé ! Vous êtes cet aventurier célèbre, ${name-player} !${prompt}
+  8525: Youpi ! Ce doit être le destin qui nous a réunis !${prompt}
+  8526: Permettez-moi de me présenter. Je viens de la Rhinostery à Windurst. Je fais des recherches sur divers êtres vivants.${prompt}
+  8527: Et je suis le meilleur qu'ils aient ! J'ai enquêté sur des phénomènes à un certain endroit.${prompt}
   8528: |-
-    I can't talk about it too loudly, but have you ever seen one of those huge crystals?
-    They're found all over the world, far into the wilderness, and deep down in dungeons...${prompt}
+    Je ne peux pas en parler trop fort, mais avez-vous déjà vu un de ces énormes cristaux ?
+    On les trouve partout dans le monde, loin dans la nature sauvage et profondément dans les donjons...${prompt}
   8529: |-
-    From those crystals, a strangey-wangey power is constantly pouring forth.
-    Our research team had been investigating the unusual emanations when...${prompt}
-  8530: Well, take a look at this!${prompt}
-  8531: As a result of our research, we finally succeeded in awakening the crystals!${prompt}
+    De ces cristaux, un pouvoir étrange et bizarre jaillit constamment.
+    Notre équipe de recherche enquêtait sur ces émanations inhabituelles quand...${prompt}
+  8530: Eh bien, regardez ça !${prompt}
+  8531: Grâce à notre recherche, nous avons finalement réussi à réveiller les cristaux !${prompt}
   8532: |-
-    Our theory on what lay dormant inside the crystals was proven to be rightaru on the money!
-    However, they didn't appreciate being woken up, and attacked us.${prompt}
+    Notre théorie sur ce qui dormait à l'intérieur des cristaux s'est révélée exacte !
+    Cependant, ils n'ont pas apprécié d'être réveillés et nous ont attaqués.${prompt}
   8533: |-
-    Why do they so despise talking with us that they would rather fight?
-    And what on Vana'diel would happen if someone were to defeat them?${prompt}
+    Pourquoi détestent-ils tellement parler avec nous qu'ils préfèrent se battre ?
+    Et que se passerait-il sur Vana'diel si quelqu'un les vainquait ?${prompt}
   8534: |-
-    I'm sure that you could do it!
-    Will you help us out with our research? ${prompt}
+    Je suis sûr que vous pourriez le faire !
+    Allez-vous nous aider dans notre recherche ? ${prompt}
   8535: |-
-    Take up the challenge?
+    Accepter le défi ?
     ${selection-lines}
-    Bring it on!
-    Ah, no, thanks...${prompt}
+    Allez-y !
+    Ah, non, merci...${prompt}
   8536: |-
-    Wonderful!
-    Here, take this ${keyitem-singular: 1[2]}. But be warned--only a person who carries one can enter the crystal.${prompt}
-  8537: 'This ${keyitem-singular: 1[2]} will awaken the giant crystal that is found ${choice: 2}[in Ifrit''s Cauldron/in the Quicksand Caves/in the Den of Rancor/in Cape Teriggan/in Fei''Yin/in The Boyahda Tree].${prompt}'
+    Magnifique !
+    Tenez, prenez ce ${keyitem-singular: 1[2]}. Mais attention--seule une personne qui en porte un peut entrer dans le cristal.${prompt}
+  8537: 'Ce ${keyitem-singular: 1[2]} réveillera le grand cristal qui se trouve ${choice: 2}[dans le Chaudron d''Ifrit/dans les Cavernes de Sable/dans la Tanière de la Rancune/au Cap Teriggan/dans Fei''Yin/dans l''Arbre de Boyahda].${prompt}'
   8538: |-
-    Without it, you won't be getting inside no matter how sneaky-weaky you are!
-    Oh, and if you want to take some friends with you, they also have to get ${keyitem-article: 1[2]} from me. Okey-dokey?${prompt}
-  8539: If you don't prepare yourself for battle, you'll get beaten to a pulp, like we did! ${prompt}
-  8540: "As soon as we gather our companions, we'll be jumping into the fray again. \nI just hope this little researcher doesn't get in our way...${prompt}"
+    Sans cela, vous n'entrerez pas, peu importe à quel point vous êtes rusé !
+    Ah, et si vous voulez emmener des amis avec vous, ils devront aussi obtenir ${keyitem-article: 1[2]} de ma part. D'accord ?${prompt}
+  8539: Si vous ne vous préparez pas au combat, vous serez battu en bouillie, comme nous l'avons été ! ${prompt}
+  8540: "Dès que nous aurons rassemblé nos compagnons, nous retournerons dans la mêlée. \nJ'espère juste que ce petit chercheur ne nous gênera pas...${prompt}"
   8541: |-
-    Excuse me!
-    If I don't go with you, there's no pointaru to the research now is there?${prompt}
+    Excusez-moi !
+    Si je ne viens pas avec vous, quelle serait l'utilité de la recherche maintenant, hein ?${prompt}
   8542: |-
-    Is it true?${wait-36: 1}
-    You really defeated a prime avatar!?${prompt}
+    Est-ce vrai ?${wait-36: 1}
+    Vous avez vraiment vaincu un avatar principal !?${prompt}
   8543: |-
-    ...I see.
-    The prime avatar said that to you?
-    I wonder what it could mean.${prompt}
+    ...Je vois.
+    L'avatar principal vous a dit ça ?
+    Je me demande ce que cela pourrait signifier.${prompt}
   8544: |-
-    ...There is no need to understand...
-    ...You will forget what I have said...${prompt}
-  8545: Y-you, you're...!?
-  8546: '...You have power...${prompt}'
+    ...Il n'y a pas besoin de comprendre...
+    ...Vous oublierez ce que j'ai dit...${prompt}
+  8545: V-vous, vous êtes... !?
+  8546: '...Vous avez du pouvoir...${prompt}'
   8547: |-
-    ...Will you allow...that power...
-    ...to slumber...for eternity...?${prompt}
+    ...Allez-vous permettre...à ce pouvoir...
+    ...de dormir...pour l'éternité...?${prompt}
   8548: |-
-    Surrender...that power...to me...
-    and I...will craft...that power...
-    into whatever...you desire...${prompt}
-  8549: '...We meet...again...${prompt}'
-  8550: '...I must...fulfill...my charge...${prompt}'
-  8551: '...The beast...shall claim...its due...${prompt}'
+    Rendez-moi...ce pouvoir...
+    et moi...je façonnerai...ce pouvoir...
+    en ce que...vous désirez...${prompt}
+  8549: '...Nous nous retrouvons...${prompt}'
+  8550: '...Je dois...accomplir...ma mission...${prompt}'
+  8551: '...La bête...réclamera...ce qui lui est dû...${prompt}'
   8552: |-
-    Choose...
-    What...do you desire...? What...do you seek?${prompt}
+    Choisissez...
+    Que...désirez-vous...? Que...cherchez-vous?${prompt}
   8553: |-
-    What do you desire?
+    Que désirez-vous ?
     ${selection-lines}
     ${lettercase: 1}${article} ${item-article: 5[2]}.
     ${lettercase: 1}${article} ${item-article: 6[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
-    Gil.
-    Nothing (a pact with the avatar).${prompt}
-  8554: '...This is what you desire...?${prompt}'
+    Du gil.
+    Rien (un pacte avec l'avatar).${prompt}
+  8554: '...C''est ce que vous désirez...?${prompt}'
   8555: |-
-    You want ${article} ${item-article: 5[2]}?
+    Vous voulez ${article} ${item-article: 5[2]} ?
     ${selection-lines}
-    Yes.
-    Wait!${prompt}
+    Oui.
+    Attendez !${prompt}
   8556: |-
-    You want ${article} ${item-article: 6[2]}?
+    Vous voulez ${article} ${item-article: 6[2]} ?
     ${selection-lines}
-    Yes.
-    Wait!${prompt}
+    Oui.
+    Attendez !${prompt}
   8557: |-
-    You want ${article} ${item-article: 1[2]}?
+    Vous voulez ${article} ${item-article: 1[2]} ?
     ${selection-lines}
-    Yes.
-    Wait!${prompt}
+    Oui.
+    Attendez !${prompt}
   8558: |-
-    You want ${article} ${item-article: 2[2]}?
+    Vous voulez ${article} ${item-article: 2[2]} ?
     ${selection-lines}
-    Yes.
-    Wait!${prompt}
+    Oui.
+    Attendez !${prompt}
   8559: |-
-    Gil is what you truly want?
+    Le gil est ce que vous voulez vraiment ?
     ${selection-lines}
-    Yes.
-    Wait!${prompt}
+    Oui.
+    Attendez !${prompt}
   8560: |-
-    Are you sure?
+    Êtes-vous sûr ?
     ${selection-lines}
-    Yes.
-    Wait!${prompt}
-  8561: Listen...to the voice without--my voice--with your ears...and your heart...${prompt}
+    Oui.
+    Attendez !${prompt}
+  8561: Écoutez...la voix sans--ma voix--avec vos oreilles...et votre cœur...${prompt}
   8562: |-
-    Bring me...${wait-36: 3}
-      Power...${wait-36: 3}
-        Higher...${wait-36: 2}
-          Deeper...${wait-36: 2}
+    Apportez-moi...${wait-36: 3}
+      Du pouvoir...${wait-36: 3}
+        Plus haut...${wait-36: 2}
+          Plus profond...${wait-36: 2}
             ......${wait-36: 2}
-              Stronger...${wait-animation: 2}${prompt}
+              Plus fort...${wait-animation: 2}${prompt}
   8563: |-
     ...?
-    ...something...interfering...?${prompt}
+    ...quelque chose...interfère...?${prompt}
   8564: |-
     ${name-player}...!
-    Listen to the voice within you!${prompt}
-  8565: If you focus, you will see the true Vana'diel!${prompt}
-  8566: '...Even if...that...'
+    Écoutez la voix en vous !${prompt}
+  8565: Si vous vous concentrez, vous verrez le vrai Vana'diel !${prompt}
+  8566: '...Même si...ça...'
   8567: |-
-    Uh?
-    Huh? I went all spacey-wacey for a moment there...${prompt}
+    Hein ?
+    Quoi ? J'ai eu un moment d'absence...${prompt}
   8568: |-
-    Um, excuse me, but who were you again?
-    Was I speaking with you? What were we talking about?${prompt}
-  8569: Did I already tell you I'm a researcher from the Rhinostery in Windurst?${prompt}
-  8570: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
-  8571: Owzie-wowzie! Don't make me talk. I hurt all over!${prompt}
-  8572: Hey, Juroro!
-  8573: Oh, it's Ildy-Goldy!${prompt}
-  8574: It's been some time since you made that tuning fork. Are you still researching those giant-viant crystals?${prompt}
-  8575: Ah, yes, I've asked a veteran adventurer to look into that for me, but ${choice-player-gender}[he/she] hasn't come back yet.${prompt}
+    Euh, excusez-moi, mais qui étiez-vous déjà ?
+    Étais-je en train de parler avec vous ? De quoi parlions-nous ?${prompt}
+  8569: Vous ai-je déjà dit que je suis un chercheur de la Rhinostery à Windurst ?${prompt}
+  8570: 'Vous pouvez maintenant invoquer ${choice: 2}[Ifrit/Titan/Léviathan/Garuda/Shiva/Ramuh].${prompt}'
+  8571: Aïe-aïe-aïe ! Ne me faites pas parler. J'ai mal partout !${prompt}
+  8572: Hé, Juroro !
+  8573: Oh, c'est Ildy-Goldy !${prompt}
+  8574: Il s'est passé un moment depuis que vous avez fabriqué cette fourche d'accord. Vous continuez à rechercher ces cristaux géants ?${prompt}
+  8575: Ah, oui, j'ai demandé à un aventurier vétéran de s'en occuper pour moi, mais ${choice-player-gender}[il/elle] n'est pas encore revenu(e).${prompt}
   8576: |-
-    ...Wait.
-    Did ${choice-player-gender}[he/she] come back already?
-    ...Or did I even ask ${choice-player-gender}[him/her] to do that yet?${prompt}
+    ...Attendez.
+    ${choice-player-gender}[Il/Elle] est déjà revenu(e) ?
+    ...Ou est-ce que je lui ai même demandé de faire ça ?${prompt}
   8577: |-
-    Vhat's wrong vith you? Pull yourself together, man.
-    I don't think the food in this country agrees with you. Or maybe you haven't been getting enough snoozy-vooze time lately?${prompt}
+    Qu'est-ce qui ne va pas chez vous ? Reprenez-vous, mon vieux.
+    Je ne pense pas que la nourriture de ce pays vous convient. Ou peut-être que vous n'avez pas assez dormi ces derniers temps ?${prompt}
   8578: |-
-    No, it's nothing like that...
-    I guess I have been kinda tired lately, though...${prompt}
+    Non, ce n'est pas ça...
+    Je suppose que j'ai été assez fatigué ces derniers temps, cependant...${prompt}
   8579: |-
-    Vell, no mattaru.
-    I'll go take a look. I've been asked to carry out an experiment with the new version of the ${keyitem-singular: 1[2]}, the ${color: 5}improved tuning fork of earth${color: 1}.${prompt}
+    Eh bien, peu importe.
+    Je vais aller voir. On m'a demandé de mener une expérience avec la nouvelle version de la ${keyitem-singular: 1[2]}, la ${color: 5}fourche d'accord améliorée de terre${color: 1}.${prompt}
   8580: 'Hey ${choice-player-gender}[Mister/Miss] Adventurer, you look like the reliable-viable type. Maybe you can help me out here. Take this ${item-singular: 3[2]} to the Quicksand Caves in the Eastern Altepa Desert.${prompt}'
   8581: 'Using my improved tuning fork of earth along with the ${item-singular: 3[2]}, should allow more people to be drawn into the crystal than using the regular ${keyitem-singular: 1[2]}.${prompt}'
   8582: Ildy-Goldy is extremely-wemely proficient in hand-to-hand combat, something very unusual among we Tarutaru. He's always high on the list when researchers are looking for a Rhinostery adventurer to accompany them to the wild lands.${prompt}
@@ -20902,81 +20902,81 @@ entries:
   8732: Cependant, pour compléter la chanson, nous devons d'abord rassembler ses pages.${prompt}
   8733: Je ferais la tâche moi-même, mais j'ai peur que sans mon équipe, je ne sois incapable de récupérer les objets nécessaires.${prompt}
   8734: |-
-    I see...
-    We must think of a way to collect all the pages of the “Chanson de Liberte” before it is too late.${prompt}
-  8735: Exactly.${prompt}
-  8736: But once we have all the pages, who will do the translation of the lyrics? I know of no one who can read the ancient language.${prompt}
+    Je vois...
+    Nous devons trouver un moyen de collecter toutes les pages de la “Chanson de Liberté” avant qu'il ne soit trop tard.${prompt}
+  8735: Exactement.${prompt}
+  8736: Mais une fois que nous aurons toutes les pages, qui fera la traduction des paroles ? Je ne connais personne capable de lire l'ancienne langue.${prompt}
   8737: |-
-    Yes, translation...
-    And a new arrangement of the melody will also be needed.${prompt}
+    Oui, la traduction...
+    Et une nouvelle orchestration de la mélodie sera également nécessaire.${prompt}
   8738: |-
-    That is correct. You know much of this song.
-    However, there are not many people who could complete the task of translation and arrangement.${prompt}
-  8739: Please, sir. Do not mock me. While I may not be famous, I am a professional bard.${prompt}
-  8740: Oh, so you think that you can translate the ancient language in the “Chanson de Liberte”?${prompt}
-  8741: Are you sure that you can handle it?${prompt}
+    C'est exact. Vous en savez beaucoup sur cette chanson.
+    Cependant, peu de gens pourraient accomplir la tâche de traduction et d'arrangement.${prompt}
+  8739: S'il vous plaît, monsieur. Ne vous moquez pas de moi. Bien que je ne sois pas célèbre, je suis un barde professionnel.${prompt}
+  8740: Oh, alors vous pensez que vous pouvez traduire l'ancienne langue dans la “Chanson de Liberté” ?${prompt}
+  8741: Êtes-vous sûr de pouvoir le gérer ?${prompt}
   8742: |-
-    Of course!
-    If Dariah is in need of my help, I will do anything in my power to assist her!${prompt}
-  8743: I sense confidence in your words, but will you be able to live up to them?${prompt}
-  8744: We shall see if you can truly do what you say, or if your words are just merely words.${prompt}
-  8745: Merely...words...${prompt}
-  8746: Merely words!? You just watch! I will save Dariah.${prompt}
-  8747: I regret to ask this of you, ${name-player}, but would you assist me in my quest to save a life?${prompt}
-  8748: According to legend, the “Chanson de Liberte” works by calling upon the ancient gods for their help.${prompt}
-  8749: 'The three pages necessary to complete the song--the ${keyitem-singular: 5[2]}, the ${keyitem-singular: 6[2]}, and the ${keyitem-singular: 7[2]}--are located deep within dungeons spread out across Vana''diel.${prompt}'
-  8750: As I explained earlier, to save Dariah, we must gather these three pages and have them translated.${prompt}
-  8751: From the information I have collected, I know that one of the pages lies somewhere within a castle in the cursed Northlands.${prompt}
-  8752: I, too, have heard of the location of the three pages.${prompt}
-  8753: One is said to be hidden in an undersea cave near the Yuhtunga Jungle, while yet another lies buried somewhere in a labyrinth on an eastern peninsula.${prompt}
-  8754: I will deal with the translation, but I need someone to help me get the three pages...${prompt}
-  8755: It is not an easy task, but I feel your just heart will guide you on your journey.${prompt}
-  8756: You've returned with the three pages! I do not know...I do not know what to say!${prompt}
-  8757: I will begin on the translation right away. Dariah's life is on the line... There is not a second to lose.${prompt}
-  8758: I apologize, but the translation will require more time.${prompt}
+    Bien sûr !
+    Si Dariah a besoin de mon aide, je ferai tout ce qui est en mon pouvoir pour l'assister !${prompt}
+  8743: Je sens de la confiance dans vos paroles, mais serez-vous capable de les honorer ?${prompt}
+  8744: Nous verrons si vous pouvez vraiment faire ce que vous dites, ou si vos mots ne sont que des mots.${prompt}
+  8745: Juste... des mots...${prompt}
+  8746: Juste des mots !? Vous regarderez ! Je sauverai Dariah.${prompt}
+  8747: Je regrette de vous demander cela, ${name-player}, mais voudriez-vous m'assister dans ma quête pour sauver une vie ?${prompt}
+  8748: Selon la légende, la “Chanson de Liberté” fonctionne en faisant appel à l'aide des anciens dieux.${prompt}
+  8749: 'Les trois pages nécessaires pour compléter la chanson--la ${keyitem-singular: 5[2]}, la ${keyitem-singular: 6[2]}, et la ${keyitem-singular: 7[2]}--sont situées au plus profond des donjons dispersés à travers Vana''diel.${prompt}'
+  8750: Comme je l'ai expliqué plus tôt, pour sauver Dariah, nous devons rassembler ces trois pages et les faire traduire.${prompt}
+  8751: D'après les informations que j'ai collectées, je sais qu'une des pages se trouve quelque part dans un château dans les Terres Maudites du Nord.${prompt}
+  8752: J'ai aussi entendu parler de l'emplacement des trois pages.${prompt}
+  8753: L'une serait cachée dans une grotte sous-marine près de la Jungle de Yuhtunga, tandis qu'une autre serait enfouie quelque part dans un labyrinthe sur une péninsule à l'est.${prompt}
+  8754: Je m'occuperai de la traduction, mais j'ai besoin de quelqu'un pour m'aider à récupérer les trois pages...${prompt}
+  8755: Ce n'est pas une tâche facile, mais je sens que votre cœur juste vous guidera dans votre voyage.${prompt}
+  8756: Vous êtes revenu avec les trois pages ! Je ne sais pas... je ne sais pas quoi dire !${prompt}
+  8757: Je vais commencer la traduction immédiatement. La vie de Dariah est en jeu... Il n'y a pas une seconde à perdre.${prompt}
+  8758: Je m'excuse, mais la traduction va nécessiter plus de temps.${prompt}
   8759: |-
-    Hold on, Dariah...
-    I swear on my life that I will save yours.${prompt}
+    Tiens bon, Dariah...
+    Je jure sur ma vie que je sauverai la tienne.${prompt}
   8760: |-
-    ${name-player}! I have succeeded in translating the “Chanson de Liberte”!
-    We must hurry and get this song to Dariah.${prompt}
-  8761: Oh, you're here...${prompt}
-  8762: I did as I said I would. The translation and arrangement are complete.${prompt}
-  8763: I see...${prompt}
-  8764: There is something that I have to tell you...${prompt}
-  8765: Wh-what!?${prompt}
+    ${name-player} ! J'ai réussi à traduire la “Chanson de Liberté” !
+    Nous devons nous dépêcher et apporter cette chanson à Dariah.${prompt}
+  8761: Oh, tu es là...${prompt}
+  8762: J'ai fait ce que j'ai dit que je ferais. La traduction et l'arrangement sont terminés.${prompt}
+  8763: Je vois...${prompt}
+  8764: Il y a quelque chose que je dois te dire...${prompt}
+  8765: Qu-quoi !?${prompt}
   8766: |-
-    I apologize...
-    Everything I have told you about Dariah...${prompt}
-  8767: They have all been lies.${prompt}
+    Je m'excuse...
+    Tout ce que je t'ai dit à propos de Dariah...${prompt}
+  8767: Tout cela était des mensonges.${prompt}
   8768: '!?${prompt}'
-  8769: It is true that our party traveled to Norvallen. However, the story about the flower and Dariah's ailment...none of it was true.${prompt}
-  8770: Why would you do...${prompt}
+  8769: Il est vrai que notre groupe s'est rendu à Norvallen. Cependant, l'histoire concernant la fleur et la maladie de Dariah... rien de tout cela n'était vrai.${prompt}
+  8770: Pourquoi as-tu fait...${prompt}
   8771: |-
-    From the moment I laid my eyes upon her, I was put under a spell.
-    Her smile... Her frown... Her strengths... Her weaknesses... I came to love them all.${prompt}
-  8772: However, as much as my love for her grew, she would not answer that love.${prompt}
-  8773: She would... She would often talk of you, Carmelo.${prompt}
-  8774: Kind, intelligent...strong...${prompt}
-  8775: And so I decided...to test you.${prompt}
-  8776: Test me?${prompt}
-  8777: I apologize for my wrongdoing.${prompt}
-  8778: I just wanted to see your sincerity towards Dariah. I wanted to see if you loved her as much as she loved you...${prompt}
+    Dès que je l'ai vue, j'ai été ensorcelé.
+    Son sourire... Son froncement... Ses forces... Ses faiblesses... J'en suis venu à aimer tout cela.${prompt}
+  8772: Cependant, aussi grand que soit devenu mon amour pour elle, elle ne répondait pas à cet amour.${prompt}
+  8773: Elle... Elle parlait souvent de toi, Carmelo.${prompt}
+  8774: Gentil, intelligent... fort...${prompt}
+  8775: Et donc j'ai décidé... de te tester.${prompt}
+  8776: Me tester ?${prompt}
+  8777: Je m'excuse pour mon méfait.${prompt}
+  8778: Je voulais juste voir ta sincérité envers Dariah. Je voulais voir si tu l'aimais autant qu'elle t'aimait...${prompt}
   8779: '...!${prompt}'
-  8780: Here, take this. It is not much, but it is the only thing I can do to say that I am sorry...${prompt}
-  8781: Wait. I...${prompt}
-  8782: I underestimated you, Carmelo...${prompt}
-  8783: Take care of yourself...and Dariah.${prompt}
-  8784: Then...what did we have to get the “Chanson de Liberte” for!?${prompt}
-  8785: And what did he mean, “Take care of Dariah”!?${prompt}
-  8786: Dariah and I are no longer...${prompt}
-  8787: Well, no matter. As long as she is safe...${prompt}
-  8788: I apologize for all the trouble that I have caused you. Please take this as a token of my gratitude.${prompt}
-  8789: I am forever in your debt for what you have done for me. However, I have one last request...${prompt}
-  8790: Someday, this song will be needed to save the life of a loved one. But until that day...${prompt}
-  8791: I would like you to take this deep into the Sanctuary of Zi'Tah.${prompt}
-  8792: Somewhere in that primordial forest is a beautiful place where clear spring water bubbles up around a ring of white-flowered trees.${prompt}
-  8793: When the sanctuary is bathed in the hues of dusk, bury the pages of the song in that place. There it will wait for another to come along...${prompt}
+  8780: Tiens, prends ça. Ce n'est pas grand-chose, mais c'est la seule chose que je peux faire pour te dire que je suis désolé...${prompt}
+  8781: Attends. Je...${prompt}
+  8782: Je t'ai sous-estimé, Carmelo...${prompt}
+  8783: Prends soin de toi... et de Dariah.${prompt}
+  8784: Alors... pourquoi avons-nous dû obtenir la “Chanson de Liberté” !?${prompt}
+  8785: Et que voulait-il dire par “Prends soin de Dariah” !?${prompt}
+  8786: Dariah et moi ne sommes plus...${prompt}
+  8787: Eh bien, peu importe. Tant qu'elle est en sécurité...${prompt}
+  8788: Je m'excuse pour tous les problèmes que je t'ai causés. S'il te plaît, prends ceci en signe de gratitude.${prompt}
+  8789: Je te serai éternellement redevable pour ce que tu as fait pour moi. Cependant, j'ai une dernière demande...${prompt}
+  8790: Un jour, cette chanson sera nécessaire pour sauver la vie d'un être cher. Mais jusqu'à ce jour...${prompt}
+  8791: J'aimerais que tu emportes ceci profondément dans le Sanctuaire de Zi'Tah.${prompt}
+  8792: Quelque part dans cette forêt primordiale se trouve un bel endroit où de l'eau de source claire bouillonne autour d'un cercle d'arbres à fleurs blanches.${prompt}
+  8793: Lorsque le sanctuaire est baigné des teintes du crépuscule, enterre les pages de la chanson à cet endroit. Là, elle attendra qu'une autre personne vienne...${prompt}
   8794: |-
     La route devant vous est longue, mais je sais que vous réussirez dans votre tâche.
     Je vous remercie de tout cœur pour tout ce que vous avez fait pour moi.${prompt}
