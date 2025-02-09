@@ -16063,30 +16063,30 @@ entries:
   6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
   6492: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour actuel.
+    Une fois un point de retour défini, vous y reviendrez chaque fois que vous êtes mis hors de combat.
   6493: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6494: Home point set!${prompt}
-  6495: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  6494: Point de retour défini !${prompt}
+  6495: Un point de retour peut être défini comme un endroit où retourner à Vana'diel lorsque vous êtes mis K.O. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   6496: |-
-    What will you do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres réglages.
+    En y repensant, laissez tomber.${prompt}
   6497: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  6498: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
+  6498: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   6499: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16103,81 +16103,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6500: |-
-    Teleport where?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6501: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  6502: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  6503: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  6501: Vous n'avez pas encore enregistré d'autres points de retour, donc vous ne pouvez pas vous téléporter.${prompt}
+  6502: 'Il en coûte ${number: 3} gil pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  6503: 'Il n''y a pas de frais pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.' 
   6504: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Supprimer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   6505: |-
-    Teleport to which region?
+    Se téléporter dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    En y repensant, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Arche de Tavnazia].
     ${choice: 1}[Windurst/Lumoria].
     ${choice: 1}[Jeuno/Mamool Ja Savage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Ouest. Aht Urhgan/Îles d'Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est. Ulbuka].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   6506: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  6507: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un endroit favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  6507: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré pour la téléportation.
   6508: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  6509: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  6509: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   6510: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16187,13 +16187,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  6511: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  6512: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Supprimer des favoris].${prompt}
+  6511: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/supprimé de] votre liste de lieux favoris.'
+  6512: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   6513: |-
-    Delete which?
+    Supprimer laquelle ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16203,145 +16203,145 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6514: Tallying conquest results...${prompt}
-  6515: Conquest results tallied.${prompt}
-  6516: This region is currently under San d'Orian control.${prompt}
-  6517: This region is currently under Bastokan control.${prompt}
-  6518: This region is currently under Windurstian control.${prompt}
+  6514: Calcul des résultats de conquête...${prompt}
+  6515: Résultats de conquête calculés.${prompt}
+  6516: Cette région est actuellement sous contrôle San d'Orian.${prompt}
+  6517: Cette région est actuellement sous contrôle Bastokan.${prompt}
+  6518: Cette région est actuellement sous contrôle Windurstien.${prompt}
   6519: |-
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  6520: This region is currently neutral.${prompt}
+    Cette région est actuellement sous contrôle des bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  6520: Cette région est actuellement neutre.${prompt}
   6521: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Windurst
-    3rd: Bastok${prompt}
-  6522: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Windurst
+    3e : Bastok${prompt}
+  6522: Les trois nations sont à égalité pour la première place.${prompt}
   6523: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   6524: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   6525: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok
-    3rd: Windurst${prompt}
-  6526: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok
+    3e : Windurst${prompt}
+  6526: Les trois nations sont à égalité pour la première place.${prompt}
   6527: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   6528: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   6529: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria
-    3rd: Windurst${prompt}
-  6530: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria
+    3e : Windurst${prompt}
+  6530: Les trois nations sont à égalité pour la première place.${prompt}
   6531: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   6532: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   6533: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: Windurst
-    3rd: San d'Oria${prompt}
-  6534: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : Windurst
+    3e : San d'Oria${prompt}
+  6534: Les trois nations sont à égalité pour la première place.${prompt}
   6535: |-
-    Global balance of power:
-    1st: Bastok and Windurst (tie)
-    3rd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst (égalité)
+    3e : San d'Oria${prompt}
   6536: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   6537: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria
+    3e : Bastok${prompt}
   6538: |-
-    Global balance of power:
-    All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    Les trois nations sont à égalité pour la première place.${prompt}
   6539: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   6540: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok (égalité)${prompt}
   6541: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: Bastok
-    3rd: San d'Oria${prompt}
-  6542: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : Bastok
+    3e : San d'Oria${prompt}
+  6542: Les trois nations sont à égalité pour la première place.${prompt}
   6543: |-
-    Global balance of power:
-    1st: Bastok and Windurst
-    2nd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst
+    2e : San d'Oria${prompt}
   6544: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok${prompt}
   6545: |-
-    Conquest update:
-    This region is currently neutral.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement neutre.${prompt}
   6546: |-
-    Conquest update:
-    This region is currently under San d'Orian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle San d'Orian.${prompt}
   6547: |-
-    Conquest update:
-    This region is currently under Bastokan control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle Bastokan.${prompt}
   6548: |-
-    Conquest update:
-    This region is currently under Windurstian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle Windurstien.${prompt}
   6549: |-
-    Conquest update:
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  6550: All three nations are at a deadlock.${prompt}
-  6551: The beastmen are on the rise.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle des bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  6550: Les trois nations sont dans une impasse.${prompt}
+  6551: Les bêtes prennent de l'importance.${prompt}
   6552: |-
-    Regional influence:
-    San d'Oria - Dominant${prompt}
+    Influence régionale :
+    San d'Oria - Dominante${prompt}
   6553: |-
-    Regional influence:
-    San d'Oria - Major${prompt}
+    Influence régionale :
+    San d'Oria - Majeure${prompt}
   6554: |-
-    Regional influence:
-    San d'Oria - Minor${prompt}
+    Influence régionale :
+    San d'Oria - Mineure${prompt}
   6555: |-
-    Regional influence:
-    San d'Oria - Minimal${prompt}
-  6556: Bastok - Dominant${prompt}
-  6557: Bastok - Major${prompt}
-  6558: Bastok - Minor${prompt}
-  6559: Bastok - Minimal${prompt}
-  6560: Windurst - Dominant${prompt}
-  6561: Windurst - Major${prompt}
-  6562: Windurst - Minor${prompt}
-  6563: Windurst - Minimal${prompt}
-  6564: Bastok and Windurst have formed an alliance.${prompt}
-  6565: San d'Oria and Windurst have formed an alliance.${prompt}
-  6566: San d'Oria and Bastok have formed an alliance.${prompt}
-  6567: Bastok and Windurst are currently allies.${prompt}
-  6568: San d'Oria and Windurst are currently allies.${prompt}
-  6569: San d'Oria and Bastok are currently allies.${prompt}
+    Influence régionale :
+    San d'Oria - Minimale${prompt}
+  6556: Bastok - Dominante${prompt}
+  6557: Bastok - Majeure${prompt}
+  6558: Bastok - Mineure${prompt}
+  6559: Bastok - Minimale${prompt}
+  6560: Windurst - Dominante${prompt} 
+  6561: Windurst - Majeure${prompt}
+  6562: Windurst - Mineure${prompt}
+  6563: Windurst - Minimale${prompt}
+  6564: Bastok et Windurst ont formé une alliance.${prompt}
+  6565: San d'Oria et Windurst ont formé une alliance.${prompt} 
+  6566: San d'Oria et Bastok ont formé une alliance.${prompt}
+  6567: Bastok et Windurst sont actuellement alliés.${prompt}
+  6568: San d'Oria et Windurst sont actuellement alliés.${prompt}
+  6569: San d'Oria et Bastok sont actuellement alliés.${prompt}
   6570: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
@@ -16358,27 +16358,27 @@ entries:
   6574: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  6575: The beastmen are gaining power.${prompt}
-  6576: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  6577: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  6578: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  6579: San d'Oria's region points have increased!${prompt}
-  6580: Bastok's region points have increased!${prompt}
-  6581: Windurst's region points have increased!${prompt}
-  6582: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  6583: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  6584: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  6585: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  6586: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  6587: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  6588: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  6589: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  6590: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  6591: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  6592: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  6593: There was a curse on the beastmen's banner!${prompt}
-  6594: The curse of the beastmen's banner has been lifted!${prompt}
-  6595: There is a beastmen's banner.${prompt}
+  6575: Les bêtes gagnent en puissance.${prompt}
+  6576: Le contrôle régional de San d'Oria est maintenant à 10% plus près de celui du pays en première place !${prompt}
+  6577: Le contrôle régional de Bastok est maintenant à 10% plus près de celui du pays en première place !${prompt}
+  6578: Le contrôle régional de Windurst est maintenant à 10% plus près de celui du pays en première place !${prompt}
+  6579: Les points de région de San d'Oria ont augmenté !${prompt}
+  6580: Les points de région de Bastok ont augmenté !${prompt}
+  6581: Les points de région de Windurst ont augmenté !${prompt}
+  6582: La force expéditionnaire de San d'Oria vainc les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6583: La force expéditionnaire de Bastok vainc les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6584: La force expéditionnaire de Windurst vainc les hordes de bêtes... Maintenez l'élan actuel.${prompt}
+  6585: Une force expéditionnaire de San d'Oria a été envoyée dans cette zone.${prompt}
+  6586: Une force expéditionnaire de Bastok a été envoyée dans cette zone.${prompt}
+  6587: Une force expéditionnaire de Windurst a été envoyée dans cette zone.${prompt}
+  6588: 'Influence de la F.E. : Grande... Statut de la région : Dominante... Maintenez le niveau de combat actuel.${prompt}'
+  6589: 'Influence de la F.E. : Moyenne... Statut de la région : Majeure... Maintenez l''élan.${prompt}'
+  6590: 'Influence de la F.E. : Faible... Statut de la région : Mineure... Augmentez les efforts.${prompt}'
+  6591: 'Influence de la F.E. : Minimale... Statut de la région : Minimale... Multipliez les efforts par dix.${prompt}'
+  6592: 'Influence de la F.E. : Aucune... Statut de la région : Sous contrôle des bêtes... Réduisez au minimum les pertes.${prompt}'
+  6593: Il y avait une malédiction sur la bannière des bêtes !${prompt}  
+  6594: La malédiction de la bannière des bêtes a été levée !${prompt}
+  6595: Il y a une bannière de bêtes.${prompt}
   6596: 　${prompt}
   6597: 　${prompt}
   6598: 　${prompt}
@@ -16460,55 +16460,55 @@ entries:
   6672: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  6673: You can't fish here.${prompt}
-  6674: You can't fish without a rod in your hands.${prompt}
-  6675: You can't fish without bait on the hook.${prompt}
-  6676: You can't fish at the moment.${prompt}
-  6677: You didn't catch anything.${prompt}
-  6678: '${entity: 0} caught a monster!${prompt}'
-  6679: Your line breaks.${prompt}
-  6680: Your rod breaks.${prompt}
-  6681: Something caught the hook!${prompt}
-  6682: You lost your catch.${prompt}
+  6673: Vous ne pouvez pas pêcher ici.${prompt} 
+  6674: Vous ne pouvez pas pêcher sans canne à pêche dans les mains.${prompt}
+  6675: Vous ne pouvez pas pêcher sans appât sur l'hameçon.${prompt}
+  6676: Vous ne pouvez pas pêcher pour le moment.${prompt}
+  6677: Vous n'avez rien attrapé.${prompt}
+  6678: '${entity: 0} a attrapé un monstre !${prompt}'
+  6679: Votre ligne se casse.${prompt}
+  6680: Votre canne se casse.${prompt}
+  6681: Quelque chose a mordu à l'hameçon !${prompt}
+  6682: Vous avez perdu votre prise.${prompt}
   6683: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
-  6684: You feel there's something here.${prompt}
-  6685: You feel there's something nearby.${prompt}
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut pas porter plus d'objets.
+    ${entity: 0} relâche à contrecœur le ${item-singular: 0[2]}.${prompt}
+  6684: Vous sentez qu'il y a quelque chose ici.${prompt}
+  6685: Vous sentez qu'il y a quelque chose à proximité.${prompt}
   6686: |-
-    You dig up ${article} ${item-article: 0[2]}, but your inventory is full.
-    You regretfully throw the ${item-singular: 0[2]} away.${prompt}
-  6687: '${entity: 0} caught ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6688: You dig and you dig, but find nothing.${prompt}
+    Vous creusez et trouvez ${article} ${item-article: 0[2]}, mais votre inventaire est plein.
+    Vous jetez à contrecœur le ${item-singular: 0[2]}.${prompt}
+  6687: '${entity: 0} a attrapé ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6688: Vous creusez et creusez, mais ne trouvez rien.${prompt}
   6689: '${number: 0}/${item-singular: 0[2]}をセット${prompt}'
   6690: |-
-    Your rod breaks.
-    Whatever caught the hook was pretty big.${prompt}
+    Votre canne se casse.
+    Ce qui a mordu à l'hameçon était plutôt gros.${prompt}
   6691: |-
-    Your rod breaks.
-    Whatever caught the hook was too heavy to catch with this rod.${prompt}
+    Votre canne se casse.
+    Ce qui a mordu à l'hameçon était trop lourd pour être attrapé avec cette canne.${prompt}
   6692: |-
-    You lost your catch.
-    Whatever caught the hook was too small to catch with this rod.${prompt}
-  6693: You lost your catch due to your lack of skill.${prompt}
+    Vous avez perdu votre prise.
+    Ce qui a mordu à l'hameçon était trop petit pour être attrapé avec cette canne.${prompt}
+  6693: Vous avez perdu votre prise à cause de votre manque de compétence.${prompt}
   6694: |-
-    Number fished : ${number: 0}
-    Original Dice No. ：${number: 1}＋${number: 2}
-    Result ：${number: 3} (0=caught)
+    Nombre de poissons attrapés : ${number: 0}
+    Numéro de dé original : ${number: 1}＋${number: 2}
+    Résultat : ${number: 3} (0=attrapé)
     ${prompt}
-  6695: You didn't catch anything.${prompt}
-  6696: 'The paper on your ${item-singular: 0[2]} ripped.${prompt}'
-  6697: A tiny goldfish approaches!${prompt}
-  6698: A plump, black goldfish approaches!${prompt}
-  6699: A fat, juicy goldfish approaches!${prompt}
-  6700: There are no goldfish to be found...${prompt}
+  6695: Vous n'avez rien attrapé.${prompt}
+  6696: 'Le papier sur votre ${item-singular: 0[2]} s''est déchiré.${prompt}'
+  6697: Un petit poisson rouge s'approche !${prompt}
+  6698: Un poisson rouge noir et dodu s''approche !${prompt}
+  6699: Un poisson rouge gras et juteux s''approche !${prompt}
+  6700: Il n'y a pas de poissons rouges à trouver...${prompt}
   6701: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases it.${prompt}
-  6702: The goldfish slipped off your scoop...${prompt}
-  6703: 'ch${number: 0} skill up check.${prompt}'
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut pas porter plus d'objets.
+    ${entity: 0} relâche à contrecœur la prise.${prompt}
+  6702: Le poisson rouge s'est échappé de votre épuisette...${prompt}
+  6703: 'ch${number: 0} vérification de montée en compétence.${prompt}'
   6704: 'a:${number: 0}.${prompt}'
-  6705: 'Time ${number: 0} / Status ${number: 1} / ${number: 2}${prompt}'
+  6705: 'Temps ${number: 0} / Statut ${number: 1} / ${number: 2}${prompt}'
   6706: |-
     d:${number: 0}.
     e:${number: 1}.
@@ -22553,151 +22553,151 @@ entries:
     VW Op. #054: Elshimo List(pt.2)${prompt}
   10638: ${prompt}
   10639: |-
-    Ah, if it isn't ${name-player}.
-    Lately, I've been hearrring rumors about you. They say that for a mainlander, you are quite talented when it comes to wielding a daggerrr.${prompt}
-  10640: I'm not one to brrrag, but I, too, am quite skilled with knives. Why, just the other day I came up with a new technique that can slice and dice even the toughest Tonberrry.${prompt}
-  10641: But there's a problem...${prompt}
-  10642: If anybody gets their grrrimy hands on it, I'll be in trrrouble. That's why I have to start practicing dodging the technique as well as using it.${prompt}
-  10643: And that's the prrroblem. None of the pussycats around here have the skill required to perrrform it!${prompt}
-  10644: If I could only find someone that could match me in battle...${prompt}
-  10645: How about you? Do you want to take a stab at learrrning my new technique?${prompt}
-  10646: Here, take one of my daggerrrs and practice until the blade's been completely drrrained of its power. Come back here when you're done, and I'll show you my secrrrets.${prompt}
-  10647: If you want to learn my new technique, you're going to have to train with that daggerrr. Do you have a prrroblem with that!?${prompt}
+    Ah, si ce n'est pas ${name-player}.
+    Récemment, j'ai entendu des rumeurs à votre sujet. On dit que pour un habitant du continent, vous êtes très doué avec un poignard.${prompt}
+  10640: Je ne suis pas vantarde, mais moi aussi, je suis très habile avec des couteaux. En fait, l'autre jour, j'ai inventé une nouvelle technique capable de trancher même le plus coriace des Tonberrry.${prompt}
+  10641: Mais il y a un problème...${prompt}
+  10642: Si quelqu'un met la main dessus, je serai en trrrouble. C'est pourquoi je dois commencer à pratiquer l'esquive de cette technique en plus de l'utiliser.${prompt}
+  10643: Et voilà le problème. Aucun des chats par ici n'a le talent nécessaire pour l'exécuter !${prompt}
+  10644: Si seulement je pouvais trouver quelqu'un capable de me tenir tête au combat...${prompt}
+  10645: Et vous, ça vous tente d'essayer d'apprendre ma nouvelle technique ?${prompt}
+  10646: Tenez, prenez un de mes poignards et entraînez-vous jusqu'à ce que la lame perde toute son énergie. Revenez ici quand vous aurez fini, et je vous montrerai mes secrrets.${prompt}
+  10647: Si vous voulez apprendre ma nouvelle technique, vous devrez vous entraîner avec ce poignard. Vous avez un prrroblème avec ça !?${prompt}
   10648: |-
-    Any complaints?
+    Des plaintes ?
     ${selection-lines}
-    No, ma'am!
-    I seem to have misplaced the dagger.
-    I've had enough of this training.${prompt}
-  10649: You lose any more of my belongings, and I will scrrratch your eyes out and eat them for dinner!${prompt}
-  10650: So, you mean to say this task was too difficult for you?${prompt}
+    Non, madame !
+    J'ai perdu le poignard.
+    J'en ai assez de cet entraînement.${prompt}
+  10649: Si vous perdez encore plus de mes affaires, je vous égratignerai les yeux et les mangerai pour le dîner !${prompt}
+  10650: Donc, vous voulez dire que cette tâche était trop difficile pour vous ?${prompt}
   10651: |-
-    Really quit your training?
+    Vraiment abandonner votre entraînement ?
     ${selection-lines}
-    Yes.
-    Not just yet.${prompt}
-  10652: Hmph. Well, I guess it's betterrr this way. I prrrobably would have killed a weakling like you just showing you the technique.${prompt}
-  10653: Oh, and you can get rid of that daggerrr yourself. I wouldn't think of using another ${choice-player-gender}[man's/woman's] weapon.${prompt}
-  10654: That daggerrr I gave you, I made it myself--rrright down to its hidden abilities. But the more you use it, the less powerful it becomes.${prompt}
-  10655: When all its powerrr is gone, bring it back here and we'll test how good you rrreally have become.${prompt}
-  10656: You're far from being done, ${choice-player-gender}[tigerrr/kitty]. When all the dagger's power is gone, bring it back here. Then we'll test how good you rrreally have become.${prompt}
-  10657: Ah, so you're finally done. I was beginning to worry that you'd neverrr come back.${prompt}
-  10658: Now it's time to see if you rrreally have what it takes to be my parrrtner in prrractice. Take this map to the Gustav Tunnel and dice up the monster waiting for you there.${prompt}
-  10659: 'And don''t forget to brrring back ${keyitem-article: 1[2]}. Otherwise, how am I supposed to know that you just didn''t have some of your cat pack defeat the monsterrr for you?${prompt}'
-  10660: Now get out of here! The quicker you get back from the Gustav Tunnel, the quicker I can start prrracticing!${prompt}
-  10661: You're finally back! Congrrratulations on taking out the monster in the tunnel.${prompt}
-  10662: If you could handle that beast, then you are more than worrrthy to learn my new technique. Now let's begin...${prompt}
-  10663: So what do you think? Never seen anything like it before, have you? I must say, I am one smarrrt cat.${prompt}
-  10664: Thanks to you, I also was able to come up with a way to dodge it. What? You want me to teach you that, too?${prompt}
-  10665: I'm sorry, but that won't be possible. To tell you the trrruth, the only real way to dodge that technique would involve killing your opponent.${prompt}
-  10666: You wouldn't want to be killed by me now, would you?${prompt}
-  10667: You have learned the weapon skill “Evisceration”!${prompt}
+    Oui.
+    Pas encore.${prompt}
+  10652: Hmph. Eh bien, je suppose que c'est mieux ainsi. J'aurais probablement tué un faible comme vous rien qu'en vous montrant la technique.${prompt}
+  10653: Oh, et vous pouvez vous débarrasser de ce poignard vous-même. Je ne penserais jamais à utiliser une arme appartenant à un ${choice-player-gender}[homme/femme].${prompt}
+  10654: Ce poignard que je vous ai donné, je l'ai fabriqué moi-même -- jusqu'à ses capacités cachées. Mais plus vous l'utilisez, plus il perd de sa puissance.${prompt}
+  10655: Quand toute sa puissance aura disparu, rapportez-le ici et nous testerons à quel point vous êtes rrréellement devenu bon.${prompt}
+  10656: Vous êtes loin d'en avoir fini, ${choice-player-gender}[tigre/chatte]. Quand toute la puissance du poignard aura disparu, rapportez-le ici. Ensuite, nous testerons à quel point vous êtes rrréellement devenu bon.${prompt}
+  10657: Ah, donc vous avez enfin fini. Je commençais à m'inquiéter que vous ne reveniez jamais.${prompt}
+  10658: Maintenant, il est temps de voir si vous avez rrréellement ce qu'il faut pour être mon partenaire d'entraînement. Prenez cette carte du Tunnel de Gustav et découpez le monstre qui vous y attend.${prompt}
+  10659: 'Et n''oubliez pas de rrrrapporter ${keyitem-article: 1[2]}. Sinon, comment saurais-je que vous n''avez pas juste laissé quelques-uns de vos amis chats battre le monstre à votre place ?${prompt}'
+  10660: Maintenant, sortez d'ici ! Plus vite vous reviendrez du Tunnel de Gustav, plus vite je pourrai commencer à m'entraîner !${prompt}
+  10661: Vous êtes enfin de retour ! Félicitations pour avoir éliminé le monstre dans le tunnel.${prompt}
+  10662: Si vous avez pu vous occuper de cette bête, alors vous êtes plus que digne d'apprendre ma nouvelle technique. Maintenant, commençons...${prompt}
+  10663: Alors, qu'en pensez-vous ? Vous n'avez jamais vu quelque chose comme ça auparavant, n'est-ce pas ? Je dois dire que je suis un chat très intelligent.${prompt}
+  10664: Grâce à vous, j'ai aussi trouvé un moyen de l'esquiver. Quoi ? Vous voulez que je vous apprenne ça aussi ?${prompt}
+  10665: Je suis désolée, mais ça ne sera pas possible. Pour vous dire la vérité, la seule vraie façon d'esquiver cette technique impliquerait de tuer votre adversaire.${prompt}
+  10666: Vous ne voudriez pas être tué par moi maintenant, n'est-ce pas ?${prompt}
+  10667: Vous avez appris la compétence d'arme “Éviscération” !${prompt}
   10668: OK${prompt}
   10669: NG${prompt}
-  10670: 'Number ${number: 2} is the answer.${prompt}'
+  10670: 'Le numéro ${number: 2} est la réponse.${prompt}'
   10671: |-
-    Excuse me, ${choice-player-gender}[sir/madam].
-    If you are boarding the airship, might I ask you a favor?${prompt}
-  10672: A passenger who intended to board the next flight dropped this...${prompt}
-  10673: I cannot leave my post, so I was wondering if you could return it to its rightful owner in my stead?${prompt}
+    Excusez-moi, ${choice-player-gender}[monsieur/madame].
+    Si vous embarquez sur le dirigeable, pourrais-je vous demander une faveur ?${prompt}
+  10672: Un passager qui devait monter à bord du prochain vol a laissé tomber ceci...${prompt}
+  10673: Je ne peux pas quitter mon poste, alors je me demandais si vous pourriez le rendre à son propriétaire légitime à ma place ?${prompt}
   10674: |-
-    Return the dropped item?
+    Rendre l'objet perdu ?
     ${selection-lines}
-    Gladly.
-    Sorry, I'm a busy ${choice-player-gender}[man/woman].${prompt}
+    Avec plaisir.
+    Désolé, je suis un ${choice-player-gender}[homme/femme] occupé.${prompt}
   10675: |-
-    Thank you!
-    The passenger who dropped the item looked like this.${prompt}
-  10676: Have you memorized the image?${prompt}
+    Merci !
+    Le passager qui a perdu l'objet ressemblait à ceci.${prompt}
+  10676: Avez-vous mémorisé l'image ?${prompt}
   10677: |-
-    Have you got it?
+    Vous l'avez ?
     ${selection-lines}
-    I got it.
-    Not yet.${prompt}
-  10678: The passenger who dropped the item should be on the next flight.${prompt}
-  10679: I leave the rest in your capable hands.${prompt}
+    Je l'ai.
+    Pas encore.${prompt}
+  10678: Le passager qui a perdu l'objet devrait être sur le prochain vol.${prompt}
+  10679: Je laisse le reste entre vos mains compétentes.${prompt}
   10680: |-
-    I see...
-    I'm sorry to have bothered you with such a trivial request.${prompt}
+    Je vois...
+    Je suis désolé de vous avoir ennuyé avec une requête aussi triviale.${prompt}
   10681: |-
-    Oh, the airship has already left...
-    I guess we'll just have to leave this with the airship authorities.${prompt}
+    Oh, le dirigeable est déjà parti...
+    J'imagine qu'il faudra laisser ça aux autorités du dirigeable.${prompt}
   10682: |-
-    You were unable to meet with the rightful owner of the item?
-    Well, thank you for your help, in any case. I will hand the item over to the airship authorities.${prompt}
-  10683: What, you've forgotten already?${prompt}
+    Vous n'avez pas pu rencontrer le propriétaire légitime de l'objet ?
+    Eh bien, merci pour votre aide, en tout cas. Je remettrai l'objet aux autorités du dirigeable.${prompt}
+  10683: Quoi, vous avez déjà oublié ?${prompt}
   10684: |-
-    Have you forgotten?
+    Vous avez oublié ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  10685: The passenger looked like this.${prompt}
-  10686: It's my job to look out for suspicious characters coming in on the airships.${prompt}
-  10687: You say you're looking for a Mithran Tracker?${prompt}
+    Oui.
+    Non.${prompt}
+  10685: Le passager ressemblait à ceci.${prompt}
+  10686: Mon travail est de repérer les personnages suspects qui arrivent par les dirigeables.${prompt}
+  10687: Vous cherchez un Traqueur Mithra ?${prompt}
   10688: |-
-    You're gonna have to be more specific.
-    There're several sin hunters prowling arrround your continent right now.${prompt}
-  10689: All hell's brrreaking loose in our homeland.${prompt}
-  10690: For some rrreason, the Emptiness of legend has appeared, despite our constant battles with the beastmen...${prompt}
-  10691: But that's neither here nor there.${prompt}
+    Vous allez devoir être plus précis.
+    Il y a plusieurs chasseurs de péchés qui rôdent sur votre continent en ce moment.${prompt}
+  10689: Tout part en vrille dans notre patrie.${prompt}
+  10690: Pour une rrrraison quelconque, le Vide de légende est apparu, malgré nos combats constants contre les bêtes...${prompt}
+  10691: Mais ce n'est ni ici ni là.${prompt}
   10692: |-
-    So which Tracker are you looking for?
-    The one hunting dragons? The one hunting songs? Or the one hunting gods?${prompt}
+    Donc, quel Traqueur cherchez-vous ?
+    Celui qui chasse les dragons ? Celui qui chasse les chansons ? Ou celui qui chasse les dieux ?${prompt}
   10693: |-
-    A Mithra wearing a black helm?
-    Ah, you'd be looking for Shikaree Y, then.
-    She's always rrrubbing people's fur the wrong way.${prompt}
+    Une Mithra portant un casque noir ?
+    Ah, vous cherchez Shikaree Y, alors.
+    Elle a toujours le don de froisser les poils des gens dans le mauvais sens.${prompt}
   10694: |-
-    Chieftainness Jakoh.
-    That sin hunter vas headed for Xarcabard vith an untested Rhinostery tuning fork.${prompt}
+    La cheftaine Jakoh.
+    Cette chasseuse de péchés se dirigeait vers Xarcabard avec une fourche d'accord de la Rhinostery non testée.${prompt}
   10695: |-
-    Ve vish to track her down.
-    Vhere is the crystal of darkness mentioned in the legends of the Mithra?${prompt}
-  10696: Why would I know a thing like that, Ildy-Goldy?${prompt}
-  10697: I just took over here as chieftainness. Why don't you dirrrect your questions to our old boss?${prompt}
+    Nous voulons la retrouver.
+    Où se trouve le cristal de ténèbres mentionné dans les légendes des Mithra ?${prompt}
+  10696: Pourquoi devrais-je connaître une telle chose, Ildy-Goldy ?${prompt}
+  10697: Je viens juste de prendre le poste de cheftaine. Pourquoi ne posez-vous pas vos questions à notre ancien chef ?${prompt}
   10698: |-
-    Romaa Mihgo?
-    Ve Tarutaru--or more specifically the Rhinostery--are not on the bestaru of terms vith your former chieftainness.${prompt}
+    Romaa Mihgo ?
+    Nous les Tarutaru--ou plus précisément la Rhinostery--ne sommes pas en très bons termes avec votre ancienne cheftaine.${prompt} 
   10699: |-
-    It vas connected to the allied expedition.
-    Iru-Kuiru of the Rhinostery hired Yow Rabntah as an adventurer, and the tragedy that followed drove a vedge between us and the Mithra of Kazham...${prompt}
+    C'était lié à l'expédition alliée.
+    Iru-Kuiru de la Rhinostery a engagé Yow Rabntah comme aventurière, et la tragédie qui a suivi a creusé un fossé entre nous et les Mithra de Kazham...${prompt}
   10700: |-
-    I have the same kind of prrroblems when it comes to Romaa.
-    I had a run-in with her daughter, Nanaa Mihgo.${prompt}
+    J'ai le même genre de problèmes quand il s'agit de Romaa.
+    J'ai eu un accrochage avec sa fille, Nanaa Mihgo.${prompt}
   10701: |-
-    But Romaa still rrrecognized my strength when it came to choosing a new chieftainness.
-    She doesn't let her emotions interfere with important matters.${prompt}
-  10702: You two are trying to help Shikaree Y, rrright?${prompt}
+    Mais Romaa a reconnu ma force lorsqu'il s'agissait de choisir une nouvelle cheftaine.
+    Elle ne laisse pas ses émotions interférer avec les questions importantes.${prompt}
+  10702: Vous essayez d'aider Shikaree Y, n'est-ce pas ?${prompt}
   10703: |-
-    Be honest in your apprrroach and she'll tell you what you need to know.
-    Romaa's probably mellowed out in her old age.${prompt}
+    Soyez honnêtes dans votre approche et elle vous dira ce que vous avez besoin de savoir.
+    Romaa a probablement adouci son caractère avec l'âge.${prompt}
   10704: |-
-    Thank you for your advice.
-    Ve vill see vhat Romaa Mihgo has to say.${prompt}
-  10705: From the time of that expedition thirty years ago until my inauguration as chieftainness...${prompt}
+    Merci pour vos conseils.
+    Nous allons voir ce que Romaa Mihgo a à dire.${prompt}
+  10705: Depuis l'époque de cette expédition il y a trente ans jusqu'à mon inauguration en tant que cheftaine...${prompt}
   10706: |-
-    Kazham has not been gentle with outsiders.
-    That's just the kind of people we Mithra are.${prompt}
+    Kazham n'a pas été tendre avec les étrangers.
+    C'est juste le genre de personnes que nous sommes, les Mithra.${prompt}
   10707: |-
-    Former Chieftainness Romaa Mihgo.
-    I am Ildy-Goldy, an adventurer of the Rhinostery.
-    This is ${name-player}.${prompt}
-  10708: Ve are looking for a Mithran Tracker who visited Vindurst.${prompt}
+    Ancienne Cheftaine Romaa Mihgo.
+    Je suis Ildy-Goldy, un aventurier de la Rhinostery.
+    Voici ${name-player}.${prompt}
+  10708: Nous cherchons un Traqueur Mithra qui a visité Windurst.${prompt}
   10709: |-
-    This Mithran Tracker traveled to the Northlands bearing a tuning fork of the Rhinostery.
-    She has failed to return.${prompt}
-  10710: This new model of tuning fork vas designed to resonate vith the protocrystals of the great beings.${prompt}
+    Ce Traqueur Mithra s'est rendu dans les Terres du Nord avec une fourche d'accord de la Rhinostery.
+    Elle n'est pas revenue.${prompt}
+  10710: Ce nouveau modèle de fourche d'accord a été conçu pour résonner avec les protocristaux des grands êtres.${prompt}
   10711: |-
-    However, this fork is vildly more powerful than the previous models.
-    Its reliability has not been tested and, frankly-vankly, ve are rather vorried.${prompt}
-  10712: Ve suspectaru the sin hunter has been unable to leave the crystal of darkness...${prompt}
-  10713: Your worry is misplaced.${prompt}
-  10714: Having a bunch of Tarutaru concerned for her welfare would be an insult worse than death for a trrracker.${prompt}
-  10715: While it is trrrue that a tracker's senses are dulled in the Northlands, she's not some kitten to lose her way in the snow.${prompt}
-  10716: But if she never returns, this situation vill escalate into a crime the Rhinostery mustaru answer to, correct?${prompt}
-  10717: The allied expedition is a case-vase in pointaru.${prompt}
-  10718: The Rhinostery is still haunted by the tragedy that befell Yow Rabntah after she vas employed by Iru-Kuiru.${prompt}
-  10719: You expelled all of our researchers from your town and closed the gates of Kazham.${prompt}
+    Cependant, cette fourche est bien plus puissante que les modèles précédents.
+    Sa fiabilité n'a pas été testée et, franchement, nous sommes assez inquiets.${prompt}
+  10712: Nous suspectons que le chasseur de péchés n'a pas pu quitter le cristal de ténèbres...${prompt}
+  10713: Votre inquiétude est mal placée.${prompt}
+  10714: Que des Tarutaru s'inquiètent pour elle serait une insulte pire que la mort pour un traqueur.${prompt}
+  10715: Bien que ce soit vrai que les sens d'un traqueur sont émoussés dans les Terres du Nord, elle n'est pas un chaton pour se perdre dans la neige.${prompt}
+  10716: Mais si elle ne revient jamais, cette situation va se transformer en un crime auquel la Rhinostery devra répondre, n'est-ce pas ?${prompt}
+  10717: L'expédition alliée est un exemple évident.${prompt}
+  10718: La Rhinostery est encore hantée par la tragédie qui est arrivée à Yow Rabntah après avoir été employée par Iru-Kuiru.${prompt}
+  10719: Vous avez expulsé tous nos chercheurs de votre ville et fermé les portes de Kazham.${prompt}
   10720: '...${prompt}'
   10721: |-
     I am sorry.
