@@ -18494,17 +18494,17 @@ entries:
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
   7616: Il n'y a pas de réponse. Vous ne pouvez pas vous échapper !${prompt}
-  7617: 'Vous avez battu le record de temps pour “${choice: 5}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” !'
-  7618: 'Le record actuel de temps pour nettoyer le champ de bataille de “${choice: 1}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
-  7619: 'Le record actuel de temps pour nettoyer le champ de bataille de “${choice: 1}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
-  7620: 'Entrée sur le champ de bataille pour “${choice: 1}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” !'
+  7617: 'Vous avez battu le record de temps pour “${choice: 5}[Les Flammes Anciennes Appellent/Vous Êtes Ce Que Vous Mangez/Rêves Vides]” !'
+  7618: 'Le record actuel de temps pour nettoyer le champ de bataille de “${choice: 1}[Les Flammes Anciennes Appellent/Vous Êtes Ce Que Vous Mangez/Rêves Vides]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7619: 'Le record actuel de temps pour nettoyer le champ de bataille de “${choice: 1}[Les Flammes Anciennes Appellent/Vous Êtes Ce Que Vous Mangez/Rêves Vides]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
+  7620: 'Entrée sur le champ de bataille pour “${choice: 1}[Les Flammes Anciennes Appellent/Vous Êtes Ce Que Vous Mangez/Rêves Vides]” !'
   7621: |-
     Quel champ de bataille allez-vous entrer ?
     ${selection-lines}
     Aucun.
     Les Flammes Anciennes Appellent.
-    Être l'Hôte.
-    Désirs Vides.
+    Vous Êtes Ce Que Vous Mangez.
+    Rêves Vides.
     .
     .
     .
@@ -18586,7 +18586,7 @@ entries:
   7646: |-
     Le Vide est une destruction qui ne connaît pas sa propre force destructrice.
     Même les Aurores, qui ne craignent ni homme ni dieu, tremblent en présence de cette obscurité hideuse.${prompt}
-  7647: Le Vide est...?${prompt}
+  7647: Le Vide est...?${prompt} 
   7648: Comment... !
   7649: Pourquoi peut-il toucher le cristal !?${prompt}
   7650: 'Vous ne vous souvenez pas exactement quand, mais vous avez obtenu ${keyitem-article: 0[2]} !${prompt}'

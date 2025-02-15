@@ -18493,18 +18493,18 @@ entries:
   7615: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  7616: Il n'y a pas de réponse. Vous ne pouvez pas vous échapper !${prompt}
-  7617: 'Vous avez battu le record de temps pour “${choice: 5}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” !'
-  7618: 'Le record actuel de temps pour nettoyer le champ de bataille de “${choice: 1}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
-  7619: 'Le record actuel de temps pour nettoyer le champ de bataille de “${choice: 1}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
-  7620: 'Entrée sur le champ de bataille pour “${choice: 1}[Les Flammes Anciennes Appellent/Être l''Hôte/Désirs Vides]” !'
+  7616: There is no response. You cannot escape!${prompt}
+  7617: 'You have broken the clear time record for “${choice: 5}[Ancient Flames Beckon/Playing Host/Empty Desires]”!'
+  7618: 'The current battlefield clear time record for “${choice: 1}[Ancient Flames Beckon/Playing Host/Empty Desires]” is ${number: 3} second${choice-plurality: 3}[/s].'
+  7619: 'The current battlefield clear time record for “${choice: 1}[Ancient Flames Beckon/Playing Host/Empty Desires]” is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
+  7620: 'Entering the battlefield for “${choice: 1}[Ancient Flames Beckon/Playing Host/Empty Desires]”!'
   7621: |-
-    Quel champ de bataille allez-vous entrer ?
+    Which battlefield will you enter?
     ${selection-lines}
-    Aucun.
-    Les Flammes Anciennes Appellent.
-    Être l'Hôte.
-    Désirs Vides.
+    None.
+    Ancient Flames Beckon.
+    Playing Host.
+    Empty Desires.
     .
     .
     .
@@ -18533,63 +18533,63 @@ entries:
     .
     .
     ${prompt}
-  7622: Limite de niveau de 30. La récompense en points d'expérience pour ce champ de bataille sera réduite pour les groupes de sept membres ou plus.${prompt}
-  7623: Appuyez sur un bouton pour continuer.${prompt}
+  7622: Level limit of 30. The experience point reward for this battlefield will be reduced for parties of seven or more members.${prompt}
+  7623: Press a button to continue.${prompt}
   7624: |-
-    Quitter cette zone ?
+    Leave this area?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  7625: Vous devez vous rapprocher.${prompt}
+    Yes.
+    No.${prompt}
+  7625: You must move closer.${prompt}
   7626: |-
-    La fin de Vana'diel...
-    Le monde est au bord de l'oubli.${prompt}
-  7627: La bataille finale entre le Dieu du Crépuscule et la Déesse de l'Aube est imminente.${prompt}
-  7628: 'Et pas une seule âme n''échappera à sa dévastation...${wait-animation: 2}'
+    The end of Vana'diel...
+    The world stands on the brink of oblivion.${prompt}
+  7627: The final battle betwixt the Twilight God and the Dawn Goddess is at hand.${prompt}
+  7628: 'And not a single soul shall escape its devastation...${wait-animation: 2}'
   7629: |-
     .........
-    ...peut... sentir...
+    ...can...feel it...
     .........
   7630: |-
     ......
-    ...Ce rêve......
-    ......De qui... peut-il... être...?
+    ...This dream......
+    ......Whose...can it...be...?
     ......
   7631: |-
-    Toi...
-    Tu ne me trahiras jamais.${prompt}
-  7632: La volonté du cristal est alignée avec la volonté de ce monde.${prompt}
-  7633: 'Oui... Ce qui a été brisé en cinq parties...${wait-animation: 2}'
-  7634: Il n'y aura pas de salut.${prompt}
+    You...
+    You will never betray me.${prompt}
+  7632: The will of the crystal is aligned with the will of this world.${prompt}
+  7633: 'Yes... That which was broken into five parts...${wait-animation: 2}'
+  7634: There will be no salvation.${prompt}
   7635: |-
-    Il existe dans l'âme de chaque personne vivante.
-    Nous sommes tous des “vases”.${prompt}
+    It exists within the soul of every living person.
+    We are all “vessels.”${prompt}
   7636: |-
-    Prions.
-    Pour la déesse... Pour tous les dieux...${wait-animation: 2}
-  7637: Vous ne devriez pas vous approcher davantage...${prompt}
+    Let us pray.
+    To the goddess... To all the gods...${wait-animation: 2}
+  7637: You shouldn't move any closer...${prompt}
   7638: |-
-    Impressionnant.
-    Je ne sais pas qui vous êtes, mais je vous félicite d'être arrivé aussi loin.${prompt}
+    Amazing.
+    I don't know who you are, but I commend you on your ability to make it this far.${prompt}
   7639: |-
-    La voilà. Le cristal-mère.
-    Alors, qu'en pensez-vous ?${prompt}
-  7640: Ne sentez-vous pas son pouvoir ? Ne sentez-vous pas sa lumière merveilleuse traverser votre corps ? Ne ressentez-vous pas la joie sans fin qu'elle apporte ?${prompt}
-  7641: La lumière de ce cristal nourrit nos âmes et nous garde en vie... Elle garde tout le monde en vie.${prompt}
-  7642: Et c'est pourquoi nous ne pouvons pardonner à quiconque essaie de nuire au cristal.${prompt}
+    There she is. The mothercrystal.
+    Well, what do you think?${prompt}
+  7640: Can't you feel her power? Can't you feel her marvelous light streaming through your body? Can't you feel the endless joy she brings?${prompt}
+  7641: The light from this crystal feeds our souls and keeps us alive... It keeps the whole world alive.${prompt}
+  7642: And that is why we cannot forgive any who attempt to harm the crystal.${prompt}
   7643: |-
     !?
-    Qui êtes-vous...
-    Que faites-vous ici !?${prompt}
-  7644: Cette... Cette obscurité... !${prompt}
-  7645: Ce garçon maléfique a libéré l'obscurité !${prompt}
+    Who are...
+    What are you doing here!?${prompt}
+  7644: That... That darkness...!${prompt}
+  7645: That evil boy has released the darkness!${prompt}
   7646: |-
-    Le Vide est une destruction qui ne connaît pas sa propre force destructrice.
-    Même les Aurores, qui ne craignent ni homme ni dieu, tremblent en présence de cette obscurité hideuse.${prompt}
-  7647: Le Vide est...?${prompt}
-  7648: Comment... !
-  7649: Pourquoi peut-il toucher le cristal !?${prompt}
-  7650: 'Vous ne vous souvenez pas exactement quand, mais vous avez obtenu ${keyitem-article: 0[2]} !${prompt}'
+    The Emptiness is destruction that knows not of its destructive force.
+    Even the Dawnmaidens, who fear neither man nor god, tremble in the presence of this hideous darkness.${prompt}
+  7647: The Emptiness is...?${prompt}
+  7648: How...!
+  7649: Why can he touch the crystal!?${prompt}
+  7650: 'You cannot remember when exactly, but you have obtained ${keyitem-article: 0[2]}!${prompt}'
   7651: |-
     個人デバッグ用メニュー
     ${selection-lines}
@@ -18616,35 +18616,35 @@ entries:
     メア・ボス
     メア・ゲート
     マチルド回想★作成用${prompt}
-  7656: Il n'y a rien d'inhabituel ici.${prompt}
+  7656: There is nothing out of the ordinary here.${prompt}
   7657: |-
-    Vous entendez une voix étrange...
-    “Objets, objets, la la la la la～♪”${prompt}
+    You can hear a strange voice...
+    “Items, items, la la la la la～♪”${prompt}
   7658: |-
-    Oh mon Gob ! Tu es un de ces aventuriers, n'est-ce pas ?
-    Tu ne me fais pas peur, ${choice-player-gender}[mon gars./ma dame.] Je m'occupais de mes affaires, cherchant des trucs et des machins.${prompt}
+    Oh my Gob! You're one of those adventurerurers, aren't ya?
+    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
   7659: |-
-    Hé, fais gaffe. Tu ne veux pas te battre avec moi. Je vais te transformer en viande séchée !
-    Attends, et si on était amis à la place ? Ça te va ?${prompt}
-  7660: Je voyage dans le monde entier et j'entends toutes sortes d'histoires. J'ai même entendu parler de tes aventures. Je peux t'en raconter une, si tu veux.${prompt}
-  7661: Maintenant, écoute bien...${prompt}
+    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
+    Wait, how about you and me be friends instead? Sound good?${prompt}
+  7660: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
+  7661: Now, listen close...${prompt}
   7662: |-
     Oh...
-    Eh bien, si c'est comme ça, je me casse.${prompt}
-  7663: Le Gobelin s'est échappé pendant que vous ne regardiez pas...${prompt}
-  7664: Vous entendez une voix étrange et rauque...${prompt}
+    Well, if that's the case, I'm outta here.${prompt}
+  7663: The Goblin slipped away when you were not looking...${prompt}
+  7664: You can hear a strange, raspy voice...${prompt}
   7665: |-
-    Je voyage......j'entends beaucoup...
-    J'entends... des histoires... Je peux dire... si...${prompt}
-  7666: '.........écoute......${prompt}'
+    I travel......hear lots...
+    Hear...stories... Can tell...if...${prompt}
+  7666: '.........listen......${prompt}'
   7667: |-
     Oh......
-    ...je me casse.........${prompt}
+    ...outta here.........${prompt}
   7668: |-
-    Voulez-vous entendre une histoire ?
+    Do you want to hear a story?
     ${selection-lines}
-    Non, merci.
-    On veut en entendre une.${prompt}
+    No, thank you.
+    Let's hear one.${prompt}
   7669: |-
     What story would you like to be told?
     ${selection-lines}
