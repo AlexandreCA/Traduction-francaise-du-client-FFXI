@@ -18331,76 +18331,76 @@ entries:
   7560: 'CLI_NUM6 = ${number: 6}${wait-animation: 1}${prompt}'
   7561: 'CLI_NUM7 = ${number: 6}${wait-animation: 1}${prompt}'
   7562: |-
-    Skip the event?
+    Passer l'événement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7563: 'Battlefield clear time: ${number: 3} second${choice-plurality: 3}[/s]!'
-  7564: 'Battlefield clear time: ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} second${choice-plurality: 2}[/s]!'
-  7565: 'The current battlefield clear time record is ${number: 3} second${choice-plurality: 3}[/s].'
-  7566: 'The current battlefield clear time record is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
+    Oui.
+    Non.${prompt}
+  7563: 'Temps pour nettoyer le champ de bataille : ${number: 3} seconde${choice-plurality: 3}[/s] !'
+  7564: 'Temps pour nettoyer le champ de bataille : ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} seconde${choice-plurality: 2}[/s] !'
+  7565: 'Le record actuel du temps pour nettoyer le champ de bataille est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7566: 'Le record actuel du temps pour nettoyer le champ de bataille est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
   7567: |-
-    Called the NPC!
-    PC ID = ${number: 0}!
-    RESULT = ${number: 1}!${prompt}
+    Appelé le PNJ !
+    ID du PC = ${number: 0} !
+    RÉSULTAT = ${number: 1} !${prompt}
   7568: |-
-    Got rid of the NPC!
-    PC ID = ${number: 0}!${prompt}
-  7569: The NPC has fallen, and he can't get up! Leaving room A!${prompt}
-  7570: The NPC has fallen, and he can't get up! Leaving room B!${prompt}
-  7571: The NPC has fallen, and he can't get up! Leaving room C!${prompt}
-  7572: The NPC has fallen, and he can't get up! Leaving room D!${prompt}
-  7573: All party members have fallen in battle. Now leaving the battlefield.${prompt}
+    Éliminé le PNJ !
+    ID du PC = ${number: 0} !${prompt}
+  7569: Le PNJ est tombé et ne peut pas se relever ! Quitte la pièce A !${prompt}
+  7570: Le PNJ est tombé et ne peut pas se relever ! Quitte la pièce B !${prompt}
+  7571: Le PNJ est tombé et ne peut pas se relever ! Quitte la pièce C !${prompt}
+  7572: Le PNJ est tombé et ne peut pas se relever ! Quitte la pièce D !${prompt}
+  7573: Tous les membres du groupe sont tombés au combat. Quitte maintenant le champ de bataille.${prompt}
   7574: |-
-    Everybody's fallen in room A, and they can't get up!
-    Leaving room A!${prompt}
+    Tout le monde est tombé dans la pièce A, et ils ne peuvent pas se relever !
+    Quitte la pièce A !${prompt}
   7575: |-
-    Everybody's fallen in room B, and they can't get up!
-    Leaving room B!${prompt}
+    Tout le monde est tombé dans la pièce B, et ils ne peuvent pas se relever !
+    Quitte la pièce B !${prompt}
   7576: |-
-    Everybody's fallen in room C, and they can't get up!
-    Leaving room C!${prompt}
+    Tout le monde est tombé dans la pièce C, et ils ne peuvent pas se relever !
+    Quitte la pièce C !${prompt}
   7577: |-
-    Everybody's fallen in room D, and they can't get up!
-    Leaving room D!${prompt}
+    Tout le monde est tombé dans la pièce D, et ils ne peuvent pas se relever !
+    Quitte la pièce D !${prompt}
   7578: |-
-    Everybody's fallen in room E, and they can't get up!
-    Leaving room E!${prompt}${prompt}
-  7579: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s], the party will be removed from the battlefield.${prompt}'
-  7580: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s], the party will be removed from the battlefield.${prompt}'
-  7581: What the hell is that number!? It's not possible!!!${prompt}
-  7582: 'Only ${number: 3} ${choice-plurality: 3}[member/members] have clearance to enter the battlefield. This room has reached its maximum capacity.${prompt}'
-  7583: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
-  7584: You do not meet the requirements to enter the battlefield with your party members. Access is denied.${prompt}
-  7585: The Shimmering Circle you are trying to enter differs from the one your party members have entered. Access is denied.${prompt}
-  7586: 'That record is held by ${number: 5} adventurers, including ${entity: 0}!'
-  7587: 'That record is held by ${entity: 0}!'
+    Tout le monde est tombé dans la pièce E, et ils ne peuvent pas se relever !
+    Quitte la pièce E !${prompt}${prompt}
+  7579: 'Si les points de vie de tous les membres du groupe sont toujours à zéro après ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s], le groupe sera retiré du champ de bataille.${prompt}'
+  7580: 'Si les points de vie de tous les membres du groupe sont toujours à zéro après ${number: 3} minute${choice-plurality: 3}[/s], le groupe sera retiré du champ de bataille.${prompt}'
+  7581: Quel est ce chiffre !? C'est impossible !!!${prompt}
+  7582: 'Seulement ${number: 3} ${choice-plurality: 3}[membre/membres] ont l''autorisation d''entrer sur le champ de bataille. Cette pièce a atteint sa capacité maximale.${prompt}'
+  7583: 'Vous pouvez maintenant invoquer ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
+  7584: Vous ne remplissez pas les conditions pour entrer sur le champ de bataille avec les membres de votre groupe. L'accès est refusé.${prompt}
+  7585: Le Cercle Scintillant que vous essayez d'entrer est différent de celui où sont entrés les membres de votre groupe. L'accès est refusé.${prompt}
+  7586: 'Ce record est détenu par ${number: 5} aventuriers, y compris ${entity: 0} !'
+  7587: 'Ce record est détenu par ${entity: 0} !'
   7588: |-
-    Select difficulty.
+    Sélectionner la difficulté.
     ${selection-lines}
-    Very difficult. (Level: ???)
-    Difficult. (Level: ???)
-    Normal. (Level: ${number: 18})
-    Easy. (Level: ${number: 17})
-    Very Easy. (Level: ${number: 16})
-    Leave.${prompt}
-  7589: 'Current difficulty level: ${choice: 2}[Normal/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}'
-  7590: 'A malignant force escapes from your ${item-singular: 3[2]}.${prompt}'
-  7591: 'You are unable to enter the battlefield because ${choice: 0}[one or more of your party members does not have the job master designation/you do not have the job master designation].${prompt}'
-  7592: 'Your ${item-singular: 3[2]} is calling out to something...${prompt}'
-  7593: 'The ${item-singular: 0[2]} has a large crack running straight down the side.${prompt}'
-  7594: 'Something awakens owing to the presence of the ${item-singular: 3[2]}...${prompt}'
-  7595: 'The oath has been fulfilled owing to the power of your ${item-singular: 3[2]}.${prompt}'
-  7596: There is no response. You cannot escape!${prompt}
-  7597: 'You have broken the clear time record for “${choice: 5}[Ouryu Cometh/]”!'
-  7598: 'The current battlefield clear time record for “${choice: 1}[Ouryu Cometh/]” is ${number: 3} second${choice-plurality: 3}[/s].'
-  7599: 'The current battlefield clear time record for “${choice: 1}[Ouryu Cometh/]” is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
-  7600: 'Entering the battlefield for “${choice: 1}[Ouryu Cometh/]”!'
+    Très difficile. (Niveau : ???)
+    Difficile. (Niveau : ???)
+    Normal. (Niveau : ${number: 18})
+    Facile. (Niveau : ${number: 17})
+    Très facile. (Niveau : ${number: 16})
+    Quitter.${prompt}
+  7589: 'Niveau de difficulté actuel : ${choice: 2}[Normal/Très difficile/Difficile/Normal/Facile/Très facile].${prompt}'
+  7590: 'Une force maligne s''échappe de votre ${item-singular: 3[2]}.${prompt}'
+  7591: 'Vous ne pouvez pas entrer sur le champ de bataille car ${choice: 0}[un ou plusieurs membres de votre groupe ne possèdent pas la désignation de maître de métier/vous ne possédez pas la désignation de maître de métier].${prompt}'
+  7592: 'Votre ${item-singular: 3[2]} appelle quelque chose...${prompt}'
+  7593: 'Le ${item-singular: 0[2]} présente une grande fissure sur le côté.${prompt}'
+  7594: 'Quelque chose s''éveille en raison de la présence du ${item-singular: 3[2]}...${prompt}'
+  7595: 'Le serment a été accompli grâce au pouvoir de votre ${item-singular: 3[2]}.${prompt}'
+  7596: Il n'y a aucune réponse. Vous ne pouvez pas vous échapper !${prompt}
+  7597: 'Vous avez battu le record de temps pour nettoyer “${choice: 5}[L''arrivée d''Ouryu/]” !'
+  7598: 'Le record actuel du temps pour nettoyer le champ de bataille de “${choice: 1}[L''arrivée d''Ouryu/]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7599: 'Le record actuel du temps pour nettoyer le champ de bataille de “${choice: 1}[L''arrivée d''Ouryu/]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
+  7600: 'Entrée sur le champ de bataille pour “${choice: 1}[L''arrivée d''Ouryu/]” !'
   7601: |-
-    Which battlefield will you enter?
+    Quel champ de bataille allez-vous entrer ?
     ${selection-lines}
-    None.
-    Ouryu Cometh.
+    Aucun.
+    L'arrivée d'Ouryu.
     .
     .
     .
@@ -18431,251 +18431,251 @@ entries:
     .
     .
     ${prompt}
-  7602: 'The ${item-singular: 0[2]} crumbles into dust!${prompt}'
+  7602: 'Le ${item-singular: 0[2]} se désintègre en poussière !${prompt}'
   7603: |-
-    The ${item-singular: 0[2]} has crumbled into dust.
-    It no longer holds any power over the clouds.${prompt}
+    Le ${item-singular: 0[2]} s'est désintégré en poussière.
+    Il n'a plus aucun pouvoir sur les nuages.${prompt}
   7604: |-
-    The spatial displacement is very small.
-    If you only had some item that could make it bigger...${prompt}
-  7605: The spatial displacement has grown.${prompt}
-  7606: The space around you seems oddly distorted and disrupted.${prompt}
-  7607: You are being pulled into the spatial displacement!${prompt}
+    Le déplacement spatial est très faible.
+    Si seulement vous aviez un objet pour l'agrandir...${prompt}
+  7605: Le déplacement spatial a augmenté.${prompt}
+  7606: L'espace autour de vous semble étrangement déformé et perturbé.${prompt}
+  7607: Vous êtes attiré dans le déplacement spatial !${prompt}
   7608: |-
-    Enter the displacement?
+    Entrer dans le déplacement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7609: There is no response...${prompt}
-  7610: You can see the Misareaux Coast on the other side of the spatial displacement...${prompt}
-  7611: You can sense the majestic presence of a terrestrial avatar on the other side of the spatial displacement...${prompt}
-  7612: The spatial displacement is faded and does not respond.${prompt}
-  7613: Something has been engraved on this stone, but the message is too difficult to make out.${prompt}
-  7614: Hah hah! I found you! Come on out!${prompt}
-  7615: She's found us, and boy, does she look mad!${prompt}
-  7616: She's found us, and boy, does she look ugly!${prompt}
-  7617: Ugly!? That's what you'll be once I'm done pounding your faces in! Now get outta here if you know what's good for you!${prompt}
-  7618: Yes, off with you children! Unless you want to see Prishe become truly upset.${prompt}
-  7619: We'll go home, but only if Prishe promises not to punish us!${prompt}
-  7620: Punish you!? Go home now, and I might just not kill you!${prompt}
-  7621: How many times have I told you that you're too young to go off adventuring on your own!?${prompt}
-  7622: Exactly! Do you not remember the last time you went out alone? It took over a month for your wounds to heal!${prompt}
-  7623: And these are not the fields outside the safehold. Who knows what horrors lie in the deeper parts of this strange place...${prompt}
-  7624: Yeah, there might be some big, hungry tiger with a craving for juicy Tarutaru hiding behind that tree right over there! Until I've checked this place out first, I want you three back in your rooms!${prompt}
+    Oui.
+    Non.${prompt}
+  7609: Il n'y a aucune réponse...${prompt}
+  7610: Vous pouvez voir la Côte de Misareaux de l'autre côté du déplacement spatial...${prompt}
+  7611: Vous pouvez sentir la présence majestueuse d'un avatar terrestre de l'autre côté du déplacement spatial...${prompt}
+  7612: Le déplacement spatial est estompé et ne répond pas.${prompt}
+  7613: Quelque chose a été gravé sur cette pierre, mais le message est trop difficile à déchiffrer.${prompt}
+  7614: Hah hah ! Je vous ai trouvés ! Sortez de là !${prompt}
+  7615: Elle nous a trouvés, et elle a l'air vraiment en colère !${prompt}
+  7616: Elle nous a trouvés, et elle a l'air vraiment laide !${prompt}
+  7617: Laide!? C'est ce que vous serez quand j'en aurai fini avec vous ! Maintenant, fichez le camp si vous savez ce qui est bon pour vous !${prompt}
+  7618: Oui, partez, enfants ! À moins que vous ne vouliez voir Prishe vraiment énervée.${prompt}
+  7619: On rentrera à la maison, mais seulement si Prishe promet de ne pas nous punir !${prompt}
+  7620: Vous punir!? Rentrez maintenant à la maison, et je ne vous tuerai peut-être pas !${prompt}
+  7621: Combien de fois vous ai-je dit que vous êtes trop jeunes pour partir à l'aventure tout seuls!?${prompt}
+  7622: Exactement ! Vous ne vous souvenez pas de la dernière fois que vous êtes sortis seuls ? Il a fallu plus d'un mois pour que vos blessures guérissent !${prompt}
+  7623: Et ce ne sont pas les champs à l'extérieur du refuge. Qui sait quelles horreurs se cachent dans les parties plus profondes de cet endroit étrange...${prompt}
+  7624: Oui, il pourrait y avoir un gros tigre affamé avec une envie de Tarutaru juteux caché derrière cet arbre juste là ! Avant que je n'aie vérifié cet endroit, je veux que vous trois retourniez dans vos chambres !${prompt}
   7625: |-
     Prishe...
-    You are not worried about them at all, are you? You just...${prompt}
-  7626: Hell right, I'm not worried. Why should I worry about what happens to those traitors? I don't care who they are--if they're in my way, they're not on my side!${prompt}
-  7627: You're so mean!
-  7628: You're so terrible!
-  7629: You're so ugly!
-  7630: Ugly!? Why, you little creeps! I'll show you ugly!${prompt}
+    Tu n'es pas du tout inquiète pour eux, n'est-ce pas ? Tu veux juste...${prompt}
+  7626: Enfer oui, je ne suis pas inquiète. Pourquoi devrais-je me soucier de ce qui arrive à ces traîtres ? Je me fiche de qui ils sont - s'ils me gênent, ils ne sont pas de mon côté !${prompt}
+  7627: Tu es tellement méchante !
+  7628: Tu es tellement terrible !
+  7629: Tu es tellement laide !
+  7630: Laide!? Pourquoi, petites crapules ! Je vais vous montrer ce qu'est la laideur !${prompt}
   7631: |-
-    What the--?
-    Where did they go!?${prompt}
-  7632: Oooh, when I get my hands on those three...${prompt}
-  7633: Let us continue. We must try and catch up with them...${prompt}
-  7634: There is nothing out of the ordinary here.${prompt}
+    Qu'est-ce que--?
+    Où sont-ils passés!?${prompt}
+  7632: Oooh, quand je mettrai la main sur ces trois-là...${prompt}
+  7633: Continuons. Nous devons essayer de les rattraper...${prompt}
+  7634: Il n'y a rien d'inhabituel ici.${prompt}
   7635: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
+    Vous pouvez entendre une voix étrange...
+    « Objets, objets, la la la la la～♪ »${prompt}
   7636: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
+    Oh mon Gob ! Tu es un de ces aventuriers, n'est-ce pas ?
+    Tu ne me fais pas peur, ${choice-player-gender}[mon gars/m'dame]. J'étais juste en train de m'occuper de mes affaires, à chercher des trucs et de la camelote.${prompt}
   7637: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7638: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7639: Now, listen close...${prompt}
+    Hé, fais gaffe. Tu ne veux pas te battre avec moi. Je vais te transformer en viande séchée !
+    Attends, et si toi et moi, on devenait amis à la place ? Ça te dit ?${prompt}
+  7638: Je voyage dans le monde entier et j'entends plein d'histoires différentes. J'entends même tes histoires. Je peux t'en raconter une, si tu veux.${prompt}
+  7639: Maintenant, écoute bien...${prompt}
   7640: |-
     Oh...
-    Well, if that's the case, I'm outta here.${prompt}
-  7641: The Goblin slipped away when you were not looking...${prompt}
-  7642: You can hear a strange, raspy voice...${prompt}
+    Eh bien, dans ce cas, je me casse.${prompt}
+  7641: Le Gobelin s'est éclipsé pendant que vous ne regardiez pas...${prompt}
+  7642: Vous pouvez entendre une voix étrange et râpeuse...${prompt}
   7643: |-
-    I travel......hear lots...
-    Hear...stories... Can tell...if...${prompt}
-  7644: '.........listen......${prompt}'
+    Je voyage......j'entends beaucoup...
+    J'entends...des histoires... Je peux raconter...si...${prompt}
+  7644: '.........écouter......${prompt}'
   7645: |-
     Oh......
-    ...outta here.........${prompt}
+    ...d'ici...${prompt}
   7646: |-
-    Do you want to hear a story?
+    Voulez-vous entendre une histoire ?
     ${selection-lines}
-    No, thank you.
-    Let's hear one.${prompt}
+    Non, merci.
+    Allons-y pour une.${prompt}
   7647: |-
-    What story would you like to be told?
+    Quelle histoire aimeriez-vous écouter ?
     ${selection-lines}
-    On second thought, maybe later.
-    Ancient Vows.
-    The Search for Goldmane(pt.1).
-    The Search for Goldmane(pt.2).
-    Confessions of a Bellmaker(pt.1).
-    Confessions of a Bellmaker(pt.2).
-    Confessions of a Bellmaker(pt.3).${prompt}
+    En y repensant, peut-être plus tard.
+    Serments Anciens.
+    La Recherche de Goldmane(pt.1).
+    La Recherche de Goldmane(pt.2).
+    Confessions d'un Fabricant de Cloches(pt.1).
+    Confessions d'un Fabricant de Cloches(pt.2).
+    Confessions d'un Fabricant de Cloches(pt.3).${prompt}
   7648: ${prompt}
   7649: ${prompt}
   7650: ${prompt}
-  7651: There is nothing out of the ordinary here.${prompt}
+  7651: Il n'y a rien d'inhabituel ici.${prompt}
   7652: |-
-    It's the same as everywhere else.
-    Everything in ruins...${prompt}
-  7653: All the villagers had to abandon their homes when the war began, kupopo.${prompt}
-  7654: And not so long ago the Wyrmking returned, causing all...this, kupopo.${prompt}
+    C'est pareil partout ailleurs.
+    Tout en ruines...${prompt}
+  7653: Tous les villageois ont dû abandonner leurs maisons quand la guerre a commencé, kupopo.${prompt}
+  7654: Et pas si longtemps après, le Roi Wyrm est revenu, causant tout... ça, kupopo.${prompt}
   7655: |-
-    I think we can safely assume there are no bounty hunters here.
-    Let's get back to ground that's, well, on the ground, kupopo.${prompt}
+    Je pense qu'on peut supposer en toute sécurité qu'il n'y a pas de chasseurs de primes ici.
+    Retournons sur un terrain, eh bien, sur le terrain, kupopo.${prompt}
   7656: |-
-    This is the territory of the Wyrmking.
-    Even a moogle like me can't match the power of Bahamut.${prompt}
+    C'est le territoire du Roi Wyrm.
+    Même un mog comme moi ne peut pas rivaliser avec le pouvoir de Bahamut.${prompt}
   7657: |-
-    No.
-    I have to find Goldmane, no matter what.${prompt}
-  7658: I'm not leaving until I find some clues.${prompt}
-  7659: Kupopo?${prompt}
-  7660: Look, Sanctia, it's the adventurer that was searching for you, kupopo!${prompt}
-  7661: Have you come to make sure she's okay again, kupopo?${prompt}
-  7662: I see where this is going.${prompt}
+    Non.
+    Je dois trouver Goldmane, coûte que coûte.${prompt}
+  7658: Je ne partirai pas avant d'avoir trouvé des indices.${prompt}
+  7659: Kupopo ?${prompt}
+  7660: Regarde, Sanctia, c'est l'aventurier qui te cherchait, kupopo !${prompt}
+  7661: Es-tu venu t'assurer encore une fois qu'elle va bien, kupopo ?${prompt}
+  7662: Je vois où ça mène.${prompt}
   7663: |-
-    But I don't need your help.
-    I have to be wary of people I don't know in this line of work.${prompt}
-  7664: I'm really sorry about this, kupopo.${prompt}
-  7665: We'll at least take the package you brought from Sanctia's dad, kupopo.${prompt}
-  7666: I don't need that either.${prompt}
+    Mais je n'ai pas besoin de ton aide.
+    Je dois être méfiant envers les gens que je ne connais pas dans ce métier.${prompt}
+  7664: Je suis vraiment désolé pour ça, kupopo.${prompt}
+  7665: Nous allons au moins prendre le paquet que tu as apporté de la part du père de Sanctia, kupopo.${prompt}
+  7666: Je n'en ai pas besoin non plus.${prompt}
   7667: |-
-    But, Sanctia!
-    This poor adventurer has traveled across half the world to deliver this to you, kupopo!${prompt}
+    Mais, Sanctia !
+    Ce pauvre aventurier a parcouru la moitié du monde pour te livrer ça, kupopo !${prompt}
   7668: |-
-    Fine.
-    If you find something around here that belonged to Goldmane, I'll take the package off your hands.${prompt}
-  7669: Why are you being so difficult, kupopo!?${prompt}
-  7670: I don't think I'm being difficult.${prompt}
+    D'accord.
+    Si tu trouves quelque chose ici qui appartenait à Goldmane, je prendrai le paquet de tes mains.${prompt}
+  7669: Pourquoi es-tu aussi difficile, kupopo !?${prompt}
+  7670: Je ne pense pas être difficile.${prompt}
   7671: |-
-    Closely examining the trunk reveals a tiny keyhole.
-    You would need a tiny key to open it...${prompt}
-  7672: You open the trunk with the key!${prompt}
-  7673: Oooh!${prompt}
+    En examinant de près le coffre, on découvre un petit trou de serrure.
+    Il faudrait une petite clé pour l'ouvrir...${prompt}
+  7672: Tu ouvres le coffre avec la clé !${prompt}
+  7673: Oooh !${prompt}
   7674: |-
-    I saw that!
-    What did you find? Lemme see!
-    Is it anything to do with Goldmane!?${prompt}
-  7675: A picture of three kids and...a letter.${prompt}
+    Je l'ai vu !
+    Qu'as-tu trouvé ? Laisse-moi voir !
+    Est-ce que ça a quelque chose à voir avec Goldmane !?${prompt}
+  7675: Une photo de trois enfants et... une lettre.${prompt}
   7676: |-
-    Let's see here...
-    This is from Naval Recruit Training Officer Vladinek, of the Bastokan navy.${prompt}
+    Voyons voir...
+    C'est de l'Officier d'entraînement des Recrues Navales Vladinek, de la marine de Bastok.${prompt}
   7677: |-
-    That's it!
-    Goldmane is under the protection of the Bastokan navy!${prompt}
-  7678: Since the navy is always at sea, no one can ever find him!${prompt}
-  7679: Right, it's off to Bastok.${prompt}
+    C'est ça !
+    Goldmane est sous la protection de la marine de Bastok !${prompt}
+  7678: Comme la marine est toujours en mer, personne ne peut jamais le trouver !${prompt}
+  7679: D'accord, direction Bastok.${prompt}
   7680: |-
-    Just a...
-    Hey, wait for me, kupopopopopo!${prompt}
-  7681: What about the package the adventurer brought, kupopo!?${prompt}
-  7682: There is no reason to investigate further.${prompt}
-  7683: There is a chest here, but you can't seem to find the keyhole...${prompt}
-  7684: After checking the contents of the chest, Sanctia and her moogle friend apparently left for Bastok.${prompt}
+    Juste un...
+    Hé, attends-moi, kupopopopopo !${prompt}
+  7681: Et le paquet que l'aventurier a apporté, kupopo !?${prompt}
+  7682: Il n'y a aucune raison d'enquêter davantage.${prompt}
+  7683: Il y a un coffre ici, mais tu ne sembles pas pouvoir trouver le trou de serrure...${prompt}
+  7684: Après avoir vérifié le contenu du coffre, Sanctia et son ami mog ont apparemment quitté pour Bastok.${prompt}
   7685: |-
-    <Sigh>
-    Just look at what's happened here...${prompt}
-  7686: I thought I had finally found a nice, quiet place.${prompt}
-  7687: And then one day there's this terrible explosion and the whole peninsula is thrust up into the sky. Look at my bell--split right in two.${prompt}
-  7688: Hey, you.${prompt}
+    <Soupir>
+    Regarde ce qui s'est passé ici...${prompt}
+  7686: Je pensais avoir enfin trouvé un endroit agréable et tranquille.${prompt}
+  7687: Et puis un jour, il y a eu cette terrible explosion et toute la péninsule a été projetée dans le ciel. Regarde ma cloche - fendue en deux.${prompt}
+  7688: Hé, toi.${prompt}
   7689: |-
-    You must understand what I'm talking about.
-    There isn't really much a man like me can do.${prompt}
+    Tu dois comprendre de quoi je parle.
+    Il n'y a pas grand-chose qu'un homme comme moi puisse faire.${prompt}
   7690: |-
-    Hello?
-    You can see me, right?
-    I can see you...${prompt}
+    Allô ?
+    Tu peux me voir, n'est-ce pas ?
+    Je peux te voir...${prompt}
   7691: |-
     Hmph...
-    I wonder why that is...${prompt}
+    Je me demande pourquoi c'est...${prompt}
   7692: |-
-    Anyway, that bell is the one reason I originally traveled here.
-    The clear tone as it rang across the meadows...it had the power to make all other things seem like they didn't even matter.${prompt}
-  7693: Pain, suffering...even the passing of time melted away like mist on a summer morning when that bell sang her ethereal song...${prompt}
-  7694: I was content. My soul had finally found a place to spend eternity.${prompt}
-  7695: And that is why I cannot leave...but without the celestial ringing my heart yearns for, my soul remains restless.${prompt}
-  7696: You see...${prompt}
-  7697: With the bell in its current state, I'm lost. You must help me repair it.${prompt}
-  7698: I want to share its music with you--and the rest of the world.${prompt}
-  7699: Here, I have something that may assist you. It's a scroll with an intricately carved jade fastener.${prompt}
-  7700: I don't remember where I found it, but I feel that it is very important.${prompt}
-  7701: Let me read it for you, though it is quite old and tattered...${prompt}
-  7702: “...Bast......uild...smiths of......nd gold...?”${prompt}
-  7703: I'm not sure what to make of this cryptic message.${prompt}
+    Quoi qu'il en soit, cette cloche est la seule raison pour laquelle j'avais initialement voyagé ici.
+    Le son clair qu'elle émettait à travers les prairies... il avait le pouvoir de faire en sorte que toutes les autres choses semblent n'avoir aucune importance.${prompt}
+  7693: La douleur, la souffrance... même le passage du temps s'est effacé comme la brume un matin d'été lorsque cette cloche chantait sa chanson éthérée...${prompt}
+  7694: J'étais satisfait. Mon âme avait enfin trouvé un endroit pour passer l'éternité.${prompt}
+  7695: Et c'est pourquoi je ne peux pas partir... mais sans le son céleste pour lequel mon cœur soupire, mon âme reste agitée.${prompt}
+  7696: Tu vois...${prompt}
+  7697: Avec la cloche dans son état actuel, je suis perdu. Tu dois m'aider à la réparer.${prompt}
+  7698: Je veux partager sa musique avec toi - et avec le reste du monde.${prompt}
+  7699: Tiens, j'ai quelque chose qui pourrait t'aider. C'est un parchemin avec une attache en jade minutieusement sculptée.${prompt}
+  7700: Je ne me souviens pas où je l'ai trouvé, mais je sens que c'est très important.${prompt}
+  7701: Laisse-moi le lire pour toi, même s'il est assez vieux et usé...${prompt}
+  7702: '"…Bast......uild...forgerons de......et or...?"${prompt}'
+  7703: Je ne suis pas sûr de ce que je dois penser de ce message cryptique.${prompt}
   7704: |-
-    But something tells me you already know where you must travel.
-    Good luck. I shall be waiting here for your return.${prompt}
-  7705: After wiping away some of the lichen covering the monument, you find the name Albanus carved near the bottom.${prompt}
-  7706: If you could only reach the floating island where the monument's remaining half lies...${prompt}
-  7707: Welcome back, traveler. I have been so looking forward to your return.${prompt}
-  7708: Were you able to find someone who can repair the bell?${prompt}
-  7709: It has seemed like an eternity since you first visited.${prompt}
-  7710: I was quite lonely while you were gone. I do not get many visitors around here, and since the bell was damaged, my mind has not been feeling too well.${prompt}
-  7711: Now, come, tell me quickly. What have you discovered?${prompt}
-  7712: What? Is that all?${prompt}
-  7713: I thought you, of all people, understood how I felt. I thought you understood what that bell means to me!${prompt}
-  7714: But I was wrong. And now I have nothing...${prompt}
-  7715: My reason for existence has begun to fade...${prompt}
-  7716: '...and it is all your fault!${prompt}'
+    Mais quelque chose me dit que tu sais déjà où tu dois aller.
+    Bonne chance. Je t'attendrai ici pour ton retour.${prompt}
+  7705: Après avoir nettoyé une partie du lichen recouvrant le monument, tu trouves le nom Albanus gravé près du bas.${prompt}
+  7706: Si seulement tu pouvais atteindre l'île flottante où se trouve la moitié restante du monument...${prompt}
+  7707: Bienvenue, voyageur. J'ai tellement attendu ton retour.${prompt}
+  7708: As-tu trouvé quelqu'un capable de réparer la cloche ?${prompt}
+  7709: Il semble que cela fasse une éternité depuis ta première visite.${prompt}
+  7710: J'étais très seul pendant ton absence. Je n'ai pas beaucoup de visiteurs ici, et depuis que la cloche est endommagée, mon esprit ne se sent pas très bien.${prompt}
+  7711: Maintenant, viens, dis-moi rapidement. Qu'as-tu découvert ?${prompt}
+  7712: Quoi ? C'est tout ?${prompt}
+  7713: Je pensais que toi, entre tous, tu comprendrais mes sentiments. Je pensais que tu comprenais ce que cette cloche signifie pour moi !${prompt}
+  7714: Mais je me trompais. Et maintenant, je n'ai plus rien...${prompt}
+  7715: Ma raison d'exister commence à s'estomper...${prompt}
+  7716: '...et c''est entièrement de ta faute !${prompt}'
   7717: |-
-    Begone, and never return!
-    ...Unless you yearn to witness the undying wrath of my battered soul!${prompt}
-  7718: You sense an evil presence...${prompt}
-  7719: Where... Where am I?${prompt}
-  7720: I've done it... I've finally found the sound for which I was searching.${prompt}
-  7721: Who is that...? Why is he looking at me?${prompt}
-  7722: That is enough for today.${prompt}
+    Va-t'en, et ne reviens jamais !
+    ...À moins que tu ne veuilles assister à la colère éternelle de mon âme meurtrie !${prompt}
+  7718: Tu sens une présence maléfique...${prompt}
+  7719: Où... où suis-je ?${prompt}
+  7720: Je l'ai fait... J'ai enfin trouvé le son que je cherchais.${prompt}
+  7721: Qui est-ce...? Pourquoi me regarde-t-il ?${prompt}
+  7722: Ça suffit pour aujourd'hui.${prompt}
   7723: |-
-    Ah!
-    Wh-who are you!? How did you get in here?${prompt}
-  7724: I... I don't know.${prompt}
-  7725: I heard the angels, and followed their song... And here I am.${prompt}
-  7726: I can't stop now... I must complete...the bell...${prompt}
-  7727: I must finish...for him...${prompt}
-  7728: I must listen... I must do what he says...${prompt}
+    Ah !
+    Q-qui es-tu !? Comment es-tu entré ici ?${prompt}
+  7724: Je... Je ne sais pas.${prompt}
+  7725: J'ai entendu les anges, et j'ai suivi leur chant... et me voilà.${prompt}
+  7726: Je ne peux pas m'arrêter maintenant... Je dois compléter... la cloche...${prompt}
+  7727: Je dois finir... pour lui...${prompt}
+  7728: Je dois écouter... Je dois faire ce qu'il dit...${prompt}
   7729: |-
     ......
-    Why won't he leave me alone...? Why...?${prompt}
-  7730: No. I must not think these thoughts. I must finish the bell...${prompt}
-  7731: I must...${prompt}
-  7732: I've got it! Why didn't I think of it before!?${prompt}
-  7733: If I take the bell there, he'll never bother me again, ever. Yes. If I take the bell there...${prompt}
+    Pourquoi ne me laisse-t-il pas tranquille...? Pourquoi...?${prompt}
+  7730: Non. Je ne dois pas penser à ces choses. Je dois finir la cloche...${prompt}
+  7731: Je dois...${prompt}
+  7732: J'ai trouvé ! Pourquoi n'y ai-je pas pensé avant !?${prompt}
+  7733: Si je prends la cloche là-bas, il ne me dérangera plus jamais, jamais. Oui. Si je prends la cloche là-bas...${prompt}
   7734: |-
-    Finally, my work is done. And soon I will be free.
-    No longer will this bell torment me, for I shall travel far away to a land its call cannot reach.${prompt}
-  7735: However, no matter where I run, I fear the memory of its spirit will haunt me...${prompt}
-  7736: '...for all eternity...${prompt}'
-  7737: There are tiny insect wings scattered all around here.${prompt}
-  7738: There is no response.${prompt}
+    En fin, mon travail est terminé. Et bientôt je serai libre.
+    Cette cloche ne me tourmentera plus, car je voyagerai loin, dans un pays où son appel ne pourra pas m'atteindre.${prompt}
+  7735: Cependant, peu importe où je cours, je crains que le souvenir de son esprit me hante...${prompt}
+  7736: '...pour l''éternité...${prompt}'
+  7737: Il y a des petites ailes d'insectes éparpillées partout ici.${prompt}
+  7738: Il n'y a aucune réponse.${prompt}
   7739: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour actuel.
+    Une fois un point de retour défini, vous y retournerez chaque fois que vous serez mis hors de combat.
   7740: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7741: Home point set!${prompt}
-  7742: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  7741: Point de retour défini !${prompt}
+  7742: Un point de retour peut être défini comme un endroit où vous revenez à Vana'diel après avoir été mis K.O. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   7743: |-
-    What will you do?
+    Que ferez-vous ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    En y repensant, laissez tomber.${prompt}
   7744: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  7745: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
+  7745: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   7746: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -18692,81 +18692,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   7747: |-
-    Teleport where?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  7748: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  7749: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  7750: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  7748: Vous n'avez pas encore enregistré d'autres points de retour, donc vous ne pouvez pas vous téléporter.${prompt}
+  7749: 'Il en coûte ${number: 3} gil pour se téléporter au point de retour #${number: 2} à ${zone: 1[2]}.'
+  7750: 'Aucun frais pour se téléporter au point de retour #${number: 2} à ${zone: 1[2]}.'
   7751: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   7752: |-
-    Teleport to which region?
+    Se téléporter dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    En y repensant, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Archipel de Tavnazia].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvage Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Ouest/Îles d'Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   7753: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  7754: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  7754: Vous pouvez changer la méthode de sélection de la zone de votre point de retour souhaité pour vous téléporter.
   7755: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  7756: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  7756: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   7757: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18776,13 +18776,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  7758: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  7759: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  7758: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] votre liste d''emplacements favoris.'
+  7759: Votre liste d'emplacements favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   7760: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18793,17 +18793,17 @@ entries:
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
   7761: |-
-    ${color-alt: 123}You have ventured too far from the field of battle.
-    The Confrontation will automatically disengage if you do not return.${prompt}
+    ${color-alt: 123}Vous vous êtes trop éloigné du champ de bataille.
+    L'Affrontement sera automatiquement désengagé si vous ne revenez pas.${prompt}
   7762: |-
-    You have ventured too far from the field of battle.
-    The Confrontation has been disengaged.${prompt}
-  7763: You have returned to the field of battle.${prompt}
-  7764: 'You have ${number: 0} ${choice-plurality: 0}[minute/minutes] (Earth time) to complete the battle.${prompt}'
-  7765: 'You have ${number: 0} ${choice-plurality: 0}[minute/minutes] (Earth time) remaining to complete the battle.${prompt}'
-  7766: 'You have only ${number: 0} ${choice-plurality: 0}[second/seconds] (Earth time) remaining.${prompt}'
-  7767: Your time for this Confrontation is up...${prompt}
-  7768: The monster fades before your eyes, a look of disappointment on its face.${prompt}
+    Vous vous êtes trop éloigné du champ de bataille.
+    L'Affrontement a été désengagé.${prompt}
+  7763: Vous êtes retourné sur le champ de bataille.${prompt}
+  7764: 'Il vous reste ${number: 0} ${choice-plurality: 0}[minute/minutes] (temps réel) pour terminer le combat.${prompt}'
+  7765: 'Il vous reste ${number: 0} ${choice-plurality: 0}[minute/minutes] (temps réel) pour terminer le combat.${prompt}'
+  7766: 'Il vous reste seulement ${number: 0} ${choice-plurality: 0}[seconde/secondes] (temps réel).${prompt}'
+  7767: Votre temps pour cet Affrontement est écoulé...${prompt}
+  7768: Le monstre disparaît sous vos yeux, une expression de déception sur son visage.${prompt}
   7769: (Test message.)${prompt}
   7770: |-
     Enter the garrison?
