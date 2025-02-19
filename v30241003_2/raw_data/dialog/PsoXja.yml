@@ -17822,34 +17822,34 @@ entries:
   7244: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  7245: L'appareil semble être en fonctionnement...${prompt}
-  7246: 'Objet clé obtenu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  7247: Il n'y a rien d'inhabituel ici.${prompt}
-  7248: La porte est verrouillée.${prompt}
-  7249: L'arc au-dessus de la porte brille en bleu...${prompt}
-  7250: L'arc au-dessus de la porte brille en vert...${prompt}
-  7251: 'Le ${keyitem-singular: 0[2]} réagit à la lueur de l''arc !${prompt}'
-  7252: 'Le ${keyitem-singular: 0[2]} émet une lumière brillante puis disparaît !'
-  7253: La porte ne peut pas être ouverte de ce côté.${prompt}
-  7254: Appuyez sur le bouton pour continuer.${prompt}
+  7245: L’appareil semble actif...${prompt}
+  7246: 'Vous obtenez un objet clé : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  7247: Rien d’inhabituel à signaler ici.${prompt}
+  7248: La porte est solidement verrouillée.${prompt}
+  7249: Une lueur bleue émane de l’arc au-dessus de la porte...${prompt}
+  7250: Une lueur verte illumine l’arc au-dessus de la porte...${prompt}
+  7251: 'Le ${keyitem-singular: 0[2]} réagit à l’éclat de l’arc !${prompt}'
+  7252: 'Le ${keyitem-singular: 0[2]} projette une lumière éclatante avant de s’évanouir !'
+  7253: Cette porte ne s’ouvre pas de ce côté.${prompt}
+  7254: Appuie sur le bouton pour avancer.${prompt}
   7255: |-
-    ${entity: 0} examine la porte.
-    Un piège connecté à celle-ci a été activé !${prompt}
+    ${entity: 0} inspecte la porte.
+    Un piège relié à celle-ci vient de s’enclencher !${prompt}
   7256: |-
-    ${entity: 0} examine la porte.
-    Le piège connecté à celle-ci ne s'active pas.${prompt}
-  7257: '${entity: 0} découvre un piège connecté à la porte, mais échoue à le désamorcer !${prompt}'
-  7258: '${entity: 0} découvre un piège connecté à la porte et réussit à le désamorcer !${prompt}'
+    ${entity: 0} inspecte la porte.
+    Le piège qui y est lié reste inactif.${prompt}
+  7257: '${entity: 0} repère un piège relié à la porte, mais ne parvient pas à le neutraliser !${prompt}'
+  7258: '${entity: 0} détecte un piège relié à la porte et réussit à le désactiver !${prompt}'
   7259: |-
-    Un puissant champ magique existe au-delà de la porte.
-    Vous sentez que simplement toucher la porte vous transportera ailleurs.${prompt}
+    Un puissant champ magique pulse derrière la porte.
+    Un simple contact semble suffisant pour vous projeter ailleurs.${prompt}
   7260: |-
-    ${entity: 0} examine le compartiment en pierre.
-    Un piège connecté à celui-ci a été activé !${prompt}
-  7261: Le compartiment en pierre est fermement verrouillé...${prompt}
-  7262: Le piège sur la porte est cassé.${prompt}
-  7263: La porte est fermement close.${prompt}
-  7264: Vous sentez votre corps être attiré par une force sombre de l'autre côté de la porte.${prompt}
+    ${entity: 0} examine le compartiment de pierre.
+    Un piège qui lui est lié s’est déclenché !${prompt}
+  7261: Le compartiment de pierre est hermétiquement scellé...${prompt}
+  7262: Le piège sur la porte est hors d’usage.${prompt}
+  7263: La porte demeure obstinément fermée.${prompt}
+  7264: Une force obscure, tapie de l’autre côté, attire votre corps inexorablement...${prompt}
   7265: DEBUG:***ボス倒したフラグオン***${prompt}
   7266: |-
     Utiliser l'appareil ?
@@ -17907,246 +17907,224 @@ entries:
     DEBUG:ダンジョンＦ
     不適正な座標に移動したので、
     正常な座標に移動します。${prompt}
-  7284: Où diable étais-tu, ${name-player} !?${prompt}
-  7285: Nous t'attendions. As-tu rencontré quelque chose d'inattendu ?${prompt}
-  7286: Jamais je n'aurais imaginé qu'un tel chef-d'œuvre d'architecture ancienne puisse être caché sous ces tours. Je sens que les Portes du Paradis sont à notre portée.${prompt}
-  7287: Louverance ! Nous ne nous attendions pas à te voir ici.${prompt}
-  7288: Hé, mon pote, si tu es venu pour m'empêcher de faire quoi que ce soit, ne pense pas que je partirai sans me battre. Je ne bougerai pas d'ici avant d'avoir récupéré ma boîte !${prompt}
+  7284: Mais où étais-tu passé, ${name-player} !?${prompt}
+  7285: Nous t’attendions avec impatience. As-tu croisé quelque chose d’imprévu ?${prompt}
+  7286: Jamais je n’aurais cru qu’un tel joyau d’architecture ancienne puisse être enfoui sous ces tours. Les Portes du Paradis semblent presque à portée de main.${prompt}
+  7287: Louverance ! Nous ne pensions pas te trouver ici.${prompt}
+  7288: Hé, l’ami, si tu es venu pour m’arrêter, sache que je ne partirai pas sans me battre. Je reste ici jusqu’à ce que j’aie récupéré ma boîte !${prompt}
   7289: |-
-    Je n'ai aucune intention de ce genre.
-    Je suis simplement ici en tant qu'héritier des Chevaliers Mistalle.${prompt}
-  7290: Ce qui m'inquiète plus, c'est l'absence de Nag'molada...${prompt}
-  7291: Je suppose qu'il s'est déjà mis en route pour le quatrième cristal.${prompt}
+    Ce n’est pas mon intention.
+    Je suis ici simplement en tant qu’héritier des Chevaliers Mistalle.${prompt}
+  7290: Ce qui me préoccupe davantage, c’est l’absence de Nag’molada...${prompt}
+  7291: Je présume qu’il s’est déjà lancé à la poursuite du quatrième cristal.${prompt}
   7292: |-
-    Et c'est ce que nous devons faire.
-    Suis-moi ; Phoenix nous montrera le chemin.${prompt}
-  7293: Mon Dieu !${prompt}
-  7294: C'est...${prompt}
+    Et c’est exactement ce que nous devons faire.
+    Suis-moi, Phoenix nous guidera.${prompt}
+  7293: Par tous les dieux !${prompt}
+  7294: C’est...${prompt}
   7295: |-
     Le cristal-mère.
-    La légende raconte que Vana'diel a été formé lorsque celui-ci s'est scindé en cinq morceaux. C'est l'un de ces morceaux...${prompt}
-  7296: La lumière divine qu'il émet...${prompt}
-  7297: C'est de là que nous venons et où nous retournons tous un jour...${prompt}
-  7298: Simplement le contempler apaise l'esprit et l'âme...${prompt}
-  7299: Hé, ${name-player}. Tu l'entends ?${prompt}
+    Selon la légende, Vana’diel naquit lorsqu’il se brisa en cinq fragments. Voici l’un d’eux...${prompt}
+  7296: Cette lumière divine qu’il dégage...${prompt}
+  7297: C’est là que tout commence, et là que nous retournerons un jour...${prompt}
+  7298: Le contempler suffit à apaiser l’esprit et l’âme...${prompt}
+  7299: Hé, ${name-player}, tu l’entends ?${prompt}
   7300: |-
-    Cette chanson...
-    Le cristal... Il nous appelle...${prompt}
+    Cette mélodie...
+    Le cristal... il nous appelle...${prompt}
   7301: |-
     　
-    Cette étoile... toi...
-    ...chanson... la tienne...
-  7302: '...un jour... espoir... devenir... rêves... nos prières...'
+    Cette étoile... c’est toi...
+    ...cette chanson... elle est tienne...
+  7302: '...un jour... l’espoir... deviendra... nos rêves... nos prières...'
   7303: |-
-    ...Et ce qui a été divisé sera de nouveau entier. Complet et inséparable pour l'éternité.
+    ...Et ce qui fut séparé redeviendra un. Uni et indissociable pour l’éternité.
     　${prompt}
   7304: '...!${prompt}'
-  7305: Maintenant que tous les acteurs sont arrivés, la pièce peut commencer !${prompt}
-  7306: Nag'molada !${prompt}
-  7307: Voleur sournois ! Rends le vaisseau !${prompt}
-  7308: Ah, le précieux vaisseau baptismal de Tavnazia. J'étais amusé lorsque j'ai appris comment la boîte était utilisée.${prompt}
-  7309: Selon le vieil homme, Despachiaire, tous ceux qui entraient dans la foi devaient prêter serment de loyauté à la Déesse de l'Aube devant ce vaisseau.${prompt}
+  7305: Maintenant que tous les acteurs sont réunis, le rideau peut se lever !${prompt}
+  7306: Nag’molada !${prompt}
+  7307: Misérable voleur ! Rends-moi le vaisseau !${prompt}
+  7308: Ah, le précieux vaisseau baptismal de Tavnazia. J’ai trouvé amusant d’apprendre comment cette boîte était utilisée.${prompt}
+  7309: D’après le vieil homme, Despachiaire, tous ceux qui rejoignaient la foi devaient jurer fidélité à la Déesse de l’Aube devant ce vaisseau.${prompt}
   7310: |-
-    Bien que pas très pratique, c'est une utilisation assez intrigante.
-    De cette manière, même des créatures dégénérées comme vous pourraient devenir consciemment conscientes du pouvoir de la boîte.${prompt}
-  7311: Pas pratique ? Qu'est-ce que tu veux dire !? Sais-tu vraiment à quoi sert cette boîte !?${prompt}
-  7312: Bien sûr, tout comme je connais l'usage de cet amulette que tu portes.${prompt}
-  7313: L'amulette...?${prompt}
-  7314: Il y a des millénaires, le roi des Zilart a fabriqué cet amulette - le testament d'affinité - pour lire dans les cœurs des Kuluu.${prompt}
-  7315: Les Zilart sont nés avec la capacité de communiquer directement avec l'esprit d'un autre. On appelle cela le « murmure de l'âme ».${prompt}
+    Peu pratique, certes, mais diablement ingénieux.
+    Ainsi, même des êtres aussi primitifs que vous pouvaient ressentir, inconsciemment, le pouvoir de cette boîte.${prompt}
+  7311: Peu pratique ? Que veux-tu dire ? Sais-tu vraiment à quoi elle sert ?${prompt}
+  7312: Évidemment, tout comme je connais la fonction de cette amulette que tu portes.${prompt}
+  7313: L’amulette...?${prompt}
+  7314: Il y a des millénaires, le roi des Zilart forgea cette amulette – le testament d’affinité – pour sonder les cœurs des Kuluu.${prompt}
+  7315: Les Zilart naissaient avec le don de communier directement avec l’esprit d’autrui. On appelle cela le « murmure de l’âme ».${prompt}
   7316: |-
-    Cependant, au fil des siècles, certaines personnes ont été submergées par le Vide et ont perdu ce pouvoir de communication.
-    Ceux qui ne pouvaient plus maîtriser le murmure de l'âme étaient connus sous le nom de Kuluu.${prompt}
-  7317: Le roi Zilartien a ordonné la production d'amulettes - comme celle que vous possédez - pour contenir l'obscurité résidant dans ces âmes malheureuses et ouvrir leurs cœurs...${prompt}
-  7318: Et ainsi, les pensées de tous ceux qui en portaient une étaient connues de lui.${prompt}
-  7319: Cet amulette que tu tiens... Il t'a été donné par le prince Zilartien, n'est-ce pas ? Et maintenant, tu l'utilises pour tes plans tordus.${prompt}
-  7320: ${name-player}. Le garçon t'a utilisé comme guide à travers l'espace et le temps vers un monde inconnu de lui.${prompt}
-  7321: Il t'a utilisé pour le guider vers les cristaux-mère.${prompt}
-  7322: Et c'est pourquoi je peux voir ce qu'il voit...${prompt}
-  7323: Cependant, il semble qu'il ait fait un mauvais choix en choisissant ses guides...${prompt}
-  7324: Il vous a fallu trop de temps pour atteindre le quatrième cristal, sans parler des trois premiers.${prompt}
-  7325: Grâce à votre incompétence, j'ai eu le temps d'obtenir cette boîte et de découvrir qui vous êtes vraiment.${prompt}
-  7326: C'est toi qui a mis fin à notre ère... Toi qui nous as trahis !${prompt}
-  7327: Toi... Selh'teus !${prompt}
+    Mais au fil des siècles, certains succombèrent au Vide et perdirent ce talent.
+    Ceux qui ne pouvaient plus invoquer le murmure de l’âme devinrent les Kuluu.${prompt}
+  7317: Le roi Zilartien ordonna la création d’amulettes – comme celle que tu détiens – pour contenir les ténèbres tapies dans ces âmes brisées et dévoiler leurs pensées...${prompt}
+  7318: Ainsi, il pouvait lire l’esprit de quiconque la portait.${prompt}
+  7319: Cette amulette que tu tiens... elle t’a été remise par le prince Zilartien, n’est-ce pas ? Et maintenant, tu t’en sers pour tes machinations tordues.${prompt}
+  7320: ${name-player}, ce garçon t’a utilisé comme un fil d’Ariane à travers l’espace et le temps, vers un monde qu’il ignorait.${prompt}
+  7321: Il s’est servi de toi pour le mener aux cristaux-mères.${prompt}
+  7322: Voilà pourquoi je vois ce qu’il voit...${prompt}
+  7323: Mais il semble avoir mal choisi ses guides...${prompt}
+  7324: Vous avez mis une éternité à atteindre le quatrième cristal, sans parler des trois premiers.${prompt}
+  7325: Grâce à votre lenteur, j’ai eu tout le loisir de m’emparer de cette boîte et de percer à jour votre véritable nature.${prompt}
+  7326: C’est toi qui as mis fin à notre ère... toi qui nous as trahis !${prompt}
+  7327: Toi... Selh’teus !${prompt}
   7328: Bien que tu portes la marque des Kuluu, tu as trahi ton peuple et la confiance du prince Zilartien...${prompt}
-  7329: Bien que tu aies hérité de la volonté des dieux endormis, tu les as également trahis...${prompt}
-  7330: Et bien que tu sois né du cristal-mère, maintenant tu complotes pour la trahir...${prompt}
-  7331: Mon cœur aspire à savoir pourquoi tu as choisi la voie du traître.${prompt}
-  7332: Cependant, cette réponse peut attendre un autre jour.${prompt}
+  7329: Bien que tu aies hérité de la volonté des dieux endormis, tu les as également reniés...${prompt}
+  7330: Et bien que tu sois né du cristal-mère, tu conspirerais maintenant pour le trahir ?${prompt}
+  7331: Mon cœur brûle de comprendre pourquoi tu as embrassé la voie de la trahison.${prompt}
+  7332: Mais cette réponse attendra un autre jour.${prompt}
   7333: |-
-    La réponse que je cherche maintenant est celle d'une autre question.
-    Dis-moi... Dis-moi où tu as obtenu le pouvoir de contrôler le Vide !${prompt}
-  7334: Lorsque la tentative d'ouvrir les Portes du Paradis a échoué et qu'Al'Taieu a été détruit, pourquoi es-tu le seul à avoir survécu ?${prompt}
+    Ce que je veux savoir maintenant, c’est autre chose.
+    Dis-moi... Où as-tu puisé le pouvoir de dompter le Vide ?${prompt}
+  7334: Quand l’ouverture des Portes du Paradis a échoué et qu’Al’Taieu fut anéanti, pourquoi es-tu le seul à avoir survécu ?${prompt}
   7335: |-
-    Que s'est-il passé ce jour-là !? Qu'as-tu vu et qu'as-tu appris !?
-    Quels pouvoirs indicibles possèdes-tu !?${prompt}
+    Que s’est-il passé ce jour-là ? Qu’as-tu vu, qu’as-tu découvert ?
+    Quels secrets inavouables renfermes-tu ?${prompt}
   7336: '...${prompt}'
-  7337: Pas de réponses, Selh'teus ?${prompt}
-  7338: Alors la seule option qui me reste est de les forcer hors du Vide en toi !
+  7337: Pas de réponse, Selh’teus ?${prompt}
+  7338: Alors, je n’ai d’autre choix que de t’arracher ces vérités du Vide qui t’habite !
   7339: Prishe !${prompt}
-  7340: Arrêtez !${prompt}
-  7341: Ha ha ha ! Regardez le véritable pouvoir de l'« Œil d'Altana ». Voyez la transformation du Vide en magisite !${prompt}
-  7342: L'as-tu oublié, Selh'teus ?${prompt}
+  7340: Arrête ça !${prompt}
+  7341: Ha ha ha ! Contemplez le véritable pouvoir de l’« Œil d’Altana » ! Voyez le Vide se muer en magisite !${prompt}
+  7342: L’avais-tu oublié, Selh’teus ?${prompt}
   7343: '...!${prompt}'
-  7344: Maintenant, réponds-moi, garçon ! À moins que tu ne veuilles être déchiré de l'intérieur !${prompt}
+  7344: Parle, gamin ! À moins que tu ne veuilles être déchiqueté de l’intérieur !${prompt}
   7345: ${name-player} !${prompt}
-  7346: Ne perds pas ça !
+  7346: Ne laisse pas ça t’échapper !${prompt}
   7347: |-
-    Allez, Selh'teus !
-    Arrête de penser et commence à parler !${prompt}
-  7348: Dis-moi ! Dis-moi quoi dire ! Dis-moi quoi chanter !${prompt}
+    Allez, Selh’teus !
+    Cesse de tergiverser et parle !${prompt}
+  7348: Révèle-moi tout ! Que dois-je dire ? Que dois-je chanter ?${prompt}
   7349: Quoi !?${prompt}
   7350: |-
-    　
-    Cette étoile, c'est toi, et la chanson est la tienne.${prompt}
-  7351: Et un jour, cet espoir deviendra nos rêves... nos prières...${prompt}
-  7352: Brille, étoile de l'espoir ! Que ta chanson résonne à travers tout Vana'diel !${prompt}
+  
+    Cette étoile, c’est toi, et cette chanson t’appartient.${prompt}
+  7351: Un jour, cet espoir se muera en nos rêves... en nos prières...${prompt}
+  7352: Brille, étoile de l’espoir ! Que ton chant résonne à travers tout Vana’diel !${prompt}
   7353: |-
-    Et ce qui a été divisé sera de nouveau un. Complet et inséparable pour l'éternité.
-    　${prompt}
-  7354: Essaie-t-il de... me répondre ?${prompt}
-  7355: Est-ce que je ne peux pas l'entendre parce que moi... j'ai perdu le murmure de l'âme... ?${prompt}
-  7356: Donc, voici l'appareil qui nous fournira le pouvoir de Carbuncle...${prompt}
-  7357: Commençons, ${name-player}.${prompt}
+    Et ce qui fut disjoint redeviendra un, entier et indissociable pour l’éternité.${prompt}
+  7354: Cherche-t-il à... me répondre ?${prompt}
+  7355: Se pourrait-il que je ne l’entende pas, parce que moi... j’ai perdu le murmure de l’âme ?${prompt}
+  7356: Voici donc l’appareil qui nous offrira le pouvoir de Carbuncle...${prompt}
+  7357: Allons-y, ${name-player}.${prompt}
   7358: |-
     Je...
-    J'entends la voix de Phoenix !${prompt}
+    J’entends la voix de Phoenix !${prompt}
   7359: |-
-    Elle nous dit de retourner à l'endroit où nous avons rencontré Selh'teus pour la première fois...
-    Mais ce serait... Jeuno !${prompt}
+    Elle nous enjoint de retourner là où nous avons croisé Selh’teus pour la première fois...
+    Ce serait... Jeuno !${prompt}
   7360: ${name-player}...${prompt}
-  7361: Je suis vraiment désolé. Vous n'aviez pas besoin de venir...${prompt}
-  7362: C'est de ma faute si vous êtes devenu un outil des avatars terrestres...${prompt}
-  7363: La Lame de Phoenix a confirmé ce que Nag'molada a dit.${prompt}
-  7364: Lorsque les Portes du Paradis s'ouvrent, les avatars terrestres reprendront leur forme originale - de simples bêtes...${prompt}
-  7365: Les dieux endormis s'éveilleront et le Vana'diel que nous connaissons sera transformé en un Paradis béni par leur gloire.${prompt}
-  7366: Cependant, avec leur éveil, le Seigneur du Chaos reviendra également.${prompt}
-  7367: Que cela soit bon ou mauvais, même Phoenix ne le sait pas...${prompt}
+  7361: Je suis sincèrement navré. Vous n’étiez pas obligé de venir...${prompt}
+  7362: C’est ma faute si vous êtes devenu un instrument des avatars terrestres...${prompt}
+  7363: La Lame de Phoenix a corroboré les paroles de Nag’molada.${prompt}
+  7364: 'Quand les Portes du Paradis s’ouvriront, les avatars terrestres retrouveront leur forme originelle : de simples bêtes...${prompt}'
+  7365: Les dieux endormis s’éveilleront, transformant le Vana’diel que nous connaissons en un Paradis baigné de leur gloire.${prompt}
+  7366: Mais leur réveil ramènera aussi le Seigneur du Chaos...${prompt}
+  7367: Bien ou mal, même Phoenix l’ignore...${prompt}
   7368: |-
-    ...Même Phoenix ne le sait pas...
-    Et ainsi, d'innombrables vies ont été perdues dans mon pays à l'Extrême-Orient...${prompt}
-  7369: La Lame de Phoenix a été forgée à partir des flammes de la résurrection - les flammes laissées par Phoenix.${prompt}
+    Même Phoenix l’ignore...
+    Et ainsi, dans mon pays d’Extrême-Orient, d’innombrables vies ont été perdues...${prompt}
+  7369: La Lame de Phoenix fut forgée dans les flammes de la résurrection, celles laissées par Phoenix lui-même.${prompt}
   7370: |-
-    Son seul but : détruire le Vide. Cependant, elle manquait de la puissance nécessaire pour accomplir cette mission.
-    Elle nécessitait une force que l'on ne peut obtenir qu'en prenant des vies innocentes.${prompt}
-  7371: Le nombre de personnes finalement sacrifiées est inimaginable.${prompt}
-  7372: Les bandits et les criminels ont été les premiers à être pris. Bientôt, les villages qui ne pouvaient pas payer leurs tributs ont commencé à offrir des sacrifices à la place de l'argent ou des récoltes.${prompt}
-  7373: Enfin, les vies de ceux qui étaient tombés dans le sommeil du Vide ont été prises pendant qu'ils dormaient, inconscients du sort qui leur était réservé.${prompt}
-  7374: Pour vous, les tactiques choisies par mon pays peuvent sembler barbares.${prompt}
-  7375: Cependant, mon peuple comprend que cela fait partie de leur destin...${prompt}
-  7376: Ils acceptent leur mort en échange de la prévention des morts d'autres personnes.${prompt}
-  7377: Ils savent que par leur sacrifice, ils auront protégé le monde que leurs enfants et petits-enfants hériteront.${prompt}
+    Son unique dessein : anéantir le Vide. Mais elle manquait de la puissance nécessaire pour cette mission.
+    Une puissance qu’on ne peut obtenir qu’au prix de vies innocentes...${prompt}
+  7371: Le nombre de sacrifiés dépasse l’entendement.${prompt}
+  7372: D’abord, ce furent les brigands et les criminels. Puis, les villages incapables de payer leur tribut offrirent des vies en guise d’argent ou de récoltes.${prompt}
+  7373: Enfin, ceux plongés dans le sommeil du Vide furent fauchés dans leur repos, ignorant le destin qui les frappait.${prompt}
+  7374: Ces méthodes, à vos yeux, peuvent sembler barbares.${prompt}
+  7375: Pourtant, mon peuple sait qu’elles font partie de son destin...${prompt}
+  7376: Ils offrent leur vie pour épargner celle des autres.${prompt}
+  7377: Par leur sacrifice, ils préservent le monde que leurs enfants et petits-enfants recevront en héritage.${prompt}
   7378: |-
     ${name-player}...
-    Mon pays m'a confié une grande tâche, et je suis ici pour la remplir.${prompt}
-  7379: Une partie de cette tâche est de protéger la Lame de Phoenix avec ma vie.${prompt}
-  7380: Je dois suivre mes ordres à tout prix... et c'est pourquoi j'ai besoin que vous me promettiez...${prompt}
-  7381: '...si Phoenix me conduit sur un chemin qui défie la volonté et la moralité des hommes, alors vous ferez ce qui est juste pour ce monde...${prompt}'
+    Mon pays m’a confié une mission sacrée, et je suis ici pour l’accomplir.${prompt}
+  7379: Une part de cette mission est de protéger la Lame de Phoenix au péril de ma vie.${prompt}
+  7380: Je dois obéir à mes ordres, coûte que coûte... C’est pourquoi je vous demande une promesse...${prompt}
+  7381: '...Si Phoenix m’entraîne sur une voie contraire à la volonté et à la morale humaines, alors agissez pour le bien de ce monde...${prompt}'
   7382: '...${prompt}'
-  7383: Maintenant, je dois continuer, ${name-player}.${prompt}
-  7384: On dit que profondément dans cette tour, le pouvoir de Fenrir dort, et on peut parler à l'avatar si son pouvoir est libéré.${prompt}
-  7385: Je ne peux que prier pour que mon esprit reste aussi fort que le vôtre.${prompt}
+  7383: À présent, je dois poursuivre, ${name-player}.${prompt}
+  7384: On raconte qu’au cœur de cette tour sommeille le pouvoir de Fenrir, et qu’on peut communier avec lui si ce pouvoir est libéré.${prompt}
+  7385: Puisse mon esprit rester aussi inébranlable que le vôtre, c’est ma seule prière.${prompt}
   7386: |-
     Je suis Fenrir...
-    Bien que je n'aie plus de corps, mon esprit continue de parcourir les cieux...${prompt}
-  7387: Cependant, ma force commence à s'estomper, comme les étoiles au matin...${prompt}
-  7388: O gardien de la lune, mon nom est Tenzen. Je viens d'une terre loin à l'est, avec la lame née de Phoenix à mes côtés.${prompt}
-  7389: Un grand malheur s'est abattu sur Vana'diel. Les quatre cristaux-mères ont perdu leur pouvoir et ont été submergés par le Vide. Vana'diel tremble à l'arrivée du Gardien de l'Apocalypse...${prompt}
-  7390: Pour sauver notre monde, nous avons besoin de votre force et de votre sagesse. Pouvez-vous nous offrir votre assistance ?${prompt}
-  7391: '...Donc, vous choisissez encore le chemin... de vivre et de mourir... avec les enfants de l''aube...${prompt}'
-  7392: '...Le chemin des avatars terrestres... Le chemin du peuple...${prompt}'
+    Bien que mon corps ait disparu, mon esprit erre encore dans les cieux...${prompt}
+  7387: Mais mes forces s’amenuisent, telles les étoiles au lever du jour...${prompt}
+  7388: Ô gardien de la lune, je suis Tenzen, venu d’une terre lointaine à l’est, porteur de la lame née de Phoenix.${prompt}
+  7389: Un fléau s’est abattu sur Vana’diel. Les quatre cristaux-mères ont perdu leur lumière, submergés par le Vide. Vana’diel tremble sous l’ombre du Gardien de l’Apocalypse...${prompt}
+  7390: Pour sauver notre monde, nous implorons votre force et votre sagesse. Pouvez-vous nous prêter secours ?${prompt}
+  7391: '...Ainsi, vous choisissez encore la voie... de vivre et périr... aux côtés des enfants de l’aube...${prompt}'
+  7392: '...La voie des avatars terrestres... la voie du peuple...${prompt}'
   7393: |-
     ...?
-    Je m'excuse, mais je ne comprends pas tout à fait ce que vous essayez de nous dire.${prompt}
+    Pardonnez-moi, mais vos paroles m’échappent encore.${prompt}
   7394: |-
-    Les souvenirs... de dix mille ans auparavant...
-    Ils vous guideront...${prompt}
+    Les souvenirs... d’il y a dix mille ans...
+    Ils seront votre guide...${prompt}
   7395: |-
-    Témoignez... des vœux des temps anciens... Des décisions prises...
-    Avant que je ne m'évanouisse dans le ciel du matin...
+    Soyez témoins... des serments d’un lointain passé... des choix d’alors...
+    Avant que je ne m’efface dans l’aube céleste...${prompt}
   7396: Où sommes-nous !?${prompt}
-  7397: Pourrait-ce être la vision de Fenrir ?${prompt}
-  7398: Si nous assistons véritablement aux civilisations passées...${prompt}
-  7399: Alors ceux qui combattent Fenrir sont nos... ancêtres ?${prompt}
+  7397: Est-ce là la vision de Fenrir ?${prompt}
+  7398: Si nous contemplons vraiment les civilisations d’antan...${prompt}
+  7399: Alors ceux qui défient Fenrir seraient... nos ancêtres ?${prompt}
   7400: |-
-    Écoutez attentivement, gens de Vana'diel.
-    Bien que vous ayez accepté le crépuscule, vous choisissez encore de rester dans ce monde.${prompt}
-  7401: Vous n'avez pas prêté attention à nos avertissements, et maintenant la lumière des cristaux commence à s'estomper - le chaos est sur vous.${prompt}
-  7402: Il n'y a plus rien que nous puissions faire pour vous. Nous n'avons plus de temps pour des discussions inutiles.${prompt}
-  7403: Si vous souhaitez rester comme vous êtes, quittez cet endroit immédiatement.${prompt}
-  7404: Il reste encore du temps avant que le pacte entre les avatars terrestres et Selh'teus ne soit rempli.${prompt}
-  7405: Allez ! Vivez vos vies... jusqu'à ce que les flammes de vos âmes se soient éteintes.${prompt}
+    Peuple de Vana’diel, écoutez-moi avec soin.
+    Bien que vous ayez accepté le crépuscule, vous persistez à demeurer en ce monde.${prompt}
+  7401: Vous avez ignoré nos mises en garde, et voilà que la lumière des cristaux s’éteint – le chaos vous enlace.${prompt}
+  7402: Nous ne pouvons plus rien pour vous. L’heure n’est plus aux vaines paroles.${prompt}
+  7403: Si vous refusez de changer, quittez cet endroit sans tarder.${prompt}
+  7404: Il reste un peu de temps avant que le pacte entre les avatars terrestres et Selh’teus ne s’accomplisse.${prompt}
+  7405: Partez ! Vivez vos vies... jusqu’à ce que les flammes de vos âmes s’évanouissent.${prompt}
   7406: |-
-    Attendez.
-    Notre avenir n'est pas encore décidé.${prompt}
-  7407: Nous sommes venus vous demander une nouvelle destinée.${prompt}
+    Attendez !
+    Notre avenir n’est pas encore scellé.${prompt}
+  7407: Nous sommes venus implorer une nouvelle destinée.${prompt}
   7408: Une nouvelle destinée ?${prompt}
-  7409: Je vais me répéter une dernière fois. Vos destinées ont été inscrites dans les pages de l'univers.${prompt}
-  7410: La réponse donnée par les cristaux-mère devient vérité. Les souvenirs du cristal ont été prononcés. Ces mots ne peuvent être changés.${prompt}
-  7411: Oui, nous comprenons.${prompt}
-  7412: À mesure que le temps passe, la force vitale qui réside en nous tous devient souillée. L'obscurité naît...${prompt}
-  7413: Et ensuite vient celui qui porte cette obscurité - le Gardien de l'Apocalypse - et il nous mènera dans le crépuscule.${prompt}
-  7414: Cette destinée n'est pas décidée par vous, et ne peut être changée même avec le pouvoir de divination des étoiles ou de la lune. C'est un fait établi.${prompt}
-  7415: Cependant, je suis allé dans mon pays natal et j'ai parlé avec le Selh'teus mourant...${prompt}
-  7416: Et il m'a dit que si le Gardien de l'Apocalypse est vaincu, alors le pacte avec les avatars terrestres serait rompu.${prompt}
+  7409: 'Je le répéterai une dernière fois : vos destins sont gravés dans les pages de l’univers.${prompt}'
+  7410: Les cristaux-mères ont rendu leur verdict, une vérité née des mémoires du cristal. Ces mots sont immuables.${prompt}
+  7411: Oui, nous le savons.${prompt}
+  7412: Avec le temps, la force vitale qui nous anime se corrompt. De là naît l’obscurité...${prompt}
+  7413: Puis surgit celui qui porte cette ombre – le Gardien de l’Apocalypse – pour nous guider vers le crépuscule.${prompt}
+  7414: Ce destin échappe à votre pouvoir, insensible aux divinations des étoiles ou de la lune. Il est inéluctable.${prompt}
+  7415: Pourtant, je suis retourné en ma terre natale, où j’ai parlé au mourant Selh’teus...${prompt}
+  7416: Il m’a révélé que vaincre le Gardien de l’Apocalypse briserait le pacte avec les avatars terrestres.${prompt}
   7417: |-
-    Vous avez raison.
-    Mais vous ne pouvez réussir qu'en brisant d'abord les chaînes qui lient votre peuple.${prompt}
-  7418: Avec Selh'teus parti, qui reste-t-il avec la force - le courage - pour accomplir cette tâche ardue ? Qui reste-t-il pour apporter une réponse à une énigme sans réponse ?${prompt}
+    C’est exact.
+    Mais cela exige d’abord de rompre les chaînes qui entravent votre peuple.${prompt}
+  7418: Selh’teus n’est plus. Qui reste-t-il, assez fort, assez brave, pour relever ce défi titanesque ? Qui peut répondre à une énigme sans fin ?${prompt}
   7419: |-
     ...
-    Je reste.
-    J'ai trouvé la réponse.${prompt}
-  7420: Selh'teus m'a dit ce qu'il essayait d'accomplir parce qu'il voulait que je continue dans ses traces.${prompt}
+    Moi.
+    J’ai trouvé la réponse.${prompt}
+  7420: Selh’teus m’a confié ce qu’il cherchait à accomplir, souhaitant que je marche dans ses pas.${prompt}
   7421: |-
-    Il...
-    Il ne peut pas être...${prompt}
-  7422: Vous êtes celui qui s'est échappé de la malédiction du Vide.${prompt}
-  7423: Même mes lectures ne pouvaient pas prédire cette croisée de destins...${prompt}
+    Ce...
+    Ce n’est pas possible...${prompt}
+  7422: Tu es celui qui a échappé à la malédiction du Vide.${prompt}
+  7423: Même mes visions n’ont pu anticiper ce croisement des destins...${prompt}
   7424: '...${prompt}'
-  7425: Vous qui avez brisé le cercle de la vie - vous pourriez être capable de veiller sur les destinées de l'humanité jusqu'à ce que la fin arrive.${prompt}
-  7426: Mais quand cela arrivera - quand le Gardien de l'Apocalypse se lèvera - vous serez sans pouvoir.${prompt}
-  7427: Et vous verrez chaque homme et chaque femme de Vana'diel marcher aveuglément dans le vide du crépuscule, leur arrogance, leur apathie, leur lâcheté, leur rage et leur envie les entraînant de plus en plus profondément dans l'obscurité.${prompt}
+  7425: Toi qui as brisé le cycle de la vie, tu pourrais veiller sur les destinées humaines jusqu’à l’heure finale.${prompt}
+  7426: Mais lorsque viendra ce jour – lorsque le Gardien de l’Apocalypse s’élèvera – tu seras impuissant.${prompt}
+  7427: Tu verras chaque homme et femme de Vana’diel avancer aveuglément dans l’abîme du crépuscule, entraînés par leur arrogance, leur indifférence, leur peur, leur colère et leur envie, toujours plus loin dans les ténèbres.${prompt}
   7428: |-
     Oui.
-    Cependant, il y a encore de l'espoir. La force vitale des hommes est forte. Ils persévéreront le long du fleuve du temps jusqu'à ce qu'une réponse soit trouvée.${prompt}
+    Pourtant, l’espoir subsiste. La vitalité des hommes est robuste. Ils persévéreront dans le courant du temps jusqu’à trouver une réponse.${prompt}
   7429: |-
-    Fenrir, gardien de la lune, nous attendons votre divination !
-    Dites-nous l'ère fatidique ! Dites-nous la terre fatidique !${prompt}
-  7430: Si nous savons seulement quand et où le Gardien de l'Apocalypse se manifestera, nous trouverons un moyen de le vaincre ! L'humanité trouvera un moyen !${prompt}
+    Fenrir, gardien de la lune, nous implorons votre oracle !
+    Révélez-nous l’ère fatidique ! Nommez-nous la terre promise !${prompt}
+  7430: Si nous savons où et quand le Gardien de l’Apocalypse surgira, nous trouverons un moyen de l’abattre ! L’humanité triomphera !${prompt}
   7431: |-
-    L'ère fatidique...
-    La terre fatidique...${prompt}
-  7432: Les épreuves qui accompagnent la destinée que vous désirez tant porter sont au-delà de tout ce que vous pourriez imaginer.${prompt}
-  7433: |-
-    Cependant, cela pourrait être la seule véritable forme de rétribution pour vos péchés passés.
-    Êtes-vous prêt à porter sur vos épaules la destinée de toute l'humanité ?${prompt}
-  7434: '...${prompt}'
-  7435: |-
-    Alors, je ne serai pas celui qui se mettra en travers de votre chemin.
-    Que commence la lecture de la lune !${prompt}
-  7436: |-
-    ...et donc...
-    ...le destin...
-    ...a parlé...${prompt}
-  7437: |-
-    ...après dix mille ans de sommeil...
-    ...le Gardien de l'Apocalypse...
-    ...se relèvera une fois de plus...${prompt}
-  7438: '...à Tavnazia...${prompt}'
-  7439: |-
-    ...
-    ...${name-player}...${prompt}
-  7440: Les paroles de Fenrir sont-elles la vérité ou simplement une forme de tromperie ?${prompt}
-  7441: Après dix mille ans de sommeil, le Gardien de l'Apocalypse se relèvera une fois de plus... à Tavnazia ?${prompt}
+    L’ère fatidique...
+    La terre promise...${prompt}
+  7432: Les épreuves liées à ce destin que vous aspirez à porter dépassent tout ce que vous pourriez concevoir.${prompt}
   7442: |-
-    Dix mille ans se sont écoulés...
+    Dix mille ans ont passé...
     Tavnazia...
-    L'être abhorré...
+    L’être abhorré...
     Mais...${prompt}
   7443: |-
     ...
-    Je dois retourner à Bastok et parler immédiatement à Dame Ulmia !${prompt}
+    Il me faut regagner Bastok au plus vite et m’entretenir avec Dame Ulmia sans délai !${prompt}
   7444: '　　 ${wait-animation: 1}'
   7445: mes1${prompt}
   7446: 'The ${keyitem-singular: 1[2]} flashes with blinding light!'
