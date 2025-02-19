@@ -17822,60 +17822,60 @@ entries:
   7244: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  7245: The device appears to be in operation...${prompt}
-  7246: 'Obtained key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  7247: There is nothing out of the ordinary here.${prompt}
-  7248: The door is locked.${prompt}
-  7249: The arch above the door is glowing blue...${prompt}
-  7250: The arch above the door is glowing green...${prompt}
-  7251: 'The ${keyitem-singular: 0[2]} is responding to the glow from the arch!${prompt}'
-  7252: 'The ${keyitem-singular: 0[2]} emits a brilliant light then disappears!'
-  7253: The door cannot be opened from this side.${prompt}
-  7254: Press button to continue.${prompt}
+  7245: L'appareil semble être en fonctionnement...${prompt}
+  7246: 'Objet clé obtenu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  7247: Il n'y a rien d'inhabituel ici.${prompt}
+  7248: La porte est verrouillée.${prompt}
+  7249: L'arc au-dessus de la porte brille en bleu...${prompt}
+  7250: L'arc au-dessus de la porte brille en vert...${prompt}
+  7251: 'Le ${keyitem-singular: 0[2]} réagit à la lueur de l''arc !${prompt}'
+  7252: 'Le ${keyitem-singular: 0[2]} émet une lumière brillante puis disparaît !'
+  7253: La porte ne peut pas être ouverte de ce côté.${prompt}
+  7254: Appuyez sur le bouton pour continuer.${prompt}
   7255: |-
-    ${entity: 0} examines the door.
-    A trap connected to it has been activated!${prompt}
+    ${entity: 0} examine la porte.
+    Un piège connecté à celle-ci a été activé !${prompt}
   7256: |-
-    ${entity: 0} examines the door.
-    The trap connected to it fails to activate.${prompt}
-  7257: '${entity: 0} discovers a trap connected to the door, but fails to disarm it!${prompt}'
-  7258: '${entity: 0} discovers a trap connected to the door and succeeds in disarming it!${prompt}'
+    ${entity: 0} examine la porte.
+    Le piège connecté à celle-ci ne s'active pas.${prompt}
+  7257: '${entity: 0} découvre un piège connecté à la porte, mais échoue à le désamorcer !${prompt}'
+  7258: '${entity: 0} découvre un piège connecté à la porte et réussit à le désamorcer !${prompt}'
   7259: |-
-    A potent field of magic exists beyond the door.
-    You sense that simply touching the door will transport you elsewhere.${prompt}
+    Un puissant champ magique existe au-delà de la porte.
+    Vous sentez que simplement toucher la porte vous transportera ailleurs.${prompt}
   7260: |-
-    ${entity: 0} examines the stone compartment.
-    A trap connected to it has been activated!${prompt}
-  7261: The stone compartment is tightly locked...${prompt}
-  7262: The trap on the door is broken.${prompt}
-  7263: The door is shut tightly.${prompt}
-  7264: You feel your body being pulled by a dark force on the other side of the door.${prompt}
+    ${entity: 0} examine le compartiment en pierre.
+    Un piège connecté à celui-ci a été activé !${prompt}
+  7261: Le compartiment en pierre est fermement verrouillé...${prompt}
+  7262: Le piège sur la porte est cassé.${prompt}
+  7263: La porte est fermement close.${prompt}
+  7264: Vous sentez votre corps être attiré par une force sombre de l'autre côté de la porte.${prompt}
   7265: DEBUG:***ボス倒したフラグオン***${prompt}
   7266: |-
-    Use the device?
+    Utiliser l'appareil ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7267: |-
-    Hold the ${keyitem-singular: 0[2]} up to the door?
+    Présenter le ${keyitem-singular: 0[2]} à la porte ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
+    Oui.
+    Pas encore.${prompt}
   7268: |-
-    Enter through the door?
+    Entrer par la porte ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7269: |-
-    Exit through the door?
+    Sortir par la porte ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7270: |-
-    Touch the door?
+    Toucher la porte ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7271: DEBUG:フラグにエラーがあります。${prompt}
   7272: DEBUG:${name-player}はダンジョンＡにいます。${prompt}
   7273: DEBUG:${name-player}はダンジョンＢにいます。${prompt}
@@ -17907,246 +17907,246 @@ entries:
     DEBUG:ダンジョンＦ
     不適正な座標に移動したので、
     正常な座標に移動します。${prompt}
-  7284: Where the hell have you been, ${name-player}!?${prompt}
-  7285: We have been waiting for your arrival. Did you encounter something unexpected?${prompt}
-  7286: Never could I have imagined that such a masterpiece of ancient architecture could be hidden beneath these towers. I sense the Gates of Paradise are within our reach.${prompt}
-  7287: Louverance! We were not expecting to see you here.${prompt}
-  7288: Hey, buddy, if you came to try to stop me, don't think I'll leave here without a fight. I'm not going anywhere until I get my box back!${prompt}
+  7284: Où diable étais-tu, ${name-player} !?${prompt}
+  7285: Nous t'attendions. As-tu rencontré quelque chose d'inattendu ?${prompt}
+  7286: Jamais je n'aurais imaginé qu'un tel chef-d'œuvre d'architecture ancienne puisse être caché sous ces tours. Je sens que les Portes du Paradis sont à notre portée.${prompt}
+  7287: Louverance ! Nous ne nous attendions pas à te voir ici.${prompt}
+  7288: Hé, mon pote, si tu es venu pour m'empêcher de faire quoi que ce soit, ne pense pas que je partirai sans me battre. Je ne bougerai pas d'ici avant d'avoir récupéré ma boîte !${prompt}
   7289: |-
-    I have no such intentions.
-    I am simply here as an heir to the Knights Mistalle.${prompt}
-  7290: What worries me more is the absence of Nag'molada...${prompt}
-  7291: I assume he has already set off for the fourth crystal.${prompt}
+    Je n'ai aucune intention de ce genre.
+    Je suis simplement ici en tant qu'héritier des Chevaliers Mistalle.${prompt}
+  7290: Ce qui m'inquiète plus, c'est l'absence de Nag'molada...${prompt}
+  7291: Je suppose qu'il s'est déjà mis en route pour le quatrième cristal.${prompt}
   7292: |-
-    And that is what we must do.
-    Follow me; Phoenix will lead the way.${prompt}
-  7293: Good lord!${prompt}
-  7294: It's...${prompt}
+    Et c'est ce que nous devons faire.
+    Suis-moi ; Phoenix nous montrera le chemin.${prompt}
+  7293: Mon Dieu !${prompt}
+  7294: C'est...${prompt}
   7295: |-
-    The mothercrystal.
-    Legend says that Vana'diel was formed when it split into five pieces. This is one of those pieces...${prompt}
-  7296: The divine light it emits...${prompt}
-  7297: This is from where we are born, and where we all eventually return...${prompt}
-  7298: Simply gazing upon its beauty soothes the mind and soul...${prompt}
-  7299: Hey, ${name-player}. Can you hear it?${prompt}
+    Le cristal-mère.
+    La légende raconte que Vana'diel a été formé lorsque celui-ci s'est scindé en cinq morceaux. C'est l'un de ces morceaux...${prompt}
+  7296: La lumière divine qu'il émet...${prompt}
+  7297: C'est de là que nous venons et où nous retournons tous un jour...${prompt}
+  7298: Simplement le contempler apaise l'esprit et l'âme...${prompt}
+  7299: Hé, ${name-player}. Tu l'entends ?${prompt}
   7300: |-
-    That song...
-    The crystal... It's calling us...${prompt}
+    Cette chanson...
+    Le cristal... Il nous appelle...${prompt}
   7301: |-
     　
-    That star...you...
-    ...song...yours...
-  7302: '...someday...hope...become...dreams...our prayers...'
+    Cette étoile... toi...
+    ...chanson... la tienne...
+  7302: '...un jour... espoir... devenir... rêves... nos prières...'
   7303: |-
-    ...And what was split asunder will once more become whole. Complete and inseparable for all eternity.
+    ...Et ce qui a été divisé sera de nouveau entier. Complet et inséparable pour l'éternité.
     　${prompt}
   7304: '...!${prompt}'
-  7305: Now that all the performers have arrived, the play can begin!${prompt}
-  7306: Nag'molada!${prompt}
-  7307: You slimy thief! Give back the vessel!${prompt}
-  7308: Ah, Tavnazia's precious baptismal vessel. I was amused when I learned how the box was being used.${prompt}
-  7309: According to the old man, Despachiaire, all those who entered the faith were required to pledge their loyalty to the Dawn Goddess before this vessel.${prompt}
+  7305: Maintenant que tous les acteurs sont arrivés, la pièce peut commencer !${prompt}
+  7306: Nag'molada !${prompt}
+  7307: Voleur sournois ! Rends le vaisseau !${prompt}
+  7308: Ah, le précieux vaisseau baptismal de Tavnazia. J'étais amusé lorsque j'ai appris comment la boîte était utilisée.${prompt}
+  7309: Selon le vieil homme, Despachiaire, tous ceux qui entraient dans la foi devaient prêter serment de loyauté à la Déesse de l'Aube devant ce vaisseau.${prompt}
   7310: |-
-    While not quite practical, it is a quite intriguing use.
-    In this way, even devolved creatures such as yourselves could become subconsciously aware of the power of the box.${prompt}
-  7311: Not practical? What do you mean!? Do you know what the box is really used for!?${prompt}
-  7312: Of course, just as I know the use of that amulet you carry.${prompt}
-  7313: The amulet...?${prompt}
-  7314: Many millennia ago, the king of the Zilart made that amulet--the testament of affinity--to peer into the hearts of the Kuluu.${prompt}
-  7315: The Zilart were born with the ability to communicate directly with the mind of another. This is called the “whisper of the soul.”${prompt}
+    Bien que pas très pratique, c'est une utilisation assez intrigante.
+    De cette manière, même des créatures dégénérées comme vous pourraient devenir consciemment conscientes du pouvoir de la boîte.${prompt}
+  7311: Pas pratique ? Qu'est-ce que tu veux dire !? Sais-tu vraiment à quoi sert cette boîte !?${prompt}
+  7312: Bien sûr, tout comme je connais l'usage de cet amulette que tu portes.${prompt}
+  7313: L'amulette...?${prompt}
+  7314: Il y a des millénaires, le roi des Zilart a fabriqué cet amulette - le testament d'affinité - pour lire dans les cœurs des Kuluu.${prompt}
+  7315: Les Zilart sont nés avec la capacité de communiquer directement avec l'esprit d'un autre. On appelle cela le « murmure de l'âme ».${prompt}
   7316: |-
-    However, as centuries passed, some people were overcome by the Emptiness and lost this power of communication.
-    Those who could no longer harness the whisper of the soul were known as the Kuluu.${prompt}
-  7317: The Zilartian king ordered the production of amulets--such as the one you possess--to contain the darkness residing within these unfortunate souls and open their hearts...${prompt}
-  7318: And thus, the thoughts of all those who wore one were known by him.${prompt}
-  7319: That amulet you hold... It was given to you by the Zilartian prince, was it not? And now you have begun using it to further your twisted schemes.${prompt}
-  7320: ${name-player}. The boy has been using you as a guide over space and time into a world unknown to him.${prompt}
-  7321: Using you to guide him to the mothercrystals.${prompt}
-  7322: And that's why I can see what he sees...${prompt}
-  7323: However, it seems as if he made a poor choice in guides...${prompt}
-  7324: It took too long for you petty adventurers to reach the fourth crystal, let alone the first three.${prompt}
-  7325: Thanks to your incompetence, I had enough time to obtain this box, as well as find out who you really are.${prompt}
-  7326: It was you who brought an end to our era... You who betrayed us!${prompt}
-  7327: You...Selh'teus!${prompt}
-  7328: Though you bear the mark of the Kuluu, you betrayed your people and the trust of the Zilartian prince...${prompt}
-  7329: Though you have inherited the will of the slumbering gods, you betrayed them as well...${prompt}
-  7330: And though you were born of the mothercrystal, now you plot to betray her...${prompt}
-  7331: My heart yearns to know why you have chosen the path of traitor.${prompt}
-  7332: However, that answer can wait for a later day.${prompt}
+    Cependant, au fil des siècles, certaines personnes ont été submergées par le Vide et ont perdu ce pouvoir de communication.
+    Ceux qui ne pouvaient plus maîtriser le murmure de l'âme étaient connus sous le nom de Kuluu.${prompt}
+  7317: Le roi Zilartien a ordonné la production d'amulettes - comme celle que vous possédez - pour contenir l'obscurité résidant dans ces âmes malheureuses et ouvrir leurs cœurs...${prompt}
+  7318: Et ainsi, les pensées de tous ceux qui en portaient une étaient connues de lui.${prompt}
+  7319: Cet amulette que tu tiens... Il t'a été donné par le prince Zilartien, n'est-ce pas ? Et maintenant, tu l'utilises pour tes plans tordus.${prompt}
+  7320: ${name-player}. Le garçon t'a utilisé comme guide à travers l'espace et le temps vers un monde inconnu de lui.${prompt}
+  7321: Il t'a utilisé pour le guider vers les cristaux-mère.${prompt}
+  7322: Et c'est pourquoi je peux voir ce qu'il voit...${prompt}
+  7323: Cependant, il semble qu'il ait fait un mauvais choix en choisissant ses guides...${prompt}
+  7324: Il vous a fallu trop de temps pour atteindre le quatrième cristal, sans parler des trois premiers.${prompt}
+  7325: Grâce à votre incompétence, j'ai eu le temps d'obtenir cette boîte et de découvrir qui vous êtes vraiment.${prompt}
+  7326: C'est toi qui a mis fin à notre ère... Toi qui nous as trahis !${prompt}
+  7327: Toi... Selh'teus !${prompt}
+  7328: Bien que tu portes la marque des Kuluu, tu as trahi ton peuple et la confiance du prince Zilartien...${prompt}
+  7329: Bien que tu aies hérité de la volonté des dieux endormis, tu les as également trahis...${prompt}
+  7330: Et bien que tu sois né du cristal-mère, maintenant tu complotes pour la trahir...${prompt}
+  7331: Mon cœur aspire à savoir pourquoi tu as choisi la voie du traître.${prompt}
+  7332: Cependant, cette réponse peut attendre un autre jour.${prompt}
   7333: |-
-    The answer I seek now is that to a different question.
-    Tell me... Tell me where you obtained the power to control the Emptiness!${prompt}
-  7334: When the attempt to open the Gates of Paradise failed and Al'Taieu was destroyed, why did only you survive?${prompt}
+    La réponse que je cherche maintenant est celle d'une autre question.
+    Dis-moi... Dis-moi où tu as obtenu le pouvoir de contrôler le Vide !${prompt}
+  7334: Lorsque la tentative d'ouvrir les Portes du Paradis a échoué et qu'Al'Taieu a été détruit, pourquoi es-tu le seul à avoir survécu ?${prompt}
   7335: |-
-    What happened that day!? What did you see and what did you learn!?
-    What unspeakable powers do you possess!?${prompt}
+    Que s'est-il passé ce jour-là !? Qu'as-tu vu et qu'as-tu appris !?
+    Quels pouvoirs indicibles possèdes-tu !?${prompt}
   7336: '...${prompt}'
-  7337: No answers, Selh'teus?${prompt}
-  7338: Then the only option left to me is to force them from the Emptiness inside you!
-  7339: Prishe!${prompt}
-  7340: Stop!${prompt}
-  7341: Ha ha ha! Behold the true power of the “Eye of Altana.” Behold the transformation of Emptiness to magicite!${prompt}
-  7342: Did you forget, Selh'teus?${prompt}
+  7337: Pas de réponses, Selh'teus ?${prompt}
+  7338: Alors la seule option qui me reste est de les forcer hors du Vide en toi !
+  7339: Prishe !${prompt}
+  7340: Arrêtez !${prompt}
+  7341: Ha ha ha ! Regardez le véritable pouvoir de l'« Œil d'Altana ». Voyez la transformation du Vide en magisite !${prompt}
+  7342: L'as-tu oublié, Selh'teus ?${prompt}
   7343: '...!${prompt}'
-  7344: Now answer me, boy! Unless you want to be ripped apart from the inside!${prompt}
-  7345: ${name-player}!${prompt}
-  7346: Don't lose this!
+  7344: Maintenant, réponds-moi, garçon ! À moins que tu ne veuilles être déchiré de l'intérieur !${prompt}
+  7345: ${name-player} !${prompt}
+  7346: Ne perds pas ça !
   7347: |-
-    Come on, Selh'teus!
-    Stop thinking and start talking!${prompt}
-  7348: Tell me! Tell me what to say! Tell me what to sing!${prompt}
-  7349: What!?${prompt}
+    Allez, Selh'teus !
+    Arrête de penser et commence à parler !${prompt}
+  7348: Dis-moi ! Dis-moi quoi dire ! Dis-moi quoi chanter !${prompt}
+  7349: Quoi !?${prompt}
   7350: |-
     　
-    That star is you, and the song is yours.${prompt}
-  7351: And someday, that hope will become our dreams...our prayers...${prompt}
-  7352: Shine forth, star of hope! Let your song ring out across all of Vana'diel!${prompt}
+    Cette étoile, c'est toi, et la chanson est la tienne.${prompt}
+  7351: Et un jour, cet espoir deviendra nos rêves... nos prières...${prompt}
+  7352: Brille, étoile de l'espoir ! Que ta chanson résonne à travers tout Vana'diel !${prompt}
   7353: |-
-    And what was split asunder will once more become whole. Complete and inseparable for all eternity.
+    Et ce qui a été divisé sera de nouveau un. Complet et inséparable pour l'éternité.
     　${prompt}
-  7354: Is he trying to...answer me?${prompt}
-  7355: Is it only that I cannot hear him, because I...I have lost the whisper of the soul...?${prompt}
-  7356: So this is the device which will provide us with the power of Carbuncle...${prompt}
-  7357: Let us begin, ${name-player}.${prompt}
+  7354: Essaie-t-il de... me répondre ?${prompt}
+  7355: Est-ce que je ne peux pas l'entendre parce que moi... j'ai perdu le murmure de l'âme... ?${prompt}
+  7356: Donc, voici l'appareil qui nous fournira le pouvoir de Carbuncle...${prompt}
+  7357: Commençons, ${name-player}.${prompt}
   7358: |-
-    I...
-    I can hear the voice of Phoenix!${prompt}
+    Je...
+    J'entends la voix de Phoenix !${prompt}
   7359: |-
-    She's telling us to return to the place where we first met Selh'teus...
-    But that would be...Jeuno!${prompt}
+    Elle nous dit de retourner à l'endroit où nous avons rencontré Selh'teus pour la première fois...
+    Mais ce serait... Jeuno !${prompt}
   7360: ${name-player}...${prompt}
-  7361: I am truly sorry. You did not have to come...${prompt}
-  7362: It is my fault that you became a tool of the terrestrial avatars...${prompt}
-  7363: The Phoenix Blade has confirmed what Nag'molada said.${prompt}
-  7364: When the Gates of Paradise open, the terrestrial avatars will return to their original form--mere beasts...${prompt}
-  7365: The slumbering gods will awake and the Vana'diel we know will be transformed into a Paradise blessed with their glory.${prompt}
-  7366: However, with their awakening, the Lord of Chaos shall also return.${prompt}
-  7367: Whether this is good or bad, not even Phoenix knows...${prompt}
+  7361: Je suis vraiment désolé. Vous n'aviez pas besoin de venir...${prompt}
+  7362: C'est de ma faute si vous êtes devenu un outil des avatars terrestres...${prompt}
+  7363: La Lame de Phoenix a confirmé ce que Nag'molada a dit.${prompt}
+  7364: Lorsque les Portes du Paradis s'ouvrent, les avatars terrestres reprendront leur forme originale - de simples bêtes...${prompt}
+  7365: Les dieux endormis s'éveilleront et le Vana'diel que nous connaissons sera transformé en un Paradis béni par leur gloire.${prompt}
+  7366: Cependant, avec leur éveil, le Seigneur du Chaos reviendra également.${prompt}
+  7367: Que cela soit bon ou mauvais, même Phoenix ne le sait pas...${prompt}
   7368: |-
-    ...Not even Phoenix knows...
-    And so countless lives were lost in my country to the Far East...${prompt}
-  7369: The Phoenix Blade was forged from the flames of resurrection--the flames left by Phoenix.${prompt}
+    ...Même Phoenix ne le sait pas...
+    Et ainsi, d'innombrables vies ont été perdues dans mon pays à l'Extrême-Orient...${prompt}
+  7369: La Lame de Phoenix a été forgée à partir des flammes de la résurrection - les flammes laissées par Phoenix.${prompt}
   7370: |-
-    Its sole purpose: to destroy the Emptiness. However, it lacked the power to fulfill that mission.
-    It required a strength only obtained by taking innocent lives.${prompt}
-  7371: The number of people who were ultimately sacrificed is unspeakable.${prompt}
-  7372: Bandits and criminals were the first to be taken. Soon, villages that could not pay their tributes began offering sacrifices in place of money or crops.${prompt}
-  7373: Finally, the lives of those who had fallen into the slumber of the Emptiness were taken as they slept, unaware of the fate that had befallen them.${prompt}
-  7374: To you, the tactics chosen by my country may sound barbaric.${prompt}
-  7375: However, my people realize that this is only part of their destiny...${prompt}
-  7376: They accept their deaths in exchange to prevent the deaths of others.${prompt}
-  7377: They know that with their passing, they will have protected the world their children and their grandchildren will inherit.${prompt}
+    Son seul but : détruire le Vide. Cependant, elle manquait de la puissance nécessaire pour accomplir cette mission.
+    Elle nécessitait une force que l'on ne peut obtenir qu'en prenant des vies innocentes.${prompt}
+  7371: Le nombre de personnes finalement sacrifiées est inimaginable.${prompt}
+  7372: Les bandits et les criminels ont été les premiers à être pris. Bientôt, les villages qui ne pouvaient pas payer leurs tributs ont commencé à offrir des sacrifices à la place de l'argent ou des récoltes.${prompt}
+  7373: Enfin, les vies de ceux qui étaient tombés dans le sommeil du Vide ont été prises pendant qu'ils dormaient, inconscients du sort qui leur était réservé.${prompt}
+  7374: Pour vous, les tactiques choisies par mon pays peuvent sembler barbares.${prompt}
+  7375: Cependant, mon peuple comprend que cela fait partie de leur destin...${prompt}
+  7376: Ils acceptent leur mort en échange de la prévention des morts d'autres personnes.${prompt}
+  7377: Ils savent que par leur sacrifice, ils auront protégé le monde que leurs enfants et petits-enfants hériteront.${prompt}
   7378: |-
     ${name-player}...
-    My country has entrusted me with a great task, and I am here to fulfill it.${prompt}
-  7379: One aspect of that task is to protect the Phoenix Blade with my life.${prompt}
-  7380: I must follow my orders at any cost...and that is why I need you to promise me...${prompt}
-  7381: '...if Phoenix leads me down a path that defies the will and morality of men, then you will do what is right for this world...${prompt}'
+    Mon pays m'a confié une grande tâche, et je suis ici pour la remplir.${prompt}
+  7379: Une partie de cette tâche est de protéger la Lame de Phoenix avec ma vie.${prompt}
+  7380: Je dois suivre mes ordres à tout prix... et c'est pourquoi j'ai besoin que vous me promettiez...${prompt}
+  7381: '...si Phoenix me conduit sur un chemin qui défie la volonté et la moralité des hommes, alors vous ferez ce qui est juste pour ce monde...${prompt}'
   7382: '...${prompt}'
-  7383: Now I must continue, ${name-player}.${prompt}
-  7384: It is said that deep within this tower, the power of Fenrir sleeps, and one can speak with the avatar if his power is released.${prompt}
-  7385: I can only pray my spirit remains as strong as yours.${prompt}
+  7383: Maintenant, je dois continuer, ${name-player}.${prompt}
+  7384: On dit que profondément dans cette tour, le pouvoir de Fenrir dort, et on peut parler à l'avatar si son pouvoir est libéré.${prompt}
+  7385: Je ne peux que prier pour que mon esprit reste aussi fort que le vôtre.${prompt}
   7386: |-
-    I am Fenrir...
-    Though I am no longer of body, my spirit continues to roam the heavens...${prompt}
-  7387: However, my strength has begun to fade, as do stars come morn...${prompt}
-  7388: O guardian of the moon, my name is Tenzen. I have come from a land far to the east, the blade born of Phoenix at my side.${prompt}
-  7389: Great misfortune has befallen Vana'diel. The four mothercrystals have lost their power and were overtaken by the Emptiness. Vana'diel trembles at the arrival of the Keeper of the Apocalypse...${prompt}
-  7390: To save our world, we require your strength and your wisdom. Can you offer us your assistance?${prompt}
-  7391: '...So you still choose the path...to live and die...with the children of the dawn...${prompt}'
-  7392: '...The path of the terrestrial avatars... The path of the people...${prompt}'
+    Je suis Fenrir...
+    Bien que je n'aie plus de corps, mon esprit continue de parcourir les cieux...${prompt}
+  7387: Cependant, ma force commence à s'estomper, comme les étoiles au matin...${prompt}
+  7388: O gardien de la lune, mon nom est Tenzen. Je viens d'une terre loin à l'est, avec la lame née de Phoenix à mes côtés.${prompt}
+  7389: Un grand malheur s'est abattu sur Vana'diel. Les quatre cristaux-mères ont perdu leur pouvoir et ont été submergés par le Vide. Vana'diel tremble à l'arrivée du Gardien de l'Apocalypse...${prompt}
+  7390: Pour sauver notre monde, nous avons besoin de votre force et de votre sagesse. Pouvez-vous nous offrir votre assistance ?${prompt}
+  7391: '...Donc, vous choisissez encore le chemin... de vivre et de mourir... avec les enfants de l''aube...${prompt}'
+  7392: '...Le chemin des avatars terrestres... Le chemin du peuple...${prompt}'
   7393: |-
     ...?
-    I apologize, but I do not quite understand what you are trying to tell us.${prompt}
+    Je m'excuse, mais je ne comprends pas tout à fait ce que vous essayez de nous dire.${prompt}
   7394: |-
-    The memories...of ten thousand years ago...
-    They will guide you...${prompt}
+    Les souvenirs... de dix mille ans auparavant...
+    Ils vous guideront...${prompt}
   7395: |-
-    Witness...the vows of ancient times... The decisions made...
-    Before I fade into the morning...sky...
-  7396: Where are we!?${prompt}
-  7397: Could this be Fenrir's vision?${prompt}
-  7398: If we are truly witnessing civilizations past...${prompt}
-  7399: Then those fighting Fenrir are our...ancestors?${prompt}
+    Témoignez... des vœux des temps anciens... Des décisions prises...
+    Avant que je ne m'évanouisse dans le ciel du matin...
+  7396: Où sommes-nous !?${prompt}
+  7397: Pourrait-ce être la vision de Fenrir ?${prompt}
+  7398: Si nous assistons véritablement aux civilisations passées...${prompt}
+  7399: Alors ceux qui combattent Fenrir sont nos... ancêtres ?${prompt}
   7400: |-
-    Listen carefully, people of Vana'diel.
-    Though you have accepted twilight, you still choose to remain in this world.${prompt}
-  7401: You did not heed our warnings, and now the light of the crystals has begun to fade--chaos is upon you.${prompt}
-  7402: There is nothing more we can do for you. We no longer have time for idle chatter.${prompt}
-  7403: If you wish to remain as you are, leave this place immediately.${prompt}
-  7404: There is still time before the pact between the terrestrial avatars and Selh'teus is fulfilled.${prompt}
-  7405: Go! Live your lives...until the flames of your souls have flickered out.${prompt}
+    Écoutez attentivement, gens de Vana'diel.
+    Bien que vous ayez accepté le crépuscule, vous choisissez encore de rester dans ce monde.${prompt}
+  7401: Vous n'avez pas prêté attention à nos avertissements, et maintenant la lumière des cristaux commence à s'estomper - le chaos est sur vous.${prompt}
+  7402: Il n'y a plus rien que nous puissions faire pour vous. Nous n'avons plus de temps pour des discussions inutiles.${prompt}
+  7403: Si vous souhaitez rester comme vous êtes, quittez cet endroit immédiatement.${prompt}
+  7404: Il reste encore du temps avant que le pacte entre les avatars terrestres et Selh'teus ne soit rempli.${prompt}
+  7405: Allez ! Vivez vos vies... jusqu'à ce que les flammes de vos âmes se soient éteintes.${prompt}
   7406: |-
-    Wait.
-    Our future is not yet decided.${prompt}
-  7407: We have come to request of you a new destiny.${prompt}
-  7408: A new destiny?${prompt}
-  7409: I shall repeat myself one last time. Your destinies have been recorded in the pages of the universe.${prompt}
-  7410: The answer given by the mothercrystals becomes truth. The memories of the crystal have been uttered. These words cannot be changed.${prompt}
-  7411: Yes, we understand.${prompt}
-  7412: As time passes, the lifeforce that dwells within us all becomes tainted. Darkness is born...${prompt}
-  7413: And then comes one who harbors that darkness--the Keeper of the Apocalypse--and he will lead us into the twilight.${prompt}
-  7414: This destiny is not decided by you, and cannot be changed using even the divination power of the stars or moon. It is a given.${prompt}
-  7415: However, I traveled to my homeland and I spoke with the dying Selh'teus...${prompt}
-  7416: And he told me, if the Keeper of the Apocalypse is defeated, then the pact with the terrestrial avatars would be broken.${prompt}
+    Attendez.
+    Notre avenir n'est pas encore décidé.${prompt}
+  7407: Nous sommes venus vous demander une nouvelle destinée.${prompt}
+  7408: Une nouvelle destinée ?${prompt}
+  7409: Je vais me répéter une dernière fois. Vos destinées ont été inscrites dans les pages de l'univers.${prompt}
+  7410: La réponse donnée par les cristaux-mère devient vérité. Les souvenirs du cristal ont été prononcés. Ces mots ne peuvent être changés.${prompt}
+  7411: Oui, nous comprenons.${prompt}
+  7412: À mesure que le temps passe, la force vitale qui réside en nous tous devient souillée. L'obscurité naît...${prompt}
+  7413: Et ensuite vient celui qui porte cette obscurité - le Gardien de l'Apocalypse - et il nous mènera dans le crépuscule.${prompt}
+  7414: Cette destinée n'est pas décidée par vous, et ne peut être changée même avec le pouvoir de divination des étoiles ou de la lune. C'est un fait établi.${prompt}
+  7415: Cependant, je suis allé dans mon pays natal et j'ai parlé avec le Selh'teus mourant...${prompt}
+  7416: Et il m'a dit que si le Gardien de l'Apocalypse est vaincu, alors le pacte avec les avatars terrestres serait rompu.${prompt}
   7417: |-
-    You are correct.
-    But you can only succeed by first breaking the chains that bind your people.${prompt}
-  7418: With Selh'teus gone, who is there left with the strength--the courage--to accomplish that daunting task? Who is there left to bear forth an answer to an answerless riddle?${prompt}
+    Vous avez raison.
+    Mais vous ne pouvez réussir qu'en brisant d'abord les chaînes qui lient votre peuple.${prompt}
+  7418: Avec Selh'teus parti, qui reste-t-il avec la force - le courage - pour accomplir cette tâche ardue ? Qui reste-t-il pour apporter une réponse à une énigme sans réponse ?${prompt}
   7419: |-
     ...
-    I am left.
-    I have found the answer.${prompt}
-  7420: Selh'teus told me what he was trying to accomplish because he wished for me to continue in his footsteps.${prompt}
+    Je reste.
+    J'ai trouvé la réponse.${prompt}
+  7420: Selh'teus m'a dit ce qu'il essayait d'accomplir parce qu'il voulait que je continue dans ses traces.${prompt}
   7421: |-
-    It...
-    It cannot be...${prompt}
-  7422: You are the one who escaped from the curse of the Emptiness.${prompt}
-  7423: Even my readings could not predict this crossing of destinies...${prompt}
+    Il...
+    Il ne peut pas être...${prompt}
+  7422: Vous êtes celui qui s'est échappé de la malédiction du Vide.${prompt}
+  7423: Même mes lectures ne pouvaient pas prédire cette croisée de destins...${prompt}
   7424: '...${prompt}'
-  7425: You who have broken free from the circle of life--you may be able to watch over the destinies of mankind until the end arrives.${prompt}
-  7426: But when it does--when the Keeper of the Apocalypse rises up--you will be powerless.${prompt}
-  7427: And you will witness every man and woman on Vana'diel blindly march into the void of twilight, their arrogance, apathy, cowardice, rage, and envy drawing them deeper and deeper into the darkness.${prompt}
+  7425: Vous qui avez brisé le cercle de la vie - vous pourriez être capable de veiller sur les destinées de l'humanité jusqu'à ce que la fin arrive.${prompt}
+  7426: Mais quand cela arrivera - quand le Gardien de l'Apocalypse se lèvera - vous serez sans pouvoir.${prompt}
+  7427: Et vous verrez chaque homme et chaque femme de Vana'diel marcher aveuglément dans le vide du crépuscule, leur arrogance, leur apathie, leur lâcheté, leur rage et leur envie les entraînant de plus en plus profondément dans l'obscurité.${prompt}
   7428: |-
-    Yes.
-    However, there is still hope. The lifeforce of men is strong. They will persevere along the river of time until an answer is found.${prompt}
+    Oui.
+    Cependant, il y a encore de l'espoir. La force vitale des hommes est forte. Ils persévéreront le long du fleuve du temps jusqu'à ce qu'une réponse soit trouvée.${prompt}
   7429: |-
-    Fenrir, guardian of the moon, we await your divination!
-    Tell us the fated era! Tell us the fated land!${prompt}
-  7430: If we know only when and where the Keeper of the Apocalypse will rise forth, we will find a way to defeat him! Mankind will find a way!${prompt}
+    Fenrir, gardien de la lune, nous attendons votre divination !
+    Dites-nous l'ère fatidique ! Dites-nous la terre fatidique !${prompt}
+  7430: Si nous savons seulement quand et où le Gardien de l'Apocalypse se manifestera, nous trouverons un moyen de le vaincre ! L'humanité trouvera un moyen !${prompt}
   7431: |-
-    The fated era...
-    The fated land...${prompt}
-  7432: The hardships that accompany the destiny you so desire to bear are beyond any you could even imagine.${prompt}
+    L'ère fatidique...
+    La terre fatidique...${prompt}
+  7432: Les épreuves qui accompagnent la destinée que vous désirez tant porter sont au-delà de tout ce que vous pourriez imaginer.${prompt}
   7433: |-
-    However, this may be the only true form of retribution for your past sins.
-    Are you ready to take upon your back the destiny of all mankind?${prompt}
+    Cependant, cela pourrait être la seule véritable forme de rétribution pour vos péchés passés.
+    Êtes-vous prêt à porter sur vos épaules la destinée de toute l'humanité ?${prompt}
   7434: '...${prompt}'
   7435: |-
-    Then I am not one to stand in your way.
-    Let the moon reading begin!${prompt}
+    Alors, je ne serai pas celui qui se mettra en travers de votre chemin.
+    Que commence la lecture de la lune !${prompt}
   7436: |-
-    ...and so...
-    ...destiny...
-    ...has spoken...${prompt}
+    ...et donc...
+    ...le destin...
+    ...a parlé...${prompt}
   7437: |-
-    ...after ten thousand years of sleep...
-    ...the Keeper of the Apocalypse...
-    ...will rise once again...${prompt}
-  7438: '...in Tavnazia...${prompt}'
+    ...après dix mille ans de sommeil...
+    ...le Gardien de l'Apocalypse...
+    ...se relèvera une fois de plus...${prompt}
+  7438: '...à Tavnazia...${prompt}'
   7439: |-
     ...
     ...${name-player}...${prompt}
-  7440: Could Fenrir's words be the truth, or simply some form of trickery?${prompt}
-  7441: After ten thousand years of sleep, the Keeper of the Apocalypse will rise once again...in Tavnazia?${prompt}
+  7440: Les paroles de Fenrir sont-elles la vérité ou simplement une forme de tromperie ?${prompt}
+  7441: Après dix mille ans de sommeil, le Gardien de l'Apocalypse se relèvera une fois de plus... à Tavnazia ?${prompt}
   7442: |-
-    Ten thousand years have passed...
+    Dix mille ans se sont écoulés...
     Tavnazia...
-    The abhorrent one...
-    But...${prompt}
+    L'être abhorré...
+    Mais...${prompt}
   7443: |-
     ...
-    I must return to Bastok and speak with Lady Ulmia immediately!${prompt}
+    Je dois retourner à Bastok et parler immédiatement à Dame Ulmia !${prompt}
   7444: '　　 ${wait-animation: 1}'
   7445: mes1${prompt}
   7446: 'The ${keyitem-singular: 1[2]} flashes with blinding light!'
