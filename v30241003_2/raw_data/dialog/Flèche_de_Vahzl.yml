@@ -17442,413 +17442,1236 @@ entries:
   7061: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
   7062: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   7063: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
-  7064: Tallying conquest results...${prompt}
-  7065: Conquest results tallied.${prompt}
-  7066: This region is currently under San d'Orian control.${prompt}
-  7067: This region is currently under Bastokan control.${prompt}
-  7068: This region is currently under Windurstian control.${prompt}
+  7064: |-
+    Enter the battlefield?
+    ${selection-lines}
+    Enter.
+    Decline.${prompt}
+  7065: |-
+    Leave the battlefield?
+    ${selection-lines}
+    Run away.
+    Stay.${prompt}
+  7066: 'You cannot enter the battlefield at present. Please wait a little longer.${wait-animation: 1}${prompt}'
+  7067: 'You cannot enter the battlefield at present. Please wait a little longer.${wait-animation: 1}${prompt}'
+  7068: You have already cleared this battlefield. You may not enter unless you are assisting a player who has not defeated this boss.${prompt}
   7069: |-
+    Your time in the battlefield is up!
+    Now exiting...${wait-animation: 1}${prompt}
+  7070: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7071: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7072: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7073: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7074: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7075: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7076: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7077: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7078: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7079: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
+  7080: 'You have been enchanted so that you may enter!${wait-animation: 1}${prompt}'
+  7081: 'Your entry enchantment has expired!${wait-animation: 1}${prompt}'
+  7082: |-
+    You are not cleared to enter the battlefield.
+    Now exiting...${wait-animation: 1}${prompt}
+  7083: Un sceau maudit a été placé sur cette plateforme.${prompt}
+  7084: Le champ de bataille où vos membres de groupe sont engagés dans le combat est verrouillé. L'accès est refusé.${prompt}
+  7085: Il n'y a aucune réponse. Vous ne pouvez pas vous échapper !${prompt}
+  7086: La porte est fermée par une malédiction maléfique.${prompt}
+  7087: Une force mystérieuse scelle la plateforme.${prompt}
+  7088: La vieille porte en bois est fermée à double tour.${prompt}
+  7089: La porte est scellée par une énergie mystérieuse.${prompt}
+  7090: C'est un cristal géant.${prompt}
+  7091: Une force magique puissante tourbillonne depuis la plateforme.${prompt}
+  7092: Une colonne de vent féroce bloque votre chemin. Vous ne pouvez pas aller plus loin...${prompt}
+  7093: Un voile menaçant de gaz noir bloque votre chemin. Vous ne pouvez pas aller plus loin...${prompt}
+  7094: Une lumière insondable monte de cette plateforme étrangement marquée...${prompt}
+  7095: Une lourde porte en bois. Elle est fermée à double tour...${prompt}
+  7096: Vous pouvez entendre un léger grattement venant de l'intérieur, mais le passage est bloqué par une étrange membrane...${prompt}
+  7097: Vous pouvez entendre un léger grattement venant de l'intérieur, mais le passage est bloqué par une étrange membrane...${prompt}
+  7098: Vous pouvez entendre un léger grattement venant de l'intérieur, mais le passage est bloqué par une étrange membrane...${prompt}
+  7099: Vous pouvez entendre un léger grattement venant de l'intérieur, mais le passage est bloqué par une étrange membrane...${prompt}
+  7100: Un brouillard lumineux de proportions changeantes flotte devant vous...${prompt}
+  7101: Une porte en fer solide. Elle est fermée à double tour...${prompt}
+  7102: Vous voyez un cristal géant, brillant d'une lumière ambrée...${prompt}
+  7103: Vous voyez un cristal géant, brillant d'une lumière ambrée...${prompt}
+  7104: En regardant de plus près, vous voyez deux symboles de cloche peints sur le bois, l'un en rouge et l'autre en bleu...${prompt}
+  7105: En regardant de près la surface de la porte, vous pouvez voir ce qui semble être les empreintes de poing d'un Troll...${prompt}
+  7106: Si vous écoutez attentivement, vous pouvez entendre faiblement des voix féminines chantant en canon...${prompt}
+  7107: Il semble que quelque chose ait été enfoncé dans la paroi rocheuse ici...${prompt}
+  7108: Une porte décorative. Elle semble être verrouillée...${prompt}
+  7109: La porte est verrouillée.${prompt}
+  7110: La porte est verrouillée.${prompt}
+  7111: La porte est verrouillée.${prompt}
+  7112: La porte est verrouillée.${prompt}
+  7113: There seems to be a space beneath the floor, but you are unable to access it.${prompt}
+  7114: You do not meet the requirements to enter the battlefield. Access is denied.${prompt}
+  7115: '${choice: 0}[Feliz/Ferdinand/Gunnar/Massimo/Oldrich/Siegward/Theobald/Zenji] has fallen. Now leaving the battlefield.${prompt}'
+  7116: '${choice: 0}[Amerita/Beatrice/Henrietta/Jesimae/Karyn/Nanako/Sharlene/Sieghilde] has fallen. Now leaving the battlefield.${prompt}'
+  7117: '${choice: 0}[Chanandit/Deulmaeux/Demresinaux/Ephealgaux/Gauldeval/Grauffemart/Migaifongut/Romidiant] has fallen. Now leaving the battlefield.${prompt}'
+  7118: '${choice: 0}[Armittie/Cadepure/Clearite/Epilleve/Liabelle/Nauthima/Radille/Vimechue] has fallen. Now leaving the battlefield.${prompt}'
+  7119: '${choice: 0}[Balu-Falu/Burg-Ladarg/Ehgo-Ryuhgo/Kolui-Pelui/Nokum-Akkum/Savul-Kivul/Vinja-Kanja/Yarga-Umiga] has fallen. Now leaving the battlefield.${prompt}'
+  7120: '${choice: 0}[Cupapa/Jajuju/Kalokoko/Mahoyaya/Pakurara/Ripokeke/Yawawa/Yufafa] has fallen. Now leaving the battlefield.${prompt}'
+  7121: '${choice: 0}[Fhig/Khuma/Pimy/Raka/Sahyu/Sufhi/Tsuim/Yoli] has fallen. Now leaving the battlefield.${prompt}'
+  7122: '${choice: 0}[Durib/Dzapiwa/Jugowa/Mugido/Voldai/Wagwei/Zayag/Zoldof] has fallen. Now leaving the battlefield.${prompt}'
+  7123: You were unable to protect the special character. Now leaving the battlefield.${prompt}
+  7124: You were unable to protect Prince Trion. Now leaving the battlefield.${prompt}
+  7125: You were unable to protect Captain Volker. Now leaving the battlefield.${prompt}
+  7126: You were unable to protect Ajido-Marujido. Now leaving the battlefield.${prompt}
+  7127: 'Your ${item-singular: 0[2]} is torn...${prompt}'
+  7128: 'Your ${item-singular: 0[2]} ${choice: 1}[/rips into shreds!/is on the verge of tearing apart.../is showing signs of wear...] (${number: 2} ${choice-plurality: 2}[use remains/uses remain].)${prompt}'
+  7129: 'Your ${item-singular: 0[2]} is torn...${prompt}'
+  7130: 'Your ${item-singular: 0[2]} ${choice: 1}[/rips into shreds!/is on the verge of tearing apart.../is showing signs of wear...] (${number: 2} ${choice-plurality: 2}[use remains/uses remain].)${prompt}'
+  7131: You see innumerable stars shimmering in the distance...${prompt}
+  7132: 　${prompt}
+  7133: 　${prompt}
+  7134: 　${prompt}
+  7135: 　${prompt}
+  7136: 　${prompt}
+  7137: 　${prompt}
+  7138: 　${prompt}
+  7139: 　${prompt}
+  7140: |-
+    バトルフィールド_Aの占有制限時間が過ぎました
+    退出します。${wait-animation: 1}${prompt}
+  7141: |-
+    バトルフィールド_Bの占有制限時間が過ぎました
+    退出します。${wait-animation: 1}${prompt}
+  7142: |-
+    バトルフィールド_Cの占有制限時間が過ぎました
+    退出します。${wait-animation: 1}${prompt}
+  7143: |-
+    バトルフィールド_Dの占有制限時間が過ぎました
+    退出します。${wait-animation: 1}${prompt}
+  7144: |-
+    バトルフィールド_Eの占有制限時間が過ぎました
+    退出します。${wait-animation: 1}${prompt}
+  7145: '(今バトルフィールド_Aには誰もいない）${wait-animation: 1}${prompt}'
+  7146: '(今バトルフィールド_Bには誰もいない）${wait-animation: 1}${prompt}'
+  7147: '(今バトルフィールド_Cには誰もいない）${wait-animation: 1}${prompt}'
+  7148: 'バトルリセットかけた${wait-animation: 1}${prompt}'
+  7149: '（部屋解放）${wait-animation: 1}${prompt}'
+  7150: '（ボス_Aを出現させました。）${wait-animation: 1}${prompt}'
+  7151: '（ボス_Bを出現させました。）${wait-animation: 1}${prompt}'
+  7152: '（ボス_Cを出現させました。）${wait-animation: 1}${prompt}'
+  7153: 'remove　1${wait-animation: 1}${prompt}'
+  7154: 'remove　2${wait-animation: 1}${prompt}'
+  7155: 'remove　3${wait-animation: 1}${prompt}'
+  7156: '（ボス_A倒した）${wait-animation: 1}${prompt}'
+  7157: '（ボス_B倒した）${wait-animation: 1}${prompt}'
+  7158: '（ボス_C倒した）${wait-animation: 1}${prompt}'
+  7159: '（ボスやられた）${wait-animation: 1}${prompt}'
+  7160: |-
+    名前でいうと
+    ${entity: 0}、${entity: 1}、
+    ${entity: 2}、${entity: 3}、
+    その他です。${prompt}
+  7161: |-
+    IDでいうと
+    ${number: 0}、${number: 1}、${number: 2}、${number: 3}、${number: 4}、${number: 5}、
+    で占有人数は${number: 6}です。${prompt}
+  7162: |-
+    （バトルフィールド_Aに
+    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
+  7163: |-
+    （バトルフィールド_Bに
+    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
+  7164: |-
+    （バトルフィールド_Cに
+    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
+  7165: |-
+    名前かIDを見ます
+    ${selection-lines}
+    名前
+    ID${prompt}
+  7166: |-
+    どの部屋の名前を見る？
+    ${selection-lines}
+    Ａ
+    Ｂ
+    Ｃ${prompt}
+  7167: |-
+    どの部屋のIDを見る？
+    ${selection-lines}
+    Ａ
+    Ｂ
+    Ｃ${prompt}
+  7168: 部屋_Aのパーティは${prompt}
+  7169: 部屋_Bのパーティは${prompt}
+  7170: 部屋_Cのパーティは${prompt}
+  7171: '入室許可魔法エラー１${wait-animation: 1}${prompt}'
+  7172: '入室許可魔法エラー２${wait-animation: 1}${prompt}'
+  7173: |-
+    あなたがメンバーの中で
+    一番最初にバトルフィールド_Aに入ります${wait-animation: 1}${prompt}
+  7174: |-
+    あなたがメンバーの中で
+    一番最初にバトルフィールド_Bに入ります${wait-animation: 1}${prompt}
+  7175: |-
+    あなたがメンバーの中で
+    一番最初にバトルフィールド_Cに入ります${wait-animation: 1}${prompt}
+  7176: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Aに入ります。${wait-animation: 1}${prompt}
+  7177: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Bに入ります。${wait-animation: 1}${prompt}
+  7178: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Cに入ります。${wait-animation: 1}${prompt}
+  7179: '　部屋_Aの占有人数がおかしい${wait-animation: 1}${prompt}'
+  7180: '　部屋_Bの占有人数がおかしい${wait-animation: 1}${prompt}'
+  7181: '　部屋_Cの占有人数がおかしい${wait-animation: 1}${prompt}'
+  7182: |-
+    （部屋_Aにいるなら木越のエラー。
+    　部屋_Aに入っているフラグが立っていません。
+    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
+  7183: |-
+    （部屋_Bにいるなら木越のエラー。
+    　部屋_Bに入っているフラグが立っていません。
+    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
+  7184: |-
+    （部屋_Cにいるなら木越のエラー。
+    　部屋_Cに入っているフラグが立っていません。
+    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
+  7185: '　部屋_AにIDがないのに部屋_A入室フラグがオン。${wait-animation: 1}${prompt}'
+  7186: '　部屋_BにIDがないのに部屋_B入室フラグがオン。${wait-animation: 1}${prompt}'
+  7187: '　部屋_CにIDがないのに部屋_C入室フラグがオン。）${wait-animation: 1}${prompt}'
+  7188: '（ボス_A倒した後イベント${wait-35: 1}${prompt}'
+  7189: '（部屋_A時間超過イベント${wait-35: 1}${prompt}'
+  7190: '（部屋_A逃走イベント${wait-35: 1}${prompt}'
+  7191: '（ボス_B倒した後イベント${wait-35: 1}${prompt}'
+  7192: '（部屋_B時間超過イベント${wait-35: 1}${prompt}'
+  7193: '（部屋_B逃走イベント${wait-35: 1}${prompt}'
+  7194: '（ボス_C倒した後イベント${wait-35: 1}${prompt}'
+  7195: '（部屋_C時間超過イベント${wait-35: 1}${prompt}'
+  7196: '（部屋_C逃走イベント${wait-35: 1}${prompt}'
+  7197: |-
+    （本当は話しかけられないはずなんですが
+    　話してます。）${wait-animation: 1}${prompt}
+  7198: |-
+    （部屋_A逃走はpendingで
+    　キャンセルされました。
+    　他のイベント割り込み。${wait-animation: 1}${prompt}
+  7199: |-
+    （部屋_A逃走はpendingで
+    　キャンセルされました。
+    　（pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
+  7200: |-
+    （部屋_B逃走はpendingで
+    　キャンセルされました。
+    　他のイベント割り込み。${wait-animation: 1}${prompt}
+  7201: |-
+    （部屋_B逃走はpendingで
+    　キャンセルされました。
+    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
+  7202: |-
+    （部屋_C逃走はpendingで
+    　キャンセルされました。
+    　他のイベント割り込み。${wait-animation: 1}${prompt}
+  7203: |-
+    （部屋_C逃走はpendingで
+    　キャンセルされました。
+    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
+  7204: '（部屋_A逃走pending処理を実行します。${wait-animation: 1}${prompt}'
+  7205: '（部屋_B逃走pending処理を実行します。${wait-animation: 1}${prompt}'
+  7206: '（部屋_C逃走pending処理を実行します。${wait-animation: 1}${prompt}'
+  7207: |-
+    （あなたはリンクデッドしました。
+    　あなたがいたバトルフィールドは
+    　もうすでに別のパーティが使用しているため、
+    　あなたを退出させました。${wait-animation: 1}${prompt}
+  7208: '（defpcのpending処理を実行しました。${wait-animation: 1}${prompt}'
+  7209: |-
+    （部屋_Aから人数を
+    　一人マイナスしました。${wait-animation: 1}${prompt}
+  7210: |-
+    （部屋_Bから人数を
+    　一人マイナスしました。${wait-animation: 1}${prompt}
+  7211: |-
+    （部屋_Cから人数を
+    　一人マイナスしました。${wait-animation: 1}${prompt}
+  7212: |-
+    （あなたが部屋_Aから
+    　最後に抜けるPCです。部屋_Aのワークをリセットします。${wait-animation: 1}${prompt}
+  7213: |-
+    （あなたが部屋_Bから
+    　最後に抜けるPCです。部屋_Bのワークをリセットします。${wait-animation: 1}${prompt}
+  7214: |-
+    （あなたが部屋_Cから
+    　最後に抜けるPCです。部屋_Cのワークをリセットします。${wait-animation: 1}${prompt}
+  7215: |-
+    （あなたの部屋_A入室フラグを
+    　寝かせました。${wait-animation: 1}${prompt}
+  7216: |-
+    （あなたの部屋_B入室フラグを
+    　寝かせました。${wait-animation: 1}${prompt}
+  7217: |-
+    （あなたの部屋_C入室フラグを
+    　寝かせました。${wait-animation: 1}${prompt}
+  7218: |-
+    （あなたのグループが
+    　ボス_Aを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
+  7219: |-
+    （あなたのグループが
+    　ボス_Bを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
+  7220: |-
+    （あなたのグループが
+    　ボス_Cを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
+  7221: |-
+    　あなたは部屋_Aにいてはいけないので、
+    　強制退出させていただきます。${wait-animation: 1}${prompt}
+  7222: |-
+    　あなたは部屋_Bにいてはいけないので、
+    　強制退出させていただきます。${wait-animation: 1}${prompt}
+  7223: |-
+    　あなたは部屋_Cにいてはいけないので、
+    　強制退出させていただきます。${wait-animation: 1}${prompt}
+  7224: '(部屋_Aは準備中です)${wait-animation: 1}${prompt}'
+  7225: '(部屋_Bは準備中です)${wait-animation: 1}${prompt}'
+  7226: '(部屋_Cは準備中です)${wait-animation: 1}${prompt}'
+  7227: |-
+    （あなたは
+    　エンドタグを通りました${wait-animation: 1}${prompt}
+  7228: |-
+    （部屋リクエストエラー
+    　ENDPARAにありえない数値が入っています）${wait-animation: 1}${prompt}
+  7229: '（部屋_A入室にトライします${wait-animation: 1}${prompt}'
+  7230: '（部屋_B入室にトライします${wait-animation: 1}${prompt}'
+  7231: '（部屋_C入室にトライします${wait-animation: 1}${prompt}'
+  7232: |-
+    （Bにトライしましたが、AにIDがあったので
+    　最初から再トライ。${wait-animation: 1}${prompt}
+  7233: |-
+    （Cにトライしましたが、AかBにIDがあったので
+    　最初から再トライ。${wait-animation: 1}${prompt}
+  7234: '(AにはIDがありませんでした)${wait-animation: 1}${prompt}'
+  7235: '(BにはIDがありませんでした)${wait-animation: 1}${prompt}'
+  7236: '(CにはIDがありませんでした)${wait-animation: 1}${prompt}'
+  7237: '(AにIDがありました)${wait-animation: 1}${prompt}'
+  7238: '(BにIDがありました)${wait-animation: 1}${prompt}'
+  7239: '(CにIDがありました)${wait-animation: 1}${prompt}'
+  7240: '(Aはすでに先約がありました)${wait-animation: 1}${prompt}'
+  7241: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
+  7242: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
+  7243: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
+  7244: 'バトルリセットかけた${wait-animation: 1}${prompt}'
+  7245: '（部屋解放）${wait-animation: 1}${prompt}'
+  7246: '（ボス_Aを出現させました。）${wait-animation: 1}${prompt}'
+  7247: '（ボス_Bを出現させました。）${wait-animation: 1}${prompt}'
+  7248: '（ボス_Cを出現させました。）${wait-animation: 1}${prompt}'
+  7249: '（ボス_A消えた）${wait-animation: 1}${prompt}'
+  7250: '（ボス_B消えた）${wait-animation: 1}${prompt}'
+  7251: '（ボス_C消えた）${wait-animation: 1}${prompt}'
+  7252: '（ボス_A倒した）${wait-animation: 1}${prompt}'
+  7253: '（ボス_B倒した）${wait-animation: 1}${prompt}'
+  7254: '（ボス_C倒した）${wait-animation: 1}${prompt}'
+  7255: あなたは部屋Ａに入れそうです${prompt}
+  7256: あなたは部屋Ｂに入れそうです${prompt}
+  7257: あなたは部屋Ｃに入れそうです${prompt}
+  7258: |-
+    現在その部屋で一緒に戦える仲間は
+    ${entity: 0}、${entity: 1}
+    ${entity: 2}、${entity: 3}
+    その他……です${prompt}
+  7259: '（光ってる${wait-animation: 1}${prompt}'
+  7260: '（消えている${wait-animation: 1}${prompt}'
+  7261: '（誰か逃げた）${wait-animation: 1}${prompt}'
+  7262: '（誰かリンクデッド）${wait-animation: 1}${prompt}'
+  7263: 誰もいない${prompt}
+  7264: |-
+    （バトルフィールド_Aに
+    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
+  7265: |-
+    （バトルフィールド_Bに
+    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
+  7266: |-
+    （バトルフィールド_Cに
+    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
+  7267: 'バトルフィールドから離脱します${wait-animation: 1}${prompt}'
+  7268: 'バトルフィールド_Aから離脱します${wait-animation: 1}${prompt}'
+  7269: 'バトルフィールド_Bから離脱します${wait-animation: 1}${prompt}'
+  7270: 'バトルフィールド_Cから離脱します${wait-animation: 1}${prompt}'
+  7271: 'バトルフィールド_Aから逃走しました${wait-animation: 1}${prompt}'
+  7272: 'バトルフィールド_Bから逃走しました${wait-animation: 1}${prompt}'
+  7273: 'バトルフィールド_Cから逃走しました${wait-animation: 1}${prompt}'
+  7274: 'pendingチェックオーケー${wait-35: 3}${prompt}'
+  7275: 'バトルフィールド_Aをクリアします${wait-animation: 1}${prompt}'
+  7276: 'バトルフィールド_Bをクリアします${wait-animation: 1}${prompt}'
+  7277: 'バトルフィールド_Cをクリアします${wait-animation: 1}${prompt}'
+  7278: '（クライアントイベントに突入${wait-animation: 1}${prompt}'
+  7279: '（ボス_A戦終了用イベントフラグ立てます。${wait-animation: 1}${prompt}'
+  7280: '（ボス_B戦終了用イベントフラグ立てます。${wait-animation: 1}${prompt}'
+  7281: '（ボス_C戦終了用イベントフラグ立てます。${wait-animation: 1}${prompt}'
+  7282: |-
+    （部屋_AにいるPCの
+    　退出処理中です。今は逃げられません。${wait-animation: 1}${prompt}
+  7283: |-
+    （部屋_BにいるPCの
+    　退出処理中です。今は逃げられません。${wait-animation: 1}${prompt}
+  7284: |-
+    （部屋_CにいるPCの
+    　退出処理中です。今は逃げられません。${wait-animation: 1}${prompt}
+  7285: '（あなたは前回リンクデッドしました。${wait-animation: 1}${prompt}'
+  7286: '（ゾーンアウトタグを通りました。${wait-animation: 1}${prompt}'
+  7287: |-
+    （あなたは
+    　ペンディングタグを通りました${wait-animation: 1}${prompt}
+  7288: |-
+    （さっきの部屋は
+    　直前に他のグループに予約されました。
+    　pending時に部屋_Aに変更しました。${wait-animation: 1}${prompt}
+  7289: |-
+    （さっきの部屋は
+    　直前に他のグループに予約されました。
+    　pending時に部屋_Bに変更しました。${wait-animation: 1}${prompt}
+  7290: |-
+    （さっきの部屋は
+    　直前に他のグループに予約されました。
+    　pending時に部屋_Cに変更しました。${wait-animation: 1}${prompt}
+  7291: |-
+    （別の部屋が空いてないか
+    　チェックします。${wait-animation: 1}${prompt}
+  7292: '（ボスやられた）${wait-animation: 1}${prompt}'
+  7293: |-
+    名前でいうと
+    ${entity: 0}、${entity: 1}、
+    ${entity: 2}、${entity: 3}、
+    その他です。${prompt}
+  7294: |-
+    IDでいうと
+    ${number: 0}、${number: 1}、${number: 2}、${number: 3}、${number: 4}、${number: 5}、
+    で占有人数は${number: 6}です。${prompt}
+  7295: |-
+    名前かIDを見ます
+    ${selection-lines}
+    名前
+    ID${prompt}
+  7296: |-
+    どの部屋の名前を見る？
+    ${selection-lines}
+    Ａ
+    Ｂ
+    Ｃ${prompt}
+  7297: |-
+    どの部屋のIDを見る？
+    ${selection-lines}
+    Ａ
+    Ｂ
+    Ｃ${prompt}
+  7298: 部屋_Aのパーティは${prompt}
+  7299: 部屋_Bのパーティは${prompt}
+  7300: 部屋_Cのパーティは${prompt}
+  7301: '入室許可魔法エラー１${wait-animation: 1}${prompt}'
+  7302: '入室許可魔法エラー２${wait-animation: 1}${prompt}'
+  7303: |-
+    あなたがメンバーの中で
+    一番最初にバトルフィールド_Aに入ります${wait-animation: 1}${prompt}
+  7304: |-
+    あなたがメンバーの中で
+    一番最初にバトルフィールド_Bに入ります${wait-animation: 1}${prompt}
+  7305: |-
+    あなたがメンバーの中で
+    一番最初にバトルフィールド_Cに入ります${wait-animation: 1}${prompt}
+  7306: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Aに入ります。${wait-animation: 1}${prompt}
+  7307: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Bに入ります。${wait-animation: 1}${prompt}
+  7308: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Cに入ります。${wait-animation: 1}${prompt}
+  7309: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Dに入ります。${wait-animation: 1}${prompt}
+  7310: |-
+    （pendingでのチェックが通りました。
+    　バトルフィールド_Eに入ります。${wait-animation: 1}${prompt}
+  7311: '　部屋_Bの占有人数がおかしい${wait-animation: 1}${prompt}'
+  7312: '　部屋_Cの占有人数がおかしい${wait-animation: 1}${prompt}'
+  7313: |-
+    （部屋_Aにいるならエラー。
+    　部屋_Aに入っているフラグが立っていません。
+    　もしくはtalkエラーで本当は話しかけられない。）${prompt}
+  7314: |-
+    （部屋_Bにいるならエラー。
+    　部屋_Bに入っているフラグが立っていません。
+    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
+  7315: |-
+    （部屋_Cにいるならエラー。
+    　部屋_Cに入っているフラグが立っていません。
+    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
+  7316: '　部屋_AにIDがないのに部屋_A入室フラグがオン。${wait-animation: 1}${prompt}'
+  7317: '　部屋_BにIDがないのに部屋_B入室フラグがオン。${wait-animation: 1}${prompt}'
+  7318: '　部屋_CにIDがないのに部屋_C入室フラグがオン。）${wait-animation: 1}${prompt}'
+  7319: '（ボス_A倒した後イベント${wait-35: 3}${prompt}'
+  7320: '（部屋_A時間超過イベント${wait-35: 3}${prompt}'
+  7321: '（部屋_A逃走イベント${wait-35: 3}${prompt}'
+  7322: '（ボス_B倒した後イベント${wait-35: 3}${prompt}'
+  7323: '（部屋_B時間超過イベント${wait-35: 3}${prompt}'
+  7324: '（部屋_B逃走イベント${wait-35: 3}${prompt}'
+  7325: '（ボス_C倒した後イベント${wait-35: 3}${prompt}'
+  7326: '（部屋_C時間超過イベント${wait-35: 3}${prompt}'
+  7327: '（部屋_C逃走イベント${wait-35: 3}${prompt}'
+  7328: |-
+    （本当は話しかけられないはずなんですが
+    　話してます。）${wait-animation: 1}${prompt}
+  7329: |-
+    （部屋_A逃走はpendingで
+    　キャンセルされました。
+    　他のイベント割り込み。${wait-animation: 1}${prompt}
+  7330: |-
+    （部屋_A逃走はpendingで
+    　キャンセルされました。
+    　（pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
+  7331: |-
+    （部屋_B逃走はpendingで
+    　キャンセルされました。
+    　他のイベント割り込み。${wait-animation: 1}${prompt}
+  7332: |-
+    （部屋_B逃走はpendingで
+    　キャンセルされました。
+    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
+  7333: |-
+    （部屋_C逃走はpendingで
+    　キャンセルされました。
+    　他のイベント割り込み。${wait-animation: 1}${prompt}
+  7334: |-
+    （部屋_C逃走はpendingで
+    　キャンセルされました。
+    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
+  7335: '（部屋_A逃走pending処理を実行します。${wait-animation: 1}${prompt}'
+  7336: '（部屋_B逃走pending処理を実行します。${wait-animation: 1}${prompt}'
+  7337: '（部屋_C逃走pending処理を実行します。${wait-animation: 1}${prompt}'
+  7338: |-
+    （あなたはリンクデッドしました。
+    　あなたがいたバトルフィールドは
+    　もうすでに別のパーティが使用しているため、
+    　あなたを退出させました。${wait-animation: 1}${prompt}
+  7339: '（defpcのpending処理を実行しました。${wait-animation: 1}${prompt}'
+  7340: |-
+    （部屋_Aから人数を
+    　一人マイナスしました。${wait-animation: 1}${prompt}
+  7341: |-
+    （部屋_Bから人数を
+    　一人マイナスしました。${wait-animation: 1}${prompt}
+  7342: |-
+    （部屋_Cから人数を
+    　一人マイナスしました。${wait-animation: 1}${prompt}
+  7343: |-
+    （あなたが部屋_Aから
+    　最後に抜けるPCです。部屋_Aのワークをリセットします。${wait-animation: 1}${prompt}
+  7344: |-
+    （あなたが部屋_Bから
+    　最後に抜けるPCです。部屋_Bのワークをリセットします。${wait-animation: 1}${prompt}
+  7345: |-
+    （あなたが部屋_Cから
+    　最後に抜けるPCです。部屋_Cのワークをリセットします。${wait-animation: 1}${prompt}
+  7346: |-
+    （あなたの部屋_A入室フラグを
+    　寝かせました。${wait-animation: 1}${prompt}
+  7347: |-
+    （あなたの部屋_B入室フラグを
+    　寝かせました。${wait-animation: 1}${prompt}
+  7348: |-
+    （あなたの部屋_C入室フラグを
+    　寝かせました。${wait-animation: 1}${prompt}
+  7349: |-
+    （あなたのグループが
+    　ボス_Aを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
+  7350: |-
+    （あなたのグループが
+    　ボス_Bを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
+  7351: |-
+    （あなたのグループが
+    　ボス_Cを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
+  7352: |-
+    　あなたは部屋_Aにいてはいけないので、
+    　強制退出させていただきます。${wait-animation: 1}${prompt}
+  7353: |-
+    　あなたは部屋_Bにいてはいけないので、
+    　強制退出させていただきます。${wait-animation: 1}${prompt}
+  7354: |-
+    　あなたは部屋_Cにいてはいけないので、
+    　強制退出させていただきます。${wait-animation: 1}${prompt}
+  7355: '(部屋_Aは準備中です)${wait-animation: 1}${prompt}'
+  7356: '(部屋_Bは準備中です)${wait-animation: 1}${prompt}'
+  7357: '(部屋_Cは準備中です)${wait-animation: 1}${prompt}'
+  7358: |-
+    （あなたは
+    　エンドタグを通りました${wait-animation: 1}${prompt}
+  7359: |-
+    （部屋リクエストエラー
+    　ENDPARAにありえない数値が入っています）${wait-animation: 1}${prompt}
+  7360: '（部屋_A入室にトライします${wait-animation: 1}${prompt}'
+  7361: '（部屋_B入室にトライします${wait-animation: 1}${prompt}'
+  7362: '（部屋_C入室にトライします${wait-animation: 1}${prompt}'
+  7363: |-
+    （Bにトライしましたが、AにIDがあったので
+    　最初から再トライ。${wait-animation: 1}${prompt}
+  7364: |-
+    （Cにトライしましたが、AかBにIDがあったので
+    　最初から再トライ。${wait-animation: 1}${prompt}
+  7365: '(AにはIDがありませんでした)${wait-animation: 1}${prompt}'
+  7366: '(BにはIDがありませんでした)${wait-animation: 1}${prompt}'
+  7367: '(CにはIDがありませんでした)${wait-animation: 1}${prompt}'
+  7368: '(AにIDがありました)${wait-animation: 1}${prompt}'
+  7369: '(BにIDがありました)${wait-animation: 1}${prompt}'
+  7370: '(CにIDがありました)${wait-animation: 1}${prompt}'
+  7371: '(Aはすでに先約がありました)${wait-animation: 1}${prompt}'
+  7372: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
+  7373: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
+  7374: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
+  7375: 'Currently, ${number: 3} members of your party (including yourself) have clearance to enter the battlefield.${prompt}'
+  7376: 'Currently, ${number: 3} members of your alliance (including yourself) have clearance to enter the battlefield.${prompt}'
+  7377: Only ${name-player} can enter the battlefield.${prompt}
+  7378: 'The time limit for this battle is ${number: 3} minutes.${prompt}'
+  7379: 'There is a crack in the ${item-singular: 3[2]}. It no longer contains a monster.${prompt}'
+  7380: 'A crack has formed on the ${item-singular: 3[2]}, and the beast inside has been unleashed!${prompt}'
+  7381: 'Boss mode : ${number: 6}!!${wait-animation: 1}${prompt}'
+  7382: |-
+    Room number to attempt: ${number: 0}.
+    Desired boss mode: ${number: 1}.
+    Difficulty: ${number: 2} (${choice: 2}[Not set/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}
+  7383: '${number: 7}${prompt}'
+  7384: DEBUG1${prompt}
+  7385: |-
+    控え室に戻るか？
+    ${selection-lines}
+    戻らない
+    戻る${prompt}
+  7386: |-
+    （DEBUG）バトルフィールドの初期化に失敗。
+    キャンセルします。${prompt}
+  7387: （DEBUG）変身したボスポップ。${prompt}
+  7388: |-
+    ★↓ワンループ
+    リクエスト部屋番号　　　${number: 1}
+    リクエスト部屋の人数　　${number: 2}
+    リクエスト部屋のBOSS_STATUS　　${number: 3}${prompt}
+  7389: |-
+    チェック部屋番号　　　${number: 1}
+    自分のID　　${number: 2}　★↑ワンループ${prompt}
+  7390: |-
+    リクエスト部屋番号　　　${number: 1}
+    リクエスト部屋の人数　　${number: 2}
+    リクエスト部屋のBOSS_STATUS　　${number: 3}
+    クライアントへの命令　　${number: 0}　★pending抜ける${prompt}
+  7391: |-
+    PARTY0：${number: 1}
+    PARTY1：${number: 2}　PARTY2：${number: 3}${prompt}
+  7392: |-
+    PARTY3：${number: 1}
+    PARTY4：${number: 2}　PARTY5：${number: 3}${prompt}
+  7393: クライアント退出イベント：モード１${prompt}
+  7394: サーバ退出イベント：モード１${prompt}
+  7395: 'CLI_NUM0 = ${number: 0}${wait-animation: 1}${prompt}'
+  7396: 'CLI_NUM1 = ${number: 1}${wait-animation: 1}${prompt}'
+  7397: 'CLI_NUM2 = ${number: 2}${wait-animation: 1}${prompt}'
+  7398: 'CLI_NUM3 = ${number: 3}${wait-animation: 1}${prompt}'
+  7399: 'CLI_NUM4 = ${number: 4}${wait-animation: 1}${prompt}'
+  7400: 'CLI_NUM5 = ${number: 5}${wait-animation: 1}${prompt}'
+  7401: 'CLI_NUM6 = ${number: 6}${wait-animation: 1}${prompt}'
+  7402: 'CLI_NUM7 = ${number: 6}${wait-animation: 1}${prompt}'
+  7403: |-
+    Skip the event?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7404: 'Battlefield clear time: ${number: 3} second${choice-plurality: 3}[/s]!'
+  7405: 'Battlefield clear time: ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} second${choice-plurality: 2}[/s]!'
+  7406: 'The current battlefield clear time record is ${number: 3} second${choice-plurality: 3}[/s].'
+  7407: 'The current battlefield clear time record is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
+  7408: |-
+    Called the NPC!
+    PC ID = ${number: 0}!
+    RESULT = ${number: 1}!${prompt}
+  7409: |-
+    Got rid of the NPC!
+    PC ID = ${number: 0}!${prompt}
+  7410: The NPC has fallen, and he can't get up! Leaving room A!${prompt}
+  7411: The NPC has fallen, and he can't get up! Leaving room B!${prompt}
+  7412: The NPC has fallen, and he can't get up! Leaving room C!${prompt}
+  7413: The NPC has fallen, and he can't get up! Leaving room D!${prompt}
+  7414: All party members have fallen in battle. Now leaving the battlefield.${prompt}
+  7415: |-
+    Everybody's fallen in room A, and they can't get up!
+    Leaving room A!${prompt}
+  7416: |-
+    Everybody's fallen in room B, and they can't get up!
+    Leaving room B!${prompt}
+  7417: |-
+    Everybody's fallen in room C, and they can't get up!
+    Leaving room C!${prompt}
+  7418: |-
+    Everybody's fallen in room D, and they can't get up!
+    Leaving room D!${prompt}
+  7419: |-
+    Everybody's fallen in room E, and they can't get up!
+    Leaving room E!${prompt}${prompt}
+  7420: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s], the party will be removed from the battlefield.${prompt}'
+  7421: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s], the party will be removed from the battlefield.${prompt}'
+  7422: What the hell is that number!? It's not possible!!!${prompt}
+  7423: 'Only ${number: 3} ${choice-plurality: 3}[member/members] have clearance to enter the battlefield. This room has reached its maximum capacity.${prompt}'
+  7424: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
+  7425: You do not meet the requirements to enter the battlefield with your party members. Access is denied.${prompt}
+  7426: The Shimmering Circle you are trying to enter differs from the one your party members have entered. Access is denied.${prompt}
+  7427: 'That record is held by ${number: 5} adventurers, including ${entity: 0}!'
+  7428: 'That record is held by ${entity: 0}!'
+  7429: 'The ${keyitem-singular: 0[2]} fades into nothingness...${prompt}'
+  7430: |-
+    Select difficulty.
+    ${selection-lines}
+    Very difficult. (Level: ???)
+    Difficult. (Level: ???)
+    Normal. (Level: ${number: 18})
+    Easy. (Level: ${number: 17})
+    Very Easy. (Level: ${number: 16})
+    Leave.${prompt}
+  7431: 'Current difficulty level: ${choice: 2}[Normal/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}'
+  7432: 'A malignant force escapes from your ${item-singular: 3[2]}.${prompt}'
+  7433: 'You are unable to enter the battlefield because ${choice: 0}[one or more of your party members does not have the job master designation/you do not have the job master designation].${prompt}'
+  7434: 'Your ${item-singular: 3[2]} is calling out to something...${prompt}'
+  7435: 'The ${item-singular: 0[2]} has a large crack running straight down the side.${prompt}'
+  7436: 'Something awakens owing to the presence of the ${item-singular: 3[2]}...${prompt}'
+  7437: 'The oath has been fulfilled owing to the power of your ${item-singular: 3[2]}.${prompt}'
+  7438: |-
+    Choose your path...
+    ${selection-lines}
+    Leave Promyvion.
+    Return to the spire entrance.
+    Nothing.${prompt}
+  7439: |-
+    Return to La Theine?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7440: |-
+    Return to the web of recollections?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7441: |-
+    Choose your path...
+    ${selection-lines}
+    Leave Promyvion.
+    Return to the spire entrance.
+    Nothing.${prompt}
+  7442: |-
+    Return to the Konschtat Highlands?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7443: |-
+    Return to the web of recollections?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7444: |-
+    Choose your path...
+    ${selection-lines}
+    Leave Promyvion.
+    Return to the spire entrance.
+    Nothing.${prompt}
+  7445: |-
+    Return to Tahrongi Canyon?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7446: |-
+    Return to the web of recollections?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7447: |-
+    Choose your path...
+    ${selection-lines}
+    Leave Promyvion.
+    Return to the spire entrance.
+    Nothing.${prompt}
+  7448: |-
+    Return to the Beaucedine Glacier?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7449: |-
+    Return to the web of recollections?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7450: |-
+    Choose your path...
+    ${selection-lines}
+    Leave Riverne.
+    Return to the Linn entrance.
+    Nothing.${prompt}
+  7451: |-
+    Return to the Misareaux Coast?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7452: |-
+    Return to the spatial displacement?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7453: |-
+    Travel where?
+    ${selection-lines}
+    Return to North Gustaberg.
+    Return to the mine shaft entrance.${prompt}
+  7454: |-
+    Choose your path...
+    ${selection-lines}
+    Leave the Garden of Ru'Hmet.
+    Return to the room entrance.
+    Nothing.${prompt}
+  7455: |-
+    Return to the grand palace?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7456: |-
+    Return to the chamber entrance?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7457: Tallying conquest results...${prompt}
+  7458: Conquest results tallied.${prompt}
+  7459: This region is currently under San d'Orian control.${prompt}
+  7460: This region is currently under Bastokan control.${prompt}
+  7461: This region is currently under Windurstian control.${prompt}
+  7462: |-
     This region is currently under beastman control.
     You cannot obtain crystals in this region.${prompt}
-  7070: This region is currently neutral.${prompt}
-  7071: |-
+  7463: This region is currently neutral.${prompt}
+  7464: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Windurst
     3rd: Bastok${prompt}
-  7072: All three nations are tied for first place.${prompt}
-  7073: |-
+  7465: All three nations are tied for first place.${prompt}
+  7466: |-
     Global balance of power:
     1st: San d'Oria and Windurst (tie)
     3rd: Bastok${prompt}
-  7074: |-
+  7467: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Bastok and Windurst (tie)${prompt}
-  7075: |-
+  7468: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Bastok
     3rd: Windurst${prompt}
-  7076: All three nations are tied for first place.${prompt}
-  7077: |-
+  7469: All three nations are tied for first place.${prompt}
+  7470: |-
     Global balance of power:
     1st: San d'Oria and Bastok (tie)
     3rd: Windurst${prompt}
-  7078: |-
+  7471: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Bastok and Windurst (tie)${prompt}
-  7079: |-
+  7472: |-
     Global balance of power:
     1st: Bastok
     2nd: San d'Oria
     3rd: Windurst${prompt}
-  7080: All three nations are tied for first place.${prompt}
-  7081: |-
+  7473: All three nations are tied for first place.${prompt}
+  7474: |-
     Global balance of power:
     1st: San d'Oria and Bastok (tie)
     3rd: Windurst${prompt}
-  7082: |-
+  7475: |-
     Global balance of power:
     1st: Bastok
     2nd: San d'Oria and Windurst (tie)${prompt}
-  7083: |-
+  7476: |-
     Global balance of power:
     1st: Bastok
     2nd: Windurst
     3rd: San d'Oria${prompt}
-  7084: All three nations are tied for first place.${prompt}
-  7085: |-
+  7477: All three nations are tied for first place.${prompt}
+  7478: |-
     Global balance of power:
     1st: Bastok and Windurst (tie)
     3rd: San d'Oria${prompt}
-  7086: |-
+  7479: |-
     Global balance of power:
     1st: Bastok
     2nd: San d'Oria and Windurst (tie)${prompt}
-  7087: |-
+  7480: |-
     Global balance of power:
     1st: Windurst
     2nd: San d'Oria
     3rd: Bastok${prompt}
-  7088: |-
+  7481: |-
     Global balance of power:
     All three nations are tied for first place.${prompt}
-  7089: |-
+  7482: |-
     Global balance of power:
     1st: San d'Oria and Windurst (tie)
     3rd: Bastok${prompt}
-  7090: |-
+  7483: |-
     Global balance of power:
     1st: Windurst
     2nd: San d'Oria and Bastok (tie)${prompt}
-  7091: |-
+  7484: |-
     Global balance of power:
     1st: Windurst
     2nd: Bastok
     3rd: San d'Oria${prompt}
-  7092: All three nations are tied for first place.${prompt}
-  7093: |-
+  7485: All three nations are tied for first place.${prompt}
+  7486: |-
     Global balance of power:
     1st: Bastok and Windurst
     2nd: San d'Oria${prompt}
-  7094: |-
+  7487: |-
     Global balance of power:
     1st: Windurst
     2nd: San d'Oria and Bastok${prompt}
-  7095: |-
+  7488: |-
     Conquest update:
     This region is currently neutral.${prompt}
-  7096: |-
+  7489: |-
     Conquest update:
     This region is currently under San d'Orian control.${prompt}
-  7097: |-
+  7490: |-
     Conquest update:
     This region is currently under Bastokan control.${prompt}
-  7098: |-
+  7491: |-
     Conquest update:
     This region is currently under Windurstian control.${prompt}
-  7099: |-
+  7492: |-
     Conquest update:
     This region is currently under beastman control.
     You cannot obtain crystals in this region.${prompt}
-  7100: All three nations are at a deadlock.${prompt}
-  7101: The beastmen are on the rise.${prompt}
-  7102: |-
+  7493: All three nations are at a deadlock.${prompt}
+  7494: The beastmen are on the rise.${prompt}
+  7495: |-
     Regional influence:
     San d'Oria - Dominant${prompt}
-  7103: |-
+  7496: |-
     Regional influence:
     San d'Oria - Major${prompt}
-  7104: |-
+  7497: |-
     Regional influence:
     San d'Oria - Minor${prompt}
-  7105: |-
+  7498: |-
     Regional influence:
     San d'Oria - Minimal${prompt}
-  7106: Bastok - Dominant${prompt}
-  7107: Bastok - Major${prompt}
-  7108: Bastok - Minor${prompt}
-  7109: Bastok - Minimal${prompt}
-  7110: Windurst - Dominant${prompt}
-  7111: Windurst - Major${prompt}
-  7112: Windurst - Minor${prompt}
-  7113: Windurst - Minimal${prompt}
-  7114: Bastok and Windurst have formed an alliance.${prompt}
-  7115: San d'Oria and Windurst have formed an alliance.${prompt}
-  7116: San d'Oria and Bastok have formed an alliance.${prompt}
-  7117: Bastok and Windurst are currently allies.${prompt}
-  7118: San d'Oria and Windurst are currently allies.${prompt}
-  7119: San d'Oria and Bastok are currently allies.${prompt}
-  7120: |-
+  7499: Bastok - Dominant${prompt}
+  7500: Bastok - Major${prompt}
+  7501: Bastok - Minor${prompt}
+  7502: Bastok - Minimal${prompt}
+  7503: Windurst - Dominant${prompt}
+  7504: Windurst - Major${prompt}
+  7505: Windurst - Minor${prompt}
+  7506: Windurst - Minimal${prompt}
+  7507: Bastok and Windurst have formed an alliance.${prompt}
+  7508: San d'Oria and Windurst have formed an alliance.${prompt}
+  7509: San d'Oria and Bastok have formed an alliance.${prompt}
+  7510: Bastok and Windurst are currently allies.${prompt}
+  7511: San d'Oria and Windurst are currently allies.${prompt}
+  7512: San d'Oria and Bastok are currently allies.${prompt}
+  7513: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
-  7121: |-
+  7514: |-
     装備チェック：${number: 0}
     アイテム：${item-singular: 2[2]}
     引くポイント：${number: 3}${prompt}
-  7122: |-
+  7515: |-
     ITEM_ID:${number: 2}
     希望商品番号:${number: 3}${prompt}
-  7123: |-
+  7516: |-
     希望商品番号:${number: 0}
     引くポイント:${number: 1}${prompt}
-  7124: |-
+  7517: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  7125: The beastmen are gaining power.${prompt}
-  7126: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  7127: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  7128: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  7129: San d'Oria's region points have increased!${prompt}
-  7130: Bastok's region points have increased!${prompt}
-  7131: Windurst's region points have increased!${prompt}
-  7132: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  7133: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7134: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7135: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  7136: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  7137: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  7138: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  7139: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  7140: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  7141: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  7142: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  7143: There was a curse on the beastmen's banner!${prompt}
-  7144: The curse of the beastmen's banner has been lifted!${prompt}
-  7145: There is a beastmen's banner.${prompt}
-  7146: 　${prompt}
-  7147: 　${prompt}
-  7148: 　${prompt}
-  7149: 　${prompt}
-  7150: 　${prompt}
-  7151: 　${prompt}
-  7152: 　${prompt}
-  7153: 　${prompt}
-  7154: 　${prompt}
-  7155: 　${prompt}
-  7156: 　${prompt}
-  7157: 　${prompt}
-  7158: 　${prompt}
-  7159: 　${prompt}
-  7160: 　${prompt}
-  7161: 　${prompt}
-  7162: 　${prompt}
-  7163: 　${prompt}
-  7164: 　${prompt}
-  7165: 　${prompt}
-  7166: 　${prompt}
-  7167: 　${prompt}
-  7168: 　${prompt}
-  7169: 　${prompt}
-  7170: 　${prompt}
-  7171: 　${prompt}
-  7172: 　${prompt}
-  7173: 　${prompt}
-  7174: 　${prompt}
-  7175: 　${prompt}
-  7176: 　${prompt}
-  7177: 　${prompt}
-  7178: 　${prompt}
-  7179: 　${prompt}
-  7180: 　${prompt}
-  7181: 　${prompt}
-  7182: 　${prompt}
-  7183: 　${prompt}
-  7184: 　${prompt}
-  7185: 　${prompt}
-  7186: 　${prompt}
-  7187: 　${prompt}
-  7188: 　${prompt}
-  7189: 　${prompt}
-  7190: 　${prompt}
-  7191: 　${prompt}
-  7192: 　${prompt}
-  7193: 　${prompt}
-  7194: 　${prompt}
-  7195: 　${prompt}
-  7196: 　${prompt}
-  7197: 　${prompt}
-  7198: 　${prompt}
-  7199: 　${prompt}
-  7200: 　${prompt}
-  7201: 　${prompt}
-  7202: 　${prompt}
-  7203: 　${prompt}
-  7204: 　${prompt}
-  7205: 　${prompt}
-  7206: 　${prompt}
-  7207: 　${prompt}
-  7208: 　${prompt}
-  7209: 　${prompt}
-  7210: 　${prompt}
-  7211: 　${prompt}
-  7212: 　${prompt}
-  7213: 　${prompt}
-  7214: 　${prompt}
-  7215: 　${prompt}
-  7216: 　${prompt}
-  7217: 　${prompt}
-  7218: 　${prompt}
-  7219: 　${prompt}
-  7220: 　${prompt}
-  7221: |-
+  7518: The beastmen are gaining power.${prompt}
+  7519: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
+  7520: Bastok's regional control is now 10% closer to the first place country's!${prompt}
+  7521: Windurst's regional control are now 10% closer to the first place country's!${prompt}
+  7522: San d'Oria's region points have increased!${prompt}
+  7523: Bastok's region points have increased!${prompt}
+  7524: Windurst's region points have increased!${prompt}
+  7525: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
+  7526: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
+  7527: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
+  7528: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
+  7529: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
+  7530: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
+  7531: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
+  7532: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
+  7533: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
+  7534: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
+  7535: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
+  7536: There was a curse on the beastmen's banner!${prompt}
+  7537: The curse of the beastmen's banner has been lifted!${prompt}
+  7538: There is a beastmen's banner.${prompt}
+  7539: 　${prompt}
+  7540: 　${prompt}
+  7541: 　${prompt}
+  7542: 　${prompt}
+  7543: 　${prompt}
+  7544: 　${prompt}
+  7545: 　${prompt}
+  7546: 　${prompt}
+  7547: 　${prompt}
+  7548: 　${prompt}
+  7549: 　${prompt}
+  7550: 　${prompt}
+  7551: 　${prompt}
+  7552: 　${prompt}
+  7553: 　${prompt}
+  7554: 　${prompt}
+  7555: 　${prompt}
+  7556: 　${prompt}
+  7557: 　${prompt}
+  7558: 　${prompt}
+  7559: 　${prompt}
+  7560: 　${prompt}
+  7561: 　${prompt}
+  7562: 　${prompt}
+  7563: 　${prompt}
+  7564: 　${prompt}
+  7565: 　${prompt}
+  7566: 　${prompt}
+  7567: 　${prompt}
+  7568: 　${prompt}
+  7569: 　${prompt}
+  7570: 　${prompt}
+  7571: 　${prompt}
+  7572: 　${prompt}
+  7573: 　${prompt}
+  7574: 　${prompt}
+  7575: 　${prompt}
+  7576: 　${prompt}
+  7577: 　${prompt}
+  7578: 　${prompt}
+  7579: 　${prompt}
+  7580: 　${prompt}
+  7581: 　${prompt}
+  7582: 　${prompt}
+  7583: 　${prompt}
+  7584: 　${prompt}
+  7585: 　${prompt}
+  7586: 　${prompt}
+  7587: 　${prompt}
+  7588: 　${prompt}
+  7589: 　${prompt}
+  7590: 　${prompt}
+  7591: 　${prompt}
+  7592: 　${prompt}
+  7593: 　${prompt}
+  7594: 　${prompt}
+  7595: 　${prompt}
+  7596: 　${prompt}
+  7597: 　${prompt}
+  7598: 　${prompt}
+  7599: 　${prompt}
+  7600: 　${prompt}
+  7601: 　${prompt}
+  7602: 　${prompt}
+  7603: 　${prompt}
+  7604: 　${prompt}
+  7605: 　${prompt}
+  7606: 　${prompt}
+  7607: 　${prompt}
+  7608: 　${prompt}
+  7609: 　${prompt}
+  7610: 　${prompt}
+  7611: 　${prompt}
+  7612: 　${prompt}
+  7613: 　${prompt}
+  7614: |-
     遠征先リージョンナンバー　${number: 0}
     現在のリージョンナンバー　${number: 1}${prompt}
-  7222: |-
+  7615: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  7223: |-
-    Entrer dans le flux de mémoire ?
+  7616: Il n'y a aucune réponse. Vous ne pouvez pas vous échapper !${prompt}
+  7617: 'Vous avez battu le record de temps pour nettoyer “${choice: 5}[Désirs du Vide/Couper le Courant/Aspirations Vides]” !${wait-animation: 1}'
+  7618: 'Le record actuel du temps pour nettoyer le champ de bataille de “${choice: 1}[Désirs du Vide/Couper le Courant/Aspirations Vides]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
+  7619: 'Le record actuel du temps pour nettoyer le champ de bataille de “${choice: 1}[Désirs du Vide/Couper le Courant/Aspirations Vides]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
+  7620: 'Entrée sur le champ de bataille pour “${choice: 1}[Désirs du Vide/Couper le Courant/Aspirations Vides]” !'
+  7621: |-
+    Sur quel champ de bataille souhaitez-vous entrer ?
+    ${selection-lines}
+    Aucun.
+    Désirs du Vide.
+    Couper le Courant.
+    Aspirations Vides.
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    ${prompt}
+  7622: Limite de niveau à 50. La récompense en points d'expérience pour ce champ de bataille sera réduite pour les groupes de sept membres ou plus.${prompt}
+  7623: Appuyez sur un bouton pour continuer.${prompt}
+  7624: |-
+    Quitter cette zone ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  7224: |-
-    Revenir par le flux de mémoire ?
+  7625: Vous devez vous rapprocher.${prompt}
+  7626: mes1${prompt}
+  7627: Par les larmes d'Altana... !${prompt}
+  7628: Si nous allons plus loin, nous plongerons dans le Vide.${prompt}
+  7629: Alors, nous devons faire demi-tour et trouver un autre chemin.${prompt}
+  7630: ${name-player}, il y avait quelque chose que je...${prompt}
+  7631: Ah, content de voir que vous êtes tous sains et saufs.${prompt}
+  7632: Nag'molada !?${prompt}
+  7633: |-
+    Hrmph...
+    Il semble que Diabolos ait dit la vérité.${prompt}
+  7634: Bien que je trouvais étrange que l'on puisse entrer dans le Vide sans être dévoré par son obscurité.${prompt}
+  7635: Vous avez rencontré Diabolos !?${prompt}
+  7636: Oui, dans son monde de rêve, Dynamis.${prompt}
+  7637: Il a dit que si je vous aidais, ${name-player}, nous trouverions un moyen de sortir d'ici.${prompt}
+  7638: Aider ${name-player} ?${prompt}
+  7639: La sortie se trouve-t-elle dans cette direction ?${prompt}
+  7640: |-
+    La sortie est-elle plus loin ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  7225: |-
-    Quitter Promyvion ?
-    ${selection-lines}
-    Oui.
-    Non.${prompt}
-  7226: Il semble que ce soit une barrière tissée à partir de l'énergie de souvenirs débordants...${prompt}
-  7227: DEBUG:ボタンを押すと進みます。${prompt}
-  7228: DEBUG:DOOR OPEN${prompt}
-  7229: DEBUG:DOOR CLOSE${prompt}
-  7230: Vous sentez une présence sombre et vide...${prompt}
-  7231: Il n'y a rien d'inhabituel ici.${prompt}
-  7232: La sphère émet une lueur verte inquiétante.${prompt}
-  7233: Vous êtes aveuglé par un éclair blanc...
-  7234: Une étrange image s'est gravée dans votre esprit...
-  7235: |-
-    Je t'apporte deux enfants qui n'entendent plus le murmure de l'âme.
-    Le garçon à droite est Selh'teus. Le garçon à gauche est Nag'molada.${prompt}
-  7236: Je sollicite les bénédictions du roi avant le début de notre voyage vers la ville des Kuluu.${prompt}
-  7237: |-
-    Tu n'as rien à craindre.
-    Ceux qui reçoivent les bénédictions du roi peuvent résider dans la ville des Kuluu sans souci ni préoccupation.${prompt}
-  7238: Nous avons fait un serment à la Déesse de l'Aube, Altana.${prompt}
-  7239: Nous ferons tout notre possible pour découvrir la cause de votre maladie et retournerons dans un monde sans Zilart ni Kuluu.${prompt}
-  7240: Bien que le murmure de l'âme soit devenu silencieux pour toi, je te demande ta confiance.${prompt}
-  7241: Tu dois vivre comme avant. Crois en l'honnêteté des gens comme tu le faisais quand leurs pensées t'étaient ouvertes.${prompt}
-  7242: Oho...${prompt}
-  7243: Donc, les immortels vivants sont finalement nés parmi les enfants de l'Aube...${prompt}
-  7244: |-
-    Pourquoi nous montres-tu cette vision du Paradis ?
-    Ce jardin céleste que les Zilart croient être le but de tous sur Vana'diel...${prompt}
-  7245: |-
-    Qu'attendons-nous !?
-    Gravi'ton, tous... Nous devrions aspirer à cette perfection !${prompt}
-  7246: Si nous voyons cette vision, nous pouvons aussi comprendre ce qu'ils visent !${prompt}
-  7247: Nous pouvons nous unir aux Zilart et être à nouveau complets...${prompt}
-  7248: Ce conflit insensé entre nous prendra fin !${prompt}
-  7249: Selh'teus...${prompt}
-  7250: |-
-    Qu'est-ce qui ne va pas chez vous tous ?
-    Nous n'avons rien à craindre ; Diabolos est...${prompt}
-  7251: |-
-    Il est trop tard, Selh'teus.
-    Nous sommes déjà tombés.
-    Nos cœurs ont été souillés par la corruption.${prompt}
-  7252: Ce ne peut pas être... !${prompt}
-  7253: Dawnmaiden Yve'noile !
-  7254: |-
-    Que fais-tu ici !?
-    Il est interdit d'entrer ici... !${prompt}
-  7255: Nag'molada...${prompt}
-  7256: Pourquoi, en tant que Kuluu, travailles-tu pour les Zilart ?${prompt}
-  7257: Dame Yve'noile ?${prompt}
-  7258: Cette bataille est allée au-delà du point de salut.${prompt}
-  7259: Les meurtres, les mensonges, la méfiance - nous ne sommes plus capables de nous comprendre les uns les autres.${prompt}
-  7260: |-
-    C'est entièrement la faute des avatars terrestres.
-    Ils utilisent simplement les Kuluu stupides pour forcer le roi des Zilart à garder les Portes du Paradis fermées.${prompt}
-  7261: Et puis il y a ce traître, Selh'teus.${prompt}
-  7262: Tout ce sang a été versé à cause de sa rupture de promesse envers toi !${prompt}
-  7263: Crois-tu encore en moi, Nag'molada ?${prompt}
-  7264: Crois-tu en mes mots, mon serment de ramener ce monde à un lieu sans Zilart ni Kuluu...?${prompt}
-  7265: Dame Yve'noile, ils m'appellent traître au peuple Kuluu.${prompt}
-  7266: Cependant, je ne me suis jamais considéré comme l'un d'entre eux. Je n'ai jamais considéré mes actions comme une trahison.${prompt}
-  7267: |-
-    Je suis revenu à tes côtés - c'est tout ce que j'ai fait.
-    Je ne trahirai jamais ta confiance en moi.${prompt}
-  7268: Même si tu découvrais que j'ai trahi cette confiance...?${prompt}
-  7269: Dame Yve'noile ?${prompt}
-  7270: |-
-    Pas seulement toi ; je compte trahir tous les Zilart.
-    C'est parce que je...
-  7271: (${name-player}...)${prompt}
-  7272: (Où es-tu...?)${prompt}
-  7273: (Aide-nous...)${prompt}
-  7274: 'Vous entendez des voix à travers le ${keyitem-singular: 1[2]}...${prompt}'
-  7275: 'Le ${keyitem-singular: 0[2]} vous a été rendu.${prompt}'
-  7276: 'Vous ne pouvez pas vous rappeler exactement quand, mais vous avez obtenu ${keyitem-article: 0[2]} !${prompt}'
-  7277: ${name-player} !?${prompt}
-  7278: Donc, c'est le Vide.${prompt}
-  7279: Je n'aurais jamais cru que je serais englouti par son obscurité.${prompt}
-  7280: ${name-player}, je vous remercie.${prompt} 
-  7281: Si vous ne m'aviez pas réveillé, je crains de penser à ce qui serait arrivé.${prompt}
-  7282: "Mais si je suis ici, il est possible que les autres aient été pris par le Vide, aussi. \nNous devons les chercher.${prompt}"
-  7283: ${name-player}...?${prompt}
-  7284: |-
-    Cet endroit...
-    L'étincelle de la vie n'a jamais brillé ici, je le sens.
-    Est-ce ce qu'on appelle le « Vide » ?${prompt}
-  7285: |-
-    Je savais qu'en vous suivant, quelque chose d'extraordinaire allait se produire.
-    Mais ça...${prompt}
-  7286: |-
-    Mon esprit est encore troublé par la connaissance que les Zilart et les Kuluu existent encore dans ce monde.
-    Les anciens qui ont essayé d'ouvrir les Portes du Paradis...${prompt}
-  7287: Et penser que la légende des cristaux-mère enfouis profondément sous la surface de Vana'diel était vraie...${prompt}
-  7288: |-
-    Je dois retrouver ce diplomate de Jeuno, Nag'molada. Lui et moi avons beaucoup à discuter.
-    Partons.${prompt}
-  7289: ${name-player}, c'est vous...?${prompt}
-  7290: |-
-    Où est Prishe ?
-    Pourquoi n'est-elle pas ici ?${prompt}
-  7291: |-
-    Oh, je vois...
-    Notre recherche d'elle continue.${prompt}
-  7292: Cela peut sembler étrange, ${name-player}, mais pendant que je rêvais, j'ai clairement entendu la voix de Prishe m'appeler.${prompt}
-  7293: Je crois qu'elle est quelque part dans les profondeurs de ce terrible domaine.${prompt}
-  7294: |-
-    S'il vous plaît, ${name-player}. Aidez-moi à trouver Prishe.
-    Nous devons tous nous échapper de cet endroit horrible ensemble...${prompt}
-  7295: Il n'y a rien d'inhabituel ici.${prompt}
-  7296: |-
+  7641: |-
+    Eh bien alors, écartez-vous.
+    Il reste peu de lumière dans ce vaisseau.${prompt}
+  7642: |-
+    Vous ne devriez pas vous embarrasser avec des mensonges futiles.
+    Maintenant, écartez-vous. Il reste peu de lumière dans ce vaisseau.${prompt}
+  7643: |-
+    Selh'teus...
+    Tant que j'ai du souffle en moi, je vous trouverai. Peu importe le prix... !${prompt}
+  7644: Une impasse...?${prompt}
+  7645: Montrez-vous, Selh'teus !${prompt}
+  7646: Seigneur Diabolos...?${prompt}
+  7647: Prishe !${prompt}
+  7648: Alors on se retrouve, celui qui est un avec Selh'teus...${prompt}
+  7649: Maintenant que la lumière du quatrième cristal a été volée, il ne faudra pas longtemps avant que cette terre ne soit infestée par le Vide.${prompt}
+  7650: Je crains qu'il puisse être impossible de contrecarrer les plans de Selh'teus. Si seulement j'avais réalisé plus tôt ce qu'il tentait de faire...${prompt}
+  7651: |-
+    Diabolos !
+    Dites-vous que vous savez ce qu'il manigance ?${prompt}
+  7652: Planifie-t-il vraiment de plonger Vana'diel dans l'abîme du Vide ?${prompt}
+  7653: Cela pourrait être le résultat ultime de ses actions ; cependant, je ne pense pas que ce soit son intention initiale.${prompt}
+  7654: Non, j'ai appris la véritable ambition de Selh'teus sous forme de rêve - le rêve de cette fille.${prompt}
+  7655: Selh'teus est venu d'Al'Taieu avec pour mission de protéger la capitale céleste.${prompt}
+  7656: D'où !?${prompt}
+  7657: C'est ridicule ! La capitale céleste a été détruite sans laisser de trace quand les Zilart ont essayé d'ouvrir les Portes du Paradis il y a plus de dix mille ans !${prompt}
+  7658: Enfant des Kuluu, Al'Taieu n'a pas été détruit comme vous le pensiez. Elle est toujours intacte - ses habitants vivants - reposant en sécurité.${prompt}
+  7659: Un endroit sûr...?${prompt}
+  7660: Au-delà du cinquième cristal.${prompt}
+  7661: |-
+    ${name-player}...
+    Cherchez le dernier cristal-mère. Là, vous trouverez la vérité que vous cherchez.${prompt}
+  7662: Je ne comprends pas... Dites-vous qu'il y a un royaume caché au-delà du cinquième cristal ?${prompt}
+  7663: Et les Portes du Paradis... Elles pourraient aussi être...${prompt}
+  7664: Hah hah hah ! Enfants stupides ! Recherchez-vous toujours, sans but, le rêve du Paradis ?${prompt}
+  7665: Je dois vous avertir. Ce n'est pas votre volonté qui vous guide vers les portes... mais la volonté de Promathia.${prompt}
+  7666: '!?'
+  7667: Vous et chaque autre âme de ce monde êtes esclaves de la volonté du Dieu du Crépuscule.${prompt}
+  7668: Et c'est pourquoi Bahamut, gardien des Portes du Paradis, s'est mis en route pour vous détruire.${prompt}
+  7669: |-
+    La volonté de Promathia...?
+    La malédiction de Promathia sur l'humanité...?${prompt}
+  7670: Donc, la véritable raison pour laquelle Bahamut nous considère comme des ennemis réside dans la malédiction...${prompt}
+  7671: Seigneur Diabolos ! Y a-t-il un moyen de briser ces chaînes qui nous lient ?${prompt}
+  7672: |-
+    Il y a... un moyen...
+    Il y a bien longtemps, des vestiges des Kuluu sont venus me voir et m'ont demandé de les libérer des chaînes de Promathia.${prompt}
+  7673: |-
+    J'ai fait ce qu'ils demandaient...
+    Cependant, le résultat a été tragique. Les Kuluu ont perdu leur identité originelle...${prompt}
+  7674: '...${prompt}'
+  7675: |-
+    Enfants de Vana'diel !
+    La malédiction de Promathia est nécessaire à la survie de votre espèce. Sans elle, vous ne seriez rien.${prompt}
+  7676: Ce n'est une malédiction que parce que c'est le nom que vous lui avez donné. Ce ne sont des chaînes que parce que vous les considérez comme telles.${prompt}
+  7677: Cependant, si nous ne sommes pas purifiés de cette « malédiction », qu'elle en soit une ou non, il n'y a aucun moyen d'éviter un affrontement avec le Roi Wyrm !${prompt}
+  7678: Et même si nous sommes victorieux... rien ne pourra empêcher le Vide d'engloutir toute vie à Vana'diel !${prompt}
+  7679: |-
+    Il n'y a plus de chemins à explorer pour vous...
+    Phoenix n'est plus qu'un fragment de ce qu'elle était, tandis que Fenrir, gardien du lendemain, reste impuissant.${prompt}
+  7680: Et Carbuncle, l'apporteur d'arc-en-ciel, réfléchit encore à savoir s'il doit prêter main-forte à votre cause.${prompt}
+  7681: 'C''est parce qu''il réalise qu''il ne peut pas sauver les deux. Il doit choisir : l''humanité ou Vana''diel.${prompt}'
+  7682: |-
+    Nous devons apprendre de Selh'teus et de son erreur.
+    En essayant de sauver les deux côtés, il n'a fait que causer beaucoup de douleur.${prompt}
+  7683: Mais cela n'enlève rien au fait qu'il a essayé !${prompt}
+  7684: Prishe...?${prompt}
+  7685: |-
+    Diabolos !
+    Si vous aviez quelque chose qui ressemble à une âme, vous sauriez que la douleur fait partie du lot. Il n'y a pas moyen de l'éviter, mais c'est ce qui fait de nous ce que nous sommes !${prompt}
+  7686: Vous n'êtes qu'une coquille vide. Qu'est-il arrivé à votre âme !?${prompt}
+  7687: Si vous vivez votre vie dans la peur de blesser quelqu'un, vous ne pourrez jamais sauver quoi que ce soit !${prompt}
+  7688: Vous ne savez rien, fille...${prompt}
+  7689: Si vous êtes si déterminée pour votre cause, pourquoi ne pas porter la douleur de tout Vana'diel sur vos épaules ?${prompt}
+  7690: Sacrificez-vous pour ce monde et ses enfants ! Si vous mourez, le pacte de Bahamut serait rompu et Vana'diel serait sauvé !${prompt}
+  7691: |-
+    ...!
+    Rompre le pacte...
+    Pourquoi n'y ai-je pas pensé... ?${prompt}
+  7692: Tuer... le Gardien de l'Apocalypse...
+  7693: '  ${wait-animation: 1}'
+  7694: Il n'y a rien d'inhabituel ici.${prompt}
+  7695: |-
     Vous pouvez entendre une voix étrange...
     « Objets, objets, la la la la la～♪ »${prompt}
-  7297: |-
+  7696: |-
     Oh mon Gob ! Tu es un de ces aventuriers, hein ?
     Tu ne me fais pas peur, ${choice-player-gender}[mon gars/m'dame]. J'étais juste en train de m'occuper de mes affaires, à chercher des trucs et de la camelote.${prompt}
-  7298: |-
+  7697: |-
     Hé, fais gaffe. Tu ne veux pas te battre avec moi. Je vais te transformer en viande séchée !
     Attends, et si toi et moi, on devenait amis à la place ? Ça te dit ?${prompt}
-  7299: Je voyage dans le monde entier et j'entends plein d'histoires différentes. J'entends même tes histoires. Je peux t'en raconter une, si tu veux.${prompt}
-  7300: Maintenant, écoute bien...${prompt}
-  7301: |-
+  7698: Je voyage dans le monde entier et j'entends plein d'histoires différentes. J'entends même tes histoires. Je peux t'en raconter une, si tu veux.${prompt}
+  7699: Maintenant, écoute bien...${prompt}
+  7700: |-
     Oh...
     Eh bien, dans ce cas, je me casse.${prompt}
-  7302: Le Gobelin s'est éclipsé pendant que vous ne regardiez pas...${prompt}
-  7303: Vous pouvez entendre une voix étrange et râpeuse...${prompt}
-  7304: |-
+  7701: Le Gobelin s'est éclipsé pendant que vous ne regardiez pas...${prompt}
+  7702: Vous pouvez entendre une voix étrange et râpeuse...${prompt}
+  7703: |-
     Je voyage......j'entends beaucoup...
     J'entends...des histoires... Je peux raconter...si...${prompt}
-  7305: '.........écouter......${prompt}'
-  7306: |-
+  7704: '.........écouter......${prompt}'
+  7705: |-
     Oh......
     ...d'ici...${prompt}
-  7307: |-
+  7706: |-
     Voulez-vous entendre une histoire ?
     ${selection-lines}
     Non, merci.
     Allons-y pour une.${prompt}
-  7308: |-
+  7707: |-
     Quelle histoire aimeriez-vous entendre ?
     ${selection-lines}
     En y repensant, peut-être plus tard.
@@ -17856,10 +18679,42 @@ entries:
     Désirs du Vide(pt.2).
     Désirs du Vide(pt.3).
     Désirs du Vide(pt.4).${prompt}
-  7309: ${prompt}
-  7310: ${prompt}
-  7311: ${prompt}
-  7312: 'Remnants of a ${color: 5}cerebrator${color: 1} lie scattered about the area.${prompt}'
-  7313: 'Remnants of a ${color: 5}coveter${color: 1} lie scattered about the area.${prompt}'
-  7314: 'Remnants of a ${color: 5}satiator${color: 1} lie scattered about the area.${prompt}'
-  7315: Nothing happens...${prompt}
+  7708: ${prompt}
+  7709: ${prompt}
+  7710: ${prompt}
+  7711: |-
+    As you defeat the Empty, imprints of their lost memories will pour into the Anamnestic Vault.
+    Collect as many memories as you can, then destroy the receptacle.
+  7712: |-
+    You will be rewarded upon completion with as many as ${number: 0} ${choice-plurality: 0}[item/items].
+    Sort your inventory in advance to ensure that you can claim your reward.
+  7713: 'The current record for “${choice: 2}[Empty Hopes/Empty Dreams/Empty Desires/Empty Aspirations]” is ${number: 3} ${choice-plurality: 1}[memory/memories].'
+  7714: 'You obtain ${number: 0} ${choice-plurality: 0}[memory/memories].${prompt}'
+  7715: 'You have collected ${number: 0} ${choice-plurality: 0}[memory/memories] thus far.${prompt}'
+  7716: 'You gain ${number: 0} additional ${choice-plurality: 0}[memory/memories]!${prompt}'
+  7717: A curious energy permeates the air around you...${prompt}
+  7718: An invisible force has taken hold of your enemies!${prompt}
+  7719: An invisible force is sapping the strength from your foes!${prompt}
+  7720: 'Time remaining: ${number: 0} ${choice-plurality: 0}[minute/minutes].${prompt}'
+  7721: 'Time remaining: ${number: 0} ${choice-plurality: 0}[second/seconds].${prompt}'
+  7722: '${number: 0} ${choice-plurality: 0}[second/seconds]...${prompt}'
+  7723: 'You collected ${number: 3} ${choice-plurality: 0}[memory/memories] in this battle.'
+  7724: 'A new record has been set for “${choice: 2}[Empty Hopes/Empty Dreams/Empty Desires/Empty Aspirations]”!'
+  7725: The Anamnestic Vault vanishes in a blinding flash of light!${prompt}
+  7726: The Anamnestic Vault dissipates into the vast emptiness...${prompt}
+  7727: '${color-alt: 123}Defeat the Forsaken Byrgens in ${number: 0} ${choice-plurality: 0}[minute/minutes] or less!${prompt}'
+  7728: |-
+    個人デバッグ用メニュー
+    ${selection-lines}
+    キャンセル
+    ワープ
+    カメラ
+    イベント${prompt}
+  7729: |-
+    イベントを選択
+    ${selection-lines}
+    ボス前
+    ボス後
+    調整用${prompt}
+  7730: ボタン押すと次へ進みます${prompt}
+  7731: シナリオ条件を満たしていません${prompt}
