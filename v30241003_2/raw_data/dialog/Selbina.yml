@@ -16063,30 +16063,30 @@ entries:
   6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
   6492: |-
-    Vous pouvez définir ceci comme votre point de retour actuel.
-    Une fois que vous définissez un point de retour, vous y reviendrez chaque fois que vous serez inconscient.
+    Vous pouvez établir cet endroit comme votre point de retour actuel.
+    Une fois défini, vous y serez ramené chaque fois que vous tomberez inconscient.${prompt}
   6493: |-
-    Définir ceci comme point de retour actuel ?
+    Faire de cet endroit votre point de retour actuel ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  6494: Point de retour défini !${prompt}
-  6495: Un point de retour peut être défini comme un endroit où vous reviendrez à Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+  6494: Point de retour établi !${prompt}
+  6495: Un point de retour désigne un lieu où vous réapparaîtrez à Vana’diel après avoir été mis hors de combat. Il vous permet aussi de vous téléporter vers d’autres points de retour enregistrés.${prompt}
   6496: |-
-    Que voulez-vous faire ?
+    Que souhaitez-vous faire ?
     ${selection-lines}
     Voyager vers un autre point de retour.
-    Définir ceci comme votre point de retour.
-    Autres paramètres.
-    Finalement, oubliez ça.${prompt}
+    Établir cet endroit comme point de retour.
+    Accéder aux autres options.
+    À bien y réfléchir, laissez tomber.${prompt}
   6497: |-
-    Vous avez enregistré un nouveau point de retour !
-    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour que vous avez enregistré.${prompt}
-  6498: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.${prompt}
+    Un nouveau point de retour a été enregistré !
+    Vous pouvez désormais vous y téléporter depuis tout autre point de retour déjà sauvegardé.${prompt}
+  6498: Depuis ici, vous pouvez vous téléporter vers n’importe quel autre point de retour que vous avez mémorisé.${prompt}
   6499: |-
-    Où voulez-vous vous téléporter ?
+    Vers quel lieu voulez-vous vous téléporter ?
     ${selection-lines}
-    Jamais l'esprit.
+    Peu importe.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16106,7 +16106,7 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   6500: |-
-    Où voulez-vous vous téléporter ?（${zone: 33[2]}）
+    Vers quel lieu vous téléporter ? (${zone: 33[2]})
     ${selection-lines}
     Nulle part.
     Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
@@ -16114,70 +16114,70 @@ entries:
     Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
     Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
     Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6501: Vous n'avez pas encore enregistré d'autres points de retour, vous ne pouvez donc pas vous téléporter.${prompt}
-  6502: 'Il coûte ${number: 3} gil pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
-  6503: 'Il n’y a pas de frais pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  6501: Aucun autre point de retour n’a été enregistré pour l’instant, la téléportation est donc impossible.${prompt}
+  6502: 'Se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]} coûte ${number: 3} gils.'
+  6503: 'Aucun frais n’est requis pour se téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   6504: |-
-    Se téléporter ? (Gil actuel : ${number: 0})
+    Vous téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s'il vous plaît.
+    Oui, volontiers.
     Non, merci.${prompt}
   6505: |-
-    Se téléporter vers quelle région ?
+    Vers quelle région vous téléporter ?
     ${selection-lines}
-    Finalement, aucune.
-    Sélectionner parmi les favoris.
-    Région actuelle.
-    ${choice: 1}[San d'Oria/Movalpolos].
+    À bien y réfléchir, nulle part.
+    Choisir parmi mes favoris.
+    Ma région actuelle.
+    ${choice: 1}[San d’Oria/Movalpolos].
     ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Savage Mamool Ja].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[Aht Urhgan Ouest/Isle d'Arrapago].
-    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ouest d’Aht Urhgan/Îles d’Arrapago].
+    ${choice: 1}[Îles d’Adoulin/Ruines d’Alzadaal].
     ${choice: 1}[Ronfaure/Front de Ronfaure].
     ${choice: 1}[Zulkheim/Front de Norvallen].
     ${choice: 1}[Norvallen/Front de Gustaberg].
     ${choice: 1}[Gustaberg/Front de Derfland].
     ${choice: 1}[Derfland/Front de Sarutabaruta].
-    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
     ${choice: 1}[Kolshushu/Front de Fauregandi].
     ${choice: 1}[Aragoneu/Front de Valdeaunia].
-    ${choice: 1}[Fauregandi/Est Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Fauregandi/Est d’Ulbuka].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Bas/].
-    ${choice: 1}[Elshimo Haut/].
-    ${choice: 1}[Tu'Lia/].
+    ${choice: 1}[Bas d’Elshimo/].
+    ${choice: 1}[Haut d’Elshimo/].
+    ${choice: 1}[Tu’Lia/].
     Page précédente.
     Page suivante.${prompt}
   6506: |-
-    Où voulez-vous vous téléporter ?
+    Où souhaitez-vous vous rendre ?
     ${selection-lines}
-    Aucun de ces choix.
-    Un endroit favori.
-    Une zone originale.
-    Une zone de Rise of the Zilart.
-    Une zone de Chains of Promathia.
-    Une zone de Treasures of Aht Urhgan.
-    Une zone de Wings of the Goddess.
-    Une zone de Seekers of Adoulin.${prompt}
-  6507: Vous pouvez changer la méthode de sélection de la zone de votre point de retour souhaité pour vous téléporter.
+    Aucun de ces lieux.
+    Un lieu favori.
+    Une région originelle.
+    Une région de Rise of the Zilart.
+    Une région de Chains of Promathia.
+    Une région de Treasures of Aht Urhgan.
+    Une région de Wings of the Goddess.
+    Une région de Seekers of Adoulin.${prompt}
+  6507: Vous pouvez modifier la méthode de sélection des zones pour vos téléportations vers un point de retour souhaité.${prompt}
   6508: |-
-    Quel paramètre souhaitez-vous ?
+    Quelle option préférez-vous ?
     ${selection-lines}
-    Mon paramètre actuel.
-    Sélectionner par région.
-    Sélectionner par extension.${prompt}
-  6509: 'Vous êtes maintenant en train de sélectionner par ${choice: 1}[région/extension].'
+    Ma sélection actuelle.
+    Par région.
+    Par extension.${prompt}
+  6509: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
   6510: |-
-    Où voulez-vous vous téléporter ?
+    Vers quel lieu vous téléporter ?
     ${selection-lines}
-    Aucun de ces choix.
+    Aucun de ces lieux.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16188,10 +16188,10 @@ entries:
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  6511: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré/supprimé] de votre liste d’endroits favoris.'
-  6512: Votre liste d'endroits favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer une nouvelle.
+  6511: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/retiré de] vos lieux favoris.'
+  6512: Votre liste de lieux favoris est complète. Supprimez une entrée existante pour en ajouter une nouvelle.${prompt}
   6513: |-
-    Supprimer lequel ?
+    Quel lieu supprimer ?
     ${selection-lines}
     Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
@@ -16203,146 +16203,145 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  6514: Que diriez-vous d'une carte magique pour vous aider dans vos aventures ?${prompt}
+  6514: Que diriez-vous d’une carte magique pour éclairer vos périples ?${prompt}
   6515: |-
-    Acheter une carte ?
+    Souhaitez-vous acheter une carte ?
     ${selection-lines}
-    Refuser.
-    Renseigner sur les cartes.
-    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
-    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
-    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
-    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gil).
-    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gil).
-    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gil).
-    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gil).
-    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gil).
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gil).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gil).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gil).
-    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gil).
-    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gil).
-    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
-    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
-    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
+    Non, merci.
+    En savoir plus sur les cartes.
+    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gils).
+    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gils).
+    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gils).
+    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gils).
+    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gils).
+    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gils).
+    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gils).
+    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gils).
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gils).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gils).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gils).
+    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gils).
+    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gils).
+    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gils).
+    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gils).
+    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gils).
     Page précédente.
     Page suivante.${prompt}
-  6516: Si vous possédez une carte, vous pouvez vérifier à la fois la topographie et votre position chaque fois que vous entrez dans une zone.${prompt}
+  6516: Avec une carte en main, vous pouvez explorer la topographie et repérer votre position à chaque entrée dans une zone.${prompt}
   6517: |-
-    Si vous faites partie d'un groupe ou d'une alliance, vous pouvez également vérifier la position de vos alliés.
-    Et selon votre métier, vous pouvez repérer les PNJ et ennemis à distance.${prompt}
+    Si vous voyagez en groupe ou en alliance, elle révèle aussi les positions de vos alliés.
+    Selon votre métier, elle peut même indiquer les PNJ et ennemis à distance.${prompt}
   6518: |-
-    De plus, vous pouvez même enregistrer des points spécifiques dans la zone ou marquer des endroits pour certains événements.
-    Comme vous pouvez le voir, les cartes magiques sont extrêmement utiles.${prompt}
+    Mieux encore, vous pouvez y noter des points précis ou marquer des lieux pour certains événements.
+    Comme vous le voyez, ces cartes magiques sont d’une aide précieuse.${prompt}
   6519: |-
-    Le ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d'Oria.
-    Elle coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d’Oria.
+    Son prix : ${number: 3} gils.${prompt}
   6520: |-
-    Le ${keyitem-singular: 1[2]} couvre Gustaberg, les Hautes Terres de Konschtat, les Marais de Pashhow, et Bastok.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} inclut Gustaberg, les Hautes Terres de Konschtat, les Marais de Pashhow et Bastok.
+    Son prix : ${number: 3} gils.${prompt}
   6521: |-
-    Le ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura, et Windurst.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} englobe Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst.
+    Son prix : ${number: 3} gils.${prompt}
   6522: |-
-    Le ${keyitem-singular: 1[2]} couvre les Plaines de Batallia, les Champs de Rolanberry, le Champ de Sauromugue, et Jeuno.
-    Il coûte ${number: 3} gil.${prompt}
-  6523: 'Ce ${keyitem-singular: 1[2]} complet, qui s’étend profondément sous le Plateau de La Theine, coûte ${number: 3} gil.${prompt}'
-  6524: '${lettercase: 1}${keyitem-plural: 1[2]} incluent les plans de l’avant-poste et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Il coûte ${number: 3} gil.${prompt}'
-  6525: 'Le ${keyitem-singular: 1[2]} montre la fameuse forteresse orc cachée dans la Forêt de Jugner. Elle est au prix de ${number: 3} gil.${prompt}'
-  6526: 'Cette carte montre les voies navigables et les îles qui composent le Port des Charpentiers. Elle est au prix de ${number: 3} gil.${prompt}'
+    La ${keyitem-singular: 1[2]} dévoile les Plaines de Batallia, les Champs de Rolanberry, le Champ de Sauromugue et Jeuno.
+    Son prix : ${number: 3} gils.${prompt}
+  6523: 'Cette ${keyitem-singular: 1[2]} complète, plongeant sous le Plateau de La Theine, coûte ${number: 3} gils.${prompt}'
+  6524: 'Les ${keyitem-plural: 1[2]} détaillent l’avant-poste et la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Prix : ${number: 3} gils.${prompt}'
+  6525: 'La ${keyitem-singular: 1[2]} révèle la fameuse forteresse orc nichée dans la Forêt de Jugner. Prix : ${number: 3} gils.${prompt}'
   6527: |-
-    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan des Mines de Zeruhn à Bastok.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom le suggère, dévoile le plan des Mines de Zeruhn à Bastok.
+    Son prix est de ${number: 3} gils.${prompt}
   6528: |-
-    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan des Mines de Palborough, situées au nord de Gustaberg.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, fidèle à son nom, trace le plan des Mines de Palborough, au nord de Gustaberg.
+    Elle coûte ${number: 3} gils.${prompt}
   6529: |-
-    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan du bastion Quadav, Beadeaux, situé dans les Marais de Pashhow.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme l’indique son titre, révèle le bastion Quadav de Beadeaux, niché dans les Marais de Pashhow.
+    Son prix : ${number: 3} gils.${prompt}
   6530: |-
-    Le ${keyitem-singular: 1[2]}, comme son nom l'indique, contient le plan de Giddeus, accessible depuis l'ouest de Sarutabaruta.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, conformément à son nom, détaille Giddeus, accessible depuis l’ouest de Sarutabaruta.
+    Elle coûte ${number: 3} gils.${prompt}
   6531: |-
-    Le ${keyitem-singular: 1[2]} contient le plan du bastion Yagudo, le Château Oztroja, situé dans les Montagnes de Meriphataud.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} expose le bastion Yagudo, le Château Oztroja, situé dans les Montagnes de Meriphataud.
+    Son prix : ${number: 3} gils.${prompt}
   6532: |-
-    Le ${keyitem-singular: 1[2]} contient le plan du labyrinthe souterrain de Shakhrami que l'on trouve dans la zone du Canyon de Tahrongi.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} dévoile le labyrinthe souterrain de Shakhrami, enfoui dans le Canyon de Tahrongi.
+    Elle coûte ${number: 3} gils.${prompt}
   6533: |-
-    Le ${keyitem-singular: 1[2]} couvre le Sanctuaire de Zi'Tah, Ro'Maeve, et la Salle des Dieux.
-    Il coûte ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} englobe le Sanctuaire de Zi’Tah, Ro’Maeve et la Salle des Dieux.
+    Son prix s’élève à ${number: 3} gils.${prompt}
   6534: |-
-    Cette carte couvre la Baie de Bibiki et ses îles environnantes.
-    Elle coûte ${number: 3} gil.${prompt}
-  6535: 'Le ${keyitem-singular: 1[2]} décrit la géographie de l’île voisine de Qufim. Elle coûte ${number: 3} gil.${prompt}'
-  6536: 'Située sous les Plaines de Batallia, la Nécropole d’Eldieme est détaillée sur cette carte. Son prix est de ${number: 3} gil.${prompt}'
-  6537: 'La Citadelle de Garlaige, qui se trouve sur le Champ de Sauromugue, est illustrée sur cette carte. Chaque copie coûte ${number: 3} gil.${prompt}'
-  6538: '${lettercase: 1}${keyitem-plural: 1[2]} incluent Kazham, ainsi que les deux jungles de Yuhtunga et Yhoator pour ${number: 3} gil.${prompt}'
-  6539: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} pour ${number: 3} gil.${prompt}'
-  6540: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} ainsi que ${zone: 4[2]} pour ${number: 3} gil.${prompt}'
-  6541: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]}, ainsi que ${zone: 4[2]} et ${zone: 5[2]} pour ${number: 3} gil.${prompt}'
+    Cette carte révèle la Baie de Bibiki et ses îles voisines.
+    Elle est proposée à ${number: 3} gils.${prompt}
+  6535: 'La ${keyitem-singular: 1[2]} décrit la géographie de l’île voisine de Qufim. Disponible pour ${number: 3} gils.${prompt}'
+  6536: 'Située sous les Plaines de Batallia, la Nécropole d’Eldieme est détaillée sur cette carte, au prix de ${number: 3} gils.${prompt}'
+  6537: 'La Citadelle de Garlaige, perchée sur le Champ de Sauromugue, est illustrée ici. Son coût : ${number: 3} gils.${prompt}'
+  6538: 'Les ${keyitem-plural: 1[2]} englobent Kazham ainsi que les jungles de Yuhtunga et Yhoator. Prix : ${number: 3} gils.${prompt}'
+  6539: 'Les ${keyitem-plural: 1[2]} incluent ${zone: 2[2]}. Prix : ${number: 3} gils.${prompt}' 
+  6540: 'Les ${keyitem-plural: 1[2]} couvrent ${zone: 2[2]} ainsi que ${zone: 4[2]}. Prix : ${number: 3} gils.${prompt}'
+  6541: 'Les ${keyitem-plural: 1[2]} englobent ${zone: 2[2]}, ${zone: 4[2]} et ${zone: 5[2]}. Prix : ${number: 3} gils.${prompt}'
   6542: |-
-    Acheter ${keyitem-article: 0[2]} ?
+    Acquérir ${keyitem-article: 0[2]} ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  6543: Vous n'avez pas assez d'argent.${prompt}
-  6544: 'Les cartes de la région de Kuzotz incluent le Désert d’Altepa ainsi que Rabao pour ${number: 3} gil.${prompt}'
-  6545: 'Les cartes de la région de Vollbow incluent le Cap Teriggan, ainsi que la Vallée des Lamentations et le Tunnel de Gustav pour ${number: 3} gil.${prompt}'
-  6546: Les cartes du Tunnel de Korroloka sont, comme leur nom l'indique, des cartes du Tunnel de Korroloka, qui relie le Désert d'Altepa et les Mines de Zeruhn.${prompt}
-  6547: 'La carte d’Al Zahbi inclut également la Porte Blanche d’Aht Urhgan et le Colisée. Elle coûte ${number: 2} gil.${prompt}'
-  6548: 'Cette carte montre l’aménagement de la ville d’Azouph Isle, Nashmau. Elle coûte ${number: 3} gil.${prompt}'
-  6549: 'Cette carte montre la forêt s’étendant à l’ouest d’Al Zahbi. Une carte des Bois de Wajaom peut être la vôtre pour ${number: 3} gil.${prompt}'
-  6550: 'Cette carte montre les Fourrés de Bhaflau, situés au nord d’Al Zahbi. Elle coûte ${number: 3} gil.${prompt}'
-  6551: '${keyitem-article: 1[2]} est une carte ancienne qui était souvent utilisée pour décrire ${zone: 2[2]}. Elle coûte ${number: 3} gil.${prompt}'
+  6543: Vous manquez de fonds.${prompt}
+  6544: 'Les cartes de la région de Kuzotz incluent le Désert d’Altepa et Rabao, pour ${number: 3} gils.${prompt}'
+  6545: 'Les cartes de la région de Vollbow couvrent le Cap Teriggan, la Vallée des Lamentations et le Tunnel de Gustav, au prix de ${number: 3} gils.${prompt}'
+  6546: 'Les cartes du Tunnel de Korroloka, comme leur nom l’indique, détaillent ce passage reliant le Désert d’Altepa aux Mines de Zeruhn.${prompt}'
+  6547: 'La carte d’Al Zahbi inclut la Porte Blanche d’Aht Urhgan et le Colisée. Son coût : ${number: 2} gils.${prompt}'
+  6548: 'Cette carte dévoile l’agencement de Nashmau, sur l’île d’Azouph. Prix : ${number: 3} gils.${prompt}'
+  6549: 'Cette carte explore les Bois de Wajaom, s’étendant à l’ouest d’Al Zahbi. Disponible pour ${number: 3} gils.${prompt}'
+  6550: 'Cette carte cartographie les Fourrés de Bhaflau, au nord d’Al Zahbi. Prix : ${number: 3} gils.${prompt}'
+  6551: '${keyitem-article: 1[2]} est une carte ancienne, souvent utilisée pour décrire ${zone: 2[2]}. Elle coûte ${number: 3} gils.${prompt}'
   6552: |-
-    Your fate rides on the changing winds of Vana'diel.
-    I can give you insight on the local weather.${prompt}
+    Votre destin suit les vents changeants de Vana’diel.
+    Je peux vous révéler les caprices du ciel dans cette région.${prompt}
   6553: |-
-    What area's weather do you wish to know?
+    Quelle région vous intéresse ?
     ${selection-lines}
-    Nowhere.
+    Aucune.
     Ronfaure.
-    La Theine Plateau.
-    Valkurm Dunes.
-    Jugner Forest.
-    Batallia Downs.
+    Plateau de La Theine.
+    Dunes de Valkurm.
+    Forêt de Jugner.
+    Plaines de Batallia.
     Gustaberg.
-    Konschtat Highlands.
-    Pashhow Marshlands.
-    Rolanberry Fields.
-    Beaucedine Glacier.
+    Hautes Terres de Konschtat.
+    Marais de Pashhow.
+    Champs de Rolanberry.
+    Glacier de Beaucedine.
     Xarcabard.
-    Cape Teriggan.
-    Altepa Desert.
+    Cap Teriggan.
+    Désert d’Altepa.
     Sarutabaruta.
-    Tahrongi Canyon.
-    Buburimu Peninsula.
-    Meriphataud Mountains.
-    Sauromugue Champaign.
-    The Sanctuary of Zi'Tah.
-    Yuhtunga & Yhoator Jungles.
-    Qufim Island.
-    Tu'Lia.
+    Canyon de Tahrongi.
+    Péninsule de Buburimu.
+    Montagnes de Meriphataud.
+    Champ de Sauromugue.
+    Sanctuaire de Zi’Tah.
+    Jungles de Yuhtunga et Yhoator.
+    Île de Qufim.
+    Tu’Lia.
     Ferry.
-    Airship.
+    Aéronef.
     Jeuno.
-    Uleguerand Range.
-    Tavnazian Archipelago.
-    Riverne - Sites #A01 & #B01.${prompt}
-  6554: 'That area''s forecast for today is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6555: 'The forecast for tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6556: 'And, the forecast for the day after tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6557: 'Today, that area''s weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6558: 'Tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6559: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6560: 'Today, the weather in that area will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6561: 'Tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6562: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6563: 'The weather in that area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6564: 'The weather tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6565: 'The weather the day after tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6566: And that's the report, straight from Vana'diel's official weather linkshell.${prompt}
+    Chaîne d’Uleguerand.
+    Archipel Tavnazien.
+    Riverne - Sites #A01 et #B01.${prompt}
+  6554: 'Aujourd’hui, cette région connaîtra ${weather-noun: 0[2]} avec des épisodes de ${weather-noun: 1[2]}. Une légère chance de ${weather-noun: 2[2]} est aussi prévue, prudence recommandée.${prompt}'
+  6555: 'Demain, attendez-vous à ${weather-noun: 0[2]} avec des moments de ${weather-noun: 1[2]}. Une faible possibilité de ${weather-noun: 2[2]} subsiste, soyez vigilant.${prompt}'
+  6556: 'Après-demain, le temps sera marqué par ${weather-noun: 0[2]} avec des touches de ${weather-noun: 1[2]}. Une petite chance de ${weather-noun: 2[2]} est à noter, restez prudent.${prompt}'
+  6557: 'Aujourd’hui, le temps dans cette région sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
+  6558: 'Demain, le ciel offrira ${weather-adjective: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6559: 'Après-demain, attendez-vous à ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6560: 'Aujourd’hui, cette région sera sous ${weather-adjective: 0[2]}. Une éventualité de ${weather-noun: 2[2]} est possible, prudence de mise.${prompt}'
+  6561: 'Demain, le temps sera ${weather-adjective: 0[2]}. Une éventualité de ${weather-noun: 2[2]} est à prévoir, restez vigilant.${prompt}'
+  6562: 'Après-demain, le ciel sera ${weather-adjective: 0[2]}. Une possibilité de ${weather-noun: 2[2]} persiste, soyez prudent.${prompt}'
+  6563: 'Aujourd’hui, cette région connaîtra un temps ${weather-adjective: 0[2]}.${prompt}'
+  6564: 'Demain, le temps sera ${weather-adjective: 0[2]}.${prompt}'
+  6565: 'Après-demain, le ciel affichera ${weather-adjective: 0[2]}.${prompt}'
+  6566: Voilà le bulletin, tout droit relayé par le linkshell météo officiel de Vana’diel.${prompt}
   6567: |-
     What area's weather do you wish to know?
     ${selection-lines}
@@ -16544,58 +16543,57 @@ entries:
   6675: Item transfer complete, kupo.${prompt}
   6676: '${number: 2} , ${number: 3}${prompt}'
   6677: |-
-    Salutations aventurier ! Je suis tellement content que tu sois venu, kupo !
-    Pour célébrer la récupération en toute sécurité des onze tablettes mog du roi Kupofried, nous offrons un service de téléportation en édition limitée pour la modique somme de ${number: 0} gil ! Qu'en dis-tu ?${prompt}
+    Salutations, aventurier ! Quelle joie de te voir ici, kupo !
+    Pour fêter le retour sain et sauf des onze tablettes mog du roi Kupofried, nous proposons une téléportation spéciale, rien que pour ${number: 0} gils ! Alors, qu’en dis-tu, kupo ?${prompt}
   6678: |-
-    Téléportation vers où ? (Coût : ${number: 0} gil.)
+    Téléportation vers où ? (Prix : ${number: 0} gils)
     ${selection-lines}
     Nulle part.
-    San d'Oria.
+    San d’Oria.
     Bastok.
     Windurst.
     Selbina.
     Mhaura.${prompt}
   6679: |-
-    Ton souhait est mon commandement, kupo !
-    Contre une petite somme de ${number: 0} gil, bien sûr...${prompt}
+    Ton vœu est exaucé, kupo !
+    Moyennant une petite somme de ${number: 0} gils, bien entendu...${prompt}
   6680: Bon voyage, kupo !${prompt}
-  6681: On dirait que tu es à court de fonds, kupo... Désolé !${prompt}
+  6681: Oh non, tes poches sont vides, kupo... Désolé !${prompt}
   6682: |-
-    Quoi ? Tu es encore nouveau dans ce pays ?
-    J'ai bien peur que tu ne sois pas encore assez fort pour manipuler notre puissante magie de moogle !
-    Oublie ce que j'ai dit, kupo !${prompt}
+    Quoi ? Tu viens à peine d’arriver dans ce pays ?
+    J’ai bien peur que notre puissante magie moogle soit encore trop forte pour toi, kupo ! Oublie ce que j’ai dit !${prompt}
   6683: |-
-    Oh, quel dommage ! Les tablettes mog ont encore été dispersées au vent !
-    Sans leur pouvoir, je crains que nous ne puissions pas t'aider, kupo.${prompt}
-  6684: Bonjour. Est-ce votre première visite dans notre belle ville ?${prompt}
+    Oh, quel malheur ! Les tablettes mog se sont encore envolées au gré du vent !
+    Sans leur pouvoir, impossible de t’aider, kupo...${prompt}
+  6684: Bonjour ! Première visite dans notre charmante ville ?${prompt}
   6685: |-
-    Alors, c'est le cas ?
+    Alors, c’est vrai ?
     ${selection-lines}
-    Oui, c'est ma première fois.
-    Non, je viens ici tout le temps.${prompt}
-  6686: Oui, je le pensais. Tu ferais bien de te rendre à la mairie.${prompt}
-  6687: Descends vers le rivage et prends le premier escalier. Tourne à droite, suis le mur et là-bas, tu la trouveras.${prompt}
-  6688: C'est un fait ? Je n'oublie jamais un visage. Eh bien. Peu importe.${prompt}
-  6689: As-tu vu le maire ? Sinon, tu devrais !${prompt}
-  6690: Eh bien, eh bien. Ravi de voir une nouvelle tête. C'est ta première fois à Selbina ?${prompt}
-  6691: Oh. Je pense que tu devrais aller voir le maire.${prompt}
-  6692: Son bureau est tout au bout de la ville, au sommet de la colline la plus haute.${prompt}
-  6693: Oh. Au fait, c'est une bonne idée de montrer ta tête à notre maire si tu ne l'as pas encore fait.${prompt}
-  6694: Bienvenue à la résidence du maire. Comment puis-je vous aider ?${prompt}
+    Oui, c’est ma première fois.
+    Non, je suis un habitué.${prompt}
+  6686: Je m’en doutais ! Tu devrais passer par la mairie.${prompt}
+  6687: Descends vers le rivage, emprunte le premier escalier, tourne à droite, longe le mur, et tu y seras !${prompt}
+  6688: Vraiment ? Je n’oublie jamais un visage. Bah, peu importe !${prompt}
+  6689: As-tu vu le maire ? Sinon, tu devrais y aller !${prompt}
+  6690: Eh bien, quelle surprise ! Une nouvelle tête ! Première fois à Selbina ?${prompt}
+  6691: Oh, dans ce cas, je te conseille d’aller voir le maire.${prompt}
+  6692: Son bureau est au bout du village, tout en haut de la plus haute colline.${prompt}
+  6693: Au fait, si tu n’as pas encore croisé le maire, c’est une bonne idée de te présenter !${prompt}
+  6694: Bienvenue à la résidence du maire ! En quoi puis-je t’aider ?${prompt}
   6695: |-
-    Que voudrais-tu savoir ?
+    Que veux-tu savoir ?
     ${selection-lines}
-    À propos de cette ville.
-    À propos des magasins et services ici.
-    Rien.${prompt}
-  6696: Je peux te parler longuement de Selbina.${prompt}
+    Des détails sur cette ville.
+    Les boutiques et services d’ici.
+    Rien pour l’instant.${prompt}
+  6696: Je pourrais te parler de Selbina pendant des heures !${prompt}
   6697: |-
-    Quel sujet t'intéresse ?
+    Quel sujet te tente ?
     ${selection-lines}
-    Histoire.
-    Géographie.
-    Industrie.
-    C'est suffisant.${prompt}
+    Son histoire.
+    Sa géographie.
+    Son industrie.
+    Ça me suffit pour maintenant.${prompt}
   6698: Très bien. Selbina a été fondée par Bastok comme un havre pour les navires portant le minerai de Gustaberg. Elle est rapidement devenue une ville portuaire prospère.${prompt}
   6699: Selbina a déclaré sa neutralité au début de la Grande Guerre et maintient son indépendance jusqu'à ce jour.${prompt}
   6700: Très bien. Notre belle ville se trouve au milieu des Dunes de Valkurm, ici, au centre de Quon.${prompt}
