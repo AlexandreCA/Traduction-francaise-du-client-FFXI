@@ -29462,43 +29462,43 @@ entries:
   13807: |-
     I will also fight alongside you.
     I must see this matter put to rest.${prompt}
-  13808: Les voilà !
-  13809: Liés ensemble...
-  13810: Par les cristaux...
-  13811: Nous serons bientôt...
-  13812: Unis...
-  13813: Il y a autre chose... !
+  13808: Les voilà !${prompt}
+  13809: Liés ensemble...${prompt}
+  13810: Par les cristaux...${prompt}
+  13811: Nous serons bientôt...${prompt}
+  13812: Unis...${prompt}
+  13813: Il y a autre chose... !${prompt}
   13814: Une cinquième personne !?${prompt}
-  13815: Lion !?
-  13816: Hahaha !
-  13817: La pierre qu'elle ne voulait pas lâcher... !
-  13818: Elle a été brisée par ta chanson... !
-  13819: Notre transformation divine est en marche !
-  13820: Cela se termine maintenant !
-  13821: Laisse-moi m'occuper de Nag'molada !
+  13815: Lion !?${prompt}
+  13816: Hahaha !${prompt}
+  13817: La pierre qu’elle refusait de lâcher... !${prompt}
+  13818: Elle a été brisée par ton chant... !${prompt}
+  13819: Notre transformation divine est lancée !${prompt}
+  13820: Ça s’arrête maintenant !${prompt}
+  13821: Laisse-moi m’occuper de Nag’molada !${prompt}
   13822: Tu seras le premier... !${prompt}
   13823: Le premier à goûter à la vengeance des morts !${prompt}
-  13824: Je pense que c'est fini ici.${prompt}
+  13824: Je crois que c’est fini ici.${prompt}
   13825: |-
-    Oui, la bataille est terminée.
-    Il n'y a plus que...${prompt}
+    Oui, le combat est terminé.
+    Il ne reste plus que...${prompt}
   13826: |-
-    Elle semble être indemne.
-    Il reste quelques traces de Vide, mais cela ne causera rien de plus que quelques mauvais rêves.${prompt}
+    Elle semble indemne.
+    Quelques traces de Vide subsistent, mais ça ne causera rien de pire que des cauchemars.${prompt}
   13827: |-
-    Merci Altana...
-    C'est Lion qui a sauté dans le cristal pour nous sauver tous.${prompt}
-  13828: Sa lutte avec Eald'narche a continué dans la pierre...${prompt}
-  13829: Emmenons-la chez elle, à Norg...${prompt}
+    Merci, Altana...
+    C’est Lion qui a plongé dans le cristal pour nous sauver tous.${prompt}
+  13828: Son combat avec Eald’narche s’est poursuivi dans la pierre...${prompt}
+  13829: Ramène-la chez elle, à Norg...${prompt}
   13830: |-
     Tes cheveux rouges...
-    Maintenant je sais qui tu es.${prompt}
+    Maintenant, je sais qui tu es.${prompt}
   13831: |-
-    Le cauchemar que j'ai eu...
-    C'est toi qui l'as porté pour moi.${prompt}
+    Le cauchemar que j’ai fait...
+    C’est toi qui l’as porté pour moi.${prompt}
   13832: |-
     ${name-player}.
-    Assure-toi de tenir ta promesse quand elle ira mieux, d'accord ?${prompt}
+    Assure-toi de tenir ta promesse quand elle ira mieux, d’accord ?${prompt}
   13833: Le monde ne cesse de s’agrandir avec le temps. De nouvelles vies voient le jour, de nouvelles terres sont explorées. Il y a toujours de nouvelles aventures à vivre.${prompt}
   13834: |-
     Mais tu n’as pas besoin de te presser, tu sais ?
@@ -29783,50 +29783,50 @@ entries:
     I'm curious to see how it turns out, all the same...${prompt}
   14007: DEBUG:「02協商会議」メッセージ待ち${prompt}
   14008: |-
-    Vous ne pouvez pas obtenir le ${item-singular: 0[2]}.
-    Veuillez changer de zone et revenir ici après avoir trié votre inventaire.${prompt}
-  14009: 'Bonne journée! Je suis un Joyeux Marqueur de Carte, et j''adorerais marquer votre joyeux ${keyitem-singular: 0[2]}, mais il semble qu''il vous manque la carte à marquer que je mentionne.${prompt}'
-  14010: Bonne journée! Je suis un Joyeux Marqueur de Carte, et je serais absolument ravi si vous me permettiez de marquer votre carte magique !${prompt}
-  14011: 'Une carte sans marques ${keyitem-singular: 0[2]} est comme une jeune fille sans mère, errant dans un marais nauséabond de misère.${prompt}'
+    Tu peux pas prendre le ${item-singular: 0[2]}.
+    Change de zone, trie ton inventaire, et reviens ici après.${prompt}
+  14009: 'Bonne journée ! Moi, c’est le Joyeux Marqueur de Carte, et j’adorerais marquer ton joli ${keyitem-singular: 0[2]}, mais on dirait qu’il te manque la carte dont je parle.${prompt}'
+  14010: Bonne journée ! Moi, c’est le Joyeux Marqueur de Carte, et ça me ferait un plaisir fou si tu me laissais marquer ta carte magique !${prompt}
+  14011: 'Une carte sans marques ${keyitem-singular: 0[2]}, c’est comme une jeune fille sans sa maman, perdue dans un marais puant de malheur.${prompt}'
   14012: |-
-    Embarquer pour une mission de marquage de carte ?
+    Partir en mission marquage de carte ?
     ${selection-lines}
-    Marquez-moi !
-    Gardez vos mains loin de ma carte !${prompt}
-  14013: Merveilleux ! Laissez-moi une minute pour faire toutes mes marques.${prompt}
-  14014: Je pense avoir marqué votre carte avec autant de marques que possible.${prompt}
-  14015: 'Surveiller et gérer vos marques est aussi simple que d''ouvrir votre carte et de sélectionner ${color: 5}Marqueurs${color: 1} dans le menu principal.${prompt}'
-  14016: Si les marques sur votre carte venaient à disparaître, ne vous morfondez pas comme un triste pleurnichard. Prenez un autre rendez-vous avec moi et je me ferai une mission de marquer la carte à nouveau.${prompt}
+    Marque-moi !
+    Bas les pattes sur ma carte !${prompt}
+  14013: Merveilleux ! Donne-moi juste une minute pour poser toutes mes marques.${prompt}
+  14014: Je crois que j’ai marqué ta carte avec autant de marques qu’elle peut en supporter.${prompt}
+  14015: 'Gérer et surveiller tes marques, c’est aussi simple que d’ouvrir ta carte et de choisir ${color: 5}Marqueurs${color: 1} dans le menu principal.${prompt}'
+  14016: Si jamais tes marques disparaissent de ta carte, pleurniche pas comme un triste môme. Reviens me voir, et je me ferai une mission de tout re-marquer joyeusement.${prompt}
   14017: |-
-    Bonne journée, ${choice-player-gender}[monseigneur/madame].
-    Que vos marches à travers champs et montagnes soient inoubliablement marquées !${prompt}
-  14018: 'Voici le ${color: 5}point de retour${color: 1} de la zone. Une fois défini, vos restes réduits au silence seront déplacés ici si vous êtes un jour... mortellement mutilé en plein milieu d’un combat.${prompt}'
-  14019: 'Ici, vous trouverez les ${color: 5}ministres de l’immigration${color: 1}. Ils vous aideront si vous souhaitez immédiatement modifier votre nationalité.${prompt}'
-  14020: 'Et peut-être êtes-vous immensément motivé pour participer à l’effervescence médiévale du Conflit ? Puis-je vous suggérer de vous mêler aux modestes ${color: 5}Pursuivants${color: 1} qui se trouvent ici ?${prompt}'
-  14021: 'Notre ${color: 5}minstrel des mélodies${color: 1} local se trouve ici. Ses mélodies joyeuses pourraient vous aider à retrouver des souvenirs égarés.${prompt}'
-  14022: 'Ah, et au cas où vous souhaiteriez masquer un surnom méritant et le remplacer par un nom un peu plus mérité, un ${color: 5}barde voyageur${color: 1} joue de sa harpe mélodieuse ici.${prompt}'
-  14023: 'Ici, vous pouvez rencontrer un membre du Syndicat du Commerce des Produits Spécialisés. Et, si vous êtes citoyen de ce puissant domaine, il vous ${color: 5}téléportera${color: 1} à travers Vana’diel (contre une petite somme de rémunération monétaire).${prompt}'
-  14024: 'Besoin de connaître la ${color: 5}météo${color: 1} locale ? Notre météorologue local fera ses prédictions ici.${prompt}'
-  14025: 'Si vous souhaitez invoquer un compagnon miséricordieux dans ce royaume puissant, c’est ici que vous trouverez un marchand joyeux vendant des ${color: 5}Passes Mondiaux en Or${color: 1}.${prompt}'
-  14026: 'Ces hommes et ces femmes qui se demandent comment leurs actions sont perçues par les habitants locaux doivent se diriger vers ce maître des ragots pour obtenir des informations importantes sur leurs ${color: 5}réputations${color: 1}.${prompt}'
-  14027: 'Le ${color: 5}dépôt d’armures${color: 1} situé ici vous aidera à entretenir vos anciennes tenues d’équipement encombrant votre impeccable Mog House.${prompt}'
-  14028: 'Et voici le ${color: 5}dépôt d’objets${color: 1} où vous pouvez stocker une grande partie de vos meubles festifs, etc., jusqu’à ce que la joie des fêtes disparue ne fasse son chemin vers votre cœur avare.${prompt}'
-  14029: 'Commençons par le Sud de San d’Oria.${prompt}'
+    Bonne journée, ${choice-player-gender}[monseigneur/madame] !
+    Que tes balades à travers champs et montagnes soient marquées d’oubliables souvenirs !${prompt}
+  14018: 'Voici le ${color: 5}point de retour${color: 1} de la zone. Une fois fixé, c’est ici qu’on ramènera tes restes silencieux si jamais tu te fais... salement amocher en plein combat.${prompt}'
+  14019: 'Ici, y a les ${color: 5}ministres de l’immigration${color: 1}. Ils t’aideront si tu veux changer de nationalité sur-le-champ.${prompt}'
+  14020: 'Et si t’es super motivé pour plonger dans l’effervescence médiévale du Conflit ? Je te conseille d’aller causer aux modestes ${color: 5}Pursuivants${color: 1} qu’on trouve ici.${prompt}'
+  14021: 'Notre ${color: 5}minstrel des mélodies${color: 1} du coin est là. Ses airs joyeux pourraient raviver tes souvenirs perdus.${prompt}'
+  14022: 'Ah, et si t’as envie de cacher un surnom bien mérité pour un autre un peu plus glorieux, un ${color: 5}barde voyageur${color: 1} gratte sa harpe mélodieuse par ici.${prompt}'
+  14023: 'Tu peux croiser un gars du Syndicat du Commerce des Produits Spécialisés ici. Et si t’es citoyen de ce fier domaine, il te ${color: 5}téléportera${color: 1} à travers Vana’diel (pour une petite poignée de gils, bien sûr).${prompt}'
+  14024: 'Besoin de savoir la ${color: 5}météo${color: 1} du coin ? Notre météorologue local te fera ses prédictions ici.${prompt}'
+  14025: 'Si tu veux appeler un compagnon miséricordieux dans ce grand royaume, c’est ici qu’un marchand guilleret vend des ${color: 5}Passes Mondiaux en Or${color: 1}.${prompt}'
+  14026: 'Ceux qui s’ demandent comment les gens du coin voient leurs faits et gestes devraient filer voir ce maître des ragots pour des infos précieuses sur leur ${color: 5}réputation${color: 1}.${prompt}'
+  14027: 'Le ${color: 5}dépôt d’armures${color: 1} ici t’aidera à entreposer tes vieilles tenues qui encombrent ta Mog House impeccable.${prompt}'
+  14028: 'Et voilà le ${color: 5}dépôt d’objets${color: 1}, où tu peux ranger plein de meubles festifs et autres, jusqu’à ce que la joie des fêtes refasse un tour dans ton cœur radin.${prompt}'
+  14029: 'On commence par le Sud de San d’Oria.${prompt}'
   14030: 'Passons maintenant au Nord de San d’Oria.${prompt}'
-  14031: 'Et enfin, mais non des moindres, permettez-moi de marquer votre carte pour le Port de San d’Oria.${prompt}'
-  14032: 'Je commence par le Port de Bastok et son magnifique pont-levis.${prompt}'
-  14033: 'Passons maintenant à la métropole commerçante connue sous le nom de Marchés de Bastok.${prompt}'
-  14034: 'Et après les marchés, voici les immenses Mines de Bastok.${prompt}'
-  14035: 'Et enfin, qui pourrait oublier les merveilleuses Métalworks de Bastok, où des esprits maîtres de leur art se rencontrent à travers la République pour réfléchir aux mystères des merveilles mécaniques faites par l’homme.${prompt}'
-  14036: 'Commençons par les Eaux de Windurst.${prompt}'
-  14037: 'Continuons en marquant votre carte des Murs de Windurst.${prompt}'
-  14038: 'Et pendant que j’y suis, permettez-moi de voir votre carte de la Tour du Ciel.${prompt}'
-  14039: 'Ensuite, je vais marquer votre carte des Bois de Windurst.${prompt}'
-  14040: 'Et enfin, permettez-moi de marquer votre carte du Port de Windurst.${prompt}'
-  14041: 'Je vais commencer par marquer les endroits importants sur votre carte des Jardins de Ru’Lude.${prompt}'
-  14042: 'Ensuite, permettez-moi de marquer votre carte de Jeuno Supérieur. Saviez-vous que je fréquente souvent le Marble Bridge chaque fois que j’ai un moment de libre ? Il y a quelque chose dans le nom de cet établissement modèle...${prompt}'
-  14043: 'Passons maintenant à votre carte de Jeuno Inférieur.${prompt}'
-  14044: 'Et enfin, je vais marquer votre carte du Port de Jeuno.${prompt}'
+  14031: 'Et enfin, mais pas des moindres, laisse-moi marquer ta carte pour le Port de San d’Oria.${prompt}'
+  14032: 'Je démarre avec le Port de Bastok et son superbe pont-levis.${prompt}'
+  14033: 'On enchaîne avec la métropole commerçante qu’on appelle les Marchés de Bastok.${prompt}'
+  14034: 'Et après les marchés, voilà les immenses Mines de Bastok.${prompt}'
+  14035: 'Et pour finir, qui pourrait oublier les fameux Ateliers de Métallurgies de Bastok, où des cerveaux géniaux de la République se creusent pour percer les mystères des merveilles mécaniques humaines ?${prompt}'
+  14036: 'On commence avec les Eaux de Windurst.${prompt}'
+  14037: 'On continue en marquant ta carte des Murs de Windurst.${prompt}'
+  14038: 'Et tant que j’y suis, montre-moi ta carte de la Tour du Ciel.${prompt}'
+  14039: 'Ensuite, je vais marquer ta carte des Bois de Windurst.${prompt}'
+  14040: 'Et pour finir, laisse-moi marquer ta carte du Port de Windurst.${prompt}'
+  14041: 'Je vais commencer par marquer les coins importants sur ta carte des Jardins de Ru’Lude.${prompt}'
+  14042: 'Ensuite, laisse-moi marquer ta carte de Jeuno Supérieur. Tu savais que j’aime traîner au Marble Bridge dès que j’ai un moment libre ? Y a un truc dans le nom de ce lieu modèle...${prompt}'
+  14043: 'On passe maintenant à ta carte de Jeuno Inférieur.${prompt}'
+  14044: 'Et enfin, je vais marquer ta carte du Port de Jeuno.${prompt}'
   14045: '${name-player} !${prompt}'
   14046: |-
     <Huff>...You're about to enter the council?
