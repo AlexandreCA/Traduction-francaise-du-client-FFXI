@@ -17442,875 +17442,829 @@ entries:
   7061: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
   7062: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   7063: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
-  7064: |-
-    Enter the battlefield?
-    ${selection-lines}
-    Enter.
-    Decline.${prompt}
-  7065: |-
-    Leave the battlefield?
-    ${selection-lines}
-    Run away.
-    Stay.${prompt}
-  7066: 'You cannot enter the battlefield at present. Please wait a little longer.${wait-animation: 1}${prompt}'
-  7067: 'You cannot enter the battlefield at present. Please wait a little longer.${wait-animation: 1}${prompt}'
-  7068: You have already cleared this battlefield. You may not enter unless you are assisting a player who has not defeated this boss.${prompt}
+  7064: Tallying conquest results...${prompt}
+  7065: Conquest results tallied.${prompt}
+  7066: This region is currently under San d'Orian control.${prompt}
+  7067: This region is currently under Bastokan control.${prompt}
+  7068: This region is currently under Windurstian control.${prompt}
   7069: |-
-    Your time in the battlefield is up!
-    Now exiting...${wait-animation: 1}${prompt}
-  7070: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7071: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7072: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7073: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7074: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7075: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7076: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7077: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7078: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7079: 'You are cleared to enter the battlefield, but you cannot while party members are engaged in combat.${wait-animation: 1}${prompt}'
-  7080: 'You have been enchanted so that you may enter!${wait-animation: 1}${prompt}'
-  7081: 'Your entry enchantment has expired!${wait-animation: 1}${prompt}'
-  7082: |-
-    You are not cleared to enter the battlefield.
-    Now exiting...${wait-animation: 1}${prompt}
-  7083: A cursed seal has been placed upon this platform.${prompt}
-  7084: The battlefield where your party members are engaged in combat is locked. Access is denied.${prompt}
-  7085: There is no response. You cannot escape!${prompt}
-  7086: The door is sealed shut with an evil curse.${prompt}
-  7087: A mysterious force is sealing the platform.${prompt}
-  7088: The old wooden door is locked tight.${prompt}
-  7089: The door is sealed with a mysterious energy.${prompt}
-  7090: It is a giant crystal.${prompt}
-  7091: A strong magical force is whirling up from the platform.${prompt}
-  7092: A fierce column of wind blocks your path. You cannot proceed any further...${prompt}
-  7093: An ominous veil of pitch-black gas blocks your path. You cannot proceed any further...${prompt}
-  7094: An unfathomable light is rising from this strangely marked platform...${prompt}
-  7095: A heavy wooden gate. It is tightly locked...${prompt}
-  7096: You can hear a faint scraping sound from within, but the way is barred by some strange membrane...${prompt}
-  7097: You can hear a faint scraping sound from within, but the way is barred by some strange membrane...${prompt}
-  7098: You can hear a faint scraping sound from within, but the way is barred by some strange membrane...${prompt}
-  7099: You can hear a faint scraping sound from within, but the way is barred by some strange membrane...${prompt}
-  7100: A glowing mist of ever-changing proportions floats before you...${prompt}
-  7101: A solid iron gate. It is tightly locked...${prompt}
-  7102: You see a gigantic crystal, glowing with amber light...${prompt}
-  7103: You see a gigantic crystal, glowing with amber light...${prompt}
-  7104: Looking closely, you see two bell-type symbols painted on the wood, one in red and one in blue...${prompt}
-  7105: Looking closely at the surface of the gate, you can see what appears to be the imprints of a Troll's fist...${prompt}
-  7106: If you listen closely, you can faintly hear female voices singing in rounds...${prompt}
-  7107: It appears as if something had been thrust into the rockface here...${prompt}
-  7108: A decorative door. It appears to be locked...${prompt}
-  7109: The door is locked.${prompt}
-  7110: The gate is locked.${prompt}
-  7111: The door is locked.${prompt}
-  7112: The door is locked.${prompt}
-  7113: There seems to be a space beneath the floor, but you are unable to access it.${prompt}
-  7114: You do not meet the requirements to enter the battlefield. Access is denied.${prompt}
-  7115: '${choice: 0}[Feliz/Ferdinand/Gunnar/Massimo/Oldrich/Siegward/Theobald/Zenji] has fallen. Now leaving the battlefield.${prompt}'
-  7116: '${choice: 0}[Amerita/Beatrice/Henrietta/Jesimae/Karyn/Nanako/Sharlene/Sieghilde] has fallen. Now leaving the battlefield.${prompt}'
-  7117: '${choice: 0}[Chanandit/Deulmaeux/Demresinaux/Ephealgaux/Gauldeval/Grauffemart/Migaifongut/Romidiant] has fallen. Now leaving the battlefield.${prompt}'
-  7118: '${choice: 0}[Armittie/Cadepure/Clearite/Epilleve/Liabelle/Nauthima/Radille/Vimechue] has fallen. Now leaving the battlefield.${prompt}'
-  7119: '${choice: 0}[Balu-Falu/Burg-Ladarg/Ehgo-Ryuhgo/Kolui-Pelui/Nokum-Akkum/Savul-Kivul/Vinja-Kanja/Yarga-Umiga] has fallen. Now leaving the battlefield.${prompt}'
-  7120: '${choice: 0}[Cupapa/Jajuju/Kalokoko/Mahoyaya/Pakurara/Ripokeke/Yawawa/Yufafa] has fallen. Now leaving the battlefield.${prompt}'
-  7121: '${choice: 0}[Fhig/Khuma/Pimy/Raka/Sahyu/Sufhi/Tsuim/Yoli] has fallen. Now leaving the battlefield.${prompt}'
-  7122: '${choice: 0}[Durib/Dzapiwa/Jugowa/Mugido/Voldai/Wagwei/Zayag/Zoldof] has fallen. Now leaving the battlefield.${prompt}'
-  7123: You were unable to protect the special character. Now leaving the battlefield.${prompt}
-  7124: You were unable to protect Prince Trion. Now leaving the battlefield.${prompt}
-  7125: You were unable to protect Captain Volker. Now leaving the battlefield.${prompt}
-  7126: You were unable to protect Ajido-Marujido. Now leaving the battlefield.${prompt}
-  7127: 'Your ${item-singular: 0[2]} is torn...${prompt}'
-  7128: 'Your ${item-singular: 0[2]} ${choice: 1}[/rips into shreds!/is on the verge of tearing apart.../is showing signs of wear...] (${number: 2} ${choice-plurality: 2}[use remains/uses remain].)${prompt}'
-  7129: 'Your ${item-singular: 0[2]} is torn...${prompt}'
-  7130: 'Your ${item-singular: 0[2]} ${choice: 1}[/rips into shreds!/is on the verge of tearing apart.../is showing signs of wear...] (${number: 2} ${choice-plurality: 2}[use remains/uses remain].)${prompt}'
-  7131: You see innumerable stars shimmering in the distance...${prompt}
-  7132: 　${prompt}
-  7133: 　${prompt}
-  7134: 　${prompt}
-  7135: 　${prompt}
-  7136: 　${prompt}
-  7137: 　${prompt}
-  7138: 　${prompt}
-  7139: 　${prompt}
-  7140: |-
-    バトルフィールド_Aの占有制限時間が過ぎました
-    退出します。${wait-animation: 1}${prompt}
-  7141: |-
-    バトルフィールド_Bの占有制限時間が過ぎました
-    退出します。${wait-animation: 1}${prompt}
-  7142: |-
-    バトルフィールド_Cの占有制限時間が過ぎました
-    退出します。${wait-animation: 1}${prompt}
-  7143: |-
-    バトルフィールド_Dの占有制限時間が過ぎました
-    退出します。${wait-animation: 1}${prompt}
-  7144: |-
-    バトルフィールド_Eの占有制限時間が過ぎました
-    退出します。${wait-animation: 1}${prompt}
-  7145: '(今バトルフィールド_Aには誰もいない）${wait-animation: 1}${prompt}'
-  7146: '(今バトルフィールド_Bには誰もいない）${wait-animation: 1}${prompt}'
-  7147: '(今バトルフィールド_Cには誰もいない）${wait-animation: 1}${prompt}'
-  7148: 'バトルリセットかけた${wait-animation: 1}${prompt}'
-  7149: '（部屋解放）${wait-animation: 1}${prompt}'
-  7150: '（ボス_Aを出現させました。）${wait-animation: 1}${prompt}'
-  7151: '（ボス_Bを出現させました。）${wait-animation: 1}${prompt}'
-  7152: '（ボス_Cを出現させました。）${wait-animation: 1}${prompt}'
-  7153: 'remove　1${wait-animation: 1}${prompt}'
-  7154: 'remove　2${wait-animation: 1}${prompt}'
-  7155: 'remove　3${wait-animation: 1}${prompt}'
-  7156: '（ボス_A倒した）${wait-animation: 1}${prompt}'
-  7157: '（ボス_B倒した）${wait-animation: 1}${prompt}'
-  7158: '（ボス_C倒した）${wait-animation: 1}${prompt}'
-  7159: '（ボスやられた）${wait-animation: 1}${prompt}'
-  7160: |-
-    名前でいうと
-    ${entity: 0}、${entity: 1}、
-    ${entity: 2}、${entity: 3}、
-    その他です。${prompt}
-  7161: |-
-    IDでいうと
-    ${number: 0}、${number: 1}、${number: 2}、${number: 3}、${number: 4}、${number: 5}、
-    で占有人数は${number: 6}です。${prompt}
-  7162: |-
-    （バトルフィールド_Aに
-    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
-  7163: |-
-    （バトルフィールド_Bに
-    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
-  7164: |-
-    （バトルフィールド_Cに
-    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
-  7165: |-
-    名前かIDを見ます
-    ${selection-lines}
-    名前
-    ID${prompt}
-  7166: |-
-    どの部屋の名前を見る？
-    ${selection-lines}
-    Ａ
-    Ｂ
-    Ｃ${prompt}
-  7167: |-
-    どの部屋のIDを見る？
-    ${selection-lines}
-    Ａ
-    Ｂ
-    Ｃ${prompt}
-  7168: 部屋_Aのパーティは${prompt}
-  7169: 部屋_Bのパーティは${prompt}
-  7170: 部屋_Cのパーティは${prompt}
-  7171: '入室許可魔法エラー１${wait-animation: 1}${prompt}'
-  7172: '入室許可魔法エラー２${wait-animation: 1}${prompt}'
-  7173: |-
-    あなたがメンバーの中で
-    一番最初にバトルフィールド_Aに入ります${wait-animation: 1}${prompt}
-  7174: |-
-    あなたがメンバーの中で
-    一番最初にバトルフィールド_Bに入ります${wait-animation: 1}${prompt}
-  7175: |-
-    あなたがメンバーの中で
-    一番最初にバトルフィールド_Cに入ります${wait-animation: 1}${prompt}
-  7176: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Aに入ります。${wait-animation: 1}${prompt}
-  7177: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Bに入ります。${wait-animation: 1}${prompt}
-  7178: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Cに入ります。${wait-animation: 1}${prompt}
-  7179: '　部屋_Aの占有人数がおかしい${wait-animation: 1}${prompt}'
-  7180: '　部屋_Bの占有人数がおかしい${wait-animation: 1}${prompt}'
-  7181: '　部屋_Cの占有人数がおかしい${wait-animation: 1}${prompt}'
-  7182: |-
-    （部屋_Aにいるなら木越のエラー。
-    　部屋_Aに入っているフラグが立っていません。
-    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
-  7183: |-
-    （部屋_Bにいるなら木越のエラー。
-    　部屋_Bに入っているフラグが立っていません。
-    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
-  7184: |-
-    （部屋_Cにいるなら木越のエラー。
-    　部屋_Cに入っているフラグが立っていません。
-    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
-  7185: '　部屋_AにIDがないのに部屋_A入室フラグがオン。${wait-animation: 1}${prompt}'
-  7186: '　部屋_BにIDがないのに部屋_B入室フラグがオン。${wait-animation: 1}${prompt}'
-  7187: '　部屋_CにIDがないのに部屋_C入室フラグがオン。）${wait-animation: 1}${prompt}'
-  7188: '（ボス_A倒した後イベント${wait-35: 1}${prompt}'
-  7189: '（部屋_A時間超過イベント${wait-35: 1}${prompt}'
-  7190: '（部屋_A逃走イベント${wait-35: 1}${prompt}'
-  7191: '（ボス_B倒した後イベント${wait-35: 1}${prompt}'
-  7192: '（部屋_B時間超過イベント${wait-35: 1}${prompt}'
-  7193: '（部屋_B逃走イベント${wait-35: 1}${prompt}'
-  7194: '（ボス_C倒した後イベント${wait-35: 1}${prompt}'
-  7195: '（部屋_C時間超過イベント${wait-35: 1}${prompt}'
-  7196: '（部屋_C逃走イベント${wait-35: 1}${prompt}'
-  7197: |-
-    （本当は話しかけられないはずなんですが
-    　話してます。）${wait-animation: 1}${prompt}
-  7198: |-
-    （部屋_A逃走はpendingで
-    　キャンセルされました。
-    　他のイベント割り込み。${wait-animation: 1}${prompt}
-  7199: |-
-    （部屋_A逃走はpendingで
-    　キャンセルされました。
-    　（pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
-  7200: |-
-    （部屋_B逃走はpendingで
-    　キャンセルされました。
-    　他のイベント割り込み。${wait-animation: 1}${prompt}
-  7201: |-
-    （部屋_B逃走はpendingで
-    　キャンセルされました。
-    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
-  7202: |-
-    （部屋_C逃走はpendingで
-    　キャンセルされました。
-    　他のイベント割り込み。${wait-animation: 1}${prompt}
-  7203: |-
-    （部屋_C逃走はpendingで
-    　キャンセルされました。
-    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
-  7204: '（部屋_A逃走pending処理を実行します。${wait-animation: 1}${prompt}'
-  7205: '（部屋_B逃走pending処理を実行します。${wait-animation: 1}${prompt}'
-  7206: '（部屋_C逃走pending処理を実行します。${wait-animation: 1}${prompt}'
-  7207: |-
-    （あなたはリンクデッドしました。
-    　あなたがいたバトルフィールドは
-    　もうすでに別のパーティが使用しているため、
-    　あなたを退出させました。${wait-animation: 1}${prompt}
-  7208: '（defpcのpending処理を実行しました。${wait-animation: 1}${prompt}'
-  7209: |-
-    （部屋_Aから人数を
-    　一人マイナスしました。${wait-animation: 1}${prompt}
-  7210: |-
-    （部屋_Bから人数を
-    　一人マイナスしました。${wait-animation: 1}${prompt}
-  7211: |-
-    （部屋_Cから人数を
-    　一人マイナスしました。${wait-animation: 1}${prompt}
-  7212: |-
-    （あなたが部屋_Aから
-    　最後に抜けるPCです。部屋_Aのワークをリセットします。${wait-animation: 1}${prompt}
-  7213: |-
-    （あなたが部屋_Bから
-    　最後に抜けるPCです。部屋_Bのワークをリセットします。${wait-animation: 1}${prompt}
-  7214: |-
-    （あなたが部屋_Cから
-    　最後に抜けるPCです。部屋_Cのワークをリセットします。${wait-animation: 1}${prompt}
-  7215: |-
-    （あなたの部屋_A入室フラグを
-    　寝かせました。${wait-animation: 1}${prompt}
-  7216: |-
-    （あなたの部屋_B入室フラグを
-    　寝かせました。${wait-animation: 1}${prompt}
-  7217: |-
-    （あなたの部屋_C入室フラグを
-    　寝かせました。${wait-animation: 1}${prompt}
-  7218: |-
-    （あなたのグループが
-    　ボス_Aを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
-  7219: |-
-    （あなたのグループが
-    　ボス_Bを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
-  7220: |-
-    （あなたのグループが
-    　ボス_Cを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
-  7221: |-
-    　あなたは部屋_Aにいてはいけないので、
-    　強制退出させていただきます。${wait-animation: 1}${prompt}
-  7222: |-
-    　あなたは部屋_Bにいてはいけないので、
-    　強制退出させていただきます。${wait-animation: 1}${prompt}
-  7223: |-
-    　あなたは部屋_Cにいてはいけないので、
-    　強制退出させていただきます。${wait-animation: 1}${prompt}
-  7224: '(部屋_Aは準備中です)${wait-animation: 1}${prompt}'
-  7225: '(部屋_Bは準備中です)${wait-animation: 1}${prompt}'
-  7226: '(部屋_Cは準備中です)${wait-animation: 1}${prompt}'
-  7227: |-
-    （あなたは
-    　エンドタグを通りました${wait-animation: 1}${prompt}
-  7228: |-
-    （部屋リクエストエラー
-    　ENDPARAにありえない数値が入っています）${wait-animation: 1}${prompt}
-  7229: '（部屋_A入室にトライします${wait-animation: 1}${prompt}'
-  7230: '（部屋_B入室にトライします${wait-animation: 1}${prompt}'
-  7231: '（部屋_C入室にトライします${wait-animation: 1}${prompt}'
-  7232: |-
-    （Bにトライしましたが、AにIDがあったので
-    　最初から再トライ。${wait-animation: 1}${prompt}
-  7233: |-
-    （Cにトライしましたが、AかBにIDがあったので
-    　最初から再トライ。${wait-animation: 1}${prompt}
-  7234: '(AにはIDがありませんでした)${wait-animation: 1}${prompt}'
-  7235: '(BにはIDがありませんでした)${wait-animation: 1}${prompt}'
-  7236: '(CにはIDがありませんでした)${wait-animation: 1}${prompt}'
-  7237: '(AにIDがありました)${wait-animation: 1}${prompt}'
-  7238: '(BにIDがありました)${wait-animation: 1}${prompt}'
-  7239: '(CにIDがありました)${wait-animation: 1}${prompt}'
-  7240: '(Aはすでに先約がありました)${wait-animation: 1}${prompt}'
-  7241: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
-  7242: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
-  7243: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
-  7244: 'バトルリセットかけた${wait-animation: 1}${prompt}'
-  7245: '（部屋解放）${wait-animation: 1}${prompt}'
-  7246: '（ボス_Aを出現させました。）${wait-animation: 1}${prompt}'
-  7247: '（ボス_Bを出現させました。）${wait-animation: 1}${prompt}'
-  7248: '（ボス_Cを出現させました。）${wait-animation: 1}${prompt}'
-  7249: '（ボス_A消えた）${wait-animation: 1}${prompt}'
-  7250: '（ボス_B消えた）${wait-animation: 1}${prompt}'
-  7251: '（ボス_C消えた）${wait-animation: 1}${prompt}'
-  7252: '（ボス_A倒した）${wait-animation: 1}${prompt}'
-  7253: '（ボス_B倒した）${wait-animation: 1}${prompt}'
-  7254: '（ボス_C倒した）${wait-animation: 1}${prompt}'
-  7255: あなたは部屋Ａに入れそうです${prompt}
-  7256: あなたは部屋Ｂに入れそうです${prompt}
-  7257: あなたは部屋Ｃに入れそうです${prompt}
-  7258: |-
-    現在その部屋で一緒に戦える仲間は
-    ${entity: 0}、${entity: 1}
-    ${entity: 2}、${entity: 3}
-    その他……です${prompt}
-  7259: '（光ってる${wait-animation: 1}${prompt}'
-  7260: '（消えている${wait-animation: 1}${prompt}'
-  7261: '（誰か逃げた）${wait-animation: 1}${prompt}'
-  7262: '（誰かリンクデッド）${wait-animation: 1}${prompt}'
-  7263: 誰もいない${prompt}
-  7264: |-
-    （バトルフィールド_Aに
-    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
-  7265: |-
-    （バトルフィールド_Bに
-    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
-  7266: |-
-    （バトルフィールド_Cに
-    　あなたの仲間が入っています）${wait-animation: 1}${prompt}
-  7267: 'バトルフィールドから離脱します${wait-animation: 1}${prompt}'
-  7268: 'バトルフィールド_Aから離脱します${wait-animation: 1}${prompt}'
-  7269: 'バトルフィールド_Bから離脱します${wait-animation: 1}${prompt}'
-  7270: 'バトルフィールド_Cから離脱します${wait-animation: 1}${prompt}'
-  7271: 'バトルフィールド_Aから逃走しました${wait-animation: 1}${prompt}'
-  7272: 'バトルフィールド_Bから逃走しました${wait-animation: 1}${prompt}'
-  7273: 'バトルフィールド_Cから逃走しました${wait-animation: 1}${prompt}'
-  7274: 'pendingチェックオーケー${wait-35: 3}${prompt}'
-  7275: 'バトルフィールド_Aをクリアします${wait-animation: 1}${prompt}'
-  7276: 'バトルフィールド_Bをクリアします${wait-animation: 1}${prompt}'
-  7277: 'バトルフィールド_Cをクリアします${wait-animation: 1}${prompt}'
-  7278: '（クライアントイベントに突入${wait-animation: 1}${prompt}'
-  7279: '（ボス_A戦終了用イベントフラグ立てます。${wait-animation: 1}${prompt}'
-  7280: '（ボス_B戦終了用イベントフラグ立てます。${wait-animation: 1}${prompt}'
-  7281: '（ボス_C戦終了用イベントフラグ立てます。${wait-animation: 1}${prompt}'
-  7282: |-
-    （部屋_AにいるPCの
-    　退出処理中です。今は逃げられません。${wait-animation: 1}${prompt}
-  7283: |-
-    （部屋_BにいるPCの
-    　退出処理中です。今は逃げられません。${wait-animation: 1}${prompt}
-  7284: |-
-    （部屋_CにいるPCの
-    　退出処理中です。今は逃げられません。${wait-animation: 1}${prompt}
-  7285: '（あなたは前回リンクデッドしました。${wait-animation: 1}${prompt}'
-  7286: '（ゾーンアウトタグを通りました。${wait-animation: 1}${prompt}'
-  7287: |-
-    （あなたは
-    　ペンディングタグを通りました${wait-animation: 1}${prompt}
-  7288: |-
-    （さっきの部屋は
-    　直前に他のグループに予約されました。
-    　pending時に部屋_Aに変更しました。${wait-animation: 1}${prompt}
-  7289: |-
-    （さっきの部屋は
-    　直前に他のグループに予約されました。
-    　pending時に部屋_Bに変更しました。${wait-animation: 1}${prompt}
-  7290: |-
-    （さっきの部屋は
-    　直前に他のグループに予約されました。
-    　pending時に部屋_Cに変更しました。${wait-animation: 1}${prompt}
-  7291: |-
-    （別の部屋が空いてないか
-    　チェックします。${wait-animation: 1}${prompt}
-  7292: '（ボスやられた）${wait-animation: 1}${prompt}'
-  7293: |-
-    名前でいうと
-    ${entity: 0}、${entity: 1}、
-    ${entity: 2}、${entity: 3}、
-    その他です。${prompt}
-  7294: |-
-    IDでいうと
-    ${number: 0}、${number: 1}、${number: 2}、${number: 3}、${number: 4}、${number: 5}、
-    で占有人数は${number: 6}です。${prompt}
-  7295: |-
-    名前かIDを見ます
-    ${selection-lines}
-    名前
-    ID${prompt}
-  7296: |-
-    どの部屋の名前を見る？
-    ${selection-lines}
-    Ａ
-    Ｂ
-    Ｃ${prompt}
-  7297: |-
-    どの部屋のIDを見る？
-    ${selection-lines}
-    Ａ
-    Ｂ
-    Ｃ${prompt}
-  7298: 部屋_Aのパーティは${prompt}
-  7299: 部屋_Bのパーティは${prompt}
-  7300: 部屋_Cのパーティは${prompt}
-  7301: '入室許可魔法エラー１${wait-animation: 1}${prompt}'
-  7302: '入室許可魔法エラー２${wait-animation: 1}${prompt}'
-  7303: |-
-    あなたがメンバーの中で
-    一番最初にバトルフィールド_Aに入ります${wait-animation: 1}${prompt}
-  7304: |-
-    あなたがメンバーの中で
-    一番最初にバトルフィールド_Bに入ります${wait-animation: 1}${prompt}
-  7305: |-
-    あなたがメンバーの中で
-    一番最初にバトルフィールド_Cに入ります${wait-animation: 1}${prompt}
-  7306: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Aに入ります。${wait-animation: 1}${prompt}
-  7307: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Bに入ります。${wait-animation: 1}${prompt}
-  7308: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Cに入ります。${wait-animation: 1}${prompt}
-  7309: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Dに入ります。${wait-animation: 1}${prompt}
-  7310: |-
-    （pendingでのチェックが通りました。
-    　バトルフィールド_Eに入ります。${wait-animation: 1}${prompt}
-  7311: '　部屋_Bの占有人数がおかしい${wait-animation: 1}${prompt}'
-  7312: '　部屋_Cの占有人数がおかしい${wait-animation: 1}${prompt}'
-  7313: |-
-    （部屋_Aにいるならエラー。
-    　部屋_Aに入っているフラグが立っていません。
-    　もしくはtalkエラーで本当は話しかけられない。）${prompt}
-  7314: |-
-    （部屋_Bにいるならエラー。
-    　部屋_Bに入っているフラグが立っていません。
-    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
-  7315: |-
-    （部屋_Cにいるならエラー。
-    　部屋_Cに入っているフラグが立っていません。
-    　もしくはtalkエラーで本当は話しかけられない。）${wait-animation: 1}${prompt}
-  7316: '　部屋_AにIDがないのに部屋_A入室フラグがオン。${wait-animation: 1}${prompt}'
-  7317: '　部屋_BにIDがないのに部屋_B入室フラグがオン。${wait-animation: 1}${prompt}'
-  7318: '　部屋_CにIDがないのに部屋_C入室フラグがオン。）${wait-animation: 1}${prompt}'
-  7319: '（ボス_A倒した後イベント${wait-35: 3}${prompt}'
-  7320: '（部屋_A時間超過イベント${wait-35: 3}${prompt}'
-  7321: '（部屋_A逃走イベント${wait-35: 3}${prompt}'
-  7322: '（ボス_B倒した後イベント${wait-35: 3}${prompt}'
-  7323: '（部屋_B時間超過イベント${wait-35: 3}${prompt}'
-  7324: '（部屋_B逃走イベント${wait-35: 3}${prompt}'
-  7325: '（ボス_C倒した後イベント${wait-35: 3}${prompt}'
-  7326: '（部屋_C時間超過イベント${wait-35: 3}${prompt}'
-  7327: '（部屋_C逃走イベント${wait-35: 3}${prompt}'
-  7328: |-
-    （本当は話しかけられないはずなんですが
-    　話してます。）${wait-animation: 1}${prompt}
-  7329: |-
-    （部屋_A逃走はpendingで
-    　キャンセルされました。
-    　他のイベント割り込み。${wait-animation: 1}${prompt}
-  7330: |-
-    （部屋_A逃走はpendingで
-    　キャンセルされました。
-    　（pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
-  7331: |-
-    （部屋_B逃走はpendingで
-    　キャンセルされました。
-    　他のイベント割り込み。${wait-animation: 1}${prompt}
-  7332: |-
-    （部屋_B逃走はpendingで
-    　キャンセルされました。
-    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
-  7333: |-
-    （部屋_C逃走はpendingで
-    　キャンセルされました。
-    　他のイベント割り込み。${wait-animation: 1}${prompt}
-  7334: |-
-    （部屋_C逃走はpendingで
-    　キャンセルされました。
-    　pendingチェック時にボスが倒されたようです。${wait-animation: 1}${prompt}
-  7335: '（部屋_A逃走pending処理を実行します。${wait-animation: 1}${prompt}'
-  7336: '（部屋_B逃走pending処理を実行します。${wait-animation: 1}${prompt}'
-  7337: '（部屋_C逃走pending処理を実行します。${wait-animation: 1}${prompt}'
-  7338: |-
-    （あなたはリンクデッドしました。
-    　あなたがいたバトルフィールドは
-    　もうすでに別のパーティが使用しているため、
-    　あなたを退出させました。${wait-animation: 1}${prompt}
-  7339: '（defpcのpending処理を実行しました。${wait-animation: 1}${prompt}'
-  7340: |-
-    （部屋_Aから人数を
-    　一人マイナスしました。${wait-animation: 1}${prompt}
-  7341: |-
-    （部屋_Bから人数を
-    　一人マイナスしました。${wait-animation: 1}${prompt}
-  7342: |-
-    （部屋_Cから人数を
-    　一人マイナスしました。${wait-animation: 1}${prompt}
-  7343: |-
-    （あなたが部屋_Aから
-    　最後に抜けるPCです。部屋_Aのワークをリセットします。${wait-animation: 1}${prompt}
-  7344: |-
-    （あなたが部屋_Bから
-    　最後に抜けるPCです。部屋_Bのワークをリセットします。${wait-animation: 1}${prompt}
-  7345: |-
-    （あなたが部屋_Cから
-    　最後に抜けるPCです。部屋_Cのワークをリセットします。${wait-animation: 1}${prompt}
-  7346: |-
-    （あなたの部屋_A入室フラグを
-    　寝かせました。${wait-animation: 1}${prompt}
-  7347: |-
-    （あなたの部屋_B入室フラグを
-    　寝かせました。${wait-animation: 1}${prompt}
-  7348: |-
-    （あなたの部屋_C入室フラグを
-    　寝かせました。${wait-animation: 1}${prompt}
-  7349: |-
-    （あなたのグループが
-    　ボス_Aを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
-  7350: |-
-    （あなたのグループが
-    　ボス_Bを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
-  7351: |-
-    （あなたのグループが
-    　ボス_Cを倒しました。ボス戦終了後イベントを開始します。${wait-animation: 1}${prompt}
-  7352: |-
-    　あなたは部屋_Aにいてはいけないので、
-    　強制退出させていただきます。${wait-animation: 1}${prompt}
-  7353: |-
-    　あなたは部屋_Bにいてはいけないので、
-    　強制退出させていただきます。${wait-animation: 1}${prompt}
-  7354: |-
-    　あなたは部屋_Cにいてはいけないので、
-    　強制退出させていただきます。${wait-animation: 1}${prompt}
-  7355: '(部屋_Aは準備中です)${wait-animation: 1}${prompt}'
-  7356: '(部屋_Bは準備中です)${wait-animation: 1}${prompt}'
-  7357: '(部屋_Cは準備中です)${wait-animation: 1}${prompt}'
-  7358: |-
-    （あなたは
-    　エンドタグを通りました${wait-animation: 1}${prompt}
-  7359: |-
-    （部屋リクエストエラー
-    　ENDPARAにありえない数値が入っています）${wait-animation: 1}${prompt}
-  7360: '（部屋_A入室にトライします${wait-animation: 1}${prompt}'
-  7361: '（部屋_B入室にトライします${wait-animation: 1}${prompt}'
-  7362: '（部屋_C入室にトライします${wait-animation: 1}${prompt}'
-  7363: |-
-    （Bにトライしましたが、AにIDがあったので
-    　最初から再トライ。${wait-animation: 1}${prompt}
-  7364: |-
-    （Cにトライしましたが、AかBにIDがあったので
-    　最初から再トライ。${wait-animation: 1}${prompt}
-  7365: '(AにはIDがありませんでした)${wait-animation: 1}${prompt}'
-  7366: '(BにはIDがありませんでした)${wait-animation: 1}${prompt}'
-  7367: '(CにはIDがありませんでした)${wait-animation: 1}${prompt}'
-  7368: '(AにIDがありました)${wait-animation: 1}${prompt}'
-  7369: '(BにIDがありました)${wait-animation: 1}${prompt}'
-  7370: '(CにIDがありました)${wait-animation: 1}${prompt}'
-  7371: '(Aはすでに先約がありました)${wait-animation: 1}${prompt}'
-  7372: '(Bはすでに先約がありました)${wait-animation: 1}${prompt}'
-  7373: '(Cはすでに先約がありました)${wait-animation: 1}${prompt}'
-  7374: '（条件があってないため入室できません${wait-animation: 1}${prompt}'
-  7375: 'Currently, ${number: 3} members of your party (including yourself) have clearance to enter the battlefield.${prompt}'
-  7376: 'Currently, ${number: 3} members of your alliance (including yourself) have clearance to enter the battlefield.${prompt}'
-  7377: Only ${name-player} can enter the battlefield.${prompt}
-  7378: 'The time limit for this battle is ${number: 3} minutes.${prompt}'
-  7379: 'There is a crack in the ${item-singular: 3[2]}. It no longer contains a monster.${prompt}'
-  7380: 'A crack has formed on the ${item-singular: 3[2]}, and the beast inside has been unleashed!${prompt}'
-  7381: 'Boss mode : ${number: 6}!!${wait-animation: 1}${prompt}'
-  7382: |-
-    Room number to attempt: ${number: 0}.
-    Desired boss mode: ${number: 1}.
-    Difficulty: ${number: 2} (${choice: 2}[Not set/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}
-  7383: '${number: 7}${prompt}'
-  7384: DEBUG1${prompt}
-  7385: |-
-    控え室に戻るか？
-    ${selection-lines}
-    戻らない
-    戻る${prompt}
-  7386: |-
-    （DEBUG）バトルフィールドの初期化に失敗。
-    キャンセルします。${prompt}
-  7387: （DEBUG）変身したボスポップ。${prompt}
-  7388: |-
-    ★↓ワンループ
-    リクエスト部屋番号　　　${number: 1}
-    リクエスト部屋の人数　　${number: 2}
-    リクエスト部屋のBOSS_STATUS　　${number: 3}${prompt}
-  7389: |-
-    チェック部屋番号　　　${number: 1}
-    自分のID　　${number: 2}　★↑ワンループ${prompt}
-  7390: |-
-    リクエスト部屋番号　　　${number: 1}
-    リクエスト部屋の人数　　${number: 2}
-    リクエスト部屋のBOSS_STATUS　　${number: 3}
-    クライアントへの命令　　${number: 0}　★pending抜ける${prompt}
-  7391: |-
-    PARTY0：${number: 1}
-    PARTY1：${number: 2}　PARTY2：${number: 3}${prompt}
-  7392: |-
-    PARTY3：${number: 1}
-    PARTY4：${number: 2}　PARTY5：${number: 3}${prompt}
-  7393: クライアント退出イベント：モード１${prompt}
-  7394: サーバ退出イベント：モード１${prompt}
-  7395: 'CLI_NUM0 = ${number: 0}${wait-animation: 1}${prompt}'
-  7396: 'CLI_NUM1 = ${number: 1}${wait-animation: 1}${prompt}'
-  7397: 'CLI_NUM2 = ${number: 2}${wait-animation: 1}${prompt}'
-  7398: 'CLI_NUM3 = ${number: 3}${wait-animation: 1}${prompt}'
-  7399: 'CLI_NUM4 = ${number: 4}${wait-animation: 1}${prompt}'
-  7400: 'CLI_NUM5 = ${number: 5}${wait-animation: 1}${prompt}'
-  7401: 'CLI_NUM6 = ${number: 6}${wait-animation: 1}${prompt}'
-  7402: 'CLI_NUM7 = ${number: 6}${wait-animation: 1}${prompt}'
-  7403: |-
-    Skip the event?
-    ${selection-lines}
-    Yes.
-    No.${prompt}
-  7404: 'Battlefield clear time: ${number: 3} second${choice-plurality: 3}[/s]!'
-  7405: 'Battlefield clear time: ${number: 3} minute${choice-plurality: 3}[/s], ${number: 2} second${choice-plurality: 2}[/s]!'
-  7406: 'The current battlefield clear time record is ${number: 3} second${choice-plurality: 3}[/s].'
-  7407: 'The current battlefield clear time record is ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s].'
-  7408: |-
-    Called the NPC!
-    PC ID = ${number: 0}!
-    RESULT = ${number: 1}!${prompt}
-  7409: |-
-    Got rid of the NPC!
-    PC ID = ${number: 0}!${prompt}
-  7410: The NPC has fallen, and he can't get up! Leaving room A!${prompt}
-  7411: The NPC has fallen, and he can't get up! Leaving room B!${prompt}
-  7412: The NPC has fallen, and he can't get up! Leaving room C!${prompt}
-  7413: The NPC has fallen, and he can't get up! Leaving room D!${prompt}
-  7414: All party members have fallen in battle. Now leaving the battlefield.${prompt}
-  7415: |-
-    Everybody's fallen in room A, and they can't get up!
-    Leaving room A!${prompt}
-  7416: |-
-    Everybody's fallen in room B, and they can't get up!
-    Leaving room B!${prompt}
-  7417: |-
-    Everybody's fallen in room C, and they can't get up!
-    Leaving room C!${prompt}
-  7418: |-
-    Everybody's fallen in room D, and they can't get up!
-    Leaving room D!${prompt}
-  7419: |-
-    Everybody's fallen in room E, and they can't get up!
-    Leaving room E!${prompt}${prompt}
-  7420: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} second${choice-plurality: 2}[/s], the party will be removed from the battlefield.${prompt}'
-  7421: 'If all party members'' HP are still zero after ${number: 3} minute${choice-plurality: 3}[/s], the party will be removed from the battlefield.${prompt}'
-  7422: What the hell is that number!? It's not possible!!!${prompt}
-  7423: 'Only ${number: 3} ${choice-plurality: 3}[member/members] have clearance to enter the battlefield. This room has reached its maximum capacity.${prompt}'
-  7424: 'You are now able to summon ${choice: 2}[Ifrit/Titan/Leviathan/Garuda/Shiva/Ramuh].${prompt}'
-  7425: You do not meet the requirements to enter the battlefield with your party members. Access is denied.${prompt}
-  7426: The Shimmering Circle you are trying to enter differs from the one your party members have entered. Access is denied.${prompt}
-  7427: 'That record is held by ${number: 5} adventurers, including ${entity: 0}!'
-  7428: 'That record is held by ${entity: 0}!'
-  7429: 'The ${keyitem-singular: 0[2]} snaps in two!${prompt}'
-  7430: |-
-    Select difficulty.
-    ${selection-lines}
-    Very difficult. (Level: ???)
-    Difficult. (Level: ???)
-    Normal. (Level: ${number: 18})
-    Easy. (Level: ${number: 17})
-    Very Easy. (Level: ${number: 16})
-    Leave.${prompt}
-  7431: 'Current difficulty level: ${choice: 2}[Normal/Very difficult/Difficult/Normal/Easy/Very easy].${prompt}'
-  7432: 'A malignant force escapes from your ${item-singular: 3[2]}.${prompt}'
-  7433: 'You are unable to enter the battlefield because ${choice: 0}[one or more of your party members does not have the job master designation/you do not have the job master designation].${prompt}'
-  7434: 'Your ${item-singular: 3[2]} is calling out to something...${prompt}'
-  7435: 'The ${item-singular: 0[2]} has a large crack running straight down the side.${prompt}'
-  7436: 'Something awakens owing to the presence of the ${item-singular: 3[2]}...${prompt}'
-  7437: 'The oath has been fulfilled owing to the power of your ${item-singular: 3[2]}.${prompt}'
-  7438: Tallying conquest results...${prompt}
-  7439: Conquest results tallied.${prompt}
-  7440: This region is currently under San d'Orian control.${prompt}
-  7441: This region is currently under Bastokan control.${prompt}
-  7442: This region is currently under Windurstian control.${prompt}
-  7443: |-
     This region is currently under beastman control.
     You cannot obtain crystals in this region.${prompt}
-  7444: This region is currently neutral.${prompt}
-  7445: |-
+  7070: This region is currently neutral.${prompt}
+  7071: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Windurst
     3rd: Bastok${prompt}
-  7446: All three nations are tied for first place.${prompt}
-  7447: |-
+  7072: All three nations are tied for first place.${prompt}
+  7073: |-
     Global balance of power:
     1st: San d'Oria and Windurst (tie)
     3rd: Bastok${prompt}
-  7448: |-
+  7074: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Bastok and Windurst (tie)${prompt}
-  7449: |-
+  7075: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Bastok
     3rd: Windurst${prompt}
-  7450: All three nations are tied for first place.${prompt}
-  7451: |-
+  7076: All three nations are tied for first place.${prompt}
+  7077: |-
     Global balance of power:
     1st: San d'Oria and Bastok (tie)
     3rd: Windurst${prompt}
-  7452: |-
+  7078: |-
     Global balance of power:
     1st: San d'Oria
     2nd: Bastok and Windurst (tie)${prompt}
-  7453: |-
+  7079: |-
     Global balance of power:
     1st: Bastok
     2nd: San d'Oria
     3rd: Windurst${prompt}
-  7454: All three nations are tied for first place.${prompt}
-  7455: |-
+  7080: All three nations are tied for first place.${prompt}
+  7081: |-
     Global balance of power:
     1st: San d'Oria and Bastok (tie)
     3rd: Windurst${prompt}
-  7456: |-
+  7082: |-
     Global balance of power:
     1st: Bastok
     2nd: San d'Oria and Windurst (tie)${prompt}
-  7457: |-
+  7083: |-
     Global balance of power:
     1st: Bastok
     2nd: Windurst
     3rd: San d'Oria${prompt}
-  7458: All three nations are tied for first place.${prompt}
-  7459: |-
+  7084: All three nations are tied for first place.${prompt}
+  7085: |-
     Global balance of power:
     1st: Bastok and Windurst (tie)
     3rd: San d'Oria${prompt}
-  7460: |-
+  7086: |-
     Global balance of power:
     1st: Bastok
     2nd: San d'Oria and Windurst (tie)${prompt}
-  7461: |-
+  7087: |-
     Global balance of power:
     1st: Windurst
     2nd: San d'Oria
     3rd: Bastok${prompt}
-  7462: |-
+  7088: |-
     Global balance of power:
     All three nations are tied for first place.${prompt}
-  7463: |-
+  7089: |-
     Global balance of power:
     1st: San d'Oria and Windurst (tie)
     3rd: Bastok${prompt}
-  7464: |-
+  7090: |-
     Global balance of power:
     1st: Windurst
     2nd: San d'Oria and Bastok (tie)${prompt}
-  7465: |-
+  7091: |-
     Global balance of power:
     1st: Windurst
     2nd: Bastok
     3rd: San d'Oria${prompt}
-  7466: All three nations are tied for first place.${prompt}
-  7467: |-
+  7092: All three nations are tied for first place.${prompt}
+  7093: |-
     Global balance of power:
     1st: Bastok and Windurst
     2nd: San d'Oria${prompt}
-  7468: |-
+  7094: |-
     Global balance of power:
     1st: Windurst
     2nd: San d'Oria and Bastok${prompt}
-  7469: |-
+  7095: |-
     Conquest update:
     This region is currently neutral.${prompt}
-  7470: |-
+  7096: |-
     Conquest update:
     This region is currently under San d'Orian control.${prompt}
-  7471: |-
+  7097: |-
     Conquest update:
     This region is currently under Bastokan control.${prompt}
-  7472: |-
+  7098: |-
     Conquest update:
     This region is currently under Windurstian control.${prompt}
-  7473: |-
+  7099: |-
     Conquest update:
     This region is currently under beastman control.
     You cannot obtain crystals in this region.${prompt}
-  7474: All three nations are at a deadlock.${prompt}
-  7475: The beastmen are on the rise.${prompt}
-  7476: |-
+  7100: All three nations are at a deadlock.${prompt}
+  7101: The beastmen are on the rise.${prompt}
+  7102: |-
     Regional influence:
     San d'Oria - Dominant${prompt}
-  7477: |-
+  7103: |-
     Regional influence:
     San d'Oria - Major${prompt}
-  7478: |-
+  7104: |-
     Regional influence:
     San d'Oria - Minor${prompt}
-  7479: |-
+  7105: |-
     Regional influence:
     San d'Oria - Minimal${prompt}
-  7480: Bastok - Dominant${prompt}
-  7481: Bastok - Major${prompt}
-  7482: Bastok - Minor${prompt}
-  7483: Bastok - Minimal${prompt}
-  7484: Windurst - Dominant${prompt}
-  7485: Windurst - Major${prompt}
-  7486: Windurst - Minor${prompt}
-  7487: Windurst - Minimal${prompt}
-  7488: Bastok and Windurst have formed an alliance.${prompt}
-  7489: San d'Oria and Windurst have formed an alliance.${prompt}
-  7490: San d'Oria and Bastok have formed an alliance.${prompt}
-  7491: Bastok and Windurst are currently allies.${prompt}
-  7492: San d'Oria and Windurst are currently allies.${prompt}
-  7493: San d'Oria and Bastok are currently allies.${prompt}
-  7494: |-
+  7106: Bastok - Dominant${prompt}
+  7107: Bastok - Major${prompt}
+  7108: Bastok - Minor${prompt}
+  7109: Bastok - Minimal${prompt}
+  7110: Windurst - Dominant${prompt}
+  7111: Windurst - Major${prompt}
+  7112: Windurst - Minor${prompt}
+  7113: Windurst - Minimal${prompt}
+  7114: Bastok and Windurst have formed an alliance.${prompt}
+  7115: San d'Oria and Windurst have formed an alliance.${prompt}
+  7116: San d'Oria and Bastok have formed an alliance.${prompt}
+  7117: Bastok and Windurst are currently allies.${prompt}
+  7118: San d'Oria and Windurst are currently allies.${prompt}
+  7119: San d'Oria and Bastok are currently allies.${prompt}
+  7120: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
-  7495: |-
+  7121: |-
     装備チェック：${number: 0}
     アイテム：${item-singular: 2[2]}
     引くポイント：${number: 3}${prompt}
-  7496: |-
+  7122: |-
     ITEM_ID:${number: 2}
     希望商品番号:${number: 3}${prompt}
-  7497: |-
+  7123: |-
     希望商品番号:${number: 0}
     引くポイント:${number: 1}${prompt}
-  7498: |-
+  7124: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  7499: The beastmen are gaining power.${prompt}
-  7500: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  7501: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  7502: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  7503: San d'Oria's region points have increased!${prompt}
-  7504: Bastok's region points have increased!${prompt}
-  7505: Windurst's region points have increased!${prompt}
-  7506: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  7507: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7508: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7509: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  7510: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  7511: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  7512: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  7513: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  7514: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  7515: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  7516: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  7517: There was a curse on the beastmen's banner!${prompt}
-  7518: The curse of the beastmen's banner has been lifted!${prompt}
-  7519: There is a beastmen's banner.${prompt}
+  7125: The beastmen are gaining power.${prompt}
+  7126: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
+  7127: Bastok's regional control is now 10% closer to the first place country's!${prompt}
+  7128: Windurst's regional control are now 10% closer to the first place country's!${prompt}
+  7129: San d'Oria's region points have increased!${prompt}
+  7130: Bastok's region points have increased!${prompt}
+  7131: Windurst's region points have increased!${prompt}
+  7132: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
+  7133: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
+  7134: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
+  7135: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
+  7136: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
+  7137: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
+  7138: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
+  7139: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
+  7140: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
+  7141: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
+  7142: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
+  7143: There was a curse on the beastmen's banner!${prompt}
+  7144: The curse of the beastmen's banner has been lifted!${prompt}
+  7145: There is a beastmen's banner.${prompt}
+  7146: 　${prompt}
+  7147: 　${prompt}
+  7148: 　${prompt}
+  7149: 　${prompt}
+  7150: 　${prompt}
+  7151: 　${prompt}
+  7152: 　${prompt}
+  7153: 　${prompt}
+  7154: 　${prompt}
+  7155: 　${prompt}
+  7156: 　${prompt}
+  7157: 　${prompt}
+  7158: 　${prompt}
+  7159: 　${prompt}
+  7160: 　${prompt}
+  7161: 　${prompt}
+  7162: 　${prompt}
+  7163: 　${prompt}
+  7164: 　${prompt}
+  7165: 　${prompt}
+  7166: 　${prompt}
+  7167: 　${prompt}
+  7168: 　${prompt}
+  7169: 　${prompt}
+  7170: 　${prompt}
+  7171: 　${prompt}
+  7172: 　${prompt}
+  7173: 　${prompt}
+  7174: 　${prompt}
+  7175: 　${prompt}
+  7176: 　${prompt}
+  7177: 　${prompt}
+  7178: 　${prompt}
+  7179: 　${prompt}
+  7180: 　${prompt}
+  7181: 　${prompt}
+  7182: 　${prompt}
+  7183: 　${prompt}
+  7184: 　${prompt}
+  7185: 　${prompt}
+  7186: 　${prompt}
+  7187: 　${prompt}
+  7188: 　${prompt}
+  7189: 　${prompt}
+  7190: 　${prompt}
+  7191: 　${prompt}
+  7192: 　${prompt}
+  7193: 　${prompt}
+  7194: 　${prompt}
+  7195: 　${prompt}
+  7196: 　${prompt}
+  7197: 　${prompt}
+  7198: 　${prompt}
+  7199: 　${prompt}
+  7200: 　${prompt}
+  7201: 　${prompt}
+  7202: 　${prompt}
+  7203: 　${prompt}
+  7204: 　${prompt}
+  7205: 　${prompt}
+  7206: 　${prompt}
+  7207: 　${prompt}
+  7208: 　${prompt}
+  7209: 　${prompt}
+  7210: 　${prompt}
+  7211: 　${prompt}
+  7212: 　${prompt}
+  7213: 　${prompt}
+  7214: 　${prompt}
+  7215: 　${prompt}
+  7216: 　${prompt}
+  7217: 　${prompt}
+  7218: 　${prompt}
+  7219: 　${prompt}
+  7220: 　${prompt}
+  7221: |-
+    遠征先リージョンナンバー　${number: 0}
+    現在のリージョンナンバー　${number: 1}${prompt}
+  7222: |-
+    増えたポイント　${number: 0}
+    増えたカウント　${number: 1}${prompt}
+  7223: 'Good luck, ${choice: 0}[citizen/comrade]. I will bestow upon you your nation''s Signet.${wait-animation: 0}${prompt}'
+  7224: I cannot help you. You should go find a guard from your own country.${prompt}
+  7225: |-
+    I cannot accept crystals from someone whose rank is still 1.
+    I advise you to either keep them until your reach rank 2, or to use them in craftwork.${prompt}
+  7226: 'Since we are allied with San d''Oria...${wait-animation: 0}${prompt}'
+  7227: 'Since we are allied with Bastok...${wait-animation: 0}${prompt}'
+  7228: 'Since we are allied with Windurst...${wait-animation: 0}${prompt}'
+  7229: |-
+    I am sorry.
+    I am too busy with other matters to be speaking with you.${wait-animation: 0}${prompt}
+  7230: Ah, you have brought us supplies. These will help us indeed. I thank you.${prompt}
+  7231: |-
+    Hmm... These supplies you have brought us are too old to be of any use. We will dispose of them promptly.
+    I do commend you for your effort. May you succeed next time.${prompt}
+  7232: You've earned conquest points!${prompt}
+  7233: |-
+    You've received your nation's Signet.
+    You are now taking part in your nation's conquest campaign!${prompt}
+  7234: |-
+    I am ${name-npc}, a Temple Knight.
+    I am one of the guards charged with overseeing San d'Oria's conquest campaign.${prompt}
+  7235: |-
+    I am ${name-npc}, an Iron Musketeer.
+    I am one of the guards charged with overseeing Bastok's conquest campaign.${prompt}
+  7236: |-
+    I am ${name-npc}, a War Warlock.
+    I am one of the guards charged with overseeing Windurst's conquest campaign.${prompt}
+  7237: |-
+    What is your business?
+    ${selection-lines}
+    Would you cast Signet on me?
+    I want to spend my conquest points.
+    ${choice: 0}[I want to join the Expeditionary Force./Teleport me to the E.F. area.]
+    I want to quit the E.F./change my E.F.
+    I want to go on a supplies quest.
+    I have some questions...
+    Nothing, sorry to bother you.${prompt}
+  7238: |-
+    What do you wish to know about?
+    ${selection-lines}
+    Nothing.
+    Conquests.
+    Conquest results.
+    Donating crystals.
+    Conquest points.
+    The effects of controlling regions.
+    Regions controlled by other nations.
+    Regions under beastman control.${prompt}
+  7239: All three nations are striving daily to put more regions under their control. This is what we call “conquests.” You can take part in it and serve your country by defeating enemies while you have Signet cast on you.${prompt}
+  7240: Each region comprises several areas, and the nation that rids those areas of the most monsters gains control of the region.${prompt}
+  7241: Nations receive goods and resources from regions under their control.${prompt}
+  7242: So, the more regions we control, the richer our nation becomes.${prompt}
+  7243: |-
+    Border guards are also placed in outposts within regions under our control.
+    They are there to cast Signet on adventurers like yourself.${prompt}
+  7244: Once you have your nation's Signet, you will be able to acquire crystals from enemies you defeat.${prompt}
+  7245: Not only that, but you will also receive conquest points. You get more conquest points if you defeat enemies in regions that are not under your nation's control. These points can be used to purchase items from guards like myself.${prompt}
+  7246: |-
+    So you see...conquests benefit nations and adventurers alike.
+    We expect you to do your best to serve your country.${prompt}
+  7247: |-
+    You can see the current state of conquests by selecting “Region Info” from the main menu.
+    Conquest results in all regions are regularly recalculated, so you may want to check them from time to time.${prompt}
+  7248: |-
+    Shops in our city will be selling different items according to our conquest rank.
+    The Troupe Valeriano will also visit the nation that finishes first and bring a little joy to its citizens.${prompt}
+  7249: |-
+    You can donate crystals to your nation once you achieve rank 2.
+    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+  7250: |-
+    We would like you to donate crystals to your nation from now on.
+    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+  7251: |-
+    You can acquire crystals by defeating enemies while you have your nation's Signet.
+    Having Signet cast on you is also the only way of taking part in conquests.${prompt}
+  7252: Rank points will be awarded to you for each crystal you donate, and you may be offered new missions as your rank goes up.${prompt}
+  7253: |-
+    You also receive rank points for completing missions.
+    Complete missions and take part in conquests to raise your rank and serve your country.${prompt}
+  7254: |-
+    You are awarded conquest points when you defeat monsters while you are taking part in conquests.
+    Select "Region Info" from the menu to check your current number of conquest points.${prompt}
+  7255: You can purchase items from guards like myself with your conquest points, but be warned that the number of points you spend will be subtracted from your current total.${prompt}
+  7256: When conquest results are announced, you will be told which country controls the region you are in at that time. Sometimes regions may become neutral, or beastmen may even gain control of regions.${prompt}
+  7257: If we gain control of a region, border guards will be placed at its outposts to help adventurers like you.${prompt}
+  7258: Merchants will also be placed there, and goods from that region will find their way to the local shops here.${prompt}
+  7259: Gaining control of regions is the basic principle behind conquests. We need each of you to do your best, and bring our nation to the top of the ranks.${prompt}
+  7260: Of course, sometimes we lose regions to other nations...so we must try to take them back before the next conquest results are announced.${prompt}
+  7261: As an incentive, we will award you with more conquest points for defeating monsters in those regions.${prompt}
+  7262: But if we are allied with another nation, you will only be awarded the regular rate for defeating monsters in our allies' regions. On the other hand, we will award you with more points for fighting in the top-ranked nation's regions.${prompt}
+  7263: |-
+    Our paramount concern lies in the beastmen gaining control of our regions.
+    If too many of us are defeated in a region, the beastmen will gain control of it.${prompt}
+  7264: If this happens, not only is it a great blow to our pride, but you will be unable to acquire any crystals in that region.${prompt}
+  7265: The beastmen are a menace to all nations. If they rise to power, we must all unite and drive those vile creatures from that region.${prompt}
+  7266: We need you to bring supplies to the outpost border guards who are placed in regions under our control.${prompt}
+  7267: There is one outpost in each region. Select “Region Info” from the menu, and look for the areas with a small flag mark on the map. That is where they are.${prompt}
+  7268: |-
+    Here are the supplies. Just give them to the guard at the outpost and your mission will be complete.
+    Now, choose which outpost you want to go to. We give different rewards for each region, so choose carefully.${prompt}
+  7269: |-
+    Where do you wish to take the supplies?
+    ${selection-lines}
+    　
+    　
+    　
+    　
+    　
+    The Ronfaure Region.${choice: 5}[/ (Done)]
+    The Zulkheim Region.${choice: 6}[/ (Done)]
+    The Norvallen Region.${choice: 7}[/ (Done)]
+    The Gustaberg Region.${choice: 8}[/ (Done)]
+    The Derfland Region.${choice: 9}[/ (Done)]
+    The Sarutabaruta Region.${choice: 10}[/ (Done)]
+    The Kolshushu Region.${choice: 11}[/ (Done)]
+    The Aragoneu Region.${choice: 12}[/ (Done)]
+    The Fauregandi Region.${choice: 13}[/ (Done)]
+    The Valdeaunia Region.${choice: 14}[/ (Done)]
+    Qufim Island.${choice: 15}[/ (Done)]
+    The Li'Telor Region.${choice: 16}[/ (Done)]
+    The Kuzotz Region.${choice: 17}[/ (Done)]
+    The Vollbow Region.${choice: 18}[/ (Done)]
+    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
+    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
+    Tu'Lia.${choice: 21}[/ (Done)]
+    　
+    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
+    　
+    　
+    　
+    　
+    　
+    　
+    　
+    Cancel.${prompt}
+  7270: |-
+    Which E.F. would you like to join?
+    ${selection-lines}
+    .
+    .
+    .
+    .
+    .
+    .
+    The Zulkheim Region (Lv.20～).
+    The Norvallen Region (Lv.25～).
+    .
+    The Derfland Region (Lv.25～).
+    .
+    The Kolshushu Region (Lv.20～).
+    The Aragoneu Region (Lv.25～).
+    The Fauregandi Region (Lv.35～).
+    The Valdeaunia Region (Lv.40～).
+    The Qufim Region (Lv.25～).
+    The Li'Telor Region (Lv.35～).
+    The Kuzotz Region (Lv.40～).
+    The Vollbow Region (Lv.65～).
+    The Elshimo Lowlands Region (Lv.35～).
+    The Elshimo Uplands Region (Lv.45～).
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    .
+    None.${prompt}
+  7271: |-
+    So be it.
+    You have until the next conquest results announcement to complete this mission.
+    Good luck.${prompt}
+  7272: We will dispose of those unusable supplies.${prompt}
+  7273: |-
+    You can only undertake one supply mission per day.
+    Come back later.${prompt}
+  7274: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
+  7275: |-
+    You do not need to donate any more crystals at your current rank.
+    Speak to the guard at the gatehouse for further instructions.${prompt}
+  7276: |-
+    Your rank points are full. We've added the excess to your conquest points.
+    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
+  7277: |-
+    Good work, citizen.
+    We've awarded you rank points for the crystals you've donated.${prompt}
+  7278: |-
+    You currently have ${number: 0} conquest points.
+    Would you like to use them to purchase items?${prompt}
+  7279: |-
+    Which item do you wish to purchase?
+    ${selection-lines}
+    Common items (all ranks).
+    1000-pt. items (rank 1 required).
+    2000-pt. items (rank 2 required).
+    4000-pt. items (rank 3 required).
+    8000-pt. items (rank 4 required).
+    16000-pt. items (rank 5 required).
+    24000-pt. items (rank 6 required).
+    32000-pt. items (rank 7 required).
+    40000-pt. items (rank 8 required).
+    48000-pt. items (rank 9 required).
+    56000-pt. items (rank 10 required).
+    Cancel.${prompt}
+  7280: |-
+    Which item do you wish to purchase?
+    ${selection-lines}
+    Common items (all ranks).
+    2000-pt. items (rank 1 required).
+    4000-pt. items (rank 2 required).
+    8000-pt. items (rank 3 required).
+    16000-pt. items (rank 4 required).
+    24000-pt. items (rank 5 required).
+    32000-pt. items (rank 6 required).
+    40000-pt. items (rank 7 required).
+    48000-pt. items (rank 8 required).
+    56000-pt. items (rank 9 required).
+    .
+    Cancel.${prompt}
+  7281: Currently there are no items available for that rank.${prompt}
+  7282: |-
+    Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
+    Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
+  7283: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 50 conquest points.${prompt}'
+  7284: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 100 conquest points.${prompt}'
+  7285: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 200 conquest points.${prompt}'
+  7286: During the time of the Great War, it was possible to have this item recharged in exchange for Allied Notes. From my understanding, that practice has recently become commonplace in the Near East. Though you'll be needing Imperial Standing credits if you wish to use the service there.${prompt}
+  7287: 'You do not possess the ${number: 1} ${choice-plurality: 1}[conquest point/conquest points] required to fully recharge the ${item-singular: 0[2]}.${prompt}'
+  7288: 'Please be aware that you can only purchase or recharge ${article} ${item-article: 0[2]} once during the period between each conquest results tally.${prompt}'
+  7289: 'The ${item-singular: 0[2]} is already fully charged.${prompt}'
+  7290: 'Your ${item-singular: 0[2]} has received ${number: 2} ${choice-plurality: 2}[charge/charges] in exchange for ${number: 1} ${choice-plurality: 1}[conquest point/conquest points]. It is now fully recharged.${prompt}'
+  7291: 'I will trade you ${article} ${item-article: 0[2]} for your ${item-singular: 1[2]}. May it serve you well.${prompt}'
+  7292: 'You do not meet the requirements to purchase the ${item-singular: 2[2]}.${prompt}'
+  7293: 'Your rank is too low to purchase the ${item-singular: 2[2]}.${prompt}'
+  7294: 'You do not have enough conquest points to purchase the ${item-singular: 2[2]}.${prompt}'
+  7295: |-
+    You cannot equip the ${item-singular: 2[2]}.
+    Do you still wish to proceed?${prompt}
+  7296: |-
+    Your level is too low to equip the ${item-singular: 2[2]}.
+    Do you still wish to proceed?${prompt}
+  7297: |-
+    You seem to be able to equip the ${item-singular: 2[2]}.
+    Do you wish to proceed?${prompt}
+  7298: 'Are you sure you want to purchase the ${item-singular: 2[2]}?${prompt}'
+  7299: |-
+    Proceed?
+    ${selection-lines}
+    Yes, purchase item.
+    Cancel purchase.${prompt}
+  7300: |-
+    Proceed?
+    ${selection-lines}
+    Yes, even though I can't equip it.
+    Cancel purchase.${prompt}
+  7301: |-
+    Which item do you wish to purchase?
+    ${selection-lines}
+    ${lettercase: 1}${item-singular: 0[2]}.
+    ${lettercase: 1}${item-singular: 1[2]}.
+    ${lettercase: 1}${item-singular: 2[2]}.
+    ${lettercase: 1}${item-singular: 3[2]}.
+    ${lettercase: 1}${item-singular: 4[2]}.
+    ${lettercase: 1}${item-singular: 5[2]}.
+    ${lettercase: 1}${item-singular: 6[2]}.
+    ${lettercase: 1}${item-singular: 7[2]}.
+    Next page.
+    Previous page.
+    Back.${prompt}
+  7302: |-
+    Which item do you wish to purchase?
+    ${selection-lines}
+    ${lettercase: 1}${item-singular: 0[2]}...${number: 8} pts.
+    ${lettercase: 1}${item-singular: 1[2]}...${number: 9} pts.
+    ${lettercase: 1}${item-singular: 2[2]}...${number: 10} pts.
+    ${lettercase: 1}${item-singular: 3[2]}...${number: 11} pts.
+    ${lettercase: 1}${item-singular: 4[2]}...${number: 12} pts.
+    ${lettercase: 1}${item-singular: 5[2]}...${number: 13} pts.
+    ${lettercase: 1}${item-singular: 6[2]}...${number: 14} pts.
+    ${lettercase: 1}${item-singular: 7[2]}...${number: 15} pts.
+    Next page.
+    Previous page.
+    Back.${prompt}
+  7303: 'ENDPARA：${number: 0}${prompt}'
+  7304: |-
+    Which service do you request?
+    ${selection-lines}
+    Buy/Sell items.
+    Teleportation.
+    Nothing.${prompt}
+  7305: |-
+    Do you really wish to be teleported?
+    ${selection-lines}
+    Yes.
+    Teleport with gil.
+    Teleport with conquest points.
+    No.${prompt}
+  7306: Welkome to my vorder shop! Trade me all your junk ekwipment ov yourz and I might just give you some konkwest pointz!${prompt}
+  7307: 'And vy popular demand, I now aksept ${item-plural: 0[2]} az well. Trade me vig onez and you''ll earn not only konkwest pointz but good, hard gil to voot!${prompt}'
+  7308: Your nation iz strong in this region. We Movlinz like strong peoplez! I'll sell you my treazurez.${prompt}
+  7309: Your nation iz friendz with other strong nationz. We Movlinz like strong peoplez! I'll sell you my treazurez.${prompt}
+  7310: 'Going away? I kan teleport you to your home nation for ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points]!${prompt}'
+  7311: Ah, you have kollected all mog tabletz! Today iz your lucky day! I kan teleport you to your home nation for free!${prompt}
+  7312: Wait! You have no money! Movlinz hate poor, smelly adventurers! Go on! Get out!${prompt}
+  7313: Wait! You have no points! Movlinz hate wimpy, wussy adventurers! Go on! Get out!${prompt}
+  7314: |-
+    Your nation iz weak! Movlinz hate weak peoplez!
+    Vut we love weak peoplez ekwipment. You kan trade if you want.${prompt}
+  7315: Kome vack again sometime!${prompt}
+  7316: |-
+    Junk...
+    I guess I kan give you a few konkwest points.${prompt}
+  7317: |-
+    Don't you have anything better...?
+    I guess I kan give a handful of konkwest points.${prompt}
+  7318: |-
+    Wowzie! Great goodiez!
+    I've got a vunch of konkwest points for you!${prompt}
+  7319: Some of that junk, even Movlinz don't want! Toss it and try trading again!${prompt}
+  7320: Some of that junk, even Movlinz don't want! Toss it and try trading again!${prompt}
+  7321: |-
+    ${choice: 1}[Junk... I guess I kan give you a few konkwest points./Don't you have anything better...? I guess I kan give a handful of konkwest points./Wowzie! Great goodiez! I've got a vunch of konkwest points for you!]
+    And this here ${number: 0} gil iz for you.${prompt}
+  7322: |-
+    Whoa, one piece at a time, vuddy!
+    We Movlinz only have two eyez and two handz to appraize with, you know?${prompt}
+  7323: (DEBUG) Back to hometown!${prompt}
+  7324: |-
+    What do you want?
+    ${selection-lines}
+    Would you cast Signet on me?
+    I'd like to set my home point here.
+    Nothing.${prompt}
+  7325: |-
+    What do you want?
+    ${selection-lines}
+    Pay ${number: 7} gil and set my home point here.
+    Nothing.${prompt}
+  7326: Your home point has been set.${prompt}
+  7327: You do not have enough gil to set your home point here.${prompt}
+  7328: 'I will set your home point here.${wait-animation: 0}${prompt}'
+  7329: |-
+    We are currently on a beastman-purging campaign. We support adventurers from all nations.
+    Do your best to rid the world of those vile creatures.${prompt}
+  7330: |-
+    We are currently conducting an international exchange campaign.
+    You may spend your conquest points to purchase items from foreign guards.${prompt}
+  7331: |-
+    Thanks to you, our nation is now first in the conquest race!
+    Here is a small token of our appreciation.${prompt}
+  7332: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+  7333: |-
+    You cannot currently purchase this item.
+    Please choose another.${prompt}
+  7334: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
+  7335: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
+  7336: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
+  7337: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+  7338: |-
+    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    ${selection-lines}
+    Join the E.F.
+    Not this time.${prompt}
+  7339: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
+  7340: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
+  7341: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
+  7342: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+  7343: |-
+    I see that you are ready.
+    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
+  7344: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+  7345: |-
+    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    ${selection-lines}
+    Ready!
+    Wait just a minute...${prompt}
+  7346: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+  7347: |-
+    Quit the E.F.?
+    ${selection-lines}
+    Yes.
+    Change locations.
+    No.${prompt}
+  7348: Are you sure?${prompt}
+  7349: |-
+    Really quit the E.F.?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  7350: |-
+    I see.
+    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
+  7351: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
+  7352: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
+  7353: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
+  7354: Your invalid ensignias have been disposed of.${prompt}
+  7355: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
+  7356: 'You received ${number: 1} conquest points!${prompt}'
+  7357: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+  7358: |-
+    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
+    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
+  7359: You could not be teleported. Ask me again, please.${prompt}
+  7360: The conquest results are currently being tallied. Come back later.${prompt}
+  7361: You have received permission to join the Expeditionary Forces!${prompt}
+  7362: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
+  7363: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
+  7364: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
+  7365: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
+  7366: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
+  7367: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
+  7368: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
+  7369: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
+  7370: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
+  7371: 'Your inventory is full. You could not accept the ${item-singular: 0[2]}.${prompt}'
+  7372: You already possess a gate glyph. You cannot hold any more.${prompt}
+  7373: I am Jeunoan Ducal Guard, ${name-npc}. My duty is to support the conquest efforts of Windurst, San d'Oria, and Bastok.${prompt}
+  7374: 　${prompt}
+  7375: 　${prompt}
+  7376: 　${prompt}
+  7377: 　${prompt}
+  7378: 　${prompt}
+  7379: 　${prompt}
+  7380: 　${prompt}
+  7381: 　${prompt}
+  7382: 　${prompt}
+  7383: 　${prompt}
+  7384: 　${prompt}
+  7385: 　${prompt}
+  7386: 　${prompt}
+  7387: 　${prompt}
+  7388: 　${prompt}
+  7389: 　${prompt}
+  7390: 　${prompt}
+  7391: 　${prompt}
+  7392: 　${prompt}
+  7393: 　${prompt}
+  7394: 　${prompt}
+  7395: 　${prompt}
+  7396: 　${prompt}
+  7397: 　${prompt}
+  7398: 　${prompt}
+  7399: 　${prompt}
+  7400: 　${prompt}
+  7401: 　${prompt}
+  7402: 　${prompt}
+  7403: 　${prompt}
+  7404: 　${prompt}
+  7405: 　${prompt}
+  7406: 　${prompt}
+  7407: 　${prompt}
+  7408: 　${prompt}
+  7409: 　${prompt}
+  7410: 　${prompt}
+  7411: 　${prompt}
+  7412: 　${prompt}
+  7413: 　${prompt}
+  7414: 　${prompt}
+  7415: 　${prompt}
+  7416: 　${prompt}
+  7417: 　${prompt}
+  7418: 　${prompt}
+  7419: 　${prompt}
+  7420: 　${prompt}
+  7421: 　${prompt}
+  7422: 　${prompt}
+  7423: 　${prompt}
+  7424: 　${prompt}
+  7425: 　${prompt}
+  7426: 　${prompt}
+  7427: 　${prompt}
+  7428: 　${prompt}
+  7429: 　${prompt}
+  7430: 　${prompt}
+  7431: 　${prompt}
+  7432: 　${prompt}
+  7433: 　${prompt}
+  7434: 　${prompt}
+  7435: 　${prompt}
+  7436: 　${prompt}
+  7437: 　${prompt}
+  7438: 　${prompt}
+  7439: 　${prompt}
+  7440: 　${prompt}
+  7441: 　${prompt}
+  7442: 　${prompt}
+  7443: 　${prompt}
+  7444: 　${prompt}
+  7445: 　${prompt}
+  7446: 　${prompt}
+  7447: 　${prompt}
+  7448: 　${prompt}
+  7449: 　${prompt}
+  7450: 　${prompt}
+  7451: 　${prompt}
+  7452: 　${prompt}
+  7453: 　${prompt}
+  7454: 　${prompt}
+  7455: 　${prompt}
+  7456: 　${prompt}
+  7457: 　${prompt}
+  7458: 　${prompt}
+  7459: 　${prompt}
+  7460: 　${prompt}
+  7461: 　${prompt}
+  7462: 　${prompt}
+  7463: 　${prompt}
+  7464: 　${prompt}
+  7465: 　${prompt}
+  7466: 　${prompt}
+  7467: 　${prompt}
+  7468: 　${prompt}
+  7469: 　${prompt}
+  7470: 　${prompt}
+  7471: 　${prompt}
+  7472: 　${prompt}
+  7473: 　${prompt}
+  7474: 　${prompt}
+  7475: 　${prompt}
+  7476: 　${prompt}
+  7477: 　${prompt}
+  7478: 　${prompt}
+  7479: 　${prompt}
+  7480: 　${prompt}
+  7481: 　${prompt}
+  7482: 　${prompt}
+  7483: 　${prompt}
+  7484: 　${prompt}
+  7485: 　${prompt}
+  7486: 　${prompt}
+  7487: 　${prompt}
+  7488: 　${prompt}
+  7489: 　${prompt}
+  7490: 　${prompt}
+  7491: 　${prompt}
+  7492: 　${prompt}
+  7493: 　${prompt}
+  7494: 　${prompt}
+  7495: 　${prompt}
+  7496: 　${prompt}
+  7497: 　${prompt}
+  7498: 　${prompt}
+  7499: 　${prompt}
+  7500: 　${prompt}
+  7501: 　${prompt}
+  7502: 　${prompt}
+  7503: 　${prompt}
+  7504: 　${prompt}
+  7505: 　${prompt}
+  7506: 　${prompt}
+  7507: 　${prompt}
+  7508: 　${prompt}
+  7509: 　${prompt}
+  7510: 　${prompt}
+  7511: 　${prompt}
+  7512: 　${prompt}
+  7513: 　${prompt}
+  7514: 　${prompt}
+  7515: 　${prompt}
+  7516: 　${prompt}
+  7517: 　${prompt}
+  7518: 　${prompt}
+  7519: 　${prompt}
   7520: 　${prompt}
   7521: 　${prompt}
   7522: 　${prompt}
@@ -18354,1071 +18308,1479 @@ entries:
   7560: 　${prompt}
   7561: 　${prompt}
   7562: 　${prompt}
-  7563: 　${prompt}
-  7564: 　${prompt}
-  7565: 　${prompt}
-  7566: 　${prompt}
-  7567: 　${prompt}
-  7568: 　${prompt}
-  7569: 　${prompt}
-  7570: 　${prompt}
-  7571: 　${prompt}
-  7572: 　${prompt}
-  7573: 　${prompt}
-  7574: 　${prompt}
-  7575: 　${prompt}
-  7576: 　${prompt}
-  7577: 　${prompt}
-  7578: 　${prompt}
-  7579: 　${prompt}
-  7580: 　${prompt}
-  7581: 　${prompt}
-  7582: 　${prompt}
-  7583: 　${prompt}
-  7584: 　${prompt}
-  7585: 　${prompt}
-  7586: 　${prompt}
-  7587: 　${prompt}
-  7588: 　${prompt}
-  7589: 　${prompt}
-  7590: 　${prompt}
-  7591: 　${prompt}
-  7592: 　${prompt}
-  7593: 　${prompt}
-  7594: 　${prompt}
-  7595: |-
-    遠征先リージョンナンバー　${number: 0}
-    現在のリージョンナンバー　${number: 1}${prompt}
-  7596: |-
-    増えたポイント　${number: 0}
-    増えたカウント　${number: 1}${prompt}
-  7597: Il n’y a pas de réponse. Tu ne peux pas t’échapper !${prompt}
-  7598: 'Tu as battu le record de temps pour “${choice: 5}[Un Siècle de Difficultés/Retour dans les Profondeurs/Insecte Bionique/Tirer les Ficelles/Assaut d’Automate/La Comédie Mobline/À Movalpolos !]” !'
-  7599: 'Le record actuel de temps pour terminer le champ de bataille “${choice: 1}[Un Siècle de Difficultés/Retour dans les Profondeurs/Insecte Bionique/Tirer les Ficelles/Assaut d’Automate/La Comédie Mobline/À Movalpolos !]” est de ${number: 3} seconde${choice-plurality: 3}[/s].'
-  7600: 'Le record actuel de temps pour terminer le champ de bataille “${choice: 1}[Un Siècle de Difficultés/Retour dans les Profondeurs/Insecte Bionique/Tirer les Ficelles/Assaut d’Automate/La Comédie Mobline/À Movalpolos !]” est de ${number: 3} minute${choice-plurality: 3}[/s] ${number: 2} seconde${choice-plurality: 2}[/s].'
-  7601: 'Entrée sur le champ de bataille pour “${choice: 1}[Un Siècle de Difficultés/Retour dans les Profondeurs/Insecte Bionique/Tirer les Ficelles/Assaut d’Automate/La Comédie Mobline/À Movalpolos !]” !'
-  7602: |-
-    Quel champ de bataille veux-tu entrer ?
+  7563: PAUSE${prompt}
+  7564: '${number: 1}${prompt}'
+  7565: TEST -> Effect ON!${prompt}
+  7566: TEST -> Effect off...${prompt}
+  7567: |-
+    ...No fun...
+    Nothing around but rocks...
+    I want to see pretty things... Crazy things...${prompt}
+  7568: I'm Tarnotik.${prompt}
+  7569: |-
+    Hm?
+    You ${choice-player-gender}[guy/lady] that want to go deep into Movalpolos? You crazy. Crazier than Tarnotik.${prompt}
+  7570: |-
+    But I like crazies.
+    I take you, but first you give me goodie.${prompt}
+  7571: |-
+    I want crazy goodie.
+    I want flower that grows in snow. That's crazy!${prompt}
+  7572: You give me crazy flower and I take you to Shaft 2716.${prompt}
+  7573: But that's as far as Tarnotik go. Shaft 2716 is bad place. Even crazy Tarnotik not go in there.${prompt}
+  7574: '${lettercase: 1}${item-singular: 0[2]}!${prompt}'
+  7575: Tarnotik happy!${prompt}
+  7576: Tarnotik like crazy adventurer!${prompt}
+  7577: Moblins no break promises! Tarnotik take you to Shaft 2716 now.${prompt}
+  7578: |-
+    Every day fun for Tarnotik!
+    I loves my crazy goodies!
+    I loves my crazy adventurer friend!${prompt}
+  7579: Crazy adventurer ready to go?${prompt}
+  7580: |-
+    Ready?
     ${selection-lines}
-    Aucun.
-    Un Siècle de Difficultés.
-    Retour dans les Profondeurs.
-    Insecte Bionique.
-    Tirer les Ficelles.
-    Assaut d’Automate.
-    La Comédie Mobline.
-    À Movalpolos !.
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .
-    .${prompt}
-  7603: Limite de niveau à 75. La récompense en points d’expérience pour ce champ de bataille sera réduite pour les groupes de sept membres ou plus.${prompt}
-  7604: Limite de niveau à 60. Restreint à une personne. Les compétences des jobs de soutien sont inaccessibles pour ce champ de bataille.${prompt}
-  7605: Limite de niveau à 60. La récompense en points d’expérience pour ce champ de bataille sera réduite pour les groupes de quatre membres ou plus. Restreint aux personnages de la même race.${prompt}
-  7606: |-
-    Promathia renaît !
-    Promathia renaît !
-    Il est plus fort que l’idiot Hume Hume ! Il est plus puissant que la hideuse déesse déesse !${prompt}
-  7607: Nnnous l’emmèèènerons ! Les Mooobliiins ne brisent paaas les prooomesses ! Nnnous l’emmèèènerons au lieu étincelaaant !${prompt}
-  7608: |-
-    Oui ! Lieu étincelant ! Loin vers le nord ! Sous l’eau !
-    Le tremblement a fait tomber la grotte avec des rochers…${prompt}
-  7609: |-
-    Mais nous creussssons !
-    Les Moblins ne brisent pas les prooomesses !
-    Nous emmenons Promathia au lieu étincelaaant !${prompt}
-  7610: Je n’aurais jamais imaginé rencontrer Selh’teus dans cet endroit…${prompt}
-  7611: Cependant, de quoi ces créatures peuvent-elles bien parler… ?${prompt}
-  7612: Shoooowaaaa…${prompt}
-  7613: Qui êtes-vous… gens… ?${prompt}
-  7614: Savez-vous… qui est ce garçon… ?${prompt}
-  7615: Un Galka… ?${prompt}
+    Let's move!
+    Wait a minute...${prompt}
+  7581: |-
+    You look for Jabbos, no?
+    I sees Jabbos in Shaft 2716!${prompt}
+  7582: |-
+    He no crazy. He say he want to be alone.
+    He lock door so he can be alone. Crazy adventurer find ${article} ${item-article: 1[2]}, crazy adventurer can maybe open door.${prompt}
+  7583: You can't fish here.${prompt}
+  7584: You can't fish without a rod in your hands.${prompt}
+  7585: You can't fish without bait on the hook.${prompt}
+  7586: You can't fish at the moment.${prompt}
+  7587: You didn't catch anything.${prompt}
+  7588: '${entity: 0} caught a monster!${prompt}'
+  7589: Your line breaks.${prompt}
+  7590: Your rod breaks.${prompt}
+  7591: Something caught the hook!${prompt}
+  7592: You lost your catch.${prompt}
+  7593: |-
+    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
+    ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
+  7594: You feel there's something here.${prompt}
+  7595: You feel there's something nearby.${prompt}
+  7596: |-
+    You dig up ${article} ${item-article: 0[2]}, but your inventory is full.
+    You regretfully throw the ${item-singular: 0[2]} away.${prompt}
+  7597: '${entity: 0} caught ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
+  7598: You dig and you dig, but find nothing.${prompt}
+  7599: '${number: 0}/${item-singular: 0[2]}をセット${prompt}'
+  7600: |-
+    Your rod breaks.
+    Whatever caught the hook was pretty big.${prompt}
+  7601: |-
+    Your rod breaks.
+    Whatever caught the hook was too heavy to catch with this rod.${prompt}
+  7602: |-
+    You lost your catch.
+    Whatever caught the hook was too small to catch with this rod.${prompt}
+  7603: You lost your catch due to your lack of skill.${prompt}
+  7604: |-
+    Number fished : ${number: 0}
+    Original Dice No. ：${number: 1}＋${number: 2}
+    Result ：${number: 3} (0=caught)
+    ${prompt}
+  7605: You didn't catch anything.${prompt}
+  7606: 'The paper on your ${item-singular: 0[2]} ripped.${prompt}'
+  7607: A tiny goldfish approaches!${prompt}
+  7608: A plump, black goldfish approaches!${prompt}
+  7609: A fat, juicy goldfish approaches!${prompt}
+  7610: There are no goldfish to be found...${prompt}
+  7611: |-
+    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
+    ${entity: 0} regretfully releases it.${prompt}
+  7612: The goldfish slipped off your scoop...${prompt}
+  7613: 'ch${number: 0} skill up check.${prompt}'
+  7614: 'a:${number: 0}.${prompt}'
+  7615: 'Time ${number: 0} / Status ${number: 1} / ${number: 2}${prompt}'
   7616: |-
-    Je suis… Jabbos…
-    J’ai vécu… avec les Moblins… depuis très, très longtemps…${prompt}
-  7617: Très longtemps… en paix…${prompt}
+    d:${number: 0}.
+    e:${number: 1}.
+    f:${number: 2}.
+    g:${number: 3}.${prompt}
+  7617: |-
+    h: ${number: 1}.
+    i: ${number: 0}.
+    sr: ${number: 2}.${prompt}
   7618: |-
-    Mais récemment…
-    Les Moblins… agissent étrangement…${prompt}
-  7619: |-
-    Ils vénèrent le Dieu… du Crépuscule…
-    Ils attaquent… les enfants d’Altana…${prompt}
-  7620: |-
-    Mais je vais… les arrêter…
-    Je promets…
-    Les Moblins… ne brisent pas… les promesses…${prompt}
-  7621: |-
-    Maintenant, partez…
-    Laissez… le reste à… moi…${prompt}
-  7622: Mais…${prompt}
-  7623: Pousse-toi ! Makki arrive !
-  7624: Pousse-toi ! Kukki arrive aussi !${prompt}
-  7625: '!?${prompt}'
-  7626: Attendez là ! Mais vous êtes ces enfants embêtants de Tavnazia !${prompt}
-  7627: |-
-    Whoa !
-    C’est le garçon rigolo !${prompt}
-  7628: |-
-    Whoa !
-    Je t’avais dit qu’on n’aurait pas dû prendre ce raccourci !${prompt}
-  7629: |-
-    Whoa !
-    Qui s’en soucie ? Attrapons-le !${prompt}
+    j:${number: 0}.
+    k:${number: 1}.${prompt}
+  7619: You give up and reel in your line.${prompt}
+  7620: You give up.${prompt}
+  7621: '${entity: 0} obtains ${number: 1} gil.${prompt}'
+  7622: '${entity: 0} caught ${article} ${item-article: 0[2]}!${prompt}'
+  7623: You don't know how much longer you can keep this one on the line...${prompt}
+  7624: You have a good feeling about this one!${prompt}
+  7625: You have a bad feeling about this one.${prompt}
+  7626: You have a terrible feeling about this one...${prompt}
+  7627: You don't know if you have enough skill to reel this one in.${prompt}
+  7628: You're fairly sure you don't have enough skill to reel this one in.${prompt}
+  7629: You're positive you don't have enough skill to reel this one in!${prompt}
   7630: |-
-    ${name-player} !
-    C’est une occasion parfaite pour mettre Selh’teus en garde à vue. On ne peut pas la laisser passer !${prompt}
-  7631: C’est tout ce que vous avez ?${prompt}
-  7632: Je pourrais vous battre tous d’une seule main !${prompt}
-  7633: C’est l’heure de la torture par chatouilles !${prompt}
-  7634: |-
-    Arrrrrrg !
-    Arrêtez-vous là !
-  7635: Hé !${prompt} 
-  7636: |-
-    Hé ! Hé !
-    Laissez-nous sortir d’ici ! Laissez-nous sortir !${prompt}
-  7637: Qu’est-ce que c’est ? Oooh ! Trois Tarutarutaru ont l’air délicieux délicieux !${prompt}
-  7638: Nous sommes des délégués de Jeuno ! Touchez-nous, et vous êtes finis !${prompt}
-  7639: Nous sommes des délégués de Jeuno ! Si vous ne nous laissez pas déléguer, vous êtes finis !${prompt}
-  7640: |-
-    Taisez-vous vous ! Taisez-vous vous vous vous !
-    Les Tarutarutaru bruyants donnent mal à la tête aux Moblins Moblins ! Silence ou je coupe vos gorge gorges !${prompt}
-  7641: Des délégués ? Vous n’auriez pas été envoyés ici par Nag’molada, par hasard ?${prompt}
+    Select Fish Type:
+    ${selection-lines}
+    Saltwater.
+    Freshwater.
+    Item.
+    Flag.
+    Treasure Chest.
+    Monster.${prompt}
+  7631: |-
+    Select one
+    ${selection-lines}
+    ${item-singular: 0[2]}（${number: 0}）.
+    ${lettercase: 1}${item-singular: 1[2]}（${number: 1}）.
+    ${lettercase: 1}${item-singular: 2[2]}（${number: 2}）.
+    ${lettercase: 1}${item-singular: 3[2]}（${number: 3}）.
+    ${lettercase: 1}${item-singular: 4[2]}（${number: 4}）.
+    ${lettercase: 1}${item-singular: 5[2]}（${number: 5}）.
+    ${lettercase: 1}${item-singular: 6[2]}（${number: 6}）.
+    ${lettercase: 1}${item-singular: 7[2]}（${number: 7}）.
+    Next.${prompt}
+  7632: |-
+    l: ${number: 0}.
+    m: ${number: 1}.
+    n: ${number: 2}.
+    CH: ${number: 3}.${prompt}
+  7633: Something caught the hook!!!${prompt}
+  7634: You feel something pulling at your line.${prompt}
+  7635: Something clamps onto your line ferociously!${prompt}
+  7636: 'Your keen angler''s senses tell you that this is the pull of ${article} ${item-article: 0[2]}!${prompt}'
+  7637: This strength... You get the sense that you are on the verge of an epic catch!${prompt}
+  7638: 'The timer has started. ${number: 0} seconds remaining.${prompt}'
+  7639: '${number: 0}sec.${number: 1}/${number: 2}sec.${prompt}'
+  7640: '0:${number: 0} 1:${number: 1} 2:${number: 2} 3:${number: 3}${prompt}'
+  7641: '4:${number: 0} 5:${number: 1} 6:${number: 2} 7:${number: 3}${prompt}'
   7642: |-
-    Attendez… tout le monde…
-    Calmez… vous…
-    Écoutez… moi…${prompt}
-  7643: Jabbo Jabbo ! Que veux-tu veux !?${prompt}
-  7644: Ce garçon… Il n’est pas… Il n’est pas Promathia…${prompt}
-  7645: Il ne ressemble… à rien… comme Promathia…${prompt}
-  7646: |-
-    Huuuh ?
-    Ne ressemblllle paaas à Prooomaaathiaaa ? Tuuu saaaais à quooooi iiil ressemblllle ?${prompt}
-  7647: |-
-    Oui…
-    J’ai vu Promathia… Sa statue…${prompt}
-  7648: Des statues ? Oh ! C’est la statue ! Celle qui a été volée !${prompt}
-  7649: |-
-    Ouais, ouais !
-    Je l’ai vue aussi, aussi ! Ça ne ressemblait à rien au garçon garçon !${prompt}
-  7650: |-
-    Mais, mais…
-    Le garçon garçon a utilisé le pouvoir sombre sombre, comme le dit la légende !${prompt}
+    Select.
+    ${selection-lines}
+    Set.
+    ${keyitem-singular: 8[2]}: ${choice: 0}[ON/OFF].
+    ${keyitem-singular: 9[2]}: ${choice: 1}[ON/OFF].
+    ${keyitem-singular: 10[2]}: ${choice: 2}[ON/OFF].
+    ${keyitem-singular: 11[2]}: ${choice: 3}[ON/OFF].${prompt}
+  7643: |-
+    You lost your catch.
+    Whatever caught the hook was too large to catch with this rod.${prompt}
+  7644: '${number: 0}/${number: 1}(${number: 2}）${prompt}'
+  7645: Version invalid error!${prompt}
+  7646: Hurry before the goldfish sees you!${prompt}
+  7647: '${entity: 0} fishes up a large box!${prompt}'
+  7648: '送出調査${number: 0}${prompt}'
+  7649: 'Fish No：${number: 0} / Bait No：${number: 1} / Hit：${number: 2} >>> ${number: 3}${prompt}'
+  7650: 'Point：${number: 0} >>> ${number: 1}${prompt}'
   7651: |-
-    Oui…
-    Mais il n’y a pas… de cristal… sur sa poitrine…
-    Il ne peut pas… être le vrai… Promathia…${prompt}
-  7652: '…${prompt}'
-  7653: Et vous… n’avez pas été créés par… Promathia… de toute façon…${prompt}
-  7654: Jabbo Jabbo ! Ne recommence pas avec ça !${prompt}
-  7655: |-
-    Jbbs…
-    Jbbs croit les mots de la déesse de l’aube…${prompt}
-  7656: Jaaabbooos est foooulé par les méchaaants !${prompt}
-  7657: Les méchaaants doooivent payeeer !${prompt}
-  7658: Laisssez-les pour le dîner de taisai !${prompt}
-  7659: |-
-    Aïe !
-    Si vous faites ça, nous ne pourrons pas vous échanger la staaatuuue de Promathia !${prompt}
-  7660: Pas de staaatuuue de Promathia !${prompt}
-  7661: Statue… ?${prompt}
-  7662: |-
-    Tarutarutaru !
-    Vous avez la statue statue du Dieu du Crépuscule Crépuscule ?${prompt}
-  7663: |-
-    Taaaruuuu !
-    Vooous aaavez déterrrré la staaatuuue de Prooomaaathiaaa !?${prompt}
+    魚：${item-singular: 1[2]}(${number: 0})
+    skill：${number: 1}${prompt}
+  7652: |-
+    Im Min : ${number: 0}
+    Im Max : ${number: 1}
+    Pz Min : ${number: 2}
+    Pz Max : ${number: 3}${prompt}
+  7653: |-
+    Im Rnd : ${number: 0}
+    Pz Rnd : ${number: 1}${prompt}
+  7654: 'CLI_NUM0:${number: 0} CLI_NUM1:${number: 1} CLI_NUM2:${number: 2} CLI_NUM3:${number: 3}${prompt}'
+  7655: 'CLI_NUM4:${number: 0} CLI_NUM5:${number: 1} CLI_NUM6:${number: 2} CLI_NUM7:${number: 3}${prompt}'
+  7656: 'skill : ${number: 0} size : ${number: 1} kind : ${number: 2} sch : ${number: 3}${prompt}'
+  7657: 'time : ${number: 0} mes : ${number: 1} flag : ${number: 2} bonus : ${number: 3}${prompt}'
+  7658: 'item : ${number: 0} hp : ${number: 1} pow : ${number: 2} swing : ${number: 3}${prompt}'
+  7659: 'suc : ${number: 0} cons : ${number: 1} weight : ${number: 2} +- : ${number: 3}${prompt}'
+  7660: 'speed : ${number: 0} +- : ${number: 1} exc : ${number: 2} client : ${number: 3}${prompt}'
+  7661: 'general : ${number: 0}${prompt}'
+  7662: 'ro:${number: 0} rs:${number: 1} ps:${number: 2} dt:${number: 3}${prompt}'
+  7663: 'ra:${number: 0} ti:${number: 1}${prompt}'
   7664: |-
-    Ouais !
-    Nous savons tout sur cette statue blanche !${prompt}  
-  7665: |-
-    Ouais !
-    Vous voulez cette statue, vous nous échangez le garçon !${prompt}
-  7666: |-
-    Ouais !
-    Échangez-nous le garçon !${prompt}
-  7667: |-
-    Les Moblins veulent veulent la statue statue !
-    C’est écrit dans la légende légende Moblin !${prompt}
-  7668: Mais nous ne pouvons pas leur donner la réincarnation de Promathia !${prompt}
-  7669: Mais Promathia est fort ! Si nous le donnons aux Tarutaru, peut-être qu’il pourra revenir tout seul !${prompt}
+    You spot some familiar footprints.
+    You are convinced that your moogle friend has been digging in the immediate vicinity.${prompt}
+  7665: You get the distinct sense that your moogle friend frequents this spot...${prompt}
+  7666: You have a feeling that your moogle friend has been through this way...${prompt}
+  7667: You suspect that the scenery around here would be to a moogle's liking...${prompt}
+  7668: You have a vague feeling that a moogle would enjoy traversing this terrain...${prompt}
+  7669: You have a hunch that this area would be favored by moogles...${prompt}
   7670: |-
-    !!!
-    Prooomaaathiaaa est en cooolèèère !${prompt}
-  7671: |-
-    !!!
-    Promathia s’échaaappe !${prompt}
-  7672: |-
-    Aaah !
-    Attends attends attends attends ! Ma récompense s’enfuit !${prompt}
-  7673: |-
-    Aaah !
-    Ouvre ouvre ouvre ouvre ! Ma récompense s’échappe !${prompt}
-  7674: |-
-    Attends…
-    Je vais… vous laisser… sortir…
-  7675: |-
-    Shhhooowaaa…
-    Voyageurs… Cet endroit… est dangereux…${prompt}
-  7676: |-
-    Vous… devriez partir… tout de suite…
-    Les Moblins… sont en colère…
-    Qui sait… ce qu’ils pourraient… faire…${prompt}
-  7677: |-
-    Il y a… une sortie… là-bas…
-    Ne… regarde pas… en arrière…
-    Cours…${prompt}
-  7678: |-
-    Et ne…
-    Ne dis à personne… ce que tu as entendu… ou vu ici…
-    Ne…${prompt}
-  7679: Je ne pense pas que cela soit possible.${prompt}
-  7680: |-
-    Monsieur Jabbos.
-    Parmi ce que les Moblins ont dit, il y a encore beaucoup de choses qui me troublent…${prompt}
-  7681: De quoi parlaient-ils avec le garçon ?${prompt}
-  7682: Vous devez nous le dire. Cela pourrait nous aider à retrouver Selh’teus et le mettre en garde à vue.${prompt}
-  7683: |-
-    Shhhhoooowaaa…
-    Alors…
-    Tu sais… à propos du garçon…${prompt}
-  7684: |-
-    Moi aussi… je veux en savoir… plus…
-    Nous devons aller… à Bastok…${prompt}
-  7685: |-
-    C’est ça !
-    Maître Cid pourrait en savoir plus sur ce qui se passe !
-    Je vais ouvrir la voie jusqu’aux Forges. Là, tu pourras nous dire ce que tu sais !${prompt}
-  7686: ${name-player}, je te retrouverai dans le laboratoire de Cid !${prompt}
-  7687: Toi… !${prompt}
-  7688: |-
-    Pourquoi… es-tu… revenu… ?
-    Je n’ai… plus rien… à te dire…${prompt}
-  7689: |-
-    Ne… t’inquiète pas…
-    Je vais convaincre… les Moblins…
-    J’ai juste besoin… de plus de temps…
-    Plus… de temps…${prompt}
-  7690: Reviens à la raison, l’ami.${prompt}
-  7691: Tu essaies de convaincre ces créatures depuis cent ans. Ils ne t’ont pas écouté avant, et ils ne vont pas commencer bientôt.${prompt}
-  7692: Les hommes-bêtes sont nés d’une graine différente de la nôtre. Ils ne comprendront jamais notre logique, et nous ne comprendrons jamais la leur.${prompt}
-  7693: '…${prompt}'
-  7694: Oui, il y a quelques individus des deux côtés qui apprennent à ressentir pour l’autre.${prompt}
-  7695: Cependant, quand les espèces s’unissent en une seule, leur “nature” prend le dessus. La volonté du groupe surpasse celle de l’individu. Cette volonté est leur destin – un destin qui ne peut être modifié.${prompt}
-  7696: Le garçon que nous poursuivons, Selh’teus – les Moblins ne le trahiront jamais car c’est la volonté de leur espèce.${prompt}
-  7697: Et la volonté de leur espèce est celle du Dieu du Crépuscule, Promathia – la même volonté que Selh’teus a héritée il y a plus de dix mille ans.${prompt}
-  7698: |-
-    Non… Tu as… tort…
-    Les Moblins… sont juste… aveugles…
-    Aveugles… à la vérité…
-    Ils… ont été trompés…${prompt}
-  7699: Trompés ? Trompés en quoi ?${prompt}
-  7700: |-
-    Écoute… moi…
-    Il y a très, très longtemps… les Moblins cherchaient…
-    Cherchaient… un géant… de fer… baigné de lumière…${prompt}
-  7701: |-
-    Leur légende…
-    Elle dit… que le géant de fer… leur donnera… le pouvoir…
-    Alors les Moblins… ont commencé à creuser…${prompt}
+    Your chocobo is pulling at the bit.
+    You sense that it is leading you to the ${choice: 0}[east/southeast/south/southwest/west/northwest/north/northeast].${prompt}
+  7671: '${entity: 0} catches ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
+  7672: '${entity: 0} obtained ${keyitem-article: 0[2]}!${prompt}'
+  7673: It appears your chocobo found this item with ease.${prompt}
+  7674: Your chocobo appears to have gained valuable knowledge from this discovery.${prompt}
+  7675: ' FPT ${number: 0} DPT ${number: 1} DoT${number: 2}'
+  7676: ' FPT ${number: 0} TDPT ${number: 1} h${number: 2}'
+  7677: You cannot fish at this time.${prompt}
+  7678: 'You discover a cache of beastman resources and receive ${number: 0} conquest point${choice-plurality: 0}[/s]!${prompt}'
+  7679: 'You discover a cache of beastman resources and receive ${number: 0} Imperial Standing!${prompt}'
+  7680: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
+  7681: 'You receive ${number: 0} bayld!${prompt}'
+  7682: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
+  7683: Tiens, mais n’est-ce pas l’aventurier, ${name-player}.${prompt}
+  7684: Je dois vous féliciter pour votre perspicacité.${prompt}
+  7685: Oui, il y a près de cent ans également que les Moblins ont erré depuis les entrailles de Vana’diel…${prompt}
+  7686: Et puis le scientifique Tarutaru qui a examiné la statue à Tavnazia – ce qu’il a dit sur la statue déterrée d’un labyrinthe…${prompt}
+  7687: Je vous conseille de ne pas baisser votre garde en traversant ces grottes. Le comportement des Moblins est souvent imprévisible, et ils peuvent être bien plus méchants que leurs cousins à la surface.${prompt}
+  7688: Parmi tous les hommes-bêtes, ils semblent réaliser qu’ils sont les enfants du Crépuscule, et c’est ce fait qui les motive.${prompt}
+  7689: Ah oui, un de mes collègues a dit qu’il avait parlé à une créature nommée Tarnotik, au fin fond de l’extrémité est de cette zone que les Moblins appellent Oldton Movalpolos. Que cette bête vous aide ou non…${prompt}
+  7690: Je ne suis toujours pas convaincu que cette grotte soit vraiment le chemin vers Al’Taieu.${prompt}
+  7691: '…${prompt}'
+  7692: Ça ne peut pas être !${prompt}
+  7693: Il n’y a rien d’inhabituel ici.${prompt}
+  7694: |-
+    Tu peux entendre une voix étrange…
+    « Objets, objets, la la la la la～♪ »${prompt}
+  7695: |-
+    Oh mon Gob ! T’es l’un de ces aventurierers, pas vrai ?
+    T’as rien contre moi, ${choice-player-gender}[mec./madame.] J’étais juste en train de m’occuper de mes affairesesses, à chercher des trucs et des machins.${prompt}
+  7696: |-
+    Hé, fais gaffe. Tu veux pas te battre avec moi. J’te transformerai en viande séchée !
+    Attends, et si on devenait amis à la place ? Ça te dit ?${prompt}
+  7697: Je voyage partout dans le monde et j’entends plein d’histoires différentesentes. J’entends même tes histoires. J’peux t’en raconter une, si tu veux.${prompt}
+  7698: Maintenant, écoute bien…${prompt}
+  7699: |-
+    Oh…
+    Eh bien, si c’est comme ça, je me tire d’ici.${prompt}
+  7700: Le Gobelin s’est éclipsé quand tu ne regardais pas…${prompt}
+  7701: Tu peux entendre une voix étrange et rauque…${prompt}
   7702: |-
-    Mais… ce qu’ils ont trouvé…
-    Ce n’était pas le géant… de fer…
-    C’était une statue… de pierre…${prompt}
-  7703: |-
-    Mais ils… croyaient que c’était… ce qu’ils cherchaient…
-    Pourtant… peu importe combien… ils priaient… Peu importe combien d’offrandes ils donnaient…
-    La statue… ne leur donnait rien… en retour…${prompt}
+    Je voyage… j’entends beaucoup…
+    J’entends… des histoires… Peux raconter… si…${prompt}
+  7703: '…écoute…${prompt}'
   7704: |-
-    Pour découvrir… la raison… ils ont quitté les grottes… et ont commencé à attaquer… les gens…
-    Ils enlevaient… et pillaient… Tout pour trouver… une réponse…${prompt}
+    Oh…
+    …je me tire d’ici…${prompt}
   7705: |-
-    Je savais… que je devais essayer de les arrêter…
-    Alors… je suis parti… en voyage pour… en apprendre plus sur… la statue…${prompt}
-  7706: La statue… ?${prompt}
-  7707: |-
-    Ce n’était pas… longtemps… avant que j’apprenne… que ce n’était pas… le géant… de fer… mais Promathia…
-    J’ai dit cela… aux Moblins… en espérant qu’ils… comprendraient… et changeraient… leurs façons…${prompt}
-  7708: |-
-    Mais j’avais tort…
-    J’avais ouvert… la boîte… de Pandore…${prompt}
-  7709: |-
-    Les Moblins… ont commencé à croire… qu’ils étaient les… enfants de Promathia…
-    Et que… c’était leur destin… de haïr… et détruire… les enfants… d’Altana…${prompt}
-  7710: |-
-    Et c’est pourquoi tu restes ici avec les Moblins ?
-    Pour les convaincre de leur erreur ?
-    Pour expier tes péchés ?${prompt}
-  7711: Jabbos, tu n’as pas besoin de te charger d’efforts aussi futiles pour ébranler des destinées inébranlables. Les Moblins auraient fini par réaliser qu’ils étaient nés du Dieu du Crépuscule.${prompt}
-  7712: |-
-    Non… Non…
-    La prêtresse… de Tavnazia… m’a dit…${prompt}
-  7713: |-
-    Notre légende… était fausse…
-    Les Moblins… ne sont pas nés… du Crépuscule…${prompt}
-  7714: |-
-    !?
-    Absurde !${prompt}
-  7715: Veux-tu me faire croire qu’un officiel de la Cathédrale de Tavnazia a renié les enseignements d’Altana !?${prompt}
-  7716: Je n’ai jamais entendu une chose aussi scandaleuse ! Es-tu dans ton bon sens, l’ami !?${prompt}
-  7717: |-
-    Je sais… seulement ce que j’ai entendu…
-    La prêtresse… elle m’a aidé…${prompt}
-  7718: Elle a dit… que le Dieu du Crépuscule… était mort bien avant… que les hommes-bêtes… ne naissent…${prompt}
-  7719: |-
-    Mais… il reviendra…
-    Et apportera… la fin… du monde…${prompt}
-  7720: Elle m’a aussi dit… de continuer… à chercher… le vrai… géant de fer…${prompt}
-  7721: Et quand je… l’aurais trouvé… les dieux endormis… me montreraient… la vérité…${prompt}
-  7722: '…${prompt}'
-  7723: Alors… elle a débarrassé cet endroit… de la statue…${prompt}
-  7724: |-
-    Avec leur… statue disparue… les Moblins… sont retournés dans leurs grottes… et ont recommencé à creuser…
-    À la recherche… du géant de fer…
-    En paix…${prompt}
-  7725: |-
-    Jusqu’à… ce qu’ils trouvent… le cristal…
-    Le cristal… qui donne vie… à Vana’diel…${prompt}
-  7726: '… !${prompt}'
-  7727: |-
-    Jabbo ! Jabbo !
-    Pourquoi ne nous as-tu pas dit dit !?${prompt}
-  7728: Chekochuk !${prompt}
-  7729: |-
-    Jaaabbooos !
-    Nous aaaavons touuut enteeendu !${prompt}
-  7730: |-
-    Jbbs !
-    Jbbs n’a paaas diiit la vééérité aux Mblns !
-    Jbbs a traaahi les Mblns !${prompt}
-  7731: |-
-    Movamuq !
-    Trikotrak… !${prompt}
-  7732: |-
-    Jabbos !
-    Nous sommes très très en colère !
-    Très, très en colère !${prompt}
-  7733: |-
-    Jabbo ! Jabbo !
-    Nous n’avons jamais jamais été aussi en colère colère avant !
-    Jabbo ne nous a jamais jamais menti menti avant !${prompt}rompt}
-  7734: |-
-    I'm...sorry...
-    I didn't...mean to...${prompt}
-  7735: |-
-    Yes...
-    I lied...to you...${prompt}
-  7736: |-
-    I was told...you were...children of...Promathia...
-    But...I couldn't believe...${prompt}
-  7737: |-
-    That's why...
-    I kept...searching...${prompt}
-  7738: |-
-    Searching for...someone...who would tell me...the truth...
-    Searching for...the real god...${prompt}
-  7739: |-
-    Jaaabbooos!
-    Yooou caaan't fooool uuus aaagaaain!
-    Yooou caaan't triiick uuus aaagaaain!${prompt}
-  7740: |-
-    Jbbs!
-    Mbln hv nthng mr t sy t Jbbs!${prompt}
-  7741: |-
-    Wait...
-    I...${prompt}
-  7742: |-
-    Jabbos's!
-    Goodebyongo's!${prompt}
-  7743: Gdbyng!${prompt}
-  7744: Goooodebyoooongo!
-  7745: Wait!${prompt}
-  7746: |-
-    Jabbos! What did they say?
-    Where are you going?${prompt}
-  7747: |-
-    ...
-    I...must go...
-    They...told me...goodbye...${prompt}
-  7748: Then come with us!${prompt}
-  7749: Jabbos, your strength and will to save the Moblins--why not use that ability to save us as well!?${prompt}
-  7750: Save us...?${prompt}
-  7751: Just as the Moblins are bound by the chains of Promathia, the children of Altana, too, are in danger of meeting the same fate.${prompt}
-  7752: If the chains are merely part of the Twilight God's curse, then possibly what you said is true--the Moblins are not the children of Promathia, but simply diseased by his evil will...${prompt}
-  7753: The chains...of Promathia...?${prompt}
-  7754: Come, Jabbos. Let us meet with Cid and derive a plan to rid our world of the twilight's darkness once and for all.${prompt}
-  7755: |-
-    Alright...
-    I will help you...
-    To save...them...${prompt}
-  7756: |-
-    Not us... Them...
-    My friends... The Moblins...${prompt}
-  7757: Chekochuk!${prompt}
-  7758: |-
-    Swipostik!
-    Swipostik!!!${prompt}
-  7759: Noooooooo!!!${prompt}
-  7760: |-
-    You...
-    You...did this...!${prompt}
-  7761: |-
-    Whoa, hold on, Jabbo-man!
-    They didn't do squat!
-  7762: 'Nag''molada...${wait-animation: 1}'
-  7763: 'He did it!${wait-animation: 1}'
-  7764: 'He''s a bad, bad man!${wait-animation: 2}'
-  7765: 'Waaah!${wait-animation: 1}'
-  7766: 'Waaah!${wait-animation: 1}'
-  7767: 'He''s a bad, bad man!${wait-animation: 1}'
-  7768: It is all right, children. Prishe and I are here now. We will not allow Nag'molada to harm you.${prompt}
-  7769: Come out, you lousy rat! Come out and fight like a man!${prompt}
-  7770: |-
-    They're still alive!
-    Come, give me a hand!${prompt}
-  7771: I'm really sorry, Jabbos. It's all my fault. If I hadn't told Nag'molada about Movalpolos, none of this would have happened.${prompt}
-  7772: I should have known that creep would do something this low...${prompt}
-  7773: You...knew that...he was planning...to call forth...the Wyrmking...${prompt}
-  7774: You were only...trying to stop...him...${prompt}
-  7775: '...${prompt}'
-  7776: According to the Tarutaru, Nag'molada disappeared down the path the Moblins cleared for Selh'teus.${prompt}
-  7777: However, it seems as if he caused a cave-in to prevent us from following him...${prompt}
-  7778: The Moblins' wounds are severe. It would be impossible for them to aid us in clearing the tunnel...${prompt}
-  7779: |-
-    He missed their vital organs on purpose.
-    He knew exactly what he was doing. Nag'molada is toying with us...${prompt}
-  7780: |-
-    Arrrgh!
-    I will not...forgive...him for what...he has done to...my friends...
-    Nag'molada...you won't get...away...${prompt}
-  7781: Hold on!${prompt}
-  7782: What do you think you are doing!?${prompt}
-  7783: What...does it...look like...!?${prompt}
-  7784: When I'm...through with him...he'll know...the meaning...of pain!${prompt}
-  7785: Calm down, my friend. We all understand how you feel, but you will never be able to clear this tunnel by yourself.${prompt}
-  7786: But if I...don't...who...will...?${prompt}
-  7787: Dammit! What in Altana's name are we supposed to do now, huh!?${prompt}
-  7788: No matter the hardship, there will always be a path lighted for the righteous.${prompt}
-  7789: When the land no longer gives an answer, we must look to the heavens for guidance.${prompt}
-  7790: Phoenix will be our guiding light. She will show us the way.${prompt}
-  7791: I do not know how, and I do not know when, but I know she will...${prompt}
-  7792: |-
-    Look to the heavens...?
-    Could the path we are searching for...be located in the heavens?${prompt}
-  7793: Well, there you go! If pushin' gets you nowhere, start pullin'! That's what I always say!${prompt}
-  7794: C'mon! Let's go see our buddy Cid. He'll help us out!${prompt}
-  7795: Jabbos! If you really want to get some revenge, stop your whinin' and come with us!
-  7796: There is nothing out of the ordinary here.${prompt}
-  7797: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
-  7798: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
-  7799: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7800: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7801: Now, listen close...${prompt}
-  7802: |-
-    Oh...
-    Well, if that's the case, I'm outta here.${prompt}
-  7803: The Goblin slipped away when you were not looking...${prompt}
-  7804: You can hear a strange, raspy voice...${prompt}
-  7805: |-
-    I travel......hear lots...
-    Hear...stories... Can tell...if...${prompt}
-  7806: '.........listen......${prompt}'
-  7807: |-
-    Oh......
-    ...outta here.........${prompt}
-  7808: |-
     Do you want to hear a story?
     ${selection-lines}
     No, thank you.
     Let's hear one.${prompt}
-  7809: |-
+  7706: |-
     What story would you like to be told?
     ${selection-lines}
     On second thought, maybe later.
-    A Century of Hardship(pt.1).
-    A Century of Hardship(pt.2).
-    Departures.
-    Flames in the Darkness.
+    A Century of Hardship.
+    A Question of Faith.
     Return to the Depths(pt.1).
     Return to the Depths(pt.2).
     Return to the Depths(pt.3).
-    Return to the Depths(pt.4).
-    Return to the Depths(pt.5).
-    To Movalpolos!(pt.1).
-    To Movalpolos!(pt.2).
-    Kipdrix the Faithful.${prompt}
-  7810: ${prompt}
-  7811: ${prompt}
-  7812: ${prompt}
-  7813: |-
+    Better the Demon You Know(pt.1).
+    Better the Demon You Know(pt.2).
+    Better the Demon You Know(pt.3).
+    Newfound Family.
+    A Generous General?(pt.1).
+    A Generous General?(pt.2).
+    A Generous General?(pt.3).
+    A Generous General?(pt.4).
+    A Generous General?(pt.5).
+    A Generous General?(pt.6).
+    To Movalpolos!.
+    Kipdrix the Faithful(pt.1).
+    Kipdrix the Faithful(pt.2).
+    Your Decision.${prompt}
+  7707: ${prompt}
+  7708: ${prompt}
+  7709: ${prompt}
+  7710: |-
     個人デバッグ用メニュー
     ${selection-lines}
     キャンセル
     ワープ
     カメラ
     イベント${prompt}
-  7814: |-
+  7711: |-
     イベントを選択
     ${selection-lines}
-    ボス前
-    ボス後
-    告白
-    壊滅
+    ムバルポロス
     調整用${prompt}
-  7815: ボタン押すと次へ進みます${prompt}
-  7816: |-
+  7712: ボタン押すと次へ進みます${prompt}
+  7713: |-
     ジャンプ先を選択
     ${selection-lines}
-    ボス部屋${prompt}
-  7817: シナリオ条件を満たしていません${prompt}
-  7818: The gate is locked shut.${prompt}
-  7819: Bug Bug! Come come!${prompt}
-  7820: Bug Bug! Smack smack!${prompt}
-  7821: Bug Bug! Go crazy crazy!${prompt}
-  7822: You useless pig pig!${prompt}
-  7823: Eh? Where's Bug Bug?${prompt}
-  7824: No bomb bombs in Shaft!${prompt}
-  7825: Ah... Tiny brain brain goes boom boom.${prompt}
-  7826: No dice dice in battle! We play play later!${prompt}
-  7827: Buuug! Oooveeer heeere nooow!${prompt}
-  7828: Buuug! Cruuush theeem!${prompt}
-  7829: Buuug! Iiit's shooowtiiime!${prompt}
-  7830: Yooouuu iiidiiiooot!${prompt}
-  7831: Buuug! Noooooooooo!${prompt}
-  7832: Nooo booombs! Aaare yooou craaazy!?${prompt}
-  7833: Stuuupiiid! Craaazy!!!${prompt}
-  7834: Haaand oooveeer thooose diiice!!!${prompt}
-  7835: Bg! Pnch! Kck!${prompt}
-  7836: Bg! Kll! Kll!${prompt}
-  7837: Bg! Mghty! Mghty!${prompt}
-  7838: Stpd Bg! Wht Bg thnkng!!!${prompt}
-  7839: Bg? Nnnnnnnnn!${prompt}
-  7840: Wt! Stp! Dn't thrw bmb hr!!!${prompt}
-  7841: Stpd! Stpd!${prompt}
-  7842: Gmbl tmrrw! Kll nw!${prompt}
-  7843: Bug's! Smash's up's this's one's!${prompt}
-  7844: Use's super's Bug's Buster's!${prompt}
-  7845: Bug's! Time's for's Mighty's Strike's!${prompt}
-  7846: Stupid's oaf's! No gruel's for's you's tonight's!${prompt}
-  7847: Bug's! No's sleeping's on's job's!${prompt}
-  7848: Ulp's...${prompt}
-  7849: Now's not's time's for's games's!${prompt}
-  7850: Ugh.${prompt}
-  7851: Ugh ugh.${prompt}
-  7852: Ugggh...${prompt}
-  7853: Arrrgh!${prompt}
-  7854: '...?${prompt}'
-  7855: Ug ug ug.${prompt}
-  7856: <Pant...pant...>${prompt}
-  7857: <Sigh>... Arg!${prompt}
-  7858: Roooorgghghgghh!${prompt}
-  7859: Hrgh...${prompt}
-  7860: Arrrgh! Dahhhicccssshhh!${prompt}
+    ポイントないぷー${prompt}
+  7714: 'Mining is possible here if you have ${article} ${item-article: 0[2]}.${prompt}'
+  7715: 'Probability of loss = ${number: 3}/10000.${prompt}'
+  7716: 'Your ${item-singular: 7[2]} breaks!'
+  7717: 'You successfully dig up ${article} ${item-article: 0[2]}!'
+  7718: 'You dig up ${article} ${item-article: 0[2]}, but your ${item-singular: 7[2]} breaks in the process.'
+  7719: You are unable to mine anything.
+  7720: You cannot carry any more items. Your inventory is full.
+  7721: |-
+    This place being for garbage.
+    No fires. No bombs.${prompt}
+  7722: |-
+    Stupid people.
+    You don't getting what I'm saying.${prompt}
+  7723: |-
+    How do you respond?
+    ${selection-lines}
+    Huh?
+    I getting you.${prompt}
+  7724: |-
+    Do you really getting me?
+    Okay. Killing bombs. Bringing ${item-plural: 1[2]}.${prompt}
+  7725: |-
+    Five is being too many.
+    No more than four. Can't having fires around here.${prompt}
+  7726: |-
+    Killing bombs.
+    Bringing ${item-plural: 1[2]}.${prompt}
+  7727: |-
+    You bringing it!
+    This being perfect! You not being so stupid after all.${prompt}
+  7728: |-
+    Now what?
+    You wanting something from me?
+    I guess I should giving you a reward.${prompt}
+  7729: |-
+    You can having this.
+    Looking like garbage, but it being important to us Moblins.${prompt}
+  7730: |-
+    Take it?
+    ${selection-lines}
+    I'll take it.
+    No thanks.${prompt}
+  7731: |-
+    Good, good.
+    You being smart. Very, very clever.${prompt}
+  7732: |-
+    Taking it, taking it.
+    You being very stupid. You saying stupid things.${prompt}
+  7733: |-
+    Stupid people.
+    You already having one.
+    You don't needing two of the same thing.${prompt}
+  7734: When Brakobrik realizes that you already possess the item he is trying to give you, he refuses to give you another one.${prompt}
+  7735: |-
+    ...
+    You figuring it out?${prompt}
+  7736: |-
+    Okay, okay. Don't being mad.
+    You can having my treasure.
+    It being very shiny. Very pretty.${prompt}
+  7737: |-
+    Don't bothering me.
+    I'm being busy.${prompt}
+  7738: |-
+    Nsy pipul. Gattohre!
+    I bisynw!${prompt}
+  7739: |-
+    ...!?
+    Daaawwwn...!?${prompt}
+  7740: |-
+    Aaaltaaanaaa...
+    Diiieee!!!${prompt}
+  7741: |-
+    Nashinchnge baidis!
+    Yupipul taimiz upp!${prompt}
+  7742: |-
+    Karmdn!
+    Litmi handurza uplda!${prompt}
+  7743: '...Urrr!?${prompt}'
+  7744: |-
+    That...${keyitem-singular: 1[2]}...is very...dangerous...here...
+    I will...take it...for you...${prompt}
+  7745: |-
+    You...should leave...now...and not...turn back...
+    That...would be...for the...best.${prompt}
+  7746: |-
+    Listen...to me...
+    Do not...tell...anyone...what...you saw...here...${prompt}
+  7747: |-
+    Karmdn!
+    Litmi handurza uplda!${prompt}
+  7748: '...Urrr!?${prompt}'
+  7749: |-
+    That...${keyitem-singular: 1[2]}...very...dangerous...here.
+    Me...take...${prompt}
+  7750: I...learned...speak...from...Galka.${prompt}
+  7751: |-
+    Galka...not here...not here...now.
+    You...should...leave...${prompt}
+  7752: 'The ${keyitem-singular: 1[2]} was taken from you...${prompt}'
+  7753: A monster has appeared!${prompt}
+  7754: 'This chest is locked. It can be opened with ${article} ${item-article: 0[2]}.${prompt}'
+  7755: This chest is empty.${prompt}
+  7756: Your inventory is full. You cannot carry any more items.${prompt}
+  7757: You must be closer to the chest to open it.${prompt}
+  7758: '${entity: 0} opens the chest and finds ${article} ${item-article: 0[2]}.${prompt}'
+  7759: |-
+    The item in this chest cannot be handled by the other members of your party.
+    ${entity: 0} receives the ${item-singular: 0[2]}.${prompt}
+  7760: '${entity: 0} obtains a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
+  7761: 'You obtain a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
+  7762: You unlock the chest!${prompt}
+  7763: '${entity: 0} fails to open the chest.${prompt}'
+  7764: The chest was trapped!${prompt}
+  7765: You cannot open the chest when you are in a weakened state.${prompt}
+  7766: The chest was a mimic!${prompt}
+  7767: You cannot open the chest while participating in the moogle event.${prompt}
+  7768: The chest was but an illusion...${prompt}
+  7769: |-
+    The chest appears to be locked.
+    If only you had ${article} ${item-article: 0[2]}, perhaps you could open it...${prompt}
+  7770: It's all your fault.${prompt}
+  7771: 'This''s all your fault.${wait-animation: 1}'
+  7772: 'He''ll love ${item-plural: 1[2]}, you said.${prompt}'
+  7773: '${lettercase: 1}${item-plural: 2[2]} are better, you said.${prompt}'
+  7774: 'Get some ${item-plural: 3[2]}, you said.${prompt}'
+  7775: '${lettercase: 1}${item-plural: 4[2]} won''t work, you said.${prompt}'
+  7776: '...${prompt}'
+  7777: '...${wait-animation: 1}'
+  7778: Yeah, let's blame it on the adventurer.${prompt}
+  7779: 'Let''s blame it on this ${choice-player-gender}[guy/gal].${wait-animation: 1}'
+  7780: This'll get us out of trouble.${prompt}
+  7781: 'Let''s go back to Jeuno.${wait-animation: 1}'
+  7782: Our Moblin guide is waitin' in there.${prompt}
+  7783: He's gonna ask about you, for sure.${prompt}
+  7784: |-
+    If the plan fails, you're Orc meat.
+    Be ready.${prompt}
+  7785: Jahb, naggekwaha ronmhu deig?${prompt}
+  7786: Seidhi, hee, dahharho ronmhu Goblin.${prompt}
+  7787: |-
+    Pughuu dabba.
+    Seghib aarogha, Goblin.${prompt}
+  7788: Sei, chabuirho, hee Goblin?${prompt}
+  7789: |-
+    Dahha!
+    Dahhaan!${prompt}
+  7790: |-
+    Auha, dhin.
+    Gaevhoaa, ouwajhu.${prompt}
+  7791: |-
+    He's gettin' suspicious.
+    Wants to know why ya don't speak Goblin.${prompt}
+  7792: This magic makes a Goblin all person. Makes 'em stupid.${prompt}
+  7793: '...${prompt}'
+  7794: |-
+    Then Tarnotik speak different for crazy Goblin.
+    Take crazy Goblins where they want to go.${prompt}
+  7795: You talk people talk?${prompt}
+  7796: |-
+    Tarnotik learn crazy people speak.
+    Learn the language of Promathia.${prompt}
+  7797: Who taught ya?${prompt}
+  7798: 'Forget that! First bring crazy ${item-singular: 4[2]}!${prompt}'
+  7799: |-
+    There's a crazy celebration now.
+    The reincarnation of Promathia has come.${prompt}
+  7800: Promathia was reborn?${prompt}
+  7801: Tarnotik take you to meet Promathia, but this crazy Goblin get killed in there wearing people face.${prompt}
+  7802: Tarnotik not sure if he should really send you deep into Movalpolos with crazy warp magic.${prompt}
+  7803: Crazy flower that grows in snow...${prompt}
+  7804: |-
+    You scared?
+    Maybe you don't got the guts for this.${prompt}
+  7805: We're goin'. See you in Mine Shaft 2716.${prompt}
+  7806: |-
+    Oops, we don't got your tear.
+    Give the Moblin a tear from one of those big eye guys.
+    He'll send you to Mine Shaft 2716.${prompt}
+  7807: |-
+    Hee, Goblin?
+    ${selection-lines}
+    Sure.
+    Not so much.${prompt}
+  7808: |-
+    You really wanna go?
+    ${selection-lines}
+    I'm crazy enough!
+    Maybe not...${prompt}
+  7809: Moblins no break promises! Tarnotik send you to Shaft 2716 now.${prompt}
+  7810: Tarnotik has seen those crazy big eye guys that fly around out there. They cry crazy tears. Pretty, sparkly tears.${prompt}
+  7811: |-
+    Drippy, pretty, sparkly, crazy tears.
+    You bring one to Tarnotik, and Tarnotik send you deep into Movalpolos, to Shaft 2716.${prompt}
+  7812: |-
+    Hey, Tarnotik remembers you!
+    You crazy Goblin with person-shape magic!${prompt}
+  7813: You want Tarnotik to send you crazy deep into Movalpolos again?${prompt}
+  7814: Back off!${prompt}
+  7815: |-
+    No mail! No mail!
+    My brother is missing!${prompt}
+  7816: |-
+    Zeelozok always sends me letters!
+    Always!${prompt}
+  7817: 'Zeelozok is on a pilgrimage to teach the other beastmen about Promathia''s ${choice: 5}[statue/reincarnation].${prompt}'
+  7818: |-
+    He went to Davoi first to talk to the Orcs, followers of the Kindred.
+    My brother will teach them that the Divinity of Darkness who the Kindred worship is a false idol.${prompt}
+  7819: |-
+    Promathia has been reborn.
+    Zeelozok went first to Davoi to enlighten the Orcs.${prompt}
+  7820: |-
+    Something must've happened in Davoi.
+    I want to go and find my brother, but I don't know how to get there.${prompt}
+  7821: |-
+    Something must've happened in Davoi.
+    I want to go and find my brother, but I can't leave Movalpolos right now.${prompt}
+  7822: |-
+    That's why you're going in my place.
+    If you fear Promathia, you'll do as the Moblins say.${prompt}
+  7823: |-
+    Are you afraid of Promathia?
+    ${selection-lines}
+    Terrified.
+    Not particularly...${prompt}
+  7824: |-
+    That's the way it should be.
+    Now go and find Zeelozok.
+    He said he was going to Davoi to see the Orcs.${prompt}
+  7825: Promathia will be reborn and mash your people into oblivion!${prompt}
+  7826: |-
+    Zeelozok said he was going to see the Orcs in Davoi.
+    Go and find my brother!${prompt}
+  7827: |-
+    A letter!
+    This is a letter from my brother!${prompt}
+  7828: He got in to talk to the overlord, but the Orcs were too stupid to understand what he was saying.${prompt}
+  7829: Zeelozok writes that the Orcs only follow the strong. The demon army of the Kindred crushed the Orcs, so the Orcs obey the demons.${prompt}
+  7830: |-
+    Then Zeelozok was taken captive.
+    The Orcs said that people and Moblins are only good for eating.${prompt}
+  7831: |-
+    My brother is really good at digging, though.
+    He dug a tunnel straight out of Davoi and escaped.${prompt}
+  7832: But he was mighty mad by now, and said he let all the other “food” go free as well.${prompt}
+  7833: |-
+    He got something from them as thanks.
+    We don't need this stuff, so you can have it.${prompt}
+  7834: |-
+    You're pretty useful for a person!
+    Keep up the good work and show your obedience to the Moblins, and to Promathia!${prompt}
+  7835: |-
+    I got another letter from my brother.
+    He says that he's visiting the Yagudo next.${prompt}
+  7836: |-
+    The Yagudo say that their god lives among them.
+    Maybe their god is the reincarnation of Promathia!${prompt}
+  7837: |-
+    The Yagudo say that their god lives among them.
+    Maybe their god is the same reincarnation of Promathia that appeared to us!${prompt}
+  7838: Zeelozok went to Castle Oztroja to see for himself.${prompt}
+  7839: The Yagudo wouldn't let him meet with their god, so instead he found someone who's seen their divinity close up.${prompt}
+  7840: Zeelozok found a Yagudo who was injured while protecting the bird people's deity.${prompt}
+  7841: 'He wants someone to bring him ${article} ${item-article: 1[2]}, but I don''t know where to get one of those.${prompt}'
+  7842: If you find some, take it to Zeelozok in the bird men's fortress.${prompt}
+  7843: |-
+    Do as she asks?
+    ${selection-lines}
+    I've come this far...
+    Not this time.${prompt}
+  7844: 'Find ${article} ${item-article: 1[2]} and take it to Castle Oztroja!${prompt}'
+  7845: 'My brother wants ${article} ${item-article: 1[2]} for the Yagudo who was injured protecting the bird men''s deity.${prompt}'
+  7846: |-
+    You took your time getting back.
+    I got another letter from Zeelozok that explains what happened.${prompt}
+  7847: Before the injured Yagudo died, he told Zeelozok about his god.${prompt}
+  7848: The Yagudo divinity has nothing to do with Promathia.${prompt}
+  7849: And since the Kindred stole the sacred vessel of their god, the Yagudo have no choice but to obey them.${prompt}
+  7850: |-
+    Zeelozok said the Moblins follow the true god.
+    After hearing this, the Yagudo chased him out of Oztroja!${prompt}
+  7851: Now Zeelozok is in Beadeaux, talking with the Quadav.${prompt}
+  7852: |-
+    Here's a surprise!
+    He says that the Quadav are far smarter than he expected!${prompt}
+  7853: They knew that the Moblins had found a big sparkly crystal and were really impressed!${prompt}
+  7854: They said that they would help the Moblins to destroy Bastok.${prompt}
+  7855: |-
+    But first they want to see proof that the big sparkly crystal really exists.
+    Aw, come on!${prompt}
+  7856: |-
+    Well, fair's fair, I suppose.
+    Here, take this ${keyitem-singular: 1[2]} to the Quadav near the smoking kilns.${prompt}
+  7857: |-
+    Beadeaux is not that far from here, right?
+    Do your job right and I'll put a good word in for you when Promathia comes to destroy all the children of Altana.${prompt}
+  7858: |-
+    Help out again?
+    ${selection-lines}
+    Hail Promathia!
+    I've had enough.${prompt}
+  7859: |-
+    Say whatever you want.
+    You can't defy the will of Promathia.${prompt}
+  7860: |-
+    Right, then.
+    Go to the smoking kilns in Beadeaux.
+    The Quadav will be waiting for you.${prompt}
   7861: |-
-    Ho-ho, ho-ho!
-    Time for goodebyongo!${prompt}
+    The mail's in.
+    My brother writes that the Quadav deceived the Moblins.${prompt}
   7862: |-
-    Hey-hey, hey-hey!
-    Are you here to stay?${prompt}
-  7863: Roly-poly, roly-poly♪${prompt}
-  7864: |-
-    Hoo-hoo, hoo-hoo.
-    Maybe dice like you!${prompt}
-  7865: |-
-    Hee-hee, hee-hee!
-    Today, dice like me!${prompt}
-  7866: Go-go, go-go!${prompt}
-  7867: Ha-ha, ha-ha!${prompt}
+    They gave proof of the big sparkly crystal straight to the Kindred.
+    The Moblins were betrayed to improve the standing of the Quadav.${prompt}
+  7863: |-
+    I just don't get it.
+    Why don't any of them understand that the Moblins are right?${prompt}
+  7864: Orcs, Quadav, Yagudo, Moblins--we were all born from Promathia.${prompt}
+  7865: When Zeelozok gets back, I'm going with him on his next trip.${prompt}
+  7866: |-
+    You've made yourself useful, so you can come along, too.
+    Take this with you.${prompt}
+  7867: |-
+    Just hold on to it.
+    Promathia loathes the children of the Dawn Goddess.
+    You people have gotta try harder to get into the Twilight God's good books.${prompt}
   7868: |-
-    Yay-yay, yay-yay!
-    Not your lucky day!${prompt}
+    My little brother has come back!
+    Zeelozok, welcome home!${prompt}
   7869: |-
-    No-no, no-no!
-    Papa bought me that, you know!${prompt}
+    I'm Zeelozok.
+    Thanks for all your help.${prompt}
   7870: |-
-    No-no, no-no!
-    Not how it's 'sposed to go!${prompt}
+    I learned some things from visiting the Orcs, the Yagudo, and the Quadav.
+    My travels have taught me much.${prompt}
   7871: |-
-    Huff-huff, huff-huff...
-    You play too rough...${prompt}
+    Orcs will follow anyone with strength.
+    Yagudo will follow anyone who holds their sacred vessel.
+    Quadav will follow anyone who can give them status.${prompt}
   7872: |-
-    Ow-ow, ow-ow!
-    You make me mad now!${prompt}
+    And then I realized: we should conquer the Kindred demons.
+    We would then hold the sacred vessel, and status would cease to have meaning.${prompt}
   7873: |-
-    Ho-ho, ho-ho!
-    Goodebyongo!${prompt}
-  7874: '${color-alt: 15}The Moblin Fantocciniman begins to panic.${prompt}'
-  7875: |-
-    We not go down without fight. That be promise.
-    Just you watch. This be end of you.${prompt}
-  7876: '${color-alt: 123}Afflicted by ${choice: 0}[Max HP/Max MP/STR/DEX/VIT/AGI/INT/MND/CHR] Down.${prompt}'
-  7877: That's the crazy reincarnation of Promathia.${prompt}
-  7878: That's the crazy servant of Promathia.${prompt}
-  7879: He said he brought the reincarnation of Promathia to Movalpolos.${prompt}
-  7880: Are you sure about this, Moblin?${prompt}
-  7881: Is that really him, Moblin?${prompt}
+    There are too many demons to hack up, though.
+    That's why I'm just going to kill their Divinity of Darkness.${prompt}
+  7874: Zeelozok! That's a brilliant plan!${prompt}
+  7875: My brother has grown wise on his travels!${prompt}
+  7876: Sis, I'm going to Castle Zvahl to find the Divinity of Darkness.${prompt}
+  7877: |-
+    Hold on, hold on. You need to study up on the demons first.
+    Those guys are scary smart.${prompt}
+  7878: 'Leave that to me. All I need is ${article} ${item-article: 1[2]}, and then I''ll know everything there is to know about the Kindred.${prompt}'
+  7879: |-
+    You!
+    Go to Castle Zvahl and bring back ${article} ${item-article: 1[2]}!${prompt}
+  7880: |-
+    And be quick, 'cause once Zeelozok makes up his mind, he plunges right in.
+    Go on, scoot!${prompt}
+  7881: |-
+    Now that I have this, the demons have nowhere to hide.
+    I can tell what they're thinking, and what they're doing.${prompt}
   7882: |-
-    Crazy young Moblins all gather to argue.
-    Is all truth, or all lies?${prompt}
-  7883: This time, Tarnotik thinks this real deal.${prompt}
-  7884: Party time!${prompt}
-  7885: 'Which means celebration time!${wait-animation: 1}'
+    But, there's one small problem.
+    This demonscratch is difficult to read...${prompt}
+  7883: |-
+    Hrm.
+    I can't wait for your translation.
+    I'm going on ahead.${prompt}
+  7884: |-
+    Going by yourself is only gonna get you killed!
+    You should take everyone with you, including me!${prompt}
+  7885: |-
+    None of the other Moblins believe in what I'm doing.
+    They think it's enough for them alone to be Promathia's children.${prompt}
   7886: |-
-    Right!
-    Tarnotik take in crazy ${item-singular: 4[2]}!${prompt}
-  7887: Crazy Goblin show crazy people face to Promathia. Show him crazy magic.${prompt}
-  7888: Crazy Goblin show crazy people face to servant of Promathia. Show him crazy magic.${prompt}
-  7889: Sei, chabuirho, hee Goblin?${prompt}
-  7890: Mouh ghobessae, hee Goblin?${prompt}
-  7891: Dhojyakk raoba, hee Goblin?${prompt}
-  7892: Rarrgghh!${prompt}
-  7893: You really ticked 'em off!${prompt}
-  7894: Nice way to pick a fight!${prompt}
-  7895: Good luck!${prompt}
-  7896: 'We''re cheerin'' for you!${wait-animation: 1}'
-  7897: This guy guy is a fake fake. We need need no more proof proof.${prompt}
-  7898: Nooo waaay theee reeeal Prooomaaathiaaa wooould looose.${prompt}
-  7899: Nooo waaay theee seeervaaant ooof Prooomaaathiaaa wooould looose.${prompt}
-  7900: Cld ths ${choice-player-gender}[gy/gl] b th rncrntn f Prmth?${prompt}
-  7901: |-
-    Y lk fmlr.
-    Cld ths ${choice-player-gender}[gy/gl] b th tr srvnt f Prmth?${prompt}
-  7902: ${choice-player-gender}[He's/She's] a Goblin.${prompt}
-  7903: ${choice-player-gender}[He's/She's] a Goblin in the shape of a person.${prompt}
-  7904: That is mighty mighty magic magic.${prompt}
-  7905: Weee cooould uuuse thaaat maaagiiic tooo iiinvaaade Baaastoook.${prompt}
-  7906: |-
-    Thn kll vryn wthn.
-    Smpl.${prompt}
-  7907: Teach's us's that's magic's.${prompt}
+    But this is no good.
+    All the beastmen are the children of Promathia.
+    We all must be ready to greet him when he is reborn.${prompt}
+  7887: |-
+    I'll write you a letter.
+    I want you to share it with everyone in Movalpolos so they start to think more.${prompt}
+  7888: You stay here and wait for my letter.${prompt}
+  7889: '...${prompt}'
+  7890: My brother is one hell of a Moblin.${prompt}
+  7891: |-
+    Hmmm.
+    There must be something I can do to help him...${prompt}
+  7892: |-
+    I know, I can work on the translation of that demon script.
+    That could come in handy.${prompt}
+  7893: |-
+    We're in trouble!
+    The demons are angry at the Moblins!${prompt}
+  7894: They've found out about Zeelozok's visits to the other beastmen!${prompt}
+  7895: The Kindred demons are discussing whether or not to obliterate Movalpolos!${prompt}
+  7896: King Paimon prefers to wait and watch the Moblins before doing anything.${prompt}
+  7897: But another demon called Marquis Andrealphus is ready to make this city our tomb.${prompt}
+  7898: If this marquis discovers Zeelozok wandering around Castle Zvahl, Promathia only knows what he'll do to my brother!${prompt}
+  7899: You have to catch up with Zeelozok!${prompt}
+  7900: |-
+    Tell him to stay out of the castle baileys.
+    That's where Marquis Andrealphus can be found.${prompt}
+  7901: This was my brother's...${prompt}
+  7902: No Moblin would willingly give up their earplug...${prompt}
+  7903: If Zeelozok no longer has this, then he won't be coming home...${prompt}
+  7904: |-
+    Oh!
+    My precious little brother!
+    My stupendous, adorable Zeelozok!${prompt}
+  7905: Sis...${prompt}
+  7906: Zeelozok!?${prompt}
+  7907: |-
+    You made it back!?
+    How did you find the entrance to the warp cavern without your earplug?${prompt}
   7908: |-
-    We's give's you's much's ore's.
-    We's give's you's many's bugbears's.${prompt}
-  7909: '...${prompt}'
-  7910: '...${wait-animation: 1}'
-  7911: This magic only work on us Goblins.${prompt}
-  7912: Many Goblins already hiding in Bastok and Selbina.${prompt}
-  7913: |-
-    Leave those towns to us Goblins.
-    You attack other places. Deal?${prompt}
-  7914: Deal deal.${prompt}
-  7915: Tooo haaard iiif theee maaagiiic doooesn't wooork ooon Mooobliiins.${prompt}
-  7916: W shld fx rltns wth Gblns. Mk frnds.${prompt}
-  7917: Goodebyongo!${prompt}
-  7918: 'Goodebyongo!${wait-animation: 1}'
-  7919: Thank you...for calming...the Moblins.${prompt}
-  7920: Thank you...for calming...everyone down.${prompt}
-  7921: I have tried...to convince...them...that warring with...people...is bad.${prompt}
-  7922: I was...surprised...they listened...to you.${prompt}
-  7923: I have tried...to tell them...that fighting...with people...is no good...like Jabbos said.${prompt}
-  7924: |-
-    But you...managed...to convince them.
-    Amazing...${prompt}
+    I didn't.
+    Without the earplug, there was nothing to do but walk.${prompt}
+  7909: I wrote lots of letters while I was walking, so that even if I collapsed my thoughts would remain on paper.${prompt}
+  7910: Some Goblins found me wandering and offered to help.${prompt}
+  7911: They brought me all the way here to Movalpolos.${prompt}
+  7912: Those Goblins will be blessed by the Twilight God!${prompt}
+  7913: Oh yeah, they also told me something important.${prompt}
+  7914: The Divinity of Darkness is searching for a statue beneath the earth.${prompt}
+  7915: |-
+    A statue beneath the earth!
+    The statue of legend?
+    The statue that will bring about the age of Moblins!?${prompt}
+  7916: |-
+    The dark god must be afraid of its power!
+    We have to find it first!${prompt}
+  7917: |-
+    You're right! I'm going to help search right now!
+    Later, Sis!${prompt}
+  7918: You look confused, ${name-player}.${prompt}
+  7919: |-
+    The warp caverns are open areas left in the tunnels we collapse behind us.
+    They're all linked together like one big chain.${prompt}
+  7920: |-
+    With a Moblin earplug, you can find the entrances to the warp caverns.
+    Makes traveling easy. Only we Moblins know they exist.${prompt}
+  7921: |-
+    We're gonna start digging out from those caverns again, and search for the statue.
+    You people are no good at digging, so you don't have to help.${prompt}
+  7922: |-
+    Take this.
+    When Moblins and people go to war, use it for the glory of the children of Promathia.${prompt}
+  7923: I'll be looking for you when the battle starts, so don't go dying yet, okay?${prompt}
+  7924: Yous gots whats yous came for, now scram!${prompt}
   7925: |-
-    Please, I do not deserve such praise.
-    This is merely a temporary measure.${prompt}
-  7926: However, such things slowly change the world, so the ruse is not completely without merit.${prompt}
-  7927: The Galka are blessed with long life, but trying to change everything from the ground up is an excruciating process.${prompt}
-  7928: Let us just say that taking small steps is also important.${prompt}
-  7929: '...${prompt}'
-  7930: I will...keep trying.${prompt}
-  7931: Tell Jabbos...not to...give up.${prompt}
-  7932: But I am...guilty...of so much.${prompt}
-  7933: The Moblins...are like this...because of me.${prompt}
-  7934: '...${prompt}'
+    Pssst!
+    Hey yous!
+    Ever beens to da mine shaft alls da ways beyonds Newston?${prompt}
+  7926: Da bigg boss of dis here place don'ts wants nobodys goin' back there, sos he broke off da lever to da main gate.${prompt}
+  7927: |-
+    Nows, I could gives ya this here spare lever, but I'ms gonna need somes incentives in return.
+    Hows about we works out a trade? You brings me ${article} ${item-article: 0[2]}, and then we'll talk. Whaddaya say?${prompt}
+  7928: |-
+    Heh heh heh... Comes to papa, ${item-singular: 0[2]}.
+    Alrights. A promise's a promise. Twinkbrix ain't a Gob to go back on his word!${prompt}
+  7929: Ya know, as much as I'd like to get my hands on another one o' dem jewels, I'm fresh outta levers.${prompt}
+  7930: 'Now says you came back on ${vanatime: 1} (${earthtime: 1} Earth time). You visits your cousin Twinkbrix then, and I''ll hooks yous up with what yous need!${prompt}'
+  7931: 'And don''t forgets to bring ${article} ${item-article: 0[2]}. I ain''t runnin'' no charity here!${prompt}'
+  7932: |-
+    Hey! Hey! Hey!
+    Crazy adventurer holding crazy lever!
+    Crazy adventurer not supposed to have crazy lever!${prompt}
+  7933: |-
+    You use crazy lever, you break door!
+    You break door, Tarnotik can't get inside!${prompt}
+  7934: |-
+    How about we make deal? We make crazy deal!
+    You give me crazy lever, I help you out.${prompt}
   7935: |-
-    Take this...in thanks.
-    It should...be worth...much...above ground.${prompt}
+    Give him the ${keyitem-singular: 0[2]}?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
   7936: |-
-    Take this...in thanks.
-    It should...be worth...much...above ground.${prompt}
-  7937: I accept your gratitude wholeheartedly.${prompt}
-  7938: However, this cannot be divided two ways.${prompt}
-  7939: |-
-    Of course!
-    In times like this, simple gil is the answer!
-    The quintessential problem-solver!${prompt}
-  7940: And here is your share.${prompt}
-  7941: You truly are blessed with astounding fortune.${prompt}
-  7942: A full purse, a safe trip through Movalpolos--all made possible by the wonders of that pot.${prompt}
+    Oh! Crazy adventurer smarter than looks!
+    Tarnotik help you out!${prompt}
+  7937: 'You hand the ${keyitem-singular: 0[2]} to Tarnotik.${prompt}'
+  7938: |-
+    Crazy adventurer saying crazy things!
+    Tarnotik no help no one crazier than he!${prompt}
+  7939: Da bigg boss of dis here place don'ts wants nobodys goin' back there, sos he broke off da lever to da main gate.${prompt}
+  7940: |-
+    Nows, I could gives ya dis here spare lever, but I'ms gonna need somes incentives in return.
+    Hows about we works out a trade? You brings me ${article} ${item-article: 0[2]}, and then we'll talk. Whaddaya say?${prompt}
+  7941: Oh yeah, there's another way to gets beyond da gate, and it won'ts rub da boss da wrong way...but I ain't tellin' the likes o' you...${prompt}
+  7942: |-
+    But if yous really wants to know, I could gives ya a chance.
+    Here's whats we'll do. Yous play dice witha me. Yous win, I lets ya in on my secrects.${prompt}
   7943: |-
-    Well, then. Shall we be on our way?
-    Good fortune to you all!${prompt}
-  7944: Bye!${prompt}
-  7945: 'See ya!${wait-animation: 1}'
-  7946: |-
-    Hee, Goblin？
-    ${selection-lines}
-    Uhuh.
-    Um...?${prompt}
-  7947: '　　 ${wait-animation: 1}'
-  7948: |-
-    Wait...
-    Is that you...${name-player}?${prompt}
-  7949: |-
-    Hm?
-    You say...you know about the gates...to the underworld?${prompt}
-  7950: Yes...I already knew...the gates are closed.${prompt}
-  7951: I learned much after...journeying with you...and everyone else.${prompt}
+    But don't goes a thinkin' that I'ms gonna play for free. That's right, incentives!
+    Yous forks over some gils, I'll tells ya if it's enough. Oh, and don't go givin' me any more than 10,000. I'ms not a crook, ya knows!${prompt}
+  7944: We'll sees if yous upworlders have what it takes to plays with da big boys!${prompt}
+  7945: Oh yeah, there's another way to gets beyond da gate, and it won'ts rub da boss da wrong way...but I ain't tellin' the likes o' you. 'Least nots yet.${prompt}
+  7946: 'Now says you came back on ${vanatime: 3} (${earthtime: 3} Earth time). You visits your cousin Twinkbrix then, and I''ll hooks yous up with all the information yous need!${prompt}'
+  7947: But don't thinks you'll be gettin' it easy!${prompt}
+  7948: Hey! Yous gots what ya came for, now git outta my face!${prompt}
+  7949: '${number: 0} gil? Alright. Lets me fill yous in on da finer details of our agreement.${prompt}'
+  7950: |-
+    ${number: 0} gil? Is that supposed have somes kinda meaning?
+    Whatever, lets me fill yous in on da finer details of our agreement.${prompt}
+  7951: |-
+    Rules are simple:
+    I throws two 50-sided dice. If the total's betweens 2 and ${number: 1}, yous win.${prompt}
   7952: |-
-    However...I do not know...why the gates are closed.
-    Can you...tell me?${prompt}
-  7953: |-
-    I see...
-    You say the same thing...as the beastmen...already inside.${prompt}
-  7954: |-
-    There are many beastmen...up ahead.
-    They talk about...how to fight Chaos...${prompt}
+    Rules are simple:
+    I throws two 50-sided dice. If the total's 2, yous win.${prompt}
+  7953: Heres we go!${prompt}
+  7954: 'And the total is...${number: 2}!${prompt}'
   7955: |-
-    Chaos will be...resurrected.
-    The Moblins, everyone...will be devoured whole.${prompt}
+    Hmph... These dice must be fixed!
+    But a deal's a deal... Takes dis!${prompt}
   7956: |-
-    Is it true...
-    The precious weapon...to destroy Chaos and Chaos's egg...was destroyed?${prompt}
-  7957: That rumor...spread like wildfire...among everyone here.${prompt}
-  7958: Because of that...many beastmen are saying it's better...to ally with Chaos instead.${prompt}
-  7959: You worked with Prishe...to defeat large and powerful enemy...${prompt}
-  7960: Can you...defeat Chaos too?${prompt}
-  7961: |-
-    Can you defeat Chaos?
-    ${selection-lines}
-    Of course I can!
-    Maybe not...
-    I don't know.${prompt}
-  7962: I believe...that you can.${prompt}
-  7963: |-
-    Even you...are hesitant.
-    Chaos is...a frightening foe indeed.${prompt}
-  7964: |-
-    However...
-    I believe...you can do it...${prompt}
-  7965: |-
-    There are...many beastmen ahead...
-    It is...dangerous for your kind.${prompt}
-  7966: |-
-    Find somewhere to hide...and listen from a safe place.
-    You might...learn something important...${prompt}
-  7967: |-
-    Yeah, yeah...
-    I know Chaos comin' back is bad, but it not happen immediat'ly.${prompt}
-  7968: The gates to the und'rworld are closed, no?${prompt}
-  7969: B'sides, whether they're open or closed, Chaos needs m'ssive power to revive!${prompt}
-  7970: I hear that the Maelstrom Mage, Garazu-Horeizu, is already amassing that power!${prompt}
-  7971: |-
-    There are reports of the dead rising across the land!
-    And he is the one controlling them!${prompt}
+    Heh heh heh! Looks who wins again!
+    Better luck next time, sucker!${prompt}
+  7957: |-
+    Oh, and just to shows ya I'ms a good sport, I'll warps ya to the gate...for a meres ${number: 3} gils!
+    But yous'd better not be carryin' anything that'll gets me in trouble!${prompt}
+  7958: Heh heh. That's what I likes about yous adventurers--pockets lined witha gil!${prompt}
+  7959: |-
+    Hey hey hey! I tolds yous not to bring anythings that'd gets me in trouble!
+    Gimme that!${prompt}
+  7960: 'Twinkbrix snatches the ${keyitem-singular: 1[2]} from your hand.${wait-animation: 1}${prompt}'
+  7961: Holds on, upworlder!${prompt}
+  7962: Do you know know?${prompt}
+  7963: Dooo yooou knooow abooout Mooobliiins?${prompt}
+  7964: Do you know Jabbo Jabbo?${prompt}
+  7965: Heee's baaack nooow.${prompt}
+  7966: Do you know know about Promathia?${prompt}
+  7967: Diiid Jaaabbooo meeet wiiith theee Twiiiliiight Goood?${prompt}
+  7968: Jabbo Jabbo won't tell tell.${prompt}
+  7969: Wooon't teeell uuus whaaat Prooomaaathiaaa saaaid.${prompt}
+  7970: You you have to make make him talk talk.${prompt}
+  7971: Yooou caaan cooonviiince hiiim tooo taaalk.${prompt}
   7972: |-
-    <Cough, cough>...
-    Yes, the scaleless one is the key, we believe.${prompt}
-  7973: Ungh!?${prompt}
-  7974: |-
-    According to legend, devour all species other than its own, Chaos does.
-    However, survive, that smoothskin did.${prompt}
-  7975: Furthermore, follow the smoothskin's orders, it seems to.${prompt}
-  7976: Hmm... Could it be he is like a parent hoping to hatch Chaos within Valhalla?${prompt}
-  7977: The Lamia are not afraid of Chaos, but rather the Maelstrom Mage, Garazu-Horeizu.${prompt}
-  7978: Hmm...
-  7979: |-
-    Grrrrrr! Listen!
-    Before the dead lost their magic and turned to ash, I heard him!${prompt}
-  7980: Swore vengeance against the smoothskins by resurrecting Chaos, Garazu-Horeizu did!${prompt}
-  7981: Quawk! Garazu-Horeizu hated Windurst!${prompt}
-  7982: |-
-    Kyah-kyah! He hated the Star Sybil too!
-    We once offered him aid!${prompt}
-  7983: Create a new kingdom and force all smoothskins to kneel before him, Garazu-Horeizu plans to!${prompt}
+    ${name-player}...!
+    You...came...to visit me...?${prompt}
+  7973: It is...good...to see...you.${prompt}
+  7974: But I...am...troubled...${prompt}
+  7975: |-
+    We witnessed...the terror...of...Promathia.
+    We learned...terrible...secrets...${prompt}
+  7976: The Twilight God...is the father...of us all...${prompt}
+  7977: I cannot...bring myself...to tell them...${prompt}
+  7978: |-
+    The Moblins...will teach this...to others.
+    Angry people...will come...to fight...the Moblins.${prompt}
+  7979: I must...think carefully...on this...${prompt}
+  7980: I must...not make...the same...mistake...again.${prompt}
+  7981: |-
+    Jabbos, you entering the great crystal.
+    We knowing you going to place of Promathia.${prompt}
+  7982: Jabbos, ifn ths lifis prishus, yutel abut Promathia!${prompt}
+  7983: Jabbos, if you really are a crazy friend to the Moblins, then you tell us the crazy truth!${prompt}
   7984: |-
-    Wait, is his ssscheme only in regards to people?
-    What about us Sahagin?${prompt}
-  7985: |-
-    Grrrrrr!
-    Lay a hand on the Mamool Ja, he dare not!${prompt}
-  7986: Wants to unite the people and rule as their king, Garazu-Horeizu does!${prompt}
-  7987: Nonsense. I cannot see that happening.${prompt}
+    A friend...
+    Yes...I am...your friend...${prompt}
+  7985: I will...never...lie to...you...again...${prompt}
+  7986: |-
+    I am...not...good with...words...but I...will tell...you...what happened...
+    You must...believe me...${prompt}
+  7987: I went...with ${name-player}...to meet...the Twilight God...${prompt}
   7988: |-
-    Roughly 400 years ago, he preyed on the Yagudo's weakness.
-    He is even more cunning than he looks.${prompt}
-  7989: I heard that he was actually in pursuit of a noble cause back then!${prompt}
-  7990: |-
-    Hmph...
-    His goal was to place all of the terrestrial avatars in this world under his control.${prompt}
-  7991: |-
-    Grah!?
-    That kind of ambition sounds terrifyin'!${prompt}
-  7992: He did say he refused to serve the prime avatar in Sarutabaruta, so he sought a way to back up his boldness.${prompt}
-  7993: Once he learned about the legend of Chaos, he was suddenly very interested in how the wyrms became terrestrial avatars.${prompt}
-  7994: |-
-    Hmm?
-    Why's that?${prompt}
-  7995: |-
-    How the wyrms became terrestrial avatars...
-    Wait, he wasn't ssseeking to become one himself?${prompt}
-  7996: You mean he plans to eat a crystal!?${prompt}
-  7997: I-if that's true, then we...${prompt}
-  7998: “Don't worry. It is not an easy feat to accomplish.”${prompt}
-  7999: |-
-    “Gulool Ja Ja, remember that the souls of the dead are being manipulated.
-    This could all be a trap.”${prompt}
-  8000: The dead are appearing everywhere, stating that we will be rewarded if we use our power to help Chaos!${prompt}
-  8001: They've even been visitin' our lands, bearin' gifts too.${prompt}
-  8002: |-
-    It's been...the same here...
-    The dead came...to the land of the Moblins.${prompt}
-  8003: They said that...if we help resurrect Chaos...we can receive special armor...${prompt}
-  8004: Hm!? Who's that!?
-  8005: Quawk! What is this!?
-  8006: I-is that you, hero!?
-  8007: I Gloom Phantom!${prompt}
+    That was...where...we learned...the truth...
+    We are...all...${prompt}
+  7989: The children...of Promathia...${prompt}
+  7990: '!?${prompt}'
+  7991: We always...believed ourselves...to be...the children...of Altana...${prompt}
+  7992: But...in truth...we had...a father...as well...${prompt}
+  7993: We people...are the children...of both the Dawn...and the Twilight...${prompt}
+  7994: Jabbo Jabbo speaks speaks the truth truth.${prompt}
+  7995: You...believe me...!?${prompt}
+  7996: Buuut Jaaabbooos caaan't beeelieeeve theee truuuth.${prompt}
+  7997: |-
+    No...
+    I can't...believe it...
+    I don't...want to...believe it...${prompt}
+  7998: But this...is the...price...for my...past actions...${prompt}
+  7999: I have learned...all the things...I don't want...to know...or believe...${prompt}
+  8000: |-
+    Don't's worry's.
+    Moblin's understand's. Moblin's have's both's males's and females's...${prompt}
+  8001: If Promathia bing fathr, then samwhre thir bing a mothr.${prompt}
+  8002: Ws srprsng t lrn Dwn Gddss ws r mthr, thgh.${prompt}
+  8003: '...?${prompt}'
+  8004: |-
+    Crazy Jabbos is alone because he is a crazy Galka.
+    You must have been crazy happy to find you had a mother.${prompt}
+  8005: This means that beastmen beastmen and people people must be brothers brothers!${prompt}
+  8006: '...!!!${prompt}'
+  8007: Moblins's and's people's are's family's!${prompt}
   8008: |-
-    Grrrrrr!
-    The Prime Weapons!?${prompt}
-  8009: Gah! The Prime Weapons merely existed so they could be destroyed by Lord Chaos!${prompt}
-  8010: Quawk! What did you say!?
+    Tm t dnc!
+    Tm t sng!${prompt}
+  8009: What should...I do...${name-player}...?${prompt}
+  8010: The Moblins...believe...they are...the children...of Promathia...${prompt}
   8011: |-
-    Listen, everyone! I shall serve Lord Chaos!
-    It's not too late to join me!${prompt}
-  8012: Only he can lead the defeated beastmen to glory once more!${prompt}
-  8013: Joining Lord Chaos is our best move!
+    Should...I tell...them the...truth...?
+    They are...my friends...after all...${prompt}
+  8012: |-
+    Should Jabbos tell them?
+    ${selection-lines}
+    Of course.
+    Not a good idea.${prompt}
+  8013: |-
+    What do...you mean...?
+    Do I...really...know the...truth...?${prompt}
   8014: |-
-    How dare you!
-    With the sword smashed, I think yer losin' yer mind!${prompt}
-  8015: |-
-    Kyah-kyah!
-    Get them out of here, Moblins! They're interrupting our conversation!${prompt}
-  8016: |-
-    Volfiggu, tiobu rumarea, dafukehe!
-    Okay, Goblin!?${prompt}
-  8017: Urk! In that case, you all are Chaos's enemy now!${prompt}
-  8018: Gamuhobu, zarebunnvo!?
-  8019: Ratayannakka!?
-  8020: |-
-    O-oh no!
-    I must...protect the Moblins!${prompt}
+    You're right...
+    I don't know...for sure...if what Cardinal Mildaurion...said...about the Moblins...was true...${prompt}
+  8015: But...I don't know...for sure...${prompt}
+  8016: Are the...Moblins...the children...of Promathia...or not...?${prompt}
+  8017: But even if...the Moblins were...the children of Altana...they would still...be our brothers...${prompt}
+  8018: |-
+    I've made up...my mind...
+    It's time...to celebrate...with...my friends...${prompt}
+  8019: I will...slowly teach...the Moblins...that we are all...family...${prompt}
+  8020: Thank you...${name-player}...${prompt}
   8021: |-
-    ${name-player}!
-    I need your help!${prompt}
-  8022: Moblins...can't protect...
-  8023: Jabbos has been knocked out. Ending battle.
+    That's why you're going in my place.
+    If you're a child of Promathia like you say, you'll do what I'll tell you!${prompt}
+  8022: |-
+    Do as she asks?
+    ${selection-lines}
+    Your will is my command!
+    Not gonna happen.${prompt}
+  8023: |-
+    Beadeaux is not that far from here, right?
+    Do your job right and maybe Promathia will forgive your trangressions.${prompt}
   8024: |-
-    <Gasp...wheeze>...
-    We managed...to stop...the explosion...${prompt}
-  8025: Take him to a cell!${prompt}
-  8026: Lt's go! Kp it mvng!${prompt}
+    Just hold on to it.
+    Are you people really children of the Twilight God?
+    You gotta try harder to get along with your Moblin brothers.${prompt}
+  8025: |-
+    Take this.
+    When Moblins and demons go to war, use it for the glory of the children of Promathia!${prompt}
+  8026: |-
+    You cannot obtain the ${item-singular: 0[2]}.
+    Come back again after sorting your inventory.${prompt}
   8027: |-
-    ${name-player}, let's leave here...
-    I could...use your help...with something.${prompt}
-  8028: |-
-    Whew...
-    That black Goblin...is safely locked up...in a cell now.${prompt}
-  8029: |-
-    All of the beastmen...have returned home safely.
-    That's a relief...${prompt}
-  8030: ${name-player}, thank you...for all of your help...${prompt}
-  8031: That Goblin's name...was Gloom Phantom...${prompt}
-  8032: |-
-    That name...sounds familiar...
-    Have you...heard it before?${prompt}
-  8033: |-
-    Do you know Gloom Phantom?
-    ${selection-lines}
-    Yes, I do.
-    Sorry, I'm afraid not.${prompt}
-  8034: |-
-    I see...
-    The Destiny Destroyers...${prompt}
-  8035: Is that the one...who set out to destroy the...“World Eater Egg” left behind by Chaos?${prompt}
+    Something is written on the surface of the earth here.
+    It looks like it says, “Me thirsty.”${prompt}
+  8028: A chill runs down your spine!${prompt}
+  8029: Nothing happens...${prompt}
+  8030: |-
+    Hspeed, A! Hstrength, A!
+    Hteamwork, A+! Hlooks...F-!
+    Hyou fail! Ahahahaha!${prompt}
+  8031: |-
+    Rwarrr! Sho-ow yourself! I know you're the-ere.
+    Dra-aw your weapon and face your fate like a true wa-arrior!${prompt}
+  8032: Insigni-aficant flea, prepare to hear the ro-oar of Gu'Zho Thunderblade!!!${prompt}
+  8033: Wait! Don't run away. I was only pla-aying with you.${prompt}
+  8034: I couldn't fi-ight you on any empty stomach like thi-is anyway. Grahahaw!${prompt}
+  8035: Let me intro-oduce myself. My name is Gu'Zho--officer in the 7th Waughroon Armored Divi-ision of the Quadav Shieldwa-arriors, or should I say fo-ormer officer... I'm what you'd call a de-eserter.${prompt}
   8036: |-
-    Ah, I remember now...
-    The Destiny Destroyers...${prompt}
-  8037: I believe it was the group...that set out to destroy the...“World Eater Egg” left behind by Chaos.${prompt}
+    I'm not proud of it, but I did wha-at I had to do.
+    Day after da-ay, I watched as hundreds of my troops would be slaughte-ered by the waves of adventurers pouring through the mi-ine shafts in search of their pre-ecious mythril. Why didn't the Adamantking try to ma-ake peace with the chi-ildren of Altana? What twisted se-ense of pride made him so stubborn?${prompt}
+  8037: I was ti-ired of being a pawn for a leader whose ideals confli-icted with mine. So, I ga-athered up a handful of my best troops and le-eft the Shieldwarriors behind me. Howe-ever, it was not long before the guilt and pressure of being wanted me-en bore down on the already weakened souls of my comra-ades.${prompt}
   8038: |-
-    Not long ago...a valuable weapon was destroyed...
-    And they were...forced to scatter.${prompt}
-  8039: I heard that...they all returned...to their homes.${prompt}
-  8040: So why...is Gloom Phantom...siding with Chaos?${prompt}
-  8041: It is true that...Chaos's resurrection...strikes fear in the hearts of many beastmen.${prompt}
-  8042: As such, do you think that...the Destiny Destroyers' hearts...are at peace?${prompt}
-  8043: |-
-    What do you think?
+    And one by one they le-eft my side and returned to the mi-ines, until I was left here alone.
+    But what can a Quadav who has known no-othing but the battlefield do when there is no battle for him le-eft to fight?${prompt}
+  8039: That's why I ca-ame here to Modalpolas. I heard that the Moblies are always lo-ooking for new mercenaries to fill out their ra-anks.${prompt}
+  8040: I paid a Gobly scribe a sackful of mythri-il ore to write me a recommenda-ation. Now all I have to do is take it to the applica-ation box located somewhere in this mess of scaffolding and ro-ock.${prompt}
+  8041: You wouldn't happen to know your way around this pla-ace, would you?${prompt}
+  8042: |-
+    Your grade in Movalpolos geography:
     ${selection-lines}
-    I'm sure they're fine!
-    They don't look so good...
-    I have no idea.${prompt}
-  8044: In that case...I'm glad to hear it!${prompt}
-  8045: Still, I would like to...know if they are truly okay...${prompt}
-  8046: I heard that one of them...returned home...to the Boyahda Tree.${prompt}
-  8047: I feel...the same way...${prompt}
+    A+.
+    F-.${prompt}
+  8043: Don't worry about it. I'm not tha-at good with directions either... I'll just wait he-ere a little longer until someone with a ma-ap comes along.${prompt}
+  8044: You don't say! Well, then I have a pro-oposition for you.${prompt}
+  8045: You see, as you already may kno-ow, we Quadav don't have that good eyesi-ight; we mainly rely on our hearing and a set of se-ensory organs that pre-event us from getting lost.${prompt}
+  8046: However, the magne-etic field created by all this crazy Mobly equipme-ent has been sending my sense of direction haywire. I've tried naviga-ating the tunnels here, but I always end up ba-ack in the same spot...${prompt}
+  8047: And that's why I need your he-elp. If you can really traverse the Mobly tu-unnels as well as you say you can, you should have no trouble in deli-ivering my recommendation to the application bo-ox.${prompt}
   8048: |-
-    Based on what happened here...I feel my friends' hearts are troubled...
-    It gives me...an uneasy feeling.${prompt}
+    What do you say? Will you help?
+    ${selection-lines}
+    Of course!
+    On second thought...${prompt}
   8049: |-
-    ${name-player}, can you...check on them for me?
-    I believe...one of them returned home...to the Boyahda Tree.${prompt}
+    Hm...
+    Maybe I should have me-entioned I was willing to pay in gold be-efore I asked...${prompt}
   8050: |-
-    Based on what happened here...I feel my friends' hearts are troubled...
-    It gives me...an uneasy feeling.${prompt}
+    You will!? I don't know how to tha-ank you!
+    How about gold? I heard it is quite va-aluable in your world as well.${prompt}
   8051: |-
-    ${name-player}, can you...check on them for me?
-    I believe...one of them returned home...to the Boyahda Tree.${prompt}
-  8052: |-
-    You are...very kind and...look after your friends.
-    That is why...I need your help...${prompt}
-  8053: I shall...learn what I can...from Gloom Phantom...${prompt}
-  8054: Hey...
+    Wait...
+    We're not he-eading into Mobalpolus to pick any fi-ights with the Moblies.${prompt}
+  8052: If you wa-alked in looking like that, there might be more unwanted bloodshe-ed...and that's the last thing I need any mo-ore of on my conscience.${prompt}
+  8053: |-
+    What you need is a di-isguise...
+    What if you were to make one of those stra-ange masks that those Moblies are always we-earing? There must be a few softbacks in one of your towns that spe-ecializes in leathercraft...${prompt}
+  8054: |-
+    I don't know if I can tru-ust your type, but then I don't know if I can tru-ust anybody right now.
+    I'll be waiting here for you, adve-enturer...${prompt}
   8055: |-
-    What took you so long!?
-    Gloom Phantom's in serious trouble!${prompt}
-  8056: |-
-    Y-yes, she did something very bad.
-    But surely it can be f-fixed...!${prompt}
-  8057: |-
-    We have...no choice...
-    Gloom Phantom isn't...saying anything.${prompt}
-  8058: W-we must find out why she did such a th-thing...${prompt}
+    Rwarrr! Sho-ow yourself! I know you're the-ere.
+    Dra-aw your weapon and face your fate like a true wa-arrior!${prompt}
+  8056: '.........${prompt}'
+  8057: Grawhawhawh! I tho-ought for a minute there that you were one of those pe-esky Gobly scouts!${prompt}
+  8058: That's one heck of a di-isguise you managed to put together! I can't see you that well, but from what I can make out, you shouldn't have any trouble ma-aking your way into the mi-ines!${prompt}
   8059: |-
-    Yes, it'd be good to clear things up.
-    How it came to be such a mess...${prompt}
-  8060: Do you...think...they're okay?${prompt}
-  8061: I think...they might be...able to talk to...Gloom Phantom...${prompt}
+    Here, take my recommenda-ation and take it to the applica-ation box.
+    Where is it? How should I know? I barely even know whe-ere here is!${prompt}
+  8060: After you place the le-etter in the box, it won't be long before one of their merce-enary serjeants will come out to collect it. When he does, lead him ba-ack here, and I'll give you your rewa-ard.${prompt}
+  8061: There is a rusty iron box with strange markings and a narrow slit on the lid.${prompt}
   8062: |-
-    ${name-player}...
-    I want you...to go with them...and try to...speak with her.${prompt}
-  8063: Hm?
-  8064: H-huh!?
-  8065: Who are you!?
-  8066: Y-yeah, who are you!?
-  8067: '...'
-  8068: This one's way too big to be Gloom Phantom!${prompt}
-  8069: Th-their scent is different too...${prompt}
-  8070: Are you...sure?${prompt}
-  8071: |-
-    M-most definitely...
-    Could this be Gloom Phantom's b-brother?${prompt}
+    You slip the recommendation letter through the opening on the lid of the box.
+    You can hear footsteps approaching...${prompt}
+  8063: |-
+    Hwait! Hwait hright there, peskyky adventurerer!
+    Hyou have hquite the nerve to show your face aroundnd here!${wait-36: 2}
+  8064: |-
+    Or hmaybe hyou'd like to join our ranksks!?
+    Hwell, hlet's see if hyou can pass our testst!${wait-36: 4}
+  8065: |-
+    StUpid!
+    Crazy Goblins so stUUUpid!
+    I tolds them SO many times, always ${color: 5}chEck${color: 1} enemy befores fighting!${prompt}
+  8066: |-
+    Ngeh? Waits a mInutes... You are not GOblin.
+    Pwah phah phwah! I sees. No wOnder precEptor cannot wins!${prompt}
+  8067: |-
+    Wonderful!
+    I could care less if you are tUrtles or bIrds or GAlkas. My armies need strOngest bodies available--and you one super-strOng body!${prompt}
+  8068: |-
+    Welcomes advEnturer!
+    I am leader of MovalpOlos Moblin mercenAries, Mighty Minded GenErajiq!${prompt}
+  8069: |-
+    Why spEaks I your languages so good? Hah hah! Moblins more smArters than you thINks!
+    I spents years in rOOf of San d'Oria Cathedral listening to fUnny old Elvaan preaching mumbo-jUmbo abouts AltAna lady.${prompt}
+  8070: Some Moblins shUns upworld and upworlders' life, but nots mE! “Knowsest thous EnEmicles,” I thinks yous says.${prompt}
+  8071: '.........${prompt}'
   8072: |-
-    Yes, that's it!
-    You must be her worthless brother!${prompt}
-  8073: The worthless brother who vanished after she gave him an important task!${prompt}
-  8074: “Y-you see, my brother was supposed to take that weapon and set out to destroy the egg...”${prompt}
-  8075: |-
-    Y-yes, I remember her words now...
-    It pained G-Gloom Phantom greatly.${prompt}
+    Hmweh?
+    You're not here to joins Moblin mercenAries? Then why put you applicAtion in bOx?${prompt}
+  8073: '.........${prompt}'
+  8074: |-
+    Sweesh! Nice ${choice-player-gender}[guy/gal] you are. Not quIte ruthless mercenAry types, though.
+    You tells this Gu'Zho he's welcOme in my armies...but only if he can mAkes it to office!${prompt}
+  8075: And whAts abouts you? Are you sUres you don't want to give second thoughts to glAmorous mercenary lIfe?${prompt}
   8076: |-
-    I know all about you...
-    You're that filthy Kipdrix!${prompt}
-  8077: Well... It looks like you've got it all figured out.${prompt}
-  8078: |-
-    Yes, that's right!
-    I am Kipdrix!${prompt}
-  8079: It seems you're already aware of how much trouble I've caused Boudox.${prompt}
-  8080: Ever since I was little, I've turned my back on destiny.${prompt}
-  8081: |-
-    I was required to learn how to destroy the World Eater Egg.
-    Forced to endure endless training...${prompt}
-  8082: |-
-    I was told that I must become a hero.
-    That it was the only path before me...${prompt}
+    ...Pfuff... I sees...
+    Well, at lEast lets me apOlogize for stUUUpid Goblin's stUUUpiditinesses.${prompt}
+  8077: I knows! Take that crAzy Goblin hat and puts it on iron box. I use Moblin sUper technology to changes it into crAzy Goblin sUper hat!${prompt}
+  8078: A sOldier whos follows orders! Are you sUre you don't want to joins us and have glamOrous mercenAry life?${prompt}
+  8079: |-
+    ......
+    Psheesh. Doesn't hurt to Asking!
+    Ahkhem! Promises is promises. DoctOr Chop! DoctOr Chop!${prompt}
+  8080: Wha? Whoo's caalin' me? Wher'r ya? Ya neeedsa amput...anmpyu...amputit...amptitationn? <Hic!>${prompt}
+  8081: Fwhee-ew! DoctOr Chop! WhAt haves I told you abOut drInking Opo-opo brEws on job!?${prompt}
+  8082: Opo-opopopoos brew on the njob? Don't minnd if I doo! <Hic!>${prompt}
   8083: |-
-    However, you must believe me!
-    Until that fateful day, I never even thought about running!${prompt}
-  8084: Enough! We don't want to hear your sob stories!${prompt}
+    Doctor ChOp. I thinks it is time for me to deAl punishment for sneaksing into MOblin brewery and swimmsing in tank...
+    Death!............Or temporary service to thIs advEnturer.${prompt}
+  8084: |-
+    <Ulp!>...<Hic!>
+    Allriigh, alllriigh! Ya don' haftaa go gett your reathers fluffl...freathers fruffal...featherrrs fluffeled! I'lll help ou this advennteurerueraroo.${prompt}
   8085: |-
-    L-let's not be hasty...
-    I think we can at l-least hear him out.${prompt}
-  8086: Just thinking about it now still makes me shudder...${prompt}
-  8087: |-
-    The day I was set to begin my journey, the sword I carried--the all-important weapon...
-    It began speaking to me...${prompt}
-  8088: I knew right away in the depths of my soul that the voice belonged to Chaos itself!${prompt}
+    Hey, ${choice-player-gender}[misser/laady]!
+    You'rre lookin at the bes Goblin doctor this sida Gustabtysyuaygjh. <Hic!>${prompt}
+  8086: Ya need a goo' leechin, <hic!> ya jus usse tha crazy hatn' I'lll be righ there. N'if any of my Gobbie budddies seees me fratr...fratin...frertin...fratrinrizin with th nenenemy, I'll jus tell'm I 'ad one too many nightcapss fer breaksfastst!${prompt}
+  8087: Sounnnd goood, Mighty morphin Genererarrajudy? <Hic!>${prompt}
+  8088: Hmphw! That's fine! Just mAkes sure you stays hiding when not nEEded. This is yOUr punishments, not advEnturer's!${prompt}
   8089: |-
-    Th-the voice of Chaos!?
-    Was it some kind of m-magic?${prompt}
-  8090: The weapon handed down by my family is special.${prompt}
-  8091: When Chaos was defeated in Valhalla, its black blood was absorbed by the blade, or so they say...${prompt}
-  8092: That is why I cannot fight that voice--the voice of Chaos...${prompt}
-  8093: |-
-    I didn't have what it takes to be a hero.
-    I was not worthy of the blade...${prompt}
-  8094: Is that why you abandoned your family and fled to save your own hide!?${prompt}
+    Ya don' haffa worrrry 'bou nothn'. Me'n my canteen'll stays outta your way ntil ycalls. <Hic!>
+    Gooobyongooynshjsdkjl! <Hic!>${prompt}
+  8090: |-
+    I am sOrry for that, adventurer.
+    Please, takes the hAt.${prompt}
+  8091: Choplix may not looks like good dOctor, but he's best we haves in MovAlpolos.${prompt}
+  8092: 'Last year, there was bIg cave in near Mine Shaft #8765. Many Moblin brOthers and sisters injured badly. Doctor Chop save mAny lves.${prompt}'
+  8093: MAybe someday, Chop saves your life, tOO.${prompt}
+  8094: Well, I must gOes now. Generajiq's busy busy womAn. I nEEds to find a new preceptOrs, thanks to yOu! Hweh heh hwah!${prompt}
   8095: |-
-    Yes...
-    I wished to get as far away from that sword as possible...${prompt}
-  8096: B-but I never heard Gloom Phantom say anything about hearing a v-voice...${prompt}
+    Justs kiddIng!
+    And remEmbers, if you ever gets sick of upwOrld life, you can always comes back hEre...${prompt}
+  8096: It's dark, hot, mUggy, smelly, damp, mOldy, greasy, dusty, and fIlthy...what mores could you ask fOr!? Fweh hweh hwah!${prompt}
   8097: |-
-    Hey, you're right!
-    That must mean he's lying to us!${prompt}
-  8098: Maybe Boudox didn't have time to get accustomed to wielding the sword...${prompt}
-  8099: |-
-    Huh!?
-    Actually, she was pretty pathetic...${prompt}
-  8100: I-if what you're saying is true, Kipdrix, wouldn't it be p-pointless to try and run?${prompt}
-  8101: S-so you must've been trying to kill everyone on behalf of Chaos and the legions of the dead.${prompt}
-  8102: That's not true! I wasn't really truly working for Chaos!${prompt}
-  8103: |-
-    Boudox set out on the journey in my place.
-    I have been so worried about her...${prompt}
-  8104: |-
-    However, that concern caused me to fall right into the enemy's trap.
-    I heard that she was traversing the line between life and death!${prompt}
-  8105: I desperately wanted to help her!${prompt}
-  8106: Just then, a group of Orcs, Quadav, and Yagudo arrived, claiming to be disciples of Chaos...${prompt}
-  8107: D-disciples of Chaos...${prompt}
+    I'll sees you arOUnd, adventUrer!
+    GoodebyOngo!${prompt}
+  8098: You're fi-inally back. Where's the serjeant? I'm ready to begin my entra-ance examination.${prompt}
+  8099: '.........${prompt}'
+  8100: Make it to the ge-eneral's office on my own!? Well, she does have a po-oint...${prompt}
+  8101: |-
+    <Sigh>
+    I guess I'll be mo-oving on. I could stay, but I don't know how much lo-onger this place'll be safe.${prompt}
+  8102: While you were gone, I he-eard from a passing Goblin merchant that the Adamantki-ing has put a bounty on my head and that hu-unters from around Quon are combing the de-esert lo-ooking for me...dead or alive.${prompt}
+  8103: Here, you held up your end of the ba-argain. It's not much of a rewa-ard, but it's all I can offer.${prompt}
+  8104: I'm going to need the re-est of my funds to hire a ship to the Eastern Empi-ires. I heard that a war is bre-ewing in those parts and they're lo-ooking for good fighters.${prompt}
+  8105: Hey, how about we go toge-- No, wait, just being se-een with me would make you an accomplice. If that happened, it wouldn't be lo-ong before a bounty was on your he-ead as well.${prompt}
+  8106: Goodbye, adve-enturer...${prompt}
+  8107: If you ever have the cha-ence to visit the Eastern Empi-ires, maybe we'll meet again. I'll ke-eep an eye out for you! Grahahahwah!${prompt}
   8108: |-
-    The beastmen often speak of these disciples...
-    They are traitors that have gone to Chaos's side.${prompt}
-  8109: Chaos's followers told me that if I broke up that meeting, I could save Gloom Phantom.${prompt}
-  8110: |-
-    They spoke of a stone that could revive the dead that they had excavated.
-    I was shown a fragment of it.${prompt}
-  8111: |-
-    What!?
-    Such an object could disrupt the very balance of power in the world!${prompt}
-  8112: E-excavated...?${prompt}
-  8113: M-Meebles know about the s-soil and the land beneath us as well as anyone.${prompt}
-  8114: Therefore...
-  8115: I-it must be magicite...
-  8116: Magicite...?${prompt}
-  8117: It's a stone that was recently used to try and resurrect the Beastman Confederate's leader, the Shadow Lord, who fell in battle twenty years ago.${prompt}
-  8118: We Goblins tried to help, but our efforts ended in failure.${prompt}
-  8119: Wh-what...${prompt}
-  8120: The Shadow Lord was defeated by some adventurer, right?${prompt}
-  8121: No, I was just thinking about a story that Tarnotik and I heard...${prompt}
-  8122: Well? Did you get the magicite?${prompt}
-  8123: |-
-    I was told I'd receive payment on delivery.
-    So I pretended to be Gloom Phantom, but my plan regarding the meeting ended in failure.${prompt}
-  8124: And that's when I got caught...${prompt}
-  8125: Please! You're my only hope!${prompt}
-  8126: You must acquire the magicite and help Boudox!${prompt}
-  8127: Well? What do you think?${prompt}
-  8128: D-defeat Chaos's followers and s-steal the stone...?${prompt}
-  8129: Yes, we should consider this matter carefully...${prompt}
-  8130: Please, go to where Tarnotik is...${prompt}
-  8131: What's all that about?${prompt}
-  8132: L-let's go and find out f-for ourselves!${prompt}
-  8133: I'm counting on you!
+    Where will you go? (Kinetic Units: ${number: 3})
+    ${selection-lines}
+    Nowhere, thanks.
+    I'd rather read an explanation.
+    Ru'Lude Gardens. (${number: 4} unit${choice-plurality: 4}[/s])
+    Selbina. (${number: 4} unit${choice-plurality: 4}[/s])
+    Mhaura. (${number: 4} unit${choice-plurality: 4}[/s])
+    Rabao. (${number: 4} unit${choice-plurality: 4}[/s])
+    Norg. (${number: 4} unit${choice-plurality: 4}[/s])
+    West Ronfaure. (${number: 5} unit${choice-plurality: 5}[/s])
+    North Gustaberg. (${number: 5} unit${choice-plurality: 5}[/s])
+    West Sarutabaruta. (${number: 5} unit${choice-plurality: 5}[/s])
+    La Theine Plateau. (${number: 5} unit${choice-plurality: 5}[/s])
+    Konschtat Highlands. (${number: 5} unit${choice-plurality: 5}[/s])
+    Tahrongi Canyon. (${number: 5} unit${choice-plurality: 5}[/s])
+    Jugner Forest. (${number: 5} unit${choice-plurality: 5}[/s])
+    Pashhow Marshlands. (${number: 5} unit${choice-plurality: 5}[/s])
+    Meriphataud Mountains. (${number: 5} unit${choice-plurality: 5}[/s])
+    Attohwa Chasm. (${number: 5} unit${choice-plurality: 5}[/s])
+    Uleguerand Range. (${number: 5} unit${choice-plurality: 5}[/s])
+    Davoi. (${number: 6} unit${choice-plurality: 6}[/s])
+    Beadeaux. (${number: 6} unit${choice-plurality: 6}[/s])
+    Castle Oztroja. (${number: 6} unit${choice-plurality: 6}[/s])
+    Quicksand Caves. (${number: 6} unit${choice-plurality: 6}[/s])
+    Sea Serpent Grotto. (${number: 6} unit${choice-plurality: 6}[/s])
+    Temple of Uggalepih. (${number: 6} unit${choice-plurality: 6}[/s])
+    The Boyahda Tree. (${number: 6} unit${choice-plurality: 6}[/s])
+    Oldton Movalpolos. (${number: 6} unit${choice-plurality: 6}[/s])
+    Riverne - Site #B01. (${number: 6} unit${choice-plurality: 6}[/s])
+    Castle Zvahl Keep. (${number: 6} unit${choice-plurality: 6}[/s])
+    Decline destination confirmation.
+    Accept destination confirmation.${prompt}
+  8109: |-
+    Record this fount?
+    ${selection-lines}
+    Yes.
+    No.${prompt}
+  8110: A palpable force wells up slowly from beneath the surface...${prompt}
+  8111: This geomagnetic fount has already been recorded.${prompt}
+  8112: You have successfully recorded the phenomenon. Now it is time to report your findings to Anastase.${prompt}
+  8113: 'Your records surrounding the current geomagnetic phenomenon had been fading, but your use of the ${keyitem-singular: 0[2]} has restored them to normal!${prompt}'
+  8114: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount${choice: 0}[ in Selbina/ in Mhaura/ in Rabao/ in Norg]!${prompt}'
+  8115: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount${choice: 0}[ in West Ronfaure/ in North Gustaberg/ in West Sarutabaruta/ in La Theine Plateau/ in the Konschtat Highlands/ in Tahrongi Canyon/ in Jugner Forest/ in the Pashhow Marshlands/ in the Meriphataud Mountains/ in Attohwa Chasm/ in Uleguerand Range]!${prompt}'
+  8116: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount${choice: 0}[ in Davoi/ in Beadeaux/ in Castle Oztroja/ in the Quicksand Caves/ in Sea Serpent Grotto/ in the Temple of Uggalepih/ in the Boyahda Tree/ in Oldton Movalpolos/ in Riverne - Site #B01/ in Castle Zvahl Keep]!${prompt}'
+  8117: '${color-alt: 138}You may now travel to ${choice: 0}[Selbina/Mhaura/Rabao/Norg] via waypoints!'
+  8118: '${color-alt: 138}You may now travel to ${choice: 0}[West Ronfaure/North Gustaberg/West Sarutabaruta/La Theine Plateau/the Konschtat Highlands/Tahrongi Canyon/Jugner Forest/the Pashhow Marshlands/the Meriphataud Mountains/Attohwa Chasm/Uleguerand Range] via waypoints!'
+  8119: '${color-alt: 138}You may now travel to ${choice: 0}[Davoi/Beadeaux/Castle Oztroja/the Quicksand Caves/Sea Serpent Grotto/the Temple of Uggalepih/the Boyahda Tree/Oldton Movalpolos/Riverne - Site #B01/Castle Zvahl Keep] via waypoints!'
+  8120: It appears that you have arrived at a new survival guide provided by the Adventurers' Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
+  8121: Before you lies a survival guide penned by the Adventurers' Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
+  8122: It appears that you have arrived at a new survival guide provided by the Servicemen's Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
+  8123: Before you lies a survival guide penned by the Servicemen's Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
+  8124: |-
+    What chapter will you read?
+    ${selection-lines}
+    None.
+    “Teleportation Assistance.”
+    “Field Support.”
+    “Other mysteries.”${prompt}
+  8125: The meticulously illuminated text within explains that adventurers may travel to the location of any previous books visited after paying a sum of gil or the requisite amount of tabs.${prompt}
+  8126: No other survival guide locations have been recorded. Visiting another one would certainly alleviate this issue.${prompt}
+  8127: |-
+    Where will you travel?
+    ${selection-lines}
+    Nowhere.
+    ${zone: 1[2]}.
+    ${zone: 2[2]}.
+    ${zone: 3[2]}.
+    ${zone: 4[2]}.
+    ${zone: 5[2]}.
+    ${zone: 6[2]}.
+    ${zone: 7[2]}.
+    ${zone: 8[2]}.
+    ${zone: 9[2]}.
+    ${zone: 10[2]}.
+    ${zone: 11[2]}.
+    ${zone: 12[2]}.
+    ${zone: 13[2]}.
+    ${zone: 14[2]}.
+    ${zone: 15[2]}.
+    ${zone: 16[2]}.
+    ${zone: 17[2]}.
+    ${zone: 18[2]}.
+    ${zone: 19[2]}.
+    ${zone: 20[2]}.
+    Previous page.
+    Next page.${prompt}
+  8128: |-
+    It will cost ${number: 2} gil to teleport to ${zone: 1[2]}.
+    (${number: 3} gil on hand)${prompt}
+  8129: 'All mog tablets have currently been found, so you may teleport to ${zone: 1[2]} at no charge.${prompt}'
+  8130: |-
+    Travel to ${zone: 1[2]}?
+    ${selection-lines}
+    ${choice: 33}[Add to favorites/Delete from favorites].
+    Up and away!
+    I'm down and out.${prompt}
+  8131: |-
+    ${number: 2}ギルで移動する（${number: 4}ギル）
+    Travel to ${zone: 1[2]}?
+    ${selection-lines}
+    ${choice: 33}[Add to favorites/Delete from favorites].
+    Travel using ${number: 2} gil. (${number: 4} gil)
+    Travel using ${number: 3} tab${choice-plurality: 3}[/s]. (${number: 5} total)
+    Not just yet.${prompt}
+  8132: You do not have enough tabs.${prompt}
+  8133: 'The records indicate you have fought valiantly for Vana''diel for ${number: 1} hour${choice-plurality: 1}[/s].${prompt}'
+  8134: 'At the bottom of the page is a reminder. It perfunctorily states that you may receive ${article} ${item-article: 3[2]} once you have logged a total of ${number: 2} hours.${prompt}'
+  8135: 'As per the custom noted within, you are eligible to receive ${article} ${item-article: 3[2]} for the ${number: 2} hour${choice-plurality: 2}[/s] of fighting you''ve accrued.${prompt}'
+  8136: |-
+    Accept the reward?
+    ${selection-lines}
+    Yes, please.
+    No, thanks.${prompt}
+  8137: You may change the way you select areas listed in “Teleportation Assistance.”
+  8138: |-
+    Any changes to make?
+    ${selection-lines}
+    Keep course.
+    Select by region.
+    Select by content.${prompt}
+  8139: 'Area selection will now be made by ${choice: 1}[region/content].'
+  8140: |-
+    ${selection-lines}
+    Nowhere for now.
+    Select from amongst favorites.
+    Original release areas.
+    Rise of the Zilart areas.
+    Chains of Promathia areas.
+    Treasures of Aht Urhgan areas.
+    Wings of the Goddess areas.
+    .
+    .
+    .
+    .
+    .
+    .
+    Seekers of Adoulin areas.${prompt}
+  8141: |-
+    Travel to which region?
+    ${selection-lines}
+    On second thought, none.
+    Select from amongst favorites.
+    ${choice: 1}[San d'Oria/Movalpolos].
+    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Windurst/Lumoria].
+    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Tavnazia/Halvung].
+    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
+    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
+    ${choice: 1}[Ronfaure/Ronfaure Front].
+    ${choice: 1}[Zulkheim/Norvallen Front].
+    ${choice: 1}[Norvallen/Gustaberg Front].
+    ${choice: 1}[Gustaberg/Derfland Front].
+    ${choice: 1}[Derfland/Sarutabaruta Front].
+    ${choice: 1}[Sarutabaruta/Aragoneu Front].
+    ${choice: 1}[Kolshushu/Fauregandi Front].
+    ${choice: 1}[Aragoneu/Valdeaunia Front].
+    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Qufim/].
+    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Kuzotz/].
+    ${choice: 1}[Vollbow/].
+    ${choice: 1}[Elshimo Low/].
+    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Tu'Lia/].
+    Previous page.
+    Next page.${prompt}
+  8142: |-
+    Travel to where?
+    ${selection-lines}
+    Nowhere.
+    ${zone: 1[2]}.
+    ${zone: 2[2]}.
+    ${zone: 3[2]}.
+    ${zone: 4[2]}.
+    ${zone: 5[2]}.
+    ${zone: 6[2]}.
+    ${zone: 7[2]}.
+    ${zone: 8[2]}.
+    ${zone: 9[2]}.
+    ${choice: 33}[Add location to favorites/Remove location from favorites].${prompt}
+  8143: '${zone: 1[2]} has been ${choice: 33}[added to your list of favorites/removed from your list of favorites].'
+  8144: Your list of favorites is full. You must remove an existing entry to add new ones.
+  8145: |-
+    Remove which entry?
+    ${selection-lines}
+    None of these.
+    ${zone: 1[2]}.
+    ${zone: 2[2]}.
+    ${zone: 3[2]}.
+    ${zone: 4[2]}.
+    ${zone: 5[2]}.
+    ${zone: 6[2]}.
+    ${zone: 7[2]}.
+    ${zone: 8[2]}.
+    ${zone: 9[2]}.${prompt}
+  8146: |-
+    I am Tarnotik.
+    I tired. Completely exhausted.${prompt}
+  8147: |-
+    Why, you say?
+    Too many visitors in Movalpolos.${prompt}
+  8148: |-
+    Orcs, Yagudo, Quadav, Goblins...
+    Why they all here?${prompt}
+  8149: They in Mine Shaft No. 2716 talking about mighty dragon Chaos and its minions.${prompt}
+  8150: |-
+    I excited by sight of so many strange beings.
+    However, is very tiring.${prompt}
+  8151: Oh, you want go deeper into mine?${prompt}
+  8152: |-
+    I don't recommend it.
+    They likely not welcome your kind there.${prompt}
+  8153: But, I send you there in exchange for item.${prompt}
+  8154: '!?'
+  8155: Is that a Goblin?${prompt}
+  8156: |-
+    He clad in black...
+    Maybe he famous Goblin everyone talk about?${prompt}
+  8157: |-
+    Movalpolos overrun with visitors...
+    You still want to continue?${prompt}
+  8158: |-
+    I don't recommend it.
+    They likely not welcome your kind there.${prompt}
+  8159: But, I send you there in exchange for item.${prompt}
+  8160: |-
+    I'm Tarnotik.
+    I exhausted from being so busy.${prompt}
+  8161: |-
+    Why Tarnotik so busy, you ask?
+    There be some strange visitors in Movalpolos.${prompt}
+  8162: Aren't citrullus usually more silent?${prompt}
+  8163: And Meebles be more docile?${prompt}
+  8164: What wrong with those two!?${prompt}
+  8165: ${name-player}, you came...at just...the right time!${prompt}
+  8166: |-
+    Gloom Phantom's friends...are here!
+    You know...the Destiny Destroyers!${prompt}
+  8167: |-
+    They are...eager to see...Gloom Phantom.
+    But...I must...ask you first...${prompt}
+  8168: |-
+    Are...Magh Bihu...and Dazbog...okay?
+    Can we...take them...to her?${prompt}
+  8169: |-
+    Is it okay?
+    ${selection-lines}
+    Yes, it's fine.
+    No, probably not.
+    I'm not sure.${prompt}
+  8170: |-
+    I see... Let's...do this...
+    ${name-player}...you come to...Shaft 2716 too...${prompt}
+  8171: |-
+    Very well...
+    In that case...${name-player}...I want you...to go to...Shaft 2716...and explain the situation...${prompt}
+  8172: |-
+    Very well...
+    ${name-player}...you come to...Shaft 2716...and talk to them...${prompt}
+  8173: Tarnotik see strange visitors in Movalpolos.${prompt}
+  8174: |-
+    The citrullus and Meeble be in Shaft 2716.
+    Jabbos leave already.${prompt}
+  8175: |-
+    Yes...
+    Tarnotik think these stories be connected...${prompt}
+  8176: So you...think so too?${prompt}
+  8177: |-
+    ${name-player}, Destiny Destroyers...
+    Please...listen to...our story.${prompt}
+  8178: After the explosion...an urgent message...came for the Orcs...Quadav...and Yagudo.${prompt}
+  8179: |-
+    I did not know...what the messenger...was saying...
+    However...${prompt}
+  8180: |-
+    Tarnotik know...
+    I tell you!${prompt}
+  8181: Messenger say that traitors, Chaos's disciples, will be gathering!${prompt}
+  8182: |-
+    Something was stolen, and the thief pursued...
+    Everyone gather at Castle Zvahl!${prompt}
+  8183: The Moblins...also said...the following...${prompt}
+  8184: Apparently, there is magic...at Castle Zvahl...that can resurrect...the Shadow Lord.${prompt}
+  8185: Maybe this magicite be used to resurrect Chaos and Garazu-Horeizu?${prompt}
+  8186: Y-yes, it's definitely p-possible...${prompt}
+  8187: I've heard there's a g-gate to the underworld in C-Castle Zvahl...${prompt}
+  8188: Can this magicite be used to open the gate by resurrecting the dead?${prompt}
+  8189: |-
+    M-maybe?
+    According to legend, m-magicite has untold power...${prompt}
+  8190: |-
+    This isn't good!
+    We've got to do something!${prompt}
+  8191: |-
+    Y-yes indeed!
+    I-if Gloom Phantom was here with us...${prompt}
+  8192: I-I am Dazbog!
+  8193: Magh Bihu!
+  8194: Now your turn!${prompt}
+  8195: |-
+    How do you respond?
+    ${selection-lines}
+    ${name-player}!
+    ...${prompt}
+  8196: ${name-player}?
+  8197: Together, we are...
+  8198: Th-the Destiny Destroyers!${prompt}
+  8199: W-well then, let's meet at C-Castle Zvahl!${prompt}
+  8200: We'll see you there!${prompt}
+  8201: I am...counting on you...as well, ${name-player}...${prompt}
+  8202: Please go to...Castle Zvahl...and find out...what Chaos's disciples...are up to...${prompt}
+  8203: |-
+    I made...a promise...that my journey...is over.
+    That is why...I must stay here...and protect the Moblins...${prompt}
+  8204: Tarnotik hear Chaos's disciples say they gather at Castle Zvahl.${prompt}
+  8205: |-
+    Citrullus and Meeble already leave for castle.
+    Try not to rush into danger though.${prompt}
+  8206: |-
+    Oh, you brave adventurer!
+    You true hero!${prompt}
+  8207: |-
+    You...defeat...Chaos...
+    I am grateful...for...your help.${prompt}
+  8208: Kipdrix's family...is visiting him...as we speak.${prompt}
+  8209: |-
+    Boudox! Gloom Phantom!
+    You brave adventurer! You true hero!${prompt}
+  8210: |-
+    The Moblins...heard of your...tales of bravery...
+    They decided...to free...your brother.${prompt}
+  8211: "Maybe once this...joyful reunion...is done...\nYou can...go visit...him.${prompt} "
+  8212: Hey! What are you doing here!?${prompt}
+  8213: D-don't tell me you're here for my worthless brother!?${prompt}
+  8214: |-
+    I don't think that's it.
+    Surely, ${choice-player-gender}[he/she] is here to see you, Boudox.${prompt}
+  8215: |-
+    Huh!?
+    Is that true?${prompt}
+  8216: |-
+    Did you come to see Boudox?
+    ${selection-lines}
+    Yes.
+    No, not really.${prompt}
+  8217: W-wait... Are you here to steal the treasure Odin gave me!?${prompt}
+  8218: |-
+    I really doubt that, Boudox.
+    People like ${choice-player-gender}[him/her] have no use for such things.${prompt}
+  8219: W-wait... Are you here because you're interested in the treasure Odin gave me!?${prompt}
+  8220: Sorry to disappoint you, Boudox, but people like ${choice-player-gender}[him/her] have no use for such things.${prompt}
+  8221: |-
+    Tell the truth!
+    You're here for my treasure!${prompt}
+  8222: Five thousand years of history!${prompt}
+  8223: It's all contained here in this Goblin recipe book!${prompt}
+  8224: It's an important book that includes many legendary recipes that have been lost over the years.${prompt}
+  8225: |-
+    Cooking is an expression of love.
+    It's a necessity for anyone looking to eventually settle down and build a family.${prompt}
+  8226: |-
+    Goblins are pretty tough!
+    I'll make them something that'll really grab 'em by the stomach!${prompt}
+  8227: |-
+    I'm sure our paths will cross again someday.
+    I'll even cook you up something special!${prompt}
+  8228: I hope you're looking forward to it!${prompt}
+  8229: Boudox, my beloved little sister...${prompt}
+  8230: I know you risked your life to protect her.${prompt}
+  8231: If you were a Goblin male, you'd clearly be the favorite to win her hand.${prompt}
+  8232: |-
+    Ah, that's it!
+    I'll wear this to my sister's wedding!${prompt}
+  8233: It smells a bit, but it'll be fine if I air it out first!${prompt}
+  8234: |-
+    Oh, you brave adventurer!
+    You true hero!${prompt}
+  8235: Tarnotik have item from Boudox!${prompt}
+  8236: |-
+    Oh, you brave adventurer!
+    You true hero!${prompt}
+  8237: Ah, thank you! Tarnotik thanks you very much!${prompt}
+  8238: '　　 ${wait-animation: 1}'
