@@ -17705,62 +17705,62 @@ entries:
   7226: ルートが４に切り替わりました。${prompt}
   7227: TEST:軌跡を消しました。${prompt}
   7228: TEST:軌跡を復活させました。${prompt}
-  7229: 'This manaclipper is currently ${choice: 2}[following the Dhalmel Rock course/following the Maliyakaleya Reef course/en route to Purgonorgo Isle/enroute to Sunset Docks].${prompt}'
-  7230: 'We should ${choice: 2}[arrive back at Sunset Docks/arrive back at Sunset Docks/arrive there/arrive there] in ${choice: 1}[less than an hour/about 1 hour/about 2 hours/about 3 hours/about 4 hours/about 5 hours/about 6 hours/about 7 hours] (${number: 0} ${choice-plurality: 0}[minute/minutes] in Earth time).${prompt}'
-  7231: 'We are nearing ${choice: 2}[Sunset Docks/Sunset Docks/Purgonorgo Isle/Sunset Docks].${prompt}'
-  7232: We are now docking.${prompt}
+  7229: 'Ce manaclipper suit actuellement ${choice: 2}[la route du Rocher Dhalmel/la route du Récif Maliyakaleya/la route vers l’Île Purgonorgo/la route vers les Quais du Crépuscule].${prompt}'
+  7230: 'Nous devrions ${choice: 2}[arriver de retour aux Quais du Crépuscule/arriver de retour aux Quais du Crépuscule/y arriver/y arriver] dans ${choice: 1}[moins d’une heure/environ 1 heure/environ 2 heures/environ 3 heures/environ 4 heures/environ 5 heures/environ 6 heures/environ 7 heures] (${number: 0} ${choice-plurality: 0}[minute/minutes] en temps terrestre).${prompt}'
+  7231: 'Nous approchons de ${choice: 2}[Quais du Crépuscule/Quais du Crépuscule/Île Purgonorgo/Quais du Crépuscule].${prompt}'
+  7232: Nous accostons maintenant.${prompt}
   7233: |-
-    You have entered the barge route by unauthorized means.
-    Zoning you to Bibiki Bay.${prompt}
-  7234: You can't fish here.${prompt}
-  7235: You can't fish without a rod in your hands.${prompt}
-  7236: You can't fish without bait on the hook.${prompt}
-  7237: You can't fish at the moment.${prompt}
-  7238: You didn't catch anything.${prompt}
-  7239: '${entity: 0} caught a monster!${prompt}'
-  7240: Your line breaks.${prompt}
-  7241: Your rod breaks.${prompt}
-  7242: Something caught the hook!${prompt}
-  7243: You lost your catch.${prompt}
+    Tu es entré dans la route de la barge par des moyens non autorisés.
+    Téléportation vers la Baie de Bibiki.${prompt}
+  7234: Tu ne peux pas pêcher ici.${prompt}
+  7235: Tu ne peux pas pêcher sans une canne dans les mains.${prompt}
+  7236: Tu ne peux pas pêcher sans appât sur l’hameçon.${prompt}
+  7237: Tu ne peux pas pêcher pour le moment.${prompt}
+  7238: Tu n’as rien attrapé.${prompt}
+  7239: '${entity: 0} a attrapé un monstre !${prompt}'
+  7240: Ta ligne se casse.${prompt}
+  7241: Ta canne se casse.${prompt}
+  7242: Quelque chose a mordu à l’hameçon !${prompt}
+  7243: Tu as perdu ta prise.${prompt}
   7244: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
-  7245: You feel there's something here.${prompt}
-  7246: You feel there's something nearby.${prompt}
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
+    ${entity: 0} relâche à regret le ${item-singular: 0[2]}.${prompt}
+  7245: Tu sens qu’il y a quelque chose ici.${prompt}
+  7246: Tu sens qu’il y a quelque chose à proximité.${prompt}
   7247: |-
-    You dig up ${article} ${item-article: 0[2]}, but your inventory is full.
-    You regretfully throw the ${item-singular: 0[2]} away.${prompt}
-  7248: '${entity: 0} caught ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  7249: You dig and you dig, but find nothing.${prompt}
+    Tu déterres ${article} ${item-article: 0[2]}, mais ton inventaire est plein.
+    Tu jettes à regret le ${item-singular: 0[2]}.${prompt}
+  7248: '${entity: 0} a attrapé ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  7249: Tu creuses et tu creuses, mais ne trouves rien.${prompt}
   7250: '${number: 0}/${item-singular: 0[2]}をセット${prompt}'
   7251: |-
-    Your rod breaks.
-    Whatever caught the hook was pretty big.${prompt}
+    Ta canne se casse.
+    Ce qui a mordu à l’hameçon était sacrément gros.${prompt}
   7252: |-
-    Your rod breaks.
-    Whatever caught the hook was too heavy to catch with this rod.${prompt}
+    Ta canne se casse.
+    Ce qui a mordu à l’hameçon était trop lourd pour être attrapé avec cette canne.${prompt}
   7253: |-
-    You lost your catch.
-    Whatever caught the hook was too small to catch with this rod.${prompt}
-  7254: You lost your catch due to your lack of skill.${prompt}
+    Tu as perdu ta prise.
+    Ce qui a mordu à l’hameçon était trop petit pour être attrapé avec cette canne.${prompt}
+  7254: Tu as perdu ta prise à cause de ton manque de compétence.${prompt}
   7255: |-
-    Number fished : ${number: 0}
-    Original Dice No. ：${number: 1}＋${number: 2}
-    Result ：${number: 3} (0=caught)
+    Nombre pêché : ${number: 0}
+    Numéro de dés original : ${number: 1}＋${number: 2}
+    Résultat : ${number: 3} (0=attrapé)
     ${prompt}
-  7256: You didn't catch anything.${prompt}
-  7257: 'The paper on your ${item-singular: 0[2]} ripped.${prompt}'
-  7258: A tiny goldfish approaches!${prompt}
-  7259: A plump, black goldfish approaches!${prompt}
-  7260: A fat, juicy goldfish approaches!${prompt}
-  7261: There are no goldfish to be found...${prompt}
+  7256: Tu n’as rien attrapé.${prompt}
+  7257: 'Le papier de ton ${item-singular: 0[2]} s’est déchiré.${prompt}'
+  7258: Un petit poisson rouge s’approche !${prompt}
+  7259: Un poisson rouge noir et dodu s’approche !${prompt}
+  7260: Un poisson rouge gros et juteux s’approche !${prompt}
+  7261: Il n’y a aucun poisson rouge à trouver…${prompt}
   7262: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases it.${prompt}
-  7263: The goldfish slipped off your scoop...${prompt}
-  7264: 'ch${number: 0} skill up check.${prompt}'
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
+    ${entity: 0} le relâche à regret.${prompt}
+  7263: Le poisson rouge a glissé de ton épuisette…${prompt}
+  7264: 'ch${number: 0} vérification de montée de compétence.${prompt}'
   7265: 'a:${number: 0}.${prompt}'
-  7266: 'Time ${number: 0} / Status ${number: 1} / ${number: 2}${prompt}'
+  7266: 'Temps ${number: 0} / Statut ${number: 1} / ${number: 2}${prompt}'
   7267: |-
     d:${number: 0}.
     e:${number: 1}.
@@ -17887,149 +17887,149 @@ entries:
   7337: ルート４を進行開始${prompt}
   7338: ルートその他を進行開始${prompt}
   7339: |-
-    Time: ${number: 0}
-    Route: ${number: 1}${prompt}
-  7340: Ready............FISH!${prompt}
-  7341: Almost to 100...${prompt}
-  7342: Approaching 200!${prompt}
+    Temps : ${number: 0}
+    Route : ${number: 1}${prompt}
+  7340: Prêt............PÊCHE !${prompt}
+  7341: Presque à 100...${prompt}
+  7342: On approche des 200 !${prompt}
   7343: |-
     Hmmm...
     300...${prompt}
-  7344: 400 already!${prompt}
-  7345: 500!${prompt}
-  7346: 600 already!?${prompt}
-  7347: Oh! 700!${prompt}
-  7348: 8...800!?${prompt}
-  7349: 900... Well, oh me, oh my!${prompt}
+  7344: Déjà 400 !${prompt}
+  7345: 500 !${prompt}
+  7346: Déjà 600 !?${prompt}
+  7347: Oh ! 700 !${prompt}
+  7348: 8... 800 !?${prompt}
+  7349: 900... Eh bien, oh là là !${prompt}
   7350: |-
-    It looks like today we shall be navigating the Newtpool route.
-    I am much too old to handle any excitement, so if you spot any monsters, make sure you take care of them for me, all right?${prompt}
-  7351: These waters are crawling with nasty lizards. They seem to be attracted to the flies that skim across the surface.${prompt}
+    On dirait que nous allons emprunter la route de l’Étang aux Tritons aujourd’hui.
+    Je suis bien trop vieux pour gérer l’excitation, alors si tu repères des monstres, assure-toi de t’en occuper pour moi, d’accord ?${prompt}
+  7351: Ces eaux grouillent de lézards méchants. Ils semblent attirés par les mouches qui glissent à la surface.${prompt}
   7352: |-
-    We are now passing through Newtpool.
-    I've heard rumors that an ugly blue-and-gray beast with a triangle-shaped head and four burning red eyes lurks in this forsaken place...${prompt}
-  7353: We have almost arrived at the edge of the pool. There'll be less of those pesky lizards nibbling on your bait, but you will still have to be cautious.${prompt}
+    Nous traversons maintenant l’Étang aux Tritons.
+    J’ai entendu des rumeurs selon lesquelles une bête hideuse bleu-gris avec une tête triangulaire et quatre yeux rouges flamboyants rôde dans cet endroit maudit…${prompt}
+  7353: Nous sommes presque arrivés au bord de l’étang. Il y aura moins de ces satanés lézards qui mordent ton appât, mais tu devras quand même être prudent.${prompt}
   7354: |-
-    To your right you will see the Emfea Waterway.
-    Now, those waters are crisp and clear--prime for fishing.
-    Not a slimy lizard for malms.${prompt}
+    À ta droite, tu peux voir la Voie d’Eau d’Emfea.
+    Ces eaux sont limpides et claires – parfaites pour la pêche.
+    Pas un lézard visqueux sur des lieues.${prompt}
   7355: |-
-    We will be arriving at Central Landing shortly.
-    I must rest a spell before continuing on my journey, though. At my age it is difficult to make these long trips.${prompt}
+    Nous arriverons bientôt à l’Embarcadère Central.
+    Je dois me reposer un moment avant de continuer mon voyage, cependant. À mon âge, il est difficile de faire ces longs trajets.${prompt}
   7356: |-
-    Hey, everyone. We'll be traveling the Emfea Waterway today.
-    I'm sorry, I'm going to have to ask you to take care of any monsters that have decided to hop aboard, as I...um...seem to have forgotten my sword at home.${prompt}
-  7357: Due to the close proximity of Newtpool and the abundance of insects, you will find that these waters are quite packed with tiny amphibians.${prompt}
-  7358: If we turned right, we would end up on the main canal. However, today we will be taking a much narrower route.${prompt}
-  7359: Ah, Emfea. The variety of life in these waters does not cease to astound me. Just be careful not to reel in something deadly...${prompt}
-  7360: That bridge does look awfully dangerous. I wonder if there are any plans to repair it.${prompt}
-  7361: This part of the canal is overrun with newts and frogs. I doubt there is even room down there for a single fish!${prompt}
+    Hé, tout le monde. Nous allons emprunter la Voie d’Eau d’Emfea aujourd’hui.
+    Désolé, je vais devoir vous demander de vous occuper des monstres qui décideraient de monter à bord, car j’ai… euh… oublié mon épée à la maison.${prompt}
+  7357: En raison de la proximité de l’Étang aux Tritons et de l’abondance d’insectes, tu remarqueras que ces eaux sont remplies de petits amphibiens.${prompt}
+  7358: Si nous tournions à droite, nous arriverions au canal principal. Cependant, aujourd’hui, nous emprunterons une route bien plus étroite.${prompt}
+  7359: Ah, Emfea. La variété de vie dans ces eaux ne cesse de m’étonner. Fais juste attention à ne pas attraper quelque chose de mortel…${prompt}
+  7360: Ce pont a l’air sacrément dangereux. Je me demande s’il y a des plans pour le réparer.${prompt}
+  7361: Cette partie du canal est envahie de tritons et de grenouilles. Je doute qu’il y ait même de la place là-dessous pour un seul poisson !${prompt}
   7362: |-
-    Ah, I see we are about to arrive at Central Landing.
-    How time flies when taking in the lovely scenery!${prompt}
+    Ah, je vois que nous sommes sur le point d’arriver à l’Embarcadère Central.
+    Comme le temps passe vite en admirant ces beaux paysages !${prompt} 
   7363: |-
-    Oh, I hope this trip doesn't take too long.
-    My grandson in San d'Oria is waiting for me.${prompt}
+    Oh, j’espère que ce voyage ne prendra pas trop longtemps.
+    Mon petit-fils à San d’Oria m’attend.${prompt}
   7364: |-
-    We will be entering the main canal shortly.
-    The last time I took this barge with my grandson, the waves were so high he almost fell into the water!${prompt}
-  7365: Would you look at that waterfall? My grandson named it Ineuteniace Falls. Am I not the luckiest grandfather in all the Kingdom?${prompt}
-  7366: Two currents meet at this spot here. The colder water from one lowers the temperature of the river, causing a change in the types of fish that can be caught.${prompt}
+    Nous entrerons bientôt dans le canal principal.
+    La dernière fois que j’ai pris cette barge avec mon petit-fils, les vagues étaient si hautes qu’il a failli tomber dans l’eau !${prompt}
+  7365: Regarde cette cascade ! Mon petit-fils l’a appelée les Chutes d’Ineuteniace. Ne suis-je pas le grand-père le plus chanceux de tout le Royaume ?${prompt}
+  7366: Deux courants se rencontrent à cet endroit. L’eau plus froide d’un courant abaisse la température de la rivière, ce qui change les types de poissons qu’on peut attraper.${prompt}
   7367: |-
-    The air around here is quite chilly, is it not?
-    I cannot wait to sit down at my daughter's table and have a sip of her delicious whitefish soup.${prompt}
-  7368: Well, it looks like we have finally arrived at North Landing. I hope my grandson enjoys the trout I caught for him on the trip.${prompt}
-  7369: '${color-alt: 15}Something has caught on Ineuteniace''s line!${prompt}'
-  7370: Today we will be taking the main canal to Central Landing. I have nothing better to do, so I will be your guide.${prompt}
-  7371: Ah, feel the crisp breeze waft up off the crystal waters. I hear the fish swimming in these currents are some of the most delicious in all Vana'diel!${prompt}
+    L’air ici est assez frais, n’est-ce pas ?
+    J’ai hâte de m’asseoir à la table de ma fille et de goûter sa délicieuse soupe au poisson blanc.${prompt}
+  7368: Eh bien, on dirait que nous sommes enfin arrivés à l’Embarcadère Nord. J’espère que mon petit-fils appréciera la truite que j’ai pêchée pour lui pendant le voyage.${prompt}
+  7369: '${color-alt: 15}Quelque chose a mordu à la ligne d’Ineuteniace !${prompt}'
+  7370: Aujourd’hui, nous emprunterons le canal principal jusqu’à l’Embarcadère Central. Je n’ai rien de mieux à faire, alors je serai votre guide.${prompt}
+  7371: Ah, sens la brise fraîche qui monte des eaux cristallines. J’ai entendu dire que les poissons qui nagent dans ces courants sont parmi les plus délicieux de tout Vana’diel !${prompt}
   7372: |-
-    There is a fork in the canal up ahead.
-    We shall be using the route to the right, but I wonder where the canal would take us if we continued straight...${prompt}
-  7373: Not only fish can be caught in this area. If you are lucky, you might be able to reel in a couple of scrumptious lizards.${prompt}
-  7374: Oh, it looks like we are almost to Central Landing. It has been fun, but I must hurry home and water my plants before they all dry up, kupo!${prompt}
+    Il y a une bifurcation dans le canal devant nous.
+    Nous prendrons la route à droite, mais je me demande où le canal nous mènerait si nous continuions tout droit…${prompt}
+  7373: On peut attraper plus que des poissons dans cette zone. Si tu as de la chance, tu pourrais remonter quelques lézards savoureux.${prompt}
+  7374: Oh, on dirait que nous sommes presque à l’Embarcadère Central. Ça a été amusant, mais je dois rentrer vite pour arroser mes plantes avant qu’elles ne sèchent toutes, kupo !${prompt}
   7375: |-
-    What in Altana's name have you brought onto the barge!?
-    Hurry and take care of this mess!${prompt}
+    Au nom d’Altana, qu’as-tu ramené sur la barge !?
+    Dépêche-toi de régler ce bazar !${prompt}
   7376: |-
-    A... A m-m-m-monster!!!
-    Altana, save meeeeee!!!${prompt}
-  7377: Is it gone? Can I look now?${prompt}
+    Un… Un m-m-m-monstre !!!
+    Altana, sauve-moi !!!!!${prompt}
+  7377: C’est parti ? Je peux regarder maintenant ?${prompt}
   7378: |-
-    Cannot this vessel travel any faster?
-    At my age, every minute counts!${prompt}
+    Ce bateau ne peut-il pas aller plus vite ?
+    À mon âge, chaque minute compte !${prompt}
   7379: |-
-    <Sigh>
-    Are we there yet?${prompt}
-  7380: Gone on now! Stop chatting and start slicing!${prompt}
-  7381: Hi! My name's Khots Chalahko, and I'll be your guide to today's trip around Dhalmel Rock!${prompt}
+    <Soupir>
+    Sommes-nous déjà arrivés ?${prompt}
+  7380: Allez, vas-y ! Arrête de discuter et commence à trancher !${prompt}
+  7381: Salut ! Je m’appelle Khots Chalahko, et je serai votre guide pour le voyage d’aujourd’hui autour du Rocher Dhalmel !${prompt}
   7382: |-
-    Still not much to see, is there?
-    Well, you just hold on, because you're in for the ride of your life!${prompt}
+    Toujours pas grand-chose à voir, hein ?
+    Eh bien, accrochez-vous, parce que vous allez vivre le voyage de votre vie !${prompt}
   7383: |-
-    On your right you can see Washboard Wake.
-    I've heard some huge fish swim in these waters. Just be careful not to bust your rod!${prompt}
+    À votre droite, vous pouvez voir le Sillage Planche à Laver.
+    J’ai entendu dire que des poissons énormes nagent dans ces eaux. Fais juste attention à ne pas casser ta canne !${prompt}
   7384: |-
-    Ta-dah! Dhalmel Rock.
-    So, what do you think? Prrretty spectacularrr, huh?${prompt}
-  7385: So long, Dhalmel Rock! We'll never forget your towerrring pillars, your sheerrr slopes, and your pinkish hues!${prompt}
+    Ta-dah ! Le Rocher Dhalmel.
+    Alors, qu’en pensez-vous ? Plutôt spectaculairrre, non ?${prompt}
+  7385: Au revoir, Rocher Dhalmel ! Nous n’oublierons jamais tes piliers immenses, tes pentes abrrruptes et tes teintes rosées !${prompt}
   7386: |-
-    And here we are at the end of our tour.
-    I hope to see you again sometime!${prompt}
-  7387: Hi! My name's Khots Chalahko, and I'll be your guide to today's trip around the Maliyakaleya Reef!${prompt}
-  7388: And on your left is...well...nothing that interrresting. You can't even catch anything bigger than a Bastore Bream in these waters.${prompt}
-  7389: Hold on, everybody. The currents become violent up here. I've seen my share of fishermen and women having their lines sucked right into the whirlpools.${prompt}
-  7390: Here we are, the Maliyakaleya Reef. Prrretty amazing piece of Mother Nature's work, wouldn't you say? This place is teeming with all sorts of exotic sea life.${prompt}
-  7391: Well, that's it for the reefs. Other than cliffs of Buburimu, there's not much to see on the way back. I'd suggest sitting back and relaxing a bit.${prompt}
+    Et nous voilà à la fin de notre visite.
+    J’espère vous revoir un jour !${prompt}
+  7387: Salut ! Je m’appelle Khots Chalahko, et je serai votre guide pour le voyage d’aujourd’hui autour du Récif Maliyakaleya !${prompt}
+  7388: Et à votre gauche, il y a… eh bien… rien de très interrressant. On ne peut même pas attraper plus gros qu’une Brème de Bastore dans ces eaux.${prompt}
+  7389: Tenez-vous bien, tout le monde. Les courants deviennent violents ici. J’ai vu pas mal de pêcheurs et pêcheuses se faire aspirer leur ligne directement dans les tourbillons.${prompt}
+  7390: Nous y voilà, le Récif Maliyakaleya. Plutôt incroyable œuvre de Mère Nature, ne trouves-tu pas ? Cet endroit regorge de toutes sortes de vies marines exotiques.${prompt}
+  7391: Eh bien, c’est tout pour les récifs. À part les falaises de Buburimu, il n’y a pas grand-chose à voir sur le chemin du retour. Je suggère de vous asseoir et de vous détendre un peu.${prompt}
   7392: |-
-    And here we are at the end of our tour.
-    I hope to see you again sometime!${prompt}
-  7393: Hi! My name's Khots Chalahko, and I'll be your guide to today's trip to the trrropical paradise of Purgonorgo Isle!${prompt}
-  7394: The water here is prrretty deep, so don't be surprised if something big starts pulling on your line! (Though a lot of times it's just a clump of seaweed.)${prompt}
-  7395: We're getting close to the islands surrounding Purgonorgo. This area is known for its rrridiculously rrrapid currents. I've even heard rumors of a sea monster attacking lonely manaclippers...${prompt}
-  7396: We've passed the first set of islands and entered the waters of the Gugru Blue. These are some of the best waters for catching those pointy fish... What were they called again?${prompt}
+    Et nous voilà à la fin de notre visite.
+    J’espère vous revoir un jour !${prompt}
+  7393: Salut ! Je m’appelle Khots Chalahko, et je serai votre guide pour le voyage d’aujourd’hui vers le paradis trrropical de l’Île Purgonorgo !${prompt}
+  7394: L’eau ici est prrrofondsément profonde, alors ne sois pas surpris si quelque chose de gros commence à tirer sur ta ligne ! (Bien que souvent, ce ne soit qu’un amas d’algues.)${prompt}
+  7395: Nous approchons des îles entourant Purgonorgo. Cette zone est connue pour ses courants rrridiculement rrrrapides. J’ai même entendu des rumeurs d’un monstre marin attaquant des manaclippers solitaires…${prompt}
+  7396: Nous avons passé le premier groupe d’îles et sommes entrés dans les eaux du Bleu Gugru. Ce sont parmi les meilleures eaux pour attraper ces poissons pointus… Comment s’appelaient-ils déjà ?${prompt}
   7397: |-
-    Look up there. You can see Purgonorgo Isle rrright ahead.
-    The waters here are warm, and the fish are colorful and tasty!${prompt}
+    Regarde là-haut. Tu peux voir l’Île Purgonorgo juste devant.
+    Les eaux ici sont chaudes, et les poissons sont colorés et savoureux !${prompt}
   7398: |-
-    Well, it looks like our trip is almost over.
-    Don't forget anything on the boat!${prompt}
-  7399: Hi! My name's Khots Chalahko, and I'll be your guide to today's trip back to Sunset Docks!${prompt}
+    Eh bien, on dirait que notre voyage est presque terminé.
+    N’oublie rien sur le bateau !${prompt}
+  7399: Salut ! Je m’appelle Khots Chalahko, et je serai votre guide pour le voyage d’aujourd’hui de retour aux Quais du Crépuscule !${prompt}
   7400: |-
-    Goodbye, Purgonorgo...
-    Hello, Gugru Blue!
-    You should have no problem reeling in some colossal catches.${prompt}
+    Au revoir, Purgonorgo…
+    Bonjour, Bleu Gugru !
+    Tu ne devrais avoir aucun problème à remonter de grosses prises.${prompt}
   7401: |-
-    We'll be passing by some of the outer islands here shortly.
-    Some tasty morsels swim around down there, but beware of the monster...${prompt}
-  7402: We're headed for some calm waters up ahead. It's pretty safe to fish around here, but you won't catch anything too interrresting.${prompt}
-  7403: Look! You can see the Buburimu Peninsula!${prompt}
+    Nous passerons bientôt par quelques îles extérieures.
+    Quelques mets délicieux nagent là-dessous, mais méfie-toi du monstre…${prompt}
+  7402: Nous nous dirigeons vers des eaux calmes devant nous. C’est assez sûr pour pêcher ici, mais tu n’attraperas rien de trop interrressant.${prompt}
+  7403: Regarde ! Tu peux voir la Péninsule de Buburimu !${prompt}
   7404: |-
-    Phew.
-    Back at Sunset Docks, safe and sound.
-    I'll see you around again sometime!${prompt}
+    Ouf.
+    De retour aux Quais du Crépuscule, sain et sauf.
+    On se reverra un de ces jours !${prompt}
   7405: |-
-    Wh-what the heck is that thing!?
-    Come on! Get it off my boat!${prompt}
+    Qu-qu’est-ce que c’est que ce truc !?
+    Allez ! Fais-le descendre de mon bateau !${prompt}
   7406: |-
-    Phew...
-    I lost about eight and a half of my nine lives back there...${prompt}
+    Ouf…
+    J’ai perdu environ huit vies et demie sur mes neuf là-dedans…${prompt}
   7407: |-
-    Ahhh...
-    Isn't it grrreat out here on the open sea!?${prompt}
+    Ahhh…
+    N’est-ce pas grr fantastique ici en haute mer !?${prompt}
   7408: |-
-    Now's not the time for idle conversation, buddy!
-    Get that monster off my boat!!!${prompt}
+    Ce n’est pas le moment pour des discussions futiles, l’ami !
+    Fais descendre ce monstre de mon bateau !!!${prompt}
   7409: |-
-    O-o-o-o...
-    O-o-o-o...
-    O-o-o...Orc!!!${prompt}
+    O-o-o-o…
+    O-o-o-o…
+    O-o-o… Orc !!!${prompt}
   7410: |-
-    <Sigh>...
-    If it was not for your bravery, I most certainly would have reached the light at the end of that tunnel...${prompt}
+    <Soupir>…
+    Sans ton courage, j’aurais certainement vu la lumière au bout de ce tunnel…${prompt}
   7411: |-
-    It looks like we shall be navigating the Newtpool route today.
-    As you may already know, I am much too old to handle any excitement, so if you spot any monsters, make sure you take care of them for me.${prompt}
-  7412: If you look closely, you can see where the main canal, the Emfea Waterway, and Newtpool converge. Breathtaking, is it not?${prompt}
+    On dirait que nous allons emprunter la route de l’Étang aux Tritons aujourd’hui.
+    Comme tu le sais peut-être déjà, je suis bien trop vieux pour gérer l’excitation, alors si tu repères des monstres, assure-toi de t’en occuper pour moi.${prompt}
+  7412: Si tu regardes bien, tu peux voir où le canal principal, la Voie d’Eau d’Emfea, et l’Étang aux Tritons convergent. À couper le souffle, n’est-ce pas ?${prompt}
   7413: |-
-    We will be arriving at South Landing shortly.
-    I must rest a spell before continuing on my journey, though. At my age it is difficult to make these long trips.${prompt}
+    Nous arriverons bientôt à l’Embarcadère Sud.
+    Je dois me reposer un moment avant de continuer mon voyage, cependant. À mon âge, il est difficile de faire ces longs trajets.${prompt}
