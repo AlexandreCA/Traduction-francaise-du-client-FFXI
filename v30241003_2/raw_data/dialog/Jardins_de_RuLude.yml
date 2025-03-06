@@ -7,7 +7,7 @@ entries:
   5: |-
     Cette région est actuellement sous le contrôle des hommes-bêtes.
     Tu ne peux pas obtenir de cristaux dans cette région.${prompt}
-  6: Cette région est actuellement neutre.${prompt} 
+  6: Cette région est actuellement neutre.${prompt}
   7: |-
     Équilibre mondial des pouvoirs :
     1er : San d’Oria
@@ -129,7 +129,7 @@ entries:
   44: Bastok - Mineure${prompt}
   45: Bastok - Minimale${prompt}
   46: Windurst - Dominante${prompt}
-  47: Windurst - Majeure${prompt} 
+  47: Windurst - Majeure${prompt}
   48: Windurst - Mineure${prompt}
   49: Windurst - Minimale${prompt}
   50: Bastok et Windurst ont formé une alliance.${prompt}
@@ -21445,7 +21445,7 @@ entries:
   10057: Merci beaucoup d’avoir affronté les dangers pour me retrouver. Je suis très reconnaissant. Maintenant, passons aux choses sérieuses…${prompt}
   10058: Merci infiniment d’avoir bravé les dangers pour me retrouver. Tu as mes remerciements. Alors maintenant…${prompt}
   10059: Par la présente, je te nomme, ${name-player}, au poste d’attaché(e) de l’Ambassade à Jeuno.${prompt}
-  10060: Par la présente, je te nomme, ${name-player}, au poste d’attaché(e) de l’Ambassade à Jeuno.${prompt} 
+  10060: Par la présente, je te nomme, ${name-player}, au poste d’attaché(e) de l’Ambassade à Jeuno.${prompt}
   10061: Par la présente, je te nomme, ${name-player}, au poste d’attaché(e) de l’Ambassade à Jeuno.${prompt}
   10062: Puisses-tu mettre tous tes talents au service de la patrie et de son amitié avec Jeuno.${prompt}
   10063: Fais tout ce que tu peux pour ton pays et son amitié avec Jeuno.${prompt}
@@ -21466,7 +21466,7 @@ entries:
   10078: L’ambassadeur te veut pour une opération spéciale. Rends-toi au briefing, vite !${prompt}
   10079: Son Excellence sollicite ton aide pour quelque chose d’important. Mieux vaut te rendre dans la chambre arrière.${prompt}
   10080: Merci d’être venu, ${name-player}.${prompt}
-  10081: Merci de t’être porté volontaire, ${name-player}.${prompt} 
+  10081: Merci de t’être porté volontaire, ${name-player}.${prompt}
   10082: Merci d’être venu, ${name-player}.${prompt}
   10083: Cette ambassade a reçu une demande de l’Archiduc de Jeuno pour envoyer quelqu’un pour une mission spéciale.${prompt}
   10084: Selon un message reçu de la Cour de Jeuno, ils veulent quelqu’un pour une mission spéciale.${prompt}
@@ -21490,7 +21490,7 @@ entries:
   10098: Parlé comme un vrai Windurstien !${prompt}
   10099: Quoi qu’il en soit, tu dois te présenter à l’archiduc en tant que nouveau membre de la mission diplomatique de San d’Oria. Il fait toujours plus sombre avant l’aube, comme on dit.${prompt}
   10100: Ne t’en fais pas trop. Tous les nouveaux diplomates doivent de toute façon se présenter à l’archiduc. Il fait toujours plus sombre avant l’aube, comme on dit.${prompt}
-  10101: Hé, ne t’inquiète pas ! Tout le nouveau personnel diplomatique doit se présenter à l’archiduc de toute façon. Il fait toujours plus sombre avant l’aube, disent les sages.${prompt} 
+  10101: Hé, ne t’inquiète pas ! Tout le nouveau personnel diplomatique doit se présenter à l’archiduc de toute façon. Il fait toujours plus sombre avant l’aube, disent les sages.${prompt}
   10102: 'Voici ton ${keyitem-singular: 7[2]}.${prompt}'
   10103: 'Tu as déjà ${keyitem-article: 7[2]} ? Eh bien, je suppose qu’il n’est pas nécessaire d’en délivrer un nouveau.${prompt}'
   10104: 'Voici ${keyitem-article: 7[2]}.${prompt}'
@@ -21878,7 +21878,7 @@ entries:
   10314: Actuellement, les maisons des enchères de Bastok, San d’Oria, Windurst et Jeuno fonctionnent toutes indépendamment. Par conséquent, les prix varient d’une ville à l’autre.${prompt}
   10315: Les aventuriers peuvent utiliser n’importe quelle maison des enchères, quelle que soit leur nationalité.${prompt}
   10316: Le premier aventurier à enchérir au prix demandé ou au-dessus achètera automatiquement le produit.${prompt}
-  10317: Une fois mise aux enchères, une marchandise y restera pour un maximum de trente semaines en temps de Vana’diel (neuf jours et demi en temps terrestre).${prompt} 
+  10317: Une fois mise aux enchères, une marchandise y restera pour un maximum de trente semaines en temps de Vana’diel (neuf jours et demi en temps terrestre).${prompt}
   10318: Si une marchandise ne se vend pas dans cette limite de temps, elle sera renvoyée à la résidence actuelle du vendeur.${prompt}
   10319: Les frais de transaction sont proportionnels au montant pour lequel un objet est mis aux enchères. La méthode de calcul de ces frais diffère pour les objets uniques et les objets empilables.${prompt}
   10320: Des frais de transaction sont perçus lorsqu’une marchandise est mise aux enchères. Ces frais ne sont pas remboursables.${prompt}
@@ -21910,7 +21910,11 @@ entries:
   10344: |-
     Dormir sur ce ${item-singular: 3[2]} m’a rendu nostalgique, kupo.
     Mon maître bienveillant accordera-t-il à ${choice-player-gender}[son/sa] moogle un peu de temps libre pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
-  10345: "Accorder des vacances à ton moogle ?\n${selection-lines}\nBien sûr, kupo !\nNon, ton temps m’appartient !${prompt}"
+  10345: |-
+    Accorder des vacances à ton moogle ?
+    ${selection-lines}
+    Bien sûr, kupo !
+    Non, ton temps m’appartient !${prompt}
   10346: Oh, quel maître cruel, cruel, kupo !!!${prompt}
   10347: |-
     Merci, kupo !
@@ -21945,7 +21949,11 @@ entries:
   10360: |-
     Dormir sur ce ${item-singular: 3[2]} m’a rendu nostalgique, kupo.
     Mon maître bienveillant accordera-t-il à ${choice-player-gender}[son/sa] moogle un peu de temps libre pour rendre visite à Maman et Papa Moogle, kupo ?${prompt}
-  10361: "Accorder des vacances à ton moogle ?\n${selection-lines}\nBien sûr, kupo !\nNon, ton temps m’appartient !${prompt}"
+  10361: |-
+    Accorder des vacances à ton moogle ?
+    ${selection-lines}
+    Bien sûr, kupo !
+    Non, ton temps m’appartient !${prompt}
   10362: |-
     Merci, kupo !
     J’ai une autre faveur à te demander… Je veux emmener ma famille en pique-nique, kupo !${prompt}
@@ -21990,7 +21998,7 @@ entries:
     Maître !
     Je suis de retour après avoir rendu visite à mes vieux amis moogles, kupo !${prompt}
   10383: On s’est tous réunis et on t’a fabriqué un nouveau Coffre Mog, kupo ! Maintenant, tu peux stocker jusqu’à 80 objets, kupo !${prompt}
-  10384: Hé. T’as rien à faire à me parler. T’es qu’un chiot, toi.${prompt}  
+  10384: Hé. T’as rien à faire à me parler. T’es qu’un chiot, toi.${prompt}
   10385: Eh bien, eh bien… Tu as fait du chemin, mais il te reste encore un long chemin à parcourir. Connais-tu les gens d’ici ?${prompt}
   10386: Eh bien, ne le prends pas mal, mais pour eux, t’es juste un tout petit insecte ! Et moi, je suis celui qui les entraîne. Ouais, tu peux m’appeler un professeur.${prompt}
   10387: Je suis sûr que t’as tes propres ambitions, pas vrai ? Si tu veux briser les barrières en toi, faudra passer mon épreuve. Qu’en dis-tu ?${prompt}
@@ -22331,7 +22339,7 @@ entries:
     Des gardes-frontières sont également placés dans les avant-postes des régions sous notre contrôle.
     Ils sont là pour appliquer le Sceau aux aventuriers comme toi.${prompt}
   10590: Une fois que tu as le Sceau de ta nation, tu pourras obtenir des cristaux des ennemis que tu vaincs.${prompt}
-  10591: Et ce n’est pas tout, tu recevras aussi des points de conquête. Tu obtiens plus de points de conquête si tu bats des ennemis dans des régions qui ne sont pas sous le contrôle de ta nation. Ces points peuvent être utilisés pour acheter des objets auprès de gardes comme moi.${prompt}  
+  10591: Et ce n’est pas tout, tu recevras aussi des points de conquête. Tu obtiens plus de points de conquête si tu bats des ennemis dans des régions qui ne sont pas sous le contrôle de ta nation. Ces points peuvent être utilisés pour acheter des objets auprès de gardes comme moi.${prompt}
   10592: |-
     Alors tu vois… les conquêtes profitent autant aux nations qu’aux aventuriers.
     Nous comptons sur toi pour faire de ton mieux pour servir ton pays.${prompt}
@@ -22923,7 +22931,7 @@ entries:
     En effet. Sans eux, nous n’aurions pas pu creuser cette mine.
     Maintenant, enfin, nous pouvons rivaliser avec San d’Oria pour le pouvoir.${prompt}
   10940: Hé, les Quadav ne sont pas assez bons pour vivre là-dedans ! Une explosion devrait s’occuper d’eux…${prompt}
-  10941: '…${prompt}'
+  10941: …${prompt}
   10942: Qu’est-ce qui ne va pas, Babenn ?${prompt}
   10943: |-
     Seigneur Raogrimm… Nous avons trouvé le temple Quadav dans les mines, comme vous le suspections.
@@ -22941,7 +22949,7 @@ entries:
   10952: Pourquoi ? Parce que je ne t’ai jamais aimé, voilà pourquoi !${prompt}
   10953: Tu ne t’en tireras pas comme ça, Ulrich !${prompt}
   10954: Regarde-moi !
-  10955: '…Cornelia !?${prompt}'
+  10955: …Cornelia !?${prompt}
   10956: Qu-qu’est-ce que j’ai fait !?${prompt}
   10957: Pourquoi… !?${prompt}
   10958: Je… ne pouvais pas te laisser mourir ici, Raogrimm… Il y a des gens qui ont besoin de toi…${prompt}
@@ -22966,7 +22974,7 @@ entries:
   10971: |-
     Alors c’est vrai.
     Les hommes-bêtes tentent de ramener le Seigneur des Ombres.${prompt}
-  10972: '…Sois prudent.${prompt}'
+  10972: …Sois prudent.${prompt}
   10973: |-
     Et maintenant ?
     ${selection-lines}
@@ -23129,9 +23137,7 @@ entries:
     Des Télépoints brisés…
     Que cela peut-il bien signifier ?${prompt}
   11064: Le rapport d’enquête rédigé par les Gardes Ducaux mentionne que les tourbillons à Valkurm et Qufim sont composés d’une substance inconnue qu’ils appellent le “Vide”.${prompt}
-  11065: |-
-    Et maintenant, des rumeurs disent qu’en sautant dans ces vortex sombres, les gens peuvent se téléporter instantanément vers l’île perdue de Tavnazia !
-    Je ne sais pas pour toi, mais moi, je reste ici où c’est sûr !${prompt}  
+  11065: "Et maintenant, des rumeurs disent qu’en sautant dans ces vortex sombres, les gens peuvent se téléporter instantanément vers l’île perdue de Tavnazia !\nJe ne sais pas pour toi, mais moi, je reste ici où c’est sûr !${prompt}  "
   11066: J’ai entendu des rumeurs selon lesquelles une lumière éclatante a jailli de la mer quelque part au nord de la Tour de Delkfutt.${prompt}
   11067: Une équipe d’enquête est prévue pour explorer la zone à la recherche d’indices, mais ils auront du pain sur la planche. Les courants dans la Mer de Shu’Meyo sont imprévisibles et violents. Beaucoup de capitaines ont perdu leur navire dans ces eaux.${prompt}
   11068: Sais-tu qu’il existe un groupe mystérieux d’officiels à Jeuno connu sous le nom de “Société Armathrwn” ?${prompt}
@@ -23164,7 +23170,7 @@ entries:
     Avec toute la sécurité renforcée, comment quelqu’un a-t-il pu accomplir un exploit aussi grandiose que voler un aéronef !?${prompt}
   11090: Pendant que l’Armada de Jeuno mène sa mission dans les cieux, il reste du devoir de la Garde Ducale d’assurer la sécurité des citoyens de Jeuno.${prompt}
   11091: As-tu découvert quelque chose de plus sur l’arme ultra-secrète que l’armada a emportée avec elle ?${prompt}
-  11092: 'Non… Cependant, j’ai entendu dire que l’appareil a porté un coup sévère au puissant Roi Wyrm pendant l’assaut.${prompt}'
+  11092: Non… Cependant, j’ai entendu dire que l’appareil a porté un coup sévère au puissant Roi Wyrm pendant l’assaut.${prompt}
   11093: Wowzie ! Si j’avais un engin ultra-chic comme ça, je mangerais des burgers de dragon rôti tous les soirs !${prompt}
   11094: Les derniers rapports indiquent que la récente mission de l’armada a été un succès. Cependant, elle n’a pas complètement arrêté le Roi Wyrm et ses sbires. Il est murmuré que la flotte lancera sa deuxième attaque une fois les réparations actuelles des navires de guerre terminées.${prompt}
   11095: Si tu as des informations sur la localisation de la fille que le Duché recherchait, je suis désolé, mais le mandat pour son arrestation a été abandonné.${prompt}
@@ -23179,14 +23185,14 @@ entries:
     Bon… peut-être deux coups.${prompt}
   11101: Nous commencions à nous demander quand tu arriverais, ${name-player}.${prompt}
   11102: La duchesse vicariante rencontre actuellement un messager de l’Est. Quand elle aura fini, ce sera ton tour. D’iciLà, tu seras placé en détention.${prompt}
-  11103: Je m’excuse pour l’absence du Grand Duc Kam’lanaut. Moi, Esha’ntarl, je le remplacerai.${prompt} 
+  11103: Je m’excuse pour l’absence du Grand Duc Kam’lanaut. Moi, Esha’ntarl, je le remplacerai.${prompt}
   11104: J’ai entendu dire que tu viens de l’Empire de l’Est pour demander quelque chose à notre nation. Déclare ton nom et ta requête.${prompt}
-  11105: '…Je suis Tenzen. Né et élevé en Extrême-Orient, je sers comme samouraï sous la puissante dynastie.${prompt}'
+  11105: …Je suis Tenzen. Né et élevé en Extrême-Orient, je sers comme samouraï sous la puissante dynastie.${prompt}
   11106: Dame Esha’ntarl, puis-je demander pourquoi mon audience n’a pas été reçue par le duc lui-même ?${prompt}
   11107: '${choice: 1}[Depuis la résurrection du Seigneur des Ombres/Même après la défaite du Seigneur des Ombres], le grand duc est submergé par ses devoirs envers le peuple de cette terre.${prompt}'
   11108: Cependant, tu n’as pas à t’inquiéter. Je prendrai la responsabilité de transmettre tes paroles directement à Lord Kam’lanaut.${prompt}
   11109: Ces deux-là en seront témoins.${prompt}
-  11110: '…${prompt}'
+  11110: …${prompt}
   11111: Bien que court, mon message n’est pas simple. Il est crucial que le duc comprenne pleinement la gravité de la situation qui se présente à nous.${prompt}
   11112: Ce que je vais dire n’affecte pas seulement ma patrie, mais aussi les pays du sud et de l’ouest, ainsi que cette belle terre.${prompt}
   11113: |-
@@ -23211,9 +23217,7 @@ entries:
   11122: Malheureusement, nos scientifiques n’ont pas encore abouti à des conclusions concrètes. Si ton empire dispose de données précises, nous serions ravis de les entendre.${prompt}
   11123: Es-tu en train de suggérer que la cause du Vide pourrait se trouver dans mon pays ? Ne me dis pas que tu ignores que les cinq éclats de légende reposent ici !${prompt}
   11124: Ne me dis pas que tu ignores que c’est le pouvoir des cinq éclats qui protège Vana’diel du Vide !${prompt}
-  11125: |-
-    Tenzen de l’Est…
-    Tu es très direct avec tes accusations.${prompt} 
+  11125: "Tenzen de l’Est…\nTu es très direct avec tes accusations.${prompt} "
   11126: |-
     Voyons voir…
     Tu penses que Jeuno est la cause de la croissance du Vide.
@@ -23258,7 +23262,7 @@ entries:
   11150: |-
     Aventurier.
     Rends-toi au quatrième cristal et attends le garçon. Quand il arrivera, capture-le et ramène-le ici.${prompt}
-  11151: Contrairement aux trois premiers cristaux, le quatrième repose profondément sous la surface de Vana’diel, quelque part sous les glaciers des Terres du Nord.${prompt} 
+  11151: Contrairement aux trois premiers cristaux, le quatrième repose profondément sous la surface de Vana’diel, quelque part sous les glaciers des Terres du Nord.${prompt}
   11152: Il y a trente ans, une expédition alliée a visité les Terres du Nord. Si tu pouvais trouver un des membres originaux, tu pourrais obtenir des informations précieuses.${prompt}
   11153: |-
     Francmage M Mistalle, des Chevaliers Mistalle à San d’Oria…
@@ -26539,7 +26543,7 @@ entries:
   12696: |-
     Mais les choses sont différentes maintenant.
     Tu n’es plus celle-là, n’est-ce pas ?${prompt}
-  12697: '…${prompt}'
+  12697: …${prompt}
   12698: Es-tu en train de dire que rien n’a changé ? Que va-t-il arriver à Prishe ?${prompt}
   12699: À en juger par les actions de Bahamut, la gardienne est toujours parmi nous.${prompt}
   12700: Mais au cours des vingt dernières années où j’ai veillé sur les terres de Vana’diel, je n’ai vu aucune autre incarnation possible…${prompt}
@@ -33269,159 +33273,159 @@ entries:
   15375: '${color-alt: 138}You may now travel to ${choice: 0}[Selbina/Mhaura/Rabao/Norg] via waypoints!'
   15376: '${color-alt: 138}You may now travel to ${choice: 0}[West Ronfaure/North Gustaberg/West Sarutabaruta/La Theine Plateau/the Konschtat Highlands/Tahrongi Canyon/Jugner Forest/the Pashhow Marshlands/the Meriphataud Mountains/Attohwa Chasm/Uleguerand Range] via waypoints!'
   15377: '${color-alt: 138}You may now travel to ${choice: 0}[Davoi/Beadeaux/Castle Oztroja/the Quicksand Caves/Sea Serpent Grotto/the Temple of Uggalepih/the Boyahda Tree/Oldton Movalpolos/Riverne - Site #B01/Castle Zvahl Keep] via waypoints!'
-  15378: What manner of farce is this?${prompt}
-  15379: An uncouth Tarutaru claiming to be an esteemed guest of Lady Esha'ntarl is running amok demanding the Trust initiative scroll.${prompt}
-  15380: My stomach churns each time this ruffian brings up the lady's honorable name. Filth and lies!${prompt}
+  15378: Quelle sorte de farce est-ce donc ?${prompt}
+  15379: Un Tarutaru grossier prétendant être un invité estimé de Dame Esha'ntarl sème le chaos en réclamant le parchemin de l’initiative de Confiance.${prompt}
+  15380: Mon estomac se retourne chaque fois que ce rustre mentionne le nom honorable de la dame. Infamie et mensonges !${prompt}
   15381: |-
-    Ah! There she is!
-    That dastardly Tarutaru!${prompt}
-  15382: Uh-oh!
-  15383: The scroll! To think she got her grubby hands on it...!${prompt}
-  15384: I cannot comprehend the depth of her audacity to steal from the Auroral Palace!${prompt}
-  15385: I beseech you, adventurer--smash her like a pane of glass!${prompt}
-  15386: Don't just flop around there! Help meee!
-  15387: Esha'ntarl said I could have it!${prompt}
-  15388: The world never appreciates the endless comedic antics of the Chebukki Show!${prompt}
-  15389: There's no way I'd ever hit it big, so instead, I decided I'd save the world with the scroll...${prompt}
-  15390: I'm thinking of starting a troupe called “The Buxom Bosom Buddies”--with me as the chest--err, headliner!${prompt}
-  15391: Of course, I can't do it alone. I'll have to get Ulmia, and Esha'ntarl, and that lovely Mumor...${prompt}
-  15392: Of course, I can't do it alone. I'll have to get Ulmia, and Esha'ntarl, and...well, I suppose you're pretty satisfactory, too.${prompt}
-  15393: And when it comes to the grand finale, we'll need something flashy. Something that only two of me can do.${prompt}
-  15394: So that's where my alter ego comes in!${prompt}
-  15395: Wh-why are you waiting? Scrape that villainous scum from Vana'diel this minute!${prompt}
+    Ah ! La voilà !
+    Cette maudite Tarutaru !${prompt}
+  15382: Oh non !
+  15383: Le parchemin ! Dire qu’elle a mis ses mains sales dessus… !${prompt}
+  15384: Je ne peux concevoir l’ampleur de son audace pour oser voler au Palais Auroral !${prompt}
+  15385: Je vous en supplie, aventurier – fracassez-la comme une vitre !${prompt}
+  15386: Ne restez pas là à gigoter comme un poisson hors de l’eau ! Aidez-moiii !
+  15387: Esha'ntarl a dit que je pouvais l’avoir !${prompt}
+  15388: Le monde n’apprécie jamais les pitreries comiques sans fin du Spectacle Chebukki !${prompt}
+  15389: Je n’ai aucune chance de percer, alors j’ai décidé de sauver le monde avec le parchemin…${prompt}
+  15390: Je pense créer une troupe appelée « Les Copines aux Poitrines Généreuses » – avec moi en tête d’affiche, ou plutôt, en poitrine d’affiche !${prompt}
+  15391: Bien sûr, je ne peux pas le faire seule. Il me faudra Ulmia, Esha'ntarl, et cette charmante Mumor…${prompt}
+  15392: Bien sûr, je ne peux pas le faire seule. Il me faudra Ulmia, Esha'ntarl, et… eh bien, je suppose que vous êtes assez satisfaisant aussi.${prompt}
+  15393: Et pour le grand final, il nous faudra quelque chose d’éclatant. Quelque chose que seules deux versions de moi peuvent accomplir.${prompt}
+  15394: C’est là qu’intervient mon alter ego !${prompt}
+  15395: P-pourquoi attendez-vous ? Éliminez cette scélérate de Vana’diel sur-le-champ !${prompt}
   15396: |-
-    Smash her to bits?
+    La réduire en miettes ?
     ${selection-lines}
-    Let me get my hammer.
-    I want to see how this plays out.${prompt}
+    Laissez-moi prendre mon marteau.
+    Je veux voir comment ça va se dérouler.${prompt}
   15397: |-
-    A snip and a snap and a pile of...maps?
-    A sneer and a tear, time to warp outta here!${prompt}
-  15398: 'Stop being a fish out of water, and become the ${choice: 0}[bosom buddy/fan club president] you always knew you could be!${prompt}'
-  15399: Remember when that old fuddy-duddy exploited your goodwill and had you gather all manner of trinkets for him? We'll use them as props in our revue!${prompt}
-  15400: And I think I know who the most delicious male backup dancers would be!${prompt}
-  15401: I'm sure Papa will help too!${prompt}
-  15402: He'll be in charge of the big kaboom that accompanies us taking the stage!${prompt}
-  15403: Think of it! The ultimate magic, brought to fruition by me and me alone!${prompt}
-  15404: So, you see?${prompt}
-  15405: Trust time!
+    Un coup de ciseau, un claquement, et une pile de… cartes ?
+    Un rictus, une larme, il est temps de se téléporter loin d’ici !${prompt}
+  15398: 'Arrêtez de jouer les poissons hors de l’eau, et devenez le ${choice: 0}[copain de poitrine/président du fan-club] que vous avez toujours su pouvoir être !${prompt}'
+  15399: Vous vous souvenez quand ce vieux grincheux a exploité votre bonne volonté et vous a fait ramasser toutes sortes de babioles pour lui ? On les utilisera comme accessoires dans notre revue !${prompt}
+  15400: Et je crois savoir qui seraient les danseurs masculins les plus délicieux !${prompt}
+  15401: Je suis sûre que Papa aidera aussi !${prompt}
+  15402: Il sera chargé du grand boum qui accompagnera notre entrée en scène !${prompt}
+  15403: Imaginez ! La magie ultime, réalisée par moi et moi seule !${prompt}
+  15404: Alors, vous voyez ?${prompt}
+  15405: L’heure de la Confiance !
   15406: |-
-    What does the ritual require?
+    Que requiert le rituel ?
     ${selection-lines}
-    Bonds of trust.
-    Bonds of camaraderie.
-    Bonds of friendship.${prompt}
-  15407: Trust. Yes, with trust I will have you under my...${prompt}
-  15408: Camaraderie. Yes, a true sign of weakness...${prompt}
-  15409: Friendship. Ah yes, how much have I lost so far...?${prompt}
-  15410: This is ridiculous! We don't have a single one of those!${prompt}
-  15411: <Sigh>${prompt}
+    Des liens de confiance.
+    Des liens de camaraderie.
+    Des liens d’amitié.${prompt}
+  15407: La confiance. Oui, avec la confiance, je vous aurai sous mon…${prompt}
+  15408: La camaraderie. Oui, un vrai signe de faiblesse…${prompt}
+  15409: L’amitié. Ah oui, combien ai-je déjà perdu… ?${prompt}
+  15410: C’est ridicule ! Nous n’avons pas un seul de ces liens !${prompt}
+  15411: <Soupir>${prompt}
   15412: |-
-    Then there's only one thing to do!
-    Me...!${prompt}
+    Alors il n'y a qu'une seule chose à faire !
+    Moi... !${prompt}
   15413: |-
-    What comes next?
+    Que se passe-t-il ensuite ?
     ${selection-lines}
-    “...te...”!${prompt}
-  15414: “...or”?${prompt}
+    « ...te... » !${prompt}
+  15414: « ...ou » ?${prompt}
   15415: ☆!!!
-  15416: A whispering voice floats to your ears from nowhere in particular...${prompt}
-  15417: You are to truuuuuust Cherukiki～!${prompt}
-  15418: You are to loooooove Cherukiki～!${prompt}
-  15419: Cherukiki is your friiiiiiend～!${prompt}
-  15420: What's this infernal spell!? Has something happened!?${prompt}
-  15421: Soldier, to me! This Tarutaru ruffian is at the bottom of it all!${prompt}
-  15422: You want an alter ego that can use the ultimate magic, don't you～?${prompt}
-  15423: A final fantasy worthy of any adventurer!${prompt}
-  15424: She...she escaped...${prompt}
-  15425: The talking rat was scurrying about your pockets while you lay prone, so I advise you to check your belongings.${prompt}
-  15426: By Altana above, my eyes must be failing me. Suddenly there were two of them!${prompt}
-  15427: I swear...right before she left...${prompt}
-  15428: You find the small scroll Cherukiki was holding crumpled in your bags.
-  15429: You cannot shake the feeling that she is pulling a fast one...
-  15430: Who came up with this “Trust” magic, anyway? Bah. And what use would you have for it?${prompt}
-  15431: Hey there, ${name-player}! You're familiar with this “Trust” magic, aren't you?${prompt}
+  15416: Une voix chuchotante flotte jusqu'à vos oreilles, venue de nulle part en particulier...${prompt}
+  15417: Vous devez faiiiiiiire confiance à Cherukiki～ !${prompt}
+  15418: Vous devez aiiiiiiiimer Cherukiki～ !${prompt}
+  15419: Cherukiki est votre amiiiiiiie～ !${prompt}
+  15420: Quel est ce sort infernal !? Que s'est-il passé !?${prompt}
+  15421: Soldat, à moi ! Ce vaurien de Tarutaru est derrière tout ça !${prompt}
+  15422: Vous voulez un alter ego capable d'utiliser la magie ultime, n'est-ce pas～ ?${prompt}
+  15423: Une fantaisie finale digne de tout aventurier !${prompt}
+  15424: Elle... elle s'est échappée...${prompt}
+  15425: Le rat qui parle farfouillait dans vos poches pendant que vous étiez à terre, je vous conseille de vérifier vos affaires.${prompt}
+  15426: Par Altana là-haut, mes yeux doivent me trahir. Soudain, il y en avait deux !${prompt}
+  15427: Je le jure... juste avant qu'elle ne parte...${prompt}
+  15428: Vous trouvez le petit parchemin que tenait Cherukiki, froissé dans vos sacs.
+  15429: Vous ne pouvez vous défaire du sentiment qu'elle vous joue un sale tour...
+  15430: Qui a bien pu inventer cette magie de « Confiance », hein ? Bah. Et à quoi cela vous servirait-il ?${prompt}
+  15431: Salut, ${name-player} ! Vous êtes familier avec cette magie de « Confiance », n'est-ce pas ?${prompt}
   15432: |-
-    Are you involved with the initiative?
+    Êtes-vous impliqué dans cette initiative ?
     ${selection-lines}
-    Sure am!
-    Definitely not!${prompt}
+    Bien sûr que oui !
+    Absolument pas !${prompt}
   15433: |-
-    Is that so?
-    ...Then all the better for me.${prompt}
+    Vraiment ?
+    ...Tant mieux pour moi alors.${prompt}
   15434: |-
-    ...Then you've already got some alter egos?${wait-36: 1}
-    The whole idea makes my skin crawl.${prompt}
-  15435: And, of course, you're going to say you want me to sacrifice myself so you can have another one, hmm?${prompt}
+    ...Alors vous avez déjà des alter egos ?${wait-36: 1}
+    Toute cette idée me donne la chair de poule.${prompt}
+  15435: Et, bien sûr, vous allez me dire que vous voulez que je me sacrifie pour que vous en ayez un de plus, hmm ?${prompt}
   15436: |-
-    Would you like Maat's alter ego?
+    Voulez-vous l'alter ego de Maat ?
     ${selection-lines}
-    Indubitably.
-    Eeew.${prompt}
-  15437: Oh, praise Altana! I thought for a minute that...${prompt}
-  15438: <Sigh>${prompt}
-  15439: You adventurers are all the same. It wasn't so long ago that you would face your challenges head-on with the strength of pure will, but now it's all “Kupipi this” and “Ulmia that”!${prompt}
-  15440: What'll you do if they decide to go rogue, hmm? You've got to learn how to fend for yourself, too!${prompt}
-  15441: If I've told you once, I've told you a thousand times. Limits were made to be broken, and that's something only you can do!${prompt}
-  15442: So what am I going to do with this scroll I have? Burn it and use the ashes as fertilizer!${prompt}
-  15443: Maat! Maat! I come bearing tidings of trouble!${prompt}
-  15444: Wh-what is it!? Is Jeuno under attack!?${prompt}
-  15445: Oh, dear, the air is filled with angst, kupo!${prompt}
+    Sans aucun doute.
+    Beurk.${prompt}
+  15437: Oh, louée soit Altana ! Pendant un instant, j'ai cru que...${prompt}
+  15438: <Soupir>${prompt}
+  15439: Vous, les aventuriers, êtes tous pareils. Il n'y a pas si longtemps, vous affrontiez vos défis de front avec la pure force de votre volonté, mais maintenant c'est tout « Kupipi par-ci » et « Ulmia par-là » !${prompt} 
+  15440: Que ferez-vous s'ils décident de se rebeller, hmm ? Il faut aussi apprendre à vous débrouiller seul !${prompt}
+  15441: Si je vous l'ai dit une fois, je vous l'ai dit mille fois. Les limites sont faites pour être dépassées, et c'est quelque chose que vous seul pouvez accomplir !${prompt}
+  15442: Alors, que vais-je faire de ce parchemin que j'ai ? Le brûler et utiliser les cendres comme engrais !${prompt}
+  15443: Maat ! Maat ! J'apporte des nouvelles de troubles !${prompt}
+  15444: Qu-quoi !? Jeuno est-elle attaquée !?${prompt}
+  15445: Oh, misère, l'air est chargé d'angoisse, kupo !${prompt}
   15446: |-
-    It's your wife! She..she...${wait-36: 1}
-    She's waltzing down the warpath!${prompt}
-  15447: You left the laundry to languish, forgot to fix the floor, and instead are traipsing about town!${prompt}
-  15448: That doesn't sound right. The floor is sparkling like glass in the morning sun, and I remember folding her unmentionables got me thinking of the time when...${prompt}
-  15449: No no no! Those Asuran Fists of yours pounded her panties with such preposterous puissance that they perished in a plume of particles which are presently piling up around your pad!${prompt}
-  15450: And that troublesome technique you try on travelers...“Bear Killer,” was it? It caused the ceiling to crumble, and now there are numerous nicks and notches furrowing into the floor!${prompt}
-  15451: '...I''m a dead man.${prompt}'
-  15452: Did you at least remember to get the groceries, kupo?${prompt}
-  15453: I-I went! But I damned near threw my back out lugging the stuff around, so I had one of 'em spry fellas near the stalls haul 'em back for me.${prompt}
-  15454: That's not cunning...that's cheating.${prompt}
-  15455: But even if I were to return and get 'em m'self...${prompt}
-  15456: It'd be too late.${prompt}
-  15457: So you want to absolutely avoid heading home?${prompt}
-  15458: But if I don't bring you back, she'll scour my skin and skewer my sides!${prompt}
-  15459: Sorry, little friend, but I'm not doing it!
-  15460: Kupo! Not entirely unexpected.${prompt}
-  15461: Your loving wife may lamentably leave you, kupo!${prompt}
-  15462: B-but I don't want to spend the end of my days rotting alone!${prompt}
+    C'est votre femme ! Elle... elle...${wait-36: 1}
+    Elle est en marche sur le sentier de la guerre !${prompt}
+  15447: Tu as laissé le linge traîner, oublié de réparer le plancher, et à la place tu te promènes en ville !${prompt}
+  15448: Ça ne semble pas juste. Le plancher brille comme du verre au soleil du matin, et je me souviens que plier ses sous-vêtements m'a fait penser à l'époque où...${prompt}
+  15449: Non, non, non ! Tes Poings d'Asura ont martelé ses culottes avec une puissance si absurde qu'elles se sont désintégrées en un nuage de particules qui s'entassent maintenant autour de ta maison !${prompt}
+  15450: Et cette technique embêtante que tu testes sur les voyageurs... « Tueur d'Ours », c'était ça ? Elle a fait s'effondrer le plafond, et maintenant il y a plein d'entailles et de marques sur le plancher !${prompt}
+  15451: « ...Je suis un homme mort. »${prompt}
+  15452: As-tu au moins pensé à faire les courses, kupo ?${prompt}
+  15453: J-j'y suis allé ! Mais j'ai failli me casser le dos en portant tout ça, alors j'ai demandé à un jeune gaillard près des étals de les ramener pour moi.${prompt}
+  15454: Ce n'est pas de la ruse... c'est de la triche.${prompt}
+  15455: Mais même si je retournais les chercher moi-même...${prompt}
+  15456: Il serait trop tard.${prompt}
+  15457: Alors tu veux absolument éviter de rentrer chez toi ?${prompt}
+  15458: Mais si je ne te ramène pas, elle va m'écorcher vif et me embrocher les côtes !${prompt}
+  15459: Désolé, petit ami, mais je ne le ferai pas !
+  15460: Kupo ! Pas totalement inattendu.${prompt}
+  15461: Ta tendre épouse risque hélas de t'abandonner, kupo !${prompt}
+  15462: M-mais je ne veux pas finir mes jours à pourrir tout seul !${prompt}
   15463: |-
-    ...Dare I entertain the thought?
-    Maybe if I had an alter ego...${prompt}
-  15464: One of the academics from the Jeuno Institute of Magical Studies told me something when I received my scroll.${prompt}
-  15465: “The energies of Trust magic are a representation of the bonds of trust, friendship, and camaraderie between two individuals.”${prompt}
-  15466: Perhaps...perhaps I should rethink my stance. If I can “serve” others, then so be it.${prompt}
-  15467: ${name-player}! Steel yourself!${prompt}
-  15468: How many times have we sparred, and how many times have you emerged the victor? If anyone has strong bonds with me, it would be you!${prompt}
-  15469: Do you remember the trials the Magian Moogles gave? The ones you passed with flying colors?${prompt}
-  15470: Power comes from the gut, my ${choice-player-gender}[boy/girl]. And using a gut like yours, my alter ego would be able to withstand any sucker punch my wife throws its way!${prompt}
-  15471: A stomach smacker? My tummy trembles at the thought, kupo...${prompt}
-  15472: You were also made to suffer the ill effects of “brown magic” as a bit of an...experiment.${prompt}
-  15473: When you say it that way, it sounds so sordid.${prompt}
-  15474: But now you've got a liver of steel! My alter ego should be able to withstand any shots to the organs my honey might dish out!${prompt}
-  15475: There was also that time when I engaged in a fierce struggle with my eternal nemesis, Degenhard. Boy, you sure got caught up in our squabbles--but somehow remained unscathed.${prompt}
-  15476: I thought my aura would be too much for you to handle, but you pulled through by the skin of your teeth.${prompt}
+    ...Oserais-je seulement y penser ?
+    Peut-être si j'avais un alter ego...${prompt}
+  15464: L'un des académiciens de l'Institut des Études Magiques de Jeuno m'a dit quelque chose quand j'ai reçu mon parchemin.${prompt}
+  15465: « Les énergies de la magie de Confiance représentent les liens de confiance, d'amitié et de camaraderie entre deux individus. »${prompt}
+  15466: Peut-être... peut-être devrais-je revoir ma position. Si je peux « servir » les autres, qu'il en soit ainsi.${prompt}
+  15467: ${name-player} ! Préparez-vous !${prompt}
+  15468: Combien de fois nous sommes-nous affrontés, et combien de fois en êtes-vous sorti victorieux ? S'il y a quelqu'un qui a des liens forts avec moi, ce serait vous !${prompt}
+  15469: Vous souvenez-vous des épreuves que les Moogles Magiens vous ont données ? Celles que vous avez réussies haut la main ?${prompt}
+  15470: La puissance vient des tripes, mon ${choice-player-gender}[garçon/fille]. Et avec des tripes comme les vôtres, mon alter ego pourrait encaisser n'importe quel coup bas que ma femme lui enverrait !${prompt}
+  15471: Un coup dans l'estomac ? Mon ventre tremble rien que d'y penser, kupo...${prompt}
+  15472: On vous a aussi fait subir les effets néfastes de la « magie brune » dans une sorte d'...expérience.${prompt}
+  15473: Quand vous le dites comme ça, ça semble tellement sordide.${prompt}
+  15474: Mais maintenant, vous avez un foie en acier ! Mon alter ego devrait pouvoir résister à tous les coups aux organes que ma douce pourrait lui infliger !${prompt}
+  15475: Il y a aussi eu cette fois où j'ai livré un combat acharné contre mon éternel némésis, Degenhard. Mon garçon, vous vous êtes vraiment retrouvé mêlé à nos querelles – mais vous en êtes sorti indemne, d'une manière ou d'une autre.${prompt}
+  15476: Je pensais que mon aura serait trop dure à supporter pour vous, mais vous vous en êtes sorti de justesse.${prompt}
   15477: |-
     ...${wait-36: 1}
-    That's not how it happened, kupo.${prompt}
-  15478: My old lady's got a bit of a fire aura herself, so any alter ego I make with you can surely withstand the heat!${prompt}
-  15479: I also remember those “special eastern techniques” they put you through when you were frustrated with your limits once more.${prompt}
-  15480: I can still see the look on that old biddy Chamama's face when that...thing came out of you. Half disgust, half curiosity.${prompt}
-  15481: '...I''d be careful about calling a budding beauty like her a “biddy.”${prompt}'
-  15482: Surely the alter ego we create will woo my wife into a lovelorn stupor!${prompt}
-  15483: (She'd slap him silly if she saw his bluster and bravado, kupo...)${prompt}
-  15484: This'll flare up some painful memories, but... Remember that infernal contract you signed?${prompt}
-  15485: The one with Atori-Tutori?${prompt}
-  15486: Far be it from me to use the term “lust for power,” but...well, you're a braver ${choice-player-gender}[man/woman] than I!${prompt}
-  15487: Beyond doubt, the alter ego we call into being will fear nothing--nor will it sweat the small stuff!${prompt}
-  15488: Such arrogant apologies would make her apoplectic, kupo...${prompt}
-  15489: And finally, do you remember when I gave you a little present?${prompt}
-  15490: When the time comes, and I pass on...${prompt}
-  15491: I want you to take my hat, stand here in my place, and spread your wings.${prompt}
-  15492: But I don't cling to illusions. I know you want to go out there, adventure, and meet lots of ${choice-player-gender}[pretty young women/strapping young lads].${prompt}
-  15493: Maybe...maybe I could join too, kupo?${prompt}
-  15494: Floating here is as boring as balancing boxes.${prompt}
+    Ce n'est pas comme ça que ça s'est passé, kupo.${prompt}
+  15478: Ma vieille dame a elle-même une aura un peu enflammée, alors tout alter ego que je créerais avec vous pourrait sûrement supporter la chaleur !${prompt}
+  15479: Je me souviens aussi de ces « techniques orientales spéciales » qu'ils vous ont fait subir quand vous étiez à nouveau frustré par vos limites.${prompt}
+  15480: Je revois encore l'expression sur le visage de cette vieille Chamama quand cette... chose est sortie de vous. Moitié dégoût, moitié curiosité.${prompt}
+  15481: « ...Je ferais attention à ne pas traiter une beauté en devenir comme elle de "vieille". »${prompt}
+  15482: Sans aucun doute, l'alter ego que nous créerons envoûtera ma femme jusqu'à la faire tomber dans un état d'amour béat !${prompt}
+  15483: (Elle le giflerait jusqu'à l'assommer si elle voyait son arrogance et sa bravade, kupo...)${prompt}
+  15484: Ça va raviver des souvenirs douloureux, mais... Vous vous rappelez ce contrat infernal que vous avez signé ?${prompt}
+  15485: Celui avec Atori-Tutori ?${prompt}
+  15486: Loin de moi l'idée d'utiliser l'expression « soif de pouvoir », mais... eh bien, vous êtes un ${choice-player-gender}[homme/femme] plus courageux que moi !${prompt}
+  15487: Sans aucun doute, l'alter ego que nous invoquerons ne craindra rien – et ne se souciera pas des détails !${prompt}
+  15488: De telles excuses arrogantes la rendraient folle de rage, kupo...${prompt}
+  15489: Et enfin, vous souvenez-vous de ce petit cadeau que je vous ai donné ?${prompt}
+  15490: Quand le moment viendra, et que je partirai...${prompt}
+  15491: Je veux que vous preniez mon chapeau, que vous preniez ma place ici, et que vous déployiez vos ailes.${prompt}
+  15492: Mais je ne me berce pas d'illusions. Je sais que vous voulez partir là dehors, vivre des aventures et rencontrer plein de ${choice-player-gender}[jolies jeunes femmes/jeunes gaillards robustes].${prompt}
+  15493: Peut-être... peut-être que je pourrais me joindre à vous, kupo ?${prompt}
+  15494: Flotter ici est aussi ennuyeux que d'équilibrer des boîtes.${prompt}
   15495: |-
     Mayhaps my alter ego'd be a help then...
     His back would give out easily, though, so don't make it too tough on him! Heh heh.${prompt}
