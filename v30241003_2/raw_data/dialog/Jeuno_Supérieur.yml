@@ -16409,145 +16409,145 @@ entries:
   6688: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
   6689: |-
     Vous pouvez définir ceci comme votre point de retour.
-    Une fois défini, vous reviendrez à ce point lorsque vous serez mis hors de combat.
+    Une fois défini, vous reviendrez ici si vous êtes mis hors de combat.
   6690: |-
-    Définir ceci comme point de retour actuel ?
+    Définir ceci comme votre point de retour actuel ?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Oui
+    Non${prompt}
   6691: Point de retour défini !${prompt}
-  6692: Un point de retour peut être défini comme un lieu où vous reviendrez dans Vana'diel lorsque vous serez mis hors de combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+  6692: Un point de retour est un lieu où vous reviendrez dans Vana’diel si vous êtes mis hors de combat. Vous pouvez aussi l’utiliser pour vous téléporter vers d’autres points de retour enregistrés.
   6693: |-
-    Que souhaites-tu faire ?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Voyager vers un autre point de retour.
-    Définir ceci comme ton point de retour.
-    Autres paramètres.
-    En fait, oublie ça.${prompt}
+    Voyager vers un autre point de retour
+    Définir ceci comme votre point de retour
+    Autres paramètres
+    En fait, oubliez ça${prompt}
   6694: |-
     Vous avez enregistré un nouveau point de retour !
     Vous pouvez maintenant vous téléporter ici depuis tout autre point de retour.${prompt}
-  6695: Vous pouvez vous téléporter d'ici vers tout autre point de retour que vous avez enregistré.
+  6695: Vous pouvez vous téléporter d’ici vers tout autre point de retour que vous avez enregistré.
   6696: |-
     Téléportation où ?
     ${selection-lines}
-    Oublie ça.
-    ${zone: 1[2]}.
-    ${zone: 2[2]}.
-    ${zone: 3[2]}.
-    ${zone: 4[2]}.
-    ${zone: 5[2]}.
-    ${zone: 6[2]}.
-    ${zone: 7[2]}.
-    ${zone: 8[2]}.
-    ${zone: 9[2]}.
-    ${zone: 10[2]}.
-    ${zone: 11[2]}.
-    ${zone: 12[2]}.
-    ${zone: 13[2]}.
-    ${zone: 14[2]}.
-    ${zone: 15[2]}.
-    ${zone: 16[2]}.
-    Page précédente.
-    Page suivante.${prompt}
+    Oubliez ça
+    ${zone: 1[2]}
+    ${zone: 2[2]}
+    ${zone: 3[2]}
+    ${zone: 4[2]}
+    ${zone: 5[2]}
+    ${zone: 6[2]}
+    ${zone: 7[2]}
+    ${zone: 8[2]}
+    ${zone: 9[2]}
+    ${zone: 10[2]}
+    ${zone: 11[2]}
+    ${zone: 12[2]}
+    ${zone: 13[2]}
+    ${zone: 14[2]}
+    ${zone: 15[2]}
+    ${zone: 16[2]}
+    Page précédente
+    Page suivante${prompt}
   6697: |-
-    Se téléporter où ?（${zone: 33[2]}）
+    Se téléporter où ? (${zone: 33[2]})
     ${selection-lines}
-    Nulle part.
-    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6698: Vous n'avez encore enregistré aucun autre point de retour, il est donc impossible de vous téléporter.${prompt}
+    Nulle part
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)]
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)]
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)]
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)]
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)]${prompt}
+  6698: Vous n’avez encore enregistré aucun autre point de retour, donc la téléportation est impossible pour le moment.${prompt}
   6699: 'Il en coûte ${number: 3} gil pour se téléporter au point de retour #${number: 2} dans ${zone: 1[2]}.'
   6700: 'Il n’y a pas de frais pour se téléporter au point de retour #${number: 2} dans ${zone: 1[2]}.'
   6701: |-
     Téléportation ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s'il vous plaît.
-    Non, merci.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris]
+    Oui, s’il vous plaît
+    Non, merci${prompt}
   6702: |-
     Se téléporter vers quelle région ?
     ${selection-lines}
-    En fait, aucune.
-    Sélectionner parmi les favoris.
-    Région actuelle.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
-    ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
-    ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
-    ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
-    ${choice: 1}[Kuzotz/].
-    ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Page précédente.
-    Page suivante.${prompt}
+    En fait, aucune
+    Sélectionner parmi les favoris
+    Région actuelle
+    ${choice: 1}[San d’Oria/Movalpolos]
+    ${choice: 1}[Bastok/Tavnazian Arch]
+    ${choice: 1}[Windurst/Lumoria]
+    ${choice: 1}[Jeuno/Mamool Ja Savage]
+    ${choice: 1}[Tavnazia/Halvung]
+    ${choice: 1}[West. Aht Urhgan/Arrapago Is]
+    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal]
+    ${choice: 1}[Ronfaure/Ronfaure Front]
+    ${choice: 1}[Zulkheim/Norvallen Front]
+    ${choice: 1}[Norvallen/Gustaberg Front]
+    ${choice: 1}[Gustaberg/Derfland Front]
+    ${choice: 1}[Derfland/Sarutabaruta Front]
+    ${choice: 1}[Sarutabaruta/Aragoneu Front]
+    ${choice: 1}[Kolshushu/Fauregandi Front]
+    ${choice: 1}[Aragoneu/Valdeaunia Front]
+    ${choice: 1}[Fauregandi/East. Ulbuka]
+    ${choice: 1}[Valdeaunia/Ra’Kaznar]
+    ${choice: 1}[Qufim/]
+    ${choice: 1}[Li’Telor/]
+    ${choice: 1}[Kuzotz/]
+    ${choice: 1}[Vollbow/]
+    ${choice: 1}[Elshimo Low/]
+    ${choice: 1}[Elshimo Up/]
+    ${choice: 1}[Tu’Lia/]
+    Page précédente
+    Page suivante${prompt}
   6703: |-
     Se téléporter où ?
     ${selection-lines}
-    Aucune de ces choix.
-    Un lieu favori.
-    Une zone originale.
-    Une zone de Rise of the Zilart.
-    Une zone de Chains of Promathia.
-    Une zone de Treasures of Aht Urhgan.
-    Une zone de Wings of the Goddess.
-    Une zone de Seekers of Adoulin.${prompt}
-  6704: Tu peux changer la méthode de sélection de la zone de ton point de départ pour la téléportation.${prompt}
+    Aucun de ces choix
+    Un lieu favori
+    Une zone originale
+    Une zone de Rise of the Zilart
+    Une zone de Chains of Promathia
+    Une zone de Treasures of Aht Urhgan
+    Une zone de Wings of the Goddess
+    Une zone de Seekers of Adoulin${prompt}
+  6704: Vous pouvez modifier la méthode de sélection des zones pour votre téléportation depuis ce point de départ.${prompt}
   6705: |-
     Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    Mon paramètre actuel.
-    Sélectionner par région.
-    Sélectionner par extension.${prompt}
+    Mon paramètre actuel
+    Sélectionner par région
+    Sélectionner par extension${prompt}
   6706: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].${prompt}'
   6707: |-
     Se téléporter où ?
     ${selection-lines}
-    Aucune de ces choix.
-    ${zone: 1[2]} #${number: 17}.
-    ${zone: 2[2]} #${number: 18}.
-    ${zone: 3[2]} #${number: 19}.
-    ${zone: 4[2]} #${number: 20}.
-    ${zone: 5[2]} #${number: 21}.
-    ${zone: 6[2]} #${number: 22}.
-    ${zone: 7[2]} #${number: 23}.
-    ${zone: 8[2]} #${number: 24}.
-    ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  6708: 'Le point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] à ta liste de lieux favoris.${prompt}'
-  6709: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour enregistrer un nouveau.${prompt}
+    Aucun de ces choix
+    ${zone: 1[2]} #${number: 17}
+    ${zone: 2[2]} #${number: 18}
+    ${zone: 3[2]} #${number: 19}
+    ${zone: 4[2]} #${number: 20}
+    ${zone: 5[2]} #${number: 21}
+    ${zone: 6[2]} #${number: 22}
+    ${zone: 7[2]} #${number: 23}
+    ${zone: 8[2]} #${number: 24}
+    ${zone: 9[2]} #${number: 25}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris]${prompt}
+  6708: 'Le point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] à votre liste de lieux favoris.${prompt}'
+  6709: Votre liste de lieux favoris est pleine. Vous devez supprimer une entrée existante pour en ajouter une nouvelle.${prompt}
   6710: |-
     Supprimer lequel ?
     ${selection-lines}
-    Aucune de ces choix.
-    ${zone: 1[2]} #${number: 17}.
-    ${zone: 2[2]} #${number: 18}.
-    ${zone: 3[2]} #${number: 19}.
-    ${zone: 4[2]} #${number: 20}.
-    ${zone: 5[2]} #${number: 21}.
-    ${zone: 6[2]} #${number: 22}.
-    ${zone: 7[2]} #${number: 23}.
-    ${zone: 8[2]} #${number: 24}.
-    ${zone: 9[2]} #${number: 25}.${prompt}
+    Aucun de ces choix
+    ${zone: 1[2]} #${number: 17}
+    ${zone: 2[2]} #${number: 18}
+    ${zone: 3[2]} #${number: 19}
+    ${zone: 4[2]} #${number: 20}
+    ${zone: 5[2]} #${number: 21}
+    ${zone: 6[2]} #${number: 22}
+    ${zone: 7[2]} #${number: 23}
+    ${zone: 8[2]} #${number: 24}
+    ${zone: 9[2]} #${number: 25}${prompt}
   6711: 'Si tu souhaites monter un chocobo, tu dois posséder ${keyitem-article: 7[2]} et avoir un niveau de job suffisamment élevé.${prompt}'
   6712: 'Tu peux louer un chocobo pour ${number: 0} gil. Je vois que tu as actuellement ${number: 1} gil.${prompt}'
   6713: Tu peux louer un chocobo, mais comme ton niveau est trop bas, tu ne pourras pas monter très longtemps. De plus, l'équipement qui prolonge ton temps de conduite n'aura aucun effet.${prompt}
