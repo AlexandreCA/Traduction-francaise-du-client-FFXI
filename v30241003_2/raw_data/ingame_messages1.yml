@@ -2,7 +2,7 @@ lists:
   0:
   - string: 'Paramètre actuel : Votre trésor est mis en commun.'
   1:
-  - string: Vous n’êtes actuellement pas dans un groupe.
+  - string: Vous n’êtes pas dans un groupe.
   2:
   - string: Cette région n’est sous le contrôle d’aucun pays.
   3:
@@ -10,29 +10,29 @@ lists:
   4:
   - string: Cette zone n’est sous le contrôle d’aucun pays.
   5:
-  - string: Le serveur calcule actuellement les influences régionales.
+  - string: Calcul des influences régionales en cours.
   6:
-  - string: Obtention des informations depuis le serveur.
+  - string: Récupération des données du serveur.
   7:
   - string: Passer à ce groupe de linkshell ?
   8:
   - string: Jeter cet objet ?
   9:
-  - string: Synthèse annulée. Cette combinaison de matériaux ne peut pas être synthétisée.
+  - string: Synthèse annulée. Combinaison de matériaux incompatible.
   10:
-  - string: Échec de la synthèse. Vous avez perdu le cristal que vous utilisiez.
+  - string: Échec de la synthèse. Cristal perdu.
   11:
-  - string: Échec de la synthèse. Vous avez perdu le cristal que vous utilisiez.
+  - string: Échec de la synthèse. Cristal perdu.
   12:
-  - string: Synthèse interrompue. Vous avez perdu le cristal et les matériaux que vous utilisiez.
+  - string: Synthèse interrompue. Cristal et matériaux perdus.
   13:
-  - string: Synthèse annulée. Cette formule dépasse votre niveau actuel en artisanat.
+  - string: Synthèse annulée. Niveau d’artisanat insuffisant.
   14:
   - string: Synthèse annulée.
   15:
   - string: Trop de matériaux.
   16:
-  - string: Synthèse annulée. Vous ne pouvez pas posséder plus d’un objet de ce type.
+  - string: Synthèse annulée. Limite d’un objet atteinte.
   17:
   - string: Message envoyé.
   18:
@@ -40,13 +40,13 @@ lists:
   19:
   - string: Vous avez frappé.
   20:
-  - string: Demande d’ajout à la liste d’amis envoyée. 
+  - string: Demande d’ajout à la liste d’amis envoyée.
   21:
-  - string: Ajout à la liste d’amis accepté. 
+  - string: Ajout à la liste d’amis accepté.
   22:
   - string: Ajout à la liste d’amis refusé.
   23:
-  - string: Ajout à la liste d’amis accepté et demande d’ajout envoyée en retour.
+  - string: Ajout accepté et demande renvoyée.
   24:
   - string: Nom ajouté à la liste des ignorés.
   25:
@@ -54,13 +54,13 @@ lists:
   26:
   - string: |-
       Ajouter l’expéditeur à
-      la liste des ignorés ?
+      la liste des ignorés ?${prompt}
   27:
   - string: vide
   28:
   - string: FINAL FANTASY XI
   29:
-  - string: Soyons amis !
+  - string: Soyons amis !$
   30:
   - string: Jouons ensemble !
   31:
@@ -70,11 +70,11 @@ lists:
   33:
   - string: Demande d’ajout à la liste d’amis refusée.
   34:
-  - string: 'Nom de l''ami :'
+  - string: 'Nom de l’ami :'
   35:
   - string: Zone actuelle
   36:
-  - string: Zone 
+  - string: Zone
   37:
   - string: Toutes les zones
   38:
@@ -84,15 +84,15 @@ lists:
   40:
   - string: Vous avez effectué un achat dans le bazar de %s.
   41:
-  - string: 'Le bazar de %s a été fermé au milieu de votre transaction.'
+  - string: 'Le bazar de %s a été fermé pendant votre transaction.'
   42:
-  - string: Vous avez effectué un achat auprès de la guilde.
+  - string: Achat effectué auprès de la guilde.
   43:
-  - string: Vous avez vendu un objet à la guilde.
+  - string: Objet vendu à la guilde.
   44:
   - string: Sélectionnez dans votre inventaire.
   45:
-  - string: Veuillez réessayer dans un moment.
+  - string: Réessayez plus tard.
   46:
   - string: Destinataire
   47:
@@ -102,25 +102,25 @@ lists:
   49:
   - string: Destinataire (annulé)
   50:
-  - string: Activation du mode d’annulation de livraison.
+  - string: Mode d’annulation de livraison activé.
   51:
   - string: 'Expéditeur :'
   52:
-  - string: Jeter cet objet?
+  - string: Jeter cet objet ?
   53:
-  - string: Retourner cet objet à l’expéditeur?
+  - string: Retourner cet objet à l’expéditeur ?
   54:
   - string: |-
       Marchandise mise aux enchères.
-      Si la marchandise n'est pas vendue après 30 semaines (temps de Vana’diel), elle sera renvoyée à votre résidence actuelle.
-      En cas d’enchère réussie, les bénéfices de la vente seront livrés à votre résidence actuelle.
+      Si invendue après 30 semaines (temps de Vana’diel), retour à votre résidence.
+      En cas de vente, les bénéfices seront livrés à votre résidence.
       Les objets signés perdront leur signature après achat.
   55:
-  - string: Échec de la mise aux enchères de la marchandise.
+  - string: Échec de la mise aux enchères.
   56:
-  - string: Votre enchère a été acceptée.
+  - string: Enchère acceptée.
   57:
-  - string: Votre enchère a échoué.
+  - string: Enchère échouée.
   58:
   - string: Retirer la marchandise des enchères ?
   59:
@@ -128,13 +128,13 @@ lists:
   60:
   - string: |-
       Calcul des frais de transaction.
-      Re-sélectionnez le nom de l’objet une fois sa couleur modifiée.
+      Resélectionnez l’objet une fois sa couleur changée.
   61:
-  - string: Vous n’avez pas assez de gils pour payer les frais de transaction.
+  - string: Fonds insuffisants pour les frais de transaction.
   62:
-  - string: La maison des enchères est temporairement fermée aux échanges.
+  - string: Maison des enchères temporairement fermée.
   63:
-  - string: Les résultats affichés peuvent inclure des marchandises retournées que vous avez déjà retirées de votre boîte de livraison.
+  - string: Les résultats peuvent inclure des marchandises déjà retirées.
   64:
   - string: '---------'
   65:
@@ -146,15 +146,15 @@ lists:
   68:
   - string: Équipement retiré.
   69:
-  - string: Quelle zone souhaitez-vous quitter?
+  - string: Quelle zone voulez-vous quitter ?
   70:
   - string: Zone d’entrée.
   71:
-  - string: Mise à jour des informations de l’identifiant PlayOnline. (1)
+  - string: Mise à jour de l’identifiant PlayOnline. (1)
   72:
-  - string: Mise à jour des informations de l’identifiant PlayOnline. (2)
+  - string: Mise à jour de l’identifiant PlayOnline. (2)
   73:
-  - string: Exécution de la déconnexion automatique.
+  - string: Déconnexion automatique en cours.
   74:
   - string: Aucun sort appris.
   75:
@@ -166,7 +166,7 @@ lists:
   78:
   - string: disponible.
   79:
-  - string: Aucun monture
+  - string: Aucune monture
   80:
   - string: disponible.
   81:
@@ -182,13 +182,13 @@ lists:
   86:
   - string: Attaques esquivées
   87:
-  - string: Attaques réussies des membres de l'équipe
+  - string: Attaques réussies des coéquipiers
   88:
-  - string: Attaques échouées des membres de l'équipe
+  - string: Attaques échouées des coéquipiers
   89:
-  - string: Dégâts reçus par les membres de l'équipe
+  - string: Dégâts reçus par les coéquipiers 
   90:
-  - string: Attaques esquivées par les membres de l'équipe
+  - string: Attaques esquivées par les coéquipiers
   91:
   - string: Attaques réussies des autres
   92:
@@ -200,23 +200,23 @@ lists:
   95:
   - string: Examiner %s ?
   96:
-  - string: Vous ne possédez aucun objet clé.
+  - string: Aucun objet clé en votre possession.
   97:
   - string: Préparation des données.
   98:
-  - string: Veuillez patienter un moment.
+  - string: Veuillez patienter.
   99:
-  - string: Pas de quêtes en cours.
+  - string: Aucune quête en cours. 
   100:
-  - string: Pas de quêtes terminées.
+  - string: Aucune quête terminée.
   101:
   - string: |
       Orthographe du nom incorrecte.
   102:
-  - string: Échec de l'exécution de la commande.
+  - string: Échec de la commande.
   103:
   - string: |
-      Utilisation impossible pour le moment.
+      Utilisation impossible pour l’instant.
   104:
   - string: 'Historique des visites dans la zone : '
   105:
@@ -246,7 +246,7 @@ lists:
   116:
   - string: Ajouté à la liste noire.
   117:
-  - string: Échec de l'ajout à la liste noire.
+  - string: Échec de l’ajout à la liste noire.
   118:
   - string: Retiré de la liste noire.
   119:
@@ -254,15 +254,14 @@ lists:
   120:
   - string: '...Une erreur de commande est survenue.'
   121:
-  - string: Revenir en arrière.
+  - string: Revenir en arrière. 
   122:
   - string: Retour.
   123:
   - string: Supprimer ce message.
   124:
   - string: |2
-
-      Effectuer le processus sélectionné?
+      Exécuter le processus sélectionné ?
   125:
   - string: Exécuter.
   126:
@@ -270,15 +269,15 @@ lists:
   127:
   - string: 'Obtention des données : '
   128:
-  - string: Déjà placé dans l'emplacement d'échange.
+  - string: Déjà placé dans l’emplacement d’échange.
   129:
-  - string: Un autre événement a été appelé pendant que l'événement actuel était en cours.
+  - string: Un autre événement a été appelé pendant l’événement actuel.
   130:
-  - string: Actuellement dans un événement. Ce GMTELL a été annulé.
+  - string: Événement en cours. GMTELL annulé.
   131:
-  - string: Quatre GMTELL ont déjà été reçus. Ce GMTELL a été annulé.
+  - string: Quatre GMTELL déjà reçus. GMTELL annulé.
   132:
-  - string: 'GMTELL(%s) : Question(%s) : Résultat (Annulé en raison de l’activation de l’événement.)'
+  - string: 'GMTELL(%s) : Question(%s) : Résultat (Annulé - événement activé.)'
   133:
   - string: 'GMTELL(%s) : Question(%s) : Résultat (Annulé.)'
   134:
@@ -292,11 +291,11 @@ lists:
   138:
   - string: ''
   139:
-  - string: '/dire À l''aide ! Je suis poursuivi par <t> à : <pos> !'
+  - string: '/dire À l’aide ! Poursuivi par <t> à : <pos> !'
   140:
   - string: ''
   141:
-  - string: /dire Attention ! Je suis poursuivi par plusieurs ennemis !
+  - string: /dire Attention ! Poursuivi par plusieurs ennemis !
   142:
   - string: ''
   143:
@@ -312,11 +311,11 @@ lists:
   148:
   - string: ''
   149:
-  - string: /groupe Je n'ai plus de PM!
+  - string: /groupe Plus de PM !
   150:
   - string: ''
   151:
-  - string: /groupe PT prêt à être utilisé!
+  - string: /groupe PT prêt !
   152:
   - string: ''
   153:
@@ -342,13 +341,13 @@ lists:
   163:
   - string: /cm groupe
   164:
-  - string: Merci de m'avoir accepté dans votre groupe!
+  - string: Merci de m’avoir accepté dans votre groupe !
   165:
   - string: /joie mouvement
   166:
   - string: ''
   167:
-  - string: /dire Désolé. Je préfère jouer en solo.
+  - string: /dire Désolé, je préfère jouer en solo.
   168:
   - string: /refuser
   169:
@@ -358,7 +357,7 @@ lists:
   171:
   - string: ''
   172:
-  - string: /nommer groupe "Allons dans quelle direction ?" "À gauche?" "À droite?"
+  - string: /nommer groupe "Allons où ?" "Gauche ?" "Droite ?"
   173:
   - string: ''
   174:
@@ -370,7 +369,7 @@ lists:
   177:
   - string: ''
   178:
-  - string: /groupe J'attire <t> !
+  - string: /groupe J’attire <t> !
   179:
   - string: /magie "Dia" <t>
   180:
@@ -380,47 +379,47 @@ lists:
   182:
   - string: ''
   183:
-  - string: Détruire l'objet ?
+  - string: Détruire l’objet ?
   184:
   - string: Rester dans votre chambre.
   185:
-  - string: Sélectionnez une zone pour sortir.
+  - string: Choisir une zone pour sortir.
   186:
   - string: Région actuelle
   187:
   - string: Région
   188:
-  - string: Seul le détenteur de la linkshell peut modifier le message de bienvenue du groupe. 
+  - string: Seul le détenteur de la linkshell peut modifier le message de bienvenue.
   189:
-  - string: Seuls les détenteurs de la linkshell ou du pearlsack peuvent modifier le message de bienvenue du groupe.
+  - string: Seuls les détenteurs de la linkshell ou du pearlsack peuvent modifier le message de bienvenue.
   190:
-  - string: Tous les membres peuvent modifier le message de bienvenue du groupe.
+  - string: Tous les membres peuvent modifier le message de bienvenue.
   191:
-  - string: '(※ Remarque : La liste des personnes trouvées a été tronquée.)'
+  - string: '(※ Remarque : Liste des personnes trouvées tronquée.)'
   192:
   - string: livraison
   193:
   - string: livraison
   194:
-  - string: Tous les trésors obtenus seront automatiquement mis en commun.
+  - string: Tous les trésors seront automatiquement mis en commun.
   195:
   - string: Questions et Réponses
   196:
-  - string: Veuillez entrer un mot-clé.
+  - string: Entrez un mot-clé.
   197:
-  - string: Centre d'assistance
+  - string: Centre d’assistance
   198:
   - string: Configuration
   199:
   - string: Retour
   200:
-  - string: Votre recherche de mot-clé a échoué.
+  - string: Recherche de mot-clé échouée.
   201:
-  - string: Votre recherche a retourné trop de résultats. Veuillez ajouter un mot-clé et réessayer.
+  - string: Trop de résultats. Ajoutez un mot-clé et réessayez.
   202:
-  - string: '(Remarque : La liste des correspondances trouvées a été tronquée.)'
+  - string: '(Remarque : Liste des correspondances tronquée.)'
   203:
-  - string: '%d correspondances trouvées (%d résultats affichés).'
+  - string: '%d correspondances trouvées (%d affichées).'
   204:
   - string: Activer le statut de Mentor.
   205:
@@ -430,23 +429,23 @@ lists:
   207:
   - string: Recherche Mentor
   208:
-  - string: Qu'est-ce qu'un Nouveau Aventurier?
+  - string: Qu’est-ce qu’un Nouveau Aventurier ?
   209:
   - string: |
-      Veuillez noter que l'enregistrement en tant que mentor, ainsi que l'utilisation des services du Programme de Mentorat, se font à la discrétion du joueur. SQUARE ENIX ne pourra être tenu responsable des actions et/ou commentaires de tout mentor. Aucun avantage de quelque nature que ce soit ne sera accordé à ceux qui choisissent de participer au Programme de Mentorat. En acceptant de participer, vous reconnaissez avoir lu et compris les termes ci-dessus.
+      Veuillez noter que l’enregistrement comme mentor et l’utilisation des services du Programme de Mentorat relèvent de la discrétion du joueur. SQUARE ENIX ne pourra être tenu responsable des actions ou commentaires des mentors. Aucun avantage quelconque ne sera accordé aux participants au Programme de Mentorat. En participant, vous reconnaissez avoir lu et compris ces termes.
   210:
-  - string: Activer le statut de Mentor?
+  - string: Activer le statut de Mentor ?
   211:
-  - string: Désactiver le statut de Mentor?
+  - string: Désactiver le statut de Mentor ?
   212:
-  - string: Une fois le statut de Nouveau Aventurier annulé, il ne pourra pas être rétabli. Êtes-vous sûr de vouloir l'annuler ?
+  - string: Une fois annulé, le statut de Nouveau Aventurier ne pourra pas être rétabli. Confirmez-vous l’annulation ?
   213:
-  - string: Vous pouvez rechercher dans les Questions & Réponses en tapant des mots-clés.
+  - string: Recherchez dans les Questions & Réponses avec des mots-clés.
   214:
   - string: |
-      Entrer un espace entre les mots-clés entraînera une recherche des passages contenant les deux termes. Entrer "Q" suivi du numéro d'article appellera automatiquement un sujet spécifique.
+      Un espace entre les mots-clés recherche les passages contenant les deux termes. "Q" suivi du numéro d’article appelle un sujet précis.
   215:
-  - string: Transfert vers le Centre d'Assistance.
+  - string: Transfert vers le Centre d’Assistance.
   216:
   - string: Transfert vers la Recherche de Mentor.
   217:
@@ -458,13 +457,13 @@ lists:
   220:
   - string: Annuler le statut de Nouveau Aventurier.
   221:
-  - string: Centre d'Assistance
+  - string: Centre d’Assistance
   222:
   - string: Configuration
   223:
   - string: Aucun Rook à proximité.
   224:
-  - string: Retirer tout l'équipement du mannequin ?
+  - string: Retirer tout l’équipement du mannequin ?
   225:
   - string: Enregistrement réussi.
   226:
@@ -481,106 +480,106 @@ lists:
   - string: Suivant
   232:
   - string: |-
-      Impossible de cibler les familiers d'autres joueurs pour le moment.
+      Impossible de cibler les familiers d’autres joueurs pour l’instant.
        ("/ignorepet off" pour annuler)
   233:
-  - string: Vous pouvez maintenant cibler les familiers d'autres joueurs.
+  - string: Vous pouvez maintenant cibler les familiers d’autres joueurs.
   234:
   - string: |-
-      La possibilité de cibler les familiers d'autres joueurs a été désactivée.
+      Ciblage des familiers d’autres joueurs désactivé.
        ("/ignorepet off" pour annuler)
   235:
-  - string: La possibilité de cibler les familiers d'autres joueurs a été activée.
+  - string: Ciblage des familiers d’autres joueurs activé.
   236:
   - string: ' '
   237:
-  - string: Cet ensemble de macros sera écrasé. Voulez-vous continuer?
+  - string: Cet ensemble de macros sera écrasé. Continuer ?
   238:
-  - string: Voulez-vous vraiment supprimer cet ensemble de macros?
+  - string: Supprimer cet ensemble de macros ?
   239:
-  - string: Ce livre de macros sera écrasé. Voulez-vous continuer?
+  - string: Ce livre de macros sera écrasé. Continuer ?
   240:
-  - string: Voulez-vous vraiment supprimer ce livre de macros?
+  - string: Supprimer ce livre de macros ?
   241:
   - string: Quitter la Maison Mog.
   242:
-  - string: La musique de combat jouera désormais uniquement lorsque vous entrez en mode combat.
+  - string: La musique de combat joue uniquement en mode combat.
   243:
-  - string: La musique de combat jouera désormais dès qu'un membre de l'équipe entre en mode combat.
+  - string: La musique de combat joue dès qu’un coéquipier entre en mode combat.
   244:
-  - string: Les sons de cloche ont été activés.
+  - string: Sons de cloche activés.
   245:
-  - string: Les sons de cloche ont été désactivés.
+  - string: Sons de cloche désactivés.
   246:
   - string: |-
-      Toutes les runes de labyrinthe seront supprimées.
-      Voulez-vous continuer ?
+      Supprimer toutes les runes de labyrinthe ?
+      Continuer ?
   247:
-  - string: La commande "Appeler à l'aide" est actuellement bloquée.
+  - string: La commande "Appeler à l’aide" est bloquée.
   248:
-  - string: La commande "Appeler à l'aide" n'est plus bloquée.
+  - string: La commande "Appeler à l’aide" n’est plus bloquée.
   249:
-  - string: Le filtre de discussion /yell est actuellement activé.
+  - string: Le filtre de discussion /yell est activé.
   250:
-  - string: Le filtre de discussion /yell est actuellement désactivé.
+  - string: Le filtre de discussion /yell est désactivé.
   251:
-  - string: L'expression météo simplifiée a été activée.
+  - string: Expression météo simplifiée activée.
   252:
-  - string: L'expression météo simplifiée a été désactivée.
+  - string: Expression météo simplifiée désactivée.
   253:
-  - string: La suppression des effets environnementaux a été activée.
+  - string: Suppression des effets environnementaux activée.
   254:
-  - string: La suppression des effets environnementaux a été désactivée.
+  - string: Suppression des effets environnementaux désactivée.
   255:
-  - string: L'affichage des armures des personnages a été désactivé.
+  - string: Affichage des armures des personnages désactivé.
   256:
-  - string: L'affichage des armures des personnages a été activé.
+  - string: Affichage des armures des personnages activé.
   257:
   - string: Tout supprimer ?
   258:
   - string: Coût
   259:
-  - string: L'expression météo simplifiée est actuellement activée.
+  - string: Expression météo simplifiée activée.
   260:
-  - string: L'expression météo simplifiée est actuellement désactivée.
+  - string: Expression météo simplifiée désactivée.
   261:
-  - string: La suppression des effets environnementaux est actuellement activée.
+  - string: Suppression des effets environnementaux activée.
   262:
-  - string: La suppression des effets environnementaux est actuellement désactivée.
+  - string: Suppression des effets environnementaux désactivée.
   263:
-  - string: La suppression des effets des personnages a été activée.
+  - string: Suppression des effets des personnages activée.
   264:
-  - string: La suppression des effets des personnages a été désactivée.
+  - string: Suppression des effets des personnages désactivée.
   265:
-  - string: La suppression des effets des personnages est actuellement activée.
+  - string: Suppression des effets des personnages activée.
   266:
-  - string: La suppression des effets des personnages est actuellement désactivée.
+  - string: Suppression des effets des personnages désactivée.
   267:
-  - string: Le ciblage des alter ego d'autres joueurs est actuellement désactivé.
+  - string: Ciblage des alter ego d’autres joueurs désactivé.
   268:
-  - string: Le ciblage des alter ego d'autres joueurs est actuellement activé.
+  - string: Ciblage des alter ego d’autres joueurs activé.
   269:
-  - string: Le ciblage des alter ego d'autres joueurs a été désactivé.
+  - string: Ciblage des alter ego d’autres joueurs désactivé.
   270:
-  - string: Le ciblage des alter ego d'autres joueurs a été activé.
+  - string: Ciblage des alter ego d’autres joueurs activé.
   271:
-  - string: L'affichage des alter ego d'autres joueurs est actuellement désactivé.
+  - string: Affichage des alter ego d’autres joueurs désactivé.
   272:
-  - string: L'affichage des alter ego d'autres joueurs est actuellement activé.
+  - string: Affichage des alter ego d’autres joueurs activé.
   273:
-  - string: L'affichage des alter ego d'autres joueurs a été désactivé.
+  - string: Affichage des alter ego d’autres joueurs désactivé.
   274:
-  - string: L'affichage des alter ego d'autres joueurs a été activé.
+  - string: Affichage des alter ego d’autres joueurs activé.
   275:
-  - string: Retirer l'élément.
+  - string: Retirer l’élément.
   276:
-  - string: Garder le même élément.
+  - string: Garder l’élément actuel.
   277:
-  - string: Cette action remplacera l'ensemble actuel par un nouveau. Continuer ?
+  - string: Remplacer l’ensemble actuel par un nouveau ?
   278:
-  - string: Supprimer vraiment cet ensemble ?
+  - string: Supprimer cet ensemble ?
   279:
-  - string: Remplacer cet ensemble par votre équipement actuel ?
+  - string: Remplacer cet ensemble par l’équipement actuel ?
   280:
   - string: 'Style : %s'
   281:
@@ -592,11 +591,11 @@ lists:
   284:
   - string: Élimination de HNM
   285:
-  - string: Rencontrer d'autres nouveaux joueurs
+  - string: Rencontrer d’autres nouveaux joueurs
   286:
-  - string: S'entraider
+  - string: S’entraider
   287:
-  - string: Commerce
+  - string: Commerce 
   288:
   - string: Rien
   289:
@@ -608,73 +607,73 @@ lists:
   292:
   - string: Horodatage activé (secondes)
   293:
-  - string: Changer d'étage.
+  - string: Changer d’étage.
   294:
-  - string: '=== Zone : Maison Mog 1F ==='
+  - string: '=== Zone : Maison Mog RDC ==='
   295:
-  - string: '=== Zone : Maison Mog 2F ==='
+  - string: '=== Zone : Maison Mog 1er étage ==='
   296:
-  - string: Ce mobilier n'est pas placé à cet étage.
+  - string: Ce mobilier n’est pas placé à cet étage.
   297:
-  - string: Affichage de la zone d'effet activé
+  - string: Affichage de la zone d’effet activé.
   298:
-  - string: Affichage de la zone d'effet désactivé
+  - string: Affichage de la zone d’effet désactivé.
   299:
-  - string: Manuel d'aventure
+  - string: Manuel d’aventure
   300:
-  - string: Afficher le manuel d'aventure.
+  - string: Afficher le manuel d’aventure.
   301:
-  - string: La collision de la caméra de mobilier a été activée.
+  - string: Collision de la caméra de mobilier activée.
   302:
-  - string: La collision de la caméra de mobilier a été désactivée.
+  - string: Collision de la caméra de mobilier désactivée.
   303:
-  - string: La collision de la caméra de mobilier est actuellement activée.
+  - string: Collision de la caméra de mobilier activée.
   304:
-  - string: La collision de la caméra de mobilier est actuellement désactivée.
+  - string: Collision de la caméra de mobilier désactivée.
   305:
-  - string: Le style de contrôle de la disposition a été défini sur le type 1.
+  - string: Style de contrôle de la disposition défini sur type 1.
   306:
-  - string: Le style de contrôle de la disposition a été défini sur le type 2.
+  - string: Style de contrôle de la disposition défini sur type 2.
   307:
-  - string: Le style de contrôle de la disposition est actuellement défini sur le type 1.
+  - string: Style de contrôle de la disposition défini sur type 1. 
   308:
-  - string: Le style de contrôle de la disposition est actuellement défini sur le type 2.
+  - string: Style de contrôle de la disposition défini sur type 2.
   309:
   - string: 'Charges requises : %d.'
   310:
-  - string: Les effets visuels sont activés.
+  - string: Effets visuels activés.
   311:
-  - string: Les effets visuels sont désactivés.
+  - string: Effets visuels désactivés.
   312:
-  - string: Les icônes de statut des membres du groupe sont activées.
+  - string: Icônes de statut des coéquipiers activées.
   313:
-  - string: Les icônes de statut des membres du groupe sont désactivées.
+  - string: Icônes de statut des coéquipiers désactivées.
   314:
-  - string: 'Le ciblage focalisé est activé.'
+  - string: Ciblage focalisé activé.
   315:
-  - string: Le ciblage focalisé est désactivé.
+  - string: Ciblage focalisé désactivé.
   316:
-  - string: Les minuteries des icônes de statut sont activées.
+  - string: Minuteries des icônes de statut activées.
   317:
-  - string: Les minuteries des icônes de statut sont désactivées.
+  - string: Minuteries des icônes de statut désactivées.
   318:
-  - string: L'incrément de mouvement du sous-cible a été défini sur %d.
+  - string: Incrément de mouvement du sous-cible défini sur %d.
   319:
   - string: 'Incrément de mouvement du sous-cible actuel : %d.'
   320:
-  - string: Voulez-vous vraiment réinitialiser l'historique des demandes?
+  - string: Réinitialiser l’historique des demandes ?
   321:
-  - string: La demande a été supprimée.
+  - string: Demande supprimée.
   322:
-  - string: Toutes les demandes d'adhésion ont été supprimées.
+  - string: Toutes les demandes d’adhésion supprimées.
   323:
   - string: Affichage de la maîtrise du métier (★) activé.
   324:
   - string: Affichage de la maîtrise du métier (★) désactivé.
   325:
-  - string: L'effet de flou a été activé.
+  - string: Effet de flou activé.
   326:
-  - string: L'effet de flou a été désactivé.
+  - string: Effet de flou désactivé.
   327:
   - string: 'Musique de fond : coupée.'
   328:
@@ -688,38 +687,38 @@ lists:
   332:
   - string: 'Émotions des alter ego : non liées.'
   333:
-  - string: Les émotions des alter ego sont maintenant liées.
+  - string: Émotions des alter ego liées.
   334:
-  - string: Les émotions des alter ego ne sont plus liées.
+  - string: Émotions des alter ego non liées.
   335:
   - string: Cible ajoutée à la liste muette.
   336:
-  - string: Échec de l'ajout de la cible à la liste muette.
+  - string: Échec de l’ajout à la liste muette.
   337:
   - string: Cible retirée de la liste muette.
   338:
-  - string: Échec du retrait de la cible de la liste muette.
+  - string: Échec du retrait de la liste muette.
   339:
-  - string: Le filtre de chat /AssistJ est actuellement activé.
+  - string: Filtre de chat /AssistJ activé.
   340:
-  - string: Le filtre de chat /AssistJ est actuellement désactivé.
+  - string: Filtre de chat /AssistJ désactivé.
   341:
-  - string: Le filtre de chat /AssistE est actuellement activé.
+  - string: Filtre de chat /AssistE activé.
   342:
-  - string: Le filtre de chat /AssistE est actuellement désactivé.
+  - string: Filtre de chat /AssistE désactivé.
   343:
   - string: |-
-      La perle de linkshell sera jetée sans être recyclée.
-      Êtes-vous sûr ?
+      La perle de linkshell sera jetée sans recyclage.
+      Confirmez-vous ?
   344:
   - string: |-
       Cette perle de linkshell sera dissoute.
-      Êtes-vous sûr ?
+      Confirmez-vous ?
   345:
   - string: ' ***Ce message a été supprimé.***'
   346:
   - string: |-
-      Impossible de trouver %s.
+      %s introuvable.
       Créez %s dans %s pour activer le filtre de termes.
   347:
   - string: Échec du chargement de %s.
