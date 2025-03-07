@@ -18457,29 +18457,29 @@ entries:
   7833: |-
     Ça devrait vous faire plaisir de savoir que je m’occupe aussi désormais des ${item-plural: 0[2]}.
     Les plus gros morceaux rapporteront plus de points à votre nation, et j’ajouterai même un peu de gil en prime !${prompt}
-  7834: Je vois que votre pays d'origine contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
-  7835: Je vois que votre pays d'origine est allié avec le pays qui contrôle cette région. N'hésitez pas à parcourir mes marchandises.${prompt}
-  7836: 'Je peux vous téléporter dans votre pays d''origine pour ${number: 1} gil ou ${number: 3} ${choice-plurality: 3}[point de conquête/points de conquête].${prompt}'
-  7837: "On dit que l'ensemble complet des tablettes mog a été récupéré. \nOh, joyeux jour ! En l'honneur de l'occasion, je peux vous téléporter dans votre pays d'origine gratuitement.${prompt}"
-  7838: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de gil.${prompt}
-  7839: Je suis terriblement désolé, mais il semble que vous n'ayez pas assez de points de conquête.${prompt}
-  7840: Cependant, en raison du manque d'influence de votre pays d'origine dans la région, c'est la seule transaction que je suis autorisé à effectuer avec vous pour l'instant.${prompt}
-  7841: J'espère faire affaire avec vous à nouveau dans le futur !${prompt}
-  7842: Merci. Cela augmentera les points de région de votre nation d'une petite quantité. Si vous avez autre chose, n'hésitez pas à me les trader.${prompt}
-  7843: Merci. Cela augmentera modérément les points de région de votre nation. Si vous avez autre chose, n'hésitez pas à me les trader.${prompt}
-  7844: Merci. Cela augmentera considérablement les points de région de votre nation. Si vous avez autre chose, n'hésitez pas à me les trader.${prompt}
-  7845: Je n'ai pas pu accepter un ou plusieurs des objets que vous avez essayé de me trader. Veuillez retirer ces objets et réessayer.${prompt}
-  7846: Désolé. Je ne peux accepter que certains types d'armes, de boucliers ou d'armures.${prompt}
+  7834: Je vois que votre pays d’origine contrôle cette région. N’hésitez pas à parcourir mes marchandises.${prompt}
+  7835: Je vois que votre pays d’origine est allié avec le pays qui contrôle cette région. N’hésitez pas à parcourir mes marchandises.${prompt}
+  7836: 'Je peux vous téléporter dans votre pays d’origine pour ${number: 1} gil ou ${number: 3} ${choice-plurality: 3}[point de conquête/points de conquête].${prompt}'
+  7837: "On dit que l’ensemble complet des tablettes mog a été récupéré.\nOh, quel jour heureux ! Pour célébrer l’occasion, je peux vous téléporter dans votre pays d’origine gratuitement.${prompt}"
+  7838: Je suis terriblement désolé, mais il semble que vous n’ayez pas assez de gil.${prompt}
+  7839: Je suis terriblement désolé, mais il semble que vous n’ayez pas assez de points de conquête.${prompt}
+  7840: Cependant, en raison du manque d’influence de votre pays d’origine dans cette région, c’est la seule transaction que je suis autorisé à effectuer avec vous pour l’instant.${prompt}
+  7841: J’espère faire affaire avec vous à nouveau à l’avenir !${prompt}
+  7842: Merci. Cela augmentera légèrement les points de région de votre nation. Si vous avez autre chose, n’hésitez pas à me les remettre.${prompt}
+  7843: Merci. Cela augmentera modérément les points de région de votre nation. Si vous avez autre chose, n’hésitez pas à me les remettre.${prompt}
+  7844: Merci. Cela augmentera considérablement les points de région de votre nation. Si vous avez autre chose, n’hésitez pas à me les remettre.${prompt}
+  7845: Je n’ai pas pu accepter un ou plusieurs des objets que vous avez essayé de me remettre. Veuillez retirer ces objets et réessayer.${prompt}
+  7846: Désolé. Je ne peux accepter que certains types d’armes, de boucliers ou d’armures.${prompt}
   7847: |-
-    Merci. Cela augmentera les points de région de votre nation ${choice: 1}[d'une petite quantité/modérément/considérablement].
-    Pour cette transaction, je vous fournirai également ${number: 0} gil.${prompt}
-  7848: Mes excuses, mais ce type d'objet doit être évalué individuellement. Veuillez me les trader un par un.${prompt}
+    Merci. Cela augmentera les points de région de votre nation ${choice: 1}[légèrement/modérément/considérablement].
+    Pour cette transaction, je vous offrirai également ${number: 0} gil.${prompt}
+  7848: Mes excuses, mais ce type d’objet doit être évalué individuellement. Veuillez me les remettre un par un.${prompt}
   7849: (DEBUG) Retour à la patrie !${prompt}
   7850: |-
     Que voulez-vous ?
     ${selection-lines}
-    Pourriez-vous lancer un Signe sur moi ?
-    J'aimerais définir mon point de retour ici.
+    Pourriez-vous m’appliquer un Signe ?
+    J’aimerais définir mon point de retour ici.
     Rien.${prompt}
   7851: |-
     Que voulez-vous ?
@@ -18487,84 +18487,84 @@ entries:
     Payer ${number: 7} gil et définir mon point de retour ici.
     Rien.${prompt}
   7852: Votre point de retour a été défini.${prompt}
-  7853: Vous n'avez pas assez de gil pour définir votre point de retour ici.${prompt}
+  7853: Vous n’avez pas assez de gil pour définir votre point de retour ici.${prompt}
   7854: 'Je vais définir votre point de retour ici.${wait-animation: 0}${prompt}'
   7855: |-
-    Nous menons actuellement une campagne d'extermination des hommes-bêtes. Nous soutenons les aventuriers de toutes les nations.
-    Faites de votre mieux pour débarrasser le monde de ces créatures viles.${prompt}
+    Nous menons actuellement une campagne d’extermination des hommes-bêtes. Nous soutenons les aventuriers de toutes les nations.
+    Faites de votre mieux pour débarrasser le monde de ces créatures abjectes.${prompt}
   7856: |-
-    Nous menons actuellement une campagne d'échange international.
+    Nous menons actuellement une campagne d’échange international.
     Vous pouvez dépenser vos points de conquête pour acheter des objets auprès de gardes étrangers.${prompt}
   7857: |-
     Grâce à vous, notre nation est désormais première dans la course à la conquête !
-    Voici un petit témoignage de notre reconnaissance.${prompt}
-  7858: Les aventuriers des nations qui sont classées plus haut que la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un taux plus élevé.${prompt}
+    Voici un petit gage de notre reconnaissance.${prompt}
+  7858: Les aventuriers des nations classées au-dessus de la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un taux plus élevé.${prompt}
   7859: |-
-    Vous ne pouvez pas acheter cet objet actuellement.
+    Vous ne pouvez pas acheter cet objet pour le moment.
     Veuillez en choisir un autre.${prompt}
-  7860: Actuellement, notre nation envoie des Forces Expéditionnaires à travers Vana'diel et sollicite la participation de braves aventuriers comme vous.${prompt}
-  7861: 'Les exigences pour participer à une F.E. sont simples. Votre groupe doit comporter ${number: 5} membres. Chaque membre doit être de ce pays, du rang 3 ou supérieur, et avoir atteint un niveau suffisant.${prompt}'
-  7862: Une fois que votre groupe est prêt, venez me voir et je vous téléporterai au poste avancé le plus proche.${prompt}
-  7863: Là, vous recevrez un insigne de la Force Expéditionnaire. Lorsque vous réussirez à prendre le contrôle de la zone, vous pourrez échanger l'insigne contre votre récompense.${prompt}
+  7860: Actuellement, notre nation envoie des Forces Expéditionnaires à travers Vana’diel et sollicite la participation de braves aventuriers comme vous.${prompt}
+  7861: 'Les conditions pour participer à une F.E. sont simples. Votre groupe doit compter ${number: 5} membres. Chaque membre doit être de ce pays, de rang 3 ou supérieur, et avoir atteint un niveau suffisant.${prompt}'
+  7862: Une fois votre groupe prêt, venez me voir et je vous téléporterai vers l’avant-poste le plus proche.${prompt}
+  7863: Là-bas, vous recevrez un insigne de la Force Expéditionnaire. Si vous parvenez à prendre le contrôle de la zone, vous pourrez échanger cet insigne contre votre récompense.${prompt}
   7864: |-
-    Rejoindre la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Bas Plateaux d'Elshimo/Les Hauts Plateaux d'Elshimo] ?
+    Rejoindre la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les basses terres d’Elshimo/Les hauteurs d’Elshimo] ?
     ${selection-lines}
     Rejoindre la F.E.
     Pas cette fois-ci.${prompt}
-  7865: Votre groupe n'a pas assez de membres, ou certains des membres ne sont pas dans cette zone. Rassemblez tous ceux qui participent et revenez ici.${prompt}
-  7866: Un membre de votre groupe n'est pas citoyen de ce pays. Nous n'autorisons pas de participants étrangers dans la F.E.${prompt}
-  7867: Un membre de votre groupe n'a pas atteint le niveau de rang 3. Nous ne pouvons pas révéler nos stratégies tactiques à ceux qui n'ont pas prouvé leur loyauté envers notre pays.${prompt}
-  7868: 'Un membre de votre groupe est en dessous du niveau ${number: 6}. Pour la sécurité de l''aventurier et ceux qui l''accompagnent, nous ne pouvons pas permettre à ceux en dessous de la limite de participer à la F.E.${prompt}'
+  7865: Votre groupe n’a pas assez de membres, ou certains membres ne sont pas dans cette zone. Rassemblez tous les participants et revenez ici.${prompt}
+  7866: Un membre de votre groupe n’est pas citoyen de ce pays. Nous n’autorisons pas les participants étrangers dans la F.E.${prompt}
+  7867: Un membre de votre groupe n’a pas atteint le rang 3. Nous ne pouvons pas dévoiler nos stratégies tactiques à ceux qui n’ont pas prouvé leur loyauté envers notre pays.${prompt}
+  7868: 'Un membre de votre groupe est en dessous du niveau ${number: 6}. Pour la sécurité de cet aventurier et de ses compagnons, nous ne pouvons pas autoriser ceux sous ce seuil à participer à la F.E.${prompt}'
   7869: |-
     Je vois que vous êtes prêts.
-    Je vous accorde la permission de rejoindre la Force Expéditionnaire actuelle. Quand vous serez prêts à être téléportés à l'avant-poste, parlez-moi à nouveau.${prompt}
-  7870: 'Êtes-vous prêt à être téléporté à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Bas Plateaux d''Elshimo/Les Hauts Plateaux d''Elshimo] ? Souvenez-vous que les membres du groupe qui n''ont pas été autorisés à participer à la F.E. seront laissés derrière.${prompt}'
+    Je vous accorde la permission de rejoindre la Force Expéditionnaire actuelle. Quand vous serez prêts à être téléportés à l’avant-poste, parlez-moi à nouveau.${prompt}
+  7870: 'Êtes-vous prêt à être téléporté à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les basses terres d’Elshimo/Les hauteurs d’Elshimo] ? Sachez que les membres du groupe non autorisés à participer à la F.E. seront laissés derrière.${prompt}'
   7871: |-
-    Téléportation à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/Les Bas Plateaux d'Elshimo/Les Hauts Plateaux d'Elshimo] ?
+    Téléportation à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les basses terres d’Elshimo/Les hauteurs d’Elshimo] ?
     ${selection-lines}
     Prêt !
-    Attendez une minute...${prompt}
-  7872: 'Annuler votre participation à la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/Les Bas Plateaux d''Elshimo/Les Hauts Plateaux d''Elshimo] ?${prompt}'
+    Attendez une minute…${prompt}
+  7872: 'Annuler votre participation à la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les basses terres d’Elshimo/Les hauteurs d’Elshimo] ?${prompt}'
   7873: |-
     Quitter la F.E. ?
     ${selection-lines}
-    Oui.
-    Changer de lieu.
-    Non.${prompt}
+    Oui
+    Changer de lieu
+    Non${prompt}
   7874: Êtes-vous sûr ?${prompt}
   7875: |-
     Vraiment quitter la F.E. ?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
+    Oui
+    Non${prompt} 
   7876: |-
     Je vois.
-    Si vous souhaitez participer à l'avenir, je serai ici pour accepter votre candidature.${prompt}
+    Si vous souhaitez participer à l’avenir, je serai là pour accepter votre candidature.${prompt}
   7877: 'Votre ${color: 5}Badge de la F.E.${color: 1} disparaît !${prompt}'
   7878: 'Points de participation : ${number: 0} !${prompt}'
-  7879: 'Ce ${keyitem-singular: 0[2]} n''est plus valide. Nous allons nous en débarrasser ici.${prompt}'
+  7879: 'Ce ${keyitem-singular: 0[2]} n’est plus valide. Nous allons nous en débarrasser ici.${prompt}'
   7880: Vos insignes invalides ont été éliminés.${prompt}
-  7881: Bienvenue de retour de l'expédition. Notre nation a réussi sa campagne. Laissez-moi vous remettre votre récompense.${prompt}
+  7881: Bienvenue de retour de l’expédition. Notre nation a réussi sa campagne. Permettez-moi de vous remettre votre récompense.${prompt}
   7882: 'Vous avez reçu ${number: 1} points de conquête !${prompt}'
-  7883: En participant à une Force Expéditionnaire, concentrez vos efforts sur le combat contre les ennemis qui vous donnent le plus de points d'expérience. Et n'oubliez pas de confisquer le contenu de toute boîte au trésor des hommes-bêtes que vous trouvez.${prompt}
+  7883: En participant à une Force Expéditionnaire, concentrez vos efforts sur les ennemis qui rapportent le plus de points d’expérience. Et n’oubliez pas de récupérer le contenu des coffres au trésor des hommes-bêtes que vous trouvez.${prompt}
   7884: |-
-    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l'inscription au dos avant de commencer vos fonctions.
-    Une fois que le Signe vous aura été conféré, préparez-vous à être téléporté.${prompt}
-  7885: Vous n'avez pas pu être téléporté. Veuillez me demander à nouveau.${prompt}
-  7886: Les résultats de la conquête sont actuellement en cours de comptabilisation. Revenez plus tard.${prompt}
+    Je vais maintenant vous remettre votre insigne. Assurez-vous de lire l’inscription au dos avant de commencer votre mission.
+    Une fois le Signe appliqué, préparez-vous à être téléporté.${prompt}
+  7885: Vous n’avez pas pu être téléporté. Veuillez me le redemander.${prompt}
+  7886: Les résultats de la conquête sont actuellement en cours de calcul. Revenez plus tard.${prompt}
   7887: Vous avez reçu la permission de rejoindre les Forces Expéditionnaires !${prompt}
-  7888: Actuellement, nous sommes classés premiers dans la conquête de Vana'diel, mais cela ne doit pas être pris pour acquis. Nous devons continuer notre lutte pour rester en tête.${prompt}
-  7889: Nous avions la première place en main, mais nous l'avons laissée filer. Si nous voulons être classés premiers dans Vana'diel, chacun d'entre nous doit faire sa part. J'ai hâte d'entendre parler de vos réalisations.${prompt}
-  7890: Notre pays est passé à la troisième place dans la conquête de Vana'diel. Nous devons redoubler d'efforts pour améliorer la situation.${prompt}
-  7891: Vous devez combattre dans des batailles qui rapportent beaucoup d'expérience. C'est la seule façon pour nous de mettre des zones sous le contrôle de notre pays.${prompt}
-  7892: Actuellement, notre pays est la force dominante dans cette région. Si nous maintenons ce niveau, le contrôle de cette zone sera à nous.${prompt}
-  7893: Actuellement, notre pays est une force majeure dans cette région. Cependant, nous ne pouvons pas prendre cela pour acquis. Si nous baissons notre garde, nous perdrons sûrement le contrôle de la zone !${prompt}
-  7894: Actuellement, notre pays a une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de ce trou dans lequel nous nous sommes enfoncés.${prompt}
-  7895: Actuellement, l'influence de notre pays dans cette zone est minimale. Si nous n'agissons pas rapidement, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
-  7896: Faites attention en passant, car cette zone est actuellement envahie par les bêtes ! Il faut faire quelque chose, sinon l'ennemi prendra le contrôle de toute la région.${prompt}
+  7888: Actuellement, nous sommes en tête de la conquête de Vana’diel, mais nous ne devons pas nous reposer sur nos lauriers. Nous devons continuer à lutter pour rester premiers.${prompt}
+  7889: Nous tenions la première place, mais nous l’avons perdue. Si nous voulons être premiers dans Vana’diel, chacun doit faire sa part. J’ai hâte d’entendre parler de vos exploits.${prompt}
+  7890: Notre pays est tombé à la troisième place dans la conquête de Vana’diel. Nous devons redoubler d’efforts pour remonter la pente.${prompt}
+  7891: Vous devez vous battre dans des combats qui rapportent beaucoup d’expérience. C’est la seule façon de placer des zones sous le contrôle de notre pays.${prompt}
+  7892: Actuellement, notre pays domine cette région. Si nous maintenons ce niveau, le contrôle de cette zone nous appartiendra.${prompt}
+  7893: Actuellement, notre pays a une influence majeure dans cette région. Mais nous ne pouvons pas baisser la garde, sinon nous perdrons surely le contrôle de la zone !${prompt}
+  7894: Actuellement, notre pays a une influence mineure dans cette région. Nous comptons sur vous pour nous sortir de cette mauvaise passe.${prompt}
+  7895: Actuellement, l’influence de notre pays dans cette zone est minimale. Si nous n’agissons pas vite, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
+  7896: Faites attention en passant, car cette zone est actuellement envahie par les hommes-bêtes ! Il faut agir, sinon l’ennemi prendra le contrôle de toute la région.${prompt}
   7897: 'Votre inventaire est plein. Vous n’avez pas pu accepter le ${item-singular: 0[2]}.${prompt}'
-  7898: Vous possédez déjà un glyphe de portail. Vous ne pouvez en porter aucun autre.${prompt}
-  7899: Je suis le Gardien Ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d'Oria et Bastok.${prompt}
+  7898: Vous possédez déjà un glyphe de portail. Vous ne pouvez pas en porter un autre.${prompt}
+  7899: Je suis le Gardien Ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d’Oria et Bastok.${prompt}
   7900: 　${prompt}
   7901: 　${prompt}
   7902: 　${prompt}
@@ -18758,122 +18758,122 @@ entries:
   8090: '${number: 1}${prompt}'
   8091: Livraison de marchandises dans toutes les résidences !${prompt}
   8092: |-
-    Le minstrel des mélodies est mon nom,
-    Pour seulement ${number: 6} gil, je rappellerai ton passé.
-    Tes histoires d'amour, de colère, de triomphe et de honte,
-    La rivière des souvenirs est profonde et vaste.${prompt}
+    Le ménestrel des mélodies, voilà mon nom,
+    Pour seulement ${number: 6} gil, j’évoquerai ton passé.
+    Tes récits d’amour, de rage, de gloire et de honte,
+    La rivière des souvenirs est profonde et vastée.${prompt}
   8093: |-
-    Le minstrel des mélodies est mon nom,
-    Pour seulement ${number: 6} gil, je rappellerai ton passé.
-    Mais je trouve que tu manques d'argent ou de renommée,
-    Alors jusqu'à ce moment-là, mon offre bienveillante durera.${prompt}
-  8094: Maintenant ferme les yeux...${prompt}
-  8095: Bonjour, jeune aventurier. Voudrais-tu prendre une tasse de thé avec une vieille femme ? J'apprécierais un peu de compagnie.${prompt}
-  8096: Tu vois ce petit coffre ? Il m'a été donné par mon défunt mari, que la Déesse bénisse son âme.${prompt}
-  8097: Mais regarde-le. Il est assez vieux, la fabrication n'est pas vraiment remarquable, et en plus, il est verrouillé. Ce n'est pas le genre de cadeau qu'on offrirait à un être cher, hein ? Heh heh heh...${prompt}
-  8098: C'est le seul cadeau que j'ai jamais reçu de mon mari. Je me souviens encore du jour où il me l'a donné... “Tiens.” C'est tout ce qu'il a dit... Il n'a jamais été doué avec les mots.${prompt}
-  8099: Mais je garde ce coffre précieusement... Tu dois penser que je suis folle de m'accrocher à quelque chose d'aussi inutile pendant si longtemps.${prompt}
-  8100: Excusez-moi, est-ce que quelqu'un est là ?${prompt}
-  8101: Oh, et qui pourrais-tu être, mon petit ami ?${prompt}
-  8102: Mon nom est Kurou-Morou le Magnifiquearu. Je suis le propriétaire des services astrologiques les plus fiables et viables de tout Jeuno.${prompt}
-  8103: Je suis venu ici aujourd'hui pour demander un service. Je me demandais si tu serais prêt à te séparer de ce coffre-aru.${prompt}
+    Le ménestrel des mélodies, voilà mon nom,
+    Pour seulement ${number: 6} gil, j’évoquerai ton passé.
+    Mais ton or ou ta gloire me semblent bien minimes,
+    Alors jusqu’à ce jour, mon offre reste en l’ime.${prompt}
+  8094: Maintenant, ferme les yeux…${prompt}
+  8095: Bonjour, jeune aventurier. Voudrais-tu partager une tasse de thé avec une vieille femme ? J’apprécierais un peu de compagnie.${prompt}
+  8096: Tu vois ce petit coffre ? Il m’a été offert par mon défunt mari, que la Déesse bénisse son âme.${prompt}
+  8097: Mais regarde-le. Il est plutôt vieux, sa fabrication n’a rien d’exceptionnel, et en plus, il est verrouillé. Ce n’est pas le genre de cadeau qu’on offre à un être cher, hein ? Hé hé hé…${prompt}
+  8098: C’est le seul présent que mon mari m’ait jamais fait. Je me souviens encore du jour où il me l’a donné… « Tiens. » C’est tout ce qu’il a dit… Il n’a jamais été très bavard.${prompt}
+  8099: Mais je tiens à ce coffre comme à un trésor… Tu dois me prendre pour une folle de m’accrocher si longtemps à quelque chose d’aussi inutile.${prompt}
+  8100: Excusez-moi, y a-t-il quelqu’un ?${prompt}
+  8101: Oh, et qui pourrais-tu bien être, mon petit ami ?${prompt}
+  8102: Je suis Kurou-Morou le Magnifiquearu. Je dirige les services astrologiques les plus fiables et viables de tout Jeuno.${prompt}
+  8103: Je suis venu aujourd’hui pour te demander une faveur. Je me demandais si tu accepterais de te séparer de ce coffre-aru.${prompt}
   8104: Quoi ?${prompt}
-  8105: J'ai entendu des rumeurs de mes clients qu'un coffre étrange et vieillot est en ta possession. Je sens que le coffre que tu tiens pourrait être magique.${prompt}
-  8106: Il existe une légende qui raconte qu'autrefois, un dieu timide et réservé construisit une boîte pour l'aider à exprimer ses vrais sentiments à son amour. Il remplit la boîte avec les mots qu'il ne pouvait pas dire, et l'envoya à elle.${prompt}
-  8107: Tu dis que cette boîte est...${prompt}
+  8105: J’ai entendu des rumeurs parmi mes clients au sujet d’un coffre étrange et ancien en ta possession. Je sens que ce coffre que tu tiens pourrait être magique.${prompt}
+  8106: Une légende raconte qu’autrefois, un dieu timide et discret fabriqua une boîte pour exprimer ses vrais sentiments à son aimé. Il y déposa les mots qu’il ne pouvait prononcer et la lui envoya.${prompt}
+  8107: Tu dis que cette boîte est…${prompt}
   8108: Tu ne le savais pas ?${prompt}
-  8109: 'Tu peux ouvrir ce coffre-aru en utilisant ${keyitem-article: 0[2]}, qui, dit-on, tombe sur Vana''diel depuis la lune.${prompt}'
-  8110: Une fois ouvert, la promesse du véritable amour sera réalisée... ou du moins, c'est ce que dit la légende.${prompt}
-  8111: J'ai besoin de ce coffre-aru pour dire à Chulu... pour dire à mon amie de longue date ce que je ressens pour elle. Je veux le remplir de mes sentiments.${prompt}
+  8109: 'Tu peux ouvrir ce coffre-aru avec ${keyitem-article: 0[2]}, qui, dit-on, tombe sur Vana’diel depuis la lune.${prompt}'
+  8110: Une fois ouvert, la promesse du véritable amour se réalisera… du moins, c’est ce que dit la légende.${prompt}
+  8111: J’ai besoin de ce coffre-aru pour dire à Chulu… à mon amie de longue date ce que je ressens pour elle. Je veux le remplir de mes sentiments.${prompt}
   8112: Pourquoi ne pas simplement lui dire toi-même ?${prompt}
-  8113: Je... je ne peux pas-aru !${prompt}
-  8114: Et tu veux me dire... que tu n'as jamais ouvert le coffre-aru ?${prompt}
-  8115: C'est exact. C'était un cadeau de mon mari...${prompt}
-  8116: Il... il n'aurait jamais cru à de telles histoires de fées... ou peut-être... ?${prompt}
-  8117: 'Eh bien, je ne peux''taru utiliser ce coffre-aru s''il est rempli de sentiments de quelqu’un d’autre... Mais si nous avions ${keyitem-article: 0[2]} de l’Arbre de Boyahda, nous pourrions l’ouvrir et...${prompt}'
-  8118: 'Je m’excuse de te demander autant, mais pourrais-tu trouver dans ton cœur de voyager jusqu’à l’Arbre de Boyahda et nous trouver ${keyitem-article: 0[2]} ?${prompt}'
-  8119: S'il te plaît, ${choice-player-gender}[Monsieur/Madame] ! Lorsque nous pourrons ouvrir ce coffre-aru, un miracle nous attend sûrement-wurly !${prompt}
+  8113: Je… je ne peux pas-aru !${prompt}
+  8114: Et tu me dis… que tu n’as jamais ouvert ce coffre-aru ?${prompt}
+  8115: C’est exact. C’était un cadeau de mon mari…${prompt}
+  8116: Il… il n’aurait jamais cru à de telles histoires de fées… ou peut-être que si… ?${prompt}
+  8117: 'Eh bien, je ne peux’taru utiliser ce coffre-aru s’il est rempli des sentiments de quelqu’un d’autre… Mais si nous avions ${keyitem-article: 0[2]} de l’Arbre de Boyahda, nous pourrions l’ouvrir et…${prompt}'
+  8118: 'Je m’excuse de te demander autant, mais pourrais-tu trouver dans ton cœur la force de voyager jusqu’à l’Arbre de Boyahda et nous ramener ${keyitem-article: 0[2]} ?${prompt}'
+  8119: S’il te plaît, ${choice-player-gender}[Monsieur/Madame] ! Quand nous ouvrirons ce coffre-aru, un miracle nous attendra sûrement-wurly !${prompt}
   8120: |-
-    Voyager jusqu'à l'Arbre de Boyahda ?
+    Voyager jusqu’à l’Arbre de Boyahda ?
     ${selection-lines}
-    Oui.
-    Non.${prompt}
-  8121: Quel jeune ${choice-player-gender}[homme/femme] gentil(le) tu es. J'apprécie que tu prennes une tâche aussi dangereuse pour une vieille femme fragile.${prompt}
-  8122: Mais de penser que mon mari m'aurait laissé un tel cadeau...${prompt}
-  8123: Eh bien, je suppose que c'était trop te demander...${prompt}
-  8124: 'Ah, ${name-player}. Tu es revenu. Je sais que cela demande beaucoup, mais pourrais-tu trouver dans ton cœur de m’aider à trouver le ${keyitem-singular: 0[2]} dont Kurou-Morou parlait ?${prompt}'
-  8125: 'D’après notre petit ami, il existe un endroit au plus profond de l’Arbre de Boyahda où la lumière de la lune pénètre à travers les feuilles. Une fois arrivé à cet endroit, offrir une prière aux dieux est le seul moyen d’obtenir ${keyitem-article: 0[2]}.${prompt}'
+    Oui
+    Non${prompt}
+  8121: Quel(le) gentil(le) jeune ${choice-player-gender}[homme/femme] tu es. J’apprécie que tu prennes une tâche aussi dangereuse pour une vieille femme fragile.${prompt}
+  8122: Mais penser que mon mari m’aurait laissé un tel cadeau…${prompt}
+  8123: Eh bien, je suppose que c’était trop te demander…${prompt}
+  8124: 'Ah, ${name-player}. Tu es revenu. Je sais que c’est beaucoup demander, mais pourrais-tu trouver dans ton cœur la force de m’aider à obtenir le ${keyitem-singular: 0[2]} dont parlait Kurou-Morou ?${prompt}'
+  8125: 'D’après notre petit ami, il existe un endroit au cœur de l’Arbre de Boyahda où la lumière de la lune perce à travers les feuillages. Une fois là-bas, offrir une prière aux dieux est le seul moyen d’obtenir ${keyitem-article: 0[2]}.${prompt}'
   8126: |-
-    Tu es revenu ! Alors voici ${keyitem-article: 0[2]}...
-    C'est tellement clair et beau... mais est-ce que cela ouvrira vraiment le coffre de mon mari ?${prompt}
+    Tu es revenu ! Voici donc ${keyitem-article: 0[2]}…
+    C’est si clair et magnifique… mais est-ce que cela ouvrira vraiment le coffre de mon mari ?${prompt}
   8127: 'Oh, je vois que tu es revenu avec ${keyitem-article: 0[2]} ! Alors, y a-t-il eu des miracles encore-aru ?${prompt}'
-  8128: Le coffre s'est ouvert... mais rien ne s'est passé jusqu'à présent...${prompt}
-  8129: Rien ne s'est passé ? Rien ne s'est passé !? Mais la légende disait...${prompt}
-  8130: La légende n'était qu'une légende. Peut-être que nous étions fous de croire...${prompt}
-  8131: Alors il n'y avait rien dans le coffre ?${prompt}
+  8128: Le coffre s’est ouvert… mais rien ne s’est passé jusqu’à présent…${prompt}
+  8129: Rien ne s’est passé ? Rien ne s’est passé !? Mais la légende disait…${prompt}
+  8130: La légende n’était qu’une légende. Peut-être étions-nous fous de croire…${prompt}
+  8131: Alors il n’y avait rien dans le coffre ?${prompt}
   8132: |-
-    ...?
-    Qu'est-ce que c'est ?
-    On dirait une note. Attends, c'est l'écriture de mon mari !${prompt}
+    … ?
+    Qu’est-ce que c’est ?
+    On dirait une note. Attends, c’est l’écriture de mon mari !${prompt}
   8133: |-
     Ma chère Ilumida,
-    Je ne sais pas pourquoi j'écris ceci.
-    Tu sais que je n'ai jamais été doué pour
+    Je ne sais pas pourquoi j’écris ceci.
+    Tu sais que je n’ai jamais été doué pour
     te dire ce que je ressens.${prompt}
-  8134: "Plusieurs fois j'ai essayé de mettre\nen mots mon amour pour toi, mais\nces mots n'ont jamais \nréussi à sortir.${prompt}"
+  8134: "Plusieurs fois, j’ai essayé de mettre\nen mots mon amour pour toi, mais\nces mots n’ont jamais\nréussi à sortir.${prompt}"
   8135: |-
-    Boire du thé ensemble lors d'un matin
-    d'automne, ou se reposer à l'ombre lors d'un
-    après-midi d'été... ce sont les petites
+    Boire du thé ensemble un matin
+    d’automne, ou se reposer à l’ombre un
+    après-midi d’été… ce sont ces petites
     choses qui me rendaient heureux.${prompt}
-  8136: "Autant que j'aimerais tout laisser tomber\net passer tout mon temps avec toi, la situation\nactuelle à Vana'diel \nne me le permet pas.${prompt}"
+  8136: "Autant j’aimerais tout laisser tomber\net passer tout mon temps avec toi, la situation\nactuelle à Vana’diel\nne me le permet pas.${prompt}"
   8137: |-
-    J'aurais aimé être à tes côtés
+    J’aurais aimé être à tes côtés
     lorsque tu liras cette lettre, mais cela
-    n'est peut-être pas ce que le destin me réserve.
+    n’est peut-être pas ce que le destin me réserve.
     Je dois te dire ce que je ressens maintenant.${prompt}
-  8138: "  \n  Je t'aime.\n  ${prompt}"
-  8139: "À ce jour, je regrette de ne jamais avoir dit\nces mots, et je t'en prie, \nun jour pardonne-moi.\n                             Adaruel${prompt}"
+  8138: "  \n  Je t’aime.\n  ${prompt}"
+  8139: "À ce jour, je regrette de ne jamais avoir dit\nces mots, et je t’en prie,\nun jour pardonne-moi.\n                             Adaruel${prompt}"
   8140: |-
-    La date...
-    Elle est datée du jour avant qu'il parte à la guerre...${prompt}
-  8141: Tout ce temps, il voulait juste dire...${prompt}
+    La date…
+    Elle est datée de la veille du jour où il est parti à la guerre…${prompt}
+  8141: Tout ce temps, il voulait juste dire…${prompt}
   8142: Mon petit ami. Je pense que je comprends ce que tu traverses.${prompt}
   8143: |-
     Tiens.
     Prends cette caisse.${prompt}
   8144: V-vraiment ?${prompt}
-  8145: Bien sûr. Je n'en ai plus besoin. J'ai déjà reçu son véritable cadeau.${prompt}
-  8146: Si tu tiens vraiment à cette fille, évite de faire des choses que tu regretteras plus tard. Les femmes ne se soucient pas de la manière dont c'est dit. Si tu veux vraiment dire ce que tu ressens, elle le saura.${prompt}
-  8147: Que tu utilises cette boîte ou non, c'est à toi de décider.${prompt}
-  8148: M-Merci. Mais je pense que je n'en aurai pas besoin.${prompt}
-  8149: Ton histoire m'a donné le courage de dire à Chululu ce que je ressens. Merci, Madame.${prompt}
+  8145: Bien sûr. Je n’en ai plus besoin. J’ai déjà reçu son véritable cadeau.${prompt}
+  8146: Si tu tiens vraiment à cette fille, évite de faire des choses que tu regretteras plus tard. Les femmes ne se préoccupent pas de la manière dont c’est dit. Si tu veux vraiment exprimer ce que tu ressens, elle le saura.${prompt}
+  8147: Que tu utilises cette boîte ou non, c’est à toi de décider.${prompt}
+  8148: M-merci. Mais je pense que je n’en aurai pas besoin.${prompt}
+  8149: Ton histoire m’a donné le courage de dire à Chululu ce que je ressens. Merci, Madame.${prompt}
   8150: |-
-    Oh, ${name-player}. Prends ceci--et un peu de gil--comme récompense. Je comptais de toute façon les utiliser pour acquérir la caisse.
-    Eh bien, je file à ma boutique. Ta-taru !${prompt}
+    Oh, ${name-player}. Prends ceci – et un peu de gil – comme récompense. Je comptais de toute façon les utiliser pour acheter la caisse.
+    Bon, je file à ma boutique. Ta-taru !${prompt}
   8151: |-
     Merci encore pour toute ton aide.
-    Les mots que mon mari m'a laissés résonnent encore dans mon esprit... C'est comme s'il était là, dans cette pièce, debout à mes côtés maintenant...${prompt}
-  8152: Notre petit ami a pu exprimer ses sentiments à sa petite amie ? Je savais qu'il ferait ce qu'il fallait.${prompt}
-  8153: J'aimerais bien m'asseoir et prendre une tasse de thé avec ce Chululu. Je suis sûre que nous aurions beaucoup de choses à discuter...${prompt}
-  8154: Waouh, d'où viennent toutes ces callosités sur tes mains ?${prompt}
-  8155: C'est de pratiquer avec ta hache ?${prompt}
-  8156: C'est plutôt impressionnant, mais je ne pense toujours pas que tu pourrais égaler mon patron là-bas. Il a rassemblé nos chocobos et construit toute cette écurie, tout avec une seule hache.${prompt}
-  8157: Pourquoi, il pourrait éliminer les monstres les plus dangereux d'un seul coup !${prompt}
-  8158: Osker ! Arrête de jacasser et retourne au travail ! Nos chocobos sont en train de mourir de faim là-bas !${prompt}
-  8159: D-Désolé, patron. Je n'avais juste que l'admiration pour les mains de cet aventurier. Elles ont l'air de pouvoir manier une hache à merveille.${prompt}
+    Les mots que mon mari m’a laissés résonnent encore dans mon esprit… C’est comme s’il était là, dans cette pièce, à mes côtés en ce moment…${prompt}
+  8152: Notre petit ami a réussi à exprimer ses sentiments à sa dulcinée ? Je savais qu’il ferait ce qu’il faut.${prompt}
+  8153: J’aimerais bien m’asseoir et prendre une tasse de thé avec cette Chululu. Je suis sûre que nous aurions tant de choses à nous dire…${prompt}
+  8154: Waouh, d’où viennent toutes ces callosités sur tes mains ?${prompt}
+  8155: C’est à force de manier ta hache ?${prompt}
+  8156: C’est plutôt impressionnant, mais je ne pense pas que tu puisses égaler mon patron là-bas. Il a dressé nos chocobos et construit cette écurie tout entière, rien qu’avec une seule hache.${prompt}
+  8157: Eh bien, il pourrait terrasser les monstres les plus redoutables d’un seul coup !${prompt}
+  8158: Osker ! Arrête de bavarder et retourne au travail ! Nos chocobos meurent de faim là dehors !${prompt}
+  8159: D-désolé, patron. J’étais juste admiratif des mains de cet aventurier. Elles ont l’air de pouvoir manier une hache à merveille.${prompt}
   8160: Regarde. Elles sont pleines de callosités, tout comme les tiennes !${prompt}
   8161: |-
-    Tu sais, tu as raison...
-    ${name-player}, on dirait que tu connais bien ta hache. Si ce n'est pas trop demander, j'aimerais te demander un service.${prompt}
-  8162: L'autre jour, le chef de cette équipe de Tenshodo nous a rendu une visite imprévue...${prompt}
-  8163: Il a dit qu'il était intéressé par le marché de la hache, mais qu'il ne savait pas laquelle il voulait vendre dans sa boutique. Il m'a demandé de tester deux nouveaux modèles... mais j'ai assez de travail avec les écuries et je n'ai pas de temps à perdre à trancher et découper.${prompt}
-  8164: Si tu n'es pas trop occupé, ça te dérangerait de les essayer ? Tu peux le voir comme un moyen de peaufiner tes compétences.${prompt}
+    Tu sais, tu as raison…
+    ${name-player}, on dirait que tu maîtrises bien ta hache. Si ce n’est pas trop demander, j’aimerais te confier une tâche.${prompt}
+  8162: L’autre jour, le chef de cette équipe du Tenshodo nous a rendu une visite surprise…${prompt}
+  8163: Il a dit qu’il s’intéressait au commerce des haches, mais qu’il ne savait pas encore lesquelles vendre dans sa boutique. Il m’a demandé de tester deux nouveaux modèles… mais j’ai déjà assez à faire avec les écuries, et pas le temps de jouer à trancher et découper.${prompt}
+  8164: Si tu n’es pas trop occupé, ça te dérangerait de les essayer ? Tu peux voir ça comme une occasion d’affiner tes compétences.${prompt}
   8165: |-
-    Alors, qu'en dis-tu ?
+    Alors, qu’en dis-tu ?
     ${selection-lines}
-    D'accord, je vais t'aider.
-    Je suis désolé...${prompt}
+    D’accord, je vais t’aider.
+    Je suis désolé…${prompt}
   8166: |-
     Génial !
     Tiens, prends-la. J'ai déjà trouvé quelqu'un pour essayer l'autre.${prompt}
