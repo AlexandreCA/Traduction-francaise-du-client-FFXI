@@ -17766,27 +17766,27 @@ entries:
   7224: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  7225: The beastmen are gaining power.${prompt}
-  7226: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  7227: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  7228: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  7229: San d'Oria's region points have increased!${prompt}
-  7230: Bastok's region points have increased!${prompt}
-  7231: Windurst's region points have increased!${prompt}
-  7232: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  7233: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7234: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7235: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  7236: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  7237: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  7238: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  7239: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  7240: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  7241: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  7242: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  7243: There was a curse on the beastmen's banner!${prompt}
-  7244: The curse of the beastmen's banner has been lifted!${prompt}
-  7245: There is a beastmen's banner.${prompt}
+  7225: Les hommes-bêtes gagnent en puissance.${prompt}
+  7226: Le contrôle régional de San d’Oria est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  7227: Le contrôle régional de Bastok est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  7228: Le contrôle régional de Windurst est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  7229: Les points de région de San d’Oria ont augmenté !${prompt}
+  7230: Les points de région de Bastok ont augmenté !${prompt}
+  7231: Les points de région de Windurst ont augmenté !${prompt}
+  7232: La F.E. de San d’Oria vainc des hordes d’hommes-bêtes… Maintiens l’élan actuel.${prompt}
+  7233: La F.E. de Bastok vainc des hordes d’hommes-bêtes… Maintiens l’élan actuel.${prompt}
+  7234: La F.E. de Windurst vainc des hordes d’hommes-bêtes… Maintiens l’élan actuel.${prompt}
+  7235: Une Force Expéditionnaire de San d’Oria a été déployée dans cette zone.${prompt}
+  7236: Une Force Expéditionnaire de Bastok a été déployée dans cette zone.${prompt}
+  7237: Une Force Expéditionnaire de Windurst a été déployée dans cette zone.${prompt}
+  7238: 'Influence de la F.E. : Élevée… Statut de la région : Dominant… Maintiens le niveau actuel de combat.${prompt}'
+  7239: 'Influence de la F.E. : Modérée… Statut de la région : Majeur… Maintiens l’élan.${prompt}'
+  7240: 'Influence de la F.E. : Faible… Statut de la région : Mineur… Intensifie les efforts.${prompt}'
+  7241: 'Influence de la F.E. : Minimale… Statut de la région : Minimal… Multiplie les efforts par dix.${prompt}'
+  7242: 'Influence de la F.E. : Aucune… Statut de la région : Sous contrôle des hommes-bêtes… Minimise les pertes.${prompt}'
+  7243: Il y avait une malédiction sur la bannière des hommes-bêtes !${prompt}
+  7244: La malédiction de la bannière des hommes-bêtes a été levée !${prompt}
+  7245: Il y a une bannière des hommes-bêtes.${prompt}
   7246: 　${prompt}
   7247: 　${prompt}
   7248: 　${prompt}
@@ -18211,139 +18211,139 @@ entries:
     Oh…
     … je me tire…${prompt}
   7505: |-
-    Do you want to hear a story?
+    Veux-tu entendre une histoire ?
     ${selection-lines}
-    No, thank you.
-    Let's hear one.${prompt}
+    Non, merci.
+    Allons-y pour une.${prompt}
   7506: |-
-    What story would you like to be told?
+    Quelle histoire veux-tu qu’on te raconte ?
     ${selection-lines}
-    On second thought, maybe later.
-    The Warrior's Path(pt.1).
-    The Warrior's Path(pt.2).
-    Garden of Antiquity(pt.1).
-    Garden of Antiquity(pt.2).
-    Garden of Antiquity(pt.3).
-    Garden of Antiquity(pt.4).
-    Garden of Antiquity(pt.5).
-    Dawn(pt.1).
-    Dawn(pt.2).
-    Dawn(pt.3).${prompt}
+    En fait, peut-être plus tard.
+    Le Chemin du Guerrier (partie 1).
+    Le Chemin du Guerrier (partie 2).
+    Jardin d’Antiquité (partie 1).
+    Jardin d’Antiquité (partie 2).
+    Jardin d’Antiquité (partie 3).
+    Jardin d’Antiquité (partie 4).
+    Jardin d’Antiquité (partie 5).
+    Aube (partie 1).
+    Aube (partie 2).
+    Aube (partie 3).${prompt}
   7507: Dummy${prompt}
   7508: Dummy${prompt}
   7509: Dummy${prompt}
   7510: 割れるアミュレットエフェクト${prompt}
   7511: '  ${wait-animation: 1}'
-  7512: 'The ${keyitem-singular: 0[2]} held by ${name-player} has shattered...${prompt}'
-  7513: 'The ${keyitem-singular: 0[2]} was stolen by Nag''molada...${prompt}'
-  7514: 'You obtain the ${keyitem-singular: 0[2]}, only to have it stolen by Nag''molada...${prompt}'
-  7515: Hey, did you guys see where Promathia went!?${prompt}
-  7516: All have become one...${prompt}
-  7517: My master, his lady, their friends, everyone...${prompt}
-  7518: All have coalesced into a single deity...${prompt}
+  7512: 'Le ${keyitem-singular: 0[2]} porté par ${name-player} s’est brisé…${prompt}'
+  7513: 'Le ${keyitem-singular: 0[2]} a été volé par Nag’molada…${prompt}'
+  7514: 'Tu obtiens le ${keyitem-singular: 0[2]}, mais il est volé par Nag’molada…${prompt}'
+  7515: Hé, vous avez vu où est parti Promathia !?${prompt}
+  7516: Tout est devenu un…${prompt}
+  7517: Mon maître, sa dame, leurs amis, tout le monde…${prompt}
+  7518: Tous ont fusionné en une seule divinité…${prompt}
   7519: |-
-    There!
-    I can see him!${prompt}
+    Là !
+    Je peux le voir !${prompt}
   7520: |-
-    Canst thou hear me, Goddess?
-    Thou who hast sheltered my very existence.${prompt}
+    M’entends-tu, Déesse ?
+    Toi qui as abrité mon existence même.${prompt}
   7521: |-
-    I will be reborn.
-    It is time to surrender to thine abhorred “death,” to the embrace of perpetual darkness.${prompt}
-  7522: An eternity of silence awaits.${prompt}
-  7523: Our farewell this time shall be forever.${prompt}
-  7524: The Goddess...is crying?${prompt}
-  7525: The apocalypse is at hand!
+    Je vais renaître.
+    Il est temps de me rendre à cette “mort” abhorrée, à l’étreinte des ténèbres éternelles.${prompt}
+  7522: Une éternité de silence m’attend.${prompt}
+  7523: Nos adieux cette fois seront définitifs.${prompt}
+  7524: La Déesse… pleure ?${prompt}
+  7525: L’apocalypse est proche !
   7526: |-
-    Wait!
-    Take us with you!${prompt}
-  7527: Take us with you to Vana'diel!${prompt}
+    Attends !
+    Emmène-nous avec toi !${prompt}
+  7527: Emmène-nous avec toi à Vana’diel !${prompt}
   7528: |-
-    What was that!?
-    The dusty old divinity is headed for Vana'diel!?${prompt}
-  7529: That's right!${prompt}
-  7530: The great Promathia realized why his children have not come to greet him!${prompt}
-  7531: He's gonna break the fifth mothercrystal and bring this entire city crashing down on the world!${prompt}
+    C’était quoi ça !?
+    Cette vieille divinité poussiéreuse se dirige vers Vana’diel !?${prompt}
+  7529: Exactement !${prompt}
+  7530: Le grand Promathia a compris pourquoi ses enfants ne sont pas venus l’accueillir !${prompt}
+  7531: Il va briser le cinquième cristal-mère et faire s’écraser cette ville entière sur le monde !${prompt}
   7532: |-
-    They are calling you!
-    Your children are calling you home!
+    Ils t’appellent !
+    Tes enfants t’appellent à la maison !
   7533: |-
-    Dammit...
-    This is because of Nag'molada.${prompt}
-  7534: When Naggy was absorbed, all of his knowledge poured straight into the mind of the Twilight God!${prompt}
-  7535: ${name-player}, I'm gonna need the amulet back.${prompt}
+    Bon sang…
+    C’est à cause de Nag’molada.${prompt}
+  7534: Quand Naggy a été absorbé, toute sa connaissance a été déversée directement dans l’esprit du Dieu du Crépuscule !${prompt}
+  7535: ${name-player}, il me faut l’amulette en retour.${prompt}
   7536: |-
-    We gotta go!
-    He's in the lowest level of the palace!${prompt}
+    Faut y aller !
+    Il est au niveau le plus bas du palais !${prompt}
   7537: |-
-    C'mon, ${name-player}!
-    It's time to put the hurt on the Twilight God!${prompt}
-  7538: 'You return the ${keyitem-singular: 0[2]} to Prishe.${prompt}'
-  7539: Nothing happens.${prompt}
-  7540: A distant voice emanates from the depths of your soul.${prompt}
-  7541: “Knoweth...thou?”${prompt}
-  7542: “Firs...irtue...”${prompt}
-  7543: “Deed...tranqu...ser...ity...”${prompt}
-  7544: “...receptac...from phua...”${prompt}
-  7545: “...I...cannot...deciph...them...”${prompt}
-  7546: A distant voice emanates from the depths of your soul.${prompt}
-  7547: “Desssireth...thou?”${prompt}
-  7548: “Ssseco...irtue...”${prompt}
-  7549: “Deed...ressstraint...willpo...er...”${prompt}
-  7550: “...from...fallen...Xzom...”${prompt}
-  7551: “...cannot...derssstand...them...”${prompt}
-  7552: A distant voice emanates from the depths of your soul.${prompt}
-  7553: “Seeketh...thou?”${prompt}
-  7554: “Thir...irtue...”${prompt}
-  7555: “Deed...rationa...”${prompt}
-  7556: “...receptac...from Hpem...”${prompt}
-  7557: “...cannot...omprehend...them...”${prompt}
-  7558: A distant voice emanates from the depths of your soul.${prompt}
-  7559: “Now...I...know...”${prompt}
-  7560: “Fourt...irtue...”${prompt}
-  7561: “Fif...irtue...”${prompt}
-  7562: “Sssix...irtue...”${prompt}
-  7563: “I...desssire...”${prompt}
-  7564: At lassst the time has come...${prompt}
-  7565: The ssscattered fragments of my thoughtsss once again mine. Long forgotten memoriesss filling me once more...${prompt}
-  7566: However...these memories generate sssuffering... These thoughtsss...bring remorssse...${prompt}
+    Allez, ${name-player} !
+    C’est l’heure de faire mal au Dieu du Crépuscule !${prompt}
+  7538: 'Tu rends le ${keyitem-singular: 0[2]} à Prishe.${prompt}'
+  7539: Rien ne se passe.${prompt}
+  7540: Une voix lointaine émane des profondeurs de ton âme.${prompt}
+  7541: « Connais-tu… ? »${prompt}
+  7542: « Pre… vertu… »${prompt}
+  7543: « Acte… tranqu… sére… nité… »${prompt}
+  7544: « … récepta… de phua… »${prompt}
+  7545: « … je… ne peux… déchiff… eux… »${prompt}
+  7546: Une voix lointaine émane des profondeurs de ton âme.${prompt}
+  7547: « Désires-tu… ? »${prompt}
+  7548: « Deuxiè… vertu… »${prompt}
+  7549: « Acte… restrainte… volon… té… »${prompt}
+  7550: « … de… déchu… Xzom… »${prompt}
+  7551: « … ne peux… compre… eux… »${prompt}
+  7552: Une voix lointaine émane des profondeurs de ton âme.${prompt}
+  7553: « Cherches-tu… ? »${prompt}
+  7554: « Troisiè… vertu… »${prompt}
+  7555: « Acte… ration… »${prompt}
+  7556: « … récepta… de Hpem… »${prompt}
+  7557: « … ne peux… saisir… eux… »${prompt}
+  7558: Une voix lointaine émane des profondeurs de ton âme.${prompt}
+  7559: « Maintenant… je… sais… »${prompt}
+  7560: « Quatriè… vertu… »${prompt}
+  7561: « Cinq… vertu… »${prompt}
+  7562: « Sixiè… vertu… »${prompt}
+  7563: « Je… dési… »${prompt}
+  7564: Enfin le moment est venu…${prompt}
+  7565: Les fragments épars de mes pensées me reviennent enfin. Des souvenirs oubliés depuis longtemps me remplissent à nouveau…${prompt}
+  7566: Cependant… ces souvenirs engendrent la souffrance… Ces pensées… apportent le remords…${prompt}
   7567: |-
-    Tell me...for what sssearcheth thou, to travel this far?
-    Show me...by what principlesss art thou driven?${prompt}
-  7568: By thy principlesss...I have been freed from the chainsss placed upon me since time immemorial.${prompt}
-  7569: Thy path...extends to the far reaches of time and ssspace... But sssomeday...thou shalt reach...thy destin......${prompt}
-  7570: Absolute Virtue uses Hundred Fists.${prompt}
-  7571: Absolute Virtue uses Mijin Gakure.${prompt}
+    Dis-moi… que cherches-tu, pour avoir voyagé si loin ?
+    Montre-moi… par quels principes es-tu guidé ?${prompt}
+  7568: Par tes principes… j’ai été libéré des chaînes qui m’entravaient depuis des temps immémoriaux.${prompt}
+  7569: Ton chemin… s’étend aux confins du temps et de l’espace… Mais un jour… tu atteindras… ton destin…${prompt}
+  7570: Vertu Absolue utilise Cent Poings.${prompt}
+  7571: Vertu Absolue utilise Mijin Gakure.${prompt}
   7572: ホラのフラグ用モンスター登場です。${prompt}
   7573: デムのフラグ用モンスター登場デス！${prompt}
   7574: メアのフラグ用モンスター登場DEATH！${prompt}
-  7575: The monster fades before your eyes, a look of disappointment on its face.${prompt}
-  7576: Something is buried beneath the surface...${prompt}
+  7575: Le monstre s’efface sous tes yeux, un air de déception sur son visage.${prompt}
+  7576: Quelque chose est enfoui sous la surface…${prompt}
   7577: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Tu peux définir ceci comme ton point de retour actuel.
+    Une fois défini, tu reviendras ici chaque fois que tu seras hors combat.
   7578: |-
-    Set this as current home point?
+    Définir comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7579: Home point set!${prompt}
-  7580: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  7579: Point de retour défini !${prompt}
+  7580: Un point de retour peut être choisi comme lieu de retour à Vana’diel quand tu es mis K.O. Tu peux aussi l’utiliser pour te téléporter vers d’autres points de retour.${prompt}
   7581: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Aller à un autre point de retour.
+    Définir ceci comme point de retour.
+    Autres options.
+    En fait, laisse tomber.${prompt}
   7582: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  7583: You may teleport from here to any other home point you have registered.
+    Tu as enregistré un nouveau point de retour !
+    Tu peux maintenant te téléporter ici depuis n’importe quel autre point de retour.${prompt}
+  7583: Tu peux te téléporter d’ici vers tout autre point de retour que tu as enregistré.${prompt}
   7584: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -18360,81 +18360,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   7585: |-
-    Teleport where?（${zone: 33[2]}）
+    Téléporter où ? (${zone: 33[2]})
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  7586: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  7587: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  7588: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  7586: Tu n’as pas encore enregistré d’autres points de retour, donc tu ne peux pas te téléporter.${prompt}
+  7587: 'Ça coûte ${number: 3} gil pour te téléporter au Point de retour #${number: 2} à ${zone: 1[2]}.'
+  7588: 'Pas de frais pour te téléporter au Point de retour #${number: 2} à ${zone: 1[2]}.'
   7589: |-
-    Teleport? (Current gil: ${number: 0})
+    Te téléporter ? (Gil actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s’il te plaît.
+    Non, merci.${prompt}
   7590: |-
-    Teleport to which region?
+    Téléporter dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    En fait, aucune.
+    Choisir parmi les favoris.
+    Région actuelle.
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
-    ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
+    ${choice: 1}[Tavnazie/Halvung].
+    ${choice: 1}[Ouest Aht Urhgan/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est Ulbuka].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    ${choice: 1}[Bas Elshimo/].
+    ${choice: 1}[Haut Elshimo/].
+    ${choice: 1}[Tu’Lia/].
+    Page précédente.
+    Page suivante.${prompt}
   7591: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  7592: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-là.
+    Un lieu favori.
+    Une zone originale.
+    Une zone de L’Ère des Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  7592: Tu peux changer la manière de sélectionner la zone de ton point de retour pour te téléporter.${prompt}
   7593: |-
-    Which setting would you like?
+    Quelle option veux-tu ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  7594: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Choisir par région.
+    Choisir par extension.${prompt}
+  7594: 'Tu choisis maintenant par ${choice: 1}[région/extension].'
   7595: |-
-    Teleport where?
+    Téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-là.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18444,13 +18444,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  7596: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  7597: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  7596: 'Le Point de retour #${number: 2} à ${zone: 1[2]} a été ${choice: 33}[ajouté à/retiré de] ta liste de lieux favoris.'
+  7597: Ta liste de lieux favoris est pleine. Tu dois supprimer une entrée existante pour en ajouter une nouvelle.${prompt}
   7598: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-là.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
