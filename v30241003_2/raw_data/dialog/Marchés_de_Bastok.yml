@@ -17642,16 +17642,16 @@ entries:
     Je voudrais utiliser mes points.
     Quelles sont les limites actuelles ?
     Comment fonctionne le système d’échange ?${prompt}
-  7135: 'You have ${number: 0} more days (Vana''diel time) to provide us with the requested item.${prompt}'
-  7136: Today (Vana'diel time) is the final day we will accept the requested item.${prompt}
-  7137: 'You can still receive up to ${number: 3} guild points by trading us the item before the time limit is up.${prompt}'
-  7138: You are not eligible to receive guild points at this time.${prompt}
+  7135: 'Il te reste ${number: 0} jours (temps de Vana’diel) pour nous fournir l’objet demandé.${prompt}'
+  7136: Aujourd’hui (temps de Vana’diel) est le dernier jour où nous accepterons l’objet demandé.${prompt}'
+  7137: 'Tu peux encore recevoir jusqu’à ${number: 3} points de guilde en nous échangeant l’objet avant que le délai ne soit écoulé.${prompt}'
+  7138: Tu n’es pas éligible pour recevoir des points de guilde pour le moment.${prompt}'
   7139: |-
-    Exchange points for...
+    Échanger des points contre…
     ${selection-lines}
-    Nothing.
-    A high-quality crystal.
-    Analysis crystals.
+    Rien.
+    Un cristal de haute qualité.
+    Cristaux d’analyse.
     ${lettercase: 1}${article} ${item-article: 0[2]} (1500).
     ${lettercase: 1}${article} ${item-article: 8[2]} (${number: 9}).
     ${lettercase: 1}${article} ${item-article: 1[2]} (70000).
@@ -17661,11 +17661,11 @@ entries:
     ${lettercase: 1}${article} ${item-article: 12[2]} (${number: 13}).
     ${lettercase: 1}${article} ${item-article: 14[2]} (${number: 15}).
     ${lettercase: 1}${article} ${item-article: 16[2]} (${number: 17}).
-    A key item.${prompt}
+    Un objet clé.${prompt}'
   7140: |-
-    Exchange points for...
+    Échanger des points contre…
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${article} ${item-article: 0[2]} (200).
     ${lettercase: 1}${article} ${item-article: 1[2]} (200).
     ${lettercase: 1}${article} ${item-article: 2[2]} (200).
@@ -17673,11 +17673,11 @@ entries:
     ${lettercase: 1}${article} ${item-article: 4[2]} (200).
     ${lettercase: 1}${article} ${item-article: 5[2]} (200).
     ${lettercase: 1}${article} ${item-article: 6[2]} (200).
-    ${lettercase: 1}${article} ${item-article: 7[2]} (200).${prompt}
+    ${lettercase: 1}${article} ${item-article: 7[2]} (200).${prompt}'
   7141: |-
-    Exchange points for...
+    Échanger des points contre…
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${article} ${item-article: 0[2]} (450).
     ${lettercase: 1}${article} ${item-article: 1[2]} (450).
     ${lettercase: 1}${article} ${item-article: 2[2]} (450).
@@ -17685,68 +17685,68 @@ entries:
     ${lettercase: 1}${article} ${item-article: 4[2]} (450).
     ${lettercase: 1}${article} ${item-article: 5[2]} (450).
     ${lettercase: 1}${article} ${item-article: 6[2]} (450).
-    ${lettercase: 1}${article} ${item-article: 7[2]} (450).${prompt}
-  7142: Yes, this is what we are asking for. Good work, ${name-player}!${prompt}
-  7143: 'Obtained: ${number: 0} guild points.${prompt}'
-  7144: You do not have enough guild points.${prompt}
-  7145: 'Trade ${number: 1} guild points for ${item-plural: 0[2]}?${prompt}'
-  7146: How many do you wish to trade for?${prompt}
-  7147: 'Trade ${number: 1} guild points for ${number: 2} ${item-given-plurality: 2[2], 0[2]}?${prompt}'
+    ${lettercase: 1}${article} ${item-article: 7[2]} (450).${prompt}'
+  7142: Oui, c’est bien ce que nous demandons. Bon travail, ${name-player} !${prompt}' 
+  7143: 'Obtenu : ${number: 0} points de guilde.${prompt}'
+  7144: Tu n’as pas assez de points de guilde.${prompt}'
+  7145: 'Échanger ${number: 1} points de guilde contre ${item-plural: 0[2]} ?${prompt}'
+  7146: Combien veux-tu en échanger ?${prompt}'
+  7147: 'Échanger ${number: 1} points de guilde contre ${number: 2} ${item-given-plurality: 2[2], 0[2]} ?${prompt}'
   7148: |-
-    Proceed with the transaction? (GP: ${number: 32})
+    Procéder à la transaction ? (GP : ${number: 32})
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}'
   7149: |-
-    Necessary skills: ${choice: 6}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leatherworking/Bonecraft/Alchemy/Cooking]${choice: 1}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 2}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 3}[ /, & Woodworking/, & Smithing/, & Goldsmithing/, & Clothcraft/, & Leatherworking/, & Bonecraft/, & Alchemy/, & Cooking]
-    Necessary crystal: ${lettercase: 1}${item-singular: 4[2]}
-    Necessary key item: ${lettercase: 1}${keyitem-singular: 5[2]}
-    Necessary items: ${prompt}
+    Compétences nécessaires : ${choice: 6}[Pêche/Menuiserie/Forgeronnerie/Orfèvrerie/Tissage/Tannage/Ossature/Alchimie/Cuisine]${choice: 1}[ /, Menuiserie/, Forgeronnerie/, Orfèvrerie/, Tissage/, Tannage/, Ossature/, Alchimie/, Cuisine]${choice: 2}[ /, Menuiserie/, Forgeronnerie/, Orfèvrerie/, Tissage/, Tannage/, Ossature/, Alchimie/, Cuisine]${choice: 3}[ /, & Menuiserie/, & Forgeronnerie/, & Orfèvrerie/, & Tissage/, & Tannage/, & Ossature/, & Alchimie/, & Cuisine]
+    Cristal nécessaire : ${lettercase: 1}${item-singular: 4[2]}
+    Objet clé nécessaire : ${lettercase: 1}${keyitem-singular: 5[2]}
+    Objets nécessaires : ${prompt}'
   7150: |-
-    Exchange points for...
+    Échanger des points contre…
     ${selection-lines}
-    None of these.
-    ${lettercase: 1}${keyitem-singular: 0[2]}(${number: 1}).
-    ${lettercase: 1}${keyitem-singular: 2[2]}(${number: 3}).
-    ${lettercase: 1}${keyitem-singular: 4[2]}(${number: 5}).
-    ${lettercase: 1}${keyitem-singular: 6[2]}(${number: 7}).
-    ${lettercase: 1}${keyitem-singular: 8[2]}(${number: 9}).
-    ${lettercase: 1}${keyitem-singular: 10[2]}(${number: 11}).
-    ${lettercase: 1}${keyitem-singular: 12[2]}(${number: 13}).${prompt}
-  7151: 'Trade ${number: 1} guild points for ${keyitem-singular: 0[2]}?${prompt}'
+    Aucun de ceux-ci.
+    ${lettercase: 1}${keyitem-singular: 0[2]} (${number: 1}).
+    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 3}).
+    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 5}).
+    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 7}).
+    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 9}).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 11}).
+    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 13}).${prompt}'
+  7151: 'Échanger ${number: 1} points de guilde contre ${keyitem-singular: 0[2]} ?${prompt}'
   7152: |-
-    You are a registered craftsman at the following guild(s):
-    ${choice: 0}[/Carpenters' ]${choice: 1}[/Blacksmiths' ]${choice: 2}[/Goldsmiths' ]${choice: 3}[/Weavers' ]${choice: 4}[/Tanners' ]${choice: 5}[/Boneworkers' ]${choice: 6}[/Alchemists' ]${choice: 7}[/Culinarians' ]
-    By revoking your status, you will be reduced to “journeyman” and your synthesis skills will be adjusted accordingly.${prompt}
+    Tu es un artisan enregistré dans la/les guilde(s) suivante(s) :
+    ${choice: 0}[/Menuisiers ]${choice: 1}[/Forgerons ]${choice: 2}[/Orfèvres ]${choice: 3}[/Tisserands ]${choice: 4}[/Tanneurs ]${choice: 5}[/Ossiers ]${choice: 6}[/Alchimistes ]${choice: 7}[/Cuisiniers ]
+    En renonçant à ton statut, tu seras réduit au rang de « compagnon » et tes compétences en synthèse seront ajustées en conséquence.${prompt}'
   7153: |-
-    Proceed?
+    Procéder ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7154: 'Your craftsman status at the ${choice: 0}[Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild has been revoked.${prompt}'
+    Oui.
+    Non.${prompt}'
+  7154: 'Ton statut d’artisan à la guilde des ${choice: 0}[Menuisiers/Forgerons/Orfèvres/Tisserands/Tanneurs/Ossiers/Alchimistes/Cuisiniers] a été révoqué.${prompt}'
   7155: |-
-    Which rank of synthesis do you ask about?
+    Sur quel rang de synthèse veux-tu te renseigner ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     Amateur.
-    Recruit.
-    Initiate.
+    Recrue.
+    Initié.
     Novice.
-    Apprentice.
-    Journeyman.
-    Craftsman.
+    Apprenti.
+    Compagnon.
     Artisan.
-    Adept.
-    Veteran.
+    Artiste.
+    Adepte.
+    Vétéran.
     Expert.
-    Authority.
-    Luminary.
-    Master.
-    Grandmaster.${prompt}
+    Autorité.
+    Luminaire.
+    Maître.
+    Grand maître.${prompt}'
   7156: |-
-    Which synthesis recipe do you ask about?
+    Sur quelle recette de synthèse veux-tu te renseigner ?
     ${selection-lines}
-    None.
+    Aucune.
     ${lettercase: 1}${item-plural: 0[2]}.
     ${lettercase: 1}${item-plural: 1[2]}.
     ${lettercase: 1}${item-plural: 2[2]}.
@@ -17763,273 +17763,273 @@ entries:
     ${lettercase: 1}${item-plural: 13[2]}.
     ${lettercase: 1}${item-plural: 14[2]}.
     ${lettercase: 1}${item-plural: 15[2]}.
-    View more recipes.${prompt}
+    Voir plus de recettes.${prompt}'
   7157: |-
-    Renounce your rank at which guild?
+    Renoncer à ton rang dans quelle guilde ?
     ${selection-lines}
-    None.
-    Carpenters'.
-    Blacksmiths'.
-    Goldsmiths'.
-    Weavers'.
-    Tanners'.
-    Boneworkers'.
-    Alchemists'.
-    Culinarians'.${prompt}
+    Aucune.
+    Menuisiers.
+    Forgerons.
+    Orfèvres.
+    Tisserands.
+    Tanneurs.
+    Ossiers.
+    Alchimistes.
+    Cuisiniers.${prompt}'
   7158: |-
-    If you proceed, your rank in the ${choice: 1}[Carpenters'/Blacksmiths'/Goldsmiths'/Weavers'/Tanners'/Boneworkers'/Alchemists'/Culinarians'] Guild will return to that of ${choice: 5}[craftsman/artisan/adept], and your skill value will revert to the maximum for that level.
-    This procedure cannot be undone, so please consider your decision carefully.${prompt}
+    Si tu procèdes, ton rang dans la guilde des ${choice: 1}[Menuisiers/Forgerons/Orfèvres/Tisserands/Tanneurs/Ossiers/Alchimistes/Cuisiniers] reviendra à celui de ${choice: 5}[artisan/artiste/adepte], et la valeur de tes compétences sera ramenée au maximum de ce niveau.
+    Cette procédure est irréversible, alors réfléchis bien à ta décision.${prompt}'
   7159: |-
-    Renounce your rank as a ${choice: 1}[Carpenter/Blacksmith/Goldsmith/Weaver/Tanner/Boneworker/Alchemist/Culinarian]?
+    Renoncer à ton rang de ${choice: 1}[Menuisier/Forgeron/Orfèvre/Tisserand/Tanneur/Ossier/Alchimiste/Cuisinier] ?
     ${selection-lines}
-    No, retain.
-    Yes, renounce.${prompt}
-  7160: 'You have successfully renounced your status as a ${choice: 5}[craftsman/artisan/adept] of the ${choice: 1}[Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild.${prompt}'
-  7161: Ah, welcome, young ${choice-player-gender}[man/lady], to the Goldsmiths' Guild. This is a special association for those who work with silver, gold, gems, and all precious materials.${prompt}
-  7162: If you have no interest in joining our selected few, then off with you. There are no guided tours here.${prompt}
+    Non, conserver.
+    Oui, renoncer.${prompt}'
+  7160: 'Tu as renoncé avec succès à ton statut de ${choice: 5}[artisan/artiste/adepte] de la guilde des ${choice: 1}[Menuisiers/Forgerons/Orfèvres/Tisserands/Tanneurs/Ossiers/Alchimistes/Cuisiniers].${prompt}'
+  7161: Ah, bienvenue, jeune ${choice-player-gender}[homme/dame], à la guilde des Orfèvres. C’est une association spéciale pour ceux qui travaillent l’argent, l’or, les gemmes et tous les matériaux précieux.${prompt}'
+  7162: Si tu n’as aucun intérêt à rejoindre notre cercle restreint, alors dégage. Il n’y a pas de visites guidées ici.${prompt}'
   7163: |-
-    Wonderful...
-    You are one of those...what do they call them...adventurers, are you not?
-    I think we shall start you off with crystal synthesis.${prompt}
+    Merveilleux…
+    Tu es l’un de ces… comment les appelle-t-on… aventuriers, n’est-ce pas ?
+    Je pense qu’on va commencer par la synthèse de cristaux.${prompt}'
   7164: |-
-    I'm sure you already know, but crystals are a form of condensed energy.
-    Using crystal synthesis draws the energy from the crystals, and uses that energy to convert matter into different forms.${prompt}
-  7165: It sounds simple, but true works of art can only be made by forming an image of the item when you synthesize. The better the image, the better chances you have of getting a product worth keeping.${prompt}
-  7166: That's why professional goldsmiths such as myself can produce superior goods...but don't take it personally.${prompt}
-  7167: Our guild does not prefer crystal synthesis to traditional methods, but if you ask the others here, I'm sure they will give you some good advice. They are all top-class artisans.${prompt}
-  7168: The long history of goldsmithing tells the never-ending tale of man's pursuit for beauty. That history will continue as long as gold glitters. So, take your time, and start slowly.${prompt}
-  7169: Do you remember your first accessory? Do you remember the person who wore it? No matter how skilled a goldsmith you become, you must never forget how you felt at that moment.${prompt}
-  7170: 'It looks as if you are ready to take the next step in your goldsmithing career. Try your hand at ${article} ${item-article: 0[2]}.${prompt}'
-  7171: Succeed, and I shall grace you with another gem of knowledge.${prompt}
+    Je suis sûr que tu le sais déjà, mais les cristaux sont une forme d’énergie condensée.
+    La synthèse de cristaux extrait l’énergie des cristaux et utilise cette énergie pour transformer la matière en différentes formes.${prompt}'
+  7165: Ça semble simple, mais de véritables œuvres d’art ne peuvent être réalisées qu’en formant une image mentale de l’objet lors de la synthèse. Plus l’image est claire, meilleures sont tes chances d’obtenir un produit de valeur.${prompt}'
+  7166: C’est pourquoi des orfèvres professionnels comme moi peuvent produire des biens supérieurs… mais ne le prends pas personnellement.${prompt}'
+  7167: Notre guilde ne préfère pas la synthèse de cristaux aux méthodes traditionnelles, mais si tu demandes aux autres ici, je suis sûr qu’ils te donneront de bons conseils. Ce sont tous des artisans de premier ordre.${prompt}'
+  7168: La longue histoire de l’orfèvrerie raconte une quête sans fin de la beauté par l’homme. Cette histoire continuera tant que l’or brillera. Alors, prends ton temps et commence doucement.${prompt}'
+  7169: Te souviens-tu de ton premier accessoire ? Te souviens-tu de la personne qui l’a porté ? Peu importe le degré de maîtrise que tu atteindras en tant qu’orfèvre, tu ne dois jamais oublier ce que tu as ressenti à ce moment-là.${prompt}'
+  7170: 'Il semble que tu sois prêt à franchir la prochaine étape dans ta carrière d’orfèvre. Essaie de travailler sur ${article} ${item-article: 0[2]}.${prompt}'
+  7171: Réussis, et je te gratifierai d’un autre joyau de savoir.${prompt}'
   7172: |-
-    Ah, this is a fair example of craftsmanship.
-    ${choice: 7}[Amateur/Recruit/Initiate/Novice/Apprentice] is the title you may wear.
-    And remember...take your time. There is no need to rush things.${prompt}
-  7173: Ah, this is a fine example of craftsmanship.${prompt}
-  7174: Ah, this is an excellent example of craftsmanship.${prompt}
+    Ah, c’est un bel exemple de savoir-faire.
+    Le titre de ${choice: 7}[Amateur/Recrue/Initié/Novice/Apprenti] est celui que tu peux porter.
+    Et souviens-toi… prends ton temps. Il n’y a pas besoin de te presser.${prompt}'
+  7173: Ah, c’est un excellent exemple de savoir-faire.${prompt}'
+  7174: Ah, c’est un exemple exceptionnel de savoir-faire.${prompt}'
   7175: |-
-    This... This is a fabulous example of craftsmanship... No, a fabulous work of art!
-    You have more than earned the title of adept. There is little more I can teach you.${prompt}
-  7176: This is so beautiful! I think I will be asking you to make all of my jewelry from now on!${prompt}
+    Ceci… ceci est un fabuleux exemple de savoir-faire… non, une œuvre d’art fabuleuse !
+    Tu as plus qu’mérité le titre d’adepte. Il ne me reste que peu de choses à t’enseigner.${prompt}'
+  7176: C’est tellement beau ! Je pense que je te demanderai de fabriquer toute ma joaillerie à partir de maintenant !${prompt}'
   7177: |-
-    Hey! Watch it!
-    Do you want me to like, miss a flaw?${prompt}
-  7178: Come on! I just helped you out!${prompt}
+    Hé ! Fais attention !
+    Veux-tu que je rate un défaut ou quoi ?${prompt}'
+  7178: Allez ! Je viens juste de t’aider !${prompt}'
   7179: |-
-    Are you like, trying to rip me off or something?
-    I'm a respected goldsmith, you know.${prompt}
+    Quoi ? Tu essaies de m’arnaquer ou quelque chose comme ça ?
+    Je suis un orfèvre respecté, tu sais.${prompt}'
   7180: |-
-    Okay, I'll help you out.
-    Shut your eyes...${prompt}
+    D’accord, je vais t’aider.
+    Ferme les yeux…${prompt}'
   7181: |-
-    Why don't you, like, make ${article} ${item-article: 0[2]}?
-    You're gonna need these, though...${prompt}
+    Pourquoi ne pas, genre, fabriquer ${article} ${item-article: 0[2]} ?
+    Tu vas en avoir besoin, par contre…${prompt}'
   7182: |-
-    And that's it!
-    If you don't think you've got what it takes, I'd be happy to help you out...for a price, of course.${prompt}
+    Et voilà !
+    Si tu penses ne pas avoir ce qu’il faut, je serais ravi de t’aider… pour un prix, bien sûr.${prompt}'
   7183: |-
-    Nope...
-    Can't stop to chat with you right now.${prompt}
-  7184: Hey, don't you remember someone helping you five seconds ago?${prompt}
+    Non…
+    Je n’ai pas le temps de discuter avec toi maintenant.${prompt}'
+  7184: Hé, tu ne te souviens pas que quelqu’un t’a aidé il y a cinq secondes ?${prompt}'
   7185: |-
-    Not enough, ${choice-player-gender}[mister/lady].
-    Sorry, but I don't work for free.${prompt}
-  7186: Okay. Eyes closed, now.${prompt}
+    Pas assez, ${choice-player-gender}[monsieur/madame].
+    Désolé, mais je ne travaille pas gratuitement.${prompt}'
+  7186: D’accord. Ferme les yeux maintenant.${prompt}'
   7187: |-
-    You? You'd be best off trying your luck with ${article} ${item-article: 0[2]}.
-    Get your notepad ready...${prompt}
+    Toi ? Tu ferais mieux d’essayer ta chance avec ${article} ${item-article: 0[2]}.
+    Prépare ton carnet de notes…${prompt}'
   7188: |-
-    That's all.
-    Collecting materials yourself is a cheap way to practice your goldsmithing...unless you've got gil to burn.${prompt}
-  7189: If you have any business with me, receive permission from the guildmaster before returning.${prompt}
-  7190: I can be of no service to you now.${prompt}
-  7191: I understand that your funds may be limited, but we have certain rules and restrictions we must abide by.${prompt}
-  7192: Concentrate... Concentrate....${prompt}
+    C’est tout.
+    Rassembler toi-même les matériaux est une manière économique de pratiquer l’orfèvrerie… sauf si tu as des gils à brûler.${prompt}'
+  7189: Si tu as une affaire à me proposer, obtiens d’abord la permission du maître de guilde avant de revenir.${prompt}'
+  7190: Je ne peux pas t’être utile pour l’instant.${prompt}'
+  7191: Je comprends que tes fonds puissent être limités, mais nous devons respecter certaines règles et restrictions.${prompt}'
+  7192: Concentre-toi… Concentre-toi…${prompt}'
   7193: |-
-    ...
-    Why not try ${article} ${item-article: 0[2]}?
-    You will require...${prompt}
-  7194: '...and nothing more.${prompt}'
+    …
+    Pourquoi ne pas essayer ${article} ${item-article: 0[2]} ?
+    Tu auras besoin de…${prompt}'
+  7194: '…et rien d’autre.${prompt}'
   7195: |-
-    I see you have matured into a fine goldsmith.
-    Perhaps it is time you entered the leagues of the greats. Try your hand at ${article} ${item-article: 0[2]}.${prompt}
-  7196: If you are able to complete this task, you will be worthy of the title of craftsman.${prompt}
-  7197: However, you must realize that with the title of craftsman comes certain responsibilities. More will be asked of you. ${prompt}
-  7198: I do not mind you becoming a craftsman of another guild, but remember that your status among other goldsmiths may fall...${prompt}
-  7199: I must commend you on your exquisite work and hereby grant you the title of craftsman.${prompt}
-  7200: Feel free to become a craftsman of another guild, but do not forget that it may be difficult to maintain your level of goldsmith skills.${prompt}
+    Je vois que tu es devenu un excellent orfèvre.
+    Peut-être est-il temps d’entrer dans la ligue des grands. Essaie de travailler sur ${article} ${item-article: 0[2]}.${prompt}'
+  7196: Si tu réussis cette tâche, tu seras digne du titre d’artisan.${prompt}'
+  7197: Cependant, tu dois réaliser que le titre d’artisan vient avec certaines responsabilités. On te demandera davantage.${prompt}'
+  7198: Je n’ai rien contre que tu deviennes artisan dans une autre guilde, mais souviens-toi que ton statut parmi les autres orfèvres pourrait chuter…${prompt}'
+  7199: Je dois te féliciter pour ton travail exquis et t’accorder par conséquent le titre d’artisan.${prompt}'
+  7200: N’hésite pas à devenir artisan dans une autre guilde, mais ne oublie pas que cela pourrait être difficile de maintenir ton niveau de compétence en orfèvrerie.${prompt}'
   7201: |-
-    Such ingenuity, such inventiveness! I commend you on your efforts and hereby grant you the title of craftsman.
-    Continue to polish your skills and your bracelets and bijoux will shine even brighter!${prompt}
-  7202: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of goldsmithing that allows you to enchant precious metals with the mysterious energy of black magic and anima.${prompt}'
-  7203: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of goldsmithing that allows you to enchant precious metals with the mysterious energy of white magic and anima.${prompt}'
-  7204: I see you have become a registered craftsman in another guild--and this after I warned you that your goldsmithing skills would go down if you did.${prompt}
-  7205: ${name-player}, you are an elite goldsmith. I know few who can match your talent. And that is why I want you to concentrate on your work for this guild.${prompt}
-  7206: Will you consider revoking your craftsman status in all other guilds? If you like, I can contact the other guildmasters and tell them of your decision.${prompt}
+    Quelle ingéniosité, quelle inventivité ! Je te félicite pour tes efforts et t’accorde par conséquent le titre d’artisan.
+    Continue à peaufiner tes compétences et tes bracelets et bijoux brilleront encore plus !${prompt}'
+  7202: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode d’orfèvrerie qui permet d’enchanter les métaux précieux avec l’énergie mystérieuse de la magie noire et de l’anima.${prompt}'
+  7203: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode d’orfèvrerie qui permet d’enchanter les métaux précieux avec l’énergie mystérieuse de la magie blanche et de l’anima.${prompt}'
+  7204: Je vois que tu es devenu un artisan enregistré dans une autre guilde – et cela après que je t’ai averti que tes compétences en orfèvrerie diminueraient si tu le faisais.${prompt}'
+  7205: ${name-player}, tu es un orfèvre d’élite. Peu de personnes peuvent égaler ton talent. Et c’est pourquoi je veux que tu te concentres sur ton travail pour cette guilde.${prompt}'
+  7206: Voudras-tu envisager de renoncer à ton statut d’artisan dans toutes les autres guildes ? Si tu veux, je peux contacter les autres maîtres de guilde et leur annoncer ta décision.${prompt}'
   7207: |-
-    Revoke all other craftsman statuses?
+    Renoncer à tous les autres statuts d’artisan ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7208: A wise decision, ${name-player}. I look forward to your further development in the field of goldsmithing.${prompt}
+    Oui.
+    Non.${prompt}'
+  7208: Une sage décision, ${name-player}. J’attends avec impatience ton développement ultérieur dans le domaine de l’orfèvrerie.${prompt}'
   7209: |-
-    I see...
-    And I thought that you had your sights set a little higher...${prompt}
-  7210: Hmm, the synthesis items for that rank are still beyond your skill, I'm afraid.${prompt}
-  7211: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of goldsmithing that allows you to shape softened ingots with a mandrel, making it easier to process more chains with one crystal.${prompt}'
-  7212: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of goldsmithing that allows you to shape softened ingots on a workshop anvil, making it easier to process more sheets with one crystal.${prompt}'
-  7213: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of goldsmithing that allows you to craft mechanical parts based on the same techniques used to build timepieces.${prompt}'
+    Je vois…
+    Et je pensais que tu visais un peu plus haut…${prompt}'
+  7210: Hmm, les objets de synthèse pour ce rang sont encore hors de portée de tes compétences, j’en ai peur.${prompt}'
+  7211: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode d’orfèvrerie qui te permet de façonner des lingots ramollis avec un mandrin, facilitant le traitement de plus de chaînes avec un seul cristal.${prompt}'
+  7212: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode d’orfèvrerie qui te permet de façonner des lingots ramollis sur une enclume d’atelier, facilitant le traitement de plus de plaques avec un seul cristal.${prompt}'
+  7213: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode d’orfèvrerie qui te permet de fabriquer des pièces mécaniques basées sur les mêmes techniques utilisées pour construire des horloges.${prompt}'
   7214: |-
-    Let's see now...
-    This shaft's connected to...this gear.
-    This gear's connected to my...belt buckle?
-    Could you, like, not talk to me right now?${prompt}
+    Voyons voir…
+    Ce manche est connecté à… cette roue dentée.
+    Cette roue dentée est connectée à ma… boucle de ceinture ?
+    Pourrais-tu, genre, ne pas me parler pour l’instant ?${prompt}'
   7215: |-
-    We're really busy researching the application of our cutting-edge clockmaking techniques in the field of automaton augmentation.
-    Whoa, I sound really professional, don't I?${prompt}
+    Nous sommes vraiment occupés à rechercher l’application de nos techniques d’horlogerie de pointe dans le domaine de l’amélioration des automates.
+    Wow, j’ai l’air vraiment professionnel, non ?${prompt}'
   7216: |-
-    Well, if it isn't our very own ${choice: 0}[veteran/expert/authority/luminary/master].
-    Quite some time has passed since you achieved your current rank. Are you perhaps ready to strive for greater heights?${prompt}
+    Eh bien, si ce n’est pas notre propre ${choice: 0}[vétéran/expert/autorité/luminaire/maître].
+    Il s’est écoulé un certain temps depuis que tu as atteint ton rang actuel. Es-tu peut-être prêt à viser plus haut ?${prompt}'
   7217: |-
-    Strive for greater heights?
+    Viser plus haut ?
     ${selection-lines}
-    Certainly!
-    Maybe later...${prompt}
+    Certainement !
+    Peut-être plus tard…${prompt}'
   7218: |-
-    Excellent! That's just the answer I was hoping to hear from our rising star.
-    First, you'll want to speak to Ellard and obtain yourself ${keyitem-article: 1[2]}.${prompt}
-  7219: Some guild points will be required for the transaction, but that should prove no obstacle for your considerable talents and devotion.${prompt}
+    Excellent ! C’est exactement la réponse que j’espérais entendre de notre étoile montante.
+    D’abord, tu voudras parler à Ellard et obtenir ${keyitem-article: 1[2]}.${prompt}'
+  7219: Quelques points de guilde seront nécessaires pour la transaction, mais cela ne devrait pas poser de problème avec ton talent et ta dévotion considérables.${prompt}'
   7220: |-
-    A shame that you would allow your potential to go to waste.
-    But I will hold no grudges. Should you ever have a change of heart, simply say the word.${prompt}
-  7221: 'First, you''ll want to speak to Ellard and obtain a copy of ${keyitem-article: 1[2]}.${prompt}'
+    Dommage que tu laisses ton potentiel se perdre.
+    Mais je ne t’en voudrais pas. Si tu changes d’avis un jour, il te suffira de le dire.${prompt}'
+  7221: 'D’abord, tu voudras parler à Ellard et obtenir une copie de ${keyitem-article: 1[2]}.${prompt}'
   7222: |-
-    Ah, you've returned.
-    And that look of confidence on your face tells me you've already grasped the contents of ${keyitem-article: 1[2]}.${prompt}
+    Ah, tu es revenu.
+    Et cette expression confiante sur ton visage me dit que tu as déjà compris le contenu de ${keyitem-article: 1[2]}.${prompt}'
   7223: |-
-    Very well, then. Your task is to craft ${article} ${item-article: 2[2]}.
-    Now I'll only say this once, so I encourage you to take notes. The ingredients you will need are...${prompt}
+    Très bien, alors. Ta tâche est de fabriquer ${article} ${item-article: 2[2]}.
+    Je ne le dirai qu’une fois, alors je t’encourage à prendre des notes. Les ingrédients dont tu auras besoin sont…${prompt}'
   7224: |-
-    Finally, you'll want to remember to sign your masterwork.
-    This is not merely a guild regulation, but also speaks to the pride that a goldsmith takes in ${choice-player-gender}[his/her] work.${prompt}
+    Enfin, tu voudras te souvenir de signer ton chef-d’œuvre.
+    Ce n’est pas seulement une règle de guilde, mais aussi un signe de la fierté qu’un orfèvre prend dans ${choice-player-gender}[son/son] travail.${prompt}'
   7225: |-
-    <Sigh>... I thought I told you to take notes.
-    I am loath to repeat myself, but will make an exception this once.
-    The ingredients for ${article} ${item-article: 2[2]} are...${prompt}
+    <Soupir>… Je t’avais dit de prendre des notes.
+    Je n’aime pas me répéter, mais je ferai une exception cette fois.
+    Les ingrédients pour ${article} ${item-article: 2[2]} sont…${prompt}'
   7226: |-
-    Splendid! Marvelous! Spectacular!
-    I am blinded with the brilliance of your craftsmanship.
-    I hereby bestow upon you the rank of expert. Wear it with pride!${prompt}
+    Splendide ! Merveilleux ! Spectaculaire !
+    Je suis ébloui par la brillance de ton savoir-faire.
+    Je t’accorde par conséquent le rang d’expert. Porte-le avec fierté !${prompt}'
   7227: |-
-    An admirable attempt, yet it lacks a certain...something.
-    Ah, a signature! Do you so lack confidence in your work that you are unwilling to put your name to it?${prompt}
+    Une tentative admirable, mais il manque quelque chose…
+    Ah, une signature ! Manques-tu à ce point de confiance en ton travail pour ne pas y apposer ton nom ?${prompt}'
   7228: |-
-    Needless to say, this won't do at all.
-    Back to the studio with you, and do try to follow instructions this time.${prompt}
+    Inutile de le dire, ça ne va pas du tout.
+    Retourne à l’atelier, et essaie de suivre les instructions cette fois.${prompt}'
   7229: |-
-    I see you have matured into a fine goldsmith.
-    Perhaps it is time you entered the leagues of the greats. Try your hand at ${article} ${item-article: 0[2]}.${prompt}
-  7230: 'If you are able to complete this task, you will be worthy of the title of ${choice: 5}[artisan/adept/veteran].${prompt}'
-  7231: 'However, you must realize that with the title of ${choice: 5}[artisan/adept/veteran] come certain responsibilities. More will be asked of you.${prompt}'
-  7232: 'I do not mind you becoming ${choice: 5}[an artisan/an adept/a veteran] in another guild, but remember that your status among other goldsmiths may fall...${prompt}'
-  7233: 'While I cannot prevent you from striving for ${choice: 3}[artisan/adept/veteran] status in another guild, bear in mind that you may find it difficult to maintain your high level of goldsmithing proficiency if you do.${prompt}'
-  7234: '${name-player}. Is it true that you''ve been recognized as ${choice: 5}[an artisan/an adept/a veteran] at a guild other than our own?${prompt}'
+    Je vois que tu es devenu un excellent orfèvre.
+    Peut-être est-il temps d’entrer dans la ligue des grands. Essaie de travailler sur ${article} ${item-article: 0[2]}.${prompt}'
+  7230: 'Si tu réussis cette tâche, tu seras digne du titre de ${choice: 5}[artisan/adepte/vétéran].${prompt}'
+  7231: 'Cependant, tu dois réaliser que le titre de ${choice: 5}[artisan/adepte/vétéran] vient avec certaines responsabilités. On te demandera davantage.${prompt}'
+  7232: 'Je n’ai rien contre que tu deviennes ${choice: 5}[un artisan/un adepte/un vétéran] dans une autre guilde, mais souviens-toi que ton statut parmi les autres orfèvres pourrait chuter…${prompt}'
+  7233: 'Bien que je ne puisse pas t’empêcher de viser le statut de ${choice: 3}[artisan/adepte/vétéran] dans une autre guilde, garde à l’esprit que tu pourrais avoir du mal à maintenir ton haut niveau de compétence en orfèvrerie si tu le fais.${prompt}'
+  7234: '${name-player}. Est-il vrai que tu as été reconnu comme ${choice: 5}[un artisan/un adepte/un vétéran] dans une guilde autre que la nôtre ?${prompt}'
   7235: |-
-    I must say, I struggle to understand this decision.
-    To put it bluntly, you do both yourself and those who would appreciate your work a disservice by not devoting your efforts to your one true calling.${prompt}
+    Je dois dire que j’ai du mal à comprendre cette décision.
+    Pour parler franchement, tu te rends un mauvais service, ainsi qu’à ceux qui apprécieraient ton travail, en ne te consacrant pas pleinement à ta véritable vocation.${prompt}'
   7236: |-
-    Fortunately, it is not too late to reconsider.
-    What would you say to giving up your ${choice: 5}[artisan/adept/veteran] status elsewhere?${prompt}
-  7237: It is a simple enough process--I can even inform other guildmasters of your decision to save you the trouble.${prompt}
+    Heureusement, il n’est pas trop tard pour reconsidérer.
+    Que dirais-tu d’abandonner ton statut de ${choice: 5}[artisan/adepte/vétéran] ailleurs ?${prompt}'
+  7237: C’est un processus assez simple – je peux même informer les autres maîtres de guilde de ta décision pour t’épargner la peine.${prompt}'
   7238: |-
-    ${name-player}. I see that you are still spreading your talents thin.
-    Do you not remember the conversation we had about focusing on your one true calling?${prompt}
+    ${name-player}. Je vois que tu continues à disperser tes talents.
+    Ne te souviens-tu pas de la conversation que nous avons eue sur le fait de te concentrer sur ta véritable vocation ?${prompt}'
   7239: |-
-    <Sigh>... But I have said enough.
-    Dabble in lesser crafts as you see fit--it is of no concern to me!${prompt}
-  7240: You can't fish here.${prompt}
-  7241: You can't fish without a rod in your hands.${prompt}
-  7242: You can't fish without bait on the hook.${prompt}
-  7243: You can't fish at the moment.${prompt}
-  7244: You didn't catch anything.${prompt}
-  7245: '${entity: 0} caught a monster!${prompt}'
-  7246: Your line breaks.${prompt}
-  7247: Your rod breaks.${prompt}
-  7248: Something caught the hook!${prompt}
-  7249: You lost your catch.${prompt}
+    <Soupir>… Mais j’en ai assez dit.
+    Amuse-toi avec des métiers inférieurs si ça te plaît – ça ne me concerne pas !${prompt}'
+  7240: Tu ne peux pas pêcher ici.${prompt}'
+  7241: Tu ne peux pas pêcher sans une canne à pêche dans les mains.${prompt}'
+  7242: Tu ne peux pas pêcher sans appât sur l’hameçon.${prompt}'
+  7243: Tu ne peux pas pêcher pour le moment.${prompt}'
+  7244: Tu n’as rien attrapé.${prompt}'
+  7245: '${entity: 0} a attrapé un monstre !${prompt}'
+  7246: Ta ligne se casse.${prompt}'
+  7247: Ta canne se casse.${prompt}'
+  7248: Quelque chose a mordu à l’hameçon !${prompt}'
+  7249: Tu as perdu ta prise.${prompt}'
   7250: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
-  7251: You feel there's something here.${prompt}
-  7252: You feel there's something nearby.${prompt}
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
+    ${entity: 0} relâche à contrecœur le ${item-singular: 0[2]}.${prompt}'
+  7251: Tu sens qu’il y a quelque chose ici.${prompt}'
+  7252: Tu sens qu’il y a quelque chose à proximité.${prompt}'
   7253: |-
-    You dig up ${article} ${item-article: 0[2]}, but your inventory is full.
-    You regretfully throw the ${item-singular: 0[2]} away.${prompt}
-  7254: '${entity: 0} caught ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  7255: You dig and you dig, but find nothing.${prompt}
+    Tu déterres ${article} ${item-article: 0[2]}, mais ton inventaire est plein.
+    Tu jettes à contrecœur le ${item-singular: 0[2]}.${prompt}'
+  7254: '${entity: 0} a attrapé ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  7255: Tu creuses et creuses, mais ne trouves rien.${prompt}'
   7256: '${number: 0}/${item-singular: 0[2]}をセット${prompt}'
   7257: |-
-    Your rod breaks.
-    Whatever caught the hook was pretty big.${prompt}
+    Ta canne se casse.
+    Ce qui a mordu à l’hameçon était assez gros.${prompt}'
   7258: |-
-    Your rod breaks.
-    Whatever caught the hook was too heavy to catch with this rod.${prompt}
+    Ta canne se casse.
+    Ce qui a mordu à l’hameçon était trop lourd pour être attrapé avec cette canne.${prompt}'
   7259: |-
-    You lost your catch.
-    Whatever caught the hook was too small to catch with this rod.${prompt}
-  7260: You lost your catch due to your lack of skill.${prompt}
+    Tu as perdu ta prise.
+    Ce qui a mordu à l’hameçon était trop petit pour être attrapé avec cette canne.${prompt}'
+  7260: Tu as perdu ta prise à cause de ton manque de compétence.${prompt}'
   7261: |-
-    Number fished : ${number: 0}
-    Original Dice No. ：${number: 1}＋${number: 2}
-    Result ：${number: 3} (0=caught)
-    ${prompt}
-  7262: You didn't catch anything.${prompt}
-  7263: 'The paper on your ${item-singular: 0[2]} ripped.${prompt}'
-  7264: A tiny goldfish approaches!${prompt}
-  7265: A plump, black goldfish approaches!${prompt}
-  7266: A fat, juicy goldfish approaches!${prompt}
-  7267: There are no goldfish to be found...${prompt}
+    Nombre de poissons attrapés : ${number: 0}
+    Numéro de dé original : ${number: 1}＋${number: 2}
+    Résultat : ${number: 3} (0=attrapé)
+    ${prompt}'
+  7262: Tu n’as rien attrapé.${prompt}'
+  7263: 'Le papier de ton ${item-singular: 0[2]} s’est déchiré.${prompt}' 
+  7264: Un petit poisson rouge s’approche !${prompt}'
+  7265: Un poisson rouge noir et dodu s’approche !${prompt}'
+  7266: Un poisson rouge gros et juteux s’approche !${prompt}'
+  7267: Il n’y a aucun poisson rouge à trouver…${prompt}'
   7268: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases it.${prompt}
-  7269: The goldfish slipped off your scoop...${prompt}
-  7270: 'ch${number: 0} skill up check.${prompt}'
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
+    ${entity: 0} le relâche à contrecœur.${prompt}'
+  7269: Le poisson rouge a glissé de ton épuisette…${prompt}'
+  7270: 'ch${number: 0} vérification d’amélioration de compétence.${prompt}'
   7271: 'a:${number: 0}.${prompt}'
-  7272: 'Time ${number: 0} / Status ${number: 1} / ${number: 2}${prompt}'
+  7272: 'Temps ${number: 0} / Statut ${number: 1} / ${number: 2}${prompt}'
   7273: |-
     d:${number: 0}.
     e:${number: 1}.
     f:${number: 2}.
-    g:${number: 3}.${prompt}
+    g:${number: 3}.${prompt}'
   7274: |-
     h: ${number: 1}.
     i: ${number: 0}.
-    sr: ${number: 2}.${prompt}
+    sr: ${number: 2}.${prompt}'
   7275: |-
     j:${number: 0}.
-    k:${number: 1}.${prompt}
-  7276: You give up and reel in your line.${prompt}
-  7277: You give up.${prompt}
-  7278: '${entity: 0} obtains ${number: 1} gil.${prompt}'
-  7279: '${entity: 0} caught ${article} ${item-article: 0[2]}!${prompt}'
-  7280: You don't know how much longer you can keep this one on the line...${prompt}
-  7281: You have a good feeling about this one!${prompt}
-  7282: You have a bad feeling about this one.${prompt}
-  7283: You have a terrible feeling about this one...${prompt}
-  7284: You don't know if you have enough skill to reel this one in.${prompt}
-  7285: You're fairly sure you don't have enough skill to reel this one in.${prompt}
-  7286: You're positive you don't have enough skill to reel this one in!${prompt}
+    k:${number: 1}.${prompt}'
+  7276: Tu abandonnes et ramènes ta ligne.${prompt}'
+  7277: Tu abandonnes.${prompt}'
+  7278: '${entity: 0} obtient ${number: 1} gils.${prompt}'
+  7279: '${entity: 0} a attrapé ${article} ${item-article: 0[2]} !${prompt}'
+  7280: Tu ne sais pas combien de temps tu pourras encore garder celui-ci en ligne…${prompt}'
+  7281: Tu as un bon pressentiment à propos de celui-ci !${prompt}'
+  7282: Tu as un mauvais pressentiment à propos de celui-ci.${prompt}'
+  7283: Tu as un très mauvais pressentiment à propos de celui-ci…${prompt}'
+  7284: Tu ne sais pas si tu as assez de compétence pour ramener celui-ci.${prompt}'
+  7285: Tu es presque sûr de ne pas avoir assez de compétence pour ramener celui-ci.${prompt}'
+  7286: Tu es certain de ne pas avoir assez de compétence pour ramener celui-ci !${prompt}'
   7287: |-
-    Select Fish Type:
+    Sélectionner le type de poisson :
     ${selection-lines}
-    Saltwater.
-    Freshwater.
-    Item.
-    Flag.
-    Treasure Chest.
-    Monster.${prompt}
+    Eau salée.
+    Eau douce.
+    Objet.
+    Drapeau.
+    Coffre au trésor.
+    Monstre.${prompt}'
   7288: |-
-    Select one
+    Sélectionner un élément
     ${selection-lines}
     ${item-singular: 0[2]}（${number: 0}）.
     ${lettercase: 1}${item-singular: 1[2]}（${number: 1}）.
@@ -18039,36 +18039,36 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}（${number: 5}）.
     ${lettercase: 1}${item-singular: 6[2]}（${number: 6}）.
     ${lettercase: 1}${item-singular: 7[2]}（${number: 7}）.
-    Next.${prompt}
+    Suivant.${prompt}'
   7289: |-
     l: ${number: 0}.
     m: ${number: 1}.
     n: ${number: 2}.
-    CH: ${number: 3}.${prompt}
-  7290: Something caught the hook!!!${prompt}
-  7291: You feel something pulling at your line.${prompt}
-  7292: Something clamps onto your line ferociously!${prompt}
-  7293: 'Your keen angler''s senses tell you that this is the pull of ${article} ${item-article: 0[2]}!${prompt}'
-  7294: This strength... You get the sense that you are on the verge of an epic catch!${prompt}
-  7295: 'The timer has started. ${number: 0} seconds remaining.${prompt}'
+    CH: ${number: 3}.${prompt}'
+  7290: Quelque chose a mordu à l’hameçon !!!${prompt}'
+  7291: Tu sens quelque chose tirer sur ta ligne.${prompt}'
+  7292: Quelque chose s’accroche à ta ligne avec férocité !${prompt}'
+  7293: 'Ton instinct de pêcheur aguerri te dit que c’est la traction de ${article} ${item-article: 0[2]} !${prompt}'
+  7294: Cette force… Tu as l’impression d’être sur le point de faire une prise épique !${prompt}'
+  7295: 'Le minuteur a démarré. ${number: 0} secondes restantes.${prompt}'
   7296: '${number: 0}sec.${number: 1}/${number: 2}sec.${prompt}'
   7297: '0:${number: 0} 1:${number: 1} 2:${number: 2} 3:${number: 3}${prompt}'
   7298: '4:${number: 0} 5:${number: 1} 6:${number: 2} 7:${number: 3}${prompt}'
   7299: |-
-    Select.
+    Sélectionner.
     ${selection-lines}
-    Set.
-    ${keyitem-singular: 8[2]}: ${choice: 0}[ON/OFF].
-    ${keyitem-singular: 9[2]}: ${choice: 1}[ON/OFF].
-    ${keyitem-singular: 10[2]}: ${choice: 2}[ON/OFF].
-    ${keyitem-singular: 11[2]}: ${choice: 3}[ON/OFF].${prompt}
+    Définir.
+    ${keyitem-singular: 8[2]}: ${choice: 0}[ACTIVÉ/DÉSACTIVÉ].
+    ${keyitem-singular: 9[2]}: ${choice: 1}[ACTIVÉ/DÉSACTIVÉ].
+    ${keyitem-singular: 10[2]}: ${choice: 2}[ACTIVÉ/DÉSACTIVÉ].
+    ${keyitem-singular: 11[2]}: ${choice: 3}[ACTIVÉ/DÉSACTIVÉ].${prompt}'
   7300: |-
-    You lost your catch.
-    Whatever caught the hook was too large to catch with this rod.${prompt}
+    Tu as perdu ta prise.
+    Ce qui a mordu à l’hameçon était trop gros pour être attrapé avec cette canne.${prompt}'
   7301: '${number: 0}/${number: 1}(${number: 2}）${prompt}'
-  7302: Version invalid error!${prompt}
-  7303: Hurry before the goldfish sees you!${prompt}
-  7304: '${entity: 0} fishes up a large box!${prompt}'
+  7302: Erreur de version invalide !${prompt}'
+  7303: Dépêche-toi avant que le poisson rouge ne te voie !${prompt}'
+  7304: '${entity: 0} pêche une grande boîte !${prompt}'
   7305: '送出調査${number: 0}${prompt}'
   7306: 'Fish No：${number: 0} / Bait No：${number: 1} / Hit：${number: 2} >>> ${number: 3}${prompt}'
   7307: 'Point：${number: 0} >>> ${number: 1}${prompt}'
