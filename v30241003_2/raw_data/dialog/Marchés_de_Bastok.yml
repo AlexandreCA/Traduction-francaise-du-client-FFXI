@@ -19285,10 +19285,10 @@ entries:
   7852: Nous comptons sur vous pour approvisionner les gardes-frontières des avant-postes dans les régions que nous contrôlons.${prompt}
   7853: 'Chaque région a son avant-poste. Allez dans « Info sur la région » au menu et repérez les zones marquées d’un petit drapeau sur la carte : c’est là qu’ils sont.${prompt}'
   7854: |-
-    Voici les provisions. Remettez-les au garde de l’avant-poste, et votre mission sera accomplie.
-    Choisissez maintenant l’avant-poste où aller. Les récompenses varient selon les régions, alors réfléchissez bien.${prompt}
+    Voici les provisions. Remettez-les au garde de l’avant-poste, et votre mission sera terminée.
+    Choisissez maintenant l’avant-poste où vous rendre. Les récompenses diffèrent selon les régions, alors prenez une décision éclairée.${prompt}
   7855: |-
-    Où souhaitez-vous apporter les approvisionnements ?
+    Où souhaitez-vous livrer ces provisions ?
     ${selection-lines}
     　
     　
@@ -19323,7 +19323,7 @@ entries:
     　
     Annuler.${prompt}
   7856: |-
-    À quelle F.E. souhaitez-vous vous joindre ?
+    À quelle force expéditionnaire souhaitez-vous vous joindre ?
     ${selection-lines}
     .
     .
@@ -19331,21 +19331,21 @@ entries:
     .
     .
     .
-    La Région de Zulkheim (Lv.20～).
-    La Région de Norvallen (Lv.25～).
+    La Région de Zulkheim (Nv. 20～).
+    La Région de Norvallen (Nv. 25～).
     .
-    La Région de Derfland (Lv.25～).
+    La Région de Derfland (Nv. 25～).
     .
-    La Région de Kolshushu (Lv.20～).
-    La Région d'Aragoneu (Lv.25～).
-    La Région de Fauregandi (Lv.35～).
-    La Région de Valdeaunia (Lv.40～).
-    La Région de Qufim (Lv.25～).
-    La Région de Li'Telor (Lv.35～).
-    La Région de Kuzotz (Lv.40～).
-    La Région de Vollbow (Lv.65～).
-    Les Terres Basses d'Elshimo (Lv.35～).
-    Les Hautes Terres d'Elshimo (Lv.45～).
+    La Région de Kolshushu (Nv. 20～).
+    La Région d'Aragoneu (Nv. 25～).
+    La Région de Fauregandi (Nv. 35～).
+    La Région de Valdeaunia (Nv. 40～).
+    La Région de Qufim (Nv. 25～).
+    La Région de Li'Telor (Nv. 35～).
+    La Région de Kuzotz (Nv. 40～).
+    La Région de Vollbow (Nv. 65～).
+    Les Terres Basses d'Elshimo (Nv. 35～).
+    Les Hautes Terres d'Elshimo (Nv. 45～).
     .
     .
     .
@@ -19358,72 +19358,72 @@ entries:
     .
     Aucune.${prompt}
   7857: |-
-    Ainsi soit-il.
-    Vous avez jusqu'à l'annonce des résultats de la prochaine conquête pour accomplir cette mission.
-    Bonne chance.${prompt}
-  7858: Nous allons nous débarrasser de ces approvisionnements inutilisables.${prompt}
+    Qu’il en soit ainsi.
+    Vous avez jusqu’à l’annonce des prochains résultats des conquêtes pour accomplir cette mission.
+    Bonne chance !${prompt}
+  7858: Nous allons nous débarrasser de ces provisions inutilisables.${prompt}
   7859: |-
-    Vous ne pouvez entreprendre qu'une mission d'approvisionnement par jour.
+    Vous ne pouvez accepter qu’une seule mission d’approvisionnement par jour.
     Revenez plus tard.${prompt}
-  7860: Je suis désolé. Il semble que nous ayons un problème. Laissez-moi l'annuler.${prompt}
+  7860: Désolé, il semble y avoir un souci. Je vais annuler cela.${prompt}
   7861: |-
-    Vous n'avez plus besoin de faire don de cristaux à votre rang actuel.
-    Parlez à la garde à la maison du portier pour de nouvelles instructions.${prompt}
+    Vous n’avez plus besoin de donner des cristaux pour votre rang actuel.
+    Parlez au garde de la maison du portier pour recevoir de nouvelles directives.${prompt}
   7862: |-
-    Vos points de rang sont pleins. Nous avons ajouté l'excédent à vos points de conquête.
-    Vous n'avez plus besoin de faire don de cristaux. Allez à la maison du portier pour de nouvelles instructions.${prompt}
+    Vos points de rang sont au maximum. Nous avons converti l’excédent en points de conquête.
+    Les dons de cristaux ne sont plus nécessaires. Rendez-vous à la maison du portier pour de nouvelles instructions.${prompt}
   7863: |-
-    Bon travail, citoyen.
-    Nous vous avons attribué des points de rang pour les cristaux que vous avez donnés.${prompt}
+    Beau travail, citoyen !
+    Nous vous avons attribué des points de rang pour les cristaux que vous avez offerts.${prompt}
   7864: |-
-    Vous avez actuellement ${number: 0} points de conquête.
-    Souhaitez-vous les utiliser pour acheter des objets ?${prompt}
+    Vous possédez actuellement ${number: 0} points de conquête.
+    Souhaitez-vous les dépenser pour acheter des objets ?${prompt}
   7865: |-
-    Quel objet souhaitez-vous acheter ?
+    Quel objet désirez-vous acheter ?
     ${selection-lines}
     Objets communs (tous rangs).
-    Objets à 1000 points (rang 1 requis).
-    Objets à 2000 points (rang 2 requis).
-    Objets à 4000 points (rang 3 requis).
-    Objets à 8000 points (rang 4 requis).
-    Objets à 16000 points (rang 5 requis).
-    Objets à 24000 points (rang 6 requis).
-    Objets à 32000 points (rang 7 requis).
-    Objets à 40000 points (rang 8 requis).
-    Objets à 48000 points (rang 9 requis).
-    Objets à 56000 points (rang 10 requis).
+    Objets à 1 000 points (rang 1 requis).
+    Objets à 2 000 points (rang 2 requis).
+    Objets à 4 000 points (rang 3 requis).
+    Objets à 8 000 points (rang 4 requis).
+    Objets à 16 000 points (rang 5 requis).
+    Objets à 24 000 points (rang 6 requis).
+    Objets à 32 000 points (rang 7 requis).
+    Objets à 40 000 points (rang 8 requis).
+    Objets à 48 000 points (rang 9 requis).
+    Objets à 56 000 points (rang 10 requis).
     Annuler.${prompt}
   7866: |-
-    Quel objet souhaitez-vous acheter ?
+    Quel objet voulez-vous acquérir ?
     ${selection-lines}
     Objets communs (tous rangs).
-    Objets à 2000 points (rang 1 requis).
-    Objets à 4000 points (rang 2 requis).
-    Objets à 8000 points (rang 3 requis).
-    Objets à 16000 points (rang 4 requis).
-    Objets à 24000 points (rang 5 requis).
-    Objets à 32000 points (rang 6 requis).
-    Objets à 40000 points (rang 7 requis).
-    Objets à 48000 points (rang 8 requis).
-    Objets à 56000 points (rang 9 requis).
+    Objets à 2 000 points (rang 1 requis).
+    Objets à 4 000 points (rang 2 requis).
+    Objets à 8 000 points (rang 3 requis).
+    Objets à 16 000 points (rang 4 requis).
+    Objets à 24 000 points (rang 5 requis).
+    Objets à 32 000 points (rang 6 requis).
+    Objets à 40 000 points (rang 7 requis).
+    Objets à 48 000 points (rang 8 requis).
+    Objets à 56 000 points (rang 9 requis).
     .
     Annuler.${prompt}
-  7867: Il n'y a actuellement aucun objet disponible pour ce rang.${prompt}
+  7867: Aucun objet n’est disponible pour ce rang pour le moment.${prompt}
   7868: |-
-    En raison de sa nature spéciale, vous ne pouvez acheter ou recharger ${article} ${item-article: 2[2]} qu'une seule fois jusqu'au décompte des résultats de la conquête.
-    De plus, vous ne pouvez pas acheter cet objet si vous en possédez déjà un similaire.${prompt}
-  7869: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en le troquant contre un des gardes de votre nation, y compris les gardes des avant-postes. Une charge nécessite 50 points de conquête.${prompt}'
-  7870: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en le troquant contre un des gardes de votre nation, y compris les gardes des avant-postes. Une charge nécessite 100 points de conquête.${prompt}'
-  7871: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en le troquant contre un des gardes de votre nation, y compris les gardes des avant-postes. Une charge nécessite 200 points de conquête.${prompt}'
-  7872: Pendant la Grande Guerre, il était possible de faire recharger cet objet en échange de Notes Alliées. De ce que je comprends, cette pratique est récemment devenue courante au Proche-Orient. Bien que vous aurez besoin de crédits de Position Impériale si vous souhaitez utiliser ce service là-bas.${prompt}
-  7873: 'Vous ne possédez pas les ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête] nécessaires pour recharger complètement le ${item-singular: 0[2]}.${prompt}'
-  7874: 'Veuillez noter que vous ne pouvez acheter ou recharger ${article} ${item-article: 0[2]} qu''une fois entre chaque décompte de résultats de conquête.${prompt}'
-  7875: 'Le ${item-singular: 0[2]} est déjà complètement chargé.${prompt}'
-  7876: 'Votre ${item-singular: 0[2]} a reçu ${number: 2} ${choice-plurality: 2}[charge/charges] en échange de ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête]. Il est maintenant complètement rechargé.${prompt}'
-  7877: 'Je vais vous échanger ${article} ${item-article: 0[2]} contre votre ${item-singular: 1[2]}. Qu''il vous soit utile.${prompt}'
-  7878: 'Vous ne répondez pas aux exigences pour acheter le ${item-singular: 2[2]}.${prompt}'
-  7879: 'Votre rang est trop bas pour acheter le ${item-singular: 2[2]}.${prompt}'
-  7880: 'Vous n''avez pas assez de points de conquête pour acheter le ${item-singular: 2[2]}.${prompt}'
+    En raison de sa nature particulière, vous ne pouvez acheter ou recharger ${article} ${item-article: 2[2]} qu’une seule fois jusqu’au prochain décompte des résultats des conquêtes.
+    De plus, cet objet ne peut être acheté si vous possédez déjà un équivalent.${prompt}
+  7869: 'Vous pouvez recharger complètement ${article} ${item-article: 2[2]} en l’échangeant avec un garde de votre nation, y compris ceux des avant-postes. Une recharge coûte 50 points de conquête.${prompt}'
+  7870: 'Vous pouvez recharger entièrement ${article} ${item-article: 2[2]} en l’échangeant avec un garde de votre nation, y compris ceux des avant-postes. Une recharge demande 100 points de conquête.${prompt}'
+  7871: 'Vous pouvez recharger totalement ${article} ${item-article: 2[2]} en l’échangeant avec un garde de votre nation, y compris ceux des avant-postes. Une recharge nécessite 200 points de conquête.${prompt}'
+  7872: Durant la Grande Guerre, on pouvait faire recharger cet objet contre des Notes Alliées. D’après ce que je sais, cette pratique s’est récemment répandue au Proche-Orient. Mais là-bas, il vous faudra des crédits de Position Impériale pour en profiter.${prompt}
+  7873: 'Vous ne disposez pas des ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête] nécessaires pour recharger complètement le ${item-singular: 0[2]}.${prompt}'
+  7874: 'Sachez que vous ne pouvez acheter ou recharger ${article} ${item-article: 0[2]} qu’une seule fois entre chaque décompte des résultats des conquêtes.${prompt}'
+  7875: 'Le ${item-singular: 0[2]} est déjà pleinement chargé.${prompt}'
+  7876: 'Votre ${item-singular: 0[2]} a reçu ${number: 2} ${choice-plurality: 2}[charge/charges] en échange de ${number: 1} ${choice-plurality: 1}[point de conquête/points de conquête]. Il est désormais totalement rechargé.${prompt}'
+  7877: 'Je vais vous échanger ${article} ${item-article: 0[2]} contre votre ${item-singular: 1[2]}. Puisse-t-il vous être utile !${prompt}'
+  7878: 'Vous ne remplissez pas les conditions pour acheter le ${item-singular: 2[2]}.${prompt}'
+  7879: 'Votre rang est trop bas pour acquérir le ${item-singular: 2[2]}.${prompt}'
+  7880: 'Vous manquez de points de conquête pour obtenir le ${item-singular: 2[2]}.${prompt}'
   7881: |-
     Vous ne pouvez pas équiper le ${item-singular: 2[2]}.
     Souhaitez-vous tout de même continuer ?${prompt}
