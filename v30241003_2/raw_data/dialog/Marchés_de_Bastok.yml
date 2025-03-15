@@ -19178,28 +19178,28 @@ entries:
   7802: |-
     Oh, thank you, master!
     My moogle friends live across the seas, so I have another favor to ask you, kupo!${prompt}
-  7803: 'Le soleil tape sans merci dans la terre au-delà de la mer ouest, alors je dois prendre ${article} ${item-article: 5[2]} pour mes amis là-bas, kupo!${prompt}'
-  7804: 'Et mes autres amis ont besoin de ${article} ${item-article: 6[2]} pour les pluies torrentielles qui ravagent les terres de l’autre côté de la mer est, kupo!${prompt}'
-  7805: 'Je ne peux pas aider mes amis si je n’ai pas ${article} ${item-article: 5[2]} et ${article} ${item-article: 6[2]}, kupo...${prompt}'
-  7806: Je ne manquerai pas de vous apporter un souvenir de mon voyage à l’étranger, kupo ! À bientôt, maître !${prompt}
+  7803: 'Le soleil cogne sans pitié sur les terres au-delà de la mer ouest, alors je dois apporter ${article} ${item-article: 5[2]} à mes amis là-bas, kupo !${prompt}'
+  7804: 'Et mes autres amis ont besoin de ${article} ${item-article: 6[2]} pour les pluies torrentielles qui ravagent les terres de l’autre côté de la mer est, kupo !${prompt}'
+  7805: 'Je ne peux pas aider mes amis si je n’ai pas ${article} ${item-article: 5[2]} et ${article} ${item-article: 6[2]}, kupo…${prompt}'
+  7806: Je ne manquerai pas de vous rapporter un souvenir de mon voyage à l’étranger, kupo ! À bientôt, maître !${prompt}
   7807: |-
     Maître !
     Je suis de retour de ma visite à mes vieux amis mogs, kupo !${prompt}
-  7808: Nous nous sommes tous réunis et avons fabriqué pour vous un nouveau Mog Safe, kupo ! Maintenant, vous pouvez stocker jusqu'à 80 objets, kupo !${prompt}
+  7808: Nous nous sommes tous réunis et avons fabriqué pour vous un nouveau Coffre Mog, kupo ! Maintenant, vous pouvez stocker jusqu’à 80 objets, kupo !${prompt}
   7809: 'Bonne chance, ${choice: 0}[citoyen/compatriote]. Je vais vous accorder le Signe de votre nation.${wait-animation: 0}${prompt}'
   7810: Je ne peux pas vous aider. Vous devriez aller trouver un garde de votre propre pays.${prompt}
   7811: |-
-    Je ne peux pas accepter de cristaux de quelqu'un dont le rang est encore 1.
-    Je vous conseille soit de les garder jusqu'à atteindre le rang 2, soit de les utiliser dans le travail artisanal.${prompt}
-  7812: 'Puisque nous sommes alliés avec San d''Oria...${wait-animation: 0}${prompt}'
-  7813: 'Puisque nous sommes alliés avec Bastok...${wait-animation: 0}${prompt}'
-  7814: 'Puisque nous sommes alliés avec Windurst...${wait-animation: 0}${prompt}'
+    Je ne peux pas accepter de cristaux de quelqu’un dont le rang est encore 1.
+    Je vous conseille soit de les garder jusqu’à atteindre le rang 2, soit de les utiliser dans le travail artisanal.${prompt}
+  7812: 'Puisque nous sommes alliés avec San d’Oria…${wait-animation: 0}${prompt}'
+  7813: 'Puisque nous sommes alliés avec Bastok…${wait-animation: 0}${prompt}'
+  7814: 'Puisque nous sommes alliés avec Windurst…${wait-animation: 0}${prompt}'
   7815: |-
     Je suis désolé.
-    Je suis trop occupé par d'autres affaires pour parler avec vous.${wait-animation: 0}${prompt}
+    Je suis trop occupé par d’autres affaires pour parler avec vous.${wait-animation: 0}${prompt}
   7816: Ah, vous nous avez apporté des fournitures. Cela nous aidera en effet. Je vous remercie.${prompt}
   7817: |-
-    Hmm... Ces fournitures que vous nous avez apportées sont trop anciennes pour être utiles. Nous nous en débarrasserons rapidement.
+    Hmm… Ces fournitures que vous nous avez apportées sont trop anciennes pour être utiles. Nous nous en débarrasserons rapidement.
     Je vous félicite pour vos efforts. Puissiez-vous réussir la prochaine fois.${prompt}
   7818: Vous avez gagné des points de conquête !${prompt}
   7819: |-
@@ -19207,22 +19207,22 @@ entries:
     Vous participez maintenant à la campagne de conquête de votre nation !${prompt}
   7820: |-
     Je suis ${name-npc}, un Chevalier du Temple.
-    Je suis l'un des gardes chargés de superviser la campagne de conquête de San d'Oria.${prompt}
+    Je suis l’un des gardes chargés de superviser la campagne de conquête de San d’Oria.${prompt}
   7821: |-
     Je suis ${name-npc}, un Mousquetaire de Fer.
-    Je suis l'un des gardes chargés de superviser la campagne de conquête de Bastok.${prompt}
+    Je suis l’un des gardes chargés de superviser la campagne de conquête de Bastok.${prompt}
   7822: |-
     Je suis ${name-npc}, un Sorcier de Guerre.
-    Je suis l'un des gardes chargés de superviser la campagne de conquête de Windurst.${prompt}
+    Je suis l’un des gardes chargés de superviser la campagne de conquête de Windurst.${prompt}
   7823: |-
     Quelle est votre affaire ?
     ${selection-lines}
     Pourriez-vous me lancer le Signe ?
     Je veux dépenser mes points de conquête.
-    ${choice: 0}[Je veux rejoindre l'Expédition./Téléportez-moi dans la zone de l'E.F.].
-    Je veux quitter l'E.F./changer mon E.F.
+    ${choice: 0}[Je veux rejoindre l’Expédition./Téléportez-moi dans la zone de l’E.F.]
+    Je veux quitter l’E.F./changer mon E.F.
     Je veux faire une quête de fournitures.
-    J'ai quelques questions...
+    J’ai quelques questions…
     Rien, désolé de vous déranger.${prompt}
   7824: |-
     Que souhaitez-vous savoir ?
@@ -19233,9 +19233,9 @@ entries:
     Faire des dons de cristaux.
     Points de conquête.
     Les effets du contrôle des régions.
-    Régions contrôlées par d'autres nations.
+    Régions contrôlées par d’autres nations.
     Régions sous contrôle des bêtes.${prompt}
-  7825: Toutes les trois nations s'efforcent chaque jour de mettre davantage de régions sous leur contrôle. C'est ce que nous appelons « conquêtes ». Vous pouvez y participer et servir votre pays en vainquant des ennemis pendant que le Signe est lancé sur vous.${prompt}
+  7825: Toutes les trois nations s’efforcent chaque jour de mettre davantage de régions sous leur contrôle. C’est ce que nous appelons « conquêtes ». Vous pouvez y participer et servir votre pays en vainquant des ennemis pendant que le Signe est lancé sur vous.${prompt}
   7826: Chaque région comprend plusieurs zones, et la nation qui débarrasse ces zones du plus grand nombre de monstres obtient le contrôle de la région.${prompt}
   7827: Les nations reçoivent des biens et des ressources des régions sous leur contrôle.${prompt}
   7828: Donc, plus nous contrôlons de régions, plus notre nation devient riche.${prompt}
@@ -19245,48 +19245,48 @@ entries:
   7830: Une fois que vous avez le Signe de votre nation, vous pourrez acquérir des cristaux auprès des ennemis que vous vainquez.${prompt}
   7831: Non seulement cela, mais vous recevrez également des points de conquête. Vous obtenez plus de points de conquête si vous vainquez des ennemis dans des régions qui ne sont pas sous le contrôle de votre nation. Ces points peuvent être utilisés pour acheter des objets auprès des gardes comme moi.${prompt}
   7832: |-
-    Vous voyez donc... les conquêtes profitent aux nations et aux aventuriers.
+    Vous voyez donc… les conquêtes profitent aux nations et aux aventuriers.
     Nous attendons de vous que vous fassiez de votre mieux pour servir votre pays.${prompt}
   7833: |-
-    Vous pouvez voir l'état actuel des conquêtes en sélectionnant « Info sur la région » dans le menu principal.
+    Vous pouvez voir l’état actuel des conquêtes en sélectionnant « Info sur la région » dans le menu principal.
     Les résultats des conquêtes dans toutes les régions sont régulièrement recalculés, donc vous voudrez peut-être les vérifier de temps en temps.${prompt}
   7834: |-
     Les magasins de notre ville vendront différents objets en fonction de notre rang de conquête.
     La Troupe Valeriano visitera également la nation qui termine première et apportera un peu de joie à ses citoyens.${prompt}
   7835: |-
     Vous pouvez faire don de cristaux à votre nation une fois que vous atteignez le rang 2.
-    Il vous suffit de les échanger avec des gardes comme moi, et nous veillerons à ce qu'ils soient envoyés au bon endroit.${prompt}
+    Il vous suffit de les échanger avec des gardes comme moi, et nous veillerons à ce qu’ils soient envoyés au bon endroit.${prompt}
   7836: |-
     Nous aimerions que vous fassiez don de cristaux à votre nation à partir de maintenant.
-    Il vous suffit de les échanger avec des gardes comme moi, et nous veillerons à ce qu'ils soient envoyés au bon endroit.${prompt}
+    Il vous suffit de les échanger avec des gardes comme moi, et nous veillerons à ce qu’ils soient envoyés au bon endroit.${prompt}
   7837: |-
     Vous pouvez acquérir des cristaux en vainquant des ennemis pendant que vous avez le Signe de votre nation.
     Avoir le Signe lancé sur vous est également le seul moyen de participer aux conquêtes.${prompt}
   7838: Des points de rang vous seront attribués pour chaque cristal que vous donnez, et vous pourrez vous voir proposer de nouvelles missions au fur et à mesure que votre rang augmente.${prompt}
   7839: |-
-    Vous recevez également des points de rang pour l'accomplissement de missions.
+    Vous recevez également des points de rang pour l’accomplissement de missions.
     Complétez des missions et participez à des conquêtes pour augmenter votre rang et servir votre pays.${prompt}
   7840: |-
     Vous êtes récompensé par des points de conquête lorsque vous détruisez des monstres pendant que vous participez aux conquêtes.
     Sélectionnez « Info sur la région » dans le menu pour vérifier votre nombre actuel de points de conquête.${prompt}
   7841: Vous pouvez acheter des objets auprès de gardes comme moi avec vos points de conquête, mais soyez averti que le nombre de points que vous dépensez sera soustrait de votre total actuel.${prompt}
   7842: Lorsque les résultats des conquêtes sont annoncés, on vous informera quel pays contrôle la région dans laquelle vous vous trouvez à ce moment-là. Parfois, des régions peuvent devenir neutres, ou les bêtes peuvent même prendre le contrôle de régions.${prompt}
-  7843: Si nous prenons le contrôle d'une région, des gardes-frontières seront placés dans ses avant-postes pour aider les aventuriers comme vous.${prompt}
-  7844: Des marchands seront également placés là, et des marchandises de cette région trouveront leur chemin jusqu'aux magasins locaux ici.${prompt}
-  7845: Prendre le contrôle des régions est le principe de base des conquêtes. Nous avons besoin de chacun d'entre vous pour donner le meilleur de vous-même et amener notre nation au sommet des classements.${prompt}
-  7846: Bien sûr, parfois nous perdons des régions au profit d'autres nations... donc nous devons essayer de les reprendre avant que les résultats des conquêtes suivants ne soient annoncés.${prompt}
-  7847: En guise d'incitation, nous vous attribuerons plus de points de conquête pour avoir vaincu des monstres dans ces régions.${prompt}
-  7848: Mais si nous sommes alliés à une autre nation, vous ne recevrez que le taux régulier pour avoir vaincu des monstres dans les régions de nos alliés. D'un autre côté, nous vous attribuerons plus de points pour combattre dans les régions de la nation la mieux classée.${prompt}
+  7843: Si nous prenons le contrôle d’une région, des gardes-frontières seront placés dans ses avant-postes pour aider les aventuriers comme vous.${prompt}
+  7844: Des marchands seront également placés là, et des marchandises de cette région trouveront leur chemin jusqu’aux magasins locaux ici.${prompt}
+  7845: Prendre le contrôle des régions est le principe de base des conquêtes. Nous avons besoin de chacun d’entre vous pour donner le meilleur de vous-même et amener notre nation au sommet des classements.${prompt}
+  7846: Bien sûr, parfois nous perdons des régions au profit d’autres nations… donc nous devons essayer de les reprendre avant que les résultats des conquêtes suivants ne soient annoncés.${prompt}
+  7847: En guise d’incitation, nous vous attribuerons plus de points de conquête pour avoir vaincu des monstres dans ces régions.${prompt}
+  7848: Mais si nous sommes alliés à une autre nation, vous ne recevrez que le taux régulier pour avoir vaincu des monstres dans les régions de nos alliés. D’un autre côté, nous vous attribuerons plus de points pour combattre dans les régions de la nation la mieux classée.${prompt}
   7849: |-
     Notre préoccupation majeure réside dans le fait que les bêtes prennent le contrôle de nos régions.
-    Si trop d'entre nous sont vaincus dans une région, les bêtes prendront le contrôle de celle-ci.${prompt}
-  7850: Si cela se produit, non seulement c'est un grand coup porté à notre fierté, mais vous ne pourrez pas acquérir de cristaux dans cette région.${prompt}
+    Si trop d’entre nous sont vaincus dans une région, les bêtes prendront le contrôle de celle-ci.${prompt}
+  7850: Si cela se produit, non seulement c’est un grand coup porté à notre fierté, mais vous ne pourrez pas acquérir de cristaux dans cette région.${prompt}
   7851: Les bêtes sont une menace pour toutes les nations. Si elles accèdent au pouvoir, nous devons tous nous unir et chasser ces créatures viles de cette région.${prompt}
-  7852: Nous avons besoin de vous pour apporter des fournitures aux gardes-frontières des avant-postes qui sont placés dans les régions sous notre contrôle.${prompt}
-  7853: Il y a un avant-poste dans chaque région. Sélectionnez « Info sur la région » dans le menu et recherchez les zones avec un petit drapeau sur la carte. C'est là qu'ils se trouvent.${prompt}
+  7852: Nous avons besoin de vous pour apporter des fournitures aux gardes-frontières des avant-postes qui sont placés dans les régions sous notre contrôle.${prompt} 
+  7853: Il y a un avant-poste dans chaque région. Sélectionnez « Info sur la région » dans le menu et recherchez les zones avec un petit drapeau sur la carte. C’est là qu’ils se trouvent.${prompt}
   7854: |-
-    Voici les approvisionnements. Donnez-les simplement à la garde à l'avant-poste et votre mission sera terminée.
-    Maintenant, choisissez l'avant-poste où vous voulez aller. Nous offrons des récompenses différentes pour chaque région, donc choisissez avec soin.${prompt}
+    Voici les approvisionnements. Donnez-les simplement à la garde à l’avant-poste et votre mission sera terminée.
+    Maintenant, choisissez l’avant-poste où vous voulez aller. Nous offrons des récompenses différentes pour chaque région, donc choisissez avec soin.${prompt}
   7855: |-
     Où souhaitez-vous apporter les approvisionnements ?
     ${selection-lines}
