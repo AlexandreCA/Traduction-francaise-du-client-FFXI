@@ -19047,28 +19047,28 @@ entries:
   7748: Dans le passé, beaucoup ont amassé de grandes richesses grâce à la maison de vente aux enchères. J'espère que vous trouverez également la fortune !${prompt}
   7749: Vana'diel est en ébullition avec la fièvre de « l'Appréciation des Aventuriers », kupo !${prompt}
   7750: |-
-    We moogles have prepared some nice little goodies and gathered lots of top-secret information on adventurer activity, kupo!
-    Let me check my journal for your statistical data...${prompt}
+    Nous, les moogles, avons préparé de jolis petits cadeaux et rassemblé plein d'informations top secrètes sur l'activité des aventuriers, kupo !
+    Laissez-moi vérifier mon journal pour vos données statistiques…${prompt}
   7751: |-
-    Chat Frequency: ${number: 0}
-    Conversations With NPCs: ${number: 1}
-    Parties Joined: ${number: 2}
-    Alliances Joined: ${number: 3}${prompt}
+    Fréquence des discussions : ${number: 0}
+    Conversations avec les PNJ : ${number: 1}
+    Groupes rejoints : ${number: 2}
+    Alliances rejointes : ${number: 3}${prompt}
   7752: |-
-    Battles Fought: ${number: 4}
-    Number of Times KO'd: ${number: 5}
-    Enemies Defeated: ${number: 6}
-    GM Calls Made: ${number: 7}${prompt}
-  7753: There's your adventuring life in a nutshell!${prompt}
+    Combats livrés : ${number: 4}
+    Nombre de fois mis K.O. : ${number: 5}
+    Ennemis vaincus : ${number: 6}
+    Appels aux MJ effectués : ${number: 7}${prompt}
+  7753: Voilà votre vie d'aventurier en bref !${prompt}
   7754: |-
-    There's your adventuring life in a nutshell!
-    And this time, there's an extra-special anniversary present involved! Oh, just be careful you don't accidentally throw it away or anything, because you'll never be able to get another one...ever, kupo!${prompt}
-  7755: 'Take a look--and to think, you can select ${number: 0} more amazing anniversary items!${prompt}'
-  7756: 'Take a look--and to think, you can select ${number: 0} more amazing anniversary item!${prompt}'
+    Voilà votre vie d'aventurier en bref !
+    Et cette fois, il y a un cadeau d'anniversaire extra-spécial en jeu ! Oh, faites juste attention de ne pas le jeter par accident ou quoi que ce soit, car vous ne pourrez jamais en obtenir un autre… jamais, kupo !${prompt}
+  7755: 'Regardez un peu — et dire que vous pouvez sélectionner encore ${number: 0} objets d’anniversaire incroyables !${prompt}'
+  7756: 'Regardez un peu — et dire que vous pouvez sélectionner encore ${number: 0} objet d’anniversaire incroyable !${prompt}'
   7757: |-
-    Which would you like? (${number: 0} remaining)
+    Lequel voulez-vous ? (${number: 0} restant)
     ${selection-lines}
-    I need time to think.
+    J’ai besoin de temps pour réfléchir.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
     ${lettercase: 1}${item-singular: 3[2]}.
@@ -19077,107 +19077,107 @@ entries:
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
     ${lettercase: 1}${item-singular: 8[2]}.${prompt}
-  7758: Ah, I understand. With some many goodies to choose from, it's no surprise that you'd want to think about it a bit more. I'll be here once you've decided, kupo.${prompt}
+  7758: Ah, je comprends. Avec autant de jolis cadeaux au choix, il n’est pas surprenant que tu veuilles y réfléchir un peu plus. Je serai là quand tu auras décidé, kupo.${prompt}
   7759: |-
-    ${lettercase: 1}${item-singular: 9[2]}? (${number: 0} remaining)
+    ${lettercase: 1}${item-singular: 9[2]} ? (${number: 0} restant)
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7760: 'An excellent choice! I hope you enjoy your brand-new ${item-singular: 9[2]}!${prompt}'
+    Oui.
+    Non.${prompt}
+  7760: 'Excellent choix ! J’espère que tu apprécieras ton tout nouveau ${item-singular: 9[2]} !${prompt}'
   7761: |-
-    There's your adventuring life in a nutshell!
-    And because it seems you're so eager to get your hands on some more goodies, I guess I could find it in my heart to spare another...but just for you, kupo!${prompt}
-  7762: You have the choice to either receive your present now, or “wait” to build up the suspense, kupo!${prompt}
-  7763: If you choose to wait, you might find yourself receiving an even better present, kupo.${prompt}
+    Voilà votre vie d'aventurier en bref !
+    Et comme il semble que tu sois si impatient de mettre la main sur d'autres cadeaux, je suppose que je pourrais trouver dans mon cœur d’en offrir un autre… mais juste pour toi, kupo !${prompt}
+  7762: Tu as le choix de recevoir ton cadeau maintenant, ou d’« attendre » pour augmenter le suspense, kupo !${prompt}
+  7763: Si tu choisis d’attendre, tu pourrais te voir offrir un cadeau encore meilleur, kupo.${prompt}
   7764: |-
-    What will you do, kupo?
+    Que vas-tu faire, kupo ?
     ${selection-lines}
-    Lemme think, kupo.
-    Gimme my present, kupo!
-    I'll wait, kupo.${prompt}
-  7765: Take all the time you need, and talk to me when you're ready, kupo!${prompt}
-  7766: Here's your present, kupo!${prompt}
+    Laisse-moi réfléchir, kupo.
+    Donne-moi mon cadeau, kupo !
+    J’attendrai, kupo.${prompt}
+  7765: Prends tout le temps qu’il te faut, et parle-moi quand tu seras prêt, kupo !${prompt}
+  7766: Voici ton cadeau, kupo !${prompt}
   7767: |-
-    Kupopopo! A patient one!
-    Let's see how long you can wait before the suspense finally gets to you, kupo!${prompt}
+    Kupopopo ! Quel patient !
+    Voyons voir combien de temps tu peux attendre avant que le suspense ne te gagne, kupo !${prompt}
   7768: |-
-    Master, Master!
-    I have a favor to ask, kupo!${prompt}
+    Maître, maître !
+    J’ai une faveur à demander, kupo !${prompt}
   7769: |-
-    Sleeping on that ${item-singular: 3[2]} has made me homesick, kupo.
-    Will my benevolent master give ${choice-player-gender}[his/her] moogle some time off to visit with Mama and Papa Moogle, kupo?${prompt}
-  7770: "Give your moogle a vacation？\n${selection-lines}\nSure, kupo! \nNo, your time is mine!${prompt}"
-  7771: Oh, what a cruel, cruel master, kupo!!!${prompt}
+    Dormir sur ce ${item-singular: 3[2]} m’a rendu nostalgique, kupo.
+    Mon maître bienveillant accordera-t-il à son moogle un peu de temps libre pour rendre visite à Papa et Maman Moogle, kupo ?${prompt}
+  7770: "Accorder une vacance à ton moogle ?\n${selection-lines}\nBien sûr, kupo !\nNon, ton temps m’appartient !${prompt}"
+  7771: Oh, quel maître cruel, cruel, kupo !!!${prompt}
   7772: |-
-    Thank you, kupo!
-    I...have one more favor to ask.
-    It's almost time for the festival in the moogles' hometown, kupo!${prompt}
-  7773: 'Papa Moogle will be entering the archery contest, so I want to bring him ${article} ${item-article: 5[2]} as a gift, kupo!${prompt}'
-  7774: 'Mama Moogle always likes to dress up for the occasion, and ${article} ${item-article: 6[2]} would make the perfect present, kupo!${prompt}'
+    Merci, kupo !
+    J… ai une autre faveur à demander.
+    C’est presque l’heure du festival dans la ville natale des moogles, kupo !${prompt}
+  7773: 'Papa Moogle participera au concours de tir à l’arc, alors je veux lui offrir ${article} ${item-article: 5[2]} en cadeau, kupo !${prompt}'
+  7774: 'Maman Moogle aime toujours se parer pour l’occasion, et ${article} ${item-article: 6[2]} ferait un cadeau parfait, kupo !${prompt}'
   7775: |-
-    But I have no idea how to go about finding ${article} ${item-article: 5[2]} or ${article} ${item-article: 6[2]}, kupo...
-    I can't go home empty-handed, kupo...${prompt}
-  7776: 'Papa Moogle will be entering the archery contest, so I want to bring him ${article} ${item-article: 5[2]} as a gift, kupo!${prompt}'
-  7777: 'Mama Moogle always likes to dress up for the occasion, and ${article} ${item-article: 6[2]} would make the perfect present, kupo!${prompt}'
+    Mais je n’ai aucune idée de comment trouver ${article} ${item-article: 5[2]} ou ${article} ${item-article: 6[2]}, kupo…
+    Je ne peux pas rentrer les mains vides, kupo…${prompt}
+  7776: 'Papa Moogle participera au concours de tir à l’arc, alors je veux lui offrir ${article} ${item-article: 5[2]} en cadeau, kupo !${prompt}'
+  7777: 'Maman Moogle aime toujours se parer pour l’occasion, et ${article} ${item-article: 6[2]} ferait un cadeau parfait, kupo !${prompt}'
   7778: |-
-    But I have no idea how to go about finding ${article} ${item-article: 5[2]} or ${article} ${item-article: 6[2]}, kupo...
-    I can't go home empty-handed, kupo...${prompt}
+    Mais je n’ai aucune idée de comment trouver ${article} ${item-article: 5[2]} ou ${article} ${item-article: 6[2]}, kupo…
+    Je ne peux pas rentrer les mains vides, kupo…${prompt}
   7779: |-
-    Master!
-    I'm overwhelmed by your kindness, kupo!!!${prompt}
+    Maître !
+    Je suis submergé par votre gentillesse, kupo !!!${prompt}
   7780: |-
-    I'll bring you a nice present from the moogles' hometown, kupo!
-    I'll be back in a few days, kupo!${prompt}
+    Je vous rapporterai un joli cadeau de la ville natale des moogles, kupo !
+    Je serai de retour dans quelques jours, kupo !${prompt}
   7781: |-
-    Master!
-    I'm back from my vacation, kupo!${prompt}
-  7782: Here's your present--a shiny new Mog Safe, kupo! Now you can store as many as 60 items, kupo!${prompt}
+    Maître !
+    Je suis de retour de mes vacances, kupo !${prompt}
+  7782: Voici ton cadeau — un tout nouveau Coffre Mog brillant, kupo ! Maintenant tu peux stocker jusqu’à 60 objets, kupo !${prompt}
   7783: |-
-    Looking at that shabby old bed makes me feel homesick, kupo.
-    Will my benevolent master give ${choice-player-gender}[his/her] moogle some time off to visit with Mama and Papa Moogle, kupo?${prompt}
+    Regarder ce vieux lit miteux me rend nostalgique, kupo.
+    Mon maître bienveillant accordera-t-il à son moogle un peu de temps libre pour rendre visite à Papa et Maman Moogle, kupo ?${prompt}
   7784: |-
-    Master, Master!
-    I have a favor to ask, kupo!${prompt}
+    Maître, maître !
+    J’ai une faveur à demander, kupo !${prompt}
   7785: |-
-    Sleeping on that ${item-singular: 3[2]} has made me homesick, kupo.
-    Will my benevolent master give ${choice-player-gender}[his/her] moogle some time off to visit with Mama and Papa Moogle, kupo?${prompt}
-  7786: "Give your moogle a vacation？\n${selection-lines}\nSure, kupo! \nNo, your time is mine!${prompt}"
+    Dormir sur ce ${item-singular: 3[2]} m’a rendu nostalgique, kupo.
+    Mon maître bienveillant accordera-t-il à son moogle un peu de temps libre pour rendre visite à Papa et Maman Moogle, kupo ?${prompt}
+  7786: "Accorder un congé à ton moogle ?\n${selection-lines}\nAmuse-toi bien, kupo !\nNon, je suis ton seul ami maintenant !${prompt}"
   7787: |-
-    Thank you, kupo!
-    I have one more favor to ask... I want to take my family on a picnic, kupo!${prompt}
-  7788: 'Papa Moogle is mad for fishing, so I want to give him ${article} ${item-article: 5[2]}, kupo!${prompt}'
-  7789: 'Mama Moogle would bake a scrumptious mooglepie to take with us, but she''d need ${article} ${item-article: 6[2]}, kupo!${prompt}'
+    Oh, merci, maître !
+    Mes amis moogles vivent de l’autre côté des mers, alors j’ai une autre faveur à te demander, kupo !${prompt}
+  7788: 'Papa Moogle adore la pêche, alors je veux lui offrir ${article} ${item-article: 5[2]}, kupo !${prompt}'
+  7789: 'Maman Moogle préparerait un délicieux mooglepie à emporter, mais elle aurait besoin de ${article} ${item-article: 6[2]}, kupo !${prompt}'
   7790: |-
-    But...I haven't the foggiest idea of how to get either of these things, kupo...
-    Whatever am I to do, kupo?${prompt}
-  7791: 'Papa Mog is mad for fishing, so I want to give him ${article} ${item-article: 5[2]}, kupo!${prompt}'
-  7792: 'Mama Moogle would bake a scrumptious mooglepie to take with us, but she''d need ${article} ${item-article: 6[2]}, kupo!${prompt}'
+    Mais… je n’ai aucune idée de comment obtenir l’un ou l’autre de ces objets, kupo…
+    Que vais-je faire, kupo ?${prompt}
+  7791: 'Papa Moogle adore la pêche, alors je veux lui offrir ${article} ${item-article: 5[2]}, kupo !${prompt}'
+  7792: 'Maman Moogle préparerait un délicieux mooglepie à emporter, mais elle aurait besoin de ${article} ${item-article: 6[2]}, kupo !${prompt}'
   7793: |-
-    But...I haven't the foggiest idea of how to get either of these things, kupo...
-    Whatever am I to do, kupo?${prompt}
+    Mais… je n’ai aucune idée de comment obtenir l’un ou l’autre de ces objets, kupo…
+    Que vais-je faire, kupo ?${prompt}
   7794: |-
-    Master!
-    I'm overwhelmed by your kindness, kupo!!!${prompt}
+    Maître !
+    Je suis submergé par votre gentillesse, kupo !!!${prompt}
   7795: |-
-    I'll bring you a nice present from the moogles' hometown, kupo!
-    I'll be back in a few days, kupo!${prompt}
+    Je vous rapporterai un joli cadeau de la ville natale des moogles, kupo !
+    Je serai de retour dans quelques jours, kupo !${prompt}
   7796: |-
-    Master!
-    I'm back from my vacation, kupo!${prompt}
-  7797: Here's your present--the behemoth of Mog Safes, kupo! Now you can store as many as 70 items, kupo!${prompt}
-  7798: The capacity of your Mog Safe has increased!${prompt}
+    Maître !
+    Je suis de retour de mes vacances, kupo !${prompt} 
+  7797: Voici ton cadeau — le colosse des Coffres Mog, kupo ! Maintenant tu peux stocker jusqu’à 70 objets, kupo !${prompt}
+  7798: La capacité de ton Coffre Mog a augmenté !${prompt}
   7799: |-
-    Master, Master!
-    I have a favor to ask, kupo!${prompt}
-  7800: 'After resting on the ${item-singular: 3[2]}, I noticed a letter had arrived from some old moogle friends, kupo! Will my magnanimous master give me some time off to go visit my old buddies?${prompt}'
+    Maître, maître !
+    J’ai une faveur à demander, kupo !${prompt}
+  7800: 'Après m’être reposé sur le ${item-singular: 3[2]}, j’ai remarqué qu’une lettre était arrivée de vieux amis moogles, kupo ! Mon maître magnanime m’accordera-t-il un congé pour aller rendre visite à mes vieux camarades ?${prompt}'
   7801: |-
-    Give your moogle some time off?
+    Accorder un congé à ton moogle ?
     ${selection-lines}
-    Have fun, kupo!
-    No, I am your only friend now!${prompt}
+    Amuse-toi bien, kupo !
+    Non, je suis ton seul ami maintenant !${prompt}
   7802: |-
-    Oh, thank you, master!
-    My moogle friends live across the seas, so I have another favor to ask you, kupo!${prompt}
+    Oh, merci, maître !
+    Mes amis moogles vivent de l’autre côté des mers, alors j’ai une autre faveur à te demander, kupo !${prompt}
   7803: 'Le soleil cogne sans pitié sur les terres au-delà de la mer ouest, alors je dois apporter ${article} ${item-article: 5[2]} à mes amis là-bas, kupo !${prompt}'
   7804: 'Et mes autres amis ont besoin de ${article} ${item-article: 6[2]} pour les pluies torrentielles qui ravagent les terres de l’autre côté de la mer est, kupo !${prompt}'
   7805: 'Je ne peux pas aider mes amis si je n’ai pas ${article} ${item-article: 5[2]} et ${article} ${item-article: 6[2]}, kupo…${prompt}'
