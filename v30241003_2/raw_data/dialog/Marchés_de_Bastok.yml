@@ -16063,30 +16063,30 @@ entries:
   6490: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6491: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
   6492: |-
-    Vous pouvez définir ceci comme votre point de retour actuel.
-    Une fois défini, vous y reviendrez chaque fois que vous serez hors combat.
+    Vous pouvez désigner cet endroit comme votre point de retour actuel.
+    Une fois choisi, vous y reviendrez chaque fois que vous sortirez d’un combat.
   6493: |-
-    Définir ceci comme point de retour actuel ?
+    Désigner cet endroit comme point de retour actuel ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  6494: Point de retour défini !${prompt}
-  6495: Un point de retour peut être défini comme un lieu où revenir à Vana’diel après avoir été mis K.O. Vous pouvez aussi l’utiliser pour vous téléporter vers d’autres points de retour.${prompt}
+  6494: Point de retour établi !${prompt}
+  6495: Un point de retour est un lieu où vous pouvez revenir à Vana’diel après avoir été mis hors combat. Il permet aussi de vous téléporter vers d’autres points de retour enregistrés.${prompt}
   6496: |-
-    Que voulez-vous faire ?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Voyager vers un autre point de retour.
-    Définir ceci comme votre point de retour.
-    Autres paramètres.
-    En y réfléchissant, laissez tomber.${prompt}
+    Vous téléporter vers un autre point de retour.
+    Désigner cet endroit comme votre point de retour.
+    Modifier les paramètres.
+    À bien y réfléchir, rien pour l’instant.${prompt}
   6497: |-
     Vous avez enregistré un nouveau point de retour !
-    Vous pouvez maintenant vous téléporter ici depuis n’importe quel autre point de retour.${prompt}
-  6498: Vous pouvez vous téléporter d’ici vers tout autre point de retour que vous avez enregistré.${prompt}
+    Vous pouvez désormais vous téléporter ici depuis n’importe quel autre point de retour.${prompt}
+  6498: D’ici, vous pouvez vous téléporter vers tout autre point de retour que vous avez déjà enregistré.${prompt}
   6499: |-
-    Où vous téléporter ?
+    Vers quel lieu vous téléporter ?
     ${selection-lines}
-    Laissez tomber.
+    Laisser tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -16106,7 +16106,7 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   6500: |-
-    Où vous téléporter ? (${zone: 33[2]})
+    Vers quel lieu vous téléporter ? (${zone: 33[2]})
     ${selection-lines}
     Nulle part.
     Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
@@ -16114,20 +16114,20 @@ entries:
     Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
     Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
     Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  6501: Vous n’avez pas encore enregistré d’autres points de retour et ne pouvez donc pas vous téléporter.${prompt}
-  6502: 'Il en coûte ${number: 3} gil pour vous téléporter au Point de retour #${number: 2} à ${zone: 1[2]}.'
-  6503: 'Il n’y a pas de frais pour vous téléporter au Point de retour #${number: 2} à ${zone: 1[2]}.'
+  6501: Vous n’avez encore enregistré aucun autre point de retour, donc la téléportation est impossible pour l’instant.${prompt}
+  6502: Se téléporter au Point de retour #${number: 2} à ${zone: 1[2]} coûte ${number: 3} gils.${prompt}
+  6503: Aucun frais n’est requis pour vous téléporter au Point de retour #${number: 2} à ${zone: 1[2]}.${prompt}
   6504: |-
-    Vous téléporter ? (Gil actuels : ${number: 0})
+    Vous téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s’il vous plaît.
+    Oui, je vous prie.
     Non, merci.${prompt}
   6505: |-
-    Vous téléporter dans quelle région ?
+    Dans quelle région vous téléporter ?
     ${selection-lines}
-    En y réfléchissant, aucune.
-    ChoiMessire parmi les favoris.
+    À bien y réfléchir, nulle part.
+    Choisir parmi les favoris.
     Région actuelle.
     ${choice: 1}[San d’Oria/Movalpolos].
     ${choice: 1}[Bastok/Archipel Tavnazien].
@@ -16156,7 +16156,7 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   6506: |-
-    Où vous téléporter ?
+    Vers quel lieu vous téléporter ?
     ${selection-lines}
     Aucun de ces choix.
     Un emplacement favori.
@@ -16166,16 +16166,16 @@ entries:
     Une zone de Treasures of Aht Urhgan.
     Une zone de Wings of the Goddess.
     Une zone de Seekers of Adoulin.${prompt}
-  6507: Vous pouvez modifier la méthode de sélection de la zone de votre point de retour pour vous téléporter.${prompt}
+  6507: Vous pouvez changer la méthode de sélection des zones pour vos téléportations via les points de retour.${prompt}
   6508: |-
-    Quel paramètre souhaitez-vous ?
+    Quel paramètre préférez-vous ?
     ${selection-lines}
     Mon paramètre actuel.
     Sélectionner par région.
     Sélectionner par extension.${prompt}
-  6509: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
+  6509: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].${prompt}'
   6510: |-
-    Où vous téléporter ?
+    Vers quel lieu vous téléporter ?
     ${selection-lines}
     Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
@@ -16188,10 +16188,10 @@ entries:
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
     ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  6511: 'Le Point de retour #${number: 2} à ${zone: 1[2]} a été ${choice: 33}[ajouté à/retiré de] votre liste de favoris.'
-  6512: Votre liste d’emplacements favoris est pleine. Vous devez supprimer une entrée existante pour en ajouter une nouvelle.${prompt}
+  6511: Le Point de retour #${number: 2} à ${zone: 1[2]} a été ${choice: 33}[ajouté à/retiré de] vos favoris.${prompt}
+  6512: Votre liste de favoris est pleine. Supprimez une entrée existante pour en ajouter une nouvelle.${prompt}
   6513: |-
-    Supprimer lequel ?
+    Lequel supprimer ?
     ${selection-lines}
     Aucun de ces choix.
     ${zone: 1[2]} #${number: 17}.
@@ -16204,8 +16204,8 @@ entries:
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
   6514: Le client a envoyé une valeur invalide au serveur !${prompt}
-  6515: Vous ne pouvez pas recevoir de missions pour le moment.${prompt}
-  6516: Je suis chargé d’attribuer les missions, mais uniquement à ceux qui ont prêté serment d’allégeance à Bastok.${prompt}
+  6515: Vous ne pouvez pas accepter de missions pour le moment.${prompt}
+  6516: Je suis chargé de confier des missions, mais uniquement à ceux qui ont juré fidélité à Bastok.${prompt}
   6517: |-
     Vous ne pouvez pas entreprendre deux missions simultanément.
     Terminez celle en cours avant de demander une nouvelle mission.${prompt}
