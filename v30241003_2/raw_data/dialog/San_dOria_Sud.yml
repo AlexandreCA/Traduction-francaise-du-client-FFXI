@@ -18013,28 +18013,28 @@ entries:
   7379: Quand tu auras fini tes préparatifs, rends-toi directement à la cathédrale pour faire ton rapport.${prompt}
   7380: Hors registre, entre les deux princes, lequel penses-tu devrait être le prochain héritier du trône ?${prompt}
   7381: |-
-    It is a difficult decision, but...
+    C’est une décision difficile, mais...
     ${selection-lines}
-    Trion is better suited.
-    Pieuje is better suited.${prompt}
+    Trion est mieux adapté.
+    Pieuje est mieux adapté.${prompt}
   7382: |-
     Hm...
-    Being the oldest, he is the true heir, and many people believe he is the most suited to rule the Kingdom. However, Prince Pieuje's prudent ways may be what this country is lacking.${prompt}
-  7383: Many think as you do, ${choice-player-gender}[Sir/Lady] ${name-player}. However, what this country may need is someone who will not back down in the face of a threat--someone who will stand up for the pride of the Kingdom.${prompt}
-  7384: But our opinion is of no matter. Lightbringer will decide who is the most suited to stand over our fine nation. And do not speak a word of today's exchange, for the monarlais will have our heads if he finds out.${prompt}
-  7385: I realize that you must have many preparations before taking on such an important mission. Take your time and return here when you are ready.${prompt}
+    Étant l’aîné, il est l’héritier légitime, et beaucoup pensent qu’il est le plus apte à gouverner le Royaume. Cependant, la prudence du prince Pieuje pourrait être ce qui manque à notre pays.${prompt}
+  7383: Beaucoup partagent ton avis, ${choice-player-gender}[Messire/Dame] ${name-player}. Pourtant, ce dont ce pays a peut-être besoin, c’est de quelqu’un qui ne reculera pas face à une menace – quelqu’un qui défendra la fierté du Royaume.${prompt}
+  7384: Mais notre opinion importe peu. Porteur de Lumière décidera qui est le plus digne de régner sur notre belle nation. Et pas un mot de notre échange d’aujourd’hui, car le monarlais nous ferait trancher la tête s’il l’apprenait.${prompt}
+  7385: Je sais que tu dois avoir beaucoup de préparatifs avant d’entreprendre une mission aussi cruciale. Prends ton temps et reviens ici quand tu seras prêt(e).${prompt}
   7386: 'DEBUG: U_MS_START= "${number: 0}"${prompt}'
   7387: 'DEBUG: Went to Davoi, got the report.${prompt}'
   7388: |-
-    Clear Conditions Fulfilled:
+    Conditions d’accomplissement remplies :
     ${selection-lines}
-    1-1　Brought back Orcish Axe.
-    1-2　Brought back Bat Fang.
-    1-3　Rescued the children.
-    2-1　Training complete.
-    2-2　Finished Davoi village.
-    2-3　Visited other countries.
-    3-1　Davoi Killing Grounds.
+    1-1　Rapporté une Hache Orque.
+    1-2　Rapporté une Canine de Chauve-souris.
+    1-3　Sauvé les enfants.
+    2-1　Entraînement terminé.
+    2-2　Terminé le village de Davoi.
+    2-3　Visité d’autres pays.
+    3-1　Champs de bataille de Davoi.
     3-2.
     3-3.
     4-1.
@@ -18053,59 +18053,59 @@ entries:
     9-2.
     10-1.
     10-2.${prompt}
-  7389: Trick or treat...${prompt}
+  7389: Un bonbon ou un sort...${prompt}
   7390: |-
-    Thank you...
-    And now for your treat...${prompt}
-  7391: Here, take this...${prompt}
-  7392: If you put this on and walk around, something...unexpected might happen...${prompt}
-  7393: Thank you...${prompt}
-  7394: If two people with the same costumes form a party and approach a bomb balloon, then...${prompt}
-  7395: The Troupe Valeriano, at your service! Well, I'm more of a behind-the-scenes kinda gal, not an entertainer.${prompt}
-  7396: People call me “Nokky the Tree-shaker”! While the other guys are doing their thing, I work on the sidelines as a quiver-maker. Basically, I can make it easier for you to lug around those bundles of ninety-nine arrows or bolts or whatever.${prompt}
-  7397: I've been doing this for a while now, so I've learned to bundle all sorts of stuff...${prompt}
-  7398: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, and ${item-plural: 5[2]} I''ve always been able to do...${prompt}'
-  7399: 'But now I can also bundle ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, and ${item-plural: 5[2]}.${prompt}'
-  7400: 'Not to mention ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, ${item-plural: 5[2]}, and ${item-plural: 6[2]}.${prompt}'
-  7401: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 2[2]}, and plain old ${item-plural: 1[2]}!${prompt}'
-  7402: 'And of course, ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, and ${item-plural: 4[2]}!${prompt}'
-  7403: 'Then there''s everyone''s favorite ${item-plural: 0[2]}, ${item-plural: 1[2]}, and ${item-plural: 2[2]}.${prompt}'
-  7404: 'Finally, new to my bundling repertoire, we have ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, and ${item-plural: 3[2]}!${prompt}'
-  7405: I can even bundle those elemental cards that corsairs use!${prompt}
+    Merci...
+    Et maintenant, voici ton petit cadeau...${prompt}
+  7391: Tiens, prends ça...${prompt}
+  7392: Si tu portes ça et que tu te promènes, quelque chose... d’inattendu pourrait arriver...${prompt}
+  7393: Merci...${prompt}
+  7394: Si deux personnes avec le même costume forment un groupe et s’approchent d’un ballon-bombe, alors...${prompt}
+  7395: La Troupe Valeriano, à votre service ! Enfin, je suis plutôt du genre coulisses, pas vraiment une artiste sur scène.${prompt}
+  7396: On m’appelle “Nokky la Secoueuse d’Arbres” ! Pendant que les autres font leur numéro, moi, je bosse à côté en tant que fabricante de carquois. En gros, je peux te simplifier la vie pour transporter ces paquets de quatre-vingt-dix-neuf flèches, carreaux, ou peu importe quoi.${prompt}
+  7397: Ça fait un bout de temps que je fais ça, alors j’ai appris à empaqueter toutes sortes de choses...${prompt}
+  7398: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]} et ${item-plural: 5[2]}, j’ai toujours su les faire...${prompt}'
+  7399: 'Mais maintenant, je peux aussi empaqueter ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]} et ${item-plural: 5[2]}.${prompt}'
+  7400: 'Sans parler des ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, ${item-plural: 5[2]} et ${item-plural: 6[2]}.${prompt}'
+  7401: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 2[2]} et les bons vieux ${item-plural: 1[2]} !${prompt}'
+  7402: 'Et bien sûr, ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]} et ${item-plural: 4[2]} !${prompt}'
+  7403: 'Et puis il y a les favoris de tous, ${item-plural: 0[2]}, ${item-plural: 1[2]} et ${item-plural: 2[2]}.${prompt}'
+  7404: 'Enfin, nouveauté dans mon répertoire d’empaquetage, voici ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]} et ${item-plural: 3[2]} !${prompt}'
+  7405: Je peux même empaqueter ces cartes élémentaires qu’utilisent les corsaires !${prompt}
   7406: |-
-    Aren't you imprrressed?
-    Keeping up with all these new types of ammunition is hard work!${prompt}
-  7407: Oh, and for the rrrecord, anything else is too much trrrouble to deal with. Not my thing.${prompt}
-  7408: 'This ain''t no charity, though. I''m not really interested in gil, but... Let''s see here... Flowers...? Yeah, you bring me ${article} ${item-article: 0[2]} for every ninety-nine arrows, bolts, or whatever you want organized, and we got a deal. ${prompt}'
-  7409: 'I can make a quiver or pouch for up to seven sets of the same kind of ammunition. So you could bring me, say, one hundred ninety-eight ${item-plural: 1[2]} and two of those ${item-plural: 0[2]}, for example. I like to do things real efficient-like, you see, so make sure they''re in multiples of ninety-nine.${prompt}'
-  7410: '${color-alt: 15}${name-npc} smiles slyly at you.'
-  7411: What kinda smart-alecky baloney is this!? I told you to bring me the same kinda ammunition in complete sets. And don't forget the flowers, neither.${prompt}
-  7412: Just a moment there, my fine friend, got a call coming in on my linkshell. Come back in a bit and I'll sort you out.${prompt}
-  7413: And here you go! Come back soon, and bring your friends!${prompt}
-  7414: I'm real sorry, but there's nothing I can do with those.${prompt}
+    N’est-ce pas imprrressionnant ?
+    Suivre le rythme avec tous ces nouveaux types de munitions, c’est du boulot !${prompt}
+  7407: Oh, et pour info, tout le reste, c’est trrrop compliqué à gérer. Pas mon truc.${prompt}
+  7408: 'Ceci dit, ce n’est pas gratuit. Les gils ne m’intéressent pas vraiment, mais... voyons voir... des fleurs ? Oui, ramène-moi ${article} ${item-article: 0[2]} pour chaque lot de quatre-vingt-dix-neuf flèches, carreaux ou autre chose à organiser, et on a un marché.${prompt}'
+  7409: 'Je peux faire un carquois ou une sacoche pour jusqu’à sept lots du même type de munitions. Par exemple, tu pourrais me ramener cent quatre-vingt-dix-huit ${item-plural: 1[2]} et deux ${item-plural: 0[2]}. J’aime faire les choses efficacement, tu vois, alors assure-toi que ce soit par multiples de quatre-vingt-dix-neuf.${prompt}'
+  7410: '${color-alt: 15}${name-npc} te sourit malicieusement.'
+  7411: C’est quoi cette blague de petit malin !? Je t’ai dit de ramener le même type de munitions en lots complets. Et n’oublie pas les fleurs non plus !${prompt}
+  7412: Une seconde, mon cher ami, j’ai un appel qui arrive sur mon linkshell. Reviens un peu plus tard, je m’occuperai de toi.${prompt}
+  7413: Et voilà pour toi ! Reviens vite, et amène tes amis !${prompt}
+  7414: Vraiment désolée, mais je ne peux rien faire avec ça.${prompt}
   7415: |-
-    It's time for the Egg Hunt Egg-stravaganza, kupo!
-    Here, take this “initial egg.” Collect and trade eggs until you have made a “First 3” combination. When you're done, bring the combo back to me for an egg-squisite prize, kupo!${prompt}
-  7416: This year, those who make special undecennial combinations will receive particularly egg-ceptional prizes, kupo!${prompt}
-  7417: Of course, we wouldn't want you counting your chocobos before they hatch. Please egg-xert the effort to make a “First 3” combination before going all out on these spegg-tacular new ones, kupo.${prompt}
-  7418: When you've gathered a “First 3” combination, bring the eggs back to me! Also, if you want, I can trade you more initial eggs, but you'll have to make it worth my while, kupo!${prompt}
-  7419: Well, that's it for my anniversary egg-splanation. Happy hunting, kupo!${prompt}
+    C’est l’heure de la Grande Chasse aux Œufs, kupo !
+    Tiens, prends cet “œuf initial”. Récupère et échange des œufs jusqu’à former une combinaison “Premiers 3”. Quand tu auras fini, ramène-moi la combinaison pour un prix œuf-straordinaire, kupo !${prompt}
+  7416: Cette année, ceux qui réalisent des combinaisons spéciales undecennales recevront des prix particulièrement œuf-ceptionnels, kupo !${prompt}
+  7417: Bien sûr, on ne voudrait pas que tu comptes tes chocobos avant qu’ils n’éclosent. Fais l’œuf-fort de réaliser une combinaison “Premiers 3” avant de te lancer à fond dans ces nouvelles combinaisons œuf-taculaires, kupo.${prompt}
+  7418: Quand tu auras réuni une combinaison “Premiers 3”, ramène-moi les œufs ! Aussi, si tu veux, je peux t’échanger d’autres œufs initiaux, mais il faudra que ça en vaille la peine, kupo !${prompt}
+  7419: Voilà pour mon œuf-xplication anniversaire. Bonne chasse, kupo !${prompt}
   7420: |-
-    Egg-cellent! Here's your prize, kupo!
-    Now if only somebody would bring me a super combo... Oh, egg-scuse me! Forget I said that, kupo!${prompt}
+    Œuf-cellent ! Voici ton prix, kupo !
+    Si seulement quelqu’un pouvait m’apporter une super combinaison... Oh, œuf-cuse-moi ! Oublie ce que j’ai dit, kupo !${prompt}
   7421: |-
-    Egg-straordinary!
-    Here's your special prize, kupo!
-    But how did you figure out the secret combination...?${prompt}
+    Œuf-straordinaire !
+    Voici ton prix spécial, kupo !
+    Mais comment as-tu deviné la combinaison secrète... ?${prompt}
   7422: |-
-    How in-eggs-plicably astounding! You're truly a hard-boiled detective of the highest degree, kupo!
-    Here's your prize, and don't forget to enjoy the rest of the festivities.${prompt}
+    Quelle œuf-tonnante prouesse ! Tu es vraiment un détective œuf-trement doué, kupo !
+    Voici ton prix, et n’oublie pas de profiter du reste des festivités.${prompt}
   7423: |-
-    Hey, don't get all egg-cited!
-    You can only claim one prize a day, kupo!${prompt}
-  7424: These initial eggs are really egg-spensive, kupo! If you want one I'm going to need a little more incentive. No egg-ceptions!${prompt}
-  7425: Eggs-actly what I wanted! Here's your reward, kupo!${prompt}
-  7426: Ku-kupo! Such an egg-stravagant item, for little old me? Here's a whole basketful of initial eggs for you, kupo!${prompt}
+    Hé, ne t’œuf-cite pas trop !
+    Tu ne peux réclamer qu’un prix par jour, kupo !${prompt}
+  7424: Ces œufs initiaux coûtent vraiment cher, kupo ! Si tu en veux un, il me faudra un petit quelque chose en plus. Pas d’œuf-ceptions !${prompt}
+  7425: Œuf-xactement ce que je voulais ! Voici ta récompense, kupo !${prompt}
+  7426: Ku-kupo ! Un objet aussi œuf-stravagant, pour moi ? Voici tout un panier d’œufs initiaux pour toi, kupo !${prompt}
   7427: |-
     My eyes! My eyes!
     Get out of here, and take those egg-ceptionally nasty things with you, kupo!${prompt}
