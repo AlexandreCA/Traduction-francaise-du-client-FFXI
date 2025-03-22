@@ -1,65 +1,65 @@
 entries:
-  0: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  1: I've not told you about Mog Houses yet, have I? Would you care to learn about them now?${prompt}
+  0: La zone résidentielle de San d’Oria est droit devant. Tu y trouveras ta Maison Mog.${prompt}
+  1: Je ne t’ai pas encore parlé des Maisons Mog, n’est-ce pas ? Veux-tu en savoir plus maintenant ?${prompt}
   2: |-
-    Care to learn about Mog Houses?
+    Veux-tu en apprendre davantage sur les Maisons Mog ?
     ${selection-lines}
-    Sure!
-    No, thanks.${prompt}
-  3: Mog Houses are useful places. You can recover your HP and MP, and store items there.${prompt}
+    Bien sûr !
+    Non, merci.${prompt}
+  3: Les Maisons Mog sont des endroits bien utiles. Tu peux y恢复 tes HP et MP, et y stocker des objets.${prompt}
   4: |-
-    You can also change jobs there.
-    All adventurers of San d'Orian citizenship are assigned a Mog House.${prompt}
-  5: Make yourself at home!${prompt}
-  6: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  7: Would you like to hear about Mog Houses again?${prompt}
-  8: Hmm... So be it.${prompt}
-  9: Ahead lies the residential area. You'll find your Mog House within.${prompt}
-  10: 'By the way, my records indicate that you''re renting a room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  11: 'Would you like to check out of the room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] and move your things back here?${prompt}'
+    Tu peux aussi y changer de métier.
+    Tous les aventuriers citoyens de San d’Oria se voient attribuer une Maison Mog.${prompt}
+  5: Fais comme chez toi !${prompt}
+  6: La zone résidentielle de San d’Oria est droit devant. Tu y trouveras ta Maison Mog.${prompt}
+  7: Veux-tu que je te reparle des Maisons Mog ?${prompt}
+  8: Hmm… Comme tu voudras.${prompt}
+  9: La zone résidentielle est devant toi. Ta Maison Mog s’y trouve.${prompt}
+  10: 'Au fait, selon mes registres, tu loues une chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  11: 'Souhaites-tu quitter la chambre de ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] et ramener tes affaires ici ?${prompt}'
   12: |-
-    Move back to San d'Oria?
+    Revenir à San d’Oria ?
     ${selection-lines}
-    Yes, please.
-    No, not yet.${prompt}
-  13: 'It is done. We''ve checked you out of your Rent-a-Room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  14: All your belongings should be waiting for you inside. Those moogles are amazing creatures, are they not?${prompt}
-  15: Ahead lies the residential area. Proceed to your Rent-a-Room, foreigner!${prompt}
-  16: If you're already renting here, you may come and go as you please, like the Mog House in your homeland.${prompt}
-  17: Ahead lies the residential area.${prompt}
-  18: Wait! By law, all foreigners must lease a Rent-a-Room before entering the residential area!${prompt}
-  19: Once you've registered with us, you can use it as you would a Mog House back home, wherever that may be.${prompt}
+    Oui, s’il te plaît.
+    Non, pas encore.${prompt}
+  13: 'C’est fait. Nous avons résilié ta location à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  14: Toutes tes affaires devraient t’attendre à l’intérieur. Ces moogles sont des créatures extraordinaires, tu ne trouves pas ?${prompt}
+  15: La zone résidentielle est devant toi. Va à ta chambre louée, étranger !${prompt}
+  16: Si tu loues déjà ici, tu peux aller et venir comme bon te semble, comme dans la Maison Mog de ton pays natal.${prompt}
+  17: La zone résidentielle est droit devant.${prompt}
+  18: Attends ! La loi exige que tous les étrangers louent une chambre avant d’entrer dans la zone résidentielle !${prompt}
+  19: Une fois inscrit auprès de nous, tu pourras l’utiliser comme une Maison Mog chez toi, peu importe d’où tu viens.${prompt}
   20: |-
-    Will you stay in San d'Oria?
+    Veux-tu séjourner à San d’Oria ?
     ${selection-lines}
-    Yes.
-    No, I'd rather not.${prompt}
-  21: All right, then. A San d'Orian Rent-a-Room has been leased to your name. Now move along, foreigner!${prompt}
+    Oui.
+    Non, je préfère éviter.${prompt}
+  21: Très bien. Une chambre à San d’Oria a été louée à ton nom. Maintenant, avance, étranger !${prompt}
   22: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Tu peux définir cet endroit comme ton point de retour actuel.
+    Une fois défini, tu y reviendras chaque fois que tu seras hors combat.
   23: |-
-    Set this as current home point?
+    Définir cet endroit comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  24: Home point set!${prompt}
-  25: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  24: Point de retour défini !${prompt}
+  25: Un point de retour peut être choisi pour revenir à Vana’diel après avoir été mis hors combat. Il te permet aussi de te téléporter vers d’autres points de retour.
   26: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Aller à un autre point de retour.
+    Définir cet endroit comme point de retour.
+    Autres options.
+    En fait, laisse tomber.${prompt}
   27: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  28: You may teleport from here to any other home point you have registered.
+    Tu as enregistré un nouveau point de retour !
+    Tu peux maintenant t’y téléporter depuis n’importe quel autre point de retour.${prompt}
+  28: Tu peux te téléporter d’ici vers tout autre point de retour que tu as enregistré.
   29: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    Never mind.
+    Nulle part.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -76,81 +76,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   30: |-
-    Teleport where?（${zone: 33[2]}）
+    Te téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  31: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  32: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  33: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  31: Tu n’as pas encore enregistré d’autres points de retour, donc tu ne peux pas te téléporter pour l’instant.${prompt}
+  32: 'Il en coûte ${number: 3} gils pour te téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  33: 'Il n’y a aucun frais pour te téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   34: |-
-    Teleport? (Current gil: ${number: 0})
+    Te téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s’il te plaît.
+    Non, merci.${prompt}
   35: |-
-    Teleport to which region?
+    Te téléporter dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    Finalement, nulle part.
+    Sélectionner parmi les favoris.
+    Région actuelle.
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est Ulbuka].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    ${choice: 1}[Bas Elshimo/].
+    ${choice: 1}[Haut Elshimo/].
+    ${choice: 1}[Tu’Lia/].
+    Page précédente.
+    Page suivante.${prompt}
   36: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  37: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-là.
+    Un lieu favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  37: Tu peux modifier la manière de sélectionner la zone de ton point de retour pour te téléporter.
   38: |-
-    Which setting would you like?
+    Quel réglage préfères-tu ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  39: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  39: 'Tu sélectionnes maintenant par ${choice: 1}[région/extension].'
   40: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-là.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -160,13 +160,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  41: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  42: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  41: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/retiré de] ta liste de lieux favoris.'
+  42: Ta liste de lieux favoris est pleine. Tu dois supprimer une entrée existante pour en ajouter une nouvelle.
   43: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-là.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -19350,94 +19350,94 @@ entries:
   8170: Those two--so feverish are they in their devotion to the art of fishing that they lose count of their haul of fish and have to start over from the beginning.${prompt}
   8171: Those two... I do wish they wouldn't carp so about who can catch more fish than whom. And why should I care either way?${prompt}
   8172: |-
-    Welcome to the auction house.
-    Do you have any questions about our establishment?${prompt}
+    Bienvenue à la maison de ventes aux enchères.
+    As-tu des questions sur notre établissement ?${prompt}
   8173: |-
-    What do you want to know?
+    Que veux-tu savoir ?
     ${selection-lines}
-    What is the auction house?
-    How are auctions run?
-    Are there any fees?
-    Are there any limits?
-    How do you check up on merchandise?
-    How do you remove an item?
-    My “Sales Status” list is full!
-    Nothing right now.${prompt}
-  8174: Les maisons de ventes aux enchères se trouvent dans toutes les grandes villes de Vana’diel. Ici, les aventuriers se rassemblent pour enchérir sur des butins de bataille, des objets indésirables, de vieilles armures… presque n’importe quoi.${prompt}
-  8175: Actuellement, les maisons de ventes aux enchères de Bastok, San d’Oria, Windurst et Jeuno fonctionnent toutes indépendamment. Par conséquent, les prix varient d’une ville à l’autre.${prompt}
-  8176: Les aventuriers peuvent utiliser n’importe quelle maison de ventes, quelle que soit leur nationalité.${prompt}
-  8177: Le premier aventurier à enchérir au prix demandé ou au-dessus achètera automatiquement le produit.${prompt}
-  8178: Une fois mise aux enchères, une marchandise y restera pendant un maximum de trente semaines en temps de Vana’diel (neuf jours et demi en temps terrestre).${prompt}
-  8179: Si une marchandise ne se vend pas dans cette limite de temps, elle sera renvoyée à la résidence actuelle du vendeur.${prompt}
-  8180: Les frais de transaction sont proportionnels au montant pour lequel un objet est mis aux enchères. La méthode de calcul de ces frais diffère pour les objets uniques et les objets empilables.${prompt}
-  8181: Des frais de transaction sont prélevés lorsqu’une marchandise est mise aux enchères. Ces frais ne sont pas remboursables.${prompt}
-  8182: Le Comité International des Ventes aux Enchères, ou CIVE, a déclaré qu’un maximum de sept objets peuvent être mis aux enchères en même temps.${prompt}
-  8183: Cependant, le CIVE a récemment supprimé la limite sur le nombre d’objets qu’on peut acheter.${prompt}
-  8184: Un court délai est requis avant que les nouvelles marchandises n’apparaissent sur notre liste d’enchères.${prompt}
-  8185: Une fois qu’un objet apparaît sur votre liste “Statut des Ventes”, il peut ne pas apparaître immédiatement sur la liste d’enchères. Si vous ne voyez pas votre objet sur la liste d’enchères, essayez de vérifier à nouveau plus tard.${prompt}
-  8186: Si vous souhaitez retirer un objet d’une enchère, vous devez vous rendre à la maison de ventes et sélectionner “Arrêter la Vente” dans le menu “Statut des Ventes”.${prompt}
-  8187: Pour retirer un objet de votre liste “Statut des Ventes”, vous devez visiter un comptoir d’enchères pour confirmer la vente ou le retour de votre marchandise.${prompt}
-  8188: Sinon, les objets précédemment vendus ou renvoyés rempliront votre liste et vous empêcheront de vendre davantage de marchandises.${prompt}
-  8189: À n’importe quel comptoir d’enchères, ouvre le menu “Statut des Ventes” et confirme la transaction pour la supprimer de la liste.${prompt}
-  8190: Appuie sur le bouton de confirmation pour supprimer toute transaction colorée en jaune (vendue) ou en rouge (renvoyée).${prompt}
-  8191: Y a-t-il autre chose que vous souhaiteriez savoir ?${prompt}
-  8192: Par le passé, beaucoup ont amassé une grande richesse grâce à la maison de ventes. J’espère que vous trouverez la fortune aussi !${prompt}
-  8193: Je me demande pour qui cette belle jeune fille attend tous les jours et toutes les nuits là-bas près des quais…${prompt}
-  8194: Je te défie d’aller lui demander son nom. Tu penses pouvoir gérer ça ?${prompt}
-  8195: Tu plaisantes ! Nous sommes encore en service ! Bien que je finisse dans trois heures…${prompt}
-  8196: C’est une belle mélodie. Je ne l’avais jamais entendue auparavant, mais elle me semble étrangement familière…${prompt}
-  8197: Je n’aurais jamais pensé vivre assez longtemps pour réentendre cette mélodie. Elle ramène des souvenirs, vraiment…${prompt}
+    Qu’est-ce que la maison de ventes aux enchères ?
+    Comment fonctionnent les enchères ?
+    Y a-t-il des frais ?
+    Y a-t-il des limites ?
+    Comment suivre ses marchandises ?
+    Comment retirer un objet ?
+    Ma liste “Statut des Ventes” est pleine !
+    Rien pour le moment.${prompt}
+  8174: On trouve des maisons de ventes aux enchères dans toutes les grandes villes de Vana’diel. C’est ici que les aventuriers se réunissent pour enchérir sur des butins de combat, des objets dont ils ne veulent plus, de vieilles armures… presque tout, en fait !${prompt}
+  8175: Pour l’instant, les maisons de ventes de Bastok, San d’Oria, Windurst et Jeuno fonctionnent chacune de leur côté. Du coup, les prix diffèrent d’une ville à l’autre.${prompt}
+  8176: Les aventuriers peuvent utiliser n’importe quelle maison de ventes, peu importe leur nationalité.${prompt}
+  8177: Le premier à enchérir au prix demandé ou plus remporte l’objet automatiquement.${prompt}
+  8178: Une fois mise aux enchères, une marchandise reste en vente pendant trente semaines maximum en temps de Vana’diel, soit neuf jours et demi en temps terrestre.${prompt}
+  8179: Si un objet ne trouve pas preneur dans ce délai, il est renvoyé à la résidence actuelle du vendeur.${prompt}
+  8180: Les frais de transaction dépendent du prix auquel l’objet est mis en vente. La méthode de calcul varie selon qu’il s’agit d’un objet unique ou empilable.${prompt}
+  8181: Des frais sont prélevés au moment où tu mets un objet aux enchères. Ils ne sont pas remboursables.${prompt}
+  8182: Le Comité International des Ventes aux Enchères, ou CIVE, a fixé une limite de sept objets maximum pouvant être mis en vente en même temps.${prompt}
+  8183: Cela dit, le CIVE a récemment levé la limite sur le nombre d’objets qu’on peut acheter.${prompt}
+  8184: Il faut un petit délai avant que les nouvelles marchandises n’apparaissent sur notre liste d’enchères.${prompt}
+  8185: Quand un objet est ajouté à ta liste “Statut des Ventes”, il peut ne pas apparaître tout de suite dans les enchères. Si tu ne le vois pas, reviens vérifier plus tard.${prompt}
+  8186: Pour retirer un objet des enchères, rends-toi à la maison de ventes et choisis “Arrêter la Vente” dans le menu “Statut des Ventes”.${prompt}
+  8187: Pour enlever un objet de ta liste “Statut des Ventes”, va à un comptoir d’enchères et confirme soit la vente, soit le retour de ta marchandise.${prompt}
+  8188: Sinon, les objets vendus ou renvoyés encombrent ta liste et t’empêchent de mettre autre chose en vente.${prompt}
+  8189: À n’importe quel comptoir d’enchères, ouvre le menu “Statut des Ventes” et confirme la transaction pour la retirer de la liste.${prompt}
+  8190: Appuie sur le bouton de confirmation pour supprimer les transactions en jaune (vendues) ou en rouge (renvoyées).${prompt}
+  8191: Y a-t-il autre chose que tu voudrais savoir ?${prompt}
+  8192: Par le passé, beaucoup ont fait fortune grâce à la maison de ventes. J’espère que tu trouveras la tienne aussi !${prompt}
+  8193: Je me demande pour qui cette jolie jeune fille attend jour et nuit près des quais…${prompt}
+  8194: 'Je te lance un défi : va lui demander son nom. Tu penses pouvoir y arriver ?${prompt}'
+  8195: Tu plaisantes ! On est encore en service ! Même si je termine dans trois heures…${prompt}
+  8196: Quelle belle mélodie. Je ne l’avais jamais entendue avant, mais elle me semble étrangement familière…${prompt}
+  8197: Je n’aurais jamais cru vivre assez longtemps pour réentendre cette musique. Elle ravive tant de souvenirs…${prompt}
   8198: Tu n’as toujours pas trouvé la fille que tu cherches ?${prompt}
   8199: Non, pas encore…${prompt}
-  8200: Ne t’inquiète pas. Elle finira par apparaître, je te le garantis. Il faudrait être fou pour ne pas être attiré par la douce mélodie de la harpe d’Ulmia.${prompt}
+  8200: Ne t’en fais pas. Elle finira par se montrer, je te le garantis. Il faudrait être fou pour résister à la douce mélodie de la harpe d’Ulmia.${prompt}
   8201: Hé, dame de la musique, tu ne serais pas en train de chercher quelqu’un, par hasard ?${prompt}
-  8202: Ah… o-oui, c’est ça !${prompt}
-  8203: Je cherche une jeune fille. Ses cheveux sont bleu clair, et elle est vêtue des robes de théologienne de la Cathédrale de Tavnazia.${prompt}
+  8202: Ah… o-oui, exactement !${prompt}
+  8203: Je cherche une jeune fille. Elle a les cheveux bleu clair et porte les robes de théologienne de la Cathédrale de Tavnazia.${prompt}
   8204: |-
     Hmmm…
     Cheveux bleu clairrr… Robes de théologienne…${prompt}
-  8205: Ça ressemble beaucoup à la fille que les gars de Jeuno recherchent.${prompt}
+  8205: Ça ressemble sacrément à la fille que les gens de Jeuno recherchent.${prompt}
   8206: |-
     !
     Euh…${prompt}
   8207: Gentil voyageur, sais-tu quelque chose sur la fille que le Duché recherche ?${prompt}
-  8208: Ouais, eh bien, il se trouve que je cherche la même fille.${prompt}
-  8209: Maintenant, si cette fille est la même que celle que tu cherches… je ne sais pas.${prompt}
+  8208: Ouais, figure-toi que je cherche la même fille.${prompt}
+  8209: Maintenant, est-ce que c’est la même que celle que tu cherches… ça, je n’en sais rien.${prompt}
   8210: '…${prompt}'
-  8211: Je ne veux pas me mêler de ce qui ne me regarde pas, mais est-ce que Jeuno t’a engagé pour trouver la fille qu’ils recherchent ?${prompt}
-  8212: Est-ce que j’ai l’air de travailler pour le Duché ? Si c’est ce que tu veux croire, vas-y. Vous, les Elvaan, êtes tous pareils – ne voyant que ce que vous voulez voir.${prompt}
+  8211: Je ne veux pas mettre mon nez là où il n’a pas sa place, mais est-ce que Jeuno t’a engagé pour retrouver cette fille ?${prompt}
+  8212: Est-ce que j’ai la tête de quelqu’un qui bosse pour le Duché ? Si tu veux le croire, libre à toi. Vous, les Elvaan, vous êtes tous pareils – vous ne voyez que ce qui vous arrange.${prompt}
   8213: '…${prompt}'
-  8214: Hé, savais-tu qu’en plus de la fille, il y a un autre mandat pour la capture d’un garçon étrange ?${prompt}
-  8215: Combien veux-tu parier que ces deux-là sont ensemble ?${prompt}
+  8214: Hé, savais-tu qu’en plus de la fille, il y a un autre mandat pour capturer un garçon bizarre ?${prompt}
+  8215: Combien tu veux parier que ces deux-là sont ensemble ?${prompt}
   8216: |-
     Je ne sais pas…
-    Mais si la fille que toi et moi cherchons est la même personne, je peux te dire ceci : elle n’est pas du genre à fuir.${prompt}
+    Mais si la fille que toi et moi cherchons est la même, je peux te dire une chose : elle n’est pas du genre à prendre la fuite.${prompt}
   8217: |-
     Huh…
-    Attraper des souris, c’est ce pour quoi nous, les Mithra, vivons, mais on dirait que ce boulot va être un peu différent.${prompt}
-  8218: Bah, je n’ai pas le temps de jouer à deux jeux de chat et souris, alors je suppose que je vais juste me concentrer sur le garçon.${prompt}
+    Chasser des souris, c’est dans notre nature à nous, les Mithra, mais on dirait que ce boulot va être un peu différent.${prompt}
+  8218: Bah, je n’ai pas le temps de jouer à deux parties de chat et souris, alors je vais me concentrer sur le garçon, je suppose.${prompt}
   8219: |-
     Attends !
-    Que… Que sais-tu du garçon ?${prompt}
+    Que… Que sais-tu sur ce garçon ?${prompt}
   8220: |-
     Hah hah…
-    Dame de la musique, tu devrais faire attention à ce que tu demandes. La réponsssse pourrait bien te mordre en retour.${prompt}
+    Dame de la musique, fais attention à ce que tu demandes. La réponsssse pourrait bien te revenir en pleine figure.${prompt}
   8221: '…${prompt}'
-  8222: Si la fille que tu cherches est la même que celle que je cherche, alors nous nous reverrons.${prompt}
-  8223: Si tu veux toujours connaître la réponsssse à ta question, je suppose que ça ne ferait pas de mal de te la dire. À la prochaine fois…${prompt}
+  8222: Si la fille que tu cherches est la même que celle que je traque, alors nos chemins se croiseront à nouveau.${prompt}
+  8223: Si tu veux toujours la réponsssse à ta question, je suppose que ça ne coûterait rien de te la donner la prochaine fois qu’on se verra…${prompt}
   8224: ${name-player} !${prompt}
   8225: |-
-    Que souhaites-tu demander ?
+    Que veux-tu demander ?
     ${selection-lines}
     Vas-tu bien ?
     Qui était-ce ?${prompt}
   8226: |-
     Je… Je vais bien…
-    Je ne sais pas qui était cette Mithra, mais j’ai le sentiment qu’elle cherche Prishe.${prompt}
-  8227: Je ne sais pas qui était cette Mithra, mais j’ai le sentiment qu’elle cherche Prishe.${prompt}
+    Je ne sais pas qui était cette Mithra, mais j’ai l’impression qu’elle cherche Prishe.${prompt}
+  8227: Je ne sais pas qui était cette Mithra, mais j’ai l’impression qu’elle cherche Prishe.${prompt}
   8228: |-
     Ces yeux…
-    C’était comme si elle chassait une proie…${prompt}
+    On aurait dit qu’elle traquait une proie…${prompt}
   8229: |-
     ${name-player} !
     Est-ce que… Est-ce que Prishe va bien ?
@@ -19449,26 +19449,26 @@ entries:
     en danger.${prompt}
   8231: |-
     Oh, merci, ${name-player}.
-    Cela me réconforte de t’entendre dire ça.${prompt}
+    Ça me soulage de t’entendre dire ça.${prompt}
   8232: |-
     Alors tu ressens la même chose que moi, ${name-player}…
-    Cependant…${prompt}
-  8233: Tant que tu es ici à mes côtés, je crois que tout ira bien…${prompt}
+    Mais…${prompt}
+  8233: Tant que tu es là à mes côtés, je crois que tout ira bien…${prompt}
   8234: |-
     Je…
-    Oh, je suis désolée. Je ne voulais pas…${prompt}
-  8235: Dame Hinaree m’a présenté à beaucoup de gens qu’elle pensait pouvoir savoir quelque chose sur Prishe, mais je n’ai rien découvert…${prompt}
+    Oh, pardon. Je ne voulais pas…${prompt}
+  8235: Dame Hinaree m’a présentée à plein de gens qui, selon elle, pourraient savoir quelque chose sur Prishe, mais je n’ai rien appris…${prompt}
   8236: Je suis tellement inquiète… S’il lui arrivait quelque chose…${prompt}
   8237: |-
     Quoi ?
     Tu as un message de Dame Hinaree ?${prompt}
   8238: Je dois rencontrer le Grand Prêtre Chasalvige à la cathédrale ?${prompt}
-  8239: Merci beaucoup, ${name-player} !${prompt}
-  8240: Je vais me rendre à San d’Oria Nord tout de suite !${prompt}
-  8241: Tu ne reçois rien du lapin de la lune…${prompt}
-  8242: Le lapin de la lune a amené un monstre !${prompt}
-  8243: Tu dois faire quelque chose à propos de ces arbres fous, kupo !${prompt}
-  8244: Tu as fini de combattre les arbres, kupo ?${prompt}
+  8239: Merci infiniment, ${name-player} !${prompt}
+  8240: Je pars pour San d’Oria Nord tout de suite !${prompt}
+  8241: Tu n’obtiens rien du lapin de la lune…${prompt}
+  8242: Le lapin de la lune a ramené un monstre !${prompt}
+  8243: Tu dois faire quelque chose pour ces arbres fous, kupo !${prompt}
+  8244: Tu as fini de te battre contre les arbres, kupo ?${prompt}
   8245: ${prompt}
   8246: ${prompt}
   8247: ${prompt}
