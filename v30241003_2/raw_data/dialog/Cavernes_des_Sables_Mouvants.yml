@@ -17846,181 +17846,181 @@ entries:
   7302: 'ro:${number: 0} rs:${number: 1} ps:${number: 2} dt:${number: 3}${prompt}'
   7303: 'ra:${number: 0} ti:${number: 1}${prompt}'
   7304: |-
-    You spot some familiar footprints.
-    You are convinced that your moogle friend has been digging in the immediate vicinity.${prompt}
-  7305: You get the distinct sense that your moogle friend frequents this spot...${prompt}
-  7306: You have a feeling that your moogle friend has been through this way...${prompt}
-  7307: You suspect that the scenery around here would be to a moogle's liking...${prompt}
-  7308: You have a vague feeling that a moogle would enjoy traversing this terrain...${prompt}
-  7309: You have a hunch that this area would be favored by moogles...${prompt}
+    Tu repères des empreintes familières.
+    Tu es convaincu que ton ami mog a creusé dans les environs immédiats.${prompt}
+  7305: Tu as l’impression distincte que ton ami mog fréquente souvent cet endroit…${prompt}
+  7306: Tu as le sentiment que ton ami mog est passé par ici…${prompt}
+  7307: Tu suspectes que le paysage autour d’ici plairait à un mog…${prompt}
+  7308: Tu as une vague impression qu’un mog aimerait traverser ce terrain…${prompt}
+  7309: Tu as l’intuition que cette zone serait appréciée par les mogs…${prompt}
   7310: |-
-    Your chocobo is pulling at the bit.
-    You sense that it is leading you to the ${choice: 0}[east/southeast/south/southwest/west/northwest/north/northeast].${prompt}
-  7311: '${entity: 0} catches ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  7312: '${entity: 0} obtained ${keyitem-article: 0[2]}!${prompt}'
-  7313: It appears your chocobo found this item with ease.${prompt}
-  7314: Your chocobo appears to have gained valuable knowledge from this discovery.${prompt}
+    Ton chocobo tire sur le mors.
+    Tu sens qu’il te guide vers le ${choice: 0}[est/sud-est/sud/sud-ouest/ouest/nord-ouest/nord/nord-est].${prompt}
+  7311: '${entity: 0} attrape ${number: 1} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  7312: '${entity: 0} a obtenu ${keyitem-article: 0[2]} !${prompt}'
+  7313: Il semble que ton chocobo ait trouvé cet objet avec facilité.${prompt}
+  7314: Ton chocobo semble avoir acquis des connaissances précieuses grâce à cette découverte.${prompt}
   7315: ' FPT ${number: 0} DPT ${number: 1} DoT${number: 2}'
   7316: ' FPT ${number: 0} TDPT ${number: 1} h${number: 2}'
-  7317: You cannot fish at this time.${prompt}
-  7318: 'You discover a cache of beastman resources and receive ${number: 0} conquest point${choice-plurality: 0}[/s]!${prompt}'
-  7319: 'You discover a cache of beastman resources and receive ${number: 0} Imperial Standing!${prompt}'
-  7320: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
-  7321: 'You receive ${number: 0} bayld!${prompt}'
-  7322: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
-  7323: 'This chest is locked. It can be opened with ${article} ${item-article: 0[2]}.${prompt}'
-  7324: This chest is empty.${prompt}
-  7325: Your inventory is full. You cannot carry any more items.${prompt}
-  7326: You must be closer to the chest to open it.${prompt}
-  7327: '${entity: 0} opens the chest and finds ${article} ${item-article: 0[2]}.${prompt}'
+  7317: Tu ne peux pas pêcher pour le moment.${prompt}
+  7318: 'Tu découvres une cache de ressources des hommes-bêtes et reçois ${number: 0} point${choice-plurality: 0}[/s] de conquête !${prompt}'
+  7319: 'Tu découvres une cache de ressources des hommes-bêtes et reçois ${number: 0} points d’Influence Impériale !${prompt}'
+  7320: 'Tu découvres une cache de ressources de la confédération des hommes-bêtes et reçois ${number: 0} note${choice-plurality: 0}[/s] alliée !${prompt}'
+  7321: 'Tu reçois ${number: 0} baylds !${prompt}'
+  7322: 'Ton chocobo refuse de consommer le ${item-singular: 0[2]}.${prompt}'
+  7323: 'Ce coffre est verrouillé. Il peut être ouvert avec ${article} ${item-article: 0[2]}.${prompt}'
+  7324: Ce coffre est vide.${prompt}
+  7325: Ton inventaire est plein. Tu ne peux pas transporter plus d’objets.${prompt}
+  7326: Tu dois être plus près du coffre pour l’ouvrir.${prompt}
+  7327: '${entity: 0} ouvre le coffre et trouve ${article} ${item-article: 0[2]}.${prompt}'
   7328: |-
-    The item in this chest cannot be handled by the other members of your party.
-    ${entity: 0} receives the ${item-singular: 0[2]}.${prompt}
-  7329: '${entity: 0} obtains a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7330: 'You obtain a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7331: You unlock the chest!${prompt}
-  7332: '${entity: 0} fails to open the chest.${prompt}'
-  7333: The chest was trapped!${prompt}
-  7334: You cannot open the chest when you are in a weakened state.${prompt}
-  7335: The chest was a mimic!${prompt}
-  7336: You cannot open the chest while participating in the moogle event.${prompt}
-  7337: The chest was but an illusion...${prompt}
+    L’objet dans ce coffre ne peut pas être manipulé par les autres membres de ton groupe.
+    ${entity: 0} reçoit le ${item-singular: 0[2]}.${prompt}
+  7329: '${entity: 0} obtient un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7330: 'Tu obtiens un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7331: Tu déverrouilles le coffre !${prompt}
+  7332: '${entity: 0} échoue à ouvrir le coffre.${prompt}'
+  7333: Le coffre était piégé !${prompt}
+  7334: Tu ne peux pas ouvrir le coffre lorsque tu es dans un état affaibli.${prompt}
+  7335: Le coffre était un mimic !${prompt}
+  7336: Tu ne peux pas ouvrir le coffre pendant que tu participes à l’événement des mogs.${prompt}
+  7337: Le coffre n’était qu’une illusion…${prompt}
   7338: |-
-    The chest appears to be locked.
-    If only you had ${article} ${item-article: 0[2]}, perhaps you could open it...${prompt}
-  7339: The door is firmly shut.${prompt}
-  7340: Well done, ${name-player}.${prompt}
-  7341: The statue that stands before us is that of a Talekeeper who lived centuries ago.${prompt}
-  7342: The Galkan Talekeeper is our prophet, our elder, our king. He embodies everything that makes us Galka.${prompt}
-  7343: Not the memories of all eternity, but the memories of a mere two hundred years. With this, a young Galka must travel forth and bear the burden of his people.${prompt}
-  7344: After leaving this place, I feel that Raogrimm was troubled by the constant reminders of the anger and grief of the Galkan people.${prompt}
-  7345: However, while he could not run from those things, he also could not just stand there and do nothing.${prompt}
-  7346: To break the chains binding the Talekeeper to this endless agony, we Galka must search out the truth that the Talekeeper holds within.${prompt}
-  7347: 'Located on ${color: 5}H-8${color: 1} of your map is a mural painted on the walls of these ruins. I will be waiting for you there with words to take back with you to Bastok.${prompt}'
-  7348: Ancient letters are carved here, but you are unable to read them.${prompt}
-  7349: This...this mural softly whispers the history of Altepa.${prompt}
-  7350: This may appear to be ancient ruins, but these buildings were used up until a mere three generations ago.${prompt}
-  7351: One force battles another...a situation necessary in any country's history. And, as you may have already guessed, there were two forces in Altepa as well.${prompt}
-  7352: The Galka mistakenly disturbed the Antica, who lived deep beneath Vana'diel. In the early stages of their battles, the Galka used their strength to gain the upper hand.${prompt}
-  7353: However, it was not strength that decided the outcome of this conflict. The Antica, with their amazing reproductive ability, simply outnumbered the Galka.${prompt}
-  7354: When a Galka senses his death, he sets out on a journey to climb a high mountain and await his final moments. There, guided by a magnificent light, he gains a new body, and with that body climbs down from the mountain.${prompt}
-  7355: However, no one has ever seen this miracle take place. It may just be simple folklore.${prompt}
-  7356: All we Galka see is one of our brothers setting off on a journey. Then, less than a year later, a new Galka child arrives in our camps.${prompt}
-  7357: If they carry something with them from their previous life, they may be given their old name, but other than that, no reborn Galka have any recollection of their former selves.${prompt}
-  7358: That is, all except one--one every generation.${prompt}
+    Le coffre semble être verrouillé.
+    Si seulement tu avais ${article} ${item-article: 0[2]}, peut-être pourrais-tu l’ouvrir…${prompt}
+  7339: La porte est solidement fermée.${prompt}
+  7340: Bien joué, ${name-player}.${prompt}
+  7341: La statue qui se tient devant nous est celle d’un Gardien des Récits qui a vécu il y a des siècles.${prompt}
+  7342: Le Gardien des Récits Galka est notre prophète, notre ancien, notre roi. Il incarne tout ce qui fait de nous des Galka.${prompt}
+  7343: Pas les souvenirs de toute l’éternité, mais les souvenirs de seulement deux cents ans. Avec cela, un jeune Galka doit partir en voyage et porter le fardeau de son peuple.${prompt}
+  7344: Après avoir quitté cet endroit, j’ai l’impression que Raogrimm était troublé par les rappels constants de la colère et du chagrin du peuple Galka.${prompt}
+  7345: Cependant, bien qu’il ne pouvait pas fuir ces choses, il ne pouvait pas non plus rester là et ne rien faire.${prompt}
+  7346: Pour briser les chaînes qui lient le Gardien des Récits à cette agonie sans fin, nous, les Galka, devons chercher la vérité que le Gardien des Récits porte en lui.${prompt}
+  7347: 'Située à ${color: 5}H-8${color: 1} sur ta carte, une fresque est peinte sur les murs de ces ruines. Je t’attendrai là-bas avec des mots à ramener à Bastok.${prompt}'
+  7348: Des lettres anciennes sont gravées ici, mais tu es incapable de les lire.${prompt}
+  7349: Cette… cette fresque murmure doucement l’histoire d’Altepa.${prompt}
+  7350: Cela peut ressembler à des ruines anciennes, mais ces bâtiments étaient utilisés jusqu’à il y a seulement trois générations.${prompt}
+  7351: Une force combat une autre… une situation nécessaire dans l’histoire de n’importe quel pays. Et, comme tu l’as peut-être déjà deviné, il y avait aussi deux forces à Altepa.${prompt}
+  7352: Les Galka ont malencontreusement dérangé les Antica, qui vivaient profondément sous Vana’diel. Aux premiers stades de leurs batailles, les Galka ont utilisé leur force pour prendre l’avantage.${prompt}
+  7353: Cependant, ce n’est pas la force qui a décidé de l’issue de ce conflit. Les Antica, avec leur incroyable capacité de reproduction, ont simplement surpassé les Galka en nombre.${prompt}
+  7354: Lorsqu’un Galka sent sa mort approcher, il entreprend un voyage pour escalader une haute montagne et attendre ses derniers instants. Là, guidé par une lumière magnifique, il obtient un nouveau corps, et avec ce corps, redescend de la montagne.${prompt}
+  7355: Cependant, personne n’a jamais vu ce miracle se produire. Ce n’est peut-être qu’un simple folklore.${prompt}
+  7356: Tout ce que nous, les Galka, voyons, c’est l’un de nos frères partir en voyage. Puis, moins d’un an plus tard, un nouvel enfant Galka arrive dans nos camps.${prompt}
+  7357: S’ils portent quelque chose de leur vie précédente avec eux, ils peuvent recevoir leur ancien nom, mais à part cela, aucun Galka reborné n’a de souvenir de son ancien soi.${prompt}
+  7358: C’est-à-dire, tous sauf un – un par génération.${prompt}
   7359: |-
-    That one we call the Talekeeper.
-    After proving he truly holds two hundred years of memories, he is then appointed new leader of the Galka.${prompt}
-  7360: Tradition binds this keeper of memories to his new position, and it is this tradition that the Galka have blindly followed for generations.${prompt}
-  7361: This tradition is a great burden for those who must bear it. As you may already know, not one Talekeeper has ever lived long enough to set out on his journey of rebirth. ${prompt}
-  7362: One suffered from the fear that one day, he would lose hundreds of years of memories... Another could not handle the responsibility heaped upon him, and disappeared...never to be seen again.${prompt}
-  7363: And one...one felt the anger of our race multiply within his heart until he could no longer control it, and finally became the Shadow Lord.${prompt}
-  7364: The Galka need not be chained to this destiny. However, I feel the only one that can break these chains is the Talekeeper.${prompt}
-  7365: The new Talekeeper will soon come forth of his own will. He will know when the time is right.${prompt}
-  7366: Tell Iron Eater to look after him when that time comes.${prompt}
-  7367: Only at that time will I finally be released from the responsibilities that bind me.${prompt}
-  7368: And at that time, we Galka must swallow our pride and face the Humes, as I must face my old comrade, Volker...${prompt}
-  7369: A piece of a shattered stone tablet is lying on the ground.${prompt}
-  7370: Someone has retrieved whatever had fallen here.${prompt}
-  7371: It is a pool of water.${prompt}
-  7372: You sense something evil.${prompt}
-  7373: You find nothing out of the ordinary.${prompt}
-  7374: You find nothing.${prompt}
-  7375: You must move closer to pick it up.${prompt}
-  7376: This is not the time for that!${prompt}
-  7377: You sense faint traces of magic force.${prompt}
-  7378: Something is attacking from behind you!${prompt}
-  7379: Something is buried in this fallen pillar.${prompt}
+    Celui-là, nous l’appelons le Gardien des Récits.
+    Après avoir prouvé qu’il détient véritablement deux cents ans de souvenirs, il est alors nommé nouveau chef des Galka.${prompt}
+  7360: La tradition lie ce gardien des souvenirs à sa nouvelle position, et c’est cette tradition que les Galka ont suivie aveuglément pendant des générations.${prompt}
+  7361: Cette tradition est un lourd fardeau pour ceux qui doivent la porter. Comme tu le sais peut-être déjà, aucun Gardien des Récits n’a jamais vécu assez longtemps pour entreprendre son voyage de renaissance.${prompt}
+  7362: L’un a souffert de la peur qu’un jour, il perde des centaines d’années de souvenirs… Un autre n’a pas pu supporter la responsabilité qui lui incombait et a disparu… pour ne plus jamais être revu.${prompt}
+  7363: Et un… un autre a senti la colère de notre race se multiplier dans son cœur jusqu’à ce qu’il ne puisse plus la contrôler, et est finalement devenu le Seigneur des Ombres.${prompt}
+  7364: Les Galka n’ont pas besoin d’être enchaînés à ce destin. Cependant, je pense que le seul qui peut briser ces chaînes est le Gardien des Récits.${prompt}
+  7365: Le nouveau Gardien des Récits se manifestera bientôt de sa propre volonté. Il saura quand le moment sera venu.${prompt}
+  7366: Dis à Mangeur de Fer de veiller sur lui quand ce moment arrivera.${prompt}
+  7367: Ce n’est qu’à ce moment-là que je serai enfin libéré des responsabilités qui me lient.${prompt}
+  7368: Et à ce moment-là, nous, les Galka, devrons ravaler notre fierté et faire face aux Humes, comme je dois faire face à mon vieil ami, Volker…${prompt}
+  7369: Un morceau d’une tablette de pierre brisée est posé sur le sol.${prompt}
+  7370: Quelqu’un a récupéré ce qui était tombé ici.${prompt}
+  7371: C’est un bassin d’eau.${prompt}
+  7372: Tu ressens quelque chose de maléfique.${prompt}
+  7373: Tu ne trouves rien d’inhabituel.${prompt}
+  7374: Tu ne trouves rien.${prompt}
+  7375: Tu dois te rapprocher pour le ramasser.${prompt}
+  7376: Ce n’est pas le moment pour ça !${prompt}
+  7377: Tu ressens de faibles traces de force magique.${prompt}
+  7378: Quelque chose t’attaque par derrière !${prompt}
+  7379: Quelque chose est enfoui dans ce pilier tombé.${prompt}
   7380: |-
-    Dig it out?
+    Le déterrer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7381: Something is written here, but you are unable to read it...${prompt}
-  7382: Nothing happens...${prompt}
-  7383: You sense an ominous presence...${prompt}
-  7384: There is nothing out of the ordinary here.${prompt}
-  7385: There is nothing out of the ordinary here.${prompt}
+    Oui.
+    Non.${prompt}
+  7381: Quelque chose est écrit ici, mais tu es incapable de le lire…${prompt}
+  7382: Rien ne se passe…${prompt}
+  7383: Tu ressens une présence inquiétante…${prompt}
+  7384: Il n’y a rien d’inhabituel ici.${prompt}
+  7385: Il n’y a rien d’inhabituel ici.${prompt}
   7386: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
+    Tu peux entendre une voix étrange…
+    « Objets, objets, la la la la la～♪ »${prompt}
   7387: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
+    Oh mon Gob ! T’es l’un de ces aventuriers, pas vrai ?
+    T’as rien contre moi, ${choice-player-gender}[mec./madame.] J’étais juste en train de m’occuper de mes affaires, à chercher des trucs et des machins.${prompt}
   7388: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7389: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7390: Now, listen close...${prompt}
+    Hé, fais gaffe. Tu veux pas te battre avec moi. J’te transformerai en viande séchée !
+    Attends, et si on devenait amis à la place ? Ça te va ?${prompt}
+  7389: Je voyage à travers le monde et j’entends plein d’histoires différentes. J’entends même tes histoires. Je peux t’en raconter une, si tu veux.${prompt}
+  7390: Maintenant, écoute bien…${prompt}
   7391: |-
-    Oh...
-    Well, if that's the case, I'm outta here.${prompt}
-  7392: The Goblin slipped away when you were not looking...${prompt}
-  7393: You can hear a strange, raspy voice...${prompt}
+    Oh…
+    Eh bien, si c’est comme ça, je me tire d’ici.${prompt}
+  7392: Le Gobelin s’est éclipsé pendant que tu ne regardais pas…${prompt}
+  7393: Tu peux entendre une voix étrange et rauque…${prompt}
   7394: |-
-    I travel......hear lots...
-    Hear...stories... Can tell...if...${prompt}
-  7395: '.........listen......${prompt}'
+    Je voyage… j’entends beaucoup…
+    J’entends… des histoires… Je peux raconter… si…${prompt}
+  7395: '… écoute…${prompt}'
   7396: |-
-    Oh......
-    ...outta here.........${prompt}
+    Oh…
+    … je me tire…${prompt}
   7397: |-
-    Do you want to hear a story?
+    Veux-tu entendre une histoire ?
     ${selection-lines}
-    No, thank you.
-    Let's hear one.${prompt}
+    Non, merci.
+    Écoutons-en une.${prompt}
   7398: |-
-    What story would you like to be told?
+    Quelle histoire aimerais-tu qu’on te raconte ?
     ${selection-lines}
-    On second thought, maybe later.
-    The Chains That Bind Us(pt.1).
-    The Chains That Bind Us(pt.2).
-    Raebrimm's Rebirth(pt.1)
-    Raebrimm's Rebirth(pt.2).
-    Uran-Mafran of the Maelstrom(pt.1).
-    Uran-Mafran of the Maelstrom(pt.2).${prompt}
+    À bien y réfléchir, peut-être plus tard.
+    Les Chaînes Qui Nous Lient (pt.1).
+    Les Chaînes Qui Nous Lient (pt.2).
+    La Renaissance de Raebrimm (pt.1).
+    La Renaissance de Raebrimm (pt.2).
+    Uran-Mafran du Maelström (pt.1).
+    Uran-Mafran du Maelström (pt.2).${prompt}
   7399: ${prompt}
   7400: ${prompt}
   7401: ${prompt}
-  7402: "Greetings, young traveler. What am I doing here, you ask? \nOh, just frozen to the spot by an Antican curse. You know how it goes.\nNot that I'm complaining. These old bones need a rest from time to time, after all...${prompt}"
+  7402: "Salutations, jeune voyageur. Que fais-je ici, me demandes-tu ? \nOh, je suis simplement figé sur place par une malédiction Antica. Tu sais comment ça se passe.\nNon pas que je me plaigne. Ces vieux os ont besoin de repos de temps en temps, après tout…${prompt}"
   7403: |-
-    Hmm?
-    Searching for the entrance to a hideout most heinous, you say?${prompt}
+    Hmm ?
+    Tu dis que tu cherches l’entrée d’une cachette des plus infâmes ?${prompt}
   7404: |-
-    Oh ho! How astute of you to turn to me.
-    I am, after all, the foremost researcher of these Quicksand Caves in the area.${prompt}
+    Oh ho ! Comme c’est astucieux de ta part de te tourner vers moi.
+    Je suis, après tout, le plus grand chercheur de ces Grottes de Sable Mouvant dans la région.${prompt}
   7405: |-
-    ...Well, the only researcher, actually. But who's quibbling about details?
-    Anyhow, you'll be pleased to know that I uncovered a promising passage not too long ago!${prompt}
+    …Bon, en fait, le seul chercheur. Mais qui va chipoter sur les détails ?
+    Quoi qu’il en soit, tu seras ravi d’apprendre que j’ai découvert un passage prometteur il n’y a pas si longtemps !${prompt}
   7406: |-
-    But here's the rub: those hoodlums are smarter than they look.
-    They've locked the door, and not only have they thrown away the key--the ${keyitem-singular: 0[2]}, they call it--they've blasted it into nine pieces.${prompt}
-  7407: The upshot of this, of course, is that if you can find the nine stones and reconstruct the talisman, there'll be nothing stopping you from waltzing right in to their den of depravity.${prompt}
+    Mais voici le hic : ces voyous sont plus malins qu’ils n’en ont l’air.
+    Ils ont verrouillé la porte, et non seulement ils ont jeté la clé – le ${keyitem-singular: 0[2]}, comme ils l’appellent – mais ils l’ont aussi brisée en neuf morceaux.${prompt}
+  7407: Cela signifie, bien sûr, que si tu peux trouver les neuf pierres et reconstruire le talisman, rien ne t’empêchera d’entrer directement dans leur repaire de débauche.${prompt}
   7408: |-
-    But let me guess. You're thinking, “But where I going to find nine tiny gems in this cavernous lair?”
-    Oh ho! How soon you forget that you're speaking to the world's foremost Quicksand Caves spelunker!${prompt}
+    Mais laisse-moi deviner. Tu te dis : « Mais où vais-je trouver neuf petites gemmes dans cet antre caverneux ? »
+    Oh ho ! Comme tu oublies vite que tu parles au plus grand spéléologue des Grottes de Sable Mouvant au monde !${prompt}
   7409: |-
-    I've got the locations of each and every stone right up here in my noggin', and I can mark them on your map--voila!--just like so.
-    Bring all nine gems back here and I'll patch up the key for you as good as new.${prompt}
+    J’ai les emplacements de chacune des pierres bien gravés dans ma tête, et je peux les marquer sur ta carte – voilà ! – juste comme ça.
+    Rapporte-moi les neuf gemmes ici, et je réparerai la clé pour toi, comme neuve.${prompt}
   7410: |-
-    What's this? You don't have a ${keyitem-singular: 0[2]}?
-    You're not seriously expecting to navigate these confounding caves without a map, are you?
-    Come back when you have one, then we'll talk!${prompt}
+    Qu’est-ce que c’est ? Tu n’as pas de ${keyitem-singular: 0[2]} ?
+    Tu ne comptes pas sérieusement naviguer dans ces grottes déroutantes sans carte, n’est-ce pas ?
+    Reviens quand tu en auras une, et alors nous parlerons !${prompt}
   7411: |-
-    Oh ho...found all the stones, have we?
-    Excellent! You may very well have stamped yourself as the world's second-leading expert on these Quicksand Caves.${prompt}
+    Oh ho… tu as trouvé toutes les pierres, n’est-ce pas ?
+    Excellent ! Tu pourrais bien t’être désigné comme le deuxième plus grand expert des Grottes de Sable Mouvant au monde.${prompt}
   7412: |-
-    Now let's see here...
-    The Shukra stone's connected to the...Chandra stone!♪
-    The Rahu stone's connected to the...Shani stone!♪
-    Da-da...da-daaa-da-da-da♪${prompt}
+    Voyons voir ici…
+    La pierre Shukra est connectée à la… pierre Chandra !♪
+    La pierre Rahu est connectée à la… pierre Shani !♪
+    Da-da… da-daaa-da-da-da♪${prompt}
   7413: |-
-    There you have it!
-    One talisman, good as new.${prompt}
+    Et voilà !
+    Un talisman, comme neuf.${prompt}
   7414: |-
-    This ${keyitem-singular: 0[2]} should grant you easy entrance to your destination.
-    I haven't a clue what you plan to do there, but...good luck!
-    I'd accompany you, but I'm kind of...stuck here, you see. Oh ho...${prompt}
+    Ce ${keyitem-singular: 0[2]} devrait te permettre d’entrer facilement à ta destination.
+    Je n’ai aucune idée de ce que tu comptes faire là-bas, mais… bonne chance !
+    J’aimerais t’accompagner, mais je suis un peu… coincé ici, tu vois. Oh ho…${prompt}
   7415: |-
     デバッグ用
     ${selection-lines}
