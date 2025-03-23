@@ -1,34 +1,34 @@
 entries:
-  0: A recruit? What do you want with this gatehouse?${prompt}
-  1: Only citizens of San d'Oria may apply for missions here. Go see your country's consulate in Northern San d'Oria.${prompt}
-  2: Finish your current mission first, then come back for another.${prompt}
+  0: Une recrue ? Que veux-tu à ce poste de garde ?${prompt}
+  1: Seuls les citoyens de San d’Oria peuvent postuler pour des missions ici. Va voir le consulat de ton pays dans le nord de San d’Oria.${prompt}
+  2: Termine d’abord ta mission actuelle, puis reviens pour une autre.${prompt}
   3: |-
-    Which mission will you undertake?
+    Quelle mission vas-tu entreprendre ?
     ${selection-lines}
-    Smash the Orcish Scouts.
-    Bat Hunt.
-    Save the Children.
-    The Rescue Drill.
-    The Davoi Report.
-    Journey Abroad.
-    Journey to Bastok.
-    Journey to Windurst.
-    Journey to Bastok.
-    Journey to Windurst.
-    Infiltrate Davoi.
-    The Crystal Spring.
-    Appointment to Jeuno.
+    Écrasez les éclaireurs orques.
+    Chasse aux chauves-souris.
+    Sauvez les enfants.
+    L’exercice de sauvetage.
+    Le rapport de Davoi.
+    Voyage à l’étranger.
+    Voyage à Bastok.
+    Voyage à Windurst.
+    Voyage à Bastok.
+    Voyage à Windurst.
+    Infiltrez Davoi.
+    La source cristalline.
+    Nomination à Jeuno.
     Magicite.
-    The Ruins of Fei'Yin.
-    The Shadow Lord.
-    Leaute's Last Wishes.
-    Ranperre's Final Rest.
-    Prestige of the Papsque.
-    The Secret Weapon.
-    Coming of Age.
+    Les ruines de Fei’Yin.
+    Le Seigneur des Ombres.
+    Les dernières volontés de Léaute.
+    Le repos final de Ranperre.
+    Le prestige du Papsque.
+    L’arme secrète.
+    Passage à l’âge adulte.
     Lightbringer.
-    Breaking Barriers.
-    The Heir to the Light.
+    Briser les barrières.
+    L’héritier de la lumière.
     10-1.
     10-2.
     ダミー26.
@@ -36,111 +36,111 @@ entries:
     ダミー28.
     ダミー29.
     ダミー30.
-    None.${prompt}
+    Aucune.${prompt}
   4: |-
-    Accept this mission?
+    Acceptes-tu cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  5: You accept the mission.${prompt}
-  6: What do you want with this gatehouse?${prompt}
+    Oui.
+    Non.${prompt}
+  5: Tu acceptes la mission.${prompt}
+  6: Que veux-tu à ce poste de garde ?${prompt}
   7: |-
-    Your business?
+    Quel est ton affaire ?
     ${selection-lines}
-    A mission, please.
-    Nothing.${prompt}
-  8: Hmm...not much work for those wet behind the ears, but...${prompt}
-  9: How about slaying Orcish scouts? Only the yellowest of yearlings would run from that, and we've no work for cowards here.${prompt}
-  10: If you're to take the mission, I'll be happy to explain.${prompt}
+    Une mission, s’il te plaît.
+    Rien.${prompt}
+  8: Hmm… pas beaucoup de travail pour ceux qui sont encore novices, mais…${prompt}
+  9: Que dirais-tu d’éliminer des éclaireurs orques ? Seuls les plus peureux des nouveaux venus fuiraient devant cela, et nous n’avons pas de travail pour les lâches ici.${prompt}
+  10: Si tu veux prendre la mission, je serai ravi de t’expliquer.${prompt}
   11: |-
-    Interested?
+    Intéressé ?
     ${selection-lines}
-    Tell me more.
-    Never mind.${prompt}
-  12: Here's your mission. Orcish scouts roam outside; kill one and bring me his axe as proof.${prompt}
-  13: 'You''ll have to bring me ${article} ${item-article: 0[2]}. No other kind will do. Understand?${prompt}'
-  14: That is all. You'll take the mission then?${prompt}
+    Dis-m’en plus.
+    Tant pis.${prompt}
+  12: Voici ta mission. Des éclaireurs orques rôdent à l’extérieur ; tue-en un et rapporte-moi sa hache comme preuve.${prompt}
+  13: 'Tu devras me rapporter ${article} ${item-article: 0[2]}. Aucun autre type ne fera l’affaire. Compris ?${prompt}'
+  14: C’est tout. Vas-tu accepter la mission alors ?${prompt}
   15: |-
-    Do you accept the mission?
+    Acceptes-tu la mission ?
     ${selection-lines}
-    I accept.
-    Could you explain again?
-    No, thank you.${prompt}
-  16: Bring me one of those axes, and your mission will be a success. No running away now; we've a proud country to defend!${prompt}
-  17: Oh, you're back. Well, if you're so happy you defeated an Orc or two, you've a long way ahead of you!${prompt}
-  18: 'That''s another ${item-singular: 0[2]} for the armory, then. Mission complete! Not bad for a new recruit.${prompt}'
-  19: What? I don't want this!${prompt}
-  20: Are you really a new recruit!?${prompt}
-  21: Listen, before you bring me something, you must first accept the mission! That is how things work around here!${prompt}
-  22: Persistent, aren't you? An Orc under the belt does not a hero make! Ah, I've just the job for you...${prompt}
-  23: Bat patrol! How about it? Shouldn't be a problem for an adventurer such as yourself, no?${prompt}
-  24: Here's your mission, then. Clear out bats lurking in King Ranperre's Tomb and bring me a fang as proof.${prompt}
-  25: 'Bring me ${article} ${item-article: 0[2]} and your mission will be a success.${prompt}'
-  26: Deep in the tomb you'll find Goblins. Take care; I don't want to lose you yet.${prompt}
-  27: Ah, you've returned! I was afraid that Goblins got you.${prompt}
-  28: 'That''s one ${item-singular: 3[2]} for the gatehouse, then. Mission complete. Not bad for a new recruit.${prompt}'
-  29: Ah, the recruit's back again? I'm sorry, but I've no time for you today.${prompt}
-  30: Well, perhaps you can be of some help. Many of our children have disappeared mysteriously, and I've no doubt the Ghelsba Orcs are behind it.${prompt}
-  31: The Royal Knights should be on the job by now, but the two princes are at each other's throats.${prompt}
-  32: Prince Trion, the eldest, says we should launch a full attack, with all haste.${prompt}
-  33: While his younger brother, Prince Pieuje says the safety of the children comes first, and he won't authorize an attack.${prompt}
-  34: They've been arguing this back and forth for days. The knights' hands are tied, and frankly, nobody knows what to do.${prompt}
-  35: If you really want to make a name for yourself, go to Ghelsba, and rescue those kidnapped children!${prompt}
-  36: What say you? Will you go?${prompt}
-  37: Here's your mission, then. Rescue the two children kidnapped by the Orcs of Ghelsba Outpost.${prompt}
-  38: Ghelsba Outpost is northwest of West Ronfaure. Take the path before the Westgate, then turn right when the path splits in the forest. You'll find the entrance up in the hills.${prompt}
-  39: If you have trouble finding the way, just follow one of the soldiers on patrol.${prompt}
-  40: Orcs tend to keep their hostages in tents or small huts. Once you're inside the compound, check them first.${prompt}
-  41: Ah, you've returned! You were gone so long, I feared a warmachine had got you!${prompt}
-  42: At any rate, mission complete! And to reward your accomplishment...${prompt}
-  43: I hereby recognize you, ${name-player}, as a certified adventurer of San d'Oria! You're now mission rank two, as well.${prompt}
-  44: But don't get too excited. Your title is valid only here in San d'Oria, understand?${prompt}
-  45: 'In order to become a true adventurer, and bear ${keyitem-article: 0[2]}, you must be recognized by Bastok and Windurst as well.${prompt}'
-  46: '''Tis a treaty between the three lands, and its word is law. I know it''s hard, but those are the rules.${prompt}'
-  47: For now, cut your adventuring teeth in the areas near here. Sooner or later you'll find your way into other lands.${prompt}
-  48: You achieve rank 2!${prompt}
-  49: There's not much work in right now. I suppose you could go participate in the Temple Knights' rescue drills out on the La Theine Plateau.${prompt}
-  50: Enter the forest beyond the Westgate and head southwest. You'll come out onto the La Theine Plateau before long.${prompt}
-  51: Once you're out on the plateau, keep going until you see the knights. The training grounds aren't far from there.${prompt}
-  52: It's all just a drill, so this should be easy compared to your usual fare. Just follow orders and you'll be fine.${prompt}
-  53: You've returned! I hear the drill turned into something far more perilous. But real battle is the best drill for recruits, in my opinion.${prompt}
-  54: Regardless, you've done well. I'll turn to you when there's work to be done, now.${prompt}
-  55: 'Here, take this ${item-singular: 3[2]}. Go ahead, you''ve earned it.${prompt}'
-  56: This time it's messenger duty. One of our knights is out scouting in a place called Davoi, on the southern edge of Jugner Forest.${prompt}
-  57: The Orcs' stronghold is in Davoi, so it's vital that we stop them from massing, or they may launch an assault.${prompt}
-  58: Of course, the Orcs are keeping an eye on us, too. Why, just a few days past, a squad of our Royal Knights fell to their axes.${prompt}
-  59: We have sent scouts to find a weakness in their defenses. You must find the scout there now, and bring back the latest scouting report.${prompt}
-  60: The scout's name is Zantaviat. He's somewhere in Davoi, but where I cannot say.${prompt}
-  61: Come back after you've gotten the report. Those lands are no place to wander.${prompt}
-  62: You have returned! And you've brought the scouting report. Good work, ${name-player}.${prompt}
-  63: Troubling news, this is. It says that Orcs are gathering deep inside the encampment. The time to act is coming!${prompt}
-  64: But that is not your concern. You've done well today. Mission complete!${prompt}
-  65: Oh, it's you, ${name-player}. And at just the right time, too. Monarlais Halver is looking for an adventurer such as yourself.${prompt}
-  66: Enter Chateau d'Oraguille. Monarlais Halver is there; he'll explain in person.${prompt}
-  67: What? You haven't been certified in Bastok and Windurst yet? You may dally, but others are not! Get moving!${prompt}
-  68: Ah, welcome back. I see you've been certified in Bastok and Windurst. Good work. You'll make a fine adventurer.${prompt}
-  69: What's that, a report for our kingdom? I see. Take that to the monarlais when you go.${prompt}
-  70: 'You should receive ${keyitem-article: 0[2]} from Monarlais Halver. Now, go to Chateau d''Oraguille and let them know you''re back!${prompt}'
-  71: Hurry to Chateau d'Oraguille and give that report to Monarlais Halver!${prompt}
-  72: You achieve rank 3!${prompt}
-  73: Ah! You've come at just the right time. Zantaviat, one of our scouts in Davoi, needs an adventurer.${prompt}
-  74: He wants someone to infiltrate Davoi and scout behind enemy lines. Know anyone fitting that description?${prompt}
-  75: 'Now that you''ve got your ${keyitem-singular: 0[2]}, this is an opportunity to prove you''re worth it!${prompt}'
-  76: The situation in Davoi worsens by the day. This won't be easy, but I can't think of a better adventurer for the job!${prompt}
-  77: You've returned! Zantaviat told me everything. Congratulations on a job well done!${prompt}
-  78: But we can't let down our guard yet. Those Orcs will not just sit there. We must keep constant vigil, and move before they do!${prompt}
-  79: 'Here''s your reward: ${article} ${item-article: 0[2]}. You''re becoming quite the adventurer, aren''t you?${prompt}'
-  80: Welcome back! I have an important mission for you this time. Recently, land is eroding due to crystal formation...and it's getting worse.${prompt}
-  81: There's a small spring on the eastern edge of Jugner Forest, called Crystwater Spring. We must know what effect crystal formation has on the wildlife there.${prompt}
-  82: 'I want you to get me a fish from the spring. And not just any fish! You need to get ${article} ${item-article: 0[2]}.${prompt}'
-  83: Ah, that reminds me--have you any fishing gear? You'll need some for this mission.${prompt}
-  84: There are people about that know a thing or two about fishing, should you need help finding and choosing your gear.${prompt}
-  85: Ah, the great angler returns! I was worried, to be honest. All you hear these days is the massing of beasts, the erosion of the Crystal Lines, and now...${prompt}
-  86: '...rumors that the Shadow Lord himself has returned!${prompt}'
-  87: We will examine the fish you brought. Depending on the results, we may need to act! I'll let you know if we need your help.${prompt}
-  88: Ah, it's you, ${name-player}. You've come at a good time. I've news for you.${prompt}
-  89: By order of the Kingdom of San d'Oria, you're to head to Jeuno as an ambassadorial attaché.${prompt}
-  90: Go to Chateau d'Oraguille. Monarlais Halver will tell you all you need to know.${prompt}
+    J’accepte.
+    Peux-tu expliquer à nouveau ?
+    Non, merci.${prompt}
+  16: Rapporte-moi une de ces haches, et ta mission sera un succès. Pas question de fuir maintenant ; nous avons un fier pays à défendre !${prompt}
+  17: Oh, te voilà de retour. Eh bien, si tu es si heureux d’avoir vaincu un ou deux Orcs, tu as encore un long chemin à parcourir !${prompt}
+  18: 'Voilà une autre ${item-singular: 0[2]} pour l’armurerie, alors. Mission terminée ! Pas mal pour une nouvelle recrue.${prompt}'
+  19: Quoi ? Je ne veux pas de ça !${prompt}
+  20: Es-tu vraiment une nouvelle recrue !?${prompt}
+  21: Écoute, avant de me rapporter quelque chose, tu dois d’abord accepter la mission ! C’est comme ça que ça fonctionne ici !${prompt}
+  22: Persistant, n’est-ce pas ? Avoir un Orc à ton actif ne fait pas de toi un héros ! Ah, j’ai exactement le travail pour toi…${prompt}
+  23: Patrouille de chauves-souris ! Qu’en dis-tu ? Ça ne devrait pas être un problème pour un aventurier comme toi, non ?${prompt}
+  24: Voici ta mission, alors. Élimine les chauves-souris qui se cachent dans la Tombe du Roi Ranperre et rapporte-moi un croc comme preuve.${prompt}
+  25: 'Rapporte-moi ${article} ${item-article: 0[2]} et ta mission sera un succès.${prompt}'
+  26: Au fond de la tombe, tu trouveras des Gobelins. Fais attention ; je ne veux pas te perdre si tôt.${prompt}
+  27: Ah, te voilà de retour ! J’avais peur que les Gobelins t’aient eu.${prompt}
+  28: 'Voilà un ${item-singular: 3[2]} pour le poste de garde, alors. Mission terminée. Pas mal pour une nouvelle recrue.${prompt}'
+  29: Ah, la recrue est de retour ? Je suis désolé, mais je n’ai pas de temps pour toi aujourd’hui.${prompt}
+  30: Eh bien, peut-être que tu peux être utile. Beaucoup de nos enfants ont mystérieusement disparu, et je n’ai aucun doute que les Orcs de Ghelsba en sont responsables.${prompt}
+  31: Les Chevaliers Royaux devraient déjà être sur le coup, mais les deux princes sont en désaccord total.${prompt}
+  32: Le Prince Trion, l’aîné, dit que nous devrions lancer une attaque totale, et ce, au plus vite.${prompt}
+  33: Tandis que son jeune frère, le Prince Pieuje, dit que la sécurité des enfants passe avant tout, et qu’il n’autorisera pas une attaque.${prompt}
+  34: Ils se disputent sur ce sujet depuis des jours. Les chevaliers ont les mains liées, et franchement, personne ne sait quoi faire.${prompt}
+  35: Si tu veux vraiment te faire un nom, va à Ghelsba et sauve ces enfants kidnappés !${prompt}
+  36: Qu’en dis-tu ? Vas-tu y aller ?${prompt}
+  37: Voici ta mission, alors. Sauve les deux enfants kidnappés par les Orcs de l’Avant-poste de Ghelsba.${prompt}
+  38: L’Avant-poste de Ghelsba est au nord-ouest de Ronfaure Ouest. Prends le chemin avant la Porte Ouest, puis tourne à droite lorsque le chemin se sépare dans la forêt. Tu trouveras l’entrée en haut des collines.${prompt}
+  39: Si tu as du mal à trouver le chemin, suis simplement l’un des soldats en patrouille.${prompt}
+  40: Les Orcs ont tendance à garder leurs otages dans des tentes ou de petites cabanes. Une fois à l’intérieur du camp, vérifie d’abord ces endroits.${prompt}
+  41: Ah, te voilà de retour ! Tu es parti si longtemps, j’ai craint qu’une machine de guerre ne t’ait eu !${prompt}
+  42: Quoi qu’il en soit, mission terminée ! Et pour récompenser ton exploit…${prompt}
+  43: Par la présente, je te reconnais, ${name-player}, comme un aventurier certifié de San d’Oria ! Tu es également au rang deux pour les missions, désormais.${prompt}
+  44: Mais ne t’emballe pas trop. Ton titre est valable uniquement ici à San d’Oria, compris ?${prompt}
+  45: 'Pour devenir un véritable aventurier et porter ${keyitem-article: 0[2]}, tu dois aussi être reconnu par Bastok et Windurst.${prompt}'
+  46: 'C’est un traité entre les trois nations, et sa parole fait loi. Je sais que c’est difficile, mais ce sont les règles.${prompt}'
+  47: Pour l’instant, fais tes premières armes dans les zones près d’ici. Tôt ou tard, tu trouveras ton chemin vers d’autres terres.${prompt}
+  48: Tu atteins le rang 2 !${prompt}
+  49: Il n’y a pas beaucoup de travail en ce moment. Je suppose que tu pourrais aller participer aux exercices de sauvetage des Chevaliers du Temple sur le Plateau de La Theine.${prompt}
+  50: Entre dans la forêt au-delà de la Porte Ouest et dirige-toi vers le sud-ouest. Tu arriveras bientôt sur le Plateau de La Theine.${prompt}
+  51: Une fois sur le plateau, continue jusqu’à ce que tu voies les chevaliers. Le terrain d’entraînement n’est pas loin de là.${prompt}
+  52: Ce n’est qu’un exercice, donc ça devrait être facile comparé à ce que tu fais d’habitude. Suis simplement les ordres et tout ira bien.${prompt}
+  53: Te voilà de retour ! J’ai entendu dire que l’exercice s’est transformé en quelque chose de bien plus périlleux. Mais un vrai combat est le meilleur entraînement pour les recrues, à mon avis.${prompt}
+  54: Quoi qu’il en soit, tu as bien travaillé. Je ferai appel à toi quand il y aura du travail à faire, maintenant.${prompt}
+  55: 'Tiens, prends ce ${item-singular: 3[2]}. Vas-y, tu l’as mérité.${prompt}'
+  56: Cette fois, c’est une mission de messager. L’un de nos chevaliers est en repérage dans un endroit appelé Davoi, à la lisière sud de la Forêt de Jugner.${prompt}
+  57: La forteresse des Orcs se trouve à Davoi, donc il est crucial que nous les empêchions de se rassembler, sinon ils pourraient lancer une attaque.${prompt}
+  58: Bien sûr, les Orcs nous surveillent aussi. Il y a juste quelques jours, une escouade de nos Chevaliers Royaux est tombée sous leurs haches.${prompt}
+  59: Nous avons envoyé des éclaireurs pour trouver une faiblesse dans leurs défenses. Tu dois trouver l’éclaireur là-bas maintenant, et ramener le dernier rapport de reconnaissance.${prompt}
+  60: L’éclaireur s’appelle Zantaviat. Il est quelque part à Davoi, mais je ne peux pas dire où exactement.${prompt}
+  61: Reviens après avoir obtenu le rapport. Ces terres ne sont pas un endroit où flâner.${prompt}
+  62: Tu es de retour ! Et tu as apporté le rapport de reconnaissance. Bon travail, ${name-player}.${prompt}
+  63: Des nouvelles inquiétantes, ceci. Il est dit que les Orcs se rassemblent au fond du campement. Le moment d’agir approche !${prompt}
+  64: Mais ce n’est pas ton souci. Tu as bien travaillé aujourd’hui. Mission terminée !${prompt}
+  65: Oh, c’est toi, ${name-player}. Et au bon moment, en plus. Monarlais Halver cherche un aventurier comme toi.${prompt}
+  66: Entre dans le Château d’Oraguille. Monarlais Halver est là ; il t’expliquera en personne.${prompt}
+  67: Quoi ? Tu n’as pas encore été certifié à Bastok et Windurst ? Tu peux traîner, mais les autres ne le font pas ! Dépêche-toi !${prompt}
+  68: Ah, te revoilà. Je vois que tu as été certifié à Bastok et Windurst. Bon travail. Tu feras un excellent aventurier.${prompt}
+  69: Qu’est-ce que c’est, un rapport pour notre royaume ? Je vois. Apporte-le au monarlais quand tu y vas.${prompt}
+  70: 'Tu devrais recevoir ${keyitem-article: 0[2]} de Monarlais Halver. Maintenant, va au Château d’Oraguille et fais-leur savoir que tu es de retour !${prompt}'
+  71: Dépêche-toi d’aller au Château d’Oraguille et donne ce rapport à Monarlais Halver !${prompt}
+  72: Tu atteins le rang 3 !${prompt}
+  73: Ah ! Tu arrives au bon moment. Zantaviat, l’un de nos éclaireurs à Davoi, a besoin d’un aventurier.${prompt}
+  74: Il veut quelqu’un pour infiltrer Davoi et explorer derrière les lignes ennemies. Connais-tu quelqu’un qui correspond à cette description ?${prompt}
+  75: 'Maintenant que tu as ton ${keyitem-singular: 0[2]}, c’est une occasion de prouver que tu en vaux la peine !${prompt}'
+  76: La situation à Davoi empire de jour en jour. Ce ne sera pas facile, mais je ne peux pas penser à un meilleur aventurier pour ce travail !${prompt}
+  77: Te voilà de retour ! Zantaviat m’a tout raconté. Félicitations pour un travail bien fait !${prompt}
+  78: Mais nous ne pouvons pas baisser notre garde pour autant. Ces Orcs ne vont pas rester là sans rien faire. Nous devons rester vigilants en permanence et agir avant eux !${prompt}
+  79: 'Voici ta récompense : ${article} ${item-article: 0[2]}. Tu deviens tout à fait un aventurier, n’est-ce pas ?${prompt}'
+  80: Bienvenue de retour ! J’ai une mission importante pour toi cette fois. Récemment, les terres s’érodent à cause de la formation de cristaux… et ça empire.${prompt}
+  81: Il y a une petite source à la lisière est de la Forêt de Jugner, appelée Source d’Eau Cristalline. Nous devons savoir quel effet la formation de cristaux a sur la faune là-bas.${prompt}
+  82: 'Je veux que tu me ramènes un poisson de la source. Et pas n’importe quel poisson ! Tu dois ramener ${article} ${item-article: 0[2]}.${prompt}'
+  83: Ah, ça me rappelle – as-tu du matériel de pêche ? Tu en auras besoin pour cette mission.${prompt}
+  84: Il y a des gens autour qui savent une ou deux choses sur la pêche, si tu as besoin d’aide pour trouver et choisir ton équipement.${prompt}
+  85: Ah, le grand pêcheur est de retour ! J’étais inquiet, pour être honnête. Tout ce qu’on entend ces jours-ci, c’est le rassemblement des bêtes, l’érosion des Lignes de Cristal, et maintenant…${prompt}
+  86: '…des rumeurs selon lesquelles le Seigneur des Ombres lui-même serait de retour !${prompt}'
+  87: Nous allons examiner le poisson que tu as apporté. Selon les résultats, nous devrons peut-être agir ! Je te ferai savoir si nous avons besoin de ton aide.${prompt}
+  88: Ah, c’est toi, ${name-player}. Tu arrives à point nommé. J’ai des nouvelles pour toi.${prompt}
+  89: Par ordre du Royaume de San d’Oria, tu dois te rendre à Jeuno en tant qu’attaché d’ambassade.${prompt}
+  90: Va au Château d’Oraguille. Monarlais Halver te dira tout ce que tu dois savoir.${prompt}
   91: ${prompt}
   92: ${prompt}
   93: ${prompt}
@@ -149,96 +149,96 @@ entries:
   96: ${prompt}
   97: ${prompt}
   98: ${prompt}
-  99: There you are! I've been looking for you. Monarlais Halver requests your presence at the chateau immediately.${prompt}
-  100: It sounds as if this is a fairly important mission. I need not remind you that you should take care to properly equip yourself before embarking on this journey.${prompt}
-  101: I'm not sure what it's about, but you'd best make haste. The monarlais is not to be kept waiting!${prompt}
-  102: Why, if it isn't ${name-player}! This is no time for loafing around, friend! Prince Trion is looking for you.${prompt}
-  103: For this next mission, he's requested you personally. You should be honored!${prompt}
-  104: As for the details of the mission, I've no idea what he wants, but he was in a hurry. You'd best be off to Chateau d'Oraguille!${prompt}
-  105: It is a great thing you've done, ${name-player}! I knew deep in my heart that you were the one for the task.${prompt}
-  106: You'd better get to the chateau quick. They're all waiting to welcome you back, I'd wager.${prompt}
-  107: You've saved our proud Kingdom of San d'Oria. No, you're the savior of all Vana'diel! There's not a soul that doesn't owe you a great debt, ${name-player}.${prompt}
+  99: Te voilà ! Je te cherchais. Monarlais Halver demande ta présence au château immédiatement.${prompt}
+  100: On dirait une mission assez importante. Je n’ai pas besoin de te rappeler que tu dois t’équiper correctement avant de te lancer dans ce voyage.${prompt}
+  101: Je ne sais pas de quoi il s’agit, mais tu ferais mieux de te dépêcher. On ne fait pas attendre le monarlais !${prompt}
+  102: Tiens, mais c’est ${name-player} ! Ce n’est pas le moment de traîner, mon ami ! Le Prince Trion te cherche.${prompt}
+  103: Pour la prochaine mission, il t’a personnellement requis. Tu devrais être honoré !${prompt}
+  104: Quant aux détails de la mission, je n’ai aucune idée de ce qu’il veut, mais il était pressé. Tu ferais mieux de te rendre au Château d’Oraguille !${prompt}
+  105: C’est une grande chose que tu as accomplie, ${name-player} ! Je savais au fond de mon cœur que tu étais la personne idéale pour cette tâche.${prompt}
+  106: Tu ferais mieux de te rendre au château rapidement. Je parie qu’ils attendent tous pour t’accueillir à ton retour.${prompt}
+  107: Tu as sauvé notre fier Royaume de San d’Oria. Non, tu es le sauveur de tout Vana’diel ! Il n’y a pas une âme qui ne te doive une immense gratitude, ${name-player}.${prompt}
   108: |-
-    Ah, if it isn't ${name-player}!
-    You had best hurry off to Chateau d'Oraguille. It seems as if something terrible is in the works there.${prompt}
+    Ah, mais c’est ${name-player} !
+    Tu ferais mieux de te dépêcher d’aller au Château d’Oraguille. On dirait que quelque chose de terrible se prépare là-bas.${prompt}
   109: |-
-    Well, if it isn't ${name-player}!
-    Your timing is perfect. The chateau just sent a request for an adventurer.${prompt}
-  110: It looks as if this next mission has something to do with the late queen. You should feel honored. It's not every day that an adventurer gets to work directly with the royal family.${prompt}
+    Eh bien, mais c’est ${name-player} !
+    Ton timing est parfait. Le château vient juste d’envoyer une demande pour un aventurier.${prompt}
+  110: On dirait que la prochaine mission a un lien avec la défunte reine. Tu devrais te sentir honoré. Ce n’est pas tous les jours qu’un aventurier a l’occasion de travailler directement avec la famille royale.${prompt}
   111: |-
-    Spoken like a true San d'Orian!
-    Now hurry off to Chateau d'Oraguille and get the details on the mission from Monarlais Halver.${prompt}
-  112: What's wrong? Dealing with royalty is not your cup of tea? Well, think about it and come back when you've come to your senses.${prompt}
-  113: Prince Trion is requesting the aid of an adventurer. How about it?${prompt}
-  114: It looks fairly urgent, so you should hurry to the chateau. The prince is waiting in his chambers.${prompt}
-  115: I expected more from you, ${name-player}. If you change your mind, return here. I'll be waiting.${prompt}
-  116: I have received the details of your mission from Prince Trion. I will deliver this book to the scholars for deciphering.${prompt}
-  117: 'The deciphering of the ${keyitem-singular: 0[2]} will take a considerable amount of time. Return later for a report.${prompt}'
-  118: 'You handed the ${keyitem-singular: 0[2]} over to the guard.${prompt}'
+    Parlé comme un vrai San d’Orien !
+    Maintenant, dépêche-toi d’aller au Château d’Oraguille et obtiens les détails de la mission auprès de Monarlais Halver.${prompt}
+  112: Qu’est-ce qui ne va pas ? Traiter avec la royauté n’est pas ton fort ? Eh bien, réfléchis-y et reviens quand tu auras repris tes esprits.${prompt}
+  113: Le Prince Trion demande l’aide d’un aventurier. Qu’en dis-tu ?${prompt}
+  114: Ça semble assez urgent, alors tu devrais te dépêcher d’aller au château. Le prince t’attend dans ses appartements.${prompt}
+  115: J’attendais plus de toi, ${name-player}. Si tu changes d’avis, reviens ici. Je t’attendrai.${prompt}
+  116: J’ai reçu les détails de ta mission de la part du Prince Trion. Je vais livrer ce livre aux érudits pour qu’ils le déchiffrent.${prompt}
+  117: 'Le déchiffrement du ${keyitem-singular: 0[2]} prendra un temps considérable. Reviens plus tard pour un rapport.${prompt}'
+  118: 'Tu as remis le ${keyitem-singular: 0[2]} au garde.${prompt}'
   119: |-
-    Ah, ${name-player}. We've been waiting.
-    Prince Trion is calling for you. I wonder if this means the ${keyitem-singular: 0[2]} has been completely deciphered.${prompt}
-  120: Well done, ${name-player}! I knew you would not let the Kingdom down.${prompt}
-  121: I'm proud to increase your rank to 7!${prompt}
-  122: The papsque has work for you, ${name-player}. Are you willing to take on the task?${prompt}
-  123: Excellent. Proceed to the papsque's chambers on the third floor of the cathedral.${prompt}
-  124: The papsque often comes across as a difficult man, but he is actually very kindhearted and compassionate. If you change your mind, I'll be waiting here.${prompt}
-  125: The fair Claidie I d'Oraguille has invited you to the chateau. She wishes for you to see the flowers that have bloomed from the seeds you brought back from Altepa.${prompt}
-  126: It is an honor to be invited to the chateau garden. One day you may even have the opportunity to attend one of their royal garden parties.${prompt}
-  127: We cannot keep the princess waiting. Now, off to the chateau!${prompt}
-  128: A party of Royal Knights stationed in Ghelsba Outpost have reported strange activity by Orcs deep within Yughott Grotto.${prompt}
-  129: From your reports, we already know that the beastmen have built a giant portal, but their motives remain unclear.${prompt}
-  130: It makes me shudder to think of what those Orcs are planning with that portal...${prompt}
-  131: ${name-player}, your next mission is to travel to Ghelsba and continue your investigation into the Orcs' activities.${prompt}
-  132: Be on your guard when traveling deep into Yughott Grotto. Losing an adventurer such as yourself would deal a great blow to all of San d'Oria.${prompt}
-  133: I see you need more time for preparations. When you are ready, I'll be waiting.${prompt}
-  134: It's hard to believe Orcs have their hands on such dangerous equipment. More patrols will have to be sent out to prevent any new developments in their evil plans.${prompt}
-  135: 'And this ${keyitem-singular: 0[2]}... We will have to analyze it and begin reproduction for our forces. We cannot let Orcs get the Treasure of the Dragon King before San d''Oria does.${prompt}'
-  136: Well, congratulations on the completion of your mission. Hmmm? Do I know of an adventurer named Eideialc? Never heard of him.${prompt}
-  137: But you need not worry about some petty traveler. You are in a different league. You are now rank 8!${prompt}
-  138: Princess Claidie's coming-of-age ceremony is drawing near. This ceremony is an important facet of d'Oraguille tradition.${prompt}
-  139: Monarlais Halver has put out a call to high-ranking adventurers for their assistance in Chateau d'Oraguille.${prompt}
-  140: Ah, the young princess has finally become a lady... Oh, I'm sorry. You can get the details of your next mission from Sir Halver.${prompt}
-  141: What? You do not wish to repay the kindness the princess has shown to you in the past months? As you wish...but if you change your mind, you know where to find me.${prompt}
-  142: I am busy with preparations for Princess Claidie's coming-of-age ceremony. You don't know what kind of vermin could be roaming the streets and looking for trouble.${prompt}
-  143: Princess Claidie's coming-of-age ceremony is about to begin at the cathedral. I must remain at my post, but why don't you attend?${prompt}
-  144: The king has requested your audience. He has selected you from the mountain of adventurers in San d'Oria. You should feel honored!${prompt}
-  145: You have matured from a fledgling adventurer into a great asset to our kingdom. Do not let us down.${prompt}
-  146: There is no need for modesty at a time like this. The fate of San d'Oria is at stake!${prompt}
-  147: The authorities are saying that a dark cloud of despair is looming over the Kingdom. They are asking for the assistance of only the best adventurers.${prompt}
-  148: I can think of none more qualified than you. Will you accept this mission?${prompt}
+    Ah, ${name-player}. Nous t’attendions.
+    Le Prince Trion t’appelle. Je me demande si cela signifie que le ${keyitem-singular: 0[2]} a été complètement déchiffré.${prompt}
+  120: Bien joué, ${name-player} ! Je savais que tu ne décevrais pas le Royaume.${prompt}
+  121: J’ai l’honneur d’augmenter ton rang à 7 !${prompt}
+  122: Le papsque a du travail pour toi, ${name-player}. Es-tu prêt à relever cette tâche ?${prompt}
+  123: Excellent. Rends-toi dans les appartements du papsque au troisième étage de la cathédrale.${prompt}
+  124: Le papsque peut souvent sembler être un homme difficile, mais il est en réalité très bienveillant et compatissant. Si tu changes d’avis, je serai ici à t’attendre.${prompt}
+  125: La belle Claidie I d’Oraguille t’a invité au château. Elle souhaite que tu voies les fleurs qui ont éclos à partir des graines que tu as rapportées d’Altepa.${prompt}
+  126: C’est un honneur d’être invité dans le jardin du château. Un jour, tu auras peut-être même l’occasion d’assister à l’une de leurs réceptions royales dans le jardin.${prompt}
+  127: Nous ne pouvons pas faire attendre la princesse. Maintenant, direction le château !${prompt}
+  128: Un groupe de Chevaliers Royaux stationnés à l’Avant-poste de Ghelsba a rapporté une activité étrange des Orcs au plus profond de la Grotte de Yughott.${prompt}
+  129: D’après tes rapports, nous savons déjà que les hommes-bêtes ont construit un portail géant, mais leurs motifs restent flous.${prompt}
+  130: Ça me fait frissonner de penser à ce que ces Orcs préparent avec ce portail…${prompt}
+  131: ${name-player}, ta prochaine mission est de te rendre à Ghelsba et de poursuivre ton enquête sur les activités des Orcs.${prompt}
+  132: Sois sur tes gardes lorsque tu t’aventures profondément dans la Grotte de Yughott. Perdre un aventurier tel que toi serait un coup dur pour tout San d’Oria.${prompt}
+  133: Je vois que tu as besoin de plus de temps pour te préparer. Quand tu seras prêt, je t’attendrai.${prompt}
+  134: C’est difficile à croire que les Orcs aient mis la main sur un équipement aussi dangereux. Il faudra envoyer plus de patrouilles pour empêcher tout nouveau développement dans leurs plans maléfiques.${prompt}
+  135: 'Et ce ${keyitem-singular: 0[2]}… Nous devrons l’analyser et commencer à le reproduire pour nos forces. Nous ne pouvons pas laisser les Orcs s’emparer du Trésor du Roi Dragon avant San d’Oria.${prompt}'
+  136: Eh bien, félicitations pour avoir terminé ta mission. Hmmm ? Est-ce que je connais un aventurier nommé Eideialc ? Jamais entendu parler de lui.${prompt}
+  137: Mais tu n’as pas à t’inquiéter pour un voyageur insignifiant. Tu es dans une tout autre catégorie. Tu es maintenant de rang 8 !${prompt}
+  138: La cérémonie de passage à l’âge adulte de la Princesse Claidie approche. Cette cérémonie est une facette importante de la tradition d’Oraguille.${prompt}
+  139: Monarlais Halver a lancé un appel aux aventuriers de haut rang pour leur assistance au Château d’Oraguille.${prompt}
+  140: Ah, la jeune princesse est enfin devenue une femme… Oh, je suis désolé. Tu peux obtenir les détails de ta prochaine mission auprès de Seigneur Halver.${prompt}
+  141: Quoi ? Tu ne souhaites pas rendre la gentillesse que la princesse t’a témoignée ces derniers mois ? Comme tu veux… mais si tu changes d’avis, tu sais où me trouver.${prompt}
+  142: Je suis occupé avec les préparatifs de la cérémonie de passage à l’âge adulte de la Princesse Claidie. On ne sait pas quel genre de vermine pourrait rôder dans les rues et chercher des ennuis.${prompt}
+  143: La cérémonie de passage à l’âge adulte de la Princesse Claidie est sur le point de commencer à la cathédrale. Je dois rester à mon poste, mais pourquoi n’y assisterais-tu pas ?${prompt}
+  144: Le roi a requis ton audience. Il t’a choisi parmi la foule d’aventuriers de San d’Oria. Tu devrais te sentir honoré !${prompt}
+  145: Tu as mûri, passant d’un aventurier novice à une grande ressource pour notre royaume. Ne nous déçois pas.${prompt}
+  146: Ce n’est pas le moment de faire preuve de modestie. Le destin de San d’Oria est en jeu !${prompt}
+  147: Les autorités disent qu’un nuage sombre de désespoir plane sur le Royaume. Elles demandent l’aide des meilleurs aventuriers uniquement.${prompt}
+  148: Je ne peux penser à personne de plus qualifié que toi. Accepteras-tu cette mission ?${prompt}
   149: |-
-    Then proceed to the Audience Chamber in the Chateau d'Oraguille.
-    Word has it that His Highness is not feeling that well. He may not be present for your briefing.${prompt}
-  150: ${choice-player-gender}[Sir/Lady] ${name-player}! The Kingdom is counting on you. Who else, I ask you, is worthy for this task?${prompt}
-  151: Ah, a time of great change is upon us. In a matter of days, the Rites of Succession will be held at the cathedral in Northern San d'Oria. It is then that the new heir to the throne will be decided.${prompt}
-  152: Due to the unpredictable circumstances that took place at the princess's coming-of-age ceremony, this time, only authorized personnel will be allowed near the proceedings. However, the royal family has requested your services as a guard.${prompt}
-  153: Even we Royal Knights have not been granted permission to attend... You must be held in high regard by His Highness. I envy you, ${choice-player-gender}[Sir/Ma'am].${prompt}
-  154: When you have finished your preparations, proceed directly to the cathedral to report.${prompt}
-  155: Off the record, which of the two princes do you think should be the next heir to the throne?${prompt}
+    Alors rends-toi à la Salle d’Audience dans le Château d’Oraguille.
+    On dit que Son Altesse ne se sent pas très bien. Il se peut qu’il ne soit pas présent pour ton briefing.${prompt}
+  150: ${choice-player-gender}[Seigneur/Madame] ${name-player} ! Le Royaume compte sur toi. Qui d’autre, je te le demande, est digne de cette tâche ?${prompt}
+  151: Ah, une période de grands changements est sur nous. Dans quelques jours, les Rites de Succession auront lieu à la cathédrale dans le nord de San d’Oria. C’est à ce moment-là que le nouvel héritier du trône sera décidé.${prompt}
+  152: En raison des circonstances imprévisibles qui ont eu lieu lors de la cérémonie de passage à l’âge adulte de la princesse, cette fois, seules les personnes autorisées seront autorisées à s’approcher des cérémonies. Cependant, la famille royale a requis tes services en tant que garde.${prompt}
+  153: Même nous, les Chevaliers Royaux, n’avons pas été autorisés à y assister… Tu dois être tenu en haute estime par Son Altesse. Je t’envie, ${choice-player-gender}[Seigneur/Madame].${prompt}
+  154: Lorsque tu auras terminé tes préparatifs, rends-toi directement à la cathédrale pour faire ton rapport.${prompt}
+  155: Hors sujet, lequel des deux princes penses-tu qui devrait être le prochain héritier du trône ?${prompt}
   156: |-
-    It is a difficult decision, but...
+    C’est une décision difficile, mais…
     ${selection-lines}
-    Trion is better suited.
-    Pieuje is better suited.${prompt}
+    Trion est plus adapté.
+    Pieuje est plus adapté.${prompt}
   157: |-
-    Hm...
-    Being the oldest, he is the true heir, and many people believe he is the most suited to rule the Kingdom. However, Prince Pieuje's prudent ways may be what this country is lacking.${prompt}
-  158: Many think as you do, ${choice-player-gender}[Sir/Lady] ${name-player}. However, what this country may need is someone who will not back down in the face of a threat--someone who will stand up for the pride of the Kingdom.${prompt}
-  159: But our opinion is of no matter. Lightbringer will decide who is the most suited to stand over our fine nation. And do not speak a word of today's exchange, for the monarlais will have our heads if he finds out.${prompt}
-  160: I realize that you must have many preparations before taking on such an important mission. Take your time and return here when you are ready.${prompt}
+    Hm…
+    Étant l’aîné, il est le véritable héritier, et beaucoup de gens pensent qu’il est le plus apte à gouverner le Royaume. Cependant, les manières prudentes du Prince Pieuje pourraient être ce qui manque à ce pays.${prompt}
+  158: Beaucoup pensent comme toi, ${choice-player-gender}[Seigneur/Madame] ${name-player}. Cependant, ce dont ce pays a peut-être besoin, c’est de quelqu’un qui ne recule pas face à une menace – quelqu’un qui défendra la fierté du Royaume.${prompt}
+  159: Mais notre opinion n’a pas d’importance. Lightbringer décidera qui est le plus apte à diriger notre belle nation. Et ne dis pas un mot de notre échange d’aujourd’hui, car le monarlais nous fera couper la tête s’il l’apprend.${prompt}
+  160: Je réalise que tu dois avoir beaucoup de préparatifs avant de te lancer dans une mission aussi importante. Prends ton temps et reviens ici quand tu seras prêt.${prompt}
   161: 'DEBUG: U_MS_START= "${number: 0}"${prompt}'
   162: 'DEBUG: Went to Davoi, got the report.${prompt}'
   163: |-
-    Clear Conditions Fulfilled:
+    Conditions de réussite remplies :
     ${selection-lines}
-    1-1　Brought back Orcish Axe.
-    1-2　Brought back Bat Fang.
-    1-3　Rescued the children.
-    2-1　Training complete.
-    2-2　Finished Davoi village.
-    2-3　Visited other countries.
-    3-1　Davoi Killing Grounds.
+    1-1　Rapporté une hache orque.
+    1-2　Rapporté un croc de chauve-souris.
+    1-3　Sauvé les enfants.
+    2-1　Entraînement terminé.
+    2-2　Terminé le village de Davoi.
+    2-3　Visité d’autres pays.
+    3-1　Terrains de chasse de Davoi.
     3-2.
     3-3.
     4-1.
@@ -257,67 +257,67 @@ entries:
     9-2.
     10-1.
     10-2.${prompt}
-  164: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  165: I've not told you about Mog Houses yet, have I? Would you care to learn about them now?${prompt}
+  164: La zone résidentielle de San d’Oria est devant. Tu y trouveras ta Maison Mog.${prompt}
+  165: Je ne t’ai pas encore parlé des Maisons Mog, n’est-ce pas ? Souhaites-tu en apprendre davantage maintenant ?${prompt}
   166: |-
-    Care to learn about Mog Houses?
+    Veux-tu en savoir plus sur les Maisons Mog ?
     ${selection-lines}
-    Sure!
-    No, thanks.${prompt}
-  167: Mog Houses are useful places. You can recover your HP and MP, and store items there.${prompt}
+    Bien sûr !
+    Non, merci.${prompt}
+  167: Les Maisons Mog sont des endroits utiles. Tu peux y récupérer tes HP et MP, et y stocker des objets.${prompt}
   168: |-
-    You can also change jobs there.
-    All adventurers of San d'Orian citizenship are assigned a Mog House.${prompt}
-  169: Make yourself at home!${prompt}
-  170: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  171: Would you like to hear about Mog Houses again?${prompt}
-  172: Hmm... So be it.${prompt}
-  173: Ahead lies the residential area. You'll find your Mog House within.${prompt}
-  174: 'By the way, my records indicate that you''re renting a room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  175: 'Would you like to check out of the room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] and move your things back here?${prompt}'
+    Tu peux aussi y changer de métier.
+    Tous les aventuriers de citoyenneté San d’Orienne se voient attribuer une Maison Mog.${prompt}
+  169: Fais comme chez toi !${prompt}
+  170: La zone résidentielle de San d’Oria est devant. Tu y trouveras ta Maison Mog.${prompt}
+  171: Souhaites-tu que je te parle à nouveau des Maisons Mog ?${prompt}
+  172: Hmm… Soit.${prompt}
+  173: La zone résidentielle est devant. Tu y trouveras ta Maison Mog.${prompt}
+  174: 'D’ailleurs, selon mes registres, tu loues une chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  175: 'Souhaites-tu résilier la location de la chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] et ramener tes affaires ici ?${prompt}'
   176: |-
-    Move back to San d'Oria?
+    Revenir à San d’Oria ?
     ${selection-lines}
-    Yes, please.
-    No, not yet.${prompt}
-  177: 'It is done. We''ve checked you out of your Rent-a-Room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  178: All your belongings should be waiting for you inside. Those moogles are amazing creatures, are they not?${prompt}
-  179: Ahead lies the residential area. Proceed to your Rent-a-Room, foreigner!${prompt}
-  180: If you're already renting here, you may come and go as you please, like the Mog House in your homeland.${prompt}
-  181: Ahead lies the residential area.${prompt}
-  182: Wait! By law, all foreigners must lease a Rent-a-Room before entering the residential area!${prompt}
-  183: Once you've registered with us, you can use it as you would a Mog House back home, wherever that may be.${prompt}
+    Oui, s’il te plaît.
+    Non, pas encore.${prompt}
+  177: 'C’est fait. Nous avons résilié ta location de chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  178: Toutes tes affaires devraient t’attendre à l’intérieur. Ces mogs sont des créatures incroyables, n’est-ce pas ?${prompt}
+  179: La zone résidentielle est devant. Rends-toi à ta chambre louée, étranger !${prompt}
+  180: Si tu loues déjà ici, tu peux aller et venir à ta guise, comme dans la Maison Mog de ton pays d’origine.${prompt}
+  181: La zone résidentielle est devant.${prompt}
+  182: Attends ! Selon la loi, tous les étrangers doivent louer une chambre avant d’entrer dans la zone résidentielle !${prompt}
+  183: Une fois que tu te seras inscrit chez nous, tu pourras l’utiliser comme tu le ferais avec une Maison Mog chez toi, où que ce soit.${prompt}
   184: |-
-    Will you stay in San d'Oria?
+    Vas-tu rester à San d’Oria ?
     ${selection-lines}
-    Yes.
-    No, I'd rather not.${prompt}
-  185: All right, then. A San d'Orian Rent-a-Room has been leased to your name. Now move along, foreigner!${prompt}
+    Oui.
+    Non, je préfère pas.${prompt}
+  185: Très bien, alors. Une chambre de location San d’Orienne a été louée à ton nom. Maintenant, avance, étranger !${prompt}
   186: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Tu peux définir ceci comme ton point de retour actuel.
+    Une fois que tu as défini un point de retour, tu y reviendras chaque fois que tu seras incapacitado.
   187: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  188: Home point set!${prompt}
-  189: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  188: Point de retour défini !${prompt}
+  189: Un point de retour peut être défini comme un endroit où retourner à Vana’diel lorsque tu as été mis hors de combat. Tu peux aussi utiliser un point de retour pour te téléporter vers d’autres points de retour.
   190: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme ton point de retour.
+    Autres paramètres.
+    À bien y réfléchir, laisse tomber.${prompt}
   191: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  192: You may teleport from here to any other home point you have registered.
+    Tu as enregistré un nouveau point de retour !
+    Tu peux maintenant te téléporter ici depuis n’importe quel autre point de retour.${prompt}
+  192: Tu peux te téléporter d’ici vers tout autre point de retour que tu as enregistré.
   193: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    Never mind.
+    Laisse tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -334,81 +334,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   194: |-
-    Teleport where?（${zone: 33[2]}）
+    Te téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  195: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  196: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  197: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  195: Tu n’as pas encore enregistré d’autres points de retour, et donc tu ne peux pas te téléporter.${prompt}
+  196: 'Il en coûte ${number: 3} gils pour te téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
+  197: 'Il n’y a pas de frais pour te téléporter au Point de retour #${number: 2} dans ${zone: 1[2]}.'
   198: |-
-    Teleport? (Current gil: ${number: 0})
+    Te téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s’il te plaît.
+    Non, merci.${prompt}
   199: |-
-    Teleport to which region?
+    Te téléporter dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    À bien y réfléchir, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel de Tavnazia].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
+    ${choice: 1}[Tu’Lia/].
+    Page précédente.
+    Page suivante.${prompt}
   200: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  201: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucune de ces options.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  201: Tu peux modifier la méthode de sélection de la zone de ton point de retour souhaité pour te téléporter.
   202: |-
-    Which setting would you like?
+    Quel paramètre souhaites-tu ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  203: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  203: 'Tu sélectionnes maintenant par ${choice: 1}[région/extension].'
   204: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucune de ces options.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -418,13 +418,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  205: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  206: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  205: 'Le Point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] ta liste d’emplacements favoris.'
+  206: Ta liste d’emplacements favoris est pleine. Tu dois supprimer une entrée existante pour pouvoir en enregistrer une nouvelle.
   207: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
