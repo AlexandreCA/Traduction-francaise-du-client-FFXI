@@ -17510,218 +17510,218 @@ entries:
   7026: ${prompt}
   7027: ${prompt}
   7028: ${prompt}
-  7029: 'You have obtained ${number: 0} bayld!${prompt}'
-  7030: 'You have obtained ${number: 0} bayld!'
-  7031: You do not have enough bayld!${prompt}
-  7032: You do not have enough bayld!
-  7033: 'You can now become a ${choice: 0}[geomancer/rune fencer]!${prompt}'
-  7034: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount in the corresponding locale.${prompt}'
-  7035: A faint energy wafts up from the ground.${prompt}
-  7036: Your device has already been attuned to a geomagnetic fount in the corresponding locale.${prompt}
-  7037: 'You have learned ${keyitem-singular: 0[2]}!${prompt}'
-  7038: I eat, breathe, and sleep delivery services! Even if the heavens come tumbling down, the seas engulf all of Adoulin, or eternal darkness descends upon the world, you needn't worry about your package!${prompt}
-  7039: '${color-alt: 123}The level of difficulty for this content is ${number: 0}.${prompt}'
-  7040: 'Your maximum level has been raised to ${choice: 0}[50/55/60/65/70/75/80/85/90/95/99]!${prompt}'
-  7041: '${color-alt: 123}You have entered belligerency.${prompt}'
-  7042: '${color-alt: 123}You have entered belligerency and your level has been restricted to ${number: 0}.${prompt}'
-  7043: '${color-alt: 123}You have entered belligerency. Your level has been restricted to ${number: 0} and the attributes of applicable equipment you may be wearing have been appropriately reduced.${prompt}'
-  7044: You have learned a new instinct!${prompt}
-  7045: '${color-alt: 123}Your party is unable to participate because certain members'' levels are restricted.${prompt}'
-  7046: Please remove your level restriction before endeavoring to participate.${prompt}
-  7047: 'You learned Trust: ${spell: 1}!'
-  7048: You are now able to call multiple alter egos.
+  7029: 'Tu as obtenu ${number: 0} baylds !${prompt}'
+  7030: 'Tu as obtenu ${number: 0} baylds !'
+  7031: Tu n’as pas assez de baylds !${prompt}
+  7032: Tu n’as pas assez de baylds !
+  7033: 'Tu peux maintenant devenir un ${choice: 0}[géomancien/épéiste runique] !${prompt}'
+  7034: 'Ton ${keyitem-singular: 1[2]} a été harmonisé avec une source géomagnétique dans la région correspondante.${prompt}'
+  7035: Une faible énergie s’élève du sol.${prompt}
+  7036: Ton appareil a déjà été harmonisé avec une source géomagnétique dans la région correspondante.${prompt}
+  7037: 'Tu as appris ${keyitem-singular: 0[2]} !${prompt}'
+  7038: Je mange, respire et dors pour les services de livraison ! Même si les cieux s’effondrent, que les mers engloutissent tout Adoulin, ou que l’obscurité éternelle descende sur le monde, tu n’as pas à t’inquiéter pour ton colis !${prompt}
+  7039: '${color-alt: 123}Le niveau de difficulté de ce contenu est de ${number: 0}.${prompt}'
+  7040: 'Ton niveau maximum a été augmenté à ${choice: 0}[50/55/60/65/70/75/80/85/90/95/99] !${prompt}'
+  7041: '${color-alt: 123}Tu es entré en belligérance.${prompt}'
+  7042: '${color-alt: 123}Tu es entré en belligérance et ton niveau a été restreint à ${number: 0}.${prompt}'
+  7043: '${color-alt: 123}Tu es entré en belligérance. Ton niveau a été restreint à ${number: 0} et les attributs de l’équipement applicable que tu portes ont été réduits en conséquence.${prompt}'
+  7044: Tu as appris un nouvel instinct !${prompt}
+  7045: '${color-alt: 123}Ton groupe ne peut pas participer car certains membres ont des niveaux restreints.${prompt}'
+  7046: Veuillez retirer votre restriction de niveau avant de tenter de participer.${prompt}
+  7047: 'Tu as appris Confiance : ${spell: 1} !'
+  7048: Tu es maintenant capable d’invoquer plusieurs alter egos.
   7049: |-
-    Enter?
+    Entrer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7050: |-
-    Leave?
+    Partir ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7051: The cutscene has unexpectedly terminated. Examine the Resume Point to continue.
+    Oui.
+    Non.${prompt}
+  7051: La cinématique s’est terminée de manière inattendue. Examinez le Point de Reprise pour continuer.
   7052: |-
-    What do you wish to do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Show me the cutscene again.
-    Skip the cutscene and continue.${prompt}
-  7053: Displaying the next scene.
-  7054: Alter egos may be used here without any effect on enmity.
-  7055: '${color-alt: 123}The maximum level of the content you are currently attempting is ${number: 0}.${prompt}'
+    Montre-moi à nouveau la cinématique.
+    Passer la cinématique et continuer.${prompt}
+  7053: Affichage de la scène suivante.
+  7054: Les alter egos peuvent être utilisés ici sans affecter l’inimitié.
+  7055: '${color-alt: 123}Le niveau maximum du contenu que tu es en train d’essayer est de ${number: 0}.${prompt}'
   7056: '${number: 0} ${number: 1} ${number: 2} ${number: 3}'
   7057: '${number: 4} ${number: 5} ${number: 6} ${number: 7}'
-  7058: The Unity ranking tabulation period has begun.
-  7059: The Unity ranking tabulation period has ended.
-  7060: '${choice: 0}[Unranked/First place/Second place/Third place/Fourth place/Fifth place]: ${choice: 1}[Pieuje/Ayame/Invincible Shield/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie].'
+  7058: La période de calcul du classement d’Unité a commencé.
+  7059: La période de calcul du classement d’Unité s’est terminée.
+  7060: '${choice: 0}[Non classé/Première place/Deuxième place/Troisième place/Quatrième place/Cinquième place] : ${choice: 1}[Pieuje/Ayame/Bouclier Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie].'
   7061: |-
-    Jump into the vortex?
+    Sauter dans le vortex ?
     ${selection-lines}
-    Off we go!
-    Not just yet.${prompt}
-  7062: Nothing out of the ordinary happens.${prompt}
-  7063: '${color-alt: 123}You are unable to proceed to the next area because ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin] is not registered to your account.${prompt}'
-  7064: 'You are now able to call forth alter egos here because you have obtained the ${keyitem-singular: 0[2]} key item.'
-  7065: 'You cannot carry any more ${keyitem-plural: 0[2]}.${prompt}'
-  7066: '${color-alt: 138}You have been promoted to ${choice: 0}[/Private First Class/Superior Private/Lance Corporal/Corporal/Sergeant/Sergeant Major/Chief Sergeant/Second Lieutenant/First Lieutenant/Captain]!${prompt}'
-  7067: Your bags mysteriously feel a little bit heavier...${prompt}
-  7068: 'The bonds tying you to Altana have strengthened, enabling you to experience all the memories of ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin]!${prompt}'
-  7069: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the ${choice: 1}[Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin/Rise of the Zilart] missions.'
-  7070: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the quest ${choice: 1}[Champion of the Dawn/A Forbidden Reunion].'
-  7071: The crystal glistens with a divine radiance.${prompt}
-  7072: '${color-alt: 138}You must visit Aht Urhgan Whitegate in order to progress in the Rhapsodies of Vana''diel missions.'
-  7073: '${color-alt: 123}You have been awarded the temporary item ${item-singular: 0[2]} as compensation.${prompt}'
-  7074: '${color-alt: 123}You already posses the temporary item ${item-singular: 0[2]} and cannot receive another one as compensation.${prompt}'
-  7075: '${color-alt: 123}Please claim your item before maintenance for the February 2022 version update begins.${prompt}'
-  7076: 'You have been rewarded ${article} ${item-article: 0[2]} as compensation.${prompt}'
-  7077: 'You are unable to accept the compensatory ${item-singular: 0[2]}. Free up some space in your inventory and try again.${prompt}'
-  7078: '${color-alt: 123}Please claim your item before maintenance for the October 2022 version update begins.${prompt}'
-  7079: 'You receive ${number: 0} deeds for a total of ${number: 1}!${prompt}'
-  7080: '${color-alt: 161}Word has been received of a Mamool Ja threat in Wajaom Woodlands.${prompt}'
-  7081: '${color-alt: 161}Word has been received of a Troll threat in Wajaom Woodlands.${prompt}'
-  7082: '${color-alt: 161}Word has been received of an undead threat in Bhaflau Thickets.${prompt}'
-  7083: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
-  7084: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
-  7085: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
-  7086: Tallying conquest results...${prompt}
-  7087: Conquest results tallied.${prompt}
-  7088: This region is currently under San d'Orian control.${prompt}
-  7089: This region is currently under Bastokan control.${prompt}
-  7090: This region is currently under Windurstian control.${prompt}
+    Allons-y !
+    Pas encore.${prompt}
+  7062: Rien d’inhabituel ne se produit.${prompt}
+  7063: '${color-alt: 123}Tu ne peux pas avancer vers la prochaine zone car ${choice: 0}[L’Ascension de Zilart/Les Chaînes de Promathia/Les Trésors d’Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d’Adoulin] n’est pas enregistré sur ton compte.${prompt}'
+  7064: 'Tu peux maintenant invoquer des alter egos ici car tu as obtenu l’objet clé ${keyitem-singular: 0[2]}.'
+  7065: 'Tu ne peux pas porter plus de ${keyitem-plural: 0[2]}.${prompt}'
+  7066: '${color-alt: 138}Tu as été promu au rang de ${choice: 0}[/Soldat de Première Classe/Soldat Supérieur/Caporal Adjoint/Caporal/Sergent/Sergent-Major/Sergent-Chef/Sous-Lieutenant/Premier Lieutenant/Capitaine] !${prompt}'
+  7067: Tes sacs semblent mystérieusement un peu plus lourds…${prompt}
+  7068: 'Les liens qui te relient à Altana se sont renforcés, te permettant de vivre tous les souvenirs de ${choice: 0}[L’Ascension de Zilart/Les Chaînes de Promathia/Les Trésors d’Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d’Adoulin] !${prompt}'
+  7069: '${color-alt: 138}Tu ne peux pas progresser davantage dans les Rhapsodies de Vana’diel en raison d’un événement survenant dans les missions de ${choice: 1}[Les Chaînes de Promathia/Les Trésors d’Aht Urhgan/Les Ailes de la Déesse/Les Chercheurs d’Adoulin/L’Ascension de Zilart].'
+  7070: '${color-alt: 138}Tu ne peux pas progresser davantage dans les Rhapsodies de Vana’diel en raison d’un événement survenant dans la quête ${choice: 1}[Champion de l’Aube/Une Réunion Interdite].'
+  7071: Le cristal scintille d’une radiance divine.${prompt}
+  7072: '${color-alt: 138}Tu dois visiter la Porte Blanche d’Aht Urhgan pour progresser dans les missions des Rhapsodies de Vana’diel.'
+  7073: '${color-alt: 123}Tu as reçu l’objet temporaire ${item-singular: 0[2]} en compensation.${prompt}'
+  7074: '${color-alt: 123}Tu possèdes déjà l’objet temporaire ${item-singular: 0[2]} et ne peux pas en recevoir un autre en compensation.${prompt}'
+  7075: '${color-alt: 123}Veuillez réclamer votre objet avant que la maintenance pour la mise à jour de février 2022 ne commence.${prompt}'
+  7076: 'Tu as été récompensé avec ${article} ${item-article: 0[2]} en compensation.${prompt}'
+  7077: 'Tu ne peux pas accepter l’objet de compensation ${item-singular: 0[2]}. Libère de l’espace dans ton inventaire et réessaie.${prompt}'
+  7078: '${color-alt: 123}Veuillez réclamer votre objet avant que la maintenance pour la mise à jour d’octobre 2022 ne commence.${prompt}'
+  7079: 'Tu as reçu ${number: 0} actes pour un total de ${number: 1} !${prompt}'
+  7080: '${color-alt: 161}Des nouvelles ont été reçues concernant une menace Mamool Ja dans les Bois de Wajaom.${prompt}'
+  7081: '${color-alt: 161}Des nouvelles ont été reçues concernant une menace Troll dans les Bois de Wajaom.${prompt}'
+  7082: '${color-alt: 161}Des nouvelles ont été reçues concernant une menace de morts-vivants dans les Fourrés de Bhaflau.${prompt}'
+  7083: '${color-alt: 121}Les objectifs des Records d’Éminence de Vana’bout ont été mis à jour.${prompt}'
+  7084: '${color-alt: 121}Vana’bout n° ${number: 0} a commencé !${prompt}'
+  7085: '${color-alt: 121}Vana’bout n° ${number: 0} s’est terminé.${prompt}'
+  7086: Calcul des résultats de la conquête…${prompt}
+  7087: Résultats de la conquête calculés.${prompt}
+  7088: Cette région est actuellement sous le contrôle de San d’Oria.${prompt}
+  7089: Cette région est actuellement sous le contrôle de Bastok.${prompt}
+  7090: Cette région est actuellement sous le contrôle de Windurst.${prompt}
   7091: |-
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  7092: This region is currently neutral.${prompt}
+    Cette région est actuellement sous le contrôle des hommes-bêtes.
+    Tu ne peux pas obtenir de cristaux dans cette région.${prompt}
+  7092: Cette région est actuellement neutre.${prompt}
   7093: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Windurst
-    3rd: Bastok${prompt}
-  7094: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria
+    2e : Windurst
+    3e : Bastok${prompt}
+  7094: Les trois nations sont à égalité pour la première place.${prompt}
   7095: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria et Windurst (ex æquo)
+    3e : Bastok${prompt}
   7096: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria
+    2e : Bastok et Windurst (ex æquo)${prompt}
   7097: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok
-    3rd: Windurst${prompt}
-  7098: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria
+    2e : Bastok
+    3e : Windurst${prompt}
+  7098: Les trois nations sont à égalité pour la première place.${prompt}
   7099: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria et Bastok (ex æquo)
+    3e : Windurst${prompt}
   7100: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria
+    2e : Bastok et Windurst (ex æquo)${prompt}
   7101: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria
-    3rd: Windurst${prompt}
-  7102: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d’Oria
+    3e : Windurst${prompt}
+  7102: Les trois nations sont à égalité pour la première place.${prompt}
   7103: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria et Bastok (ex æquo)
+    3e : Windurst${prompt}
   7104: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d’Oria et Windurst (ex æquo)${prompt}
   7105: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: Windurst
-    3rd: San d'Oria${prompt}
-  7106: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : Windurst
+    3e : San d’Oria${prompt}
+  7106: Les trois nations sont à égalité pour la première place.${prompt}
   7107: |-
-    Global balance of power:
-    1st: Bastok and Windurst (tie)
-    3rd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst (ex æquo)
+    3e : San d’Oria${prompt}
   7108: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d’Oria et Windurst (ex æquo)${prompt}
   7109: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d’Oria
+    3e : Bastok${prompt}
   7110: |-
-    Global balance of power:
-    All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    Les trois nations sont à égalité pour la première place.${prompt}
   7111: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d’Oria et Windurst (ex æquo)
+    3e : Bastok${prompt}
   7112: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d’Oria et Bastok (ex æquo)${prompt}
   7113: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: Bastok
-    3rd: San d'Oria${prompt}
-  7114: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : Bastok
+    3e : San d’Oria${prompt}
+  7114: Les trois nations sont à égalité pour la première place.${prompt}
   7115: |-
-    Global balance of power:
-    1st: Bastok and Windurst
-    2nd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst
+    2e : San d’Oria${prompt}
   7116: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d’Oria et Bastok${prompt}
   7117: |-
-    Conquest update:
-    This region is currently neutral.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement neutre.${prompt}
   7118: |-
-    Conquest update:
-    This region is currently under San d'Orian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de San d’Oria.${prompt}
   7119: |-
-    Conquest update:
-    This region is currently under Bastokan control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Bastok.${prompt}
   7120: |-
-    Conquest update:
-    This region is currently under Windurstian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle de Windurst.${prompt}
   7121: |-
-    Conquest update:
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  7122: All three nations are at a deadlock.${prompt}
-  7123: The beastmen are on the rise.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous le contrôle des hommes-bêtes.
+    Tu ne peux pas obtenir de cristaux dans cette région.${prompt}
+  7122: Les trois nations sont dans une impasse.${prompt}
+  7123: Les hommes-bêtes gagnent en puissance.${prompt}
   7124: |-
-    Regional influence:
-    San d'Oria - Dominant${prompt}
+    Influence régionale :
+    San d’Oria - Dominante${prompt}
   7125: |-
-    Regional influence:
-    San d'Oria - Major${prompt}
+    Influence régionale :
+    San d’Oria - Majeure${prompt}
   7126: |-
-    Regional influence:
-    San d'Oria - Minor${prompt}
+    Influence régionale :
+    San d’Oria - Mineure${prompt}
   7127: |-
-    Regional influence:
-    San d'Oria - Minimal${prompt}
-  7128: Bastok - Dominant${prompt}
-  7129: Bastok - Major${prompt}
-  7130: Bastok - Minor${prompt}
-  7131: Bastok - Minimal${prompt}
-  7132: Windurst - Dominant${prompt}
-  7133: Windurst - Major${prompt}
-  7134: Windurst - Minor${prompt}
-  7135: Windurst - Minimal${prompt}
-  7136: Bastok and Windurst have formed an alliance.${prompt}
-  7137: San d'Oria and Windurst have formed an alliance.${prompt}
-  7138: San d'Oria and Bastok have formed an alliance.${prompt}
-  7139: Bastok and Windurst are currently allies.${prompt}
-  7140: San d'Oria and Windurst are currently allies.${prompt}
-  7141: San d'Oria and Bastok are currently allies.${prompt}
+    Influence régionale :
+    San d’Oria - Minimale${prompt}
+  7128: Bastok - Dominante${prompt}
+  7129: Bastok - Majeure${prompt}
+  7130: Bastok - Mineure${prompt}
+  7131: Bastok - Minimale${prompt}
+  7132: Windurst - Dominante${prompt}
+  7133: Windurst - Majeure${prompt}
+  7134: Windurst - Mineure${prompt}
+  7135: Windurst - Minimale${prompt}
+  7136: Bastok et Windurst ont formé une alliance.${prompt}
+  7137: San d’Oria et Windurst ont formé une alliance.${prompt}
+  7138: San d’Oria et Bastok ont formé une alliance.${prompt}
+  7139: Bastok et Windurst sont actuellement alliés.${prompt}
+  7140: San d’Oria et Windurst sont actuellement alliés.${prompt}
+  7141: San d’Oria et Bastok sont actuellement alliés.${prompt}
   7142: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
@@ -17738,27 +17738,27 @@ entries:
   7146: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  7147: The beastmen are gaining power.${prompt}
-  7148: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  7149: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  7150: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  7151: San d'Oria's region points have increased!${prompt}
-  7152: Bastok's region points have increased!${prompt}
-  7153: Windurst's region points have increased!${prompt}
-  7154: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  7155: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7156: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7157: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  7158: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  7159: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  7160: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  7161: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  7162: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  7163: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  7164: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  7165: There was a curse on the beastmen's banner!${prompt}
-  7166: The curse of the beastmen's banner has been lifted!${prompt}
-  7167: There is a beastmen's banner.${prompt}
+  7147: Les hommes-bêtes gagnent en puissance.${prompt}
+  7148: Le contrôle régional de San d’Oria est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  7149: Le contrôle régional de Bastok est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  7150: Le contrôle régional de Windurst est maintenant 10 % plus proche de celui du pays en première place !${prompt}
+  7151: Les points de région de San d’Oria ont augmenté !${prompt}
+  7152: Les points de région de Bastok ont augmenté !${prompt}
+  7153: Les points de région de Windurst ont augmenté !${prompt}
+  7144: La F.E. de San d’Oria défait des hordes d’hommes-bêtes… Maintenez l’élan actuel.${prompt}
+  7155: La F.E. de Bastok défait des hordes d’hommes-bêtes… Maintenez l’élan actuel.${prompt}
+  7156: La F.E. de Windurst défait des hordes d’hommes-bêtes… Maintenez l’élan actuel.${prompt}
+  7157: Une Force Expéditionnaire de San d’Oria a été déployée dans cette zone.${prompt}
+  7158: Une Force Expéditionnaire de Bastok a été déployée dans cette zone.${prompt}
+  7159: Une Force Expéditionnaire de Windurst a été déployée dans cette zone.${prompt}
+  7160: 'Influence de la F.E. : Élevée… Statut de la région : Dominante… Maintenez le niveau actuel de combat.${prompt}'
+  7161: 'Influence de la F.E. : Modérée… Statut de la région : Majeure… Maintenez l’élan.${prompt}'
+  7162: 'Influence de la F.E. : Faible… Statut de la région : Mineure… Augmentez les efforts.${prompt}'
+  7163: 'Influence de la F.E. : Minimale… Statut de la région : Minimale… Augmentez les efforts de manière décuplée.${prompt}'
+  7164: 'Influence de la F.E. : Aucune… Statut de la région : Sous le contrôle des hommes-bêtes… Minimisez les pertes.${prompt}'
+  7165: Il y avait une malédiction sur la bannière des hommes-bêtes !${prompt}
+  7166: La malédiction de la bannière des hommes-bêtes a été levée !${prompt}
+  7167: Il y a une bannière des hommes-bêtes.${prompt}
   7168: 　${prompt}
   7169: 　${prompt}
   7170: 　${prompt}
@@ -17840,55 +17840,55 @@ entries:
   7244: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  7245: You can't fish here.${prompt}
-  7246: You can't fish without a rod in your hands.${prompt}
-  7247: You can't fish without bait on the hook.${prompt}
-  7248: You can't fish at the moment.${prompt}
-  7249: You didn't catch anything.${prompt}
-  7250: '${entity: 0} caught a monster!${prompt}'
-  7251: Your line breaks.${prompt}
-  7252: Your rod breaks.${prompt}
-  7253: Something caught the hook!${prompt}
-  7254: You lost your catch.${prompt}
+  7245: Tu ne peux pas pêcher ici.${prompt}
+  7246: Tu ne peux pas pêcher sans une canne à pêche dans les mains.${prompt}
+  7247: Tu ne peux pas pêcher sans appât sur l’hameçon.${prompt}
+  7248: Tu ne peux pas pêcher pour le moment.${prompt}
+  7249: Tu n’as rien attrapé.${prompt}
+  7250: '${entity: 0} a attrapé un monstre !${prompt}'
+  7251: Ta ligne se casse.${prompt}
+  7252: Ta canne se casse.${prompt}
+  7253: Quelque chose a mordu à l’hameçon !${prompt}
+  7254: Tu as perdu ta prise.${prompt}
   7255: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases the ${item-singular: 0[2]}.${prompt}
-  7256: You feel there's something here.${prompt}
-  7257: You feel there's something nearby.${prompt}
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
+    ${entity: 0} relâche à contrecœur le ${item-singular: 0[2]}.${prompt}
+  7256: Tu sens qu’il y a quelque chose ici.${prompt}
+  7257: Tu sens qu’il y a quelque chose à proximité.${prompt}
   7258: |-
-    You dig up ${article} ${item-article: 0[2]}, but your inventory is full.
-    You regretfully throw the ${item-singular: 0[2]} away.${prompt}
-  7259: '${entity: 0} caught ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  7260: You dig and you dig, but find nothing.${prompt}
+    Tu déterres ${article} ${item-article: 0[2]}, mais ton inventaire est plein.
+    Tu jettes à contrecœur le ${item-singular: 0[2]}.${prompt}
+  7259: '${entity: 0} a attrapé ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  7260: Tu creuses et tu creuses, mais tu ne trouves rien.${prompt}
   7261: '${number: 0}/${item-singular: 0[2]}をセット${prompt}'
   7262: |-
-    Your rod breaks.
-    Whatever caught the hook was pretty big.${prompt}
+    Ta canne se casse.
+    Ce qui a mordu à l’hameçon était plutôt gros.${prompt}
   7263: |-
-    Your rod breaks.
-    Whatever caught the hook was too heavy to catch with this rod.${prompt}
+    Ta canne se casse.
+    Ce qui a mordu à l’hameçon était trop lourd pour être attrapé avec cette canne.${prompt}
   7264: |-
-    You lost your catch.
-    Whatever caught the hook was too small to catch with this rod.${prompt}
-  7265: You lost your catch due to your lack of skill.${prompt}
+    Tu as perdu ta prise.
+    Ce qui a mordu à l’hameçon était trop petit pour être attrapé avec cette canne.${prompt}
+  7265: Tu as perdu ta prise à cause de ton manque de compétence.${prompt}
   7266: |-
-    Number fished : ${number: 0}
-    Original Dice No. ：${number: 1}＋${number: 2}
-    Result ：${number: 3} (0=caught)
+    Nombre de poissons attrapés : ${number: 0}
+    Numéro de dés original : ${number: 1}＋${number: 2}
+    Résultat : ${number: 3} (0=attrapé)
     ${prompt}
-  7267: You didn't catch anything.${prompt}
-  7268: 'The paper on your ${item-singular: 0[2]} ripped.${prompt}'
-  7269: A tiny goldfish approaches!${prompt}
-  7270: A plump, black goldfish approaches!${prompt}
-  7271: A fat, juicy goldfish approaches!${prompt}
-  7272: There are no goldfish to be found...${prompt}
+  7267: Tu n’as rien attrapé.${prompt}
+  7268: 'Le papier de ton ${item-singular: 0[2]} s’est déchiré.${prompt}'
+  7269: Un petit poisson rouge s’approche !${prompt}
+  7270: Un poisson rouge noir et dodu s’approche !${prompt}
+  7271: Un poisson rouge gros et juteux s’approche !${prompt}
+  7272: Il n’y a aucun poisson rouge à trouver…${prompt}
   7273: |-
-    ${entity: 0} caught ${article} ${item-article: 0[2]}, but cannot carry any more items.
-    ${entity: 0} regretfully releases it.${prompt}
-  7274: The goldfish slipped off your scoop...${prompt}
-  7275: 'ch${number: 0} skill up check.${prompt}'
+    ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
+    ${entity: 0} le relâche à contrecœur.${prompt}
+  7274: Le poisson rouge a glissé de ton épuisette…${prompt}
+  7275: 'ch${number: 0} vérification de montée de compétence.${prompt}'
   7276: 'a:${number: 0}.${prompt}'
-  7277: 'Time ${number: 0} / Status ${number: 1} / ${number: 2}${prompt}'
+  7277: 'Temps ${number: 0} / Statut ${number: 1} / ${number: 2}${prompt}'
   7278: |-
     d:${number: 0}.
     e:${number: 1}.
@@ -17901,28 +17901,28 @@ entries:
   7280: |-
     j:${number: 0}.
     k:${number: 1}.${prompt}
-  7281: You give up and reel in your line.${prompt}
-  7282: You give up.${prompt}
-  7283: '${entity: 0} obtains ${number: 1} gil.${prompt}'
-  7284: '${entity: 0} caught ${article} ${item-article: 0[2]}!${prompt}'
-  7285: You don't know how much longer you can keep this one on the line...${prompt}
-  7286: You have a good feeling about this one!${prompt}
-  7287: You have a bad feeling about this one.${prompt}
-  7288: You have a terrible feeling about this one...${prompt}
-  7289: You don't know if you have enough skill to reel this one in.${prompt}
-  7290: You're fairly sure you don't have enough skill to reel this one in.${prompt}
-  7291: You're positive you don't have enough skill to reel this one in!${prompt}
+  7281: Tu abandonnes et ramènes ta ligne.${prompt}
+  7282: Tu abandonnes.${prompt}
+  7283: '${entity: 0} obtient ${number: 1} gils.${prompt}'
+  7284: '${entity: 0} a attrapé ${article} ${item-article: 0[2]} !${prompt}'
+  7285: Tu ne sais pas combien de temps tu pourras encore garder celui-ci en ligne…${prompt}
+  7286: Tu as un bon pressentiment à propos de celui-ci !${prompt}
+  7287: Tu as un mauvais pressentiment à propos de celui-ci.${prompt}
+  7288: Tu as un très mauvais pressentiment à propos de celui-ci…${prompt}
+  7289: Tu ne sais pas si tu as assez de compétence pour ramener celui-ci.${prompt}
+  7290: Tu es presque sûr de ne pas avoir assez de compétence pour ramener celui-ci.${prompt}
+  7291: Tu es certain de ne pas avoir assez de compétence pour ramener celui-ci !${prompt}
   7292: |-
-    Select Fish Type:
+    Sélectionner le type de poisson :
     ${selection-lines}
-    Saltwater.
-    Freshwater.
-    Item.
-    Flag.
-    Treasure Chest.
-    Monster.${prompt}
+    Eau salée.
+    Eau douce.
+    Objet.
+    Drapeau.
+    Coffre au trésor.
+    Monstre.${prompt}
   7293: |-
-    Select one
+    Sélectionner un élément
     ${selection-lines}
     ${item-singular: 0[2]}（${number: 0}）.
     ${lettercase: 1}${item-singular: 1[2]}（${number: 1}）.
@@ -17932,42 +17932,42 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}（${number: 5}）.
     ${lettercase: 1}${item-singular: 6[2]}（${number: 6}）.
     ${lettercase: 1}${item-singular: 7[2]}（${number: 7}）.
-    Next.${prompt}
+    Suivant.${prompt}
   7294: |-
     l: ${number: 0}.
     m: ${number: 1}.
     n: ${number: 2}.
     CH: ${number: 3}.${prompt}
-  7295: Something caught the hook!!!${prompt}
-  7296: You feel something pulling at your line.${prompt}
-  7297: Something clamps onto your line ferociously!${prompt}
-  7298: 'Your keen angler''s senses tell you that this is the pull of ${article} ${item-article: 0[2]}!${prompt}'
-  7299: This strength... You get the sense that you are on the verge of an epic catch!${prompt}
-  7300: 'The timer has started. ${number: 0} seconds remaining.${prompt}'
+  7295: Quelque chose a mordu à l’hameçon !!!${prompt}
+  7296: Tu sens quelque chose tirer sur ta ligne.${prompt}
+  7297: Quelque chose s’accroche férocement à ta ligne !${prompt}
+  7298: 'Tes sens aiguisés de pêcheur te disent que c’est la traction de ${article} ${item-article: 0[2]} !${prompt}'
+  7299: Cette force… Tu as l’impression d’être sur le point de faire une prise épique !${prompt}
+  7300: 'Le minuteur a démarré. Il reste ${number: 0} secondes.${prompt}'
   7301: '${number: 0}sec.${number: 1}/${number: 2}sec.${prompt}'
   7302: '0:${number: 0} 1:${number: 1} 2:${number: 2} 3:${number: 3}${prompt}'
   7303: '4:${number: 0} 5:${number: 1} 6:${number: 2} 7:${number: 3}${prompt}'
   7304: |-
-    Select.
+    Sélectionner.
     ${selection-lines}
-    Set.
-    ${keyitem-singular: 8[2]}: ${choice: 0}[ON/OFF].
-    ${keyitem-singular: 9[2]}: ${choice: 1}[ON/OFF].
-    ${keyitem-singular: 10[2]}: ${choice: 2}[ON/OFF].
-    ${keyitem-singular: 11[2]}: ${choice: 3}[ON/OFF].${prompt}
+    Définir.
+    ${keyitem-singular: 8[2]}: ${choice: 0}[ACTIVÉ/DÉSACTIVÉ].
+    ${keyitem-singular: 9[2]}: ${choice: 1}[ACTIVÉ/DÉSACTIVÉ].
+    ${keyitem-singular: 10[2]}: ${choice: 2}[ACTIVÉ/DÉSACTIVÉ].
+    ${keyitem-singular: 11[2]}: ${choice: 3}[ACTIVÉ/DÉSACTIVÉ].${prompt}
   7305: |-
-    You lost your catch.
-    Whatever caught the hook was too large to catch with this rod.${prompt}
+    Tu as perdu ta prise.
+    Ce qui a mordu à l’hameçon était trop gros pour être attrapé avec cette canne.${prompt}
   7306: '${number: 0}/${number: 1}(${number: 2}）${prompt}'
-  7307: Version invalid error!${prompt}
-  7308: Hurry before the goldfish sees you!${prompt}
-  7309: '${entity: 0} fishes up a large box!${prompt}'
+  7307: Erreur de version invalide !${prompt}
+  7308: Dépêche-toi avant que le poisson rouge ne te voie !${prompt}
+  7309: '${entity: 0} pêche une grande boîte !${prompt}'
   7310: '送出調査${number: 0}${prompt}'
-  7311: 'Fish No：${number: 0} / Bait No：${number: 1} / Hit：${number: 2} >>> ${number: 3}${prompt}'
+  7311: 'Poisson n°：${number: 0} / Appât n°：${number: 1} / Touché：${number: 2} >>> ${number: 3}${prompt}'
   7312: 'Point：${number: 0} >>> ${number: 1}${prompt}'
   7313: |-
-    魚：${item-singular: 1[2]}(${number: 0})
-    skill：${number: 1}${prompt}
+    Poisson：${item-singular: 1[2]}(${number: 0})
+    compétence：${number: 1}${prompt}
   7314: |-
     Im Min : ${number: 0}
     Im Max : ${number: 1}
@@ -17978,212 +17978,212 @@ entries:
     Pz Rnd : ${number: 1}${prompt}
   7316: 'CLI_NUM0:${number: 0} CLI_NUM1:${number: 1} CLI_NUM2:${number: 2} CLI_NUM3:${number: 3}${prompt}'
   7317: 'CLI_NUM4:${number: 0} CLI_NUM5:${number: 1} CLI_NUM6:${number: 2} CLI_NUM7:${number: 3}${prompt}'
-  7318: 'skill : ${number: 0} size : ${number: 1} kind : ${number: 2} sch : ${number: 3}${prompt}'
-  7319: 'time : ${number: 0} mes : ${number: 1} flag : ${number: 2} bonus : ${number: 3}${prompt}'
-  7320: 'item : ${number: 0} hp : ${number: 1} pow : ${number: 2} swing : ${number: 3}${prompt}'
-  7321: 'suc : ${number: 0} cons : ${number: 1} weight : ${number: 2} +- : ${number: 3}${prompt}'
-  7322: 'speed : ${number: 0} +- : ${number: 1} exc : ${number: 2} client : ${number: 3}${prompt}'
-  7323: 'general : ${number: 0}${prompt}'
+  7318: 'compétence : ${number: 0} taille : ${number: 1} type : ${number: 2} sch : ${number: 3}${prompt}'
+  7319: 'temps : ${number: 0} mes : ${number: 1} drapeau : ${number: 2} bonus : ${number: 3}${prompt}'
+  7320: 'objet : ${number: 0} pv : ${number: 1} puissance : ${number: 2} swing : ${number: 3}${prompt}'
+  7321: 'succès : ${number: 0} cons : ${number: 1} poids : ${number: 2} +- : ${number: 3}${prompt}'
+  7322: 'vitesse : ${number: 0} +- : ${number: 1} exc : ${number: 2} client : ${number: 3}${prompt}'
+  7323: 'général : ${number: 0}${prompt}'
   7324: 'ro:${number: 0} rs:${number: 1} ps:${number: 2} dt:${number: 3}${prompt}'
   7325: 'ra:${number: 0} ti:${number: 1}${prompt}'
   7326: |-
-    You spot some familiar footprints.
-    You are convinced that your moogle friend has been digging in the immediate vicinity.${prompt}
-  7327: You get the distinct sense that your moogle friend frequents this spot...${prompt}
-  7328: You have a feeling that your moogle friend has been through this way...${prompt}
-  7329: You suspect that the scenery around here would be to a moogle's liking...${prompt}
-  7330: You have a vague feeling that a moogle would enjoy traversing this terrain...${prompt}
-  7331: You have a hunch that this area would be favored by moogles...${prompt}
+    Tu repères des empreintes familières.
+    Tu es convaincu que ton ami mog a creusé dans les environs immédiats.${prompt}
+  7327: Tu as le sentiment distinct que ton ami mog fréquente cet endroit…${prompt}
+  7328: Tu as l’impression que ton ami mog est passé par ici…${prompt}
+  7329: Tu suspectes que le paysage autour d’ici plairait à un mog…${prompt}
+  7330: Tu as un vague sentiment qu’un mog aimerait traverser ce terrain…${prompt}
+  7331: Tu as une intuition que cette zone serait appréciée par les mogs…${prompt}
   7332: |-
-    Your chocobo is pulling at the bit.
-    You sense that it is leading you to the ${choice: 0}[east/southeast/south/southwest/west/northwest/north/northeast].${prompt}
-  7333: '${entity: 0} catches ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  7334: '${entity: 0} obtained ${keyitem-article: 0[2]}!${prompt}'
-  7335: It appears your chocobo found this item with ease.${prompt}
-  7336: Your chocobo appears to have gained valuable knowledge from this discovery.${prompt}
+    Ton chocobo tire sur le mors.
+    Tu sens qu’il te guide vers le ${choice: 0}[est/sud-est/sud/sud-ouest/ouest/nord-ouest/nord/nord-est].${prompt}
+  7333: '${entity: 0} attrape ${number: 1} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  7334: '${entity: 0} a obtenu ${keyitem-article: 0[2]} !${prompt}'
+  7335: Il semble que ton chocobo ait trouvé cet objet avec facilité.${prompt}
+  7336: Ton chocobo semble avoir acquis des connaissances précieuses grâce à cette découverte.${prompt}
   7337: ' FPT ${number: 0} DPT ${number: 1} DoT${number: 2}'
   7338: ' FPT ${number: 0} TDPT ${number: 1} h${number: 2}'
-  7339: You cannot fish at this time.${prompt}
-  7340: 'You discover a cache of beastman resources and receive ${number: 0} conquest point${choice-plurality: 0}[/s]!${prompt}'
-  7341: 'You discover a cache of beastman resources and receive ${number: 0} Imperial Standing!${prompt}'
-  7342: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
-  7343: 'You receive ${number: 0} bayld!${prompt}'
-  7344: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
-  7345: Lyrics on the old monument sing the story of lovers torn apart.${prompt}
-  7346: So this is the other one!${prompt}
-  7347: I wanted to know more about the story I heard in the tavern, so I came out here searching. I have a feeling I know who he is.${prompt}
-  7348: I was waiting, Mertaire, for you to find this place.${prompt}
-  7349: Why, hello! You're Master Lewenhart, aren't you. You're practically a legend among us bards!${prompt}
-  7350: Now, now. Let's not get carried away. I am just another minstrel, like any other.${prompt}
-  7351: Master Lewenhart, I first heard your music on the street when I was a lad mired in poverty. I hadn't dreamt that anything could move me so! That moment I vowed to become a bard.${prompt}
-  7352: But, alas! Look at me! My voice is shrill and my lyrics lack emotion. I am but a worm in your shadow!${prompt}
-  7353: Hmph. You hold me in too high regard. I have such days, too.${prompt}
-  7354: Even you, Master Lewenhart?${prompt}
-  7355: Of course, my friend. Often I ask the stars above for whom and for what purpose I sing. But ever they are silent.${prompt}
-  7356: But in such times I find myself standing before this stone. In my heart I try to sing of their feelings as they did.${prompt}
-  7357: Then I remember how such is all that is needed from us bards.${prompt}
-  7358: Both felt so dearly of the other that they tried to convey their love through the breeze and over the waves of the ocean.${prompt}
-  7359: Can you not feel the yearning in your heart? Before you can move the hearts of others, first you must believe in yourself.${prompt}
-  7360: Music comes from within. That truth we must never forget.${prompt}
-  7361: You must have endured a terrible ordeal, my friend. Know your feelings, and be honest with yourself about them. I believe that from such synergy beautiful music will flow.${prompt}
-  7362: So I must be honest with myself?${prompt}
-  7363: That is right. I know we will meet again someday. When that time comes, will you play for me?${prompt}
-  7364: Yes, of course!${prompt}
-  7365: Thanks for all you've done. Now you know upon what path a bard walks. You are always welcome to join us in harmony!${prompt}
-  7366: You can now become a bard!${prompt}
-  7367: Just a pile of sand.${prompt}
-  7368: You see a message engraved on the stone:${prompt}
-  7369: The view may be beautiful, but the broken grass at our feet is testimony to the inhospitality of this place. The shallows repel anchoring ships, with nothing for miles but sand. Indeed, these dunes are ill-fit for any purpose save sunbathing.${prompt}
-  7370: One day I happened upon a young swimmer struggling for air. I swam out to save her, and as a gesture of thanks she led me to a fascinating place.${prompt}
-  7371: To a small inlet she guided me, to show me dolphins, no doubt. None were there, but I noticed the bay was a natural harbor. I was a sailor in youth, so I knew this to be an important discovery!${prompt}
-  7372: The harbor I named “Selbina.” Upon seeing her own name inscribed on my map, the girl clapped her hands in joy.${prompt}
-  7373: " \n--Gwynham Ironheart, 762 Crystal Era.${prompt}"
+  7339: Tu ne peux pas pêcher pour le moment.${prompt}
+  7340: 'Tu découvres une cache de ressources des hommes-bêtes et reçois ${number: 0} point${choice-plurality: 0}[/s] de conquête !${prompt}'
+  7341: 'Tu découvres une cache de ressources des hommes-bêtes et reçois ${number: 0} de Position Impériale !${prompt}'
+  7342: 'Tu découvres une cache de ressources des confédérés hommes-bêtes et reçois ${number: 0} note${choice-plurality: 0}[/s] alliée !${prompt}'
+  7343: 'Tu reçois ${number: 0} baylds !${prompt}'
+  7344: 'Ton chocobo refuse de consommer le ${item-singular: 0[2]}.${prompt}'
+  7345: Les paroles sur l’ancien monument chantent l’histoire d’amants séparés.${prompt}
+  7346: Alors c’est l’autre !${prompt}
+  7347: Je voulais en savoir plus sur l’histoire que j’ai entendue à la taverne, alors je suis venu ici pour chercher. J’ai l’impression de savoir qui il est.${prompt}
+  7348: Je t’attendais, Mertaire, pour que tu trouves cet endroit.${prompt}
+  7349: Eh bien, bonjour ! Vous êtes Maître Lewenhart, n’est-ce pas ? Vous êtes pratiquement une légende parmi nous, les bardes !${prompt}
+  7350: Allons, allons. Ne nous emportons pas. Je suis juste un ménestrel comme les autres.${prompt}
+  7351: Maître Lewenhart, j’ai entendu votre musique pour la première fois dans la rue quand j’étais un garçon plongé dans la pauvreté. Je n’avais jamais imaginé que quelque chose pouvait me toucher autant ! À ce moment-là, j’ai juré de devenir barde.${prompt}
+  7352: Mais hélas ! Regardez-moi ! Ma voix est stridente et mes paroles manquent d’émotion. Je ne suis qu’un ver dans votre ombre !${prompt}
+  7353: Hmph. Tu me tiens en trop haute estime. J’ai aussi des jours comme ça.${prompt}
+  7354: Même vous, Maître Lewenhart ?${prompt}
+  7355: Bien sûr, mon ami. Souvent, je demande aux étoiles là-haut pour qui et dans quel but je chante. Mais elles restent toujours silencieuses.${prompt}
+  7356: Mais dans ces moments-là, je me retrouve devant cette pierre. Dans mon cœur, j’essaie de chanter leurs sentiments comme ils l’ont fait.${prompt}
+  7357: Alors je me souviens que c’est tout ce qu’on attend de nous, les bardes.${prompt}
+  7358: Tous deux ressentaient un amour si profond l’un pour l’autre qu’ils ont essayé de transmettre leur amour à travers la brise et sur les vagues de l’océan.${prompt}
+  7359: Ne ressens-tu pas ce désir dans ton cœur ? Avant de pouvoir toucher le cœur des autres, tu dois d’abord croire en toi-même.${prompt}
+  7360: La musique vient de l’intérieur. Cette vérité, nous ne devons jamais l’oublier.${prompt}
+  7361: Tu as dû endurer une terrible épreuve, mon ami. Connais tes sentiments et sois honnête avec toi-même à leur sujet. Je crois que de cette synergie naîtra une belle musique.${prompt}
+  7362: Donc je dois être honnête avec moi-même ?${prompt}
+  7363: C’est exact. Je sais que nous nous reverrons un jour. Quand ce moment viendra, joueras-tu pour moi ?${prompt}
+  7364: Oui, bien sûr !${prompt}
+  7365: Merci pour tout ce que tu as fait. Maintenant, tu sais quel chemin un barde doit suivre. Tu es toujours le bienvenu pour nous rejoindre en harmonie !${prompt}
+  7366: Tu peux maintenant devenir un barde !${prompt}
+  7367: Juste un tas de sable.${prompt}
+  7368: Tu vois un message gravé sur la pierre :${prompt}
+  7369: La vue peut être magnifique, mais l’herbe brisée à nos pieds témoigne de l’inhospitalité de cet endroit. Les hauts-fonds repoussent les navires à l’ancre, avec rien d’autre que du sable à des lieues à la ronde. En vérité, ces dunes ne conviennent à rien d’autre qu’à prendre un bain de soleil.${prompt}
+  7370: Un jour, j’ai rencontré une jeune nageuse qui luttait pour respirer. Je suis allé la sauver, et en guise de remerciement, elle m’a conduit dans un endroit fascinant.${prompt}
+  7371: Elle m’a guidé vers une petite crique pour me montrer des dauphins, sans doute. Il n’y en avait pas, mais j’ai remarqué que la baie était un port naturel. J’étais marin dans ma jeunesse, alors j’ai su que c’était une découverte importante !${prompt}
+  7372: J’ai nommé le port « Selbina ». En voyant son propre nom inscrit sur ma carte, la fille a applaudi de joie.${prompt}
+  7373: " \n--Gwynham Cœur-de-Fer, Ère des Cristaux 762.${prompt}"
   7374: |-
-    Northeast: La Theine Plateau
-    Southeast: Konschtat Highlands
-    West: Selbina${prompt}
+    Nord-est : Plateau de La Theine
+    Sud-est : Hauts-plateaux de Konschtat
+    Ouest : Selbina${prompt}
   7375: |-
-    Northeast: La Theine Plateau
-    Southeast: Konschtat Highlands
-    Southwest: Selbina${prompt}
-  7376: 'Good luck, ${choice: 0}[citizen/comrade]. I will bestow upon you your nation''s Signet.${wait-animation: 0}${prompt}'
-  7377: I cannot help you. You should go find a guard from your own country.${prompt}
+    Nord-est : Plateau de La Theine
+    Sud-est : Hauts-plateaux de Konschtat
+    Sud-ouest : Selbina${prompt}
+  7376: 'Bonne chance, ${choice: 0}[citoyen/compagnon]. Je vais t’accorder le Sceau de notre nation.${wait-animation: 0}${prompt}'
+  7377: Je ne peux pas t’aider. Tu devrais aller trouver un garde de ton propre pays.${prompt}
   7378: |-
-    I cannot accept crystals from someone whose rank is still 1.
-    I advise you to either keep them until your reach rank 2, or to use them in craftwork.${prompt}
-  7379: 'Since we are allied with San d''Oria...${wait-animation: 0}${prompt}'
-  7380: 'Since we are allied with Bastok...${wait-animation: 0}${prompt}'
-  7381: 'Since we are allied with Windurst...${wait-animation: 0}${prompt}'
+    Je ne peux pas accepter de cristaux de quelqu’un dont le rang est encore à 1.
+    Je te conseille de les garder jusqu’à ce que tu atteignes le rang 2, ou de les utiliser pour des travaux d’artisanat.${prompt}
+  7379: 'Puisque nous sommes alliés avec San d’Oria…${wait-animation: 0}${prompt}'
+  7380: 'Puisque nous sommes alliés avec Bastok…${wait-animation: 0}${prompt}'
+  7381: 'Puisque nous sommes alliés avec Windurst…${wait-animation: 0}${prompt}'
   7382: |-
-    I am sorry.
-    I am too busy with other matters to be speaking with you.${wait-animation: 0}${prompt}
-  7383: Ah, you have brought us supplies. These will help us indeed. I thank you.${prompt}
+    Je suis désolé.
+    Je suis trop occupé avec d’autres affaires pour discuter avec toi.${wait-animation: 0}${prompt}
+  7383: Ah, tu nous as apporté des provisions. Elles nous seront très utiles. Je te remercie.${prompt}
   7384: |-
-    Hmm... These supplies you have brought us are too old to be of any use. We will dispose of them promptly.
-    I do commend you for your effort. May you succeed next time.${prompt}
-  7385: You've earned conquest points!${prompt}
+    Hmm… Ces provisions que tu nous as apportées sont trop vieilles pour être utiles. Nous allons nous en débarrasser rapidement.
+    Je te félicite pour ton effort. Puisses-tu réussir la prochaine fois.${prompt}
+  7385: Tu as gagné des points de conquête !${prompt}
   7386: |-
-    You've received your nation's Signet.
-    You are now taking part in your nation's conquest campaign!${prompt}
+    Tu as reçu le Sceau de ta nation.
+    Tu participes maintenant à la campagne de conquête de ta nation !${prompt}
   7387: |-
-    I am ${name-npc}, a Temple Knight.
-    I am one of the guards charged with overseeing San d'Oria's conquest campaign.${prompt}
+    Je suis ${name-npc}, un Chevalier du Temple.
+    Je suis l’un des gardes chargés de superviser la campagne de conquête de San d’Oria.${prompt}
   7388: |-
-    I am ${name-npc}, an Iron Musketeer.
-    I am one of the guards charged with overseeing Bastok's conquest campaign.${prompt}
+    Je suis ${name-npc}, un Mousquetaire de Fer.
+    Je suis l’un des gardes chargés de superviser la campagne de conquête de Bastok.${prompt}
   7389: |-
-    I am ${name-npc}, a War Warlock.
-    I am one of the guards charged with overseeing Windurst's conquest campaign.${prompt}
+    Je suis ${name-npc}, un Sorcier de Guerre.
+    Je suis l’un des gardes chargés de superviser la campagne de conquête de Windurst.${prompt}
   7390: |-
-    What is your business?
+    Quelle est ton affaire ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I want to spend my conquest points.
-    ${choice: 0}[I want to join the Expeditionary Force./Teleport me to the E.F. area.]
-    I want to quit the E.F./change my E.F.
-    I want to go on a supplies quest.
-    I have some questions...
-    Nothing, sorry to bother you.${prompt}
+    Peux-tu m’appliquer le Sceau ?
+    Je veux dépenser mes points de conquête.
+    ${choice: 0}[Je veux rejoindre la Force Expéditionnaire./Téléporte-moi dans la zone de la F.E.]
+    Je veux quitter la F.E./changer ma F.E.
+    Je veux partir en quête de ravitaillement.
+    J’ai quelques questions…
+    Rien, désolé de t’avoir dérangé.${prompt}
   7391: |-
-    What do you wish to know about?
+    À propos de quoi veux-tu en savoir plus ?
     ${selection-lines}
-    Nothing.
-    Conquests.
-    Conquest results.
-    Donating crystals.
-    Conquest points.
-    The effects of controlling regions.
-    Regions controlled by other nations.
-    Regions under beastman control.${prompt}
-  7392: All three nations are striving daily to put more regions under their control. This is what we call “conquests.” You can take part in it and serve your country by defeating enemies while you have Signet cast on you.${prompt}
-  7393: Each region comprises several areas, and the nation that rids those areas of the most monsters gains control of the region.${prompt}
-  7394: Nations receive goods and resources from regions under their control.${prompt}
-  7395: So, the more regions we control, the richer our nation becomes.${prompt}
+    Rien.
+    Les conquêtes.
+    Les résultats de la conquête.
+    Faire don de cristaux.
+    Les points de conquête.
+    Les effets du contrôle des régions.
+    Les régions contrôlées par d’autres nations.
+    Les régions sous le contrôle des hommes-bêtes.${prompt}
+  7392: Les trois nations s’efforcent quotidiennement de mettre plus de régions sous leur contrôle. C’est ce que nous appelons les « conquêtes ». Tu peux y participer et servir ton pays en vainquant des ennemis pendant que le Sceau est actif sur toi.${prompt}
+  7393: Chaque région comprend plusieurs zones, et la nation qui élimine le plus de monstres dans ces zones prend le contrôle de la région.${prompt}
+  7394: Les nations reçoivent des biens et des ressources des régions qu’elles contrôlent.${prompt}
+  7395: Ainsi, plus nous contrôlons de régions, plus notre nation devient riche.${prompt}
   7396: |-
-    Border guards are also placed in outposts within regions under our control.
-    They are there to cast Signet on adventurers like yourself.${prompt}
-  7397: Once you have your nation's Signet, you will be able to acquire crystals from enemies you defeat.${prompt}
-  7398: Not only that, but you will also receive conquest points. You get more conquest points if you defeat enemies in regions that are not under your nation's control. These points can be used to purchase items from guards like myself.${prompt}
+    Des gardes-frontières sont également placés dans les avant-postes des régions sous notre contrôle.
+    Ils sont là pour appliquer le Sceau sur des aventuriers comme toi.${prompt}
+  7397: Une fois que tu as le Sceau de ta nation, tu pourras obtenir des cristaux en vainquant des ennemis.${prompt}
+  7398: De plus, tu recevras également des points de conquête. Tu obtiens plus de points de conquête si tu vaincs des ennemis dans des régions qui ne sont pas sous le contrôle de ta nation. Ces points peuvent être utilisés pour acheter des objets auprès de gardes comme moi.${prompt}
   7399: |-
-    So you see...conquests benefit nations and adventurers alike.
-    We expect you to do your best to serve your country.${prompt}
+    Comme tu vois… les conquêtes profitent à la fois aux nations et aux aventuriers.
+    Nous comptons sur toi pour faire de ton mieux afin de servir ton pays.${prompt}
   7400: |-
-    You can see the current state of conquests by selecting “Region Info” from the main menu.
-    Conquest results in all regions are regularly recalculated, so you may want to check them from time to time.${prompt}
+    Tu peux voir l’état actuel des conquêtes en sélectionnant « Infos Région » dans le menu principal.
+    Les résultats des conquêtes dans toutes les régions sont régulièrement recalculés, alors tu devrais les vérifier de temps en temps.${prompt}
   7401: |-
-    Shops in our city will be selling different items according to our conquest rank.
-    The Troupe Valeriano will also visit the nation that finishes first and bring a little joy to its citizens.${prompt}
+    Les boutiques de notre ville proposeront différents objets selon notre rang de conquête.
+    La Troupe Valeriano rendra également visite à la nation qui termine première et apportera un peu de joie à ses citoyens.${prompt}
   7402: |-
-    You can donate crystals to your nation once you achieve rank 2.
-    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+    Tu peux faire don de cristaux à ta nation une fois que tu as atteint le rang 2.
+    Échange-les simplement avec des gardes comme moi, et nous nous assurerons qu’ils soient envoyés au bon endroit.${prompt}
   7403: |-
-    We would like you to donate crystals to your nation from now on.
-    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+    Nous aimerions que tu fasses don de cristaux à ta nation à partir de maintenant.
+    Échange-les simplement avec des gardes comme moi, et nous nous assurerons qu’ils soient envoyés au bon endroit.${prompt}
   7404: |-
-    You can acquire crystals by defeating enemies while you have your nation's Signet.
-    Having Signet cast on you is also the only way of taking part in conquests.${prompt}
-  7405: Rank points will be awarded to you for each crystal you donate, and you may be offered new missions as your rank goes up.${prompt}
+    Tu peux obtenir des cristaux en vainquant des ennemis pendant que tu as le Sceau de ta nation.
+    Avoir le Sceau appliqué sur toi est aussi le seul moyen de participer aux conquêtes.${prompt}
+  7405: Des points de rang te seront attribués pour chaque cristal que tu donnes, et de nouvelles missions pourront t’être proposées à mesure que ton rang augmente.${prompt}
   7406: |-
-    You also receive rank points for completing missions.
-    Complete missions and take part in conquests to raise your rank and serve your country.${prompt}
+    Tu reçois également des points de rang en accomplissant des missions.
+    Accomplis des missions et participe aux conquêtes pour augmenter ton rang et servir ton pays.${prompt}
   7407: |-
-    You are awarded conquest points when you defeat monsters while you are taking part in conquests.
-    Select "Region Info" from the menu to check your current number of conquest points.${prompt}
-  7408: You can purchase items from guards like myself with your conquest points, but be warned that the number of points you spend will be subtracted from your current total.${prompt}
-  7409: When conquest results are announced, you will be told which country controls the region you are in at that time. Sometimes regions may become neutral, or beastmen may even gain control of regions.${prompt}
-  7410: If we gain control of a region, border guards will be placed at its outposts to help adventurers like you.${prompt}
-  7411: Merchants will also be placed there, and goods from that region will find their way to the local shops here.${prompt}
-  7412: Gaining control of regions is the basic principle behind conquests. We need each of you to do your best, and bring our nation to the top of the ranks.${prompt}
-  7413: Of course, sometimes we lose regions to other nations...so we must try to take them back before the next conquest results are announced.${prompt}
-  7414: As an incentive, we will award you with more conquest points for defeating monsters in those regions.${prompt}
-  7415: But if we are allied with another nation, you will only be awarded the regular rate for defeating monsters in our allies' regions. On the other hand, we will award you with more points for fighting in the top-ranked nation's regions.${prompt}
+    Tu obtiens des points de conquête lorsque tu vaincs des monstres pendant que tu participes aux conquêtes.
+    Sélectionne « Infos Région » dans le menu pour vérifier ton nombre actuel de points de conquête.${prompt}
+  7408: Tu peux acheter des objets auprès de gardes comme moi avec tes points de conquête, mais attention, le nombre de points que tu dépenses sera déduit de ton total actuel.${prompt}
+  7409: Lorsque les résultats des conquêtes sont annoncés, on te dira quel pays contrôle la région dans laquelle tu te trouves à ce moment-là. Parfois, des régions peuvent devenir neutres, ou les hommes-bêtes peuvent même prendre le contrôle de certaines régions.${prompt}
+  7410: Si nous prenons le contrôle d’une région, des gardes-frontières seront placés dans ses avant-postes pour aider des aventuriers comme toi.${prompt}
+  7411: Des marchands seront également installés là-bas, et les biens de cette région arriveront dans les boutiques locales ici.${prompt}
+  7412: Prendre le contrôle des régions est le principe de base des conquêtes. Nous avons besoin que chacun de vous fasse de son mieux pour hisser notre nation au sommet du classement.${prompt}
+  7413: Bien sûr, parfois nous perdons des régions au profit d’autres nations… alors nous devons essayer de les reprendre avant l’annonce des prochains résultats de conquête.${prompt}
+  7414: Pour t’encourager, nous t’accorderons plus de points de conquête pour avoir vaincu des monstres dans ces régions.${prompt}
+  7415: Mais si nous sommes alliés avec une autre nation, tu ne recevras que le taux normal pour avoir vaincu des monstres dans les régions de nos alliés. En revanche, nous t’accorderons plus de points pour combattre dans les régions de la nation classée première.${prompt}
   7416: |-
-    Our paramount concern lies in the beastmen gaining control of our regions.
-    If too many of us are defeated in a region, the beastmen will gain control of it.${prompt}
-  7417: If this happens, not only is it a great blow to our pride, but you will be unable to acquire any crystals in that region.${prompt}
-  7418: The beastmen are a menace to all nations. If they rise to power, we must all unite and drive those vile creatures from that region.${prompt}
-  7419: We need you to bring supplies to the outpost border guards who are placed in regions under our control.${prompt}
-  7420: There is one outpost in each region. Select “Region Info” from the menu, and look for the areas with a small flag mark on the map. That is where they are.${prompt}
+    Notre principale préoccupation est que les hommes-bêtes prennent le contrôle de nos régions.
+    Si trop d’entre nous sont vaincus dans une région, les hommes-bêtes en prendront le contrôle.${prompt}
+  7417: Si cela arrive, non seulement c’est un grand coup porté à notre fierté, mais tu ne pourras plus obtenir de cristaux dans cette région.${prompt}
+  7418: Les hommes-bêtes sont une menace pour toutes les nations. S’ils gagnent en puissance, nous devons tous nous unir et chasser ces viles créatures de cette région.${prompt}
+  7419: Nous avons besoin de toi pour apporter des provisions aux gardes-frontières des avant-postes situés dans les régions sous notre contrôle.${prompt}
+  7420: Il y a un avant-poste dans chaque région. Sélectionne « Infos Région » dans le menu et cherche les zones avec une petite marque de drapeau sur la carte. C’est là qu’ils se trouvent.${prompt}
   7421: |-
-    Here are the supplies. Just give them to the guard at the outpost and your mission will be complete.
-    Now, choose which outpost you want to go to. We give different rewards for each region, so choose carefully.${prompt}
+    Voici les provisions. Donne-les simplement au garde de l’avant-poste et ta mission sera terminée.
+    Maintenant, choisis l’avant-poste où tu veux aller. Nous offrons différentes récompenses pour chaque région, alors choisis bien.${prompt}
   7422: |-
-    Where do you wish to take the supplies?
+    Où souhaites-tu apporter les provisions ?
     ${selection-lines}
     　
     　
     　
     　
     　
-    The Ronfaure Region.${choice: 5}[/ (Done)]
-    The Zulkheim Region.${choice: 6}[/ (Done)]
-    The Norvallen Region.${choice: 7}[/ (Done)]
-    The Gustaberg Region.${choice: 8}[/ (Done)]
-    The Derfland Region.${choice: 9}[/ (Done)]
-    The Sarutabaruta Region.${choice: 10}[/ (Done)]
-    The Kolshushu Region.${choice: 11}[/ (Done)]
-    The Aragoneu Region.${choice: 12}[/ (Done)]
-    The Fauregandi Region.${choice: 13}[/ (Done)]
-    The Valdeaunia Region.${choice: 14}[/ (Done)]
-    Qufim Island.${choice: 15}[/ (Done)]
-    The Li'Telor Region.${choice: 16}[/ (Done)]
-    The Kuzotz Region.${choice: 17}[/ (Done)]
-    The Vollbow Region.${choice: 18}[/ (Done)]
-    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
-    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
-    Tu'Lia.${choice: 21}[/ (Done)]
+    La région de Ronfaure.${choice: 5}[/ (Terminé)]
+    La région de Zulkheim.${choice: 6}[/ (Terminé)]
+    La région de Norvallen.${choice: 7}[/ (Terminé)]
+    La région de Gustaberg.${choice: 8}[/ (Terminé)]
+    La région de Derfland.${choice: 9}[/ (Terminé)]
+    La région de Sarutabaruta.${choice: 10}[/ (Terminé)]
+    La région de Kolshushu.${choice: 11}[/ (Terminé)]
+    La région d’Aragoneu.${choice: 12}[/ (Terminé)]
+    La région de Fauregandi.${choice: 13}[/ (Terminé)]
+    La région de Valdeaunia.${choice: 14}[/ (Terminé)]
+    L’île de Qufim.${choice: 15}[/ (Terminé)]
+    La région de Li’Telor.${choice: 16}[/ (Terminé)]
+    La région de Kuzotz.${choice: 17}[/ (Terminé)]
+    La région de Vollbow.${choice: 18}[/ (Terminé)]
+    La région des Basses Terres d’Elshimo.${choice: 19}[/ (Terminé)]
+    La région des Hautes Terres d’Elshimo.${choice: 20}[/ (Terminé)]
+    Tu’Lia.${choice: 21}[/ (Terminé)]
     　
-    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
-    　
-    　
+    L’Archipel de Tavnazia.${choice: 23}[/ (Terminé)]
     　
     　
     　
     　
     　
-    Cancel.${prompt}
+    　
+    　
+    Annuler.${prompt}
   7423: |-
-    Which E.F. would you like to join?
+    Quelle F.E. souhaites-tu rejoindre ?
     ${selection-lines}
     .
     .
@@ -18191,23 +18191,21 @@ entries:
     .
     .
     .
-    The Zulkheim Region (Lv.20～).
-    The Norvallen Region (Lv.25～).
+    La région de Zulkheim (Niv.20～).
+    La région de Norvallen (Niv.25～).
     .
-    The Derfland Region (Lv.25～).
+    La région de Derfland (Niv.25～).
     .
-    The Kolshushu Region (Lv.20～).
-    The Aragoneu Region (Lv.25～).
-    The Fauregandi Region (Lv.35～).
-    The Valdeaunia Region (Lv.40～).
-    The Qufim Region (Lv.25～).
-    The Li'Telor Region (Lv.35～).
-    The Kuzotz Region (Lv.40～).
-    The Vollbow Region (Lv.65～).
-    The Elshimo Lowlands Region (Lv.35～).
-    The Elshimo Uplands Region (Lv.45～).
-    .
-    .
+    La région de Kolshushu (Niv.20～).
+    La région d’Aragoneu (Niv.25～).
+    La région de Fauregandi (Niv.35～).
+    La région de Valdeaunia (Niv.40～).
+    La région de Qufim (Niv.25～).
+    La région de Li’Telor (Niv.35～).
+    La région de Kuzotz (Niv.40～).
+    La région de Vollbow (Niv.65～).
+    La région des Basses Terres d’Elshimo (Niv.35～).
+    La région des Hautes Terres d’Elshimo (Niv.45～).
     .
     .
     .
@@ -18216,96 +18214,98 @@ entries:
     .
     .
     .
-    None.${prompt}
+    .
+    .
+    Aucune.${prompt}
   7424: |-
-    So be it.
-    You have until the next conquest results announcement to complete this mission.
-    Good luck.${prompt}
-  7425: We will dispose of those unusable supplies.${prompt}
+    Qu’il en soit ainsi.
+    Tu as jusqu’à l’annonce des prochains résultats de conquête pour compléter cette mission.
+    Bonne chance.${prompt}
+  7425: Nous allons nous débarrasser de ces provisions inutilisables.${prompt}
   7426: |-
-    You can only undertake one supply mission per day.
-    Come back later.${prompt}
-  7427: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
+    Tu ne peux entreprendre qu’une seule mission de ravitaillement par jour.
+    Reviens plus tard.${prompt}
+  7427: Je suis désolé. On dirait un problème. Laisse-moi l’annuler.${prompt}
   7428: |-
-    You do not need to donate any more crystals at your current rank.
-    Speak to the guard at the gatehouse for further instructions.${prompt}
+    Tu n’as plus besoin de donner des cristaux à ton rang actuel.
+    Parle au garde à la guérite pour plus d’instructions.${prompt}
   7429: |-
-    Your rank points are full. We've added the excess to your conquest points.
-    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
+    Tes points de rang sont au maximum. Nous avons ajouté l’excédent à tes points de conquête.
+    Tu n’as plus besoin de donner des cristaux. Va à la guérite pour plus d’instructions.${prompt}
   7430: |-
-    Good work, citizen.
-    We've awarded you rank points for the crystals you've donated.${prompt}
+    Bon travail, citoyen.
+    Nous t’avons attribué des points de rang pour les cristaux que tu as donnés.${prompt}
   7431: |-
-    You currently have ${number: 0} conquest points.
-    Would you like to use them to purchase items?${prompt}
+    Tu as actuellement ${number: 0} points de conquête.
+    Souhaites-tu les utiliser pour acheter des objets ?${prompt}
   7432: |-
-    Which item do you wish to purchase?
+    Quel objet souhaites-tu acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    1000-pt. items (rank 1 required).
-    2000-pt. items (rank 2 required).
-    4000-pt. items (rank 3 required).
-    8000-pt. items (rank 4 required).
-    16000-pt. items (rank 5 required).
-    24000-pt. items (rank 6 required).
-    32000-pt. items (rank 7 required).
-    40000-pt. items (rank 8 required).
-    48000-pt. items (rank 9 required).
-    56000-pt. items (rank 10 required).
-    Cancel.${prompt}
+    Objets communs (tous rangs).
+    Objets à 1000 points (rang 1 requis).
+    Objets à 2000 points (rang 2 requis).
+    Objets à 4000 points (rang 3 requis).
+    Objets à 8000 points (rang 4 requis).
+    Objets à 16000 points (rang 5 requis).
+    Objets à 24000 points (rang 6 requis).
+    Objets à 32000 points (rang 7 requis).
+    Objets à 40000 points (rang 8 requis).
+    Objets à 48000 points (rang 9 requis).
+    Objets à 56000 points (rang 10 requis).
+    Annuler.${prompt}
   7433: |-
-    Which item do you wish to purchase?
+    Quel objet souhaites-tu acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    2000-pt. items (rank 1 required).
-    4000-pt. items (rank 2 required).
-    8000-pt. items (rank 3 required).
-    16000-pt. items (rank 4 required).
-    24000-pt. items (rank 5 required).
-    32000-pt. items (rank 6 required).
-    40000-pt. items (rank 7 required).
-    48000-pt. items (rank 8 required).
-    56000-pt. items (rank 9 required).
+    Objets communs (tous rangs).
+    Objets à 2000 points (rang 1 requis).
+    Objets à 4000 points (rang 2 requis).
+    Objets à 8000 points (rang 3 requis).
+    Objets à 16000 points (rang 4 requis).
+    Objets à 24000 points (rang 5 requis).
+    Objets à 32000 points (rang 6 requis).
+    Objets à 40000 points (rang 7 requis).
+    Objets à 48000 points (rang 8 requis).
+    Objets à 56000 points (rang 9 requis).
     .
-    Cancel.${prompt}
-  7434: Currently there are no items available for that rank.${prompt}
+    Annuler.${prompt}
+  7434: Actuellement, aucun objet n’est disponible pour ce rang.${prompt}
   7435: |-
-    Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
-    Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
-  7436: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 50 conquest points.${prompt}'
-  7437: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 100 conquest points.${prompt}'
-  7438: 'It is possible to fully recharge ${article} ${item-article: 2[2]} by trading it to one of your nation''s guards, including outpost guards. One charge requires 200 conquest points.${prompt}'
-  7439: During the time of the Great War, it was possible to have this item recharged in exchange for Allied Notes. From my understanding, that practice has recently become commonplace in the Near East. Though you'll be needing Imperial Standing credits if you wish to use the service there.${prompt}
-  7440: 'You do not possess the ${number: 1} ${choice-plurality: 1}[conquest point/conquest points] required to fully recharge the ${item-singular: 0[2]}.${prompt}'
-  7441: 'Please be aware that you can only purchase or recharge ${article} ${item-article: 0[2]} once during the period between each conquest results tally.${prompt}'
-  7442: 'The ${item-singular: 0[2]} is already fully charged.${prompt}'
-  7443: 'Your ${item-singular: 0[2]} has received ${number: 2} ${choice-plurality: 2}[charge/charges] in exchange for ${number: 1} ${choice-plurality: 1}[conquest point/conquest points]. It is now fully recharged.${prompt}'
-  7444: 'I will trade you ${article} ${item-article: 0[2]} for your ${item-singular: 1[2]}. May it serve you well.${prompt}'
-  7445: 'You do not meet the requirements to purchase the ${item-singular: 2[2]}.${prompt}'
-  7446: 'Your rank is too low to purchase the ${item-singular: 2[2]}.${prompt}'
-  7447: 'You do not have enough conquest points to purchase the ${item-singular: 2[2]}.${prompt}'
+    En raison de sa nature spéciale, tu ne peux acheter ou recharger ${article} ${item-article: 2[2]} qu’une seule fois jusqu’à ce que le décompte des résultats de conquête soit effectué.
+    De plus, tu ne peux pas acheter cet objet si un objet similaire est déjà en ta possession.${prompt}
+  7436: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en l’échangeant avec un des gardes de ta nation, y compris les gardes des avant-postes. Une charge nécessite 50 points de conquête.${prompt}'
+  7437: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en l’échangeant avec un des gardes de ta nation, y compris les gardes des avant-postes. Une charge nécessite 100 points de conquête.${prompt}'
+  7438: 'Il est possible de recharger complètement ${article} ${item-article: 2[2]} en l’échangeant avec un des gardes de ta nation, y compris les gardes des avant-postes. Une charge nécessite 200 points de conquête.${prompt}'
+  7439: Pendant la période de la Grande Guerre, il était possible de faire recharger cet objet en échange de Notes Alliées. D’après ce que je sais, cette pratique est récemment devenue courante dans le Proche-Orient. Cependant, tu auras besoin de crédits de Position Impériale si tu veux utiliser ce service là-bas.${prompt}
+  7440: 'Tu ne possèdes pas les ${number: 1} ${choice-plurality: 1}[point/points] de conquête nécessaires pour recharger complètement le ${item-singular: 0[2]}.${prompt}'
+  7441: 'Sache que tu ne peux acheter ou recharger ${article} ${item-article: 0[2]} qu’une seule fois pendant la période entre chaque décompte des résultats de conquête.${prompt}'
+  7442: 'Le ${item-singular: 0[2]} est déjà complètement rechargé.${prompt}'
+  7443: 'Ton ${item-singular: 0[2]} a reçu ${number: 2} ${choice-plurality: 2}[charge/charges] en échange de ${number: 1} ${choice-plurality: 1}[point/points] de conquête. Il est maintenant complètement rechargé.${prompt}'
+  7444: 'Je vais t’échanger ${article} ${item-article: 0[2]} contre ton ${item-singular: 1[2]}. Puisse-t-il te servir utilement.${prompt}'
+  7445: 'Tu ne remplis pas les conditions pour acheter le ${item-singular: 2[2]}.${prompt}'
+  7446: 'Ton rang est trop bas pour acheter le ${item-singular: 2[2]}.${prompt}'
+  7447: 'Tu n’as pas assez de points de conquête pour acheter le ${item-singular: 2[2]}.${prompt}'
   7448: |-
-    You cannot equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Tu ne peux pas équiper le ${item-singular: 2[2]}.
+    Souhaites-tu quand même continuer ?${prompt}
   7449: |-
-    Your level is too low to equip the ${item-singular: 2[2]}.
-    Do you still wish to proceed?${prompt}
+    Ton niveau est trop bas pour équiper le ${item-singular: 2[2]}.
+    Souhaites-tu quand même continuer ?${prompt}
   7450: |-
-    You seem to be able to equip the ${item-singular: 2[2]}.
-    Do you wish to proceed?${prompt}
-  7451: 'Are you sure you want to purchase the ${item-singular: 2[2]}?${prompt}'
+    Il semble que tu puisses équiper le ${item-singular: 2[2]}.
+    Souhaites-tu continuer ?${prompt}
+  7451: 'Es-tu sûr de vouloir acheter le ${item-singular: 2[2]} ?${prompt}'
   7452: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, purchase item.
-    Cancel purchase.${prompt}
+    Oui, acheter l’objet.
+    Annuler l’achat.${prompt}
   7453: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, even though I can't equip it.
-    Cancel purchase.${prompt}
+    Oui, même si je ne peux pas l’équiper.
+    Annuler l’achat.${prompt}
   7454: |-
-    Which item do you wish to purchase?
+    Quel objet souhaites-tu acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
@@ -18315,11 +18315,11 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   7455: |-
-    Which item do you wish to purchase?
+    Quel objet souhaites-tu acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}...${number: 8} pts.
     ${lettercase: 1}${item-singular: 1[2]}...${number: 9} pts.
@@ -18329,135 +18329,135 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}...${number: 13} pts.
     ${lettercase: 1}${item-singular: 6[2]}...${number: 14} pts.
     ${lettercase: 1}${item-singular: 7[2]}...${number: 15} pts.
-    Next page.
-    Previous page.
-    Back.${prompt}
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   7456: 'ENDPARA：${number: 0}${prompt}'
   7457: |-
-    Which service do you request?
+    Quel service souhaites-tu ?
     ${selection-lines}
-    Buy/Sell items.
-    Teleportation.
-    Nothing.${prompt}
+    Acheter/Vendre des objets.
+    Téléportation.
+    Rien.${prompt}
   7458: |-
-    Do you really wish to be teleported?
+    Souhaites-tu vraiment être téléporté ?
     ${selection-lines}
-    Yes.
-    Teleport with gil.
-    Teleport with conquest points.
-    No.${prompt}
-  7459: Welcome to the border shop! If you trade me unused equipment, I'll add their value to your country's region points!${prompt}
+    Oui.
+    Téléportation avec des gils.
+    Téléportation avec des points de conquête.
+    Non.${prompt}
+  7459: Bienvenue à la boutique frontalière ! Si tu m’échanges des équipements inutilisés, j’ajouterai leur valeur aux points de région de ton pays !${prompt}
   7460: |-
-    It should please you to know that I now also deal in ${item-plural: 0[2]}.
-    Bigger pieces will earn you more points for your nation, and I'll even toss some gil into the equation!${prompt}
-  7461: I see that your home country has control of this region. Feel free to browse through my wares.${prompt}
-  7462: I see that your home country is allies with the country in control of this region. Feel free to browse through my wares.${prompt}
-  7463: 'I can teleport you to your home country for ${number: 1} gil or ${number: 3} conquest ${choice-plurality: 3}[point/points].${prompt}'
-  7464: "Word has it that the entire set of mog tablets has been recovered. \nOh, happy day! In honor of the occasion, I can teleport you to your home country free of charge.${prompt}"
-  7465: I am terribly sorry, but it seems as if you do not have enough gil.${prompt}
-  7466: I am terribly sorry, but it seems as if you do not have enough conquest points.${prompt}
-  7467: However, due to your home country's lack of influence in the region, this is the only transaction I am authorized to perform with you at the moment.${prompt}
-  7468: I am looking forward to doing business with you again in the future!${prompt}
-  7469: Thank you. This will increase your nation's region points by a small amount. If you have anything else, by all means, trade them to me.${prompt}
-  7470: Thank you. This will increase your nation's region points moderately. If you have anything else, by all means, trade them to me.${prompt}
-  7471: Thank you. This will increase your nation's region points greatly. If you have anything else, by all means, trade them to me.${prompt}
-  7472: I could not accept one or more items you tried to trade me. Please remove those items and try again.${prompt}
-  7473: Sorry. I can only take certain types of weapons, shields, or armor.${prompt}
+    Cela devrait te faire plaisir de savoir que je traite maintenant aussi des ${item-plural: 0[2]}.
+    Les pièces plus grandes te rapporteront plus de points pour ta nation, et je te donnerai même quelques gils en prime !${prompt}
+  7461: Je vois que ton pays d’origine contrôle cette région. N’hésite pas à parcourir mes marchandises.${prompt}
+  7462: Je vois que ton pays d’origine est allié avec le pays qui contrôle cette région. N’hésite pas à parcourir mes marchandises.${prompt}
+  7463: 'Je peux te téléporter dans ton pays d’origine pour ${number: 1} gils ou ${number: 3} ${choice-plurality: 3}[point/points] de conquête.${prompt}'
+  7464: "On raconte que l’ensemble des tablettes de mog a été récupéré. \nQuel jour heureux ! Pour célébrer l’occasion, je peux te téléporter dans ton pays d’origine gratuitement.${prompt}"
+  7465: Je suis vraiment désolé, mais il semble que tu n’aies pas assez de gils.${prompt}
+  7466: Je suis vraiment désolé, mais il semble que tu n’aies pas assez de points de conquête.${prompt}
+  7467: Cependant, en raison du manque d’influence de ton pays d’origine dans cette région, c’est la seule transaction que je suis autorisé à effectuer avec toi pour le moment.${prompt}
+  7468: J’ai hâte de faire à nouveau affaire avec toi à l’avenir !${prompt}
+  7469: Merci. Cela augmentera légèrement les points de région de ta nation. Si tu as autre chose, n’hésite pas à me les échanger.${prompt}
+  7470: Merci. Cela augmentera modérément les points de région de ta nation. Si tu as autre chose, n’hésite pas à me les échanger.${prompt}
+  7471: Merci. Cela augmentera grandement les points de région de ta nation. Si tu as autre chose, n’hésite pas à me les échanger.${prompt}
+  7472: Je n’ai pas pu accepter un ou plusieurs objets que tu as essayé de m’échanger. Veuillez retirer ces objets et réessayer.${prompt}
+  7473: Désolé. Je ne peux accepter que certains types d’armes, de boucliers ou d’armures.${prompt}
   7474: |-
-    Thank you. This will increase your nation's region points ${choice: 1}[by a small amount/moderately/greatly].
-    For this transaction I will also furnish you with ${number: 0} gil.${prompt}
-  7475: My apologies, but this type of item needs to be individually appraised. Please trade them to me one at a time.${prompt}
-  7476: (DEBUG) Back to hometown!${prompt}
+    Merci. Cela augmentera les points de région de ta nation ${choice: 1}[légèrement/modérément/grandement].
+    Pour cette transaction, je te fournirai également ${number: 0} gils.${prompt}
+  7475: Mes excuses, mais ce type d’objet doit être évalué individuellement. Veuillez me les échanger un par un.${prompt}
+  7476: (DEBUG) Retour à la ville natale !${prompt}
   7477: |-
-    What do you want?
+    Que veux-tu ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Peux-tu m’appliquer le Sceau ?
+    J’aimerais définir mon point de retour ici.
+    Rien.${prompt}
   7478: |-
-    What do you want?
+    Que veux-tu ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  7479: Your home point has been set.${prompt}
-  7480: You do not have enough gil to set your home point here.${prompt}
-  7481: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gils et définir mon point de retour ici.
+    Rien.${prompt}
+  7479: Ton point de retour a été défini.${prompt}
+  7480: Tu n’as pas assez de gils pour définir ton point de retour ici.${prompt}
+  7481: 'Je vais définir ton point de retour ici.${wait-animation: 0}${prompt}'
   7482: |-
-    We are currently on a beastman-purging campaign. We support adventurers from all nations.
-    Do your best to rid the world of those vile creatures.${prompt}
+    Nous sommes actuellement en campagne pour purger les hommes-bêtes. Nous soutenons les aventuriers de toutes les nations.
+    Fais de ton mieux pour débarrasser le monde de ces viles créatures.${prompt}
   7483: |-
-    We are currently conducting an international exchange campaign.
-    You may spend your conquest points to purchase items from foreign guards.${prompt}
+    Nous menons actuellement une campagne d’échange international.
+    Tu peux dépenser tes points de conquête pour acheter des objets auprès des gardes étrangers.${prompt}
   7484: |-
-    Thanks to you, our nation is now first in the conquest race!
-    Here is a small token of our appreciation.${prompt}
-  7485: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+    Grâce à toi, notre nation est maintenant première dans la course à la conquête !
+    Voici un petit gage de notre reconnaissance.${prompt}
+  7485: Les aventuriers des nations mieux classées que la nôtre dans la course à la conquête peuvent acheter des objets chez nous, mais à un tarif plus élevé.${prompt}
   7486: |-
-    You cannot currently purchase this item.
-    Please choose another.${prompt}
-  7487: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
-  7488: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
-  7489: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
-  7490: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+    Tu ne peux pas acheter cet objet pour le moment.
+    Veuillez en choisir un autre.${prompt}
+  7487: Actuellement, notre nation envoie des Forces Expéditionnaires à travers Vana’diel et demande la participation d’aventuriers courageux comme toi.${prompt}
+  7488: 'Les conditions pour participer à une F.E. sont simples. Ton groupe doit être composé de ${number: 5} membres. Chaque membre doit être de ce pays, de rang 3 ou supérieur, et avoir atteint un niveau suffisant.${prompt}'
+  7489: Une fois ton groupe prêt, viens me voir et je te téléporterai vers l’avant-poste le plus proche.${prompt}
+  7490: Là-bas, tu recevras un insigne de la Force Expéditionnaire. Lorsque tu réussiras à prendre le contrôle de la zone, tu pourras échanger l’insigne contre ta récompense.${prompt}
   7491: |-
-    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Rejoindre la F.E. à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les Basses Terres d’Elshimo/Les Hautes Terres d’Elshimo] ?
     ${selection-lines}
-    Join the E.F.
-    Not this time.${prompt}
-  7492: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
-  7493: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
-  7494: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
-  7495: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+    Rejoindre la F.E.
+    Pas cette fois.${prompt}
+  7492: Ton groupe n’a pas assez de membres, ou certains membres ne sont pas dans cette zone. Rassemble tous les participants et reviens ici.${prompt}
+  7493: L’un des membres de ton groupe n’est pas un citoyen de ce pays. Nous n’autorisons aucun participant étranger dans la F.E.${prompt}
+  7494: L’un des membres de ton groupe n’a pas atteint le rang 3. Nous ne pouvons pas révéler nos stratégies tactiques à ceux qui n’ont pas prouvé leur loyauté envers notre pays.${prompt}
+  7495: 'L’un des membres de ton groupe est en dessous du niveau ${number: 6}. Pour la sécurité de l’aventurier et de ceux qui l’accompagnent, nous ne pouvons permettre à quiconque en dessous de la limite de participer à la F.E.${prompt}'
   7496: |-
-    I see that you are ready.
-    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
-  7497: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+    Je vois que vous êtes prêts.
+    Je vous accorde la permission de rejoindre la Force Expéditionnaire actuelle. Lorsque vous serez prêts à être téléportés à l’avant-poste, parlez-moi à nouveau.${prompt}
+  7497: 'Es-tu prêt à être téléporté à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les Basses Terres d’Elshimo/Les Hautes Terres d’Elshimo] ? N’oublie pas que les membres du groupe qui n’ont pas reçu l’autorisation de participer à la F.E. seront laissés derrière.${prompt}'
   7498: |-
-    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Téléportation vers ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les Basses Terres d’Elshimo/Les Hautes Terres d’Elshimo] ?
     ${selection-lines}
-    Ready!
-    Wait just a minute...${prompt}
-  7499: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+    Prêt !
+    Attends une minute…${prompt}
+  7499: 'Annuler ta participation à la F.E. pour ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Les Basses Terres d’Elshimo/Les Hautes Terres d’Elshimo] ?${prompt}'
   7500: |-
-    Quit the E.F.?
+    Quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    Change locations.
-    No.${prompt}
-  7501: Are you sure?${prompt}
+    Oui.
+    Changer de lieu.
+    Non.${prompt}
+  7501: Es-tu sûr ?${prompt}
   7502: |-
-    Really quit the E.F.?
+    Vraiment quitter la F.E. ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7503: |-
-    I see.
-    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  7504: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
-  7505: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
-  7506: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
-  7507: Your invalid ensignias have been disposed of.${prompt}
-  7508: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
-  7509: 'You received ${number: 1} conquest points!${prompt}'
-  7510: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+    Je vois.
+    Si tu souhaites participer à l’avenir, je serai ici pour prendre ta candidature.${prompt}
+  7504: 'Ton ${color: 5}Badge de F.E.${color: 1} disparaît !${prompt}'
+  7505: 'Points Katsu-yaku : ${number: 0} !${prompt}'
+  7506: 'Cet ${keyitem-singular: 0[2]} n’est plus valide. Nous allons nous en débarrasser ici.${prompt}'
+  7507: Tes insignes invalides ont été jetés.${prompt}
+  7508: Bienvenue de retour de l’expédition. Notre nation a réussi sa campagne. Laisse-moi te donner ta récompense.${prompt}
+  7509: 'Tu as reçu ${number: 1} points de conquête !${prompt}'
+  7510: Lorsque tu participes à une Force Expéditionnaire, concentre tes efforts sur le combat contre des ennemis qui te rapportent le plus de points d’expérience. Et n’oublie pas de saisir le contenu des coffres au trésor des hommes-bêtes que tu pourrais rencontrer.${prompt}
   7511: |-
-    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
-    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
-  7512: You could not be teleported. Ask me again, please.${prompt}
-  7513: The conquest results are currently being tallied. Come back later.${prompt}
-  7514: You have received permission to join the Expeditionary Forces!${prompt}
-  7515: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
-  7516: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
-  7517: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
-  7518: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
-  7519: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
-  7520: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
-  7521: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
-  7522: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
-  7523: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
-  7524: 'Your inventory is full. You could not accept the ${item-singular: 0[2]}.${prompt}'
-  7525: You already possess a gate glyph. You cannot hold any more.${prompt}
-  7526: I am Jeunoan Ducal Guard, ${name-npc}. My duty is to support the conquest efforts of Windurst, San d'Oria, and Bastok.${prompt}
+    Je vais maintenant te remettre ton insigne. Assure-toi de lire l’inscription au dos avant de commencer tes fonctions.
+    Une fois que le Sceau t’aura été appliqué, prépare-toi à être téléporté.${prompt}
+  7512: Tu n’as pas pu être téléporté. Demande-moi à nouveau, s’il te plaît.${prompt}
+  7513: Les résultats de la conquête sont en cours de calcul. Reviens plus tard.${prompt}
+  7514: Tu as reçu l’autorisation de rejoindre les Forces Expéditionnaires !${prompt}
+  7515: Actuellement, nous sommes premiers dans la conquête de Vana’diel, mais nous ne devons pas prendre cela pour acquis. Nous devons continuer à nous battre pour rester en tête.${prompt}
+  7516: Nous avions la première place en main, mais nous l’avons laissée nous échapper. Si nous voulons être classés premiers à Vana’diel, chacun de nous doit faire sa part. J’ai hâte d’entendre parler de tes exploits.${prompt}
+  7517: Notre pays est tombé à la troisième place dans la conquête de Vana’diel. Nous devons redoubler d’efforts pour améliorer la situation.${prompt}
+  7518: Tu dois te battre dans des combats qui rapportent beaucoup de points d’expérience. C’est le seul moyen pour nous de mettre des zones sous le contrôle de notre pays.${prompt}
+  7519: Actuellement, notre pays est la force dominante dans cette région. Si nous pouvons maintenir ce niveau, le contrôle de cette zone sera à nous.${prompt}
+  7520: Actuellement, notre pays est une force majeure dans cette région. Cependant, nous ne pouvons pas prendre cela pour acquis. Si nous baissons notre garde, nous perdrons sûrement le contrôle de la zone !${prompt}
+  7521: Actuellement, notre pays n’a qu’une influence mineure dans cette région. Nous comptons sur toi pour nous sortir de ce trou dans lequel nous nous sommes mis.${prompt}
+  7522: Actuellement, l’influence de notre pays dans cette zone est minime. Si nous n’agissons pas rapidement, le contrôle de cette région sera certainement pris par un pays rival.${prompt}
+  7523: Fais attention en traversant, car cette zone est actuellement envahie par les hommes-bêtes ! Il faut faire quelque chose, sinon l’ennemi prendra le contrôle de toute la région.${prompt}
+  7524: 'Ton inventaire est plein. Tu n’as pas pu accepter le ${item-singular: 0[2]}.${prompt}'
+  7525: Tu possèdes déjà un glyphe de portail. Tu ne peux pas en porter davantage.${prompt}
+  7526: Je suis un Garde Ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d’Oria et Bastok.${prompt}
   7527: 　${prompt}
   7528: 　${prompt}
   7529: 　${prompt}
@@ -18649,268 +18649,268 @@ entries:
   7715: 　${prompt}
   7716: PAUSE${prompt}
   7717: '${number: 1}${prompt}'
-  7718: You find nothing.${prompt}
-  7719: You sense a foul presence.${prompt}
-  7720: 'The ${choice: 2}[orange/1/2/3/red/red/blue/blue/yellow/yellow/green/green/indigo/indigo/violet/violet] light... I can feel its power run through me.${wait-animation: 3}'
-  7721: 'Come, ${name-player}.  Follow me...${wait-animation: 2}'
-  7722: Carbuncle vanished off in the direction of the La Theine Plateau.
-  7723: Carbuncle vanished off to another area in the La Theine Plateau.
-  7724: 'The ${unknown: 0x01053082938280} jumps in your hands.'
+  7718: Tu ne trouves rien.${prompt}
+  7719: Tu ressens une présence malfaisante.${prompt}
+  7720: 'La lumière ${choice: 2}[orange/1/2/3/rouge/rouge/bleue/bleue/jaune/jaune/verte/verte/indigo/indigo/violette/violette]... Je peux sentir sa puissance me traverser.${wait-animation: 3}'
+  7721: 'Viens, ${name-player}. Suis-moi...${wait-animation: 2}'
+  7722: Carbuncle a disparu en direction du Plateau de La Theine.
+  7723: Carbuncle a disparu vers une autre zone du Plateau de La Theine.
+  7724: 'Le ${unknown: 0x01053082938280} saute dans tes mains.'
   7725: |-
-    Ahahahahaha!
-    I can sense the power of the ring!
-    Get yourself moving ${choice: 5}[north/northeast/east/southeast/south/southwest/west/northwest]!
-  7726: 'Ahahahahaha! Don''t slow down now, slacker! The readings are coming from the ${choice: 6}[north/northeast/east/southeast/south/southwest/west/northwest]!'
+    Ahahahahaha !
+    Je peux sentir la puissance de l’anneau !
+    Mets-toi en route vers le ${choice: 5}[nord/nord-est/est/sud-est/sud/sud-ouest/ouest/nord-ouest] !
+  7726: 'Ahahahahaha ! Ne ralentis pas maintenant, fainéant ! Les signaux viennent du ${choice: 6}[nord/nord-est/est/sud-est/sud/sud-ouest/ouest/nord-ouest] !'
   7727: |-
-    Ahahahahaha!
-    You're getting close now! I can feel the ring's power from the next area!
+    Ahahahahaha !
+    Tu es tout près maintenant ! Je peux sentir la puissance de l’anneau depuis la prochaine zone !
   7728: |-
-    Ahahahahaha!
-    You're almost on top of it!
-    It's somewhere in this area!
-  7729: You sense an evil presence...${prompt}
-  7730: 'You must be closer to the spot in order to thrust the ${keyitem-singular: 0[2]} in.${prompt}'
-  7731: What do you think you are doing!?${prompt}
-  7732: Nothing happens...${prompt}
-  7733: You feel a sudden chill in the air.${prompt}
-  7734: Something is lying on the sand.${prompt}
-  7735: This should be the place to carry out the ritual.${prompt}
+    Ahahahahaha !
+    Tu y es presque !
+    C’est quelque part dans cette zone !
+  7729: Tu ressens une présence maléfique…${prompt}
+  7730: 'Tu dois être plus près de l’endroit pour planter le ${keyitem-singular: 0[2]} dans le sol.${prompt}'
+  7731: Que penses-tu faire !?${prompt}
+  7732: Rien ne se passe…${prompt}
+  7733: Tu ressens un frisson soudain dans l’air.${prompt}
+  7734: Quelque chose est posé sur le sable.${prompt}
+  7735: Cet endroit devrait être le bon pour effectuer le rituel.${prompt}
   7736: |-
-    Thrust the ${keyitem-singular: 0[2]} into the sand?
+    Planter le ${keyitem-singular: 0[2]} dans le sable ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
+    Oui.
+    Pas encore.${prompt}
   7737: |-
-    I am the will of the realm's guardian wyrms made manifest, and in accordance with the Far Eastern calendar, this year belongs to us!
-    May the soil be fertile and the harvests bountiful in the coming months.${prompt}
+    Je suis la volonté des wyrms gardiens du royaume, manifestée, et selon le calendrier de l’Extrême-Orient, cette année nous appartient !
+    Que le sol soit fertile et les récoltes abondantes dans les mois à venir.${prompt}
   7738: |-
-    I am the will of the realm's guardian wyrms made manifest, and in accordance with the Far Eastern calendar, this year belongs to us!
-    May the following words guide you to fertile soils and bountiful harvests in the coming months.${prompt}
+    Je suis la volonté des wyrms gardiens du royaume, manifestée, et selon le calendrier de l’Extrême-Orient, cette année nous appartient !
+    Que les mots suivants vous guident vers des sols fertiles et des récoltes abondantes dans les mois à venir.${prompt}
   7739: |-
-    What do we have here!? I cannot recall the last time I partook of a shell bug.
-    Mmm...mhmmm...I had completely forgotten how vividly the flavor of these insects dances upon my palate.
-    In return for your kind deed, adventurer, I impart to you the following...
-    <Munch>...<smack>...♪${prompt}
-  7740: You currently stand in the eye of a raging maelstrom. Embark upon those winds and let them carry you to glory, obliterating all who dare defy you.${prompt}
-  7741: You exude a faint yet palpable aura of purification. Bathe your companions in the cleansing light to exorcise both their demons and yours.${prompt}
-  7742: The wheel of fate may creak and groan with age, but it spins in your favor. Where it stops, you shall find new alliances ready for the making.${prompt}
-  7743: Your corporeal frame is but a pyre that fuels an eternally burning spiritual conflagration. Use that passion to blaze your own trail to the path of righteousness.${prompt}
-  7744: You exude a comforting aura that blankets those around you. Wrap your companions in its warmth and their problems should melt away.${prompt}
-  7745: Your inner spirit is attuned to the sonorous melody that fortune emits. Lend it your ear in times of trouble, and you shall never lack for guidance.${prompt}
-  7746: There is nothing out of the ordinary here.${prompt}
+    Qu’avons-nous là !? Je ne me souviens pas de la dernière fois que j’ai mangé un insecte à carapace.
+    Mmm… mhmmm… J’avais complètement oublié à quel point la saveur de ces insectes danse sur mon palais.
+    En retour de ton geste aimable, aventurier, je te transmets ce qui suit…
+    <Miam>… <smack>… ♪${prompt}
+  7740: Tu te tiens actuellement au cœur d’un maelström déchaîné. Embarque sur ces vents et laisse-les te porter vers la gloire, anéantissant tous ceux qui osent te défier.${prompt}
+  7741: Tu dégages une aura de purification faible mais palpable. Baigne tes compagnons dans cette lumière purificatrice pour exorciser leurs démons et les tiens.${prompt}
+  7742: La roue du destin peut grincer et gémir avec l’âge, mais elle tourne en ta faveur. Là où elle s’arrête, tu trouveras de nouvelles alliances prêtes à être forgées.${prompt}
+  7743: Ton enveloppe corporelle n’est qu’un bûcher qui alimente un brasier spirituel éternellement ardent. Utilise cette passion pour tracer ton propre chemin vers la voie de la droiture.${prompt}
+  7744: Tu dégages une aura réconfortante qui enveloppe ceux autour de toi. Enveloppe tes compagnons de sa chaleur, et leurs problèmes devraient fondre comme neige au soleil.${prompt}
+  7745: Ton esprit intérieur est en harmonie avec la mélodie sonore que la fortune émet. Prête-lui une oreille attentive en temps de trouble, et tu ne manqueras jamais de guidance.${prompt}
+  7746: Il n’y a rien d’inhabituel ici.${prompt}
   7747: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
+    Tu peux entendre une voix étrange…
+    « Objets, objets, la la la la la～♪ »${prompt}
   7748: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
+    Oh mon Gob ! T’es l’un de ces aventuriers, pas vrai ?
+    T’as rien contre moi, ${choice-player-gender}[mec./madame.] J’étais juste en train de m’occuper de mes affaires, à chercher des trucs et des machins.${prompt}
   7749: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7750: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7751: Now, listen close...${prompt}
+    Hé, fais gaffe. Tu veux pas te battre avec moi. J’te transformerai en viande séchée !
+    Attends, et si on devenait amis à la place ? Ça te va ?${prompt}
+  7750: Je voyage à travers le monde et j’entends plein d’histoires différentes. J’entends même tes histoires. Je peux t’en raconter une, si tu veux.${prompt}
+  7751: Maintenant, écoute bien…${prompt}
   7752: |-
-    Oh...
-    Well, if that's the case, I'm outta here.${prompt}
-  7753: The Goblin slipped away when you were not looking...${prompt}
-  7754: You can hear a strange, raspy voice...${prompt}
+    Oh…
+    Eh bien, si c’est comme ça, je me tire d’ici.${prompt}
+  7753: Le Gobelin s’est éclipsé pendant que tu ne regardais pas…${prompt}
+  7754: Tu peux entendre une voix étrange et rauque…${prompt}
   7755: |-
-    I travel......hear lots...
-    Hear...stories... Can tell...if...${prompt}
-  7756: '.........listen......${prompt}'
+    Je voyage… j’entends beaucoup…
+    J’entends… des histoires… Je peux raconter… si…${prompt}
+  7756: '… écoute…${prompt}'
   7757: |-
-    Oh......
-    ...outta here.........${prompt}
+    Oh…
+    … je me tire…${prompt}
   7758: |-
-    Do you want to hear a story?
+    Veux-tu entendre une histoire ?
     ${selection-lines}
-    No, thank you.
-    Let's hear one.${prompt}
+    Non, merci.
+    Écoutons-en une.${prompt}
   7759: |-
-    What story would you like to be told?
+    Quelle histoire aimerais-tu qu’on te raconte ?
     ${selection-lines}
-    On second thought, maybe later.
-    Path of the Bard.
-    Dynamis - The Shrouded Land(pt.1).
-    Dynamis - The Shrouded Land(pt.2).
-    Dynamis Interloper.
-    A Delectable Demon(pt.1).
-    A Delectable Demon(pt.2).${prompt}
+    À bien y réfléchir, peut-être plus tard.
+    Le Chemin du Barde.
+    Dynamis - La Terre Voilée (pt.1).
+    Dynamis - La Terre Voilée (pt.2).
+    Intrus de Dynamis.
+    Un Démon Délectable (pt.1).
+    Un Démon Délectable (pt.2).${prompt}
   7760: ${prompt}
   7761: ${prompt}
   7762: ${prompt}
-  7763: An empty light swirls about the cave, eating away at the surroundings...${prompt}
+  7763: Une lumière vide tourbillonne dans la grotte, rongeant les environs…${prompt}
   7764: |-
-    Enter the vortex?
+    Entrer dans le vortex ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7765: |-
-    Hm? What is this?
-    ${lettercase: 1}${article} ${item-article: 0[2]}?
-    How do I know this is not some ${choice: 1}[San d'Orian/Bastokan/Windurstian] trick?${prompt}
+    Hm ? Qu’est-ce que c’est ?
+    ${lettercase: 1}${article} ${item-article: 0[2]} ?
+    Comment puis-je être sûr que ce n’est pas un piège ${choice: 1}[de San d’Oria/de Bastok/de Windurst] ?${prompt}
   7766: |-
-    Step back, adventurer!
-    I've got much more important things to worry about now!${prompt}
+    Recule, aventurier !
+    J’ai des choses bien plus importantes à gérer maintenant !${prompt}
   7767: |-
-    What!?
-    A surprise attack by the beastmen!?
-    And today, of all days...${prompt}
-  7768: 'In a matter of hours, a handful of new squires will be joining our ranks here at the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands].${prompt}'
-  7769: These young patricians are quite spirited, but they lack valuable battle experience.${prompt}
+    Quoi !?
+    Une attaque surprise des hommes-bêtes !?
+    Et aujourd’hui, entre tous les jours…${prompt}
+  7768: 'Dans quelques heures, une poignée de nouveaux écuyers rejoindront nos rangs ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo].${prompt}'
+  7769: Ces jeunes patriciens sont pleins d’entrain, mais ils manquent d’expérience précieuse au combat.${prompt}
   7770: |-
-    While we need be cautious not to disgrace their family names, we cannot let them fall in battle.
-    We request your assistance in protecting the future of San d'Oria!${prompt}
-  7771: 'It will not be long before a caravan of traders in search of new trade routes arrives here at the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands].${prompt}'
+    Bien que nous devions être prudents pour ne pas déshonorer leurs noms de famille, nous ne pouvons pas les laisser tomber au combat.
+    Nous demandons ton aide pour protéger l’avenir de San d’Oria !${prompt}
+  7771: 'Il ne faudra pas longtemps avant qu’une caravane de marchands à la recherche de nouvelles routes commerciales arrive ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo].${prompt}'
   7772: |-
-    If they were to be injured by the enemy, the economy of San d'Oria could fall into chaos.
-    We request your assistance in protecting the prosperity of our kingdom!${prompt}
-  7773: 'A group of Temple Knights is en route to this outpost here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] to observe our daily work.${prompt}'
+    S’ils devaient être blessés par l’ennemi, l’économie de San d’Oria pourrait sombrer dans le chaos.
+    Nous demandons ton aide pour protéger la prospérité de notre royaume !${prompt}
+  7773: 'Un groupe de Chevaliers du Temple est en route vers cet avant-poste ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour observer notre travail quotidien.${prompt}'
   7774: |-
-    Ah, but perhaps this could be a perfect chance to show those pampered sissies that being a true knight comprises more than just chasing about shoplifters and sweeping the chateau gardens.
-    However, no matter how much of a grudge we may hold, we cannot let our Elvaan brothers and sisters fall in battle. Understood?${prompt}
-  7775: 'In a matter of moments, members of the Royal Guards will be arriving here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] to prepare us for our next campaign against the beastmen.${prompt}'
-  7776: If the fiends are conniving a surprise attack, I expect you to do your best in assuring that no disgrace will be brought upon the guards' names, as well as preventing any unnecessary bloodshed.${prompt}
-  7777: 'Today, our outpost here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] is blessed with the honor of welcoming an ambassador from the fine Republic of Bastok.${prompt}'
+    Ah, mais peut-être que c’est une occasion parfaite pour montrer à ces petites natures gâtées qu’être un vrai chevalier, c’est plus que courir après des voleurs à l’étalage et balayer les jardins du château.
+    Cependant, peu importe la rancune que nous pouvons avoir, nous ne pouvons pas laisser nos frères et sœurs Elvaan tomber au combat. Compris ?${prompt}
+  7775: 'Dans quelques instants, des membres des Gardes Royaux arriveront ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour nous préparer à notre prochaine campagne contre les hommes-bêtes.${prompt}'
+  7776: Si les démons préparent une attaque surprise, je compte sur toi pour faire de ton mieux afin qu’aucun déshonneur ne soit porté sur le nom des gardes, et pour éviter tout bain de sang inutile.${prompt}
+  7777: 'Aujourd’hui, notre avant-poste ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] a l’honneur d’accueillir un ambassadeur de la belle République de Bastok.${prompt}'
   7778: |-
-    If anything were to happen to our guest, it could transpire into war between our two nations.
-    I expect you to protect the attaché with your very life!${prompt}
-  7779: 'In a few moments, a new batch of legionary recruits will be enlisted to the Republican Army and dispatched here to the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands].${prompt}'
-  7780: However, within their ranks are future scientists and craftsmen. Their deaths would be a great loss for the future of our nation.${prompt}
+    S’il devait arriver quoi que ce soit à notre invité, cela pourrait déclencher une guerre entre nos deux nations.
+    Je compte sur toi pour protéger l’attaché au péril de ta vie !${prompt}
+  7779: 'Dans quelques instants, un nouveau groupe de recrues légionnaires sera enrôlé dans l’Armée Républicaine et envoyé ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo].${prompt}'
+  7780: Cependant, parmi leurs rangs se trouvent de futurs scientifiques et artisans. Leur mort serait une grande perte pour l’avenir de notre nation.${prompt}
   7781: |-
-    We must ensure their safety, but we also must be careful not to prevent them from fulfilling their duties.
-    The Republic is counting on your assistance!${prompt}
-  7782: 'In a matter of minutes, a group of mariners will be arriving at our outpost here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] for self-defense training.${prompt}'
+    Nous devons assurer leur sécurité, mais nous devons aussi veiller à ne pas les empêcher de remplir leurs devoirs.
+    La République compte sur ton aide !${prompt}
+  7782: 'Dans quelques minutes, un groupe de marins arrivera à notre avant-poste ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour un entraînement à l’autodéfense.${prompt}'
   7783: |-
-    We must provide them with battle experience, but we also must ensure their safety.
-    The Republic is counting on your assistance!${prompt}
-  7784: 'My sources indicate that a party of Gold Musketeers carrying supplies is approaching the outpost here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands].${prompt}'
-  7785: These soldiers are the best of the best, and more than likely will not require any assistance in the event of an attack. However, if anything were to happen to them...${prompt}
-  7786: 'Later today, a group of high-ranking officials from Strategic Command will be arriving here at the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] to prepare for Bastok''s next campaign against the beastmen.${prompt}'
+    Nous devons leur fournir une expérience de combat, mais nous devons aussi assurer leur sécurité.
+    La République compte sur ton aide !${prompt}
+  7784: 'Mes sources indiquent qu’un groupe de Mousquetaires d’Or transportant des provisions approche de l’avant-poste ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo].${prompt}'
+  7785: Ces soldats sont les meilleurs des meilleurs, et il est peu probable qu’ils aient besoin d’aide en cas d’attaque. Cependant, s’il devait leur arriver quoi que ce soit…${prompt}
+  7786: 'Plus tard aujourd’hui, un groupe de hauts fonctionnaires du Commandement Stratégique arrivera ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour préparer la prochaine campagne de Bastok contre les hommes-bêtes.${prompt}'
   7787: |-
-    If anything were to happen to the commanders, you and I would both be court-martialed!
-    The Republic is counting on your assistance!${prompt}
-  7788: 'I have just received word that a group of ambassadors from the Federation of Windurst is en route to this outpost here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] to observe what measures Bastok has undertaken to maintain stability in the regions under Republican control.${prompt}'
-  7789: If the attachés were to be injured on this occasion, the damage suffered to our nations' relationship would be irreparable. The Republic is counting on your assistance!${prompt}
-  7790: 'Shortly, we will be conducting a test for our mercenary candidates here at the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands].${prompt}'
-  7791: This exam is to help us judge the candidates' skill in battle and help us separate those with talent from those who are bound for deskwork.${prompt}
+    S’il devait arriver quoi que ce soit aux commandants, toi et moi serions tous deux traduits en cour martiale !
+    La République compte sur ton aide !${prompt}
+  7788: 'Je viens de recevoir des nouvelles indiquant qu’un groupe d’ambassadeurs de la Fédération de Windurst est en route vers cet avant-poste ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour observer les mesures prises par Bastok afin de maintenir la stabilité dans les régions sous contrôle républicain.${prompt}'
+  7789: Si les attachés devaient être blessés à cette occasion, les dommages subis par la relation entre nos nations seraient irréparables. La République compte sur ton aide !${prompt}
+  7790: 'Bientôt, nous allons organiser un test pour nos candidats mercenaires ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo].${prompt}'
+  7791: Cet examen nous aide à évaluer les compétences des candidats au combat et à séparer ceux qui ont du talent de ceux qui sont destinés à des tâches administratives.${prompt}
   7792: |-
-    But after an attack by the beastmen...there won't be any candidates left to grade!
-    You've got to help us give these kids a fighting chance!${prompt}
-  7793: 'It won''t be long before a party of Federation scholars will be arriving here at the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] to do research on the local wildlife.${prompt}'
-  7794: These scientists are more powerful with their pens than their swords...but that won't help them against a beastman attack! You've got to help us protect them!${prompt}
-  7795: 'Hmmm... Later today, a small group of Wize Wizards will be arriving to observe our daily work here at the outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands].${prompt}'
+    Mais après une attaque des hommes-bêtes… il ne restera plus aucun candidat à évaluer !
+    Tu dois nous aider à donner une chance de se battre à ces jeunes !${prompt}
+  7793: 'Il ne faudra pas longtemps avant qu’un groupe d’érudits de la Fédération arrive ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour faire des recherches sur la faune locale.${prompt}'
+  7794: Ces scientifiques sont plus puissants avec leurs plumes qu’avec leurs épées… mais cela ne les aidera pas contre une attaque des hommes-bêtes ! Tu dois nous aider à les protéger !${prompt}
+  7795: 'Hmmm… Plus tard aujourd’hui, un petit groupe de Sages Sorciers arrivera pour observer notre travail quotidien ici à l’avant-poste de ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo].${prompt}'
   7796: |-
-    I say that we give them something to remember!
-    ${name-player}! It's up to you to prove to those bigwigs that we are the ones who maintain the peace in the Federation! Give those beastmen all you've got! (Just don't let the Wize Wizards get hurt...)${prompt}
-  7797: 'Today, a party of Federation Patriarchs is scheduled to arrive at the outpost here in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] to plan for Windurst''s next campaign against the beastmen.${prompt}'
-  7798: If anything were to happen to them, we'd all be reassigned to latrine duty! If you know what's good for you, you won't let anyone lay a finger on them!${prompt}
-  7799: 'Oh, why did the military attachés from San d''Oria have to come to our outpost in ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands] now?${prompt}'
-  7800: I shudder to think what would happen if an ambassador was injured...or worse! Get out there and protect those Elvaan with your life!${prompt}
+    Je dis qu’on leur donne quelque chose dont ils se souviendront !
+    ${name-player} ! C’est à toi de prouver à ces gros bonnets que nous sommes ceux qui maintiennent la paix dans la Fédération ! Donne tout ce que tu as contre ces hommes-bêtes ! (Mais ne laisse pas les Sages Sorciers être blessés…)${prompt}
+  7797: 'Aujourd’hui, un groupe de Patriarches de la Fédération est prévu d’arriver à l’avant-poste ici à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] pour planifier la prochaine campagne de Windurst contre les hommes-bêtes.${prompt}'
+  7798: S’il devait leur arriver quoi que ce soit, nous serions tous réaffectés au nettoyage des latrines ! Si tu sais ce qui est bon pour toi, tu ne laisseras personne poser un doigt sur eux !${prompt}
+  7799: 'Oh, pourquoi les attachés militaires de San d’Oria ont-ils dû venir à notre avant-poste à ${choice: 2}[Ronfaure/Gustaberg/Sarutabaruta/Zulkheim/Norvallen/Derfland/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/les Basses Terres d’Elshimo/les Hautes Terres d’Elshimo] maintenant ?${prompt}'
+  7800: Je frémis à l’idée de ce qui pourrait arriver si un ambassadeur était blessé… ou pire ! Sors et protège ces Elvaan au péril de ta vie !${prompt}
   7801: |-
-    Excellent work! Your efforts helped protect the future of our nation.
-    Divide this among your companions.${prompt}
-  7802: Our nation suffered an enormous loss today. We must begin reinforcing our defenses immediately!${prompt}
-  7803: Your inability to complete the mission has led to our defeat. The last thing our nation needs is an incompetent adventurer!${prompt}
-  7804: You fought hard, and you proved yourself worthy. You are a great asset to the nation.${prompt}
-  7805: We commend you on your services in helping us avert the beastmen's attack. I do not see them attacking us again any time soon.${prompt}
-  7806: This area is currently conducting a Ballista match. I have no time to trouble myself with your beastman trinkets.${prompt}
+    Excellent travail ! Tes efforts ont aidé à protéger l’avenir de notre nation.
+    Partage ceci avec tes compagnons.${prompt}
+  7802: Notre nation a subi une énorme perte aujourd’hui. Nous devons commencer à renforcer nos défenses immédiatement !${prompt}
+  7803: Ton incapacité à compléter la mission a conduit à notre défaite. La dernière chose dont notre nation a besoin, c’est d’un aventurier incompétent !${prompt}
+  7804: Tu as combattu vaillamment, et tu as prouvé ta valeur. Tu es un atout précieux pour la nation.${prompt}
+  7805: Nous te félicitons pour tes services qui nous ont aidés à repousser l’attaque des hommes-bêtes. Je ne pense pas qu’ils nous attaqueront à nouveau de sitôt.${prompt}
+  7806: Cette zone organise actuellement un match de Ballista. Je n’ai pas le temps de m’occuper de tes babioles d’hommes-bêtes.${prompt}
   7807: |-
-    A party member has an NPC called up.
-    You cannot take part in this event.${prompt}
-  7808: You've helped our poor girl find her way home! I don't know how to thank you!${prompt}
-  7809: 'And to think you made it here in a mere ${number: 3} ${choice-plurality: 3}[hour/hours] (${number: 4} ${choice-plurality: 4}[minute/minutes] and ${number: 5} ${choice-plurality: 5}[second/seconds] Earth time)!${prompt}'
-  7810: 'Oh, and by the way, the fastest adventurer to date has been ${entity: 0}. That talented rider traversed the same course as you in ${number: 3} ${choice-plurality: 3}[hour/hours] (${number: 4} ${choice-plurality: 4}[minute/minutes] and ${number: 5} ${choice-plurality: 5}[second/seconds] Earth time)!${prompt}'
+    Un membre de ton groupe a invoqué un PNJ.
+    Tu ne peux pas participer à cet événement.${prompt}
+  7808: Tu as aidé notre pauvre fille à retrouver son chemin jusqu’à la maison ! Je ne sais pas comment te remercier !${prompt}
+  7809: 'Et dire que tu es arrivé ici en seulement ${number: 3} ${choice-plurality: 3}[heure/heures] (${number: 4} ${choice-plurality: 4}[minute/minutes] et ${number: 5} ${choice-plurality: 5}[seconde/secondes] en temps terrestre) !${prompt}'
+  7810: 'Oh, et à propos, l’aventurier le plus rapide à ce jour a été ${entity: 0}. Ce cavalier talentueux a parcouru le même trajet que toi en ${number: 3} ${choice-plurality: 3}[heure/heures] (${number: 4} ${choice-plurality: 4}[minute/minutes] et ${number: 5} ${choice-plurality: 5}[seconde/secondes] en temps terrestre) !${prompt}'
   7811: |-
-    Anyway, please take this as a token of our appreciation.
-    And stop by again sometime. We may have more work for you!${prompt}
+    Quoi qu’il en soit, prends ceci en gage de notre reconnaissance.
+    Et repasse nous voir un de ces jours. Nous aurons peut-être plus de travail pour toi !${prompt}
   7812: |-
-    Time elapsed:
-    ${number: 0} ${choice-plurality: 0}[hour/hours] (Vana'diel time)
-    ${number: 1} ${choice-plurality: 1}[minute/minutes] and ${number: 2} ${choice-plurality: 2}[second/seconds] (Earth time)${prompt}
+    Temps écoulé :
+    ${number: 0} ${choice-plurality: 0}[heure/heures] (temps de Vana’diel)
+    ${number: 1} ${choice-plurality: 1}[minute/minutes] et ${number: 2} ${choice-plurality: 2}[seconde/secondes] (temps terrestre)${prompt}
   7813: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back to the chocobo stables after sorting your inventory.${prompt}
-  7814: 'Oh, and by the way, the fastest adventurer to date has been...you! Your remarkable record of ${number: 3} ${choice-plurality: 3}[hour/hours] (${number: 4} ${choice-plurality: 4}[minute/minutes] and ${number: 5} ${choice-plurality: 5}[second/seconds] Earth time) still stands strong!${prompt}'
+    Tu ne peux pas obtenir le ${item-singular: 0[2]}.
+    Reviens aux écuries de chocobos après avoir trié ton inventaire.${prompt}
+  7814: 'Oh, et à propos, l’aventurier le plus rapide à ce jour, c’est… toi ! Ton record remarquable de ${number: 3} ${choice-plurality: 3}[heure/heures] (${number: 4} ${choice-plurality: 4}[minute/minutes] et ${number: 5} ${choice-plurality: 5}[seconde/secondes] en temps terrestre) tient toujours bon !${prompt}'
   7815: |-
-    It seems that long ago, a ship sank near here.
-    If you find any vestige of the wreck and return it to the sea, perhaps it would appease the spirits of the dead.${prompt}
-  7816: 'You return the ${item-singular: 0[2]} to the sea.${prompt}'
-  7817: '...${prompt}'
-  7818: '${color-alt: 15}??? gazes out over the ocean.'
+    Il semble qu’il y a longtemps, un navire a coulé près d’ici.
+    Si tu trouves un vestige de l’épave et que tu le rends à la mer, cela pourrait peut-être apaiser les esprits des morts.${prompt}
+  7816: 'Tu rends le ${item-singular: 0[2]} à la mer.${prompt}'
+  7817: '…${prompt}'
+  7818: '${color-alt: 15}??? regarde fixement l’océan.'
   7819: |-
-    I must...hurry...
-    I must...hurry and...pull it...up...${prompt}
+    Je dois… me dépêcher…
+    Je dois… me dépêcher et… le remonter…${prompt}
   7820: |-
-    I can see it glimmering there...
-    But there are sharks everywhere...${prompt}
+    Je peux le voir scintiller là-bas…
+    Mais il y a des requins partout…${prompt}
   7821: |-
-    I know... I should still be able to fish it up.
-    But...I don't have a rod or bait...${prompt}
-  7822: 'My ${item-singular: 0[2]}...${prompt}'
-  7823: What can I do...?${prompt}
-  7824: I worked so hard to get it...${prompt}
-  7825: I must have it back...${prompt}
+    Je sais… je devrais encore pouvoir le pêcher.
+    Mais… je n’ai ni canne à pêche ni appât…${prompt}
+  7822: 'Mon ${item-singular: 0[2]}…${prompt}'
+  7823: Que puis-je faire… ?${prompt}
+  7824: J’ai travaillé si dur pour l’obtenir…${prompt}
+  7825: Je dois le récupérer…${prompt}
   7826: |-
-    I thought I could make my parents proud...
-    Why can't I do such a simple thing!?${prompt}
-  7827: I-I'm...fading... I can't go on much longer... Could this be the end?${prompt}
-  7828: It can't be... Nooo!!!${prompt}
-  7829: It's back now... Here it is, Mother...${prompt}
+    Je pensais pouvoir rendre mes parents fiers…
+    Pourquoi ne puis-je pas faire une chose aussi simple !?${prompt}
+  7827: Je… je m’efface… Je ne peux pas continuer plus longtemps… Est-ce la fin ?${prompt}
+  7828: Ça ne peut pas être… Noooon !!!${prompt}
+  7829: Il est de retour maintenant… Le voilà, Mère…${prompt}
   7830: |-
-    No...
-    I can't bear it...${prompt}
-  7831: Time to...REPOP!${prompt}
-  7832: No more level restriction for you!${prompt}
-  7833: 'You pick up the ${item-singular: 0[2]}.${prompt}'
-  7834: You are too far away.
-  7835: You are too far away.
+    Non…
+    Je ne peux pas le supporter…${prompt}
+  7831: Il est temps de… REAPPARAÎTRE !${prompt}
+  7832: Plus de restriction de niveau pour toi !${prompt}
+  7833: 'Tu ramasses le ${item-singular: 0[2]}.${prompt}'
+  7834: Tu es trop loin.
+  7835: Tu es trop loin.
   7836: |-
-    Nothing happens.
-    Your party exceeds the maximum number of ${number: 0} members.
+    Rien ne se passe.
+    Ton groupe dépasse le nombre maximum de ${number: 0} membres.
   7837: |-
-    Nothing happens.
-    You must dissolve your alliance.
+    Rien ne se passe.
+    Tu dois dissoudre ton alliance.
   7838: |-
-    Nothing happens.
-    Please wait a moment and try again.
+    Rien ne se passe.
+    Veuillez attendre un moment et réessayer.
   7839: |-
-    Long ago, monsters killed many adventurers and merchants just off the coast here.
-    If you find any vestige of the victims and return it to the sea, perhaps it would appease the spirits of the dead.${prompt}
-  7840: 'You return the ${item-singular: 0[2]} to the sea.${prompt}'
-  7841: Wh-whatever could that be!?${prompt}
+    Il y a longtemps, des monstres ont tué de nombreux aventuriers et marchands juste au large de cette côte.
+    Si tu trouves un vestige des victimes et que tu le rends à la mer, cela pourrait peut-être apaiser les esprits des morts.${prompt}
+  7840: 'Tu rends le ${item-singular: 0[2]} à la mer.${prompt}'
+  7841: Qu-qu’est-ce que ça peut bien être !?${prompt}
   7842: |-
-    It's coming this way!
-    Get prop-prim-prepared! I've got nothing to use against this beasty-weast!${prompt}
-  7843: Hurry! See that shiny-shimmering point? Fish there! Get the treasure-weasure!${prompt}
-  7844: Right over there! The ship-shape-shimmery point!${prompt}
-  7845: Ahhh! Hurry up, hurry up!!!${prompt}
-  7846: It's coming! It's coming for ussssss!${prompt}
+    Ça vient par ici !
+    Prépare-toi bien-bien-bien ! Je n’ai rien pour me défendre contre cette bê-bête !${prompt}
+  7843: Dépêche-toi ! Tu vois ce point brillant-scintillant ? Pêche là-bas ! Attrape le tré-trésor !${prompt}
+  7844: Juste là-bas ! Le point scintillant en forme de bateau !${prompt}
+  7845: Ahhh ! Dépêche-toi, dépêche-toi !!!${prompt}
+  7846: Ça arrive ! Ça vient pour noussssss !${prompt}
   7847: |-
-    It can'taru be...!
-    Three of them!!!?${prompt}
-  7848: Noooooo!!!${prompt}
-  7849: '${color-alt: 15}??? disappears in a cry of anguish.'
+    Ça ne peutaru pas être… !
+    Trois d’entre eux !!!?${prompt}
+  7848: Noooooon !!!${prompt}
+  7849: '${color-alt: 15}??? disparaît dans un cri d’angoisse.'
   7850: |-
-    Your level will be restricted to ${number: 0}.
-    You must have a fishing rod and bait.
-    No one else may participate.${prompt}
+    Ton niveau sera restreint à ${number: 0}.
+    Tu dois avoir une canne à pêche et un appât.
+    Personne d’autre ne peut participer.${prompt}
   7851: |-
-    Your level will be restricted to ${number: 0}.
-    You must have a fishing rod and bait.
-    ${number: 1} party members in the area may participate.${prompt}
+    Ton niveau sera restreint à ${number: 0}.
+    Tu dois avoir une canne à pêche et un appât.
+    ${number: 1} membres du groupe dans la zone peuvent participer.${prompt}
   7852: |-
-    Continue?
+    Continuer ?
     ${selection-lines}
-    Yes. Let's go!
-    I'm not ready.${prompt}
+    Oui. Allons-y !
+    Je ne suis pas prêt.${prompt}
   7853: |-
-    Nothing happens.
-    Please wait until the level restriction effect wears off and try again.${prompt}
+    Rien ne se passe.
+    Veuillez attendre que l’effet de restriction de niveau se dissipe et réessayer.${prompt}
   7854: |-
-    You no longer feel a chill.
-    The chart may lose its power if you venture too far.
-  7855: Too much time has passed. The monster has lost interest.
+    Tu ne ressens plus de frisson.
+    La carte pourrait perdre son pouvoir si tu t’éloignes trop.
+  7855: Trop de temps s’est écoulé. Le monstre a perdu tout intérêt.
   7856: test0${prompt}
   7857: test1${prompt}
   7858: test2${prompt}
