@@ -32534,49 +32534,49 @@ entries:
   15625: We'd also appreciate your help in distributing cards, kupo. All you're required to do is deliver this card to the addressee. We're counting on you!${prompt}
   15626: Things have settled down for the time being. But we may have need for your help later on, so don't wander too far away, kupo.${prompt}
   15627: |-
-    Greetings, friend! I am a synergy engineer, dispatched from the Institute to maintain the furnaces you see beside me.
-    I also have knowledge and services to share with fellow synergists, if that is what you desire.${prompt}
+    Salutations, ami ! Je suis un ingénieur en synergie, envoyé par l’Institut pour entretenir les Fourneaux que tu vois à côté de moi.
+    J’ai également des connaissances et des services à partager avec mes collègues synergistes, si c’est ce que tu désires.${prompt}
   15628: |-
-    I see from the puzzled expression on your face that you are unfamiliar with our discipline.
-    To use these furnaces, you will first need to obtain ${keyitem-article: 0[2]}.${prompt}
+    Je vois à l’expression perplexe sur ton visage que tu n’es pas familier avec notre discipline.
+    Pour utiliser ces Fourneaux, tu devras d’abord obtenir ${keyitem-article: 0[2]}.${prompt}
   15629: |-
-    Piqued your curiosity, have I? Then you should speak with Hildolf, our institute director, at his laboratory in the Bastok Metalworks.
-    He's always eager to welcome a new synergist to our ranks.${prompt}
+    J’ai piqué ta curiosité, n’est-ce pas ? Alors tu devrais parler à Hildolf, le directeur de notre institut, dans son laboratoire à Bastok Metalworks.
+    Il est toujours impatient d’accueillir un nouveau synergiste dans nos rangs.${prompt}
   15630: |-
-    May I be of service?
+    Puis-je t’être utile ?
     ${selection-lines}
-    Not now.
-    Learn recipes.
-    Check fewell.
-    Replenish fewell.
-    Purchase materials.
-    Receive training.
-    Trade cinder.
-    Get information.${prompt}
+    Pas maintenant.
+    Apprendre des recettes.
+    Vérifier le fewell.
+    Réapprovisionner le fewell.
+    Acheter des matériaux.
+    Recevoir une formation.
+    Échanger des cendres.
+    Obtenir des informations.${prompt}
   15631: |-
-    Recipes, you say?
-    Let's see what we have that's suitable for your level of expertise...${prompt}
+    Des recettes, dis-tu ?
+    Voyons ce que nous avons qui convient à ton niveau d’expertise…${prompt}
   15632: |-
-    ...I'm sorry.
-    I'm afraid there's nothing I can teach you at the moment.${prompt}
+    …Je suis désolé.
+    J’ai bien peur de ne rien pouvoir t’enseigner pour le moment.${prompt}
   15633: |-
-    I've got it! How about ${article} ${item-article: 0[2]}?
-    Mind you, it'll require a certain level of skill...${prompt}
-  15634: 'Synergy skill: ${choice: 0}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran].${prompt}'
-  15635: '${choice: 1}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}'
+    J’ai trouvé ! Que dirais-tu de ${article} ${item-article: 0[2]} ?
+    Attention, cela nécessitera un certain niveau de compétence…${prompt}
+  15634: 'Compétence en synergie : ${choice: 0}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran].${prompt}'
+  15635: 'Compétence en ${choice: 1}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}'
   15636: |-
-    ${choice: 1}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
-    ${choice: 3}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 4}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}
+    Compétence en ${choice: 1}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
+    Compétence en ${choice: 3}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 4}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}
   15637: |-
-    ${choice: 1}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
-    ${choice: 3}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 4}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
-    ${choice: 5}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 6}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}
+    Compétence en ${choice: 1}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
+    Compétence en ${choice: 3}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 4}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
+    Compétence en ${choice: 5}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 6}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}
   15638: |-
-    ${choice: 1}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
-    ${choice: 3}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 4}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
-    ${choice: 5}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 6}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
-    ${choice: 7}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leathercraft/Bonecraft/Alchemy/Cooking/Fishing] skill: ${choice: 8}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}
-  15639: As for materials, you'll be needing...${prompt}
+    Compétence en ${choice: 1}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 2}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
+    Compétence en ${choice: 3}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 4}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
+    Compétence en ${choice: 5}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 6}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].
+    Compétence en ${choice: 7}[Pêche/Travail du bois/Forge/Orfèvrerie/Tissage/Cuir/Ossement/Alchimie/Cuisine/Pêche] : ${choice: 8}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert].${prompt}
+  15639: Quant aux matériaux, tu auras besoin de…${prompt}
   15640: '${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
   15641: |-
     ${number: 1} ${item-given-plurality: 1[2], 0[2]}.
@@ -32591,91 +32591,91 @@ entries:
     ${number: 5} ${item-given-plurality: 5[2], 4[2]}.
     ${number: 7} ${item-given-plurality: 7[2], 6[2]}.${prompt}
   15644: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1}.${prompt}
   15645: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3}.${prompt}
   15646: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5}.${prompt}
   15647: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7}.${prompt}
   15648: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}.${prompt}
   15649: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9} ${choice: 10}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11}.${prompt}
   15650: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9} ${choice: 10}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11} ${choice: 12}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 13}.${prompt}
   15651: |-
-    And the required elemental balance is:
+    Et l’équilibre élémentaire requis est :
     ${choice: 0}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1} ${choice: 2}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9} ${choice: 10}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11} ${choice: 12}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 13} ${choice: 14}[/${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 15}.${prompt}
   15652: |-
-    There you go.
-    That doesn't sound so hard, now, does it?${prompt}
+    Voilà.
+    Ça ne semble pas si difficile, maintenant, n’est-ce pas ?${prompt}
   15653: |-
-    But of course!
-    If you'll just allow me to inspect your ${keyitem-singular: 0[2]} for a moment...${prompt}
+    Mais bien sûr !
+    Si tu me permets d’inspecter ton ${keyitem-singular: 0[2]} un instant…${prompt}
   15654: |-
-    Your fewell supply would appear to be as follows:
+    Ton approvisionnement en fewell semble être le suivant :
     ${icon: fire}${number: 0} ${icon: ice}${number: 1} ${icon: wind}${number: 2} ${icon: earth}${number: 3} ${icon: lightning}${number: 4} ${icon: water}${number: 5} ${icon: light}${number: 6} ${icon: dark}${number: 7}.${prompt}
-  15655: Running low? We can fill you up for a nominal fee.${prompt}
+  15655: Tu manques de stock ? Nous pouvons te remplir pour un petit frais.${prompt}
   15656: |-
-    Replenish fewell?
+    Réapprovisionner le fewell ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   15657: |-
-    Looking for a fewell fill-up, you say?
-    Then you've come to the right place!${prompt}
+    Tu cherches à faire le plein de fewell, dis-tu ?
+    Alors tu es au bon endroit !${prompt}
   15658: |-
-    ...Hm? Why, your tank is already full to bursting.
-    Come back again if you need a refill.${prompt}
-  15659: "Now let's see here... According to my calculations, I can fill you up to capacity for ${number: 0} gil. \nHow does that sound?${prompt}"
+    …Hm ? Eh bien, ton réservoir est déjà plein à craquer.
+    Reviens si tu as besoin d’un nouveau remplissage.${prompt}
+  15659: "Voyons voir… Selon mes calculs, je peux te remplir jusqu’à la capacité maximale pour ${number: 0} gils. \nQu’en penses-tu ?${prompt}"
   15660: |-
-    Pay ${number: 0} gil?
+    Payer ${number: 0} gils ?
     ${selection-lines}
-    Deal!
-    No thanks.${prompt}
+    Marché conclu !
+    Non merci.${prompt}
   15661: |-
-    Understood.
-    Take care to monitor your reserves closely, lest you run out of fewell in the midst of a crucial procedure.${prompt}
+    Compris.
+    Fais attention à surveiller tes réserves de près, pour ne pas te retrouver à court de fewell au milieu d’une procédure cruciale.${prompt}
   15662: |-
-    I'm afraid you haven't the requisite gil, friend.
-    Perhaps another time.${prompt}
+    J’ai bien peur que tu n’aies pas assez de gils, mon ami.
+    Peut-être une autre fois.${prompt}
   15663: |-
-    Excellent!
-    Now we just pop open your ${keyitem-singular: 0[2]} here, and...${prompt}
+    Excellent !
+    Maintenant, nous allons ouvrir ton ${keyitem-singular: 0[2]} ici, et…${prompt}
   15664: |-
-    There you go. Filled to the brim with a fresh batch of fewell!
-    Can you smell those fumes? Mmm-mmm!${prompt}
-  15665: 'Your ${keyitem-singular: 0[2]} has been filled to capacity!'
-  15666: 'You hand the synergy engineer ${number: 0} gil.'
+    Et voilà. Rempli à ras bord avec un nouveau lot de fewell !
+    Sens-tu ces vapeurs ? Mmm-mmm !${prompt}
+  15665: 'Ton ${keyitem-singular: 0[2]} a été rempli à pleine capacité !'
+  15666: 'Tu remets ${number: 0} gils à l’ingénieur en synergie.'
   15667: |-
-    How do you expect me to do that when your ${keyitem-singular: 0[2]} is sitting inside a furnace, friend?
-    You'll have to come back after you've finished synergizing.${prompt}
+    Comment veux-tu que je fasse ça alors que ton ${keyitem-singular: 0[2]} est à l’intérieur d’un fourneau, mon ami ?
+    Tu devras revenir après avoir terminé ta synergie.${prompt}
   15668: |-
-    Materials, you say? But of course!
-    Have a look at our selection.${prompt}
+    Des matériaux, dis-tu ? Mais bien sûr !
+    Jette un œil à notre sélection.${prompt}
   15669: |-
-    Purchase something?
+    Acheter quelque chose ?
     ${selection-lines}
-    Not today.
-    ${number: 1} ${item-given-plurality: 1[2], 0[2]}: ${number: 2} gil.
-    ${number: 3} ${item-given-plurality: 3[2], 0[2]}: ${number: 4} gil.
-    ${number: 5} ${item-given-plurality: 5[2], 0[2]}: ${number: 6} gil.${prompt}
-  15670: 'For ${number: 1} ${item-given-plurality: 1[2], 0[2]}, that comes to ${number: 2} gil.${prompt}'
+    Pas aujourd’hui.
+    ${number: 1} ${item-given-plurality: 1[2], 0[2]} : ${number: 2} gils.
+    ${number: 3} ${item-given-plurality: 3[2], 0[2]} : ${number: 4} gils.
+    ${number: 5} ${item-given-plurality: 5[2], 0[2]} : ${number: 6} gils.${prompt}
+  15670: 'Pour ${number: 1} ${item-given-plurality: 1[2], 0[2]}, cela fait ${number: 2} gils.${prompt}'
   15671: |-
-    Ah, another dedicated synergist looking to refine ${choice-player-gender}[his/her] technique.
-    Excellent! That motivation will serve you well.${prompt}
-  15672: '...But I''m afraid you''ll need ${choice: 0}[/ever so slightly more/a bit more/more/a good deal more/considerably more] experience before you''re ready to benefit from my training.${prompt}'
+    Ah, un autre synergiste dévoué cherchant à perfectionner ${choice-player-gender}[sa/son] technique.
+    Excellent ! Cette motivation te servira bien.${prompt}
+  15672: '…Mais j’ai bien peur que tu aies besoin ${choice: 0}[/d’un tout petit peu plus/d’un peu plus/de plus/bien plus/considérablement plus] d’expérience avant d’être prêt à bénéficier de ma formation.${prompt}'
   15673: |-
-    And yes, it would seem you're at just the right skill level to receive my training.
-    So, what will it be? Which technique would you like to improve?${prompt}
+    Et oui, on dirait que tu es exactement au bon niveau de compétence pour recevoir ma formation.
+    Alors, que choisis-tu ? Quelle technique aimerais-tu améliorer ?${prompt}
   15674: |-
     Train in which technique?
     ${selection-lines}
