@@ -17846,116 +17846,116 @@ entries:
   7302: 'ro:${number: 0} rs:${number: 1} ps:${number: 2} dt:${number: 3}${prompt}'
   7303: 'ra:${number: 0} ti:${number: 1}${prompt}'
   7304: |-
-    You spot some familiar footprints.
-    You are convinced that your moogle friend has been digging in the immediate vicinity.${prompt}
-  7305: You get the distinct sense that your moogle friend frequents this spot...${prompt}
-  7306: You have a feeling that your moogle friend has been through this way...${prompt}
-  7307: You suspect that the scenery around here would be to a moogle's liking...${prompt}
-  7308: You have a vague feeling that a moogle would enjoy traversing this terrain...${prompt}
-  7309: You have a hunch that this area would be favored by moogles...${prompt}
+    Tu repères des empreintes familières.
+    Tu es convaincu que ton ami mog a creusé dans les environs immédiats.${prompt}
+  7305: Tu as l’impression distincte que ton ami mog fréquente cet endroit…${prompt}
+  7306: Tu as le sentiment que ton ami mog est passé par ici…${prompt}
+  7307: Tu suspectes que le paysage autour d’ici plairait à un mog…${prompt}
+  7308: Tu as une vague impression qu’un mog aimerait traverser ce terrain…${prompt}
+  7309: Tu as l’intuition que cette zone serait appréciée par les mogs…${prompt}
   7310: |-
-    Your chocobo is pulling at the bit.
-    You sense that it is leading you to the ${choice: 0}[east/southeast/south/southwest/west/northwest/north/northeast].${prompt}
-  7311: '${entity: 0} catches ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  7312: '${entity: 0} obtained ${keyitem-article: 0[2]}!${prompt}'
-  7313: It appears your chocobo found this item with ease.${prompt}
-  7314: Your chocobo appears to have gained valuable knowledge from this discovery.${prompt}
+    Ton chocobo tire sur le mors.
+    Tu sens qu’il te guide vers le ${choice: 0}[est/sud-est/sud/sud-ouest/ouest/nord-ouest/nord/nord-est].${prompt}
+  7311: '${entity: 0} attrape ${number: 1} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  7312: '${entity: 0} a obtenu ${keyitem-article: 0[2]} !${prompt}'
+  7313: Il semble que ton chocobo ait trouvé cet objet avec facilité.${prompt}
+  7314: Ton chocobo semble avoir acquis des connaissances précieuses grâce à cette découverte.${prompt}
   7315: ' FPT ${number: 0} DPT ${number: 1} DoT${number: 2}'
   7316: ' FPT ${number: 0} TDPT ${number: 1} h${number: 2}'
-  7317: You cannot fish at this time.${prompt}
-  7318: 'You discover a cache of beastman resources and receive ${number: 0} conquest point${choice-plurality: 0}[/s]!${prompt}'
-  7319: 'You discover a cache of beastman resources and receive ${number: 0} Imperial Standing!${prompt}'
-  7320: 'You discover a cache of beastman confederate resources and receive ${number: 0} allied note${choice-plurality: 0}[/s]!${prompt}'
-  7321: 'You receive ${number: 0} bayld!${prompt}'
-  7322: 'Your chocobo refuses to partake of the ${item-singular: 0[2]}.${prompt}'
-  7323: It is some sort of device.${prompt}
-  7324: You can feel hot steam leaking from the cracks in the machine...${prompt}
-  7325: It feels a little damp...${prompt}
-  7326: It looks a little dusty...${prompt}
-  7327: You can feel a little air leaking from the cracks in the machine...${prompt}
-  7328: You can feel a stream of cold air leaking from the cracks in the machine...${prompt}
-  7329: You can hear a small crackling sound from the inside...${prompt}
-  7330: You start to feel a little lightheaded...${prompt}
-  7331: You start to feel a little dark and gloomy...${prompt}
-  7332: The voice of a young woman rings in your head.${prompt}
+  7317: Tu ne peux pas pêcher pour le moment.${prompt}
+  7318: 'Tu découvres une cache de ressources des hommes-bêtes et reçois ${number: 0} point${choice-plurality: 0}[/s] de conquête !${prompt}'
+  7319: 'Tu découvres une cache de ressources des hommes-bêtes et reçois ${number: 0} points d’Influence Impériale !${prompt}'
+  7320: 'Tu découvres une cache de ressources de la confédération des hommes-bêtes et reçois ${number: 0} note${choice-plurality: 0}[/s] alliée !${prompt}'
+  7321: 'Tu reçois ${number: 0} baylds !${prompt}'
+  7322: 'Ton chocobo refuse de consommer le ${item-singular: 0[2]}.${prompt}'
+  7323: C’est une sorte de dispositif.${prompt}
+  7324: Tu peux sentir de la vapeur chaude s’échapper des fissures de la machine…${prompt}
+  7325: Ça semble un peu humide…${prompt}
+  7326: Ça a l’air un peu poussiéreux…${prompt}
+  7327: Tu peux sentir un peu d’air s’échapper des fissures de la machine…${prompt}
+  7328: Tu peux sentir un courant d’air froid s’échapper des fissures de la machine…${prompt}
+  7329: Tu peux entendre un léger crépitement à l’intérieur…${prompt}
+  7330: Tu commences à te sentir un peu étourdi…${prompt}
+  7331: Tu commences à te sentir un peu sombre et morose…${prompt}
+  7332: La voix d’une jeune femme résonne dans ta tête.${prompt}
   7333: |-
-    “...thorization...grant...
-     ...lcome...octor ${name-player}...”${prompt}
+    « …torisation… accordée…
+     …ienvenue… Docteur ${name-player}… »${prompt}
   7334: |-
-    “It is...will...Altan...
-     ...heaven...lory...ve...mercy...”${prompt}
-  7335: The voice in your head has gone silent.${prompt}
-  7336: 'You obtain ${article} ${item-article: 0[2]}!${wait-animation: 0}${prompt}'
-  7337: The device is not working.${prompt}
+    « C’est… la volonté… d’Altan…
+     …ciel… gloire… ayez… pitié… »${prompt}
+  7335: La voix dans ta tête s’est tue.${prompt}
+  7336: 'Tu obtiens ${article} ${item-article: 0[2]} !${wait-animation: 0}${prompt}'
+  7337: Le dispositif ne fonctionne pas.${prompt}
   7338: |-
-    “Wel...to the...morph Matter Emulato...
-    Inser...${article} ${item-article: 2[2]} and...elementally c...patible ${color: 5}chip${color: 1} to begi...item replicat...process...”${prompt}
-  7339: '“If you...a registe...${color: 5}doctor${color: 1}, emula...ettings will...djuste...accordin...”${prompt}'
-  7340: “...emulator...ill now conduc...user auth...zation. Please inp...your 8-digit passw...”${prompt}
-  7341: '“Registr...n complete. Your access...evel is ${color: 5}doctor${color: 1}.”${prompt}'
+    « Bien… venue dans l’Ému… lateur de Matière Morphe…
+    Insérez… ${article} ${item-article: 2[2]} et… une puce ${color: 5}compatible élémentaire${color: 1} pour commencer… le processus de réplication… d’objet… »${prompt}
+  7339: '« Si vous… êtes un ${color: 5}docteur${color: 1} enregistré… les paramètres d’émulation… seront ajustés… en conséquence… »${prompt}'
+  7340: « …émulateur… va maintenant effectuer… l’authentification… de l’utilisateur. Veuillez entrer… votre mot de passe à 8 chiffres… »${prompt}
+  7341: '« Enregistrement… terminé. Votre niveau d’accès… est ${color: 5}docteur${color: 1}. »${prompt}'
   7342: |-
-    “Passw...error...
-    Reg...tration comple... Your access lev...is ${color: 5}assistant${color: 1}.”${prompt}
-  7343: “Yo...dat...has be...recorde...”${prompt}
-  7344: “Syste...shutting...own.”${prompt}
-  7345: “...commencin...rocess...”${prompt}
+    « Erreur… de mot de passe…
+    Enregistrement… terminé… Votre niveau d’accès… est ${color: 5}assistant${color: 1}. »${prompt}
+  7343: « Vos… données… ont été… enregistrées… »${prompt}
+  7344: « Système… en arrêt… »${prompt}
+  7345: « …commencement… du processus… »${prompt}
   7346: |-
-    “Warning! Sys...verload!
-    Enterin...fety mode.
-    ID eras...d.”${prompt}
-  7347: “Deletio...process...mplete.”${prompt}
-  7348: “...letion process...ailed.”${prompt}
-  7349: There is no response...${prompt}
+    « Avertissement ! Surcharge… du système !
+    Passage… en mode sécurité.
+    Identifiant… effacé. »${prompt}
+  7347: « Processus… de suppression… terminé. »${prompt}
+  7348: « Processus… de suppression… échoué. »${prompt}
+  7349: Il n’y a aucune réponse…${prompt}
   7350: |-
-    “S-level warni...
-    Shutti...own systems...prevent...stem overlo...”${prompt}
-  7351: 'You lost the ${item-singular: 0[2]}.${prompt}'
-  7352: 'You obtain ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${wait-animation: 0}${prompt}'
-  7353: '${color-alt: 121}Target out of range.${prompt}'
-  7354: An adventurer, are you? I am Ruillont of the Temple Knights. I came here without my sword, and now fiends have surrounded me.${prompt}
-  7355: As the “wounded” knight for our training, I was to lie near the entrance. But a swarm of fiends happened upon me, and I was forced to flee into this cave.${prompt}
-  7356: Since I had left my sword with a companion, I had to find a place to hide...and now I'm stuck here.${prompt}
-  7357: What? You've come to rescue me?${prompt}
-  7358: I must refuse!${prompt}
-  7359: Imagine, a knight rescued by some passerby! Why, my family would be mocked for generations to come!${prompt}
-  7360: Confound it! If I only had my sword, I'd cut through these fiends single-handedly...${prompt}
-  7361: A traveler from abroad, are you? Beware! Many a soul has become hopelessly lost in these twisting caves.${prompt}
-  7362: An adventurer, are you? Beware! Many a soul has become hopelessly lost in these twisting caves.${prompt}
-  7363: Nothing to report.${prompt}
-  7364: My sword! You've brought me my sword!${prompt}
-  7365: I can't accept this.${prompt}
-  7366: I appreciate the offer, but this is not mine.${prompt}
-  7367: This is just what I needed. I thank you, adventurer.${prompt}
+    « Avertissement de niveau S…
+    Arrêt… des systèmes… pour éviter… une surcharge… du système… »${prompt}
+  7351: 'Tu as perdu le ${item-singular: 0[2]}.${prompt}'
+  7352: 'Tu obtiens ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${wait-animation: 0}${prompt}'
+  7353: '${color-alt: 121}Cible hors de portée.${prompt}'
+  7354: Un aventurier, n’est-ce pas ? Je suis Ruillont des Chevaliers du Temple. Je suis venu ici sans mon épée, et maintenant des démons m’ont encerclé.${prompt}'
+  7355: En tant que chevalier “blessé” pour notre entraînement, je devais m’allonger près de l’entrée. Mais un essaim de démons m’a surpris, et j’ai été forcé de fuir dans cette grotte.${prompt}'
+  7356: Puisque j’avais laissé mon épée à un compagnon, j’ai dû trouver un endroit où me cacher… et maintenant je suis coincé ici.${prompt}'
+  7357: Quoi ? Tu es venu pour me secourir ?${prompt}'
+  7358: Je dois refuser !${prompt}'
+  7359: Imagine, un chevalier secouru par un simple passant ! Ma famille serait moquée pendant des générations !${prompt}'
+  7360: Maudits soient-ils ! Si j’avais seulement mon épée, je taillerais ces démons en pièces tout seul…${prompt}'
+  7361: Un voyageur de l’étranger, n’est-ce pas ? Attention ! Beaucoup d’âmes se sont perdues sans espoir dans ces grottes sinueuses.${prompt}'
+  7362: Un aventurier, n’est-ce pas ? Attention ! Beaucoup d’âmes se sont perdues sans espoir dans ces grottes sinueuses.${prompt}'
+  7363: Rien à signaler.${prompt}'
+  7364: Mon épée ! Tu m’as apporté mon épée !${prompt}'
+  7365: Je ne peux pas accepter ça.${prompt}'
+  7366: J’apprécie l’offre, mais ce n’est pas la mienne.${prompt}'
+  7367: C’est exactement ce dont j’avais besoin. Merci, aventurier.${prompt}'
   7368: |-
-    I'll be fine from here on out.
-    Please let my captain know...${prompt}
-  7369: I'm going to stay here and observe the caves for a while. Watch out for those fiends, eh!${prompt}
-  7370: Your generosity is noted, but one sword is all I need. I cannot accept this.${prompt}
-  7371: You place your hands into the pool.${prompt}
-  7372: The water is refreshingly cold.${prompt}
-  7373: You find nothing.${prompt}
-  7374: The dew from the stalactite slips through your fingers.${prompt}
-  7375: You have already obtained the dew.${prompt}
+    Je vais m’en sortir à partir de maintenant.
+    Veuillez informer mon capitaine…${prompt}'
+  7369: Je vais rester ici et observer les grottes pendant un moment. Fais attention à ces démons, hein !${prompt}'
+  7370: Ta générosité est appréciée, mais une épée me suffit. Je ne peux pas accepter ça.${prompt}'
+  7371: Tu plonges tes mains dans le bassin.${prompt}'
+  7372: L’eau est agréablement froide.${prompt}'
+  7373: Tu ne trouves rien.${prompt}'
+  7374: La rosée de la stalactite glisse entre tes doigts.${prompt}'
+  7375: Tu as déjà obtenu la rosée.${prompt}'
   7376: |-
-    Put something in.
+    Mettre quelque chose dedans.
     ${selection-lines}
-    Crystal.
-    Item.${prompt}
-  7377: These are Ordelle's Caves.${prompt}
-  7378: Killed the bat! (Event Text)${prompt}
-  7379: 'Obtained item: bat wing.${prompt}'
-  7380: Ach, you've really saved me this time. It's a long story, but I got rather lost, you see...${prompt}
+    Cristal.
+    Objet.${prompt}'
+  7377: Ce sont les Grottes d’Ordelle.${prompt}'
+  7378: Chauve-souris tuée ! (Texte d’événement)${prompt}'
+  7379: 'Objet obtenu : aile de chauve-souris.${prompt}'
+  7380: Ach, tu m’as vraiment sauvé cette fois. C’est une longue histoire, mais je me suis plutôt perdu, tu vois…${prompt}'
   7381: '【DEBUG】Time differential : ${number: 0} seconds.${prompt}'
   7382: '【DEBUG】WET_TIME0 = ${number: 0}${prompt}'
   7383: '【DEBUG】TM_START = ${number: 0}${prompt}'
   7384: '【DEBUG】TM_END = ${number: 1}${prompt}'
-  7385: It is dry here, probably because of the wind.${prompt}
-  7386: 'Perhaps you could find ${keyitem-article: 0[2]} here.${prompt}'
+  7385: Il fait sec ici, probablement à cause du vent.${prompt}
+  7386: 'Peut-être pourrais-tu trouver ${keyitem-article: 0[2]} ici.${prompt}'
   7387: モンスター倒したことにする。${prompt}
-  7388: You receive nothing from the moon rabbit...${prompt}
-  7389: The moon rabbit has brought along a monster!${prompt}
-  7390: You have to do something about those crazy trees, kupo!${prompt}
-  7391: You're done fighting trees, kupo?${prompt}
+  7388: Tu ne reçois rien du lapin lunaire…${prompt}
+  7389: Le lapin lunaire a amené un monstre !${prompt}
+  7390: Il faut faire quelque chose à propos de ces arbres fous, kupo !${prompt}
+  7391: Tu as fini de combattre les arbres, kupo ?${prompt}
   7392: ${prompt}
   7393: ${prompt}
   7394: ${prompt}
@@ -17963,85 +17963,85 @@ entries:
   7396: ${prompt}
   7397: ${prompt}
   7398: ${prompt}
-  7399: 'This chest is locked. It can be opened with ${article} ${item-article: 0[2]}.${prompt}'
-  7400: This chest is empty.${prompt}
-  7401: Your inventory is full. You cannot carry any more items.${prompt}
-  7402: You must be closer to the chest to open it.${prompt}
-  7403: '${entity: 0} opens the chest and finds ${article} ${item-article: 0[2]}.${prompt}'
+  7399: 'Ce coffre est verrouillé. Il peut être ouvert avec ${article} ${item-article: 0[2]}.${prompt}'
+  7400: Ce coffre est vide.${prompt}
+  7401: Ton inventaire est plein. Tu ne peux plus porter d’objets.${prompt}
+  7402: Tu dois être plus près du coffre pour l’ouvrir.${prompt}
+  7403: '${entity: 0} ouvre le coffre et trouve ${article} ${item-article: 0[2]}.${prompt}'
   7404: |-
-    The item in this chest cannot be handled by the other members of your party.
-    ${entity: 0} receives the ${item-singular: 0[2]}.${prompt}
-  7405: '${entity: 0} obtains a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7406: 'You obtain a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7407: You unlock the chest!${prompt}
-  7408: '${entity: 0} fails to open the chest.${prompt}'
-  7409: The chest was trapped!${prompt}
-  7410: You cannot open the chest when you are in a weakened state.${prompt}
-  7411: The chest was a mimic!${prompt}
-  7412: You cannot open the chest while participating in the moogle event.${prompt}
-  7413: The chest was but an illusion...${prompt}
+    L’objet dans ce coffre ne peut pas être manipulé par les autres membres de ton équipe.
+    ${entity: 0} reçoit le ${item-singular: 0[2]}.${prompt}
+  7405: '${entity: 0} obtient un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7406: 'Tu obtiens un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7407: Tu déverrouilles le coffre !${prompt}
+  7408: '${entity: 0} échoue à ouvrir le coffre.${prompt}'
+  7409: Le coffre était piégé !${prompt}
+  7410: Tu ne peux pas ouvrir le coffre lorsque tu es dans un état affaibli.${prompt}
+  7411: Le coffre était un mimic !${prompt}
+  7412: Tu ne peux pas ouvrir le coffre pendant que tu participes à l’événement des mogs.${prompt}
+  7413: Le coffre n’était qu’une illusion…${prompt}
   7414: |-
-    The chest appears to be locked.
-    If only you had ${article} ${item-article: 0[2]}, perhaps you could open it...${prompt}
-  7415: Evil weapons...this is what we call weapons that have gained a will of their own after being exposed to some kind of powerful energy.${prompt}
-  7416: Ever do they seek to taste new blood. They enslave kobolds--earth spirits with telekinetic powers--and force them to do their bidding.${prompt}
-  7417: I had a feeling you would come, ever since I wrote that letter to Cid. Well? Does your blade shine with darkness?${prompt}
-  7418: At any rate, that is the theory of the evil weapons' origin. By “powerful energy,” most scholars suspect the Crystal Lines.${prompt}
-  7419: Even though the Crag of Holla is close, Ordelle's Caves are not under the influence of the Crystal Line that emanates from that place. So strange that an evil weapon would appear here...${prompt}
-  7420: 'The adventurer that happened upon the evil weapon said he was carrying ${item-plural: 7[2]} for crafting.${prompt}'
-  7421: 'The evil weapon appeared right when he accidentally dropped ${article} ${item-article: 7[2]}. Just like my armor, the weapon bore the signature of Gerwitz.${prompt}'
-  7422: Gerwitz is a Galkan blacksmith who had left for his journey of rebirth over thirty years ago. Normally, he would be spinning new memories someplace out there.${prompt}
-  7423: But he desired something. And now he seeks it in this place, ever refusing to be reborn.${prompt}
-  7424: I doubt what he seeks is me. I combed every corner of this land, yet no trace of him could I find.${prompt}
-  7425: He wants something from a person with newfound strength. Perhaps he wants the blood of someone with power and a future. Or perhaps...${prompt}
-  7426: I believe he must have called you here. Whether you will answer his call is up to you and your blade...${prompt}
-  7427: Nothing happens.${prompt}
-  7428: You sense a foul presence.${prompt}
-  7429: Mine axe shall rend thy throat!${prompt}
-  7430: Mine sword shall pierce thy tongue!${prompt}
-  7431: Long have I waited. I will tell all...${prompt}
-  7432: Well, it's about time you showed up! You're here for the V.E.R.M.I.N. extermination operation, yes?${prompt}
-  7433: I'll get straight to the point. We want you to find and defeat the fiend that has been wreaking havoc down here, then take the evidence of its extermination to Norejaie in San d'Oria.${prompt}
-  7434: In order to lure the creature into the open, we have prepared this special ointment that must be applied to your skin.${prompt}
-  7435: 'Lest you think me unhelpful, I will share with you what I know: sightings have been reported from the area around G-9.${prompt}'
-  7436: The effect of the ointment lasts for about a day. If it wears off early, or you want the effect removed, just come back here and talk to me.${prompt}
-  7437: There may be some...unexpected side effects. But we won't let a little discomfort bother us now, will we?${prompt}
+    Le coffre semble être verrouillé.
+    Si seulement tu avais ${article} ${item-article: 0[2]}, peut-être pourrais-tu l’ouvrir…${prompt}
+  7415: Armes maléfiques… c’est ainsi que nous appelons les armes qui ont acquis une volonté propre après avoir été exposées à une sorte d’énergie puissante.${prompt}
+  7416: Toujours cherchent-elles à goûter du sang nouveau. Elles asservissent les kobolds — des esprits de la terre dotés de pouvoirs télékinétiques — et les forcent à exécuter leurs ordres.${prompt}
+  7417: J’avais le pressentiment que tu viendrais, depuis que j’ai écrit cette lettre à Cid. Alors ? Ta lame brille-t-elle de ténèbres ?${prompt}
+  7418: Quoi qu’il en soit, c’est la théorie sur l’origine des armes maléfiques. Par “énergie puissante”, la plupart des érudits soupçonnent les Lignes de Cristal.${prompt}
+  7419: Bien que le Pic de Holla soit proche, les Grottes d’Ordelle ne sont pas sous l’influence de la Ligne de Cristal qui émane de cet endroit. C’est étrange qu’une arme maléfique apparaisse ici…${prompt}
+  7420: 'L’aventurier qui est tombé sur l’arme maléfique a dit qu’il transportait des ${item-plural: 7[2]} pour l’artisanat.${prompt}'
+  7421: 'L’arme maléfique est apparue juste quand il a accidentellement fait tomber ${article} ${item-article: 7[2]}. Tout comme mon armure, l’arme portait la signature de Gerwitz.${prompt}'
+  7422: Gerwitz est un forgeron galka qui est parti pour son voyage de renaissance il y a plus de trente ans. Normalement, il serait en train de tisser de nouveaux souvenirs quelque part là dehors.${prompt}
+  7423: Mais il désirait quelque chose. Et maintenant, il le cherche en ce lieu, refusant toujours de renaître.${prompt}
+  7424: Je doute que ce qu’il cherche soit moi. J’ai fouillé chaque recoin de cette terre, et pourtant je n’ai trouvé aucune trace de lui.${prompt}
+  7425: Il veut quelque chose d’une personne dotée d’une force nouvelle. Peut-être veut-il le sang de quelqu’un avec du pouvoir et un avenir. Ou peut-être…${prompt}
+  7426: Je crois qu’il a dû t’appeler ici. Répondre à son appel dépend de toi et de ta lame…${prompt}
+  7427: Rien ne se passe.${prompt}
+  7428: Tu ressens une présence malfaisante.${prompt}
+  7429: Ma hache va déchirer ta gorge !${prompt}
+  7430: Mon épée va percer ta langue !${prompt}
+  7431: J’ai longtemps attendu. Je vais tout raconter…${prompt}
+  7432: Eh bien, il était temps que tu te montres ! Tu es ici pour l’opération d’extermination V.E.R.M.I.N., n’est-ce pas ?${prompt}
+  7433: Je vais aller droit au but. Nous voulons que tu trouves et battes le démon qui sème le chaos ici en bas, puis que tu apportes la preuve de son extermination à Norejaie à San d’Oria.${prompt}
+  7434: Afin d’attirer la créature à découvert, nous avons préparé ce baume spécial qui doit être appliqué sur ta peau.${prompt}
+  7435: 'Pour que tu ne penses pas que je suis inutile, je vais partager ce que je sais : des observations ont été signalées dans la zone autour de G-9.${prompt}'
+  7436: L’effet du baume dure environ un jour. S’il s’estompe plus tôt, ou si tu veux que l’effet soit retiré, reviens ici et parle-moi.${prompt}
+  7437: Il pourrait y avoir quelques… effets secondaires inattendus. Mais on ne va pas laisser un petit inconfort nous déranger, n’est-ce pas ?${prompt}
   7438: |-
-    Apply the ointment?
+    Appliquer le baume ?
     ${selection-lines}
-    Slap it on.
-    Did you say, “side effects”...?${prompt}
-  7439: Come now, you call yourself an adventurer?${prompt}
-  7440: I have no time for your idle chatter.${prompt}
-  7441: Now, close your eyes for a moment. This won't hurt a bit...${prompt}
+    L’étaler.
+    As-tu dit “effets secondaires”… ?${prompt}
+  7439: Allons, tu te dis aventurier ?${prompt}
+  7440: Je n’ai pas de temps pour tes bavardages inutiles.${prompt}
+  7441: Maintenant, ferme les yeux un instant. Ça ne fera pas mal du tout…${prompt}
   7442: |-
-    You wish the effect removed?
-    Well then, close your eyes. This will be relatively painless...${prompt}
+    Tu veux que l’effet soit retiré ?
+    Eh bien, ferme les yeux. Ce sera relativement indolore…${prompt}
   7443: |-
-    What's that you have there? ${lettercase: 1}${keyitem-article: 0[2]} from the fiend?
-    That should be proof enough for Norejaie. Take it back to her in San d'Oria.${prompt}
-  7444: Hmmm? Perhaps you forgot something?${prompt}
+    Qu’est-ce que tu as là ? ${lettercase: 1}${keyitem-article: 0[2]} du démon ?
+    Cela devrait suffire comme preuve pour Norejaie. Rapporte-le-lui à San d’Oria.${prompt}
+  7444: Hmmm ? Peut-être as-tu oublié quelque chose ?${prompt}
   7445: |-
-    What do you desire?
+    Que désires-tu ?
     ${selection-lines}
-    Nothing.
-    To have the ointment removed.
-    To reconfirm where I'm going.${prompt}
-  7446: The shattered remnants of a stalagmite.${prompt}
-  7447: The ointment's odor draws out a creature!${prompt}
-  7448: The shattered remnants of a stalagmite...${prompt}
-  7449: There is nothing out of the ordinary here.${prompt}
+    Rien.
+    Faire retirer le baume.
+    Confirmer à nouveau où je vais.${prompt}
+  7446: Les restes brisés d’une stalagmite.${prompt}
+  7447: L’odeur du baume attire une créature !${prompt}
+  7448: Les restes brisés d’une stalagmite…${prompt}
+  7449: Il n’y a rien d’inhabituel ici.${prompt}
   7450: |-
-    You can hear a strange voice...
-    “Items, items, la la la la la～♪”${prompt}
+    Tu peux entendre une voix étrange…
+    « Objets, objets, la la la la la～♪ »${prompt}
   7451: |-
-    Oh my Gob! You're one of those adventurerurers, aren't ya?
-    You got nothin' on me, ${choice-player-gender}[man./lady.] I was just mindin' my own businesesess, lookin' for junk an' stuff.${prompt}
+    Oh mon Gob ! Tu es l’un de ces aventuriers, n’est-ce pas ?
+    Tu n’as rien contre moi, ${choice-player-gender}[mec./dame.] J’étais juste en train de m’occuper de mes affaires, à chercher des bricoles et des trucs.${prompt}
   7452: |-
-    Hey, watch out. You don't wanna fight me. I'll turn you into meat jerky!
-    Wait, how about you and me be friends instead? Sound good?${prompt}
-  7453: I travel all over the world and hear lots of differererent stories. I even hear your stories. I can tell you one, if you want.${prompt}
-  7454: Now, listen close...${prompt}
+    Hé, fais attention. Tu veux pas te battre contre moi. Je vais te transformer en viande séchée !
+    Attends, et si on devenait amis à la place ? Ça te va ?${prompt}
+  7453: Je voyage partout dans le monde et j’entends plein d’histoires différentes. J’entends même tes histoires. Je peux t’en raconter une, si tu veux.${prompt}
+  7454: Maintenant, écoute bien…${prompt}
   7455: |-
     Oh...
     Well, if that's the case, I'm outta here.${prompt}
@@ -18068,62 +18068,62 @@ entries:
   7463: ${prompt}
   7464: ${prompt}
   7465: ${prompt}
-  7466: An unsettling odor wafts through the air.${prompt}
-  7467: An evil presence fills the air!${prompt}
-  7468: There is nothing out of the ordinary here.${prompt}
-  7469: 'DEBUG: Press the button if you''re feeling lucky, punk.${prompt}'
-  7470: 'Could this slime have the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7471: 'This slime has the ${keyitem-singular: 0[2]}!${wait-35: 4}${prompt}'
-  7472: 'This slime may have the ${keyitem-singular: 0[2]}...${wait-35: 4}${prompt}'
-  7473: 'Could it be that this slime possesses the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7474: 'So this slime is supposed to have the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7475: 'I''ll bet this slime has the ${keyitem-singular: 0[2]}!${wait-35: 4}${prompt}'
-  7476: 'I think this slime has the ${keyitem-singular: 0[2]}!${wait-35: 4}${prompt}'
-  7477: 'Hey! This slime has the ${keyitem-singular: 0[2]}!${wait-35: 4}${prompt}'
-  7478: 'The ${keyitem-singular: 0[2]} may be on this slime...${wait-35: 4}${prompt}'
-  7479: 'Hey, you know what? I bet this slime has the ${keyitem-singular: 0[2]}!${wait-35: 4}${prompt}'
-  7480: 'Could it be that this slime possesses the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7481: 'This slime has the ${keyitem-singular: 0[2]} we want.${wait-35: 4}${prompt}'
-  7482: 'There''s only one way to find out!${wait-35: 4}${prompt}'
-  7483: 'Come on, ${name-player}, let''s take it by force!${wait-35: 4}${prompt}'
-  7484: 'Let''s go, ${name-player}.${wait-35: 4}${prompt}'
-  7485: 'Come, ${name-player}, and we shall see for ourselves!${wait-35: 4}${prompt}'
-  7486: 'Let''s go get it, ${name-player}!${wait-35: 4}${prompt}'
-  7487: 'Let''s do this, ${name-player}!${wait-35: 4}${prompt}'
-  7488: '${name-player}, let''s go!${wait-35: 4}${prompt}'
-  7489: 'Come on, ${name-player}! Let''s get it!${wait-35: 4}${prompt}'
-  7490: 'Shall we, ${name-player}?${wait-35: 4}${prompt}'
-  7491: 'Come on, ${name-player}! Let''s go!${wait-35: 4}${prompt}'
-  7492: 'Come, ${name-player}, and we shall see for ourselves！${wait-35: 4}${prompt}'
-  7493: '${name-player}, chaaarge!${wait-35: 4}${prompt}'
-  7494: 'Tough little slime, wasn''t it?${wait-35: 4}${prompt}'
-  7495: 'That thing had a lot of fight in it, for a slime!${wait-35: 4}${prompt}'
-  7496: 'Not bad for a slime.${wait-35: 4}${prompt}'
-  7497: 'That was quite a fight.${wait-35: 4}${prompt}'
-  7498: 'That slime''s tougher than it looks.${wait-35: 4}${prompt}'
-  7499: 'Phew... Give me just a few seconds to catch my breath...${wait-35: 4}${prompt}'
-  7500: 'That was pretty tough, for a slime.${wait-35: 4}${prompt}'
-  7501: 'That was one of the strongest slimes I''ve ever met!${wait-35: 4}${prompt}'
-  7502: 'Quite tough for a slime.${wait-35: 4}${prompt}'
-  7503: 'Wow! That was a really tough slime!${wait-35: 4}${prompt}'
-  7504: 'That was quite a fight.${wait-35: 4}${prompt}'
-  7505: 'Slimes can be deceptively strong.${wait-35: 4}${prompt}'
-  7506: 'I wonder if it has the ${keyitem-singular: 0[2]}...${wait-35: 4}${prompt}'
-  7507: 'Well? Does it have the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7508: 'Think it has the ${keyitem-singular: 0[2]} on it?${wait-35: 4}${prompt}'
-  7509: 'I wonder if it has the ${keyitem-singular: 0[2]}.${wait-35: 4}${prompt}'
-  7510: 'Did you check for the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7511: 'So where''s this ${keyitem-singular: 0[2]} it''s supposed to have?${wait-35: 4}${prompt}'
-  7512: 'I wonder if it has the ${keyitem-singular: 0[2]}...${wait-35: 4}${prompt}'
-  7513: 'Let''s check and see if it has the ${keyitem-singular: 0[2]}!${wait-35: 4}${prompt}'
-  7514: 'Shall we check to see if it has the ${keyitem-singular: 0[2]}?${wait-35: 4}${prompt}'
-  7515: 'Let''s check and see if it has the ${keyitem-singular: 0[2]}, okay?${wait-35: 4}${prompt}'
-  7516: 'I wonder if it has the ${keyitem-singular: 0[2]}.${wait-35: 4}${prompt}'
-  7517: 'Hurry and check it for the ${keyitem-singular: 0[2]}.${wait-35: 4}${prompt}'
-  7518: You are too far away to participate in the Voidwatch operation.${prompt}
-  7519: You are currently engaged elsewhere and cannot participate in the Voidwatch operation.${prompt}
-  7520: You are unconscious and cannot participate in the Voidwatch operation.${prompt}
-  7521: You do not fulfill the requirements to participate in the Voidwatch operation.${prompt}
+  7466: Une odeur inquiétante flotte dans l’air.${prompt}
+  7467: Une présence maléfique emplit l’air !${prompt}
+  7468: Il n’y a rien d’inhabituel ici.${prompt}
+  7469: 'DEBUG : Appuie sur le bouton si tu te sens chanceux, punk.${prompt}'
+  7470: 'Ce slime pourrait-il avoir le ${keyitem-singular: 0[2]} ?${wait-35: 4}${prompt}'
+  7471: 'Ce slime a le ${keyitem-singular: 0[2]} !${wait-35: 4}${prompt}'
+  7472: 'Ce slime pourrait avoir le ${keyitem-singular: 0[2]}…${wait-35: 4}${prompt}'
+  7473: 'Se pourrait-il que ce slime possède le ${keyitem-singular: 0[2]} ?${wait-35: 4}${prompt}'
+  7474: 'Alors, ce slime est censé avoir le ${keyitem-singular: 0[2]} ?${wait-35: 4}${prompt}'
+  7475: 'Je parie que ce slime a le ${keyitem-singular: 0[2]} !${wait-35: 4}${prompt}'
+  7476: 'Je pense que ce slime a le ${keyitem-singular: 0[2]} !${wait-35: 4}${prompt}'
+  7477: 'Hé ! Ce slime a le ${keyitem-singular: 0[2]} !${wait-35: 4}${prompt}'
+  7478: 'Le ${keyitem-singular: 0[2]} pourrait être sur ce slime…${wait-35: 4}${prompt}'
+  7479: 'Hé, tu sais quoi ? Je parie que ce slime a le ${keyitem-singular: 0[2]} !${wait-35: 4}${prompt}'
+  7480: 'Se pourrait-il que ce slime possède le ${keyitem-singular: 0[2]} ?${wait-35: 4}${prompt}'
+  7481: 'Ce slime a le ${keyitem-singular: 0[2]} que nous voulons.${wait-35: 4}${prompt}'
+  7482: 'Il n’y a qu’une seule façon de le découvrir !${wait-35: 4}${prompt}'
+  7483: 'Allez, ${name-player}, prenons-le de force !${wait-35: 4}${prompt}'
+  7484: 'Allons-y, ${name-player}.${wait-35: 4}${prompt}'
+  7485: 'Viens, ${name-player}, et nous verrons par nous-mêmes !${wait-35: 4}${prompt}'
+  7486: 'Allons le chercher, ${name-player} !${wait-35: 4}${prompt}'
+  7487: 'Faisons ça, ${name-player} !${wait-35: 4}${prompt}'
+  7488: '${name-player}, allons-y !${wait-35: 4}${prompt}'
+  7489: 'Allez, ${name-player} ! Allons le chercher !${wait-35: 4}${prompt}'
+  7490: 'On y va, ${name-player} ?${wait-35: 4}${prompt}'
+  7491: 'Allez, ${name-player} ! Allons-y !${wait-35: 4}${prompt}'
+  7492: 'Viens, ${name-player}, et nous verrons par nous-mêmes !${wait-35: 4}${prompt}'
+  7493: '${name-player}, à l’attaque !${wait-35: 4}${prompt}'
+  7494: 'Petit slime coriace, n’est-ce pas ?${wait-35: 4}${prompt}'
+  7495: 'Ce truc avait beaucoup de combativité, pour un slime !${wait-35: 4}${prompt}'
+  7496: 'Pas mal pour un slime.${wait-35: 4}${prompt}'
+  7497: 'C’était tout un combat.${wait-35: 4}${prompt}'
+  7498: 'Ce slime est plus coriace qu’il n’y paraît.${wait-35: 4}${prompt}'
+  7499: 'Ouf… Laisse-moi juste quelques secondes pour reprendre mon souffle…${wait-35: 4}${prompt}'
+  7500: 'C’était assez coriace, pour un slime.${wait-35: 4}${prompt}'
+  7501: 'C’était l’un des slimes les plus forts que j’aie jamais rencontrés !${wait-35: 4}${prompt}'
+  7502: 'Plutôt coriace pour un slime.${wait-35: 4}${prompt}'
+  7503: 'Wow ! Ce slime était vraiment coriace !${wait-35: 4}${prompt}'
+  7504: 'C’était tout un combat.${wait-35: 4}${prompt}'
+  7505: 'Les slimes peuvent être trompeusement forts.${wait-35: 4}${prompt}'
+  7506: 'Je me demande s’il a le ${keyitem-singular: 0[2]}…${wait-35: 4}${prompt}'
+  7507: 'Alors ? Est-ce qu’il a le ${keyitem-singular: 0[2]} ?${wait-35: 4}${prompt}'
+  7508: 'Penses-tu qu’il a le ${keyitem-singular: 0[2]} sur lui ?${wait-35: 4}${prompt}'
+  7509: 'Je me demande s’il a le ${keyitem-singular: 0[2]}.${wait-35: 4}${prompt}'
+  7510: 'As-tu vérifié pour le ${keyitem-singular: 0[2]} ?${wait-35: 4}${prompt}'
+  7511: 'Alors, où est ce ${keyitem-singular: 0[2]} qu’il est censé avoir ?${wait-35: 4}${prompt}'
+  7512: 'Je me demande s’il a le ${keyitem-singular: 0[2]}…${wait-35: 4}${prompt}'
+  7513: 'Vérifions s’il a le ${keyitem-singular: 0[2]} !${wait-35: 4}${prompt}'
+  7514: 'Vérifions s’il a le ${keyitem-singular: 0[2]}, d’accord ?${wait-35: 4}${prompt}'
+  7515: 'Vérifions s’il a le ${keyitem-singular: 0[2]}, ça te va ?${wait-35: 4}${prompt}'
+  7516: 'Je me demande s’il a le ${keyitem-singular: 0[2]}.${wait-35: 4}${prompt}'
+  7517: 'Dépêche-toi de vérifier s’il a le ${keyitem-singular: 0[2]}.${wait-35: 4}${prompt}'
+  7518: Tu es trop loin pour participer à l’opération Voidwatch.${prompt}
+  7519: Tu es actuellement occupé ailleurs et ne peux pas participer à l’opération Voidwatch.${prompt}
+  7520: Tu es inconscient et ne peux pas participer à l’opération Voidwatch.${prompt}
+  7521: Tu ne remplis pas les conditions pour participer à l’opération Voidwatch.${prompt}
   7522: |-
     ${name-player} gains clearance to participate in the Voidwatch operation.
     One ${keyitem-singular: 0[2]} expended.${prompt}
