@@ -1,65 +1,65 @@
 entries:
-  0: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  1: I've not told you about Mog Houses yet, have I? Would you care to learn about them now?${prompt}
+  0: La zone résidentielle de San d’Oria est devant toi. Tu y trouveras ta Maison Mog.${prompt}
+  1: Je ne t’ai pas encore parlé des Maisons Mog, n’est-ce pas ? Souhaites-tu en apprendre davantage maintenant ?${prompt}
   2: |-
-    Care to learn about Mog Houses?
+    Veux-tu en savoir plus sur les Maisons Mog ?
     ${selection-lines}
-    Sure!
-    No, thanks.${prompt}
-  3: Mog Houses are useful places. You can recover your HP and MP, and store items there.${prompt}
+    Bien sûr !
+    Non, merci.${prompt}
+  3: Les Maisons Mog sont des endroits utiles. Tu peux y récupérer tes PV et PM, et y stocker des objets.${prompt}
   4: |-
-    You can also change jobs there.
-    All adventurers of San d'Orian citizenship are assigned a Mog House.${prompt}
-  5: Make yourself at home!${prompt}
-  6: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  7: Would you like to hear about Mog Houses again?${prompt}
-  8: Hmm... So be it.${prompt}
-  9: Ahead lies the residential area. You'll find your Mog House within.${prompt}
-  10: 'By the way, my records indicate that you''re renting a room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  11: 'Would you like to check out of the room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] and move your things back here?${prompt}'
+    Tu peux aussi y changer de classe.
+    Tous les aventuriers de citoyenneté san d’orienne se voient attribuer une Maison Mog.${prompt}
+  5: Fais comme chez toi !${prompt}
+  6: La zone résidentielle de San d’Oria est devant toi. Tu y trouveras ta Maison Mog.${prompt}
+  7: Souhaites-tu entendre parler des Maisons Mog à nouveau ?${prompt}
+  8: Hmm… Soit.${prompt}
+  9: La zone résidentielle est devant toi. Tu y trouveras ta Maison Mog.${prompt}
+  10: 'Au fait, mes registres indiquent que tu loues une chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  11: 'Souhaites-tu annuler la location de la chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] et ramener tes affaires ici ?${prompt}'
   12: |-
-    Move back to San d'Oria?
+    Revenir à San d’Oria ?
     ${selection-lines}
-    Yes, please.
-    No, not yet.${prompt}
-  13: 'It is done. We''ve checked you out of your Rent-a-Room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  14: All your belongings should be waiting for you inside. Those moogles are amazing creatures, are they not?${prompt}
-  15: Ahead lies the residential area. Proceed to your Rent-a-Room, foreigner!${prompt}
-  16: If you're already renting here, you may come and go as you please, like the Mog House in your homeland.${prompt}
-  17: Ahead lies the residential area.${prompt}
-  18: Wait! By law, all foreigners must lease a Rent-a-Room before entering the residential area!${prompt}
-  19: Once you've registered with us, you can use it as you would a Mog House back home, wherever that may be.${prompt}
+    Oui, s’il te plaît.
+    Non, pas encore.${prompt}
+  13: 'C’est fait. Nous avons annulé ta location de chambre à ${choice: 0}[San d’Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  14: Toutes tes affaires devraient t’attendre à l’intérieur. Ces mogs sont des créatures incroyables, n’est-ce pas ?${prompt}
+  15: La zone résidentielle est devant toi. Rends-toi à ta chambre louée, étranger !${prompt}
+  16: Si tu loues déjà ici, tu peux aller et venir comme bon te semble, comme dans la Maison Mog de ton pays d’origine.${prompt}
+  17: La zone résidentielle est devant toi.${prompt}
+  18: Attends ! Selon la loi, tous les étrangers doivent louer une chambre avant d’entrer dans la zone résidentielle !${prompt}
+  19: Une fois que tu te seras enregistré auprès de nous, tu pourras l’utiliser comme une Maison Mog dans ton pays d’origine, peu importe où cela se trouve.${prompt}
   20: |-
-    Will you stay in San d'Oria?
+    Vas-tu rester à San d’Oria ?
     ${selection-lines}
-    Yes.
-    No, I'd rather not.${prompt}
-  21: All right, then. A San d'Orian Rent-a-Room has been leased to your name. Now move along, foreigner!${prompt}
+    Oui.
+    Non, je préférerais éviter.${prompt}
+  21: Très bien, alors. Une chambre san d’orienne a été louée à ton nom. Maintenant, avance, étranger !${prompt}
   22: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Tu peux définir cet endroit comme ton point de retour actuel.
+    Une fois que tu as défini un point de retour, tu y reviendras chaque fois que tu seras hors d’état de combattre.
   23: |-
-    Set this as current home point?
+    Définir ceci comme ton point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  24: Home point set!${prompt}
-  25: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  24: Point de retour défini !${prompt}
+  25: Un point de retour peut être défini comme un endroit où revenir à Vana’diel lorsque tu as été mis K.O. Tu peux aussi utiliser un point de retour pour te téléporter vers d’autres points de retour.
   26: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme ton point de retour.
+    Autres paramètres.
+    À bien y réfléchir, laisse tomber.${prompt}
   27: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  28: You may teleport from here to any other home point you have registered.
+    Tu as enregistré un nouveau point de retour !
+    Tu peux maintenant te téléporter ici depuis n’importe quel autre point de retour.${prompt}
+  28: Tu peux te téléporter d’ici vers n’importe quel autre point de retour que tu as enregistré.
   29: |-
-    Teleport where?
+    Te téléporter où ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -76,81 +76,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   30: |-
-    Teleport where?（${zone: 33[2]}）
+    Te téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  31: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  32: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  33: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de retour n°1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour n°2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour n°3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour n°4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour n°5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  31: Tu n’as pas encore enregistré d’autres points de retour, et donc tu ne peux pas te téléporter.${prompt}
+  32: 'Il en coûte ${number: 3} gils pour se téléporter au Point de retour n°${number: 2} dans ${zone: 1[2]}.'
+  33: 'Il n’y a pas de frais pour se téléporter au Point de retour n°${number: 2} dans ${zone: 1[2]}.'
   34: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s’il te plaît.
+    Non, merci.${prompt}
   35: |-
-    Teleport to which region?
+    Se téléporter dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    À bien y réfléchir, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel de Tavnazia].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
+    ${choice: 1}[Tu’Lia/].
+    Page précédente.
+    Page suivante.${prompt}
   36: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  37: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucune de ces options.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  37: Tu peux modifier la méthode de sélection de la zone de ton point de retour souhaité pour la téléportation.
   38: |-
-    Which setting would you like?
+    Quel paramètre souhaites-tu ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  39: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  39: 'Tu sélectionnes maintenant par ${choice: 1}[région/extension].'
   40: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucune de ces options.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -160,13 +160,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  41: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  42: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  41: 'Le Point de retour n°${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] ta liste d’emplacements favoris.'
+  42: Ta liste d’emplacements favoris est pleine. Tu dois supprimer une entrée existante pour en enregistrer une nouvelle.
   43: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucune de ces options.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -16110,39 +16110,39 @@ entries:
   6432: |-
     You cannot obtain the ${item-singular: 0[2]}.
     Try trading again after sorting your inventory.${prompt}
-  6433: 'You must free at least ${number: 0} space${choice-plurality: 0}[/s] before trading any items.${prompt}'
-  6434: 'Obtained: ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
-  6435: 'Obtained ${number: 0} gil.${prompt}'
-  6436: 'Obtained ${number: 0} gil.'
-  6437: 'Obtained key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  6438: 'Lost key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  6439: You do not have enough gil.${prompt}
-  6440: 'You obtain ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6441: You do not have enough gil.
+  6433: 'Tu dois libérer au moins ${number: 0} espace${choice-plurality: 0}[/s] avant d’échanger des objets.${prompt}'
+  6434: 'Obtenu : ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
+  6435: 'Obtenu ${number: 0} gils.${prompt}'
+  6436: 'Obtenu ${number: 0} gils.'
+  6437: 'Obtenu objet clé : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  6438: 'Perdu objet clé : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  6439: Tu n’as pas assez de gils.${prompt}
+  6440: 'Tu obtiens ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6441: Tu n’as pas assez de gils.
   6442: |-
-    A party member has an NPC called up.
-    You cannot take part in this event.${prompt}
-  6443: 'You obtain ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6444: You find the hoofprint of a gigantic warhorse...${prompt}
-  6445: 'You set the ${keyitem-singular: 0[2]} in the warhorse hoofprint.${prompt}'
-  6446: 'The ${item-singular: 0[2]} is returned to you.${prompt}'
-  6447: 'The ${number: 1} ${item-plural: 0[2]} are returned to you.${prompt}'
-  6448: There is nothing out of the ordinary here.${prompt}
-  6449: You are suddenly overcome with a sense of foreboding...${prompt}
-  6450: Now is not the time for that!${prompt}
-  6451: It seems that you will have to wait a bit longer...${prompt}
-  6452: An aura of irrepressible might threatens to overwhelm you...${prompt}
-  6453: You no longer sense the monster's presence...${prompt}
-  6454: '${number: 0}...${prompt}'
-  6455: The mine explodes!${prompt}
-  6456: The mine misfires...${prompt}
-  6457: You retrieve the mine.${prompt}
-  6458: You successfully deactivate the mine!${prompt}
-  6459: You failed to deactivate the mine...${prompt}
-  6460: 'Obtained ${number: 0} cruor. (Total: ${number: 1})${prompt}'
-  6461: 'Obtained ${number: 0} cruor. (Total: ${number: 1})'
-  6462: You do not have enough cruor.${prompt}
-  6463: You do not have enough cruor.
+    Un membre du groupe a invoqué un PNJ.
+    Tu ne peux pas participer à cet événement.${prompt}
+  6443: 'Tu obtiens ${number: 1} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6444: Tu trouves l’empreinte de sabot d’un cheval de guerre gigantesque…${prompt}
+  6445: 'Tu places le ${keyitem-singular: 0[2]} dans l’empreinte de sabot du cheval de guerre.${prompt}'
+  6446: 'Le ${item-singular: 0[2]} t’est rendu.${prompt}'
+  6447: 'Les ${number: 1} ${item-plural: 0[2]} te sont rendus.${prompt}'
+  6448: Il n’y a rien d’inhabituel ici.${prompt}
+  6449: Tu es soudain envahi par un sentiment de mauvais pressentiment…${prompt}
+  6450: Ce n’est pas le moment pour ça !${prompt}
+  6451: Il semble que tu devras attendre encore un peu…${prompt}
+  6452: Une aura de puissance irrépressible menace de t’écraser…${prompt}
+  6453: Tu ne ressens plus la présence du monstre…${prompt}
+  6454: '${number: 0}…${prompt}'
+  6455: La mine explose !${prompt}
+  6456: La mine rate son explosion…${prompt}
+  6457: Tu récupères la mine.${prompt}
+  6458: Tu désactives la mine avec succès !${prompt}
+  6459: Tu échoues à désactiver la mine…${prompt}
+  6460: 'Obtenu ${number: 0} cruors. (Total : ${number: 1})${prompt}'
+  6461: 'Obtenu ${number: 0} cruors. (Total : ${number: 1})'
+  6462: Tu n’as pas assez de cruors.${prompt}
+  6463: Tu n’as pas assez de cruors.
   6464: |-
     You have obtained all of Lilisette's memory fragments.
     Make haste and report to Cait Sith.${prompt}
@@ -16187,22 +16187,22 @@ entries:
   6497: 'You learned Trust: ${spell: 1}!'
   6498: You are now able to call multiple alter egos.
   6499: |-
-    Enter?
+    Entrer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6500: |-
-    Leave?
+    Partir ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6501: The cutscene has unexpectedly terminated. Examine the Resume Point to continue.
+    Oui.
+    Non.${prompt}
+  6501: La scène cinématique s’est terminée de manière inattendue. Examine le point de reprise pour continuer.
   6502: |-
-    What do you wish to do?
+    Que souhaites-tu faire ?
     ${selection-lines}
-    Show me the cutscene again.
-    Skip the cutscene and continue.${prompt}
-  6503: Displaying the next scene.
+    Remontre-moi la scène cinématique.
+    Passe la scène cinématique et continue.${prompt}
+  6503: Affichage de la scène suivante.
   6504: Alter egos may be used here without any effect on enmity.
   6505: '${color-alt: 123}The maximum level of the content you are currently attempting is ${number: 0}.${prompt}'
   6506: '${number: 0} ${number: 1} ${number: 2} ${number: 3}'
@@ -16239,202 +16239,202 @@ entries:
   6533: '${color-alt: 121}Vana''bout Records of Eminence objectives have been updated.${prompt}'
   6534: '${color-alt: 121}Vana''bout No. ${number: 0} has commenced!${prompt}'
   6535: '${color-alt: 121}Vana''bout No. ${number: 0} has concluded.${prompt}'
-  6536: 'If you wish to ride a chocobo, you must possess ${keyitem-article: 7[2]} and have a high enough job level.${prompt}'
-  6537: 'You can rent a chocobo for ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
-  6538: You can rent a chocobo, but because your level is so low, you won't be able to ride for very long. Also, equipment that extends your riding time will have no effect.${prompt}
-  6539: 'If you still want one, it will cost you ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
+  6536: 'Si tu veux monter un chocobo, tu dois posséder ${keyitem-article: 7[2]} et avoir un niveau de classe suffisamment élevé.${prompt}'
+  6537: 'Tu peux louer un chocobo pour ${number: 0} gils. Je vois que tu as actuellement ${number: 1} gils.${prompt}'
+  6538: Tu peux louer un chocobo, mais comme ton niveau est très bas, tu ne pourras pas monter très longtemps. De plus, l’équipement qui prolonge le temps de monte n’aura aucun effet.${prompt}
+  6539: 'Si tu en veux quand même un, cela te coûtera ${number: 0} gils. Je vois que tu as actuellement ${number: 1} gils.${prompt}'
   6540: |-
-    Do you wish to rent a chocobo?
+    Souhaites-tu louer un chocobo ?
     ${selection-lines}
-    Yes, I do.
-    No, thank you.${prompt}
-  6541: You don't have enough gil.${prompt}
-  6542: I realize that you are in a hurry, ${choice-player-gender}[sir/ma'am]. However, might I make a simple request? One of our associate's chocobos has lost her way and cannot return home.${prompt}
-  6543: 'Would you be so kind as to deliver her to ${choice: 3}[the Kingdom/the Republic/the Federation/the Duchy/the Duchy/the Duchy/the hidden] stables in ${choice: 3}[Southern San d''Oria/the Bastok Mines/Windurst Woods/Upper Jeuno/Lower Jeuno/Port Jeuno/Norg]? ${prompt}'
+    Oui, je veux bien.
+    Non, merci.${prompt}
+  6541: Tu n’as pas assez de gils.${prompt}
+  6542: Je vois que tu es pressé${choice-player-gender}[, monsieur/, madame]. Cependant, puis-je te faire une petite demande ? L’un des chocobos de notre associé s’est égaré et ne peut pas rentrer chez lui.${prompt}'
+  6543: 'Auriez-vous la gentillesse de le ramener aux écuries de ${choice: 3}[le Royaume/la République/la Fédération/le Duché/le Duché/le Duché/l’endroit caché] à ${choice: 3}[San d’Oria Sud/Mines de Bastok/Bois de Windurst/Jeuno Supérieur/Jeuno Inférieur/Port Jeuno/Norg] ?${prompt}'
   6544: |-
-    Lend a helping hand?
+    Donner un coup de main ?
     ${selection-lines}
-    I have better things to do.
-    Of course!${prompt}
+    J’ai mieux à faire.
+    Bien sûr !${prompt}
   6545: |-
-    Oh, thank you so very much!
-    You shall be rewarded by our associates upon delivery of the chocobo.${prompt}
+    Oh, merci beaucoup !
+    Nos associés te récompenseront à la livraison du chocobo.${prompt}
   6546: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back after sorting your inventory.${prompt}
-  6547: 'Would you be so kind as to deliver her to ${choice: 3}[the entrance to the Gustav Tunnel (B-8)/Bibiki Bay (G-10)/the entrance of Uggalepih Temple (J-11)]?${prompt}'
+    Tu ne peux pas obtenir le ${item-singular: 0[2]}.
+    Reviens après avoir trié ton inventaire.${prompt}
+  6547: 'Auriez-vous la gentillesse de le ramener à ${choice: 3}[l’entrée du Tunnel Gustav (B-8)/Baie de Bibiki (G-10)/l’entrée du Temple Uggalepih (J-11)] ?${prompt}'
   6548: |-
-    Only those fulfilling both requirements set forth by the alliance may ride a chocobo.
-    First, you must be a soldier of a respectable level in the Allied Forces. Secondly, you must be in possession of ${keyitem-article: 7[2]}.${prompt}
+    Seuls ceux qui remplissent les deux conditions établies par l’alliance peuvent monter un chocobo.
+    Premièrement, tu dois être un soldat d’un niveau respectable dans les Forces Alliées. Deuxièmement, tu dois posséder ${keyitem-article: 7[2]}.${prompt}
   6549: |-
-    Any of our fine birds here will bear you directly to the frontlines of battle.
-    We charge a service fee of ${number: 0} Allied Notes, which goes towards seeing that the chocobos are well taken care of.
-    My records indicate that you currently have ${number: 1} Allied Notes.${prompt}
+    N’importe lequel de nos magnifiques oiseaux ici t’emmènera directement sur les lignes de front de la bataille.
+    Nous facturons des frais de service de ${number: 0} Notes Alliées, qui servent à assurer que les chocobos soient bien entretenus.
+    Mes registres indiquent que tu as actuellement ${number: 1} Notes Alliées.${prompt}
   6550: |-
-    Hmmm... It looks like you don't have enough Allied Notes.
-    Sorry, but these birds aren't going to feed and groom themselves.${prompt}
-  6551: 'I''m sorry, but we don''t put our chocobos in the hands of people with ${keyitem-article: 0[2]}. We wouldn''t want our feathered friends dying from fright now, would we?${prompt}'
+    Hmmm… On dirait que tu n’as pas assez de Notes Alliées.
+    Désolé, mais ces oiseaux ne vont pas se nourrir et se toiletter tout seuls.${prompt}
+  6551: 'Je suis désolé, mais nous ne confions pas nos chocobos à des personnes ayant ${keyitem-article: 0[2]}. Nous ne voudrions pas que nos amis à plumes meurent de peur, n’est-ce pas ?${prompt}'
   6552: |-
-    Your fate rides on the changing winds of Vana'diel.
-    I can give you insight on the local weather.${prompt}
+    Ton destin dépend des vents changeants de Vana’diel.
+    Je peux te donner des informations sur la météo locale.${prompt}
   6553: |-
-    What area's weather do you wish to know?
+    De quelle zone veux-tu connaître la météo ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     Ronfaure.
-    La Theine Plateau.
-    Valkurm Dunes.
-    Jugner Forest.
-    Batallia Downs.
+    Plateau de La Theine.
+    Dunes de Valkurm.
+    Forêt de Jugner.
+    Plaines de Batallia.
     Gustaberg.
-    Konschtat Highlands.
-    Pashhow Marshlands.
-    Rolanberry Fields.
-    Beaucedine Glacier.
+    Hauts-plateaux de Konschtat.
+    Marais de Pashhow.
+    Champs de Rolanberry.
+    Glacier de Beaucedine.
     Xarcabard.
-    Cape Teriggan.
-    Altepa Desert.
+    Cap Teriggan.
+    Désert d’Altepa.
     Sarutabaruta.
-    Tahrongi Canyon.
-    Buburimu Peninsula.
-    Meriphataud Mountains.
-    Sauromugue Champaign.
-    The Sanctuary of Zi'Tah.
-    Yuhtunga & Yhoator Jungles.
-    Qufim Island.
-    Tu'Lia.
+    Canyon de Tahrongi.
+    Péninsule de Buburimu.
+    Montagnes de Meriphataud.
+    Champ de Sauromugue.
+    Sanctuaire de Zi’Tah.
+    Jungles de Yuhtunga et Yhoator.
+    Île de Qufim.
+    Tu’Lia.
     Ferry.
-    Airship.
+    Aéronef.
     Jeuno.
-    Uleguerand Range.
-    Tavnazian Archipelago.
-    Riverne - Sites #A01 & #B01.${prompt}
-  6554: 'That area''s forecast for today is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6555: 'The forecast for tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6556: 'And, the forecast for the day after tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6557: 'Today, that area''s weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6558: 'Tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6559: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6560: 'Today, the weather in that area will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6561: 'Tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6562: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6563: 'The weather in that area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6564: 'The weather tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6565: 'The weather the day after tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6566: And that's the report, straight from Vana'diel's official weather linkshell.${prompt}
+    Chaîne d’Uleguerand.
+    Archipel de Tavnazia.
+    Riverne - Sites #A01 et #B01.${prompt}
+  6554: 'Les prévisions pour cette zone aujourd’hui annoncent du ${weather-noun: 0[2]} avec parfois du ${weather-noun: 1[2]}. Il y a aussi un léger risque de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6555: 'Les prévisions pour demain annoncent du ${weather-noun: 0[2]} avec parfois du ${weather-noun: 1[2]}. Il y a aussi un léger risque de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6556: 'Et après-demain, les prévisions annoncent du ${weather-noun: 0[2]} avec parfois du ${weather-noun: 1[2]}. Il y a aussi un léger risque de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6557: 'Aujourd’hui, la météo dans cette zone sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
+  6558: 'Demain, la météo sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
+  6559: 'Et après-demain, la météo sera ${weather-adjective: 0[2]} avec un risque de ${weather-noun: 1[2]}.${prompt}'
+  6560: 'Aujourd’hui, la météo dans cette zone sera ${weather-adjective: 0[2]}. Il y a aussi une possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6561: 'Demain, la météo sera ${weather-adjective: 0[2]}. Il y a aussi une possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6562: 'Et après-demain, la météo sera ${weather-adjective: 0[2]}. Il y a aussi une possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6563: 'La météo dans cette zone aujourd’hui sera ${weather-adjective: 0[2]}.${prompt}'
+  6564: 'La météo demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6565: 'La météo après-demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6566: Et voilà le rapport, directement depuis la linkshell officielle de météo de Vana’diel.${prompt}
   6567: |-
-    What area's weather do you wish to know?
+    De quelle zone veux-tu connaître la météo ?
     ${selection-lines}
-    Nowhere.
-    Wajaom Woodlands.
-    Bhaflau Thickets.
-    Mount Zhayolm.
-    Caedarva Mire.${prompt}
+    Nulle part.
+    Forêt de Wajaom.
+    Fourrés de Bhaflau.
+    Mont Zhayolm.
+    Marais de Caedarva.${prompt}
   6568: |-
-    What area's weather do you wish to know?
+    De quelle zone veux-tu connaître la météo ?
     ${selection-lines}
-    Nowhere.
-    Ceizak Battlegrounds.
-    Yahse Hunting Grounds.
-    Foret de Hennetiel.
-    Morimar Basalt Fields.
-    Yorcia Weald.
-    Marjami Ravine.
-    Kamihr Drifts.${prompt}
-  6569: Can I interest you in some magical maps?${prompt}
+    Nulle part.
+    Champs de bataille de Ceizak.
+    Terrains de chasse de Yahse.
+    Forêt de Hennetiel.
+    Champs basaltiques de Morimar.
+    Forêt de Yorcia.
+    Ravin de Marjami.
+    Étendues de Kamihr.${prompt}
+  6569: Puis-je t’intéresser à des cartes magiques ?${prompt}
   6570: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
-    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
-    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
-    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
-    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gil).
-    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gil).
-    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gil).
-    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gil).
-    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gil).
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gil).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gil).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gil).
-    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gil).
-    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gil).
-    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
-    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
-    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6571: When you look at a map for your present area, you can see the lay of the land, as well as your current location.${prompt}
-  6572: Members of your party and alliance will appear on the map, too. Also, certain jobs let you find people and monsters from a distance.${prompt}
-  6573: They're especially handy because you can mark where you've been, and some people can mark them for you as well.${prompt}
+    Refuser.
+    Se renseigner sur les cartes.
+    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gils).
+    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gils).
+    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gils).
+    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gils).
+    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gils).
+    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gils).
+    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gils).
+    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gils).
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gils).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gils).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gils).
+    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gils).
+    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gils).
+    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gils).
+    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gils).
+    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gils).
+    Page précédente.
+    Page suivante.${prompt}
+  6571: Lorsque tu regardes une carte de ta zone actuelle, tu peux voir la disposition du terrain ainsi que ta position actuelle.${prompt}
+  6572: Les membres de ton groupe et de ton alliance apparaîtront également sur la carte. De plus, certaines classes te permettent de repérer des personnes et des monstres à distance.${prompt}
+  6573: Elles sont particulièrement utiles car tu peux marquer les endroits où tu es passé, et certaines personnes peuvent aussi les marquer pour toi.${prompt}
   6574: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d’Oria.
+    Elle coûte ${number: 3} gils.${prompt}
   6575: |-
-    The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Gustaberg, les Hauts-plateaux de Konschtat, les Marais de Pashhow et Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6576: |-
-    The ${keyitem-singular: 1[2]} covers Sarutabaruta, the Tahrongi Canyon, the Buburimu Peninsula, the Meriphataud Mountains, Mhaura, and Windurst.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst.
+    Elle coûte ${number: 3} gils.${prompt}
   6577: |-
-    The ${keyitem-singular: 1[2]} covers Batallia Downs, Rolanberry Fields, the Sauromugue Champaign, and Jeuno.
-    It costs ${number: 3} gil.${prompt}
-  6578: 'This complete ${keyitem-singular: 1[2]}, which extend far beneath La Theine Plateau, costs ${number: 3} gil.${prompt}'
-  6579: '${lettercase: 1}${keyitem-plural: 1[2]} include layouts for both outpost and fortress of Ghelsba, as well as the Yughott Grotto. It costs ${number: 3} gil.${prompt}'
-  6580: 'The ${keyitem-singular: 1[2]} shows the notorious Orcish stronghold hidden within Jugner Forest. It is priced at ${number: 3} gil.${prompt}'
-  6581: 'This map shows the waterways and islands that make up Carpenters'' Landing. It is priced at ${number: 3} gil.${prompt}'
+    La ${keyitem-singular: 1[2]} couvre les Plaines de Batallia, les Champs de Rolanberry, le Champ de Sauromugue et Jeuno.
+    Elle coûte ${number: 3} gils.${prompt}
+  6578: 'Cette ${keyitem-singular: 1[2]} complète, qui s’étend loin sous le Plateau de La Theine, coûte ${number: 3} gils.${prompt}'
+  6579: 'Les ${keyitem-plural: 1[2]} incluent les plans des avant-postes et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Elles coûtent ${number: 3} gils.${prompt}'
+  6580: 'La ${keyitem-singular: 1[2]} montre la célèbre forteresse orque cachée dans la Forêt de Jugner. Elle est au prix de ${number: 3} gils.${prompt}'
+  6581: 'Cette carte montre les voies navigables et les îles qui composent l’Atterrissage des Charpentiers. Elle est au prix de ${number: 3} gils.${prompt}'
   6582: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Bastok's Zeruhn Mines.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan des Mines de Zeruhn de Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6583: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Palborough Mines, which lie in North Gustaberg.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan des Mines de Palborough, situées dans le Nord de Gustaberg.
+    Elle coûte ${number: 3} gils.${prompt}
   6584: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Quadav stronghold, Beadeaux, that is located in the Pashhow Marshlands.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan de la forteresse Quadav, Beadeaux, située dans les Marais de Pashhow.
+    Elle coûte ${number: 3} gils.${prompt}
   6585: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Giddeus, which you can reach from West Sarutabaruta.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan de Giddeus, accessible depuis Sarutabaruta Ouest.
+    Elle coûte ${number: 3} gils.${prompt}
   6586: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the Yagudo stronghold, Castle Oztroja, located in the Meriphataud Mountains.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} contient le plan de la forteresse Yagudo, Château Oztroja, située dans les Montagnes de Meriphataud.
+    Elle coûte ${number: 3} gils.${prompt}
   6587: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the underground maze of Shakhrami that can be found in the Tahrongi Canyon area.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} contient le plan du labyrinthe souterrain de Shakhrami, que l’on peut trouver dans la région du Canyon de Tahrongi.
+    Elle coûte ${number: 3} gils.${prompt}
   6588: |-
-    The ${keyitem-singular: 1[2]} covers the Sanctuary of Zi'Tah, Ro'Maeve, and the Hall of the Gods.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre le Sanctuaire de Zi’Tah, Ro’Maeve et le Hall des Dieux.
+    Elle coûte ${number: 3} gils.${prompt}
   6589: |-
-    This map covers Bibiki Bay and its nearby islands.
-    It costs ${number: 3} gil.${prompt}
-  6590: 'The ${keyitem-singular: 1[2]} outlines the geography of nearby Qufim Island. It costs ${number: 3} gil.${prompt}'
-  6591: 'Located beneath Batallia Downs, the Eldieme Necropolis is shown in detail on this map. The price is ${number: 3} gil.${prompt}'
-  6592: 'The Garlaige Citadel, which lies upon the Sauromugue Champaign, is illustrated in this map. Each copy costs ${number: 3} gil.${prompt}'
-  6593: '${lettercase: 1}${keyitem-plural: 1[2]} include Kazham, as well as both jungles of Yuhtunga and Yhoator for ${number: 3} gil.${prompt}'
-  6594: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} for ${number: 3} gil.${prompt}'
-  6595: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} as well as ${zone: 4[2]} for ${number: 3} gil.${prompt}'
-  6596: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]}, as well as ${zone: 4[2]} and ${zone: 5[2]} for ${number: 3} gil.${prompt}'
+    Cette carte couvre la Baie de Bibiki et ses îles voisines.
+    Elle coûte ${number: 3} gils.${prompt}
+  6590: 'La ${keyitem-singular: 1[2]} décrit la géographie de l’Île de Qufim à proximité. Elle coûte ${number: 3} gils.${prompt}'
+  6591: 'Située sous les Plaines de Batallia, la Nécropole d’Eldieme est représentée en détail sur cette carte. Le prix est de ${number: 3} gils.${prompt}'
+  6592: 'La Citadelle de Garlaige, qui se trouve sur le Champ de Sauromugue, est illustrée sur cette carte. Chaque exemplaire coûte ${number: 3} gils.${prompt}'
+  6593: 'Les ${keyitem-plural: 1[2]} incluent Kazham, ainsi que les jungles de Yuhtunga et Yhoator pour ${number: 3} gils.${prompt}'
+  6594: 'Les ${keyitem-plural: 1[2]} incluent ${zone: 2[2]} pour ${number: 3} gils.${prompt}'
+  6595: 'Les ${keyitem-plural: 1[2]} incluent ${zone: 2[2]} ainsi que ${zone: 4[2]} pour ${number: 3} gils.${prompt}'
+  6596: 'Les ${keyitem-plural: 1[2]} incluent ${zone: 2[2]}, ainsi que ${zone: 4[2]} et ${zone: 5[2]} pour ${number: 3} gils.${prompt}'
   6597: |-
-    Buy ${keyitem-article: 0[2]}?
+    Acheter ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6598: You haven't enough money, ${choice-player-gender}[sir/ma'am].${prompt}
-  6599: 'Maps of the Kuzotz region include Altepa Desert as well as Rabao for ${number: 3} gil.${prompt}'
-  6600: 'Maps of the Vollbow region include Cape Teriggan, as well as Valley of Sorrows and Gustav Tunnel for ${number: 3} gil.${prompt}'
-  6601: Maps of the Korroloka Tunnel are, as their names imply, maps of the Korroloka Tunnel, which connects Altepa Desert and Zeruhn Mines.${prompt}
-  6602: 'The map of Al Zahbi also includes Aht Urhgan Whitegate and the Colosseum. It costs ${number: 2} gil.${prompt}'
-  6603: 'This map shows the layout of the Azouph Isle town of Nashmau. It costs ${number: 3} gil.${prompt}'
-  6604: 'This map shows the forest tract stretching west of Al Zahbi. A map of the Wajaom Woodlands can be yours for ${number: 3} gil.${prompt}'
-  6605: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
-  6606: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
-  6607: Oh... I thought perhaps that somewhere within these walls I would find my prrrince charming...${prompt}
-  6608: What's that? Do I know you?${prompt}
-  6609: A library book? Ah! That's rrright! That book I borrowed in Windurst.${prompt}
-  6610: I totally forgot! How silly of me. Here you are!${prompt}
-  6611: 'That book, ${keyitem-singular: 1[2]}, was so good! The Library of Magic in Windurst is truly a balm for book lovers...${prompt}'
-  6612: I know the rrright man for me is out there, somewhere. Oh...${prompt}
+    Oui.
+    Non.${prompt}
+  6598: Tu n’as pas assez d’argent, ${choice-player-gender}[monsieur/madame].${prompt}
+  6599: 'Les cartes de la région de Kuzotz incluent le Désert d’Altepa ainsi que Rabao pour ${number: 3} gils.${prompt}'
+  6600: 'Les cartes de la région de Vollbow incluent le Cap Teriggan, ainsi que la Vallée des Soupirs et le Tunnel Gustav pour ${number: 3} gils.${prompt}'
+  6601: Les cartes du Tunnel Korroloka sont, comme leur nom l’indique, des cartes du Tunnel Korroloka, qui relie le Désert d’Altepa et les Mines de Zeruhn.${prompt}
+  6602: 'La carte d’Al Zahbi inclut également la Porte Blanche d’Aht Urhgan et le Colisée. Elle coûte ${number: 2} gils.${prompt}'
+  6603: 'Cette carte montre le plan de la ville d’Azouph Isle, Nashmau. Elle coûte ${number: 3} gils.${prompt}'
+  6604: 'Cette carte montre la forêt s’étendant à l’ouest d’Al Zahbi. Une carte de la Forêt de Wajaom peut être à toi pour ${number: 3} gils.${prompt}'
+  6605: 'Cette carte montre les Fourrés de Bhaflau, situés au nord d’Al Zahbi. Elle coûte ${number: 3} gils.${prompt}'
+  6606: '${keyitem-article: 1[2]} est une carte plus ancienne qui était souvent utilisée pour représenter ${zone: 2[2]}. Elle coûte ${number: 3} gils.${prompt}'
+  6607: Oh… Je pensais qu’en ces murs, je trouverais peut-être mon prrrince charmant…${prompt}
+  6608: Qu’est-ce que c’est ? Est-ce que je te connais ?${prompt}
+  6609: Un livre de bibliothèque ? Ah ! C’est vrrrai ! Ce livre que j’ai emprunté à Windurst.${prompt}'
+  6610: J’avais complètement oublié ! Quelle idiote je fais. Le voilà !${prompt}
+  6611: 'Ce livre, ${keyitem-singular: 1[2]}, était tellement bien ! La Bibliothèque de Magie de Windurst est vraiment un baume pour les amateurs de livres…${prompt}'
+  6612: Je sais que l’homme qu’il me faut est quelque part là dehors. Oh…${prompt}
   6613: (DEBUG) Flag raised, kupo!${prompt}
   6614: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
   6615: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
@@ -17795,36 +17795,36 @@ entries:
   7224: |-
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
-  7225: A recruit? What do you want with this gatehouse?${prompt}
-  7226: Only citizens of San d'Oria may apply for missions here. Go see your country's consulate in Northern San d'Oria.${prompt}
-  7227: Finish your current mission first, then come back for another.${prompt}
+  7225: Une recrue ? Que veux-tu faire à ce poste de garde ?${prompt}
+  7226: Seuls les citoyens de San d’Oria peuvent demander des missions ici. Va voir le consulat de ton pays à San d’Oria Nord.${prompt}
+  7227: Termine d’abord ta mission actuelle, puis reviens pour une autre.${prompt}
   7228: |-
-    Which mission will you undertake?
+    Quelle mission veux-tu entreprendre ?
     ${selection-lines}
-    Smash the Orcish Scouts.
-    Bat Hunt.
-    Save the Children.
-    The Rescue Drill.
-    The Davoi Report.
-    Journey Abroad.
-    Journey to Bastok.
-    Journey to Windurst.
-    Journey to Bastok.
-    Journey to Windurst.
-    Infiltrate Davoi.
-    The Crystal Spring.
-    Appointment to Jeuno.
+    Écrasez les éclaireurs orques.
+    Chasse aux chauves-souris.
+    Sauvez les enfants.
+    L’exercice de sauvetage.
+    Le rapport de Davoi.
+    Voyage à l’étranger.
+    Voyage à Bastok.
+    Voyage à Windurst.
+    Voyage à Bastok.
+    Voyage à Windurst.
+    Infiltrez Davoi.
+    La source de cristal.
+    Nomination à Jeuno.
     Magicite.
-    The Ruins of Fei'Yin.
-    The Shadow Lord.
-    Leaute's Last Wishes.
-    Ranperre's Final Rest.
-    Prestige of the Papsque.
-    The Secret Weapon.
-    Coming of Age.
-    Lightbringer.
-    Breaking Barriers.
-    The Heir to the Light.
+    Les ruines de Fei’Yin.
+    Le Seigneur des Ombres.
+    Les dernières volontés de Leaute.
+    Le dernier repos de Ranperre.
+    Le prestige du Papsque.
+    L’arme secrète.
+    Passage à l’âge adulte.
+    Porteur de lumière.
+    Briser les barrières.
+    L’héritier de la lumière.
     10-1.
     10-2.
     ダミー26.
@@ -17832,111 +17832,111 @@ entries:
     ダミー28.
     ダミー29.
     ダミー30.
-    None.${prompt}
+    Aucune.${prompt}
   7229: |-
-    Accept this mission?
+    Accepter cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7230: You accept the mission.${prompt}
-  7231: What do you want with this gatehouse?${prompt}
+    Oui.
+    Non.${prompt}
+  7230: Tu acceptes la mission.${prompt}
+  7231: Que veux-tu faire à ce poste de garde ?${prompt}
   7232: |-
-    Your business?
+    Quelle est ton affaire ?
     ${selection-lines}
-    A mission, please.
-    Nothing.${prompt}
-  7233: Hmm...not much work for those wet behind the ears, but...${prompt}
-  7234: How about slaying Orcish scouts? Only the yellowest of yearlings would run from that, and we've no work for cowards here.${prompt}
-  7235: If you're to take the mission, I'll be happy to explain.${prompt}
+    Une mission, s’il te plaît.
+    Rien.${prompt}
+  7233: Hmm… pas beaucoup de travail pour les novices, mais…${prompt}
+  7234: Que dirais-tu d’éliminer des éclaireurs orques ? Seuls les plus peureux des débutants fuiraient devant ça, et nous n’avons pas de travail pour les lâches ici.${prompt}
+  7235: Si tu veux prendre la mission, je serai ravi de t’expliquer.${prompt}
   7236: |-
-    Interested?
+    Intéressé ?
     ${selection-lines}
-    Tell me more.
-    Never mind.${prompt}
-  7237: Here's your mission. Orcish scouts roam outside; kill one and bring me his axe as proof.${prompt}
-  7238: 'You''ll have to bring me ${article} ${item-article: 0[2]}. No other kind will do. Understand?${prompt}'
-  7239: That is all. You'll take the mission then?${prompt}
+    Explique-moi davantage.
+    Peu importe.${prompt}
+  7237: Voici ta mission. Des éclaireurs orques rôdent à l’extérieur ; tue-en un et ramène-moi sa hache comme preuve.${prompt}
+  7238: 'Tu devras me ramener ${article} ${item-article: 0[2]}. Aucun autre type ne fera l’affaire. Compris ?${prompt}'
+  7239: C’est tout. Alors, tu prends la mission ?${prompt}
   7240: |-
-    Do you accept the mission?
+    Acceptes-tu la mission ?
     ${selection-lines}
-    I accept.
-    Could you explain again?
-    No, thank you.${prompt}
-  7241: Bring me one of those axes, and your mission will be a success. No running away now; we've a proud country to defend!${prompt}
-  7242: Oh, you're back. Well, if you're so happy you defeated an Orc or two, you've a long way ahead of you!${prompt}
-  7243: 'That''s another ${item-singular: 0[2]} for the armory, then. Mission complete! Not bad for a new recruit.${prompt}'
-  7244: What? I don't want this!${prompt}
-  7245: Are you really a new recruit!?${prompt}
-  7246: Listen, before you bring me something, you must first accept the mission! That is how things work around here!${prompt}
-  7247: Persistent, aren't you? An Orc under the belt does not a hero make! Ah, I've just the job for you...${prompt}
-  7248: Bat patrol! How about it? Shouldn't be a problem for an adventurer such as yourself, no?${prompt}
-  7249: Here's your mission, then. Clear out bats lurking in King Ranperre's Tomb and bring me a fang as proof.${prompt}
-  7250: 'Bring me ${article} ${item-article: 0[2]} and your mission will be a success.${prompt}'
-  7251: Deep in the tomb you'll find Goblins. Take care; I don't want to lose you yet.${prompt}
-  7252: Ah, you've returned! I was afraid that Goblins got you.${prompt}
-  7253: 'That''s one ${item-singular: 3[2]} for the gatehouse, then. Mission complete. Not bad for a new recruit.${prompt}'
-  7254: Ah, the recruit's back again? I'm sorry, but I've no time for you today.${prompt}
-  7255: Well, perhaps you can be of some help. Many of our children have disappeared mysteriously, and I've no doubt the Ghelsba Orcs are behind it.${prompt}
-  7256: The Royal Knights should be on the job by now, but the two princes are at each other's throats.${prompt}
-  7257: Prince Trion, the eldest, says we should launch a full attack, with all haste.${prompt}
-  7258: While his younger brother, Prince Pieuje says the safety of the children comes first, and he won't authorize an attack.${prompt}
-  7259: They've been arguing this back and forth for days. The knights' hands are tied, and frankly, nobody knows what to do.${prompt}
-  7260: If you really want to make a name for yourself, go to Ghelsba, and rescue those kidnapped children!${prompt}
-  7261: What say you? Will you go?${prompt}
-  7262: Here's your mission, then. Rescue the two children kidnapped by the Orcs of Ghelsba Outpost.${prompt}
-  7263: Ghelsba Outpost is northwest of West Ronfaure. Take the path before the Westgate, then turn right when the path splits in the forest. You'll find the entrance up in the hills.${prompt}
-  7264: If you have trouble finding the way, just follow one of the soldiers on patrol.${prompt}
-  7265: Orcs tend to keep their hostages in tents or small huts. Once you're inside the compound, check them first.${prompt}
-  7266: Ah, you've returned! You were gone so long, I feared a warmachine had got you!${prompt}
-  7267: At any rate, mission complete! And to reward your accomplishment...${prompt}
-  7268: I hereby recognize you, ${name-player}, as a certified adventurer of San d'Oria! You're now mission rank two, as well.${prompt}
-  7269: But don't get too excited. Your title is valid only here in San d'Oria, understand?${prompt}
-  7270: 'In order to become a true adventurer, and bear ${keyitem-article: 0[2]}, you must be recognized by Bastok and Windurst as well.${prompt}'
-  7271: '''Tis a treaty between the three lands, and its word is law. I know it''s hard, but those are the rules.${prompt}'
-  7272: For now, cut your adventuring teeth in the areas near here. Sooner or later you'll find your way into other lands.${prompt}
-  7273: You achieve rank 2!${prompt}
-  7274: There's not much work in right now. I suppose you could go participate in the Temple Knights' rescue drills out on the La Theine Plateau.${prompt}
-  7275: Enter the forest beyond the Westgate and head southwest. You'll come out onto the La Theine Plateau before long.${prompt}
-  7276: Once you're out on the plateau, keep going until you see the knights. The training grounds aren't far from there.${prompt}
-  7277: It's all just a drill, so this should be easy compared to your usual fare. Just follow orders and you'll be fine.${prompt}
-  7278: You've returned! I hear the drill turned into something far more perilous. But real battle is the best drill for recruits, in my opinion.${prompt}
-  7279: Regardless, you've done well. I'll turn to you when there's work to be done, now.${prompt}
-  7280: 'Here, take this ${item-singular: 3[2]}. Go ahead, you''ve earned it.${prompt}'
-  7281: This time it's messenger duty. One of our knights is out scouting in a place called Davoi, on the southern edge of Jugner Forest.${prompt}
-  7282: The Orcs' stronghold is in Davoi, so it's vital that we stop them from massing, or they may launch an assault.${prompt}
-  7283: Of course, the Orcs are keeping an eye on us, too. Why, just a few days past, a squad of our Royal Knights fell to their axes.${prompt}
-  7284: We have sent scouts to find a weakness in their defenses. You must find the scout there now, and bring back the latest scouting report.${prompt}
-  7285: The scout's name is Zantaviat. He's somewhere in Davoi, but where I cannot say.${prompt}
-  7286: Come back after you've gotten the report. Those lands are no place to wander.${prompt}
-  7287: You have returned! And you've brought the scouting report. Good work, ${name-player}.${prompt}
-  7288: Troubling news, this is. It says that Orcs are gathering deep inside the encampment. The time to act is coming!${prompt}
-  7289: But that is not your concern. You've done well today. Mission complete!${prompt}
-  7290: Oh, it's you, ${name-player}. And at just the right time, too. Monarlais Halver is looking for an adventurer such as yourself.${prompt}
-  7291: Enter Chateau d'Oraguille. Monarlais Halver is there; he'll explain in person.${prompt}
-  7292: What? You haven't been certified in Bastok and Windurst yet? You may dally, but others are not! Get moving!${prompt}
-  7293: Ah, welcome back. I see you've been certified in Bastok and Windurst. Good work. You'll make a fine adventurer.${prompt}
-  7294: What's that, a report for our kingdom? I see. Take that to the monarlais when you go.${prompt}
-  7295: 'You should receive ${keyitem-article: 0[2]} from Monarlais Halver. Now, go to Chateau d''Oraguille and let them know you''re back!${prompt}'
-  7296: Hurry to Chateau d'Oraguille and give that report to Monarlais Halver!${prompt}
-  7297: You achieve rank 3!${prompt}
-  7298: Ah! You've come at just the right time. Zantaviat, one of our scouts in Davoi, needs an adventurer.${prompt}
-  7299: He wants someone to infiltrate Davoi and scout behind enemy lines. Know anyone fitting that description?${prompt}
-  7300: 'Now that you''ve got your ${keyitem-singular: 0[2]}, this is an opportunity to prove you''re worth it!${prompt}'
-  7301: The situation in Davoi worsens by the day. This won't be easy, but I can't think of a better adventurer for the job!${prompt}
-  7302: You've returned! Zantaviat told me everything. Congratulations on a job well done!${prompt}
-  7303: But we can't let down our guard yet. Those Orcs will not just sit there. We must keep constant vigil, and move before they do!${prompt}
-  7304: 'Here''s your reward: ${article} ${item-article: 0[2]}. You''re becoming quite the adventurer, aren''t you?${prompt}'
-  7305: Welcome back! I have an important mission for you this time. Recently, land is eroding due to crystal formation...and it's getting worse.${prompt}
-  7306: There's a small spring on the eastern edge of Jugner Forest, called Crystwater Spring. We must know what effect crystal formation has on the wildlife there.${prompt}
-  7307: 'I want you to get me a fish from the spring. And not just any fish! You need to get ${article} ${item-article: 0[2]}.${prompt}'
-  7308: Ah, that reminds me--have you any fishing gear? You'll need some for this mission.${prompt}
-  7309: There are people about that know a thing or two about fishing, should you need help finding and choosing your gear.${prompt}
-  7310: Ah, the great angler returns! I was worried, to be honest. All you hear these days is the massing of beasts, the erosion of the Crystal Lines, and now...${prompt}
-  7311: '...rumors that the Shadow Lord himself has returned!${prompt}'
-  7312: We will examine the fish you brought. Depending on the results, we may need to act! I'll let you know if we need your help.${prompt}
-  7313: Ah, it's you, ${name-player}. You've come at a good time. I've news for you.${prompt}
-  7314: By order of the Kingdom of San d'Oria, you're to head to Jeuno as an ambassadorial attaché.${prompt}
-  7315: Go to Chateau d'Oraguille. Monarlais Halver will tell you all you need to know.${prompt}
+    J’accepte.
+    Peux-tu expliquer à nouveau ?
+    Non, merci.${prompt}
+  7241: Ramène-moi une de ces haches, et ta mission sera un succès. Pas question de fuir maintenant ; nous avons un fier pays à défendre !${prompt}
+  7242: Oh, te voilà de retour. Eh bien, si tu es si heureux d’avoir vaincu un ou deux Orques, tu as encore un long chemin devant toi !${prompt}
+  7243: 'Voilà un autre ${item-singular: 0[2]} pour l’armurerie, alors. Mission terminée ! Pas mal pour une nouvelle recrue.${prompt}'
+  7244: Quoi ? Je ne veux pas de ça !${prompt}
+  7245: Es-tu vraiment une nouvelle recrue !?${prompt}
+  7246: Écoute, avant de me ramener quelque chose, tu dois d’abord accepter la mission ! C’est comme ça que ça fonctionne ici !${prompt}
+  7247: Persistant, n’est-ce pas ? Avoir un Orque à ton actif ne fait pas de toi un héros ! Ah, j’ai exactement la mission qu’il te faut…${prompt}
+  7248: Une patrouille contre les chauves-souris ! Qu’en dis-tu ? Ça ne devrait pas poser de problème pour un aventurier comme toi, non ?${prompt}
+  7249: Voici ta mission, alors. Élimine les chauves-souris qui rôdent dans la Tombe du Roi Ranperre et ramène-moi une canine comme preuve.${prompt}
+  7250: 'Ramène-moi ${article} ${item-article: 0[2]} et ta mission sera un succès.${prompt}'
+  7251: Au fond de la tombe, tu trouveras des Gobelins. Fais attention ; je ne veux pas te perdre si tôt.${prompt}
+  7252: Ah, te voilà de retour ! J’avais peur que les Gobelins t’aient eu.${prompt}
+  7253: 'Voilà une ${item-singular: 3[2]} pour le poste de garde, alors. Mission terminée. Pas mal pour une nouvelle recrue.${prompt}'
+  7254: Ah, la recrue est de retour ? Je suis désolé, mais je n’ai pas de temps pour toi aujourd’hui.${prompt}
+  7255: Eh bien, peut-être que tu peux être utile. Beaucoup de nos enfants ont mystérieusement disparu, et je suis sûr que les Orques de Ghelsba sont derrière tout ça.${prompt}
+  7256: Les Chevaliers Royaux devraient déjà être sur le coup, mais les deux princes se disputent sans cesse.${prompt}
+  7257: Le prince Trion, l’aîné, dit que nous devrions lancer une attaque totale, et vite.${prompt}
+  7258: Tandis que son jeune frère, le prince Pieuje, dit que la sécurité des enfants passe avant tout, et il refuse d’autoriser une attaque.${prompt}
+  7259: Ils se disputent sur ce sujet depuis des jours. Les chevaliers sont paralysés, et franchement, personne ne sait quoi faire.${prompt}
+  7260: Si tu veux vraiment te faire un nom, va à Ghelsba et sauve ces enfants kidnappés !${prompt}
+  7261: Qu’en dis-tu ? Vas-tu y aller ?${prompt}
+  7262: Voici ta mission, alors. Sauve les deux enfants kidnappés par les Orques de l’Avant-poste de Ghelsba.${prompt}
+  7263: L’Avant-poste de Ghelsba se trouve au nord-ouest de Ronfaure Ouest. Prends le chemin avant la Porte Ouest, puis tourne à droite quand le chemin se sépare dans la forêt. Tu trouveras l’entrée dans les collines.${prompt}
+  7264: Si tu as du mal à trouver le chemin, suis simplement un des soldats en patrouille.${prompt}
+  7265: Les Orques ont tendance à garder leurs otages dans des tentes ou de petites cabanes. Une fois à l’intérieur du camp, vérifie d’abord ces endroits.${prompt}
+  7266: Ah, te voilà de retour ! Tu es parti si longtemps, j’ai cru qu’une machine de guerre t’avait eu !${prompt}
+  7267: Quoi qu’il en soit, mission terminée ! Et pour récompenser ton exploit…${prompt}
+  7268: Par la présente, je te reconnais, ${name-player}, comme un aventurier certifié de San d’Oria ! Tu es maintenant de rang 2 pour les missions, aussi.${prompt}
+  7269: Mais ne t’emballe pas trop. Ton titre est valide uniquement ici à San d’Oria, compris ?${prompt}
+  7270: 'Pour devenir un véritable aventurier et porter ${keyitem-article: 0[2]}, tu dois aussi être reconnu par Bastok et Windurst.${prompt}'
+  7271: 'C’est un traité entre les trois nations, et sa parole fait loi. Je sais que c’est difficile, mais ce sont les règles.${prompt}'
+  7272: Pour l’instant, fais tes preuves dans les zones près d’ici. Tôt ou tard, tu trouveras ton chemin vers d’autres contrées.${prompt}
+  7273: Tu atteins le rang 2 !${prompt}
+  7274: Il n’y a pas beaucoup de travail en ce moment. Je suppose que tu pourrais aller participer aux exercices de sauvetage des Chevaliers du Temple sur le Plateau de La Theine.${prompt}
+  7275: Entre dans la forêt au-delà de la Porte Ouest et dirige-toi vers le sud-ouest. Tu arriveras bientôt sur le Plateau de La Theine.${prompt}
+  7276: Une fois sur le plateau, continue jusqu’à ce que tu voies les chevaliers. Le terrain d’entraînement n’est pas loin de là.${prompt}
+  7277: Ce n’est qu’un exercice, donc ça devrait être facile par rapport à ce que tu fais d’habitude. Suis les ordres et tout ira bien.${prompt}
+  7278: Te voilà de retour ! J’ai entendu dire que l’exercice s’est transformé en quelque chose de bien plus périlleux. Mais un vrai combat est le meilleur entraînement pour les recrues, à mon avis.${prompt}
+  7279: Quoi qu’il en soit, tu as bien travaillé. Je ferai appel à toi quand il y aura du travail à faire, maintenant.${prompt}
+  7280: 'Tiens, prends ce ${item-singular: 3[2]}. Vas-y, tu l’as mérité.${prompt}'
+  7281: Cette fois, c’est une mission de messager. L’un de nos chevaliers est en reconnaissance dans un endroit appelé Davoi, à la lisière sud de la Forêt de Jugner.${prompt}
+  7282: La forteresse des Orques se trouve à Davoi, donc il est crucial que nous les empêchions de se regrouper, sinon ils pourraient lancer une attaque.${prompt}
+  7283: Bien sûr, les Orques nous surveillent aussi. Il y a quelques jours à peine, une escouade de nos Chevaliers Royaux est tombée sous leurs haches.${prompt}
+  7284: Nous avons envoyé des éclaireurs pour trouver une faiblesse dans leurs défenses. Tu dois trouver l’éclaireur là-bas maintenant, et ramener le dernier rapport de reconnaissance.${prompt}
+  7285: L’éclaireur s’appelle Zantaviat. Il est quelque part à Davoi, mais je ne peux pas te dire où exactement.${prompt}
+  7286: Reviens après avoir obtenu le rapport. Ces terres ne sont pas un endroit où flâner.${prompt}
+  7287: Tu es de retour ! Et tu as ramené le rapport de reconnaissance. Bon travail, ${name-player}.${prompt}
+  7288: Des nouvelles troublantes, en effet. Il est dit que les Orques se rassemblent au fond du campement. Le moment d’agir approche !${prompt}
+  7289: Mais ce n’est pas ton problème. Tu as bien travaillé aujourd’hui. Mission terminée !${prompt}
+  7290: Oh, c’est toi, ${name-player}. Et au bon moment, en plus. Monarlais Halver cherche un aventurier comme toi.${prompt}
+  7291: Entre dans le Château d’Oraguille. Monarlais Halver est là ; il t’expliquera en personne.${prompt}
+  7292: Quoi ? Tu n’as pas encore été certifié à Bastok et Windurst ? Tu peux traîner, mais les autres ne le feront pas ! Bouge-toi !${prompt}
+  7293: Ah, te voilà de retour. Je vois que tu as été certifié à Bastok et Windurst. Bon travail. Tu feras un excellent aventurier.${prompt}
+  7294: Qu’est-ce que c’est, un rapport pour notre royaume ? Je vois. Apporte-le au monarlais quand tu y vas.${prompt}
+  7295: 'Tu devrais recevoir ${keyitem-article: 0[2]} de Monarlais Halver. Maintenant, va au Château d’Oraguille et fais-leur savoir que tu es de retour !${prompt}'
+  7296: Dépêche-toi d’aller au Château d’Oraguille et donne ce rapport à Monarlais Halver !${prompt}
+  7297: Tu atteins le rang 3 !${prompt}
+  7298: Ah ! Tu arrives au bon moment. Zantaviat, l’un de nos éclaireurs à Davoi, a besoin d’un aventurier.${prompt}
+  7299: Il veut quelqu’un pour infiltrer Davoi et explorer derrière les lignes ennemies. Connais-tu quelqu’un qui correspond à cette description ?${prompt}
+  7300: 'Maintenant que tu as ton ${keyitem-singular: 0[2]}, c’est l’occasion de prouver que tu le mérites !${prompt}'
+  7301: La situation à Davoi empire de jour en jour. Ce ne sera pas facile, mais je ne peux pas penser à un meilleur aventurier pour ce travail !${prompt}
+  7302: Te voilà de retour ! Zantaviat m’a tout raconté. Félicitations pour un travail bien fait !${prompt}
+  7303: Mais nous ne pouvons pas baisser notre garde pour autant. Ces Orques ne vont pas rester là sans rien faire. Nous devons rester vigilants et agir avant eux !${prompt}
+  7304: 'Voici ta récompense : ${article} ${item-article: 0[2]}. Tu deviens tout à fait un aventurier, n’est-ce pas ?${prompt}'
+  7305: Bienvenue de retour ! J’ai une mission importante pour toi cette fois. Récemment, le terrain s’érode à cause de la formation de cristaux… et ça empire.${prompt}
+  7306: Il y a une petite source à la lisière est de la Forêt de Jugner, appelée Source d’Eau Cristalline. Nous devons savoir quel effet la formation de cristaux a sur la faune là-bas.${prompt}
+  7307: 'Je veux que tu me ramènes un poisson de la source. Et pas n’importe quel poisson ! Tu dois ramener ${article} ${item-article: 0[2]}.${prompt}'
+  7308: Ah, ça me rappelle – as-tu du matériel de pêche ? Tu en auras besoin pour cette mission.${prompt}
+  7309: Il y a des gens autour qui savent une ou deux choses sur la pêche, si tu as besoin d’aide pour trouver et choisir ton matériel.${prompt}
+  7310: Ah, le grand pêcheur est de retour ! J’étais inquiet, pour être honnête. Tout ce qu’on entend ces jours-ci, c’est le rassemblement des bêtes, l’érosion des Lignes de Cristal, et maintenant…${prompt}
+  7311: '…des rumeurs selon lesquelles le Seigneur des Ombres lui-même est de retour !${prompt}'
+  7312: Nous allons examiner le poisson que tu as ramené. Selon les résultats, nous devrons peut-être agir ! Je te ferai savoir si nous avons besoin de ton aide.${prompt}
+  7313: Ah, c’est toi, ${name-player}. Tu arrives à point nommé. J’ai des nouvelles pour toi.${prompt}
+  7314: Par ordre du Royaume de San d’Oria, tu dois te rendre à Jeuno en tant qu’attaché d’ambassade.${prompt}
+  7315: Va au Château d’Oraguille. Monarlais Halver te dira tout ce que tu dois savoir.${prompt}
   7316: ${prompt}
   7317: ${prompt}
   7318: ${prompt}
@@ -17945,84 +17945,84 @@ entries:
   7321: ${prompt}
   7322: ${prompt}
   7323: ${prompt}
-  7324: There you are! I've been looking for you. Monarlais Halver requests your presence at the chateau immediately.${prompt}
-  7325: It sounds as if this is a fairly important mission. I need not remind you that you should take care to properly equip yourself before embarking on this journey.${prompt}
-  7326: I'm not sure what it's about, but you'd best make haste. The monarlais is not to be kept waiting!${prompt}
-  7327: Why, if it isn't ${name-player}! This is no time for loafing around, friend! Prince Trion is looking for you.${prompt}
-  7328: For this next mission, he's requested you personally. You should be honored!${prompt}
-  7329: As for the details of the mission, I've no idea what he wants, but he was in a hurry. You'd best be off to Chateau d'Oraguille!${prompt}
-  7330: It is a great thing you've done, ${name-player}! I knew deep in my heart that you were the one for the task.${prompt}
-  7331: You'd better get to the chateau quick. They're all waiting to welcome you back, I'd wager.${prompt}
-  7332: You've saved our proud Kingdom of San d'Oria. No, you're the savior of all Vana'diel! There's not a soul that doesn't owe you a great debt, ${name-player}.${prompt}
+  7324: Te voilà ! Je te cherchais. Monarlais Halver demande ta présence au château immédiatement.${prompt}
+  7325: On dirait une mission assez importante. Je n’ai pas besoin de te rappeler que tu dois bien t’équiper avant de te lancer dans ce voyage.${prompt}
+  7326: Je ne sais pas de quoi il s’agit, mais tu ferais mieux de te dépêcher. On ne fait pas attendre le monarlais !${prompt}
+  7327: Tiens, mais c’est ${name-player} ! Ce n’est pas le moment de traîner, mon ami ! Le prince Trion te cherche.${prompt}
+  7328: Pour cette prochaine mission, il t’a personnellement demandé. Tu devrais être honoré !${prompt}
+  7329: Quant aux détails de la mission, je n’ai aucune idée de ce qu’il veut, mais il était pressé. Tu ferais mieux de te rendre au Château d’Oraguille !${prompt}
+  7330: C’est une grande chose que tu as faite, ${name-player} ! Je savais au fond de mon cœur que tu étais la personne qu’il fallait pour cette tâche.${prompt}
+  7331: Tu ferais mieux d’aller au château rapidement. Je parie qu’ils attendent tous ton retour pour t’accueillir.${prompt}
+  7332: Tu as sauvé notre fier Royaume de San d’Oria. Non, tu es le sauveur de tout Vana’diel ! Il n’y a pas une âme qui ne te doive une immense gratitude, ${name-player}.${prompt}
   7333: |-
-    Ah, if it isn't ${name-player}!
-    You had best hurry off to Chateau d'Oraguille. It seems as if something terrible is in the works there.${prompt}
+    Ah, mais c’est ${name-player} !
+    Tu ferais mieux de te dépêcher d’aller au Château d’Oraguille. On dirait que quelque chose de terrible se prépare là-bas.${prompt}
   7334: |-
-    Well, if it isn't ${name-player}!
-    Your timing is perfect. The chateau just sent a request for an adventurer.${prompt}
-  7335: It looks as if this next mission has something to do with the late queen. You should feel honored. It's not every day that an adventurer gets to work directly with the royal family.${prompt}
+    Tiens, mais c’est ${name-player} !
+    Ton timing est parfait. Le château vient juste d’envoyer une demande pour un aventurier.${prompt}
+  7335: On dirait que cette prochaine mission a un rapport avec la défunte reine. Tu devrais te sentir honoré. Ce n’est pas tous les jours qu’un aventurier peut travailler directement avec la famille royale.${prompt}
   7336: |-
-    Spoken like a true San d'Orian!
-    Now hurry off to Chateau d'Oraguille and get the details on the mission from Monarlais Halver.${prompt}
-  7337: What's wrong? Dealing with royalty is not your cup of tea? Well, think about it and come back when you've come to your senses.${prompt}
-  7338: Prince Trion is requesting the aid of an adventurer. How about it?${prompt}
-  7339: It looks fairly urgent, so you should hurry to the chateau. The prince is waiting in his chambers.${prompt}
-  7340: I expected more from you, ${name-player}. If you change your mind, return here. I'll be waiting.${prompt}
-  7341: I have received the details of your mission from Prince Trion. I will deliver this book to the scholars for deciphering.${prompt}
-  7342: 'The deciphering of the ${keyitem-singular: 0[2]} will take a considerable amount of time. Return later for a report.${prompt}'
-  7343: 'You handed the ${keyitem-singular: 0[2]} over to the guard.${prompt}'
+    Parlé comme un vrai San d’Orien !
+    Maintenant, dépêche-toi d’aller au Château d’Oraguille et obtiens les détails de la mission auprès de Monarlais Halver.${prompt}
+  7337: Qu’est-ce qui ne va pas ? Traiter avec la royauté n’est pas ton fort ? Eh bien, réfléchis-y et reviens quand tu auras repris tes esprits.${prompt}
+  7338: Le prince Trion demande l’aide d’un aventurier. Qu’en dis-tu ?${prompt}
+  7339: Ça semble assez urgent, alors tu devrais te dépêcher d’aller au château. Le prince t’attend dans ses appartements.${prompt}
+  7340: J’attendais plus de toi, ${name-player}. Si tu changes d’avis, reviens ici. Je serai là à t’attendre.${prompt}
+  7341: J’ai reçu les détails de ta mission de la part du prince Trion. Je vais livrer ce livre aux érudits pour qu’ils le déchiffrent.${prompt}
+  7342: 'Le déchiffrement du ${keyitem-singular: 0[2]} prendra un temps considérable. Reviens plus tard pour un rapport.${prompt}'
+  7343: 'Tu as remis le ${keyitem-singular: 0[2]} au garde.${prompt}'
   7344: |-
-    Ah, ${name-player}. We've been waiting.
-    Prince Trion is calling for you. I wonder if this means the ${keyitem-singular: 0[2]} has been completely deciphered.${prompt}
-  7345: Well done, ${name-player}! I knew you would not let the Kingdom down.${prompt}
-  7346: I'm proud to increase your rank to 7!${prompt}
-  7347: The papsque has work for you, ${name-player}. Are you willing to take on the task?${prompt}
-  7348: Excellent. Proceed to the papsque's chambers on the third floor of the cathedral.${prompt}
-  7349: The papsque often comes across as a difficult man, but he is actually very kindhearted and compassionate. If you change your mind, I'll be waiting here.${prompt}
-  7350: The fair Claidie I d'Oraguille has invited you to the chateau. She wishes for you to see the flowers that have bloomed from the seeds you brought back from Altepa.${prompt}
-  7351: It is an honor to be invited to the chateau garden. One day you may even have the opportunity to attend one of their royal garden parties.${prompt}
-  7352: We cannot keep the princess waiting. Now, off to the chateau!${prompt}
-  7353: A party of Royal Knights stationed in Ghelsba Outpost have reported strange activity by Orcs deep within Yughott Grotto.${prompt}
-  7354: From your reports, we already know that the beastmen have built a giant portal, but their motives remain unclear.${prompt}
-  7355: It makes me shudder to think of what those Orcs are planning with that portal...${prompt}
-  7356: ${name-player}, your next mission is to travel to Ghelsba and continue your investigation into the Orcs' activities.${prompt}
-  7357: Be on your guard when traveling deep into Yughott Grotto. Losing an adventurer such as yourself would deal a great blow to all of San d'Oria.${prompt}
-  7358: I see you need more time for preparations. When you are ready, I'll be waiting.${prompt}
-  7359: It's hard to believe Orcs have their hands on such dangerous equipment. More patrols will have to be sent out to prevent any new developments in their evil plans.${prompt}
-  7360: 'And this ${keyitem-singular: 0[2]}... We will have to analyze it and begin reproduction for our forces. We cannot let Orcs get the Treasure of the Dragon King before San d''Oria does.${prompt}'
-  7361: Well, congratulations on the completion of your mission. Hmmm? Do I know of an adventurer named Eideialc? Never heard of him.${prompt}
-  7362: But you need not worry about some petty traveler. You are in a different league. You are now rank 8!${prompt}
-  7363: Princess Claidie's coming-of-age ceremony is drawing near. This ceremony is an important facet of d'Oraguille tradition.${prompt}
-  7364: Monarlais Halver has put out a call to high-ranking adventurers for their assistance in Chateau d'Oraguille.${prompt}
-  7365: Ah, the young princess has finally become a lady... Oh, I'm sorry. You can get the details of your next mission from Sir Halver.${prompt}
-  7366: What? You do not wish to repay the kindness the princess has shown to you in the past months? As you wish...but if you change your mind, you know where to find me.${prompt}
-  7367: I am busy with preparations for Princess Claidie's coming-of-age ceremony. You don't know what kind of vermin could be roaming the streets and looking for trouble.${prompt}
-  7368: Princess Claidie's coming-of-age ceremony is about to begin at the cathedral. I must remain at my post, but why don't you attend?${prompt}
-  7369: The king has requested your audience. He has selected you from the mountain of adventurers in San d'Oria. You should feel honored!${prompt}
-  7370: You have matured from a fledgling adventurer into a great asset to our kingdom. Do not let us down.${prompt}
-  7371: There is no need for modesty at a time like this. The fate of San d'Oria is at stake!${prompt}
-  7372: The authorities are saying that a dark cloud of despair is looming over the Kingdom. They are asking for the assistance of only the best adventurers.${prompt}
-  7373: I can think of none more qualified than you. Will you accept this mission?${prompt}
+    Ah, ${name-player}. Nous t’attendions.
+    Le prince Trion t’appelle. Je me demande si cela signifie que le ${keyitem-singular: 0[2]} a été complètement déchiffré.${prompt}
+  7345: Bien joué, ${name-player} ! Je savais que tu ne décevrais pas le Royaume.${prompt}
+  7346: J’ai l’honneur d’augmenter ton rang à 7 !${prompt}
+  7347: Le papsque a du travail pour toi, ${name-player}. Es-tu prêt à accepter cette tâche ?${prompt}
+  7348: Excellent. Rends-toi dans les appartements du papsque au troisième étage de la cathédrale.${prompt}
+  7349: Le papsque peut sembler être un homme difficile, mais il est en réalité très bienveillant et compatissant. Si tu changes d’avis, je serai ici à t’attendre.${prompt}
+  7350: La belle Claidie d’Oraguille t’a invité au château. Elle souhaite que tu voies les fleurs qui ont éclos à partir des graines que tu as rapportées d’Altepa.${prompt}
+  7351: C’est un honneur d’être invité dans le jardin du château. Un jour, tu auras peut-être même l’occasion d’assister à l’une de leurs réceptions royales dans le jardin.${prompt}
+  7352: Nous ne pouvons pas faire attendre la princesse. Maintenant, direction le château !${prompt}
+  7353: Un groupe de Chevaliers Royaux stationnés à l’Avant-poste de Ghelsba a signalé une activité étrange des Orques au plus profond de la Grotte de Yughott.${prompt}
+  7354: D’après tes rapports, nous savons déjà que les hommes-bêtes ont construit un portail géant, mais leurs motivations restent floues.${prompt}
+  7355: Ça me fait frissonner de penser à ce que ces Orques préparent avec ce portail…${prompt}
+  7356: ${name-player}, ta prochaine mission est de te rendre à Ghelsba et de poursuivre ton enquête sur les activités des Orques.${prompt}
+  7357: Sois sur tes gardes lorsque tu t’aventures au plus profond de la Grotte de Yughott. Perdre un aventurier comme toi serait un coup dur pour tout San d’Oria.${prompt}
+  7358: Je vois que tu as besoin de plus de temps pour te préparer. Quand tu seras prêt, je serai là à t’attendre.${prompt}
+  7359: C’est difficile à croire que les Orques aient mis la main sur un équipement aussi dangereux. Il faudra envoyer plus de patrouilles pour empêcher tout nouveau développement dans leurs plans maléfiques.${prompt}
+  7360: 'Et ce ${keyitem-singular: 0[2]}… Nous devrons l’analyser et commencer à le reproduire pour nos forces. Nous ne pouvons pas laisser les Orques s’emparer du Trésor du Roi Dragon avant San d’Oria.${prompt}'
+  7361: Eh bien, félicitations pour avoir terminé ta mission. Hmm ? Est-ce que je connais un aventurier nommé Eideialc ? Jamais entendu parler de lui.${prompt}
+  7362: Mais tu n’as pas à t’inquiéter d’un voyageur insignifiant. Tu es dans une autre catégorie. Tu es maintenant de rang 8 !${prompt}
+  7363: La cérémonie de passage à l’âge adulte de la princesse Claidie approche. Cette cérémonie est un aspect important de la tradition d’Oraguille.${prompt}
+  7364: Monarlais Halver a lancé un appel aux aventuriers de haut rang pour leur assistance au Château d’Oraguille.${prompt}
+  7365: Ah, la jeune princesse est enfin devenue une femme… Oh, désolé. Tu peux obtenir les détails de ta prochaine mission auprès de Sir Halver.${prompt}
+  7366: Quoi ? Tu ne veux pas rendre la gentillesse que la princesse t’a montrée ces derniers mois ? Comme tu veux… mais si tu changes d’avis, tu sais où me trouver.${prompt}
+  7367: Je suis occupé avec les préparatifs de la cérémonie de passage à l’âge adulte de la princesse Claidie. On ne sait pas quel genre de vermine pourrait rôder dans les rues et chercher des ennuis.${prompt}
+  7368: La cérémonie de passage à l’âge adulte de la princesse Claidie est sur le point de commencer à la cathédrale. Je dois rester à mon poste, mais pourquoi n’y assisterais-tu pas ?${prompt}
+  7369: Le roi a requis ton audience. Il t’a choisi parmi la montagne d’aventuriers de San d’Oria. Tu devrais te sentir honoré !${prompt}
+  7370: Tu es passé d’un aventurier novice à un atout précieux pour notre royaume. Ne nous déçois pas.${prompt}
+  7371: Pas besoin de modestie en un moment pareil. Le destin de San d’Oria est en jeu !${prompt}
+  7372: Les autorités disent qu’un nuage sombre de désespoir plane sur le Royaume. Elles demandent l’aide des meilleurs aventuriers uniquement.${prompt}
+  7373: Je ne peux penser à personne de plus qualifié que toi. Acceptes-tu cette mission ?${prompt}
   7374: |-
-    Then proceed to the Audience Chamber in the Chateau d'Oraguille.
-    Word has it that His Highness is not feeling that well. He may not be present for your briefing.${prompt}
-  7375: ${choice-player-gender}[Sir/Lady] ${name-player}! The Kingdom is counting on you. Who else, I ask you, is worthy for this task?${prompt}
-  7376: Ah, a time of great change is upon us. In a matter of days, the Rites of Succession will be held at the cathedral in Northern San d'Oria. It is then that the new heir to the throne will be decided.${prompt}
-  7377: Due to the unpredictable circumstances that took place at the princess's coming-of-age ceremony, this time, only authorized personnel will be allowed near the proceedings. However, the royal family has requested your services as a guard.${prompt}
-  7378: Even we Royal Knights have not been granted permission to attend... You must be held in high regard by His Highness. I envy you, ${choice-player-gender}[Sir/Ma'am].${prompt}
-  7379: When you have finished your preparations, proceed directly to the cathedral to report.${prompt}
-  7380: Off the record, which of the two princes do you think should be the next heir to the throne?${prompt}
+    Alors rends-toi à la Salle d’Audience dans le Château d’Oraguille.
+    On dit que Son Altesse ne se sent pas très bien. Il se peut qu’il ne soit pas présent pour ton briefing.${prompt}
+  7375: ${choice-player-gender}[Messire/Dame] ${name-player} ! Le Royaume compte sur toi. Qui d’autre, je te le demande, est digne de cette tâche ?${prompt}
+  7376: Ah, une période de grands changements est sur nous. Dans quelques jours, les Rites de Succession auront lieu à la cathédrale de San d’Oria Nord. C’est à ce moment-là que le nouvel héritier du trône sera décidé.${prompt}
+  7377: En raison des circonstances imprévisibles qui ont eu lieu lors de la cérémonie de passage à l’âge adulte de la princesse, cette fois, seules les personnes autorisées seront admises près des cérémonies. Cependant, la famille royale a requis tes services en tant que garde.${prompt}
+  7378: Même nous, les Chevaliers Royaux, n’avons pas eu la permission d’y assister… Tu dois être très estimé par Son Altesse. Je t’envie, ${choice-player-gender}[Messire/Madame].${prompt}
+  7379: Lorsque tu auras terminé tes préparatifs, rends-toi directement à la cathédrale pour faire ton rapport.${prompt}
+  7380: En confidence, lequel des deux princes penses-tu qu’il devrait être le prochain héritier du trône ?${prompt}
   7381: |-
-    It is a difficult decision, but...
+    C’est une décision difficile, mais…
     ${selection-lines}
-    Trion is better suited.
-    Pieuje is better suited.${prompt}
+    Trion est plus adapté.
+    Pieuje est plus adapté.${prompt}
   7382: |-
-    Hm...
-    Being the oldest, he is the true heir, and many people believe he is the most suited to rule the Kingdom. However, Prince Pieuje's prudent ways may be what this country is lacking.${prompt}
-  7383: Many think as you do, ${choice-player-gender}[Sir/Lady] ${name-player}. However, what this country may need is someone who will not back down in the face of a threat--someone who will stand up for the pride of the Kingdom.${prompt}
-  7384: But our opinion is of no matter. Lightbringer will decide who is the most suited to stand over our fine nation. And do not speak a word of today's exchange, for the monarlais will have our heads if he finds out.${prompt}
-  7385: I realize that you must have many preparations before taking on such an important mission. Take your time and return here when you are ready.${prompt}
+    Hm…
+    Étant l’aîné, il est le véritable héritier, et beaucoup de gens pensent qu’il est le plus apte à gouverner le Royaume. Cependant, les manières prudentes du prince Pieuje pourraient être ce qui manque à ce pays.${prompt}
+  7383: Beaucoup pensent comme toi, ${choice-player-gender}[Messire/Dame] ${name-player}. Cependant, ce dont ce pays a peut-être besoin, c’est de quelqu’un qui ne reculera pas face à une menace – quelqu’un qui défendra la fierté du Royaume.${prompt}
+  7384: Mais notre opinion n’a pas d’importance. Le Porteur de lumière décidera qui est le plus apte à diriger notre belle nation. Et ne dis pas un mot de notre échange d’aujourd’hui, car le monarlais nous fera couper la tête s’il l’apprend.${prompt}
+  7385: Je comprends que tu aies besoin de beaucoup de préparatifs avant d’entreprendre une mission aussi importante. Prends ton temps et reviens ici quand tu seras prêt.${prompt}
   7386: 'DEBUG: U_MS_START= "${number: 0}"${prompt}'
   7387: 'DEBUG: Went to Davoi, got the report.${prompt}'
   7388: |-
