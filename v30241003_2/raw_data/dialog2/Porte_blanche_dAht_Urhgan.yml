@@ -8082,100 +8082,100 @@ entries:
   4643: Vous devez d'abord ouvrir la voie en activant le portail au point de rassemblement, cependant.${prompt}
   4644: Les points de rassemblement sont utilisés pour surveiller les zones d'Assaut. Il y en a plusieurs dans les régions de l'Ouest d'Aht Urhgan.${prompt}
   4645: |-
-    Which staging point will you ask about?
+    De quel point de rassemblement veux-tu des informations ?
     ${selection-lines}
-    None.
-    Azouph Isle.
-    Dvucca Isle.
+    Aucun.
+    Île Azouph.
+    Île Dvucca.
     Mamool Ja.
     Halvung.
-    Ilrusi Atoll.${prompt}
-  4646: The Azouph Isle staging point keeps watch over Leujaoam Sanctum. It is located to the east of Nashmau, beyond the Deadmist Marsh.${prompt}
-  4647: The Mamool Ja staging point keeps watch over the Mamool Ja Training Grounds. It is located to the west of Mamook.${prompt}
-  4648: The Halvung staging point keeps watch over Lebros Caverns. It is located in the northern regions of Mount Zhayolm.${prompt}
-  4649: The Dvucca Isle staging point keeps watch over Periqia. It is located on an island to the west of Nashmau.${prompt}
-  4650: The Ilrusi Atoll staging point keeps watch over its namesake--the Ilrusi Atoll. It can be found in a rather dark cave to the north of Arrapago Reef.${prompt}
-  4651: If you would like information on Assault, please visit the Commissions Agency, right across the way from this building.${prompt}
-  4652: Hmmm...${prompt}
+    Atoll Ilrusi.${prompt}
+  4646: Le point de rassemblement de l’Île Azouph surveille le Sanctuaire de Leujaoam. Il se trouve à l’est de Nashmau, au-delà du Marais de la Brume Morte.${prompt}
+  4647: Le point de rassemblement des Mamool Ja surveille les Terrains d’Entraînement des Mamool Ja. Il se trouve à l’ouest de Mamook.${prompt}
+  4648: Le point de rassemblement de Halvung surveille les Cavernes de Lebros. Il se trouve dans les régions nord du Mont Zhayolm.${prompt}
+  4649: Le point de rassemblement de l’Île Dvucca surveille Periqia. Il se trouve sur une île à l’ouest de Nashmau.${prompt}
+  4650: Le point de rassemblement de l’Atoll Ilrusi surveille son homonyme, l’Atoll Ilrusi. Il peut être trouvé dans une grotte plutôt sombre au nord du Récif d’Arrapago.${prompt}
+  4651: Si tu veux des informations sur les Assauts, rends-toi à l’Agence des Commissions, juste de l’autre côté de ce bâtiment.${prompt}
+  4652: Hmmm…${prompt}
   4653: |-
-    Greetings!
-    This is the Balrahn Way branch office of Salaheem's Sentinels.${prompt}
+    Salutations !
+    C’est le bureau de la Voie de Balrahn des Sentinelles de Salaheem.${prompt}
   4654: |-
-    A thousand pardons, but our services are only available to employees of Salaheem's Sentinels.
-    Good day to you!${prompt}
+    Mille pardons, mais nos services sont réservés aux employés des Sentinelles de Salaheem.
+    Bonne journée à toi !${prompt}
   4655: |-
-    ${name-player}, is it?
-    I see from your ${keyitem-singular: 1[2]} that you are ${choice: 0}[an entry-level employee/a Private Second Class/a Private First Class/a Superior Private/a Lance Corporal/a Corporal/a Sergeant/a Sergeant Major/a Chief Sergeant/a Second Lieutenant/a First Lieutenant/a Captain].${prompt}
-  4656: 'According to my records, your Imperial Standing currently entitles you to ${number: 2} ${choice-plurality: 2}[credit/credits].${prompt}'
+    ${name-player}, c’est ça ?
+    Je vois d’après ton ${keyitem-singular: 1[2]} que tu es ${choice: 0}[un employé débutant/un Soldat de Deuxième Classe/un Soldat de Première Classe/un Soldat Supérieur/un Caporal-Chef/un Caporal/un Sergent/un Sergent-Major/un Chef Sergent/un Sous-Lieutenant/un Premier Lieutenant/un Capitaine].${prompt}
+  4656: 'Selon mes registres, ton Statut Impérial te donne actuellement droit à ${number: 2} ${choice-plurality: 2}[crédit/crédits].${prompt}'
   4657: |-
-    Exchange credits for Imperial currency?
+    Échanger des crédits contre de la monnaie impériale ?
     ${selection-lines}
-    Not now.
-    ${lettercase: 1}${item-singular: 15[2]}...${number: 8} credits
-    ${number: 21} ${item-plural: 15[2]}...${number: 9} credits
-    ${lettercase: 1}${item-singular: 16[2]}...${number: 10} credits
-    ${lettercase: 1}${item-singular: 17[2]}...${number: 11} credits
-    ${lettercase: 1}${item-singular: 18[2]}...${number: 12} credits${prompt}
-  4658: '${lettercase: 1}${article} ${item-article: 14[2]} will cost you ${number: 8} ${choice-plurality: 8}[credit/credits].${prompt}'
+    Pas maintenant.
+    ${lettercase: 1}${item-singular: 15[2]}…${number: 8} crédits
+    ${number: 21} ${item-plural: 15[2]}…${number: 9} crédits
+    ${lettercase: 1}${item-singular: 16[2]}…${number: 10} crédits
+    ${lettercase: 1}${item-singular: 17[2]}…${number: 11} crédits
+    ${lettercase: 1}${item-singular: 18[2]}…${number: 12} crédits${prompt}
+  4658: '${lettercase: 1}${article} ${item-article: 14[2]} te coûtera ${number: 8} ${choice-plurality: 8}[crédit/crédits].${prompt}'
   4659: |-
-    Exchange credits?
+    Échanger des crédits ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  4660: 'You do not have enough credits to buy ${article} ${item-article: 14[2]}.${prompt}'
-  4661: 'You do not have enough credits to buy ${number: 9} ${item-plural: 14[2]}.${prompt}'
+    Oui.
+    Non.${prompt}
+  4660: 'Tu n’as pas assez de crédits pour acheter ${article} ${item-article: 14[2]}.${prompt}'
+  4661: 'Tu n’as pas assez de crédits pour acheter ${number: 9} ${item-plural: 14[2]}.${prompt}'
   4662: |-
-    Salaheem's Sentinels values your contribution to the success of the company.
-    Please come again!${prompt}
-  4663: '${number: 9} ${item-given-plurality: 9[2], 14[2]} will cost you ${number: 8} ${choice-plurality: 8}[credit/credits].${prompt}'
-  4664: 'You obtain ${number: 9} ${item-given-plurality: 9[2], 0[2]}!${prompt}'
+    Les Sentinelles de Salaheem apprécient ta contribution au succès de la compagnie.
+    Reviens nous voir !${prompt}
+  4663: '${number: 9} ${item-given-plurality: 9[2], 14[2]} te coûtera ${number: 8} ${choice-plurality: 8}[crédit/crédits].${prompt}'
+  4664: 'Tu obtiens ${number: 9} ${item-given-plurality: 9[2], 0[2]} !${prompt}'
   4665: |-
-    The ship fare to Mhaura is ${number: 1} gil.
-    Will you be boarding now?${prompt}
+    Le tarif du bateau pour Mhaura est de ${number: 1} gil.
+    Veux-tu embarquer maintenant ?${prompt}
   4666: |-
-    Board the ship to Mhaura?
+    Monter à bord du bateau pour Mhaura ?
     ${selection-lines}
-    Yes, please.
-    Not right now.${prompt}
+    Oui, s’il te plaît.
+    Pas pour l’instant.${prompt}
   4667: |-
-    The ship fare to Nashmau is ${number: 1} gil.
-    Will you be boarding now?${prompt}
+    Le tarif du bateau pour Nashmau est de ${number: 1} gil.
+    Veux-tu embarquer maintenant ?${prompt}
   4668: |-
-    Board the ship to Nashmau?
+    Monter à bord du bateau pour Nashmau ?
     ${selection-lines}
-    Yes, please.
-    Not right now.${prompt}
+    Oui, s’il te plaît.
+    Pas pour l’instant.${prompt}
   4669: |-
-    Thank you.
-    Please go to the pier now, and have a safe trip!${prompt}
-  4670: I am sorry, but it seems you do not have enough gil.${prompt}
-  4671: Speak to the man at the counter if you would like to enter town.${prompt}
-  4672: Please buy a ticket at the counter if you wish to board the ship.${prompt}
-  4673: This is the entrance to the pier.${prompt}
-  4674: This is the exit for arriving passengers.${prompt}
-  4675: This is the exit. Would you like to enter Al Zahbi?${prompt}
+    Merci.
+    Rends-toi au quai maintenant, et bon voyage !${prompt}
+  4670: Je suis désolé, mais il semble que tu n’aies pas assez de gil.${prompt}
+  4671: Parle à l’homme au comptoir si tu veux entrer en ville.${prompt}
+  4672: Achète un billet au comptoir si tu veux monter à bord du bateau.${prompt}
+  4673: C’est l’entrée du quai.${prompt}
+  4674: C’est la sortie pour les passagers arrivants.${prompt}
+  4675: C’est la sortie. Veux-tu entrer à Al Zahbi ?${prompt}
   4676: |-
-    Enter the town?
+    Entrer en ville ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
+    Oui.
+    Pas encore.${prompt}
   4677: |-
-    You may go through now.
-    Many thanks for your patronage.${prompt}
-  4678: The ship to Mhaura will soon arrive.${prompt}
-  4679: The ship to Nashmau will soon arrive.${prompt}
+    Tu peux passer maintenant.
+    Merci beaucoup pour ton patronage.${prompt}
+  4678: Le bateau pour Mhaura arrivera bientôt.${prompt}
+  4679: Le bateau pour Nashmau arrivera bientôt.${prompt}
   4680: |-
-    Thank you for your patience.
-    The ship has now arrived and is rrready for boarding!${prompt}
-  4681: The ship is about to depart. Passengers, please board quickly!${prompt}
-  4682: We are now departing.${prompt}
-  4683: Please wait a while for the next ship.${prompt}
-  4684: This ship is headed for Mhaura.${prompt}
-  4685: This ship is headed for Nashmau.${prompt}
-  4686: 'The ship bound for Mhaura will ${choice: 1}[arrive/depart] in ${choice: 2}[less than an hour/about 1 hour/about 2 hours/about 3 hours/about 4 hours/about 5 hours/about 6 hours/about 7 hours] (${number: 0} ${choice-plurality: 0}[minute/minutes] in Earth time).${prompt}'
-  4687: 'The ship bound for Mhaura is now ${choice: 1}[arriving/departing].${prompt}'
-  4688: 'The ship bound for Nashmau will ${choice: 1}[arrive/depart] in ${choice: 2}[less than an hour/about 1 hour/about 2 hours/about 3 hours/about 4 hours/about 5 hours/about 6 hours/about 7 hours] (${number: 0} ${choice-plurality: 0}[minute/minutes] in Earth time).${prompt}'
-  4689: 'The ship bound for Nashmau is now ${choice: 1}[arriving/departing].${prompt}'
+    Merci pour votre patience.
+    Le bateau est maintenant arrivé et prêt à embarquer !${prompt}
+  4681: Le bateau est sur le point de partir. Les passagers, veuillez embarquer rapidement !${prompt}
+  4682: Nous partons maintenant.${prompt}
+  4683: Veuillez attendre un moment pour le prochain bateau.${prompt}
+  4684: Ce bateau se dirige vers Mhaura.${prompt}
+  4685: Ce bateau se dirige vers Nashmau.${prompt}
+  4686: 'Le bateau à destination de Mhaura ${choice: 1}[arrivera/partira] dans ${choice: 2}[moins d’une heure/environ 1 heure/environ 2 heures/environ 3 heures/environ 4 heures/environ 5 heures/environ 6 heures/environ 7 heures] (${number: 0} ${choice-plurality: 0}[minute/minutes] en temps terrestre).${prompt}'
+  4687: 'Le bateau à destination de Mhaura est maintenant ${choice: 1}[en train d’arriver/en train de partir].${prompt}'
+  4688: 'Le bateau à destination de Nashmau ${choice: 1}[arrivera/partira] dans ${choice: 2}[moins d’une heure/environ 1 heure/environ 2 heures/environ 3 heures/environ 4 heures/environ 5 heures/environ 6 heures/environ 7 heures] (${number: 0} ${choice-plurality: 0}[minute/minutes] en temps terrestre).${prompt}'
+  4689: 'Le bateau à destination de Nashmau est maintenant ${choice: 1}[en train d’arriver/en train de partir].${prompt}'
   4690: |-
     The minstrel of melodies is my name,
     For a mere ${number: 6} gil I'll recall your past.
@@ -8548,303 +8548,303 @@ entries:
     The Sea Sage(pt.2).
     The Revelation(pt.3).${prompt}
   4707: |-
-    Good day to you, adventurer.
-    The passage over there leads to the Alchemists' Guild.${prompt}
+    Bonjour à toi, aventurier.
+    Le passage là-bas mène à la Guilde des Alchimistes.${prompt}
   4708: |-
-    Long have I practiced the art of alchemy, yet I do not find myself becoming bored.
-    It truly is fascinating...${prompt}
-  4709: No! Lemme go!
-  4710: Stop that! Behave yourself!
+    Cela fait longtemps que je pratique l’art de l’alchimie, et je ne me lasse pas pour autant.
+    C’est vraiment fascinant…${prompt}
+  4709: Non ! Laissez-moi partir !
+  4710: Arrête ça ! Comporte-toi correctement !
   4711: |-
-    Again, you come before me...${wait-36: 1}
-    Nothing has changed since the last time.${prompt}
-  4712: Please, won't you reconsider?${prompt}
-  4713: This child has nimble fingers and would soon pick up the trade if he were to live at the guild...${prompt}
-  4714: Yes, and he uses those nimble fingers to pilfer my goods!${prompt}
-  4715: What have you done with those herbs and vials?${prompt}
-  4716: Ah, what are you gripin' about? It was just a bunch of junk anyway.${prompt}
+    Encore une fois, tu te présentes devant moi…${wait-36: 1}
+    Rien n’a changé depuis la dernière fois.${prompt}
+  4712: S’il te plaît, ne veux-tu pas reconsidérer ?${prompt}
+  4713: Cet enfant a des doigts agiles et apprendrait vite le métier s’il vivait à la guilde…${prompt}
+  4714: Oui, et il utilise ces doigts agiles pour voler mes marchandises !${prompt}
+  4715: Qu’as-tu fait de ces herbes et de ces fioles ?${prompt}
+  4716: Ah, de quoi te plains-tu ? Ce n’était qu’un tas de vieilleries de toute façon.${prompt}
   4717: |-
-    Tinga!
-    Mind your manners!${prompt}
+    Tinga !
+    Sois poli !${prompt}
   4718: |-
-    Who asked you!?
-    I don't need no stinkin' job!
-    If you love this place so much, why don't you work here!?${prompt}
+    Qui t’a demandé quoi que ce soit !?
+    J’ai pas besoin d’un sale boulot !
+    Si tu aimes tant cet endroit, pourquoi tu travailles pas ici !?${prompt}
   4719: |-
-    I won't always be around to take care of you.
-    Try to understand.${prompt}
+    Je ne serai pas toujours là pour prendre soin de toi.
+    Essaie de comprendre.${prompt}
   4720: |-
-    I don't need no one to take care of me!
-    Stay out of my life!${prompt}
+    J’ai pas besoin que quelqu’un prenne soin de moi !
+    Laisse ma vie tranquille !${prompt}
   4721: |-
-    <Sigh>...
-    I'm sorry you had to see that.${prompt}
+    <Soupir>…
+    Désolé que tu aies dû voir ça.${prompt}
   4722: |-
-    You're an adventurer, right?
-    I've done a fair share of adventuring myself, traveling the world with my sword and my wits.${prompt}
-  4723: It was not long after I arrived in Al Zahbi when I ran into Tinga.${prompt}
+    Tu es un aventurier, n’est-ce pas ?
+    J’ai moi-même fait pas mal d’aventures, parcourant le monde avec mon épée et mon esprit.${prompt}
+  4723: Ce n’est pas longtemps après mon arrivée à Al Zahbi que j’ai croisé Tinga.${prompt}
   4724: |-
-    He had lost both his parents...
-    An orphan...${prompt}
-  4725: I tried to find somebody to take him in, but every door was slammed in my face.${prompt}
-  4726: So I decided to look after him for a time and found myself getting attached to the little scamp...${prompt}
-  4727: I couldn't just leave him and pick up my adventures again.${prompt}
-  4728: I was going to continue my mercenary work here and raise Tinga as my own...${prompt}
+    Il avait perdu ses deux parents…
+    Un orphelin…${prompt}
+  4725: J’ai essayé de trouver quelqu’un pour l’accueillir, mais toutes les portes se sont fermées devant moi.${prompt}
+  4726: Alors j’ai décidé de m’occuper de lui un temps et je me suis attaché à ce petit chenapan…${prompt}
+  4727: Je ne pouvais pas simplement l’abandonner et reprendre mes aventures.${prompt}
+  4728: J’allais continuer mon travail de mercenaire ici et élever Tinga comme mon propre fils…${prompt}
   4729: |-
-    But then I realized I could no longer swing a sword.
-    It seems I've contracted some sort of illness...${prompt}
-  4730: The doctor says there is not much time left for me.${prompt}
-  4731: Before I pass from this life, I want to make sure Tinga has some way to support himself.${prompt}
+    Mais ensuite, j’ai réalisé que je ne pouvais plus manier une épée.
+    Il semble que j’aie contracté une sorte de maladie…${prompt}
+  4730: Le médecin dit qu’il ne me reste pas beaucoup de temps.${prompt}
+  4731: Avant de quitter cette vie, je veux m’assurer que Tinga ait un moyen de se débrouiller seul.${prompt}
   4732: |-
-    Well, you can see how well that effort is going.
-    He has no mind to begin a trade and is only interested in causing mischief.${prompt}
-  4733: But deep down, I know he's a good kid.${prompt}
+    Eh bien, tu peux voir à quel point cet effort réussit.
+    Il n’a aucune envie de commencer un métier et ne s’intéresse qu’à faire des bêtises.${prompt}
+  4733: Mais au fond, je sais qu’il est un bon gamin.${prompt}
   4734: |-
-    What do you say?
-    Do you think you can help out a fellow adventurer?${prompt}
-  4735: I need you to help me turn his life around.${prompt}
-  4736: Any time I try to have a serious talk with him, he just runs away...${prompt}
-  4737: To tell the truth, I have no idea where he is most of the time.${prompt}
+    Qu’en dis-tu ?
+    Penses-tu pouvoir aider un autre aventurier ?${prompt}
+  4735: J’ai besoin que tu m’aides à changer sa vie.${prompt}
+  4736: Chaque fois que j’essaie d’avoir une discussion sérieuse avec lui, il s’enfuit…${prompt}
+  4737: Pour être honnête, je ne sais pas où il est la plupart du temps.${prompt}
   4738: |-
-    Quite the dilemma.
-    Perhaps I may be of assistance?${prompt}
+    Quel dilemme.
+    Peut-être puis-je vous aider ?${prompt}
   4739: '!!!'
-  4740: You would help us!?${prompt}
-  4741: I'm not so cold-hearted as all that.${prompt}
-  4742: The problem is how to draw Tinga out of hiding...${prompt}
-  4743: 'How about we pretend to leave this ${item-singular: 0[2]} behind by mistake?${prompt}'
+  4740: Tu nous aiderais !?${prompt}
+  4741: Je ne suis pas si insensible que ça.${prompt}
+  4742: Le problème est de savoir comment faire sortir Tinga de sa cachette…${prompt}
+  4743: 'Et si on faisait semblant d’oublier ce ${item-singular: 0[2]} par erreur ?${prompt}'
   4744: |-
     Excellent.
-    Please go on ahead. I shall join you once my work here is done for the day.${prompt}
-  4745: Thank you, Ahaadah.${prompt}
+    Va devant, s’il te plaît. Je te rejoindrai une fois mon travail ici terminé pour la journée.${prompt}
+  4745: Merci, Ahaadah.${prompt}
   4746: |-
-    Hail! I trust I did not keep you waiting too long?
-    Have you brought the item I requested?${prompt}
-  4747: (Play the part of a merchant. Just follow my lead.)${prompt}
+    Salutations ! J’espère que je ne t’ai pas fait attendre trop longtemps ?
+    As-tu apporté l’objet que je t’ai demandé ?${prompt}
+  4747: (Joue le rôle d’un marchand. Suis simplement mon exemple.)${prompt}
   4748: |-
-    Yes! This is exactly what I was searching for!
-    You've done well to obtain such an extraordinarily rare item!${prompt}
+    Oui ! C’est exactement ce que je cherchais !
+    Tu as bien fait d’obtenir un objet aussi extraordinairement rare !${prompt}
   4749: |-
-    What's this!? You say you have something even more impressive for sale?
-    Well then, my good merchant, lead on!${prompt}
-  4750: Well, well. Look who decided to show up.${prompt}
-  4751: Hey! Come back here!${prompt}
+    Quoi !? Tu dis que tu as quelque chose de encore plus impressionnant à vendre ?
+    Eh bien alors, bon marchand, montre-moi le chemin !${prompt}
+  4750: Eh bien, eh bien. Regarde qui a décidé de se montrer.${prompt}
+  4751: Hé ! Reviens ici !${prompt}
   4752: |-
     Aha.
-    Nowhere left to run.${prompt}
+    Plus nulle part où courir.${prompt}
   4753: |-
-    What's wrong with you!?
-    Do you want my autograph that bad!?${prompt}
-  4754: Spare me your witty comments and return the item you stole.${prompt}
+    Qu’est-ce qui va pas chez vous !?
+    Vous voulez mon autographe à ce point !?${prompt}
+  4754: Épargne-moi tes commentaires spirituels et rends l’objet que tu as volé.${prompt}
   4755: |-
-    I didn't steal nothin'!
-    I just picked it up!${prompt}
+    J’ai rien volé !
+    Je l’ai juste ramassé !${prompt}
   4756: |-
-    Enough is enough!
-    You will return everything you've taken from my store!${prompt}
-  4757: If you do as you're told, I might even reconsider the request to take you as my pupil.${prompt}
+    Ça suffit !
+    Tu vas rendre tout ce que tu as pris dans mon magasin !${prompt}
+  4757: Si tu fais ce qu’on te dit, je pourrais même reconsidérer la proposition de te prendre comme apprenti.${prompt}
   4758: |-
-    That old junk?
-    I threw it away already.${prompt}
+    Ce vieux bric-à-brac ?
+    Je l’ai déjà jeté.${prompt}
   4759: |-
-    Threw it away...!
-    Why even take it in the first place!?${prompt}
+    Jeté… !
+    Alors pourquoi l’avoir pris en premier lieu !?${prompt}
   4760: |-
-    Heh heh.
-    You're not alone, if it makes you feel any better.${prompt}
-  4761: These saucers are from the Shararat Teahouse.${prompt}
-  4762: These clothes are from Imeeya's store.${prompt}
-  4763: And this carpet I got from Yazweel's place.${prompt}
+    Hé hé.
+    T’es pas le seul, si ça peut te consoler.${prompt}
+  4761: Ces soucoupes viennent de la Maison de Thé Shararat.${prompt}
+  4762: Ces vêtements viennent du magasin d’Imeeya.${prompt}
+  4763: Et ce tapis, je l’ai pris chez Yazweel.${prompt}
   4764: |-
-    I swiped all this stuff in half a day!
-    You grownups are so pathetic!${prompt}
-  4765: Not that I need any of it...${prompt}
-  4766: You little...${prompt}
-  4767: You got somethin' to say to me? Don't worry, none of that junk I just dropped was yours.${prompt}
-  4768: That's the final straw!${prompt}
-  4769: I've been lenient since you're just a child, but...${prompt}
-  4770: You go too far!${prompt}
-  4771: Give me back my carpet!${prompt}
-  4772: Oh, calm down already.${prompt}
+    J’ai piqué tout ça en une demi-journée !
+    Vous, les adultes, êtes tellement pathétiques !${prompt}
+  4765: J’ai même pas besoin de tout ça…${prompt}
+  4766: Espèce de petit…${prompt}
+  4767: T’as quelque chose à me dire ? T’inquiète, rien de ce que je viens de laisser tomber t’appartient.${prompt}
+  4768: C’est la goutte d’eau !${prompt}
+  4769: J’ai été indulgent parce que tu es encore un enfant, mais…${prompt}
+  4770: Tu vas trop loin !${prompt}
+  4771: Rends-moi mon tapis !${prompt}
+  4772: Oh, calme-toi déjà.${prompt}
   4773: |-
-    Calm down!?
-    I'm going to go out of business if you break any more of my crockery!${prompt}
-  4774: And you were the one who poked holes in all of my wares, weren't you!?${prompt}
-  4775: My carpet!${prompt}
-  4776: What's going on here?${prompt}
-  4777: You...${prompt}
-  4778: Tinga has ruined all of our livelihoods.${prompt}
-  4779: Is this true, Tinga?${prompt}
-  4780: So what if it is?${prompt}
-  4781: Then you must apologize to everyone and give back all the things you took.${prompt}
-  4782: What am I supposed to do with a pile of broken cups!?${prompt}
-  4783: We don't need your kind around here!${prompt}
-  4784: You probably put the child up to this in the first place!${prompt}
-  4785: I never...! How could you...!?${prompt}
+    Me calmer !?
+    Je vais faire faillite si tu brises encore ma vaisselle !${prompt}
+  4774: Et c’est toi qui as percé des trous dans toutes mes marchandises, n’est-ce pas !?${prompt}
+  4775: Mon tapis !${prompt}
+  4776: Que se passe-t-il ici ?${prompt}
+  4777: Toi…${prompt}
+  4778: Tinga a ruiné notre gagne-pain à tous.${prompt}
+  4779: C’est vrai, Tinga ?${prompt}
+  4780: Et alors, si c’est vrai ?${prompt}
+  4781: Alors tu dois t’excuser auprès de tous et rendre tout ce que tu as pris.${prompt}
+  4782: Qu’est-ce que je suis censé faire avec un tas de tasses cassées !?${prompt}
+  4783: On n’a pas besoin de ton genre ici !${prompt}
+  4784: Tu as probablement poussé l’enfant à faire ça en premier lieu !${prompt}
+  4785: Je n’ai jamais… ! Comment peux-tu… !?${prompt}
   4786: |-
-    You're too sick to work and can't earn a living anymore.
-    Isn't that right, adventurer?${prompt}
-  4787: I knew you foreign adventurers were up to no good!${prompt}
-  4788: Take your sneaking accomplice and get out of our city!${prompt}
+    Tu es trop malade pour travailler et ne peux plus gagner ta vie.
+    N’est-ce pas, aventurier ?${prompt}
+  4787: Je savais que les aventuriers étrangers mijotaient quelque chose de louche !${prompt}
+  4788: Prends ton complice sournois et sors de notre ville !${prompt}
   4789: |-
-    Very well.
-    I'll leave if that's what you want.${prompt}
+    Très bien.
+    Je partirai si c’est ce que vous voulez.${prompt}
   4790: |-
-    But please, let Tinga stay.
-    He's just a child.${prompt}
-  4791: Tinga...${prompt}
-  4792: '...${prompt}'
-  4793: I'm glad I had the chance to meet you.${prompt}
+    Mais s’il vous plaît, laissez Tinga rester.
+    C’est juste un enfant.${prompt}
+  4791: Tinga…${prompt}
+  4792: '…${prompt}'
+  4793: Je suis content d’avoir eu la chance de te rencontrer.${prompt}
   4794: |-
-    Who cares?
-    Why don't you leave already?${prompt}
-  4795: I wish there was more I could've done for you...${prompt}
-  4796: I said get lost already!${prompt}
-  4797: Everything has gone downhill since I met you.${prompt}
-  4798: '...${prompt}'
-  4799: If you hadn't interfered, some rich family might have adopted me instead.${prompt}
-  4800: I really wish you had just left me alone!${prompt}
-  4801: But now it looks like I'm finally gettin' rid of you.${prompt}
-  4802: I...${prompt}
-  4803: I'm sorry...${prompt}
-  4804: ${name-player}. Ahaadah. Thank you for all your help.${prompt}
-  4805: Alcander...${prompt}
+    Qui s’en soucie ?
+    Pourquoi tu pars pas déjà ?${prompt}
+  4795: J’aurais aimé pouvoir faire plus pour toi…${prompt}
+  4796: J’ai dit dégage, maintenant !${prompt}
+  4797: Tout est parti en vrille depuis que je t’ai rencontré.${prompt}
+  4798: '…${prompt}'
+  4799: Si tu n’avais pas interféré, une riche famille aurait pu m’adopter à la place.${prompt}
+  4800: J’aurais vraiment préféré que tu me laisses tranquille !${prompt}
+  4801: Mais maintenant, on dirait que je me débarrasse enfin de toi.${prompt}
+  4802: Je…${prompt}
+  4803: Je suis désolé…${prompt}
+  4804: ${name-player}. Ahaadah. Merci pour toute votre aide.${prompt}
+  4805: Alcander…${prompt}
   4806: |-
-    It's fine, really.
-    No one is to blame for this.${prompt}
-  4807: That child certainly is a handful.${prompt}
-  4808: What are we supposed to do with him?${prompt}
-  4809: Who would take him in?${prompt}
-  4810: Especially after that adventurer set him on the wrong path...${prompt}
-  4811: You don't know what you're talkin' about!
+    C’est bon, vraiment.
+    Personne n’est à blâmer pour ça.${prompt}
+  4807: Cet enfant est vraiment difficile à gérer.${prompt}
+  4808: Que sommes-nous censés faire de lui ?${prompt}
+  4809: Qui voudrait l’accueillir ?${prompt}
+  4810: Surtout après que cet aventurier l’a mis sur la mauvaise voie…${prompt}
+  4811: Tu sais pas de quoi tu parles !
   4812: |-
-    Alcander didn't do nothin' wrong!
-    I'm the bad one!${prompt}
+    Alcander n’a rien fait de mal !
+    C’est moi le méchant !${prompt}
   4813: |-
-    Who was the one who looked after me when I was all alone?
-    Not one of you, that's for darn sure!${prompt}
-  4814: Alcander was the only person who ever looked out for me!${prompt}
-  4815: What the...!${prompt}
+    Qui était là pour moi quand j’étais tout seul ?
+    Pas un de vous, c’est sûr !${prompt}
+  4814: Alcander était la seule personne qui s’est occupée de moi !${prompt}
+  4815: Quoi, qu’est-ce… !${prompt}
   4816: |-
-    What's going on here, Tinga?
-    I thought you hated Alcander!${prompt}
-  4817: He's my best friend...${prompt}
+    Que se passe-t-il ici, Tinga ?
+    Je pensais que tu détestais Alcander !${prompt}
+  4817: C’est mon meilleur ami…${prompt}
   4818: |-
-    If that's true, then why do all those terrible things?
-    You've forced him away from you.${prompt}
-  4819: I did it because I want him to stay with me...${prompt}
-  4820: I know he's really sick and won't be around much longer, so...${prompt}
-  4821: Ghosts always come out at night, you know.${prompt}
-  4822: Why's that?${prompt}
+    Si c’est vrai, alors pourquoi fais-tu toutes ces choses terribles ?
+    Tu l’as forcé à s’éloigner de toi.${prompt}
+  4819: Je l’ai fait parce que je veux qu’il reste avec moi…${prompt}
+  4820: Je sais qu’il est vraiment malade et qu’il ne sera plus là très longtemps, alors…${prompt}
+  4821: Les fantômes sortent toujours la nuit, tu sais.${prompt}
+  4822: Pourquoi ça ?${prompt}
   4823: |-
-    Because it's scarier that way.
-    Ghosts only show up when they hate someone enough to stay in this world.${prompt}
-  4824: Is that true?${prompt}
+    Parce que c’est plus effrayant comme ça.
+    Les fantômes apparaissent seulement quand ils détestent quelqu’un assez pour rester dans ce monde.${prompt}
+  4824: C’est vrai ?${prompt}
   4825: |-
-    Of course it's true.
-    They come back to haunt the people who hurt them in life.
-    That's what makes them so scary!${prompt}
-  4826: I figured if Alcander hated me enough, then he would come back as a ghost...${prompt}
-  4827: Then I could see him all the time...${prompt}
+    Bien sûr que c’est vrai.
+    Ils reviennent hanter les gens qui leur ont fait du mal de leur vivant.
+    C’est ce qui les rend si effrayants !${prompt}
+  4826: J’ai pensé que si Alcander me détestait assez, il reviendrait en fantôme…${prompt}
+  4827: Comme ça, je pourrais le voir tout le temps…${prompt}
   4828: |-
-    I see now...
-    You poor child...${prompt}
+    Je comprends maintenant…
+    Pauvre enfant…${prompt}
   4829: |-
-    But listen to me, Tinga.
-    What you're planning is selfish.${prompt}
-  4830: It means that Alcander must spend eternity feeling only hate and anger.${prompt}
-  4831: Is that a fate you would wish for yourself?${prompt}
-  4832: What's wrong, kid?${prompt}
+    Mais écoute-moi, Tinga.
+    Ce que tu planifies est égoïste.${prompt}
+  4830: Ça signifie qu’Alcander doit passer l’éternité à ressentir seulement de la haine et de la colère.${prompt}
+  4831: Est-ce un sort que tu souhaiterais pour toi-même ?${prompt}
+  4832: Qu’est-ce qui ne va pas, gamin ?${prompt}
   4833: |-
-    Don't worry, everything will be okay.
-    I was alone, too, but now I've met you.${prompt}
-  4834: It's good to have friends, don't you think?${prompt}
-  4835: I can't let this happen...!${prompt}
+    Ne t’inquiète pas, tout ira bien.
+    J’étais seul aussi, mais maintenant je t’ai rencontré.${prompt}
+  4834: C’est bien d’avoir des amis, tu ne penses pas ?${prompt}
+  4835: Je ne peux pas laisser ça arriver… !${prompt}
   4836: |-
-    No, child!
-    It's too dangerous out there!${prompt}
-  4837: You have to bring them back.${prompt}
-  4838: Who knows what creatures are lurking beyond the city walls?${prompt}
+    Non, enfant !
+    C’est trop dangereux dehors !${prompt}
+  4837: Tu dois les ramener.${prompt}
+  4838: Qui sait quelles créatures rôdent au-delà des murs de la ville ?${prompt}
   4839: |-
-    What do you say?
+    Qu’en dis-tu ?
     ${selection-lines}
-    Leave it to me.
-    Not my problem.${prompt}
+    Laisse-moi m’en charger.
+    Ce n’est pas mon problème.${prompt}
   4840: |-
-    Have you no heart?
-    You can't stand by and do nothing.${prompt}
+    N’as-tu aucun cœur ?
+    Tu ne peux pas rester là sans rien faire.${prompt}
   4841: |-
-    Thank you.
-    They can't have gone far.
-    You can catch them if you hurry.${prompt}
-  4842: You... You're that adventurer...
-  4843: Leave me be. I'm done for...
+    Merci.
+    Ils ne doivent pas être loin.
+    Tu peux les rattraper si tu te dépêches.${prompt}
+  4842: Toi… Tu es cet aventurier…
+  4843: Laisse-moi. Je suis fini…
   4844: |-
-    Thank you...
-    I am in your debt again.${prompt}
+    Merci…
+    Je te suis redevable une fois de plus.${prompt}
   4845: |-
-    Although your effort may have been in vain...
-    There is not much...${prompt}
-  4846: Alcander!${prompt}
+    Bien que ton effort ait peut-être été vain…
+    Il ne reste pas grand-chose…${prompt}
+  4846: Alcander !${prompt}
   4847: |-
-    Tinga!?
-    What are you doing out here? You could get hurt!${prompt}
-  4848: Thank you for saving him...${prompt}
-  4849: Tinga...?${prompt}
+    Tinga !?
+    Que fais-tu dehors ? Tu pourrais te blesser !${prompt}
+  4848: Merci de l’avoir sauvé…${prompt}
+  4849: Tinga…?${prompt}
   4850: |-
-    I knew somethin' was wrong.
-    Even when I was causin' all that trouble so you'd come and see me.
-    You were tryin' so hard to get me into that guild...${prompt}
-  4851: '...${prompt}'
+    Je savais qu’il y avait quelque chose qui clochait.
+    Même quand je causais tous ces ennuis pour que tu viennes me voir.
+    Tu faisais tant d’efforts pour me faire entrer dans cette guilde…${prompt}
+  4851: '…${prompt}'
   4852: |-
-    I couldn't take it no more!
-    All that worryin' about what's gonna happen to me after you go away!${prompt}
+    Je n’en pouvais plus !
+    Tout ce souci à propos de ce qui m’arriverait après ton départ !${prompt}
   4853: |-
-    Think about livin' instead!
-    I don't want you to go!${prompt}
+    Pense à vivre à la place !
+    Je ne veux pas que tu partes !${prompt}
   4854: |-
-    Tinga...
-    I became so afraid when I could no longer wield a sword.${prompt}
+    Tinga…
+    J’ai eu si peur quand je ne pouvais plus manier une épée.${prompt}
   4855: |-
-    I felt so alone.
-    Even though I know that's not true...${prompt}
-  4856: I've been saying this whole time how I want to save you from your fate.${prompt}
-  4857: But I had it wrong.${prompt}
+    Je me suis senti si seul.
+    Même si je sais que ce n’est pas vrai…${prompt}
+  4856: J’ai passé tout ce temps à dire que je voulais te sauver de ton destin.${prompt}
+  4857: Mais j’avais tort.${prompt}
   4858: |-
-    Tinga...
-    You're the one who saved me.${prompt}
+    Tinga…
+    C’est toi qui m’as sauvé.${prompt}
   4859: |-
-    You're right.
-    There's still time for me.${prompt}
+    Tu as raison.
+    Il me reste encore du temps.${prompt}
   4860: |-
-    I can't just give up.
-    Somewhere in this big, wide world there must be a cure for my illness.${prompt}
+    Je ne peux pas abandonner.
+    Quelque part dans ce grand monde, il doit y avoir un remède pour ma maladie.${prompt}
   4861: |-
-    And you.
-    This is for saving my life. I hope it aids you in your adventures.${prompt}
+    Et toi.
+    Ceci est pour m’avoir sauvé la vie. J’espère que ça t’aidera dans tes aventures.${prompt}
   4862: |-
-    You really should learn a trade, Tinga.
-    You have to learn to stand on your own two feet.${prompt}
-  4863: Okay.${prompt}
-  4864: Meet me at Port Al Zahbi towards the south of town. Tinga spends much of his time there, and a little performance may be enough to draw the attention of our little fugitive.${prompt}
-  4865: My apologies. I was accosted by a customer. Tinga should be running around the port somewhere. I shall join you in the chase momentarily.${prompt}
+    Tu devrais vraiment apprendre un métier, Tinga.
+    Tu dois apprendre à te débrouiller seul.${prompt}
+  4863: D’accord.${prompt}
+  4864: Retrouve-moi au Port Al Zahbi, au sud de la ville. Tinga y passe beaucoup de temps, et une petite performance pourrait suffire à attirer l’attention de notre petit fugitif.${prompt}
+  4865: Mes excuses. J’ai été accosté par un client. Tinga doit être en train de courir quelque part dans le port. Je te rejoindrai pour la chasse dans un instant.${prompt}
   4866: |-
-    Tinga must have followed Alcander out into Bhaflau Thickets.
-    They probably haven't gone far.${prompt}
+    Tinga a dû suivre Alcander dans les Fourrés de Bhaflau.
+    Ils n’ont probablement pas été bien loin.${prompt}
   4867: |-
-    You are their only hope.
-    Alcander may have once been an adventurer, but his illness...
-    He is in no shape to defend himself from the savage creatures out there...${wait-36: 2}
-    You must hurry!${prompt}
+    Tu es leur seul espoir.
+    Alcander a peut-être été un aventurier autrefois, mais avec sa maladie…
+    Il n’est pas en état de se défendre contre les créatures sauvages là dehors…${wait-36: 2}
+    Tu dois te dépêcher !${prompt}
   4868: |-
-    Alcander and Tinga are safe? That is good news.
-    And they have begun a journey to search for a cure?
-    I do hope they find one...${prompt}
-  4869: 'DEBUG: Press a button to continue.${prompt}'
+    Alcander et Tinga sont sains et saufs ? Ce sont de bonnes nouvelles.
+    Et ils ont entamé un voyage pour chercher un remède ?
+    J’espère vraiment qu’ils en trouveront un…${prompt}
+  4869: 'DEBUG : Appuie sur un bouton pour continuer.${prompt}'
   4870: |-
-    We are the Empress...
-    The Empress and Aht Urhgan are as one...${prompt}
-  4871: Our wishes are the wishes of the Empire...${prompt}
+    Nous sommes l’Impératrice…
+    L’Impératrice et Aht Urhgan ne font qu’un…${prompt}
+  4871: Nos souhaits sont les souhaits de l’Empire…${prompt}
   4872: |-
     ハァ～ッ……
     あんたら、傭兵の分ってモンが
