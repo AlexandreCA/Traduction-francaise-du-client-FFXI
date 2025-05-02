@@ -496,15 +496,15 @@ entries:
   225: |-
     You cannot obtain the ${item-singular: 0[2]}.
     Try trading again after sorting your inventory.${prompt}
-  226: 'You must free at least ${number: 0} space${choice-plurality: 0}[/s] before trading any items.${prompt}'
-  227: 'Obtained: ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
-  228: 'Obtained ${number: 0} gil.${prompt}'
-  229: 'Obtained ${number: 0} gil.'
-  230: 'Obtained key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  231: 'Lost key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  232: You do not have enough gil.${prompt}
-  233: 'You obtain ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  234: You do not have enough gil.
+  226: 'Tu dois libérer au moins ${number: 0} emplacement${choice-plurality: 0}[/s] avant d’échanger des objets.${prompt}'
+  227: 'Obtenu : ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
+  228: 'Obtenu ${number: 0} gils.${prompt}'
+  229: 'Obtenu ${number: 0} gils.'
+  230: 'Objet clé obtenu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  231: 'Objet clé perdu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  232: Tu n’as pas assez de gils.${prompt}
+  233: 'Tu obtiens ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  234: Tu n’as pas assez de gils.
   235: |-
     A party member has an NPC called up.
     You cannot take part in this event.${prompt}
@@ -10049,63 +10049,63 @@ entries:
   5572: Merci, mais je n'ai besoin de plus de parrchemin. Bon, c'est l'intention qui compte ! (C'est du moins ce que dit toujours maman...)${prompt}
   5573: Et si je vous donnais une carte magique pour vous aider dans vos aventures ?${prompt}
   5574: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
-    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
-    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
-    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
-    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gil).
-    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gil).
-    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gil).
-    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gil).
-    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gil).
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gil).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gil).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gil).
-    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gil).
-    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gil).
-    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
-    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
-    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  5575: If you have a map, you can check both the lay of the land and your location whenever you enter an area.${prompt}
+    Refuser.
+    Se renseigner sur les cartes.
+    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gils).
+    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gils).
+    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gils).
+    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gils).
+    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gils).
+    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gils).
+    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gils).
+    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gils).
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gils).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gils).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gils).
+    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gils).
+    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gils).
+    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gils).
+    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gils).
+    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gils).
+    Page précédente.
+    Page suivante.${prompt}
+  5575: Si tu as une carte, tu peux vérifier à la fois la configuration du terrain et ta position chaque fois que tu entres dans une zone.${prompt}
   5576: |-
-    If you belong to a party or alliance, you can also check the position of your allies.
-    And depending on your job, you can find NPCs and enemies from afar.${prompt}
+    Si tu fais partie d’un groupe ou d’une alliance, tu peux aussi vérifier la position de tes alliés.
+    Et selon ton métier, tu peux repérer les PNJ et les ennemis de loin.${prompt}
   5577: |-
-    Furthermore, you can even record specific points in the area or have places marked down for certain events.
-    So you see, magic maps are extremely useful.${prompt}
-  5578: '${lettercase: 1}${keyitem-article: 1[2]} contains information about Ronfaure, La Theine Plateau, Valkurm Dunes, Jugner Forest, Selbina, and San d''Oria. It costs ${number: 3} gil.${prompt}'
-  5579: '${lettercase: 1}${keyitem-article: 1[2]} boasts details of Gustaberg, the Konschtat Highlands, Pashhow Marshlands, and Bastok. IT costs ${number: 3} gil.${prompt}'
-  5580: '${lettercase: 1}${keyitem-article: 1[2]} displays geographical information about Sarutabaruta, Tahrongi Canyon, Buburimu Peninsula, Meriphataud Mountains, Mhaura, and Windurst. It costs ${number: 3} gil.${prompt}'
-  5581: '${lettercase: 1}${keyitem-article: 1[2]} contains details about Batallia Downs, Rolanberry Fields, Sauromugue Champaign, and Jeuno. It costs ${number: 3} gil.${prompt}'
-  5582: 'As you can glean from the name, ${keyitem-article: 1[2]} gives a layout of Ordelle''s Caves, which stretch below La Theine Plateau. It costs ${number: 3} gil.${prompt}'
-  5583: '${lettercase: 1}${keyitem-article: 1[2]} provides sketches of Ghelsba Outpost, Fort Ghelsba, and Yughott Grotto, located in West Ronfaure. It costs ${number: 3} gil.${prompt}'
-  5584: '${lettercase: 1}${keyitem-article: 1[2]} contains information about the eponymous area, the orcish stronghold lying within Jugner Forest. It costs ${number: 3} gil.${prompt}'
-  5585: 'Perhaps this goes without saying, but ${keyitem-article: 1[2]} gives a brief outline of what can be found in Carpenter''s Landing. It costs ${number: 3} gil.${prompt}'
-  5586: 'As you have doubtlessly surmised, ${keyitem-article: 0[2]} describe Bastok''s Zeruhn Mines in detail. It costs ${number: 3} gil.${prompt}'
-  5587: '${lettercase: 1}${keyitem-article: 1[2]} provides information about Palborough Mines in North Gustaberg, as can only be expected. It costs ${number: 3} gil.${prompt}'
-  5588: 'Unsurprisingly, ${keyitem-article: 1[2]} provides a glimpse into Beadeaux, the Quadav homeland in Pashhow Marshlands. It costs ${number: 3} gil.${prompt}'
-  5589: 'Forgive me for stating the obvious, by ${keyitem-article: 1[2]} details Giddeus, which can be accessed from West Sarutabaruta. It costs ${number: 3} gil.${prompt}'
-  5590: 'As you might have realized, ${keyitem-article: 1[2]} gives a layout of Castle Oztroja, land of the Yagudo, which can be found in Meiphataud Mountains. It costs ${number: 3} gil.${prompt}'
-  5591: '${lettercase: 1}${keyitem-article: 1[2]} details the Maze of Shakrami in Tahrongi Canyon. Forgive me if that seems obvious, but I am required to provide such explanations to all customers. It costs ${number: 3} gil.${prompt}'
-  5592: '${lettercase: 1}${keyitem-article: 1[2]} sketches out the Sanctuary of Zi''Tah, Ro''Maeve, and the Hall of the Gods. It costs ${number: 3} gil.${prompt}'
-  5593: 'This may be stating the obvious, but ${keyitem-article: 1[2]} gives an accurate depiction of Bibiki Bay. It costs ${number: 3} gil.${prompt}'
-  5594: 'Yes, it''s true--${keyitem-article: 0[2]} details the layout of Qufim Island. It costs ${number: 3} gil.${prompt}'
-  5595: 'True to form, ${keyitem-article: 1[2]} depicts the Eldieme Necropolis, found in Batallia Downs, in its entirety. It costs ${number: 3} gil.${prompt}'
-  5596: 'As expected, ${keyitem-article: 1[2]} provides information about Garlaige Citadel, which can be found in Sauromugue Champaign. It costs ${number: 3} gil.${prompt}'
-  5597: '${lettercase: 1}${keyitem-article: 1[2]} shows a good deal about Tuhtunga Jungle, Yhoator Jungle, and Kazham. It costs ${number: 3} gil.${prompt}'
-  5598: 'As should be obvious, ${keyitem-article: 1[2]} shows information about ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
-  5599: '${lettercase: 1}${keyitem-article: 1[2]} provides details on ${zone: 2[2]} and ${zone: 4[2]}. It costs ${number: 3} gil.${prompt}'
-  5600: '${lettercase: 1}${keyitem-article: 1[2]} depicts ${zone: 2[2]}, ${zone: 4[2]}, and ${zone: 5[2]}. It costs ${number: 3} gil.${prompt}'
+    De plus, tu peux même enregistrer des points spécifiques dans la zone ou faire marquer des lieux pour certains événements.
+    Tu vois donc que les cartes magiques sont extrêmement utiles.${prompt}
+  5578: '${lettercase: 1}${keyitem-article: 1[2]} contient des informations sur Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d’Oria. Elle coûte ${number: 3} gils.${prompt}'
+  5579: '${lettercase: 1}${keyitem-article: 1[2]} présente des détails sur Gustaberg, les Hauts-Plateaux de Konschtat, les Marais de Pashhow et Bastok. Elle coûte ${number: 3} gils.${prompt}'
+  5580: '${lettercase: 1}${keyitem-article: 1[2]} affiche des informations géographiques sur Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst. Elle coûte ${number: 3} gils.${prompt}'
+  5581: '${lettercase: 1}${keyitem-article: 1[2]} contient des détails sur les Plaines de Batallia, les Champs de Rolanberry, les Champs de Sauromugue et Jeuno. Elle coûte ${number: 3} gils.${prompt}'
+  5582: 'Comme son nom l’indique, ${keyitem-article: 1[2]} donne une disposition des Grottes d’Ordelle, qui s’étendent sous le Plateau de La Theine. Elle coûte ${number: 3} gils.${prompt}'
+  5583: '${lettercase: 1}${keyitem-article: 1[2]} fournit des croquis de l’Avant-Poste de Ghelsba, du Fort Ghelsba et de la Grotte de Yughott, situés dans Ronfaure Ouest. Elle coûte ${number: 3} gils.${prompt}'
+  5584: '${lettercase: 1}${keyitem-article: 1[2]} contient des informations sur la zone éponyme, la forteresse orque située dans la Forêt de Jugner. Elle coûte ${number: 3} gils.${prompt}'
+  5585: 'Cela va peut-être sans dire, mais ${keyitem-article: 1[2]} donne un aperçu de ce qu’on peut trouver à l’Embarcadère des Charpentiers. Elle coûte ${number: 3} gils.${prompt}'
+  5586: 'Comme vous l’avez sans doute deviné, ${keyitem-article: 0[2]} décrit en détail les Mines de Zeruhn à Bastok. Elle coûte ${number: 3} gils.${prompt}'
+  5587: '${lettercase: 1}${keyitem-article: 1[2]} fournit des informations sur les Mines de Palborough dans Gustaberg Nord, comme on pouvait s’y attendre. Elle coûte ${number: 3} gils.${prompt}'
+  5588: 'Sans surprise, ${keyitem-article: 1[2]} donne un aperçu de Beadeaux, le territoire des Quadav dans les Marais de Pashhow. Elle coûte ${number: 3} gils.${prompt}'
+  5589: 'Pardonnez-moi d’énoncer l’évidence, mais ${keyitem-article: 1[2]} détaille Giddeus, accessible depuis Sarutabaruta Ouest. Elle coûte ${number: 3} gils.${prompt}'
+  5590: 'Comme vous l’avez peut-être réalisé, ${keyitem-article: 1[2]} donne une disposition du Château Oztroja, le territoire des Yagudo, qui se trouve dans les Montagnes de Meriphataud. Elle coûte ${number: 3} gils.${prompt}'
+  5591: '${lettercase: 1}${keyitem-article: 1[2]} détaille le Labyrinthe de Shakrami dans le Canyon de Tahrongi. Pardonnez-moi si cela semble évident, mais je suis tenu de fournir de telles explications à tous les clients. Elle coûte ${number: 3} gils.${prompt}'
+  5592: '${lettercase: 1}${keyitem-article: 1[2]} esquisse le Sanctuaire de Zi’Tah, Ro’Maeve et le Hall des Dieux. Elle coûte ${number: 3} gils.${prompt}'
+  5593: 'Cela peut sembler évident, mais ${keyitem-article: 1[2]} donne une représentation précise de la Baie de Bibiki. Elle coûte ${number: 3} gils.${prompt}'
+  5594: 'Oui, c’est vrai—${keyitem-article: 0[2]} détaille la disposition de l’Île de Qufim. Elle coûte ${number: 3} gils.${prompt}'
+  5595: 'Fidèle à sa forme, ${keyitem-article: 1[2]} dépeint la Nécropole d’Eldieme, située dans les Plaines de Batallia, dans son intégralité. Elle coûte ${number: 3} gils.${prompt}'
+  5596: 'Comme prévu, ${keyitem-article: 1[2]} fournit des informations sur la Citadelle de Garlaige, qui se trouve dans les Champs de Sauromugue. Elle coûte ${number: 3} gils.${prompt}'
+  5597: '${lettercase: 1}${keyitem-article: 1[2]} montre beaucoup de choses sur la Jungle de Tuhtunga, la Jungle de Yhoator et Kazham. Elle coûte ${number: 3} gils.${prompt}'
+  5598: 'Comme cela devrait être évident, ${keyitem-article: 1[2]} montre des informations sur ${zone: 2[2]}. Elle coûte ${number: 3} gils.${prompt}'
+  5599: '${lettercase: 1}${keyitem-article: 1[2]} fournit des détails sur ${zone: 2[2]} et ${zone: 4[2]}. Elle coûte ${number: 3} gils.${prompt}'
+  5600: '${lettercase: 1}${keyitem-article: 1[2]} dépeint ${zone: 2[2]}, ${zone: 4[2]} et ${zone: 5[2]}. Elle coûte ${number: 3} gils.${prompt}'
   5601: |-
-    Purchase ${keyitem-article: 0[2]}?
+    Acheter ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes, please.
-    No, thank you.${prompt}
+    Oui, s’il vous plaît.
+    Non, merci.${prompt}
   5602: Vous n'avez pas assez de gil.${prompt}
   5603: 'Une carte de la région de Kuzotz donne des connaissances géographiques sur le Désert d''Altepa et Rabao. Elle coûte ${number: 3} gil.${prompt}'
   5604: 'Une carte de la région de Vollbow fournit des informations sur le Cap Terrigan, la Vallée des Pleurs et le Tunnel Gustav. Elle coûte ${number: 3} gil.${prompt}'
@@ -12908,7 +12908,7 @@ entries:
     Pas une pièce d'armure en vue...${prompt}
   7060: Vous... voulez récupérer votre armure ?${prompt}
   7061: |-
-    Which do you want back?
+    Que veux-tu récupérer ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}
     ${lettercase: 1}${item-singular: 1[2]}
@@ -12918,10 +12918,10 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}
     ${lettercase: 1}${item-singular: 6[2]}
     ${lettercase: 1}${item-singular: 7[2]}
-    Next page.
-    None.${prompt}
+    Page suivante.
+    Aucun.${prompt}
   7062: |-
-    Which do you want back?
+    Que veux-tu récupérer ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}
     ${lettercase: 1}${item-singular: 1[2]}
@@ -12930,22 +12930,22 @@ entries:
     ${lettercase: 1}${item-singular: 4[2]}
     ${lettercase: 1}${item-singular: 5[2]}
     ${lettercase: 1}${item-singular: 6[2]}
-    Previous page.
-    None.${prompt}
-  7063: 'You wish me to return the ${item-singular: 0[2]}...?${prompt}'
+    Page précédente.
+    Aucun.${prompt}
+  7063: 'Veux-tu que je te rende le ${item-singular: 0[2]}…?${prompt}'
   7064: |-
-    This is the armor you wish returned?
+    C’est l’armure que tu veux récupérer ?
     ${selection-lines}
-    This is it.
-    No, not this.${prompt}
-  7065: 'Ghanraam reluctantly returns the ${item-singular: 0[2]} to you.${prompt}'
-  7066: Hmmm, I'm afraid you're unable to carry any more of these.${prompt}
-  7067: Hmmm, I'm afraid you would topple over if you tried to carry any more.${prompt}
-  7068: Until you sort your belongings, I'll just have to keep this armor in my gallery. Such a shame.${prompt}
-  7069: My gallery currently holds not a single weapon, I fear...${prompt}
-  7070: You...want your weapon back?${prompt}
+    Oui, c’est ça.
+    Non, pas celle-ci.${prompt}
+  7065: 'Ghanraam te rend à contrecœur le ${item-singular: 0[2]}.${prompt}'
+  7066: Hmm, j’ai peur que tu ne puisses plus en porter davantage.${prompt}
+  7067: Hmm, j’ai peur que tu ne t’effondres si tu essayes d’en porter davantage.${prompt}
+  7068: Tant que tu n’as pas trié tes affaires, je vais devoir garder cette armure dans ma galerie. Quel dommage.${prompt}
+  7069: Ma galerie ne contient actuellement aucune arme, hélas…${prompt}
+  7070: Tu… veux récupérer ton arme ?${prompt}
   7071: |-
-    Which do you want back?
+    Que veux-tu récupérer ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}
     ${lettercase: 1}${item-singular: 1[2]}
@@ -12955,65 +12955,65 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}
     ${lettercase: 1}${item-singular: 6[2]}
     ${lettercase: 1}${item-singular: 7[2]}
-    Next page.
-    Previous page.
-    None.${prompt}
+    Page suivante.
+    Page précédente.
+    Aucun.${prompt}
   7072: |-
-    Which do you want back?
+    Que veux-tu récupérer ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 0[2]}
     ${lettercase: 1}${item-singular: 1[2]}
     ${lettercase: 1}${item-singular: 2[2]}
     ${lettercase: 1}${item-singular: 3[2]}
-    Previous page.
-    None.${prompt}
+    Page précédente.
+    Aucun.${prompt}
   7073: |-
-    This is the weapon you wish returned?
+    C’est l’arme que tu veux récupérer ?
     ${selection-lines}
-    This is it.
-    No, not this.${prompt}
-  7074: 'Most excellent. I see you have the items required for the ${choice: 1}[head piece/body piece/hands/legs/feet] of the ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
-  7075: 'This is most certainly armor from the Ruins of Alzadaal. Soon you will have all the items required to create the ${choice: 1}[head piece/body piece/hands/legs/feet] of the ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
-  7076: I shall gladly store this armor in my gallery for the time being. How my precious collection grows...${prompt}
+    Oui, c’est ça.
+    Non, pas celle-ci.${prompt}
+  7074: 'Excellent. Je vois que tu as les objets nécessaires pour la ${choice: 1}[pièce de tête/pièce de corps/gants/jambières/pieds] de l’armure ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
+  7075: 'C’est sans aucun doute une armure des Ruines d’Alzadaal. Bientôt, tu auras tous les objets nécessaires pour créer la ${choice: 1}[pièce de tête/pièce de corps/gants/jambières/pieds] de l’armure ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
+  7076: Je vais volontiers conserver cette armure dans ma galerie pour l’instant. Comme ma précieuse collection grandit…${prompt}
   7077: |-
-    Ah...of course I realize my custody of the armor is only temporary.
-    Yes. Temporary.${prompt}
-  7078: Please, I do not wish to cheapen the value of my gallery with multiple displays of the same armor.${prompt}
+    Ah… bien sûr, je sais que ma garde de cette armure n’est que temporaire.
+    Oui. Temporaire.${prompt}
+  7078: S’il te plaît, je ne veux pas dévaloriser ma galerie en exposant plusieurs fois la même armure.${prompt}
   7079: |-
-    My gallery is now fit to bursting with rare and wondrous armor.
-    I feel positively dizzy. I suppose it is time for you to prepare my fee.${prompt}
-  7080: 'These are the items required to create the ${choice: 1}[head piece/body piece/hands/legs/feet] of the ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
-  7081: But it appears, my greedy friend, that you already own this particular part.${prompt}
-  7082: I will require the entire fee all at once, if you would be so kind.${prompt}
+    Ma galerie est maintenant pleine à craquer de rares et merveilleuses armures.
+    Je me sens presque étourdi. Je suppose qu’il est temps pour toi de préparer mon paiement.${prompt}
+  7080: 'Ce sont les objets nécessaires pour créer la ${choice: 1}[pièce de tête/pièce de corps/gants/jambières/pieds] de l’armure ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
+  7081: Mais il semble, mon ami avide, que tu possèdes déjà cette partie particulière.${prompt}
+  7082: Je vais exiger le paiement complet d’un coup, si tu veux bien.${prompt}
   7083: |-
-    Or are you attempting to store such things in my gallery?
-    It is a place to display the glory of arms and armor and nothing else, my friend.${prompt}
+    Ou essaies-tu de stocker de telles choses dans ma galerie ?
+    C’est un lieu pour exposer la gloire des armes et armures, et rien d’autre, mon ami.${prompt}
   7084: |-
-    You have yet to bring me all of the necessary items.
-    I will ask for my fee once you have everything ready.${prompt}
-  7085: 'Yes, this should cover my expenses for ordering the ${choice: 1}[head piece/body piece/hands/legs/feet] of the ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
+    Tu ne m’as pas encore apporté tous les objets nécessaires.
+    Je demanderai mon paiement une fois que tu auras tout préparé.${prompt}
+  7085: 'Oui, cela devrait couvrir mes frais pour commander la ${choice: 1}[pièce de tête/pièce de corps/gants/jambières/pieds] de l’armure ${choice: 0}[Ares Plate Armor/Skadi Leather Armor/Usukane Armor/Marduk Jubbah/Morrigan Robe].${prompt}'
   7086: |-
-    I will set the artisans to work at once.
-    I know I would be anxious in your position, but try to exercise some patience before returning to claim your armor.${prompt}
+    Je vais mettre les artisans au travail immédiatement.
+    Je sais que j’aurais de l’anxiété à ta place, mais essaie d’exercer un peu de patience avant de revenir chercher ton armure.${prompt}
   7087: |-
-    Like I've told you before, I typically only store pieces of armor in my gallery.
-    The special attention and care a fine weapon requires will cost you an extra ${item-singular: 0[2]}.${prompt}
+    Comme je te l’ai déjà dit, je stocke généralement seulement des pièces d’armure dans ma galerie.
+    L’attention et les soins spéciaux qu’exige une belle arme te coûteront un supplément ${item-singular: 0[2]}.${prompt}
   7088: |-
-    This is a weapon found in the ruins!? Simply breathtaking!
-    I shall most happily display it within my gallery.${prompt}
+    C’est une arme trouvée dans les ruines ! Tout simplement époustouflant !
+    Je l’exposerai avec grand plaisir dans ma galerie.${prompt}
   7089: |-
-    Ah! Of course you shall retain all ownership rights and privileges that pertain to the weapon.
-    If you wish it returned, you have merely to ask...${prompt}
+    Ah ! Bien sûr, tu conserveras tous les droits et privilèges de propriété sur cette arme.
+    Si tu souhaites la récupérer, il te suffira de demander…${prompt}
   7090: |-
-    I have not a single spare display case remaining, I'm afraid. My collection of legendary weapons is perfect and complete!
-    I must say, the daily care of these artifacts is quite demanding...though I do love it so!${prompt}
-  7091: That weapon already graces my gallery, my treasure-hunting friend. I need but one of each!${prompt}
+    Je n’ai plus une seule vitrine de libre, hélas. Ma collection d’armes légendaires est parfaite et complète !
+    Je dois dire que l’entretien quotidien de ces artefacts est assez exigeant… bien que j’adore ça !${prompt}
+  7091: Cette arme orne déjà ma galerie, mon ami chasseur de trésors. Il ne m’en faut qu’une de chaque !${prompt}
   7092: |-
-    Your armor is being crafted as we speak.
-    Such magnificence takes time.${prompt}
+    Ton armure est en cours de fabrication en ce moment même.
+    Une telle magnificence demande du temps.${prompt}
   7093: |-
-    Here is your completed armor.
-    Such masterful work...<sob>.${prompt}
+    Voici ton armure terminée.
+    Un travail si magistral… <sanglot>.${prompt}
   7094: Grrr... Qui cette renarde pense-t-elle être dans le nom d'Altana !? Je vais quitter sa compagnie, regardez-moi !${prompt}
   7095: Et pourquoi ces trois idiots ne peuvent-ils pas la fermer ? Une fois que l'un commence, ils ne peuvent plus s'arrêter, n'est-ce pas ?
   7096: S'ils retournaient simplement à se tenir la main, je pourrais me concentrer sur mon travail - pas que je vais rester ici beaucoup plus longerrr !${prompt}
@@ -13116,940 +13116,940 @@ entries:
   7183: Je sais, je sais. Il y a des milliers de filles là dehors avec du charme, et des milliers d'autres avec des visages à tomber par terre. Mais une fois par génération, il y a quelqu'un de béni avec une combinaison parfaite des deux - un ange créé à l'image de la déesse elle-même.${prompt}
   7184: <Soupir>... Et je sais qu'une femme avec tant de qualités ne devrait pas avoir à mentir sur ce qu'elle a ou n'a pas fait...${prompt}
   7185: |-
-    I'm sorry, ${name-player}!
-    It's all my fault!
-    Do you rrremember the ${keyitem-singular: 0[2]} you brought me before?${prompt}
-  7186: You know... The love potion.${prompt}
-  7187: I was going to have that old witch brew up some medicine to help me...um...iron out a few of the wrrrinkles in my otherwise flawless personality, but it turned out that the whole thing was a hoax.${prompt}
-  7188: Now that I didn't need the water anymore, I was going to give it back to Ekhu.${prompt}
-  7189: But on my way, I kind of rrran into one of those thrrree creepy guys always hanging around Al Zhabi's Mithra...
-  7190: '...and maybe spilled a little of the concoction on his jerrrkin.${prompt}'
-  7191: The prrroblem here being that anyone sprinkled with the luminous water will fall in love with the first perrrson he sees...${prompt}
-  7192: '...which I''m guessing was either Foudeel or Wahboud.${prompt}'
-  7193: Heh heh...?${prompt}
-  7194: Do I know how to rrremove the effects of the medicine?${prompt}
-  7195: Unfortunately, no. I even asked Ekhu, but she was as stumped as I (just not as beautiful).${prompt}
-  7196: A-anyway! The whole thing was an accident. You can't blame somebody for something they never intended to do, even if that something was causing a guy to fall for anotherrr's bone harness.${prompt}
-  7197: Where could he be...?${prompt}
-  7198: Maybe good ol' Kubhe will know.${prompt}
-  7199: I already told you! It was all an accident. If I could go back and change everything, I would, but I can't, so I won't!${prompt}
+    Je suis désolé, ${name-player} !
+    C’est entièrement de ma faute !
+    Te souviens-tu du ${keyitem-singular: 0[2]} que tu m’as apporté avant ?${prompt}
+  7186: Tu sais… la potion d’amour.${prompt}
+  7187: J’allais demander à cette vieille sorcière de préparer une médecine pour m’aider à… euh… lisser quelques rides dans ma personnalité autrement parfaite, mais il s’est avéré que tout ça n’était qu’une arnaque.${prompt}
+  7188: Maintenant que je n’avais plus besoin de l’eau, j’allais la rendre à Ekhu.${prompt}
+  7189: Mais en chemin, j’ai un peu croisé l’un de ces trois types bizarres qui traînent toujours autour des Mithras d’Al Zahbi…${prompt}
+  7190: '...et peut-être que j’ai renversé un peu de la concoction sur sa tunique.${prompt}'
+  7191: Le problème, c’est que quiconque est aspergé de cette eau lumineuse tombera amoureux de la première personne qu’il verra…${prompt}
+  7192: '...ce que je suppose être soit Foudeel, soit Wahboud.${prompt}'
+  7193: Heh heh… ?${prompt}
+  7194: Sais-je comment enlever les effets de la médecine ?${prompt}
+  7195: Malheureusement, non. J’ai même demandé à Ekhu, mais elle était aussi perplexe que moi (bien que pas aussi belle).${prompt}
+  7196: E-enfin ! Tout ça était un accident. On ne peut pas blâmer quelqu’un pour quelque chose qu’il n’a pas voulu faire, même si ce quelque chose a fait tomber un gars amoureux de l’armure d’un autre.${prompt}
+  7197: Où pourrait-il être… ?${prompt}
+  7198: Peut-être que le bon vieux Kubhe le saura.${prompt}
+  7199: Je te l’ai déjà dit ! Tout était un accident. Si je pouvais revenir en arrière et tout changer, je le ferais, mais je ne peux pas, donc je ne le ferai pas !${prompt}
   7200: |-
-    Kubhe! Kubhe!
-    Have you seen Wahboud?${prompt}
-  7201: Can't say that I have. Did you check the market?${prompt}
+    Kubhe ! Kubhe !
+    As-tu vu Wahboud ?${prompt}
+  7201: Je ne peux pas dire que oui. As-tu vérifié au marché ?${prompt}
   7202: |-
-    Yeah... Twice.
-    Where could he have gone? I hope he isn't upset with me or anything...${prompt}
-  7203: Now that you mention it, I haven't seen him for a while, either. Usually he's around here lifting weights or doing pushups when he's not with you or Foudeel.${prompt}
-  7204: It's like... It's like he's been avoiding me...${prompt}
-  7205: (Upset...? Avoiding him...? What in Altana's name is going on here? Could it be that Bashraf... Naw, it couldn't be...could it?)${prompt}
-  7206: (Now why is he trying to hide from him?)${prompt}
-  7207: What does that Foudeel think he's doing, having tea with some stray adventurer?${prompt}
-  7208: What's ${choice-player-gender}[he/she] got that I don't? Certainly not the muscles!${prompt}
-  7209: (What the...? Don't tell me Wahboud has lost it as well!)${prompt}
-  7210: Foudeel!${prompt}
-  7211: Hey!
-  7212: Bashraf. I have been combing the Empire for you.${prompt}
-  7213: There is something that has been gnawing at my inner soul.${prompt}
-  7214: Your inner what?${prompt}
-  7215: (Uh-oh... Here it comes...)${prompt}
-  7216: Something that I have wanted to tell you for the longest time...${prompt}
-  7217: But Foudeel...${prompt}
-  7218: (Whoa, this is getting good!)${prompt}
-  7219: And I have finally realized what it was.${prompt}
-  7220: (Out with it, loverboy!)${prompt}
-  7221: Bashraf... I...${prompt}
-  7222: (Come on! More talking and less ellipsing!)${prompt}
-  7223: W-wait!${prompt}
-  7224: I can't let you do this.${prompt}
-  7225: (Yes you can! Yes you can!)${prompt}
-  7226: You see, Foudeel, there's something that I've been dying to tell Wahboud...${prompt}
-  7227: Wha--!?
-  7228: Huh?${prompt}
-  7229: Well, spill it, chap! If you have something to say, then say it. Don't leave us in suspense.${prompt}
-  7230: Yeah... Um... I was going to say...${prompt}
+    Oui… Deux fois.
+    Où a-t-il pu aller ? J’espère qu’il n’est pas fâché contre moi ou quoi que ce soit…${prompt}
+  7203: Maintenant que tu le mentionnes, je ne l’ai pas vu depuis un moment non plus. D’habitude, il est par ici à soulever des poids ou à faire des pompes quand il n’est pas avec toi ou Foudeel.${prompt}
+  7204: C’est comme… C’est comme s’il m’évitait…${prompt}
+  7205: (Fâché…? M’éviter…? Qu’est-ce qui se passe ici au nom d’Altana ? Pourrait-il s’agir de Bashraf… Non, ça ne peut pas être… si ?)${prompt}
+  7206: (Mais pourquoi essaie-t-il de lui échapper ?)${prompt}
+  7207: Qu’est-ce que ce Foudeel croit faire, en prenant le thé avec un aventurier errant ?${prompt}
+  7208: Qu’est-ce que ${choice-player-gender}[il/elle] a que je n’ai pas ? Certainement pas les muscles !${prompt}
+  7209: (Quoi, quoi…? Ne me dis pas que Wahboud a perdu la tête aussi !)${prompt}
+  7210: Foudeel !${prompt}
+  7211: Hé !
+  7212: Bashraf. Je parcours l’Empire à ta recherche.${prompt}
+  7213: Il y a quelque chose qui ronge mon âme intérieure.${prompt}
+  7214: Ton âme intérieure, quoi ?${prompt}
+  7215: (Oh oh… Ça arrive…)${prompt}
+  7216: Quelque chose que je veux te dire depuis longtemps…${prompt}
+  7217: Mais Foudeel…${prompt}
+  7218: (Wow, ça devient intéressant !)${prompt}
+  7219: Et j’ai enfin réalisé ce que c’était.${prompt}
+  7220: (Allez, dis-le, amoureux !)${prompt}
+  7221: Bashraf… Je…${prompt}
+  7222: (Allez ! Plus de paroles et moins de points de suspension !)${prompt}
+  7223: Attends !${prompt}
+  7224: Je ne peux pas te laisser faire ça.${prompt}
+  7225: (Oui tu peux ! Oui tu peux !)${prompt}
+  7226: Tu vois, Foudeel, il y a quelque chose que je meurs d’envie de dire à Wahboud…${prompt}
+  7227: Quoi–!?
+  7228: Hein ?${prompt}
+  7229: Allez, dis-le, mon vieux ! Si tu as quelque chose à dire, dis-le. Ne nous laisse pas dans le suspense.${prompt}
+  7230: Oui… Euh… Je voulais dire…${prompt}
   7231: '!${prompt}'
-  7232: Ummm...${prompt}
-  7233: (This halfwit's brain has gone and shriveled up to the size of a rolanberry!)${prompt}
-  7234: Oh well, I'm sure I'll remember later.${prompt}
-  7235: So, Foudeel, what was it you were dying to tell me?${prompt}
+  7232: Euh…${prompt}
+  7233: (Le cerveau de cet idiot s’est ratatiné à la taille d’une rolanberry !)${prompt}
+  7234: Bon, je suis sûr que je m’en souviendrai plus tard.${prompt}
+  7235: Alors, Foudeel, qu’étais-tu en train de mourir d’envie de me dire ?${prompt}
   7236: |-
-    Eh?
-    Why... It was... I...${prompt}
-  7237: That...that matter is no longer of any import.${prompt}
-  7238: Wahboud, did not you also have something you wished to say?${prompt}
-  7239: Me?${prompt}
-  7240: When did I say anything?${prompt}
-  7241: Wait a minute, what the heck are we doing here, anyway?${prompt}
-  7242: Absolutely. Whose idea was it to convene in this filthy corner?${prompt}
-  7243: Convene? What are you guys talking about?${prompt}
-  7244: What am I talking about? I'm talking about you wanting to go out and train all of a sudden. This all started with you, Bashraf.${prompt}
-  7245: Me wanting to train has nothing to do with us “convening” here!${prompt}
-  7246: I'm lost. One minute they'rrre about to step out of the proverbial wardrobe, and the next they're back to fighting like nothing happened.${prompt}
-  7247: Love potion!?${prompt}
-  7248: So I wasn't just imagining things!${prompt}
-  7249: I guess it wore off at just the rrright time, though. I don't want to even think of what might have happened if it hadn't! Okay, maybe I'll think about it a little... Heh heh heh...${prompt}
-  7250: But wait a minute... Didn't Tehf say that she only spilled the waterrr on Bashraf?${prompt}
-  7251: Then why would Foudeel and Washoud act as if they had--${prompt}
-  7252: Maybe the water splashed on all three... They werrre standing fairly close to each other.${prompt}
+    Hein ?
+    Pourquoi… C’était… Je…${prompt}
+  7237: Cette… cette affaire n’a plus d’importance maintenant.${prompt}
+  7238: Wahboud, n’avais-tu pas aussi quelque chose à dire ?${prompt}
+  7239: Moi ?${prompt}
+  7240: Quand ai-je dit quoi que ce soit ?${prompt}
+  7241: Attends une minute, mais qu’est-ce qu’on fait ici, de toute façon ?${prompt}
+  7242: Absolument. À qui a eu l’idée de se réunir dans ce coin crasseux ?${prompt}
+  7243: Se réunir ? De quoi parlez-vous, les gars ?${prompt}
+  7244: De quoi je parle ? Je parle de ton envie soudaine de t’entraîner. Tout ça a commencé avec toi, Bashraf.${prompt}
+  7245: Mon envie de m’entraîner n’a rien à voir avec notre « réunion » ici !${prompt}
+  7246: Je suis perdu. Une minute, ils allaient sortir du placard proverbial, et la suivante, ils se disputent comme si de rien n’était.${prompt}
+  7247: Potion d’amour !?${prompt}
+  7248: Alors je n’imaginais pas les choses !${prompt}
+  7249: Je suppose que ça s’est dissipé juste au bon moment, cependant. Je ne veux même pas penser à ce qui aurait pu se passer si ça n’avait pas été le cas ! Bon, peut-être que j’y penserai un peu… Heh heh heh…${prompt}
+  7250: Mais attends une minute… Tehf n’a-t-elle pas dit qu’elle n’avait renversé l’eau que sur Bashraf ?${prompt}
+  7251: Alors pourquoi Foudeel et Wahboud agissent-ils comme s’ils avaient–${prompt}
+  7252: Peut-être que l’eau a éclaboussé les trois… Ils étaient assez proches les uns des autres.${prompt}
   7253: |-
-    Yes! I think we've finally solved the mysterrry!
-    (But wait... Why were they standing so close to each other in the first place...?)${prompt}
-  7254: Anyway, I'm sorry you had to get involved in all that.${prompt}
-  7255: I said I'd owe you one. Here, take this and let's call it even, okay?${prompt}
-  7256: Oh! I remember ye! Those pictures of yers sure did take me back...${prompt}
-  7257: But after takin' a closer gander at that one from Caedarva, I spotted something a mite queer...${prompt}
-  7258: '''Twas a ghost, I tell ye! A specter! A spook, come from the depths of hell t'' drag back lost souls!${prompt}'
-  7259: At first, I was tremblin' in me britches, but after a while the whole situation gone got me excited. An' that's when I decided I'd try capturin' curious happenin's 'round the city.${prompt}
-  7260: This here place is brimmin' with strange folk come from all 'cross the globe. Didn't take more than two shakes of a colibri's tail before I had meself hundreds of pictures linin' me workshop.${prompt}
-  7261: Problem be, unlike scenery, dang people keep movin' all over the place. If they'd only go and stand still for a second, I wouldn't have a mountain of blurred shots.${prompt}
-  7262: 'But that wasn''t going t'' stop ol'' Balakaf! No siree! If me ${keyitem-singular: 0[2]} couldn''t cut the cake, then I''d just have t'' invent somethin'' that would!${prompt}'
-  7263: 'And that something would be this--me brand-fandangled ${keyitem-singular: 0[2]}!${prompt}'
-  7264: The photopticator can capture up to five whole seconds of movin' images on this thin strip of pliable film I synthesized.${prompt}
-  7265: But recently me rheumy's been actin' up and I can't hold the contraption still enough t' record anything legible.${prompt}
-  7266: And that's why I be needing yer help again, youngin'. Will ye help an old man like meself live out his final dream?${prompt}
-  7267: Ye did such a fine job with the still images, I'm downright positive ye'll have no problem with the “move-ys”!${prompt}
-  7268: Oh, I forgot t' tell ye...${prompt}
-  7269: Once ye've recorded the image onto the film, the gears inside go and reset t' their original position.${prompt}
-  7270: If ye try recordin' again, it'll erase what ye did before!${prompt}
-  7271: What I'm tryin' t' get at is, that once ye've found somethin' ye like, come back here before doin' anything else! Got it?${prompt}
-  7272: You seem the understanding type, my friend. Might you not listen to my humble plea?${prompt}
-  7273: It seems that there is a thief among my patrons, and his despicable deeds are driving all the poor lords and ladies from my act.${prompt}
-  7274: If the fiend isn't brought to justice, I may just have to pack up and move my show elsewhere...${prompt}
+    Oui ! Je crois qu’on a enfin résolu le mystère !
+    (Mais attends… Pourquoi étaient-ils si proches les uns des autres au départ… ?)${prompt}
+  7254: Bref, je suis désolé que tu aies dû te mêler de tout ça.${prompt}
+  7255: J’ai dit que je te devais une faveur. Tiens, prends ça et on est quittes, d’accord ?${prompt}
+  7256: Oh ! Je me souviens de toi ! Ces photos que tu m’as données m’ont vraiment ramené en arrière…${prompt}
+  7257: Mais en regardant de plus près celle de Caedarva, j’ai remarqué quelque chose de bizarre…${prompt}
+  7258: 'C’était un fantôme, je te dis ! Un spectre ! Un esprit sorti des profondeurs de l’enfer pour ramener des âmes perdues !${prompt}'
+  7259: Au début, j’étais tremblant dans mes bottes, mais avec le temps, toute cette histoire m’a excité. Et c’est là que j’ai décidé d’essayer de capturer des événements curieux autour de la ville.${prompt}
+  7260: Cet endroit est rempli de gens étranges venus de tous les coins du globe. Il n’a pas fallu plus de deux battements d’ailes d’un colibri pour que j’aie des centaines de photos alignées dans mon atelier.${prompt}
+  7261: Le problème, c’est que, contrairement aux paysages, ces maudits gens ne cessent de bouger partout. S’ils pouvaient rester immobiles une seconde, je n’aurais pas une montagne de photos floues.${prompt}
+  7262: 'Mais ça n’allait pas arrêter le vieux Balakaf ! Pas question ! Si mon ${keyitem-singular: 0[2]} ne pouvait pas couper la pâte, alors j’allais inventer quelque chose qui le ferait !${prompt}'
+  7263: 'Et ce quelque chose, c’est ça – mon tout nouveau ${keyitem-singular: 0[2]} !${prompt}'
+  7264: Le photoptricapturateur peut enregistrer jusqu’à cinq secondes d’images en mouvement sur cette fine bande de film flexible que j’ai synthétisée.${prompt}
+  7265: Mais récemment, mes rhumatismes me jouent des tours et je ne peux pas tenir l’appareil assez stable pour enregistrer quoi que ce soit de lisible.${prompt}
+  7266: Et c’est pourquoi j’ai besoin de ton aide à nouveau, jeune. Veux-tu aider un vieil homme comme moi à réaliser son dernier rêve ?${prompt}
+  7267: Tu as si bien réussi avec les images fixes, je suis sûr que tu n’auras aucun problème avec les « animées » !${prompt}
+  7268: Oh, j’ai oublié de te dire…${prompt}
+  7269: Une fois que tu as enregistré l’image sur le film, les engrenages à l’intérieur se remettent à leur position initiale.${prompt}
+  7270: Si tu essaies d’enregistrer à nouveau, ça effacera ce que tu as fait avant !${prompt}
+  7271: Ce que j’essaie de dire, c’est que, une fois que tu as trouvé quelque chose que tu aimes, reviens ici avant de faire quoi que ce soit d’autre ! Compris ?${prompt}
+  7272: Tu sembles être du genre compréhensif, mon ami. Ne voudrais-tu pas écouter mon humble requête ?${prompt}
+  7273: Il semble qu’il y ait un voleur parmi mes clients, et ses actes ignobles chassent tous les pauvres lords et ladies de mon spectacle.${prompt}
+  7274: Si ce scélérat n’est pas traduit en justice, je devrai peut-être plier bagage et déplacer mon spectacle ailleurs…${prompt}
   7275: |-
-    Begin recording?
+    Commencer l’enregistrement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7276: '${color-alt: 15}Now recording...'
-  7277: '${color-alt: 15}The photopticator goes silent.'
+    Oui.
+    Non.${prompt}
+  7276: '${color-alt: 15}Enregistrement en cours…'
+  7277: '${color-alt: 15}Le photoptricapturateur se tait.'
   7278: |-
-    Hm?
-    I could have sworn I felt something brush up against my vest...${prompt}
-  7279: My--my wallet is gone!${prompt}
-  7280: All of a sudden I feel a bit lightaru.${prompt}
-  7281: Waaaaahhh! My gil pouch has been stolen, and with it my life savings!${prompt}
-  7282: I can't get enough of this show! No matter how many times I see that adorable puppet pirouette, I always find myself coming back for more.${prompt}
-  7283: What is this? My wallet seems to have misplaced itself... Perhaps it stayed at home...${prompt}
-  7284: Just between you and me, do you feel that there may be something lacking from our fine establishment's cuisine?${prompt}
-  7285: I say the culprit is our limited selection of titillating ingredients from Aradjiah and beyond.${prompt}
-  7286: I say the culprit is our chef's refusal to step from the boundaries of traditional Aht Urhganian spices.${prompt}
-  7287: I hear the customers whisper, but I just cannot see the problem. We use only the finest ingredients....${prompt}
-  7288: 'Greetings, traveller! Have you heard of our ${color: 5}special of the day${color: 1}?${prompt}'
-  7289: Ratihb came up with the idea himself. However, because we only serve ten specials a day, we're sold out before the first customer even sits down.${prompt}
-  7290: I haven't even had the chance to try one...${prompt}
-  7291: Hmmm... What shall I use today?${prompt}
-  7292: Adventurer, I need your honest opinion.${prompt}
-  7293: I'm pondering over what to focus on in today's special. Which do you think is more important?${prompt}
+    Hm ?
+    J’aurais juré avoir senti quelque chose frôler mon gilet…${prompt}
+  7279: Mon–mon portefeuille a disparu !${prompt}
+  7280: Tout à coup, je me sens un peu légeraru.${prompt}
+  7281: Waaaaahhh ! Mon sac de gils a été volé, avec toutes mes économies !${prompt}
+  7282: Je ne me lasse pas de ce spectacle ! Peu importe combien de fois je vois cette adorable marionnette tourner, je reviens toujours pour en avoir plus.${prompt}
+  7283: Qu’est-ce que c’est ? Mon portefeuille semble s’être égaré… Peut-être l’ai-je laissé à la maison…${prompt}
+  7284: Entre toi et moi, ne trouves-tu pas qu’il manque quelque chose à la cuisine de notre bel établissement ?${prompt}
+  7285: Je dis que le coupable est notre sélection limitée d’ingrédients excitants d’Aradjiah et d’ailleurs.${prompt}
+  7286: Je dis que le coupable est le refus de notre chef de sortir des limites des épices traditionnelles d’Aht Urhgan.${prompt}
+  7287: J’entends les clients murmurer, mais je ne vois pas le problème. Nous n’utilisons que les meilleurs ingrédients…${prompt}
+  7288: 'Salutations, voyageur ! As-tu entendu parler de notre ${color: 5}spécialité du jour${color: 1} ?${prompt}'
+  7289: Ratihb a eu cette idée lui-même. Cependant, comme nous ne servons que dix spécialités par jour, elles sont vendues avant même que le premier client ne s’assoie.${prompt}
+  7290: Je n’ai même pas eu la chance d’en essayer une…${prompt}
+  7291: Hmm… Qu’est-ce que j’utiliserai aujourd’hui ?${prompt}
+  7292: Aventurier, j’ai besoin de ton avis honnête.${prompt}
+  7293: Je réfléchis à quoi me concentrer pour la spécialité du jour. Qu’est-ce qui te semble plus important ?${prompt}
   7294: |-
-    You should focus on...
+    Tu devrais te concentrer sur…
     ${selection-lines}
-    Ingredients.
-    Spices.
-    Water.
-    Asking someone else.${prompt}
-  7295: Now that you mention it, maybe my cooking has been a little lacking in that department.${prompt}
-  7296: Now let me get to work on the special...${prompt}
-  7297: Step right up! Today's special of the day is served!${prompt}
-  7298: And that was the last one! Today's special is sold out!${prompt}
-  7299: Did you happen to see a Qiqirn anywhere near Balrahn Way?${prompt}
-  7300: The past few weeks, one of those conniving rats has been coming around here playing tricks on me and my son.${prompt}
-  7301: It's hard enough for a single mother to put up with the antics of this little scamp without having to worry about any other vermin!${prompt}
-  7302: That Qiqirn ate one of my ginger cookies! If I get my hands on him...!${prompt}
-  7303: Have I seen a suspicious-looking Qiqirn around lately?${prompt}
-  7304: Now that you mention it, I thought I saw one hiding behind that pillar over therrre...${prompt}
-  7305: A soldier's body must be as seasoned as his mind. That is why I summon my unit here every day at noon to train.${prompt}
-  7306: However, the real reason we do our running here is so that the citizens can gain a sense of security, knowing that the Empire is constantly striving to protect them.${prompt}
-  7307: Recently, I've been worried with the pace at which my apothecary goes through its catalysts.${prompt}
-  7308: Perhaps I am simply so engrossed in my research that I fail to notice how much I use with each experimentation.${prompt}
-  7309: Our new apprentice has been acting quite strange lately. Every night, he leaves the laboratory for a few hours.${prompt}
-  7310: None of our suppliers are open, so he cannot be purchasing ingredients... I wonder what in Altana's name he could be up to.${prompt}
+    Les ingrédients.
+    Les épices.
+    L’eau.
+    Demander à quelqu’un d’autre.${prompt}
+  7295: Maintenant que tu le dis, peut-être que ma cuisine manque un peu dans ce domaine.${prompt}
+  7296: Maintenant, je vais me mettre au travail sur la spécialité…${prompt}
+  7297: Approchez-vous ! La spécialité du jour est servie !${prompt}
+  7298: Et c’était la dernière ! La spécialité du jour est épuisée !${prompt}
+  7299: As-tu vu un Qiqirn quelque part près de Balrahn Way ?${prompt}
+  7300: Ces dernières semaines, l’un de ces rats sournois est venu ici jouer des tours à moi et à mon fils.${prompt}
+  7301: C’est déjà assez dur pour une mère célibataire de supporter les bêtises de ce petit chenapan sans avoir à s’inquiéter d’autres vermines !${prompt}
+  7302: Ce Qiqirn a mangé un de mes biscuits au gingembre ! Si je mets la main sur lui… !${prompt}
+  7303: Ai-je vu un Qiqirn suspect dans les parages récemment ?${prompt}
+  7304: Maintenant que tu le mentionnes, j’ai cru en voir un se cacher derrière ce pilier là-bas…${prompt}
+  7305: Le corps d’un soldat doit être aussi entraîné que son esprit. C’est pourquoi je réunis mon unité ici tous les jours à midi pour s’entraîner.${prompt}
+  7306: Cependant, la vraie raison pour laquelle nous courons ici est de donner aux citoyens un sentiment de sécurité, sachant que l’Empire s’efforce constamment de les protéger.${prompt}
+  7307: Récemment, je m’inquiète du rythme auquel mon apothicaire consomme ses catalyseurs.${prompt}
+  7308: Peut-être suis-je tellement absorbé par mes recherches que je ne remarque pas combien j’en utilise à chaque expérimentation.${prompt}
+  7309: Notre nouvel apprenti agit de manière assez étrange lately. Chaque nuit, il quitte le laboratoire pendant quelques heures.${prompt}
+  7310: Aucun de nos fournisseurs n’est ouvert, donc il ne peut pas acheter d’ingrédients… Je me demande ce qu’il peut bien faire au nom d’Altana.${prompt}
   7311: |-
-    What do we have here...
-    This looks like ${choice: 0}[the puppetmaster's show/the Shararat Teahouse/Balrahn Way/the city guards/Philosopher's Alley]...but I don't see anything out of the ordinary.
-  7312: Sorry, ${name-player}, but ye'll have t' find me somethin' a little more stimulatin'.${prompt}
-  7313: The picture's so blurry, I can't tell what in tarnation's happenin'.
-  7314: Sorry, ${name-player}, but if what ye saw was really worth seein', ye'll have t' try recordin' it again.${prompt}
-  7315: Hold on there...!
-  7316: Looks like somethin' may be happenin', but me eyesight just ain't as good as it was back in the day. Sorry, ${name-player}, but if what ye saw was really worth seein', ye'll have t' try recordin' it again.${prompt}
+    Qu’avons-nous ici…
+    Ça ressemble à ${choice: 0}[le spectacle du marionnettiste/la Taverne Shararat/Balrahn Way/les gardes de la ville/la Ruelle des Philosophes]… mais je ne vois rien d’inhabituel.
+  7312: Désolé, ${name-player}, mais tu vas devoir me trouver quelque chose de plus stimulant.${prompt}
+  7313: L’image est si floue que je ne peux pas dire ce qui se passe, bon sang.
+  7314: Désolé, ${name-player}, mais si ce que tu as vu valait vraiment la peine d’être vu, tu vas devoir réessayer de l’enregistrer.${prompt}
+  7315: Attends un peu… !
+  7316: On dirait qu’il se passe quelque chose, mais ma vue n’est plus ce qu’elle était autrefois. Désolé, ${name-player}, mais si ce que tu as vu valait vraiment la peine d’être vu, tu vas devoir réessayer de l’enregistrer.${prompt}
   7317: '!?'
   7318: |-
-    Wait...
-    Somebody just swiped that person's wallet!
-  7319: Hm? The puppetmaster told you that if he keeps losin' customers, he'll have to pack up and leave town?${prompt}
-  7320: We can't let one scoundrel rob our city of its finest performer!${prompt}
-  7321: Maybe this evidence will help catch the thief... I'll take it down to Balrahn Way right after me breakfast.${prompt}
+    Attends…
+    Quelqu’un vient de voler le portefeuille de cette personne !
+  7319: Hm ? Le marionnettiste t’a dit que s’il continue à perdre des clients, il devra plier bagage et quitter la ville ?${prompt}
+  7320: On ne peut pas laisser un gredin voler à notre ville son meilleur artiste !${prompt}
+  7321: Peut-être que cette preuve aidera à attraper le voleur… Je l’apporterai à Balrahn Way juste après mon petit-déjeuner.${prompt}
   7322: |-
-    Wait...
-    That customer keeps linin' up to buy the special of the day!
-  7323: Why, just yesterday I went over to the teahouse t' get a tin of their tasty gruel, but they were all sold out...${prompt}
-  7324: And no wonder! That swine has an appetite bigger than me bunyans! I'll take this move-y over there and see what ol' Shararat has t' say 'bout it!${prompt}
+    Attends…
+    Ce client continue de faire la queue pour acheter la spécialité du jour !
+  7323: Eh bien, hier, je suis allé à la taverne pour prendre une boîte de leur délicieuse bouillie, mais ils étaient déjà en rupture de stock…${prompt}
+  7324: Et pas étonnant ! Ce porc a un appétit plus gros que mes oignons ! J’apporterai cette vidéo là-bas pour voir ce que le vieux Shararat en pense !${prompt}
   7325: |-
-    Wait...
-    That pesky li'l Qiqirn looks like he be runnin' from somethin'!
-  7326: Hm? Ye say that lady Mushayra's been havin' trouble with the pest down at her shop, but he always escapes into Balrahn Way before she can catch 'im?${prompt}
-  7327: 'That sounds like trouble a-brewin''... If the little rat were t'' get his claws on me ${keyitem-singular: 0[2]}, he might ruin all me work!${prompt}'
-  7328: But thanks t' yer investimigatin', we now know where he's hidin'. I'll take this over t' Mushayra's right away and sees if we can't get a search party goin'.${prompt}
+    Attends…
+    Ce petit Qiqirn agaçant semble fuir quelque chose !
+  7326: Hm ? Tu dis que la dame Mushayra a des problèmes avec ce pestiféré dans sa boutique, mais qu’il s’échappe toujours dans Balrahn Way avant qu’elle ne puisse l’attraper ?${prompt}
+  7327: 'Ça sent les ennuis… Si ce petit rat met la patte sur mon ${keyitem-singular: 0[2]}, il pourrait ruiner tout mon travail !${prompt}'
+  7328: Mais grâce à ton investigation, nous savons maintenant où il se cache. J’apporterai ça à Mushayra tout de suite pour voir si on ne peut pas organiser une battue.${prompt}
   7329: |-
-    Wait...
-    That youngin' at the end of the line just ducked off into a side alley!
-  7330: And these 'snappers are supposed t' be trainin' t' protect the city!${prompt}
-  7331: We can't have slackers like that runnin' free among the ranks of our good men and women. I'll take this evidence down t' Hishahma right after me supper.${prompt}
+    Attends…
+    Ce jeune à la fin de la file vient de s’éclipser dans une ruelle latérale !
+  7330: Et ces « soldats » sont censés s’entraîner pour protéger la ville !${prompt}
+  7331: On ne peut pas laisser des fainéants comme ça courir librement parmi nos bons hommes et femmes. J’apporterai cette preuve à Hishahma juste après mon dîner.${prompt}
   7332: |-
-    Wait...
-    It's kinda dark, but I think I sees some young fellers exchangin' packages... Whatever be wrong with that?
-  7333: Hm? Ye think the kid may be stealin' 'gredients from the apothecary and sellin' 'em on the black market!?${prompt}
-  7334: Well, then this here be the evidence the guild'll need t' bring that criminal t' justice! I'll take it over right after I finish me chai.${prompt}
-  7335: I must say, ${name-player}, ye sure have lived up t' me expectations.${prompt}
-  7336: I think we got something goin' here...${prompt}
-  7337: By recordin' pictures in me photopticator as evidence, maybe we can help more people in trouble!${prompt}
-  7338: You don't mind goin' out into town for a little more work now, do ye? I'd do it meself, but me rheumy's been actin' up again...${prompt}
+    Attends…
+    Il fait un peu sombre, mais je crois voir de jeunes gars échanger des paquets… Qu’est-ce qui cloche là-dedans ?
+  7333: Hm ? Tu penses que le gamin vole des ingrédients à l’apothicaire et les vend au marché noir !?${prompt}
+  7334: Eh bien, alors, ceci sera la preuve dont la guilde aura besoin pour traduire ce criminel en justice ! Je l’apporterai après avoir fini mon chai.${prompt}
+  7335: Je dois dire, ${name-player}, tu as vraiment tenu mes attentes.${prompt}
+  7336: Je pense qu’on tient quelque chose ici…${prompt}
+  7337: En enregistrant des images avec mon photoptricapturateur comme preuve, peut-être pouvons-nous aider plus de gens en difficulté !${prompt}
+  7338: Tu n’as pas d’objection à aller en ville pour un peu plus de travail maintenant, n’est-ce pas ? Je le ferais moi-même, mais mes rhumatismes me jouent encore des tours…${prompt}
   7339: |-
-    Oh, hold yer horses there.
-    Let me remove the film in the photopticator and replace it with a new one. Wouldn't want ye erasin' that fine move-y.${prompt}
-  7340: Alright! Good as new! Now get back out there and find me somethin' spiffy!${prompt}
-  7341: But me gut tells me there're still more goin' on out in the city...and that ye're going t' find it!${prompt}
-  7342: Did you hear the news, ${choice-player-gender}[fine sir/fine lady]? We finally caught the thief who was pilfering pennies from my patrons' pockets!${prompt}
+    Oh, attends un peu là.
+    Laisse-moi retirer le film du photoptricapturateur et le remplacer par un nouveau. On ne voudrait pas que tu effaces cette belle animée.${prompt}
+  7340: Voilà ! Comme neuf ! Maintenant, retourne là dehors et trouve-moi quelque chose de chouette !${prompt}
+  7341: Mais mon instinct me dit qu’il se passe encore plus de choses dans la ville… et que tu vas le découvrir !${prompt}
+  7342: As-tu entendu la nouvelle, ${choice-player-gender}[cher monsieur/chère dame] ? Nous avons enfin attrapé le voleur qui dérobait des pièces dans les poches de mes clients !${prompt}
   7343: |-
-    And all thanks to Petrino! It was she who cornered the fiend after we received a tip from a friendly old man!
-    Now the show can go on!${prompt}
-  7344: I'm sorry, ${choice-player-gender}[sir/ma'am], but if you came to purchase more than one of today's specials, you no longer can. One special per customer, please.${prompt}
-  7345: (Hopefully now this means I'll be able to finally buy myself one!)${prompt}
-  7346: Oh, remember that conniving Qiqirn I told you about the other day? Well, we finally caught him!${prompt}
-  7347: And does that take a load off my shoulders! Now if I could just figure out what to do with this bundle of trouble...${prompt}
-  7348: Every time Mom chased him, that Qiqirn would hide behind one of those huge poles down on Balrahn Way.${prompt}
-  7349: Then when he saw her coming, he'd just go around to the other side of the pole! But he wasn't expecting both me and my mom to come last time! Heh heh heh!${prompt}
-  7350: Now I don't have to worry about anybody eating my snacks! I wonder what Mom'll give me today!${prompt}
-  7351: The other day, I was informed by one of our citizens that a member of my unit was breaking ranks during our daily training exercises.${prompt}
-  7352: Until I was shown that strange moving picture, I had believed the private was one of my best cadets...${prompt}
-  7353: Now I know to think twice before letting my unit train alone. If it will help regain the trust of the citizens of Al Zahbi, then I will join my men in their exercises.${prompt}
-  7354: Just the other day, an old man with a strange mechanical contraption stopped by our guild.${prompt}
-  7355: He started going on about one of my apprentices stealing catalysts and secretly selling them on the black market. I was about to send for the authorities when he urged me to peer into his picture box.${prompt}
+    Et tout ça grâce à Petrino ! C’est elle qui a coincé le scélérat après qu’un vieil homme amical nous a donné un tuyau !
+    Maintenant, le spectacle peut continuer !${prompt}
+  7344: Je suis désolé, ${choice-player-gender}[monsieur/madame], mais si vous êtes venu pour acheter plus d’une spécialité du jour, ce n’est plus possible. Une spécialité par client, s’il vous plaît.${prompt}
+  7345: (J’espère que maintenant je vais enfin pouvoir m’en acheter une !)${prompt}
+  7346: Oh, tu te souviens de ce Qiqirn sournois dont je t’ai parlé l’autre jour ? Eh bien, nous l’avons enfin attrapé !${prompt}
+  7347: Et ça m’enlève un sacré poids des épaules ! Maintenant, si seulement je pouvais trouver quoi faire avec ce fauteur de troubles…${prompt}
+  7348: À chaque fois que Maman le poursuivait, ce Qiqirn se cachait derrière un de ces énormes poteaux sur Balrahn Way.${prompt}
+  7349: Puis, quand il la voyait arriver, il faisait le tour de l’autre côté du poteau ! Mais il ne s’attendait pas à ce que Maman et moi arrivions ensemble la dernière fois ! Heh heh heh !${prompt}
+  7350: Maintenant, je n’ai plus à m’inquiéter que quelqu’un mange mes collations ! Je me demande ce que Maman va me donner aujourd’hui !${prompt}
+  7351: L’autre jour, un de nos citoyens m’a informé qu’un membre de mon unité se détachait des rangs pendant nos entraînements quotidiens.${prompt}
+  7352: Jusqu’à ce qu’on me montre cette étrange image animée, j’avais cru que ce soldat était l’un de mes meilleurs cadets…${prompt}
+  7353: Maintenant, je sais qu’il faut réfléchir à deux fois avant de laisser mon unité s’entraîner seule. Si ça peut aider à regagner la confiance des citoyens d’Al Zahbi, alors je me joindrai à mes hommes dans leurs exercices.${prompt}
+  7354: L’autre jour, un vieil homme avec un étrange appareil mécanique s’est arrêté à notre guilde.${prompt}
+  7355: Il a commencé à parler d’un de mes apprenants qui volait des catalyseurs et les vendait secrètement sur le marché noir. J’étais sur le point d’appeler les autorités quand il m’a pressé de regarder dans sa boîte à images.${prompt}
   7356: |-
-    And that's when I saw the most amazing thing...
-    But I couldn't be sure if my student was stealing, or merely slipping away for a few hours every night to call upon a forbidden lover. So, I decided to follow him and see what was truly occurring.${prompt}
-  7357: And lo and behold, I spied my young boy handing a package of herbs to a man all dressed in black. That is when I stepped from the shadows and confronted them both!${prompt}
-  7358: But after hearing that the man in black was not a merchant, but simply a poor soul who had asked my boy to bring him medicine for his sick mother, I decided to let him go back to his home with the package...the payment of which, of course, will be coming out of my apprentice's pay!${prompt}
-  7359: ${name-player}! I've been waitin' fer ye.${prompt}
-  7360: Remember all them peoples we helped with me photopticator? Well, they just came by with a reward fer me services.${prompt}
-  7361: I never did think that this here box could actually be used t' help folk.${prompt}
-  7362: But ye know, it wasn't just me invention. Without you t' take them move-ys, those criminals and whatnot would still be roamin' the streets.${prompt}
-  7363: Make a darn good team, we do, but I can't keep askin' ye t' assist me in me hobbies. Yer an adventurer, and I knows yer itchin' t' get back out there and do some adventurin'.${prompt}
-  7364: 'And that''s why I''ve decided t'' go back t'' the drawin'' board and redesign me ${keyitem-singular: 0[2]} so that anybody can use ''er.${prompt}'
-  7365: But before ye go, I have just one more thing t' ask ye.${prompt}
-  7366: Oh, don't ye worry, it ain't nothin' too difficult.${prompt}
-  7367: When I finish me next invention, I'd like if you were the first t' test 'er out.${prompt}
-  7368: I don't think I could trust 'er in anybody else's hands.${prompt}
-  7369: Now, take this reward from the townsfolk. You earned it more than I did.${prompt}
-  7370: And here's a little somethin' from me, as well. Heh heh!${prompt}
-  7371: 'You receive ${article} ${item-article: 0[2]} from the Shararat Teahouse!${prompt}'
-  7372: 'You receive ${article} ${item-article: 0[2]} from Mushayra!${prompt}'
-  7373: 'You receive ${article} ${item-article: 0[2]} from Hishahma!${prompt}'
-  7374: 'You receive ${article} ${item-article: 0[2]} from Zyfhil!${prompt}'
-  7375: 'You receive ${article} ${item-article: 0[2]} from the Alchemists'' Guild!${prompt}'
-  7376: 'You receive ${article} ${item-article: 0[2]} from Balakaf!${prompt}'
-  7377: 'Thanks t'' ye, me ${keyitem-singular: 0[2]} was voted best invention of the week by the Al Zahbi board of inventors!${prompt}'
-  7378: Now, all I have t' do is fix 'er up so anybody can make their own move-ys!${prompt}
+    Et c’est là que j’ai vu la chose la plus incroyable…
+    Mais je ne pouvais pas être sûr si mon étudiant volait, ou s’il s’éclipsait juste quelques heures chaque nuit pour retrouver un amour interdit. Alors, j’ai décidé de le suivre pour voir ce qui se passait vraiment.${prompt}
+  7357: Et voilà, j’ai surpris mon jeune garçon en train de remettre un paquet d’herbes à un homme tout vêtu de noir. C’est alors que je suis sorti de l’ombre et les ai confrontés tous les deux !${prompt}
+  7358: Mais après avoir entendu que l’homme en noir n’était pas un marchand, mais simplement une âme en détresse qui avait demandé à mon garçon de lui apporter des médicaments pour sa mère malade, j’ai décidé de le laisser rentrer chez lui avec le paquet… le paiement, bien sûr, sera déduit du salaire de mon apprenant !${prompt}
+  7359: ${name-player} ! Je t’attendais.${prompt}
+  7360: Tu te souviens de toutes ces personnes qu’on a aidées avec mon photoptricapturateur ? Eh bien, elles viennent de passer avec une récompense pour mes services.${prompt}
+  7361: Je n’aurais jamais pensé que cette boîte pouvait vraiment servir à aider les gens.${prompt}
+  7362: Mais tu sais, ce n’était pas juste mon invention. Sans toi pour prendre ces animées, ces criminels et autres seraient encore en train de rôder dans les rues.${prompt}
+  7363: On forme une sacrée équipe, mais je ne peux pas continuer à te demander de m’aider dans mes hobbies. Tu es un aventurier, et je sais que tu as hâte de repartir à l’aventure.${prompt}
+  7364: 'Et c’est pourquoi j’ai décidé de retourner à ma planche à dessin et de redesigner mon ${keyitem-singular: 0[2]} pour que tout le monde puisse l’utiliser.${prompt}'
+  7365: Mais avant que tu partes, j’ai juste une dernière chose à te demander.${prompt}
+  7366: Oh, ne t’inquiète pas, ce n’est rien de trop compliqué.${prompt}
+  7367: Quand j’aurai fini ma prochaine invention, j’aimerais que tu sois le premier à l’essayer.${prompt}
+  7368: Je ne pense pas que je pourrais la confier à quelqu’un d’autre.${prompt}
+  7369: Maintenant, prends cette récompense des habitants. Tu l’as plus méritée que moi.${prompt}
+  7370: Et voici un petit quelque chose de ma part, aussi. Heh heh !${prompt}
+  7371: 'Tu reçois ${article} ${item-article: 0[2]} de la Taverne Shararat !${prompt}'
+  7372: 'Tu reçois ${article} ${item-article: 0[2]} de Mushayra !${prompt}'
+  7373: 'Tu reçois ${article} ${item-article: 0[2]} de Hishahma !${prompt}'
+  7374: 'Tu reçois ${article} ${item-article: 0[2]} de Zyfhil !${prompt}'
+  7375: 'Tu reçois ${article} ${item-article: 0[2]} de la Guilde des Alchimistes !${prompt}'
+  7376: 'Tu reçois ${article} ${item-article: 0[2]} de Balakaf !${prompt}'
+  7377: 'Grâce à toi, mon ${keyitem-singular: 0[2]} a été élu meilleure invention de la semaine par le conseil des inventeurs d’Al Zahbi !${prompt}'
+  7378: Maintenant, tout ce que j’ai à faire, c’est le réparer pour que tout le monde puisse faire ses propres animées !${prompt}
   7379: |-
-    View which scene?
+    Quelle scène veux-tu voir ?
     ${selection-lines}
-    A Pickpocket's Paradise.
-    Special of the Day.
-    Smells Like a Rat.
-    An Early Exit.
-    Strangers in the Night.${prompt}
+    Le Paradis des Pickpockets.
+    La Spécialité du Jour.
+    Ça Sent le Rat.
+    Une Sortie Précipitée.
+    Des Étrangers dans la Nuit.${prompt}
   7380: |-
-    View which recording?
+    Quel enregistrement veux-tu voir ?
     ${selection-lines}
-    The first.
-    The second through fourth.
-    The fifth.${prompt}
-  7381: Papa! We have to do something!${prompt}
-  7382: Silence! Do not speak to your father in such a way.${prompt}
-  7383: But he might be in big trouble! Someone has to help him!${prompt}
-  7384: There's nothing we can do about it. If I get involved, it'll just draw the Immortals' attention to me, and I'll never be able to do business in Al Zahbi again.${prompt}
-  7385: But still...${prompt}
-  7386: Stop your whining and help me with the shop!${prompt}
-  7387: What was all that about?${prompt}
+    Le premier.
+    Les deuxième à quatrième.
+    Le cinquième.${prompt}
+  7381: Papa ! Il faut qu’on fasse quelque chose !${prompt}
+  7382: Silence ! Ne parle pas à ton père de cette façon.${prompt}
+  7383: Mais il pourrait avoir de gros ennuis ! Quelqu’un doit l’aider !${prompt}
+  7384: On ne peut rien y faire. Si je m’en mêle, ça attirera l’attention des Immortels sur moi, et je ne pourrai plus jamais faire affaire à Al Zahbi.${prompt}
+  7385: Mais quand même…${prompt}
+  7386: Arrête de te plaindre et aide-moi avec la boutique !${prompt}
+  7387: De quoi s’agissait-il ?${prompt}
   7388: |-
-    Oh, I get it.
-    A moment ago, the Immortals came and arrested that guy's son, Mutihb.${prompt}
-  7389: He's suspected of having dealings with the corsairs...${prompt}
-  7390: The Immortals consider the corsairs their enemies.${prompt}
+    Oh, je comprends.
+    Il y a un instant, les Immortels sont venus et ont arrêté le fils de ce type, Mutihb.${prompt}
+  7389: Il est soupçonné d’avoir des relations avec les corsaires…${prompt}
+  7390: Les Immortels considèrent les corsaires comme leurs ennemis.${prompt}
   7391: |-
-    Just forget about it, already.
-    That brat would just cause trouble if he were still here, anyway.${prompt}
-  7392: Don't talk about Mutihb that way!${prompt}
-  7393: If you're not going to help him, then I will!${prompt}
-  7394: Sorry you had to see that.${prompt}
-  7395: Seeing as I'm always busy with the shop, that kid's grown closer to his older brother than he has to me.${prompt}
-  7396: But his brother Mutihb's such bad news, I always expected something like this to happen.${prompt}
-  7397: He doesn't want his ways to rub off on his younger brother, so he orders me to keep his vile business a secret.${prompt}
-  7398: Of course, that kind of craftiness is incomprehensible to a child.${prompt}
-  7399: What am I supposed to do with that boy? He won't be able to do anything by himself.${prompt}
-  7400: Sorry, ${choice-player-gender}[sir/ma'am], but I can't leave my shop. Do you think you could go check on Wasuhd for me?${prompt}
+    Oublie ça, c’est tout.
+    Ce gamin ne causerait que des problèmes s’il était encore ici, de toute façon.${prompt}
+  7392: Ne parle pas de Mutihb comme ça !${prompt}
+  7393: Si tu ne veux pas l’aider, eh bien, moi je le ferai !${prompt}
+  7394: Désolé que tu aies dû voir ça.${prompt}
+  7395: Comme je suis toujours occupé avec la boutique, ce gamin s’est rapproché de son grand frère plus que de moi.${prompt}
+  7396: Mais son frère Mutihb est une si mauvaise fréquentation, je m’attendais à ce que quelque chose comme ça arrive.${prompt}
+  7397: Il ne veut pas que ses mauvaises habitudes déteignent sur son petit frère, alors il m’ordonne de garder ses affaires louches secrètes.${prompt}
+  7398: Bien sûr, ce genre de ruse est incompréhensible pour un enfant.${prompt}
+  7399: Que suis-je censé faire avec ce garçon ? Il ne pourra rien faire tout seul.${prompt}
+  7400: Désolé, ${choice-player-gender}[monsieur/madame], mais je ne peux pas quitter ma boutique. Pourriez-vous aller vérifier comment va Wasuhd pour moi ?${prompt}
   7401: |-
-    You want to know about that kid?
-    He kept going on about some corsair...${prompt}
-  7402: What am I saying... Do you even know what a corsair is?${prompt}
+    Tu veux en savoir plus sur ce gamin ?
+    Il n’arrêtait pas de parler d’un corsaire…${prompt}
+  7402: Qu’est-ce que je raconte… Sais-tu seulement ce qu’est un corsaire ?${prompt}
   7403: |-
-    I know...
+    Je sais…
     ${selection-lines}
-    All about corsairs!
-    Absolutely nothing.${prompt}
+    Tout sur les corsaires !
+    Absolument rien.${prompt}
   7404: |-
-    I won't have to waste my breath, then.
-    Those forsaken corsairs are the cause of all my headaches...${prompt}
-  7405: Well, I suppose that makes sense. Your run-of-the-mill adventurer doesn't get much chance to rub shoulders with that lot.${prompt}
-  7406: The corsairs are a bunch of miscreants who have been marauding around this area.${prompt}
-  7407: Wh-what's that!?${prompt}
-  7408: What the hell is going on?${prompt}
-  7409: Ugh...${prompt}
-  7410: Damn corsairs!${prompt}
-  7411: Mutihb!${prompt}
-  7412: Let's get outta here!${prompt}
-  7413: We won't let you escape! After them!${prompt}
-  7414: Way to make an entrance, Immortals.${prompt}
-  7415: While we'd love to stay and keep you company, I'm afraid we've got some business to take care of. If you'll excuse us...${prompt}
-  7416: Regroup on the wing of the Seagull!
-  7417: Damn Qultada and his Seagull Phratrie... ${prompt}
-  7418: I apologize, Sir Yazquhl...${prompt}
-  7419: Don't just stand there! After them, before they go too far!${prompt}
-  7420: Yes, sir!${prompt}
-  7421: Thanks for helping out with Wasuhd earlier.${prompt}
-  7422: I don't know what you did, but he's been a great kid lately.${prompt}
-  7423: He's even been helping out with the shop...${prompt}
-  7424: Anyway, I'm sure something good must have happened.${prompt}
-  7425: Odds again... I win.${prompt}
-  7426: I'm starting to hate this game...${prompt}
+    Je n’aurai pas à gaspiller ma salive, alors.
+    Ces maudits corsaires sont la cause de tous mes maux de tête…${prompt}
+  7405: Eh bien, je suppose que c’est logique. Un aventurier ordinaire n’a pas souvent l’occasion de côtoyer ce genre de personnes.${prompt}
+  7406: Les corsaires sont une bande de vauriens qui pillent dans cette région.${prompt}
+  7407: Qu-qu’est-ce que c’est !?${prompt}
+  7408: Qu’est-ce qui se passe, bon sang ?${prompt}
+  7409: Ugh…${prompt}
+  7410: Maudits corsaires !${prompt}
+  7411: Mutihb !${prompt}
+  7412: Fichons le camp d’ici !${prompt}
+  7413: On ne vous laissera pas vous échapper ! Après eux !${prompt}
+  7414: Belle entrée en scène, les Immortels.${prompt}
+  7415: Bien que nous aimerions rester pour vous tenir compagnie, j’ai bien peur que nous ayons des affaires à régler. Si vous voulez bien nous excuser…${prompt}
+  7416: Regroupez-vous sur l’aile du Goéland !
+  7417: Ce maudit Qultada et sa Fratrie du Goéland…${prompt}
+  7418: Je m’excuse, Seigneur Yazquhl…${prompt}
+  7419: Ne restez pas là ! Poursuivez-les avant qu’ils ne s’éloignent trop !${prompt}
+  7420: Oui, seigneur !${prompt}
+  7421: Merci d’avoir aidé avec Wasuhd plus tôt.${prompt}
+  7422: Je ne sais pas ce que tu as fait, mais il est devenu un enfant formidable récemment.${prompt}
+  7423: Il aide même à la boutique maintenant…${prompt}
+  7424: Bref, je suis sûr que quelque chose de bien a dû se passer.${prompt}
+  7425: Impair encore… J’ai gagné.${prompt}
+  7426: Je commence à détester ce jeu…${prompt}
   7427: |-
-    That's enough for now.
-    You just don't have any luck.${prompt}
-  7428: Just one more time! All I need is one more chance!${prompt}
+    Ça suffit pour l’instant.
+    Tu n’as vraiment pas de chance.${prompt}
+  7428: Juste une fois de plus ! J’ai juste besoin d’une chance de plus !${prompt}
   7429: |-
-    Give it up, already.
-    I have no intention of taking the shirt off your very back.${prompt}
-  7430: Anyway, I've gotta go.${prompt}
-  7431: If we ever happen to meet again, we can go another round.${prompt}
-  7432: See you later!${prompt}
-  7433: What's your problem?${prompt}
-  7434: So you think it's funny, do ya?${prompt}
-  7435: Nah. I was just impressed.${prompt}
-  7436: Impressed? By what?${prompt}
+    Abandonne, voyons.
+    Je n’ai pas l’intention de prendre jusqu’à la chemise sur ton dos.${prompt}
+  7430: Bref, je dois y aller.${prompt}
+  7431: Si on se recroise un jour, on pourra refaire une partie.${prompt}
+  7432: À plus tard !${prompt}
+  7433: Quel est ton problème ?${prompt}
+  7434: Alors tu trouves ça drôle, hein ?${prompt}
+  7435: Non. J’étais juste impressionné.${prompt}
+  7436: Impressionné ? Par quoi ?${prompt}
   7437: |-
-    You don't know?
-    That girl's name is Yadhiwa, and she's pretty well known around here.${prompt}
-  7438: Yadhiwa?${prompt}
-  7439: Goodness, it looks like you really didn't know... Sorry, but she really swindled you.${prompt}
-  7440: What? You mean she was cheating!?${prompt}
-  7441: Oh, yes. She's very good at it. It was the first time I'd ever seen her do it, and I was quite impressed.${prompt}
-  7442: Of course, that means amateurs like you get the short end of the stick.${prompt}
-  7443: I'm gonna wring her neck...${prompt}
-  7444: Hey hey, calm down. Anyway, it's partly your fault for not seeing through her devices.${prompt}
-  7445: Ugh...${prompt}
-  7446: Hey, adventurer!${prompt}
-  7447: Get that girl back here for me. She can't have gone far yet.${prompt}
-  7448: I can't believe I let her cheat me out of that much gold...${prompt}
-  7449: I will reward you. Please help me!${prompt}
-  7450: You're back!${prompt}
-  7451: And you got my gold back, too! Thank you!${prompt}
-  7452: From now on, I'm going to earn money the good old-fashioned way! No more betting for me!${prompt}
-  7453: Hah, we'll see about that.${prompt}
-  7454: Anyway, did you figure out where Yadhiwa headed off to?${prompt}
-  7455: West? That's too bad... I was looking forward to seeing more of her amazing work.${prompt}
-  7456: Tales of her earning ten million gil in one night have become legend in this town by now.${prompt}
-  7457: I hope she comes back someday.${prompt}
-  7458: Hey, there's something extra in this bag...${prompt}
-  7459: I don't need this. I want nothing more to do with that fraud.${prompt}
-  7460: Maybe Yadhiwa intended to give it to you...${prompt}
+    Tu ne sais pas ?
+    Cette fille s’appelle Yadhiwa, et elle est assez connue par ici.${prompt}
+  7438: Yadhiwa ?${prompt}
+  7439: Mon dieu, on dirait que tu ne savais vraiment pas… Désolé, mais elle t’a vraiment arnaqué.${prompt}
+  7440: Quoi ? Tu veux dire qu’elle a triché !?${prompt}
+  7441: Oh oui. Elle est très douée pour ça. C’était la première fois que je la voyais faire, et j’étais assez impressionné.${prompt}
+  7442: Bien sûr, cela signifie que des amateurs comme toi se retrouvent avec le mauvais bout du bâton.${prompt}
+  7443: Je vais lui tordre le cou…${prompt}
+  7444: Hé hé, calme-toi. De toute façon, c’est en partie ta faute de ne pas avoir vu clair dans ses manigances.${prompt}
+  7445: Ugh…${prompt}
+  7446: Hé, aventurier !${prompt}
+  7447: Ramène-moi cette fille. Elle ne peut pas être bien loin encore.${prompt}
+  7448: Je n’arrive pas à croire qu’elle m’ait escroqué autant d’or…${prompt}
+  7449: Je te récompenserai. S’il te plaît, aide-moi !${prompt}
+  7450: Te voilà de retour !${prompt}
+  7451: Et tu as récupéré mon or aussi ! Merci !${prompt}
+  7452: À partir de maintenant, je vais gagner de l’argent à l’ancienne ! Plus de paris pour moi !${prompt}
+  7453: Hah, on verra bien.${prompt}
+  7454: Au fait, as-tu découvert où Yadhiwa est partie ?${prompt}
+  7455: À l’ouest ? C’est dommage… J’avais hâte de voir plus de son incroyable travail.${prompt}
+  7456: Les histoires de ses gains de dix millions de gils en une nuit sont devenues légendaires dans cette ville maintenant.${prompt}
+  7457: J’espère qu’elle reviendra un jour.${prompt}
+  7458: Hé, il y a quelque chose en plus dans ce sac…${prompt}
+  7459: Je n’en ai pas besoin. Je ne veux plus rien avoir à faire avec cette fraudeuse.${prompt}
+  7460: Peut-être que Yadhiwa avait l’intention de te le donner…${prompt}
   7461: |-
-    Oh, hello.
-    Balajaha told me to give this to you the next time I saw you.${prompt}
-  7462: Welcome to Shararat Teahouse! Relax and forget your troubles over a soothing cup of chai!${prompt}
-  7463: Yooo want info? Nice info?${prompt}
-  7464: “Clink clink”? Yooo know “clink clink”?${prompt}
-  7465: Hundred tens? Ten hundreds? Yooo have?${prompt}
+    Oh, bonjour.
+    Balajaha m’a dit de te donner ça la prochaine fois que je te verrai.${prompt}
+  7462: Bienvenue à la Taverne Shararat ! Détends-toi et oublie tes soucis autour d’une tasse de chai apaisante !${prompt}
+  7463: Toi vouloir info ? Bonne info ?${prompt}
+  7464: « Clink clink » ? Toi connaître « clink clink » ?${prompt}
+  7465: Cent dizaines ? Dix centaines ? Toi avoir ?${prompt}
   7466: |-
-    Cacaroon so happy!
-    Yooo loooking for Twooo Hooorn, ya?${prompt}
-  7467: Oooh?${prompt}
-  7468: Cacaroon adore Twooo Hooorn.${prompt}
-  7469: Two Hooorn fight for little guy. Do yooo know Two Horn only booolly big mean guy?${prompt}
-  7470: Sometimes powerfoool people pooosh Cacaroon around because of Qiqirn loooks, ya?${prompt}
-  7471: Twooo Hooorn fight croool ones for us, yooo see?${prompt}
-  7472: Nobody know who Two Horn is. Maybe Cacaroon tooo?${prompt}
-  7473: But do not ask too many questions, or Two Horn may come after yooo.${prompt}
-  7474: Spoooky, ya?${prompt}
-  7475: Hmmm...${prompt}
-  7476: Loooking Cacaroon's way?${prompt}
-  7477: Hmmmmmmm...${prompt}
-  7478: Poooor Cacaroon. Even though infooormation center, Cacaroon know nothing! If yooo want help, yooo must dooo self. So sooorry.${prompt}
-  7479: I heardy-weard! You were talky-walking about Two Horn!${prompt}
+    Cacaroon si heureux !
+    Toi chercher Deux-Cornes, oui ?${prompt}
+  7467: Oooh ?${prompt}
+  7468: Cacaroon adorer Deux-Cornes.${prompt}
+  7469: Deux-Cornes se battre pour petits. Toi savoir que Deux-Cornes seulement embêter gros méchants ?${prompt}
+  7470: Parfois gens puissants pousser Cacaroon à cause de l’apparence Qiqirn, oui ?${prompt}
+  7471: Deux-Cornes combattre méchants pour nous, tu vois ?${prompt}
+  7472: Personne savoir qui est Deux-Cornes. Peut-être Cacaroon aussi ?${prompt}
+  7473: Mais pas poser trop questions, sinon Deux-Cornes peut-être venir après toi.${prompt}
+  7474: Effrayant, oui ?${prompt}
+  7475: Hmmm…${prompt}
+  7476: Regarder Cacaroon ?${prompt}
+  7477: Hmmmmmmm…${prompt}
+  7478: Pauvre Cacaroon. Même si centre d’information, Cacaroon savoir rien ! Si toi vouloir aide, toi devoir faire toi-même. Très désolé.${prompt}
+  7479: J’ai entendu-parlé ! Toi parler-marcher de Deux-Cornes !${prompt}
   7480: Uh-oooh.${prompt}
-  7481: Heh heh! I also happy-wappen to be on orders by the Empire to looky-wook for Two Horn. Would you likey-wike to help me investigate?${prompt}
-  7482: I don't know what kindy-wind of monster it was that made cornstarch out of the guardy-wards, but the two of us working together could find out the facts, no probly-woblem!${prompt}
+  7481: Hé hé ! Moi aussi contente-tente d’être en mission pour l’Empire pour chercher-regarder Deux-Cornes. Toi vouloir-aider à enquêter avec moi ?${prompt}
+  7482: Moi pas savoir quel genre de monstre a fait de la fécule des gardes-gardes, mais nous deux ensemble pouvoir trouver les faits, pas de prob-problème !${prompt}
   7483: |-
-    Help her investigate?
+    L’aider à enquêter ?
     ${selection-lines}
-    Sure, why not?
-    Nah, don't want to.${prompt}
-  7484: H-how could you? You don't wanna work with a Tarutaru girly-wirl 'cause you think I'm weak? That's discrimination!${prompt}
-  7485: That's the spiry-wirit! Two makes company!${prompt}
-  7486: Aren't you thrilly-willed to work with such a cutesy-wutesy girl?${prompt}
-  7487: Do yooo know what yooo are getting intooo? Cacaroon would refooose if Cacaroon were yooo...${prompt}
-  7488: You shut your snouty-wout before I clamp your jaws together permy-wermanently with animal glue!${prompt}
+    Bien sûr, pourquoi pas ?
+    Non, pas envie.${prompt}
+  7484: C-comment peux-tu ? Toi pas vouloir travailler avec une fille Tarutaru parce que toi penser moi faible ? C’est de la discrimination !${prompt}
+  7485: Voilà l’esprit-rit ! Deux, ça fait une équipe !${prompt}
+  7486: Pas excitée-cité de travailler avec une fille si mignonne-mignonne ?${prompt}
+  7487: Toi savoir dans quoi toi t’embarquer ? Cacaroon refuserait si Cacaroon était toi…${prompt}
+  7488: Toi fermer ton museau-museau avant que moi cloue tes mâchoires ensemble pour toujours-fois avec de la colle animale !${prompt}
   7489: |-
-    Well then, shall we be off?
-    Destination: Mamook!${prompt}
-  7490: Hello, ${choice-player-gender}[sir/ma'am]! It's good to see you again.${prompt}
-  7491: It would seem my son has something to tell you. He's been waiting...${prompt}
-  7492: There you are! Hey, over here!${prompt}
-  7493: Nobody's looking, are they? Great.${prompt}
-  7494: A member of the Seagull Phratrie came to me in disguise and left this wicked-looking gun with me. I'm supposed to give it to you.${prompt}
-  7495: Don't worry about the price. He said it was a gift from Qultada.${prompt}
-  7496: Boy, how I envy you...${prompt}
-  7497: I don't know what you did for this, but to get something like this from Qultada himself, it must have been great!${prompt}
-  7498: But he gave me the most important job of all...he said so himself! That means Qultada still trusts me more than you!${prompt}
-  7499: ${name-player}... It's me.${prompt}
-  7500: The Empire knows my face, so I had to come in disguise.${prompt}
-  7501: It is time to go now. Are you ready?${prompt}
-  7502: Where are we going? I can think of several places they might be...${prompt}
-  7503: We don't have time for this.${prompt}
-  7504: I know Imutira.${prompt}
-  7505: She burns with a desire for revenge. I am sure she will try to put Qultada through the same thing she went through.${prompt}
-  7506: What does she plan to do to him?${prompt}
-  7507: Throw him overboard, of course.${prompt}
-  7508: There is a dock on Arrapago Reef.${prompt}
-  7509: I would wager that that is where she is taking him.${prompt}
-  7510: Hey, wait up!${prompt}
-  7511: Well hello, Wasuhd. Have you been helping your father like a good boy?${prompt}
-  7512: Is it true that Qultada is going to be executed? I heard some people talking at the teahouse...${prompt}
-  7513: '...${prompt}'
-  7514: Don't worry. Leave everything to us.${prompt}
-  7515: Make some chai for us so we can relax when we get back, okay?${prompt}
-  7516: '...Okay. Got it.${prompt}'
-  7517: This is for you. You will need it to get on the ship.${prompt}
-  7518: If you happen to lose it, ask Wasuhd for another. I will leave a spare with him.${prompt}
-  7519: Let us go, ${name-player}.${prompt}
-  7520: 'You don''t have the ${keyitem-singular: 1[2]} anymore? How could you lose something like that?${prompt}'
-  7521: Take this and go to Qultada! Hurry!${prompt}
-  7522: Welcome to Shararat Teahouse! Revitalize your mind and body with a refreshing cup of chai!${prompt}
+    Eh bien, partons-nous ?
+    Destination : Mamook !${prompt}
+  7490: Bonjour, ${choice-player-gender}[monsieur/madame] ! Ravi de vous revoir.${prompt}
+  7491: Il semble que mon fils ait quelque chose à vous dire. Il vous attend…${prompt}
+  7492: Te voilà ! Hé, par ici !${prompt}
+  7493: Personne ne regarde, n’est-ce pas ? Parfait.${prompt}
+  7494: Un membre de la Fratrie du Goéland est venu me voir déguisé et m’a laissé ce pistolet à l’air menaçant. Je suis censé vous le donner.${prompt}
+  7495: Ne vous inquiétez pas pour le prix. Il a dit que c’était un cadeau de Qultada.${prompt}
+  7496: Wow, comme je t’envie…${prompt}
+  7497: Je ne sais pas ce que tu as fait pour ça, mais recevoir quelque chose comme ça de Qultada en personne, ça doit être énorme !${prompt}
+  7498: Mais il m’a donné la mission la plus importante de toutes… il l’a dit lui-même ! Ça veut dire que Qultada me fait encore plus confiance qu’à toi !${prompt}
+  7499: ${name-player}… C’est moi.${prompt}
+  7500: L’Empire connaît mon visage, alors j’ai dû venir déguisé.${prompt}
+  7501: Il est temps de partir maintenant. Es-tu prêt ?${prompt}
+  7502: Où allons-nous ? Je peux penser à plusieurs endroits où ils pourraient être…${prompt}
+  7503: Nous n’avons pas le temps pour ça.${prompt}
+  7504: Je connais Imutira.${prompt}
+  7505: Elle brûle d’un désir de vengeance. Je suis sûr qu’elle essayera de faire subir à Qultada la même chose qu’elle a endurée.${prompt}
+  7506: Que compte-t-elle lui faire ?${prompt}
+  7507: Le jeter par-dessus bord, bien sûr.${prompt}
+  7508: Il y a un quai sur le Récif d’Arrapago.${prompt}
+  7509: Je parierais que c’est là qu’elle l’emmène.${prompt}
+  7510: Hé, attends-moi !${prompt}
+  7511: Eh bien, bonjour Wasuhd. As-tu aidé ton père comme un bon garçon ?${prompt}
+  7512: Est-il vrai que Qultada va être exécuté ? J’ai entendu des gens en parler à la taverne…${prompt}
+  7513: '…${prompt}'
+  7514: Ne t’inquiète pas. Laisse tout à nous.${prompt}
+  7515: Prépare-nous du chai pour qu’on puisse se détendre à notre retour, d’accord ?${prompt}
+  7516: '…D’accord. Compris.${prompt}'
+  7517: Ceci est pour toi. Tu en auras besoin pour monter sur le bateau.${prompt}
+  7518: Si tu le perds, demande à Wasuhd un autre. Je lui laisserai un de rechange.${prompt}
+  7519: Allons-y, ${name-player}.${prompt}
+  7520: 'Tu n’as plus le ${keyitem-singular: 1[2]} ? Comment as-tu pu perdre une chose pareille ?${prompt}'
+  7521: Prends ça et va à Qultada ! Dépêche-toi !${prompt}
+  7522: Bienvenue à la Taverne Shararat ! Revitalisez votre esprit et votre corps avec une tasse de chai rafraîchissante !${prompt}
   7523: |-
-    I don't know what's gotten into Wasuhd.
-    Sorry for the trouble, but I would appreciate it if you would check on him for me.${prompt}
-  7524: Excooose me...${prompt}
+    Je ne sais pas ce qui arrive à Wasuhd.
+    Désolé pour le dérangement, mais j’apprécierais que tu ailles voir comment il va pour moi.${prompt}
+  7524: Excooosez-moi…${prompt}
   7525: |-
-    Yes?
-    ...And who might you be?${prompt}
-  7526: Am called Liliroon...${prompt}
-  7527: This famooos detective agency, no?${prompt}
-  7528: This place so different from long ago, Liliroon did not knooow.${prompt}
-  7529: May speak to yooor boss?${prompt}
+    Oui ?
+    …Et qui êtes-vous ?${prompt}
+  7526: Je m’appelle Liliroon…${prompt}
+  7527: Cette agence de détectives célèbre, non ?${prompt}
+  7528: Cet endroit si différent d’il y a longtemps, Liliroon ne savait pas.${prompt}
+  7529: Puis-je parler à votre chef ?${prompt}
   7530: |-
-    Eh?
-    Something 'bout a detective agency?${prompt}
-  7531: Ya got anything between those pointy ears of yours?${prompt}
-  7532: You've got the fortune to be standin' in the enlightened and noble company of Salaheem's Sentinels, rrright hand of the Empress!${prompt}
-  7533: Liliroon has request tooo make.${prompt}
-  7534: This place help people in trouble, no?${prompt}
-  7535: Look, I've been telling ya...${prompt}
-  7536: Of course, Liliroon bring lots and lots of karakul wagons for yooo later.${prompt}
+    Hein ?
+    Quelque chose à propos d’une agence de détectives ?${prompt}
+  7531: Tu as quelque chose entre ces oreilles pointues ou quoi ?${prompt}
+  7532: Tu as la chance de te tenir en compagnie éclairée et noble des Sentinelles de Salaheem, main droite de l’Impératrice !${prompt}
+  7533: Liliroon a une demande à faire.${prompt}
+  7534: Cet endroit aide les gens en difficulté, non ?${prompt}
+  7535: Écoute, je te l’ai dit…${prompt}
+  7536: Bien sûr, Liliroon apportera plein de chariots de karakul plus tard pour vous.${prompt}
   7537: '!${prompt}'
-  7538: You'll give me karakul wagons? Lots and lots of 'em?${prompt}
-  7539: It trooo.${prompt}
-  7540: Ah...${prompt}
-  7541: Just leave it to us! Our detective agency will...${prompt}
-  7542: Um, I am afraid that you are mistaken. You see, we are actually a mercenary company. Our job is to carry out the will of the Empress.${prompt}
-  7543: I am terribly sorry, but we cannot accept requests from the city's general popu--${prompt}
-  7544: Urk!${prompt}
-  7545: Ahem... Where was I again?${prompt}
-  7546: Oh yes. Our detective agency will...${prompt}
-  7547: '...Abquhbah!${prompt}'
-  7548: Y-yes, ma'am!${prompt}
-  7549: '...Wh-what is it?${prompt}'
-  7550: Prepare to recite our company motto and the promise we give to our valued customers!${prompt}
+  7538: Tu vas me donner des chariots de karakul ? Plein et encore plein ?${prompt}
+  7539: C’est vrai.${prompt}
+  7540: Ah…${prompt}
+  7541: Laissez ça à nous ! Notre agence de détectives va…${prompt}
+  7542: Euh, j’ai bien peur que vous vous trompiez. Voyez-vous, nous sommes en réalité une compagnie de mercenaires. Notre travail est d’exécuter la volonté de l’Impératrice.${prompt}
+  7543: Je suis terriblement désolé, mais nous ne pouvons pas accepter de demandes du grand public de la ville–${prompt}
+  7544: Urk !${prompt}
+  7545: Hem… Où en étais-je encore ?${prompt}
+  7546: Oh oui. Notre agence de détectives va…${prompt}
+  7547: '…Abquhbah !${prompt}'
+  7548: O-oui, madame !${prompt}
+  7549: '…Qu-qu’est-ce que c’est ?${prompt}'
+  7550: Prépare-toi à réciter notre devise d’entreprise et la promesse que nous faisons à nos précieux clients !${prompt}
   7551: |-
-    Um...ummm...
-    W-we feature speedy investigations and low prices! And of course, your personal information is safe with us!${prompt}
-  7552: Whatever your worry, our experienced and able staff will solve it!${prompt}
-  7553: Ain't it the truth.${prompt}
-  7554: Liliroon so glad to find someone reliable to help.${prompt}
-  7555: Now, whatever have you come to us for today, ma'am?${prompt}
-  7556: Liliroon is loooking for someone.${prompt}
-  7557: Actually, Liliroon is perfooom maker.${prompt}
+    Euh… euh…
+    N-nous offrons des enquêtes rapides et des prix bas ! Et bien sûr, vos informations personnelles sont en sécurité avec nous !${prompt}
+  7552: Quel que soit votre souci, notre personnel expérimenté et compétent le résoudra !${prompt}
+  7553: C’est bien vrai.${prompt}
+  7554: Liliroon est si contente d’avoir trouvé quelqu’un de fiable pour aider.${prompt}
+  7555: Alors, que venez-vous nous demander aujourd’hui, madame ?${prompt}
+  7556: Liliroon cherche quelqu’un.${prompt}
+  7557: En fait, Liliroon est fabriquante de perfooom.${prompt}
   7558: |-
-    Perfooom?
-    Ah, you mean to say that you'rrre a perfumier?${prompt}
-  7559: If that mean perfooom maker, that right. Liliroon make nice smell for nose. Can no see perfooom with eye.${prompt}
-  7560: Liliroon had to wooork very, very hard in beginning.${prompt}
-  7561: But Liliroon was able to make company, company that sell very nice perfooom.${prompt}
-  7562: Hm. How very interesting...${prompt}
-  7563: (Hey, could that be Vevuce? That's the brand that President Naja always wears when she's got to look her best!)${prompt}
-  7564: (I've heard that the head of the company and the most skilled perfumier was a Qiqirn...)${prompt}
-  7565: Rrreally!?${prompt}
+    Perfooom ?
+    Ah, vous voulez dire que vous êtes une parfumeuse ?${prompt}
+  7559: Si ça veut dire fabriquante de perfooom, c’est juste. Liliroon fait de belles odeurs pour le nez. On ne peut pas voir perfooom avec les yeux.${prompt}
+  7560: Liliroon a dû travailler très, très dur au début.${prompt}
+  7561: Mais Liliroon a pu créer une compagnie, une compagnie qui vend de très beaux perfoooms.${prompt}
+  7562: Hm. Comme c’est intéressant…${prompt}
+  7563: (Hé, pourrait-ce être Vevuce ? C’est la marque que la Présidente Naja porte quand elle doit être à son meilleur !)${prompt}
+  7564: (J’ai entendu dire que la dirigeante de la compagnie et la meilleure parfumeuse était une Qiqirn…)${prompt}
+  7565: Vraiment !?${prompt}
   7566: |-
-    Hm?
-    Yes, of course it trooo...${prompt}
-  7567: Ah, sorry 'bout that. Don't mind yourself with our little rrramblings. Go on with your story.${prompt}
-  7568: Well...there was someone whooo help Liliroon when just starting out... He is genius, a real gooorooo! Liliroon want thank that person.${prompt}
-  7569: A goo-what?${prompt}
-  7570: (...I think she said “guru”... Her teacher, maybe?)${prompt}
-  7571: It thanks to that person that even little Qiqirn are perfooom makers now, lots and lots of them!${prompt}
-  7572: But it been many years since Liliroon left here, yooo know?${prompt}
-  7573: Liliroon's gooorooo and Liliroon's friends...where cooould they be now?${prompt}
+    Hm ?
+    Oui, bien sûr que c’est vrai…${prompt}
+  7567: Ah, désolé pour ça. Ne fais pas attention à nos petits bavardages. Continue ton histoire.${prompt}
+  7568: Eh bien… il y avait quelqu’un qui a aidé Liliroon quand elle commençait… C’est un génie, un vrai goooroo ! Liliroon veut remercier cette personne.${prompt}
+  7569: Un goo-quoi ?${prompt}
+  7570: (…Je crois qu’elle a dit « guru »… Son professeur, peut-être ?)${prompt}
+  7571: C’est grâce à cette personne que même les petits Qiqirn sont des fabriquants de perfooom maintenant, plein et encore plein d’eux !${prompt}
+  7572: Mais ça fait beaucoup d’années depuis que Liliroon a quitté cet endroit, tu sais ?${prompt}
+  7573: Le goooroo de Liliroon et les amis de Liliroon… où pourraient-ils être maintenant ?${prompt}
   7574: |-
-    I see.
-    I think I've got a pretty good grrrasp of what you're asking for.${prompt}
-  7575: Now, we can't have just any chump dealin' with someone connected to the Empress...${prompt}
-  7576: Corporal ${name-player}!${prompt}
-  7577: Cooorporal?${prompt}
-  7578: Errr...I mean, Detective ${name-player}!${prompt}
-  7579: This is our top detective! ${choice-player-gender}[He's/She's] solved thousands of difficult cases!${prompt}
-  7580: ${choice-player-gender}[He'll/She'll] be your eyes, your ears, the lamp that lights your path! ${choice-player-gender}[He'll/She'll] find this person you're looking for!${prompt}
-  7581: You can use ${choice-player-gender}['im/'er] however ya see fit!${prompt}
-  7582: (And rrremember, ya better not let it spill that we're not a detective agency, got it!?)${prompt}
-  7583: (Or I'll hitch ya rrright up to the wagons with the karakuls!)${prompt}
-  7584: Well, go on and solve your case now, Detective ${name-player}! Off with ya!${prompt}
-  7585: Yooo probably need some kind of hint before start, right?${prompt}
-  7586: Yooo want know something about Liliroon's gooorooo?${prompt}
+    Je vois.
+    Je crois avoir bien compris ce que tu demandes.${prompt}
+  7575: Maintenant, on ne peut pas laisser n’importe quel incapable s’occuper de quelqu’un connecté à l’Impératrice…${prompt}
+  7576: Caporal ${name-player} !${prompt}
+  7577: Cooorporal ?${prompt}
+  7578: Euh… je veux dire, Détective ${name-player} !${prompt}
+  7579: Voici notre meilleur détective ! ${choice-player-gender}[Il/Elle] a résolu des milliers de cas difficiles !${prompt}
+  7580: ${choice-player-gender}[Il/Elle] sera tes yeux, tes oreilles, la lampe qui éclaire ton chemin ! ${choice-player-gender}[Il/Elle] trouvera cette personne que tu cherches !${prompt}
+  7581: Tu peux utiliser ${choice-player-gender}[lui/elle] comme tu veux !${prompt}
+  7582: (Et rrappelle-toi, tu ferais mieux de ne pas laisser échapper qu’on n’est pas une agence de détectives, compris !?)${prompt}
+  7583: (Ou je t’attellerai aux chariots avec les karakuls !)${prompt}
+  7584: Allez, va résoudre ton affaire maintenant, Détective ${name-player} ! Dépêche-toi !${prompt}
+  7585: Tu as probablement besoin d’un indice avant de commencer, non ?${prompt}
+  7586: Tu veux savoir quelque chose sur le goooroo de Liliroon ?${prompt}
   7587: |-
-    What yooo want to know?
+    Que veux-tu savoir ?
     ${selection-lines}
-    Looks.
-    Personality.
-    Scent.${prompt}
-  7588: He is Elvaan man. Maybe very old?${prompt}
-  7589: But very active for old man. Sometime hard to believe he so old.${prompt}
-  7590: He must have lots and lots of years nooow. Liliroon kind of wooorry...${prompt}
-  7591: Yooo want know what he doing now?${prompt}
-  7592: Probably doing research on very nice perfooom, no?${prompt}
-  7593: Very very very veeery!${prompt}
-  7594: Very strict person! Always get mad at pooor Liliroon.${prompt}
-  7595: Liliroon was not good perfooom maker, so heard angry voice much.${prompt}
-  7596: Liliroon have no parent, but think of him like father, yooo know?${prompt}
-  7597: That what fathers do, no? Strict with kid, right?${prompt}
-  7598: Oooh yes, his smell...${prompt}
-  7599: He always wooorking with perfoooms, so smell very nice, like flower.${prompt}
-  7600: When he walk, always follooow by scent trail.${prompt}
+    Son apparence.
+    Sa personnalité.
+    Son odeur.${prompt}
+  7588: C’est un homme Elvaan. Peut-être très vieux ?${prompt}
+  7589: Mais très actif pour un vieil homme. Parfois, dur de croire qu’il est si vieux.${prompt}
+  7590: Il doit avoir plein d’années maintenant. Liliroon un peu inquiète…${prompt}
+  7591: Tu veux savoir ce qu’il fait maintenant ?${prompt}
+  7592: Probablement faire des recherches sur un très beau perfooom, non ?${prompt}
+  7593: Très très très très !${prompt}
+  7594: Très strict ! Toujours en colère contre pauvre Liliroon.${prompt}
+  7595: Liliroon n’était pas bonne fabriquante de perfooom, alors a entendu voix en colère souvent.${prompt}
+  7596: Liliroon n’a pas de parents, mais pense à lui comme à un père, tu sais ?${prompt}
+  7597: C’est ce que font les pères, non ? Strict avec les enfants, pas vrai ?${prompt}
+  7598: Oooh oui, son odeur…${prompt}
+  7599: Il travaille toujours avec des perfoooms, alors sent très bon, comme une fleur.${prompt}
+  7600: Quand il marche, toujours suivi par une traînée de parfum.${prompt}
   7601: |-
-    Oh, yes!
-    Speaking of scent, this is perfooom he made.${prompt}
-  7602: '${color-alt: 208}The perfume has a very pleasant scent, like that of fresh flowers.${prompt}'
-  7603: Liliroon thought maybe if brought perfooom it help find him.${prompt}
-  7604: Hmmm...${prompt}
-  7605: If yooo smell this scent, yooo should follow it.${prompt}
-  7606: So, where should start, Detective?${prompt}
+    Oh, oui !
+    En parlant d’odeur, c’est un perfooom qu’il a fait.${prompt}
+  7602: '${color-alt: 208}Le parfum a une odeur très agréable, comme celle de fleurs fraîches.${prompt}'
+  7603: Liliroon pensait que si elle apportait perfooom, ça aiderait à le trouver.${prompt}
+  7604: Hmmm…${prompt}
+  7605: Si yooo sens cette odeur, yooo devrait la suivre.${prompt}
+  7606: Alors, par où commencer, Détective ?${prompt}
   7607: |-
-    Any idea...?
+    Une idée… ?
     ${selection-lines}
-    Balrahn Way?
-    Wajaom Woodlands?
-    Halvung?${prompt}
-  7608: Oooh, Liliroon was right. Detective always know best. Let go there!${prompt}
-  7609: Balrahn Way have so much peoples. Must also have much smells, right?${prompt}
-  7610: But Liliroon hear there are monsters there...${prompt}
-  7611: Monsters eat small peoples like me, no?${prompt}
-  7612: Maybe Liliroon wrong, but think Halvooong is capital for many monsters, no?${prompt}
-  7613: Gooorooo can do many great thing, but Liliroon no think he mooove to place with vicious monsters...${prompt}
+    Balrahn Way ?
+    Les Bois de Wajaom ?
+    Halvung ?${prompt}
+  7608: Oooh, Liliroon avait raison. Détective sait toujours mieux. Allons-y !${prompt}
+  7609: Balrahn Way a tellement de gens. Doit aussi avoir beaucoup d’odeurs, non ?${prompt}
+  7610: Mais Liliroon a entendu qu’il y a des monstres là…${prompt}
+  7611: Monstres mangent petits gens comme moi, non ?${prompt}
+  7612: Peut-être Liliroon se trompe, mais pense Halvooong est capitale de beaucoup de monstres, non ?${prompt}
+  7613: Gooorooo peut faire beaucoup de grandes choses, mais Liliroon ne pense pas qu’il déménage dans un endroit avec des monstres vicieux…${prompt}
   7614: |-
-    Oooh?
-    Liliroon get different feeling...oh well?${prompt}
-  7615: Hmmm?${prompt}
-  7616: Hm hmmm hmmmmmm?${prompt}
-  7617: There many smells here...could be his scent, or maybe not?${prompt}
-  7618: Hey, what're you doing over there? Hm? A Tarutaru...?${prompt}
-  7619: This person has his smell...hmmm?${prompt}
-  7620: Ah, a Qiqirn...${prompt}
-  7621: What's the matter?${prompt}
-  7622: Oh, Liliroon sorry...ummm...${prompt}
-  7623: Are you lost?${prompt}
-  7624: No! Of cooourse not. Liliroon is not child!${prompt}
-  7625: Sure, kid. That's what all children say.${prompt}
-  7626: Okay then, what is a “grownup” like you doing loitering around Balrahn Way? Or is it something you can't tell me here?${prompt}
-  7627: What that supposed mean? Yooo very roood!${prompt}
-  7628: If you're not guilty, then why are you getting so worked up?${prompt}
+    Oooh ?
+    Liliroon a un autre sentiment… oh bah ?${prompt}
+  7615: Hmmm ?${prompt}
+  7616: Hm hmm hmmmmmm ?${prompt}
+  7617: Il y a beaucoup d’odeurs ici… pourrait être son parfum, ou peut-être pas ?${prompt}
+  7618: Hé, qu’est-ce que tu fais là-bas ? Hm ? Un Tarutaru… ?${prompt}
+  7619: Cette personne a son odeur… hmmm ?${prompt}
+  7620: Ah, un Qiqirn…${prompt}
+  7621: Qu’est-ce qui ne va pas ?${prompt}
+  7622: Oh, Liliroon désolée… euh…${prompt}
+  7623: Tu es perdu ?${prompt}
+  7624: Non ! Bien cooours non. Liliroon pas enfant !${prompt}
+  7625: Bien sûr, gamin. C’est ce que disent tous les enfants.${prompt}
+  7626: D’accord alors, qu’est-ce qu’un « adulte » comme toi fait à traîner autour de Balrahn Way ? Ou est-ce quelque chose que tu ne peux pas me dire ici ?${prompt}
+  7627: Qu’est-ce que ça veut dire ? Yooo très roood !${prompt}
+  7628: Si tu n’as rien à te reprocher, pourquoi te mets-tu dans cet état ?${prompt}
   7629: |-
-    Very suspicious...
-    I'm going to have to bring you in for some questions, okay? Come along quietly, now...${prompt}
-  7630: Yooo making me very very mad! Want talk to yooo no more!${prompt}
-  7631: Hey! Come back here!
-  7632: Nooo!
-  7633: Aaah! Go away!${prompt}
-  7634: ${name-player}, help!${prompt}
+    Très suspect…
+    Je vais devoir t’emmener pour quelques questions, d’accord ? Viens tranquillement maintenant…${prompt}
+  7630: Yooo me rends très très en colère ! Veux plus parler à yooo !${prompt}
+  7631: Hé ! Reviens ici !
+  7632: Nooo !
+  7633: Aaaah ! Va-t’en !${prompt}
+  7634: ${name-player}, aide-moi !${prompt}
   7635: |-
-    What will you do?
+    Que vas-tu faire ?
     ${selection-lines}
-    Help her out.
-    Watch her run. Haha!${prompt}
+    L’aider.
+    La regarder courir. Haha !${prompt}
   7636: |-
-    ${name-player}!
-    Oooh please, ${name-player}!${prompt}
-  7637: ' What do you want? Don''t get in my way! This is none of your business.${prompt}'
-  7638: ' ...Wait. It was you she was asking for help a second ago, wasn''t it?${prompt}'
-  7639: Are you this child's guardian?${prompt}
-  7640: Well, then... I'll need to see some form of identification.${prompt}
+    ${name-player} !
+    Oooh s’il te plaît, ${name-player} !${prompt}
+  7637: 'Qu’est-ce que tu veux ? Ne te mets pas en travers ! Ça ne te regarde pas.${prompt}'
+  7638: '…Attends. C’était à toi qu’elle demandait de l’aide il y a une seconde, non ?${prompt}'
+  7639: Es-tu le tuteur de cet enfant ?${prompt}
+  7640: Eh bien, dans ce cas… J’ai besoin de voir une pièce d’identité.${prompt}
   7641: |-
-    Show him some I.D.?
+    Lui montrer une pièce d’identité ?
     ${selection-lines}
-    Show your mercenary badge.
-    I'm not showing you anything!${prompt}
-  7642: 'Your ${keyitem-singular: 0[2]} gleams brightly!'
-  7643: That badge...${prompt}
-  7644: That's from that despicable mercenary compa--ah, sorry. That was most discourteous of me.${prompt}
-  7645: So she's one of Salaheem Sentinels' customers?${prompt}
-  7646: No. Liliroon is customer of detective agency!${prompt}
-  7647: What's this? President Naja's trying her hand at detective work too, is she?${prompt}
-  7648: In any case, you must forgive our discourtesies. Please don't say anything to Naja...${prompt}
-  7649: I know how I can make it up to you. You were looking for something, weren't you?${prompt}
-  7650: Due to the nature of my work, I am quite familiar with this area. Maybe I can help.${prompt}
-  7651: I see...so you are looking for your former instructor...${prompt}
-  7652: Yes. He smell same as yooo.${prompt}
-  7653: But I've never worn any fragrances...not my thing, really.${prompt}
-  7654: Can yooo think of any reason yooo would have his smell?${prompt}
-  7655: No... I have no idea why I would smell like your teacher...${prompt}
-  7656: What have I been doing that could have made his scent rub off on me?${prompt}
-  7657: Liliroon frustrated...${prompt}
-  7658: Detective, ask question and help remember!${prompt}
+    Montrer ton badge de mercenaire.
+    Je ne te montre rien !${prompt}
+  7642: 'Ton ${keyitem-singular: 0[2]} brille vivement !'
+  7643: Ce badge…${prompt}
+  7644: C’est celui de cette détestable compagnie de mercenaires–ah, désolé. C’était très impoli de ma part.${prompt}
+  7645: Alors elle est une cliente des Sentinelles de Salaheem ?${prompt}
+  7646: Non. Liliroon est cliente d’agence de détectives !${prompt}
+  7647: Quoi ? La Présidente Naja se lance dans le travail de détective aussi, hein ?${prompt}
+  7648: Quoi qu’il en soit, vous devez excuser nos impolitesses. S’il vous plaît, ne dites rien à Naja…${prompt}
+  7649: Je sais comment me faire pardonner. Tu cherchais quelque chose, n’est-ce pas ?${prompt}
+  7650: À cause de la nature de mon travail, je connais bien cette région. Peut-être puis-je t’aider.${prompt}
+  7651: Je vois… donc tu cherches ton ancien instructeur…${prompt}
+  7652: Oui. Il sent comme yooo.${prompt}
+  7653: Mais je n’ai jamais porté de fragrances… pas mon truc, vraiment.${prompt}
+  7654: Peux yooo penser à une raison pour laquelle yooo aurais son odeur ?${prompt}
+  7655: Non… Je n’ai aucune idée pourquoi je sentirais comme ton professeur…${prompt}
+  7656: Qu’est-ce que j’ai pu faire qui aurait pu faire que son parfum déteigne sur moi ?${prompt}
+  7657: Liliroon frustrée…${prompt}
+  7658: Détective, pose question et aide à te souvenir !${prompt}
   7659: |-
-    What will you ask?
+    Que vas-tu demander ?
     ${selection-lines}
-    Where have you been?
-    What have you eaten?
-    Who have you met?${prompt}
-  7660: Well, let's see... Today during my break, I was enjoying a sis kebabi dripping with juice, and...${prompt}
-  7661: Oooh. And then?${prompt}
-  7662: I went to the Shararat Teahouse and had the sweetest helvasi you can imagine...dropped a cube of sugar into some chai, which went great with the helvasi... The aroma was just heavenly...${prompt}
-  7663: Did that help any?${prompt}
-  7664: Oooh, yooo making Liliroon hungry...${prompt}
-  7665: Today, I clocked in to work right after arriving at Port Ephramad. Then I headed out for my patrols on Balrahn Way.${prompt}
-  7666: Other than that, all I did was stop at the teahouse for a bite. I didn't really meet with anyone other than my co-workers...${prompt}
-  7667: Hmmm...the port...${prompt}
-  7668: Where I was...? Ah, maybe that's it!${prompt}
-  7669: Yooo remember something?${prompt}
-  7670: Actually, this morning I just came back from a trip to Nashmau.${prompt}
-  7671: My co-workers wondered why on Urhguum I'd go there for my vacation.${prompt}
-  7672: To tell the truth, I envied the adventurers that have been visiting our town lately...${prompt}
-  7673: I'm a bit embarrassed to admit it, but I thought that visiting Nashmau would give me a little taste of what it'd be like to be an adventurer.${prompt}
-  7674: To be realistic, though, lately a lot of adventurers are being worked like dogs by that brutal mercenary company. That doesn't sound like that much fun...${prompt}
-  7675: Ah, my apologies. That was most discourteous.${prompt}
-  7676: No wooorry. Liliroon want hear mooore...${prompt}
-  7677: Anyway, when I left Nashmau, the Qiqirn surrounded me.${prompt}
-  7678: Apparently they had a Hume friend, but he returned to Al Zahbi not long ago and they seemed to miss people's companionship.${prompt}
-  7679: I bet I got your teacher's scent rubbed off on me from one of the Qiqirns who came to see me off.${prompt}
-  7680: Nashmau? Okay, thank yooo!${prompt}
-  7681: Detective ${name-player}, let's go Nashmau!${prompt}
-  7682: Ah, maybe that's it! I just came in on a ship from Nashmau.${prompt}
-  7683: So how'd it go?${prompt}
-  7684: ${name-player} solved case... Thank yooo very much. Did very goood work.${prompt}
-  7685: I am honored by your compliment. Our detective agency values the customer above all else.${prompt}
-  7686: Anyway, about those karakul--err, your token of thanks...?${prompt}
-  7687: No yooo worry. They sooon arrive.${prompt}
-  7688: President Liliroon!${prompt}
-  7689: Why have you come to Salaheem's Sentinels, of all places?${prompt}
-  7690: Sentinels...?${prompt}
-  7691: Yipe!${prompt}
-  7692: I have brought the payment as you requested, but everyone knows this is a mercenary company, not a detective agency!${prompt}
-  7693: Liliroon just ask this detective to help find someone...${prompt}
-  7694: You're the president of this company, aren't you? Just what are you trying to pull?${prompt}
-  7695: Why, whatever are you talking about...?${prompt}
-  7696: Pretending to be a detective agency even though you're a mercenary company... That's fraud, plain and simple!${prompt}
-  7697: Frrraud?${prompt}
-  7698: You dare accuse me of fraud?${prompt}
-  7699: Yes! You operated under a false company name. What else could you call that!?${prompt}
-  7700: We don't need seedy companies like yours in Aht Urhgan...${prompt}
-  7701: I don't know what you're talking about. We serve the will of the Empress and operate under her perrrsonal sanction!${prompt}
-  7702: I swear by the name of the Empress...we would never engage in any questionable business!${prompt}
-  7703: Well then, I wonder if your shining reputation would suffer any if this fraud were exposed?${prompt}
+    Où es-tu allé ?
+    Qu’as-tu mangé ?
+    Qui as-tu rencontré ?${prompt}
+  7660: Eh bien, voyons voir… Aujourd’hui pendant ma pause, je savourais un sis kebabi dégoulinant de jus, et…${prompt}
+  7661: Oooh. Et ensuite ?${prompt}
+  7662: Je suis allé à la Taverne Shararat et j’ai goûté le plus doux helvasi que tu puisses imaginer… j’ai ajouté un cube de sucre dans du chai, ce qui allait parfaitement avec l’helvasi… L’arôme était juste divin…${prompt}
+  7663: Ça a aidé un peu ?${prompt}
+  7664: Oooh, yooo fais Liliroon faim…${prompt}
+  7665: Aujourd’hui, je me suis présenté au travail juste après être arrivé au Port Ephramad. Ensuite, je suis parti pour mes patrouilles sur Balrahn Way.${prompt}
+  7666: À part ça, tout ce que j’ai fait, c’est m’arrêter à la taverne pour manger un morceau. Je n’ai vraiment rencontré personne d’autre que mes collègues…${prompt}
+  7667: Hmmm… le port…${prompt}
+  7668: Où j’étais…? Ah, peut-être que c’est ça !${prompt}
+  7669: Yooo te souviens de quelque chose ?${prompt}
+  7670: En fait, ce matin, je reviens juste d’un voyage à Nashmau.${prompt}
+  7671: Mes collègues se demandaient pourquoi diable j’irais là pour mes vacances.${prompt}
+  7672: Pour être honnête, j’enviais les aventuriers qui visitent notre ville ces derniers temps…${prompt}
+  7673: J’ai un peu honte de l’admettre, mais je pensais que visiter Nashmau me donnerait un petit aperçu de ce que c’est d’être aventurier.${prompt}
+  7674: Pour être réaliste, cependant, ces derniers temps, beaucoup d’aventuriers sont exploités comme des chiens par cette brutale compagnie de mercenaires. Ça n’a pas l’air très amusant…${prompt}
+  7675: Ah, mes excuses. C’était très impoli de ma part.${prompt}
+  7676: Pas de wooorry. Liliroon veut entendre mooore…${prompt}
+  7677: Bref, quand je suis parti de Nashmau, les Qiqirn m’ont entouré.${prompt}
+  7678: Apparemment, ils avaient un ami Hume, mais il est retourné à Al Zahbi récemment et ils semblaient manquer de compagnie humaine.${prompt}
+  7679: Je parie que j’ai hérité de l’odeur de ton professeur à cause d’un des Qiqirn qui est venu me dire au revoir.${prompt}
+  7680: Nashmau ? D’accord, merci yooo !${prompt}
+  7681: Détective ${name-player}, allons à Nashmau !${prompt}
+  7682: Ah, peut-être que c’est ça ! Je viens d’arriver sur un bateau de Nashmau.${prompt}
+  7683: Alors, comment ça s’est passé ?${prompt}
+  7684: ${name-player} a résolu l’affaire… Merci yooo beaucoup. Tu as fait un très bon travail.${prompt}
+  7685: Je suis honoré par ton compliment. Notre agence de détectives place le client au-dessus de tout.${prompt}
+  7686: Bref, à propos de ces karakul–euh, ton gage de gratitude… ?${prompt}
+  7687: Pas de yooo inquiétude. Ils arrivent bientôt.${prompt}
+  7688: Présidente Liliroon !${prompt}
+  7689: Pourquoi es-tu venue aux Sentinelles de Salaheem, de tous les endroits ?${prompt}
+  7690: Sentinelles… ?${prompt}
+  7691: Aïe !${prompt}
+  7692: J’ai apporté le paiement comme demandé, mais tout le monde sait que c’est une compagnie de mercenaires, pas une agence de détectives !${prompt}
+  7693: Liliroon a juste demandé à ce détective d’aider à trouver quelqu’un…${prompt}
+  7694: Tu es la présidente de cette compagnie, n’est-ce pas ? Que cherches-tu à faire ?${prompt}
+  7695: Pourquoi, de quoi parles-tu… ?${prompt}
+  7696: Faire semblant d’être une agence de détectives alors que vous êtes une compagnie de mercenaires… C’est de la fraude, pure et simple !${prompt}
+  7697: Frrraude ?${prompt}
+  7698: Tu oses m’accuser de fraude ?${prompt}
+  7699: Oui ! Vous avez opéré sous un faux nom de compagnie. Comment appellerais-tu ça autrement !?${prompt}
+  7700: Nous n’avons pas besoin de compagnies louches comme la vôtre à Aht Urhgan…${prompt}
+  7701: Je ne sais pas de quoi tu parles. Nous servons la volonté de l’Impératrice et opérons sous sa sanction personnelle !${prompt}
+  7702: Je jure au nom de l’Impératrice… nous ne nous engagerions jamais dans des affaires douteuses !${prompt}
+  7703: Eh bien, je me demande si ta brillante réputation ne souffrirait pas si cette fraude était exposée ?${prompt}
   7704: |-
-    ...Oh?
-    You wanna take this outside, buster?${prompt}
+    …Oh ?
+    Tu veux régler ça dehors, mon gars ?${prompt}
   7705: |-
-    I refuse.
-    I would rather settle this in court!${prompt}
-  7706: Ohoho...and this affects me how? Do ya rrreally think you'll be allowed to survive in this town after pittin' yourself up against Salaheem's Sentinels?${prompt}
-  7707: Both of yooo, be quiet!!!${prompt}
-  7708: Liliroon realize this not detective agency long ago.${prompt}
-  7709: But Liliroon not care.${prompt}
-  7710: President Liliroon, how could you not...?${prompt}
-  7711: Liliroon learn much about teacher...${prompt}
-  7712: Perfooom is best made when thinking of all people's joy when they smell fragrance. Yooo must think how happy it will make them.${prompt}
-  7713: Not just perfooom making. All work like that.${prompt}
-  7714: ${name-player} work very hard for Liliroon.${prompt}
-  7715: And Liliroon is very happy...${prompt}
-  7716: That enough, don't yooo think?${prompt}
-  7717: And Liliroon felt same from ${name-player}.${prompt}
-  7718: Liliroon think...${prompt}
-  7719: '...that happiness come because President Naja train employee well.${prompt}'
+    Je refuse.
+    Je préférerais régler ça en justice !${prompt}
+  7706: Ohoho… et ça m’affecte comment ? Tu crois vraiment que tu seras autorisé à survivre dans cette ville après t’être mis à dos les Sentinelles de Salaheem ?${prompt}
+  7707: Tous les deux, taisez-vous !!!${prompt}
+  7708: Liliroon a réalisé depuis longtemps que ce n’est pas une agence de détectives.${prompt}
+  7709: Mais Liliroon s’en fiche.${prompt}
+  7710: Présidente Liliroon, comment as-tu pu… ?${prompt}
+  7711: Liliroon a appris beaucoup sur son professeur…${prompt}
+  7712: Le perfooom est mieux fait quand on pense à la joie de tous quand ils sentent le parfum. Yooo dois penser à quel point ça les rendra heureux.${prompt}
+  7713: Pas juste pour faire du perfooom. Tout travail est comme ça.${prompt}
+  7714: ${name-player} a travaillé très dur pour Liliroon.${prompt}
+  7715: Et Liliroon est très heureuse…${prompt}
+  7716: Ça suffit, non yooo pense ?${prompt}
+  7717: Et Liliroon a ressenti la même chose de ${name-player}.${prompt}
+  7718: Liliroon pense…${prompt}
+  7719: '…que ce bonheur vient parce que la Présidente Naja entraîne bien ses employés.${prompt}'
   7720: |-
-    Eh?
-    Well...heheh...${prompt}
-  7721: Liliroon learn a lot from her. Yooo agree?${prompt}
-  7722: Of...of course...${prompt}
-  7723: But ${name-player} also wooork very well.${prompt}
-  7724: Must have very high rank in company, no?${prompt}
-  7725: Ah...well...yes.${prompt}
-  7726: It hasn't been too long since ${choice-player-gender}[he/she] joined our company, but ${choice-player-gender}[he's/she's] proved ${choice-player-gender}[his/her] stuff time and time again, rising all the way to the rank of cor--${prompt}
+    Hein ?
+    Eh bien… heheh…${prompt}
+  7721: Liliroon a appris beaucoup d’elle. Yooo d’accord ?${prompt}
+  7722: Euh… bien sûr…${prompt}
+  7723: Mais ${name-player} travaille aussi très bien.${prompt}
+  7724: Doit avoir un très haut rang dans la compagnie, non ?${prompt}
+  7725: Ah… eh bien… oui.${prompt}
+  7726: Ça ne fait pas longtemps qu’${choice-player-gender}[il/elle] a rejoint notre compagnie, mais ${choice-player-gender}[il/elle] a prouvé sa valeur encore et encore, montant jusqu’au rang de cap–${prompt}
   7727: |-
-    Errr, sergeant.
-    Isn't that right, Sergeant ${name-player}?${prompt}
-  7728: Oooh, President Naja have very good eye for talent.${prompt}
-  7729: Ohoho, you are too kind.${prompt}
-  7730: Of cooourse, Liliroon keep promise and pay reward.${prompt}
+    Euh, sergent.
+    N’est-ce pas, Sergent ${name-player} ?${prompt}
+  7728: Oooh, la Présidente Naja a un très bon œil pour les talents.${prompt}
+  7729: Ohoho, tu es trop gentille.${prompt}
+  7730: Bien cooours, Liliroon tient sa promesse et paie la récompense.${prompt}
   7731: |-
-    Yes, ma'am.
-    It will be as you say.${prompt}
-  7732: Many thanks.♪${prompt}
-  7733: And yooo, ${name-player}. Liliroon really appreciate yooo.${prompt}
-  7734: (Pssst...${name-player}...)${prompt}
-  7735: (Liliroon not want to say this tooo loud, but...)${prompt}
-  7736: (If yooo ever get fired from Salaheem's Sentinels...)${prompt}
-  7737: (Yooo welcome at my company!)${prompt}
-  7738: (And Liliroon pay yooo three times the salary.)${prompt}
-  7739: Gooodbye, everyone...${prompt}
-  7740: '${color-alt: 138}${name-player} has been promoted to Sergeant!${prompt}'
-  7741: So how's it comin' along with that Qiqirn?${prompt}
-  7742: Ya better treat her like a queen if I'm to get my karakul wagons!${prompt}
-  7743: Ahem! <Cough, cough>.${prompt}
+    Oui, madame.
+    Ce sera comme vous dites.${prompt}
+  7732: Beaucoup de mercis.♪${prompt}
+  7733: Et yooo, ${name-player}. Liliroon apprécie vraiment yooo.${prompt}
+  7734: (Pssst… ${name-player}…)${prompt}
+  7735: (Liliroon ne veut pas dire ça trop fort, mais…)${prompt}
+  7736: (Si yooo te fais virer des Sentinelles de Salaheem…)${prompt}
+  7737: (Yooo seras bienvenu dans ma compagnie !)${prompt}
+  7738: (Et Liliroon paiera yooo trois fois le salaire.)${prompt}
+  7739: Au revoir, tout le monde…${prompt}
+  7740: '${color-alt: 138}${name-player} a été promu Sergent !${prompt}'
+  7741: Alors, comment ça avance avec ce Qiqirn ?${prompt}
+  7742: Tu ferais mieux de la traiter comme une reine si je dois avoir mes chariots de karakul !${prompt}
+  7743: Hem ! <Tousse, tousse>.${prompt}
   7744: Mi-mi-mi-mi-mi.${prompt}
   7745: Lalala-lala-lala.♪${prompt}
   7746: |-
-    Ah! I was just doing some vocal exercises!
-    (How very embarrassing!)${prompt}
-  7747: I am Fari-Wari the Eloquent (and never Long-Winded), a humble bard and all-round entertainer.${prompt}
-  7748: To discover inspiration for new compositions, I am traveling this turbulent world in search of heroic tales that ignite the blood and stir the soul.${prompt}
+    Ah ! Je faisais juste des exercices vocaux !
+    (Quelle honte !)${prompt}
+  7747: Je suis Fari-Wari l’Éloquent (et jamais Verbeux), un humble barde et artiste polyvalent.${prompt}
+  7748: Pour trouver l’inspiration pour de nouvelles compositions, je voyage dans ce monde turbulent à la recherche de récits héroïques qui enflamment le sang et éveillent l’âme.${prompt}
   7749: |-
-    However, it pains me to realize I have heard the epics of the West twice, and in some cases thrice, over.
-    And thus, gentle listener, I braved the ocean deep and wide to arrive here in this land of untold stories.${prompt}
-  7750: Your relaxed poise and posture lead me to believe you have some familiarity with our location.${prompt}
-  7751: Perhaps our meeting was told in the stars, or at least in the tea leaves of some cup drained in this very establishment.${prompt}
+    Cependant, il m’attriste de réaliser que j’ai entendu les épopées de l’Ouest deux fois, et parfois trois fois.
+    Et ainsi, gentil auditeur, j’ai bravé l’océan profond et vaste pour arriver dans cette terre d’histoires inédites.${prompt}
+  7750: Ton allure détendue et ta posture me laissent penser que tu connais bien notre emplacement.${prompt}
+  7751: Peut-être notre rencontre était-elle écrite dans les étoiles, ou du moins dans les feuilles de thé d’une tasse vidée dans cet établissement même.${prompt}
   7752: |-
-    What say you?
-    Will you consent to become my attendant, my Man Firesday, my guiding light in the darkness?${prompt}
+    Qu’en dis-tu ?
+    Consens-tu à devenir mon assistant, mon Homme Feu-Dimanche, ma lumière qui guide dans les ténèbres ?${prompt}
   7753: |-
-    Become his attendant?
+    Devenir son assistant ?
     ${selection-lines}
-    Sure...
-    Attendant?${prompt}
-  7754: As my attendant, your duties will include...${prompt}
-  7755: '...showing me around town, handling my shopping, restraining overly enthusiastic fans, keeping my dressing room supplied with sweets...${prompt}'
+    D’accord…
+    Assistant ?${prompt}
+  7754: En tant qu’assistant, tes tâches incluront…${prompt}
+  7755: '…me faire visiter la ville, gérer mes achats, retenir les fans trop enthousiastes, garder ma loge approvisionnée en douceurs…${prompt}'
   7756: |-
-    ...helping me overcome writing blocks--all manner of tasks that allow me to concentrate on my art.
-    It truly is a glamorous position!${prompt}
-  7757: Wonderful! My prospective attendants usually put up much more of a fight!${prompt}
-  7758: Your first assignment will be to aid me as I interview the citizens of this town in search of heroic inspiration!${prompt}
-  7759: Now, who to choose to become my muse...?${prompt}
+    …m’aider à surmonter les blocages d’écriture–toutes sortes de tâches qui me permettent de me concentrer sur mon art.
+    C’est vraiment une position glamour !${prompt}
+  7757: Merveilleux ! Mes assistants potentiels se battent généralement beaucoup plus !${prompt}
+  7758: Ta première mission sera de m’aider à interviewer les citoyens de cette ville à la recherche d’inspiration héroïque !${prompt}
+  7759: Alors, qui choisir comme muse… ?${prompt}
   7760: |-
-    Let's see now...
-    Hmmm, how about that severe-looking lass in the uniform?${prompt}
-  7761: Greetings, my Imperial rose.${prompt}
-  7762: Excuse me?${prompt}
+    Voyons voir maintenant…
+    Hmmm, que penses-tu de cette jeune femme au regard sévère en uniforme ?${prompt}
+  7761: Salutations, ma rose impériale.${prompt}
+  7762: Pardon ?${prompt}
   7763: |-
-    May I impose on your solitude, sweet damsel?
-    Perhaps we could share a pot of cha--?${prompt}
+    Puis-je troubler votre solitude, douce damoiselle ?
+    Peut-être pourrions-nous partager une théière de cha– ?${prompt}
   7764: |-
-    How dare you speak to me in such a casual manner!?
-    I am Biyaada, the senior adjutant to Skyserpent General Rughadjeen!${prompt}
+    Comment oses-tu me parler de manière aussi familière !?
+    Je suis Biyaada, l’adjudante principale du Général Serpent-Céleste Rughadjeen !${prompt}
   7765: |-
-    My most humble apologies.
-    I was hopelessly enchanted by your swanlike elegance, and...${prompt}
-  7766: '...what was that name you just mentioned?${prompt}'
-  7767: I am Biyaada.${prompt}
-  7768: No no, the one after that.${prompt}
-  7769: You speak of General Rughadjeen?${prompt}
+    Mes plus humbles excuses.
+    J’étais irrémédiablement enchanté par ton élégance de cygne, et…${prompt}
+  7766: '…quel était ce nom que tu viens de mentionner ?${prompt}'
+  7767: Je suis Biyaada.${prompt}
+  7768: Non non, celui d’après.${prompt}
+  7769: Tu parles du Général Rughadjeen ?${prompt}
   7770: |-
-    Yes, that's the one.
-    Would this general happen to be a personage of some fame and importance?
-    I am but barely arrived in this nation, and have little--${prompt}
-  7771: Even a recent visitor to our city should know of the great General Rughadjeen!${prompt}
-  7772: He is the guardian of Al Zahbi, the commander of the Serpent Generals, and a decorated hero!${prompt}
+    Oui, c’est celui-là.
+    Ce général serait-il une personne de renom et d’importance ?
+    Je viens à peine d’arriver dans ce pays, et je sais peu–${prompt}
+  7771: Même un visiteur récent de notre ville devrait connaître le grand Général Rughadjeen !${prompt}
+  7772: Il est le gardien d’Al Zahbi, le commandant des Généraux Serpents, et un héros décoré !${prompt}
   7773: |-
-    Oho!
-    And I assume he is as fierce as a raptor, and as courageous as a lion?${prompt}
-  7774: The perfect warrior!${prompt}
-  7775: Might I presume upon you to regale me with his tale?${prompt}
+    Oho !
+    Et je présume qu’il est féroce comme un raptor et courageux comme un lion ?${prompt}
+  7774: Le guerrier parfait !${prompt}
+  7775: Puis-je présumer que tu me raconteras son histoire ?${prompt}
   7776: |-
-    I am not some dusty historian, mind you.
-    I am a bard of some renown--composing flattering odes to heroes as I wander this world of wonders.${prompt}
-  7777: A bard? Then General Rughadjeen's valiant deeds would be immortalized in verse...${prompt}
-  7778: But, I have no time for this daydreaming!${prompt}
+    Je ne suis pas un historien poussiéreux, note bien.
+    Je suis un barde de quelque renom–composant des odes flatteuses pour les héros tandis que je parcours ce monde de merveilles.${prompt}
+  7777: Un barde ? Alors les vaillants exploits du Général Rughadjeen seraient immortalisés en vers…${prompt}
+  7778: Mais, je n’ai pas le temps pour ces rêveries !${prompt}
   7779: '!?${prompt}'
   7780: |-
-    Calm down, my dear.
-    I'm sure I can deal with whatever it is that troubles you!${prompt}
+    Calme-toi, ma chère.
+    Je suis sûr de pouvoir gérer ce qui te préoccupe !${prompt}
   7781: |-
-    I don't recall asking for your help.
-    And what do you think a tiny thing like you could do in any case?${prompt}
-  7782: Well, I may be somewhat lacking in physical prowess...${prompt}
-  7783: '...but my attendant here has no such deficiencies!${prompt}'
-  7784: A mercenary, are you?${prompt}
-  7785: Hmm, well, I suppose you would have some experience with staring death in the face...${prompt}
+    Je ne me souviens pas t’avoir demandé de l’aide.
+    Et que crois-tu qu’une petite chose comme toi pourrait faire de toute façon ?${prompt}
+  7782: Eh bien, je peux manquer un peu de prouesse physique…${prompt}
+  7783: '…mais mon assistant ici n’a pas ce défaut !${prompt}'
+  7784: Un mercenaire, hein ?${prompt}
+  7785: Hmm, eh bien, je suppose que tu as de l’expérience à regarder la mort en face…${prompt}
   7786: |-
-    Exactly!
-    Why, my attendant is worth a thousand soldiers! ${choice-player-gender}[His/Her] skill in battle is unmatched by--${prompt}
-  7787: Do you think I might have a word with this attendant of yours?${prompt}
+    Exactement !
+    Vraiment, mon assistant vaut mille soldats ! ${choice-player-gender}[Son/Sa] talent au combat est inégalé par–${prompt}
+  7787: Penses-tu que je pourrais avoir un mot avec ton assistant ?${prompt}
   7788: |-
-    Of course, of course!
-    Stand up straight! Eyes front! Ears open!${prompt}
+    Bien sûr, bien sûr !
+    Tiens-toi droit ! Regarde devant ! Ouvre les oreilles !${prompt}
   7789: |-
-    Listen to Biyaada?
+    Écouter Biyaada ?
     ${selection-lines}
-    I had a choice...?
-    I don't think so...${prompt}
-  7790: It concerns General Rughadjeen...${prompt}
-  7791: He has been commanding the defenses of the city in an almost endless battle to stem the constant waves of beastman assaults.${prompt}
-  7792: One can only imagine the level of exhaustion he must be feeling.${prompt}
-  7793: Just the other day, General Rughadjeen was on the front lines, leading our soldiers in an effort to repel the invading Troll Mercenaries.${prompt}
-  7794: In the heat of combat, he dropped something very dear to him.${prompt}
-  7795: An instant of inattention was all it took...${prompt}
-  7796: I suspect that one of the enemy mercenaries snatched up this precious item before retreating to Halvung.${prompt}
-  7797: The Trolls are known to claim such trophies from our soldiers in order to inflate their stories of conquest.${prompt}
-  7798: The general has continued to fulfill his duties as if nothing were amiss, but...${prompt}
-  7799: I work side by side with him every day. I see the sadness that he attempts to hide.${prompt}
-  7800: If I could, I would track down this keepsake myself.${prompt}
+    J’avais le choix… ?
+    Je ne crois pas…${prompt}
+  7790: Ça concerne le Général Rughadjeen…${prompt}
+  7791: Il a commandé la défense de la ville dans une bataille presque sans fin pour repousser les vagues constantes d’assauts des hommes-bêtes.${prompt}
+  7792: On peut seulement imaginer le niveau d’épuisement qu’il doit ressentir.${prompt}
+  7793: L’autre jour, le Général Rughadjeen était sur la ligne de front, menant nos soldats dans un effort pour repousser les Mercenaires Trolls envahissants.${prompt}
+  7794: Dans la chaleur du combat, il a laissé tomber quelque chose de très précieux pour lui.${prompt}
+  7795: Un instant d’inattention a suffi…${prompt}
+  7796: Je suspecte qu’un des mercenaires ennemis a ramassé cet objet précieux avant de battre en retraite vers Halvung.${prompt}
+  7797: Les Trolls sont connus pour réclamer de tels trophées à nos soldats afin d’enfler leurs récits de conquête.${prompt}
+  7798: Le général a continué à remplir ses devoirs comme si de rien n’était, mais…${prompt}
+  7799: Je travaille à ses côtés tous les jours. Je vois la tristesse qu’il essaie de cacher.${prompt}
+  7800: Si je pouvais, je retrouverais moi-même ce souvenir.${prompt}
   7801: |-
-    But abandoning my post without leave would cause even further grief for my commander.
-    An enlisted soldier such as me has little freedom...${prompt}
-  7802: That is why I would ask your aid.${prompt}
-  7803: I need someone to travel to the Troll stronghold of Halvung and retrieve what General Rughadjeen has lost.${prompt}
-  7804: This is your great worry!? Why, nothing could be simpler!${prompt}
-  7805: My attendant here will stalk into Halvung on the silent paws of a panther, and seek this lost treasure with the unblinking eyes of a hawk!${prompt}
-  7806: And when you have the treasure in your possession, perhaps you will consent to tell me the tale of this mighty general?${prompt}
-  7807: If you do this thing, I promise to tell you all that I know.${prompt}
-  7808: From what I can catch from the general's murmurings, the item is some sort of cloth...${prompt}
+    Mais abandonner mon poste sans permission causerait encore plus de chagrin à mon commandant.
+    Un soldat enrôlé comme moi a peu de liberté…${prompt}
+  7802: C’est pourquoi je sollicite ton aide.${prompt}
+  7803: J’ai besoin que quelqu’un voyage jusqu’au bastion Troll d’Halvung et récupère ce que le Général Rughadjeen a perdu.${prompt}
+  7804: C’est ton grand souci !? Vraiment, rien ne pourrait être plus simple !${prompt}
+  7805: Mon assistant ici va s’introduire à Halvung sur les pattes silencieuses d’un panthère, et chercher ce trésor perdu avec les yeux vigilants d’un faucon !${prompt}
+  7806: Et quand tu auras le trésor en ta possession, peut-être consentiras-tu à me raconter l’histoire de ce puissant général ?${prompt}
+  7807: Si tu fais cela, je promets de te raconter tout ce que je sais.${prompt}
+  7808: D’après ce que j’ai entendu des murmures du général, l’objet est une sorte de tissu…${prompt}
   7809: |-
-    Cloth! Yes!
-    Attendant! No time for dilly-dallying!
-    Off to Halvung with you!${prompt}
+    Tissu ! Oui !
+    Assistant ! Pas de temps à perdre !
+    En route pour Halvung !${prompt}
   7810: |-
-    For the protector of Al Zahbi!
-    To ease the mind of this fair maiden!
-    But mostly...${prompt}
-  7811: To allow me to compose the greatest ballad this world has ever known!${prompt}
-  7812: Have you found the item we spoke of?${prompt}
+    Pour le protecteur d’Al Zahbi !
+    Pour apaiser l’esprit de cette belle demoiselle !
+    Mais surtout…${prompt}
+  7811: Pour me permettre de composer la plus grande ballade que ce monde ait jamais connue !${prompt}
+  7812: As-tu trouvé l’objet dont nous avons parlé ?${prompt}
   7813: |-
-    I'm sorry, but I'm on duty.
-    We will talk later at the teahouse.${prompt}
+    Désolé, mais je suis en service.
+    Nous parlerons plus tard à la taverne.${prompt}
   7814: |-
-    There's no time for dilly-dallying!
-    Off to Halvung with you!${prompt}
-  7815: The potential creation of the greatest masterpiece of prose this century has seen hangs in the balance!${prompt}
-  7816: You found something!?${prompt}
+    Pas de temps à perdre !
+    En route pour Halvung !${prompt}
+  7815: La création potentielle du plus grand chef-d’œuvre en prose de ce siècle est en jeu !${prompt}
+  7816: Tu as trouvé quelque chose !?${prompt}
   7817: |-
-    Yes...that ribbon...
-    I have often seen the general gazing contentedly at that strip of cloth.${prompt}
+    Oui… ce ruban…
+    J’ai souvent vu le général le regarder avec contentement.${prompt}
   7818: |-
-    Thank you.
-    This must be the item he dropped.${prompt}
+    Merci.
+    Ce doit être l’objet qu’il a perdu.${prompt}
   7819: |-
-    Did I not tell you?
-    You could expect nothing less from an attendant to Fari-Wari the Eloquent!${prompt}
+    Ne te l’avais-je pas dit ?
+    On ne peut attendre moins d’un assistant de Fari-Wari l’Éloquent !${prompt}
   7820: |-
-    So it seems.
-    I believe I owe you a tale, then.${prompt}
-  7821: It was the events of a single night that would change General Rughadjeen's fate forever...${prompt}
-  7822: Almost two years ago now, the western arm of the Imperial Army was under the sole command of General Missahd, a member of the royal family.${prompt}
-  7823: Assigned to this general was one Captain Rughadjeen...${prompt}
+    Il semble bien.
+    Je crois que je te dois une histoire, alors.${prompt}
+  7821: Ce fut les événements d’une seule nuit qui changèrent à jamais le destin du Général Rughadjeen…${prompt}
+  7822: Il y a presque deux ans maintenant, l’aile ouest de l’Armée Impériale était sous le seul commandement du Général Missahd, un membre de la famille royale.${prompt}
+  7823: Assigné à ce général se trouvait un Capitaine Rughadjeen…${prompt}
   7824: |-
-    Hmph. I see.
-    I will pass your proposal on to the Operations Staff for due consideration.${prompt}
+    Hmph. Je vois.
+    Je transmettrai ta proposition au Personnel des Opérations pour une considération appropriée.${prompt}
   7825: |-
-    There is no time for that!
-    There are signs that the beastmen are massing for a full-scale assault!
-    We cannot wait for reinforcements!${prompt}
+    Pas de temps pour ça !
+    Il y a des signes que les hommes-bêtes se rassemblent pour une attaque à grande échelle !
+    Nous ne pouvons pas attendre des renforts !${prompt}
   7826: |-
-    <Sigh>...
-    Captain, have you seen the fortifications on the Balrahn Defense Line?
-    And the number of our soldiers that man those walls?${prompt}
-  7827: Our enemies are nothing more than mindless beasts that will break themselves against our stalwart defenses. It matters not how many pigs come to the slaughter.${prompt}
-  7828: '...${prompt}'
-  7829: At the very least...${prompt}
-  7830: Will you allow me to lead a heavy infantry unit in a surprise attack on the enemy stronghold?${prompt}
-  7831: '...${prompt}'
-  7832: We will approach under the cover of darkness this very night and blunt their desire for battle.${prompt}
-  7833: We will break the spine of this newly formed army before it even begins to move.${prompt}
-  7834: If all goes well, we will sow chaos among their disorderly ranks, and buy time to bolster our defenses.${prompt}
-  7835: Captain Rughadjeen...${prompt}
-  7836: The beastmen forces are focused and eager for blood.${prompt}
-  7837: If we allow them to reach the capital with an organized army, they will break through any holes in the line and rain destruction on the lightly defended city streets ...${prompt}
-  7838: Rughadjeen!${prompt}
-  7839: '...Sir.${prompt}'
+    <Soupir>…
+    Capitaine, as-tu vu les fortifications sur la Ligne de Défense de Balrahn ?
+    Et le nombre de nos soldats qui gardent ces murs ?${prompt}
+  7827: Nos ennemis ne sont rien d’autre que des bêtes sans cervelle qui se briseront contre nos défenses inébranlables. Peu importe combien de porcs viennent à l’abattoir.${prompt}
+  7828: '…${prompt}'
+  7829: À tout le moins…${prompt}
+  7830: Me permettras-tu de mener une unité d’infanterie lourde dans une attaque surprise sur le bastion ennemi ?${prompt}
+  7831: '…${prompt}'
+  7832: Nous approcherons sous le couvert de l’obscurité cette nuit même et émousserons leur désir de combattre.${prompt}
+  7833: Nous briserons l’épine dorsale de cette armée nouvellement formée avant même qu’elle ne commence à bouger.${prompt}
+  7834: Si tout se passe bien, nous sèmerons le chaos parmi leurs rangs désordonnés, et gagnerons du temps pour renforcer nos défenses.${prompt}
+  7835: Capitaine Rughadjeen…${prompt}
+  7836: Les forces des hommes-bêtes sont concentrées et assoiffées de sang.${prompt}
+  7837: Si nous les laissons atteindre la capitale avec une armée organisée, ils perceront les failles de la ligne et feront pleuvoir la destruction sur les rues de la ville légèrement défendues…${prompt}
+  7838: Rughadjeen !${prompt}
+  7839: '…Monsieur.${prompt}'
   7840: |-
-    You speak above your station.
-    I don't have time to listen to a lowly captain with delusions of strategic brilliance.${prompt}
-  7841: '...${prompt}'
+    Tu parles au-dessus de ton rang.
+    Je n’ai pas le temps d’écouter un simple capitaine avec des illusions de génie stratégique.${prompt}
+  7841: '…${prompt}'
   7842: |-
-    I will not stand for this disrespectful attitude.
-    From this day forth, you are relieved from the position of captain.${prompt}
-  7843: Wha--!?${prompt}
-  7844: After receiving the punishment of ten lashes for disrespecting a senior officer, you are to return to your unit and follow the orders of the newly appointed captain.${prompt}
-  7845: '...Sir.${prompt}'
+    Je ne tolérerai pas cette attitude irrespectueuse.
+    À partir de ce jour, tu es relevé de ton poste de capitaine.${prompt}
+  7843: Quo– !?${prompt}
+  7844: Après avoir reçu la punition de dix coups de fouet pour manque de respect envers un officier supérieur, tu devras retourner dans ton unité et suivre les ordres du nouveau capitaine nommé.${prompt}
+  7845: '…Monsieur.${prompt}'
   7846: |-
     Hmph.
-    A simple captain attempting to lecture me on strategy...${prompt}
-  7847: An attack?
-  7848: Where are they!?${prompt}
-  7849: The West Gate!${prompt}
-  7850: What befalls!?${prompt}
+    Un simple capitaine qui tente de me donner une leçon de stratégie…${prompt}
+  7847: Une attaque ?
+  7848: Où sont-ils !?${prompt}
+  7849: La Porte Ouest !${prompt}
+  7850: Que se passe-t-il !?${prompt}
   7851: |-
-    Captain Rughadjeen!
-    It's absolute chaos!${prompt}
-  7852: The Balrahn Defense Line has been breached...${prompt}
-  7853: And the capital is surrounded by an army of Troll Mercenaries!${prompt}
-  7854: Surrounded!?${prompt}
+    Capitaine Rughadjeen !
+    C’est le chaos total !${prompt}
+  7852: La Ligne de Défense de Balrahn a été percée…${prompt}
+  7853: Et la capitale est encerclée par une armée de Mercenaires Trolls !${prompt}
+  7854: Encerclée !?${prompt}
   7855: |-
-    The savages have brought siege weapons.
-    It won't be long before the streets are swarming with them...${prompt}
+    Les sauvages ont apporté des armes de siège.
+    Il ne faudra pas longtemps avant que les rues ne grouillent d’eux…${prompt}
   7856: |-
-    What of the soldiers along the defense line?
-    An army of that size could not have been swept aside so easily.${prompt}
-  7857: The defense forces are engaged with a horde of Mamool Ja that arrived on the heels of the Trolls.${prompt}
-  7858: Then we are too late...${prompt}
-  7859: The beastmen have outmaneuvered us...${prompt}
-  7860: Our unit is forming up as we speak.${prompt}
-  7861: What are your orders, Captain?${prompt}
-  7862: Forgive me...${prompt}
-  7863: Captain?${prompt}
+    Qu’en est-il des soldats sur la ligne de défense ?
+    Une armée de cette taille n’a pas pu être balayée si facilement.${prompt}
+  7857: Les forces de défense sont engagées avec une horde de Mamool Ja qui est arrivée sur les talons des Trolls.${prompt}
+  7858: Alors nous sommes trop tard…${prompt}
+  7859: Les hommes-bêtes nous ont surpassés…${prompt}
+  7860: Notre unité se forme en ce moment même.${prompt}
+  7861: Quels sont vos ordres, Capitaine ?${prompt}
+  7862: Pardonnez-moi…${prompt}
+  7863: Capitaine ?${prompt}
   7864: |-
-    General Missahd just relieved me of my post.
-    I have no authority...${prompt}
-  7865: Isn't that the general over there...?${prompt}
+    Le Général Missahd vient de me relever de mon poste.
+    Je n’ai aucune autorité…${prompt}
+  7865: N’est-ce pas le général là-bas… ?${prompt}
   7866: '!?${prompt}'
   7867: |-
-    Why is he running that way? The front line is...
-    Surely he doesn't intend to abandon the citizens to their fate?${prompt}
-  7868: I shall assume temporary command of our forces.${prompt}
-  7869: Sir!${prompt}
+    Pourquoi court-il dans cette direction ? La ligne de front est…
+    Il n’a tout de même pas l’intention d’abandonner les citoyens à leur sort ?${prompt}
+  7868: Je vais prendre le commandement temporaire de nos forces.${prompt}
+  7869: Monsieur !${prompt}
   7870: |-
-    Ready arms!
-    Form ranks!${prompt}
-  7871: This will be a bloodbath...${prompt}
-  7872: Hold ranks!${prompt}
-  7873: The enemy is just as exhausted as you.${prompt}
+    Préparez les armes !
+    Formez les rangs !${prompt}
+  7871: Ce sera un bain de sang…${prompt}
+  7872: Tenez les rangs !${prompt}
+  7873: L’ennemi est aussi épuisé que vous.${prompt}
   7874: |-
-    If we can hold but a few moments more, they will break.
-    This battle is ours!${prompt}
-  7875: Let them tire themselves destroying our buildings--it will help prevent the spread of fires.${prompt}
+    Si nous pouvons tenir encore quelques instants, ils céderont.
+    Cette bataille est à nous !${prompt}
+  7875: Laissez-les s’épuiser à détruire nos bâtiments–cela aidera à empêcher la propagation des incendies.${prompt}
   7876: |-
-    Your main objective is the safety of our citizens.
-    The future of this city rests on your shoulders!${prompt}
-  7877: For Al Zahbi!${prompt}
+    Votre objectif principal est la sécurité de nos citoyens.
+    L’avenir de cette ville repose sur vos épaules !${prompt}
+  7877: Pour Al Zahbi !${prompt}
   7878: '!?${prompt}'
-  7879: You! You can't go that way!${prompt}
-  7880: You'll get yourself killed!${prompt}
-  7881: '...${prompt}'
-  7882: Sajalda, take command of the troops.${prompt}
-  7883: Sir!${prompt}
+  7879: Toi ! Tu ne peux pas aller par là !${prompt}
+  7880: Tu vas te faire tuer !${prompt}
+  7881: '…${prompt}'
+  7882: Sajalda, prends le commandement des troupes.${prompt}
+  7883: Monsieur !${prompt}
   7884: |-
-    Aphmau...
-    It's worse than we heard.
-    Look!${prompt}
-  7885: She didn't get out in time...${prompt}
-  7886: Ovjang?${prompt}
-  7887: Okay.${prompt}
-  7888: Follow me!${prompt}
+    Aphmau…
+    C’est pire que ce qu’on avait entendu.
+    Regarde !${prompt}
+  7885: Elle n’a pas pu sortir à temps…${prompt}
+  7886: Ovjang ?${prompt}
+  7887: D’accord.${prompt}
+  7888: Suis-moi !${prompt}
   7889: |-
-    Hey!
-    Stay where you are!${prompt}
+    Hé !
+    Reste où tu es !${prompt}
   7890: You can't...!${prompt}
   7891: '!!!${prompt}'
   7892: Dammit!${prompt}
@@ -22899,191 +22899,191 @@ entries:
   12659: |-
     Cacaroon got cheeep info, ya?
     Yooo got “clink clink”? Cacaroon got big info!${prompt}
-  12660: Cacaroon help, ya? Cacaroon use network. Cacaroon find help!${prompt}
-  12661: Ah, a mercenary. Just who I have been looking for.${prompt}
-  12662: I'm going to ask you a question and I want you to answer me truthfully.${prompt}
+  12660: Cacaroon aider, ya ? Cacaroon utiliser réseau. Cacaroon trouver aide !${prompt}
+  12661: Ah, un mercenaire. Justement celui que je cherchais.${prompt}
+  12662: Je vais te poser une question et je veux que tu me répondes honnêtement.${prompt}
   12663: |-
-    Have you heard of Clavauert B Chanoix?
+    As-tu entendu parler de Clavauert B Chanoix ?
     ${selection-lines}
-    Yes, I read the Tribune.
-    No. Reading is for wimps.${prompt}
-  12664: Excellent, then I won't waste your time by giving you a history lesson.${prompt}
-  12665: You've never heard of the baron? Where have you been the past few years, off in some virtual fantasy world?${prompt}
-  12666: Clavauert B Chanoix is a famous zoologist from the Middle Lands.${prompt}
-  12667: He is currently visiting the Imperial realm on an expedition researching the behavioral patterns of various animals native to this continent.${prompt}
-  12668: The Empress has made it policy to officially sponsor the baron, and has ordered us to assist him in any way necessary.${prompt}
-  12669: Her Excellence feels that not only will his research provide a treasure trove of valuable information on the Empire's ecosystem...${prompt}
-  12670: '...but also help us better defend ourselves.${prompt}'
-  12671: Why is that, you ask?${prompt}
-  12672: Simply put, data on the monsters living in the area will aid us in determining the best plan of action to take when threatened by the foul fiends.${prompt}
-  12673: In the past weeks, the baron has been focusing his research on the recently discovered Poroggo. He is currently planning a trip into Mamook to take a closer look at the new species.${prompt}
-  12674: And that is where the Empire requires your help. We need someone to act as a bodyguard for Professor Chanoix while he collects his data.${prompt}
-  12675: You need worry not. A hefty reward will be provided for your services, in addition to the fame and glory you will receive by accepting such an important mission.${prompt}
-  12676: Well, what is your answer, mercenary?${prompt}
+    Oui, j’ai lu le Tribune.
+    Non. Lire, c’est pour les faibles.${prompt}
+  12664: Excellent, alors je ne perdrai pas ton temps avec une leçon d’histoire.${prompt}
+  12665: Tu n’as jamais entendu parler du baron ? Où étais-tu ces dernières années, perdu dans un monde de fantasy virtuelle ?${prompt}
+  12666: Clavauert B Chanoix est un célèbre zoologiste des Terres du Milieu.${prompt}
+  12667: Il visite actuellement le royaume impérial pour une expédition visant à étudier les comportements des divers animaux indigènes de ce continent.${prompt}
+  12668: L’Impératrice a fait de la prise en charge officielle du baron une politique, et nous a ordonné de l’assister de toutes les manières nécessaires.${prompt}
+  12669: Sa Majesté estime que non seulement ses recherches fourniront un trésor d’informations précieuses sur l’écosystème de l’Empire…${prompt}
+  12670: '…mais aussi nous aideront à mieux nous défendre.${prompt}'
+  12671: Pourquoi cela, te demandes-tu ?${prompt}
+  12672: En résumé, les données sur les monstres vivant dans la région nous aideront à déterminer le meilleur plan d’action face aux infâmes démons.${prompt}
+  12673: Ces dernières semaines, le baron a concentré ses recherches sur le Poroggo récemment découvert. Il prévoit actuellement un voyage à Mamook pour examiner de plus près cette nouvelle espèce.${prompt}
+  12674: Et c’est là que l’Empire a besoin de ton aide. Nous avons besoin de quelqu’un pour agir comme garde du corps du Professeur Chanoix pendant qu’il collecte ses données.${prompt}
+  12675: Pas besoin de t’inquiéter. Une récompense substantielle sera fournie pour tes services, en plus de la gloire et de la renommée que tu recevras en acceptant une mission aussi importante.${prompt}
+  12676: Alors, quelle est ta réponse, mercenaire ?${prompt}
   12677: |-
-    Accept the job?
+    Accepter le travail ?
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
-  12678: Understood. However, if you have a change of heart, the position will remain open until we find another volunteer.${prompt}
-  12679: Wonderful. I will contact the baron right awa--${prompt}
-  12680: Ah!${prompt}
-  12681: Maudaal. Have you not yet found me a bodyguard? I do grow weary of these gray walls and long to step back out into the wild woods of Wajaom.${prompt}
-  12682: Baron Chanoix! Your timing is impeccable!${prompt}
-  12683: This fine citizen has just volunteered for the position.${prompt}
-  12684: Excellent! Now I can finally continue my research.${prompt}
-  12685: First, let me inform you of the focal point of this expedition.${prompt}
-  12686: Are you familiar with the peculiar beastman known as the Poroggo?${prompt}
+    Oui.
+    Pas maintenant.${prompt}
+  12678: Compris. Cependant, si tu changes d’avis, le poste restera ouvert jusqu’à ce que nous trouvions un autre volontaire.${prompt}
+  12679: Merveilleux. Je vais contacter le baron tout de su–${prompt}
+  12680: Ah !${prompt}
+  12681: Maudaal. N’as-tu pas encore trouvé de garde du corps pour moi ? Je me lasse de ces murs gris et aspire à retourner dans les bois sauvages de Wajaom.${prompt}
+  12682: Baron Chanoix ! Votre timing est impeccable !${prompt}
+  12683: Ce citoyen remarquable vient juste de se porter volontaire pour le poste.${prompt}
+  12684: Excellent ! Maintenant, je peux enfin continuer mes recherches.${prompt}
+  12685: D’abord, laisse-moi t’informer du point central de cette expédition.${prompt}
+  12686: Es-tu familier avec la créature humanoïde étrange connue sous le nom de Poroggo ?${prompt}
   12687: |-
-    Are you?
+    Et toi ?
     ${selection-lines}
-    I'm an expert!
-    Prego?${prompt}
-  12688: Is that so? You adventurers never cease to amaze me with your knowledge of the world.${prompt}
-  12689: You mean to tell me that you have no prior knowledge of the Poroggo?${prompt}
-  12690: And you believe that this uneducated commoner will be able to effectively assist me in my research?${prompt}
-  12691: Well, that is of no matter. At least you were honest about your ignorance--unlike my friend Maudaal here...${prompt}
-  12692: Now listen carefully, as I shall give you a quick overview of the data I have collected thus far.${prompt}
-  12693: You had best write this down!${prompt}
-  12694: Yes, I first came across the creatures when excavating a stratum of soil deep beneath Windurst Waters. In a layer we estimated to be nearly a hundred years old, my team discovered a large quantity of strangely shaped bones.${prompt}
-  12695: At first glance, they resembled the remains of large toads. However...${prompt}
-  12696: Measurements of the skulls showed us that the creatures had exceptionally large brains.${prompt}
-  12697: But that was not all--the forelegs seemed to be developed to the point that they might be used to grasp objects...${prompt}
-  12698: Whereas the hind legs seemed more suited for walking than the traditional jumping one might expect from an amphibious land dweller.${prompt}
-  12699: That was when I realized that we had not found the bones of a common toad, but a completely new and unique species!
-  12700: I can sense what you are thinking...${prompt}
-  12701: It was as if we had discovered something directly from the pages of the well-known fairy tale, “Poroggo and the Prince.”${prompt}
-  12702: And it is indeed from the famous frog princess, Poroggo, that we took the name for our new beastman.${prompt}
-  12703: My theory was that over millions of years, the toads of Sarutabaruta adapted to their surroundings and evolved into this higher life form.${prompt}
-  12704: However!
-  12705: I immediately took my findings to the Board of Akademia in Jeuno, but the fools simply laughed at me!${prompt}
-  12706: Yes, it is true, I had no explanation for the discovery of “unevolved” toad bones near those of the Poroggo...${prompt}
-  12707: But I knew that there had to be evidence that remained yet uncovered.${prompt}
-  12708: There had to be a “missing link” that would prove my theory!${prompt}
-  12709: And then, one day while poring over some of the Optistery's more sensitive tomes, I came across a most intriguing passage.${prompt}
-  12710: It said that...${prompt}
-  12711: '...the Poroggo we found in Windurst Waters...${prompt}'
-  12712: '...they were actually toads transformed into hideous creatures by the forbidden magicks of an eccentric mage named Samariri!${prompt}'
-  12713: It was difficult to accept that my original theory was incorrect.${prompt}
-  12714: However, as a scientist, it was the only choice with which I was left.${prompt}
-  12715: After my failure in Sarutabaruta, I felt I needed to put some distance between myself and the Middle Lands.${prompt}
-  12716: And that is when I decided to pack up my equipment and ventured forth here, to Aradjiah, in search of new knowledge.${prompt}
-  12717: And until recently, I have kept myself quietly busy with studies of the colibri and the chigoe.${prompt}
-  12718: That is until I received word of a Poroggo sighting in the Mamool Ja Savagelands!${prompt}
-  12719: According to the ancient tome I found in Windurst, all the Poroggo were exterminated by the Federation's mages immediately after their “accidental” creation. Though, ever since I discovered a peculiar footprint near the bungalow of my acquaintance, Pabool Ja, I have begun to believe otherwise.${prompt}
-  12720: Recently, there have even been adventurer reports of toadlike creatures residing in the damper areas of the Mamool Ja stronghold.${prompt}
-  12721: What I would like to find out is where these beastmen came from.${prompt}
-  12722: Are they descendants of the Poroggo spawned from the spellweaving of some spoiled Tarutaru?${prompt}
-  12723: Or, are they a completely different species, evolved from mere toads as stated in my original theory?${prompt}
-  12724: And! How are they able to transform their unexpecting victims into frogs?${prompt}
-  12725: The only way to come to satisfactory scientific conclusions is through research!${prompt}
-  12726: And research requires time!!${prompt}
-  12727: 'And so I planned an expedition into the savagelands to search out the elusive Poroggos and witness firsthand the instant a victim falls prey to their unique ${color: 5}frog song${color: 1}.${prompt}'
-  12728: But before I could set out on this trip, I required a volunteer...${prompt}
-  12729: '...to be that victim!${prompt}'
-  12730: Ah, I'm sorry if I alarmed you. Your services will only be required to fend off...unwanted guests.${prompt}
-  12731: The noble Salwa-Molwa will be our guinea...er...toad.${prompt}
-  12732: So this is our mighty mercenary? Looks a bit scrawny, if you ask me.${prompt}
-  12733: I'm Salwa-Molwa.${prompt}
-  12734: I'll be helping the professor out with his experiment.${prompt}
-  12735: All you have to do is keep us alive while we're collecting the dataru.${prompt}
-  12736: Think you can handle that?${prompt}
-  12737: Salwa!${prompt}
-  12738: Mikilulu!? What are you doing here?${prompt}
-  12739: Are you really thinking about going through with this crazy scheme? What if you become a frog forever!?${prompt}
-  12740: What are you worried about, baby? I've got the baron to protect me...and this mercenary, too. They'll help me out of any jam.${prompt}
-  12741: How am I supposed to trust a so-called professor who would think of doing experiments on living, breathing Tarutaru!?${prompt}
-  12742: Hey! Watch your mouth in front of the big B!${prompt}
-  12743: Professor Chanoix is a respected member of society. Do you think he'd do anything to harm his fellow man?${prompt}
-  12744: And think of this mercenary's feelings!${prompt}
-  12745: ${choice-player-gender}[He/She] looks like ${choice-player-gender}[he/she] hasn't had any decent work for months. You wouldn't want to ruin this for ${choice-player-gender}[him/her] now, would you?${prompt}
-  12746: And what about my feelings!? Are you saying that I'm too weak to find a way to break a measly frog curse on my own? Well, bring it on, I say!${prompt}
-  12747: If you'd like to know, I've been spending the last eight days practicing on how to act once I'm transformed. So there!${prompt}
-  12748: Ribbit, ribbit, baby!${prompt}
-  12749: Huh!?${prompt}
-  12750: How is practicing to be a frog going to help you return to normal!?${prompt}
-  12751: It's... Uh... Um... What do you know, anyway!?${prompt}
-  12752: You see, the real reason I'm doing this is for the green! The gil, baby!${prompt}
-  12753: I don't care about any money!${prompt}
-  12754: Can't you see I'm just worried about your safety!?${prompt}
+    Je suis un expert !
+    Por quoi ?${prompt}
+  12688: Vraiment ? Vous, aventuriers, ne cessez de m’étonner par votre connaissance du monde.${prompt}
+  12689: Tu veux dire que tu n’as aucune connaissance préalable du Poroggo ?${prompt}
+  12690: Et tu crois que ce roturier sans éducation pourra m’assister efficacement dans mes recherches ?${prompt}
+  12691: Eh bien, peu importe. Au moins, tu as été honnête sur ton ignorance–contrairement à mon ami Maudaal ici…${prompt}
+  12692: Écoute bien, car je vais te donner un rapide aperçu des données que j’ai collectées jusqu’à présent.${prompt}
+  12693: Tu ferais mieux de noter ça !${prompt}
+  12694: Oui, j’ai d’abord rencontré ces créatures en excavant une couche de sol profondément sous les Eaux de Windurst. Dans une strate estimée à près de cent ans, mon équipe a découvert une grande quantité d’os de forme étrange.${prompt}
+  12695: Au premier abord, ils ressemblaient aux restes de grosses grenouilles. Cependant…${prompt}
+  12696: Les mesures des crânes nous ont montré que les créatures avaient des cerveaux exceptionnellement grands.${prompt}
+  12697: Mais ce n’était pas tout–les pattes avant semblaient développées au point de pouvoir saisir des objets…${prompt}
+  12698: Tandis que les pattes arrière semblaient plus adaptées à la marche qu’au saut traditionnel qu’on pourrait attendre d’un amphibien terrestre.${prompt}
+  12699: C’est alors que j’ai réalisé que nous n’avions pas trouvé les os d’une grenouille commune, mais une espèce complètement nouvelle et unique !
+  12700: Je sens ce que tu penses…${prompt}
+  12701: C’était comme si nous avions découvert quelque chose directement sorti des pages du célèbre conte de fées, « Poroggo et le Prince ».${prompt}
+  12702: Et c’est bien de la fameuse princesse grenouille, Poroggo, que nous avons tiré le nom pour notre nouvel homme-bête.${prompt}
+  12703: Ma théorie était que, sur des millions d’années, les grenouilles de Sarutabaruta se sont adaptées à leur environnement et ont évolué en cette forme de vie supérieure.${prompt}
+  12704: Cependant !
+  12705: J’ai immédiatement porté mes découvertes au Conseil de l’Akademia à Jeuno, mais ces idiots se sont moqués de moi !${prompt}
+  12706: Oui, c’est vrai, je n’avais pas d’explication pour la découverte d’os de grenouilles « non évoluées » près de ceux des Poroggo…${prompt}
+  12707: Mais je savais qu’il devait y avoir des preuves encore non découvertes.${prompt}
+  12708: Il devait y avoir un « chaînon manquant » qui prouverait ma théorie !${prompt}
+  12709: Et puis, un jour, en étudiant certains des tomes les plus sensibles de l’Optistery, je suis tombé sur un passage des plus intrigants.${prompt}
+  12710: Il disait que…${prompt}
+  12711: '…les Poroggo que nous avons trouvés dans les Eaux de Windurst…${prompt}'
+  12712: '…étaient en fait des grenouilles transformées en créatures hideuses par les magies interdites d’un mage excentrique nommé Samariri !${prompt}'
+  12713: Il était difficile d’accepter que ma théorie originale était incorrecte.${prompt}
+  12714: Cependant, en tant que scientifique, c’était le seul choix qui me restait.${prompt}
+  12715: Après mon échec à Sarutabaruta, j’ai senti le besoin de mettre de la distance entre moi et les Terres du Milieu.${prompt}
+  12716: C’est alors que j’ai décidé d’emballer mon équipement et de partir ici, à Aradjiah, à la recherche de nouvelles connaissances.${prompt}
+  12717: Et jusqu’à récemment, je me suis tenu tranquille avec des études sur le colibri et la chigoe.${prompt}
+  12718: C’est alors que j’ai reçu des nouvelles d’une observation de Poroggo dans les Terres Sauvages des Mamool Ja !${prompt}
+  12719: Selon l’ancien tome que j’ai trouvé à Windurst, tous les Poroggo ont été exterminés par les mages de la Fédération juste après leur « création accidentelle ». Cependant, depuis que j’ai découvert une empreinte étrange près de la bicoque de mon acquaintance, Pabool Ja, j’ai commencé à croire le contraire.${prompt}
+  12720: Récemment, il y a même eu des rapports d’aventuriers sur des créatures semblables à des grenouilles résidant dans les zones humides du bastion des Mamool Ja.${prompt}
+  12721: Ce que je voudrais découvrir, c’est d’où viennent ces hommes-bêtes.${prompt}
+  12722: Sont-ils des descendants des Poroggo engendrés par les sortilèges d’un Tarutaru gâté ?${prompt}
+  12723: Ou s’agit-il d’une espèce complètement différente, évoluée à partir de simples grenouilles comme le stipule ma théorie originale ?${prompt}
+  12724: Et ! Comment sont-ils capables de transformer leurs victimes inattendues en grenouilles ?${prompt}
+  12725: La seule manière d’arriver à des conclusions scientifiques satisfaisantes est par la recherche !${prompt}
+  12726: Et la recherche demande du temps !!${prompt}
+  12727: 'Et donc j’ai planifié une expédition dans les terres sauvages pour chercher les Poroggo insaisissables et assister de mes propres yeux au moment où une victime succombe à leur unique ${color: 5}chant de grenouille${color: 1}.${prompt}'
+  12728: Mais avant de pouvoir partir pour ce voyage, j’avais besoin d’un volontaire…${prompt}
+  12729: '…pour être cette victime !${prompt}'
+  12730: Ah, désolé si je t’ai alarmé. Tes services ne seront requis que pour repousser… des invités indésirables.${prompt}
+  12731: Le noble Salwa-Molwa sera notre cobaye… euh… grenouille.${prompt}
+  12732: Alors c’est notre puissant mercenaire ? Il a l’air un peu maigre, si tu veux mon avis.${prompt}
+  12733: Je suis Salwa-Molwa.${prompt}
+  12734: Je vais aider le professeur avec son expérience.${prompt}
+  12735: Tout ce que tu as à faire, c’est nous garder en vie pendant qu’on collecte les dataru.${prompt}
+  12736: Tu penses pouvoir gérer ça ?${prompt}
+  12737: Salwa !${prompt}
+  12738: Mikilulu !? Que fais-tu ici ?${prompt}
+  12739: Tu penses vraiment aller jusqu’au bout avec ce plan fou ? Et si tu devenais une grenouille pour toujours !?${prompt}
+  12740: De quoi t’inquiètes-tu, bébé ? J’ai le baron pour me protéger… et ce mercenaire aussi. Ils m’aideront à sortir de n’importe quel pétrin.${prompt}
+  12741: Comment suis-je censé faire confiance à un soi-disant professeur qui envisagerait de faire des expériences sur des Tarutaru vivants et respirants !?${prompt}
+  12742: Hé ! Fais attention à ce que tu dis devant le grand B !${prompt}
+  12743: Le Professeur Chanoix est un membre respecté de la société. Crois-tu qu’il ferait quoi que ce soit pour nuire à ses semblables ?${prompt}
+  12744: Et pense aux sentiments de ce mercenaire !${prompt}
+  12745: ${choice-player-gender}[Il/Elle] a l’air de ne pas avoir eu de travail décent depuis des mois. Tu ne voudrais pas gâcher ça pour ${choice-player-gender}[lui/elle] maintenant, n’est-ce pas ?${prompt}
+  12746: Et mes sentiments à moi !? Es-tu en train de dire que je suis trop faible pour trouver un moyen de briser une malédiction de grenouille toute seule ? Eh bien, qu’on y aille, je dis !${prompt}
+  12747: Si tu veux savoir, j’ai passé les huit derniers jours à m’entraîner à comment agir une fois transformé. Alors voilà !${prompt}
+  12748: Croâ, croâ, bébé !${prompt}
+  12749: Hein !?${prompt}
+  12750: Comment t’entraîner à être une grenouille va-t-il t’aider à redevenir normal !?${prompt}
+  12751: C’est… Euh… Hum… Qu’est-ce que tu en sais, de toute façon !?${prompt}
+  12752: Tu vois, la vraie raison pour laquelle je fais ça, c’est pour le vert ! Le gil, bébé !${prompt}
+  12753: Je me fiche de l’argent !${prompt}
+  12754: Ne vois-tu pas que je m’inquiète juste pour ta sécurité !?${prompt}
   12755: |-
-    Pshhh. Whatever.
-    Now scram, sweetcheeks. We men've got important business to attend to.${prompt}
-  12756: Ugh! I don't know why I put up with you!${prompt}
-  12757: But let me just say one thing before I go...${prompt}
-  12758: If you come back a frog...${prompt}
-  12759: '...you won''t be getting any more sugar from this candy cane!${prompt}'
-  12760: What's with her?${prompt}
-  12761: I was kind of hoping that if I was stuck as a frog, she'd kiss me and I'd magically transform back to normal...just like in that fairy tale.${prompt}
-  12762: <Grumble, grumble>...${prompt}
-  12763: Ah! Oh! A thousand apologies, Professor Chanoix!${prompt}
-  12764: Mikilulu obviously cannot fathom the importance of your research (or the reward that accompanies it).${prompt}
-  12765: You don't need to worry, sir! I'm still your loyal servant!${prompt}
-  12766: Though I'm unworthy to even kneel in the light of your zoological greatness...${prompt}
-  12767: '...I''ll be the best guinea toad you''ve ever worked with!${prompt}'
-  12768: That's the spirit, Salwa-Molwa! I'm counting on you!${prompt}
-  12769: Now, as for our rendezvous point. Are you familiar with the secret exit to the Wajaom Woodlands?${prompt}
-  12770: I shall be waiting there for the both of you.${prompt}
-  12771: And do not be late!${prompt}
-  12772: Hey, mercenary-${choice-player-gender}[guy/lady], I know you probably took this job for the reward, but I'd like to ask you...${prompt}
-  12773: Do you think there's anything in this world more important than money?${prompt}
+    Pffft. Peu importe.
+    Maintenant dégage, ma belle. Nous, les hommes, avons des affaires importantes à régler.${prompt}
+  12756: Argh ! Je ne sais pas pourquoi je te supporte !${prompt}
+  12757: Mais laisse-moi juste dire une chose avant de partir…${prompt}
+  12758: Si tu reviens en grenouille…${prompt}
+  12759: '…tu n’auras plus de sucre de ce bâton de canne à sucre !${prompt}'
+  12760: Qu’est-ce qu’elle a ?${prompt}
+  12761: J’espérais un peu que si je restais coincé en grenouille, elle m’embrasserait et je me transformerais magiquement en normal… comme dans ce conte de fées.${prompt}
+  12762: <Grogne, grogne>…${prompt}
+  12763: Ah ! Oh ! Mille excuses, Professeur Chanoix !${prompt}
+  12764: Mikilulu ne peut évidemment pas comprendre l’importance de vos recherches (ni la récompense qui va avec).${prompt}
+  12765: Ne vous inquiétez pas, monsieur ! Je suis toujours votre fidèle serviteur !${prompt}
+  12766: Bien que je sois indigne de m’agenouiller à la lumière de votre grandeur zoologique…${prompt}
+  12767: '…je serai la meilleure grenouille cobaye avec laquelle vous ayez jamais travaillé !${prompt}'
+  12768: C’est l’esprit, Salwa-Molwa ! Je compte sur toi !${prompt}
+  12769: Maintenant, pour notre point de rendez-vous. Connais-tu la sortie secrète vers les Bois de Wajaom ?${prompt}
+  12770: Je vous y attendrai tous les deux.${prompt}
+  12771: Et ne sois pas en retard !${prompt}
+  12772: Hé, mercenaire-${choice-player-gender}[gars/dame], je sais que tu as probablement pris ce boulot pour la récompense, mais j’aimerais te demander…${prompt}
+  12773: Penses-tu qu’il y a quelque chose dans ce monde de plus important que l’argent ?${prompt}
   12774: |-
-    Well do you?
+    Alors, penses-tu ?
     ${selection-lines}
-    Yeah. Puppies are pretty nice.
-    No. Even puppies pale to money.${prompt}
-  12775: You see...
-  12776: When this job's over, I'm going to ask my sweetheart Mikilulu to marry me.${prompt}
-  12777: That's why I'm going through with this. I'm not doing it for the money like I said.${prompt}
-  12778: It's just, I can't tell Mikilulu that yet.${prompt}
-  12779: Getting married is a serious thing, but I don't think I'm ready yet. I'm still the same, weak boy that got his butt kicked on the Ballista courts back at boarding school.${prompt}
-  12780: Before I even try to prove to Miki that I can protect her, I have to prove to myself that I can.${prompt}
-  12781: See? I know what I'm doing! I just wish Miki understood as well...${prompt}
-  12782: I mean, I can see why she is worried and all, but I didn't think she would be so unreasonable!${prompt}
-  12783: I guess I could sit her down and explain everything, but then she'd just get all teary-eyed like she always does...${prompt}
-  12784: Oh, sorry about that.${prompt}
-  12785: I didn't mean to put any extra pressure on you or anything. (Though, Miki would be devastated if anything were to happen to me on this mission...)${prompt}
-  12786: Anyway, Miki's happiness is riding on my performance here.${prompt}
-  12787: And if I have to become a frog thirty times over to prove my love to her, then so be it!${prompt}
-  12788: Once you've made your preparations, you know where to meet me and the B.${prompt}
-  12789: See you around!${prompt}
-  12790: Ah, quite punctual of you, ${name-player}.${prompt}
-  12791: “As swift as a raptor,” one might say.${prompt}
-  12792: I should expect nothing less from a seasoned mercenary like yourself.${prompt}
-  12793: Now, if only all my help were as competent...${prompt}
-  12794: Where on Vana'diel could that nimwit be!?${prompt}
-  12795: You're late, ${name-player}! “As laggard as a wamouracampa,” one might say.${prompt}
-  12796: And you call yourself a mercenary... It is a wonder the Empire can thrive when protected by such a pitiful army of skivers.${prompt}
-  12797: If you were working with my research team, you'd be fired before you stepped in the door. Why, you even make that assistant of mine, Atelloune, look like the Goddess Herself!${prompt}
-  12798: And it seems your tendency towards tardiness is not necessarily a unique trait...${prompt}
+    Oui. Les chiots, c’est plutôt cool.
+    Non. Même les chiots pâlissent face à l’argent.${prompt}
+  12775: Tu vois…
+  12776: Quand ce boulot sera fini, je vais demander à ma chérie Mikilulu de m’épouser.${prompt}
+  12777: C’est pourquoi je vais jusqu’au bout. Je ne le fais pas pour l’argent comme je l’ai dit.${prompt}
+  12778: C’est juste que je ne peux pas encore le dire à Mikilulu.${prompt}
+  12779: Se marier, c’est une chose sérieuse, mais je ne pense pas être prêt. Je suis toujours le même garçon faible qui se faisait botter les fesses sur les terrains de Ballista à l’internat.${prompt}
+  12780: Avant même d’essayer de prouver à Miki que je peux la protéger, je dois me prouver à moi-même que je peux le faire.${prompt}
+  12781: Tu vois ? Je sais ce que je fais ! J’aimerais juste que Miki comprenne aussi…${prompt}
+  12782: Je veux dire, je vois pourquoi elle est inquiète et tout, mais je ne pensais pas qu’elle serait aussi déraisonnable !${prompt}
+  12783: Je pourrais m’asseoir avec elle et tout lui expliquer, mais alors elle deviendrait toute larmoyante comme elle le fait toujours…${prompt}
+  12784: Oh, désolé pour ça.${prompt}
+  12785: Je ne voulais pas te mettre une pression supplémentaire ou quoi que ce soit. (Bien que Miki serait dévastée s’il m’arrivait quelque chose pendant cette mission…)${prompt}
+  12786: Bref, le bonheur de Miki dépend de ma performance ici.${prompt}
+  12787: Et s’il faut que je devienne une grenouille trente fois pour prouver mon amour pour elle, eh bien, qu’il en soit ainsi !${prompt}
+  12788: Une fois que tu auras fait tes préparatifs, tu sais où me retrouver avec le B.${prompt}
+  12789: À bientôt !${prompt}
+  12790: Ah, très ponctuel de ta part, ${name-player}.${prompt}
+  12791: « Aussi rapide qu’un raptor », pourrait-on dire.${prompt}
+  12792: Je n’attendrais rien de moins d’un mercenaire aguerri comme toi.${prompt}
+  12793: Maintenant, si seulement tous mes aides étaient aussi compétents…${prompt}
+  12794: Où diable peut bien être ce crétin sur Vana’diel !?${prompt}
+  12795: Tu es en retard, ${name-player} ! « Aussi lambin qu’un wamouracampa », pourrait-on dire.${prompt}
+  12796: Et tu te dis mercenaire… C’est un miracle que l’Empire prospère quand il est protégé par une armée aussi pitoyable de tire-au-flanc.${prompt}
+  12797: Si tu travaillais dans mon équipe de recherche, tu serais viré avant même d’avoir franchi la porte. Tu fais même passer mon assistante, Atelloune, pour la Déesse elle-même !${prompt}
+  12798: Et il semble que ta tendance à être en retard ne soit pas forcément un défaut unique…${prompt}
   12799: |-
-    Late! Late! Late!
-    I'm gonna be lataru!
-  12800: Ulp! You guys haven't been waiting too long for me, I hope.${prompt}
+    En retard ! En retard ! En retard !
+    Je vais être en retardaru !
+  12800: Oups ! Vous n’avez pas trop attendu pour moi, j’espère.${prompt}
   12801: |-
-    Ahem!
-    I apologize deeply for my delayed arrival, and humbly beg your forgiveness.${prompt}
-  12802: Salwa the Unworthy, at your service.${prompt}
-  12803: I would've been here earlier, but I thought we were supposed to meet at the exit to Bhaflau!
-  12804: Fool!${prompt}
-  12805: How many times have I told you, I am not a man to be kept waiting!${prompt}
-  12806: Or perhaps you thought we were going on a picnic to the countryside?${prompt}
-  12807: Look at this fine mercenary, all ready to embark on our important mission. At least one of you has some sense of responsibility.${prompt}
-  12808: Do not forget, Salwa-Molwa, there are thousands more Tarutaru where you came from. I'm sure I can find another to assist me!${prompt}
-  12809: I-I'm sorry, Your Professorship! Please forgive me! It won't happen again!${prompt}
-  12810: You are lucky I don't bend you across my knee and give you a good flogging! Maybe that would teach you a lesson!${prompt}
-  12811: I seriously worry about the success of my research...${prompt}
-  12812: But enough of this idle chit-chat. I guess there is only one way to see if you have truly learned your lesson.${prompt}
-  12813: ${name-player}. Am I safe to assume that you are familiar with the quickest route to Mamo--?
-  12814: <Yawn>...${prompt}
-  12815: What sort of enchantment is this?${prompt}
-  12816: Hm? Where is our little friend!?${prompt}
-  12817: ${name-player}! And you call yourself a bodyguard! It has been less than an hour and you have already succeeded in losing one of my team!${prompt}
-  12818: Luckily it was just Salwa, but what if it had been me!?${prompt}
-  12819: While I do not like the idea of losing precious research time...${prompt}
-  12820: '...I suppose we should locate the lost chap.${prompt}'
-  12821: However, I haven't the slightest of ideas where to begin searching.${prompt}
-  12822: What about you? Did you happen to see anything while you were lounging there on the leaves?${prompt}
+    Hem !
+    Je m’excuse profondément pour mon arrivée tardive et vous supplie humblement de me pardonner.${prompt}
+  12802: Salwa l’Indigne, à votre service.${prompt}
+  12803: J’aurais été là plus tôt, mais j’ai cru qu’on devait se retrouver à la sortie de Bhaflau !${prompt}
+  12804: Imbécile !${prompt}
+  12805: Combien de fois t’ai-je dit, je ne suis pas un homme qu’on fait attendre !${prompt}
+  12806: Ou peut-être as-tu pensé qu’on allait pique-niquer à la campagne ?${prompt}
+  12807: Regarde ce mercenaire exemplaire, tout prêt à embarquer pour notre mission importante. Au moins l’un de vous a un sens des responsabilités.${prompt}
+  12808: N’oublie pas, Salwa-Molwa, il y a des milliers d’autres Tarutaru d’où tu viens. Je suis sûr que je peux en trouver un autre pour m’assister !${prompt}
+  12809: Je-je suis désolé, Votre Professorship ! Veuillez me pardonner ! Ça n’arrivera plus !${prompt}
+  12810: Tu as de la chance que je ne te plie pas sur mon genou pour te donner une bonne correction ! Peut-être que ça t’apprendrait une leçon !${prompt}
+  12811: Je m’inquiète sérieusement pour la réussite de mes recherches…${prompt}
+  12812: Mais assez de ces bavardages inutiles. Je suppose qu’il n’y a qu’une seule façon de voir si tu as vraiment appris ta leçon.${prompt}
+  12813: ${name-player}. Puis-je présumer que tu es familier avec le chemin le plus rapide vers Mamo– ?
+  12814: <Bâille>…${prompt}
+  12815: Quel genre d’enchantement est-ce ?${prompt}
+  12816: Hm ? Où est notre petit ami !?${prompt}
+  12817: ${name-player} ! Et tu te dis garde du corps ! Cela fait moins d’une heure et tu as déjà réussi à perdre un membre de mon équipe !${prompt}
+  12818: Heureusement que c’était juste Salwa, mais imagine si ça avait été moi !?${prompt}
+  12819: Bien que je n’aime pas l’idée de perdre un temps précieux de recherche…${prompt}
+  12820: '…je suppose que nous devrions retrouver ce pauvre bougre.${prompt}'
+  12821: Cependant, je n’ai pas la moindre idée par où commencer les recherches.${prompt}
+  12822: Et toi ? As-tu vu quelque chose pendant que tu te prélassais sur les feuilles ?${prompt}
   12823: |-
     I thought I saw...
     ${selection-lines}
@@ -25752,7 +25752,7 @@ entries:
     Wow, so much I never knew...
     If you have any more of these, please show them to me!${prompt}
   14009: |-
-    Nope, never seen this one before.
+    nope, never seen this one before.
     Uh-huh... So you're supposed to do this, and then--ah, I got it! Be sure to let me know if you come across any others, okay?${prompt}
   14010: |-
     Well, that cleared up a few things for me.
