@@ -17866,30 +17866,30 @@ entries:
     増えたポイント　${number: 0}
     増えたカウント　${number: 1}${prompt}
   7320: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Tu peux définir cet endroit comme ton point de retour actuel.
+    Une fois qu’un point de retour est défini, tu y retourneras chaque fois que tu seras mis hors combat.${prompt}
   7321: |-
-    Set this as current home point?
+    Définir cet endroit comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7322: Home point set!${prompt}
-  7323: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  7322: Point de retour défini !${prompt}
+  7323: Un point de retour peut être défini comme un endroit où tu retournes à Vana’diel lorsque tu es mis K.O. Tu peux aussi utiliser un point de retour pour te téléporter vers d’autres points de retour.${prompt}
   7324: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir cet endroit comme ton point de retour.
+    Autres réglages.
+    En y repensant, laissez tomber.${prompt}
   7325: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  7326: You may teleport from here to any other home point you have registered.
+    Tu as enregistré un nouveau point de retour !
+    Tu peux maintenant te téléporter ici depuis n’importe quel autre point de retour.${prompt}
+  7326: Tu peux te téléporter d’ici vers n’importe quel autre point de retour que tu as enregistré.${prompt}
   7327: |-
-    Teleport where?
+    Où te téléporter ?
     ${selection-lines}
-    Never mind.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -17906,81 +17906,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   7328: |-
-    Teleport where?（${zone: 33[2]}）
+    Où te téléporter ? (${zone: 33[2]})
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  7329: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  7330: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  7331: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de Retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de Retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de Retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de Retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de Retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  7329: Tu n’as pas encore enregistré d’autres points de retour, et tu ne peux donc pas te téléporter.${prompt}
+  7330: 'Il en coûte ${number: 3} gil pour te téléporter au Point de Retour #${number: 2} dans ${zone: 1[2]}.'
+  7331: 'Il n’y a aucun frais pour te téléporter au Point de Retour #${number: 2} dans ${zone: 1[2]}.'
   7332: |-
-    Teleport? (Current gil: ${number: 0})
+    Te téléporter ? (Gil actuel : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s’il te plaît.
+    Non, merci.${prompt}
   7333: |-
-    Teleport to which region?
+    Vers quelle région te téléporter ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    En y repensant, aucune.
+    Sélectionner parmi les favoris.
+    Région actuelle.
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Ouest Aht Urhgan/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est Ulbuka].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    ${choice: 1}[Elshimo Basse/].
+    ${choice: 1}[Elshimo Haute/].
+    ${choice: 1}[Tu’Lia/].
+    Page précédente.
+    Page suivante.${prompt}
   7334: |-
-    Teleport where?
+    Où te téléporter ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  7335: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone de Rise of the Zilart.
+    Une zone de Chains of Promathia.
+    Une zone de Treasures of Aht Urhgan.
+    Une zone de Wings of the Goddess.
+    Une zone de Seekers of Adoulin.${prompt}
+  7335: Tu peux changer la méthode de sélection de la zone de ton point de retour souhaité pour te téléporter.${prompt}
   7336: |-
-    Which setting would you like?
+    Quel réglage veux-tu ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  7337: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon réglage actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  7337: 'Tu sélectionnes maintenant par ${choice: 1}[région/extension].'
   7338: |-
-    Teleport where?
+    Où te téléporter ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -17990,13 +17990,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  7339: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  7340: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  7339: 'Le Point de Retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] ta liste d’emplacements favoris.'
+  7340: Ta liste d’emplacements favoris est pleine. Tu dois supprimer une entrée existante pour en enregistrer une nouvelle.${prompt}
   7341: |-
-    Delete which?
+    Supprimer quoi ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18006,136 +18006,136 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  7342: I'm a traveling moogle, kupo. I help adventurers in the Outlands access items they have stored in a Mog House elsewhere, kupo.${prompt}
-  7343: This isn't a Mog House, so you can only use the “Mog Safe,” “Change Jobs,” and “Delivery Box” commands, kupo.${prompt}
-  7344: 'You have to pay fee of ${number: 0} gil to transfer your items to the Outlands, kupo. Why? Because the world is a cold place for rogue moogles, kupo.${prompt}'
-  7345: Of course, you can move your items back to your Mog House in town, but if you want to transfer them to the Outlands again, you'll have to pay another fee, kupo. I've got to make a living too, kupo.${prompt}
+  7342: Je suis un moogle voyageur, kupo. J’aide les aventuriers des Terres Sauvages à accéder aux objets qu’ils ont stockés dans une Maison Mog ailleurs, kupo.${prompt}
+  7343: Ce n’est pas une Maison Mog, donc tu ne peux utiliser que les commandes « Coffre Mog », « Changer de Métier » et « Boîte de Livraison », kupo.${prompt}
+  7344: 'Tu dois payer des frais de ${number: 0} gil pour transférer tes objets vers les Terres Sauvages, kupo. Pourquoi ? Parce que le monde est un endroit cruel pour les moogles vagabonds, kupo.${prompt}'
+  7345: Bien sûr, tu peux renvoyer tes objets à ta Maison Mog en ville, mais si tu veux les transférer à nouveau vers les Terres Sauvages, il faudra payer d’autres frais, kupo. Moi aussi, je dois gagner ma vie, kupo.${prompt}
   7346: |-
-    Transfer items? (Current gil:${number: 1})
+    Transférer des objets ? (Gil actuel : ${number: 1})
     ${selection-lines}
-    Pay ${number: 0} gil.
-    Don't transfer items.${prompt}
-  7347: You don't have enough gil, kupo.${prompt}
-  7348: Item transfer complete, kupo.${prompt}
+    Payer ${number: 0} gil.
+    Ne pas transférer d’objets.${prompt}
+  7347: Tu n’as pas assez de gil, kupo.${prompt}
+  7348: Transfert d’objets terminé, kupo.${prompt}
   7349: '${number: 2} , ${number: 3}${prompt}'
-  7350: A hunt registry has been placed here by the Adventurers' Mutual Aid Network (A.M.A.N.). Its pages are laden with the names of spine-chilling monsters.${prompt}
-  7351: A hunt registry has been placed here by the Servicemen's Mutual Aid Network (S.M.A.N.). Its pages are laden with the names of spine-chilling monsters.${prompt}
+  7350: Un registre de chasse a été placé ici par le Réseau d’Aide Mutuelle des Aventuriers (A.M.A.N.). Ses pages sont remplies de noms de monstres terrifiants.${prompt}
+  7351: Un registre de chasse a été placé ici par le Réseau d’Aide Mutuelle des Soldats (S.M.A.N.). Ses pages sont remplies de noms de monstres terrifiants.${prompt}
   7352: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Nothing.
-    Undertake a hunt.
-    Read explanation.
-    Record completion of hunt.
-    View current hunt.
-    Cancel current hunt.
-    View scyld balance.${prompt}
-  7353: You must cancel your current hunt if you wish to undertake another.${prompt}
-  7354: Little time has passed since your last hunt. It is recommended that you take some time to recuperate before undertaking another.${prompt}
-  7355: You cannot undertake a hunt while a training regime is active.${prompt}
+    Rien.
+    Entreprendre une chasse.
+    Lire l’explication.
+    Enregistrer la fin d’une chasse.
+    Voir la chasse actuelle.
+    Annuler la chasse actuelle.
+    Vérifier ton solde de scylds.${prompt}
+  7353: Tu dois annuler ta chasse actuelle si tu veux en entreprendre une autre.${prompt}
+  7354: Peu de temps s’est écoulé depuis ta dernière chasse. Il est recommandé de prendre du temps pour te reposer avant d’en entreprendre une autre.${prompt}
+  7355: Tu ne peux pas entreprendre une chasse tant qu’un régime d’entraînement est actif.${prompt}
   7356: |-
-    Cancel your training regime?
+    Annuler ton régime d’entraînement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7357: Current training regime canceled.${prompt}
-  7358: You must either notify the completion of, or cancel your current hunt in order to undertake another.${prompt}
-  7359: "Which page?\n${selection-lines}\nI've changed my mind.\nWest Ronfaure.\nEast Ronfaure.\nLa Theine Plateau.\nValkurm Dunes.\nJugner Forest.\nBatallia Downs.\nCarpenters' Landing.\nGhelsba Outpost.\nFort Ghelsba.\nKing Ranperre's Tomb.\nBostaunieux Oubliette.\nOrdelle's Caves.\nEldieme Necropolis.\nDavoi.\nHabitat Unknown.\n \n \n \n \n ${prompt}"
-  7360: "Which page?\n${selection-lines}\nI've changed my mind.\nNorth Gustaberg.\nSouth Gustaberg.\nKonschtat Highlands.\nValkurm Dunes.\nPashhow Marshlands.\nRolanberry Fields.\nPalborough Mines.\nDangruf Wadi.\nKorroloka Tunnel.\nGusgen Mines.\nCrawlers' Nest.\nBeadeaux.\nOldton Movalpolos.\nNewton Movalpolos.\nHabitat Unknown.\n \n \n \n \n ${prompt}"
-  7361: "Which page?\n${selection-lines}\nI've changed my mind.\nWest Sarutabaruta.\nEast Sarutabaruta.\nTahrongi Canyon.\nBuburimu Peninsula.\nBibiki Bay.\nMeriphataud Mountains.\nSauromugue Champaign.\nAttohwa Chasm.\nGiddeus.\nToraimarai Canal.\nInner Horutoto Ruins.\nOuter Horutoto Ruins.\nMaze of Shakhrami.\nLabyrinth of Onzozo.\nGarlaige Citadel.\nCastle Oztroja.\nHabitat Unknown.\n \n \n ${prompt}"
-  7362: "Which page?\n${selection-lines}\nI've changed my mind.\nQufim Island.\nBeaucedine Glacier.\nXarcabard.\nUleguerand Range.\nThe Sanctuary of Zi'Tah.\nRo'Maeve.\nUpper Delkfutt's Tower.\nMiddle Delkfutt's Tower.\nLower Delkfutt's Tower.\nRanguemont Pass.\nFei'Yin.\nCastle Zvahl Baileys.\nCastle Zvahl Keep.\nThe Boyahda Tree.\nHabitat Unknown.\n \n \n \n \n ${prompt}"
-  7363: "Which page?\n${selection-lines}\nI've changed my mind.\nYuhtunga Jungle.\nYhoator Jungle.\nSea Serpent Grotto.\nTemple of Uggalepih.\nDen of Rancor.\nIfrit's Cauldron.\n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7364: "Which page?\n${selection-lines}\nI've changed my mind.\nCape Teriggan.\nEastern Altepa Desert.\nWestern Altepa Desert.\nKuftal Tunnel.\nGustav Tunnel.\nQuicksand Caves.\n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7365: "Which page?\n${selection-lines}\nI've changed my mind.\nLufaise Meadows.\nMisareaux Coast.\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7366: "Which page?\n${selection-lines}\nI've changed my mind.\nWajaom Woodlands.\nBhaflau Thickets.\nMount Zhayolm.\nMamook.\nAydeewa Subterrane.\nHalvung.\n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7367: "Which page?\n${selection-lines}\nI've changed my mind.\nCaedarva Mire.\nArrapago Reef.\nAlzadaal Undersea Ruins.\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7368: "Which page?\n${selection-lines}\nI've changed my mind.\nEast Ronfaure.\nJugner Forest.\nVunkerl Inlet.\nBatallia Downs.\nEldieme Necropolis.\nBeaucedine Glacier.\nXarcabard.\n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7369: "Which page?\n${selection-lines}\nI've changed my mind.\nNorth Gustaberg.\nGrauberg.\nPashhow Marshlands.\nRolanberry Fields.\nCrawlers' Nest.\nBeaucedine Glacier.\nXarcabard.\n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
-  7370: "Which page?\n${selection-lines}\nI've changed my mind.\nWest Sarutabaruta.\nFort Karugo-Narugo.\nMeriphataud Mountains.\nSauromugue Champaign.\nGarlaige Citadel.\nBeaucedine Glacier.\nXarcabard.\n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+    Oui.
+    Non.${prompt}
+  7357: Régime d’entraînement actuel annulé.${prompt}
+  7358: Tu dois soit notifier la fin de, soit annuler ta chasse actuelle pour en entreprendre une autre.${prompt}
+  7359: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nRonfaure Ouest.\nRonfaure Est.\nPlateau de La Theine.\nDunes de Valkurm.\nForêt de Jugner.\nPlaines de Batallia.\nAtterrissage des Charpentiers.\nAvant-poste de Ghelsba.\nFort Ghelsba.\nTombeau du Roi Ranperre.\nOubliette de Bostaunieux.\nCavernes d’Ordelle.\nNécropole d’Eldieme.\nDavoi.\nHabitat Inconnu.\n \n \n \n \n ${prompt}"
+  7360: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nGustaberg Nord.\nGustaberg Sud.\nHautes Terres de Konschtat.\nDunes de Valkurm.\nMarais de Pashhow.\nChamps de Rolanberry.\nMines de Palborough.\nDangruf Wadi.\nTunnel de Korroloka.\nMines de Gusgen.\nNid des Rampants.\nBeadeaux.\nMovalpolos Ancien.\nMovalpolos Newton.\nHabitat Inconnu.\n \n \n \n \n ${prompt}"
+  7361: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nSarutabaruta Ouest.\nSarutabaruta Est.\nCanyon de Tahrongi.\nPéninsule de Buburimu.\nBaie de Bibiki.\nMontagnes de Meriphataud.\nChampagne de Sauromugue.\nAbîme d’Attohwa.\nGiddeus.\nCanal de Toraimarai.\nRuines Intérieures de Horutoto.\nRuines Extérieures de Horutoto.\nLabyrinthe de Shakhrami.\nLabyrinthe d’Onzozo.\nCitadelle de Garlaige.\nChâteau Oztroja.\nHabitat Inconnu.\n \n \n ${prompt}"
+  7362: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nÎle de Qufim.\nGlacier de Beaucedine.\nXarcabard.\nChaîne d’Uleguerand.\nSanctuaire de Zi’Tah.\nRo’Maeve.\nTour Supérieure de Delkfutt.\nTour Moyenne de Delkfutt.\nTour Inférieure de Delkfutt.\nCol de Ranguemont.\nFei’Yin.\nBaileys du Château Zvahl.\nDonjon du Château Zvahl.\nArbre de Boyahda.\nHabitat Inconnu.\n \n \n \n \n ${prompt}"
+  7363: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nJungle de Yuhtunga.\nJungle de Yhoator.\nGrotte du Serpent de Mer.\nTemple d’Uggalepih.\nRepaire de la Rancune.\nChaudron d’Ifrit.\n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7364: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nCap Teriggan.\nDésert Est d’Altepa.\nDésert Ouest d’Altepa.\nTunnel de Kuftal.\nTunnel de Gustav.\nCavernes de Sables Mouvants.\n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7365: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nPrairies de Lufaise.\nCôte de Misareaux.\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7366: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nForêts de Wajaom.\nFourrés de Bhaflau.\nMont Zhayolm.\nMamook.\nSubterrane d’Aydeewa.\nHalvung.\n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7367: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nMarais de Caedarva.\nRécif d’Arrapago.\nRuines Sous-marines d’Alzadaal.\n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7368: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nRonfaure Est.\nForêt de Jugner.\nEntrée de Vunkerl.\nPlaines de Batallia.\nNécropole d’Eldieme.\nGlacier de Beaucedine.\nXarcabard.\n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7369: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nGustaberg Nord.\nGrauberg.\nMarais de Pashhow.\nChamps de Rolanberry.\nNid des Rampants.\nGlacier de Beaucedine.\nXarcabard.\n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
+  7370: "Quelle page ?\n${selection-lines}\nJ’ai changé d’avis.\nSarutabaruta Ouest.\nFort Karugo-Narugo.\nMontagnes de Meriphataud.\nChampagne de Sauromugue.\nCitadelle de Garlaige.\nGlacier de Beaucedine.\nXarcabard.\n \n \n \n \n \n \n \n \n \n \n \n \n ${prompt}"
   7371: |-
-    Which page?
+    Quelle page ?
     ${selection-lines}
-    I've changed my mind.
-    Hunt #1.
-    Hunt #2.
-    Hunt #3.
-    Hunt #4.
-    Hunt #5.
-    Hunt #6.
-    Hunt #7.
-    Hunt #8.
-    Hunt #9.
-    Hunt #10.
-    Hunt #11.
-    Hunt #12.
-    Hunt #13.
-    Hunt #14.
-    Hunt #15.
-    Hunt #16.
-    Hunt #17.
-    Hunt #18.
-    Hunt #19.
-    Hunt #20.
-    Hunt #21.
-    Hunt #22.
-    Hunt #23.
-    Hunt #24.
-    Hunt #25.
-    Hunt #26.
-    Hunt #27.
-    Hunt #28.
-    Hunt #29.
-    Hunt #30.${prompt}
-  7372: The information on this page instructs you to defeat the following:${prompt}
+    J’ai changé d’avis.
+    Chasse #1.
+    Chasse #2.
+    Chasse #3.
+    Chasse #4.
+    Chasse #5.
+    Chasse #6.
+    Chasse #7.
+    Chasse #8.
+    Chasse #9.
+    Chasse #10.
+    Chasse #11.
+    Chasse #12.
+    Chasse #13.
+    Chasse #14.
+    Chasse #15.
+    Chasse #16.
+    Chasse #17.
+    Chasse #18.
+    Chasse #19.
+    Chasse #20.
+    Chasse #21.
+    Chasse #22.
+    Chasse #23.
+    Chasse #24.
+    Chasse #25.
+    Chasse #26.
+    Chasse #27.
+    Chasse #28.
+    Chasse #29.
+    Chasse #30.${prompt}
+  7372: Les informations de cette page te demandent de vaincre les suivants :${prompt}
   7373: |-
-    Scylds required: ${number: 0} (Balance: ${number: 1})
-    Elusiveness: ${choice: 2}[☆☆☆☆☆☆☆☆☆☆/★☆☆☆☆☆☆☆☆☆/★★☆☆☆☆☆☆☆☆/★★★☆☆☆☆☆☆☆/★★★★☆☆☆☆☆☆/★★★★★☆☆☆☆☆/★★★★★★☆☆☆☆/★★★★★★★☆☆☆/★★★★★★★★☆☆/★★★★★★★★★☆/★★★★★★★★★★]
-    Ferocity: ${choice: 3}[☆☆☆☆☆☆☆☆☆☆/★☆☆☆☆☆☆☆☆☆/★★☆☆☆☆☆☆☆☆/★★★☆☆☆☆☆☆☆/★★★★☆☆☆☆☆☆/★★★★★☆☆☆☆☆/★★★★★★☆☆☆☆/★★★★★★★☆☆☆/★★★★★★★★☆☆/★★★★★★★★★☆/★★★★★★★★★★]
-    Reward: ${number: 4} ${choice-plurality: 4}[scyld/scylds]${prompt}
+    Scylds requis : ${number: 0} (Solde : ${number: 1})
+    Fuite : ${choice: 2}[☆☆☆☆☆☆☆☆☆☆/★☆☆☆☆☆☆☆☆☆/★★☆☆☆☆☆☆☆☆/★★★☆☆☆☆☆☆☆/★★★★☆☆☆☆☆☆/★★★★★☆☆☆☆☆/★★★★★★☆☆☆☆/★★★★★★★☆☆☆/★★★★★★★★☆☆/★★★★★★★★★☆/★★★★★★★★★★]
+    Férocité : ${choice: 3}[☆☆☆☆☆☆☆☆☆☆/★☆☆☆☆☆☆☆☆☆/★★☆☆☆☆☆☆☆☆/★★★☆☆☆☆☆☆☆/★★★★☆☆☆☆☆☆/★★★★★☆☆☆☆☆/★★★★★★☆☆☆☆/★★★★★★★☆☆☆/★★★★★★★★☆☆/★★★★★★★★★☆/★★★★★★★★★★]
+    Récompense : ${number: 4} ${choice-plurality: 4}[scyld/scylds]${prompt}
   7374: |-
-    Accept hunt? (Current scylds: ${number: 0})
+    Accepter la chasse ? (Scylds actuels : ${number: 0})
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7375: Hunt accepted!${prompt}
+    Oui.
+    Non.${prompt}
+  7375: Chasse acceptée !${prompt}
   7376: |-
-    You use ${number: 0} ${choice-plurality: 0}[scyld/scylds].
-    Scyld balance: ${number: 1}.${prompt}
-  7377: You do not have enough scylds.${prompt}
-  7378: The hunt registry is a tome through which seasoned adventurers can undertake assignments to eliminate monsters deemed to be impediments to A.M.A.N. activities.${prompt}
-  7379: The hunt registry is a tome through which veteran soldiers can undertake assignments to eliminate monsters deemed to be impediments to S.M.A.N. activities.${prompt}
-  7380: Assignments, or “hunts,” can be undertaken simply by selecting the name of a monster listed in the registry.${prompt}
+    Tu utilises ${number: 0} ${choice-plurality: 0}[scyld/scylds].
+    Solde de scylds : ${number: 1}.${prompt}
+  7377: Tu n’as pas assez de scylds.${prompt}
+  7378: Le registre de chasse est un tome par lequel les aventuriers expérimentés peuvent entreprendre des missions pour éliminer des monstres jugés être des obstacles aux activités de l’A.M.A.N.${prompt}
+  7379: Le registre de chasse est un tome par lequel les soldats vétérans peuvent entreprendre des missions pour éliminer des monstres jugés être des obstacles aux activités du S.M.A.N.${prompt}
+  7380: Les missions, ou « chasses », peuvent être entreprises simplement en sélectionnant le nom d’un monstre listé dans le registre.${prompt}
   7381: |-
-    Pertinent information such as monster elusiveness and ferocity has been recorded for your reference.
-    As safety cannot be guaranteed, we ask that you hunt within your ability.${prompt}
+    Des informations pertinentes comme la fuite et la férocité des monstres ont été enregistrées pour ton usage.
+    Comme la sécurité n’est pas garantie, nous te demandons de chasser selon tes capacités.${prompt}
   7382: |-
-    Hunts pit you against creatures of extreme ferocity, and are not intended for training.
-    For this reason, you cannot undertake a hunt while a training regime is active.${prompt}
-  7383: Should party members undertaking a common hunt defeat the objective, the kill will be considered valid for all.${prompt}
+    Les chasses te mettent face à des créatures d’une férocité extrême, et ne sont pas destinées à l’entraînement.
+    Pour cette raison, tu ne peux pas entreprendre une chasse tant qu’un régime d’entraînement est actif.${prompt}
+  7383: Si les membres d’un groupe entreprenant une chasse commune vainquent l’objectif, la victoire sera considérée comme valide pour tous.${prompt}
   7384: |-
-    Upon the completion of a hunt, record your success in a hunt registry.
-    Doing so will earn you rewards corresponding to difficulty as well as “scylds”--tokens of your valor.${prompt}
+    À la fin d’une chasse, enregistre ton succès dans un registre de chasse.
+    Cela te rapportera des récompenses correspondant à la difficulté ainsi que des « scylds » — des marques de ton courage.${prompt}
   7385: |-
-    More scylds will grant you access to increasingly difficult and rewarding assignments.
-    Be warned, however, that once expended, scylds will not be refunded for any reason.${prompt}
-  7386: Lastly, please note that a mandatory cool-down period will be imposed upon all hunters following the completion of a hunt. Until this time has elapsed, you will not be permitted to undertake another hunt.${prompt}
-  7387: You record your hunt.
-  7388: '${color-alt: 121}You obtain ${article} ${item-article: 0[2]}!'
+    Plus de scylds te donneront accès à des missions de plus en plus difficiles et lucratives.
+    Cependant, sois averti que, une fois dépensés, les scylds ne seront pas remboursés pour quelque raison que ce soit.${prompt}
+  7386: Enfin, note qu’une période de récupération obligatoire sera imposée à tous les chasseurs après la fin d’une chasse. Jusqu’à ce que ce temps soit écoulé, tu ne pourras pas entreprendre une autre chasse.${prompt}
+  7387: Tu enregistres ta chasse.${prompt}
+  7388: '${color-alt: 121}Tu obtiens ${article} ${item-article: 0[2]} !'
   7389: |-
-    You obtain ${number: 0} ${choice-plurality: 0}[scyld/scylds]!
-    Current balance: ${number: 1} ${choice-plurality: 1}[scyld/scylds].
-  7390: The status of your current hunt is as follows.${prompt}
+    Tu obtiens ${number: 0} ${choice-plurality: 0}[scyld/scylds] !
+    Solde actuel : ${number: 1} ${choice-plurality: 1}[scyld/scylds].
+  7390: Le statut de ta chasse actuelle est le suivant.${prompt}
   7391: |-
-    Cancel hunt?
+    Annuler la chasse ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7392: |-
-    Are you certain?
+    Es-tu certain ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7393: Hunt canceled.${prompt}
+    Oui.
+    Non.${prompt}
+  7393: Chasse annulée.${prompt}
   7394: 'You currently possess ${number: 0} ${choice-plurality: 0}[scyld/scylds].${prompt}'
   7395: ${prompt}
   7396: '${number: 0} member${choice-plurality: 0}[/s] of the worm family.${prompt}'
@@ -22532,339 +22532,339 @@ entries:
   10465: 'Training area: West Ronfaure.${prompt}'
   10466: 'Training area: West Ronfaure.${prompt}'
   10467: |-
-    The ship fare to Al Zahbi is ${number: 1} gil.
-    Will you be boarding now?${prompt}
+    Le tarif du bateau pour Al Zahbi est de ${number: 1} gil.
+    Voulez-vous embarquer maintenant ?${prompt}
   10468: |-
-    Board the ship to Al Zahbi?
+    Embarquer sur le bateau pour Al Zahbi ?
     ${selection-lines}
-    Yes, please.
-    Not now.${prompt}
+    Oui, s’il te plaît.
+    Pas maintenant.${prompt}
   10469: |-
-    Thank you!
-    Go on through!${prompt}
-  10470: I'm sorry, but you seem to be short on gil.${prompt}
-  10471: Talk to Sajhra at the counter if you would like to enter town.${prompt}
-  10472: Talk to Abihaal at the counter if you would like to board the ship.${prompt}
-  10473: This is the entrance for boarding passengers.${prompt}
-  10474: This is the exit for arriving passengers.${prompt}
-  10475: The ship is already filled to capacity.${prompt}
-  10476: The ship to Al Zahbi will soon arrive.${prompt}
-  10477: Thank you for waiting. The ferry has arrived! Please go ahead and boarrrd!${prompt}
-  10478: The ferry will depart soon! Passengers are to board the ship immediately!${prompt}
-  10479: Ferry departing!${prompt}
-  10480: Please wait a while for the next ship.${prompt}
-  10481: This ship is headed for Al Zahbi.${prompt}
-  10482: Do you wish to enter Nashmau?${prompt}
+    Merci !
+    Passez par là !${prompt}
+  10470: Désolé, mais il semble que tu manques de gil.${prompt}
+  10471: Parle à Sajhra au comptoir si tu veux entrer en ville.${prompt}
+  10472: Parle à Abihaal au comptoir si tu veux embarquer sur le bateau.${prompt}
+  10473: C’est l’entrée pour les passagers qui embarquent.${prompt}
+  10474: C’est la sortie pour les passagers qui arrivent.${prompt}
+  10475: Le bateau est déjà plein à craquer.${prompt}
+  10476: Le bateau pour Al Zahbi arrivera bientôt.${prompt}
+  10477: Merci d’avoir attendu. Le ferry est arrivé ! Allez-y et montez à bord, rrr !${prompt}
+  10478: Le ferry va bientôt partir ! Les passagers doivent embarquer immédiatement !${prompt}
+  10479: Départ du ferry !${prompt}
+  10480: Veuillez attendre un peu pour le prochain bateau.${prompt}
+  10481: Ce bateau se dirige vers Al Zahbi.${prompt}
+  10482: Souhaitez-vous entrer à Nashmau ?${prompt}
   10483: |-
-    Leave the docks to Nashmau?
+    Quitter les quais pour Nashmau ?
     ${selection-lines}
-    Sure.
-    Not right now.${prompt}
+    Oui.
+    Pas tout de suite.${prompt}
   10484: |-
-    Please go on through.
-    Thank you for sailing with us!${prompt}
-  10485: 'The ship bound for Al Zahbi will ${choice: 1}[arrive/depart] in ${choice: 2}[less than an hour/about 1 hour/about 2 hours/about 3 hours/about 4 hours/about 5 hours/about 6 hours/about 7 hours] (${number: 0} ${choice-plurality: 0}[minute/minutes] in Earth time).${prompt}'
-  10486: 'The ship bound for Al Zahbi is now ${choice: 1}[arriving/departing].${prompt}'
-  10487: You wouldn't happen to have any Aht Urhgan currency, would ya? I'm such a nice guy that I'll exchange 'em so you can have even more!${prompt}
-  10488: 'I''ll give ya five ${item-plural: 0[2]} for ${article} ${item-article: 1[2]} or two ${item-plural: 1[2]} for ${article} ${item-article: 2[2]}.${prompt}'
-  10489: 'And if ya happen to have ${article} ${item-article: 3[2]}, you can have five ${item-plural: 2[2]}!${prompt}'
+    Passez par là, s’il vous plaît.
+    Merci d’avoir voyagé avec nous !${prompt}
+  10485: 'Le bateau à destination d’Al Zahbi va ${choice: 1}[arriver/partir] dans ${choice: 2}[moins d’une heure/environ 1 heure/environ 2 heures/environ 3 heures/environ 4 heures/environ 5 heures/environ 6 heures/environ 7 heures] (${number: 0} ${choice-plurality: 0}[minute/minutes] en temps terrestre).${prompt}'
+  10486: 'Le bateau à destination d’Al Zahbi est maintenant ${choice: 1}[en train d’arriver/en train de partir].${prompt}'
+  10487: Tu n’aurais pas de la monnaie d’Aht Urhgan par hasard, hein ? Je suis tellement sympa que je vais les échanger pour que tu en aies encore plus !${prompt}
+  10488: 'Je te donnerai cinq ${item-plural: 0[2]} pour ${article} ${item-article: 1[2]} ou deux ${item-plural: 1[2]} pour ${article} ${item-article: 2[2]}.${prompt}'
+  10489: 'Et si tu as ${article} ${item-article: 3[2]}, tu peux avoir cinq ${item-plural: 2[2]} !${prompt}'
   10490: |-
-    So how 'bout it? Never heard of a better deal in your life, eh?
-    Remember, next time the urge hits, just give all your loot to me!${prompt}
+    Alors, qu’en dis-tu ? Tu n’as jamais entendu une meilleure affaire de ta vie, hein ?
+    Rappelle-toi, la prochaine fois que l’envie te prend, donne-moi tout ton butin !${prompt}
   10491: |-
-    Hellooo.
-    Yooo have caaard? Can do gaaame? Jajaroon have diiice.${prompt}
-  10492: Jeuno has maaany, maaany goods at auction, yes? Jijiroon want to go Jeuno someday...${prompt}
-  10493: Is Jeuno reaaally bigger than Nashmau? Bigger than two Nashmaus?${prompt}
-  10494: Lots of peoples are in Jeuno? Will peoples be friends with Jijiroon?${prompt}
-  10495: Jeuno is on top of bridge, yes? So it must be smaaaller than Jijiroon is thinking, yes?${prompt}
-  10496: Jeuno has boat that fly in the aaair? Jijiroon also dream about flyiiing, up, up, flying through the aaair.${prompt}
-  10497: Jijiroon saaaw boat flying throoo air over Wawaaam Wooodland, and--whoosh!--out flew adventooorer! That loook fun.${prompt}
-  10498: Viviroon give adventooorers big welcome. Yooo know why?${prompt}
-  10499: Viviroon like “clink clink” veeery much. Adventooorers make clink clink sound, yes? The more clink, the more Viviroon like adventooorer!${prompt}
-  10500: Want lots of clink clink cliiinky adventooorers to come Nashmau, yes!${prompt}
+    Bonjooour.
+    Yooo as caaard ? Peut faire jeu ? Jajaroon a dés.${prompt}
+  10492: Jeuno a beaaaucoup, beaaaucoup de biens aux enchères, oui ? Jijiroon veut aller à Jeuno un jour…${prompt}
+  10493: Est-ce que Jeuno est vraaaiment plus grand que Nashmau ? Plus grand que deux Nashmau ?${prompt}
+  10494: Plein de gens sont à Jeuno ? Les gens seront amis avec Jijiroon ?${prompt}
+  10495: Jeuno est sur un pont, oui ? Alors il doit être plus peeeetit que ce que Jijiroon pense, oui ?${prompt}
+  10496: Jeuno a un bateau qui vole dans l’aaair ? Jijiroon rêve aussi de voler, en haut, en haut, voler dans l’aaair.${prompt}
+  10497: Jijiroon a vu un bateau voler dans l’aaair au-dessus de la Forêt de Wawaam, et--whoosh !--un aventuuuurier en est sorti ! Ça a l’air amusant.${prompt}
+  10498: Viviroon donne un grand accueil aux aventuuuriens. Yooo sais pourquoi ?${prompt}
+  10499: Viviroon aime beaucoup le « cling cling ». Les aventuuuriens font un son « cling cling », oui ? Plus de cling, plus Viviroon aime aventuuurier !${prompt}
+  10500: Veut pleiiin d’aventuuuriens « cling cling cling » à Nashmau, oui !${prompt}
   10501: |-
-    What yooo want?
-    Have katana, katana, and nin-nin...yooo want?${prompt}
-  10502: Tsetseroon so looonely.${prompt}
-  10503: Oooh, byoootiful. Byoootiful magic. Tired of sprinkling sand. Still no loook like magic! Want use reeeal magic!${prompt}
-  10504: Welcome to maaagic shop. Lots of magics for yooo.${prompt}
-  10505: Look! Loook! Sooo many weeeapons! Fight! Slaaash!${prompt}
-  10506: Come, come. Buy aaarmor, looots of armor!${prompt}
-  10507: Looking for some bows and bolts to strrrike fear into the hearts of your enemies? You can find 'em here!${prompt}
+    Qu’est-ce que yooo veux ?
+    J’ai katana, katana, et nin-nin… yooo veux ?${prompt}
+  10502: Tsetseroon est siiii seul.${prompt}
+  10503: Oooh, magnifique. Magie magnifique. Fatigué de saupoudrer du sable. Toujours pas l’air de magie ! Veut utiliser de la vraaaie magie !${prompt}
+  10504: Bienvenue à la bouuutique de magie. Plein de magies pour yooo.${prompt}
+  10505: Regarde ! Regarde ! Taaant d’aaaarmes ! Combat ! Slash !${prompt}
+  10506: Viens, viens. Achète de l’aaarmure, pleiiin d’armures !${prompt}
+  10507: Tu cherches des arcs et des carreaux pour frapper la peur dans le cœur de tes ennemis ? Tu les trouveras ici !${prompt}
   10508: |-
-    Hellooo.
-    Selling treasooor from Airy-pago. Yooo want?${prompt}
+    Bonjooour.
+    Vends trésor d’Airy-pago. Yooo veux ?${prompt}
   10509: |-
-    Howdy-hooo!
-    I gots soooper rare dice for yooo.${prompt}
-  10510: A short walk from this gate will lead you to the Deadmist Marsh. But farther east, you'll find...${prompt}
-  10511: Ah, my apologies. That's not for your untainted ears to hear.${prompt}
-  10512: If you don't want your life to be tragically cut short, I'd stay away from the graveyard that lies beyond this gate...especially at night...${prompt}
+    Salut-hooo !
+    J’ai des dés super rares pour yooo.${prompt}
+  10510: Une courte marche depuis cette porte te mènera au Marais de Deadmist. Mais plus à l’est, tu trouveras…${prompt}
+  10511: Ah, mes excuses. Ce n’est pas pour tes oreilles innocentes à entendre.${prompt}
+  10512: Si tu ne veux pas que ta vie soit tragiquement écourtée, reste loin du cimetière qui se trouve au-delà de cette porte… surtout la nuit…${prompt}
   10513: |-
-    Ah! Y-you scared me!
-    Sorry, I'm not with the Imperial Army. You need to talk to the guy in the shiny armor over there if you want Sanction.${prompt}
-  10514: This aroooma...coood it be? Tsetseroon smell Wawaroon?${prompt}
+    Ah ! Tu m’as fait peur !
+    Désolé, je ne suis pas avec l’Armée Impériale. Parle au gars avec l’armure brillante là-bas si tu veux une Sanction.${prompt}
+  10514: Cette arooôme… ça pourrait être ? Tsetseroon sent Wawaroon ?${prompt}
   10515: |-
-    Looong looong ago, Tsetseroon loooved to explore roooins with Wawaroon, yes?
-    We loook to steal treasooor! It secret, okay?${prompt}
-  10516: But now, Tsetseroon is clean! Sooo clean! Loook! Clean, yes?${prompt}
-  10517: Wawaroon and Tsetseroon were team! Goood team, Wawaroon and Tsetseroon!${prompt}
-  10518: But Wawaroon loook for treasooor all by self. Tsetseroon looonely, yes?${prompt}
-  10519: Now, roooins filled with mercenaries, yes? Dangerous, very dangerous? Scary, tooo.${prompt}
-  10520: Sooo Tsetseroon want stop Wawaroon. How can dooo?${prompt}
-  10521: Tsetseroon block his “Treasooor Huntooor” with special stooo!${prompt}
-  10522: 'But Tsetseroon need ${article} ${item-article: 0[2]} and ${article} ${item-article: 1[2]} tooo make it, yes?${prompt}'
-  10523: 'Hooo hooo! Yooo brought ${article} ${item-article: 0[2]} and ${article} ${item-article: 1[2]}? Now Tsetseroon can make stooo!${prompt}'
-  10524: Hooold on, okay?${prompt}
-  10525: It's done! Am throoo! Tsetseroon's special stooo! One bite, and Wawaroon can't use Treasooor Huntooor...${prompt}
-  10526: Wawaroon alsooo become clean? Nice? Byoootiful?${prompt}
-  10527: Yooo bring Tsetseroon's stooo to place that smell like Wawaroon?${prompt}
-  10528: If yooo wooodn't mind? Thank yooo! Thank yooo!${prompt}
-  10529: '${lettercase: 1}${keyitem-article: 0[2]} is shoved right into your hands.${prompt}'
-  10530: Yooo bring stooo to place that smell like Wawaroon? If yooo wooodn't mind?${prompt}
+    Il y a looongtemps, Tsetseroon adorait explorer des ruuines avec Wawaroon, oui ?
+    On cherchait à voler des trésors ! C’est un secret, d’accord ?${prompt}
+  10516: Mais maintenant, Tsetseroon est propre ! Taaant propre ! Regarde ! Propre, oui ?${prompt}
+  10517: Wawaroon et Tsetseroon étaient une équipe ! Bonne équipe, Wawaroon et Tsetseroon !${prompt}
+  10518: Mais Wawaroon cherche des trésors tout seul. Tsetseroon looonely, oui ?${prompt}
+  10519: Maintenant, les ruuines sont remplies de mercenaires, oui ? Dangereux, très dangereux ? Effrayant, aussi.${prompt}
+  10520: Alors Tsetseroon veut arrêter Wawaroon. Comment faire ?${prompt}
+  10521: Tsetseroon bloque son « Chasseur de Trésors » avec un spécial stooo !${prompt}
+  10522: 'Mais Tsetseroon a besoin de ${article} ${item-article: 0[2]} et ${article} ${item-article: 1[2]} pour le faire, oui ?${prompt}'
+  10523: 'Hooo hooo ! Yooo as apporté ${article} ${item-article: 0[2]} et ${article} ${item-article: 1[2]} ? Maintenant Tsetseroon peut faire stooo !${prompt}'
+  10524: Attends un peu, d’accord ?${prompt}
+  10525: C’est fini ! Je suis throuuu ! Le spécial stooo de Tsetseroon ! Une bouchée, et Wawaroon ne pourra plus utiliser Chasseur de Trésors…${prompt}
+  10526: Wawaroon deviendra aussi propre ? Sympa ? Magnifique ?${prompt}
+  10527: Yooo apporteras le stooo à l’endroit qui sent Wawaroon ?${prompt}
+  10528: Si yooo veux bien ? Merci yooo ! Merci yooo !${prompt}
+  10529: '${lettercase: 1}${keyitem-article: 0[2]} est fourré directement dans tes mains.${prompt}'
+  10530: Yooo apporteras le stooo à l’endroit qui sent Wawaroon ? Si yooo veux bien ?${prompt}
   10531: |-
-    Ooo...ooo...?${wait-36: 3}
-    Yooo did it! Goood! Soooper! Tsetseroon sooo happy! Maybe Tsetseroon cry?${prompt}
-  10532: Thankooo! Here gift for yooo! Tsetseroon nooo need. Tsetseroon clean nooow. Now yooo nooo get lost, yes?${prompt}
-  10533: Hoo hoo... Why yooo have that already? Hm? Hm? Hm?${prompt}
-  10534: Hmmm... Well, yooo can have this. Clink clink, yooo like? Everyone like clink clink? Nice sound, yes? Tsetseroon also like!${prompt}
-  10535: Yooo toook down Wawaroon? Wawaroon is dooown? Treasooor Huntooor, bye bye? Ooo...soooper soooper! Tsetseroon happy!${prompt}
+    Ooo… ooo… ?${wait-36: 3}
+    Yooo l’as fait ! Bien ! Super ! Tsetseroon taaant heureux ! Peut-être Tsetseroon pleure ?${prompt}
+  10532: Merciiii ! Voici un cadeau pour yooo ! Tsetseroon n’en a plus besoin. Tsetseroon propre mainteeeenant. Maintenant yooo ne te perds plus, oui ?${prompt}
+  10533: Hoo hoo… Pourquoi yooo as déjà ça ? Hm ? Hm ? Hm ?${prompt}
+  10534: Hmmm… Bon, yooo peux avoir ça. Cling cling, yooo aimes ? Tout le monde aime cling cling ? Beau son, oui ? Tsetseroon aime aussi !${prompt}
+  10535: Yooo as vaincu Wawaroon ? Wawaroon est à teeerre ? Chasseur de Trésors, au revoir ? Ooo… super super ! Tsetseroon heureux !${prompt}
   10536: |-
-    On ocean, faaar faaar away, you can see ghost ship!
-    Buburoon scaaared! Buburoon excited!${prompt}
-  10537: Want to know name of scaaary ship?${prompt}
+    Sur l’océan, loooin loooin, tu peux voir un bateau fantôme !
+    Buburoon a peur ! Buburoon excité !${prompt}
+  10537: Veux savoir le nom du bateau effrayant ?${prompt}
   10538: |-
-    It caaalled the “Ashu Talif.” That how the people saaay it.
-    They say it once was beaaauty ship, very beauty. But that was long ago. Now ship for ghosteses.${prompt}
+    Il s’appelle l’« Ashu Talif ». C’est comme ça que les gens le disent.
+    Ils disent que c’était un beau bateau, très beau. Mais c’était il y a longtemps. Maintenant, c’est un bateau pour fantômes.${prompt}
   10539: |-
-    Zazaroon! Nice to be meeeting you.
-    Zazaroon be liking peppy fish, yooo know? Zazaroon eeeven like to be catching peppy fish!${prompt}
-  10540: To be catching jumpy fish from boat more fun than from port, yooo know?${prompt}
-  10541: The other day, Zazaroon was catching fish that look like biiig carpet! Zazaroon so fun! Maybe Zazaroon can be doing again?${prompt}
-  10542: Nice to meeet yooo. I'm Nadeeha the mercenary. Whooo are--${prompt}
-  10543: Ack! You aren't a Qiqirn! Sorry, but it seems I've gotten into the habit of talking slowly...${prompt}
-  10544: This town is full of Qiqirn, so sooon you find yooorself speaking slowly, just like them.${prompt}
-  10545: Ack! Did I do it again? How embarrassing!${prompt}
-  10546: Mumuroon buuurning with energy! Feel power of strooong Qiqirn! Mumuroon no want lose to Goblin!${prompt}
-  10547: Why? Mumuroon don't knooow. Mumuroon just do!${prompt}
-  10548: Loook! Loook! Stronger than Goblin, no?${prompt}
+    Zazaroon ! Ravi de te rencontrer.
+    Zazaroon aime les poissons vifs, tu sais ? Zazaroon aime même les attraper !${prompt}
+  10540: Attraper des poissons bondissants depuis un bateau est plus amusant que depuis le port, tu sais ?${prompt}
+  10541: L’autre jour, Zazaroon a attrapé un poisson qui ressemblait à un grand tapis ! Zazaroon s’est bien amusé ! Peut-être que Zazaroon peut recommencer ?${prompt}
+  10542: Ravi de te rencontrer. Je suis Nadeeha la mercenaire. Qui es-tu—${prompt}
+  10543: Argh ! Tu n’es pas un Qiqirn ! Désolé, mais j’ai pris l’habitude de parler lentement…${prompt}
+  10544: Cette ville est pleine de Qiqirn, alors bientôt tu te surprends à parler lentement, comme eux.${prompt}
+  10545: Argh ! Je l’ai encore fait ? Quelle honte !${prompt}
+  10546: Mumuroon bouillonne d’énergie ! Sens la puissance d’un Qiqirn fort ! Mumuroon ne veut pas perdre contre un Gobelin !${prompt}
+  10547: Pourquoi ? Mumuroon ne sait pas. Mumuroon le fait juste !${prompt}
+  10548: Regarde ! Regarde ! Plus fort qu’un Gobelin, non ?${prompt}
   10549: |-
-    Goblin have good nose.
-    But Mumuroon have good eyes.${prompt}
+    Le Gobelin a un bon nez.
+    Mais Mumuroon a de bons yeux.${prompt}
   10550: |-
-    Hohoho?
-    Yooo come from Al Zaaahbi? Hohoho? Kyokyoroon tell you goood seeecret!${prompt}
-  10551: Seeecret about “alzadal”? Yooo know about alzadal?${prompt}
-  10552: An alzadal float hiiigh in sky and shiiine like pretty stone.${prompt}
-  10553: High in sky? Shine? Maybe a staaar? Romantic, no? Hohoho?${prompt}
+    Hohoho ?
+    Yooo viens d’Al Zaaahbi ? Hohoho ? Kyokyoroon te dit un bon secret !${prompt}
+  10551: Secret sur « alzadal » ? Yooo connais alzadal ?${prompt}
+  10552: Un alzadal flotte haut dans le ciel et brille comme une belle pierre.${prompt}
+  10553: Haut dans le ciel ? Brille ? Peut-être une étoile ? Romantique, non ? Hohoho ?${prompt}
   10554: |-
-    Hee hee...Leleroon's treasooor.♪
-    Special dice! Special corsair dice! Yooo know how special? Only Seagull Phratrie have corsair dice!${prompt}
-  10555: Leleroon like corsair of looong looong ago. So Leleroon very happy to have dice!${prompt}
-  10556: Leleroon have want to become corsair like looong ago, you know? Can Leleroon become?${prompt}
-  10557: Know what Yuyuroon heard? Yuyuroon heard there is person with Qiqirn pooower.${prompt}
-  10558: Our power, not yooors. Qiqirn special power! Yuyuroon veeery, veeery mad.${prompt}
-  10559: Yuyuroon think that person stole power from Qiqirn.${prompt}
-  10560: Yuyuroon not want think about what power bad person stole. Yuyuroon think mage should all jump in sea!${prompt}
-  10561: Chuchuroon now traaaining muscle.${prompt}
+    Hee hee… Trésor de Leleroon.♪
+    Dés spéciaux ! Dés de corsaire ! Yooo sais à quel point c’est spécial ? Seuls la Fratrie des Mouettes ont des dés de corsaire !${prompt}
+  10555: Leleroon aime les corsaires d’il y a looongtemps. Alors Leleroon est très heureux d’avoir des dés !${prompt}
+  10556: Leleroon veut devenir corsaire comme il y a looongtemps, tu sais ? Leleroon peut devenir ?${prompt}
+  10557: Tu sais ce que Yuyuroon a entendu ? Yuyuroon a entendu qu’il y a une personne avec le pouvoir des Qiqirn.${prompt}
+  10558: Notre pouvoir, pas le tien. Pouvoir spécial des Qiqirn ! Yuyuroon très, très en colère.${prompt}
+  10559: Yuyuroon pense que cette personne a volé le pouvoir des Qiqirn.${prompt}
+  10560: Yuyuroon ne veut pas penser à quel pouvoir cette mauvaise personne a volé. Yuyuroon pense que les mages devraient tous sauter dans la mer !${prompt}
+  10561: Chuchuroon s’entraîne aux muscles mainteeeenant.${prompt}
   10562: |-
-    Chuchuroon strooong, no?
-    Chuchuroon faaast, no?
-    Chuchuroon like mercenary, no?${prompt}
+    Chuchuroon fort, non ?
+    Chuchuroon rapide, non ?
+    Chuchuroon aime mercenaire, non ?${prompt}
   10563: |-
     ...
-    Okay, you think that enough exercise to become mercenary, no?${prompt}
-  10564: Spaaarkle! Shiiiny! Spoooaaarkle! Too bright! Aaah! Tsotsoroon's eyes! Gold, gold! Shiiiny! Oooh!${prompt}
-  10565: Tsotsoroon saw, Tsotsoroon saaaw! At Talacca Cooove! Mooountains of gold! Spaaarkly gold! Shiiiny gold! Tsotsoroon never sleep again!${prompt}
-  10566: Spaaarkle! Spoooaaarkle! Ahahahaaa!${prompt}
-  10567: Qiqirn network, it everywhere! Qiqirn yooo seen, and even Qiqirn yooo no seen, maybe they know aaall about yooo, you know?${prompt}
-  10568: The secret of Qiqirn network is liiinkshell. Everyone use it. Everyone friends!${prompt}
-  10569: Sisiroon have Qiqirn network seeecret linkshell! Sisiroon found at Arrapago Reeef.${prompt}
-  10570: Yooo want join tooo?${prompt}
-  10571: Too bad! No peeeople allowed join seeecret Qiqirn linkshell!${prompt}
-  10572: Only one person. Sisiroon only allowed ooone person join. But that person special.${prompt}
-  10573: So yooo can't join. Sooorry!${prompt}
+    D’accord, tu penses que c’est assez d’exercice pour devenir mercenaire, non ?${prompt}
+  10564: Éclat ! Brillant ! Éclaaaaat ! Trop brillant ! Aaah ! Les yeux de Tsotsoroon ! Or, or ! Brillant ! Oooh !${prompt}
+  10565: Tsotsoroon a vu, Tsotsoroon a vu ! À la Baie de Talacca ! Des montagnes d’or ! Or éclatant ! Or brillant ! Tsotsoroon ne dormira plus jamais !${prompt}
+  10566: Éclat ! Éclaaaaat ! Ahahahaaa !${prompt}
+  10567: Le réseau Qiqirn, il est partout ! Qiqirn que yooo vois, et même Qiqirn que yooo ne vois pas, peut-être qu’ils savent tout sur yooo, tu sais ?${prompt}
+  10568: Le secret du réseau Qiqirn est le linkshell. Tout le monde l’utilise. Tout le monde est ami !${prompt}
+  10569: Sisiroon a le secret du linkshell du réseau Qiqirn ! Sisiroon l’a trouvé au Récif d’Arrapago.${prompt}
+  10570: Yooo veux rejoindre aussi ?${prompt}
+  10571: Dommage ! Pas de peeeuple autorisé à rejoindre le secret linkshell Qiqirn !${prompt}
+  10572: Une seule personne. Sisiroon autorise qu’une seule personne à rejoindre. Mais cette personne est spéciale.${prompt}
+  10573: Alors yooo ne peux pas rejoindre. Désolé !${prompt}
   10574: |-
-    Yooo know Lamiaaa?
-    They control person after life ooover and maaake them do teeerrible things. Scary, yes?${prompt}
-  10575: But Lamia no control fallen Qiqirn. Maybe they no interest?${prompt}
-  10576: Why just Qiqirn? That kind of roood, no?${prompt}
-  10577: Al Ziiibi is capital of Aht Urhgun, yes? There many Qiqirn in Al Ziiibi, but they all croool. Tataroon bet they smell bad, tooo.${prompt}
-  10578: But Tataroon friends all want go to capital. They say it different than Nashmau. They say it greeeat.${prompt}
-  10579: Maybe Tataroon friends become rotten Qiqirn, too?${prompt}
-  10580: To east of here is maaarsh. Danger, scaaary, deeep marsh. Lots and many fogs! Poison too, yes? And bottomless?${prompt}
-  10581: Jojoroon wonder what under bottomless marsh?${prompt}
-  10582: 'Mysterious items, yooo have? Appraise, I do for yooo! ${number: 0} clink clink?${prompt}'
+    Yooo connais les Lamiaaa ?
+    Elles contrôlent les gens après la vie et les font faire des choses teeerribles. Effrayant, oui ?${prompt}
+  10575: Mais les Lamia ne contrôlent pas les Qiqirn tombés. Peut-être qu’elles ne s’intéressent pas ?${prompt}
+  10576: Pourquoi juste les Qiqirn ? C’est un peu rooode, non ?${prompt}
+  10577: Al Ziiibi est la capitale d’Aht Urhgun, oui ? Il y a beaucoup de Qiqirn à Al Ziiibi, mais ils sont tous croool. Tataroon parie qu’ils sentent mauvais aussi.${prompt}
+  10578: Mais les amis de Tataroon veulent tous aller à la capitale. Ils disent que c’est différent de Nashmau. Ils disent que c’est génial.${prompt}
+  10579: Peut-être que les amis de Tataroon deviendront aussi des Qiqirn pourris ?${prompt}
+  10580: À l’est d’ici, il y a un marais. Dangereux, effrayant, marais profond. Plein de brouillard ! Poison aussi, oui ? Et sans fond ?${prompt}
+  10581: Jojoroon se demande ce qu’il y a sous le marais sans fond ?${prompt}
+  10582: 'Objets mystérieux, yooo as ? Je peux les évaluer pour yooo ! ${number: 0} cling cling ?${prompt}'
   10583: |-
-    Have an item appraised?
+    Faire évaluer un objet ?
     ${selection-lines}
-    Yes.
-    Not now.
-    What's this all about?${prompt}
-  10584: 'Traaade item to me. Will take ${number: 0} clink clink from yooo and appraise!${prompt}'
-  10585: After done, I put in your treasooor poool.${prompt}
-  10586: Make sure yooo have rooom in bag! And remember that maybe yooo can't have more than one of item, okay?${prompt}
-  10587: Okay. See yooo later!${prompt}
-  10588: In Urhguum are many items nooormal people no recognize. If yooo see one, yooo will knooow.${prompt}
-  10589: Thank yooo for clink clink!${prompt}
+    Oui.
+    Pas maintenant.
+    De quoi s’agit-il ?${prompt}
+  10584: 'Échange-moi un objet. Je prendrai ${number: 0} cling cling à yooo et j’évaluerai !${prompt}'
+  10585: Une fois fini, je le mets dans ton trésor poool.${prompt}
+  10586: Assure-toi d’avoir de la place dans ton sac ! Et souviens-toi que peut-être yooo ne peux pas avoir plus d’un objet, d’accord ?${prompt}
+  10587: D’accord. À plus tard !${prompt}
+  10588: À Urhguum, il y a beaucoup d’objets que les gens noormaux ne reconnaissent pas. Si yooo en vois un, yooo le sauras.${prompt}
+  10589: Merci pour le cling cling !${prompt}
   10590: |-
-    Hmmm...
-    Hooo...
-    This loooks like...${prompt}
+    Hmmm…
+    Hooo…
+    Ça ressemble à…${prompt}
   10591: |-
-    ${lettercase: 1}${article} ${item-article: 1[2]}!
-    I put in your treasooor poool now, oookay?${prompt}
-  10592: Nashmau was once a supply port for the Imperial fleet, but it was abandoned long ago. The reason is quite eerie...${prompt}
-  10593: This town was plagued by a horrible epidemic, so everyone fled elsewhere. Now as you can see, there's nobody but Qiqirn here...${prompt}
-  10594: But I'd rather be here than spend my time in Al Zahbi wondering when the beastmen are going to come for my hide.${prompt}
-  10595: Girl that was here, turn to ghooost! Yooo knowing?${prompt}
-  10596: Cooould it be!?${prompt}
-  10597: Bastoookan Blight?${prompt}
-  10598: Life gooo bye, and become ghooost!${prompt}
-  10599: Blight painfoool. Painfoool death. Then become ghooost?${prompt}
-  10600: Did yooo hear? Do yooo know? Girl that was here, now in Al Jibby!${prompt}
-  10601: Pyopyoroon disappoooint. Pyopyoroon even kind of mad.${prompt}
-  10602: But maybe Pyopyoroon want see her again? Can Pyopyoroon ever meet?${prompt}
-  10603: There's this Qiqirn named Buburoon who does nothing but stare at the ocean... Do you know what he's waiting for?${prompt}
-  10604: He's waiting for a ghost ship called the Ashu Talif. It would be really something if you could see a ship full of dead people near an abandoned town like this, wouldn't it?${prompt}
-  10605: But with my rotten luck, I haven't ever even gotten a glimpse of the ship... Maybe it was just a mirage after all.${prompt}
-  10606: Rararoon want do visit to Alzadaal! Must have many triiinkets!${prompt}
-  10607: Rararoon do visit to Alzadaal! Will trade many trinkets for jingly!${prompt}
+    ${lettercase: 1}${article} ${item-article: 1[2]} !
+    Je le mets dans ton trésor poool maintenant, d’accord ?${prompt}
+  10592: Nashmau était autrefois un port d’approvisionnement pour la flotte impériale, mais il a été abandonné il y a longtemps. La raison est assez inquiétante…${prompt}
+  10593: Cette ville a été frappée par une terrible épidémie, alors tout le monde a fui ailleurs. Maintenant, comme tu peux voir, il n’y a que des Qiqirn ici…${prompt}
+  10594: Mais je préfère être ici plutôt que de passer mon temps à Al Zahbi à me demander quand les hommes-bêtes vont venir prendre ma peau.${prompt}
+  10595: La fille qui était ici s’est transformée en fantôôôme ! Yooo sais ?${prompt}
+  10596: Ça pourrait être !?${prompt}
+  10597: Fléau de Bastok ?${prompt}
+  10598: La vie s’en va, et devient fantôôme !${prompt}
+  10599: Fléau douloureux. Mort douloureuse. Puis devient fantôôme ?${prompt}
+  10600: Tu as entendu ? Tu sais ? La fille qui était ici est maintenant à Al Jibby !${prompt}
+  10601: Pyopyoroon déçu. Pyopyoroon un peu en colère aussi.${prompt}
+  10602: Mais peut-être que Pyopyoroon veut la revoir ? Pyopyoroon peut-il la rencontrer un jour ?${prompt}
+  10603: Il y a un Qiqirn nommé Buburoon qui ne fait que regarder l’océan… Sais-tu ce qu’il attend ?${prompt}
+  10604: Il attend un bateau fantôme appelé l’Ashu Talif. Ce serait vraiment quelque chose de voir un bateau rempli de morts près d’une ville abandonnée comme celle-ci, non ?${prompt}
+  10605: Mais avec ma malchance, je n’ai jamais même eu un aperçu du bateau… Peut-être que c’était juste un mirage après tout.${prompt}
+  10606: Rararoon veut visiter Alzadaal ! Il doit y avoir plein de bibelots !${prompt}
+  10607: Rararoon a visité Alzadaal ! Échangera plein de bibelots contre du tintement !${prompt}
   10608: |-
-    Ququroon coooking.♪
-    Goood foood? Yooo try?${prompt}
-  10609: Ququroon's dream is tooo open Ququroon restaurant.♪${prompt}
-  10610: Ququroon studies tooo be great chef.♪${prompt}
+    Ququroon cuisine.♪
+    Bonne nourriture ? Yooo goûtes ?${prompt}
+  10609: Le rêve de Ququroon est d’ouvrir un restaurant Ququroon.♪${prompt}
+  10610: Ququroon étudie pour devenir un grand chef.♪${prompt}
   10611: |-
-    Ququroon has no foood...
-    No goood for Ququroon.${prompt}
-  10612: It's hard tooo find goood foood...${prompt}
+    Ququroon n’a pas de nourriture…
+    Pas bon pour Ququroon.${prompt}
+  10612: C’est dur de trouver de la bonne nourriture…${prompt}
   10613: |-
-    Yooo are adventurer, yes?
-    Yooo find goood foood?${prompt}
-  10614: Yooo find goood foood for Ququroon, yooo eat Ququroon coooking?${prompt}
+    Yooo es aventurier, oui ?
+    Yooo trouves de la bonne nourriture ?${prompt}
+  10614: Yooo trouves de la bonne nourriture pour Ququroon, yooo goûtes la cuisine de Ququroon ?${prompt}
   10615: |-
-    Find “foood” for Ququroon?
+    Trouver « nourriture » pour Ququroon ?
     ${selection-lines}
-    Sure.
-    Foood...?${prompt}
+    Oui.
+    Nourriture… ?${prompt}
   10616: |-
-    Thank yooo! Thank yooo!
-    Ququroon need ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, ${article} ${item-article: 3[2]}, and ${article} ${item-article: 4[2]}.♪${prompt}
+    Merci yooo ! Merci yooo !
+    Ququroon a besoin de ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, ${article} ${item-article: 3[2]}, et ${article} ${item-article: 4[2]}.♪${prompt}
   10617: |-
-    Yooo don't care about Ququroon's dream?
-    No...?${prompt}
-  10618: Adventurer is croool and mean, yes?${prompt}
-  10619: Will adventurer help Ququroon's dream come trooo?${prompt}
+    Yooo te fiches du rêve de Ququroon ?
+    Non… ?${prompt}
+  10618: L’aventurier est croool et méchant, oui ?${prompt}
+  10619: L’aventurier aidera le rêve de Ququroon à se réaliser ?${prompt}
   10620: |-
-    Thank yooo! Thank yooo!
-    Ququroon need ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, ${article} ${item-article: 3[2]}, and ${article} ${item-article: 4[2]}.♪${prompt}
-  10621: Thank yooo for the foood.♪${prompt}
-  10622: Yooo try Ququroon coooking?${prompt}
+    Merci yooo ! Merci yooo !
+    Ququroon a besoin de ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, ${article} ${item-article: 2[2]}, ${article} ${item-article: 3[2]}, et ${article} ${item-article: 4[2]}.♪${prompt}
+  10621: Merci yooo pour la nourriture.♪${prompt}
+  10622: Yooo goûtes la cuisine de Ququroon ?${prompt}
   10623: |-
-    Stand back?
-    Ququroon coooking is sooon tooo begin.♪${prompt}
-  10624: Ququroon coooking is goood.♪${prompt}
-  10625: 'Ququroon has made ${item-singular: 0[2]}.♪${prompt}'
-  10626: Adventurer eat sooon?${prompt}
-  10627: Foood delicious, trust Ququroon.♪${prompt}
-  10628: Ququroon's dream is to open Ququroon restaurant.♪${prompt}
-  10629: Ququroon's dream is close, yes?${prompt}
+    Recule ?
+    La cuisine de Ququroon va bientôt commencer.♪${prompt}
+  10624: La cuisine de Ququroon est bonne.♪${prompt}
+  10625: 'Ququroon a préparé ${item-singular: 0[2]}.♪${prompt}'
+  10626: L’aventurier mange bientôt ?${prompt}
+  10627: La nourriture est délicieuse, fais confiance à Ququroon.♪${prompt}
+  10628: Le rêve de Ququroon est d’ouvrir un restaurant Ququroon.♪${prompt}
+  10629: Le rêve de Ququroon est proche, oui ?${prompt}
   10630: |-
-    Ququroon will open a restaurant.♪
-    Maybe open 3...or 4...or 5...or 6...${prompt}
-  10631: '...or more?${prompt}'
-  10632: Ququroon's dream is close, yes?${prompt}
-  10633: Everyone will love Ququroon coooking?${prompt}
+    Ququroon ouvrira un restaurant.♪
+    Peut-être 3… ou 4… ou 5… ou 6…${prompt}
+  10631: '...ou plus ?${prompt}'
+  10632: Le rêve de Ququroon est proche, oui ?${prompt}
+  10633: Tout le monde aimera la cuisine de Ququroon ?${prompt}
   10634: |-
-    Oh no...
-    Ququroon has made croood foood?${prompt}
+    Oh non…
+    Ququroon a fait de la mauvaise nourriture ?${prompt}
   10635: |-
-    Today is a bad vooodooo day?
-    Poor Ququroon?${prompt}
+    Aujourd’hui est un mauvais jour vooodoo ?
+    Pauvre Ququroon ?${prompt}
   10636: |-
-    Ququroon is sorry?
-    Ququroon coooking is croood, yes?${prompt}
+    Ququroon est désolé ?
+    La cuisine de Ququroon est mauvaise, oui ?${prompt}
   10637: |-
-    Which will you watch?
+    Que veux-tu regarder ?
     ${selection-lines}
-    Goood foood?
-    Croood foood?${prompt}
-  10638: Yooo loook for dice-roooller Yadhiwa?${prompt}
-  10639: You again!? Don't you ever give up?${prompt}
-  10640: You just lost to me! Don't you ever learn?${prompt}
-  10641: Or are you going to fork up ten million gil?${prompt}
+    Bonne nourriture ?
+    Mauvaise nourriture ?${prompt}
+  10638: Yooo cherches Yadhiwa le lanceur de dés ?${prompt}
+  10639: Toi encore !? Tu ne renonces jamais ?${prompt}
+  10640: Tu viens juste de perdre contre moi ! Tu n’apprends donc jamais ?${prompt}
+  10641: Ou vas-tu sortir dix millions de gil ?${prompt}
   10642: |-
-    What will you do?
+    Que veux-tu faire ?
     ${selection-lines}
-    Roll the dice!
-    Pay up.${prompt}
+    Lancer les dés !
+    Payer.${prompt}
   10643: |-
-    Don't you get it? This is a battle to see who comes out on top!${wait-36: 2}
-    You don't want your ${choice: 0}[/love/dreams/hope] back?${prompt}
+    Tu ne comprends pas ? C’est un combat pour voir qui l’emporte !${wait-36: 2}
+    Tu ne veux pas récupérer ton ${choice: 0}[/amour/rêves/espoir] ?${prompt}
   10644: |-
-    Now you're talking!
-    Okay now, the rules haven't changed. Odds, I win. Evens, you win, okay?${prompt}
+    Maintenant tu parles !
+    D’accord, les règles n’ont pas changé. Pair, je gagne. Impair, tu gagnes, d’accord ?${prompt}
   10645: |-
-    What will you wager?
+    Que paries-tu ?
     ${selection-lines}
     Courage.
     Passion.
     Innocence.${prompt}
-  10646: Here we go!
-  10647: '${color-alt: 208}Yadhiwa readies Dice Roll.'
-  10648: '${color-alt: 121}Yadhiwa rolls a 999!'
-  10649: Oh, it's odd again! I win!${prompt}
-  10650: 'Your ${choice: 0}[/courage/passion/innocence] is mine!${prompt}'
-  10651: So long!${prompt}
-  10652: No goood for yooo. That girl is so roood.${prompt}
+  10646: C’est parti !
+  10647: '${color-alt: 208}Yadhiwa prépare un Lancer de Dés.'
+  10648: '${color-alt: 121}Yadhiwa lance un 999 !'
+  10649: Oh, c’est impair encore ! Je gagne !${prompt}
+  10650: 'Ton ${choice: 0}[/courage/passion/innocence] est à moi !${prompt}'
+  10651: Au revoir !${prompt}
+  10652: Pas bon pour yooo. Cette fille est si rooode.${prompt}
   10653: |-
-    Yadhiwa of Al Zhabi, the charm of a wooorm and the face of a ghoool.
-    Nice poem, yooo think? I prodoooced it just now.${prompt}
+    Yadhiwa d’Al Zahbi, le charme d’un ver et le visage d’un fantôme.
+    Beau poème, tu penses ? Je viens de le créer.${prompt}
   10654: |-
-    Yadhiwa run to place called “Arooopigo,” yes?
-    Yooo want hooorry and catch her?${prompt}
-  10655: Hoohoohoo...?${prompt}
-  10656: Hoohoohooo!${prompt}
-  10657: Soooper...?${prompt}
-  10658: Doooper...?${prompt}
-  10659: Totoroon find soooper-doooper treasooor?${prompt}
-  10660: A soooperb find!${prompt}
-  10661: Yooo want to know, don't yooo?${prompt}
+    Yadhiwa court vers un endroit appelé « Arrooopigo », oui ?
+    Yooo veux te dépêcher et la rattraper ?${prompt}
+  10655: Hoohoohoo… ?${prompt}
+  10656: Hoohoohooo !${prompt}
+  10657: Super… ?${prompt}
+  10658: Génial… ?${prompt}
+  10659: Totoroon a trouvé un super-génial trésor ?${prompt}
+  10660: Une trouvaille superbe !${prompt}
+  10661: Yooo veux savoir, n’est-ce pas ?${prompt}
   10662: |-
-    Ohooo, it's trooo!
-    What should Totoroon dooo?${prompt}
-  10663: Ah! Totoroon have byoootiful idea!${prompt}
+    Ohooo, c’est vrai !
+    Que doit faire Totoroon ?${prompt}
+  10663: Ah ! Totoroon a une idée magnifique !${prompt}
   10664: |-
-    Yooo, listen me?
-    Totoroon want shooogary things.${prompt}
-  10665: Sweets, with shooogary taste, yooo know? If yooo bring, Totoroon give yooo hint.${prompt}
-  10666: Hoohoohooo...${prompt}
-  10667: Totoroon let yooo know when yooo bring shooogary thing.${prompt}
+    Yooo, écoute-moi ?
+    Totoroon veut des choses sucrées.${prompt}
+  10665: Des douceurs, avec un goût sucré, tu sais ? Si yooo apportes, Totoroon te donne un indice.${prompt}
+  10666: Hoohoohooo…${prompt}
+  10667: Totoroon te dira quand yooo apporteras une chose sucrée.${prompt}
   10668: |-
-    Ooo...${article} ${item-article: 0[2]}!
-    Now Totoroon in goood moood!${prompt}
-  10669: 'Go tooo ${choice: 1}[Wajooom Wooodlands/Bhaflooo Thickets/Tadaaarva Mire/Mount Zhayooolm]. Oookay?${prompt}'
-  10670: But maybe somebody there first? Sooorry.${prompt}
-  10671: 'Yooo forgot? Looook in ${choice: 1}[Jajooom Wooodlands/Bhaplooo Thickets/Cadaaada Mire/Mount Zhayooomie].${prompt}'
-  10672: Yooo found something goood? Hoohoo...${prompt}
+    Ooo… ${article} ${item-article: 0[2]} !
+    Maintenant Totoroon est de bonne humeur !${prompt}
+  10669: 'Va à ${choice: 1}[Forêt de Wajooom/Fourrés de Bhaflooo/Marais de Tadaaarva/Mont Zhayooolm]. D’accord ?${prompt}'
+  10670: Mais peut-être que quelqu’un y est déjà ? Désolé.${prompt}
+  10671: 'Yooo as oublié ? Regarde dans ${choice: 1}[Forêt de Jajooom/Fourrés de Bhaplooo/Marais de Cadaaada/Mont Zhayooomie].${prompt}'
+  10672: Yooo as trouvé quelque chose de bien ? Hoohoo…${prompt}
   10673: |-
-    Mooore sweets, mooore hints!
-    Totoroon want to try all sorts of shoogary things!${prompt}
-  10674: Nooo nice sweets yet?${prompt}
-  10675: Yooomy shooogar! Thank yooo! Give sweet, get hint!${prompt}
+    Plus de douceurs, plus d’indices !
+    Totoroon veut essayer toutes sortes de choses sucrées !${prompt}
+  10674: Pas encore de bonnes douceurs ?${prompt}
+  10675: Miam sucré ! Merci yooo ! Donne une douceur, reçois un indice !${prompt}
   10676: |-
-    Leleroon have dream.♪
-    Want wear fancy corsair clothings! Have want to wear, but can dooo?${prompt}
-  10677: Yooo also have want for corsair clothings?${prompt}
-  10678: Hohooo...but only Seagoool captain have corsair clothings, yooo know?${prompt}
-  10679: And person whooo make clothings not here, tooo...${prompt}
-  10680: What to dooo...?${prompt}
-  10681: But yooo Seagoool crooo, no? Leleroon also Seagoool crooo, yes!${prompt}
-  10682: I introdoooce yooo to friend can make corsair clothings, okay? Listen to Leleroon?${prompt}
-  10683: Person who make are all Seagoool crooo. They make fancy clothings that Leleroon have want to wear!${prompt}
-  10684: What kind of clothings yooo want?${prompt}
+    Leleroon a un rêve.♪
+    Veut porter de beaux vêtements de corsaire ! A envie de porter, mais peut-il ?${prompt}
+  10677: Yooo as aussi envie de vêtements de corsaire ?${prompt}
+  10678: Hohooo… mais seuls les capitaines Seagool ont des vêtements de corsaire, tu sais ?${prompt}
+  10679: Et la personne qui fait les vêtements n’est pas ici non plus…${prompt}
+  10680: Que faire… ?${prompt}
+  10681: Mais yooo es un corbeau Seagool, non ? Leleroon aussi est un corbeau Seagool, oui !${prompt}
+  10682: Je te présente un ami qui peut faire des vêtements de corsaire, d’accord ? Écoute Leleroon ?${prompt}
+  10683: Les personnes qui font sont tous des corbeaux Seagool. Ils font de beaux vêtements que Leleroon a envie de porter !${prompt}
+  10684: Quel genre de vêtements yooo veux ?${prompt}
   10685: |-
     Which one yooo want?
     ${selection-lines}
@@ -22987,240 +22987,240 @@ entries:
     Which memory will you have recalled?
     ${selection-lines}
     Nothing.${prompt}
-  10718: Are yooo loooking for ghooosts?${prompt}
+  10718: Tu cherches des fantooomes ?${prompt}
   10719: Brrr. Brrr.${prompt}
   10720: |-
-    Pyopyoroon love ghooosts.
-    Maybe yooo are ghooost!${prompt}
-  10721: '${color-alt: 15}Pyopyoroon peers intently at ${name-player}!'
-  10722: Nooo, yooo are no ghooost!${prompt}
+    Pyopyoroon aime les fantooomes.
+    Peut-être que toii es un fantooomme !${prompt}
+  10721: '${color-alt: 15}Pyopyoroon fixe intensément ${name-player} !'
+  10722: Nooon, toii n’es pas un fantooomme !${prompt}
   10723: |-
-    Pyopyoroon is sad.
+    Pyopyoroon est triste.
     Pyopyo-pyorooon.${prompt}
-  10724: Hm? Maybe! Maybe yooo are ghooost hunter tooo?${prompt}
+  10724: Hm ? Peut-être ! Peut-être que toii es aussi un chasseur de fantooomes ?${prompt}
   10725: |-
-    Yooo are friend to Pyopyoroon!
-    Pyopyoroon teach you secret.${prompt}
+    Toii es un ami de Pyopyoroon !
+    Pyopyoroon va t’apprendre un secret.${prompt}
   10726: |-
-    Yooo go west of here!
-    Many rooocks and stooones, yes!
-    Yooo find plenty of ghooosts!${prompt}
+    Va vers l’ouest d’ici !
+    Beaucoup de roooches et de pierrees, oui !
+    Toii trouveras plein de fantooomes !${prompt}
   10727: |-
-    But there is special ghooost. Ghooost like ${keyitem-singular: 0[2]}!
-    Did yooo know?${prompt}
-  10728: Yooo take this!${prompt}
+    Mais il y a un fantooomme spécial. Un fantooomme qui aime ${keyitem-singular: 0[2]} !
+    Tu savais ?${prompt}
+  10728: Prends ceci !${prompt}
   10729: '...${prompt}'
-  10730: Nothing in pooockets...!${prompt}
+  10730: Rien dans les poooches... !${prompt}
   10731: |-
-    Nooo proooblem!
-    Yooo find ${item-singular: 1[2]} for ${keyitem-singular: 0[2]}?${prompt}
+    Pas de proooblème !
+    Tu trouveras ${item-singular: 1[2]} pour ${keyitem-singular: 0[2]} ?${prompt}
   10732: |-
-    Big, red, many-many wavy-wavy arm creature has ${item-singular: 1[2]}!
-    Yooo go to Wajaom or Bhaflau!${prompt}
-  10733: 'If Pyopyoroon has ${item-singular: 1[2]}, Pyopyoroon make yooo ${keyitem-singular: 0[2]}!${prompt}'
-  10734: Pyopyo-pyorooon!${prompt}
-  10735: 'Yooo brought ${item-singular: 1[2]}! Nose of Pyopyoroon can tell!${prompt}'
+    Grosse créature rouge, avec plein de bras ondulants, a ${item-singular: 1[2]} !
+    Va à Wajaom ou Bhaflau !${prompt}
+  10733: 'Si Pyopyoroon a ${item-singular: 1[2]}, Pyopyoroon fera ${keyitem-singular: 0[2]} pour toii !${prompt}'
+  10734: Pyopyo-pyorooon !${prompt}
+  10735: 'Toii as apporté ${item-singular: 1[2]} ! Le nez de Pyopyoroon le sait !${prompt}'
   10736: |-
-    Pyopyoroon make yooo ${keyitem-singular: 0[2]}!
-    Yooo see spoooky ghooost!${prompt}
-  10737: Pyopyoroon is master perfooom maker! Make smelly smell into sweeet smell!${prompt}
-  10738: Yooo take!${prompt}
-  10739: Ooold smell is hard smell to make. But ghooost will smell, maybe cry?${prompt}
+    Pyopyoroon va te faire ${keyitem-singular: 0[2]} !
+    Toii verras des fantooomes effrayants !${prompt}
+  10737: Pyopyoroon est maître des parfuuums ! Transforme les odeurs puantes en odeurs sucrées !${prompt}
+  10738: Prends !${prompt}
+  10739: Les vieilles odeurs sont dures à créer. Mais les fantooomes vont les sentir, peut-être pleurer ?${prompt}
   10740: |-
-    Yooo go west! Many rooocks, many stooones!
-    Yooo find ghooost!${prompt}
-  10741: Oh, the ${choice-player-gender}[man/lady] whooo toook Pyopyoroon's smell!${prompt}
-  10742: Hm? Special ghooost cry? Ghooost like Pyopyoroon's smell?${prompt}
+    Va à l’ouest ! Beaucoup de roooches, beaucoup de pierrees !
+    Tu trouveras un fantooomme !${prompt}
+  10741: Oh, le/la ${choice-player-gender}[homme/femme] qui a pris l’odeur de Pyopyoroon !${prompt}
+  10742: Hm ? Fantooomme spécial qui pleure ? Il aime l’odeur de Pyopyoroon ?${prompt}
   10743: Nashmau...?${prompt}
   10744: '!!!${prompt}'
-  10745: ${name-player}!${prompt}
-  10746: Pyopyo-pyorooon!${prompt}
-  10747: It's the ghooost hunter!${prompt}
+  10745: ${name-player} !${prompt}
+  10746: Pyopyo-pyorooon !${prompt}
+  10747: C’est le chasseur de fantooomes !${prompt}
   10748: |-
-    Yooo jump from ghooost ship!
-    Pyopyoroon not believing eyes!${prompt}
+    Toii as sauté du navire fantôme !
+    Pyopyoroon n’en croit pas ses yeux !${prompt}
   10749: |-
-    Our efforts seem in vain.
-    The Ashu Talif and her crew still haunts these seas...${prompt}
+    Nos efforts semblent vains.
+    L’Ashu Talif et son équipage hantent toujours ces mers...${prompt}
   10750: |-
-    That captain...
-    The strange aura he conceals...${prompt}
-  10751: No, I am most likely thinking too much.${prompt}
-  10752: And I have yet to report to you the information I have discovered about that vessel.${prompt}
-  10753: If the rumors are true, the ship we boarded is known as the “Black Coffin.”${prompt}
-  10754: However, according to the history books, the Black Coffin was meant to have sunk almost two hundred years ago...${prompt}
-  10755: At the time, she was crewed by the rebels of Ephramad.${prompt}
-  10756: Also known as “corsairs.”${prompt}
+    Ce capitaine...
+    L’étrange aura qu’il cache...${prompt}
+  10751: Non, je réfléchis sûrement trop.${prompt}
+  10752: Et je dois encore te faire mon rapport sur les informations découvertes au sujet de ce navire.${prompt}
+  10753: Si les rumeurs sont vraies, le navire que nous avons abordé s’appelle le “Cercueil Noir.”${prompt}
+  10754: Pourtant, selon les livres d’histoire, le Cercueil Noir aurait coulé il y a près de deux cents ans...${prompt}
+  10755: À l’époque, il était dirigé par les rebelles d’Ephramad.${prompt}
+  10756: Aussi connus sous le nom de “corsaires.”${prompt}
   10757: |-
-    This word basically means “pirate.”
-    But the corsairs were far more than simple brigands.
-  10758: They were the heroes of a lost kingdom, clashing valiantly against the vast might of the Empire in a bid to reclaim their nation.${prompt}
-  10759: The admiral that led the corsairs into battle...${prompt}
-  10760: '...was Prince Luzaf.${prompt}'
-  10761: A courageous warrior feared by his enemies...${prompt}
-  10762: Ah, it seems my feathers have dried...${prompt}
-  10763: These are not for plucking!${prompt}
-  10764: I shall return to my tale.${prompt}
-  10765: This port town of Nashmau, now home to these Qiqirn, was once a naval base built by the surviving citizens of Ephramad.${prompt}
-  10766: With Nashmau at their center, the Arrapago Islands were the last refuge remaining to the survivors of Ephramad...${prompt}
-  10767: And the last stronghold of Prince Luzaf...${prompt}
-  10768: He carried the torch of his people's hopes, and turned it into a blazing inferno for vengeance...${prompt}
-  10769: If the rumors are indeed accurate, then the man we encountered on that ship...${prompt}
-  10770: In any case, we are certain that the Ashu Talif is more than just a tavern rumor.${prompt}
-  10771: It may sound like another fairy tale, but I intend to report everything I have learned to President Naja.${prompt}
-  10772: If we tell her the same tale on different occasions, she may place more credence to the story.${prompt}
-  10773: Our mercenary assessment should benefit from this as well, do you not agree?${prompt}
-  10774: I leave immediately for Al Zahbi!${prompt}
-  10775: I advise you to do the same.${prompt}
-  10776: Farewell, ${name-player}!${prompt}
-  10777: I'm ${name-npc}, a soldier of the great Empire of Aht Urhgan. Pray tell, why have you come all the way to this forsaken land?${prompt}
-  10778: Don't waste my time, adventurer.${prompt}
+    Ce mot signifie en gros “pirate.”
+    Mais les corsaires étaient bien plus que de simples brigands.
+  10758: C’étaient les héros d’un royaume perdu, luttant vaillamment contre l’Empire pour reconquérir leur nation.${prompt}
+  10759: L’amiral qui a mené les corsaires au combat...${prompt}
+  10760: '...était le prince Luzaf.${prompt}'
+  10761: Un guerrier courageux, craint par ses ennemis...${prompt}
+  10762: Ah, il semble que mes plumes aient séché...${prompt}
+  10763: Celles-là ne sont pas à plumer !${prompt}
+  10764: Je vais reprendre mon récit.${prompt}
+  10765: Ce port de Nashmau, maintenant occupé par les Qiqirn, était autrefois une base navale bâtie par les survivants d’Ephramad.${prompt}
+  10766: Avec Nashmau comme centre, les îles Arrapago étaient le dernier refuge des survivants d’Ephramad...${prompt}
+  10767: Et le dernier bastion du prince Luzaf...${prompt}
+  10768: Il portait la flamme des espoirs de son peuple, la transformant en brasier de vengeance...${prompt}
+  10769: Si les rumeurs sont exactes, alors l’homme que nous avons rencontré sur ce navire...${prompt}
+  10770: En tout cas, nous sommes certains que l’Ashu Talif n’est pas qu’une rumeur de taverne.${prompt}
+  10771: Cela peut ressembler à un conte, mais je vais rapporter tout ce que j’ai appris à la présidente Naja.${prompt}
+  10772: Si nous lui racontons la même histoire à différentes occasions, elle pourrait y accorder plus de crédit.${prompt}
+  10773: Notre évaluation de mercenaire pourrait aussi en tirer profit, tu ne crois pas ?${prompt}
+  10774: Je pars immédiatement pour Al Zahbi !${prompt}
+  10775: Je te conseille d’en faire autant.${prompt}
+  10776: Adieu, ${name-player} !${prompt}
+  10777: Je suis ${name-npc}, soldat du grand Empire d’Aht Urhgan. Dis-moi donc, pourquoi es-tu venu jusqu’en cette terre maudite ?${prompt}
+  10778: Ne me fais pas perdre mon temps, aventurier.${prompt}
   10779: |-
-    ${lettercase: 1}${article} ${item-article: 0[2]}! Excellent work.
-    I will inform the commander immediately.${prompt}
-  10780: Your Imperial Standing has increased!${prompt}
+    ${lettercase: 1}${article} ${item-article: 0[2]} ! Excellent travail.
+    J’en informerai le commandant immédiatement.${prompt}
+  10780: Votre Réputation Impériale a augmenté !${prompt}
   10781: |-
-    What is your business?
+    Que puis-je faire pour vous ?
     ${selection-lines}
-    I want to receive Sanction.
-    I want to spend my credits.
-    I have some questions...
-    Nothing, sorry to bother you.${prompt}
-  10782: 'I will bestow upon you the Empire''s Sanction. Good luck.${wait-animation: 0}${prompt}'
-  10783: The Astral Candescence is now in Al Zahbi, so you will receive an experience bonus from battles. You can also select one of the following bonuses in exchange for a slight decrease in your Imperial Standing.${prompt}
+    Je souhaite recevoir la Sanction.
+    Je veux dépenser mes crédits.
+    J’ai quelques questions...
+    Rien, désolé du dérangement.${prompt}
+  10782: 'Je vais vous accorder la Sanction de l’Empire. Bonne chance.${wait-animation: 0}${prompt}'
+  10783: La Luminescence Astrale est désormais à Al Zahbi, vous recevrez donc un bonus d’expérience en combat. Vous pouvez aussi choisir l’un des bonus suivants, en échange d’une légère baisse de votre Réputation Impériale.${prompt}
   10784: |-
-    Choose a bonus for ${number: 8} ${choice-plurality: 8}[credit/credits]?
+    Choisir un bonus pour ${number: 8} ${choice-plurality: 8}[crédit/crédits] ?
     ${selection-lines}
-    Not now.
-    Regen.
+    Pas maintenant.
+    Régénération.
     Refresh.
-    Increased meal duration.${prompt}
-  10785: You have received the Empire's Sanction.${prompt}
-  10786: You do not have enough Imperial Standing credits to receive the bonus.${prompt}
+    Durée de repas augmentée.${prompt}
+  10785: Vous avez reçu la Sanction de l’Empire.${prompt}
+  10786: Vous n’avez pas assez de crédits de Réputation Impériale pour obtenir ce bonus.${prompt}
   10787: |-
-    You cannot receive the bonus.
-    The Astral Candescence has been taken.${prompt}
+    Vous ne pouvez pas obtenir le bonus.
+    La Luminescence Astrale a été prise.${prompt}
   10788: |-
-    You currently possess ${number: 0} ${choice-plurality: 0}[Imperial Standing credit/Imperial Standing credits].
-    Would you like to use them to purchase items?${prompt}
+    Vous avez actuellement ${number: 0} ${choice-plurality: 0}[crédit/crédits] de Réputation Impériale.
+    Souhaitez-vous les utiliser pour acheter des objets ?${prompt}
   10789: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (All ranks).
-    1000-pt. items (Private 2nd Class).
-    2000-pt. items (Private 1st Class).
-    4000-pt. items (Superior Private).
-    8000-pt. items (Lance Corporal).
-    16000-pt. items (Corporal).
-    24000-pt. items (Sergeant).
-    32000-pt. items (Sergeant Major).
-    40000-pt. items (Chief Sergeant).
-    48000-pt. items (Second Lieutenant).
-    56000-pt. items (First Lieutenant).
-    Cancel.${prompt}
-  10790: There are currently no items available for that rank.${prompt}
-  10791: 'Your Imperial Standing is too low to purchase the ${keyitem-singular: 8[2]}.${prompt}'
-  10792: 'Are you sure you want to purchase the ${keyitem-singular: 8[2]}?${prompt}'
-  10793: 'You already possess ${keyitem-article: 0[2]}.${prompt}'
+    Objets courants (tous rangs).
+    Objets à 1000 pts (Soldat 2e classe).
+    Objets à 2000 pts (Soldat 1re classe).
+    Objets à 4000 pts (Soldat supérieur).
+    Objets à 8000 pts (Caporal suppléant).
+    Objets à 16000 pts (Caporal).
+    Objets à 24000 pts (Sergent).
+    Objets à 32000 pts (Sergent-chef).
+    Objets à 40000 pts (Sergent-major).
+    Objets à 48000 pts (Sous-lieutenant).
+    Objets à 56000 pts (Lieutenant).
+    Annuler.${prompt}
+  10790: Aucun objet disponible pour ce rang actuellement.${prompt}
+  10791: 'Votre Réputation Impériale est trop faible pour acheter ${keyitem-singular: 8[2]}.${prompt}'
+  10792: 'Êtes-vous sûr(e) de vouloir acheter ${keyitem-singular: 8[2]} ?${prompt}'
+  10793: 'Vous possédez déjà ${keyitem-article: 0[2]}.${prompt}'
   10794: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 20} credits).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 20} credits).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 20} credits).
-    Return.${prompt}
-  10795: 'You do not meet the requirements to purchase the ${item-singular: 8[2]}.${prompt}'
-  10796: 'Your rank is too low to purchase the ${item-singular: 8[2]}.${prompt}'
-  10797: 'Your Imperial Standing is too low to purchase the ${item-singular: 8[2]}.${prompt}'
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 20} crédits).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 20} crédits).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 20} crédits).
+    Retour.${prompt}
+  10795: 'Vous ne remplissez pas les conditions pour acheter ${item-singular: 8[2]}.${prompt}'
+  10796: 'Votre rang est trop bas pour acheter ${item-singular: 8[2]}.${prompt}'
+  10797: 'Votre Réputation Impériale est trop faible pour acheter ${item-singular: 8[2]}.${prompt}'
   10798: |-
-    You cannot equip the ${item-singular: 8[2]}.
-    Do you still wish to proceed?${prompt}
+    Vous ne pouvez pas équiper ${item-singular: 8[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   10799: |-
-    Your level is too low to equip the ${item-singular: 8[2]}.
-    Do you still wish to proceed?${prompt}
+    Votre niveau est trop bas pour équiper ${item-singular: 8[2]}.
+    Souhaitez-vous tout de même continuer ?${prompt}
   10800: |-
-    You seem to be able to equip the ${item-singular: 8[2]}.
-    Do you wish to proceed?${prompt}
-  10801: 'Are you sure you want to purchase the ${item-singular: 8[2]}?${prompt}'
+    Il semble que vous puissiez équiper ${item-singular: 8[2]}.
+    Souhaitez-vous continuer ?${prompt}
+  10801: 'Êtes-vous sûr(e) de vouloir acheter ${item-singular: 8[2]} ?${prompt}'
   10802: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, purchase item.
-    Cancel purchase.${prompt}
+    Oui, acheter l’objet.
+    Annuler l’achat.${prompt}
   10803: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes, even though I can't equip it.
-    Cancel purchase.${prompt}
+    Oui, même si je ne peux pas l’équiper.
+    Annuler l’achat.${prompt}
   10804: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 9[2]}.
     ${lettercase: 1}${item-singular: 10[2]}.
     ${lettercase: 1}${item-singular: 11[2]}.
-    Back.${prompt}
+    Retour.${prompt}
   10805: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 9[2]}.
     ${lettercase: 1}${item-singular: 10[2]}.
     ${lettercase: 1}${item-singular: 11[2]}.
     ${lettercase: 1}${item-singular: 12[2]}.
-    Back.${prompt}
+    Retour.${prompt}
   10806: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
     ${lettercase: 1}${item-singular: 9[2]}.
     ${lettercase: 1}${item-singular: 10[2]}.
     ${lettercase: 1}${item-singular: 11[2]}.
     ${lettercase: 1}${item-singular: 12[2]}.
     ${lettercase: 1}${item-singular: 13[2]}.
-    Back.${prompt}
+    Retour.${prompt}
   10807: |-
-    Which item do you wish to purchase?
+    Quel objet souhaitez-vous acheter ?
     ${selection-lines}
-    ${lettercase: 1}${item-singular: 9[2]} (${number: 20} credits).
-    ${lettercase: 1}${item-singular: 10[2]} (${number: 21} credits).
-    ${lettercase: 1}${item-singular: 11[2]} (${number: 22} credits).
-    ${lettercase: 1}${item-singular: 12[2]} (${number: 23} credits).
-    ${lettercase: 1}${item-singular: 13[2]} (${number: 24} credits).
-    ${lettercase: 1}${item-singular: 14[2]} (${number: 25} credits).
-    ${lettercase: 1}${item-singular: 15[2]} (${number: 26} credits).
-    ${lettercase: 1}${item-singular: 16[2]} (${number: 27} credits).
-    ${lettercase: 1}${item-singular: 17[2]} (${number: 28} credits).
-    Next page.
-    Previous page.
-    Back.${prompt}
+    ${lettercase: 1}${item-singular: 9[2]} (${number: 20} crédits).
+    ${lettercase: 1}${item-singular: 10[2]} (${number: 21} crédits).
+    ${lettercase: 1}${item-singular: 11[2]} (${number: 22} crédits).
+    ${lettercase: 1}${item-singular: 12[2]} (${number: 23} crédits).
+    ${lettercase: 1}${item-singular: 13[2]} (${number: 24} crédits).
+    ${lettercase: 1}${item-singular: 14[2]} (${number: 25} crédits).
+    ${lettercase: 1}${item-singular: 15[2]} (${number: 26} crédits).
+    ${lettercase: 1}${item-singular: 16[2]} (${number: 27} crédits).
+    ${lettercase: 1}${item-singular: 17[2]} (${number: 28} crédits).
+    Page suivante.
+    Page précédente.
+    Retour.${prompt}
   10808: |-
-    What do you wish to know about?
+    Que souhaitez-vous savoir ?
     ${selection-lines}
-    Nothing.
+    Rien.
     Sanction.
-    Imperial Standing.
-    Besieged.${prompt}
+    Réputation Impériale.
+    Assaut des Bêtes.${prompt}
   10809: |-
-    What about Besieged?
+    Que voulez-vous savoir sur l’Assaut ?
     ${selection-lines}
-    Never mind.
-    Besieged basics.
-    “Serpent Generals.”
-    Astral Candescence in Al Zahbi.
-    Astral Candescence with beastmen.
-    Empire's current state of defense.${prompt}
-  10810: “Sanction” is a magic spell that we use to observe and assess mercenaries' actions.${prompt}
-  10811: Defeating enemies while you have Sanction cast on you will raise your Imperial Standing. Also, the stronger the monsters you fight, the higher your Imperial Standing will become.${prompt}
-  10812: When fighting in a beastman stronghold that has taken the Astral Candescence, your Imperial Standing will rise by a significant amount as thanks for your participation in the recovery effort.${prompt}
-  10813: Sanction is also necessary in order to receive crystals from the enemies you defeat.${prompt}
-  10814: But you must take caution. Stepping too far out of the Empire's boundaries will cause Sanction to wear off.${prompt}
-  10815: You can raise your Imperial Standing by defeating enemies while you have Sanction cast on you.${prompt}
-  10816: Saving a captured prisoner in a beastman stronghold and submitting archaic mirrors to Imperial guards will also result in an increased Imperial Standing.${prompt}
-  10817: You can view your Imperial Standing by selecting “Besieged” under “Region Info.”${prompt}
-  10818: You can also speak to me at any time to exchange your Imperial Standing credits for items.${prompt}
-  10819: “Besieged” occurs when the beastman armies breach the walls of Al Zahbi.${prompt}
-  10820: Everyone in town who is capable of wielding a weapon is called to action to defend Al Zahbi alongside the Imperial Army.${prompt}
-  10821: The beastmen's main purpose is to enter the Hall of Binding and wrest the “Astral Candescence” from the Empire's control.${prompt}
-  10822: You need not know what the Astral Candescence is.${prompt}
-  10823: All you must know is that it is your duty to protect the five Serpent Generals who hold the keys to the Hall of Binding, and to drive the beastman hordes from the Imperial capital.${prompt}
+    Laissez tomber.
+    Bases de l’Assaut.
+    « Généraux Serpents ».
+    Luminescence Astrale à Al Zahbi.
+    Luminescence Astrale chez les bêtes.
+    État actuel de la défense impériale.${prompt}
+  10810: « Sanction » est un sort magique que nous utilisons pour observer et évaluer les actions des mercenaires.${prompt}
+  10811: Vaincre des ennemis alors que la Sanction est active augmentera votre Réputation Impériale. Plus les monstres sont puissants, plus votre réputation augmentera.${prompt}
+  10812: En combattant dans une forteresse ennemie ayant capturé la Luminescence Astrale, vous recevrez un gain de Réputation considérable pour votre participation à la récupération.${prompt}
+  10813: La Sanction est aussi nécessaire pour recevoir des cristaux des ennemis vaincus.${prompt}
+  10814: 'Mais soyez prudent : vous éloigner trop du territoire impérial annulera la Sanction.${prompt}'
+  10815: Vous pouvez augmenter votre Réputation Impériale en combattant avec la Sanction active.${prompt}
+  10816: Sauver un prisonnier capturé dans une forteresse ennemie et remettre des miroirs archaïques aux gardes impériaux augmentera aussi votre Réputation Impériale.${prompt}
+  10817: Vous pouvez consulter votre Réputation Impériale en sélectionnant « Assaut » dans le menu « Infos régionales ».${prompt}
+  10818: Vous pouvez aussi venir me parler à tout moment pour échanger vos crédits contre des objets.${prompt}
+  10819: « Assaut » a lieu quand les armées des bêtes franchissent les murs d’Al Zahbi.${prompt}
+  10820: Tous les habitants capables de se battre sont appelés à défendre Al Zahbi aux côtés de l’Armée Impériale.${prompt}
+  10821: L’objectif principal des bêtes est d’envahir la Salle du Sceau et de s’emparer de la « Luminescence Astrale ».${prompt}
+  10822: Vous n’avez pas besoin de savoir ce qu’est la Luminescence Astrale.${prompt}
+  10823: Tout ce que vous devez savoir, c’est qu’il est de votre devoir de protéger les cinq Généraux Serpents qui détiennent les clés de la Salle du Sceau, et de repousser les hordes ennemies de la capitale impériale.${prompt}
   10824: |-
     The Empire's safety and its future rest on your capable shoulders!
     Rest assured that you will be rewarded for your efforts.${prompt}
