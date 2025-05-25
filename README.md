@@ -1,5 +1,17 @@
 TRADUCTION DU CLIENT FINAL FANTASY XI - VANADIEL XI
 
+Projet de francisation de FINAL FANTASY XI
+
+Si vous aimez FINAL FANTASY XI et que vous rêvez de le voir entièrement en français, je vous invite à rejoindre un projet communautaire ambitieux :
+
+ Objectif : Traduire les dialogues, quêtes, menus et contenus du jeu tout en respectant son ambiance et son style.
+ Format : fichiers YAML organisés, syntaxe propre, mise en page claire.
+ Besoin d’aide : traducteurs, relecteurs, fans motivés, testeurs en jeu.
+
+Faites partie de cette aventure et contribuez à faire vivre Vana'diel… en français !
+
+Rejoignez-nous ou proposez vos idées/ressources ! 
+
 ATTENTION : Les fichiers correspondent STRICTEMENT à la version v30241003_2 (octobre 2024). Si quelqu'un souhaite m'aider, je l’en remercie vivement ! Utilisez l’extension de comparaison de Notepad++ (voir le Wiki). Si un outil plus performant existe, merci de l'ajouter au Wiki en français clair !
 
 Les generated_dats/ROM**** sont des menus, des commandes, ou des zones traduites ou en cours de traduction. Tout ce qui est téléversé sur GitHub est fonctionnel. Il sert essentiellement de dépot et de sauvegarde.
