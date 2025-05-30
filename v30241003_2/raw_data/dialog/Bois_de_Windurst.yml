@@ -16739,107 +16739,107 @@ entries:
   6743: 'num=1:${number: 1}${prompt}'
   6744: 'num=1:${number: 2}${prompt}'
   6745: |-
-    Accept this mission?
+    Accepter cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6746: You have accepted the mission.${prompt}
-  6747: How about a magic map to help you on your adventures?${prompt}
+    Oui.
+    Non.${prompt}
+  6746: Tu as accepté la mission.${prompt}
+  6747: Que dirais-tu d’une carte magique pour t’aider dans tes aventures ?${prompt}
   6748: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
-    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
-    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
-    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
-    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gil).
-    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gil).
-    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gil).
-    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gil).
-    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gil).
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gil).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gil).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gil).
-    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gil).
-    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gil).
-    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
-    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
-    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6749: If you have a map, you can check both the lay of the land and your location whenever you enter an area.${prompt}
+    Refuser.
+    S’informer sur les cartes.
+    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gils).
+    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gils).
+    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gils).
+    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gils).
+    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gils).
+    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gils).
+    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gils).
+    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gils).
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gils).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gils).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gils).
+    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gils).
+    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gils).
+    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gils).
+    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gils).
+    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gils).
+    Page précédente.
+    Page suivante.${prompt}
+  6749: Si tu possèdes une carte, tu peux vérifier la topographie et ta position dès que tu entres dans une zone.${prompt}
   6750: |-
-    If you belong to a party or alliance, you can also check the position of your allies.
-    And depending on your job, you can find NPCs and enemies from afar.${prompt}
+    Si tu fais partie d’un groupe ou d’une alliance, tu peux aussi vérifier la position de tes alliés.
+    Et selon ton métier, tu peux repérer des PNJ et des ennemis de loin.${prompt}
   6751: |-
-    Furthermore, you can even record specific points in the area or have places marked down for certain events.
-    So you see, magic maps are extremely useful.${prompt}
+    De plus, tu peux même enregistrer des points spécifiques dans la zone ou faire marquer des lieux pour certains événements.
+    Comme tu vois, les cartes magiques sont extrêmement utiles.${prompt}
   6752: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d’Oria.
+    Elle coûte ${number: 3} gils.${prompt}
   6753: |-
-    The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Gustaberg, les Hauts de Konschtat, les Marais de Pashhow et Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6754: |-
-    The ${keyitem-singular: 1[2]} covers Sarutabaruta, the Tahrongi Canyon, the Buburimu Peninsula, the Meriphataud Mountains, Mhaura, and Windurst.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst.
+    Elle coûte ${number: 3} gils.${prompt}
   6755: |-
-    The ${keyitem-singular: 1[2]} covers Batallia Downs, Rolanberry Fields, the Sauromugue Champaign, and Jeuno.
-    It costs ${number: 3} gil.${prompt}
-  6756: 'This complete ${keyitem-singular: 1[2]}, which extend far beneath La Theine Plateau, costs ${number: 3} gil.${prompt}'
-  6757: '${lettercase: 1}${keyitem-plural: 1[2]} include layouts for both outpost and fortress of Ghelsba, as well as the Yughott Grotto. It costs ${number: 3} gil.${prompt}'
-  6758: 'The ${keyitem-singular: 1[2]} shows the notorious Orcish stronghold hidden within Jugner Forest. It is priced at ${number: 3} gil.${prompt}'
-  6759: 'This map shows the waterways and islands that make up Carpenters'' Landing. It is priced at ${number: 3} gil.${prompt}'
+    La ${keyitem-singular: 1[2]} couvre les Plaines de Batallia, les Champs de Rolanberry, la Champagne de Sauromugue et Jeuno.
+    Elle coûte ${number: 3} gils.${prompt}
+  6756: 'Cette ${keyitem-singular: 1[2]} complète, qui s’étend loin sous le Plateau de La Theine, coûte ${number: 3} gils.${prompt}'
+  6757: '${lettercase: 1}${keyitem-plural: 1[2]} incluent les plans de l’avant-poste et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Elles coûtent ${number: 3} gils.${prompt}'
+  6758: 'La ${keyitem-singular: 1[2]} montre la forteresse orc notoire cachée dans la Forêt de Jugner. Elle est vendue à ${number: 3} gils.${prompt}'
+  6759: 'Cette carte montre les canaux et les îles qui composent l’Atterrissage des Charpentiers. Elle est vendue à ${number: 3} gils.${prompt}'
   6760: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Bastok's Zeruhn Mines.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan des Mines de Zeruhn à Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6761: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Palborough Mines, which lie in North Gustaberg.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan des Mines de Palborough, situées dans le Nord de Gustaberg.
+    Elle coûte ${number: 3} gils.${prompt}
   6762: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Quadav stronghold, Beadeaux, that is located in the Pashhow Marshlands.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan du bastion Quadav, Beadeaux, situé dans les Marais de Pashhow.
+    Elle coûte ${number: 3} gils.${prompt}
   6763: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Giddeus, which you can reach from West Sarutabaruta.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]}, comme son nom l’indique, contient le plan de Giddeus, accessible depuis l’Ouest de Sarutabaruta.
+    Elle coûte ${number: 3} gils.${prompt}
   6764: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the Yagudo stronghold, Castle Oztroja, located in the Meriphataud Mountains.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} contient le plan du bastion Yagudo, le Château Oztroja, situé dans les Montagnes de Meriphataud.
+    Elle coûte ${number: 3} gils.${prompt}
   6765: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the underground maze of Shakhrami that can be found in the Tahrongi Canyon area.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre le labyrinthe souterrain de Shakhrami, que l’on trouve dans la région du Canyon de Tahrongi.
+    Elle coûte ${number: 3} gils.${prompt}
   6766: |-
-    The ${keyitem-singular: 1[2]} covers the Sanctuary of Zi'Tah, Ro'Maeve, and the Hall of the Gods.
-    It costs ${number: 3} gil.${prompt}
+    La ${keyitem-singular: 1[2]} couvre le Sanctuaire de Zi’Tah, Ro’Maeve et le Hall des Dieux.
+    Elle coûte ${number: 3} gils.${prompt}
   6767: |-
-    This map covers Bibiki Bay and its nearby islands.
-    It costs ${number: 3} gil.${prompt}
-  6768: 'The ${keyitem-singular: 1[2]} outlines the geography of nearby Qufim Island. It costs ${number: 3} gil.${prompt}'
-  6769: 'Located beneath Batallia Downs, the Eldieme Necropolis is shown in detail on this map. The price is ${number: 3} gil.${prompt}'
-  6770: 'The Garlaige Citadel, which lies upon the Sauromugue Champaign, is illustrated in this map. Each copy costs ${number: 3} gil.${prompt}'
-  6771: '${lettercase: 1}${keyitem-plural: 1[2]} include Kazham, as well as both jungles of Yuhtunga and Yhoator for ${number: 3} gil.${prompt}'
-  6772: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} for ${number: 3} gil.${prompt}'
-  6773: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} as well as ${zone: 4[2]} for ${number: 3} gil.${prompt}'
-  6774: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]}, as well as ${zone: 4[2]} and ${zone: 5[2]} for ${number: 3} gil.${prompt}'
+    Cette carte couvre la Baie de Bibiki et ses îles voisines.
+    Elle coûte ${number: 3} gils.${prompt}
+  6768: 'La ${keyitem-singular: 1[2]} décrit la géographie de l’île voisine de Qufim. Elle coûte ${number: 3} gils.${prompt}'
+  6769: 'Située sous les Plaines de Batallia, la Nécropole d’Eldieme est détaillée sur cette carte. Le prix est de ${number: 3} gils.${prompt}'
+  6770: 'La Citadelle de Garlaige, qui se trouve sur la Champagne de Sauromugue, est illustrée sur cette carte. Chaque exemplaire coûte ${number: 3} gils.${prompt}'
+  6771: '${lettercase: 1}${keyitem-plural: 1[2]} incluent Kazham, ainsi que les jungles de Yuhtunga et Yhoator pour ${number: 3} gils.${prompt}'
+  6772: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} pour ${number: 3} gils.${prompt}'
+  6773: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} ainsi que ${zone: 4[2]} pour ${number: 3} gils.${prompt}'
+  6774: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]}, ainsi que ${zone: 4[2]} et ${zone: 5[2]} pour ${number: 3} gils.${prompt}'
   6775: |-
-    Buy ${keyitem-article: 0[2]}?
+    Acheter ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6776: You don't have enough money.${prompt}
-  6777: 'Maps of the Kuzotz region include Altepa Desert as well as Rabao for ${number: 3} gil.${prompt}'
-  6778: 'Maps of the Vollbow region include Cape Teriggan, as well as Valley of Sorrows and Gustav Tunnel for ${number: 3} gil.${prompt}'
-  6779: Maps of the Korroloka Tunnel are, as their names imply, maps of the Korroloka Tunnel, which connects Altepa Desert and Zeruhn Mines.${prompt}
-  6780: 'The map of Al Zahbi also includes Aht Urhgan Whitegate and the Colosseum. It costs ${number: 2} gil.${prompt}'
-  6781: 'This map shows the layout of the Azouph Isle town of Nashmau. It costs ${number: 3} gil.${prompt}'
-  6782: 'This map shows the forest tract stretching west of Al Zahbi. A map of the Wajaom Woodlands can be yours for ${number: 3} gil.${prompt}'
-  6783: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
-  6784: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
-  6785: 'If you wish to ride a chocobo, you must possess ${keyitem-article: 7[2]} and have a high enough job level.${prompt}'
-  6786: 'You can rent a chocobo for ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
-  6787: You can rent a chocobo, but because your level is so low, you won't be able to ride for very long. Also, equipment that extends your riding time will have no effect.${prompt}
-  6788: 'If you still want one, it will cost you ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
+    Oui.
+    Non.${prompt}
+  6776: Tu n’as pas assez d’argent.${prompt}
+  6777: 'Les cartes de la région de Kuzotz incluent le Désert d’Altepa ainsi que Rabao pour ${number: 3} gils.${prompt}'
+  6778: 'Les cartes de la région de Vollbow incluent le Cap Teriggan, ainsi que la Vallée des Souffrances et le Tunnel de Gustav pour ${number: 3} gils.${prompt}'
+  6779: Les cartes du Tunnel de Korroloka sont, comme leur nom l’indique, des cartes du Tunnel de Korroloka, qui relie le Désert d’Altepa et les Mines de Zeruhn.${prompt}
+  6780: 'La carte d’Al Zahbi inclut également la Porte Blanche d’Aht Urhgan et le Colisée. Elle coûte ${number: 2} gils.${prompt}'
+  6781: 'Cette carte montre le plan de la ville de Nashmau sur l’Île Azouph. Elle coûte ${number: 3} gils.${prompt}'
+  6782: 'Cette carte montre la forêt s’étendant à l’ouest d’Al Zahbi. Une carte des Bois de Wajaom peut être à toi pour ${number: 3} gils.${prompt}'
+  6783: 'Cette carte montre les Fourrés de Bhaflau, situés au nord d’Al Zahbi. Elle coûte ${number: 3} gils.${prompt}'
+  6784: '${keyitem-article: 1[2]} est une carte ancienne souvent utilisée pour dépeindre ${zone: 2[2]}. Elle coûte ${number: 3} gils.${prompt}'
+  6785: 'Si tu souhaites monter un chocobo, tu dois posséder ${keyitem-article: 7[2]} et avoir un niveau de métier suffisamment élevé.${prompt}'
+  6786: 'Tu peux louer un chocobo pour ${number: 0} gils. Je vois que tu as actuellement ${number: 1} gils.${prompt}'
+  6787: Tu peux louer un chocobo, mais comme ton niveau est bas, tu ne pourras pas le monter très longtemps. De plus, l’équipement prolongeant le temps de monte n’aura aucun effet.${prompt}
+  6788: 'Si tu en veux quand même, cela te coûtera ${number: 0} gils. Je vois que tu as actuellement ${number: 1} gils.${prompt}'
   6789: |-
     Do you wish to rent a chocobo?
     ${selection-lines}
@@ -18644,180 +18644,180 @@ entries:
   7550: ${prompt}
   7551: ${prompt}
   7552: |-
-    Yowl!
-    You've got guts to come to me auction house! I'm the one who's in charrrge 'ere! If you 'ave any trouble 'ere, come see me!${prompt}
-  7553: Anyone who tries to cheat 'ere will be hung, strung, and quartered! That'll learrrn 'em!${prompt}
-  7554: Those wanting goods delivered to their Mog House or to their friend's Mog House, speak to me. Those who want to parrrticipate in an auction, please go to the auction counters on my right.${prompt}
-  7555: If express delivery is what you want, you've come to the right place, all rrright! The super-sonic “An and An” sisterrrs will have it there fasterrr than light!${prompt}
+    Miaou !
+    T’as du cran de venir à ma maison des enchères ! C’est moi qui commande ici ! Si t’as un problème, viens me voir !${prompt}
+  7553: Quiconque essaie de tricher ici sera pendu, écartelé et dépecé ! Ça leur apprendra !${prompt}
+  7554: Ceux qui veulent que des marchandises soient livrées à leur Maison Mog ou à celle d’un ami, parlez-moi. Ceux qui veulent participer à une enchère, allez aux comptoirs d’enchères à ma droite.${prompt}
+  7555: Si c’est une livraison express que tu veux, t’es au bon endroit, tout à fait ! Les super-soniques sœurs « An et An » te l’apporteront plus vite que la lumière !${prompt}
   7556: |-
-    My name is An Polaali.
-    I've parrrtnered up here with An Shanaa 'cause we are the best.${prompt}
+    Je m’appelle An Polaali.
+    J’ai fait équipe ici avec An Shanaa parce qu’on est les meilleures.${prompt}
   7557: |-
-    I'm An Shanaa.
-    An Polaali there's my greatest rrrival and closest friend.${prompt}
-  7558: Day in and day out, it's the same old rrroutine. So she and I decided to have a contest over who can deliver things the fastest!${prompt}
-  7559: Ladies and gentlepeople, horrible and honorable! The Troupe Valeriano is proud to perform in a place as powerful and pleasantly peopled as this!${prompt}
-  7560: Welcome to the Troupe Valeriano. Valeriano, at your service! Have a laugh, then spend some cash! Treats and sweets from exotic lands!${prompt}
-  7561: '......${prompt}'
-  7562: Surprising that an advanced country like Bastok could fall behind in conquests... That Hume technology can't do everything, I guess.${prompt}
-  7563: I'm not too fond of the folksy-wolksy in these parts. All important with their noses in the air and their tails a-waving, but cheap as can be. You folk from other countries need to get cracking!${prompt}
-  7564: Them Elvaan sure are strong with their pointy ears and pointy swords! San d'Oria's sure to be in the lead for a long while yet!${prompt}
-  7565: The food around here's purrretty good, especially with all the exotic ingrrredients available these days.  My fellow Windurstians, you had better go on morrre conquests or you'll be left behind!${prompt}
+    Je suis An Shanaa.
+    An Polaali là-bas est ma plus grande rivale et ma plus proche amie.${prompt}
+  7558: Jour après jour, c’est la même vieille routine. Du coup, elle et moi, on a décidé de faire un concours pour voir qui livre le plus vite !${prompt}
+  7559: Mesdames et messieurs, monstres et honorables ! La Troupe Valeriano est fière de se produire dans un lieu aussi puissant et peuplé de gens charmants que celui-ci !${prompt}
+  7560: Bienvenue à la Troupe Valeriano. Valeriano, à votre service ! Riez un bon coup, puis dépensez votre argent ! Délices et douceurs d’horizons exotiques !${prompt}
+  7561: '…${prompt}'
+  7562: Étonnant qu’un pays avancé comme Bastok puisse rester en retard dans les conquêtes… On dirait que la technologie des Humains ne fait pas tout, finalement.${prompt}
+  7563: J’aime pas trop les gens d’ici, ces petits malins avec leur nez en l’air et leur queue qui remue, mais qui sont radins comme pas deux. Vous, les gens d’autres pays, faut vous bouger !${prompt}
+  7564: Ces Elvaan sont sacrément costauds avec leurs oreilles pointues et leurs épées acérées ! San d’Oria va rester en tête encore longtemps !${prompt}
+  7565: La bouffe ici est drôlement bonne, surtout avec tous ces ingrédients exotiques disponibles de nos jours. Mes compatriotes de Windurst, faut en conquérir plus, sinon vous allez rester à la traîne !${prompt}
   7566: |-
-    Interrrested in a knife trick?
-    It's a special routine I worrrked out. But keep your distance, if you value your ears and moustaches as they are!${prompt}
-  7567: I believe...it is the blood of knights...running in Elvaan veins...that gives them victory...${prompt}
-  7568: '...What...think you?${prompt}'
-  7569: Ladies and gentlefolk, welcome to the Troupe Valeriano show! We are enthused to be able to perform in a city of such wealth and fame as Bastok!${prompt}
-  7570: Welcome to the Troupe Valeriano. Valeriano, at your service! Have a laugh, then spend some cash! Treats and sweets from exotic lands!${prompt}
-  7571: Bastok is a much nicer place now than when I left it. You guys must've worked real hard! If only I could go back to bashing monster heads again with you guys.${prompt}
-  7572: Isn't this place great? Bastok's my hometown, you know! Well, there might be a few problems, but it's still the best city in the world!${prompt}
-  7573: There's a store that sells really good instruments here! I'm gonna-wanna sneak off there later. Ah! Shh, don't tell my boss...${prompt}
-  7574: There's plenty of bards around, but I'm the best flute player in Vana'diel. You don't believe me? Stay awhile and listen.${prompt}
-  7575: The food here's terrrible! C'mon, Windurstians, worrrk harder! I miss Windurstian cuisine.${prompt}
-  7576: Like to see my new knife trrrick? Oh, but keep your distance, if you value your ears and moustaches as they are!${prompt}
-  7577: This place...is tiring...${prompt}
+    Intérrressé par un tour de couteau ?
+    C’est une routine spéciale que j’ai mise au point. Mais garde tes distances si tu tiens à tes oreilles et tes moustaches telles qu’elles sont !${prompt}
+  7567: Je crois… que c’est le sang des chevaliers… qui coule dans les veines des Elvaan… qui leur donne la victoire…${prompt}
+  7568: '…Qu’en… penses-tu ?${prompt}'
+  7569: Mesdames et messieurs, bienvenue au spectacle de la Troupe Valeriano ! Nous sommes ravis de pouvoir nous produire dans une ville aussi riche et célèbre que Bastok !${prompt}
+  7570: Bienvenue à la Troupe Valeriano. Valeriano, à votre service ! Riez un bon coup, puis dépensez votre argent ! Délices et douceurs d’horizons exotiques !${prompt}
+  7571: Bastok est bien plus agréable maintenant que quand je l’ai quittée. Vous avez dû bosser dur ! Si seulement je pouvais revenir cogner des têtes de monstres avec vous.${prompt}
+  7572: N’est-ce pas un endroit génial ? Bastok, c’est ma ville natale, tu sais ! Bon, il y a quelques problèmes, mais c’est quand même la meilleure ville du monde !${prompt}
+  7573: Il y a un magasin qui vend d’excellents instruments ici ! J’vais-wais m’éclipser là-bas plus tard. Ah ! Chut, dis rien à mon patron…${prompt}
+  7574: Y a plein de bardes autour, mais je suis le meilleur joueur de flûte de Vana’diel. Tu me crois pas ? Reste un peu et écoute.${prompt}
+  7575: La bouffe ici est terrrible ! Allez, les Windurstiens, bossez plus dur ! J’me languis de la cuisine de Windurst.${prompt}
+  7576: Veux voir mon nouveau tour de couteaux ? Oh, mais garde tes distances si tu tiens à tes oreilles et tes moustaches telles qu’elles sont !${prompt}
+  7577: Cet endroit… est épuisant…${prompt}
   7578: |-
-    ...
-    (I'm a mime.)${prompt}
-  7579: Halfling philosophers and heroine beauties, welcome to the Troupe Valeriano show! And how gorgeous and green this fair town is!${prompt}
-  7580: Welcome to the Troupe Valeriano. Valeriano, at your service! Have a laugh, then spend some cash! Treats and sweets from exotic lands!${prompt}
-  7581: Surprising that Bastok, with its mighty Galkan warriors, could end up playing second fiddle to such a happy-go-lucky country as this. I'm looking forward to seeing you guys take the lead again.${prompt}
+    …
+    (Je suis un mime.)${prompt}
+  7579: Philosophes demi-portions et beautés héroïques, bienvenue au spectacle de la Troupe Valeriano ! Et que cette belle ville est magnifique et verdoyante !${prompt}
+  7580: Bienvenue à la Troupe Valeriano. Valeriano, à votre service ! Riez un bon coup, puis dépensez votre argent ! Délices et douceurs d’horizons exotiques !${prompt}
+  7581: Étonnant que Bastok, avec ses puissants guerriers Galkas, se retrouve en seconde position face à un pays aussi insouciant que celui-ci. J’ai hâte de vous voir reprendre la tête !${prompt}
   7582: |-
-    Watch it! Keep back from the flames!
-    These ain't magical illusions, you know!
-    Real flames burn people!${prompt}
+    Attention ! Reste loin des flammes !
+    Ce ne sont pas des illusions magiques, tu sais !
+    De vraies flammes brûlent les gens !${prompt}
   7583: |-
-    O～h, I left you behind♪
-    O～nly to return to you, oh Windurst!♪
-    S～o rich, your glory sends me blind,♪
-    L～o, praise the Star Sibyl, oh Windurst!♪${prompt}
+    Oh, je t’ai laissé derrière♪
+    On revient vers toi, ô Windurst !♪
+    Si riche, ta gloire m’aveugle,♪
+    Louange à la Sibylle Étoilée, ô Windurst !♪${prompt}
   7584: |-
-    Windurst is the besty!♪
-    You can forget about the resty!♪
-    The air, so fair, has a different smell!♪
-    It improves my tone, can't you tell?♪${prompt}
-  7585: It's so verrrdant here and the food is delicious. I can hardly breathe in those other countries. Keep up the good work so I can stay here longerrr!${prompt}
-  7586: Want to see my new knife trrrick? But keep your distance, if you value your ears and moustaches as they arrre!${prompt}
+    Windurst est la meilleure !♪
+    Oublie les autres, c’est plus fort !♪
+    L’air, si pur, a une odeur si belle !♪
+    Ça améliore mon ton, tu peux l’entendre, n’est-ce pas ?♪${prompt}
+  7585: C’est si verrdoyant ici et la bouffe est délicieuse. J’ai du mal à respirer dans les autres pays. Continuez le bon travail pour que je puisse rester ici longtempps !${prompt}
+  7586: Veux-tu voir mon nouveau tour de couteaux ? Mais garde tes distances si tu tiens à tes oreilles et tes moustaches telles qu’elles sont !${prompt}
   7587: |-
-    There are...so many...bugs here...
-    This country...is...frightening...${prompt}
-  7588: '...Please...enjoy...${prompt}'
-  7589: Can't you see I'm busy now? Give a girl a little brrreathing room, huh?${prompt}
+    Il y a… tellement… d’insectes ici…
+    Ce pays… est… effrayant…${prompt}
+  7588: '…S’il te plaît… amuse-toi…${prompt}'
+  7589: Tu vois pas que je suis occupée maintenant ? Laisse un peu de place à une fille, hein ?${prompt}
   7590: |-
-    Heh-heh-heh...
-    I wouldn't wander around this area unless you have good reason to... It could be dangerrrous!${prompt}
-  7591: Haven't you ever heard the name of “Nanaa Mihgo”? Well, this is herrr house!${prompt}
-  7592: We only take orders from the top cat. When she says, “Jump!”, we say, “How high?”...and we always land on our feet, of course.${prompt}
+    Heh-heh-heh…
+    J’me baladerais pas dans ce coin sans une bonne raison… Ça pourrait être dangerrreux !${prompt}
+  7591: T’as jamais entendu parler de « Nanaa Mihgo » ? Eh bien, c’est sa maison ici !${prompt}
+  7592: On n’obéit qu’au chat en chef. Quand elle dit « Saute ! », on dit « Jusqu’où ? »… et on retombe toujours sur nos pattes, bien sûr.${prompt}
   7593: |-
-    Grrr...
-    You don't seem to understand how harrrd being a member of her gang is, do you?${prompt}
+    Grrr…
+    Tu sembles pas comprendre à quel point c’est dur d’être membre de sa bande, hein ?${prompt}
   7594: |-
-    Humph...
-    Looks like that Nanaa Mihgo, better known as the Cat Burglar, is at her home forrr once.${prompt}
-  7595: An adventurer such as yourself ought to be careful, lest you get burrrned.${prompt}
-  7596: So, who do you think you arrre? You want to crrrawl up to me, do you?${prompt}
-  7597: Well, if you bring me a little something as a sign of your desire to be my frrriend, I might just considerrr the possibility...${prompt}
-  7598: Haven't I seen you somewhere beforrre? Weren't you the one running with those pack of brrrats from the port area?${prompt}
-  7599: So you've come to apologize, have you? Well, you had better bring me a little something to show your desire to be my frrriend! Then I'll consider whether to forrrgive you or not...${prompt}
-  7600: Well, if you want to be all chummy with me, you had better bring me a token offerrring firrrst. I'll be waiting... Hah!${prompt}
-  7601: What's that? You're contemplating taking something to Nanaa Mihgo?${prompt}
-  7602: I recommend you forrrget that! She'll take you in, all right, but not the way you expect! Haven't you heard that she's involved with some nasty foreign mob? Be carrreful!${prompt}
-  7603: What? You want to make frrriends with Nanaa Mihgo? Well, you've got no chance of that right now, have you?${prompt}
-  7604: If you want to run with the top cat, you'll have to be the right kind of rogue firrrst!${prompt}
-  7605: 'We crrrawled up to the top cat by taking her four ${item-plural: 1[2]} each. That''s how she accepted us! You think you can match that?${prompt}'
-  7606: 'You can get your paws on ${item-plural: 1[2]} by defeating those Yagudo beastmen. But you won''t please the Tarutaru very much if you go arrround fighting Yagudo!${prompt}'
-  7607: Windurst is currently trying to maintain amicable relations with the Yagudo. It's a very different worrrld from what it was twenty years ago...${prompt}
-  7608: Trying to win Nanaa Mihgo over is a waste of time! The most she will do is rrreturn your kindness with hostility.${prompt}
-  7609: Looking at her, I rrrealize it's not a person's birth, but their upbringing, that determines who they become.${prompt}
-  7610: Purrr... For you to bring me these implies my two followers out in front let the cat out of the bag.${prompt}
+    Humph…
+    On dirait que Nanaa Mihgo, mieux connue comme la Cambrioleuse Féline, est chez elle pour une fois.${prompt}
+  7595: Un aventurier comme toi ferait mieux d’être prudent, sinon tu risques de te faire brrrûler.${prompt}
+  7596: Alors, qui crois-tu être ? Tu veux ramper jusqu’à moi, hein ?${prompt}
+  7597: Bah, si tu m’apportes un petit quelque chose pour montrer ton désir d’être mon ami, je pourrais envisager… la possibilité…${prompt}
+  7598: Ne t’ai-je pas déjà vu quelque part avantrrre ? N’étais-tu pas celui qui courait avec cette bande de gamins du coin portuaire ?${prompt}
+  7599: Alors tu viens t’excuser, hein ? Bah, tu ferais mieux de m’apporter un petit quelque chose pour montrer ton désir d’être mon ami ! Ensuite, je verrai si je te pardonne ou pas…${prompt}
+  7600: Bah, si tu veux être tout copain avec moi, tu ferais mieux de m’apporter une offrande en guise de gage d’abord. J’attends… Hah !${prompt}
+  7601: Quoi ? Tu envisages d’apporter quelque chose à Nanaa Mihgo ?${prompt}
+  7602: Je te conseille d’oublirr cela ! Elle te prendra, oui, mais pas comme tu l’imagines ! T’as pas entendu qu’elle est mêlée à une sale mafia étrangère ? Fais attention !${prompt}
+  7603: Quoi ? Tu veux te faire des amis avec Nanaa Mihgo ? Bah, t’as pas la moindre chance pour l’instant, hein ?${prompt}
+  7604: Si tu veux courir avec le chat en chef, il te faudra d’abord être le bon genre de fripouille !${prompt}
+  7605: 'On a rampé jusqu’au chat en chef en lui apportant chacun quatre ${item-plural: 1[2]}. C’est comme ça qu’elle nous a acceptés ! Tu crois pouvoir faire mieux ?${prompt}'
+  7606: 'Tu peux mettre la patte sur des ${item-plural: 1[2]} en battant ces hommes-bêtes Yagudo. Mais tu ne feras pas plaisir aux Tarutaru si tu vas te battre contre des Yagudo !${prompt}'
+  7607: Windurst essaie actuellement de maintenir de bonnes relations avec les Yagudo. C’est un monde bien différrent d’il y a vingt ans…${prompt}
+  7608: Tenter de gagner Nanaa Mihgo est une perte de temps ! Le mieux qu’elle fera, c’est de répondre à ta gentillesse par de l’hostilité.${prompt}
+  7609: En la regardant, je rréalise que ce n’est pas la naissance d’une personne, mais son éducation, qui détermine ce qu’elle devient.${prompt}
+  7610: Purrr… Que tu m’apportes ça implique que mes deux sbires dehors ont laissé échapper le chat du sac.${prompt}
   7611: |-
-    Well, anyway, I'll accept these as a token of your esteem. And if you happen by any more of these, then give them to me, and I'll make it worrrth your while.
-    Farewell now.${prompt}
-  7612: Just 'cause I accepted your token of esteem doesn't mean you can get away with murderrr!${prompt}
+    Bah, de toute façon, j’accepte ça comme un gage de ton estime. Et si tu tombes sur d’autres, donne-les-moi, et je te récompenserai pour ton effort.
+    Adieu maintenant.${prompt}
+  7612: Juste parce que j’ai accepté ton gage d’estime, ça veut pas dire que tu peux t’en tirer avec un meurtrrre !${prompt}
   7613: |-
-    You have to do things my way if you don't want me getting all catty on you!
-    Now, goodbye and ta-ta!${prompt}
-  7614: '${lettercase: 1}${item-plural: 1[2]} are illegal contraband, so they naturally fetch a high price through the properrr channels.${prompt}'
-  7615: So curious little catspaws like you are more than welcome! With your help, we'll make a killing!${prompt}
+    Tu dois faire les choses à ma façon si tu ne veux pas que je devienne toute chatte avec toi !
+    Allez, au revoir et ta-ta !${prompt}
+  7614: '${lettercase: 1}${item-plural: 1[2]} sont des marchandises illégales, donc elles rapportent un bon prix via les canaux apprropriés.${prompt}'
+  7615: Alors des petites pattes curieuses comme toi sont plus que bienvenues ! Avec ton aide, on va faire un carton !${prompt}
   7616: |-
-    Humph!
-    You just did as I said and gave the top cat some ${item-plural: 1[2]}, didn't you?${prompt}
-  7617: Well, that's just being a copycat! Don't think you're any better than us, or else fur will fly!${prompt}
-  7618: Purrr... For you to bring me these implies my two followers out in front let the cat out of the bag.${prompt}
+    Humph !
+    Tu viens juste de faire ce que j’ai dit et d’apporter des ${item-plural: 1[2]} au chat en chef, hein ?${prompt}
+  7617: Bah, c’est juste copier le chat ! Pense pas que t’es mieux que nous, sinon les poils vont voler !${prompt}
+  7618: Purrr… Que tu m’apportes ça implique que mes deux sbires dehors ont laissé échapper le chat du sac.${prompt}
   7619: |-
-    Well, anyway, apology accepted. Just be more careful next time! And if you happen by any more of these, then hand them to me, and I'll make it worrrth your while.
-    Farewell now.${prompt}
-  7620: Judging by its feel, I'd swear this is a prrrecious stone of some type, but I seem to be losing my instinct on this one...${prompt}
+    Bah, de toute façon, excuses acceptées. Fais juste plus attention la prochaine fois ! Et si tu tombes sur d’autres, donne-les-moi, et je te récompenserai pour ton effort.
+    Adieu maintenant.${prompt}
+  7620: À en juger par son toucher, j’jurerais que c’est une pierre précieuse de quelque sorte, mais j’ai l’air de perdre mon instinct là-dessus…${prompt}
   7621: |-
-    Grrr...
-    Who do you think you are? You shouldn't go sneaking around people's homes...you might be mistaken as a burglar!${prompt}
-  7622: But I'll let you off this time...that is, if you can tell me what this stone is!${prompt}
-  7623: As farrr as I can tell, it looks just like a plain rock, but it may be some kind of ore or something. I wonderrr...${prompt}
-  7624: Hey, that's it...! I have a little job for you! Carrre to go to the Goldsmiths' Guild in Bastok and ask them what in Vana'diel this is?${prompt}
+    Grrr…
+    Qui crois-tu être ? Tu devrais pas rôder autour des maisons… on pourrait te prendre pour un voleur !${prompt}
+  7622: Mais je te laisse partir cette fois… à condition que tu puisses me dire ce que c’est que cette pierre !${prompt}
+  7623: À ce que je peux en juger, ça ressemble à un simple rocher, mais ça pourrait être une sorte de minerai ou quelque chose. Je me demanderrr…${prompt}
+  7624: Hé, c’est ça… ! J’ai un petit boulot pour toi ! Veux-tu aller à la Guilde des Orfèvres à Bastok et leur demander ce que c’est que ça en Vana’diel ?${prompt}
   7625: |-
-    Agree to help?
+    Veux-tu aider ?
     ${selection-lines}
-    Accept.
-    Decline.${prompt}
+    Accepter.
+    Refuser.${prompt}
   7626: |-
     Neverrr mind.
-    I'll just throw this at...I mean, to...the kids who follow me around.${prompt}
-  7627: If it isn't worth much, then go ahead and sell it to the Goldsmiths' Guild. Just make sure you bring the prrroceeds back to me, okay?${prompt}
-  7628: Head over to the Goldsmiths' Guild in Bastok and ask them what that stone is.${prompt}
-  7629: If it isn't worrrth much, then sell it to the Goldsmiths' Guild. Just be sure you bring the proceeds from the sale back to me, okay?${prompt}
-  7630: So, did you make it to the Goldsmiths' Guild in Bastok? Good for you! And how much did you get for that lump of rrrock?${prompt}
+    Je vais juste balancer ça à… je veux dire, donner ça aux gosses qui me suivent partout.${prompt}
+  7627: S’il n’a pas beaucoup de valeur, vas-y et vends-le à la Guilde des Orfèvres. Mais assure-toi de me ramener le prrrofit, d’accord ?${prompt}
+  7628: Rends-toi à la Guilde des Orfèvres à Bastok et demande-leur ce que c’est que cette pierre.${prompt}
+  7629: S’il n’a pas beaucoup de valeur, vends-le à la Guilde des Orfèvres. Mais assure-toi de me ramener le profit de la vente, d’accord ?${prompt}
+  7630: Alors, t’es allé à la Guilde des Orfèvres à Bastok ? Bravo ! Et combien t’as eu pour ce bout de rrroche ?${prompt}
   7631: |-
-    Oh...You didn't sell it? Well, go back to Bastok and sell it, then.
-    Now, get going!${prompt}
-  7632: Well, if we've only learned one thing, it's this--it's farrr better to set our sights on the travelers in the port area.${prompt}
-  7633: The travelers in Windurst Woods are all merchants who keep their guard up, or the occasional idiot who carries around a strange rock as if it's a precious jewel. Not worth the efforrrt, is it?${prompt}
+    Oh… Tu l’as pas vendu ? Bah, retourne à Bastok et vends-le, alors.
+    Allez, bouge !${prompt}
+  7632: Bah, si on a appris une chose, c’est que c’est bien mieux de viser les voyageurs dans la zone portuaire.${prompt}
+  7633: Les voyageurs des Bois de Windurst sont tous des marchands qui se méfient, ou de temps en temps un idiot qui trimballe un drôle de rocher comme s’il s’agissait d’une pierre précieuse. Pas vraiment la peine, hein ?${prompt}
   7634: |-
-    Seems the top cat herrrself can make mistakes sometimes. Picking pebbles from the pockets of passers-by...
-    My ass-onance! She's got me talking-walking like a Tarutaru now!${prompt}
+    On dirait que même le chat en chef peut se tromper parfois. Choisir des cailloux dans les poches des passants…
+    Mon ass-onance ! Elle me fait parler-marcher comme un Tarutaru maintenant !${prompt}
   7635: |-
-    Oops...!
-    Keep what I said just now a secret, okay? Parrrticularly keep it from the top cat!${prompt}
+    Oups… !
+    Garde ce que je viens de dire secret, d’accord ? Surtout ne le dis pas au chat en chef !${prompt}
   7636: |-
-    Ah!
-    Don't tell me you sold off my rock for that dismal sum!${prompt}
+    Ah !
+    Ne me dis pas que t’as vendu mon rocher pour cette misérable somme !${prompt}
   7637: |-
-    Grrr... If you hadn't sold it off, we could have received a bigger reward from that silly traveler for finding it...
-    Oh well... It's no longer worth my bother.${prompt}
+    Grrr… Si tu l’avais pas vendu, on aurait pu avoir une plus grosse récompense de la part de ce voyageur idiot pour l’avoir retrouvé…
+    Bah, ça vaut plus la peine que je m’en occupe.${prompt}
   7638: |-
-    Ahhh...
-    I traveled all the way here from Bastok, but I lost the stone that was the purpose of my journey.${prompt}
+    Ahhh…
+    J’ai voyagé jusqu’ici depuis Bastok, mais j’ai perdu la pierre qui était le but de mon voyage.${prompt}
   7639: |-
-    Hm?
-    What kind of stone did I lose?${prompt}
-  7640: It was a rock that we found in the Palborough Mines, north of Bastok. It had small traces of mythril in it.${prompt}
+    Hm ?
+    Quelle sorte de pierre j’ai perdue ?${prompt}
+  7640: C’était un rocher qu’on a trouvé dans les Mines de Palborough, au nord de Bastok. Il avait de petites traces de mithril dedans.${prompt}
   7641: |-
-    But that's not all...
-    Besides the mythril, there's some unknown magic source in it.${prompt}
-  7642: If you mention magic, then you think of Windurst, right? I was hoping to get the Rhinostery to check it out, so I came all the way here.${prompt}
-  7643: But now that I've lost the rock in question, I'm stumped. After all the dangers I went through to get my hands on that rock, too... Boy, am I at my wits' end!${prompt}
-  7644: 'I spread the word that I''d pay a reward to the one who finds my ${item-singular: 1[2]}, but didn''t get a single response.${prompt}'
-  7645: Guess I'll have to go back to the depths of the Palborough Mines and dig up another one...but that place is so dangerous, and...how can I show my face in Bastok!?${prompt}
+    Mais ce n’est pas tout…
+    En plus du mithril, il y a une source de magie inconnue dedans.${prompt}
+  7642: Quand on parle de magie, on pense à Windurst, non ? J’espérais que la Rhinosterie l’examine, alors je suis venu jusqu’ici.${prompt}
+  7643: Mais maintenant que j’ai perdu ce rocher en question, je suis dans l’impasse. Après tous les dangers que j’ai traversés pour mettre la main dessus… J’suis à bout !${prompt}
+  7644: 'J’ai fait courir le bruit que je paierais une récompense à celui qui retrouverait mon ${item-singular: 1[2]}, mais je n’ai eu aucune réponse.${prompt}'
+  7645: J’devrai peut-être retourner dans les profondeurs des Mines de Palborough en déterrer un autre… mais cet endroit est si dangereux, et… comment je pourrais me montrer à Bastok !?${prompt}
   7646: |-
-    Oh...! Ooohhhww...!
-    Just when I had given up hope, too! Thank you! Thank you ever so much!${prompt}
-  7647: How can I ever repay you? Words cannot express my gratitude, so here, please accept this...${prompt}
+    Oh… ! Ooohhhww… !
+    Juste quand j’avais abandonné tout espoir, aussi ! Merci ! Merci infiniment !${prompt}
+  7647: Comment puis-je te récompenser ? Les mots ne peuvent exprimer ma gratitude, alors tiens, accepte ceci…${prompt}
   7648: |-
-    Now I can show my face in Bastok again! Words will never express my gratitude...
-    Just...thank you!${prompt}
-  7649: Thanks for your help the other day! I took that stone and left it with the Rhinostery.${prompt}
-  7650: Guess I'll just do some sightseeing until the results come back. Then again...I've already seen every nook and cranny of this place while I was searching frantically for the stone I lost!${prompt}
-  7651: This is the eastern gatehouse--a gathering place for the guards who do the rrrounds of Windurst Woods.${prompt}
-  7652: If you're after a map of Windurst, then head to the opening back up there. There's a Mithra merchant selling them there.${prompt}
+    Maintenant je peux montrer ma face à Bastok à nouveau ! Les mots ne pourront jamais exprimer ma gratitude…
+    Juste… merci !${prompt}
+  7649: Merci pour ton aide l’autre jour ! J’ai pris cette pierre et l’ai laissée à la Rhinosterie.${prompt}
+  7650: J’vais faire un peu de tourisme en attendant les résultats. Enfin… j’ai déjà vu chaque recoin de cet endroit en cherchant frénétiquement la pierre que j’avais perdue !${prompt}
+  7651: C’est la guérite est – un lieu de rassemblement pour les gardes qui font les rrrondes des Bois de Windurst.${prompt}
+  7652: Si tu veux une carte de Windurst, dirige-toi vers l’ouverture là-haut. Une marchande Mithra les vend là-bas.${prompt}
   7653: |-
-    How arrre you～?
-    I'm fine, as always...I think.${prompt}
-  7654: We've been having a spot of trouble because of those Yagudo beastmen, but Captain Rakoh Buuma's on hand, so things are underrr control...I think.${prompt}
-  7655: Arrre you going to fight the good fight along with us? That'd be grrreat...I think. Speak to Captain Rakoh Buuma and she'll set you right!${prompt}
-  7656: 'He～y, you seem to be from another country...I think. If you''rrre looking for the Consulate of ${choice: 2}[San d''Oria/Bastok], then it''s ${choice: 2}[in this area/west of here]...${choice: 2}[across the Bomingo Round/in Port Windurst].${prompt}'
-  7657: What are you staring at? Haven't you ever seen a Mithra beforrre?${prompt}
-  7658: Here in Windurst Woods, there arrre many Mithra. You'll soon get over it...${prompt}
-  7659: This is Windurst Woods, the Mithra part of town! We Mithra have to stick together, so feel welcome, frrriend!${prompt}
+    Comment vas-tu～ ?
+    Moi, je vais bien, comme toujours… je crois.${prompt}
+  7654: On a eu un peu de soucis à cause de ces hommes-bêtes Yagudo, mais la Capitaine Rakoh Buuma est là, alors tout est sous contrrôle… je crois.${prompt}
+  7655: Vas-tu te battre vaillamment avec nous ? Ce serait génial… je crois. Parle à la Capitaine Rakoh Buuma, elle te mettra sur la bonne voie !${prompt}
+  7656: 'He～y, on dirait que t’es d’un autre pays… je crois. Si tu cherches le Consulat de ${choice: 2}[San d’Oria/Bastok], il est ${choice: 2}[dans cette zone/à l’ouest d’ici]… ${choice: 2}[près de la Ronde Bomingo/dans Port Windurst].${prompt}'
+  7657: Qu’est-ce que tu mates ? T’as jamais vu une Mithra avantrrre ?${prompt}
+  7658: Ici, dans les Bois de Windurst, y a plein de Mithra. Tu t’y feras vite…${prompt}
+  7659: C’est les Bois de Windurst, la partie de la ville des Mithra ! Nous, les Mithra, on doit rester unis, alors sois le bienvenu, ami !${prompt}
   7660: |-
     I, I, erm, am one of the guards here.
     <gulp>...
