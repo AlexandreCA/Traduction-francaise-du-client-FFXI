@@ -1,27 +1,27 @@
 entries:
   0: |-
-    Vous pouvez définir ceci comme votre point de retour actuel.
-    Une fois le point de retour défini, vous y reviendrez chaque fois que vous serez hors combat.
+    Vous pouvez définir ceci comme point de retour actuel.
+    Vous y reviendrez si vous êtes hors combat.${prompt}
   1: |-
-    Définir ceci comme point de retour actuel ?
+    Définir ce point de retour actuel ?
     ${selection-lines}
     Oui.
     Non.${prompt}
   2: Point de retour défini !${prompt}
-  3: Un point de retour peut être défini comme un endroit où revenir à Vana'diel lorsque vous avez été mis hors combat. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+  3: Un point de retour vous ramène à Vana’diel si vous êtes K.O. Vous pouvez aussi vous téléporter vers d’autres points de retour.${prompt}
   4: |-
     Que voulez-vous faire ?
     ${selection-lines}
-    Voyager vers un autre point de retour.
-    Définir ceci comme votre point de retour.
-    Autres paramètres.
-    Finalement, laissez tomber.${prompt}
+    Aller à un autre point de retour.
+    Définir ce point de retour.
+    Autres options.
+    Laissez tomber.${prompt}
   5: |-
-    Vous avez enregistré un nouveau point de retour !
-    Vous pouvez désormais vous y téléporter depuis n'importe quel autre point de retour.${prompt}
-  6: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
+    Nouveau point de retour enregistré !
+    Vous pouvez vous téléporter ici depuis un autre point.${prompt}
+  6: Vous pouvez vous téléporter vers tout point de retour enregistré.${prompt}
   7: |-
-    Où voulez-vous vous téléporter ?
+    Où vous téléporter ?
     ${selection-lines}
     Laissez tomber.
     ${zone: 1[2]}.
@@ -43,78 +43,78 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   8: |-
-    Où voulez-vous vous téléporter ?（${zone: 33[2]}）
+    Où vous téléporter ? ( ${zone: 33[2]} )
     ${selection-lines}
     Nulle part.
-    Point de retour n°1${choice: 1}[/ (M)/ (A)/ (E)].
-    Point de retour n°2${choice: 2}[/ (M)/ (A)/ (E)].
-    Point de retour n°3${choice: 3}[/ (M)/ (A)/ (E)].
-    Point de retour n°4${choice: 4}[/ (M)/ (A)/ (E)].
-    Point de retour n°5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  9: Vous n'avez encore enregistré aucun autre point de retour, vous ne pouvez donc pas vous téléporter.${prompt}
-  10: 'Cela coûte ${number: 3} gils pour vous téléporter vers le point de retour n°${number: 2} à ${zone: 1[2]}.'
-  11: 'Il n’y a pas de frais pour vous téléporter vers le point de retour n°${number: 2} à ${zone: 1[2]}.'
+    Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  9: Vous n’avez pas d’autres points de retour enregistrés pour vous téléporter.${prompt}
+  10: 'Téléportation au Point de retour #${number: 2} dans ${zone: 1[2]} : ${number: 3} gil.${prompt}'
+  11: 'Téléportation gratuite au Point de retour #${number: 2} dans ${zone: 1[2]}.${prompt}'
   12: |-
-    Se téléporter ? (Gils actuels : ${number: 0})
+    Téléportation ? (Gil : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s'il vous plaît.
-    Non, merci.${prompt}
+    ${choice: 33}[Ajouter/Retirer des favoris].
+    Oui.
+    Non.${prompt}
   13: |-
-    Se téléporter vers quelle région ?
+    Vers quelle région vous téléporter ?
     ${selection-lines}
-    Finalement, aucune.
-    Sélectionner depuis les favoris.
+    Aucune.
+    Favoris.
     Région actuelle.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Archipel de Tavnazian].
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Territoire sauvage des Mamool Ja].
+    ${choice: 1}[Jeuno/Sauvagerie Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[Ouest d'Aht Urhgan/Île d'Arrapago].
-    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
     ${choice: 1}[Ronfaure/Front de Ronfaure].
     ${choice: 1}[Zulkheim/Front de Norvallen].
     ${choice: 1}[Norvallen/Front de Gustaberg].
     ${choice: 1}[Gustaberg/Front de Derfland].
     ${choice: 1}[Derfland/Front de Sarutabaruta].
-    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
     ${choice: 1}[Kolshushu/Front de Fauregandi].
     ${choice: 1}[Aragoneu/Front de Valdeaunia].
-    ${choice: 1}[Fauregandi/Est d'Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo inférieur/].
-    ${choice: 1}[Elshimo supérieur/].
-    ${choice: 1}[Tu'Lia/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
+    ${choice: 1}[Tu’Lia/].
     Page précédente.
     Page suivante.${prompt}
   14: |-
-    Où voulez-vous vous téléporter ?
+    Où vous téléporter ?
     ${selection-lines}
-    Aucun de ceux-ci.
-    Un lieu favori.
-    Une zone originale.
-    Une zone de Rise of the Zilart.
-    Une zone de Chains of Promathia.
-    Une zone de Treasures of Aht Urhgan.
-    Une zone de Wings of the Goddess.
-    Une zone de Seekers of Adoulin.${prompt}
-  15: Vous pouvez modifier la méthode de sélection de la zone pour le point de retour souhaité où vous téléporter.
+    Aucun.
+    Favori.
+    Zone originale.
+    Zone de Rise of the Zilart.
+    Zone de Chains of Promathia.
+    Zone de Treasures of Aht Urhgan.
+    Zone de Wings of the Goddess.
+    Zone de Seekers of Adoulin.${prompt}
+  15: Vous pouvez modifier la sélection de la zone de téléportation.${prompt}
   16: |-
-    Quel réglage souhaitez-vous ?
+    Quel réglage choisir ?
     ${selection-lines}
-    Mon réglage actuel.
-    Sélectionner par région.
-    Sélectionner par extension.${prompt}
-  17: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
+    Réglage actuel.
+    Par région.
+    Par extension.${prompt}
+  17: 'Vous sélectionnez par ${choice: 1}[région/extension].${prompt}'
   18: |-
-    Où voulez-vous vous téléporter ?
+    Où vous téléporter ?
     ${selection-lines}
-    Aucun de ceux-ci.
+    Aucun.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -124,13 +124,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  19: 'Le Point de Retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/supprimé de] votre liste des lieux favoris.'
-  20: Votre liste des lieux favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
+    ${choice: 33}[Ajouter/Retirer des favoris].${prompt}
+  19: 'Point de retour #${number: 2} dans ${zone: 1[2]} ${choice: 33}[enregistré/retiré] des favoris.${prompt}'
+  20: Liste des favoris pleine. Supprimez une entrée pour en ajouter une nouvelle.${prompt}
   21: |-
     Supprimer lequel ?
     ${selection-lines}
-    Aucun de ceux-ci.
+    Aucun.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18604,7 +18604,7 @@ entries:
   7638: |-
     Que voulez-vous ?
     ${selection-lines}
-    Payez ${number: 7} gil et définissez mon point de retour ici.
+    Payer ${number: 7} gil pour définir mon point ici.
     Rien.${prompt}
   7639: Votre point de retour a été défini.${prompt}
   7640: Vous n'avez pas assez de gil pour définir votre point de retour ici.${prompt}
