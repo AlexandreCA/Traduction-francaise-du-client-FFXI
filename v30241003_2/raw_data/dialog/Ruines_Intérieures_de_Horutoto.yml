@@ -17956,93 +17956,93 @@ entries:
   7342: ${prompt}
   7343: ${prompt}
   7344: ${prompt}
-  7345: 'This chest is locked. It can be opened with ${article} ${item-article: 0[2]}.${prompt}'
-  7346: This chest is empty.${prompt}
-  7347: Your inventory is full. You cannot carry any more items.${prompt}
-  7348: You must be closer to the chest to open it.${prompt}
-  7349: '${entity: 0} opens the chest and finds ${article} ${item-article: 0[2]}.${prompt}'
+  7345: 'Ce coffre est verrouillé. Ouvre-le avec ${article} ${item-article: 0[2]}.${prompt}'
+  7346: Ce coffre est vide.${prompt}
+  7347: Ton inventaire est plein. Tu ne peux plus porter d’objets.${prompt}
+  7348: Approche-toi du coffre pour l’ouvrir.${prompt}
+  7349: '${entity: 0} ouvre le coffre et trouve ${article} ${item-article: 0[2]}.${prompt}'
   7350: |-
-    The item in this chest cannot be handled by the other members of your party.
-    ${entity: 0} receives the ${item-singular: 0[2]}.${prompt}
-  7351: '${entity: 0} obtains a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7352: 'You obtain a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7353: You unlock the chest!${prompt}
-  7354: '${entity: 0} fails to open the chest.${prompt}'
-  7355: The chest was trapped!${prompt}
-  7356: You cannot open the chest when you are in a weakened state.${prompt}
-  7357: The chest was a mimic!${prompt}
-  7358: You cannot open the chest while participating in the moogle event.${prompt}
-  7359: The chest was but an illusion...${prompt}
+    Les autres membres ne peuvent pas prendre cet objet.
+    ${entity: 0} reçoit le ${item-singular: 0[2]}.'${prompt}
+  7351: '${entity: 0} obtient un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7352: 'Tu obtiens un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7353: Le coffre est déverrouillé !${prompt}
+  7354: '${entity: 0} échoue à ouvrir le coffre.${prompt}'
+  7355: Le coffre était piégé !${prompt}
+  7356: Impossible d’ouvrir le coffre en état affaibli.${prompt}
+  7357: Le coffre était un mimique !${prompt}
+  7358: Pas d’ouverture pendant l’événement moogle.${prompt}
+  7359: Le coffre n’était qu’une illusion…${prompt}
   7360: |-
-    The chest appears to be locked.
-    If only you had ${article} ${item-article: 0[2]}, perhaps you could open it...${prompt}
-  7361: 'Your ${keyitem-singular: 1[2]} disappears in a flash of light!${prompt}'
-  7362: What might-ethy this be?${prompt}
-  7363: Yes. What i～s this?${prompt}
-  7364: Why, it didily-doodily looks like it's didily-dried up.${prompt}
-  7365: You imbeciles! This is a new bud--a bud of the Great Star Tree.${prompt}
-  7366: The Great Star Tree knows-ethy that it is in danger. It buds to save-ethy itself, it does.${prompt}
-  7367: But, until now, no light shone-ethy in here. The bud cried for help-ethy. It is good that we got-ethy here in time.${prompt}
+    Ce coffre semble verrouillé.
+    Avec ${article} ${item-article: 0[2]}, tu pourrais l’ouvrir…${prompt}
+  7361: 'Ton ${keyitem-singular: 1[2]} disparaît dans un éclat de lumière !${prompt}'
+  7362: Que peut bien être ceci ?${prompt}
+  7363: Oui, qu’est-ce que c’est ?${prompt}
+  7364: On dirait que c’est complètement desséché…${prompt}
+  7365: Imbéciles ! C’est un bourgeon du Grand Arbre Étoilé !${prompt}
+  7366: Le Grand Arbre Étoilé sait qu’il est en danger. Il bourgeonne pour se sauver !${prompt}
+  7367: Mais jusqu’ici, pas de lumière. Le bourgeon appelait à l’aide. Heureusement, nous sommes arrivés à temps !${prompt}
   7368: |-
-    I thank-ethy you, adventurer.
-    You saved-ethy the Great Star Tree!${prompt}
-  7369: I followed-a-roo, thinking that my sweetie-pie Mojiji was all trap-dappily trapped up in here. What a waste of timely-time.${prompt}
+    Merci, aventurier.
+    Tu as sauvé le Grand Arbre Étoilé !${prompt}
+  7369: J’ai suivi, pensant que mon cher Mojiji était piégé. Quel gâchis de temps !${prompt}
   7370: |-
-    Well, I'm just about as disappointed as one could be.
-    I thought we would be finding something goody.${prompt}
-  7371: Those two... When will they ever change-ethy...${prompt}
-  7372: But to be so weak to know-ethy it's in danger... This is definitely-ethy a serious problem.${prompt}
-  7373: '...Beep...${wait-animation: 1}'
-  7374: '...Beeeep! Beeeep! Beeeep!${prompt}'
+    Quelle déception !
+    J’espérais trouver quelque chose de bon.${prompt}
+  7371: Ces deux-là… Quand changeront-ils ?${prompt}
+  7372: Si faible face au danger… C’est un sérieux problème.${prompt}
+  7373: '...Bip…${wait-animation: 1}'
+  7374: '...Biiiip ! Biiiip ! Biiiip !${prompt}'
   7375: |-
-    ...Detected...
-    Unclassifiable magic source...
-    ...Location...
-    Sealed area...${prompt}
-  7376: Contact manufacturer...${prompt}
+    ...Détecté...
+    Source magique inconnue...
+    ...Lieu...
+    Zone scellée…${prompt}
+  7376: Contacter le fabricant…${prompt}
   7377: |-
-    ...Detected...
-    Unclassifiable magic source...
-    ...Location...
-    Behind door...
-  7378: Contact manufacturer...
-  7379: '...${prompt}'
-  7380: 'This door could probably be opened by Apururu with her ${keyitem-singular: 1[2]}...${prompt}'
-  7381: I'm sorry I'm late.${prompt}
+    ...Détecté...
+    Source magique inconnue...
+    ...Lieu...
+    Derrière la porte…
+  7378: Contacter le fabricant…
+  7379: '…${prompt}'
+  7380: 'Cette porte s’ouvre peut-être avec le ${keyitem-singular: 1[2]} d’Apururu…${prompt}'
+  7381: Désolé d’être en retard.${prompt}
   7382: |-
-    Okay, here goes.
-    ${name-player}, keep a look out!${prompt}
-  7383: My dear brother!${prompt}
+    Allons-y.
+    ${name-player}, surveille les environs !${prompt}
+  7383: Mon cher frère !${prompt}
   7384: |-
-    Uh...? ...You...
-    Is this a dream?${prompt}
+    Hein ? …Toi…
+    Est-ce un rêve ?${prompt}
   7385: |-
-    Ajido-Marujido, are you all rightaru!?
-    This is no dream! Please wake up!${prompt}
+    Ajido-Marujido, ça va ?
+    Ce n’est pas un rêve ! Réveille-toi !${prompt}
   7386: |-
-    Not a dream, huh...?
-    It feels like I've been trapped in a never-ending nightmare...${prompt}
+    Pas un rêve, hein… ?
+    J’étais piégé dans un cauchemar sans fin…${prompt}
   7387: |-
-    The bearer of darkness was here...
-    He said he was searching for something...
-    He seemed to be...in pain...${prompt}
+    Le porteur des ténèbres était là…
+    Il cherchait quelque chose…
+    Il semblait souffrir…${prompt}
   7388: |-
-    The bearer of darkness?
-    What are you talking about?${prompt}
+    Le porteur des ténèbres ?
+    De quoi parles-tu ?${prompt}
   7389: |-
-    What is that?
-    I sense a mysterious force nearby...
-    What is that you're carrying?${prompt}
+    Qu’est-ce que c’est ?
+    Une force mystérieuse est proche…
+    Que portes-tu ?${prompt}
   7390: |-
-    Are you kidding me?
-    One of the ancients returned the magic to this tome?${prompt}
+    Tu plaisantes ?
+    Un ancien a rendu sa magie à ce tome ?${prompt}
   7391: |-
-    That's just ludicrous...!
-    But still, this level of power... It's most definitely...${prompt}
-  7392: That book... Could it be...!${prompt}
-  7393: Ajido-Marujido, no!
-  7394: Ajido-Marujido!!!
-  7395: There is nothing out of the ordinary here.${prompt}
+    C’est absurde… !
+    Mais ce pouvoir… C’est certain…${prompt}
+  7392: Ce livre… Serait-ce… !${prompt}
+  7393: Ajido-Marujido, non !
+  7394: Ajido-Marujido !!!
+  7395: Rien d’anormal ici.${prompt}
   7396: |-
     You can hear a strange voice...
     “Items, items, la la la la la～♪”${prompt}
@@ -18085,9 +18085,9 @@ entries:
   7410: ${prompt}
   7411: ${prompt}
   7412: |-
-    Which item will you obtain?
+    Quel objet prendre ?
     ${selection-lines}
-    None of them.
+    Aucun.
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
@@ -18097,9 +18097,9 @@ entries:
     ${lettercase: 1}${article} ${item-article: 6[2]}.
     ${lettercase: 1}${article} ${item-article: 7[2]}.${prompt}
   7413: |-
-    Which temporary item will you obtain?
+    Quel objet temporaire prendre ?
     ${selection-lines}
-    None of them.
+    Aucun.
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
@@ -18109,48 +18109,48 @@ entries:
     ${lettercase: 1}${article} ${item-article: 6[2]}.
     ${lettercase: 1}${article} ${item-article: 7[2]}.${prompt}
   7414: |-
-    Obtain this item?
+    Prendre cet objet ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7415: |-
-    Obtain this temporary item?
+    Prendre cet objet temporaire ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7416: '${color-alt: 121}${entity: 0} obtains ${article} ${item-article: 0[2]}!${prompt}'
-  7417: You were unable to obtain the item.${prompt}
-  7418: '${color-alt: 121}${entity: 0} obtains the temporary item: ${item-singular: 0[2]}!${prompt}'
-  7419: You already possess that temporary item.${prompt}
-  7420: The chest is locked.${prompt}
+    Oui.
+    Non.${prompt}
+  7416: '${color-alt: 121}${entity: 0} obtient ${article} ${item-article: 0[2]} !${prompt}'
+  7417: Impossible d’obtenir l’objet.${prompt}
+  7418: '${color-alt: 121}${entity: 0} obtient l’objet temporaire : ${item-singular: 0[2]} !${prompt}'
+  7419: Tu possèdes déjà cet objet temporaire.${prompt}
+  7420: Le coffre est verrouillé.${prompt}
   7421: |-
-    What will you do?
+    Que fais-tu ?
     ${selection-lines}
-    Leave it be.
-    Attempt to unlock it.${prompt}
+    Le laisser.
+    Tenter de l’ouvrir.${prompt}
   7422: |-
-    What will you do? (${number: 0} chances remaining.)
+    Que fais-tu ? (${number: 0} chance${choice-plurality: 0}[/s] restante${choice-plurality: 0}[/s].)
     ${selection-lines}
-    Give up.
-    Enter a combination.
-    Examine the lock.${prompt}
-  7423: It appears that you can enter a two-digit combination between 10 and 99.${prompt}
-  7424: You were unable to enter a combination.${prompt}
-  7425: 'You have a hunch that the lock''s combination is ${choice: 1}[greater/less] than ${number: 0}.${prompt}'
-  7426: '${entity: 0} failed to open the lock.${prompt}'
-  7427: 'It appears that the correct combination was ${number: 0}.${prompt}'
-  7428: '${entity: 0} succeeded in opening the lock!${prompt}'
-  7429: 'You have a hunch that the second digit is ${choice: 0}[even/odd].${prompt}'
-  7430: 'You have a hunch that the first digit is ${choice: 0}[even/odd].${prompt}'
-  7431: 'You have a hunch that the combination is greater than ${number: 0} and less than ${number: 1}.${prompt}'
-  7432: 'You have a hunch that the combination is less than ${number: 0}.${prompt}'
-  7433: 'You have a hunch that the combination is greater than ${number: 0}.${prompt}'
-  7434: 'You have a hunch that one of the two digits is ${number: 0}.${prompt}'
-  7435: 'You have a hunch that the second digit is ${number: 0}, ${number: 1}, or ${number: 2}.${prompt}'
-  7436: 'You have a hunch that the first digit is ${number: 0}, ${number: 1}, or ${number: 2}.${prompt}'
-  7437: You were unable to glean anything from your examination of the lock.${prompt}
-  7438: Obtain this item?${prompt}
-  7439: '${color-alt: 121}The monster was concealing a treasure chest!${prompt}'
+    Abandonner.
+    Entrer une combinaison.
+    Examiner la serrure.${prompt}
+  7423: Tu peux entrer une combinaison à deux chiffres entre 10 et 99.${prompt}
+  7424: Impossible d’entrer une combinaison.${prompt}
+  7425: 'Tu sens que la combinaison est ${choice: 1}[supérieure/inférieure] à ${number: 0}.${prompt}'
+  7426: '${entity: 0} échoue à ouvrir la serrure.${prompt}'
+  7427: 'La bonne combinaison était ${number: 0}.${prompt}'
+  7428: '${entity: 0} réussit à ouvrir la serrure !${prompt}'
+  7429: 'Tu sens que le second chiffre est ${choice: 0}[pair/impair].${prompt}'
+  7430: 'Tu sens que le premier chiffre est ${choice: 0}[pair/impair].${prompt}'
+  7431: 'Tu sens que la combinaison est entre ${number: 0} et ${number: 1}.${prompt}'
+  7432: 'Tu sens que la combinaison est inférieure à ${number: 0}.${prompt}'
+  7433: 'Tu sens que la combinaison est supérieure à ${number: 0}.${prompt}'
+  7434: 'Tu sens qu’un des deux chiffres est ${number: 0}.${prompt}'
+  7435: 'Tu sens que le second chiffre est ${number: 0}, ${number: 1} ou ${number: 2}.${prompt}'
+  7436: 'Tu sens que le premier chiffre est ${number: 0}, ${number: 1} ou ${number: 2}.${prompt}'
+  7437: Rien à tirer de l’examen de la serrure.${prompt}
+  7438: Prendre cet objet ?${prompt}
+  7439: '${color-alt: 121}Le monstre cachait un coffre au trésor !${prompt}'
   7440: 番号：${prompt}
   7441: 確率：/${prompt}
   7442: 種類：${prompt}
@@ -18161,21 +18161,21 @@ entries:
   7447: |-
     ${number: 0} ${number: 1} ${number: 2} ${number: 3}
     ${number: 4} ${number: 5} ${number: 6} ${number: 7}
-  7448: A grounds tome has been placed here by the Adventurers' Mutual Aid Network (A.M.A.N.). Useful information pertaining to various topics on field operations fills its pages.${prompt}
+  7448: Un grimoire de terrain du Réseau d’Aide Mutuelle des Aventuriers (A.M.A.N.) est ici, rempli d’infos sur les opérations sur le terrain.${prompt}
   7449: |-
-    What will you do?
+    Que fais-tu ?
     ${selection-lines}
-    Nothing.
-    Read about individual training.
-    Review current training regime.
-    Cancel current training regime.
-    Read about field support.
-    Read about prowesses.
-    Review active prowesses.${prompt}
+    Rien.
+    Lire sur l’entraînement individuel.
+    Vérifier le régime actuel.
+    Annuler le régime actuel.
+    Lire sur le soutien sur le terrain.
+    Lire sur les prouesses.
+    Vérifier les prouesses actives.${prompt}
   7450: |-
-    Which page?
+    Quelle page ?
     ${selection-lines}
-    I've changed my mind.
+    J’ai changé d’avis.
     Page 1.
     Page 2.
     Page 3.
@@ -18186,10 +18186,10 @@ entries:
     Page 8.
     Page 9.
     Page 10.${prompt}
-  7451: The information on this page instructs you to defeat the following:${prompt}
+  7451: Cette page te demande de vaincre :${prompt}
   7452: ${prompt}
-  7453: '${number: 0} member${choice-plurality: 0}[/s] of the worm family.${prompt}'
-  7454: '${number: 0} ${choice-plurality: 0}[Forest Hare/Forest Hares].${prompt}'
+  7453: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des vers.${prompt}'
+  7454: '${number: 0} ${choice-plurality: 0}[Lièvre des forêts/Lièvres des forêts].${prompt}'
   7455: |-
     ${number: 0} ${choice-plurality: 0}[Scarab Beetle/Scarab Beetles].
     ${number: 1} ${choice-plurality: 1}[Forest Funguar/Forest Funguars].${prompt}
@@ -22754,55 +22754,55 @@ entries:
   10569: 'Sélection des zones par ${choice: 1}[région/contenu] désormais.${prompt}'
   10570: |-
     ${selection-lines}
-    Nowhere for now.
-    Select from amongst favorites.
-    Original release areas.
-    Rise of the Zilart areas.
-    Chains of Promathia areas.
-    Treasures of Aht Urhgan areas.
-    Wings of the Goddess areas.
+    Rien pour l’instant.
+    Choisir parmi les favoris.
+    Zones de sortie initiale.
+    Zones de Rise of the Zilart.
+    Zones de Chains of Promathia.
+    Zones de Treasures of Aht Urhgan.
+    Zones de Wings of the Goddess.
     .
     .
     .
     .
     .
     .
-    Seekers of Adoulin areas.${prompt}
+    Zones de Seekers of Adoulin.${prompt}
   10571: |-
-    Travel to which region?
+    Voyager dans quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from amongst favorites.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    Aucun, finalement.
+    Choisir parmi les favoris.
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvages Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Ouest Aht Urhgan/Îles Arrapago].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Est Ulbuka].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
-    ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
+    ${choice: 1}[Tu’Lia/].
+    Page précédente.
+    Page suivante.${prompt}
   10572: |-
-    Travel to where?
+    Où voyager ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -22812,13 +22812,13 @@ entries:
     ${zone: 7[2]}.
     ${zone: 8[2]}.
     ${zone: 9[2]}.
-    ${choice: 33}[Add location to favorites/Remove location from favorites].${prompt}
-  10573: '${zone: 1[2]} has been ${choice: 33}[added to your list of favorites/removed from your list of favorites].'
-  10574: Your list of favorites is full. You must remove an existing entry to add new ones.
+    ${choice: 33}[Ajouter/Retirer des favoris].${prompt}
+  10573: '${zone: 1[2]} a été ${choice: 33}[ajouté/retiré] de tes favoris.'
+  10574: Liste de favoris pleine. Supprime une entrée pour en ajouter une.${prompt}
   10575: |-
-    Remove which entry?
+    Quelle entrée supprimer ?
     ${selection-lines}
-    None of these.
+    Aucune.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
