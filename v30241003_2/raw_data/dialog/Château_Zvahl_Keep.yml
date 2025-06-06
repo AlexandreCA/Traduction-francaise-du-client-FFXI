@@ -17886,30 +17886,30 @@ entries:
   7292: '${color-alt: 138}You may now travel to ${choice: 0}[West Ronfaure/North Gustaberg/West Sarutabaruta/La Theine Plateau/the Konschtat Highlands/Tahrongi Canyon/Jugner Forest/the Pashhow Marshlands/the Meriphataud Mountains/Attohwa Chasm/Uleguerand Range] via waypoints!'
   7293: '${color-alt: 138}You may now travel to ${choice: 0}[Davoi/Beadeaux/Castle Oztroja/the Quicksand Caves/Sea Serpent Grotto/the Temple of Uggalepih/the Boyahda Tree/Oldton Movalpolos/Riverne - Site #B01/Castle Zvahl Keep] via waypoints!'
   7294: |-
-    Vous pouvez définir ceci comme votre point de retour actuel.
-    Une fois un point de retour défini, vous y reviendrez chaque fois que vous êtes incapacité.
+    Vous pouvez définir ceci comme point de retour actuel.
+    Vous y reviendrez si vous êtes hors combat.${prompt}
   7295: |-
-    Définir ceci comme point de retour actuel ?
+    Définir ce point de retour actuel ?
     ${selection-lines}
     Oui.
     Non.${prompt}
   7296: Point de retour défini !${prompt}
-  7297: Un point de retour peut être défini comme un endroit où vous revenez à Vana'diel après avoir été mis K.O. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
+  7297: Un point de retour vous ramène à Vana’diel si vous êtes K.O. Vous pouvez aussi vous téléporter vers d’autres points de retour.${prompt}
   7298: |-
-    Que souhaitez-vous faire ?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Voyager vers un autre point de retour.
-    Définir ceci comme votre point de retour.
-    Autres réglages.
-    Finalement, rien.${prompt}
+    Aller à un autre point de retour.
+    Définir ce point de retour.
+    Autres options.
+    Laissez tomber.${prompt}
   7299: |-
-    Vous avez enregistré un nouveau point de retour !
-    Vous pouvez désormais vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
-  7300: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
+    Nouveau point de retour enregistré !
+    Vous pouvez vous téléporter ici depuis un autre point.${prompt}
+  7300: Vous pouvez vous téléporter vers tout point de retour enregistré.${prompt}
   7301: |-
-    Téléporter où ?
+    Où vous téléporter ?
     ${selection-lines}
-    Laisser tomber.
+    Laissez tomber.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -17929,7 +17929,7 @@ entries:
     Page précédente.
     Page suivante.${prompt}
   7302: |-
-    Téléporter où ?（${zone: 33[2]}）
+    Où vous téléporter ? ( ${zone: 33[2]} )
     ${selection-lines}
     Nulle part.
     Point de retour #1${choice: 1}[/ (M)/ (A)/ (E)].
@@ -17937,70 +17937,70 @@ entries:
     Point de retour #3${choice: 3}[/ (M)/ (A)/ (E)].
     Point de retour #4${choice: 4}[/ (M)/ (A)/ (E)].
     Point de retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  7303: Vous n'avez pas encore enregistré d'autres points de retour, vous ne pouvez donc pas vous téléporter.${prompt}
-  7304: 'Il en coûte ${number: 3} gil pour se téléporter au point de retour #${number: 2} dans ${zone: 1[2]}.'
-  7305: 'Il n''y a pas de frais pour se téléporter au point de retour #${number: 2} dans ${zone: 1[2]}.'
+  7303: Vous n’avez pas d’autres points de retour enregistrés pour vous téléporter.${prompt}
+  7304: 'Téléportation au Point de retour #${number: 2} dans ${zone: 1[2]} : ${number: 3} gil.${prompt}'
+  7305: 'Téléportation gratuite au Point de retour #${number: 2} dans ${zone: 1[2]}.${prompt}'
   7306: |-
-    Téléporter ? (Gil actuel : ${number: 0})
+    Téléportation ? (Gil : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
-    Oui, s'il vous plaît.
-    Non, merci.${prompt}
+    ${choice: 33}[Ajouter/Retirer des favoris].
+    Oui.
+    Non.${prompt}
   7307: |-
-    Téléporter vers quelle région ?
+    Vers quelle région vous téléporter ?
     ${selection-lines}
-    Finalement, aucune.
-    Sélectionner parmi les favoris.
+    Aucune.
+    Favoris.
     Région actuelle.
-    ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[San d’Oria/Movalpolos].
+    ${choice: 1}[Bastok/Archipel Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvagerie Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
     ${choice: 1}[Aht Urhgan Ouest/Îles Arrapago].
-    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Îles Adoulin/Ruines d’Alzadaal].
     ${choice: 1}[Ronfaure/Front de Ronfaure].
     ${choice: 1}[Zulkheim/Front de Norvallen].
     ${choice: 1}[Norvallen/Front de Gustaberg].
     ${choice: 1}[Gustaberg/Front de Derfland].
     ${choice: 1}[Derfland/Front de Sarutabaruta].
-    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Sarutabaruta/Front d’Aragoneu].
     ${choice: 1}[Kolshushu/Front de Fauregandi].
     ${choice: 1}[Aragoneu/Front de Valdeaunia].
     ${choice: 1}[Fauregandi/Ulbuka Est].
-    ${choice: 1}[Valdeaunia/Ra'Kaznar].
+    ${choice: 1}[Valdeaunia/Ra’Kaznar].
     ${choice: 1}[Qufim/].
-    ${choice: 1}[Li'Telor/].
+    ${choice: 1}[Li’Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
     ${choice: 1}[Elshimo Bas/].
     ${choice: 1}[Elshimo Haut/].
-    ${choice: 1}[Tu'Lia/].
+    ${choice: 1}[Tu’Lia/].
     Page précédente.
     Page suivante.${prompt}
   7308: |-
-    Téléporter où ?
+    Où vous téléporter ?
     ${selection-lines}
-    Aucun de ceux-ci.
-    Un endroit favori.
-    Une zone originale.
-    Une zone de Rise of the Zilart.
-    Une zone de Chains of Promathia.
-    Une zone de Treasures of Aht Urhgan.
-    Une zone de Wings of the Goddess.
-    Une zone de Seekers of Adoulin.${prompt}
-  7309: Vous pouvez changer la méthode de sélection de la zone de votre point de retour souhaité pour la téléportation.
+    Aucun.
+    Favori.
+    Zone originale.
+    Zone de Rise of the Zilart.
+    Zone de Chains of Promathia.
+    Zone de Treasures of Aht Urhgan.
+    Zone de Wings of the Goddess.
+    Zone de Seekers of Adoulin.${prompt}
+  7309: Vous pouvez modifier la sélection de la zone de téléportation.${prompt}
   7310: |-
-    Quel réglage préférez-vous ?
+    Quel réglage choisir ?
     ${selection-lines}
-    Mon réglage actuel.
-    Sélectionner par région.
-    Sélectionner par extension.${prompt}
-  7311: 'Vous sélectionnez désormais par ${choice: 1}[région/extension].'
+    Réglage actuel.
+    Par région.
+    Par extension.${prompt}
+  7311: 'Vous sélectionnez par ${choice: 1}[région/extension].${prompt}'
   7312: |-
-    Téléporter où ?
+    Où vous téléporter ?
     ${selection-lines}
-    Aucun de ceux-ci.
+    Aucun.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18010,13 +18010,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
-  7313: 'Le point de retour #${number: 2} dans ${zone: 1[2]} a été ${choice: 33}[ajouté à/supprimé de] votre liste d''endroits favoris.'
-  7314: Votre liste d'endroits favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
+    ${choice: 33}[Ajouter/Retirer des favoris].${prompt}
+  7313: 'Point de retour #${number: 2} dans ${zone: 1[2]} ${choice: 33}[enregistré/retiré] des favoris.${prompt}'
+  7314: Liste des favoris pleine. Supprimez une entrée pour en ajouter une nouvelle.${prompt}
   7315: |-
     Supprimer lequel ?
     ${selection-lines}
-    Aucun de ceux-ci.
+    Aucun.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -18025,7 +18025,7 @@ entries:
     ${zone: 6[2]} #${number: 22}.
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
-    ${zone: 9[2]} #${number: 25}.${prompt}
+    ${zone: 9[2]} #${number: 25}.${prompt}e 
   7316: Le chef de votre groupe examine actuellement l'entrée.${prompt}
   7317: Seuls les chefs de groupe peuvent examiner l'entrée.${prompt}
   7318: Seuls les chefs de groupe peuvent entrer dans l'instance.${prompt}
