@@ -22591,110 +22591,110 @@ entries:
   10527: 'Training area: West Ronfaure.${prompt}'
   10528: 'Training area: West Ronfaure.${prompt}'
   10529: (End of list.)${prompt}
-  10530: The tabs you acquire can be spent on field support.${prompt}
+  10530: Tes onglets servent au soutien sur le terrain.${prompt}
   10531: |-
-    Which one? (You have ${number: 8} ${choice-plurality: 8}[tab/tabs]).
+    Que choisis-tu ? (Tu as ${number: 8} onglet${choice-plurality: 8}[/s].)
     ${selection-lines}
-    Nothing for now.
-    Repatriation (${number: 9}).
-    Circumspection (${number: 10}).
-    Homing Instinct (${number: 11}).
-    White magic: Reraise (${number: 12}).
-    White magic: Reraise II (${number: 13}).
-    White magic: Reraise III (${number: 14}).
-    White magic: Regen (${number: 15}).
-    White magic: Refresh (${number: 16}).
-    White magic: Protect (${number: 17}).
-    White magic: Shell (${number: 18}).
-    White magic: Haste (${number: 19}).
-    Field recipe: Dried Meat (${number: 20}).
-    Field recipe: Salted Fish (${number: 21}).
-    Field recipe: Hard Cookie (${number: 22}).
-    Field recipe: Instant Noodles (${number: 23}).
-    Field recipe: Dried Agaricus (${number: 24}).
-    Field recipe: Instant Rice (${number: 25}).
-    Receive alter ego: Sakura (${number: 26}).
-    Receive alter ego: Koru-Moru (${number: 27}).${prompt}
+    Rien pour l'instant.
+    Rapatriement (${number: 9}).
+    Circonspection (${number: 10}).
+    Instinct de retour (${number: 11}).
+    Magie blanche : Reraise (${number: 12}).
+    Magie blanche : Reraise II (${number: 13}).
+    Magie blanche : Reraise III (${number: 14}).
+    Magie blanche : Regen (${number: 15}).
+    Magie blanche : Refresh (${number: 16}).
+    Magie blanche : Protect (${number: 17}).
+    Magie blanche : Shell (${number: 18}).
+    Magie blanche : Haste (${number: 19}).
+    Recette : Viande séchée (${number: 20}).
+    Recette : Poisson salé (${number: 21}).
+    Recette : Biscuit dur (${number: 22}).
+    Recette : Nouilles instantanées (${number: 23}).
+    Recette : Agaricus séché (${number: 24}).
+    Recette : Riz instantané (${number: 25}).
+    Recevoir alter ego : Sakura (${number: 26}).
+    Recevoir alter ego : Koru-Moru (${number: 27}).${prompt}
   10532: |-
-    Active prowess list.
+    Liste des prouesses actives.
     ${selection-lines}
-    Go back.
-    Increased treasure casket discovery.
-    Increased combat and magic skill gain.
-    Increased crystal yield.
-    Treasure Hunter bonus.
-    Increased attack speed.
-    Increased HP and MP.
-    Enhanced accuracy and ranged accuracy.
-    Enhanced attack and ranged attack.
-    Enhanced magic acc. and magic atk.
-    Enhanced "Cure" potency.
-    Increased weapon skill damage.
-    "Killer" effects bonus.
-    Ability X.
-    Ability X.
-    Ability X.
-    Ability X.${prompt}
-  10533: '${choice: 0}[Increased treasure casket discovery/Increased combat and magic skill gain/Increased crystal yield/Treasure Hunter bonus/Increased attack speed/Increased HP and MP/Enhanced accuracy and ranged accuracy/Enhanced attack and ranged attack/Enhanced magic accuracy and magic attack/Enhanced "Cure" potency/Increased weapon skill damage/"Killer" effects bonus/Effect X/Effect X/Effect X/Effect X] prowess stands at level ${number: 1}.${prompt}'
+    Retour.
+    Découverte de coffres améliorée.
+    Gain de compétences combat/magie accru.
+    Rendement en cristaux accru.
+    Bonus Chasseur de trésors.
+    Vitesse d’attaque augmentée.
+    HP et MP augmentés.
+    Précision et précision à distance renforcées.
+    Attaque et attaque à distance renforcées.
+    Précision magique et attaque magique améliorées.
+    Puissance de "Soin" renforcée.
+    Dégâts des compétences d’arme augmentés.
+    Bonus effets "Tueur".
+    Compétence X.
+    Compétence X.
+    Compétence X.
+    Compétence X.${prompt}
+  10533: 'Prouesse ${choice: 0}[Découverte de coffres améliorée/Gain de compétences combat/magie accru/Rendement en cristaux accru/Bonus Chasseur de trésors/Vitesse d’attaque augmentée/HP et MP augmentés/Précision et précision à distance renforcées/Attaque et attaque à distance renforcées/Précision magique et attaque magique améliorées/Puissance de "Soin" renforcée/Dégâts des compétences d’arme augmentés/Bonus effets "Tueur"/Effet X/Effet X/Effet X/Effet X] au niveau ${number: 1}.${prompt}'
   10534: |-
-    Are you certain?
+    Es-tu sûr ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   10535: |-
-    Return to your home nation?
+    Retourner à ta nation d’origine ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   10536: |-
-    Receive the effects of Invisible and Sneak?
+    Recevoir les effets d’Invisible et Sneak ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   10537: |-
-    Return to your home point?
+    Retourner à ton point de départ ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  10538: You do not have enough tabs.${prompt}
-  10539: '${color-alt: 122}${name-player} is full and cannot eat anything right now.${prompt}'
-  10540: You must wait longer before you are able to register a new training regime. It is recommended that you use this time to recuperate.${prompt}
-  10541: You cannot undertake a training regime while a hunt is active.${prompt}
+    Oui.
+    Non.${prompt}
+  10538: Tu n’as pas assez d’onglets.${prompt}
+  10539: '${color-alt: 122}${name-player} est rassasié et ne peut rien manger pour l’instant.${prompt}'
+  10540: Attends avant un nouveau régime d’entraînement. Repose-toi entre-temps.${prompt}
+  10541: Impossible de commencer un régime d’entraînement pendant une chasse active.${prompt}
   10542: |-
-    Cancel hunt?
+    Annuler la chasse ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  10543: Hunt canceled.${prompt}
+    Oui.
+    Non.${prompt}
+  10543: Chasse annulée.${prompt}
   10544: |-
-    ${color-alt: 141}The requisite time has not yet elapsed since the completion of your last regime.
-    You may be ineligible to receive gil and tab rewards.
-  10545: Prowesses are unique enhancement effects, the benefits of which can be unlocked and strengthened through sustained training.${prompt}
-  10546: Please note, however, that their effects are temporary and will be lost should you venture into a different area.${prompt}
-  10547: No prowesses are active at present.${prompt}
-  10548: Set training regime to automatically repeat upon completion?
+    ${color-alt: 141}Temps insuffisant depuis ton dernier régime.
+    Récompenses en gil et onglets possibles manquantes.${prompt}
+  10545: Les prouesses sont des effets uniques déblocables et renforçables par l’entraînement.${prompt}
+  10546: Note que leurs effets sont temporaires et disparaissent hors de cette zone.${prompt}
+  10547: Aucune prouesse active pour l’instant.${prompt}
+  10548: Répéter automatiquement le régime d’entraînement à la fin ?
   10549: |-
-    Set training regime to repeat?
+    Répéter le régime d’entraînement ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  10550: It appears that you have arrived at a new survival guide provided by the Adventurers' Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
-  10551: Before you lies a survival guide penned by the Adventurers' Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
-  10552: It appears that you have arrived at a new survival guide provided by the Servicemen's Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
-  10553: Before you lies a survival guide penned by the Servicemen's Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
+    Oui.
+    Non.${prompt}
+  10550: Tu arrives à un nouveau guide de survie du Réseau d’Aide Mutuelle des Aventuriers. Téléportation possible depuis d’autres tomes.${prompt}
+  10551: Devant toi, un guide de survie du Réseau d’Aide Mutuelle des Aventuriers traite de téléportation et de combats.${prompt}
+  10552: Tu arrives à un nouveau guide de survie du Réseau d’Aide Mutuelle des Soldats. Téléportation possible depuis d’autres tomes.${prompt}
+  10553: Devant toi, un guide de survie du Réseau d’Aide Mutuelle des Soldats aborde téléportation et combats.${prompt}
   10554: |-
-    What chapter will you read?
+    Quel chapitre lire ?
     ${selection-lines}
-    None.
-    “Teleportation Assistance.”
-    “Field Support.”
-    “Other mysteries.”${prompt}
-  10555: The meticulously illuminated text within explains that adventurers may travel to the location of any previous books visited after paying a sum of gil or the requisite amount of tabs.${prompt}
-  10556: No other survival guide locations have been recorded. Visiting another one would certainly alleviate this issue.${prompt}
+    Aucun.
+    « Aide à la téléportation. »
+    « Soutien sur le terrain. »
+    « Autres mystères. »${prompt}
+  10555: Le texte éclatant explique que tu peux voyager vers des guides visités avec gil ou onglets.${prompt}
+  10556: Aucun autre guide enregistré. Visite-en un autre pour régler ça.${prompt}
   10557: |-
-    Where will you travel?
+    Où voyager ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -22715,43 +22715,43 @@ entries:
     ${zone: 18[2]}.
     ${zone: 19[2]}.
     ${zone: 20[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   10558: |-
-    It will cost ${number: 2} gil to teleport to ${zone: 1[2]}.
-    (${number: 3} gil on hand)${prompt}
-  10559: 'All mog tablets have currently been found, so you may teleport to ${zone: 1[2]} at no charge.${prompt}'
+    Téléportation à ${zone: 1[2]} : ${number: 2} gil.
+    (${number: 3} gil en main)${prompt}
+  10559: 'Toutes les tablettes mog trouvées. Téléportation gratuite à ${zone: 1[2]}.${prompt}'
   10560: |-
-    Travel to ${zone: 1[2]}?
+    Aller à ${zone: 1[2]} ?
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Delete from favorites].
-    Up and away!
-    I'm down and out.${prompt}
+    ${choice: 33}[Ajouter/Retirer favoris].
+    Partir !
+    Rester.${prompt}
   10561: |-
-    ${number: 2}ギルで移動する（${number: 4}ギル）
-    Travel to ${zone: 1[2]}?
+    ${number: 2} gil pour ${zone: 1[2]} (${number: 4} gil)
+    Aller à ${zone: 1[2]} ?
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Delete from favorites].
-    Travel using ${number: 2} gil. (${number: 4} gil)
-    Travel using ${number: 3} tab${choice-plurality: 3}[/s]. (${number: 5} total)
-    Not just yet.${prompt}
-  10562: You do not have enough tabs.${prompt}
-  10563: 'The records indicate you have fought valiantly for Vana''diel for ${number: 1} hour${choice-plurality: 1}[/s].${prompt}'
-  10564: 'At the bottom of the page is a reminder. It perfunctorily states that you may receive ${article} ${item-article: 3[2]} once you have logged a total of ${number: 2} hours.${prompt}'
-  10565: 'As per the custom noted within, you are eligible to receive ${article} ${item-article: 3[2]} for the ${number: 2} hour${choice-plurality: 2}[/s] of fighting you''ve accrued.${prompt}'
+    ${choice: 33}[Ajouter/Retirer favoris].
+    Payer ${number: 2} gil.
+    Utiliser ${number: 3} onglet${choice-plurality: 3}[/s] (${number: 5} total).
+    Pas encore.${prompt}
+  10562: Pas assez d’onglets.${prompt}
+  10563: 'Tu as combattu vaillamment pour Vana’diel ${number: 1} heure${choice-plurality: 1}[/s].${prompt}'
+  10564: 'Un rappel note que tu peux obtenir ${article} ${item-article: 3[2]} après ${number: 2} heures au total.${prompt}'
+  10565: 'Tu qualifies pour ${article} ${item-article: 3[2]} pour tes ${number: 2} heure${choice-plurality: 2}[/s] de combat.${prompt}'
   10566: |-
-    Accept the reward?
+    Accepter la récompense ?
     ${selection-lines}
-    Yes, please.
-    No, thanks.${prompt}
-  10567: You may change the way you select areas listed in “Teleportation Assistance.”
+    Oui.
+    Non.${prompt}
+  10567: Tu peux modifier la sélection des zones dans « Aide à la téléportation ».${prompt}
   10568: |-
-    Any changes to make?
+    Modifier un réglage ?
     ${selection-lines}
-    Keep course.
-    Select by region.
-    Select by content.${prompt}
-  10569: 'Area selection will now be made by ${choice: 1}[region/content].'
+    Garder.
+    Par région.
+    Par contenu.${prompt}
+  10569: 'Sélection des zones par ${choice: 1}[région/contenu] désormais.${prompt}'
   10570: |-
     ${selection-lines}
     Nowhere for now.
