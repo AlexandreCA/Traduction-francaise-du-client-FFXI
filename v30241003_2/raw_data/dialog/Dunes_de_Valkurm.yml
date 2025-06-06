@@ -18369,95 +18369,95 @@ entries:
   7475: Mes excuses, mais ce type d’objet doit être évalué individuellement. Veuillez me les échanger un par un.${prompt}
   7476: (DEBUG) Back to hometown!${prompt}
   7477: |-
-    What do you want?
+    Que veux-tu ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I'd like to set my home point here.
-    Nothing.${prompt}
+    Me donner Signet ?
+    Définir mon point de retour ici.
+    Rien.${prompt}
   7478: |-
-    What do you want?
+    Que veux-tu ?
     ${selection-lines}
-    Pay ${number: 7} gil and set my home point here.
-    Nothing.${prompt}
-  7479: Your home point has been set.${prompt}
-  7480: You do not have enough gil to set your home point here.${prompt}
-  7481: 'I will set your home point here.${wait-animation: 0}${prompt}'
+    Payer ${number: 7} gil pour définir mon point ici.
+    Rien.${prompt}
+  7479: Point de retour défini.${prompt}
+  7480: Pas assez de gil pour définir ton point de retour.${prompt}
+  7481: 'Je définis ton point de retour ici.${wait-animation: 0}${prompt}'
   7482: |-
-    We are currently on a beastman-purging campaign. We support adventurers from all nations.
-    Do your best to rid the world of those vile creatures.${prompt}
+    Campagne contre les hommes-bêtes en cours. Tous les aventuriers sont soutenus.
+    Élimine ces créatures !${prompt}
   7483: |-
-    We are currently conducting an international exchange campaign.
-    You may spend your conquest points to purchase items from foreign guards.${prompt}
+    Campagne d’échange international en cours.
+    Dépense tes points de conquête chez les gardes étrangers.${prompt}
   7484: |-
-    Thanks to you, our nation is now first in the conquest race!
-    Here is a small token of our appreciation.${prompt}
-  7485: Adventurers from nations that are ranked higher than ours in the conquest race may purchase items from us, but at a higher rate.${prompt}
+    Grâce à toi, nous sommes premiers en conquête !
+    Voici un petit cadeau.${prompt}
+  7485: Aventuriers de nations mieux classées peuvent acheter ici, mais à un prix plus élevé.${prompt}
   7486: |-
-    You cannot currently purchase this item.
-    Please choose another.${prompt}
-  7487: Currently our nation is dispatching Expeditionary Forces across Vana'diel, and requests the participation of brave adventurers such as yourself.${prompt}
-  7488: 'Requirements for participating in an E.F. are simple. Your party must consist of ${number: 5} members. Each member must be from this country, rank 3 or higher, and have reached a sufficient level.${prompt}'
-  7489: Once your party is ready, come to me and I will teleport you to the nearest outpost.${prompt}
-  7490: There, you will receive an insignia of the Expeditionary Force. When you succeed in taking control of the area, you can exchange the insignia for your reward.${prompt}
+    Cet objet est indisponible.
+    Choisis autre chose.${prompt}
+  7487: Notre nation envoie des Forces Expéditionnaires. Ta participation est attendue.${prompt}
+  7488: 'Pour l’E.F. : groupe de ${number: 5} membres, citoyens d’ici, rang 3+, niveau suffisant.${prompt}'
+  7489: Prépare ton groupe et reviens, je te téléporterai à l’avant-poste.${prompt}
+  7490: Tu recevras une insigne d’E.F. là-bas. Échange-la contre une récompense après victoire.${prompt}
   7491: |-
-    Join the E.F. in ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Rejoindre l’E.F. en ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Elshimo Bas/Elshimo Haut] ?
     ${selection-lines}
-    Join the E.F.
-    Not this time.${prompt}
-  7492: Your party doesn't have enough members, or some of the members are not in this area. Gather all those who are participating and return here.${prompt}
-  7493: One of your party members is not a citizen of this country. We do not allow any foreign participants in the E.F.${prompt}
-  7494: One of your party members has not achieved rank level 3. We cannot reveal any of our tactical strategies to those who have not shown their loyalty to our country.${prompt}
-  7495: 'One of your party members is below level ${number: 6}. For the safety of the adventurer and those accompanying him or her, we cannot allow anyone below the limit to participate in the E.F.${prompt}'
+    Oui.
+    Non.${prompt}
+  7492: Groupe incomplet ou membres absents. Rassemble tout le monde ici.${prompt}
+  7493: Un membre n’est pas citoyen d’ici. Pas d’étrangers en E.F.${prompt}
+  7494: Un membre n’a pas rang 3. Loyauté requise pour nos tactiques.${prompt}
+  7495: 'Un membre est niveau ${number: 6}. Sécurité oblige, pas d’E.F. en dessous.${prompt}'
   7496: |-
-    I see that you are ready.
-    I grant you permission to join the current Expeditionary Force. When you are ready to teleport to the outpost, talk to me once more.${prompt}
-  7497: 'Are you ready to be teleported to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]? Remember that party members who have not been granted permission to attend the E.F. will be left behind.${prompt}'
+    Tu es prêt.
+    Permission accordée pour l’E.F. Parle-moi pour téléportation.${prompt}
+  7497: 'Prêt pour ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Elshimo Bas/Elshimo Haut] ? Membres non autorisés resteront ici.${prompt}'
   7498: |-
-    Teleport to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li'Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?
+    Téléportation à ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Elshimo Bas/Elshimo Haut] ?
     ${selection-lines}
-    Ready!
-    Wait just a minute...${prompt}
-  7499: 'Cancel your participation in the E.F. to ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/The Elshimo Lowlands/The Elshimo Uplands]?${prompt}'
+    Oui.
+    Attends.${prompt}
+  7499: 'Abandonner l’E.F. pour ${choice: 7}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li’Telor/Kuzotz/Vollbow/Elshimo Bas/Elshimo Haut] ?${prompt}'
   7500: |-
-    Quit the E.F.?
+    Quitter l’E.F. ?
     ${selection-lines}
-    Yes.
-    Change locations.
-    No.${prompt}
-  7501: Are you sure?${prompt}
+    Oui.
+    Changer de lieu.
+    Non.${prompt}
+  7501: Tu es sûr ?${prompt}
   7502: |-
-    Really quit the E.F.?
+    Vraiment quitter l’E.F. ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7503: |-
-    I see.
-    If you ever wish to participate in the future, I will be waiting here to take your application.${prompt}
-  7504: 'Your ${color: 5}EF Badge${color: 1} vanishes!${prompt}'
-  7505: 'Katsu-yaku pointos : ${number: 0}!${prompt}'
-  7506: 'This ${keyitem-singular: 0[2]} is no longer valid. We will dispose of it here.${prompt}'
-  7507: Your invalid ensignias have been disposed of.${prompt}
-  7508: Welcome back from the expedition. Our nation was successful in its campaign. Let me give you your reward.${prompt}
-  7509: 'You received ${number: 1} conquest points!${prompt}'
-  7510: When participating in an Expeditionary Force, concentrate your efforts on fighting foes that give you the most experience points. And don't forget to confiscate the contents of any beastman treasure chest you happen to come upon.${prompt}
+    D’accord.
+    Reviens si tu veux rejoindre l’E.F. plus tard.${prompt}
+  7504: 'Ton insigne E.F. disparaît !${prompt}'
+  7505: 'Points katsu-yaku : ${number: 0} !${prompt}'
+  7506: 'Cet ${keyitem-singular: 0[2]} est invalide. Je le détruis.${prompt}'
+  7507: Tes insignes invalides ont été détruites.${prompt}
+  7508: Bienvenue. Campagne réussie, voici ta récompense.${prompt}
+  7509: 'Tu gagnes ${number: 1} points de conquête !${prompt}'
+  7510: En E.F., cible les ennemis à gros XP et pille les coffres beastmen.${prompt}
   7511: |-
-    I will now hand you your insignia. Be sure to read the inscription on the back before you begin your duties.
-    Once Signet has been bestowed upon you, prepare to be teleported.${prompt}
-  7512: You could not be teleported. Ask me again, please.${prompt}
-  7513: The conquest results are currently being tallied. Come back later.${prompt}
-  7514: You have received permission to join the Expeditionary Forces!${prompt}
-  7515: Currently we rank first in Vana'diel's conquest, but that must not be taken for granted. We must continue our fight to remain on top.${prompt}
-  7516: We had first place in our hands, but we let it slip away. If we want to be ranked first in Vana'diel, each and every one of us must do their part. I look forward to hearing of your achievements.${prompt}
-  7517: Our country has fallen to third in the conquest of Vana'diel. We must step up our efforts to improve the situation.${prompt}
-  7518: You must fight in battles that gain high levels of experience. This is the only way we can bring areas under our country's control.${prompt}
-  7519: Currently, our country is the dominant force in this region. If we can maintain this level, control of this area will be ours.${prompt}
-  7520: Currently, our country is a major force in this region. However, we cannot take this for granted. If we let down our guard, we will surely lose control of the area!${prompt}
-  7521: Currently, our country has only minor influence in this region. We're counting on you to get us out of this hole we've dug ourselves into.${prompt}
-  7522: Currently, our country's influence in this area is minimal. If we do not act quickly, control of this region will certainly be taken by a rival country.${prompt}
-  7523: Take care when passing through, as this area is currently overrun with beastmen! Something must be done, or the enemy will have control of the entire region.${prompt}
-  7524: 'Ton inventaire est plein. Tu n’as pas pu accepter le ${item-singular: 0[2]}.${prompt}'
-  7525: Tu possèdes déjà un glyphe de portail. Tu ne peux pas en porter davantage.${prompt}
-  7526: Je suis un Garde Ducal de Jeuno, ${name-npc}. Mon devoir est de soutenir les efforts de conquête de Windurst, San d’Oria et Bastok.${prompt}
+    Voici ton insigne. Lis l’inscription au dos.
+    Prépare-toi, téléportation après Signet.${prompt}
+  7512: Téléportation échouée. Réessaie.${prompt}
+  7513: Décompte de conquête en cours. Reviens plus tard.${prompt}
+  7514: Permission accordée pour les Forces Expéditionnaires !${prompt}
+  7515: Nous sommes premiers, mais restons vigilants.${prompt}
+  7516: On a perdu la première place. Chaque effort compte pour la retrouver.${prompt}
+  7517: Nous sommes troisièmes. Intensifions nos efforts.${prompt}
+  7518: Bats-toi pour de gros XP, c’est la clé du contrôle.${prompt}
+  7519: Nous dominons ici. Maintiens ce niveau pour garder le contrôle.${prompt}
+  7520: Nous sommes majeurs ici, mais vigilance requise pour ne pas perdre.${prompt}
+  7521: Notre influence est mineure. Aide-nous à sortir de là.${prompt}
+  7522: Influence minimale. Agis vite ou un rival prendra le contrôle.${prompt}
+  7523: Zone envahie par les hommes-bêtes. Agis, ou l’ennemi dominera ${prompt}'
+  7524: 'Inventaire plein. Tu n’as pas pris le ${item-singular: 0[2]}.${prompt}'
+  7525: Tu as déjà un glyphe de portail. Plus possible.${prompt}
+  7526: Je suis ${name-npc}, Garde Ducal de Jeuno, soutenant Windurst, San d’Oria et Bastok.${prompt}
   7527: 　${prompt}
   7528: 　${prompt}
   7529: 　${prompt}
@@ -18649,55 +18649,54 @@ entries:
   7715: 　${prompt}
   7716: PAUSE${prompt}
   7717: '${number: 1}${prompt}'
-  7718: You find nothing.${prompt}
-  7719: You sense a foul presence.${prompt}
-  7720: 'The ${choice: 2}[orange/1/2/3/red/red/blue/blue/yellow/yellow/green/green/indigo/indigo/violet/violet] light... I can feel its power run through me.${wait-animation: 3}'
+  7718: Rien à trouver.${prompt}
+  7719: Tu sens une présence malfaisante.${prompt}
+  7720: 'La lumière ${choice: 2}[orange/1/2/3/rouge/rouge/bleue/bleue/jaune/jaune/verte/verte/indigo/indigo/violette/violette]… Je sens son pouvoir m’envahir.${wait-animation: 3}'
   7721: 'Viens, ${name-player}. Suis-moi...${wait-animation: 2}'
   7722: Carbuncle a disparu en direction du Plateau de La Theine.
   7723: Carbuncle a disparu vers une autre zone du Plateau de La Theine.
   7724: 'Le ${unknown: 0x01053082938280} saute dans tes mains.'
   7725: |-
-    Ahahahahaha!
-    I can sense the power of the ring!
-    Get yourself moving ${choice: 5}[north/northeast/east/southeast/south/southwest/west/northwest]!
-  7726: 'Ahahahahaha! Don''t slow down now, slacker! The readings are coming from the ${choice: 6}[north/northeast/east/southeast/south/southwest/west/northwest]!'
+    Ahahahaha !
+    Je sens la puissance de l’anneau !
+    Va vers le ${choice: 5}[nord/nord-est/est/sud-est/sud/sud-ouest/ouest/nord-ouest] !
+  7726: 'Ahahahaha ! Ne ralentis pas, paresseux ! Signaux au ${choice: 6}[nord/nord-est/est/sud-est/sud/sud-ouest/ouest/nord-ouest] !'
   7727: |-
-    Ahahahahaha!
-    You're getting close now! I can feel the ring's power from the next area!
+    Ahahahaha !
+    Tu es proche ! L’anneau pulse dans la prochaine zone !
   7728: |-
-    Ahahahahaha!
-    You're almost on top of it!
-    It's somewhere in this area!
-  7729: You sense an evil presence...${prompt}
-  7730: 'You must be closer to the spot in order to thrust the ${keyitem-singular: 0[2]} in.${prompt}'
-  7731: What do you think you are doing!?${prompt}
-  7732: Nothing happens...${prompt}
-  7733: You feel a sudden chill in the air.${prompt}
-  7734: Something is lying on the sand.${prompt}
-  7735: This should be the place to carry out the ritual.${prompt}
+    Ahahahaha !
+    Presque là !
+    C’est dans cette zone !
+  7729: Tu sens une présence maléfique…${prompt}
+  7730: 'Approche plus près pour planter le ${keyitem-singular: 0[2]} dans le sol.'${prompt}
+  7731: Que fais-tu !?${prompt}
+  7732: Rien ne se passe…${prompt}
+  7733: Un frisson traverse l’air.${prompt}
+  7734: Quelque chose gît sur le sable.${prompt}
+  7735: Cet endroit convient pour le rituel.${prompt}
   7736: |-
-    Thrust the ${keyitem-singular: 0[2]} into the sand?
+    Planter le ${keyitem-singular: 0[2]} dans le sable ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
+    Oui.
+    Pas encore.${prompt}
   7737: |-
-    I am the will of the realm's guardian wyrms made manifest, and in accordance with the Far Eastern calendar, this year belongs to us!
-    May the soil be fertile and the harvests bountiful in the coming months.${prompt}
+    Je suis la volonté des wyrms gardiens !
+    Que cette année soit fertile et les récoltes abondantes !${prompt}
   7738: |-
-    I am the will of the realm's guardian wyrms made manifest, and in accordance with the Far Eastern calendar, this year belongs to us!
-    May the following words guide you to fertile soils and bountiful harvests in the coming months.${prompt}
+    Je suis la volonté des wyrms gardiens !
+    Que ces mots guident vers des sols fertiles et des récoltes abondantes !${prompt}
   7739: |-
-    What do we have here!? I cannot recall the last time I partook of a shell bug.
-    Mmm...mhmmm...I had completely forgotten how vividly the flavor of these insects dances upon my palate.
-    In return for your kind deed, adventurer, I impart to you the following...
-    <Munch>...<smack>...♪${prompt}
-  7740: You currently stand in the eye of a raging maelstrom. Embark upon those winds and let them carry you to glory, obliterating all who dare defy you.${prompt}
-  7741: You exude a faint yet palpable aura of purification. Bathe your companions in the cleansing light to exorcise both their demons and yours.${prompt}
-  7742: The wheel of fate may creak and groan with age, but it spins in your favor. Where it stops, you shall find new alliances ready for the making.${prompt}
-  7743: Your corporeal frame is but a pyre that fuels an eternally burning spiritual conflagration. Use that passion to blaze your own trail to the path of righteousness.${prompt}
-  7744: You exude a comforting aura that blankets those around you. Wrap your companions in its warmth and their problems should melt away.${prompt}
-  7745: Your inner spirit is attuned to the sonorous melody that fortune emits. Lend it your ear in times of trouble, and you shall never lack for guidance.${prompt}
-  7746: There is nothing out of the ordinary here.${prompt}
+    Oh ! Un insecte à carapace, ça faisait longtemps !
+    Mmm… délicieux ! En retour, prends ceci, aventurier…
+    <Miam>… <smack>… ♪${prompt}
+  7740: Tu es au cœur d’un maelström. Laisse les vents te porter vers la gloire !${prompt}
+  7741: Une faible aura de purification t’entoure. Éclaire tes compagnons !${prompt}
+  7742: La roue du destin tourne pour toi. De nouvelles alliances t’attendent.${prompt}
+  7743: Ton corps alimente un feu spirituel. Trace ton chemin vers la droiture !${prompt}
+  7744: Ton aura réconforte. Réchauffe tes compagnons !${prompt}
+  7745: Ton esprit capte la mélodie de la fortune. Écoute-la en cas de trouble.${prompt}
+  7746: Rien d’inhabituel ici.${prompt}
   7747: |-
     You can hear a strange voice...
     “Items, items, la la la la la～♪”${prompt}
@@ -18739,12 +18738,12 @@ entries:
   7760: ${prompt}
   7761: ${prompt}
   7762: ${prompt}
-  7763: An empty light swirls about the cave, eating away at the surroundings...${prompt}
+  7763: Une lumière vide tourbillonne dans la grotte, dévorant les environs…${prompt}
   7764: |-
-    Enter the vortex?
+    Entrer dans le vortex ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   7765: |-
     Hm? What is this?
     ${lettercase: 1}${article} ${item-article: 0[2]}?
