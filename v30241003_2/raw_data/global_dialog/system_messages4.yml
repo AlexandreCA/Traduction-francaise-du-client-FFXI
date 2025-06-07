@@ -7,7 +7,7 @@ entries:
   3: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[commence/commencent] à lancer ${spell-alt: 1}.${prompt}'
   4: '${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[est/sont] hors de portée.${prompt}'
   5: 'Impossible de voir ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
-  6: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[vainc/vainquent] ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
+  6: '${entity-source} ${choice-plurality-entity: 0}[a vaincu/ont vaincu] ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
   7: |-
     ${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}.
     ${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[récupère/récupèrent] ${number-alt: 1} PV.${prompt}
