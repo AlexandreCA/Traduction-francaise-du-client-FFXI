@@ -11,12 +11,12 @@ entries:
   7: |-
     ${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}.
     ${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[récupère/récupèrent] ${number-alt: 1} PV.${prompt}
-  8: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] d''expérience.${prompt}'
+  8: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] d’expérience.${prompt}'
   9: '${color-alt: 121}${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[atteint/atteignent] le niveau ${number-alt: 0} !${prompt}'
-  10: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[perd/perdent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] d''expérience.${prompt}'
+  10: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[perd/perdent] ${number-alt: 0} point${choice-plurality-number: 0}[/s] d’expérience.${prompt}'
   11: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[redescend/redescendent] au niveau ${number-alt: 0}.${prompt}'
   12: |-
-    Impossible d''attaquer.
+    Impossible d'attaquer.
     Votre cible est déjà revendiquée.${prompt}
   13: |-
     Message de débogage :
@@ -47,13 +47,13 @@ entries:
   34: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[n''a/n''ont] pas assez de PM pour lancer ${spell-alt: 0}.${prompt}'
   35: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[manque/manquent] des outils ninja pour lancer ${spell-alt: 0}.${prompt}'
   36: 'Vous perdez de vue ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
-  37: Vous êtes trop loin du combat pour gagner de l''expérience.${prompt}
-  38: '${choice-definite-entity: 1}[The /]${entity-target}${choice-plurality-entity: 1}[''s/''] ${sys-msg-3: 0} skill rises 0.${number-alt: 1} points.${prompt}'
+  37: 'Vous êtes trop loin du combat pour gagner de l''expérience.${prompt}'
+  38: '${entity-target} a vu sa compétence ${sys-msg-3: 0} augmenter de ${number-alt: 1} point${choice-plurality-number: 1}[/s].${prompt}'
   39: 'Vous avez besoin de la capacité Double Poignard pour équiper le ${item-singular-alt: 0[2]} comme arme secondaire.${prompt}'
   40: 'Vous ne pouvez pas utiliser ${spell-alt: 0} dans cette zone.${prompt}'
   41: '${entity-source} : Vérification d''état (${number-alt: 0}) Impossible de se reposer pour le moment.${prompt}'
   42: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0} sur ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
-  43: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[prépare/préparent] ${skill-alt: 1}.${prompt}'
+  43: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[prépare/préparent] ${skill-alt: 1}.${prompt}' 
   44: 'Les piques de ${choice-definite-entity: 1}[le/la] ${entity-target} infligent ${number-alt: 3} point${choice-plurality-number: 3}[/s] de dégâts à ${choice-definite-entity: 0}[le/la] ${entity-source}.${prompt}'
   45: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[apprend/apprennent] "${skill-alt: 0}" !${prompt}'
   46: |-
