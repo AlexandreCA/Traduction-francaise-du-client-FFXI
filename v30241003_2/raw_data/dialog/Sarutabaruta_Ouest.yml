@@ -17991,69 +17991,64 @@ entries:
   7391: ${prompt}
   7392: ${prompt}
   7393: |-
-    Northeast: Central Tower, Horutoto Ruins
-    Northwest: Giddeus
-    South: Port Windurst${prompt}
+    Nord-est : Tour Centrale, Ruines de Horutoto
+    Nord-ouest : Giddeus
+    Sud : Port Windurst${prompt}
   7394: |-
-    East: East Sarutabaruta
-    West: Giddeus${prompt}
+    Est : Est Sarutabaruta
+    Ouest : Giddeus${prompt}
   7395: |-
-    Northeast: Central Tower, Horutoto Ruins
-    East: East Sarutabaruta
-    West: Giddeus${prompt}
+    Nord-est : Tour Centrale, Ruines de Horutoto
+    Est : Est Sarutabaruta
+    Ouest : Giddeus${prompt}
   7396: |-
-    South: Windurst
-    East: East Sarutabaruta${prompt}
+    Sud : Windurst
+    Est : Est Sarutabaruta${prompt}
   7397: |-
-    West: Giddeus
-    North: East Sarutabaruta
-    South: Windurst${prompt}
+    Ouest : Giddeus
+    Nord : Est Sarutabaruta
+    Sud : Windurst${prompt}
   7398: |-
-    North: East Sarutabaruta
-    Southeast: Windurst${prompt}
+    Nord : Est Sarutabaruta
+    Sud-est : Windurst${prompt}
   7399: |-
-    East: Port Windurst
-    West: West Tower, Horutoto Ruins${prompt}
+    Est : Port Windurst
+    Ouest : Tour Ouest, Ruines de Horutoto${prompt}
   7400: |-
-    East: East Sarutabaruta
-    West: Giddeus
-    Southeast: Windurst${prompt}
-  7401: "Northwest: Northwest Tower, Horutoto Ruins \nEast: Outpost\nSouthwest: Giddeus${prompt}"
-  7402: You cannot read the signpost from here.${prompt}
+    Est : Est Sarutabaruta
+    Ouest : Giddeus
+    Sud-est : Windurst${prompt}
+  7401: "Nord-ouest : Tour Nord-ouest, Ruines de Horutoto\nEst : Avant-poste\nSud-ouest : Giddeus${prompt}"
+  7402: Tu ne peux pas lire le panneau d’ici.${prompt}
   7403: |-
-    Welcome to Windurst!
-    Proceed through this gateway to entaru Port Windurst.${prompt}
+    Bienvenue à Windurst !
+    Poursuis par cette porte pour atteindre le Port Windurst.${prompt}
   7404: |-
-    Hi-diddly-diddly!
-    This is the gateway to Windurst!
-    The grasslands you're on now are known as West Sarutabaruta.${prompt}
-  7405: Hello-wello! This is the central tower of the Horutoto Ruins. It's one of the several ancient-wancient magic towers which dot these grasslands.${prompt}
+    Bonjour !
+    Voici la porte de Windurst !
+    Les plaines où tu te trouves maintenant sont connues sous le nom d’Ouest Sarutabaruta.${prompt}
+  7405: Bonjour-wello ! Voici la tour centrale des Ruines de Horutoto. C’est l’une des nombreuses tours magiques anciennes qui parsèment ces plaines.${prompt}
   7406: |-
-    I am Fuahah.
-    I've come from the Orastery's Mage Academy to investigate the Horutoto Ruins.${prompt}
-  7407: Beneath this magic tower lurk some of the feral Cardians that have escaped from the care of the Manustery. So be very-wery careful down there!${prompt}
-  7408: I decided to take a little strolly-wolly, but before I realized it, I found myself way out here! Now I am sorta stuck... Woe is me!${prompt}
-  7409: |-
-    ThReE★iS★CaR-dIAn★nEw-Ly★aP-PoInTeD★As★a★gUaRd!
-    ArE★yOu★NeW★tO★aDvEn-TuR-iNg★ToO!?
-    tHeN★wE★SaMe!${prompt}
+    Je suis Fuahah.
+    Je viens de l’Académie des Mages de l’Orasterie pour enquêter sur les Ruines de Horutoto.${prompt}
+  7407: Sous cette tour magique rôdent certains Cardiens sauvages échappés des soins de la Manustérie. Sois très-w
   7410: |-
-    Goodness-gracious?
-    What is it you want so much to hunt me down out here?${prompt}
+    Par tous les cieux ?
+    Que veux-tu donc pour me traquer jusqu’ici ?${prompt}
   7411: |-
-    Oh, that's ${keyitem-article: 1[2]}, is it?
-    Erg! What atrocious writing! How is one supposed to read such completely incomprehensible scribble-wibbles?${prompt}
-  7412: Ohoho! Just kidding-widding, my dear! Had you going there for a second, didn't I? Ohoho! A little paleographer's joke, you see?${prompt}
-  7413: When you read ancient writings day in and day out, my dear, even young Hariga-Origa's scrawl becomes easily decipherable. Here, dear, this is how you read it...${prompt}
-  7414: Take that memo back to young Mister Hariga-Origa for me, will you, dear? And tell everyone at the Optistery I'll be “seeing” them soon! Ohoho! A little Optisterian's joke there, dear...${prompt}
-  7415: A frost deposit at the base of the tree twinkles in the starlight.${prompt}
+    Oh, c’est ${keyitem-article: 1[2]}, n’est-ce pas ?
+    Erg ! Quelle écriture atroce ! Comment déchiffrer ces gribouillis totalement incompréhensibles ?${prompt}
+  7412: Ohoho ! Juste une plaisanterie, ma chère ! Je t’ai eue un instant, n’est-ce pas ? Ohoho ! Une petite blague de paléographe, tu vois ?${prompt}
+  7413: Quand on lit des écrits anciens jour après jour, ma chère, même les griffonnages de jeune Hariga-Origa deviennent lisibles. Tiens, ma chère, voici comment les lire…${prompt}
+  7414: Ramène ce mémo à jeune Maître Hariga-Origa pour moi, veux-tu, ma chère ? Et dis à tous à l’Optisterie que je les « verrai » bientôt ! Ohoho ! Une petite plaisanterie d’Optisterien, ma chère…${prompt}
+  7415: Un dépôt de givre à la base de l’arbre scintille sous la lumière des étoiles.${prompt}
   7416: |-
-    Take the ${keyitem-singular: 1[2]}?
+    Prendre le ${keyitem-singular: 1[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7417: It looks like it would melt if you touched it with your bare hands...${prompt}
-  7418: There is nothing out of the ordinary here.${prompt}
+    Oui.
+    Non.${prompt}
+  7417: On dirait qu’il fondrait si tu le touchais à mains nues…${prompt}
+  7418: Il n’y a rien d’inhabituel ici.${prompt}
   7419: mes1${prompt}
   7420: mes2${prompt}
   7421: mes3${prompt}
