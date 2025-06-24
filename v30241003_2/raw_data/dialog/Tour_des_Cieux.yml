@@ -666,23 +666,23 @@ entries:
   555: La porte de l’Escalier des Étoiles est bien verrouillée, et seuls les citoyens de Windurst peuvent l’ouvrir.${prompt}
   556: Désolé ! Je ne suis pas autorisé à délivrer des Passe-mondes pour le moment.${prompt}
   557: |-
-    Howdy-wowdy!
-    I issue World Passes!${prompt}
-  558: 'Your World Pass number is ${entity: 0}! Now you can have your buddy-buddies come play with you on this world!${prompt}'
-  559: But, don't forget that there is a limit to the number of buddy-buddies that you can invite!${prompt}
-  560: Welcome to Heavens Tower--home of the Great Star Tree and our leader, the Star Sibyl.${prompt}
-  561: The Star Sibyl can hear a～ll the thoughts and dreams of a～ll the people in Windurst. So you'd better keep quiet.${prompt}
+    Salut, salut !
+    Je délivre des Passe-mondes !${prompt}
+  558: 'Ton numéro de Passe-monde est ${entity: 0} ! Maintenant, tu peux inviter tes amis à venir jouer avec toi dans ce monde !${prompt}'
+  559: Mais n’oublie pas qu’il y a une limite au nombre d’amis que tu peux inviter !${prompt}
+  560: Bienvenue à la Tour des Cieux — maison du Grand Arbre Étoilé et de notre chef, la Star Sibyl.${prompt}
+  561: La Star Sibyl peut entendre tou-tous les pensées et les rêves de tou-tous les habitants de Windurst. Alors tu ferais mieux de rester discret.${prompt}
   562: |-
-    You vant to see zee Stah Sibyl?
-    Try bahck in a million ears.${prompt}
-  563: Zee Stah Sibyl is zee reincahnate of zee Dahn Gahddess. With zee will of zee heavens, she rules zee land. You must pay her respect!${prompt}
-  564: In the Great War, the three countries of Windurst, Bastok, and San d'Oria joined forces under the command of The Grand Duchy of Jeuno to defeat the Shadow Lord and his beastman forces.${prompt}
-  565: And now all this buddy-wuddying with the beastmen... I can't believe it!${prompt}
-  566: You can't take up tw～o missions at once.${prompt}
-  567: Come back when you have finished the one you are currently working on.${prompt}
-  568: Then you can leave it to Kupipi to find you something just right for you.${prompt}
+    Tu veux voir la Star Sibyl ?
+    Reviens dans un million d’années.${prompt}
+  563: La Star Sibyl est la réincarnation de la Déesse de l’Aube. Par la volonté des cieux, elle gouverne ces terres. Tu dois lui montrer du respect !${prompt}
+  564: Pendant la Grande Guerre, les trois pays Windurst, Bastok et San d’Oria ont uni leurs forces sous le commandement du Grand-Duché de Jeuno pour vaincre le Seigneur des Ombres et ses forces bestiales.${prompt}
+  565: Et maintenant, toute cette camaraderie avec les bêtes… Je n’y crois pas !${prompt}
+  566: Tu ne peux pas accepter deux missions à la fois.${prompt}
+  567: Reviens quand tu auras terminé celle sur laquelle tu travailles actuellement.${prompt}
+  568: Ensuite, tu pourras laisser Kupipi te trouver quelque chose qui te conviendra parfaitement.${prompt}
   569: |-
-    Which mission will you accept?
+    Quelle mission vas-tu accepter ?
     ${selection-lines}
     Mission 1-1
     Mission 1-2
@@ -715,37 +715,37 @@ entries:
     Dummy 17
     Dummy!
     Dummy!!
-    Accept no missions!${prompt}
+    Pas de mission acceptée !${prompt}
   570: |-
-    You vant to see zee Stah Sibyl?
-    Try coming back in a million ears.${prompt}
-  571: Vaht iz zis you say? You ahlready met her? Zis is naht pahssible-vahssible!${prompt}
-  572: The Star Sibyl is not taking the recent happenings very well...${prompt}
-  573: But at times like these, you just have to get out there and kick some butt for the home team!${prompt}
-  574: Come on, you stinkin' Yagudo! Bring it on!${prompt}
+    Tu veux voir la Star Sibyl ?
+    Essaie de revenir dans un million d’années.${prompt}
+  571: Qu-que dis-tu ? Tu l’as déjà rencontrée ? Ce n’est pas possible !${prompt}
+  572: La Star Sibyl ne prend pas bien les événements récents...${prompt}
+  573: Mais dans des moments comme ça, il faut se retrousser les manches et défendre la maison !${prompt}
+  574: Allez, sales Yagudo ! Venez vous battre !${prompt}
   575: |-
-    I am zee Producah!
+    Je suis le Producteur !
     ${selection-lines}
-    　Sah zee opening event
+    Voir l’événement d’ouverture
     Missions
     Wahp
-    Quest
-    Left the ZONE once
-    Ahhl reset!
-    EX Missions${prompt}
+    Quête
+    Quitter la zone une fois
+    Tout réinitialiser !
+    Missions EX${prompt}
   576: |-
-    Wahp vhere?
+    Wahp où ?
     ${selection-lines}
-    Clerics
-    Ladiez
-    Orchahd
-    Stah Spring
-    Sibyl's room
-    Stahway Stairway${prompt}
+    Clercs
+    Dames
+    Verger
+    Source étoilée
+    Chambre de la Sibyl
+    Escalier de l’étoile${prompt}
   577: |-
     どうするつもりザーマス？
     ${selection-lines}
-    　ランク
+    ランク
     クエスト
     アイテム
     一度、ゾーンから出た
@@ -21441,53 +21441,53 @@ entries:
   9499: Ou plus précisément, ce n’est pas qu’il a la clé, mais plutôt qu’il est la clé.${prompt}
   9500: Hm ? Tu veux savoir le nom de ce que nous avons scellé dans cette pièce ?${prompt}
   9501: |-
-    Are you interested?
+    Es-tu intéressé ?
     ${selection-lines}
-    Sure.
-    Not really.
-    I didn't say a word...${prompt}
-  9502: Hehe...you're sure to be surpri～sed!${prompt}
-  9503: Hehe...you're sure to be really surpri～sed!${prompt}
-  9504: We call it...the Do～ll Chamber!!!${prompt}
-  9505: Even the name makes me qui～ver in my boots! Could the legends be true? Could they!?${prompt}
-  9506: But there's something else...${prompt}
-  9507: Something that sca～res me more than any magicked creature ever could...${prompt}
-  9508: And that's the pent-up rage Doctor Shantotto must be feeling because I ha～ven't gone to apologize yet!${prompt}
-  9509: O-oh no! You have a message from her? Heavens...${prompt}
-  9510: You mean...I don't have to go to the great beyond!? Hurray!${prompt}
-  9511: I'm plea～sed as punch that Doctor Shantotto has seen that there's too much strange stuff going on to hold a grudge.${prompt}
-  9512: None of it makes a～ny sense. Not just my memory going all fuzzy...${prompt}
-  9513: '...but King of Spades going missing. It must a～ll be connected to whatever great evil she senses.${prompt}'
-  9514: I think our next order of business should be to talk to the people on the first floor of Heavens Tower and see if they have any lead on Ki～ng of Spades.${prompt}
-  9515: They should be cooperative if you mention that I filled you in.${prompt}
-  9516: I think Doctor Shantotto has the ri～ght of it. Everyone's memory loss is a sign of worse things to come.${prompt}
-  9517: We might be able to get to the bottom of things if you find the missing King of Spades.${prompt}
-  9518: Consult with the people on the first floor of Heavens Tower.${prompt}
-  9519: Wh-what!? Kupipi shared that super-secret...secret with you!?${prompt}
-  9520: Well...I guess it's fine if she trusts you, but please don't go around Vana'diel flapping your lips about it.${prompt}
-  9521: I've heard that a Cardian was spotted heading toward East Sarutabaruta, although no one seems to know why.${prompt}
-  9522: Ah, so you think Shantotto will calm down a touch if we find King of Spades?${prompt}
-  9523: If you and Kupipi think that's best, then I shall lend my aid.${prompt}
-  9524: I would wager that you'd find answers at a magic tower. But I couldn't specifically say which one.${prompt}
-  9525: Yes, yes, I've heard all about how Doctor Shantotto will forgive Kupipi if she can get to the bottom of things.${prompt}
-  9526: I see. You're looking for the missing Cardian to help save Kupipi's skin.${prompt}
-  9527: It's not like a Cardian to just up and disobey orders. And to leave the city, at that? It boggles the mind.${prompt}
-  9528: Something may be threatening the Cardian, or otherwise have a nefarious plan in mind. I would prepare for battle if I were you.${prompt}
-  9529: Oh no! King of Spades is back--but something's wrong!${prompt}
-  9530: They're talking all weird and they seem to be a little beat up!${prompt}
-  9531: Well, isn't it a good thing that King of Spades is back? That should help Doctor Shantotto to simmer down.${prompt}
-  9532: I wish I could say this was a happy ending, but the world is never so simple.${prompt}
-  9533: Everyone is abuzz about King of Spades and how strong they are.${prompt}
-  9534: But all those Yagudo feathers... It can only mean one thing.${prompt}
-  9535: We～lcome back!　I was waiting for your arrival with bated breath!${prompt}
-  9536: Thank you so mu～ch for helping to find King of Spades!${prompt}
-  9537: His magical energies were all misali～gned, and there's no telling what might have happened if he didn't come back for repairs.${prompt}
-  9538: I'm not the least bit surprised. He was fighting the Yagu～do for so long. It would take the wind out of anyone's sails.${prompt}
-  9539: But we did learn something ve～ry important from his report.${prompt}
-  9540: I can't believe something so important was just sto～len from the Doll Chamber--especially when it was made by such a storied mage...${prompt}
-  9541: Eeek! I'm fa～r too scared to say anything else!${prompt}
-  9542: I'm more scared of those sweet-peety-weets you made the other day, Kupipi.${prompt}
-  9543: Professor Koru-Moru!
+    Bien sûr.
+    Pas vraiment.
+    Je n'ai rien dit...${prompt}
+  9502: Hé hé... tu vas être surpris !${prompt}
+  9503: Hé hé... tu vas vraiment être surpris !${prompt}
+  9504: Nous appelons ça... la Chambre des Poupées !!!${prompt}
+  9505: Rien que le nom me fait trembler ! Les légendes seraient-elles vraies ? Pourrait-il en être ainsi ?${prompt}
+  9506: Mais il y a autre chose...${prompt}
+  9507: Quelque chose qui me fait plus peur que n’importe quelle créature magique...${prompt}
+  9508: C’est la colère rentrée que doit ressentir le docteur Shantotto parce que je ne suis pas encore allé m’excuser !${prompt}
+  9509: Oh non ! Tu as un message pour elle ? Mon Dieu...${prompt}
+  9510: Tu veux dire... que je ne dois pas aller dans l’au-delà ? Hourra !${prompt}
+  9511: Je suis ravi que le docteur Shantotto ait compris qu’il se passe trop de choses étranges pour garder rancune.${prompt}
+  9512: Rien ne fait sens. Ce n’est pas seulement ma mémoire qui devient floue...${prompt}
+  9513: '...mais la disparition du Roi de Pique. Tout cela doit être lié à ce grand mal qu’elle perçoit.${prompt}'
+  9514: Je pense que la prochaine étape est de parler aux gens du premier étage de la Tour des Cieux pour voir s’ils ont des pistes sur le Roi de Pique.${prompt}
+  9515: Ils devraient coopérer si tu mentionnes que je t’ai informé.${prompt}
+  9516: Je crois que le docteur Shantotto a raison. L’amnésie générale est le signe que pire est à venir.${prompt}
+  9517: Nous pourrions résoudre l’affaire si tu retrouves le Roi de Pique disparu.${prompt}
+  9518: Consulte les habitants du premier étage de la Tour des Cieux.${prompt}
+  9519: Qu-quoi !? Kupipi t’a confié ce super secret... secret ?!${prompt}
+  9520: Eh bien... si elle te fait confiance, ça va, mais ne va pas raconter ça partout dans Vana’diel.${prompt}
+  9521: J’ai entendu dire qu’un Cardian a été aperçu en direction d’Est Sarutabaruta, mais personne ne sait pourquoi.${prompt}
+  9522: Ah, tu penses que Shantotto se calmera un peu si on retrouve le Roi de Pique ?${prompt}
+  9523: Si toi et Kupipi pensez que c’est la meilleure solution, alors je t’apporterai mon aide.${prompt}
+  9524: Je parierais que tu trouveras des réponses dans une tour magique. Mais je ne saurais dire laquelle précisément.${prompt}
+  9525: Oui, oui, j’ai entendu toute l’histoire sur comment le docteur Shantotto pardonnera à Kupipi si elle résout ce mystère.${prompt}
+  9526: Je comprends. Tu cherches le Cardian disparu pour sauver Kupipi.${prompt}
+  9527: Ce n’est pas dans les habitudes d’un Cardian de désobéir à ses ordres. Et de quitter la ville en plus ? C’est incompréhensible.${prompt}
+  9528: Quelque chose menace peut-être le Cardian, ou il y a un plan machiavélique. Je te conseille de te préparer au combat.${prompt}
+  9529: Oh non ! Le Roi de Pique est de retour — mais quelque chose ne va pas !${prompt}
+  9530: Ils parlent bizarrement et ont l’air un peu amoché !${prompt}
+  9531: Eh bien, n’est-ce pas une bonne nouvelle que le Roi de Pique soit revenu ? Cela devrait calmer le docteur Shantotto.${prompt}
+  9532: J’aimerais pouvoir dire que c’est une fin heureuse, mais le monde n’est jamais aussi simple.${prompt}
+  9533: Tout le monde parle du Roi de Pique et de sa puissance.${prompt}
+  9534: Mais toutes ces plumes de Yagudo... Cela ne peut signifier qu’une chose.${prompt}
+  9535: Bienvenue ! J’attendais ton arrivée avec impatience !${prompt}
+  9536: Merci beaucoup d’avoir aidé à retrouver le Roi de Pique !${prompt}
+  9537: Ses énergies magiques étaient complètement désalignées, on ne sait pas ce qui aurait pu arriver s’il n’était pas revenu pour être réparé.${prompt}
+  9538: Ça ne me surprend pas. Il se battait contre les Yagudo depuis si longtemps. Ça épuise n’importe qui.${prompt}
+  9539: Mais nous avons appris quelque chose de très important grâce à son rapport.${prompt}
+  9540: Je n’arrive pas à croire qu’une chose aussi importante ait été volée dans la Chambre des Poupées — surtout quand elle a été fabriquée par un mage aussi renommé...${prompt}
+  9541: Aaargh ! J’ai trop peur pour en dire plus !${prompt}
+  9542: J’ai plus peur de ces douceurs que tu as faites l’autre jour, Kupipi.${prompt}
+  9543: Professeur Koru-Moru !${prompt}
   9544: |-
     I, on the other hand, have nothing to fear.
     When others are bawling, I shed not a tear.${prompt}
@@ -21521,7 +21521,7 @@ entries:
     So they used the Yagudo and manipulated things from behind the curtain.${prompt}
   9557: And it's never-schmever easy to get the better of a Cardian with the rank of king.${prompt}
   9558: They wanted the Cardian to fight-diddly-ight the Yagudo...or were just using them as a decoy.${prompt}
-  9559: W-wait. So the Yagudo stole that horri～fic magicked doll...${prompt}
+  9559: W-wait. So the Yagudo stole that horrific magicked doll...${prompt}
   9560: And were the big bads who threatened me and everyone else?${prompt}
   9561: |-
     Kupipi, my dear, were you even listening?
