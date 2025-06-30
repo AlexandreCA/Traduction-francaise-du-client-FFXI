@@ -21311,391 +21311,476 @@ entries:
     Trust (Prishe).${prompt}
   9835: |-
     Toi...
-    Je pensais que tu étais mort !${prompt}
+    Je te croyais mort !${prompt}
   9836: Hmph. Je vois que le garçon n'est pas avec toi...${prompt}
   9837: |-
-    Très bien. Mettons nos différences de côté pour le moment.
-    Cependant, je te suggère de ne faire aucun mouvement brusque, car nous sommes surveillés...${prompt}
-  9838: Voyageurs. Cet endroit n'est qu'un souvenir fugace à la lisière du temps. Nous n'avons guère à offrir aux étrangers.${prompt}
-  9839: 'Et donc je dois te poser ces questions : D''où viens-tu, et où vas-tu ? Si ta conscience est pure et tes intentions justes, tu n''as aucune raison de ne pas me fournir de réponses.${prompt}'
-  9840: Oui ! Prouve que tu es innocent !${prompt}
-  9841: Oui ! Un combat à mort !${prompt}
-  9842: Quoi, tu dis que ces Tarutaru t'ont volé quelque chose ?${prompt}
+    Très bien. Mettons nos différends de côté pour l'instant.
+    Mais je te conseille de ne pas faire de gestes imprudents... Nous sommes observés.${prompt}
+  9838: Voyageur... Cet endroit n'est qu'un souvenir éphémère aux frontières du temps. Nous n'avons que peu à offrir aux étrangers.${prompt}
+  9839: |-
+    Je dois donc te poser ces questions : d'où viens-tu, et où vas-tu ?
+    Si ton cœur est pur et tes intentions sincères, tu n'as aucune raison de ne pas répondre.${prompt}
+  9840: Oui ! Prouve ton innocence !${prompt}
+  9841: Oui ! Un duel à mort !${prompt}
+  9842: Quoi ? Tu dis que ces Tarutaru t'ont volé quelque chose ?${prompt}
   9843: Mais c'était...${prompt}
-  9844: Aïe-aïe-aïe !${prompt}
-  9845: Voler des objets à un étranger inconscient ! À quoi pensiez-vous, tous les trois !?${prompt}
-  9846: Mais cet amulette appartient à Prishe ! Je parie que cet aventurier bizarre le lui a volé !${prompt}
-  9847: Il ressemble beaucoup à celui que Prishe possédait...${prompt}
+  9844: Aïe, aïe, aïe !${prompt}
+  9845: Voler les affaires d'un étranger inconscient ! Mais à quoi pensiez-vous tous les trois !?${prompt}
+  9846: Mais cette amulette appartient à Prishe ! Je parie que cet aventurier louche la lui a volée !${prompt}
+  9847: C'est vrai qu'elle ressemble beaucoup à celle de Prishe...${prompt}
   9848: |-
-    Amulette !?
-    Alors, ça explique...${prompt}
+    Une amulette !?
+    Voilà qui explique bien des choses...${prompt}
   9849: |-
-    Nous attendrons le retour de Prishe. Elle saura si l'amulette est la sienne ou non.
-    D'ici là, je te suggère de te reposer ici, dans le sanctuaire.${prompt}
-  9850: Cependant, souviens-toi que tu n'es pas le bienvenu, et dès que la question en cours sera résolue, on te demandera de partir et de ne jamais revenir.${prompt}
+    Nous attendrons le retour de Prishe. Elle saura si cette amulette lui appartient.
+    En attendant, je te conseille de te reposer ici, au sanctuaire.${prompt}
+  9850: Mais souviens-toi, tu n'es pas le bienvenu ici. Une fois cette affaire réglée, nous te demanderons de partir... et de ne jamais revenir.${prompt}
   9851: |-
-    Bienvenue dans notre humble cité, bien qu'il n'en reste plus grand-chose...
-    J'ai entendu de Justinius les détails de ta situation.${prompt}
-  9852: Il a mentionné que tu venais du continent.${prompt}
-  9853: Dis-moi, quelle est la situation au-delà des mers tumultueuses ?${prompt}
-  9854: 'Je vois... ${choice: 0}[Le seigneur des bêtes est revenu et/ Même après la défaite du Seigneur des Ombres,] la lutte pour la paix continue.${prompt}'
-  9855: Personne n'a le temps de se demander ce qu'il est advenu de leurs frères perdus...${prompt}
-  9856: Voici Tavnazia... Une nouvelle Tavnazia, construite sur les ruines de l'ancien et puissant Marquisat. Depuis vingt ans, les survivants de la Grande Guerre ont travaillé pour créer ce que tu vois ici.${prompt}
-  9857: Pendant vingt ans, nous avons creusé et sculpté notre chemin depuis un étroit passage de stockage en dessous de la Cathédrale de Tavnazia...${prompt}
-  9858: En tant qu'aventurier, je suis sûr que tu as entendu parler de la Perle de Zafmlug -- le célèbre Marquisat de Tavnazia.${prompt}
-  9859: Ses larges ports accueillaient des navires de tous les coins de Vana'diel, transportant des biens et des trésors jamais vus auparavant.${prompt}
-  9860: Un centre de commerce. Un endroit où les rêves de richesse et de succès pouvaient devenir réalité... C'était l'âge d'or de Tavnazia.${prompt}
-  9861: Mais tout cela a pris fin il y a vingt ans. Les hordes de bêtes ont concentré leur attaque sur notre belle nation, et quand elles ont eu fini, il ne restait plus qu'un désert inhabitable même par les créatures les plus viles.${prompt}
+    Bienvenue dans notre cité, même si elle n'est plus que l'ombre d'elle-même...
+    Justinius m'a expliqué ta situation.${prompt}
+  9852: Il m'a dit que tu viens du continent.${prompt}
+  9853: Dis-moi... Que se passe-t-il de l'autre côté des mers agitées ?${prompt}
+  9854: |-
+    Je vois... ${choice: 0}[Le seigneur des bêtes est de retour et/ Même après la chute du Seigneur des Ombres,] la lutte pour la paix se poursuit.${prompt}
+  9855: Personne ne prend le temps de se soucier du sort de ses frères disparus...${prompt}
+  9856: Voici Tavnazia... La nouvelle Tavnazia, bâtie sur les ruines de l'ancien et puissant Marquisat. Depuis vingt ans, les survivants de la Grande Guerre œuvrent à rebâtir ce que tu vois ici.${prompt}
+  9857: Durant vingt ans, nous avons creusé et façonné notre chemin à partir d'un étroit passage de stockage sous la Cathédrale de Tavnazia...${prompt}
+  9858: En tant qu'aventurier, tu as sûrement entendu parler de la Perle de Zafmlug, le légendaire Marquisat de Tavnazia.${prompt}
+  9859: Ses vastes ports accueillaient des navires venus des quatre coins de Vana'diel, transportant des marchandises et des trésors encore jamais vus.${prompt}
+  9860: C'était un centre florissant du commerce, un endroit où les rêves de richesse et de réussite devenaient réalité... C'était l'âge d'or de Tavnazia.${prompt}
+  9861: Mais tout cela a pris fin il y a vingt ans. Les armées de bêtes ont concentré leurs attaques sur notre belle nation, et lorsqu'elles en ont terminé, il ne restait plus qu'un désert, même inhabitable pour les créatures les plus abjectes.${prompt}
   9862: Nous aurions dû connaître le même sort que le Marquisat...${prompt}
-  9863: Tard dans notre fuite de la péninsule, nous nous sommes dirigés vers la cathédrale, où nous attendions la mort aux mains des Orcs.${prompt}
-  9864: Cependant, ce ne sont pas les Orcs qui sont arrivés, mais le cardinal, Mildaurion C Giloumet.${prompt}
-  9865: Elle a soigné nos corps et nos esprits blessés, et nous a informés comment échapper à notre sort.${prompt}
-  9866: Elle a ouvert les portes des parties inférieures de la cathédrale, et nous a dit de suivre les tunnels de livraison jusqu'à la ville.${prompt}
-  9867: Nous avons fait ce qu'elle nous a dit, et il ne nous a pas fallu longtemps pour arriver au port souterrain profondément en dessous de cet endroit.${prompt}
-  9868: Cependant, au moment où nous sommes arrivés, les bateaux étaient déjà partis, et une terrible explosion avait détruit le pont terrestre vers Quon... Nous étions piégés...${prompt}
-  9869: Mais même avec le désespoir contre nous, le courage et la foi que nous avions reçus du cardinal restaient dans nos cœurs.${prompt}
-  9870: Depuis vingt ans, nous avons survécu sur la croyance qu'Altana nous sauverait. C'est cette croyance qui nous a aidés à nous unir et à reconstruire notre nation.${prompt}
-  9871: Cependant, nous luttons encore à subvenir à nos propres besoins. Je suis désolé de ne pas pouvoir t'offrir plus qu'un accueil chaleureux.${prompt}
-  9872: Mais, s'il te plaît, n'hésite pas à utiliser nos installations.${prompt}
-  9873: Je prie pour que les forces qui t'ont conduit à Tavnazia deviennent une bénédiction pour nos deux peuples.${prompt}
-  9874: Je comprends que, sur le continent, personne n'a le temps de se demander ce qu'il est advenu de leurs frères perdus.${prompt}
-  9875: Cependant, je prie pour que les forces qui t'ont conduit à Tavnazia s'avèrent être une bénédiction pour nos deux peuples.${prompt}
-  9876: '...Au fait, où est l''autre voyageur qui est arrivé avec toi ici, dans le sanctuaire?${prompt}'
-  9877: Je souhaite également entendre ses récits du continent...${prompt}
-  9878: Tu dis que ce Nag'molada n'est pas un de tes amis ?${prompt}
-  9879: Eh bien, ça n'a pas d'importance. Si jamais tu le revois, je te suggère fortement de le prévenir de ne pas s'approcher de la porte menant aux aqueducs.${prompt}
-  9880: Voici donc ce qu'il reste de la puissante nation de Tavnazia... Son peuple seul derrière ces murs, luttant pour survivre depuis vingt ans...${prompt}
-  9881: Hé, toi ! On sait qui tu es vraiment ! Dis-nous qui tu es vraiment !${prompt}
-  9882: Tu es l'un de ces méchants, méchants vauriens !${prompt}
-  9883: Tu es l'un de ces traîtres du lion rouge !${prompt}
-  9884: Tu es l'un de ces mages noirs maléfiques !${prompt}
+  9863: Alors que nous fuyions la péninsule, nous nous sommes dirigés vers la cathédrale, résignés à mourir entre les mains des Orcs.${prompt}
+  9864: Pourtant, ce ne sont pas les Orcs qui sont arrivés, mais le cardinal Mildaurion C. Giloumet.${prompt}
+  9865: Elle a soigné nos corps blessés et nos âmes tourmentées, et nous a indiqué le chemin pour échapper à notre funeste destin.${prompt}
+  9866: Elle a ouvert les portes des souterrains de la cathédrale et nous a dit de suivre les tunnels de ravitaillement jusqu'à la ville.${prompt}
+  9867: Nous avons suivi ses instructions, et il ne nous a pas fallu longtemps pour atteindre le port souterrain, bien caché sous cette terre.${prompt}
+  9868: Mais à notre arrivée, les navires étaient déjà partis, et une terrible explosion avait détruit le pont terrestre menant à Quon... Nous étions prisonniers.${prompt}
+  9869: Pourtant, même face au désespoir, nous avons gardé en nous le courage et la foi insufflés par le cardinal.${prompt}
+  9870: Depuis vingt ans, nous survivons dans l'espoir qu'Altana nous vienne en aide. C'est cette croyance qui nous a permis de rester unis et de reconstruire notre nation.${prompt}
+  9871: Malgré nos efforts, nous peinons encore à subvenir à nos besoins. Je suis désolé de ne pouvoir t'offrir plus qu'un simple accueil chaleureux.${prompt}
+  9872: Mais je t'en prie, utilise nos modestes installations si besoin.${prompt}
+  9873: Je prie pour que les forces qui t'ont guidé jusqu'à Tavnazia deviennent une bénédiction pour nos deux peuples.${prompt}
+  9874: Je comprends qu'au-delà des mers, peu de gens se préoccupent du sort de ceux que nous avons perdus.${prompt}
+  9875: Pourtant, je garde espoir que ta venue ici soit un signe positif pour nos deux nations.${prompt}
+  9876: |-
+    Dis-moi, où est l'autre voyageur qui est arrivé ici avec toi, au sanctuaire ?${prompt}
+  9877: J'aimerais entendre, moi aussi, ses récits sur le continent...${prompt}
+  9878: Tu dis que ce Nag'molada n'est pas ton compagnon ?${prompt}
+  9879: Peu importe. Si jamais tu le croises à nouveau, je te conseille vivement de l'empêcher d'approcher la porte menant aux aqueducs.${prompt}
+  9880: Voilà donc ce qu'il reste de la puissante Tavnazia... Son peuple retranché derrière ces murs, luttant pour survivre depuis vingt ans...${prompt}
+  9881: Hé, toi ! On sait qui tu es vraiment ! Allez, avoue qui tu es !${prompt}
+  9882: Tu fais partie des sales vauriens, pas vrai ?${prompt}
+  9883: Tu es un traître du Lion Rouge !${prompt}
+  9884: Tu es un mage noir malfaisant !${prompt}
   9885: Il est temps que tu sois puni !${prompt}
-  9886: Est-ce bien un endroit pour les "Défenseurs de Tavnazia" ?${prompt}
-  9887: Je croyais que vous deviez garder la ville en l'absence de Prishe.${prompt}
-  9888: Et si elle découvrait que vous erriez à l'extérieur, laissant le sanctuaire vulnérable à une attaque ? Je pourrais le lui dire quand elle reviendra...${prompt}
-  9889: Tu ne ferais pas ça, Justinius !${prompt}
-  9890: Tu ne pourrais pas faire ça, Justinius !${prompt}
-  9891: Je vous demande de garder vos distances de cette porte.${prompt}
-  9892: De l'autre côté se trouvent les Aqueducs de Phomiuna, situés sous la cathédrale. C'était autrefois un lieu paisible. Cependant, maintenant, ce n'est plus qu'un repaire pour des démons.${prompt}
-  9893: Il y a même des rumeurs qu'un terrible minotaure a fait son nid dans les profondeurs des aqueducs.${prompt}
-  9894: Il ne faudra pas longtemps avant que la bête ne brise la porte et ne vienne terroriser notre ville. Il y a eu des discussions pour envoyer une équipe pour tuer le monstre ; cependant, nous ne pouvons agir avant le retour de Prishe.${prompt}
+  9886: C'est ici, le quartier général des « Défenseurs de Tavnazia » ?${prompt}
+  9887: Je croyais que votre rôle était de protéger la ville en l'absence de Prishe.${prompt}
+  9888: Et si elle découvrait que vous vagabondez à l'extérieur en laissant le sanctuaire sans défense ? Peut-être que je devrais le lui dire à son retour...${prompt}
+  9889: Tu n'oserais pas faire ça, Justinius !${prompt}
+  9890: Tu ne ferais jamais ça, Justinius !${prompt}
+  9891: Je vous demande de ne pas approcher de cette porte.${prompt} 
+  9892: Derrière se trouvent les Aqueducs de Phomiuna, sous la cathédrale. Autrefois paisible, cet endroit est désormais le repaire des démons.${prompt}
+  9893: Il paraît même qu'un terrible minotaure a élu domicile dans les profondeurs des aqueducs.${prompt}
+  9894: Ce n'est qu'une question de temps avant que la bête ne défonce cette porte et sème la terreur dans notre ville. On envisage d'envoyer une équipe pour l'éliminer... Mais nous devons attendre le retour de Prishe.${prompt}
   9895: La Cathédrale de Tavnazia...${prompt}
-  9896: Je sais ! On peut utiliser ces deux-là comme appâts pour le minotaure !${prompt}
-  9897: Oui ! Ils seront sûrement condamnés à mort une fois que Prishe sera de retour, non ?${prompt}
-  9898: S'ils doivent mourir de toute façon, pourquoi ne pas les utiliser à bon escient !?${prompt}
+  9896: Je sais ! Utilisons ces deux-là comme appâts pour le minotaure !${prompt}
+  9897: Oui ! De toute façon, ils seront sûrement condamnés à mort quand Prishe reviendra, non ?${prompt}
+  9898: Puisqu'ils doivent mourir, autant qu'ils servent à quelque chose !${prompt}
   9899: Silence, vous trois !${prompt}
-  9900: Ne t'inquiète pas. Je doute que ta punition soit si sévère.${prompt}
-  9901: Dans le passé, il y en a eu d'autres comme toi échoués sur nos rives. La plupart d'entre eux vivent encore parmi nous.${prompt}
+  9900: Ne t'inquiète pas, ta punition ne sera sans doute pas si sévère.${prompt}
+  9901: Par le passé, d'autres comme toi ont échoué ici. La plupart vivent encore parmi nous aujourd'hui.${prompt}
   9902: |-
     Non...
-    Pourquoi ne pas nous laisser essayer de débarrasser votre ville de son problème de nuisibles ?${prompt}
-  9903: Qu'est-ce que tu dis ?${prompt}
-  9904: Les aventuriers parcourent le monde à la recherche de nouveaux défis. Si vaincre ce minotaure peut nous aider à gagner la confiance de votre peuple, nous serions fous de ne pas essayer.${prompt}
-  9905: Pensez-vous vraiment être capable de vaincre ce monstre ?${prompt}
-  9906: Les aqueducs qui se trouvent sous le Sacrarium de la Cathédrale de Tavnazia ont été enchantés par un puissant sortilège magique par le cardinal Mildaurion C Giloumet.${prompt}
-  9907: Ce sortilège limite la force des monstres qui y rôdent, mais affecte malheureusement quiconque choisit d'y entrer également.${prompt}
-  9908: Je ne connais pas l'étendue de vos compétences dans ce monde, mais je peux vous garantir que les choses ne seront pas les mêmes une fois que vous aurez franchi cette porte.${prompt}
+    Mais pourquoi ne pas nous laisser tenter notre chance contre cette créature qui menace votre ville ?${prompt}
+  9903: Qu'est-ce que tu racontes ?${prompt}
+  9904: Les aventuriers parcourent le monde à la recherche de défis. Si vaincre ce minotaure peut nous permettre de gagner la confiance de votre peuple, ce serait stupide de ne pas essayer.${prompt}
+  9905: Vous pensez vraiment pouvoir vaincre ce monstre ?${prompt}
+  9906: Les aqueducs sous le Sacrarium de la Cathédrale de Tavnazia ont été protégés par un puissant enchantement, lancé par le cardinal Mildaurion C. Giloumet.${prompt}
+  9907: Ce sort affaiblit les monstres à l'intérieur... mais il affaiblit aussi quiconque ose y pénétrer.${prompt}
+  9908: Je ne connais pas l'étendue de vos capacités, mais je peux vous assurer d'une chose, passé cette porte, les règles ne sont plus les mêmes.${prompt}
   9909: |-
-    Accepter le défi ?
+    Acceptez-vous le défi ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  9910: ${choice-player-gender}[Il/Elle] est fatigué(e) des épreuves récentes et ${choice-player-gender}[son/sa] esprit est encore embrouillé. Cependant, ne craignez rien. ${choice-player-gender}[Il/Elle] vaincra le minotaure. Je le garantis.${prompt}
+  9910: ${choice-player-gender}[Il/Elle] est encore fatigué(e) par toutes ces épreuves, et ${choice-player-gender}[son/sa] esprit est troublé. Mais ne vous inquiétez pas. ${choice-player-gender}[Il/Elle] vaincra ce minotaure, j'en fais le serment.${prompt}
   9911: |-
-    Compris.
-    Cette clé ouvrira la porte et vous permettra d'accéder aux aqueducs. Nous verrons si vous êtes dignes de confiance.${prompt}
-  9912: Cependant, je vous avertis. Ne vous aventurez pas plus loin que nécessaire, car un grand mal rôde dans l'obscurité. Il n'y aura pas d'équipes de secours si vous ne revenez pas.${prompt}
+    Très bien.
+    Voici la clé qui ouvre la porte. Elle vous donnera accès aux aqueducs. Nous verrons si vous êtes dignes de confiance.${prompt}
+  9912: 'Mais je vous préviens : ne vous aventurez pas plus loin que nécessaire. Une grande menace rôde dans les ténèbres. Si vous ne revenez pas, personne ne viendra vous chercher.${prompt}'
   9913: |-
-    Au-delà de cette porte se trouvent les aqueducs qui connectent aux parties plus profondes du Sacrarium.
-    Toute la zone a été ensorcelée par un puissant sort par le cardinal Mildaurion C Giloumet.${prompt}
+    Au-delà de cette porte s'étendent les aqueducs qui mènent aux profondeurs du Sacrarium.
+    Toute cette zone est protégée par un sortilège du cardinal Mildaurion C. Giloumet.${prompt}
   9914: |-
-    Ce sort limite la force des monstres qui y rôdent, mais affecte malheureusement quiconque choisit d'y entrer.
-    Ne vous aventurez pas plus loin que strictement nécessaire.${prompt}
+    Ce sort réduit la puissance des monstres, mais il affaiblit aussi tous ceux qui y entrent.
+    Ne vous éloignez pas plus que ce qui est absolument nécessaire.${prompt}
   9915: |-
-    Vous avez vaincu le minotaure ?
-    Mais votre compagnon n'est pas encore revenu.${prompt}
+    Vous avez réussi à vaincre le minotaure ?
+    Pourtant, votre compagnon n'est toujours pas revenu.${prompt}
   9916: |-
-    Ce n'est pas que je doute de votre parole, mais je dois entendre l'histoire des deux.
-    Maintenant, retournez dans les aqueducs pour chercher votre ami.${prompt}
+    Ce n'est pas que je doute de vos paroles, mais je dois entendre le récit des deux.
+    Retournez dans les aqueducs et retrouvez votre ami.${prompt}
   9917: |-
     Je n'arrive pas à croire que vous ayez réellement tué cette bête.
-    Il semble que je vous ai sous-estimé(e).${prompt}
-  9918: Ceux qui vivent ici sont constamment dans la peur des monstres, donc c'est avec joie que nous accueillons des héros vaillants comme vous.${prompt}
+    Visiblement, je vous ai sous-estimé(e).${prompt}
+  9918: Les habitants d'ici vivent dans la peur des monstres... C'est un soulagement d'accueillir des héros comme vous.${prompt}
   9919: |-
-    Ah, votre timing est parfait.
-    Notre chef est de retour.${prompt}
+    Vous tombez bien.
+    Notre chef est enfin de retour.${prompt}
   9920: Je suis de retour !${prompt}
   9921: |-
     Prishe !
-    Tu es en sécurité !${prompt}
-  9922: Tu étais partie si longtemps, nous commencions à nous inquiéter.${prompt}
-  9923: Vous ne croiriez pas l'enfer que j'ai traversé !${prompt}
+    Tu es saine et sauve !${prompt}
+  9922: Tu étais partie si longtemps... On commençait à craindre le pire.${prompt}
+  9923: Si vous saviez les horreurs que j'ai traversées...${prompt}
   9924: |-
-    Écoutez-moi, bande de fainéants !
-    Une horde de créatures maléfiques s'est rassemblée sur le Cap Riverne.${prompt}
+    Écoutez-moi bien, bande de paresseux !
+    Une armée de créatures infernales s'est installée au Cap Riverne.${prompt}
   9925: |-
-    Je vous conseille de rester loin de cet endroit si vous tenez à ce que vos organes restent à l'intérieur de votre corps.
-    Ces monstres ne jouent pas gentillement.${prompt}
+    Si vous tenez à vos organes, restez loin de cet endroit.
+    Ces monstres ne sont pas là pour jouer aux gentils.${prompt}
   9926: |-
-    Qu'est-ce que c'est ?
+    Qu'est-ce que c'était ?
     Que se passe-t-il là-bas ?${prompt}
-  9927: Prishe, j'ai vu un nuage étrange s'étendant vers le Cap Riverne. As-tu une idée de ce que c'était ?${prompt}
+  9927: Prishe, j'ai vu un étrange nuage s'élever au-dessus du Cap Riverne. Tu sais ce que c'était ?${prompt}
   9928: |-
-    Oh, ça.
-    Je n'en ai eu qu'un aperçu, mais je suis presque sûre que c'était la traînée de vapeur d'un putain de dragon géant.${prompt}
+    Ah ça...
+    J'ai à peine eu le temps de voir, mais je suis presque certaine que c'était la traînée d'un foutu dragon géant.${prompt}
   9929: |-
-    Mais ne vous en faites pas pour ça.
-    Je ressors après avoir vérifié nos provisions.${prompt}
+    Mais ne vous inquiétez pas pour ça.
+    Je ressors juste vérifier nos provisions.${prompt}
   9930: |-
     Heh heh !
-    Et cette fois, j'irai bien plus loin.${prompt}
-  9931: Au fait, avez-vous vu Justinius ?${prompt}
+    Et cette fois, je compte aller beaucoup plus loin.${prompt}
+  9931: Au fait, avez-vous croisé Justinius ?${prompt}
   9932: |-
-    Te voilà, Prishe !
-    Désolé de te déranger juste après ton retour, mais tu dois voir ce que le chat a ramené !${prompt}
-  9933: Deux personnes ont échoué sur les Prairies de Lufaise...${prompt}
+    Ah, te voilà Prishe !
+    Désolé de te déranger dès ton retour, mais tu dois absolument voir ce que le vent nous a ramené !${prompt}
+  9933: Deux personnes se sont échouées sur les Prairies de Lufaise...${prompt}
   9934: Des naufragés ?${prompt}
-  9935: Il semble que nos invités aient remarqué l'attention.${prompt}
+  9935: Il semble que nos invités aient attiré l'attention...${prompt}
   9936: |-
-    Qu'est-ce que c'est que cette tenue ?
-    Quelqu'un du continent ?${prompt}
-  9937: Prishe, celui-là s'est effondré devant les grottes de l'est.${prompt}
-  9938: ${choice-player-gender}[Il/Elle] portait un amulette identique au tien.${prompt}
-  9939: Quoi, un amulette comme le mien !?${prompt}
+    C'est quoi cette tenue ?
+    Quelqu'un du continent, je parie ?${prompt}
+  9937: Prishe, celui-là s'est effondré près des grottes à l'est.${prompt}
+  9938: ${choice-player-gender}[Il/Elle] portait une amulette identique à la tienne.${prompt}
+  9939: Quoi ? Une amulette comme la mienne !?${prompt}
   9940: |-
     ${choice-player-gender}[Il/Elle] t'a volé ton amulette, Prishe !
-    On devrait le/la suspendre la tête en bas d'une falaise ! Sale voleur !${prompt}
+    On devrait l'accrocher par les pieds au sommet d'une falaise, ce sale voleur !${prompt}
   9941: |-
-    Bande d'idiots !
-    Qu'est-ce que vous croyez que c'est, hein ?${prompt}
-  9942: Uh ? Uh-oh...${prompt}
+    Bande d'imbéciles !
+    Vous savez au moins ce que c'est, cette amulette ?${prompt}
+  9942: Hein ? Uh-oh...${prompt}
   9943: Vous avez encore tout gâché !${prompt}
-  9944: Cours ! 
-  9945: Fuis !
-  9946: Sortie à gauche !
-  9947: Mais pourquoi ${choice-player-gender}[il/elle] aurait-il le même genre d'amulette... ?${prompt}
+  9944: Cours !${prompt}
+  9945: Fuis !${prompt}
+  9946: Par la sortie de gauche !${prompt}
+  9947: Pourquoi ${choice-player-gender}[il/elle] aurait-il(elle) le même genre d'amulette que moi...?${prompt}
   9948: |-
     Prishe, écoute-moi.
-    Ces deux-là pourraient être utiles.${prompt}
-  9949: Pendant que tu étais absente, ils ont vaincu ce minotaure dans les aqueducs par eux-mêmes.${prompt}
+    Ces deux-là pourraient nous être utiles.${prompt}
+  9949: Pendant ton absence, ils ont éliminé ce minotaure dans les aqueducs, tout seuls.${prompt}
   9950: |-
     Hein.
     Pas mal du tout.
-    Je suppose qu'il faut les accueillir à bord, alors.${prompt}
+    Je suppose qu'on va devoir les accueillir.${prompt}
   9951: |-
     Je suis Prishe.
-    Je serai dans mes quartiers, alors passez me voir plus tard pour dire bonjour.${prompt}
+    Je serai dans mes quartiers. Passez me dire bonjour plus tard.${prompt}
   9952: |-
-    Étais-tu surpris(e) quand tu as rencontré Prishe ?
-    Elle peut ressembler à une petite fille, mais c'est le membre le plus fort de la Patrouille Tavnazienne.${prompt}
+    Tu as été surpris(e) en voyant Prishe, non ?
+    Elle a l'air d'une enfant, mais c'est le membre le plus fort de la Patrouille Tavnazienne.${prompt}
   9953: |-
-    Il est étrange que vous portiez le même amulette.
-    Il semble que le destin ait joué un rôle ici.${prompt}
+    C'est étrange que vous portiez la même amulette.
+    Le destin doit y être pour quelque chose.${prompt}
   9954: |-
-    Mais Prishe déteste les mots comme “destin”.
-    Vous devriez aller dans ses quartiers avant qu'elle ne commence à s'impatienter.${prompt}
-  9955: Alors, tu as enfin décidé de te montrer. J'ai tout entendu sur toi de la part de Justinius. On dirait que tu as vécu un enfer depuis ton arrivée ici.${prompt}
-  9956: Mais je ne suis pas du genre à fouiner. Autrement dit, je m'en fous complètement.${prompt}
-  9957: Mais il y a une chose qui m'intrigue. Où as-tu eu cet amulette ?${prompt}
-  9958: Un garçon aux cheveux blancs ? C'est bizarre... Tu es sûr que tu ne veux pas dire une grande blonde ?${prompt}
-  9959: Bref, je ne suis pas une voleuse, donc tu peux le récupérer.${prompt}
-  9960: Qu'as-tu...${prompt}
-  9961: Prishe, tu as une minute ?${prompt}
-  9962: Qu'est-ce qui ne va pas, Despachiaire ? Tu ne viens jamais dans mes quartiers.${prompt}
-  9963: Je suis celui qu'on appelle "l'abhorré". Je pensais que si tu me parlais, tu serais puni par la déesse.${prompt}
+    Mais Prishe déteste ce genre de mots, "destin" et compagnie.
+    Vous devriez aller la voir dans ses quartiers avant qu'elle ne perde patience.${prompt}
+  9955: |-
+    Alors, tu as enfin décidé de te montrer.
+    Justinius m'a tout raconté. Tu en as vu de belles depuis ton arrivée ici.${prompt}
+  9956: Mais je ne suis pas du genre à fouiner. Autrement dit, je m'en fiche.${prompt}
+  9957: Mais y a un truc qui m'intrigue... Où as-tu trouvé cette amulette ?${prompt}
+  9958: Un garçon aux cheveux blancs ? C'est bizarre... Tu es sûr que tu ne parles pas d'une grande blonde ?${prompt}
+  9959: Bref, je ne suis pas voleuse, tu peux la récupérer.${prompt}
+  9960: Qu'est-ce que tu...?${prompt}
+  9961: Prishe, t'as une minute ?${prompt}
+  9962: Qu'est-ce qui se passe, Despachiaire ? Tu viens jamais dans mes quartiers.${prompt}
+  9963: Je suis celui qu'on appelle "l'Abhorré"... Je croyais que si tu me parlais, la déesse te punirait.${prompt}
   9964: '...${prompt}'
   9965: |-
-    Quoi que ce soit.
+    Peu importe.
     Bref, qu'est-ce que tu veux ?${prompt}
-  9966: J'ai entendu ce qui s'est passé au Cap Riverne -- qu'un grand dragon est apparu.${prompt}
-  9967: C'est exactement ce qui s'est passé ! Je n'avais jamais vu ça. Si ce monstre avait décidé de nous attaquer, il ne resterait pas une trace de cet endroit.${prompt}
+  9966: J'ai entendu parler de ce qui s'est passé au Cap Riverne. Un énorme dragon serait apparu.${prompt}
+  9967: Exactement ! J'ai jamais vu une telle bête. Si ce monstre avait décidé de nous attaquer, il ne resterait rien ici.${prompt}
   9968: |-
     Prishe...
-    Penses-tu que le dragon que tu as vu pourrait être le même que celui représenté dans le tableau d'Al'Taieu ?${prompt}
+    Tu crois que le dragon que tu as vu pourrait être le même que celui représenté sur la peinture d'Al'Taieu ?${prompt}
   9969: Al'Taieu ?${prompt}
-  9970: Te souviens-tu pas du tableau ramené par Grezzo du Tenshodo ?${prompt}
-  9971: Le cardinal Mildaurion nous a raconté l'histoire dépeinte sur la toile.${prompt}
-  9972: Mais si le dragon que j'ai vu est le même que dans le tableau, alors ça voudrait dire que la bête était... Bahamut !?${prompt}
+  9970: Tu te souviens pas du tableau que Grezzo a ramené du Tenshodo ?${prompt}
+  9971: Le cardinal Mildaurion nous a raconté l'histoire qu'il représente.${prompt}
+  9972: |-
+    Si le dragon que j'ai vu est le même que celui du tableau...
+    Alors ça voudrait dire que c'était... Bahamut !?${prompt}
   9973: |-
-    Je dois vérifier ça !
-    Toi, trouve Ulmia et ramène-la ici rapidement !${prompt}
+    Faut que je vérifie ça !
+    Toi, trouve Ulmia et ramène-la ici au plus vite !${prompt}
   9974: |-
     Tu cherches Ulmia ?
-    Désolé, je ne l'ai pas vue. Essaie de demander à Justinius, il pourrait savoir quelque chose.${prompt}
+    Désolé, je l'ai pas vue. Demande à Justinius, il saura peut-être.${prompt}
   9975: |-
     Ulmia ?
-    Je l'ai juste vue quitter le sanctuaire. Chaque fois qu'elle veut être seule, Ulmia va généralement au Point de Snowmint, sur la côte de Misareaux...${prompt}
+    Je l'ai vue quitter le sanctuaire. Quand elle veut être seule, elle va souvent au Point de Snowmint, sur la côte de Misareaux.${prompt}
   9976: |-
-    Prishe ! Tu as regardé le ciel !?
-    Quelque chose a laissé une deuxième traînée étrange... et la traînée mène directement au Cap Riverne !${prompt}
-  9977: Ouais, je l'ai vu. Laissée par un autre dragon, non ? Combien y en a-t-il, d'ailleurs ?${prompt}
+    Prishe ! T'as vu le ciel ?
+    Y a une deuxième traînée étrange... Elle mène tout droit au Cap Riverne !${prompt}
+  9977: Ouais, j'ai vu. Encore laissée par un dragon, non ? Combien y en a-t-il au juste ?${prompt}
   9978: |-
     Prishe...
-    Je ne sais toujours pas si je peux croire ce que tu viens de me dire.${prompt}
-  9979: Les Portes du Paradis ont-elles vraiment commencé à s'ouvrir...?${prompt}
-  9980: Comment suis-je censée le savoir ? C'est pour ça qu'on va demander à Bahamut, non ?${prompt}
+    J'sais toujours pas si je peux croire ce que tu dis.${prompt}
+  9979: Les Portes du Paradis seraient-elles vraiment en train de s'ouvrir...?${prompt}
+  9980: Comment tu veux que je le sache ? C'est pour ça qu'on va poser la question à Bahamut, non ?${prompt}
   9981: |-
-    Tout le monde, écoutez-moi !
-    On part pour Riverne ! Ceux qui ont le cran de venir avec moi, avancez !${prompt}
-  9982: |-
-    Hmm...
-    On pourrait penser que ces Tarutaru fauteurs de troubles voudraient venir. Où sont-ils, d'ailleurs ?${prompt}
-  9983: Oui, où ont-ils bien pu s'enfuir ?${prompt}
-  9984: Maintenant que tu en parles, cet étranger n'est pas là non plus.${prompt}
-  9985: Attends une seconde - je l'ai vu dehors. Le gars flippant en robe noire, c'est ça ?${prompt}
-  9986: Où as-tu dit que tu l'avais vu ?${prompt}
-  9987: J'ai vu l'étranger aussi. Il parlait avec les trois Tarutaru.${prompt}
-  9988: Prishe, ils ont fait leurs bagages et ont quitté le sanctuaire il y a quelques minutes !${prompt}
-  9989: Hein !? Pourquoi, ces petits malins... !${prompt}
-  9990: Penses-tu qu'ils pourraient être partis pour le Cap Riverne ? Mais pourquoi...?${prompt}
+    Écoutez-moi tous !
+    On part pour Riverne ! Ceux qui ont assez de cran pour venir avec moi, suivez-moi !${prompt}
+  9983: Oui, où est-ce qu'ils ont bien pu filer, ceux-là ?${prompt}
+  9984: Maintenant que tu le dis, cet étranger a aussi disparu.${prompt}
+  9985: Attends une seconde... Tu parles du type flippant en robe noire, c'est ça ? Je l'ai vu dehors.${prompt}
+  9986: Tu l'as vu où exactement ?${prompt}
+  9987: Moi aussi je l'ai aperçu. Il discutait avec les trois Tarutaru.${prompt}
+  9988: Prishe, ils ont rassemblé leurs affaires et quitté le sanctuaire il y a à peine quelques minutes !${prompt}
+  9989: Hein !? Ces petits filous... !${prompt}
+  9990: Tu crois qu'ils sont partis au Cap Riverne ? Mais pourquoi...?${prompt}
   9991: |-
-    Il n'y a qu'une seule raison. Ils sentent l'aventure !
-    Allez ! On n'a pas de temps à perdre !${prompt}
-  9992: Les frères Chebukki se dirigeaient vers le Cap Riverne, au nord-ouest de la côte de Misareaux.${prompt}
-  9993: Ces trois-là sont faits de pure curiosité. Une fois qu'ils ont entendu parler des apparitions de dragon, ils n'ont probablement pas pu attendre pour aller voir par eux-mêmes.${prompt}
+    Pourquoi, tu demandes ? Pour l'aventure, bien sûr !
+    Allez, on n'a pas de temps à perdre !${prompt}
+  9992: Les frères Chebukki se sont dirigés vers le Cap Riverne, au nord-ouest de la côte de Misareaux.${prompt}
+  9993: Ces trois-là, c'est de la pure curiosité sur pattes. Dès qu'ils ont entendu parler des dragons, impossible de les retenir.${prompt}
   9994: |-
-    Mais pourquoi ton compagnon est-il parti avec eux ?
-    Depuis quand est-il devenu si bon ami avec ces fauteurs de troubles ?${prompt}
+    Mais ton compagnon, pourquoi il est parti avec eux ?
+    Depuis quand il est si proche de cette bande de fauteurs de troubles ?${prompt}
   9995: |-
     Ouf...
-    C'est bon d'être de retour chez soi !${prompt}
+    Ça fait du bien de rentrer chez soi !${prompt}
   9996: |-
-    Pourquoi ces mines longues ? Je suis de retour !
-    Sortez la bière et la bouffe !${prompt}
+    Pourquoi ces têtes d'enterrement ? Je suis de retour !
+    Sortez la bière et préparez à manger !${prompt}
   9997: |-
     ...?
-    Quelque chose ne va pas, Prishe...${prompt}
+    Quelque chose ne va pas, Prishe...?${prompt}
   9998: |-
     Prishe ! Ulmia !
     Vous allez bien !${prompt}
-  9999: Qu'est-ce qui se passe ici, Justinius ? Quelque chose s'est-il passé pendant que j'étais partie ?${prompt}
+  9999: |-
+    Que se passe-t-il, Justinius ?
+    Il s'est passé quelque chose pendant mon absence ?${prompt}
   10000: Eh bien...${prompt}
-  10001: Prishe, Ulmia. Venez avec moi, s'il vous plaît. Il y a quelque chose dont nous devons parler.${prompt}
-  10002: Granpere...${prompt}
+  10001: |-
+    Prishe, Ulmia. Venez avec moi, s'il vous plaît.
+    Nous devons parler de quelque chose d'important.${prompt}
+  10002: Grand-père...${prompt}
   10003: |-
     Salutations, ${name-player}.
-    Grâce à vos actions sur le continent, un messager de Jeuno est arrivé ici à Tavnazia.${prompt}
+    Grâce à vos actions sur le continent, un émissaire de Jeuno est arrivé ici à Tavnazia.${prompt}
   10004: |-
-    Il semble que des arrangements seront faits pour aider le sanctuaire.
-    Leur gouvernement envisagera également les demandes de ceux qui souhaitent émigrer à Jeuno.${prompt}
+    Il semblerait que des mesures seront prises pour venir en aide au sanctuaire.
+    Ils envisagent même de permettre aux habitants qui le souhaitent de s'installer à Jeuno.${prompt}
   10005: |-
-    Le seul problème est...
+    Le seul problème...
     As-tu déjà parlé à Prishe ?${prompt}
   10006: Ah, ${name-player}. Bienvenue de retour au sanctuaire.${prompt}
-  10007: Cela peut sembler étrange, mais au nom des résidents de Tavnazia, je voudrais vous remercier.${prompt}
-  10008: Si vous n'étiez pas arrivé sur cette île, nous aurions probablement été piégés ici jusqu'à notre mort - notre existence inconnue de ceux du continent.${prompt}
-  10009: Et penser que je serais de nouveau réuni avec ma petite-fille... Il n'y a rien que je puisse dire ou faire pour exprimer ma gratitude.${prompt}
-  10010: Puis-je entrer ?${prompt}
-  10011: Eh bien, si ce n'est pas un messager de l'Extrême-Orient. Vous devez être épuisé par votre long voyage.${prompt}
-  10012: Bienvenue dans notre humble ville. Je m'appelle Despachiaire, le grand-père d'Ulmia.${prompt}
-  10013: Je vous remercie pour cet accueil chaleureux. Tenzen, à votre service.${prompt}
-  10014: J'ai traversé les mers jusqu'à Jeuno dans l'espoir de rencontrer Lord Bahamut. Là-bas, j'ai eu la chance de faire connaissance avec Ulmia et Prishe.${prompt}
-  10015: Cependant, ma mission n'est pas encore terminée. Je demande la permission de quitter le sanctuaire afin de pouvoir continuer mon voyage à la recherche du conquérant des cieux.${prompt}
-  10016: Je vois. Donc vous souhaitez parler à Bahamut...${prompt}
-  10017: Je m'excuse, mais je dois vous demander de ne pas rendre visite à l'avatar pour l'instant.${prompt}
-  10018: Bahamut a construit un nid à seulement quelques malms de ce sanctuaire. Si quelqu'un ou quelque chose venait à le déranger, les conséquences pourraient être catastrophiques pour Tavnazia.${prompt}
-  10019: Le diplomate de Jeuno, Nag'molada, devrait revenir du Sacrarium sous peu.${prompt}
-  10020: Je vous demande de l'accompagner dans son voyage vers le repaire de Bahamut.${prompt}
-  10021: D'ici là, n'hésitez pas à vous reposer à l'intérieur des murs de notre ville. Nous ferons de notre mieux pour répondre à tous vos besoins.${prompt}
+  10007: |-
+    Cela peut sembler étrange, mais au nom des habitants de Tavnazia, je voudrais vous remercier.
+    ${prompt}
+  10008: Sans votre venue sur cette île, nous serions probablement restés ici, oubliés du monde, jusqu'à notre mort.${prompt}
+  10009: |-
+    Et dire que j'ai pu retrouver ma petite-fille... Il n'y a pas de mots pour exprimer ma gratitude.${prompt}
+  10010: Je peux entrer ?${prompt}
+  10011: |-
+    Eh bien, si ce n'est pas un voyageur venu de l'Extrême-Orient.
+    Vous devez être épuisé après un si long voyage.${prompt}
+  10012: |-
+    Bienvenue dans notre modeste cité.
+    Je suis Despachiaire, le grand-père d'Ulmia.${prompt}
+  10013: Je vous remercie de votre accueil. Je me nomme Tenzen.${prompt}
+  10014: |-
+    J'ai traversé les océans jusqu'à Jeuno dans l'espoir de rencontrer Bahamut.
+    C'est là que j'ai fait la connaissance d'Ulmia et Prishe.${prompt}
+  10015: |-
+    Mais ma mission n'est pas encore terminée.
+    Je sollicite la permission de quitter le sanctuaire pour poursuivre ma quête et rencontrer le conquérant des cieux.${prompt}
+  10016: |-
+    Je vois, vous souhaitez rencontrer Bahamut...${prompt}
+  10017: |-
+    Je suis navré, mais je dois vous demander de ne pas tenter de le rencontrer pour l'instant.${prompt}
+  10018: |-
+    Bahamut a établi son nid à seulement quelques malms d'ici.
+    Si quoi que ce soit venait à le déranger, les conséquences pourraient être catastrophiques pour Tavnazia.${prompt}
+  10019: |-
+    Le diplomate de Jeuno, Nag'molada, devrait bientôt revenir du Sacrarium.${prompt}
+  10020: |-
+    Je vous demande de l'accompagner lors de son voyage vers la tanière de Bahamut.${prompt}
+  10021: |-
+    En attendant, reposez-vous à l'intérieur des murs de notre sanctuaire.
+    Nous ferons de notre mieux pour veiller à votre confort.${prompt}
   10022: |-
     Un diplomate de Jeuno...?
-    Compris. J'attendrai ici jusqu'à son arrivée.${prompt}
-  10023: '...Monsieur Despachiaire, puis-je demander pourquoi je ne suis pas autorisé à parler à Lady Prishe?${prompt}'
-  10024: Il y a quelque chose que je dois lui demander. Cependant, quand j'ai essayé d'entrer dans sa chambre, elle s'est énervée et m'a renvoyé.${prompt}
-  10025: Je m'excuse pour son comportement. Bien que cela ne se voie pas, Prishe est maudite par une terrible maladie.${prompt} 
-  10026: J'aimerais qu'elle reste dans le sanctuaire et se repose, mais sa personnalité ne le permet pas. Je suis étonné que son corps tienne le coup...${prompt}
-  10027: Maintenant que Nag'molada a promis la reprise des négociations commerciales avec Jeuno, Tavnazia a besoin que Prishe soit en bonne santé.${prompt}
+    Très bien. J'attendrai ici son arrivée.${prompt}
+  10023: |-
+    Monsieur Despachiaire, puis-je savoir pourquoi je ne suis pas autorisé à voir Mlle Prishe ?${prompt}
+  10024: |-
+    J'ai quelque chose d'important à lui demander, mais elle s'est emportée quand j'ai tenté de lui parler.${prompt}
+  10025: |-
+    Je vous prie de m'excuser pour son comportement.
+    Même si cela ne se voit pas, Prishe est frappée par une terrible malédiction.${prompt}
+  10026: |-
+    J'aimerais qu'elle reste ici à se reposer, mais son tempérament ne le lui permet pas.
+    Je suis surpris qu'elle tienne encore le coup...${prompt}
+  10027: |-
+    Maintenant que Nag'molada a promis la reprise des échanges avec Jeuno,
+    Tavnazia a besoin que Prishe reste forte.${prompt}
   10028: |-
     Je vois...
-    Je ne savais pas que la situation était si grave - le saviez-vous, ${name-player}?${prompt}
-  10029: Monsieur Despachiaire, je respecterai votre demande concernant mon voyage vers Bahamut. Veuillez m'informer quand le diplomate sera de retour et que d'autres arrangements auront été faits.${prompt}
+    Je ne savais pas que la situation était aussi grave. Et toi, ${name-player}, le savais-tu ?${prompt}
+  10029: |-
+    Monsieur Despachiaire, je respecterai votre demande concernant ma rencontre avec Bahamut.
+    Prévenez-moi lorsque le diplomate sera de retour et que tout sera en place.${prompt}
   10030: |-
-    Ce n'est pas bon, ${name-player}.
-    Je dois rencontrer Bahamut avant que Jeuno n'envoie son armée.${prompt}
-  10031: Cependant, mes mains sont liées à moins que je puisse trouver Ulmia et parler à Lady Prishe.${prompt}
-  10032: C'est grâce à Prishe que notre nation s'est renforcée ces vingt dernières années. Sans elle, nous n'en serions pas là aujourd'hui.${prompt}
-  10033: Sa présence est spéciale - un miracle accordé par la Déesse de l'Aube. Cependant, il y a maintenant des rumeurs que le miracle est sur le point de disparaître... Que deviendra Tavnazia...?${prompt}
+    C'est mauvais signe, ${name-player}.
+    Je dois parler à Bahamut avant que Jeuno ne décide d'envoyer son armée.${prompt}
+  10031: |-
+    Mais je ne pourrai rien faire tant que je n'aurai pas parlé à Ulmia et Lady Prishe.${prompt}
+  10032: |-
+    Prishe est la clé de la force de Tavnazia depuis vingt ans.
+    Sans elle, ce sanctuaire n'existerait peut-être plus.${prompt}
+  10033: |-
+    Sa présence est un miracle offert par la Déesse de l'Aube.
+    Mais des rumeurs disent que ce miracle touche à sa fin...
+    Que deviendra Tavnazia alors...?${prompt}
   10034: |-
-    Vous cherchez Ulmia ? Elle est probablement descendue sur la côte.
-    Je dois dire, c'est assez inhabituel pour elle de se disputer avec son grand-père comme elle l'a fait plus tôt...${prompt}
-  10035: ${name-player}, tu n'as pas réussi à dissuader Ulmia ?${prompt}
+    Vous cherchez Ulmia ? Elle est sans doute descendue sur la côte.
+    C'est assez inhabituel de la voir se disputer ainsi avec son grand-père...${prompt}
+  10035: |-
+    ${name-player}, tu n'as pas réussi à raisonner Ulmia ?${prompt}
   10036: |-
-    Elle est déterminée à se rendre au Cap Riverne pour parler au Roi Wyrm, seule si nécessaire.
-    Elle ne m'écoute pas, peu importe à quel point j'essaie de lui expliquer les dangers.${prompt}
-  10037: Je comprends combien elle veut prouver que Prishe n'est pas l'abhorrée, mais...${prompt}
+    Elle est déterminée à se rendre au Cap Riverne pour affronter le Roi Wyrm,
+    même seule s'il le faut. Rien ne lui fait peur.${prompt}
+  10037: |-
+    Je comprends son désir de prouver que Prishe n'est pas l'Abhorrée, mais...${prompt}
   10038: |-
     ${name-player}.
     Si tu cherches Ulmia et Tenzen, ils viennent d'entrer dans les quartiers de l'ancien.${prompt}
-  10039: ${name-player}, je suis heureux de voir que tu es revenu.${prompt}
-  10040: J'ai parlé avec Despachiaire des paroles de Bahamut. Cependant, je ne sais pas à quel point il les a crues...${prompt}
-  10041: Les gens ont souvent tendance à ignorer les vérités trop terribles à affronter. Que Bahamut et ses sbires détruiront toute l'humanité - nous voudrions tous que ce ne soit qu'un cauchemar dont nous nous réveillerons un jour.${prompt}
+  10039: |-
+    ${name-player}, je suis content de te revoir sain et sauf.${prompt}
+  10040: |-
+    J'ai parlé à Despachiaire des propos de Bahamut.
+    Mais je ne sais pas s'il a vraiment saisi l'ampleur du danger...${prompt}
+  10041: |-
+    Les gens préfèrent ignorer les vérités trop effrayantes.
+    Que Bahamut détruise l'humanité... On voudrait croire que ce n'est qu'un cauchemar.${prompt}
   10042: |-
-    Moi-même, j'ai du mal à accepter ce que j'ai entendu.
+    Même moi, j'ai du mal à accepter ce que j'ai entendu.
     Le Gardien de l'Apocalypse...
     Le pacte...${prompt}
-  10043: Quand le gardien naîtra, les enfants d'Altana devront mourir...${prompt}
-  10044: Pourquoi Bahamut nous souhaiterait-il un sort aussi terrible ? Qu'est-ce qui l'a poussé à nous détester autant ?${prompt}
+  10043: |-
+    Lorsque le Gardien naîtra,
+    les enfants d'Altana devront périr...${prompt}
+  10044: |-
+    Pourquoi Bahamut voudrait-il nous infliger un tel sort ?
+    Pourquoi tant de haine envers les hommes ?${prompt}
   10045: |-
     Dame Ulmia...
-    Te souviens-tu quand Bahamut chantait ? À ce moment-là, mon épée, Phoenix, m'a éclairé.${prompt}
-  10046: Jadis, nos ancêtres, les anciens, ont livré de nombreuses grandes batailles avec les avatars terrestres.${prompt}
-  10047: Parmi ces batailles, la plus féroce et la plus longue fut celle menée par Bahamut pour l'ouverture des Portes du Paradis.${prompt}
-  10048: C'est durant ce combat que les gens ont appris l'existence du Vide...${prompt}
-  10049: Le Vide... La volonté de Promathia !${prompt}
+    Tu te souviens du chant de Bahamut ?
+    À ce moment-là, mon épée, Phoenix, s'est illuminée.${prompt}
+  10046: |-
+    Jadis, nos ancêtres ont combattu aux côtés des avatars terrestres dans d'innombrables batailles.${prompt}
+  10047: |-
+    La plus féroce et la plus longue fut celle contre Bahamut,
+    lorsqu'il voulut ouvrir les Portes du Paradis.${prompt}
+  10048: |-
+    C'est durant ce conflit que l'humanité a découvert l'existence du Vide...${prompt}
+  10049: |-
+    Le Vide... La volonté de Promathia...!${prompt}
   10050: '!${prompt}'
-  10051: Toutefois, je connais peu de choses sur le Dieu du Crépuscule.${prompt}
   10052: |-
     Dame Ulmia !
-    Ne pouvez-vous pas nous éclairer sur la connexion de cette divinité avec Vana'diel et ses enfants ?${prompt}
+    Pouvez-vous nous éclairer sur le lien entre cette divinité et Vana'diel, ainsi que ses habitants ?${prompt}
   10053: Je...${prompt}
-  10054: Je m'excuse, monsieur. Cependant, c'est quelque chose dont nous sommes interdits de parler...${prompt}
-  10055: Interdit...?${prompt}
-  10056: Voyageur de l'Est, laissez-moi vous expliquer.${prompt}
+  10054: Je suis désolée, monsieur... Mais c'est un sujet dont nous avons interdiction de parler.${prompt}
+  10055: Interdiction...?${prompt}
+  10056: Voyageur venu de l'Est, laissez-moi vous expliquer.${prompt}
   10057: |-
     Promathia...
-    Simplement prononcer son nom apporte la damnation.${prompt}
+    Prononcer simplement son nom, c'est attirer la damnation.${prompt}
   10058: '...!${prompt}'
-  10059: Comme la Déesse de l'Aube, Altana, le Dieu du Crépuscule a existé depuis le début des temps.${prompt}
-  10060: Cependant, contrairement à la bienveillante Altana, Promathia est connu comme le Seigneur du Chaos. On dit que sa malédiction, libérée sur l'humanité pour le péché d'avoir ouvert les Portes du Paradis, nous condamne à une éternité de conflits.${prompt}
-  10061: La seule manière pour nous de nous sauver de cette malédiction atroce est de l'oublier, et c'est pourquoi le nom de Promathia ne peut être ni vu ni entendu nulle part à travers Vana'diel.${prompt}
+  10059: |-
+    Comme la Déesse de l'Aube, Altana, le Dieu du Crépuscule existe depuis la nuit des temps.${prompt}
+  10060: |-
+    Mais contrairement à la bienveillante Altana, Promathia est connu comme le Seigneur du Chaos.
+    On raconte qu'il a maudit l'humanité en punition du péché d'avoir ouvert les Portes du Paradis, nous condamnant à une éternité de conflits.${prompt}
+  10061: |-
+    Le seul moyen d'échapper à cette malédiction est d'oublier jusqu'à son existence.
+    C'est pourquoi le nom de Promathia a été effacé de la mémoire de Vana'diel.${prompt}
   10062: Le Seigneur du Chaos...${prompt}
-  10063: C'est l'une des raisons pour lesquelles votre peuple à l'Est ne sait rien de Promathia. Sans nom, comment peut-il exister ?${prompt}
-  10064: Votre peuple est probablement mieux sans connaître l'histoire entachée que ce monde a enfermée dans son passé.${prompt}
+  10063: |-
+    Voilà pourquoi votre peuple, là-bas à l'Est, ignore tout de lui.
+    Sans nom... comment pourrait-il exister ?${prompt}
+  10064: Peut-être que vous êtes mieux ainsi, à l'abri des sombres vérités que le monde tente de dissimuler.${prompt}
   10065: |-
-    Des vérités que nous ne devons pas connaître.
-    Des vérités que nous ne devrions pas connaître.
-    Et des vérités que nous sommes forcés d'affronter...${prompt}
-  10066: Nous devons être prudents avec ces vérités, car sinon, elles pourraient apporter la tragédie.${prompt}
+    Il existe des vérités qu'il ne faut pas connaître.
+    Des vérités qu'on ne devrait pas connaître.
+    Et des vérités qu'on est pourtant forcés d'affronter...${prompt}
+  10066: Nous devons faire preuve de prudence avec ces vérités, sinon elles ne nous apporteront que tragédie.${prompt}
   10067: Tragédie ?${prompt}
   10068: |-
     Par exemple, l'avertissement de Bahamut.
-    Nous savions depuis longtemps que Bahamut apparaîtrait un jour et tenterait de nous détruire...${prompt}
-  10069: Vous saviez... !${prompt}
-  10070: C'est pourquoi le moment où nous avons entendu sa voix, nous avons mobilisé nos armées pour le capturer avant qu'il ne puisse rassembler ses sbires. Cependant...${prompt}
-  10071: Votre intervention imprudente a interféré avec nos plans et nous a empêchés d'accomplir notre mission ! Souhaitez-vous vraiment voir les corps de vos frères tombés étendus sur les plaines désertes d'un monde mort ?${prompt}
+    Nous savions depuis longtemps qu'un jour, il reviendrait pour tenter de nous anéantir...${prompt}
+  10069: Vous le saviez !?${prompt}
+  10070: |-
+    C'est pourquoi, dès que nous avons entendu sa voix, nous avons mobilisé nos forces pour le capturer avant qu'il ne rassemble ses sbires.
+    Mais...${prompt}
+  10071: |-
+    Votre intervention irréfléchie a fait échouer nos plans !
+    Voulez-vous vraiment voir les corps de vos frères joncher les plaines d'un monde en ruines ?${prompt}
   10072: |-
     Nag'molada !
-    Ulmia essayait seulement d'empêcher Prishe de faire quelque chose... d'impardonnable.${prompt}
-  10073: Ce voyageur, Tenzen, est le véritable coupable. C'est lui qui a trompé ma petite-fille pour qu'elle se lance dans ce voyage ridicule.${prompt}
-  10074: C'est vrai ; c'est moi qui ai demandé à Ulmia d'agir.${prompt}
-  10075: Cependant, j'avais reçu la permission du duc vicarial, Esha'ntarl, pour enquêter sur le Vide !${prompt}
+    Ulmia essayait seulement d'empêcher Prishe de faire quelque chose... d'irréparable.${prompt}
+  10073: |-
+    Ce voyageur, Tenzen, voilà le vrai responsable !
+    C'est lui qui a manipulé ma petite-fille pour qu'elle se lance dans cette folle aventure.${prompt}
+  10074: C'est vrai. C'est moi qui ai demandé à Ulmia d'agir.${prompt}
+  10075: |-
+    Mais j'avais reçu l'autorisation du duc vicarial, Esha'ntarl, pour enquêter sur le Vide !${prompt}
   10076: |-
     Tenzen.
-    Empêcher le Vide de se propager - n'est-ce pas le souhait de nos deux peuples ?${prompt}
-  10077: Chercher Bahamut de votre propre chef, sans raison établie, en fin de compte perturbant nos plans... Pourquoi, cela ressemble à rien d'autre qu'à de la trahison !${prompt}
-  10078: Je... Il n'y a plus rien que je puisse dire. Mes actions étaient déplacées. Je m'excuse...${prompt}
+    Empêcher le Vide de se répandre, n'est-ce pas l'objectif que partagent nos deux peuples ?${prompt}
+  10077: |-
+    Chercher Bahamut par vous-même, sans mandat officiel, perturbant ainsi nos opérations...
+    Cela ressemble fort à un acte de trahison !${prompt}
+  10078: |-
+    Je...
+    Je n'ai plus rien à dire. J'ai mal agi. Je m'en excuse.${prompt}
   10079: |-
     Très bien.
-    Cependant, à partir de maintenant, je vous demande de laisser toutes les affaires concernant le Roi Wyrm au Duché.${prompt}
-  10080: Les différences de pensée peuvent provoquer des réactions différentes chez différentes races. Cependant, à Jeuno, nous nous moquons des différences. Notre souhait est uniquement de sauver tous les enfants de Vana'diel.${prompt}
+    Mais à partir de maintenant, laissez le Duché gérer toute affaire concernant le Roi Wyrm.${prompt}
+  10080: |-
+    Les différences d'opinion existent entre les races.
+    Mais à Jeuno, nous dépassons ces différences.
+    Notre seul but est de sauver tous les enfants de Vana'diel.${prompt}
   10081: |-
-    Et c'est pourquoi vous avez commencé de nouveaux plans pour arrêter Bahamut... ?
-    Mais il a quitté Riverne. Comment allez-vous le trouver ?${prompt}
-  10082: Tout est en mouvement. Cependant, en ce qui concerne les détails, moi-même, je n'en sais guère.${prompt}
-  10083: Ma mission n'a rien à voir avec Bahamut. Ma mission est d'arrêter ce garçon.${prompt}
+    Et c'est pour ça que vous avez mis en place de nouveaux plans pour stopper Bahamut... ?
+    Mais il a quitté Riverne. Comment comptez-vous le retrouver ?${prompt}
+  10082: |-
+    Tout est en mouvement.
+    Mais en ce qui concerne les détails, je n'en sais guère plus que vous.${prompt}
+  10083: |-
+    Ma mission ne concerne pas Bahamut.
+    Ma mission, c'est d'arrêter ce garçon.${prompt}
   10084: |-
     Hm...?
-    ${name-player}, où est ton amulette ?${prompt}
+    ${name-player}, où est passée ton amulette ?${prompt}
   10085: |-
     Je...
     ${selection-lines}
@@ -21704,265 +21789,454 @@ entries:
     Je l'ai donnée à Prishe.${prompt}
   10086: |-
     ${name-player} !
-    Je m'excuse. L'amulette... ${name-player} l'a donnée.${prompt}
+    Désolé, l'amulette... c'est moi qui lui ai demandé de la donner.${prompt}
   10087: |-
-    Quoi!? Donnée!?
-    Espèce d'idiot ! Comment as-tu pu te séparer d'un objet aussi important !?${prompt}
-  10088: Monsieur, ce n'est pas la faute de ${name-player}.${prompt}
-  10089: J'ai demandé à ${choice-player-gender}[lui/elle] de la donner à Prishe pour l'aider. Je voulais la sauver...${prompt}
-  10090: Prishe ?${prompt}
+    Quoi !? Tu l'as donnée !?
+    Espèce d'imbécile ! Tu t'es séparé d'un objet aussi précieux !?${prompt}
+  10088: Ce n'est pas la faute de ${name-player}.${prompt}
+  10089: |-
+    C'est moi qui ai demandé à ${choice-player-gender}[lui/elle] de la remettre à Prishe.
+    Je voulais l'aider... la sauver.${prompt}
+  10090: Prishe...?${prompt}
   10091: |-
     Ah... je vois.
-    Si l'amulette est encore ici, alors...${prompt}
+    Si l'amulette est toujours ici, alors...${prompt}
   10092: |-
     ${name-player}.
-    Récupère l'amulette auprès de la fille et apporte-la au lieu de repos du quatrième cristal dans les Terres du Nord.${prompt}
-  10093: Le cristal se trouve profondément sous le Château Zvahl, et on ne peut l'atteindre qu'en traversant les ruines de Pso'Xja.${prompt}
+    Récupère l'amulette auprès de cette fille et rends-toi au quatrième cristal, dans les Terres du Nord.${prompt}
+  10093: |-
+    Le cristal repose profondément sous le Château de Zvahl.
+    Pour y accéder, il te faudra traverser les ruines de Pso'Xja.${prompt}
   10094: Écoutez, écoutez !${prompt}
-  10095: Les soldats ont quitté le Sacrarium ! Ils montent et partent !${prompt}
-  10096: Ils ont fini d'emballer leurs boîtes secrètes ! Ils ont ce qu'ils veulent et maintenant ils sont partis !${prompt}
-  10097: Hm? Des boîtes secrètes...?${prompt}
+  10095: Les soldats ont quitté le Sacrarium ! Ils partent !${prompt}
+  10096: Ils ont emballé leurs mystérieuses caisses et maintenant ils s'en vont !${prompt}
+  10097: Hm ? Des caisses secrètes...?${prompt}
   10098: |-
     ${name-player}.
-    Viens à l'entrée la plus à l'ouest de Pso'Xja, mais pas sans l'amulette. Je t'attendrai là-bas.${prompt}
+    Rejoins-moi à l'entrée ouest de Pso'Xja.
+    Mais surtout, ne viens pas sans l'amulette. Je t'attendrai là-bas.${prompt}
   10099: |-
-    Seigneur Bahamut.
-    Donc, il est apparu pour semer la dévastation parmi les peuples de Vana'diel...${prompt}
-  10100: Et ses sbires ont été appelés à ses côtés en préparation de ce génocide.${prompt}
-  10101: Mais nous ne pouvons pas nous battre contre autant de dragons. Tout ce que nous pouvons faire, c'est regarder impuissant les événements se dérouler.${prompt}
+    Seigneur Bahamut...
+    Donc, il est venu répandre la dévastation parmi les peuples de Vana'diel...${prompt}
+  10100: |-
+    Et ses sbires sont venus à ses côtés, prêts à accomplir ce massacre.${prompt}
+  10101: |-
+    Mais face à autant de dragons, nous ne pouvons rien faire.
+    Tout ce qu'il nous reste, c'est regarder impuissants le monde sombrer.${prompt}
   10102: |-
-    Si la volonté de Promathia est mêlée à cela, nous n'aurons peut-être pas le choix de toute façon.
-    Prishe pourra-t-elle trouver un moyen d'éviter cette catastrophe ?${prompt}
+    Si la volonté de Promathia se cache derrière tout ça, alors...
+    Peut-être que même Prishe ne pourra rien faire pour éviter la catastrophe.${prompt}
   10103: Prishe !${prompt}
   10104: Oh, salut tout le monde !${prompt}
-  10105: Merci d'être venu me voir. J'étais tellement ennuyée ici, toute seule dans ma chambre.${prompt}
-  10106: Je suis soulagé de voir que vous vous sentez mieux, Lady Prishe.${prompt}
-  10107: S'il vous plaît, laissez-moi m'excuser pour mes actions au Cap Riverne.${prompt}
-  10108: Je ne me rendais pas compte que, après ton retour à Tavnazia, tu rencontrerais un tel destin.${prompt}
-  10109: Tu ne te rendais pas compte ? Est-ce que j'avais l'air d'être au courant, moi non plus ?${prompt}
-  10110: J'essayais juste de protéger notre ami criminel, ${name-player}. Qui aurait cru que je serais celle qui se ferait prendre ?${prompt}
-  10111: Oh, bon. Je suis désolée de vous avoir inquiétés pour moi.${prompt}
-  10112: Comme tout le monde le sait déjà, on me surnomme souvent l'abhorrée. C'est pourquoi j'ai été enfermée dans la cathédrale pendant un certain temps.${prompt}
-  10113: Quand Miss Mildaurion est devenue chef, elle me laissait souvent sortir de l'église pour que je puisse me promener librement dans la ville. C'était plutôt amusant...${prompt}
-  10114: Pendant la Grande Guerre, j'ai pu aider beaucoup de gens, et avant longtemps, tout le monde avait commencé à oublier pourquoi ils me craignaient.${prompt}
-  10115: Mais regardez ça maintenant ! Ils ne me laisseront plus jamais sortir d'ici ! Merde !${prompt}
+  10105: |-
+    Merci d'être venus me voir.
+    Je m'ennuyais tellement ici, toute seule dans ma chambre.${prompt}
+  10106: Je suis soulagé de voir que vous allez mieux, Lady Prishe.${prompt}
+  10107: |-
+    Permettez-moi de m'excuser pour mes actes au Cap Riverne.${prompt}
+  10108: |-
+    Je ne me doutais pas qu'après ton retour à Tavnazia, tu ferais face à un tel destin.${prompt}
+  10109: |-
+    Tu ne te doutais pas ? Et moi, tu crois que je savais à quoi m'attendre ?${prompt}
+  10110: |-
+    J'essayais juste de protéger notre ami criminel, ${name-player}.
+    Et voilà que c'est moi qu'on a enfermée !${prompt}
+  10111: |-
+    Enfin bon...
+    Désolée de vous avoir inquiétés.${prompt}
+  10112: |-
+    Vous savez déjà que tout le monde m'appelle l'Abhorrée.
+    C'est pour ça qu'on m'a enfermée dans la cathédrale un moment.${prompt}
+  10113: |-
+    Quand Mildaurion est devenue chef, elle me laissait sortir.
+    J'avais le droit de me promener librement en ville. C'était sympa...${prompt}
+  10114: |-
+    Pendant la Grande Guerre, j'ai pu aider plein de gens, et petit à petit, tout le monde a oublié pourquoi on me craignait.${prompt}
+  10115: |-
+    Mais regardez maintenant !
+    Ils ne me laisseront plus jamais sortir d'ici... Foutu sort !${prompt}
   10116: |-
     Prishe !
-    Tu n'es pas l'abhorrée !
-    Il n'y a rien d'abhorrant chez toi !${prompt}
-  10117: Oui, tu as été changée par cet accident il y a longtemps, mais tu es toujours Prishe !${prompt}
+    Tu n'es pas l'Abhorrée !
+    Il n'y a rien de monstrueux en toi !${prompt}
+  10117: |-
+    Oui, tu as changé à cause de cet accident, mais tu restes Prishe !${prompt}
   10118: |-
     Changée ?
-    Veux-tu dire que sans cet amulette, vous...${prompt}
-  10119: J'ai entendu de l'ancien Despachiaire que Lady Prishe était troublée par une maladie grave, mais...${prompt}
-  10120: Cela... C'est...${prompt}
+    Tu veux dire que sans cette amulette, tu...${prompt}
+  10119: |-
+    J'ai entendu le vieux Despachiaire dire que Lady Prishe souffrait d'une maladie rare, mais...${prompt}
+  10120: Ça... C'est...${prompt}
   10121: |-
-    Allez, garçon au chignon. Tu ne comprends pas ?
-    ${name-player}, tu sais ce qui se passe, n'est-ce pas ?${prompt}
+    Allez, le garçon au chignon.
+    Tu comprends toujours pas ?${prompt}
   10122: |-
-    Comprends-tu ?
+    ${name-player}, tu sais ce qui se passe, hein ?
     ${selection-lines}
     Oui.
     Non.${prompt}
-  10123: Exactement. Regarde-moi. Je n'ai pas vieilli d'un jour depuis cet accident !${prompt}
-  10124: Hein ? Tu as prêté attention ces derniers jours ?${prompt}
-  10125: Regarde-moi. Je n'ai pas vieilli d'un seul jour depuis mon accident.${prompt}
-  10126: Cela... Cela ne peut pas être possible !${prompt}
-  10127: La véritable raison pour laquelle j'ai été enfermée si longtemps dans la cathédrale est que je me suis trop approchée d'un certain objet caché profondément sous l'église...${prompt}
-  10128: J'allais le toucher, et BOUM ! Il y a eu cette lumière éclatante, et je suis restée comme ça.${prompt}
-  10129: Si j'étais un Tarutaru, personne ne l'aurait jamais remarqué, mais je suis Elvaan. Après quelques années, les gens ont commencé à se demander pourquoi je ne grandissais pas.${prompt}
-  10130: Incroyable... Je n'aurais jamais imaginé...${prompt}
-  10131: Mais est-ce vraiment une raison pour que tout le monde t'appelle l'abhorrée ?${prompt}
-  10132: Il doit y avoir... Serait-il possible que non seulement tu sois incapable de vieillir, mais que tu ne puisses pas...${prompt}
-  10133: Mourir ? Et puis quoi encore. Et je ne vais pas sauter d'une falaise pour le découvrir.${prompt}
-  10134: Mais tu sais, depuis l'accident, aucun monstre ne s'est approché de moi. On pourrait dire que c'est assez proche de l'immortalité.${prompt}
-  10135: Pendant des siècles, les empereurs de ma nation ont cherché les secrets de la vie éternelle.${prompt}
+  10123: |-
+    Exactement.
+    Regarde-moi. Je n'ai pas pris une ride depuis l'accident !${prompt}
+  10124: Hein ? T'as vraiment fait attention à moi ces derniers jours ?${prompt}
+  10125: |-
+    Regarde-moi bien.
+    Je n'ai pas vieilli d'un seul jour depuis l'accident.${prompt}
+  10126: Impossible... Ce n'est pas possible !${prompt}
+  10127: |-
+    La vraie raison pour laquelle j'ai été enfermée si longtemps dans la cathédrale...
+    C'est parce que je me suis approchée un peu trop près d'un objet caché sous l'église.${prompt}
+  10128: |-
+    J'ai voulu le toucher, et BOUM !
+    Une lumière aveuglante, et depuis, je suis restée comme ça.${prompt}
+  10129: |-
+    Si j'étais Tarutaru, personne n'aurait rien remarqué.
+    Mais une Elvaan qui ne grandit pas... Ça finit par se voir.${prompt}
+  10130: Incroyable... Jamais je n'aurais imaginé...${prompt}
+  10131: |-
+    Mais est-ce vraiment une raison pour que tout le monde t'appelle l'Abhorrée ?${prompt}
+  10132: |-
+    Il y a autre chose...
+    Se pourrait-il que tu ne puisses pas seulement ne plus vieillir, mais aussi...${prompt}
+  10133: Mourir ? Et puis quoi encore. Je vais pas me jeter d'une falaise pour vérifier.${prompt}
+  10134: |-
+    Mais tu sais, depuis cet accident, aucun monstre ne m'approche.
+    On peut dire que c'est pas loin de l'immortalité.${prompt}
+  10135: |-
+    Pendant des siècles, les empereurs de ma nation ont cherché à percer les secrets de la vie éternelle.${prompt}
   10136: |-
-    Jamais je n'aurais pensé me tenir devant ce secret...
-    Je peux comprendre pourquoi Despachiaire voudrait te cacher des autres en te marquant du titre d'abhorrée.${prompt}
-  10137: '...Pour te protéger des moqueries et des taquineries de tes pairs, mais surtout de ceux qui voudraient t''utiliser pour leur propre profit. Des gens comme les empereurs de pays comme le mien...${prompt}'
+    Jamais je n'aurais imaginé me retrouver face à un tel secret...
+    Je comprends pourquoi Despachiaire t'a cachée aux yeux du monde en te marquant du titre d'Abhorrée.${prompt}
+  10137: |-
+    ...Pour te protéger des moqueries, des persécutions, mais surtout des personnes qui voudraient t'exploiter.
+    Des gens comme les empereurs de mon propre pays...${prompt}
   10138: '...${prompt}'
   10139: |-
-    Qui a dit ça, attends une minute !
+    Attends une seconde, qui t'a permis de dire ça ?
     Comment savons-nous que tu es vraiment venu ici pour voir Bahamut ?${prompt}
-  10140: Tu ferais mieux de ne pas penser à me vendre aux enchères à tes chefs, parce que je ne suis pas à vendre !${prompt}
+  10140: |-
+    Et ne t'avise même pas de penser à me vendre à tes supérieurs !
+    Je ne suis pas à vendre, compris ?${prompt}
   10141: |-
-    Bien sûr que je ne ferais jamais une telle chose, Lady Prishe !
-    Ma mission était de parler au Seigneur Bahamut. Cependant, je ne savais pas que les choses tourneraient ainsi...${prompt}
+    Mlle Prishe, jamais je ne ferais une chose pareille !
+    Ma mission était simplement de parler au Seigneur Bahamut... Je ne pensais pas que tout cela prendrait une telle tournure.${prompt}
   10142: |-
     Quoi !?
     Tu as déjà rencontré Bahamut !?${prompt}
   10143: |-
     Incroyable !
-    Pourquoi diable personne ne m'a dit ce qui se passait ?
+    Pourquoi est-ce que personne ne me dit jamais rien !?
     Tenzen ! Si tu veux t'excuser pour quelque chose, commence par t'excuser de ne pas m'avoir emmenée avec vous !${prompt}
-  10144: Pendant que je reste là à me tourner les pouces, le monde entier se retourne et vous, vous vous amusez bien !${prompt}
-  10145: Eh bien, maintenant, c'est à Prishe de participer à l'action. Je vais trouver ce lézard à vapeur géant et lui dire ce que je pense !${prompt}
-  10146: Je suis désolé, Prishe, mais ce ne sera pas possible.${prompt}
-  10147: ${name-player} et Seigneur Tenzen doivent retourner dans les Terres du Nord.${prompt}
-  10148: Et ils auront besoin de l'amulette que vous empruntez actuellement...${prompt}
-  10149: Dame Prishe, nous accompagnez-vous dans les Terres du Nord, même si ce n'est que pour un court moment ?${prompt}
-  10150: Si nous recevons la permission de Nag'molada, je suis sûr que l'ancien Despachiaire permettra à Prishe de quitter cet endroit.${prompt}
+  10144: |-
+    Moi, je poireaute ici à ne rien faire, et pendant ce temps le monde s'écroule, et vous, vous vous amusez comme des fous !${prompt}
+  10145: |-
+    Eh bien maintenant, c'est à Prishe d'entrer en scène.
+    Je vais trouver ce fichu lézard géant et lui dire ce que je pense !${prompt}
+  10146: |-
+    Je suis désolé, Prishe, mais ça ne sera pas possible.${prompt}
+  10147: |-
+    ${name-player} et le Seigneur Tenzen doivent retourner dans les Terres du Nord.${prompt}
+  10148: Et ils auront besoin de l'amulette que vous avez en votre possession...${prompt}
+  10149: |-
+    Dame Prishe, accepteriez-vous de venir avec nous dans les Terres du Nord, même si ce n'est que pour un temps ?${prompt}
+  10150: |-
+    Si nous avons l'accord de Nag'molada, je suis certain que Despachiaire vous autorisera à quitter ces lieux.${prompt}
   10151: |-
-    Ça me va...
-    Mais pourquoi devons-nous retourner dans les Terres du Nord ? Cet endroit est glacial !${prompt}
-  10152: Pour rencontrer le garçon...${prompt}
-  10153: Diabolos et Bahamut ont peut-être refusé de nous aider, mais nous ne pouvons pas rester les bras croisés et laisser le Vide prendre le contrôle de Vana'diel.${prompt}
-  10154: Nous devons trouver ce garçon et découvrir la vérité qui se cache derrière la "volonté de Promathia" !${prompt}
-  10155: La volonté de Promathia ?${prompt}
-  10156: Te souviens-tu quand le maître des rêves nous a dit que le Vide était la volonté du Dieu du Crépuscule ?${prompt}
-  10157: On dit que cette terrible divinité a jeté une malédiction hideuse sur les enfants de l'Aube.${prompt}
+    D'accord...
+    Mais pourquoi faut-il toujours retourner dans les Terres du Nord ? Ce coin est gelé jusqu'aux os !${prompt}
+  10152: Pour retrouver ce garçon...${prompt}
+  10153: |-
+    Diabolos et Bahamut ont peut-être refusé de nous aider, mais nous ne pouvons pas rester là à regarder le Vide dévorer Vana'diel.${prompt}
+  10154: Nous devons retrouver ce garçon et percer le mystère de cette soi-disant "Volonté de Promathia" !${prompt}
+  10155: La Volonté de Promathia ?${prompt}
+  10156: |-
+    Tu te souviens de ce que nous a dit le Maître des Rêves ?
+    Que le Vide est l'expression de la Volonté du Dieu du Crépuscule.${prompt}
+  10157: |-
+    On raconte que cette sinistre divinité a maudit les enfants de l'Aube d'une malédiction abominable.${prompt}
   10158: Sa volonté ne peut être que purement maléfique !${prompt}
-  10159: Et c'est cette volonté qui appelle le Gardien de l'Apocalypse...${prompt}
-  10160: La volonté de Promathia appelle le gardien...?${prompt}
-  10161: Excusez-moi, milady, mais l'ancien Despachiaire a demandé que vous ne dérangiez plus Lady Prishe.${prompt}
-  10162: (Donc, ce que vous voulez vraiment, c'est demander à ce garçon ce que pense Promathia, c'est ça ?)${prompt}
+  10159: |-
+    Et c'est cette volonté qui a convoqué le Gardien de l'Apocalypse...${prompt}
+  10160: La volonté de Promathia aurait invoqué le Gardien...?${prompt}
+  10161: |-
+    Excusez-moi, mais l'ancien Despachiaire a ordonné qu'on ne dérange plus Lady Prishe.${prompt}
+  10162: (Donc, ce que vous voulez vraiment, c'est poser des questions à ce garçon sur ce que pense Promathia, c'est ça ?)${prompt}
   10163: (En gros... oui.)${prompt}
-  10164: (Eh bien, au lieu de perdre votre temps à poursuivre un garçon fou, pourquoi n'allons-nous pas demander à Promathia nous-même ?)${prompt}
-  10165: (Je sais où nous pouvons le trouver.)${prompt}
-  10166: Qu-qu-quoi !?${prompt}
-  10167: (Heh heh. Sur la côte de Misareaux, il y a une grotte menant au Sacrarium. Allez-y et vous verrez de quoi je parle. Mais n'oubliez pas vos préparatifs avant de partir... à moins que vous ne vouliez vraiment rencontrer Promathia--mais pas dans ce monde !)${prompt}
+  10164: (Au lieu de courir après un môme dérangé, pourquoi on n'irait pas demander directement à Promathia ?)${prompt}
+  10165: (Je sais où on peut le trouver.)${prompt}
+  10166: Quoi !?${prompt}
+  10167: |-
+    (Heh heh. Sur la côte de Misareaux, il y a une grotte qui mène au Sacrarium.
+    Allez-y, vous verrez bien. Mais préparez-vous, à moins que vous ne vouliez rencontrer Promathia... dans l'autre monde !)${prompt}
   10168: |-
     Je suis désolé, je ne peux pas vous laisser voir Prishe.
-    C'est malheureux, mais c'est comme ça.${prompt}
-  10169: Je ne l'ai dit à personne d'autre encore, mais on dit que Prishe est l'enfant du Dieu du Crépuscule.${prompt}
+    C'est regrettable, mais c'est ainsi.${prompt}
+  10169: |-
+    Je ne l'ai dit à personne, mais certains disent que Prishe serait l'enfant du Dieu du Crépuscule.${prompt}
   10170: |-
-    C'est vrai, je vous le dis !
-    Parce que j'ai aussi entendu dire que Promathia résidait dans le coin le plus profond du Sacrarium !${prompt}
-  10171: Elle a parlé avec le dieu du chaos abhorré ! De quoi avons-nous besoin de plus comme preuve !?${prompt}
-  10172: Tout s'explique maintenant. Pourquoi Bahamut choisirait-il Tavnazia comme lieu de retour sinon à cause de cette fille !${prompt}
-  10173: Elle est l'origine de tous nos problèmes ! Peut-être même que c'est à cause d'elle que les bêtes se sont d'abord rassemblées à Tavnazia il y a vingt ans !${prompt}
-  10174: Granpere ! Il est injuste de blâmer Prishe pour tous les malheurs de Tavnazia !${prompt}
-  10175: C'est parce que le cœur de Prishe est pur - c'est pourquoi elle n'a pas été contrôlée par le mal après avoir touché la statue de Promathia...${prompt}
-  10176: Elle n'a fait cette chose stupide que pour sauver notre nation ! Pourquoi ne pouvez-vous pas comprendre cela !?${prompt} 
-  10177: Sauver notre nation ? Comment puis-je le croire après ce que j'ai vu ?${prompt}
-  10178: Si le Marquisat avait encore existé, les théologiens de la cathédrale auraient découvert la véritable raison de l'existence de cette enfant et les terribles choses qu'elle planifie.${prompt}
+    Je vous le jure !
+    On raconte aussi que Promathia réside dans les profondeurs du Sacrarium.${prompt}
+  10171: |-
+    Elle a parlé au Dieu du Chaos abhorré !
+    De quelle autre preuve avez-vous besoin ?${prompt}
+  10172: |-
+    Tout s'explique...
+    Pourquoi Bahamut aurait-il choisi Tavnazia pour réapparaître, si ce n'est à cause d'elle !${prompt}
+  10173: |-
+    Elle est à l'origine de tous nos malheurs !
+    C'est peut-être même à cause d'elle que les Bêtes se sont rassemblées ici, à Tavnazia, il y a vingt ans !${prompt}
+  10174: |-
+    Granpere ! C'est injuste de faire porter tout le fardeau de Tavnazia sur les épaules de Prishe !${prompt}
+  10175: |-
+    C'est justement parce que le cœur de Prishe est pur qu'elle n'a pas été corrompue par le mal après avoir touché la statue de Promathia...${prompt}
+  10176: |-
+    Elle n'a fait cette folie que pour sauver notre nation !
+    Pourquoi refusez-vous de le comprendre !?${prompt}
+  10177: |-
+    Sauver notre nation ? Comment puis-je le croire après tout ce que j'ai vu ?${prompt}
+  10178: |-
+    Si le Marquisat existait encore, les théologiens de la cathédrale auraient révélé la vérité sur cette enfant...
+    Et sur les sombres desseins qu'elle cache.${prompt}
   10179: |-
-    Ah, pardonne-moi, Altana.
-    J'aurais dû tout révéler à Nag'molada. C'était mon erreur de cacher ce que je savais pour protéger l'image de notre ville.${prompt}
-  10180: Il aurait pu nous mener à la vérité concernant les véritables intentions de l'abhorrée...${prompt}
+    Ah, pardonne-moi, Altana...
+    J'aurais dû tout révéler à Nag'molada.
+    J'ai eu tort de taire mes soupçons pour préserver l'image de notre ville.${prompt}
+  10180: |-
+    Il aurait peut-être pu découvrir les véritables intentions de l'Abhorrée...${prompt}
   10181: |-
     Granpere !
-    Avez-vous oublié ce que le Cardinal Mildaurion nous a dit ?${prompt}
-  10182: Elle nous a dit que Prishe était peut-être née abhorrée, mais qu'elle avait été renaît grâce au pouvoir d'Altana.${prompt}
-  10183: Et peut-être devrions-nous également questionner la loyauté de Mildaurion C Giloumet ? Quelles étaient ses véritables intentions ?${prompt}
-  10184: J'ai récemment entendu des rumeurs que la Cathédrale de San d'Oria tente de la capturer !${prompt}
-  10185: Qui pourrait vous avoir dit de telles choses... !?${prompt}
-  10186: Qui êtes-vous, bon sang !?${prompt}
-  10187: Permettez-moi de me présenter. Je m'appelle Louverance N Mistalle. J'écoutais votre échange depuis quelques instants.${prompt}
-  10188: Ce chevalier a été envoyé par ordre de la Cathédrale de San d'Oria pour rechercher le Cardinal Mildaurion disparu. Il est arrivé ici par un vaisseau aérien du Duché.${prompt}
+    As-tu oublié ce que le Cardinal Mildaurion nous a dit ?${prompt}
+  10182: |-
+    Elle nous a dit que Prishe était peut-être née Abhorrée, mais qu'elle avait été purifiée par la bénédiction d'Altana.${prompt}  
+  10183: |-
+    Peut-être devrions-nous aussi nous interroger sur la loyauté de Mildaurion C Giloumet...
+    Quelles étaient ses véritables intentions ?${prompt}
+  10184: |-
+    J'ai entendu dire que la Cathédrale de San d'Oria cherche à la capturer !${prompt}
+  10185: |-
+    Qui t'a raconté de telles choses !?${prompt}
+  10186: |-
+    Qui êtes-vous, à la fin !?${prompt}
+  10187: |-
+    Permettez-moi de me présenter.
+    Je me nomme Louverance N Mistalle.
+    J'écoutais votre conversation depuis un moment.${prompt}
+  10188: |-
+    Ce chevalier a été dépêché par la Cathédrale de San d'Oria pour retrouver le Cardinal Mildaurion disparue.
+    Il est arrivé ici à bord d'un vaisseau du Duché.${prompt}
   10189: |-
     Louverance...
-    Je me souviens avoir entendu ce nom une fois auparavant... quand j'ai visité San d'Oria...${prompt}
-  10190: Ah, vous devez être celui qui a rendu visite à Madame Hinaree. Donc, vous êtes déjà au courant des détails de ma mission.${prompt}
-  10191: À la fin de la Grande Guerre, il y a plus de vingt ans, le reliquaire de la cathédrale a été pillé. On pense que Mildaurion C Giloumet était impliquée dans le vol d'un grand nombre de parchemins et d'écritures sacrées.${prompt}
-  10192: On dit que cette perte a finalement conduit le papsque régnant, Muchavatte P Couchiret, à sa mort. Voilà pourquoi la Cathédrale de San d'Oria est déterminée à localiser le cardinal.${prompt}
-  10193: Mlle Mildaurion ! Vous plaisantez !?${prompt}
-  10194: Je ne connais ni sa culpabilité ni son innocence, c'est pourquoi je cherche quiconque se souvient d'elle. Il semble que j'ai enfin trouvé quelqu'un qui peut me donner des informations utiles.${prompt}
-  10195: Laissez-moi emmener la fille. Je vois que sa présence a été une lourde charge pour vous et votre peuple.${prompt}
+    Ce nom me dit quelque chose...
+    Ah oui, quand j'ai visité San d'Oria...${prompt}
+  10190: |-
+    Vous devez être celui qui a rendu visite à Dame Hinaree.
+    Vous êtes donc déjà au courant des grandes lignes de ma mission.${prompt}
+  10191: |-
+    À la fin de la Grande Guerre, le reliquaire de la cathédrale a été pillé.
+    Il paraît que Mildaurion C Giloumet serait impliquée dans le vol d'archives sacrées et de nombreux écrits saints.${prompt}
+  10192: |-
+    Cette perte aurait même précipité la mort du Papsque Muchavatte P Couchiret.
+    Voilà pourquoi la Cathédrale tient tant à retrouver le Cardinal.${prompt}
+  10193: |-
+    Dame Mildaurion ! Vous plaisantez j'espère !?${prompt}
+  10194: |-
+    Je ne sais pas si elle est coupable ou innocente.
+    C'est pourquoi je cherche ceux qui pourraient avoir des informations à son sujet.
+    Et il semble que je sois enfin tombé sur les bonnes personnes.${prompt} 
+  10195: |-
+    Laissez-moi emmener la fille.
+    Je vois que sa présence ici est devenue un fardeau pour vous et votre peuple.${prompt}
   10196: |-
     Eh bien...
-    Si c'est ce que désire la cathédrale, je ne suis pas là pour m'y opposer...${prompt}
-  10197: Granpere !${prompt}
+    Si c'est la volonté de la cathédrale, je n'ai rien à y redire...${prompt}
+  10197: |-
+    Granpere !${prompt}
   10198: |-
     Ulmia, ne t'inquiète pas.
-    Je commençais à penser qu'il était temps que tout le monde apprenne la vérité.${prompt}
-  10199: Je dois faire quelque chose, sinon les gens continueront à douter et à me haïr.${prompt}
-  10200: Prishe... Mais... !${prompt}
+    J'en suis arrivée à penser que tout le monde devait connaître la vérité.${prompt}
+  10199: |-
+    Si je ne fais rien, les soupçons et la haine continueront de me poursuivre.${prompt}
+  10200: |-
+    Prishe... Mais... !${prompt}
   10201: |-
     Hé, Louverance !
-    Autant j'aimerais accepter votre offre de croisière gratuite vers le Royaume, je vais devoir décliner. Je dois aller dans les Terres du Nord avec ces types avant de faire quoi que ce soit d'autre.${prompt}
-  10202: Comme on dit, une promesse est une promesse.${prompt}
-  10203: Oui ! Nous devons nous dépêcher d'aller dans les Terres du Nord pour aider le diplomate de Jeuno, Nag'molada.${prompt}
-  10204: L'avenir de Vana'diel repose sur cette mission cruciale. Je comprends vos ordres, Seigneur Louverance, mais il y a des problèmes plus importants que nous devons d'abord régler.${prompt}
-  10205: Vous travaillez avec Nag'molada... ? Je vois...${prompt}
-  10206: Je vous propose ceci...${prompt}
-  10207: Venez à mon vaisseau aérien et racontez-moi ce que vous savez du Cardinal Mildaurion.${prompt}
-  10208: Une fois que vous aurez répondu à toutes mes questions, je vous emmènerai personnellement dans les Terres du Nord.${prompt}
-  10209: Puis-je supposer que je suis également le bienvenu à bord de votre navire ?${prompt}
-  10210: En tant que messager de la dynastie de l'Est, je demande une audience avec les royaux.${prompt}
+    Aussi tentée que je sois par ton offre de croisière gratuite vers le Royaume, je vais devoir décliner.
+    J'ai des affaires à régler dans les Terres du Nord avec ces gens avant toute chose.${prompt}
+  10202: |-
+    Comme on dit, une promesse est une promesse.${prompt}
+  10203: |-
+    Oui ! Nous devons vite retourner dans les Terres du Nord pour assister le diplomate de Jeuno, Nag'molada.${prompt}
+  10204: |-
+    L'avenir de Vana'diel dépend de cette mission.
+    Je comprends vos ordres, Seigneur Louverance, mais certaines urgences passent avant tout.${prompt}
+  10205: |-
+    Vous travaillez avec Nag'molada... ?
+    Je vois...${prompt}
+  10206: |-
+    Je vous propose ceci...${prompt}
+  10207: |-
+    Rejoignez-moi sur mon vaisseau et racontez-moi tout ce que vous savez à propos du Cardinal Mildaurion.${prompt}
+  10208: |-
+    Une fois que vous aurez répondu à toutes mes questions, je vous conduirai personnellement dans les Terres du Nord.${prompt}
+  10209: |-
+    Puis-je également monter à bord de votre navire ?${prompt}
+  10210: |-
+    En tant qu'émissaire de la Dynastie de l'Est, je sollicite une audience avec la royauté.${prompt}
   10211: |-
-    Compris.
+    Entendu.
     Je vous attendrai à la Tanière du Phocéen.${prompt}
-  10212: Dame Prishe, je suis ravi de constater que vous êtes une femme de compréhension. Maintenant, faites vos adieux et dépêchez-vous d'aller aux docks.${prompt}
-  10213: J'étais soulagé d'apprendre que Seigneur Louverance prendrait Prishe sous sa garde.${prompt}
-  10214: Elle sera mieux lotie avec la Cathédrale de San d'Oria pour s'occuper de ses besoins.${prompt}
-  10215: Cependant, je n'aurais jamais imaginé que le Cardinal Mildaurion était capable de commettre des crimes contre le Royaume.${prompt} 
+  10212: |-
+    Mlle Prishe, je suis ravi de constater votre sagesse.
+    Maintenant, dites vos adieux et filez aux quais.${prompt}
+  10213: |-
+    J'étais soulagé d'apprendre que le Seigneur Louverance prendrait Prishe sous sa protection.${prompt}
+  10214: |-
+    Elle sera bien mieux lotie sous la garde de la Cathédrale de San d'Oria.${prompt}
+  10215: |-
+    Pourtant, jamais je n'aurais cru que le Cardinal Mildaurion puisse trahir le Royaume...${prompt}
   10216: |-
-    Penser qu'une femme aussi noble puisse se livrer à des activités criminelles...
-    Le cœur est une chose mystérieuse. Il peut souvent changer sans même qu'on s'en aperçoive.${prompt}
-  10217: Donc Ulmia est vraiment partie avec Prishe...${prompt}
-  10218: Peut-être qu'un vieil homme comme moi n'aurait rien pu faire pour l'empêcher...${prompt}
-  10219: Je ne vous laisserai pas partir avec l'abhorrée ! Je ne le permettrai pas !${prompt}
-  10220: Granpere, vous savez aussi bien que moi...${prompt}
+    Imaginer qu'une femme aussi noble puisse sombrer dans des affaires criminelles...
+    Le cœur humain est imprévisible. Il peut changer sans qu'on s'en aperçoive.${prompt}
+  10217: Alors, Ulmia est vraiment partie avec Prishe...${prompt}
+  10218: Peut-être qu'un vieil homme comme moi n'aurait rien pu faire pour l'en empêcher...${prompt}
+  10219: |-
+    Je ne vous laisserai pas emmener l'Abhorrée ! 
+    Je m'y opposerai de toutes mes forces !${prompt}
+  10220: |-
+    Granpere, vous savez très bien que...${prompt}
   10221: Il n'y a rien d'abhorrant chez Prishe...${prompt}
-  10222: Et je ne peux plus ignorer les problèmes qui se dressent devant nous. Au revoir, Granpere.${prompt}
+  10222: |-
+    Et je ne peux plus détourner le regard face aux épreuves qui nous attendent.
+    Au revoir, Granpere.${prompt}
   10223: Ulmia !${prompt}
-  10224: J'ai tout fait pour subvenir aux besoins de mes amis et de ma famille dans cet endroit maudit...${prompt}
-  10225: Je n'avais pas réalisé que mes actions ne faisaient que les entraver...${prompt}
+  10224: |-
+    J'ai tout fait pour soutenir mes amis et ma famille dans cette contrée maudite...${prompt}
+  10225: |-
+    Et je n'avais pas réalisé que mes actes n'avaient fait que leur compliquer la vie...${prompt}
   10226: |-
     ${name-player}...
     Ulmia... Comment va-t-elle ?${prompt}
-  10227: Salutations, Despachiaire. Cela fait trop longtemps.${prompt}
+  10227: |-
+    Salutations, Despachiaire. Cela faisait trop longtemps.${prompt}
   10228: Seigneur Louverance !${prompt}
   10229: |-
-    Ne vous inquiétez pas. Elle va bien.
-    ${name-player} et moi parcourons le monde à la recherche d'une vérité - une seule vérité qui rendra la lumière à Vana'diel et à ses enfants.${prompt}
-  10230: Votre petite-fille partage le même objectif que nous, et elle ne renoncera pas tant qu'elle ne l'aura pas atteint.${prompt}
-  10231: Je peux dormir plus tranquille en sachant qu'un noble chevalier comme vous veille sur ma chère Ulmia. Cependant, elle a souvent tendance à cacher ses véritables sentiments aux autres, même si elle souffre peut-être.${prompt} 
-  10232: Vous... Vous ne lui causez pas de douleur, n'est-ce pas ?${prompt}
-  10233: Ulmia est une jeune femme très déterminée. Elle comprend les responsabilités qui l'attendent et ne reculera pas devant elles.${prompt}
-  10234: C'est pourquoi elle s'est blâmée de ne pas en savoir plus sur le tableau d'Al'Taieu conservé dans le reliquaire de la Cathédrale de Tavnazia.${prompt}
-  10235: Qu-quoi !?${prompt}
-  10236: Dame Ulmia n'est pas une théologienne de la cathédrale. Personne ne s'attend à ce qu'elle connaisse le tableau. Cependant...${prompt}
-  10237: Exactement ! Il n'y avait aucun moyen pour elle de connaître ce tableau. Elle n'était qu'une enfant quand cette pièce a été donnée à la cathédrale. Oh, pourquoi te blâmes-tu, pauvre Ulmia ?${prompt}
-  10238: Seigneur Louverance ! Je connais une partie de l'histoire derrière ce tableau. Permettez-moi de vous dire ce que je sais.${prompt}
-  10239: Il y a longtemps, j'ai aidé au transport de la relique vers la cathédrale. Beaucoup de tumulte est survenu à cause de l'arrivée de ce tableau ici.${prompt}
-  10240: Votre aide est grandement appréciée, Despachiaire. Je transmettrai tout ce que vous me direz à votre petite-fille.${prompt}
+    Rassurez-vous, elle va bien.
+    ${name-player} et moi voyageons à travers le monde en quête d'une seule chose : la vérité, celle qui ramènera la lumière sur Vana'diel et ses enfants.${prompt}
+  10230: |-
+    Votre petite-fille poursuit le même objectif que nous.
+    Elle ne s'arrêtera pas tant qu'elle ne l'aura pas atteint.${prompt}
+  10231: |-
+    Cela me soulage de savoir qu'un chevalier aussi honorable veille sur ma chère Ulmia.
+    Mais elle a tendance à dissimuler ses véritables sentiments, même quand elle souffre...${prompt}
+  10232: |-
+    Vous... vous ne lui faites pas de mal, n'est-ce pas ?${prompt}
+  10233: |-
+    Ulmia est une jeune femme déterminée.
+    Elle connaît les responsabilités qui l'attendent et n'y reculera pas.${prompt}
+  10234: |-
+    C'est pour cela qu'elle s'est tant blâmée de ne pas mieux connaître l'histoire du tableau d'Al'Taieu conservé dans le reliquaire de la cathédrale de Tavnazia.${prompt}
+  10235: Quoi !?${prompt}
+  10236: |-
+    Dame Ulmia n'est pas théologienne.
+    Personne ne s'attendait à ce qu'elle connaisse l'histoire de ce tableau. Cependant...${prompt}
+  10237: |-
+    Exactement ! 
+    Elle était encore enfant lorsque cette œuvre a été remise à la cathédrale.
+    Pourquoi te blâmer, pauvre Ulmia...${prompt}
+  10238: |-
+    Seigneur Louverance, je connais une partie de l'histoire de ce tableau.
+    Permettez-moi de vous dire ce que je sais.${prompt}
+  10239: |-
+    Il y a longtemps, j'ai moi-même aidé à transporter cette relique jusqu'à la cathédrale.
+    Son arrivée a semé bien des troubles ici.${prompt}
+  10240: |-
+    Votre aide est précieuse, Despachiaire.
+    Je transmettrai vos paroles à votre petite-fille.${prompt}
   10241: |-
     Oui...
-    C'était il y a environ vingt-cinq ans que le tableau a été apporté dans l'archipel.${prompt}
-  10242: Selon les officiels du Marquisat, le tableau a été découvert au plus profond des ruines anciennes connues sous le nom de Temple d'Uggalepih.${prompt}
-  10243: On dit que le tableau illustre une scène d'une chanson légendaire - les anciens et leur tentative d'ouvrir les Portes du Paradis...${prompt}
+    Cela remonte à environ vingt-cinq ans, lorsque le tableau est arrivé dans l'archipel.${prompt}
+  10242: |-
+    D'après les archives du Marquisat, il aurait été découvert au plus profond des ruines anciennes connues sous le nom de Temple d'Uggalepih.${prompt}
+  10243: |-
+    On dit que ce tableau représente une scène d'une vieille légende : celle des anciens et de leur tentative d'ouvrir les Portes du Paradis...${prompt}
   10244: |-
     Oui, je m'en souviens comme si c'était hier...
-    Une porte de lumière flottant au-dessus d'une grande ville...
-    Le gardien de la porte rugissant vers les cieux...${prompt}
-  10245: Le gardien de la porte avait la forme d'un puissant dragon. Cependant, ses quatre pattes étaient liées par de puissantes chaînes.${prompt}
-  10246: Cette image était la plus marquante du tableau. Beaucoup de missionnaires qui sont venus voir le tableau l'appelaient souvent la relique des chaînes, ou la relique du dragon.${prompt}
+    Une porte de lumière flottant au-dessus d'une grande cité...
+    Le gardien rugissant vers les cieux...${prompt}
+  10245: |-
+    Ce gardien avait l'apparence d'un puissant dragon.
+    Mais ses quatre pattes étaient enchaînées par des liens colossaux.${prompt}
+  10246: |-
+    Cette image frappait tous ceux qui la contemplaient.
+    Beaucoup de missionnaires l'ont surnommé la "relique des chaînes", ou encore "la relique du dragon".${prompt}
   10247: |-
     Je vois...
-    Donc, à cette époque, l'identité de la ville était encore inconnue...${prompt}
-  10248: Oui, jusqu'à ce que le Cardinal Mildaurion voie le tableau. C'est elle qui nous a dit que la ville était Al'Taieu.${prompt}
-  10249: En punition pour avoir défié les dieux, la ville d'Al'Taieu fut détruite et bannie au fond de la mer du nord. Après que le cardinal ait révélé la vérité sur le tableau, de nombreux chants ont été composés sur cette légende. Il n'y avait pas âme à Tavnazia qui n'avait pas entendu l'un d'eux en buvant une bière au pub local.${prompt}
-  10250: Cependant... Pourquoi le cardinal connaissait-il la ville et sa légende ?${prompt}
-  10251: Bien que je puisse me tromper, je me souviens que avant d'arriver à Tavnazia, Mildaurion était un prêtre qui errait dans les Terres Extérieures à la recherche d'un éveil spirituel.${prompt}
-  10252: J'ai également entendu des récits que beaucoup des reliques sacrées qui ont atteint l'archipel ont été apportées des Terres Extérieures par des voleurs et des pirates. Peut-être que le cardinal a obtenu ses connaissances sur Al'Taieu dans ces régions abandonnées.${prompt}
+    Donc à cette époque, l'identité de la ville représentée n'était pas encore connue...${prompt}
+  10248: |-
+    Oui, jusqu'à ce que le Cardinal Mildaurion voie le tableau.
+    C'est elle qui nous révéla qu'il s'agissait d'Al'Taieu.${prompt}
+  10249: |-
+    On raconte que pour avoir défié les dieux, la cité d'Al'Taieu fut détruite et engloutie dans les profondeurs de la mer du Nord.
+    Après les révélations du cardinal, cette légende a inspiré de nombreuses chansons.
+    Impossible de mettre un pied dans une taverne de Tavnazia sans entendre l'une de ces mélodies.${prompt}
+  10250: |-
+    Pourtant... Comment le cardinal connaissait-il l'existence d'Al'Taieu et de sa légende ?${prompt}
+  10251: |-
+    Je peux me tromper, mais il me semble qu'avant son arrivée à Tavnazia, Mildaurion errait dans les Terres Extérieures à la recherche d'un éveil spirituel.${prompt}
+  10252: |-
+    J'ai aussi entendu dire que nombre des reliques sacrées parvenues jusqu'à l'archipel venaient des Terres Extérieures, transportées par des pirates et des voleurs.
+    Peut-être que le cardinal y a découvert la légende d'Al'Taieu.${prompt}
   10253: Les Terres Extérieures... Je vois...${prompt}
-  10254: Oui, je me souviens aussi comment un groupe de Mithra est venu de ces Terres Extérieures, exigeant que nous retournions le tableau au temple.${prompt}
-  10255: J'ai aussi entendu cette histoire. Après de longues discussions, le cardinal a pu convaincre les Mithra de laisser le tableau à Tavnazia, sans entacher l'honneur de la cathédrale.${prompt}
-  10256: Nous étions soulagés, et avec ces bêtes Mithra parties, nous pouvions retourner à notre vie quotidienne normale.${prompt}
+  10254: |-
+    Oui, je me souviens aussi d'un groupe de Mithra venu de ces Terres Extérieures.
+    Ils exigeaient qu'on rende le tableau au temple.${prompt}
+  10255: |-
+    J'ai entendu cette histoire moi aussi.
+    Après de longues discussions, le cardinal a réussi à convaincre les Mithra de laisser le tableau ici, sans ternir l'honneur de la cathédrale.${prompt}
+  10256: |-
+    Nous étions soulagés.
+    Avec le départ des Mithra, nous avons pu reprendre notre quotidien.${prompt}
   10257: |-
-    Mithra...
-    Peut-être en savent-ils plus sur le tableau...${prompt}
-  10258: Despachiaire, vous rappelez-vous des noms des Mithra ou d'où exactement ils venaient ?${prompt}
-  10259: Je ne me souviens pas de leurs noms. Je ne pense pas qu'ils aient jamais été mentionnés par autre chose que le titre de "chasseurs de péchés".${prompt}
-  10260: Chasseurs de péchés. Des assassins envoyés du pays des Mithra pour faire le sale travail de la Grande Chieftainness...${prompt}
-  10261: Donc, ce tableau doit avoir une grande importance pour leur race...${prompt}
+    Les Mithra...
+    Peut-être en savent-ils davantage sur le tableau...${prompt}
+  10258: |-
+    Despachiaire, vous souvenez-vous des noms de ces Mithra, ou d'où exactement ils venaient ?${prompt}
+  10259: |-
+    Je ne me souviens pas de leurs noms.
+    On ne les appelait que par leur titre : "Chasseurs de péchés".${prompt}
+  10260: |-
+    Les chasseurs de péchés...
+    Des assassins envoyés par la Grande Cheffetaine du peuple Mithra pour exécuter les tâches les plus sombres...${prompt}
+  10261: |-
+    Ce tableau doit donc avoir une grande importance pour leur peuple...${prompt}
   10262: |-
     Seigneur Louverance.
     Une jeune chasseuse de péchés Mithra a visité le sanctuaire il y a quelques jours.${prompt}
-  10263: Si vous pouvez la trouver, elle pourra peut-être vous informer davantage des secrets derrière le tableau.${prompt}
-  10264: Une chasseuse de péchés... était ici !?${prompt}
+  10263: |-
+    Si vous parvenez à la retrouver, elle pourra peut-être vous révéler les secrets dissimulés derrière ce tableau.${prompt}
+  10264: |-
+    Une chasseuse de péchés...
+    Ici, à Tavnazia !?${prompt}
   10265: |-
-    Excellent...
-    Despachiaire, je vous remercie beaucoup pour votre aide. Je suivrai votre conseil et commencerai à chercher cette Mithra.${prompt}
-  10266: Une chasseuse de péchés à Tavnazia... Un tournant des événements assez inattendu, ne trouves-tu pas, ${name-player} ?${prompt}
-  10267: Allons à Windurst pour interroger la chieftainness sur les chasseurs de péchés et le tableau qu'ils désirent.${prompt}
-  10268: Une jeune chasseuse de péchés Mithra a visité le sanctuaire il y a quelques jours. Elle disait chercher Prishe.${prompt}
-  10269: Si vous pouvez la trouver, elle pourra peut-être vous informer davantage des secrets derrière le tableau.${prompt}
-  10270: Comme vous le savez, une jeune chasseuse de péchés Mithra a visité le sanctuaire il y a quelques jours.${prompt}
-  10271: Je ne peux imaginer pour quelles raisons elle nous a rendu visite. Cependant, si vous pouvez la trouver, elle pourra peut-être vous informer davantage des secrets derrière le tableau.${prompt}
+    Parfait...
+    Despachiaire, merci infiniment pour votre aide.
+    Je suivrai votre conseil et partirai à la recherche de cette Mithra.${prompt}
+  10266: |-
+    Une chasseuse de péchés à Tavnazia...
+    Voilà qui complique les choses, n'est-ce pas, ${name-player} ?${prompt}
+  10267: |-
+    Allons à Windurst.
+    Nous devons interroger la Grande Cheffetaine à propos des chasseurs de péchés et du tableau qu'ils convoitent.${prompt}
+  10268: |-
+    Une jeune chasseuse de péchés Mithra a visité le sanctuaire il y a quelques jours.
+    Elle était à la recherche de Prishe.${prompt}
+  10269: |-
+    Si vous parvenez à la retrouver, elle pourra peut-être vous révéler les secrets dissimulés derrière ce tableau.${prompt}
+  10270: |-
+    Comme vous le savez, une jeune chasseuse de péchés Mithra a visité le sanctuaire récemment.${prompt}
+  10271: |-
+    Je ne saurais dire pourquoi elle est venue...
+    Mais si vous la retrouvez, elle pourrait sans doute vous en dire plus sur ce tableau mystérieux.${prompt}
   10272: You can't fish here.${prompt}
   10273: You can't fish without a rod in your hands.${prompt}
   10274: You can't fish without bait on the hook.${prompt}
