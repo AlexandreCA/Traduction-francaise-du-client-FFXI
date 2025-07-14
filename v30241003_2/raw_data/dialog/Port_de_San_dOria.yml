@@ -25099,39 +25099,39 @@ entries:
   11183: |-
     What'sa that you gots there? Hmmm...
     It looks likea one of those creepy-crawly Anticans' goods.${prompt}
-  11184: I needs to check this out to make sure you're not tryin' to pulla fast one.${prompt}
-  11185: You did some good work, kid. Now it'sa time for me to keep up my end of the bargain.${prompt}
-  11186: Here, lets me marka your map...${prompt}
-  11187: I swears on my grandmama's grave that theresa treasure buried somewhere around there.${prompt}
-  11188: 'What!? You goes where I tells ya, and you''ll havea no problem findin'' the stash. And don''t ya forget your ${item-singular: 0[2]}!${prompt}'
-  11189: Whaddo I look like here, a charity?${prompt}
-  11190: 'It looks like something is buried here. If you had ${article} ${item-article: 0[2]} you could dig it up.${prompt}'
-  11191: You dig up a strange wooden casket!
-  11192: 'But your ${item-singular: 7[2]} breaks in the process.'
-  11193: 'You find ${article} ${item-article: 0[2]} in the box!'
-  11194: 'You find ${number: 0} gil in the box!'
-  11195: 'Obtained: ${lettercase: 1}${item-singular: 0[2]}.'
-  11196: 'Obtained ${number: 0} gil.'
-  11197: Your inventory is full. You cannot carry any more items.${prompt}
-  11198: You must be closer to the spot to dig.${prompt}
-  11199: There is nothing out of the ordinary here.${prompt}
-  11200: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  11201: Ahead lies the residential area. Proceed to your Rent-a-Room, foreigner!${prompt}
-  11202: Mog Houses are useful places. You can recover your HP and MP, and store items.${prompt}
+  11184: 'Faut que j’vérifie ça, juste pour être sûr que t’essaies pas de m’rouler.${prompt}'
+  11185: 'T’as bien bossé, gamin. Maintenant, c’est à moi d’honorer ma part du marché.${prompt}' 
+  11186: 'Tiens, laisse-moi t’indiquer ça sur ta carte...${prompt}'
+  11187: 'Je te jure sur la tombe de ma grand-mère qu’y a un trésor planqué dans le coin.${prompt}'
+  11188: 'Quoi !? Tu vas là où j’t’ai dit, et t’auras aucun mal à trouver le magot. Et oublie pas ton ${item-singular: 0[2]} !${prompt}'
+  11189: 'J’ai l’air d’une œuvre de charité, p’têt ?${prompt}'
+  11190: 'On dirait qu’y a un truc enterré ici. Avec ${article} ${item-article: 0[2]}, tu pourrais le déterrer.${prompt}'
+  11191: 'Tu déterres un étrange cercueil en bois !'
+  11192: 'Mais ton/ta ${item-singular: 7[2]} se brise dans le processus.'
+  11193: 'Tu trouves ${article} ${item-article: 0[2]} dans le coffre !'
+  11194: 'Tu trouves ${number: 0} gil dans le coffre !'
+  11195: 'Obtenu : ${lettercase: 1}${item-singular: 0[2]}.'
+  11196: 'Gil obtenus : ${number: 0}.'
+  11197: 'Ton inventaire est plein. Tu ne peux plus rien porter.${prompt}'
+  11198: 'Tu dois être plus près du point pour creuser.${prompt}'
+  11199: 'Rien d’inhabituel ici.${prompt}'
+  11200: 'La zone résidentielle de San d’Oria est devant. Tu y trouveras ta Maison Mog.${prompt}'
+  11201: 'La zone résidentielle est par là. Direction ta chambre louée, étranger !${prompt}'
+  11202: 'Les Maisons Mog sont bien pratiques. Tu peux y récupérer tes PV et PM, et y entreposer des objets.${prompt}'
   11203: |-
-    You can also change jobs there.
-    All adventurers of San d'Orian citizenship are assigned a Mog House.${prompt}
-  11204: Make yourself at home!${prompt}
-  11205: Hmm... So be it.${prompt}
-  11206: Is there something I can help you with?${prompt}
-  11207: The Mog Houses of the following party members are open to visitation.${prompt}
-  11208: This way, please.${prompt}
+    Tu peux aussi y changer de métier.
+    Tous les aventuriers citoyens de San d’Oria reçoivent une Maison Mog.${prompt}
+  11204: 'Fais comme chez toi !${prompt}'
+  11205: 'Hmm... soit.${prompt}'
+  11206: 'Puis-je faire quelque chose pour vous ?${prompt}'
+  11207: 'Les Maisons Mog des membres suivants de ton groupe sont ouvertes aux visites.${prompt}'
+  11208: 'Par ici, s’il te plaît.${prompt}'
   11209: |-
-    What do you wish to do?
+    Que souhaites-tu faire ?
     ${selection-lines}
-    Nothing in particular.
-    Ask for an explanation of Mog Houses.
-    Visit the Mog House of a party member.${prompt}
+    Rien de particulier.
+    Demander une explication sur les Maisons Mog.
+    Visiter la Mog House d’un membre du groupe.${prompt}
   11210: |-
     Whose Mog House will you visit?
     ${selection-lines}
