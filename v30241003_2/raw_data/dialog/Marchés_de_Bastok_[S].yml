@@ -33437,40 +33437,40 @@ entries:
   14753: 'TB: ${number: 31}${prompt}'
   14754: NPC index out of range.${prompt}
   14755: 'ERROR CODE: ${number: 0} / ${number: 1}${prompt}'
-  14756: You wanna be let in on a little secret? I found some goods of a most...vexing quality. Care for a glimpse?${prompt}
-  14757: These are a bit too precious to trade for just mere gil, but I'd be willing to part with 'em for some Allied Notes.${prompt}
+  14756: Tu veux connaître un petit secret ? J’ai mis la main sur des objets d’une qualité… troublante. Tu veux y jeter un œil ?${prompt}
+  14757: Ils sont bien trop précieux pour être échangés contre de simples gils, mais je pourrais m’en séparer contre quelques Notes d’alliance.${prompt}
   14758: |-
-    Which would you like? (${number: 0} note${choice-plurality: 0}[/s])
+    Lequel t'intéresse ? (${number: 0} note${choice-plurality: 0}[/s])
     ${selection-lines}
-    None for the nonce.
-    ${lettercase: 1}${item-singular: 1[2]}: ${number: 17} note${choice-plurality: 17}[/s].
-    ${lettercase: 1}${item-singular: 2[2]}: ${number: 18} note${choice-plurality: 18}[/s].
-    ${lettercase: 1}${item-singular: 3[2]}: ${number: 19} note${choice-plurality: 19}[/s].
-    ${lettercase: 1}${item-singular: 4[2]}: ${number: 20} note${choice-plurality: 20}[/s].
-    ${lettercase: 1}${item-singular: 5[2]}: ${number: 21} note${choice-plurality: 21}[/s].
-    ${lettercase: 1}${item-singular: 6[2]}: ${number: 22} note${choice-plurality: 22}[/s].
-    ${lettercase: 1}${item-singular: 7[2]}: ${number: 23} note${choice-plurality: 23}[/s].
-    ${lettercase: 1}${item-singular: 8[2]}: ${number: 24} note${choice-plurality: 24}[/s].${prompt}
-  14759: 'Sure ''bout this ${item-singular: 33[2]}?${prompt}'
+    Rien pour le moment.
+    ${lettercase: 1}${item-singular: 1[2]} : ${number: 17} note${choice-plurality: 17}[/s].
+    ${lettercase: 1}${item-singular: 2[2]} : ${number: 18} note${choice-plurality: 18}[/s].
+    ${lettercase: 1}${item-singular: 3[2]} : ${number: 19} note${choice-plurality: 19}[/s].
+    ${lettercase: 1}${item-singular: 4[2]} : ${number: 20} note${choice-plurality: 20}[/s].
+    ${lettercase: 1}${item-singular: 5[2]} : ${number: 21} note${choice-plurality: 21}[/s].
+    ${lettercase: 1}${item-singular: 6[2]} : ${number: 22} note${choice-plurality: 22}[/s].
+    ${lettercase: 1}${item-singular: 7[2]} : ${number: 23} note${choice-plurality: 23}[/s].
+    ${lettercase: 1}${item-singular: 8[2]} : ${number: 24} note${choice-plurality: 24}[/s].${prompt}
+  14759: 'Tu es sûr(e) pour ce ${item-singular: 33[2]} ?${prompt}'
   14760: |-
-    Purchase the ${item-singular: 33[2]}?
+    Acheter le ${item-singular: 33[2]} ?
     ${selection-lines}
-    Let the exchange begin!
-    On second thought, no.${prompt}
+    Que l’échange commence !
+    Finalement, non.${prompt}
   14761: |-
-    Then the deal is sealed!
-    (Hahaha, what a sucker!)${prompt}
-  14762: The merchant who sold 'em to me claimed that you can use 'em to call people to help you in battle. Bah. What fool'd believe in that hocus-pocus?${prompt}
-  14763: You tryin' to cheat me? That's not nearly enough notes!${prompt}
+    L’affaire est conclue !
+    (Hahaha, quel pigeon !)${prompt}
+  14762: Le marchand qui me les a vendus affirmait qu’on pouvait s’en servir pour appeler du renfort en combat. Bah. Qui croirait à ce genre de balivernes ?${prompt}
+  14763: Tu essaies de m’arnaquer ? Tu n’as pas du tout assez de notes !${prompt}
   14764: |-
-    What's that little bundle you've got there?${wait-36: 1}
-    ${lettercase: 1}${keyitem-article: 1[2]}? Never heard of it. Don't know, don't care.${prompt}
-  14765: ${name-player}! Or should I say, ”Mythril Musketeer Zero”! It's good to see you looking so well.${prompt}
-  14766: ${name-player}! Or should I say, “Mythril Musketeer Zero”!${prompt}
-  14767: You've come at the perfect time. Zeid has just returned from a foray in the northern front.${prompt}
-  14768: He's run into a bit of trouble with our adversaries and is seeking information and directives from Captain Klara.${prompt}
-  14769: But something tells me that's not the only reason. Wanna hear what I think?${prompt}
-  14770: Just between the two of us, there's a little magic in the air when those two are together. I don't know what she could see in him...I guess love really is blind!${prompt}
+    C’est quoi ce petit paquet que t’as là ?${wait-36: 1}
+    ${lettercase: 1}${keyitem-article: 1[2]} ? Jamais entendu parler. Et franchement, je m’en fiche.${prompt}
+  14765: ${name-player} ! Ou devrais-je dire « Mousquetaire de Mythril Zéro » ! Ça fait plaisir de te voir en si bonne forme.${prompt}
+  14766: ${name-player} ! Ou devrais-je dire « Mousquetaire de Mythril Zéro » !${prompt}
+  14767: Tu tombes à pic. Zeid vient tout juste de rentrer d’une mission au front nord.${prompt}
+  14768: Il a eu quelques ennuis avec nos ennemis et cherche à obtenir des infos et des ordres du capitaine Klara.${prompt}
+  14769: Mais quelque chose me dit que ce n’est pas la seule raison. Tu veux savoir ce que j’en pense ?${prompt}
+  14770: Juste entre nous, il y a un petit quelque chose dans l’air quand ces deux-là sont ensemble. Je ne sais pas ce qu’elle lui trouve… L’amour rend vraiment aveugle !${prompt}
   14771: |-
     What's your opinion?
     ${selection-lines}
