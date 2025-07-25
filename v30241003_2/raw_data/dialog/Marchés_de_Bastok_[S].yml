@@ -23349,15 +23349,15 @@ entries:
     Dancer.
     Zazarg.
     Quit.${prompt}
-  10830: Port Bastok is strictly off-limits to all but authorized personnel.${prompt}
-  10831: However, if you wish to travel to North Gustaberg, you may use the Republic's supply causeway.${prompt}
+  10830: L'accès au port de Bastok est strictement réservé au personnel autorisé.${prompt}
+  10831: Toutefois, si vous souhaitez vous rendre à Gustaberg Nord, vous pouvez emprunter le passage de ravitaillement de la République.${prompt}
   10832: |-
-    Cross the bridge?
+    Traverser le pont ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  10833: 'Test: Besieged ON.${prompt}'
-  10834: 'Test: Besieged OFF.${prompt}'
+    Oui.
+    Non.${prompt}
+  10833: 'Test : Assaut activé.${prompt}'
+  10834: 'Test : Assaut désactivé.${prompt}'
   10835: |-
     The minstrel of melodies is my name,
     For a mere ${number: 6} gil I'll recall your past.
@@ -24477,37 +24477,37 @@ entries:
   11237: You can rent a chocobo, but because your level is so low, you won't be able to ride for very long. Also, equipment that extends your riding time will have no effect.${prompt}
   11238: 'If you still want one, it will cost you ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
   11239: |-
-    Do you wish to rent a chocobo?
+    Souhaitez-vous louer un chocobo ?
     ${selection-lines}
-    Yes, I do.
-    No, thank you.${prompt}
-  11240: You don't have enough gil.${prompt}
+    Oui.
+    Non, merci.${prompt}
+  11240: Vous n'avez pas assez de gil.${prompt}
   11241: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back after sorting your inventory.${prompt}
-  11242: 'Would you be so kind as to deliver her to ${choice: 3}[the entrance to the Gustav Tunnel (B-8)/Bibiki Bay (G-10)/the entrance of Uggalepih Temple (J-11)]?${prompt}'
+    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
+    Revenez une fois votre inventaire trié.${prompt}
+  11242: 'Pourriez-vous avoir l’amabilité de la livrer à ${choice: 3}[l’entrée du tunnel de Gustav (B-8)/Bibiki Bay (G-10)/l’entrée du temple d’Uggalepih (J-11)] ?${prompt}'
   11243: |-
-    Only those fulfilling both requirements set forth by the alliance may ride a chocobo.
-    First, you must be a soldier of a respectable level in the Allied Forces. Secondly, you must be in possession of ${keyitem-article: 7[2]}.${prompt}
+    Seuls ceux qui remplissent les deux conditions fixées par l’alliance peuvent monter un chocobo.
+    Premièrement, vous devez être un soldat de niveau suffisant dans les Forces alliées. Deuxièmement, vous devez posséder ${keyitem-article: 7[2]}.${prompt}
   11244: |-
-    Any of our fine birds here will bear you directly to the frontlines of battle.
-    We charge a service fee of ${number: 0} Allied Notes, which goes towards seeing that the chocobos are well taken care of.
-    My records indicate that you currently have ${number: 1} Allied Notes.${prompt}
+    N’importe lequel de nos vaillants chocobos vous mènera directement au front.
+    Nous demandons une contribution de ${number: 0} Points alliés, servant à bien les nourrir et les soigner.
+    Selon nos registres, vous possédez actuellement ${number: 1} Points alliés.${prompt}
   11245: |-
-    Hmmm... It looks like you don't have enough Allied Notes.
-    Sorry, but these birds aren't going to feed and groom themselves.${prompt}
-  11246: ${name-player}, if I'm not mistaken. We appreciate your assistance in the expansion of our provision storehouses.${prompt}
+    Hmmm... Il semble que vous n’ayez pas assez de Points alliés.
+    Désolé, mais ces chocobos ne vont pas se nourrir ni se toiletter tout seuls.${prompt}
+  11246: ${name-player}, si je ne me trompe pas. Merci pour votre aide dans l’agrandissement de nos entrepôts de ravitaillement.${prompt}
   11247: |-
-    Your chocobo is already saddled up and loaded with the construction materials.
-    To which stronghold will you be delivering?${prompt}
+    Votre chocobo est déjà sellé et chargé de matériaux de construction.
+    À quel bastion allez-vous livrer ?${prompt}
   11248: |-
-    Deliver to which stronghold?
+    Livrer à quel bastion ?
     ${selection-lines}
-    East Ronfaure.
-    Jugner Forest.
-    Vunkerl Inlet.
-    Batallia Downs.
-    I need to replan.${prompt}
+    Ronfaure Est.
+    Forêt de Jugner.
+    Détroit de Vunkerl.
+    Bas-fonds de Batallia.
+    Je dois replanifier.${prompt}
   11249: |-
     Deliver to which stronghold?
     ${selection-lines}
@@ -27028,42 +27028,42 @@ entries:
   12356: 'Rank 2 quota: 3 objects.${prompt}'
   12357: 'Rank 3 quota: 5 objects.${prompt}'
   12358: 'Endless: No end to garbage.${prompt}'
-  12359: Ready......GARBAGE!${prompt}
-  12360: You have met your quota. Good job, garbage ${choice-player-gender}[boy/chick]!${prompt}
-  12361: Well met! I am ${name-npc} of the Royal Knights.${prompt}
-  12362: I am Iron Musketeer ${name-npc}.${prompt}
-  12363: Tally-ho! Caster Captain ${name-npc}, at your service!${prompt}
-  12364: Ah, I see that you are not a member of the Allied Forces. Move along, civilian.${prompt}
+  12359: Prêt......POUBELLE !${prompt}
+  12360: Tu as atteint ton quota. Beau travail, espèce de ${choice-player-gender}[gars/fille] poubelle !${prompt}
+  12361: Enchanté ! Je suis ${name-npc} des Chevaliers Royaux.${prompt}
+  12362: Je suis le Mousquetaire de Fer ${name-npc}.${prompt}
+  12363: En avant ! Capitaine des lanceurs ${name-npc}, à votre service !${prompt}
+  12364: Ah, je vois que vous n’êtes pas membre des Forces Alliées. Circulez, civil.${prompt}
   12365: |-
-    What do you require?
+    Que désirez-vous ?
     ${selection-lines}
-    The Allied Sigil.
-    Info on the Allied Sigil.
-    Duration of the Allied Sigil.
-    Item exchange.
-    Nothing.${prompt}
+    Le Sceau des Alliés.
+    Infos sur le Sceau des Alliés.
+    Durée du Sceau des Alliés.
+    Échange d’objets.
+    Rien.${prompt}
   12366: |-
-    Choose an option for ${number: 8} Allied Note${choice-plurality: 8}[/s]?
+    Choisissez une option pour ${number: 8} Point${choice-plurality: 8} allié${choice-plurality: 8} :
     ${selection-lines}
-    No.
-    Regen.
-    Refresh.
-    Increased meal duration.
-    Next page.${prompt}
+    Non.
+    Régénération.
+    Restauration.
+    Durée prolongée des repas.
+    Page suivante.${prompt}
   12367: |-
-    Choose an option for ${number: 9} Allied Note${choice-plurality: 9}[/s]?
+    Choisissez une option pour ${number: 9} Point${choice-plurality: 9} allié${choice-plurality: 9} :
     ${selection-lines}
-    Return.
-    Decreased EXP loss.${prompt}
+    Retour.
+    Perte d’EXP réduite.${prompt}
   12368: |-
-    Add another option for ${number: 8} Allied Note${choice-plurality: 8}[/s]?
+    Ajouter une autre option pour ${number: 8} Point${choice-plurality: 8} allié${choice-plurality: 8} ?
     ${selection-lines}
-    Start over.
-    Regen.
-    Refresh.
-    Increased meal duration.
-    Next page.
-    No.${prompt}
+    Recommencer.
+    Régénération.
+    Restauration.
+    Durée prolongée des repas.
+    Page suivante.
+    Non.${prompt}
   12369: 'Understood. Let me make the preparations.${wait-animation: 0}${prompt}'
   12370: You have received the Allied Sigil!${prompt}
   12371: You receive the latent effect of Regen!${prompt}
