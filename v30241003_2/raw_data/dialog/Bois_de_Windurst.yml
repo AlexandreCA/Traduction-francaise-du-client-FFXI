@@ -31908,33 +31908,33 @@ entries:
     No.${prompt}
   14414: '${color-alt: 138}You have joined ${choice: 0}[Pieuje''s/Ayame''s/Invincible Shield''s/Apururu''s/Maat''s/Aldo''s/Jakoh Wahcondalo''s/Naja Salaheem''s/Flaviria''s/Yoran-Oran''s/Sylvie''s] Unity!'
   14415: |-
-    Any actions to take?
+    Que veux-tu faire ?
     ${selection-lines}
-    None at the moment.
-    Bring me to a Wanted encounter area.
-    Enhance my equipment.${choice: 6}[/ (In progress)]
-    Add an attribute to enhanced equipment.
-    Items, please. (Up to ${number: 17} acc.)
-    Special mats! (Up to ${number: 17} acc.)
-    I want to change Unities.
-    Tell me more about all this.${prompt}
+    Rien pour l’instant.
+    Emmène-moi à une zone « Recherché ».
+    Améliorer mon équipement.${choice: 6}[/ (En cours)]
+    Ajouter un attribut à un équipement.
+    Objets (jusqu’à ${number: 17} dist.)
+    Matériaux spéciaux ! (Jusqu’à ${number: 17} distinctions)
+    Changer d’unité.
+    En savoir plus sur tout ça.${prompt}
   14416: |-
-    Which area?
+    Quelle zone ?
     ${selection-lines}
-    Return to previous selection.
-    Currently accepted area.
-    Content level 99 and below.
-    Content level 119.
-    Content level 122.
-    Content level 125.
-    Content level 128.
-    Content level 135.
-    Content level 145.
-    Content level 137.${prompt}
+    Revenir au menu précédent.
+    Zone actuellement sélectionnée.
+    Contenu de niveau 99 ou moins.
+    Contenu de niveau 119.
+    Contenu de niveau 122.
+    Contenu de niveau 125.
+    Contenu de niveau 128.
+    Contenu de niveau 135.
+    Contenu de niveau 145.
+    Contenu de niveau 137.${prompt}
   14417: |-
-    Go to which area?
+    Aller dans quelle zone ?
     ${selection-lines}
-    Return to previous selection.
+    Revenir au menu précédent.
     ${zone: 0[2]}.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
@@ -31943,45 +31943,45 @@ entries:
     ${zone: 5[2]}.
     ${zone: 6[2]}.
     ${zone: 7[2]}.
-    Next page.${prompt}
+    Page suivante.${prompt}
   14418: |-
-    Go to ${zone: 0[2]}? (${number: 2} acc.)
+    Se rendre à ${zone: 0[2]} ? (${number: 2} distinctions)
     ${selection-lines}
-    Yes. (Cost: ${number: 1} accolade${choice-plurality: 1}[/s])
-    Not now.${prompt}
+    Oui. (Coût : ${number: 1} distinction${choice-plurality: 1})
+    Pas maintenant.${prompt}
   14419: |-
-    Hear an explanation on which topic?
+    Quelle explication souhaites-tu entendre ?
     ${selection-lines}
-    Return to previous selection.
-    Give me a quick outline.
-    Unity Concord.
-    Unities.
-    Unity chat.
-    Connection with Records of Eminence.
-    Wanted battles.
-    Enhancing equipment.
-    Adding attributes to enhanced equipment.
-    Rewards and accolades.
-    Changing Unities.
-    Unity rankings.
-    Unity leader alter egos.${prompt}
+    Revenir au menu précédent.
+    Donne-moi un résumé rapide.
+    Accord d’Unité.
+    Les Unités.
+    Discussions d’unité.
+    Lien avec les Hauts Faits.
+    Combats « Recherché ».
+    Amélioration d’équipement.
+    Ajout d’attributs à l’équipement amélioré.
+    Récompenses et distinctions.
+    Changer d’unité.
+    Classement des unités.
+    Compagnons des chefs d’unité.${prompt}
   14420: |-
-    Select a type of equipment.
+    Choisis un type d’équipement.
     ${selection-lines}
-    Return to previous selection.
-    Item level 119 weapons/shields.
-    Item level 119 headgear.
-    Item level 119 chestgear.
-    Item level 119 handgear.
-    Item level 119 leggear.
-    Item level 119 footgear.
-    Level 99 equipment.
-    Level 98 and lower equipment.
-    Accessories.${prompt}
+    Revenir à la sélection précédente.
+    Armes/boucliers de niveau 119.
+    Casques de niveau 119.
+    Plastrons de niveau 119.
+    Gants de niveau 119.
+    Pantalons de niveau 119.
+    Bottes de niveau 119.
+    Équipement de niveau 99.
+    Équipement de niveau 98 ou inférieur.
+    Accessoires.${prompt}
   14421: |-
-    Which piece of equipment?
+    Quel équipement ?
     ${selection-lines}
-    Return to previous selection.
+    Revenir à la sélection précédente.
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
@@ -31990,11 +31990,11 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Next page.${prompt}
+    Page suivante.${prompt}
   14422: |-
-    Select an item category.
+    Choisis une catégorie d’objets.
     ${selection-lines}
-    Return to previous selection.
+    Revenir à la sélection précédente.
     　
     　
     　
@@ -32164,30 +32164,30 @@ entries:
   14539: |-
     Voices from the past...
     <Ahem> From your Unity compatriots.${prompt}
-  14540: Surely others like you have been called to action. Why not try communicataruing with them?${prompt}
-  14541: Yonolala, if you please.${prompt}
-  14542: Of course, Teleledro....leldorobo.${prompt}
-  14543: <Ahem> Go on.${prompt}
-  14544: Choose your future by selectaruing “Unity Information” in the “Unity” submenu under “Status.”${prompt}
-  14545: I can see...I can see you returning to this very spot with any Unity-related questions-westions you may have.${prompt}
-  14546: It is known.${prompt}
-  14547: Ah, valorous spiritaru. Need any information on Unity Concord?
-  14548: 'To ${zone: 0[2]} with you! One..two...and...${prompt}'
-  14549: Here we gooooooooo!${prompt}
-  14550: Perhaps your bonds aren't as strong as you think-wink they are...${prompt}
-  14551: (He means that you don't have enough accolade-wades!)${prompt}
-  14552: Oh, dear...your bond-wonds have reached the breaking point.${prompt}
-  14553: (That means you've used all your accolades for this week!)${prompt}
-  14554: Ah, it's coming to me...!${prompt}
-  14555: A vision!${prompt}
-  14556: 'Altana...er, our artisan will see fit to bring you ${article} ${item-article: 0[2]} in exchange for ${article} ${item-article: 4[2]} and ${number: 2} ${item-given-plurality: 2[2], 1[2]}.${prompt}'
-  14557: 'And a fee-wee of ${number: 3} accolade${choice-plurality: 3}[/s]!${prompt}'
-  14558: The powers that be are fickle-wickle things, so it will take some time for your piece to be ready.${prompt}
-  14559: 'Ah, but waitaru! You already have a request for ${article} ${item-article: 0[2]} pending! Tempt not fataru with another!${prompt}'
-  14560: I feel-weel as if this is a revelation from Altana herself!${prompt}
-  14561: Incredible!${prompt}
-  14562: I sense immense power...${prompt}
-  14563: Is ready to reveal-weveal itself!${prompt}
+  14540: D’autres aventuriers comme toi ont sûrement été appelés à l’action. Pourquoi ne pas essayer d’entrer en contact avec eux ?${prompt}
+  14541: Yonolala, s’il te plaît.${prompt}
+  14542: Bien sûr, Teleledro... leldorobo.${prompt}
+  14543: <Ahem> Vas-y, je t’en prie.${prompt}
+  14544: Choisis ton avenir en sélectionnant « Informations sur l’unité » dans le sous-menu « Unité » du menu « Statut ».${prompt}
+  14545: Je vois... Je te vois revenir ici même avec toutes tes questions sur l’Unité.${prompt}
+  14546: C’est bien connu.${prompt}
+  14547: Ah, valeureux esprit. Besoin d’informations sur l’Accord d’Unité ?
+  14548: 'En route pour ${zone: 0[2]} ! Un… deux… et…${prompt}'
+  14549: Et c’est partiiiiii !${prompt}
+  14550: Peut-être que tes liens ne sont pas aussi forts que tu le crois…${prompt}
+  14551: (Il veut dire que tu n’as pas assez de distinctions !)${prompt}
+  14552: Oh non… Tes liens ont atteint leur point de rupture.${prompt}
+  14553: (Cela signifie que tu as utilisé toutes tes distinctions pour cette semaine !)${prompt}
+  14554: Ah, ça me revient… !${prompt}
+  14555: Une vision !${prompt}
+  14556: 'Altana… euh, notre artisan estimé acceptera de te fabriquer ${article} ${item-article: 0[2]} en échange de ${article} ${item-article: 4[2]} et de ${number: 2} ${item-given-plurality: 2[2], 1[2]}.${prompt}'
+  14557: 'Et contre une modeste contribution de ${number: 3} distinction${choice-plurality: 3} !${prompt}'
+  14558: Les puissances qui régissent ce monde sont capricieuses… Il faudra donc un peu de temps avant que ton objet soit prêt.${prompt}
+  14559: 'Ah, mais attends ! Une commande pour ${article} ${item-article: 0[2]} est déjà en cours ! Ne tente pas le destin avec une autre !${prompt}'
+  14560: J’ai l’étrange impression que cela vient directement d’Altana !${prompt}
+  14561: Incroyable !${prompt}
+  14562: Je ressens une puissance immense…${prompt}
+  14563: Elle est prête à se révéler !${prompt}
   14564: 'In order to unlock the excellentaru power of your ${item-singular: 0[2]}, you will need ${article} ${item-article: 1[2]}.${prompt}'
   14565: 'Once its power is fused-wused with ${article} ${item-article: 3[2]}, I foresee a great and shining light!${prompt}'
   14566: 'First, I require a small fee-wee of ${number: 2} accolade${choice-plurality: 2}[/s].${prompt}'
