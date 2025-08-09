@@ -1,4 +1,4 @@
-bytes_per_entry: 256
+bytes_per_list: 256
 flip_bytes: false
 lists:
   0:
@@ -180,7 +180,7 @@ lists:
   88:
   - string: 'Les dégâts varient avec le TP. Attributs de chaîne de compétences : Distorsion, Détonation'
   89:
-  - string: 'Réduit la défense de la cible. Abaddon Killer/Bravura : Réduction temporaire des dégâts reçus des ennemis. Attributs de chaîne de compétences : Lumière, Fusion' 
+  - string: 'Réduit la défense de la cible. Abaddon Killer/Bravura : Réduction temporaire des dégâts reçus des ennemis. Attributs de chaîne de compétences : Lumière, Fusion'
   90:
   - string: 'Inflige une attaque triple. Les dégâts varient avec le TP. Conqueror : L''effet Aftermath varie avec le TP. Attributs de chaîne de compétences : Fragmentation, Scission'
   91:
@@ -258,159 +258,159 @@ lists:
   127:
   - string: .
   128:
-  - string: 'Deals critical damage. Chance of critical hit varies with TP. Skillchain attribute: Transfixion'
+  - string: 'Inflige des dégâts critiques. La chance de coup critique varie avec le TP. Attribut de chaîne de compétence : Transfixion'
   129:
-  - string: 'Delivers a twofold attack that paralyzes target. Duration of paralysis varies with TP. Skillchain attribute: Scission'
+  - string: 'Effectue une double attaque qui paralyse la cible. La durée de la paralysie varie avec le TP. Attribut de chaîne de compétence : Scission'
   130:
-  - string: 'Deals water elemental damage. Damage varies with TP. Skillchain attribute: Reverberation'
+  - string: 'Inflige des dégâts élémentaires eau. Les dégâts varient avec le TP. Attribut de chaîne de compétence : Réverbération'
   131:
-  - string: 'Deals ice elemental damage. Damage varies with TP. Skillchain attributes: Induration, Detonation'
+  - string: 'Inflige des dégâts élémentaires glace. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Induration, Détonation'
   132:
-  - string: 'Delivers a twofold attack that deals earth elemental damage. Damage varies with TP. Skillchain attributes: Transfixion, Impaction'
+  - string: 'Effectue une double attaque infligeant des dégâts élémentaires terre. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Transfixion, Impaction'
   133:
-  - string: 'Deals darkness elemental damage. Damage varies with TP. Skillchain attribute: Compression'
+  - string: 'Inflige des dégâts élémentaires ténèbres. Les dégâts varient avec le TP. Attribut de chaîne de compétence : Compression'
   134:
-  - string: 'Delivers a threefold attack. Chance of critical hit varies with TP. Skillchain attributes: Detonation, Impaction'
+  - string: 'Effectue une triple attaque. La chance de coup critique varie avec le TP. Attributs de chaîne de compétence : Détonation, Impaction'
   135:
-  - string: 'Damage varies with TP. Skillchain attribute: Gravitation'
+  - string: 'Les dégâts varient avec le TP. Attribut de chaîne de compétence : Gravitation'
   136:
-  - string: 'Delivers a fivefold attack. Accuracy varies with TP. Skillchain attributes: Gravitation, Transfixion'
+  - string: 'Effectue une attaque quintuplée. La précision varie avec le TP. Attributs de chaîne de compétence : Gravitation, Transfixion'
   137:
-  - string: 'Yoshimitsu/Kikoku: Temporarily enhances Subtle Blow effect. Skillchain attributes: Dark, Fragmentation'
+  - string: 'Yoshimitsu/Kikoku : Améliore temporairement l’effet Coup Subtil. Attributs de chaîne de compétence : Ténèbres, Fragmentation'
   138:
-  - string: 'Lowers target''s accuracy. Duration of effect varies with TP. Nagi: Aftermath effect varies with TP. Skillchain attributes: Fragmentation, Compression'
+  - string: 'Réduit la précision de la cible. La durée de l’effet varie avec le TP. Nagi : L’effet post-effet varie avec le TP. Attributs de chaîne de compétence : Fragmentation, Compression'
   139:
-  - string: 'Delivers water elemental damage. Additional effect: Poison. Duration of effect varies with TP. Skillchain attributes: Reverberation, Scission'
+  - string: 'Inflige des dégâts élémentaires eau. Effet supplémentaire : poison. La durée de l’effet varie avec le TP. Attributs de chaîne de compétence : Réverbération, Scission'
   140:
-  - string: 'Deals quintuple damage. Chance of critical hit varies with TP. Kannagi: Aftermath. Skillchain attributes: Dark, Gravitation'
+  - string: 'Inflige des dégâts quintuplés. La chance de coup critique varie avec le TP. Kannagi : Post-effet. Attributs de chaîne de compétence : Ténèbres, Gravitation'
   141:
-  - string: 'Delivers a fivefold attack. Damage varies with TP. Heishi Shorinken: Aftermath effect varies with TP. Skillchain attributes: Fusion, Impaction. Heishi Shorinken: Fusion, Impaction, Light'
+  - string: 'Effectue une attaque quintuplée. Dégâts et post-effet Heishi Shorinken varient avec le TP. Attributs : Fusion, Impaction, Lumière'
   142:
-  - string: 'Delivers a fourfold attack. Damage varies with TP. Skillchain attributes: Induration, Reverberation, Fusion. Dokoku: Aftermath effect varies with TP.'
+  - string: 'Effectue une attaque quadruplée. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Induration, Réverbération, Fusion. Dokoku : Effet post-effet varie avec le TP.'
   143:
   - string: .
   144:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attributes: Transfixion, Scission'
+  - string: 'Effectue une double attaque. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Transfixion, Scission'
   145:
-  - string: 'Stuns target. Chance of stunning varies with TP. Skillchain attribute: Induration'
+  - string: 'Étourdit la cible. La chance d’étourdissement varie avec le TP. Attribut de chaîne de compétence : Induration'
   146:
-  - string: 'Deals lightning elemental damage. Damage varies with TP. Skillchain attributes: Transfixion, Impaction'
+  - string: 'Inflige des dégâts élémentaires foudre. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Transfixion, Impaction'
   147:
-  - string: 'Deals fire elemental damage. Damage varies with TP. Skillchain attribute: Liquefaction'
+  - string: 'Inflige des dégâts élémentaires feu. Les dégâts varient avec le TP. Attribut de chaîne de compétence : Liquéfaction'
   148:
-  - string: 'Delivers a twofold attack that deals wind elemental damage. Damage varies with TP. Skillchain attributes: Scission, Detonation'
+  - string: 'Effectue une double attaque infligeant des dégâts élémentaires vent. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Scission, Détonation'
   149:
-  - string: 'Deals light elemental damage. Damage varies with TP. Skillchain attributes: Reverberation, Impaction'
+  - string: 'Inflige des dégâts élémentaires lumière. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Réverbération, Impaction'
   150:
-  - string: 'Blinds target. Damage varies with TP. Skillchain attributes: Induration, Detonation'
+  - string: 'Aveugle la cible. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Induration, Détonation'
   151:
-  - string: 'Silences target. Damage varies with TP. Skillchain attributes: Distortion, Reverberation'
+  - string: 'Silence la cible. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Distorsion, Réverbération'
   152:
-  - string: 'Paralyzes target. Damage varies with TP. Skillchain attributes: Fusion, Compression'
+  - string: 'Paralyse la cible. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Fusion, Compression'
   153:
-  - string: 'Totsukanotsurugi/Amanomurakumo: Temporarily increases amount of TP stored with each hit. Skillchain attributes: Light, Fragmentation'
+  - string: 'Totsukanotsurugi/Amanomurakumo : Augmente temporairement la quantité de TP accumulée à chaque coup. Attributs de chaîne de compétence : Lumière, Fragmentation'
   154:
-  - string: 'Delivers a threefold attack. Accuracy varies with TP. Kogarasumaru: Aftermath effect varies with TP. Skillchain attributes: Gravitation, Induration'
+  - string: 'Effectue une triple attaque. La précision varie avec le TP. Kogarasumaru : Effet post-effet varie avec le TP. Attributs de chaîne de compétence : Gravitation, Induration'
   155:
-  - string: 'Lowers target''s defense. Chance of lowering target''s defense varies with TP. Skillchain attributes: Compression, Scission'
+  - string: 'Réduit la défense de la cible. La chance de réduction varie avec le TP. Attributs de chaîne de compétence : Compression, Scission'
   156:
-  - string: 'Deals double damage. Damage varies with TP. Masamune: Aftermath. Skillchain attributes: Light, Distortion'
+  - string: 'Inflige des dégâts doublés. Les dégâts varient avec le TP. Masamune : Post-effet. Attributs de chaîne de compétence : Lumière, Distorsion'
   157:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Dojikiri Yasutsuna: Aftermath effect varies with TP. Skillchain attributes: Frag., Compression. Dojikiri Yasutsuna: Frag., Compression, Light'
+  - string: 'Effectue une double attaque. Les dégâts varient avec le TP. Dojikiri Yasutsuna : Effet post-effet varie avec le TP. Attributs : Fragmentation, Compression. Dojikiri Yasutsuna : Fragmentation, Compression, Lumière'
   158:
-  - string: 'Number of watermelons sliced varies with TP. Skillchain attributes: Fusion.'
+  - string: 'Nombre de pastèques tranchées varie avec le TP. Attributs de chaîne de compétence : Fusion.'
   159:
-  - string: 'Damage varies with TP. Skillchain attributes: Detonation, Compression, Distortion. Kusanagi: Aftermath effect varies with TP.'
+  - string: 'Les dégâts varient avec le TP. Attributs de chaîne de compétence : Détonation, Compression, Distorsion. Kusanagi : Effet post-effet varie avec le TP.'
   160:
-  - string: 'Deals light elemental damage. Damage varies with TP. Skillchain attribute: Impaction'
+  - string: 'Inflige des dégâts élémentaires lumière. Les dégâts varient avec le TP. Attribut de chaîne de compétence : Impaction'
   161:
-  - string: 'Deals light elemental damage. Damage varies with TP. Skillchain attribute: Impaction'
+  - string: 'Inflige des dégâts élémentaires lumière. Les dégâts varient avec le TP. Attribut de chaîne de compétence : Impaction'
   162:
-  - string: 'Stuns target. Chance of stunning varies with TP. Skillchain attribute: Reverberation'
+  - string: 'Étourdit la cible. La chance d’étourdissement varie avec le TP. Attribut de chaîne de compétence : Réverbération'
   163:
-  - string: Restores MP. Amount restored varies with TP.
+  - string: 'Restaure les PM. La quantité restaurée varie avec le TP.'
   164:
-  - string: Restores MP for party members in range. Amount restored varies with TP.
+  - string: 'Restaure les PM des membres du groupe à portée. La quantité restaurée varie avec le TP.'
   165:
-  - string: 'Lowers target''s INT. Chance of lowering INT varies with TP. Skillchain attributes: Induration, Reverberation'
+  - string: 'Réduit l’INT de la cible. La chance de réduction varie avec le TP. Attributs de chaîne de compétence : Induration, Réverbération'
   166:
-  - string: 'Deals critical damage. Accuracy varies with TP. Skillchain attributes: Detonation, Impaction'
+  - string: 'Inflige des dégâts critiques. La précision varie avec le TP. Attributs de chaîne de compétence : Détonation, Impaction'
   167:
-  - string: 'Damage varies with TP. Skillchain attribute: Impaction'
+  - string: 'Les dégâts varient avec le TP. Attribut de chaîne de compétence : Impaction'
   168:
-  - string: 'Delivers a sixfold attack. Chance of critical hit varies with TP. Skillchain attribute: Fusion'
+  - string: 'Effectue une attaque six fois. La chance de coup critique varie avec le TP. Attribut de chaîne de compétence : Fusion'
   169:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attributes: Fragmentation, Compression'
+  - string: 'Effectue une double attaque. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Fragmentation, Compression'
   170:
-  - string: 'Lower''s target''s evasion. Gullintani/Mjollnir: Temporarily improves accuracy. Skillchain attributes: Light, Fragmentation'
+  - string: 'Réduit l’esquive de la cible. Gullintani/Mjollnir : Améliore temporairement la précision. Attributs de chaîne de compétence : Lumière, Fragmentation'
   171:
-  - string: 'Converts damage dealt to own MP. Damage varies with TP. Yagrush: Aftermath effect varies with TP.'
+  - string: 'Convertit les dégâts infligés en PM. Les dégâts varient avec le TP. Yagrush : Effet post-effet varie avec le TP.'
   172:
-  - string: 'Delivers light elemental damage. Additional effect: Flash. Chance of effect varies with TP. Skillchain attributes: Induration, Reverberation'
+  - string: 'Inflige des dégâts élémentaires lumière. Effet supplémentaire : aveuglement. La chance d’effet varie avec le TP. Attributs de chaîne de compétence : Induration, Réverbération'
   173:
-  - string: 'Restores HP and MP. Amount restored varies with TP. Gambanteinn: Aftermath.'
+  - string: 'Restaure PV et PM. La quantité restaurée varie avec le TP. Gambanteinn : Post-effet.'
   174:
-  - string: 'Delivers a sevenfold attack. Accuracy varies with TP. Tishtrya: Aftermath effect varies with TP. Skillchain attributes: Fusion, Impaction. Tishtrya: Fusion, Impaction, Light'
+  - string: 'Effectue une attaque septuple. La précision varie avec le TP. Tishtrya : Effet post-effet varie avec le TP. Attributs de chaîne de compétence : Fusion, Impaction. Tishtrya : Fusion, Impaction, Lumière'
   175:
-  - string: 'Attack varies with TP. Idris: Aftermath effect varies with TP. Skillchain attributes: Dark, Fragmentation'
+  - string: 'L’attaque varie avec le TP. Idris : Effet post-effet varie avec le TP. Attributs de chaîne de compétence : Ténèbres, Fragmentation'
   176:
-  - string: 'Damage varies with TP. Skillchain attribute: Impaction'
+  - string: 'Les dégâts varient avec le TP. Attribut de chaîne de compétence : Impaction'
   177:
-  - string: 'Deals earth elemental damage. Damage varies with TP. Skillchain attribute: Impaction'
+  - string: 'Inflige des dégâts élémentaires terre. Les dégâts varient avec le TP. Attribut de chaîne de compétence : Impaction'
   178:
-  - string: 'Delivers an area attack that deals earth elemental damage. Damage varies with TP. Skillchain attributes: Detonation, Impaction'
+  - string: 'Effectue une attaque de zone infligeant des dégâts élémentaires terre. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Détonation, Impaction'
   179:
-  - string: 'Deals light or darkness elemental damage. Damage varies with TP. Skillchain attributes: Compression, Reverberation'
+  - string: 'Inflige des dégâts élémentaires lumière ou ténèbres. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Compression, Réverbération'
   180:
-  - string: 'Deals light or darkness elemental damage. Damage varies with TP. Skillchain attributes: Compression, Reverberation'
+  - string: 'Inflige des dégâts élémentaires lumière ou ténèbres. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Compression, Réverbération'
   181:
-  - string: 'Lowers target''s defense. Duration of effect varies with TP. Skillchain attribute: Detonation'
+  - string: 'Réduit la défense de la cible. La durée de l’effet varie avec le TP. Attribut de chaîne de compétence : Détonation'
   182:
-  - string: 'Damage varies with TP. Skillchain attributes: Liquefaction, Impaction'
+  - string: 'Les dégâts varient avec le TP. Attributs de chaîne de compétence : Liquéfaction, Impaction'
   183:
-  - string: Converts damage dealt to own MP. Damage varies with TP.
+  - string: 'Convertit les dégâts infligés en PM. Les dégâts varient avec le TP.'
   184:
-  - string: 'Damage varies with TP. Skillchain attributes: Gravitation, Reverberation'
+  - string: 'Les dégâts varient avec le TP. Attributs de chaîne de compétence : Gravitation, Réverbération'
   185:
-  - string: 'Lowers target''s attack. Thyrus/Claustrum: Refresh. Skillchain attributes: Dark, Distortion'
+  - string: 'Réduit l’attaque de la cible. Thyrus/Claustrum : Régénération. Attributs de chaîne de compétence : Ténèbres, Distorsion'
   186:
-  - string: 'Lowers target''s magic defense. Duration of effect varies with TP. Laevateinn: Aftermath effect varies with TP. Skillchain attributes: Fragmentation, Distortion'
+  - string: 'Réduit la défense magique de la cible. La durée de l’effet varie avec le TP. Laevateinn : Effet post-effet varie avec le TP. Attributs de chaîne de compétence : Fragmentation, Distorsion'
   187:
-  - string: 'Lowers target''s defense. Duration of effect varies with TP. Nirvana: Aftermath effect varies with TP. Skillchain attributes: Fusion, Reverberation'
+  - string: 'Réduit la défense de la cible. La durée de l’effet varie avec le TP. Nirvana : Effet post-effet varie avec le TP. Attributs de chaîne de compétence : Fusion, Réverbération'
   188:
-  - string: 'Lowers target''s magic attack. Duration of effect varies with TP. Tupsimati: Aftermath effect varies with TP. Skillchain attributes: Gravitation, Transfixion'
+  - string: 'Réduit l’attaque magique de la cible. La durée de l’effet varie avec le TP. Tupsimati : Effet post-effet varie avec le TP. Attributs de chaîne de compétence : Gravitation, Transfixion'
   189:
-  - string: 'Delivers an area attack that deals darkness elemental damage. Damage varies with TP. Skillchain attributes: Compression, Reverberation'
+  - string: 'Effectue une attaque de zone infligeant des dégâts élémentaires ténèbres. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Compression, Réverbération'
   190:
-  - string: 'Restores MP and removes status ailments. Amount of MP restored varies with TP. Hvergelmir: Aftermath.'
+  - string: 'Restaure les PM et enlève les altérations d’état. La quantité restaurée varie avec le TP. Hvergelmir : Effet post-effet.'
   191:
-  - string: 'Delivers a 3x attack that lowers target''s mag. def. Duration varies with TP. Khatvanga: Aftermath effect varies with TP. Skillchain att.: Grav., Induration. Khatvanga: Grav., Induration, Dark'
+  - string: 'Attaque triple réduisant la défense magique. Durée et post-effet Khatvanga varient avec le TP. Attributs : Gravitation, Induration, Ténèbres'
   192:
-  - string: 'Deals fire elemental damage. Damage varies with TP. Skillchain attributes: Liquefaction, Transfixion'
+  - string: 'Inflige des dégâts élémentaires feu. Les dégâts varient avec le TP. Attributs : Liquéfaction, Transfixion'
   193:
-  - string: 'Delivers an attack that ignores target''s defense. Amount ignored varies with TP. Skillchain attributes: Reverberation, Transfixion'
+  - string: 'Effectue une attaque ignorant la défense de la cible. Le montant ignoré varie avec le TP. Attributs : Réverbération, Transfixion'
   194:
-  - string: 'Deals critical damage and lowers target''s INT. Chance of critical hit varies with TP. Skillchain attributes: Liquefaction, Transfixion'
+  - string: 'Inflige des dégâts critiques et réduit l’INT de la cible. La chance de coup critique varie avec le TP. Attributs : Liquéfaction, Transfixion'
   195:
   - string: .
   196:
-  - string: 'Delivers an inaccurate attack that deals quintuple damage. Accuracy varies with TP. Skillchain attributes: Reverberation, Transfixion, Detonation'
+  - string: 'Effectue une attaque imprécise infligeant des dégâts quintuplés. La précision varie avec le TP. Attributs de chaîne de compétence : Réverbération, Transfixion, Détonation.'
   197:
-  - string: 'Delivers a short-ranged twofold attack. Accuracy varies with TP. Skillchain attributes: Induration, Transfixion'
+  - string: 'Effectue une double attaque à courte portée. La précision varie avec le TP. Attributs de chaîne de compétence : Induration, Transfixion.'
   198:
-  - string: 'Deals critical damage. Chance of critical hit varies with TP. Skillchain attribute: Fusion'
+  - string: 'Inflige des dégâts critiques. La probabilité de coup critique varie avec le TP. Attribut de chaîne de compétence : Fusion.'
   199:
-  - string: 'Damage varies with TP. Skillchain attributes: Fusion, Transfixion'
+  - string: 'Les dégâts varient avec le TP. Attributs de chaîne de compétence : Fusion, Transfixion.'
   200:
-  - string: 'Futatokoroto/Yoichinoyumi: Temporarily improves ranged accuracy. Skillchain attributes: Light, Distortion'
+  - string: 'Futatokoroto/Yoichinoyumi : Améliore temporairement la précision à distance. Attributs de chaîne de compétence : Lumière, Distorsion.'
   201:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attributes: Reverberation, Transfixion'
+  - string: 'Effectue une double attaque. Les dégâts varient avec le TP. Attributs de chaîne de compétence : Réverbération, Transfixion.'
   202:
-  - string: 'Delivers a threefold attack, ammunition permitting. Chance of critical hit varies with TP. Gandiva: Aftermath. Skillchain attributes: Light, Fusion'
+  - string: 'Effectue une attaque triple, si les munitions le permettent. La probabilité de coup critique varie avec le TP. Gandiva : Effet post-effet. Attributs de chaîne de compétence : Lumière, Fusion.'
   203:
-  - string: 'Delivers a 4x atk. that ignores target''s defense. Amount ignored varies with TP. Fail-Not: Aftermath effect varies with TP. Skillchain att.: Frag., Transfixion. Fail-Not: Frag., Transfixion, Light'
+  - string: 'Attaque quadruple ignorant la défense. Montant ignoré selon TP. Fail-Not : Effet post-effet selon TP. Attributs : Fragmentation, Transfixion, Lumière.'
   204:
-  - string: 'Damage varies with TP. Skillchain attributes: Transfixion, Scission, Gravitation. Pinaka: Aftermath effect varies with TP.'
+  - string: 'Les dégâts varient avec le TP. Attributs de chaîne de compétence : Transfixion, Scission, Gravitation. Pinaka : Effet post-effet varie avec le TP.'
   205:
   - string: .
   206:
@@ -418,71 +418,71 @@ lists:
   207:
   - string: .
   208:
-  - string: 'Deals fire elemental damage. Damage varies with TP. Skillchain attributes: Liquefaction, Transfixion'
+  - string: 'Inflige des dégâts de feu. Dégâts variables selon le TP. Attributs : Liquéfaction, Transfixion'
   209:
-  - string: 'Deals damage ignoring target''s defense. Amount ignored varies with TP. Skillchain attributes: Reverberation, Transfixion'
+  - string: 'Inflige des dégâts ignorant la défense de la cible. Montant ignoré selon le TP. Attributs : Réverbération, Transfixion'
   210:
-  - string: 'Deals critical damage and lowers target''s INT. Chance of critical hit varies with TP. Skillchain attributes: Liquefaction, Transfixion'
+  - string: 'Inflige des dégâts critiques et réduit l’INT de la cible. Chances de coup critique variables selon le TP. Attributs : Liquéfaction, Transfixion'
   211:
   - string: .
   212:
-  - string: 'Delivers an inaccurate attack that deals quintuple damage. Accuracy varies with TP. Skillchain attributes: Reverberation, Transfixion, Detonation'
+  - string: 'Effectue une attaque imprécise infligeant des dégâts quintuples. Précision variable selon le TP. Attributs : Réverbération, Transfixion, Détonation'
   213:
-  - string: 'Delivers a short-ranged twofold attack. Accuracy varies with TP. Skillchain attributes: Induration, Transfixion'
+  - string: 'Effectue une double attaque à courte portée. Précision variable selon le TP. Attributs : Induration, Transfixion'
   214:
-  - string: 'Deals critical damage. Chance of critical hit varies with TP. Skillchain attribute: Fusion'
+  - string: 'Inflige des dégâts critiques. Chances de coup critique variables selon le TP. Attribut : Fusion'
   215:
-  - string: 'Damage varies with TP. Skillchain attributes: Fusion, Transfixion'
+  - string: 'Dégâts variables selon le TP. Attributs : Fusion, Transfixion'
   216:
-  - string: 'Ferdinand/Annihilator: Temporarily lowers enmity. Skillchain attributes: Dark, Fragmentation'
+  - string: 'Ferdinand/Annihilator : Réduit temporairement l’inimitié. Attributs : Ténèbres, Fragmentation'
   217:
-  - string: 'Deals light elemental damage. Damage varies with TP. Gastraphetes: Aftermath effect varies with TP. Skillchain attributes: Fragmentation, Scission'
+  - string: 'Inflige des dégâts de lumière. Dégâts variables selon le TP. Gastraphetes : Effet post-effet variable selon le TP. Attributs : Fragmentation, Scission'
   218:
-  - string: 'Deals darkness elemental damage. Damage varies with TP. Death Penalty: Aftermath effect varies with TP. Skillchain attributes: Gravitation, Transfixion'
+  - string: 'Inflige des dégâts de ténèbres. Dégâts variables selon le TP. Death Penalty : Effet post-effet variable selon le TP. Attributs : Gravitation, Transfixion'
   219:
-  - string: 'Delivers a short-ranged attack that deals triple damage. Additional effect: Paralysis. Duration of effect varies with TP. Skillchain attributes: Induration, Detonation, Impaction'
+  - string: 'Effectue une attaque à courte portée infligeant des dégâts triples. Effet supplémentaire : Paralysie. Durée variable selon le TP. Attributs : Induration, Détonation, Impact'
   220:
-  - string: 'Deals fire elemental damage. Enmity generation varies with TP. Armageddon: Aftermath. Skillchain attributes: Dark, Gravitation'
+  - string: 'Inflige des dégâts de feu. Génération d’inimitié variable selon le TP. Armageddon : Post-effet. Attributs : Ténèbres, Gravitation'
   221:
-  - string: 'Attacks once or twice depending on remaining ammunition. Dmg. dealt varies with TP. Fomalhaut: Aftermath effect varies with TP. Skillchain att.: Fusion, Reverb. Fomalhaut: Fusion, Reverb., Light'
+  - string: 'Attaque une ou deux fois selon les munitions restantes. Dégâts variables selon le TP. Fomalhaut : Effet post-effet variable selon le TP. Attributs : Fusion, Réverbération, Lumière'
   222:
-  - string: 'Damage varies with TP. Skillchain attributes: Induration, Reverberation, Fusion. Earp: Aftermath effect varies with TP.'
+  - string: 'Dégâts variables selon le TP. Attributs : Induration, Réverbération, Fusion. Earp : Effet post-effet variable selon le TP'
   223:
   - string: .
   224:
-  - string: 'Delivers a fourfold attack that lowers enemy''s accuracy. Effect duration varies with TP. Aeneas: Aftermath effect varies with TP. Skillchain att.: Frag., Scission. Aeneas: Frag., Scission, Light'
+  - string: 'Effectue une quadruple attaque réduisant la précision ennemie. Durée de l’effet variable selon le TP. Aeneas : Effet post-effet variable selon le TP. Attributs : Fragmentation, Scission, Lumière'
   225:
-  - string: 'Delivers a threefold attack. Chance of critical hit varies with TP. Almace: Aftermath. Skillchain attributes: Light, Distortion'
+  - string: 'Effectue une triple attaque. Chances de coup critique variables selon le TP. Almace : Post-effet. Attributs : Lumière, Distorsion'
   226:
-  - string: 'Delivers a fivefold attack of non-elemental damage. Attack strength varies with TP. Sequence: Aftermath effect varies with TP. Skillchain attributes: Grav., Scission. Sequence: Grav., Scission, Dark'
+  - string: 'Effectue une attaque quintuplée de dégâts non élémentaires. Puissance variable selon le TP. Sequence : Effet post-effet variable selon le TP. Attributs : Gravitation, Scission, Ténèbres'
   227:
-  - string: 'BMI varies with TP. Skillchain attribute: Light'
+  - string: 'IMC variable selon le TP. Attribut : Lumière'
   228:
-  - string: 'Delivers a twofold attack. Paradise varies with TP. Skillchain attribute: Light'
+  - string: 'Effectue une double attaque. Paradis variable selon le TP. Attribut : Lumière'
   229:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attribute: Fusion.'
+  - string: 'Effectue une double attaque. Dégâts variables selon le TP. Attribut : Fusion'
   230:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attribute: Distortion.'
+  - string: 'Effectue une double attaque. Dégâts variables selon le TP. Attribut : Distorsion'
   231:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attributes: Detonation, Compression, Distortion. Varga Purnikawa: Aftermath effect varies with TP.'
+  - string: 'Effectue une double attaque. Dégâts variables selon le TP. Attributs : Détonation, Compression, Distorsion. Varga Purnikawa : Effet post-effet variable selon le TP'
   232:
-  - string: 'Delivers a fourfold attack. Damage varies with TP. Skillchain attributes: Dissolution, Impaction, Fragmentation. Mpu Gandring: Aftermath effect varies with TP.'
+  - string: 'Effectue une quadruple attaque. Dégâts variables selon le TP. Attributs : Dissolution, Impact, Fragmentation. Mpu Gandring : Effet post-effet variable selon le TP'
   233:
-  - string: 'Damage varies with TP. Skillchain attributes: impaction, Compression, Distortion. Caliburnus: Aftermath effect varies with TP.'
+  - string: 'Dégâts variables selon le TP. Attributs : Impact, Compression, Distorsion. Caliburnus : Effet post-effet variable selon le TP'
   234:
-  - string: 'Delivers a twofold attack. Damage varies with TP. Skillchain attributes: Transfixion, Scission, Gravitation. Lorg Mor: Aftermath effect varies with TP.'
+  - string: 'Effectue une double attaque. Dégâts variables selon le TP. Attributs : Transfixion, Scission, Gravitation. Lorg Mor : Effet post-effet variable selon le TP'
   235:
-  - string: 'Damage varies with TP. Skillchain attributes: Induration, Reverberation, Fusion. Opashoro: Aftermath effect varies with TP.'
+  - string: 'Dégâts variables selon le TP. Attributs : Induration, Réverbération, Fusion. Opashoro : Effet post-effet variable selon le TP'
   236:
   - string: .
   237:
   - string: .
   238:
-  - string: 'Delivers an area attack that deals light elemental damage. Damage varies with TP. Additional effect: Flash. Skillchain attributes: Light, Fragmentation'
+  - string: 'Effectue une attaque de zone infligeant des dégâts de lumière. Dégâts variables selon le TP. Effet supplémentaire : Flash. Attributs : Lumière, Fragmentation'
   239:
-  - string: 'Delivers an area attack that deals triple damage. Damage varies with TP. Additional effect: Stun. Skillchain attributes: Light, Fusion'
+  - string: 'Effectue une attaque de zone infligeant des dégâts triples. Dégâts variables selon le TP. Effet supplémentaire : Étourdissement. Attributs : Lumière, Fusion'
   240:
-  - string: Puts to sleep enemies within the area of effect and lowers their magical defense and magical evasion. Duration of effect varies with TP.
+  - string: 'Endort les ennemis dans la zone d’effet et réduit leur défense et évasion magique. Durée de l’effet variable selon le TP'
   241:
   - string: .
   242:
