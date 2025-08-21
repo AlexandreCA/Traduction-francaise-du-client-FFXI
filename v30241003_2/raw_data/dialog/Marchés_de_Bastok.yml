@@ -17483,8 +17483,7 @@ entries:
     Oggbi.
     Oggbi.
     Oggbi.
-    Grin.${prompt}
-    
+    Grin.${prompt}  
   7049: |-
     ヒルドルフ(Hildolf)
     Qui iras-tu voir aux Ateliers Métallurgiques ?									  
@@ -17732,12 +17731,12 @@ entries:
     Recrue.
     Initié.
     Novice.
-    Apprenti.
-    Compagnon.
+    Apprentice.
+    Journeyman.
+    Craftsman.
     Artisan.
-    Artiste.
-    Adepte.
-    Vétéran.
+    Adept.
+    Veteran.
     Expert.
     Autorité.
     Luminaire.
@@ -17982,13 +17981,13 @@ entries:
     Nombre de poissons attrapés : ${number: 0}
     Numéro de dé original : ${number: 1}＋${number: 2}
     Résultat : ${number: 3} (0=attrapé)
-    ${prompt}'
+    ${prompt}
   7262: Tu n’as rien attrapé.${prompt}'
-  7263: 'Le papier de ton ${item-singular: 0[2]} s’est déchiré.${prompt}' 
-  7264: Un petit poisson rouge s’approche !${prompt}'
-  7265: Un poisson rouge noir et dodu s’approche !${prompt}'
-  7266: Un poisson rouge gros et juteux s’approche !${prompt}'
-  7267: Il n’y a aucun poisson rouge à trouver…${prompt}'
+  7263: 'Le papier de ton ${item-singular: 0[2]} s’est déchiré.${prompt}'
+  7264: Un petit poisson rouge s’approche !${prompt}
+  7265: Un poisson rouge noir et dodu s’approche !${prompt}
+  7266: Un poisson rouge gros et juteux s’approche !${prompt}
+  7267: Il n’y a aucun poisson rouge à trouver…${prompt}
   7268: |-
     ${entity: 0} a attrapé ${article} ${item-article: 0[2]}, mais ne peut plus porter d’objets.
     ${entity: 0} le relâche à contrecœur.${prompt}'
@@ -18000,25 +17999,25 @@ entries:
     d:${number: 0}.
     e:${number: 1}.
     f:${number: 2}.
-    g:${number: 3}.${prompt}'
+    g:${number: 3}.${prompt}
   7274: |-
     h: ${number: 1}.
     i: ${number: 0}.
-    sr: ${number: 2}.${prompt}'
+    sr: ${number: 2}.${prompt}
   7275: |-
     j:${number: 0}.
     k:${number: 1}.${prompt}'
-  7276: Tu abandonnes et ramènes ta ligne.${prompt}'
-  7277: Tu abandonnes.${prompt}'
+  7276: Tu abandonnes et ramènes ta ligne.${prompt}
+  7277: Tu abandonnes.${prompt}
   7278: '${entity: 0} obtient ${number: 1} gils.${prompt}'
   7279: '${entity: 0} a attrapé ${article} ${item-article: 0[2]} !${prompt}'
-  7280: Tu ne sais pas combien de temps tu pourras encore garder celui-ci en ligne…${prompt}'
-  7281: Tu as un bon pressentiment à propos de celui-ci !${prompt}'
-  7282: Tu as un mauvais pressentiment à propos de celui-ci.${prompt}'
-  7283: Tu as un très mauvais pressentiment à propos de celui-ci…${prompt}'
-  7284: Tu ne sais pas si tu as assez de compétence pour ramener celui-ci.${prompt}'
-  7285: Tu es presque sûr de ne pas avoir assez de compétence pour ramener celui-ci.${prompt}'
-  7286: Tu es certain de ne pas avoir assez de compétence pour ramener celui-ci !${prompt}'
+  7280: Tu ne sais pas combien de temps tu pourras encore garder celui-ci en ligne…${prompt}
+  7281: Tu as un bon pressentiment à propos de celui-ci !${prompt}
+  7282: Tu as un mauvais pressentiment à propos de celui-ci.${prompt}
+  7283: Tu as un très mauvais pressentiment à propos de celui-ci…${prompt}
+  7284: Tu ne sais pas si tu as assez de compétence pour ramener celui-ci.${prompt}
+  7285: Tu es presque sûr de ne pas avoir assez de compétence pour ramener celui-ci.${prompt}
+  7286: Tu es certain de ne pas avoir assez de compétence pour ramener celui-ci !${prompt}
   7287: |-
     Sélectionner le type de poisson :
     ${selection-lines}
@@ -18027,7 +18026,7 @@ entries:
     Objet.
     Drapeau.
     Coffre au trésor.
-    Monstre.${prompt}'
+    Monstre.${prompt}
   7288: |-
     Sélectionner un élément
     ${selection-lines}
@@ -19008,7 +19007,9 @@ entries:
   7725: |-
     Bonjour !
     Puis-je vous intéresser à quelques produits spéciaux d'Aragoneu ?${prompt}
-  7726: "Bonjour !\nJ'ai des produits de Kolshushu -- intéressé(e) ?${prompt} "
+  7726: |-
+    Bonjour !
+    J'ai des produits de Kolshushu -- intéressé(e) ?${prompt}
   7727: |-
     Bienvenue !
     J'ai des produits tout droit venus de Sarutabaruta ! Ça vous tente ?${prompt}
@@ -20450,19 +20451,28 @@ entries:
   8445: In other words, you will receive a penalty if you fall immediately after recovering from KO. In addition, your TP will be reduced to zero and you will lose any Petras in your possession.${prompt}
   8446: I'm sorry. I wasn't listening. Could you start over from the beginning?${prompt}
   8447: Es-tu sûr que ça ira ? Je pourrais toujours y aller à ta place.${prompt}
-  8448: "Tu pourrais te retirer un peu ? \nSi je n'y vais pas moi-même, je ne réussirai jamais le test !${prompt}"
+  8448: |-
+    Tu pourrais te retirer un peu ? 
+    Si je n'y vais pas moi-même, je ne réussirai jamais le test !${prompt}
   8449: |-
     Mais...
     Je suis tellement inquiet. Et si l'un de ces terribles Gobelins te trouvait ?${prompt}
-  8450: "As-tu assez de potions ? \nQu'en est-il de ta carte ?\nN'oublie pas de ne pas boire l'eau de ces sources sales.${prompt}"
+  8450: |-
+    As-tu assez de potions ? 
+    Qu'en est-il de ta carte ?
+    N'oublie pas de ne pas boire l'eau de ces sources sales.${prompt}
   8451: |-
     Ah, un aventurier ! C'est ton travail d'aider les gens, n'est-ce pas ?
     Es-tu intéressé à devenir garde du corps pour mon petit frère ?${prompt}
   8452: |-
-    Sis !
+    Seurette!
     Que crois-tu faire !? Je me débrouillerai tout seul !${prompt}
   8453: Hé, pas d'offense, mais c'est un problème familial.${prompt}
-  8454: "D'accord ? \n${selection-lines}\nD'accord. \nJe ne te parlais pas, petit.${prompt}"
+  8454: |-
+    D'accord ?
+    ${selection-lines}
+    D'accord.
+    Je ne te parlais pas, petit.${prompt}
   8455: |-
     Bien.
     Alors vas tuer des abeilles ou quelque chose comme ça ? Ce n'est pas ton affaire.${prompt}
@@ -34458,7 +34468,9 @@ entries:
     ${selection-lines}
     Je participerai.
     J'ai besoin de temps pour réfléchir.${prompt}
-  14668: "C-comment c'est absolument frustrant ! Être arrivé si loin juste pour--\nAaaaaah ! Je pense que je me suis fait mal au dos !${prompt} "
+  14668: |-
+    Comment c'est absolument frustrant ! Être arrivé si loin juste pour--
+    Aaaaaah ! Je pense que je me suis fait mal au dos !${prompt}
   14669: V-vous voulez dire cela ? Oh, louez les puissances au-dessus ! Je craignais qu'un autre ne me déçoive encore.${prompt}
   14670: Pour commencer, j'ai besoin que vous placiez votre signature en noir juste ici sur cette poupée.${prompt}
   14671: '${color-alt: 15}Votre plume s’épanouit sur le ventre de la poupée.'
@@ -35458,10 +35470,10 @@ entries:
     Even in areas where messages are allowed, you cannot post consecutive messages.
     Please wait a while after posting a message.${prompt}
   15295: |-
-    Mentor messages are accompanied by a flag (${icon: 0xEFEF}${icon: 0xEF2F}) marker.
+    Mentor messages are accompanied by a flag (${icon: 0xEF2F}) marker.
     This marker indicates the mentor's reliability (Mentor Class) and experience as an adventurer (Mastery Rank).${prompt}
-  15296: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEFEF}${icon: 0xEF2F} > ${icon: 0xEFEF}${icon: 0xEF39} > ${icon: 0xEFEF}${icon: 0xEF43}${prompt}'
-  15297: 'A ${icon: 0xEFEF}${icon: 0xEF43} marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
+  15296: 'As a mentor''s Mentor Class increases, the color and shape of the marker will change: ${icon: 0xEF2F} > ${icon: 0xEF39} > ${icon: 0xEF43}${prompt}'
+  15297: 'A ${icon: 0xEF43} marker is a sign that the mentor has earned the highest levels of trust from other adventurers.${prompt}'
   15298: The number affixed to the marker is the mentor's Mastery Rank, and indicates how experienced the mentor is as an adventurer.${prompt}
   15299: The higher the number, the more experienced the mentor is.${prompt}
   15300: You can check your own Mastery Rank even if you do not serve as a mentor, so feel free to take a look every now and then if you are curious.${prompt}
