@@ -44,7 +44,7 @@ lists:
   20:
   - string: Supprime la malédiction et le fléau de la cible.
   21:
-  - string: 'Inflige des dégâts lumineux à un ennemi. Afflatus Solace : puissance du sort selon PV restaurés. Emblème divin : augmente la puissance.'
+  - string: 'Inflige des dégâts élémentaires de lumière à un ennemi. Afflatus Solace : augmente la puissance du sort selon les PV restaurés. Emblème divin : augmente la puissance du sort.'
   22:
   - string: 'Inflige des dégâts élémentaires de lumière à un ennemi. Afflatus Solace : augmente la puissance du sort selon les PV restaurés.'
   23:
@@ -58,9 +58,9 @@ lists:
   27:
   - string: Diminue la défense d'un ennemi et inflige progressivement des dégâts élémentaires de lumière.
   28:
-  - string: 'Inflige des dégâts lumineux à un ennemi. Afflatus Misery : puissance selon derniers dégâts subis. Emblème divin : augmente la puissance.'
+  - string: 'Inflige des dégâts élémentaires de lumière à un ennemi. Afflatus Misery : augmente la puissance du sort selon les derniers dégâts subis. Emblème divin : augmente la puissance du sort.'
   29:
-  - string: 'Inflige des dégâts lumineux à un ennemi. Afflatus Misery : puissance selon derniers dégâts subis. Emblème divin : augmente la puissance.'
+  - string: 'Inflige des dégâts élémentaires de lumière à un ennemi. Afflatus Misery : augmente la puissance du sort selon les derniers dégâts subis. Emblème divin : augmente la puissance du sort.'
   30:
   - string: 'Inflige des dégâts élémentaires de lumière à un ennemi. Afflatus Misery : augmente la puissance du sort selon les derniers dégâts subis.'
   31:
@@ -78,9 +78,9 @@ lists:
   37:
   - string: Diminue la défense des ennemis dans la zone et inflige progressivement des dégâts élémentaires de lumière.
   38:
-  - string: 'Inflige des dégâts lumineux aux ennemis dans la zone. Afflatus Misery : puissance selon derniers dégâts subis. Emblème divin : augmente la puissance.'
+  - string: 'Inflige des dégâts élémentaires de lumière aux ennemis dans la zone. Afflatus Misery : augmente la puissance du sort selon les derniers dégâts subis. Emblème divin : augmente la puissance du sort.'
   39:
-  - string: 'Inflige des dégâts lumineux aux ennemis dans la zone. Afflatus Misery : puissance selon derniers dégâts subis. Emblème divin : augmente la puissance.'
+  - string: 'Inflige des dégâts élémentaires de lumière aux ennemis dans la zone. Afflatus Misery : augmente la puissance du sort selon les derniers dégâts subis. Emblème divin : augmente la puissance du sort.'
   40:
   - string: 'Inflige des dégâts élémentaires de lumière aux ennemis dans la zone. Afflatus Misery : augmente la puissance du sort selon les derniers dégâts subis.'
   41:
@@ -104,205 +104,205 @@ lists:
   50:
   - string: Augmente la défense magique de la cible.
   51:
-  - string: Augmente la défense magique de la cible.
+  - string: Enhances target's magic defense.
   52:
-  - string: Augmente la défense magique de la cible.
+  - string: Enhances target's magic defense.
   53:
-  - string: 'Crée des images d''ombre qui absorbent chacune une attaque dirigée contre vous.'
+  - string: Creates shadow images that each absorb a single attack directed at you.
   54:
-  - string: 'Absorbe une certaine quantité de dégâts physiques et magiques.'
+  - string: Absorbs a certain amount of damage from physical and magical attacks.
   55:
-  - string: 'Réduit les chances d''interruption d''un sort.'
+  - string: Reduces chance of having a spell interrupted.
   56:
-  - string: 'Réduit la vitesse d''attaque d''un ennemi.'
+  - string: Reduces an enemy's attack speed.
   57:
-  - string: 'Augmente la vitesse d''attaque de la cible.'
+  - string: Increases target's attack speed.
   58:
-  - string: 'Paralyse un ennemi.'
+  - string: Paralyzes an enemy.
   59:
-  - string: 'Silence un ennemi.'
+  - string: Silences an enemy.
   60:
-  - string: 'Augmente votre résistance au feu. Afflatus Solace : confère un bonus de défense magique contre le feu.'
+  - string: 'Increases your resistance against fire. Afflatus Solace: Grants a magic defense bonus against fire.'
   61:
-  - string: 'Augmente votre résistance à la glace. Afflatus Solace : confère un bonus de défense magique contre la glace.'
+  - string: 'Increases your resistance against ice. Afflatus Solace: Grants a magic defense bonus against ice.'
   62:
-  - string: 'Augmente votre résistance au vent. Afflatus Solace : confère un bonus de défense magique contre le vent.'
+  - string: 'Increases your resistance against wind. Afflatus Solace: Grants a magic defense bonus against wind.'
   63:
-  - string: 'Augmente votre résistance à la terre. Afflatus Solace : confère un bonus de défense magique contre la terre.'
+  - string: 'Increases your resistance against earth. Afflatus Solace: Grants a magic defense bonus against earth.'
   64:
-  - string: 'Augmente votre résistance à la foudre. Afflatus Solace : confère un bonus de défense magique contre la foudre.'
+  - string: 'Increases your resistance against lightning. Afflatus Solace: Grants a magic defense bonus against lightning.'
   65:
-  - string: 'Augmente votre résistance à l''eau. Afflatus Solace : confère un bonus de défense magique contre l''eau.'
+  - string: 'Increases your resistance against water. Afflatus Solace: Grants a magic defense bonus against water.'
   66:
-  - string: 'Augmente la résistance au feu des membres du groupe dans la zone d''effet. Afflatus Solace : confère un bonus de défense magique contre le feu.'
+  - string: 'Increases resistance against fire for party members within area of effect. Afflatus Solace: Grants a magic defense bonus against fire.'
   67:
-  - string: 'Augmente la résistance à la glace des membres du groupe dans la zone d''effet. Afflatus Solace : confère un bonus de défense magique contre la glace.'
+  - string: 'Increases resistance against ice for party members within area of effect. Afflatus Solace: Grants a magic defense bonus against ice.'
   68:
-  - string: 'Augmente la résistance au vent des membres du groupe dans la zone d''effet. Afflatus Solace : confère un bonus de défense magique contre le vent.'
+  - string: 'Increases resistance against wind for party members within area of effect. Afflatus Solace: Grants a magic defense bonus against wind.'
   69:
-  - string: 'Augmente la résistance à la terre des membres du groupe dans la zone d''effet. Afflatus Solace : confère un bonus de défense magique contre la terre.'
+  - string: 'Increases resistance against earth for party members within area of effect. Afflatus Solace: Grants a magic defense bonus against earth.'
   70:
-  - string: 'Augmente la résistance à la foudre des membres du groupe dans la zone d''effet. Afflatus Solace : confère un bonus de défense magique contre la foudre.'
+  - string: 'Increases resistance against lightning for party members within area of effect. Afflatus Solace: Grants a magic defense bonus against lightning.'
   71:
-  - string: 'Augmente la résistance à l''eau des membres du groupe dans la zone d''effet. Afflatus Solace : confère un bonus de défense magique contre l''eau.'
+  - string: 'Increases resistance against water for party members within area of effect. Afflatus Solace: Grants a magic defense bonus against water.'
   72:
-  - string: 'Augmente votre résistance au sommeil.'
+  - string: Enhances your resistance against sleep.
   73:
-  - string: 'Augmente votre résistance au poison.'
+  - string: Enhances your resistance against poison.
   74:
-  - string: 'Augmente votre résistance à la paralysie.'
+  - string: Enhances your resistance against paralysis.
   75:
-  - string: 'Augmente votre résistance à la cécité.'
+  - string: Enhances your resistance against blindness.
   76:
-  - string: 'Augmente votre résistance au silence.'
+  - string: Enhances your resistance against silence.
   77:
-  - string: 'Augmente votre résistance à la pétrification.'
+  - string: Enhances your resistance against petrification.
   78:
-  - string: 'Augmente votre résistance aux maladies.'
+  - string: Enhances your resistance against disease.
   79:
-  - string: 'Réduit la vitesse d''attaque d''un ennemi.'
+  - string: Reduces an enemy's attack speed.
   80:
-  - string: 'Paralyse un ennemi.'
+  - string: Paralyzes an enemy.
   81:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à la Forêt de Jugner [S].'
+  - string: Transports qualified party members within area of effect to Jugner Forest [S].
   82:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet aux Marais de Pashhow [S].'
+  - string: Transports qualified party members within area of effect to Pashhow Marshlands [S].
   83:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet aux Montagnes de Meriphataud [S].'
+  - string: Transports qualified party members within area of effect to the Meriphataud Mountains [S].
   84:
-  - string: 'Augmente votre résistance à l''amnésie.'
+  - string: Enhances your resistance against amnesia.
   85:
-  - string: 'Augmente la résistance à l''amnésie des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against amnesia for party members within area of effect.
   86:
-  - string: 'Augmente la résistance au sommeil des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against sleep for party members within area of effect.
   87:
-  - string: 'Augmente la résistance au poison des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against poison for party members within area of effect.
   88:
-  - string: 'Augmente la résistance à la paralysie des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against paralysis for party members within area of effect.
   89:
-  - string: 'Augmente la résistance à la cécité des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against blindness for party members within area of effect.
   90:
-  - string: 'Augmente la résistance au silence des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against silence for party members within area of effect.
   91:
-  - string: 'Augmente la résistance à la pétrification des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against petrification for party members within area of effect.
   92:
-  - string: 'Augmente la résistance aux maladies des membres du groupe dans la zone d''effet.'
+  - string: Enhances resistance against disease for party members within area of effect.
   93:
-  - string: 'Restaure les PV des membres du groupe dans la zone d''effet. Afflatus Misery : augmente la puissance de soins.'
+  - string: 'Restores HP for party members within area of effect. Afflatus Misery: Increases healing potency.'
   94:
-  - string: 'Transfère un effet affaiblissant d''un membre du groupe ciblé vers vous. Afflatus Solace : augmente la puissance du retrait d''effet.'
+  - string: 'Transfers one enfeebling effect from target party member to yourself. Afflatus Solace: Increases effect removal potency.'
   95:
-  - string: 'Supprime un effet affaiblissant que vous avez sur vous-même et les membres du groupe dans la zone d''effet. Afflatus Misery : augmente la puissance du retrait d''effet.'
+  - string: 'Removes one enfeebling effect you have from yourself and party members within area of effect. Afflatus Misery: Increases effect removal potency.'
   96:
-  - string: 'Réduit le TP gagné en frappant un ennemi pour le groupe. Afflatus Misery : ajoute des dégâts lumineux aux attaques initiales et bonus de précision si la cible est manquée.'
+  - string: 'Reduces TP dealt when striking an enemy for party members within area of effect. Afflatus Misery: Adds light damage to your initial attacks and bestows an accuracy bonus when target is missed.'
   97:
-  - string: 'Augmente les chances de bloquer avec un bouclier et renvoie une partie des dégâts bloqués à l''attaquant.'
+  - string: Increases chance of blocking with shield, and reflects portion of blocked damage back to attacker.
   98:
-  - string: 'Endort un ennemi.'
+  - string: Puts an enemy to sleep.
   99:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "poussière".'
+  - string: Changes the weather around target party member to "dusty."
   100:
-  - string: 'Ajoute des dégâts de feu à vos attaques.'
+  - string: Adds fire damage to your attacks.
   101:
-  - string: 'Ajoute des dégâts de glace à vos attaques.'
+  - string: Adds ice damage to your attacks.
   102:
-  - string: 'Ajoute des dégâts de vent à vos attaques.'
+  - string: Adds wind damage to your attacks.
   103:
-  - string: 'Ajoute des dégâts de terre à vos attaques.'
+  - string: Adds earth damage to your attacks.
   104:
-  - string: 'Ajoute des dégâts de foudre à vos attaques.'
+  - string: Adds lightning damage to your attacks.
   105:
-  - string: 'Ajoute des dégâts d''eau à vos attaques.'
+  - string: Adds water damage to your attacks.
   106:
-  - string: 'Vous confère une certaine résistance aux dégâts.'
+  - string: Gives you a certain amount of damage resistance.
   107:
-  - string: 'Confère à un membre du groupe une certaine résistance aux dégâts.'
+  - string: Grants a party member a certain amount of damage resistance.
   108:
-  - string: 'Restaure progressivement les PV de la cible.'
+  - string: Gradually restores target's HP.
   109:
-  - string: 'Restaure progressivement les PM de la cible.'
+  - string: Gradually restores target's MP.
   110:
-  - string: 'Restaure progressivement les PV de la cible.'
+  - string: Gradually restores target's HP.
   111:
-  - string: 'Restaure progressivement les PV de la cible.'
+  - string: Gradually restores target's HP.
   112:
-  - string: 'Aveugle temporairement un ennemi et réduit fortement sa précision.'
+  - string: Temporarily blinds an enemy, greatly lowers its accuracy.
   113:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "pluvieux".'
+  - string: Changes the weather around target party member to "rainy."
   114:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "venteux".'
+  - string: Changes the weather around target party member to "windy."
   115:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "chaud".'
+  - string: Changes the weather around target party member to "hot."
   116:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "enneigé".'
+  - string: Changes the weather around target party member to "snowy."
   117:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "orageux".'
+  - string: Changes the weather around target party member to "thundery."
   118:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "sombre".'
+  - string: Changes the weather around target party member to "gloomy."
   119:
-  - string: 'Change la météo autour d''un membre du groupe ciblé en "aurores".'
+  - string: Changes the weather around target party member to "auroras."
   120:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à Yhoator.'
+  - string: Transports qualified party members within area of effect to Yhoator.
   121:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à Altepa.'
+  - string: Transports qualified party members within area of effect to Altepa.
   122:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à Holla.'
+  - string: Transports qualified party members within area of effect to Holla.
   123:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à Dem.'
+  - string: Transports qualified party members within area of effect to Dem.
   124:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à Mea.'
+  - string: Transports qualified party members within area of effect to Mea.
   125:
-  - string: 'Augmente la défense des membres du groupe dans la zone d''effet.'
+  - string: Enhances defense for party members within area of effect.
   126:
-  - string: 'Augmente la défense des membres du groupe dans la zone d''effet.'
+  - string: Enhances defense for party members within area of effect.
   127:
-  - string: 'Augmente la défense des membres du groupe dans la zone d''effet.'
+  - string: Enhances defense for party members within area of effect.
   128:
-  - string: 'Augmente la défense des membres du groupe dans la zone d''effet.'
+  - string: Enhances defense for party members within area of effect.
   129:
-  - string: 'Augmente la défense des membres du groupe dans la zone d''effet.'
+  - string: Enhances defense for party members within area of effect.
   130:
-  - string: 'Augmente la défense magique des membres du groupe dans la zone d''effet.'
+  - string: Enhances magic defense for party members within area of effect.
   131:
-  - string: 'Augmente la défense magique des membres du groupe dans la zone d''effet.'
+  - string: Enhances magic defense for party members within area of effect.
   132:
-  - string: 'Augmente la défense magique des membres du groupe dans la zone d''effet.'
+  - string: Enhances magic defense for party members within area of effect.
   133:
-  - string: 'Augmente la défense magique des membres du groupe dans la zone d''effet.'
+  - string: Enhances magic defense for party members within area of effect.
   134:
-  - string: 'Augmente la défense magique des membres du groupe dans la zone d''effet.'
+  - string: Enhances magic defense for party members within area of effect.
   135:
-  - string: 'Vous confère l''effet "Relève" lorsque vous êtes KO.'
+  - string: Grants you the effect of Raise when you are KO'd.
   136:
-  - string: 'Réduit les chances d''être détecté par la vue.'
+  - string: Lessens chance of being detected by sight.
   137:
-  - string: 'Réduit les chances d''être détecté par le son.'
+  - string: Lessens chance of being detected by sound.
   138:
-  - string: 'Réduit les chances d''être détecté par l''odorat.'
+  - string: Lessens chance of being detected by smell.
   139:
-  - string: 'Transporte les membres qualifiés du groupe dans la zone d''effet à Xarcabard.'
+  - string: Transports qualified party members within area of effect to Xarcabard.
   140:
-  - string: 'Réanime la cible depuis KO.'
+  - string: Revives target from KO.
   141:
-  - string: 'Vous confère l''effet "Relève II" lorsque vous êtes KO.'
+  - string: Grants you the effect of Raise II when you are KO'd.
   142:
-  - string: 'Vous confère l''effet "Relève III" lorsque vous êtes KO.'
+  - string: Grants you the effect of Raise III when you are KO'd.
   143:
-  - string: 'Supprime un effet magique néfaste d''un membre du groupe ciblé.'
+  - string: Removes one detrimental magic effect from target party member.
   144:
-  - string: 'Inflige des dégâts de feu à un ennemi.'
+  - string: Deals fire damage to an enemy.
   145:
-  - string: 'Inflige des dégâts de feu à un ennemi.'
+  - string: Deals fire damage to an enemy.
   146:
-  - string: 'Inflige des dégâts de feu à un ennemi.'
+  - string: Deals fire damage to an enemy.
   147:
-  - string: 'Inflige des dégâts de feu à un ennemi.'
+  - string: Deals fire damage to an enemy.
   148:
-  - string: 'Inflige des dégâts de feu à un ennemi.'
+  - string: Deals fire damage to an enemy.
   149:
-  - string: 'Inflige des dégâts de glace à un ennemi.'
+  - string: Deals ice damage to an enemy.
   150:
-  - string: 'Inflige des dégâts de glace à un ennemi.'
+  - string: Deals ice damage to an enemy.
   151:
   - string: Deals ice damage to an enemy.
   152:
