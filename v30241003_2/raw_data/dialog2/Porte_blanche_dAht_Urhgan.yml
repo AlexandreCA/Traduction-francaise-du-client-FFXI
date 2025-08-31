@@ -17553,93 +17553,93 @@ entries:
   7140: C’est à toi de mettre la main à la poche!${prompt}
   7141: Tu vas devoir parler à Fubruhn sur la place du Serpent de Pierre si tu veux les détails sur l’utilisation d’un Casier Mog.${prompt}
   7142: |-
-    Get it? Got it? Good.
-    Now get to work. That's an order!${prompt}
+    Compris ? Bien. 
+    Maintenant au travail. C’est un ordre !${prompt}
   7143: |-
-    Show an invitation card?
+    Montrer une carte d’invitation ?
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
+    Oui.
+    Pas maintenant.${prompt}
   7144: |-
-    You have ${number: 0} ${choice-plurality: 0}[card/cards]. Show her?
+    Tu as ${number: 0} ${choice-plurality: 0}[carte/cartes]. La lui montrer ?
     ${selection-lines}
-    Yes!
-    Wait...not yet.${prompt}
-  7145: What's that carrrd ya've got there?${prompt}
-  7146: Oho, an invitation card to Salaheem's Sentinels?${prompt}
+    Oui !
+    Attends... pas encore.${prompt}
+  7145: C’est quoi cette carte que tu as là ?${prompt}
+  7146: Oh, une carte d’invitation pour les Sentinelles de Salaheem ?${prompt}
   7147: |-
-    I knew it.♪
-    Our little marketing scheme worked! That's why you're here in the Near East, isn't it?${prompt}
-  7148: Of course, what else would I expect from our brrrilliant employees?${prompt}
-  7149: That crew might be about as intimidating as an apkallu, but I knew they werrre good for something.${prompt}
-  7150: Anyway, how many invitation carrrds ya got for me? Out with 'em, now.${prompt}
+    Je le savais.♪
+    Notre petite campagne de pub a marché ! C’est pour ça que tu es ici au Proche-Orient, n’est-ce pas ?${prompt}
+  7148: Bien sûr, que pouvais-je attendre d’autre de nos employés brrrillants ?${prompt}
+  7149: Cette équipe peut ne pas sembler très impressionnante, mais je savais qu’ils serviraient à quelque chose.${prompt}
+  7150: Bref, combien de cartes d’invitation as-tu pour moi ? Montre-les maintenant.${prompt}
   7151: |-
-    Show Naja your cards?
+    Montrer tes cartes à Naja ?
     ${selection-lines}
-    Yes.
-    Not now.${prompt}
-  7152: I gave you an order, rrrookie, so don't you talk back to me!${prompt}
-  7153: If ya wanna live long enough to retire, ya better start learning some rrrespect for authority, got it?${prompt}
-  7154: Let's count what we've got here now, shall we?${prompt}
-  7155: '...Just one?${prompt}'
-  7156: One...two...${prompt}
-  7157: One...two...thrrree...${prompt}
-  7158: One...two...thrrree...four!${prompt}
-  7159: '...Not bad, not bad.${prompt}'
-  7160: '${number: 0} ${choice-plurality: 0}[card/cards], eh?${prompt}'
-  7161: Abquhbah!
-  7162: Teach this rrrookie about exchanging invitation cards for items!${prompt}
+    Oui.
+    Pas maintenant.${prompt}
+  7152: Je t’ai donné un ordre, rrrookie, alors ne me réponds pas !${prompt}
+  7153: Si tu veux vivre assez longtemps pour prendre ta retraite, tu ferais mieux d’apprendre un peu le rrrespect pour l’autorité, compris ?${prompt}
+  7154: Comptons ce qu’on a ici, d’accord ?${prompt}
+  7155: '...Juste une ?${prompt}'
+  7156: Une... deux...${prompt}
+  7157: Une... deux... trois...${prompt}
+  7158: Une... deux... trois... quatre !${prompt}
+  7159: '...Pas mal, pas mal.${prompt}'
+  7160: '${number: 0} ${choice-plurality: 0}[carte/cartes], hein ?${prompt}'
+  7161: Abquhbah !
+  7162: Apprends à ce bleuus comment échanger des cartes d’invitation contre des objets !${prompt}
   7163: |-
-    Yes, ma'am!
-    Right away, ma'am!${prompt}
-  7164: 'You currently have ${number: 0} ${choice-plurality: 0}[card/cards]!${prompt}'
-  7165: 'You are entitled to ${number: 2} ${item-given-plurality: 2[2], 1[2]}!${prompt}'
-  7166: And therrre ya have it.${prompt}
-  7167: Abquhbah! Give this rrrookie ${choice-player-gender}[his/her] reward!${prompt}
-  7168: 'You obtain ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
-  7169: You're back again?${prompt}
-  7170: Well, it is company policy...guess I've got no choice. Give your invitation carrrds to me and let me start counting.${prompt}
-  7171: 'You''ve brought me ${number: 0} ${choice-plurality: 0}[card/cards] this time?${prompt}'
-  7172: Abquhbah, give this rrrookie another speech about exchanging invitation cards for items!${prompt}
+    Oui, madame !
+    Tout de suite, madame !${prompt}
+  7164: 'Tu as actuellement ${number: 0} ${choice-plurality: 0}[carte/cartes] !${prompt}'
+  7165: 'Tu as droit à ${number: 2} ${item-given-plurality: 2[2], 1[2]} !${prompt}'
+  7166: Et voilà, c’est fait.${prompt}
+  7167: Abquhbah ! Donne à ce bleu ${choice-player-gender}[sa/son] récompense !${prompt}
+  7168: 'Tu obtiens ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
+  7169: Tu reviens encore ?${prompt}
+  7170: Eh bien, c’est la politique de l’entreprise... je suppose que je n’ai pas le choix. Donne-moi tes cartes d’invitation et laisse-moi commencer à compter.${prompt}
+  7171: 'Tu m’as apporté ${number: 0} ${choice-plurality: 0}[carte/cartes] cette fois ?${prompt}'
+  7172: Abquhbah, fais à ce bleu un autre discours sur l’échange des cartes d’invitation contre des objets !${prompt}
   7173: |-
-    Yes, ma'am!
-    Right away, ma'am!${prompt}
+    Oui, madame !
+    Tout de suite, madame !${prompt}
   7174: |-
-    You will get no bonus after the first trade!
-    You currently have ${number: 0} ${choice-plurality: 0}[card/cards]!${prompt}
+    Tu n’auras pas de bonus après le premier échange !
+    Tu as actuellement ${number: 0} ${choice-plurality: 0}[carte/cartes] !${prompt}
   7175: |-
-    However, this number is of no consequence!
-    You are entitled to ${number: 2} ${item-given-plurality: 2[2], 1[2]}!${prompt}
+    Cependant, ce nombre n’a aucune importance !
+    Tu as droit à ${number: 2} ${item-given-plurality: 2[2], 1[2]} !${prompt}
   7176: |-
-    Ya only get a bonus on your first trade.
-    Just be thankful ya got anything at all!${prompt}
+    Tu n’as droit à un bonus que lors de ton premier échange.
+    Sois juste reconnaissant de recevoir quoi que ce soit !${prompt}
   7177: |-
-    Hoho! Well, if it isn't ${name-player}.
-    How ya been? Gettin' used to the way things are done around here?${prompt}
-  7178: You're in luck, 'cause I happen to be in a pretty good mood today.${prompt}
-  7179: Our profits have been startin' to look up since you joined us.${prompt}
-  7180: Maybe you've brrrought us some luck, traveler.${prompt}
-  7181: I've also got this persistent feelin' somethin' good is gonna happen today...${prompt}
-  7182: Why do I get the feelin' I've had this feelin' before...?${prompt}
-  7183: I don't think I wanna remember...${prompt}
-  7184: I have returned!
-  7185: Oh, it's...him...${prompt}
-  7186: It's about time.${prompt}
-  7187: 'What the hell took ya so long? Did ya deliver ${keyitem-article: 0[2]} to every blasted member of the Immortals?${prompt}'
-  7188: How dare you...${prompt}
-  7189: 'Oh, but surrrely ya didn''t get lost on the way, or get your ${keyitem-singular: 0[2]} stolen, or anything like that, now did you?${prompt}'
-  7190: Wouldn't make a difference even if you were the San d'Orian Temple Knights'--${prompt}
-  7191: You will call me Raillefal!${prompt}
-  7192: Oh, that was your name!${prompt}
-  7193: You'll have to forgive me. These damn foreign names are so hard to rrremember.${prompt}
-  7194: You're gonna have to wrrrite that one down before I forget ya completely, Sir Knight.${prompt}
-  7195: You would do well to remember. Lend me that sheet of parchment!${prompt}
-  7196: You gotta be pulling my tail. How in blazes do ya read this? R-a-i-l-l-e-f-a-n? Ya pronounce that like “really fun” or somethin'?${prompt}
-  7197: That is no “N”! The last letter is an “L,” I tell you! An “L”!${prompt}
-  7198: You have a rrreally weird sense of humor, Sir Rifin, but I'm afraid you won't get any chuckles that way in Aht Urhgan. Our comedy is much more sophisticated than your nation's, obviously.${prompt}
-  7199: But whatever. You've accomplished your task, which means ya finally made it in to Salaheem's Sentinels. At least that says somethin' for ya.${prompt}
-  7200: Well then, Riffle. Welcome to the world of Private Second Class. Ya better prepare yourself for the jobs I'm gonna give ya.${prompt}
-  7201: Second class!?${prompt}
+    Hoho ! Eh bien, si ce n’est pas ${name-player}.
+    Comment ça va ? Tu t’habitues à la manière dont les choses se passent ici ?${prompt}
+  7178: Tu as de la chance, parce que je suis d'assez bonne humeur aujourd'hui.${prompt}
+  7179: Nos profits ont commencé à remonter depuis que tu nous as rejoints.${prompt}
+  7180: Peut-être que tu nous as porté chance, voyageur.${prompt}
+  7181: J'ai aussi ce pressentiment que quelque chose de bien va arriver aujourd'hui...${prompt}
+  7182: Pourquoi ai-je l'impression d'avoir déjà eu ce pressentiment...?${prompt}
+  7183: Je crois que je ne veux pas m'en souvenir...${prompt}
+  7184: Je suis de retour !${prompt}
+  7185: Oh... c'est... lui...${prompt}
+  7186: Il était temps.${prompt}
+  7187: 'Qu''est-ce qui t''a pris autant de temps ? As-tu livré ${keyitem-article: 0[2]} à chaque membre maudit des Immortels ? ${prompt}'
+  7188: Comment oses-tu...${prompt}
+  7189: 'Oh, mais sûrement tu ne t''es pas perdu en chemin, ni fait voler ton ${keyitem-singular: 0[2]}, ou quelque chose comme ça, n''est-ce pas ?${prompt}'
+  7190: Même si tu étais un Chevalier du Temple de San d’Oria, ça ne changerait rien—${prompt}
+  7191: Tu m'appelleras Raillefal !${prompt}
+  7192: Ah, c'était ton nom !${prompt}
+  7193: Tu devras me pardonner. Ces maudits noms étrangers sont si difficiles à rrretenir.${prompt}
+  7194: Tu vas devoir l’écrire avant que je t’oublie complètement, Sir Chevalier.${prompt}
+  7195: Tu ferais bien de t’en souvenir. Prête-moi cette feuille de parchemin !${prompt}
+  7196: Tu dois te moquer de moi. Comment diable lis-tu ça ? R-a-i-l-l-e-f-a-n ? Tu le prononces comme “really fun” ou quoi ?${prompt}
+  7197: Ce n’est pas un “N” ! La dernière lettre est un “L”, je te dis ! Un “L” !${prompt}
+  7198: Tu as un sens de l’humour vraiment étrange, Sir Rifin, mais je crains que tu ne fasses rire personne à Aht Urhgan. Notre comédie est bien plus sophistiquée que celle de ton pays, évidemment.${prompt}
+  7199: Mais peu importe. Tu as accompli ta mission, ce qui signifie que tu es enfin entré chez les Sentinelles de Salaheem. Ça en dit déjà long sur toi.${prompt}
+  7200: Eh bien, Riffle. Bienvenue dans le monde des Privés de Seconde Classe. Prépare-toi pour les missions que je vais te donner.${prompt}
+  7201: Seconde classe ! ?${prompt}
   7202: |-
     ${name-player}!
     Don't just stand therrre with your head in the clouds!
