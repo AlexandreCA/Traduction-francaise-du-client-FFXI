@@ -19076,11 +19076,17 @@ entries:
   7871: '${color-alt: 15}${name-player} est englouti par la gueule béante !'
   7872: '${color-alt: 15}${name-player} observe attentivement la bouche d’Atomos.'
   7873: '${color-alt: 15}Une voix métallique désincarnée vous parvient...'
-  7874: "...si occupé... ça tourne...\nPeut-être... un peu fatigué... le voyage...${prompt}  "
-  7875: "Ah... si bleu...  \nPeut-être... un peu d'aide... mieux...?${prompt}  "
+  7874: |-
+    ...si occupé... ça tourne...
+    Peut-être... un peu fatigué... le voyage...${prompt}  
+  7875: |-
+    Ah... si bleu... 
+    Peut-être... un peu d'aide... mieux...?${prompt}
   7876: Même si une âme bienveillante m'aidait dans cette tâche, malgré tout...${prompt}
   7877: Oh, vous daignez accepter ?${prompt}
-  7878: "Aha !  \nPourquoi s'arrêter à une personne ? Pourquoi ne pas demander à deux, voire même trois...?  "
+  7878: |-
+    Aha !  
+    Pourquoi s'arrêter à une personne ? Pourquoi ne pas demander à deux, voire même trois...? 
   7879: '${color-alt: 15}${name-player} est jeté dans le vide !'
   7880: Bonjour ?${prompt}
   7881: Y avait-il quelqu'un ici ? Par ici ?${prompt}
@@ -19091,14 +19097,31 @@ entries:
   7886: '${color-alt: 15}Vous sentez le regard de la gueule béante sur vous.'
   7887: Quand l'Héraut arrivera... ♪
   7888: Les Champions de l'Aube descendront... ♪
-  7889: "Hein ?  \nÉtait-ce “descendront” ou “tomberont”...?${prompt}  "
+  7889: |-
+    Hein ?  
+    Était-ce “descendront” ou “tomberont”...?${prompt} 
   7890: Je ne me souviens jamais des mots...${prompt}
-  7891: "Eh bien, peu importe, peu importe.  \nJ'ai des choses plus importantes à faire...${prompt}  "
-  7892: "Oh !  \nOh mes étoiles ! Cela ne s'est pas produit. Ça n'est pas arrivé.  "
-  7893: "Comment ai-je pu être si aveugle ?  \nJe n'avais même pas remarqué qu'il y avait quelqu'un ici avec moi. Pas remarqué.${prompt}  "
-  7894: "Oh, malheur à moi...  \nJe suis tombé dans les profondeurs bleues de la dépression.  \nVoyez-vous à quel point je suis devenu bleu ?${prompt}  "
-  7895: "Voyez-vous à quel point je suis bleu ?  \n${selection-lines}\n  \nOh oui, complètement bleu.  \nVous me semblez noir et blanc...${prompt}  "
-  7896: "Bien sûr que oui !  \nVous êtes un enfant d'Altana, après tout !${prompt}  "
+  7891: |-
+    Eh bien, peu importe, peu importe.  
+    J'ai des choses plus importantes à faire...${prompt}
+  7892: |-
+    Oh ! 
+    Oh mes étoiles ! Cela ne s'est pas produit. Ça n'est pas arrivé.
+  7893: |-
+    Comment ai-je pu être si aveugle ?  
+    Je n'avais même pas remarqué qu'il y avait quelqu'un ici avec moi. Pas remarqué.${prompt} 
+  7894: |-
+    Oh, malheur à moi...  
+    Je suis tombé dans les profondeurs bleues de la dépression.  
+    Voyez-vous à quel point je suis devenu bleu ?${prompt}
+  7895: |-
+    Voyez-vous à quel point je suis bleu ? 
+    ${selection-lines}
+    Oh oui, complètement bleu. 
+    Vous me semblez noir et blanc...${prompt}
+  7896: |-
+    Bien sûr que oui !  
+    Vous êtes un enfant d'Altana, après tout !${prompt} 
   7897: Mais... je pensais qu’un enfant d’Altana ferait preuve de compassion ! Sois compatissant, tu comprends ?${prompt}
   7898: Oh !? Qu’est-ce donc, qu’est-ce donc !?${prompt}
   7899: Qui aurait cru qu’une telle chose soit possible !?${prompt}
