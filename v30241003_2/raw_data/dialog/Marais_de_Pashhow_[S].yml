@@ -18956,17 +18956,17 @@ entries:
   7876: Hehehe. Saw right through that, didn't you?
   7877: 'There is a sealed letter which appears to have been dropped...${wait-35: 1}${prompt}'
   7878: |-
-    Tracks indicate that something passed through here.
-    The imprints are slimy and disgusting...${prompt}
-  7879: It appears to be the fecal remains of some animal...${prompt}
-  7880: There is nothing out of the ordinary here.${prompt}
-  7881: There is no response...${prompt}
-  7882: Your party leader is currently inspecting the entrance.${prompt}
-  7883: Only your party leader may inspect the entrance.${prompt}
+    Les traces indiquent que quelque chose est passé par ici.
+    Les empreintes sont visqueuses et dégoûtantes...${prompt}
+  7879: Il semble s'agir des excréments d'un animal...${prompt}
+  7880: Rien d'anormal ici.${prompt}
+  7881: Pas de réponse...${prompt}
+  7882: Votre chef de groupe inspecte actuellement l'entrée.${prompt}
+  7883: Seul votre chef de groupe peut inspecter l'entrée.${prompt}
   7884: |-
-    Attempt which objective?
+    Tenter quel objectif ?
     ${selection-lines}
-    None.
+    Aucun.
     ${mission: 7[1], 0[2]}.
     ${mission: 8[1], 1[2]}.
     ${unknown: 0x01088181878082828080}.
@@ -18975,183 +18975,183 @@ entries:
     ${unknown: 0x01088181878082858080}.
     ${unknown: 0x01088181878082868080}.
     ${unknown: 0x01088181878082878080}.${prompt}
-  7885: 'Only party members present with you in this area will be transported to ${choice: 0}[Everbloom Hollow/the Ruhotz Silvermines/Ghoyu''s Reverie].${prompt}'
+  77885: 'Seuls les membres du groupe présents avec vous dans cette zone seront transportés vers ${choice: 0}[Everbloom Hollow/les Mines d''argent de Ruhotz/La Rêverie de Ghoyu].${prompt}'
   7886: |-
-    Proceed?
+    Continuer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7887: 'Now entering ${choice: 0}[Everbloom Hollow/the Ruhotz Silvermines/Ghoyu''s Reverie].'
-  7888: 'You have chosen not to enter ${choice: 0}[Everbloom Hollow/the Ruhotz Silvermines/Ghoyu''s Reverie].'
-  7889: The hands of darkness have impeded your progress into the next area.
-  7890: You cannot enter at this time. Please wait a moment and try again.
-  7891: This area is fully occupied. You are unable to enter.
-  7892: The hands of darkness have prevented you from proceeding.
-  7893: Your request for entry is being considered...
-  7894: 'The order has been given by your party leader to enter ${choice: 0}[Everbloom Hollow/the Ruhotz Silvermines/Ghoyu''s Reverie].'
+    Oui.
+    Non.${prompt}
+  7887: 'Entrée dans ${choice: 0}[Le Creux des Floraisons Éternelles/les Mines d''argent de Ruhotz/La Rêverie de Ghoyu] en cours.'
+  7888: 'Vous avez choisi de ne pas entrer dans ${choice: 0}[Le Creux des Floraisons Éternelles/les Mines d''argent de Ruhotz/La Rêverie de Ghoyu].'
+  7889: Les mains des ténèbres ont entravé votre progression vers la zone suivante.
+  7890: Vous ne pouvez pas entrer pour le moment. Veuillez patienter un instant et réessayer.
+  7891: Cette zone est entièrement occupée. Vous ne pouvez pas y entrer.
+  7892: Les mains des ténèbres vous ont empêché de continuer.
+  7893: Votre demande d'entrée est en cours de traitement...
+  7894: 'L''ordre a été donné par votre chef de groupe pour entrer dans ${choice: 0}[Le Creux des Floraisons Éternelles/les Mines d''argent de Ruhotz/La Rêverie de Ghoyu].'
   7895: |-
-    Your party does not meet the minimum required number of ${number: 0} members.
-    Unable to enter area.
+    Votre groupe ne comporte pas le nombre minimum requis de ${number: 0} membres.
+    Impossible d'entrer dans la zone.
   7896: |-
-    Not all of your party members meet the requirements for this objective.
-    Unable to enter area.
+    Tous les membres de votre groupe ne remplissent pas les conditions requises pour cet objectif.
+    Impossible d'entrer dans la zone.
   7897: 'DEBUG: Press a button to continue.${prompt}'
-  7898: '　　 ${wait-animation: 1}'
-  7899: There is nothing out of the ordinary here.${prompt}
-  7900: Nothing happens...${prompt}
-  7901: You see the tracks of a three-toed, four-legged reptile that appears to have made this area its hunting ground...${prompt}
-  7902: Hm? You there! Halt!${prompt}
-  7903: State your name and business!${prompt}
-  7904: Hm? Has someone come calling?${prompt}
+  7898: '${wait-animation: 1}'
+  7899: Rien d'inhabituel ici.${prompt}
+  7900: Il ne se passe rien...${prompt}
+  7901: Vous voyez les traces d'un reptile à trois doigts et quatre pattes qui semble avoir fait de cette zone son terrain de chasse...${prompt}
+  7902: Hein ? Toi là ! Halte !${prompt}
+  7903: Énonce ton nom et ton affaire !${prompt}
+  7904: Hein ? Quelqu'un est venu nous voir ?${prompt}
   7905: |-
-    ...It couldn't be!
-    ${name-player}? Is it truly you?${prompt}
-  7906: This ${choice-player-gender}[man/woman] an acquaintance of yours, boy?${prompt}
+    ...Ce n'est pas possible !
+    ${name-player} ? Serait-ce vraiment toi ?${prompt}  
+  7906: Ce ${choice-player-gender}[homme/femme] est-il un de tes connaissances, garçon ?${prompt}
   7907: |-
-    But how--why--are you here!?
-    And what of Rahal and the others!?${prompt}
-  7908: Master yourself, Excenmille.${prompt}
-  7909: Well met, ${name-player}. It has been a while.${prompt}
-  7910: I sense that you've not come all the way here for reasons of frivolity.${prompt}
+    Mais comment--pourquoi--es-tu ici !?
+    Et qu’en est-il de Rahal et des autres !?${prompt}
+  7908: Maîtrise-toi, Excenmille.${prompt}
+  7909: Ravi de te revoir, ${name-player}. Cela fait un moment.${prompt}
+  7910: Je sens que tu n'es pas venu jusqu'ici pour des raisons futiles.${prompt}
   7911: |-
-    Truth is...
+    En vérité...
     ${selection-lines}
-    I seek the Cardinal Stags.
-    I seek the Swiftwing Griffins.
-    I've gone and lost my way.${prompt}
+    Je cherche les Cerfs Cardinal.
+    Je cherche les Griffons Ailéclair.
+    Je me suis égaré.${prompt}
   7912: |-
-    Ah, that is most unfortunate.
-    But since you're here, I invite you to partake of our rations. After you're sufficiently rested, I shall provide you with a map of this region and have one of my people guide you back to the highroad.${prompt}
+    Ah, c'est bien malheureux.
+    Mais puisque tu es ici, je t'invite à prendre part à nos rations. Une fois suffisamment reposé, je te fournirai une carte de cette région et enverrai l'un de mes hommes te guider vers la grande route.${prompt}
   7913: |-
-    Um...Captain, sir.
-    I believe that was merely one of ${name-player}'s jests.${prompt}
-  7914: Knights of the...Swiftwing Griffin? Be they a newly formed unit?${prompt}
+    Euh...Capitaine, monsieur.
+    Je crois qu'il ne s'agissait que d'une plaisanterie de ${name-player}.${prompt}
+  7914: Chevaliers du...Griffon Ailéclair ? S'agit-il d'une unité nouvellement formée ?${prompt}
   7915: |-
-    This is the handiwork of Rahal and the others, isn't it?
-    I'm certain of it!${prompt}
-  7916: Whoever these so-called Swiftwing Griffins are, no one besides you has been seen wondering about these parts.${prompt}
+    C’est l’œuvre de Rahal et des autres, n’est-ce pas ?
+    J’en suis certain !${prompt}
+  7916: Quelles que soient ces soi-disant Griffons Ailéclair, personne d’autre que toi n’a été vu traîner par ici.${prompt}
   7917: |-
-    That you knew where to seek my unit is most disconcerting.
-    Not a single soul outside of this camp--not even those at headquarters--is supposed to have knowledge of the change in our itinerary.${prompt}
+    Que tu aies su où chercher mon unité est fort inquiétant.
+    Aucune âme en dehors de ce camp—pas même au quartier général—n’est censée connaître le changement de notre itinéraire.${prompt}
   7918: |-
-    Behemoths, you say!?
-    Those accursed Orcs will stop at nothing to gain the upper hand...${prompt}
-  7919: Captain. How shall we respond to this threat?${prompt}
+    Des béhémoths, dis-tu !?
+    Ces maudits Orcs ne reculeront devant rien pour prendre l’avantage...${prompt}
+  7919: Capitaine. Comment devons-nous répondre à cette menace ?${prompt}
   7920: |-
-    With our location known to the enemy, we are at a disadvantage.
-    Our foremost priority is therefore to relocate. After which, we shall hunt down the behemoth of which ${name-player} speaks.${prompt}
-  7921: Before that, Captain, please send out a search party to find Rahal and the others! If we strike camp now, they won't ever find us!${prompt}
-  7922: Are you mad, boy? You would risk the annihilation of our entire unit for the sake of a couple of brats playing hide and seek?${prompt}
-  7923: What!?${prompt}
-  7924: Excenmille, enough. It is as Jayramus says.${prompt}
+    Avec notre position connue de l’ennemi, nous sommes désavantagés.
+    Notre priorité absolue est donc de nous déplacer. Ensuite, nous traquerons le béhémoth dont parle ${name-player}.${prompt}
+  7921: Avant cela, capitaine, veuillez envoyer une équipe de recherche pour retrouver Rahal et les autres ! Si nous levons le camp maintenant, ils ne nous retrouveront jamais !${prompt}
+  7922: Es-tu fou, garçon ? Tu mettrais en péril l’anéantissement de toute notre unité pour quelques gamins jouant à cache-cache ?${prompt}
+  7923: Quoi !?${prompt}
+  7924: Excenmille, ça suffit. C’est comme le dit Jayramus.${prompt}
   7925: |-
-    Besides, you worry needlessly.
-    We need not search for your friends, for they are the ones who have found us. See for yourself!${prompt}
-  7926: ${name-player}!${prompt}
-  7927: Cyranuce! Machegue!${prompt}
-  7928: Excenmille!${prompt}
-  7929: Machegue? You've been wounded?${prompt}
+    De plus, tu t’inquiètes inutilement.
+    Nous n’avons pas besoin de chercher tes amis, car ce sont eux qui nous ont trouvés. Regarde par toi-même !${prompt}
+  7926: ${name-player} !${prompt}
+  7927: Cyranuce ! Machegue !${prompt}
+  7928: Excenmille !${prompt}
+  7929: Machegue ? Tu as été blessé ?${prompt}
   7930: |-
-    I found him slumped against a tree trunk on our way here.
-    He needs immediate attention--${prompt}
-  7931: W-wait, Cyranuce, we haven't time for that.${prompt}
+    Je l’ai trouvé affaissé contre un tronc d’arbre sur notre chemin.
+    Il a besoin d’attention immédiate—${prompt}
+  7931: A-attends, Cyranuce, nous n’avons pas le temps pour ça.${prompt}
   7932: |-
-    Captain Alphonimile.
-    I overheard a conversation between Orcish scouts, sir.${prompt}
+    Capitaine Alphonimile.
+    J’ai surpris une conversation entre des éclaireurs orcs, monsieur.${prompt}
   7933: |-
-    The Orcs...they've altered their plans.
-    They intend to take the behemoths not through the Pashhow Marshlands, but Jugner Forest.${prompt}
-  7934: Jugner Forest!?${prompt}
-  7935: I see. The weight they place on delivering the behemoths to Tavnazia is such that they'd go to great pains to avoid an unprofitable confrontation with us.${prompt}
-  7936: Machegue! Be strong now!${prompt}
-  7937: He's bleeding badly!${prompt}
+    Les Orcs... ils ont changé leurs plans.
+    Ils ont l’intention de transporter les béhémoths non pas par les Marais de Pashhow, mais par la Forêt de Jugner.${prompt}
+  7934: La Forêt de Jugner !?${prompt}
+  7935: Je vois. L’importance qu’ils accordent à livrer les béhémoths à Tavnazia est telle qu’ils feraient tout pour éviter un affrontement infructueux avec nous.${prompt}
+  7936: Machegue ! Sois fort maintenant !${prompt}
+  7937: Il saigne abondamment !${prompt}
   7938: |-
     Haha...ha...
-    I sort of bungled...and was discovered by the Orcs, you see.${prompt}
+    J’ai un peu cafouillé... et j’ai été découvert par les Orcs, vois-tu.${prompt}
   7939: |-
-    I fled like a madman...but wasn't quick enough...
-    An arrow...struck...${prompt}
-  7940: Hush now, Machegue! I'm going to fetch you some water!${prompt}
-  7941: C-Captain...don't leave me!${prompt}
-  7942: What is it, Machegue?${prompt}
-  7943: I'm sorry...I didn't come to see you off on your expedition...${prompt}
-  7944: Oh, that? I paid it no mind, so you needn't worry, either.${prompt}
-  7945: Did...did I do well?${prompt}
+    J’ai fui comme un fou... mais je n’étais pas assez rapide...
+    Une flèche... a touché...${prompt}
+  7940: Chut maintenant, Machegue ! Je vais te chercher de l’eau !${prompt}
+  7941: C-Capitaine... ne me laisse pas !${prompt}
+  7942: Qu’y a-t-il, Machegue ?${prompt}
+  7943: Je suis désolé... je ne suis pas venu pour te voir partir en expédition...${prompt}
+  7944: Oh, ça ? Je n’y ai pas prêté attention, tu n’as donc pas à t’inquiéter non plus.${prompt}
+  7945: Ai-je... bien fait ?${prompt}
   7946: |-
-    You did more than well, Machegue.
-    You've earned as much right to be called a knight as Sir Vailanice.${prompt}
-  7947: Hehehe... Thank you...Cyra...${prompt}
-  7948: Machegue, how many times must I remind you to call me not--${prompt}
-  7949: Machegue?${prompt}
-  7950: No... This is just a bad dream, right? It has to be...${prompt}
+    Tu as fait plus que bien, Machegue.
+    Tu as autant de droit à être appelé chevalier que Sir Vailanice.${prompt}
+  7947: Héhé... Merci... Cyra...${prompt}
+  7948: Machegue, combien de fois dois-je te rappeler de ne pas m’appeler--${prompt}
+  7949: Machegue ?${prompt}
+  7950: Non... Ce n’est qu’un mauvais rêve, n’est-ce pas ? Il faut que ce soit...${prompt}
   7951: |-
-    Machegue! Open your eyes!
-    Open them now and call me “Cyranuce”!${prompt}
+    Machegue ! Ouvre les yeux !
+    Ouvre-les maintenant et appelle-moi “Cyranuce” !${prompt}
   7952: |-
-    Excenmille! Captain Alphonimile!
-    Please, help him! Help Machegue!${prompt}
+    Excenmille ! Capitaine Alphonimile !
+    S’il vous plaît, aidez-le ! Aidez Machegue !${prompt}
   7953: '...${prompt}'
-  7954: No...${prompt}
-  7955: Th-this can't be...happening...${prompt}
-  7956: Uwaaaaaah!!!${prompt}
+  7954: Non...${prompt}
+  7955: C-ce n'est pas possible... ça n'arrive pas...${prompt}
+  7956: Uwaaaaaah !!!${prompt}
   7957: ${name-player}.${prompt}
-  7958: Father bid me give this to you.${prompt}
-  7959: And...there is something I would ask of you.${prompt}
-  7960: I need you to return to San d'Oria and see how Rahal fares.${prompt}
-  7961: Knowing him, my concerns are likely misplaced, but it would set my heart at ease nonetheless.${prompt}
-  7962: My unit will not strike camp for some time yet, so you needn't worry about Cyranuce. Besides...${prompt}
+  7958: Père m’a demandé de te remettre ceci.${prompt}
+  7959: Et... il y a quelque chose que je voudrais te demander.${prompt}
+  7960: J’ai besoin que tu retournes à San d’Oria et que tu voies comment se porte Rahal.${prompt}
+  7961: Le connaissant, mes inquiétudes sont probablement inutiles, mais cela me rassurerait tout de même.${prompt}
+  7962: Mon unité ne lèvera pas le camp avant un certain temps, donc tu n’as pas à t’inquiéter pour Cyranuce. De plus...${prompt}
   7963: '...${prompt}'
-  7964: I leave Rahal in your care, ${name-player}.${prompt}
-  7965: ${name-player}. I need you to return to San d'Oria and see to Rahal.${prompt}
-  7966: There is none other I can turn to for this.${prompt}
+  7964: Je confie Rahal à tes soins, ${name-player}.${prompt}
+  7965: ${name-player}. J’ai besoin que tu retournes à San d’Oria et prennes soin de Rahal.${prompt}
+  7966: Je n’ai personne d’autre à qui confier cette tâche.${prompt}
   7967: |-
-    Captain--nay, Father!
-    Machegue traded his own life in exchange for delivering the information to us!${prompt}
-  7968: Let us make haste to Jugner Forest and slay the behemoth!${prompt}
+    Capitaine—non, Père !
+    Machegue a échangé sa propre vie pour nous transmettre l’information !${prompt}
+  7968: Hâtons-nous vers la Forêt de Jugner et abattre le béhémoth !${prompt}
   7969: |-
-    How many times must I repeat myself, Excenmille?
-    The situation is not as it was before.${prompt}
-  7970: Surely, you've not already forgotten the grim news the messenger brought to us last night?${prompt}
-  7971: A siege engine monstrous in size has recently appeared and now looms menacingly before Tavnazia's gate.${prompt}
-  7972: A passing enemy force necessitated the change in our route, but we can delay our aid to the Marquisate no longer.${prompt}
-  7973: We, the Knights of the Cardinal Stag, must be the ray of light that delivers the citizens of Tavnazia from the vile clutches of the beastmen.${prompt}
+    Combien de fois dois-je me répéter, Excenmille ?
+    La situation n’est plus ce qu’elle était auparavant.${prompt}
+  7970: Tu n’as sûrement pas déjà oublié la sombre nouvelle que le messager nous a apportée hier soir ?${prompt}
+  7971: Une machine de siège monstrueuse est récemment apparue et se dresse maintenant de façon menaçante devant la porte de Tavnazia.${prompt}
+  7972: La présence d’une force ennemie en route a nécessité le changement de notre itinéraire, mais nous ne pouvons plus retarder notre aide au Marquisat.${prompt}
+  7973: Nous, les Chevaliers du Cerf Cardinal, devons être le rayon de lumière qui délivre les citoyens de Tavnazia des griffes infâmes des hommes-bêtes.${prompt}
   7974: |-
-    I understand, Father. I understand it full well.
-    Nonetheless...${prompt}
-  7975: ${name-player}!${prompt}
-  7976: Rahal--how is he?${prompt}
+    Je comprends, Père. Je comprends parfaitement.
+    Néanmoins...${prompt}
+  7975: ${name-player} !${prompt}
+  7976: Rahal—comment va-t-il ?${prompt}
   7977: |-
-    So he flinched before neither the presence of the general nor Captain Rongelouts...
-    That's the Rahal I know. You've taken a great weight off my chest, ${name-player}. Thank you.${prompt}
-  7978: Hm? A letter from Rongelouts, you say?${prompt}
+    Il n’a donc cédé ni devant la présence du général ni devant celle du capitaine Rongelouts...
+    Voilà le Rahal que je connais. Vous m’enlevez un grand poids des épaules, ${name-player}. Merci.${prompt}
+  7978: Hm ? Une lettre de Rongelouts, dis-tu ?${prompt}
   7979: |-
-    The man is not known to often take a quill in hand.
-    For that reason alone, this is a rare treat.${prompt}
-  7980: This is unmistakably the seal of House Distaud. You have my gratitude.${prompt}
-  7981: Excenmille! Where are you going, soldier?${prompt}
-  7982: Machegue's death...I will not let it be in vain.${prompt}
+    Cet homme n’est pas connu pour prendre souvent la plume en main.
+    Pour cette seule raison, c’est un événement rare.${prompt}
+  7980: C’est sans aucun doute le sceau de la Maison Distaud. Je vous en suis reconnaissant.${prompt}
+  7981: Excenmille ! Où vas-tu, soldat ?${prompt}
+  7982: La mort de Machegue... je ne laisserai pas cela être vain.${prompt}
   7983: |-
-    Listen to me, boy!
-    A knight upholds the code of conduct and stays his personal urges.
-    If you fancy yourself one, cease this nonsense at once.${prompt}
+    Écoute-moi, garçon !
+    Un chevalier suit le code de conduite et retient ses désirs personnels.
+    Si tu te considères comme tel, cesse immédiatement cette folie.${prompt}
   7984: |-
-    My son or no, disobeying an order is a serious violation.
-    Are you prepared to bear the consequences of your actions?${prompt}
-  7985: Father. You once told me that a knight is one who stays true to himself, even in the face of overwhelming adversity.${prompt}
+    Mon fils ou non, désobéir à un ordre est une violation grave.
+    Es-tu prêt à en assumer les conséquences ?${prompt}
+  7985: Père. Tu m’as dit un jour qu’un chevalier reste fidèle à lui-même, même face à une adversité écrasante.${prompt}
   7986: |-
-    I must do this.
-    I know it in my heart of hearts.${prompt}
+    Je dois le faire.
+    Je le sais dans mon plus profond cœur.${prompt}
   7987: |-
-    <Sigh>...
-    Seeing that boy and his headstrong ways, I can scarce help but be put in mind of Mistress Galletha.${prompt}
+    <Soupir>...
+    En voyant ce garçon et sa détermination obstinée, je ne peux m’empêcher de penser à Maîtresse Galletha.${prompt}
   7988: '...Jayramus.${prompt}'
   7989: |-
-    You need not say a word, sir.
-    It was my intent, also.${prompt}
-  7990: Yaaa!
+    Vous n’avez pas besoin de dire un mot, monsieur.
+    C’était également mon intention.${prompt}
+  7990: Yaaa !${prompt}
   7991: |-
-    ${name-player}, let us go, too.
-    I want to help Excenmille, for Machegue's sake...and mine.${prompt}
+    ${name-player}, allons-y aussi.
+    Je veux aider Excenmille, pour Machegue... et pour moi.${prompt}
   7992: 'DEBUG: San d''Oria Quest 7--Located the Stags.${prompt}'
   7993: 'DEBUG: San d''Oria Quest 7--F_06_B${prompt}'
   7994: 'DEBUG: San d''Oria Quest 8--Located the Stags Reloaded.${prompt}'
