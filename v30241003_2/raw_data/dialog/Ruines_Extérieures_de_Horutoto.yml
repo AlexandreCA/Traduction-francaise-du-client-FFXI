@@ -17773,7 +17773,7 @@ entries:
   7281: mes9${prompt}
   7282: mes10${prompt}
   7283: |-
-    　どうするつもり？
+    どうするつもり？
     ${selection-lines}
     （空）
     イベント
@@ -17782,7 +17782,7 @@ entries:
     一度、ゾーンから出た
     クエストFLAGのみreset${prompt}
   7284: |-
-    　どのイベント？
+    どのイベント？
     ${selection-lines}
     「ms102:カカシの心」セット前
     「ms102:カカシの心」セット後
@@ -17790,95 +17790,95 @@ entries:
     ZONEを一度でも出たことにする
     クエストFLAGのみreset${prompt}
   7285: |-
-    　どこへワープなのじゃー？
+    どこへワープなのじゃー？
     ${selection-lines}
     生き残った魔法塔${prompt}
-  7286: The Mana Orb in this receptacle is intact.${prompt}
-  7287: 'This chest is locked. It can be opened with ${article} ${item-article: 0[2]}.${prompt}'
-  7288: This chest is empty.${prompt}
-  7289: Your inventory is full. You cannot carry any more items.${prompt}
-  7290: You must be closer to the chest to open it.${prompt}
-  7291: '${entity: 0} opens the chest and finds ${article} ${item-article: 0[2]}.${prompt}'
+  7286: L’Orbe de Mana dans ce réceptacle est intact.${prompt}
+  7287: 'Ce coffre est verrouillé. Il peut être ouvert avec ${article} ${item-article: 0[2]}.${prompt}'
+  7288: Ce coffre est vide.${prompt}
+  7289: Ton inventaire est plein. Tu ne peux plus transporter d’objets.${prompt}
+  7290: Tu dois être plus près du coffre pour l’ouvrir.${prompt}
+  7291: '${entity: 0} ouvre le coffre et trouve ${article} ${item-article: 0[2]}.${prompt}'
   7292: |-
-    The item in this chest cannot be handled by the other members of your party.
-    ${entity: 0} receives the ${item-singular: 0[2]}.${prompt}
-  7293: '${entity: 0} obtains a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7294: 'You obtain a key item, ${keyitem-article: 0[2]}, from the chest.${prompt}'
-  7295: You unlock the chest!${prompt}
-  7296: '${entity: 0} fails to open the chest.${prompt}'
-  7297: The chest was trapped!${prompt}
-  7298: You cannot open the chest when you are in a weakened state.${prompt}
-  7299: The chest was a mimic!${prompt}
-  7300: You cannot open the chest while participating in the moogle event.${prompt}
-  7301: The chest was but an illusion...${prompt}
+    L’objet dans ce coffre ne peut pas être manipulé par les autres membres de ton groupe.
+    ${entity: 0} reçoit le ${item-singular: 0[2]}.${prompt}
+  7293: '${entity: 0} obtient un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7294: 'Tu obtiens un objet clé, ${keyitem-article: 0[2]}, dans le coffre.${prompt}'
+  7295: Tu déverrouilles le coffre !${prompt}
+  7296: '${entity: 0} échoue à ouvrir le coffre.${prompt}'
+  7297: Le coffre était piégé !${prompt}
+  7298: Tu ne peux pas ouvrir le coffre quand tu es dans un état affaibli.${prompt}
+  7299: Le coffre était un mimic !${prompt}
+  7300: Tu ne peux pas ouvrir le coffre pendant que tu participes à l’événement des moogles.${prompt}
+  7301: Le coffre n’était qu’une illusion...${prompt}
   7302: |-
-    The chest appears to be locked.
-    If only you had ${article} ${item-article: 0[2]}, perhaps you could open it...${prompt}
+    Le coffre semble verrouillé.
+    Si seulement tu avais ${article} ${item-article: 0[2]}, peut-être que tu pourrais l’ouvrir...${prompt}
   7303: |-
-    The door will not open, even with the ${keyitem-singular: 1[2]}
-    A mysterious force is interfering.${prompt}
-  7304: It appears to be a hidden door, but it is firmly shut.
-  7305: The door was opened from the inside!
+    La porte ne s’ouvre pas, même avec le ${keyitem-singular: 1[2]}.
+    Une force mystérieuse interfère.${prompt}
+  7304: On dirait une porte cachée, mais elle est solidement fermée.
+  7305: La porte a été ouverte de l’intérieur !${prompt}
   7306: |-
-    This tower is the territory of the Cardians.
-    No intruders will be permitted.${prompt}
-  7307: All intruders will be sent to oblivion!${prompt}
-  7308: This is not a game, you overgrrrown puppets!${prompt}
-  7309: Your usefulness has ended! Without your master, you have no more rrreason to exist! Embrrrace the eternal slumber that awaits you!${prompt}
+    Cette tour est le territoire des Cardians.
+    Aucun intrus ne sera toléré.${prompt}
+  7307: Tous les intrus seront envoyés dans l’oubli !${prompt}
+  7308: C’est pas un jeu, espèces de marionnettes géantes !${prompt}
+  7309: Votre utilité est terminée ! Sans votre maître, vous n’avez plus de raison d’exister ! Accueillez le sommeil éternel qui vous attend !${prompt}
   7310: |-
-    Things have changed.
-    We have chosen our king.${prompt}
-  7311: Our king has arisen and we rally to his standard. We join with our king to build our future!${prompt}
+    Les choses ont changé.
+    Nous avons choisi notre roi.${prompt}
+  7311: Notre roi s’est levé, et nous nous rallions à sa bannière. Nous nous joignons à lui pour bâtir notre avenir !${prompt}
   7312: |-
-    You have chosen a king!?
-    Minister Zonpa-Zippa of the Manustery still lives!?${prompt}
+    Vous avez choisi un roi !?
+    Le ministre Zonpa-Zippa du Manustery est toujours en vie !?${prompt}
   7313: |-
-    Zonpa-Zippa!
-    He is no king.
-    He is nothing more than a foolish jester, tainted with the guilt of his crimes.${prompt}
-  7314: Our king is noble and powerful, a dazzling presence...${prompt}
-  7315: '...Who goes there!? Seize ${choice-player-gender}[him/her]!'
-  7316: You! Why are you...!${prompt}
-  7317: Now we have two intruders to punish. Let us deal with these interlopers before others arrive to complicate things.${prompt}
-  7318: Yes, let us punish them. Let us punish them now.${prompt}
-  7319: '...Hold.'
-  7320: Your Majesty!
-  7321: Your Majesty!
-  7322: What do you intend to do with these people?${prompt}
-  7323: They are intruders who have trespassed in the royal chambers. They will be punished.${prompt}
+    Zonpa-Zippa !
+    Ce n’est pas un roi.
+    Ce n’est rien d’autre qu’un bouffon ridicule, entaché par la culpabilité de ses crimes.${prompt}
+  7314: Notre roi est noble et puissant, une présence éclatante...${prompt}
+  7315: '...Qui va là !? Capturez ${choice-player-gender}[lui/elle] !'
+  7316: Toi ! Pourquoi es-tu... !${prompt}
+  7317: Maintenant, nous avons deux intrus à punir. Occupons-nous de ces importuns avant que d’autres arrivent pour compliquer les choses.${prompt}
+  7318: Oui, punissons-les. Punissons-les maintenant.${prompt}
+  7319: '...Attendez.'
+  7320: Votre Majesté !
+  7321: Votre Majesté !
+  7322: Que comptez-vous faire de ces gens ?${prompt}
+  7323: Ce sont des intrus qui ont pénétré dans les quartiers royaux. Ils seront punis.${prompt}
   7324: |-
-    ...I forbid it.
-    This person, ${name-player}...
-    ${choice-player-gender}[He/She] is the star born from the wish of the Star Sibyl.
-    If ${choice-player-gender}[he/she] is lost to us, we lose ourselves an ally.${prompt}
+    ...Je l’interdis.
+    Cette personne, ${name-player}...
+    ${choice-player-gender}[Il/Elle] est l’étoile née du vœu de la Sibylle des Étoiles.
+    Si ${choice-player-gender}[il/elle] disparaît, nous perdrons un allié.${prompt}
   7325: |-
-    ${name-player} still has an important role to play.
-    ${choice-player-gender}[He/She] will make me whole again...${prompt}
+    ${name-player} a encore un rôle important à jouer.
+    ${choice-player-gender}[Il/Elle] me rendra complet à nouveau...${prompt}
   7326: |-
-    ...I forbid it.
-    This person, ${name-player}...
-    ${choice-player-gender}[He/She] is the star born from the wish of the Star Sibyl.${prompt}
+    ...Je l’interdis.
+    Cette personne, ${name-player}...
+    ${choice-player-gender}[Il/Elle] est l’étoile née du vœu de la Sibylle des Étoiles.${prompt}
   7327: |-
-    ${name-player} still has an important role to play.
-    ${choice-player-gender}[He/She] will make me whole again...${prompt}
-  7328: Your Majesty, if this person is to be spared, what is to become of the Mithra?${prompt}
-  7329: The Mithra also has her roles to play. The first of which is to hand over the ring she carries to ${name-player}.${prompt}
-  7330: What!?${prompt}
+    ${name-player} a encore un rôle important à jouer.
+    ${choice-player-gender}[Il/Elle] me rendra complet à nouveau...${prompt}
+  7328: Votre Majesté, si cette personne est épargnée, que devient la Mithra ?${prompt}
+  7329: La Mithra a aussi ses rôles à jouer. Le premier est de remettre l’anneau qu’elle porte à ${name-player}.${prompt}
+  7330: Quoi !?${prompt}
   7331: |-
-    Goddess currrse you!
-    But it seems I have little choice...${prompt}
-  7332: You have another role you must perform. You must protect the Star Sibyl. Until the moment comes when the stars converge, you must defend the Star Sibyl from the bearer of darkness.${prompt}
+    Que la déesse te maudisse !
+    Mais on dirait que j’ai pas vraiment le choix...${prompt}
+  7332: Tu as un autre rôle à accomplir. Tu dois protéger la Sibylle des Étoiles. Jusqu’à ce que les étoiles convergent, tu dois défendre la Sibylle des Étoiles contre le porteur des ténèbres.${prompt}
   7333: |-
     !!!
-    You know of the bearer of darkness!?${prompt}
+    Tu connais le porteur des ténèbres !?${prompt}
   7334: |-
-    When all the stars come together, all will be revealed.
-    But whether that moment will come depends solely on your ability and talent. You must create that moment.${prompt}
+    Quand toutes les étoiles se réuniront, tout sera révélé.
+    Mais que ce moment arrive dépend uniquement de tes capacités et de ton talent. Tu dois créer ce moment.${prompt}
   7335: |-
     ${name-player}.
-    At this time, you are our brightest guiding star.
-    Illumine our land and our sky with your brilliance.${prompt}
-  7336: There is nothing out of the ordinary here.${prompt}
+    En ce moment, tu es notre étoile guide la plus brillante.
+    Illumine notre terre et notre ciel de ton éclat.${prompt}
+  7336: Rien d’anormal ici.${prompt}
   7337: |-
     You can hear a strange voice...
     “Items, items, la la la la la～♪”${prompt}
