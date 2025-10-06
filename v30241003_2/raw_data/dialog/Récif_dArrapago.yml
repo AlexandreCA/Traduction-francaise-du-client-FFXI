@@ -19817,104 +19817,105 @@ entries:
     ${mission: 5[1], 0[2]}.${prompt}
   8477: |-
     #
-    Which objective will you attempt?
+    Quel objectif voulez-vous tenter ?
     ${selection-lines}
-    None.
+    Aucun.
     ${mission: 5[1], 0[2]}.
-    The Black Coffin.
-    Against All Odds.
-    Scouting the Ashu Talif.
-    Royal Painter Escort.
-    Targeting the Captain.
-    Peach Power.${prompt}
+    Le Cercueil Noir.
+    Contre vents et marées.
+    Exploration de l’Ashu Talif.
+    Escorte du Peintre Royal.
+    Ciblage du Capitaine.
+    Pouvoir des Pêches.${prompt}
   8478: |-
-    Greetings, mercenary.
-    I am ${name-npc} of the Immortals.${prompt}
+    Salutations, mercenaire.
+    Je suis ${name-npc} des Immortels.${prompt}
   8479: |-
-    You are here on an Assault mission?
-    Then you'll be wanting command verification.${prompt}
+    Tu es ici pour une mission d’assaut ?
+    Alors tu veux une vérification de commandement.${prompt}
   8480: |-
-    Do you want command verification?
+    Veux-tu une vérification de commandement ?
     ${selection-lines}
-    Yes.
-    No.
-    Command what...?${prompt}
-  8481: 'If you have ${number: 0} ${choice-plurality: 0}[credit/credits] available from your Imperial Standing, I will recognize your ability to lead this Assault mission.${prompt}'
+    Oui.
+    Non.
+    Commandement, quoi...?${prompt}
+  8481: |-
+    Si tu as ${number: 0} ${choice-plurality: 0}[crédit/crédits] disponibles grâce à ton rang impérial, je reconnaîtrai ta capacité à diriger cette mission d’assaut.${prompt}
   8482: |-
-    Receive command verification?
+    Recevoir la vérification de commandement ?
     ${selection-lines}
-    Yes. (${number: 0} ${choice-plurality: 0}[credit/credits])
-    No.${prompt}
+    Oui. (${number: 0} ${choice-plurality: 0}[crédit/crédits])
+    Non.${prompt}
   8483: |-
-    Very well.
-    Consider your command of this mission verified.${prompt}
+    Très bien.
+    Considère ton commandement de cette mission vérifié.${prompt}
   8484: |-
-    With this in your possession, you will be able to pass through the runic seal and enter the Assault area.
-    Good luck.${prompt}
+    Avec cela en ta possession, tu pourras passer le sceau runique et entrer dans la zone d’assaut.
+    Bonne chance.${prompt}
   8485: |-
-    I cannot entrust leadership of a mission to a mercenary with such an unimpressive standing.
-    Return to me when you are worthy.${prompt}
+    Je ne peux pas confier le commandement d’une mission à un mercenaire avec un rang aussi peu impressionnant.
+    Reviens-moi quand tu seras digne.${prompt}
   8486: |-
-    You refuse to assume leadership?
-    Perhaps you should make that decision before you speak to me.${prompt}
+    Tu refuses de prendre le commandement ?
+    Peut-être devrais-tu prendre cette décision avant de me parler.${prompt}
   8487: |-
-    No?
-    Then I suggest you complete your preparations and await your leader's orders!${prompt}
-  8488: Receiving command verification will authorize you to begin an Assault mission.${prompt}
-  8489: Naturally, you are also charged with the responsibility of making sure your party members are ready to enter the Assault area.${prompt}
-  8490: However, successfully completing an Assault mission under your command will most certainly improve your standing with the Empire.${prompt}
+    Non ?
+    Alors je te conseille de compléter tes préparatifs et d’attendre les ordres de ton leader !${prompt}
+  8488: Recevoir la vérification de commandement t’autorisera à commencer une mission d’assaut.${prompt}
+  8489: Naturellement, tu es aussi chargé de la responsabilité de t’assurer que tes membres de groupe sont prêts à entrer dans la zone d’assaut.${prompt}
+  8490: Cependant, accomplir avec succès une mission d’assaut sous ton commandement améliorera certainement ton rang auprès de l’Empire.${prompt}
   8491: |-
-    The Mamool Ja Savages are on the move.
-    Intercept their forces in the Wajaom Woodlands!${prompt}
+    Les Sauvages Mamool Ja sont en mouvement.
+    Interceptez leurs forces dans les Forêts de Wajaom !${prompt}
   8492: |-
-    The Troll Mercenaries are on the move.
-    Intercept their forces in the Wajaom Woodlands!${prompt}
+    Les Mercenaires Trolls sont en mouvement.
+    Interceptez leurs forces dans les Forêts de Wajaom !${prompt}
   8493: |-
-    The Undead Swarm is on the move.
-    Intercept their forces in Bhaflau Thickets!${prompt}
+    L’Essaim des Morts-Vivants est en mouvement.
+    Interceptez leurs forces dans les Fourrés de Bhaflau !${prompt}
   8494: |-
-    The Mamool Ja Savages have breached the Balrahn Defense Line!
-    Intercept their forces in Al Zahbi's Bastion!${prompt}
+    Les Sauvages Mamool Ja ont franchi la Ligne de Défense de Balrahn !
+    Interceptez leurs forces dans le Bastion d’Al Zahbi !${prompt}
   8495: |-
-    The Troll Mercenaries have breached the Balrahn Defense Line!
-    Intercept their forces in Al Zahbi's Bastion!${prompt}
+    Les Mercenaires Trolls ont franchi la Ligne de Défense de Balrahn !
+    Interceptez leurs forces dans le Bastion d’Al Zahbi !${prompt}
   8496: |-
-    The Undead Swarm has breached the Balrahn Defense Line!
-    Intercept their forces in Al Zahbi's Bastion!${prompt}
+    L’Essaim des Morts-Vivants a franchi la Ligne de Défense de Balrahn !
+    Interceptez leurs forces dans le Bastion d’Al Zahbi !${prompt}
   8497: |-
-    Al Zahbi is Besieged!
-    Defend the Astral Candescence!${prompt}
-  8498: Al Zahbi is no longer Besieged.${prompt}
-  8499: The beastmen have retreated.${prompt}
-  8500: The Mamool Ja Savages have retreated.${prompt}
-  8501: The Troll Mercenaries have retreated.${prompt}
-  8502: The Undead Swarm has retreated.${prompt}
-  8503: Al Zahbi has recovered the Astral Candescence.${prompt}
+    Al Zahbi est assiégée !
+    Défendez la Candescence Astrale !${prompt}
+  8498: Al Zahbi n’est plus assiégée.${prompt}
+  8499: Les hommes-bêtes se sont retirés.${prompt}
+  8500: Les Sauvages Mamool Ja se sont retirés.${prompt}
+  8501: Les Mercenaires Trolls se sont retirés.${prompt}
+  8502: L’Essaim des Morts-Vivants s’est retiré.${prompt}
+  8503: Al Zahbi a récupéré la Candescence Astrale.${prompt}
   8504: |-
-    The Hall of Binding has been breached!
-    The beastmen have taken the Astral Candescence.${prompt}
+    La Salle des Liens a été franchie !
+    Les hommes-bêtes ont pris la Candescence Astrale.${prompt}
   8505: |-
-    The Hall of Binding has been breached!
-    The Mamool Ja Savages have taken the Astral Candescence.${prompt}
+    La Salle des Liens a été franchie !
+    Les Sauvages Mamool Ja ont pris la Candescence Astrale.${prompt}
   8506: |-
-    The Hall of Binding has been breached!
-    The Troll Mercenaries have taken the Astral Candescence.${prompt}
+    La Salle des Liens a été franchie !
+    Les Mercenaires Trolls ont pris la Candescence Astrale.${prompt}
   8507: |-
-    The Hall of Binding has been breached!
-    The Undead Swarm has taken the Astral Candescence.${prompt}
+    La Salle des Liens a été franchie !
+    L’Essaim des Morts-Vivants a pris la Candescence Astrale.${prompt}
   8508: |-
-    The Mark of Zahak.
-    It appears that you and I walk the same path...${prompt}
+    La Marque de Zahak.
+    On dirait que nous suivons le même chemin...${prompt}
   8509: |-
-    No words are necessary.
-    There is only the duty that I must perform.${prompt}
+    Aucune parole n’est nécessaire.
+    Il n’y a que le devoir que je dois accomplir.${prompt}
   8510: |-
-    You live...
-    We are done here. Be on your way.${prompt}
+    Tu vis...
+    Nous en avons fini ici. Va-t’en.${prompt}
   8511: |-
-    A harsh road lies before you.
-    Lamenting your choice will not bring back what you have lost.
-    Do your duty.${prompt}
+    Un chemin ardu t’attend.
+    Te lamenter sur ton choix ne ramènera pas ce que tu as perdu.
+    Accomplis ton devoir.${prompt}
   8512: Héhéhéhé...${prompt}
   8513: |-
     Héhehe...
