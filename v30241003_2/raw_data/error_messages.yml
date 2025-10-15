@@ -1,477 +1,504 @@
+bytes_per_list: 0
+flip_bytes: true
 lists:
   0:
-  - string: 'Code d''erreur : POL-%04d'
+  - string: 'Code de l''erreur : POL-%04d'
   1:
-  - string: 'Code d''erreur : FFXI-%04d'
+  - string: 'Code de l''erreur : FFXI-%04d'
   2:
-  - string: Impossible de se connecter au serveur lobby.
+  - string: Connexion au serveur lobby impossible.
   3:
   - string: Erreur de transmission avec le serveur lobby.
   4:
-  - string: 'Erreur de paquet de transmission n°1.'
+  - string: Erreur de paquet de transmission n°1.
   5:
-  - string: 'Erreur de paquet de transmission n°2。'
+  - string: Erreur de paquet de transmission n°2.
   6:
-  - string: |-
-      Connexion au serveur PlayOnline perdue.
-      Retour à la page d''accueil de PlayOnline FINAL FANTASY XI.
+  - string: 'Connexion avec le serveur PlayOnline perdue.
+
+      Retour à la page d''accueil de PlayOnline FINAL FANTASY XI.'
   7:
-  - string: Les noms de personnage doivent comporter au moins trois lettres.
+  - string: 'Les noms de personnages doivent comporter
+
+      au moins trois caractères.'
   8:
-  - string: Le Gold World Pass est trop court pour être valide.
+  - string: Gold World Pass trop court.
   9:
-  - string: |-
-      À moins que vous ne saisissiez un Gold World Pass,
-      vous ne pouvez spécifier qu''un serveur de monde
+  - string: Sans Gold World Pass, vous ne pouvez choisir que le serveur d'un monde
       où vous avez déjà un personnage.
   10:
-  - string: Erreur de délai de protocole.
+  - string: Erreur d'attente de protocole.
   11:
-  - string: Incohérence survenue avec les informations de gestion.
+  - string: Incohérence détectée dans les informations de pseudo.
   12:
-  - string: |-
-      Connexion au serveur FINAL FANTASY XI perdue.
-      Retour à la page d''accueil de PlayOnline FINAL FANTASY XI.
+  - string: 'Perte de connexion au serveur de FINAL FANTASY XI.
+
+      Retour à la page principale FINAL FANTASY XI de PlayOnline.'
   13:
-  - string: |-
-      Impossible de sélectionner ce personnage.
-      Le contenu ID du personnage n''est plus valide.
-      Veuillez restaurer le contenu ID pour sélectionner ce personnage.
+  - string: 'Impossible de sélectionner ce personnage.
+
+      Son code de produit n''est plus valable.
+
+      Pour sélectionner ce personnage, restaurez son code de produit.'
   14:
-  - string: |-
-      Le serveur de monde que vous avez spécifié n''existe pas.
-      Veuillez vérifier l''orthographe du nom du monde
-      avant de réessayer.
+  - string: 'Le serveur du monde spécifié n''existe pas.
+
+      Vérifiez l''orthographe du monde puis réessayez.'
   15:
-  - string: Nom du monde non spécifié.
+  - string: Nom de monde non précisé.
   16:
-  - string: |
-      ID de contenu pour le personnage sélectionné introuvable.
-      Veuillez redémarrer PlayOnline.
+  - string: 'Code de produit du personnage sélectionné introuvable.
+
+      Redémarrez PlayOnline.'
   17:
-  - string: |-
-      Le même personnage est déjà connecté.
-      Veuillez attendre quelques minutes avant de tenter de vous reconnecter.
+  - string: 'Ce personnage est déjà connecté.
+
+      Patientez quelques minutes avant de vous reconnecter.'
   18:
-  - string: |-
-      Les données de votre personnage peuvent être endommagées.
-      Veuillez contacter le service d''assistance PlayOnline.
+  - string: 'Les données de votre personnage sont peut-être
+
+      endommagées.
+
+      Contactez les services d''assistance de PlayOnline.'
   19:
-  - string: Impossible de se connecter au serveur de zone.
+  - string: Connexion au serveur de la zone impossible.
   20:
-  - string: 'Échec de la création de données #1 sur le serveur de monde.'
+  - string: La création des données n°1 sur le serveur du monde a échoué
   21:
-  - string: 'Échec de la création de données #2 sur le serveur de monde.'
+  - string: La création des données n°2 sur le serveur du monde a échoué
   22:
-  - string: |-
-      Impossible de se connecter au serveur de monde.
-      Serveur actuellement congestionné.
+  - string: 'Connexion au serveur du monde impossible.
+
+      Le serveur est saturé.'
   23:
-  - string: |-
-      Impossible de se connecter au serveur de zone.
-      Serveur actuellement congestionné.
+  - string: 'Connexion au serveur de la zone impossible.
+
+      Le serveur est saturé.'
   24:
-  - string: Zone du pack d''extension non enregistrée.
+  - string: Zone de kit d'extension non inscrite.
   25:
-  - string: Zone du pack d''extension non installée.
+  - string: Zone de kit d'extension non installée.
   26:
-  - string: Ce protocole n''est pas pris en charge.
+  - string: Ce protocole n'est pas pris en charge.
   27:
-  - string: |-
-      Une erreur de communication est survenue avec le serveur FINAL FANTASY XI.
-      Veuillez vous déconnecter de PlayOnline et attendre plusieurs
-      minutes avant de vous reconnecter.
+  - string: 'Erreur de communication avec le serveur de FINAL FANTASY XI.
+
+      Veuillez vous déconnecter de PlayOnline et patienter
+
+      quelques minutes avant de vous reconnecter.'
   28:
-  - string: Échec de l''authentification. Mot de passe incorrect.
+  - string: Echec de l'authentification. Mot de passe incorrect.
   29:
-  - string: Impossible de trouver le personnage.
+  - string: Personnage introuvable.
   30:
-  - string: Impossible de trouver l''ID de contenu.
+  - string: Code de produit introuvable.
   31:
-  - string: |-
-      Impossible de se connecter au serveur de monde.
-      L''opération spécifiée a échoué.
+  - string: 'Connexion au serveur du monde impossible.
+
+      L''opération spécifiée a échoué.'
   32:
-  - string: Le serveur de recherche de connexion a renvoyé une erreur.
+  - string: Le serveur de recherche de connexions a renvoyé une erreur.
   33:
-  - string: |-
-      Le même personnage est déjà connecté.
-      Veuillez attendre quelques minutes avant de tenter de vous reconnecter.
+  - string: 'Ce personnage est déjà connecté.
+
+      Patientez quelques minutes avant de vous reconnecter.'
   34:
-  - string: |-
-      Impossible de se connecter au serveur de monde.
-      Veuillez consulter les annonces sur les actualités de ce titre.
+  - string: 'Connexion au serveur du monde impossible.
+
+      Consultez les dernières annonces relatives à ce titre.'
   35:
-  - string: L''enregistrement auprès du serveur de lobby a échoué.
+  - string: L'inscription auprès du serveur lobby a échoué.
   36:
-  - string: 'Échec de l''enregistrement #1 auprès du serveur de monde.'
+  - string: L'inscription n°1 auprès du serveur du monde a échoué.
   37:
-  - string: 'Échec de l''enregistrement #2 auprès du serveur de monde.'
+  - string: L'inscription n°2 auprès du serveur du monde a échoué.
   38:
-  - string: Échec de la suppression du serveur de monde.
+  - string: Echec de la suppression depuis le serveur du monde.
   39:
-  - string: |-
-      Le nom du personnage que vous avez saisi n''est pas disponible.
-      Veuillez choisir un autre nom.
+  - string: 'Le nom de personnage entré n''est pas disponible.
+
+      Veuillez choisir un autre nom.'
   40:
-  - string: Échec de l''enregistrement auprès du serveur de noms.
+  - string: L'inscription auprès du serveur de noms a échoué.
   41:
-  - string: 'Erreur interne n°1.'
+  - string: Erreur interne n°1.
   42:
   - string: Gold World Pass incorrect.
   43:
-  - string: Gold World Pass expiré.
+  - string: Le Gold World Pass est expiré.
   44:
-  - string: Échec de la suppression du personnage.
+  - string: Le personnage n'a pas été annulé.
   45:
-  - string: 'Erreur interne n°2.'
+  - string: Erreur interne n°2.
   46:
-  - string: 'Erreur interne n°3.'
+  - string: Erreur interne n°3.
   47:
   - string: Les paramètres du personnage sont incorrects.
   48:
-  - string: |-
-      Le nom du personnage que vous avez saisi n''est pas disponible.
-      Veuillez choisir un autre nom.
+  - string: 'Le nom de personnage entré n''est pas disponible.
+
+      Choisissez un autre nom.'
   49:
-  - string: |-
-      Votre Gold World Pass n''est pas valide pour
-      le monde que vous avez spécifié.
+  - string: 'Votre Gold World Pass n''est pas valable
+
+      pour le monde spécifié.'
   50:
-  - string: 'Erreur interne n°4. Veuillez essayer de créer un nouveau personnage.'
+  - string: Erreur interne n°4. Veuillez réessayer de créer un nouveau personnage.
   51:
-  - string: Échec de l''annulation de la réservation du personnage.
+  - string: La réservation de personnage n'a pas été annulée.
   52:
-  - string: |-
-      Impossible de créer un personnage sur le serveur de monde spécifié.
-      Limite de population du serveur atteinte.
+  - string: 'Impossible de créer un personnage sur le serveur du monde spécifié.
+
+      Limite de population du serveur atteinte.'
   53:
-  - string: 'Erreur de paquet de transmission n°3.'
+  - string: Erreur de paquet de transmission n°3.
   54:
-  - string: |-
-      Impossible de supprimer.
-      Le personnage spécifié est actuellement connecté.
+  - string: 'Annulation impossible.
+
+      Le personnage spécifié est actuellement connecté.'
   55:
-  - string: |-
-      Les données du jeu ont été mises à jour.
-      Veuillez retourner à la page d''accueil de PlayOnline FINAL FANTASY XI
-      et télécharger la dernière version.
+  - string: 'Les données du jeu ont été mises à jour.
+
+      Revenez à la page d''accueil de PlayOnline FINAL FANTASY XI
+
+      et téléchargez la dernière version.'
   56:
-  - string: |-
-      Impossible de se connecter au serveur de lobby.
-      Veuillez consulter les annonces sur les actualités de ce titre.
+  - string: 'Connexion au serveur lobby impossible.
+
+      Consultez les dernières annonces relatives à ce titre.'
   57:
-  - string: 'Erreur interne n°6.'
+  - string: Erreur interne n°6.
   58:
-  - string: |-
-      Le nom du personnage que vous avez saisi n''est pas disponible.
-      Veuillez choisir un autre nom.
+  - string: 'Le nom de personnage entré n''est pas disponible.
+
+      Choisissez un autre nom.'
   59:
-  - string: 'Échec de l''enregistrement n°3 auprès du serveur de monde.'
+  - string: L'inscription n°3 auprès du serveur du monde a échoué.
   60:
-  - string: 'Erreur interne n°5.'
+  - string: Erreur interne n°5.
   61:
-  - string: 'Erreur interne n°7.'
+  - string: Erreur interne n°7.
   62:
-  - string: |-
-      Impossible d''acquérir les messages d''erreur.
-      Passage en mode d''affichage numérique direct.
+  - string: 'Acquisition des messages d''erreur impossible.
+
+      Passage en mode d''affichage numérique direct.'
   63:
-  - string: Impossible de réserver la mémoire requise. Appuyez sur OK pour fermer.
+  - string: 'Impossible de réserver la mémoire requise.
+
+      Appuyez sur le bouton OK fermer.'
   64:
-  - string: Connexion au serveur FINAL FANTASY XI perdue. Appuyez sur OK pour fermer.
+  - string: 'Perte de connexion au serveur de FINAL FANTASY XI.
+
+      Appuyez sur OK pour fermer.'
   65:
-  - string: |-
-      Connexion au serveur perdue. (PlayOnline)
-      Retour à la page d''accueil de PlayOnline FINAL FANTASY XI.
+  - string: 'Perte de connexion au serveur. (PlayOnline)
+
+      Retour à la page principale de PlayOnline FINAL FANTASY XI.'
   66:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous consultez le journal de discussion.
+  - string: Vous ne pouvez pas utiliser cette commande en consultant l'historique
+      de Chat.
   67:
-  - string: Vous ne pouvez pas utiliser cette commande pour le moment.
+  - string: Vous ne pouvez pas utiliser cette commande en ce moment.
   68:
   - string: Vous ne pouvez pas utiliser cette commande ici.
   69:
-  - string: Vous devez fermer la fenêtre actuellement ouverte pour utiliser cette commande.
+  - string: Vous devez fermer la fenêtre pour utiliser cette commande.
   70:
-  - string: Vous devez spécifier une cible valide.
+  - string: Vous devez choisir une cible valide.
   71:
   - string: Vous ne pouvez pas utiliser cette commande ici.
   72:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que votre mog est absent.
+  - string: Vous ne pouvez pas utiliser cette commande lorsque votre moogle n'est
+      pas là.
   73:
   - string: Vous ne pouvez pas pêcher ici.
   74:
   - string: Vous ne pouvez pas creuser ici.
   75:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous êtes monté.
+  - string: Vous ne pouvez pas utiliser cette commande lorsque vous montez un chocobo.
   76:
-  - string: Vous devez attendre un peu avant d''appeler votre monture.
+  - string: Vous ne pouvez pas utiliser cette commande en pêchant.
   77:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous pêchez.
+  - string: Vous ne pouvez pas utiliser cette commande pendant une synthèse.
   78:
-  - string: Vous ne pouvez pas utiliser cette commande pendant la synthèse.
+  - string: Vous ne pouvez pas utiliser cette commande lorsque vous êtes inconscient(e).
   79:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous êtes inconscient.
+  - string: Vous ne pouvez pas utiliser cette commande lorsque vous redécorez votre
+      pièce.
   80:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous changez la disposition de votre chambre.
+  - string: Vous ne pouvez pas utiliser cette commande lorsque vous récupérez.
   81:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous vous soignez.
-  82:
   - string: Vous ne pouvez utiliser cette commande que pendant un combat.
-  83:
+  82:
   - string: Vous ne pouvez pas utiliser cette commande pendant un échange.
+  83:
+  - string: Vous ne pouvez pas utiliser cette commande pendant que vous utilisez le
+      service de livraison.
   84:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous faites des arrangements de livraison.
+  - string: Vous ne pouvez pas utiliser cette commande lorsque vous relevez votre
+      boîte de livraison.
   85:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous vérifiez votre boîte de livraison.
+  - string: ''
   86:
-  - string: ''
+  - string: Job incorrect, niveau de job insuffisant ou aptitude requise non activée.
   87:
-  - string: Classe incorrecte, niveau de classe trop bas ou capacité requise non activée.
+  - string: MP insuffisants.
   88:
-  - string: PMMP insuffisants.
+  - string: Vous devez attendre avant d'utiliser ce sort.
   89:
-  - string: Vous devez attendre plus longtemps pour utiliser ce sort.
+  - string: Vous devez choisir une cible valide pour ce sort.
   90:
-  - string: Vous devez spécifier une cible valide pour ce sort.
-  91:
   - string: ''
+  91:
+  - string: Vous devez attendre avant d'utiliser cette aptitude.
   92:
-  - string: Vous devez attendre plus longtemps pour utiliser cette capacité.
+  - string: Vous devez choisir une cible valide pour cette aptitude.
   93:
-  - string: Vous devez spécifier une cible valide pour cette capacité.
+  - string: Caractéristiques de job toujours actives.
   94:
-  - string: Les traits de classe sont toujours actifs.
-  95:
   - string: TP insuffisants.
-  96:
+  95:
   - string: Vous ne pouvez pas afficher ce type de message.
+  96:
+  - string: Vous ne pouvez pas afficher de cartes sur un monte-charge.
   97:
-  - string: Vous ne pouvez pas voir les cartes pendant que vous montez dans un ascenseur.
+  - string: Il n'existe aucune carte de cette zone.
   98:
-  - string: Il n''y a pas de carte pour cette zone.
+  - string: Vous devez choisir les bons matériaux.
   99:
-  - string: Vous devez spécifier les matériaux corrects.
+  - string: Vous devez attendre avant de répéter cette action.
   100:
-  - string: Vous devez attendre plus longtemps avant de répéter cette action.
+  - string: Echec de la recherche.
   101:
-  - string: Échec de la recherche.
+  - string: Aucun ami enregistré.
   102:
-  - string: Aucun ami inscrit.
-  103:
   - string: Aucune entrée dans la liste noire.
+  103:
+  - string: Aucune linkshell dans l'inventaire.
   104:
-  - string: Aucun objet de linkshell dans l'inventaire.
-  105:
   - string: Vous n'avez aucun message.
+  105:
+  - string: Vous n'avez aucun objet en vente.
   106:
-  - string: Vous n'avez aucun objet en vente aux enchères.
+  - string: Aucune entrée.
   107:
-  - string: Aucune entrée applicable.
+  - string: 'Vous avez atteint le nombre maximum d''objets que vous pouvez mettre
+      en vente.
+
+      Retirez un objet pour faire une offre.'
   108:
-  - string: |-
-      Vous avez actuellement le nombre maximum d'objets autorisés en vente aux enchères.
-      Vous devez retirer l'un de ces objets pour soumettre une enchère.
+  - string: 'Vous ne pouvez mettre aux enchères que 7 objets maximum.
+
+      Séléctionnez les marchandises vendues ou invendues dans la liste "Etat des ventes"
+      pour les enlever de la liste, ou retirez un objet des enchères. Les objets renvoyés
+      à votre Maison Mog doivent également être effacés de la liste.'
   109:
-  - string: |-
-      Vous ne pouvez mettre que sept objets en vente aux enchères à la fois.
-      Cochez les objets vendus et non vendus dans la liste "Statut de vente" ou retirez un objet de la vente.
-      Les objets déjà envoyés dans votre boîte de livraison doivent également être décochés de la liste.
+  - string: Le résultat de votre offre est en attente. S'il ne s'affiche pas sous
+      peu, consultez votre inventaire en sélectionnant "Objets"  dans le menu principal.
   110:
-  - string: |-
-      Le résultat de votre enchère est en attente.
-      Si le résultat n'apparaît pas bientôt, vérifiez votre inventaire en sélectionnant "Objets" dans le menu principal.
+  - string: Vous ne pouvez pas retirer cet objet de la vente. Votre inventaire est
+      plein ou vous ne pouvez avoir qu'un seul objet de ce type.
   111:
-  - string: |-
-      Vous ne pouvez pas retirer cet objet de la vente aux enchères.
-      Soit votre inventaire est plein, soit vous ne pouvez posséder qu'un seul objet de ce type.
+  - string: Vous ne pouvez pas acheter cette marchandise. Votre inventaire est plein
+      ou vous possédez déjà un objet de ce type.
   112:
-  - string: |-
-      Vous ne pouvez pas enchérir sur cet objet.
-      Soit votre inventaire est plein, soit vous ne pouvez posséder qu'un seul objet de ce type.
+  - string: Aucune linkshell équipée.
   113:
-  - string: Aucun objet de linkshell équipé.
+  - string: ''
   114:
-  - string: ' '
+  - string: Sélection impossible pendant que vous jouez à FINAL FANTASY XI.
   115:
-  - string: Impossible de sélectionner pendant que vous jouez à FINAL FANTASY XI.
+  - string: ''
   116:
-  - string: ' '
+  - string: ''
   117:
-  - string: ' '
+  - string: ''
   118:
-  - string: ' '
+  - string: ''
   119:
-  - string: ' '
+  - string: ''
   120:
-  - string: ' '
+  - string: Votre liste d'amis ne peut pas contenir plus de 200 personnes.
   121:
-  - string: Vous ne pouvez pas enregistrer plus de 200 amis dans votre Liste d'Amis.
+  - string: Action impossible pendant le traitement d'un autre message PlayOnline.
   122:
-  - string: Impossible d'effectuer cette action pendant qu'un autre message PlayOnline est en cours de traitement.
+  - string: La zone actuelle ne fait pas l'objet d'une conquête.
   123:
-  - string: La zone actuelle n'est pas soumise à la conquête.
+  - string: Achat impossible.
   124:
-  - string: Vous n'avez pas pu effectuer cet achat.
-  125:
-  - string: Vous ne pouvez pas enchérir. Votre inventaire est plein.
-  126:
-  - string: Vous ne pouvez posséder qu'un seul objet de ce type.
-  127:
-  - string: Aucun cible de commerce à portée.
-  128:
-  - string: |-
-      Vous ne pouvez pas effectuer cet achat.
+  - string: Vous ne pouvez pas participer au tirage au sort pour obtenir des trésors.
       Votre inventaire est plein.
+  125:
+  - string: Vous possédez déjà un objet de ce type.
+  126:
+  - string: Aucune cible d'échange à portée.
+  127:
+  - string: Achat impossible. Votre inventaire est plein.
+  128:
+  - string: Achat impossible. Votre inventaire est plein ou la guilde est en rupture
+      de stock.
   129:
-  - string: |-
-      Vous ne pouvez pas effectuer cet achat.
-      Soit votre inventaire est plein, soit la guilde est en rupture de stock.
+  - string: La guilde ne peut pas vous acheter ceci. Son stock est plein pour cet
+      objet.
   130:
-  - string: |-
-      La guilde ne vous achètera pas cet objet.
-      Son stock de cet objet est plein.
+  - string: Impossible de tout acheter. Votre inventaire est plein ou la guilde est
+      en rupture de stock.
   131:
-  - string: |-
-      Votre commande n'a pas pu être entièrement remplie.
-      Soit votre inventaire est devenu plein, soit la guilde est en rupture de stock.
+  - string: La guilde ne peut pas tout acheter. Son stock est complet.
   132:
-  - string: |-
-      La guilde n'a pas pu acheter la quantité totale.
-      Son stock de cet objet est devenu plein.
+  - string: Les communications semblent saturées.
   133:
-  - string: Les communications semblent être congestionnées.
+  - string: Les livraisons ont pris du retard.
   134:
-  - string: Les commandes de livraison sont actuellement en retard.
-  135:
   - string: La boîte de livraison du destinataire est pleine.
-  136:
+  135:
   - string: Votre inventaire est plein.
+  136:
+  - string: Vous possédez déjà un objet de ce type.
   137:
-  - string: Vous ne pouvez posséder qu'un seul objet de ce type.
+  - string: Balayage impossible.
   138:
-  - string: Impossible de scanner.
+  - string: Il vous faut l'aptitude Deux armes pour équiper cette arme en arme auxiliaire.
   139:
-  - string: Vous avez besoin de l'aptitude Dual Wield pour équiper cela en tant qu'arme secondaire.
-  140:
   - string: Impossible d'exécuter cette commande. Votre inventaire est plein.
+  140:
+  - string: Impossible d'enregistrer la capture d'écran.
   141:
-  - string: Impossible de sauvegarder la capture d'écran.
+  - string: Vous n'avez pas pu remplacer les objets équipés.
   142:
-  - string: Vous n'avez pas pu changer vos objets équipés.
+  - string: ''
   143:
-  - string: dummy
+  - string: ''
   144:
-  - string: dummy
+  - string: ''
   145:
-  - string: dummy
+  - string: ''
   146:
-  - string: dummy
+  - string: Cette fonction n'est pas disponible actuellement.
   147:
-  - string: Cette fonctionnalité est actuellement indisponible.
+  - string: Echec de la déconnexion automatique.
   148:
-  - string: Échec de la déconnexion automatique.
-  149:
   - string: Impossible d'attaquer la cible.
+  149:
+  - string: 'En l''absence d''intervention dans le délai fixé,
+
+      le programme s''est automatiquement déconnecté du serveur.
+
+      Déconnexion de FINAL FANTASY XI et retour à PlayOnline.'
   150:
-  - string: |-
-      Il n'y a pas eu d'entrée dans le temps imparti, donc le programme
-      s'est automatiquement déconnecté du serveur du jeu.
-      Final Fantasy XI se termine maintenant et revient à PlayOnline.
+  - string: Vous ne pouvez pas utiliser cette commande tant que vous êtes charmé(e).
   151:
-  - string: Vous ne pouvez pas utiliser cette commande pendant que vous êtes charmé.
+  - string: Vous devez équiper une arme principale avant d'équiper une arme auxiliaire.
   152:
-  - string: Vous devez avoir une arme principale équipée avant d'équiper une arme secondaire.
+  - string: Pour équiper une arme auxiliaire, votre arme principale doit être une
+      arme à une main.
   153:
-  - string: Vous ne pouvez équiper une arme secondaire que lorsque votre arme principale est une arme à une main.
+  - string: Veuillez patienter avant de procéder à un autre achat.
   154:
-  - string: Veuillez attendre un peu plus longtemps avant de faire un autre achat.
+  - string: Vous n'avez pas pu effectuer la transaction.
   155:
-  - string: Vous n'avez pas pu effectuer cette transaction.
-  156:
   - string: Une erreur est survenue.
+  156:
+  - string: Il n'y actuellement pas de message de linkshell.
   157:
-  - string: Aucun message de linkshell n'existe.
+  - string: Vous n'êtes pas autorisé(e) à effectuer cette action.
   158:
-  - string: Vous n'êtes pas autorisé à effectuer cette action.
+  - string: Vous ne pouvez pas inviter cette personne à rejoindre votre équipe.
   159:
-  - string: Vous ne pouvez pas inviter cette personne à rejoindre votre groupe.
+  - string: Vous ne pouvez pas effectuer cette action en position assise.
   160:
-  - string: Vous ne pouvez pas effectuer cette action en étant assis.
+  - string: Cette personne figure déjà dans votre liste d'amis.
   161:
-  - string: Cette personne est déjà inscrite dans votre liste d'amis.
-  162:
   - string: Vous n'avez pas pu ajouter cette personne à votre liste d'amis.
+  162:
+  - string: Transaction annulée. Vous possédez déjà un objet de ce type.
   163:
-  - string: Transaction annulée. Vous ne pouvez posséder qu'un seul objet de ce type.
+  - string: Vous ne pouvez pas effectuer cette action sur la sous-cible sélectionnée.
   164:
-  - string: Vous ne pouvez pas effectuer cette action sur le sous-cible sélectionné.
-  165:
   - string: Vous ne pouvez pas effectuer cette action sur la cible sélectionnée.
+  165:
+  - string: Vous ne pouvez pas effectuer cette action si vous participez à un Conflit.
   166:
-  - string: Vous ne pouvez pas effectuer cette action pendant que vous participez à un Conflit.
+  - string: Vous ne pouvez effectuer cette action que si vous participez à un Conflit.
   167:
-  - string: Vous ne pouvez effectuer cette action que lorsque vous participez à un Conflit.
+  - string: 'Aucune réponse du serveur de FINAL FANTASY XI.
+
+      Déconnexion automatique.
+
+      Appuyez sur OK pour tout fermer.'
   168:
-  - string: Cela ne peut pas être utilisé pour le moment.
+  - string: 'Aucune réponse du serveur de FINAL FANTASY XI.
+
+      Déconnexion automatique.
+
+      Appuyez sur OK pour tout fermer.'
   169:
-  - string: |-
-      Aucune réponse du serveur FINAL FANTASY XI.
-      Connexion expirée.
-      Appuyez sur OK pour fermer.
+  - string: 'Echec de communication signalé par le serveur de
+
+      FINAL FANTASY XI.
+
+      Appuyez sur OK pour tout fermer.'
   170:
-  - string: |-
-      Aucune réponse du serveur FINAL FANTASY XI.
-      Connexion expirée.
-      Appuyez sur OK pour fermer.
+  - string: 'Connexion au serveur perdue.
+
+      Appuyez sur le bouton OK pour fermer.'
   171:
-  - string: |-
-      Délai d'attente signalé par le serveur FINAL FANTASY XI.
-      Appuyez sur OK pour fermer.
+  - string: 'Connexion au serveur perdue.
+
+      Appuyez sur le bouton OK pour fermer.'
   172:
-  - string: Perte de connexion au serveur FINAL FANTASY XI. Appuyez sur OK pour fermer.
+  - string: 'Perte de connexion au serveur de FINAL FANTASY XI.
+
+      Appuyez sur OK pour tout fermer.'
   173:
-  - string: Perte de connexion au serveur FINAL FANTASY XI. Appuyez sur OK pour fermer.
+  - string: Les objets partiellement déchargés ne peuvent pas être mis en vente.
   174:
-  - string: Perte de connexion au serveur FINAL FANTASY XI. Appuyez sur OK pour fermer.
+  - string: Cette commande ne peut pas être utilisée lorsque vous portez un costume.
   175:
-  - string: Perte de connexion au serveur FINAL FANTASY XI. Appuyez sur OK pour fermer.
-  176:
-  - string: Les objets partiellement épuisés ne peuvent pas être mis en vente aux enchères.
-  177:
-  - string: Cette commande ne peut pas être exécutée en portant un costume.
-  178: 
   - string: Cette commande ne peut pas être utilisée en dehors de votre Maison Mog.
+  176:
+  - string: Cette commande ne peut pas être utilisée sur les joueurs de votre liste
+      noire.
+  177:
+  - string: 'Le Gold World Pass n''est valable
+
+      que pour votre premier personnage.'
+  178:
+  - string: Vous ne pouvez pas utiliser un sort qui n'a pas été fixé.
   179:
-  - string: Cette commande ne peut pas être utilisée sur les joueurs figurant dans votre liste noire.
+  - string: Vous n'avez actuellement pas accès au Casier Mog.
   180:
-  - string: |-
-      Un Gold World Pass est valable
-      uniquement pour votre premier personnage.
+  - string: Vos sorts de magie bleue ont été fixés récemment. Impossible de lancer
+      un sort.
   181:
-  - string: Vous ne pouvez pas lancer de sorts de magie bleue qui n'ont pas été définis.
+  - string: Vous ne pouvez pas modifier un automate activé.
   182:
-  - string: Vous n'avez actuellement pas accès à un Casier Mog.
-  183:
-  - string: Vos sorts de magie bleue ont récemment été réinitialisés. Impossible de lancer le sort.
-  184:
-  - string: Vous ne pouvez pas personnaliser un automate activé.
-  185:
   - string: (Le service de livraison est actuellement indisponible.)
+  183:
+  - string: (Les enchères sont actuellement indisponibles.)
+  184:
+  - string: Vous ne pouvez pas effectuer cette action sous l'effet d'une restriction
+      de niveau, ou durant un Siège.
+  185:
+  - string: Vous ne pouvez utiliser cette commande dans la Maison Mog de quelqu'un
+      d'autre.
   186:
-  - string: (Les services de la maison de vente aux enchères sont actuellement indisponibles.)
+  - string: Vous êtes sous l'effet d'une restriction qui vous empêche d'effectuer
+      cette action.
   187:
-  - string: Vous ne pouvez pas effectuer cette action en étant sous une restriction de niveau ou en participant à un Siège.
+  - string: Vous ne remplissez pas les les conditions pour accéder aux Jardins Mog.
   188:
-  - string: Vous ne pouvez pas utiliser cette commande à l'intérieur de la Maison Mog d'un autre personnage.
+  - string: Vous ne pouvez pas utiliser de sort d'adjuration pour le moment.
   189:
-  - string: Votre statut actuel vous empêche d'utiliser cette capacité.
+  - string: Vous n'avez pas réalisé de synthèse. Impossible d'utiliser cette commande.
   190:
-  - string: Vous n'avez pas rempli une ou plusieurs conditions nécessaires pour entrer dans les Jardins Mog.
+  - string: Vous n'avez pas rempli une ou plusieurs conditions nécessaires pour entrer
+      dans les Jardins Mog.
   191:
   - string: Vous ne pouvez pas utiliser la magie des Trusts pour le moment.
   192:
-  - string: Vous ne pouvez pas effectuer cette action car il n'existe pas d'historique de synthèse.
+  - string: Vous ne pouvez pas effectuer cette action car il n'existe pas d'historique
+      de synthèse.
   193:
   - string: Vous devez attendre plus longtemps avant de répéter cette action.
   194:
@@ -481,10 +508,12 @@ lists:
   196:
   - string: Vous ne pouvez pas demander à rejoindre le groupe de ce joueur.
   197:
-  - string: Vous ne pouvez pas demander à rejoindre le groupe de quelqu'un que vous avez mis sur liste noire.
+  - string: Vous ne pouvez pas demander à rejoindre le groupe de quelqu'un que vous
+      avez mis sur liste noire.
   198:
   - string: Vous n'avez pas pu faire une demande pour rejoindre.
   199:
   - string: Aucun personnage n'est actuellement mis en sourdine.
   200:
-  - string: Le livre de macros %u Ensemble %u contient des données invalides et a été réinitialisé.
+  - string: Le livre de macros %u Ensemble %u contient des données invalides et a
+      été réinitialisé.
