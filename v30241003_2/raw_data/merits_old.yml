@@ -6,141 +6,193 @@ lists:
   1:
   - string: '0'
   2:
-  - string: HP/MP/Points de mérite
+  - string: PV/PM
   3:
-  - string: Augmente vos HP, MP et points de mérite maximums, pour un total de 45
-      degrés.
+  - string: |-
+      Ajuste tes PV et PM max.
+      Gain total max. : 75
   4:
   - string: Attributs
   5:
-  - string: Augmente vos 7 principaux attributs, pour un total de 45 degrés.
+  - string: |-
+      Ajuste tes 7 attributs principaux.
+      Gain total max. : 105
   6:
-  - string: Compétences combat
+  - string: Compétences physiques
   7:
-  - string: Augmente le maximum de vos compétences combat, pour un total de 56 degrés.
+  - string: |-
+      Ajuste tes compétences physiques.
+      Gain total max. : 152
   8:
-  - string: Compétences magie
+  - string: Compétences magiques
   9:
-  - string: Augmente le maximum de vos compétences magie, pour un total de 48 degrés.
+  - string: |-
+      Ajuste tes compétences magiques.
+      Gain total max. : 112
   10:
-  - string: Autres
+  - string: Divers
   11:
-  - string: Améliore divers attributs, pour un total de 10 degrés.
+  - string: |-
+      Ajuste d'autres paramètres divers.
+      Gain total max. : 10
   12:
   - string: Guerrier
   13:
-  - string: Améliore les aptitudes de guerrier à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for WAR lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   14:
   - string: Moine
   15:
-  - string: Améliore les aptitudes de moine à partir du niveau 75, pour un total de
-      10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for MNK lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   16:
-  - string: Mage blanc
+  - string: Mage Blanc
   17:
-  - string: Améliore les aptitudes de mage blanc à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for WHM lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   18:
-  - string: Mage noir
+  - string: Mage Noir
   19:
-  - string: Améliore les aptitudes de mage noir à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for BLM lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   20:
-  - string: Mage rouge
+  - string: Mage Rouge
   21:
-  - string: Améliore les aptitudes de mage rouge à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for RDM lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   22:
   - string: Voleur
   23:
-  - string: Améliore les aptitudes de voleur à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for THF lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   24:
   - string: Paladin
   25:
-  - string: Améliore les aptitudes de paladin à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for PLD lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   26:
-  - string: Chevalier noir
+  - string: Chevalier Noir
   27:
-  - string: Améliore les aptitudes de chevalier noir à partir du niveau 75, pour un
-      total de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for DRK lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   28:
-  - string: Dresseur
+  - string: Beastmaster
   29:
-  - string: Améliore les aptitudes de dresseur à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for BST lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   30:
-  - string: Barde
+  - string: Bard
   31:
-  - string: Améliore les aptitudes de barde à partir du niveau 75, pour un total de
-      10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for BRD lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   32:
-  - string: Chasseur
+  - string: Ranger
   33:
-  - string: Améliore les aptitudes de chasseur à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for RNG lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   34:
-  - string: Samouraï
+  - string: Samurai
   35:
-  - string: Améliore les aptitudes de samouraï à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for SAM lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   36:
   - string: Ninja
   37:
-  - string: Améliore les aptitudes de ninja à partir du niveau 75, pour un total de
-      10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for NIN lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   38:
-  - string: Chevalier dragon
+  - string: Dragoon
   39:
-  - string: Améliore les aptitudes de chevalier dragon à partir du niveau 75, pour
-      un total de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for DRG lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   40:
-  - string: Invocateur
+  - string: Summoner
   41:
-  - string: Améliore les aptitudes d'invocateur à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for SMN lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   42:
-  - string: Mage bleu
+  - string: Mage Bleu
   43:
-  - string: Améliore les aptitudes de mage bleu à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for BLU lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   44:
-  - string: Corsaire
+  - string: Corsair
   45:
-  - string: Améliore les aptitudes de corsaire à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for COR lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   46:
-  - string: Marionnettiste
+  - string: Puppetmaster
   47:
-  - string: Améliore les aptitudes de marionnettiste à partir du niveau 75, pour un
-      total de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for PUP lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   48:
-  - string: Danseur
+  - string: Dancer
   49:
-  - string: Améliore les aptitudes de danseur à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for DNC lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   50:
-  - string: Erudit
+  - string: Scholar
   51:
-  - string: Améliore les aptitudes d'érudit à partir du niveau 75, pour un total de
-      10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for SCH lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   52:
-  - string: Compétences armes
+  - string: Weapon Skills
   53:
-  - string: Enseigne des compétences armes à partir du niveau 96, pour un total de
-      15 degrés pour cette catégorie.
+  - string: 'Adjust weapon skills for levels 96 and above. Total ability increases: 15. Total ability increases from Primers on Martial Techniques: 5. Total ability increases from Treastises on Martial Techniques: 5.'
   54:
-  - string: Géomancien
+  - string: Geomancer
   55:
-  - string: Améliore les aptitudes de géomancien à partir du niveau 75, pour un total
-      de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for GEO lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   56:
-  - string: Epéiste runique
+  - string: Rune Fencer
   57:
-  - string: Améliore les aptitudes d'épéiste runique à partir du niveau 75, pour un
-      total de 10 degrés pour chacun des groupes 1 et 2.
+  - string: |-
+      Adjust various abilities for RUN lv.75 or above.
+      Group 1 max. total ability increases: 10
+      Group 2 max. total ability increases: 10
   58:
   - string: MeripoName29
   59:
@@ -154,17 +206,17 @@ lists:
   63:
   - string: Meripo 31 help text.
   64:
-  - string: HP maximums
+  - string: Max HP
   65:
-  - string: Augmente vos HP maximums de 10 points pour chaque degré franchi.
+  - string: Adjust your maximum HP by 10 points.
   66:
-  - string: MP maximums
+  - string: Max MP
   67:
-  - string: Augmente vos MP maximums de 10 points pour chaque degré franchi.
+  - string: Adjust your maximum MP by 10 points.
   68:
-  - string: Points de mérite maximums
+  - string: Maximum Merit Points
   69:
-  - string: Augmente vos points de mérite maximums de 1 point pour chaque degré franchi.
+  - string: Adjust your maximum number of merit points by 1 point.
   70:
   - string: MeripoName35
   71:
@@ -284,31 +336,31 @@ lists:
   128:
   - string: STR
   129:
-  - string: Augmente la STR de 1 point pour chaque degré franchi.
+  - string: Adjust your STR by 1 point.
   130:
   - string: DEX
   131:
-  - string: Augmente la DEX de 1 point pour chaque degré franchi.
+  - string: Adjust your DEX by 1 point.
   132:
   - string: VIT
   133:
-  - string: Augmente la VIT de 1 point pour chaque degré franchi.
+  - string: Adjust your VIT by 1 point.
   134:
   - string: AGI
   135:
-  - string: Augmente l'AGI de 1 point pour chaque degré franchi.
+  - string: Adjust your AGI by 1 point.
   136:
   - string: INT
   137:
-  - string: Augmente l'INT de 1 point pour chaque degré franchi.
+  - string: Adjust your INT by 1 point.
   138:
   - string: MND
   139:
-  - string: Augmente le MND de 1 point pour chaque degré franchi.
+  - string: Adjust your MND by 1 point.
   140:
   - string: CHR
   141:
-  - string: Augmente le CHR de 1 point pour chaque degré franchi.
+  - string: Adjust your CHR by 1 point.
   142:
   - string: MeripoName71
   143:
@@ -410,81 +462,81 @@ lists:
   191:
   - string: Meripo 95 help text.
   192:
-  - string: Corps à corps
+  - string: Compétence en combat à mains nues
   193:
-  - string: Augmente la compétence corps à corps de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en combat à mains nues de 2 points.
   194:
-  - string: Dague
+  - string: Compétence en dague
   195:
-  - string: Augmente la compétence dague de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en dague de 2 points.
   196:
-  - string: Epée
+  - string: Compétence en épée
   197:
-  - string: Augmente la compétence épée de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en épée de 2 points.
   198:
-  - string: Grande épée
+  - string: Compétence en épée longue
   199:
-  - string: Augmente la compétence grande épée de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en épée longue de 2 points.
   200:
-  - string: Hache
+  - string: Compétence en hache
   201:
-  - string: Augmente la compétence hache de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en hache de 2 points.
   202:
-  - string: Grande hache
+  - string: Compétence en hache lourde
   203:
-  - string: Augmente la compétence grande hache de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en hache lourde de 2 points.
   204:
-  - string: Faux
+  - string: Compétence en faux
   205:
-  - string: Augmente la compétence faux de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en faux de 2 points.
   206:
-  - string: Arme d'hast
+  - string: Compétence en arme d'hast
   207:
-  - string: Augmente la compétence arme d'hast de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en arme d'hast de 2 points.
   208:
-  - string: Katana
+  - string: Compétence en katana
   209:
-  - string: Augmente la compétence katana de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en katana de 2 points.
   210:
-  - string: Grand katana
+  - string: Compétence en grand katana
   211:
-  - string: Augmente la compétence grand katana de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en grand katana de 2 points.
   212:
-  - string: Massue
+  - string: Compétence en massue
   213:
-  - string: Augmente la compétence massue de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en massue de 2 points.
   214:
-  - string: Crosse
+  - string: Compétence en bâton
   215:
-  - string: Augmente la compétence crosse de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en bâton de 2 points.
   216:
-  - string: Tir à l'arc
+  - string: Compétence en tir à l'arc
   217:
-  - string: Augmente la compétence tir à l'arc de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en tir à l'arc de 2 points.
   218:
-  - string: Adresse au tir
+  - string: Compétence en tir
   219:
-  - string: Augmente la compétence adresse au tir de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en tir de 2 points.
   220:
-  - string: Lancer
+  - string: Compétence en lancer
   221:
-  - string: Augmente la compétence lancer de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en lancer de 2 points.
   222:
-  - string: Garde
+  - string: Compétence en parade active
   223:
-  - string: Augmente la compétence garde de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en parade active de 2 points.
   224:
-  - string: Esquive
+  - string: Compétence en esquive
   225:
-  - string: Augmente la compétence esquive de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en esquive de 2 points.
   226:
-  - string: Bouclier
+  - string: Compétence en bouclier
   227:
-  - string: Augmente la compétence bouclier de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en bouclier de 2 points.
   228:
-  - string: Parade
+  - string: Compétence en parade
   229:
-  - string: Augmente la compétence parade de 2 points pour chaque degré franchi.
+  - string: Ajuste ta compétence en parade de 2 points.
   230:
   - string: MeripoName115
   231:
@@ -538,69 +590,61 @@ lists:
   255:
   - string: Meripo 127 help text.
   256:
-  - string: Magie divine
+  - string: Divine Magic Skill
   257:
-  - string: Augmente la compétence de magie divine de 2 points pour chaque degré franchi.
+  - string: Adjust your divine magic skill by 2 points.
   258:
-  - string: Magie curative
+  - string: Healing Magic Skill
   259:
-  - string: Augmente la compétence de magie curative de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your healing magic skill by 2 points.
   260:
-  - string: Magie décuplante
+  - string: Enhancing Magic Skill
   261:
-  - string: Augmente la compétence de magie décuplante de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your enhancing magic skill by 2 points.
   262:
-  - string: Magie fragilisante
+  - string: Enfeebling Magic Skill
   263:
-  - string: Augmente la compétence de magie fragilisante de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your enfeebling magic skill by 2 points.
   264:
-  - string: Magie élémentaire
+  - string: Elemental Magic Skill
   265:
-  - string: Augmente la compétence de magie élémentaire de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your elemental magic skill by 2 points.
   266:
-  - string: Magie sombre
+  - string: Dark Magic Skill
   267:
-  - string: Augmente la compétence de magie sombre de 2 points pour chaque degré franchi.
+  - string: Adjust your dark magic skill by 2 points.
   268:
-  - string: Magie d'invocation
+  - string: Summoning Magic Skill
   269:
-  - string: Augmente la compétence de magie invocatrice de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your summoning magic skill by 2 points.
   270:
-  - string: Ninjutsu
+  - string: Ninjutsu Skill
   271:
-  - string: Augmente la compétence de ninjutsu de 2 points pour chaque degré franchi.
+  - string: Adjust your ninjutsu skill by 2 points.
   272:
-  - string: Chant
+  - string: Singing Skill
   273:
-  - string: Augmente la compétence de chant de 2 points pour chaque degré franchi.
+  - string: Adjust your singing skill by 2 points.
   274:
-  - string: Instrument à cordes
+  - string: String Instrument Skill
   275:
-  - string: Augmente la compétence d'instrument à cordes de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your string instrument skill by 2 points.
   276:
-  - string: Instrument à vent
+  - string: Wind Instrument Skill
   277:
-  - string: Augmente la compétence d'instrument à vent de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your wind instrument skill by 2 points.
   278:
-  - string: Magie bleue
+  - string: Blue Magic Skill
   279:
-  - string: Augmente la compétence de magie bleue de 2 points pour chaque degré franchi.
+  - string: Adjust your blue magic skill by 2 points.
   280:
-  - string: Magie géomantique
+  - string: Geomancy Skill
   281:
-  - string: Augmente la compétence de magie géomantique de 2 points pour chaque degré
-      franchi.
+  - string: Adjust your geomancy skill by 2 points.
   282:
-  - string: Cloche
+  - string: Handbell Skill
   283:
-  - string: Augmente la compétence de cloche de 2 points pour chaque degré franchi.
+  - string: Adjust your handbell skill by 2 points.
   284:
   - string: MeripoName142
   285:
@@ -674,28 +718,25 @@ lists:
   319:
   - string: Meripo 159 help text.
   320:
-  - string: Gain d'inimitié
+  - string: Enmity Increase
   321:
-  - string: Augmente l'inimitié de 1 point pour chaque degré franchi.
+  - string: Increase your enmity 1 point.
   322:
-  - string: Perte d'inimitié
+  - string: Enmity Decrease
   323:
-  - string: Réduit l'inimitié de 1 point pour chaque degré franchi.
+  - string: Decrease your enmity 1 point.
   324:
-  - string: Coups critiques portés
+  - string: Critical Hit Rate
   325:
-  - string: Augmente les chances de porter un coup critique de 1% pour chaque degré
-      franchi.
+  - string: Adjust your critical hit rate by 1 percent.
   326:
-  - string: Coups critiques reçus
+  - string: Enemy Critical Hit Rate
   327:
-  - string: Réduit les risques de recevoir un coup critique de 1% pour chaque degré
-      franchi.
+  - string: Adjust enemies' critical hit rate by 1 percent.
   328:
-  - string: Interruption des sorts
+  - string: Spell Interruption Rate
   329:
-  - string: Réduit les risques d'être interrompu pendant le lancement d'un sort de
-      2% pour chaque degré franchi.
+  - string: Adjust your spell interruption rate by 2 percent.
   330:
   - string: MeripoName165
   331:
@@ -805,25 +846,25 @@ lists:
   383:
   - string: Meripo 191 help text.
   384:
-  - string: Réutilisation Berserk
+  - string: Berserk Recast
   385:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   386:
-  - string: Réutilisation Défenseur
+  - string: Defender Recast
   387:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 6 seconds.
   388:
-  - string: Réutilisation Cri de guerre
+  - string: Warcry Recast
   389:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   390:
-  - string: Réutilisation Agresseur
+  - string: Aggressor Recast
   391:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   392:
-  - string: Chances de Double attaque
+  - string: Double Attack Rate
   393:
-  - string: Augmente la fréquence de "Double attaque" de 1% pour chaque degré franchi.
+  - string: Increase double attack rate by 1 percent.
   394:
   - string: MeripoName197
   395:
@@ -933,25 +974,25 @@ lists:
   447:
   - string: Meripo 223 help text.
   448:
-  - string: Réutilisation Précision
+  - string: Focus Recast
   449:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 4 seconds.
   450:
-  - string: Réutilisation Esquive +
+  - string: Dodge Recast
   451:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 4 seconds.
   452:
-  - string: Réutilisation Chakra
+  - string: Chakra Recast
   453:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 6 seconds.
   454:
-  - string: Chances de Riposte
+  - string: Counter Rate
   455:
-  - string: Augmente les chances de riposte de 1% pour chaque degré franchi.
+  - string: Increase counter attack rate by 1 percent.
   456:
-  - string: Chances de Coups de pied
+  - string: Kick Attack Rate
   457:
-  - string: Augmente la fréquence des coups de pied de 1% pour chaque degré franchi.
+  - string: Increase kick attack rate by 1 percent.
   458:
   - string: MeripoName229
   459:
@@ -1061,28 +1102,25 @@ lists:
   511:
   - string: Meripo 255 help text.
   512:
-  - string: Réutilisation Sceau divin
+  - string: Divine Seal Recast
   513:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   514:
-  - string: Sorts Soin
+  - string: Cure Cast Time
   515:
-  - string: Réduit le temps de lancement des sorts Soin de 4% pour chaque degré franchi.
+  - string: Shorten cast time of all Cure spells by 4 percent.
   516:
-  - string: Effet des sorts Anti
+  - string: Bar Spell Effect
   517:
-  - string: Augmente la résistance des sorts Anti et ajoute un bonus de 2 points à
-      la défense magique pour chaque degré franchi.
+  - string: Increase potency of Bar spells and add a magic defense bonus of 2 points.
   518:
-  - string: Effet des sorts Bannissement
+  - string: Banish Effect
   519:
-  - string: Augmente la puissance de Bannissement de 2 points et allonge l'effet de
-      défense réduite de 2 secondes pour chaque degré franchi.
+  - string: Increase damage of Banish by 2, and length of def. down effect by 2 seconds.
   520:
-  - string: Effet des sorts Récup
+  - string: Regen Effect
   521:
-  - string: Augmente le nombre de HP récupérés à chaque intervalle de 1 point pour
-      chaque degré franchi.
+  - string: Increase the amount of HP recovered each interval by 1.
   522:
   - string: MeripoName261
   523:
@@ -1192,37 +1230,33 @@ lists:
   575:
   - string: Meripo 287 help text.
   576:
-  - string: Réutilis. Sceau élément.
+  - string: Elemental Seal Recast
   577:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   578:
-  - string: Puissance sorts de feu
+  - string: Fire Magic Potency
   579:
-  - string: Augmente la puissance des sorts de feu de 2 points pour chaque degré franchi.
+  - string: Increase the potency of Fire spells by 2.
   580:
-  - string: Puissance sorts de glace
+  - string: Ice Magic Potency
   581:
-  - string: Augmente la puissance des sorts de glace de 2 points pour chaque degré
-      franchi.
+  - string: Increase the potency of Ice spells by 2.
   582:
-  - string: Puissance sorts de vent
+  - string: Wind Magic Potency
   583:
-  - string: Augmente la puissance des sorts de vent de 2 points pour chaque degré
-      franchi.
+  - string: Increase the potency of Wind spells by 2.
   584:
-  - string: Puissance sorts de terre
+  - string: Earth Magic Potency
   585:
-  - string: Augmente la puissance des sorts de terre de 2 points pour chaque degré
-      franchi.
+  - string: Increase the potency of Earth spells by 2.
   586:
-  - string: Puissance sorts de foudre
+  - string: Lightning Magic Potency
   587:
-  - string: Augmente la puissance des sorts de foudre de 2 points pour chaque degré
-      franchi.
+  - string: Increase the potency of Lightning spells by 2.
   588:
-  - string: Puissance sorts d'eau
+  - string: Water Magic Potency
   589:
-  - string: Augmente la puissance des sorts d'eau de 2 points pour chaque degré franchi.
+  - string: Increase the potency of Water spells by 2.
   590:
   - string: MeripoName295
   591:
@@ -1324,37 +1358,33 @@ lists:
   639:
   - string: Meripo 319 help text.
   640:
-  - string: Réutilisation Conversion
+  - string: Convert Recast
   641:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   642:
-  - string: Précision sorts de feu
+  - string: Fire Magic Accuracy
   643:
-  - string: Augmente la précision des sorts de feu de 3 points pour chaque degré franchi.
+  - string: Increase the accuracy of Fire spells by 3.
   644:
-  - string: Précision sorts de glace
+  - string: Ice Magic Accuracy
   645:
-  - string: Augmente la précision des sorts de glace de 3 points pour chaque degré
-      franchi.
+  - string: Increase the accuracy of Ice spells by 3.
   646:
-  - string: Précision sorts de vent
+  - string: Wind Magic Accuracy
   647:
-  - string: Augmente la précision des sorts de vent de 3 points pour chaque degré
-      franchi.
+  - string: Increase the accuracy of Wind spells by 3.
   648:
-  - string: Précision sorts de terre
+  - string: Earth Magic Accuracy
   649:
-  - string: Augmente la précision des sorts de terre de 3 points pour chaque degré
-      franchi.
+  - string: Increase the accuracy of Earth spells by 3.
   650:
-  - string: Précision sorts de foudre
+  - string: Lightning Magic Accuracy
   651:
-  - string: Augmente la précision des sorts de foudre de 3 points pour chaque degré
-      franchi.
+  - string: Increase the accuracy of Lightning spells by 3.
   652:
-  - string: Précision sorts d'eau
+  - string: Water Magic Accuracy
   653:
-  - string: Augmente la précision des sorts d'eau de 3 points pour chaque degré franchi.
+  - string: Increase the accuracy of Water spells by 3.
   654:
   - string: MeripoName327
   655:
@@ -1456,25 +1486,25 @@ lists:
   703:
   - string: Meripo 351 help text.
   704:
-  - string: Réutilisation Fuite
+  - string: Flee Recast
   705:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   706:
-  - string: Réutilisation Dissimulation
+  - string: Hide Recast
   707:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   708:
-  - string: Réutilis. Attaque furtive
+  - string: Sneak Attack Recast
   709:
-  - string: Réduit le délai de réutilisation de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 2 seconds.
   710:
-  - string: Réutilis. Attaque sournoise
+  - string: Trick Attack Recast
   711:
-  - string: Réduit le délai de réutilisation de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 2 seconds.
   712:
-  - string: Chances de Triple attaque
+  - string: Triple Attack Rate
   713:
-  - string: Augmente la fréquence de "Triple attaque" de 1% pour chaque degré franchi.
+  - string: Increase triple attack rate by 1 percent.
   714:
   - string: MeripoName357
   715:
@@ -1584,25 +1614,25 @@ lists:
   767:
   - string: Meripo 383 help text.
   768:
-  - string: Réutilis. Coup du bouclier
+  - string: Shield Bash Recast
   769:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 2 seconds.
   770:
-  - string: Réutilisation Cercle sacré
+  - string: Holy Circle Recast
   771:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   772:
-  - string: Réutilisation Sentinelle
+  - string: Sentinel Recast
   773:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   774:
-  - string: Durée de Couverture
+  - string: Cover Effect Length
   775:
-  - string: Allonge la durée de l'effet de 4 secondes pour chaque degré franchi.
+  - string: Lengthen time of effect by 4 seconds.
   776:
-  - string: Réutilisation Rempart
+  - string: Rampart Recast
   777:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 4 seconds.
   778:
   - string: MeripoName389
   779:
@@ -1712,26 +1742,25 @@ lists:
   831:
   - string: Meripo 415 help text.
   832:
-  - string: Réutilisation Noirceur
+  - string: Souleater Recast
   833:
-  - string: Réduit le délai de réutilisation de 12 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 12 seconds.
   834:
-  - string: Réutilis. Cercle ésotérique
+  - string: Arcane Circle Recast
   835:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   836:
-  - string: Réutilis. Dernier recours
+  - string: Last Resort Recast
   837:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   838:
-  - string: Effet de Dernier recours
+  - string: Last Resort Effect
   839:
-  - string: Augmente l'attaque de 2% mais réduit la défense de 2% pour chaque degré
-      franchi.
+  - string: Increase attacks by 2 percent, but lower defense by 2 percent.
   840:
-  - string: Réutilis. Frappe paralysante
+  - string: Weapon Bash Recast
   841:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 6 seconds.
   842:
   - string: MeripoName421
   843:
@@ -1841,27 +1870,25 @@ lists:
   895:
   - string: Meripo 447 help text.
   896:
-  - string: Chances des effets Tueur
+  - string: Killer Effects
   897:
-  - string: Augmente les chances d'activation des effets "Tueur" de 1% pour chaque
-      degré franchi.
+  - string: Increase intimidation rate on all killer effects by 1 percent.
   898:
-  - string: Réutilisation Récompense
+  - string: Reward Recast
   899:
-  - string: Réduit le délai de réutilisation de 3 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 3 seconds.
   900:
-  - string: Réutilisation Appel familier
+  - string: Call Beast Recast
   901:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   902:
-  - string: Réutilisation Vas-y !
+  - string: Sic Recast
   903:
-  - string: Réduit le délai de réutilisation de "Vas-y !" de 4 secondes et celui de
-      "Obéis !" de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time for Sic and Ready by 2 seconds.
   904:
-  - string: Réutilisation Amadouer
+  - string: Tame Recast
   905:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   906:
   - string: MeripoName453
   907:
@@ -1971,26 +1998,25 @@ lists:
   959:
   - string: Meripo 479 help text.
   960:
-  - string: Réutilisation des "Berceuse"
+  - string: Lullaby Recast
   961:
-  - string: Réduit le délai de réutilisation de 1 seconde pour chaque degré franchi.
+  - string: Shorten recast time by 1 second.
   962:
-  - string: Réutilisation des "Finale"
+  - string: Finale Recast
   963:
-  - string: Réduit le délai de réutilisation de 1 seconde pour chaque degré franchi.
+  - string: Shorten recast time by 1 second.
   964:
-  - string: Effet des "Lied"
+  - string: Minne Effect
   965:
-  - string: Augmente le bonus de défense de 2 points pour chaque degré franchi.
+  - string: Increase defense enhancement by 2.
   966:
-  - string: Effet des "Menuet"
+  - string: Minuet Effect
   967:
-  - string: Augmente le bonus d'attaque de 1 point pour chaque degré franchi.
+  - string: Increase attack enhancement by 1.
   968:
-  - string: Effet des "Madrigal"
+  - string: Madrigal Effect
   969:
-  - string: Augmente le bonus de précision des attaques de mêlée de 1 point pour chaque
-      degré franchi.
+  - string: Increase melee accuracy enhancement by 1.
   970:
   - string: MeripoName485
   971:
@@ -2100,26 +2126,25 @@ lists:
   1023:
   - string: Meripo 511 help text.
   1024:
-  - string: Effet de Fouille
+  - string: Scavenge Effect
   1025:
-  - string: Augmente les chances de trouver des munitions de 5% pour chaque degré
-      franchi.
+  - string: Increase the chance of finding ammunition by 5 percent.
   1026:
-  - string: Réutilisation Camouflage
+  - string: Camouflage Recast
   1027:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   1028:
-  - string: Réutilisation Visée
+  - string: Sharpshot Recast
   1029:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   1030:
-  - string: Réutilisation Tirs illimités
+  - string: Unlimited Shot Recast
   1031:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 6 seconds.
   1032:
-  - string: Chances de Tir rapide
+  - string: Rapid Shot Rate
   1033:
-  - string: Augmente les chances de "Tir rapide" de 1% pour chaque degré franchi.
+  - string: Increase rapid shot rate by 1 percent.
   1034:
   - string: MeripoName517
   1035:
@@ -2229,25 +2254,25 @@ lists:
   1087:
   - string: Meripo 543 help text.
   1088:
-  - string: Réutilisation Troisième œil
+  - string: Third Eye Recast
   1089:
-  - string: Réduit le délai de réutilisation de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 2 seconds.
   1090:
-  - string: Réutilis. Cercle protecteur
+  - string: Warding Circle Recast
   1091:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   1092:
-  - string: Effet de Réserve TP
+  - string: Store TP Effect
   1093:
-  - string: Augmente l'effet "Réserve TP" de 2 points pour chaque degré franchi.
+  - string: Increase amount of TP stored by 2.
   1094:
-  - string: Réutilisation Méditation
+  - string: Meditate Recast
   1095:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 6 seconds.
   1096:
-  - string: Chances de Zanshin
+  - string: Zanshin Attack Rate
   1097:
-  - string: Augmente les chances d'activation de Zanshin de 1% pour chaque degré franchi.
+  - string: Increase Zanshin attack rate by 1 percent.
   1098:
   - string: MeripoName549
   1099:
@@ -2357,39 +2382,33 @@ lists:
   1151:
   - string: Meripo 575 help text.
   1152:
-  - string: Effet de Coup subtil
+  - string: Subtle Blow Effect
   1153:
-  - string: Augmente l'effet "Coup subtil" de 1 point pour chaque degré franchi.
+  - string: Increase subtle blow effect by 1.
   1154:
-  - string: Effet de Katon
+  - string: Katon Effect
   1155:
-  - string: Augmente la puissance de 2 points et allonge la réduction de résistance
-      à l'eau de 2 secondes pour chaque degré franchi.
+  - string: Increase damage by 2, and length of water resistance down effect by 2 seconds.
   1156:
-  - string: Effet de Hyoton
+  - string: Hyoton Effect
   1157:
-  - string: Augmente la puissance de 2 points et allonge la réduction de résistance
-      au feu de 2 secondes pour chaque degré franchi.
+  - string: Increase damage by 2, and length of fire resistance down effect by 2 seconds.
   1158:
-  - string: Effet de Huton
+  - string: Huton Effect
   1159:
-  - string: Augmente la puissance de 2 points et allonge la réduction de résistance
-      à la glace de 2 secondes pour chaque degré franchi.
+  - string: Increase damage by 2, and length of ice resistance down effect by 2 seconds.
   1160:
-  - string: Effet de Doton
+  - string: Doton Effect
   1161:
-  - string: Augmente la puissance de 2 points et allonge la réduction de résistance
-      au vent de 2 secondes pour chaque degré franchi.
+  - string: Increase damage by 2, and length of wind resistance down effect by 2 seconds.
   1162:
-  - string: Effet de Raiton
+  - string: Raiton Effect
   1163:
-  - string: Augmente la puissance de 2 points et allonge la réduction de résistance
-      à la terre de 2 secondes pour chaque degré franchi.
+  - string: Increase damage by 2, and length of earth resistance down effect by 2 seconds.
   1164:
-  - string: Effet de Suiton
+  - string: Suiton Effect
   1165:
-  - string: Augmente la puissance de 2 points et allonge la réduction de résistance
-      à la foudre de 2 secondes pour chaque degré franchi.
+  - string: Increase damage by 2, and length of ltng. resistance down effect by 2 seconds.
   1166:
   - string: MeripoName583
   1167:
@@ -2491,25 +2510,25 @@ lists:
   1215:
   - string: Meripo 607 help text.
   1216:
-  - string: Réutilisation Cercle ancien
+  - string: Ancient Circle Recast
   1217:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   1218:
-  - string: Réutilisation Saut
+  - string: Jump Recast
   1219:
-  - string: Réduit le délai de réutilisation de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time of Jump and Spirit Jump by 2 seconds.
   1220:
-  - string: Réutilisation Saut aérien
+  - string: High Jump Recast
   1221:
-  - string: Réduit le délai de réutilisation de 4 secondes pour chaque degré franchi.
+  - string: Shorten recast time of High Jump and Soul Jump by 4 seconds.
   1222:
-  - string: Réutilisation Super saut
+  - string: Super Jump Recast
   1223:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 6 seconds.
   1224:
-  - string: Réutilisation Lien spirituel
+  - string: Spirit Link Recast
   1225:
-  - string: Réduit le délai de réutilisation de 3 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 3 seconds.
   1226:
   - string: MeripoName613
   1227:
@@ -2619,30 +2638,25 @@ lists:
   1279:
   - string: Meripo 639 help text.
   1280:
-  - string: 'Avatar : précision physique'
+  - string: Avatar Physical Accuracy
   1281:
-  - string: Augmente la précision des attaques physiques des avatars de 3 points pour
-      chaque degré franchi.
+  - string: Increase avatars' physical accuracy by 3.
   1282:
-  - string: 'Avatar : attaque physique'
+  - string: Avatar Physical Attack
   1283:
-  - string: Augmente la puissance des attaques physiques des avatars de 2 points pour
-      chaque degré franchi.
+  - string: Increase avatars' physical attacks by 2.
   1284:
-  - string: 'Avatar : précision magique'
+  - string: Avatar Magical Accuracy
   1285:
-  - string: Augmente la précision des attaques magiques des avatars de 3 points pour
-      chaque degré franchi.
+  - string: Increase avatars' magical accuracy by 3.
   1286:
-  - string: 'Avatar : attaque magique'
+  - string: Avatar Magical Attack
   1287:
-  - string: Augmente la puissance des attaques magiques des avatars de 2 points pour
-      chaque degré franchi.
+  - string: Increase avatars' magical attacks by 2.
   1288:
-  - string: Magie invocatrice
+  - string: Summoning Magic Cast Time
   1289:
-  - string: Réduit le temps de lancement de la magie invocatrice de 5% pour chaque
-      degré franchi.
+  - string: Shorten cast time of all summoning magic spells by 5 percent.
   1290:
   - string: MeripoName645
   1291:
@@ -2752,28 +2766,25 @@ lists:
   1343:
   - string: Meripo 671 help text.
   1344:
-  - string: Réutilis. Lien de chaînes
+  - string: Chain Affinity Recast
   1345:
-  - string: Réduit le délai de réutilisation de 4 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 4 seconds.
   1346:
-  - string: Réutilis. Lien d'explosions
+  - string: Burst Affinity Recast
   1347:
-  - string: Réduit le délai de réutilisation de 4 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 4 seconds.
   1348:
-  - string: Corrélation des monstres
+  - string: Monster Correlation
   1349:
-  - string: Augmente l'effet des relations entre familles de monstres de 1 point pour
-      chaque degré franchi.
+  - string: Increase monster family related effects by 1.
   1350:
-  - string: Puissance physique
+  - string: Physical Potency
   1351:
-  - string: Augmente la puissance des sorts bleus "physiques" de 2 points pour chaque
-      degré franchi.
+  - string: Increase the potency of physical blue magic spells by 2.
   1352:
-  - string: Précision magique
+  - string: Magical Accuracy
   1353:
-  - string: Augmente la précision des sorts bleus "magiques" de 2 points pour chaque
-      degré franchi.
+  - string: Increase the accuracy of magical blue magic spells by 2.
   1354:
   - string: MeripoName677
   1355:
@@ -2883,26 +2894,25 @@ lists:
   1407:
   - string: Meripo 703 help text.
   1408:
-  - string: Réutilisation Jet fantôme
+  - string: Phantom Roll Recast
   1409:
-  - string: Réduit le délai de réutilisation de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 2 seconds.
   1410:
-  - string: Réutilisation Tirage vif
+  - string: Quick Draw Recast
   1411:
-  - string: Réduit le délai de réutilisation de 2 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 2 seconds.
   1412:
-  - string: Précision Tirage vif
+  - string: Quick Draw Accuracy
   1413:
-  - string: Augmente la précision de "Tirage vif" de 2 points pour chaque degré franchi.
+  - string: Increase the accuracy of Quick Draw by 2.
   1414:
-  - string: Réutilis. Tirage aléatoire
+  - string: Random Deal Recast
   1415:
-  - string: Réduit le délai de réutilisation de 40 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 40 seconds.
   1416:
-  - string: Durée d'un Bust
+  - string: Bust Duration
   1417:
-  - string: Réduit la durée de la pénalité d'un Bust de 10 secondes pour chaque degré
-      franchi.
+  - string: Shorten the duration of the Bust penalty by 10 seconds.
   1418:
   - string: MeripoName709
   1419:
@@ -3012,28 +3022,25 @@ lists:
   1471:
   - string: Meripo 735 help text.
   1472:
-  - string: 'Automate: comp. de mêlée'
+  - string: Automaton Skills
   1473:
-  - string: Augmente la compétence de mêlée de l'automate de 2 points pour chaque
-      degré franchi.
+  - string: Adjust valoredge, sharpshot, and stormwaker automaton skills by 2 points.
   1474:
-  - string: 'Automate: comp. de tir'
+  - string: Maintenance Recast
   1475:
-  - string: Augmente la compétence de tir de l'automate de 2 points pour chaque degré
-      franchi.
+  - string: Shorten recast time by 3 seconds.
   1476:
-  - string: 'Automate: comp. de magie'
+  - string: Repair Effect
   1477:
-  - string: Augmente la compétence de magie de l'automate de 2 points pour chaque
-      degré franchi.
+  - string: Increase amount of HP restored by 2%.
   1478:
-  - string: Réutilisation Activation
+  - string: Activate Recast
   1479:
-  - string: Réduit le délai de réutilisation de 40 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 40 seconds.
   1480:
-  - string: Réutilisation Réparation
+  - string: Repair Recast
   1481:
-  - string: Réduit le délai de réutilisation de 6 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 3 seconds.
   1482:
   - string: MeripoName741
   1483:
@@ -3143,22 +3150,21 @@ lists:
   1535:
   - string: Meripo 767 help text.
   1536:
-  - string: Précision des Pas
+  - string: Step Accuracy
   1537:
-  - string: Augmente la précision des Pas de 3 points pour chaque degré franchi.
+  - string: Increase the accuracy of Steps by 3.
   1538:
-  - string: Effet de Samba Hâte
+  - string: Haste Samba Effect
   1539:
-  - string: Augmente l'effet de Samba Hâte de 1 point pour chaque degré franchi.
+  - string: Increase the effect of Haste Samba by 1.
   1540:
-  - string: Effet de Pirouette inversée
+  - string: Reverse Flourish Effect
   1541:
-  - string: Augmente les TP obtenus de 30 points pour chaque degré franchi.
+  - string: Increase TP gained via Reverse Flourish by 30.
   1542:
-  - string: Effet de Pirouette intense
+  - string: Building Flourish Effect
   1543:
-  - string: Augmente la précision de 2 points, l'attaque et les chances de coup critique
-      de 1% pour chaque degré franchi.
+  - string: Increase Building Flourish accuracy by 2, attack power by 1%, and critical hit rating by 1%.
   1544:
   - string: MeripoName772
   1545:
@@ -3272,23 +3278,21 @@ lists:
   1599:
   - string: Meripo 799 help text.
   1600:
-  - string: Réutilisation des Grimoires
+  - string: Grimoire Recast
   1601:
-  - string: Réduit le délai de réutilisation des Grimoires blanc et noir de 2 secondes
-      pour chaque degré franchi.
+  - string: Shorten recast time of Light Arts and Dark Arts by 2 seconds.
   1602:
-  - string: Durée de Modus veritas
+  - string: Modus Veritas Duration
   1603:
-  - string: Allonge la durée d'effet de 10% pour chaque degré franchi.
+  - string: Increase duration of effect for Modus Veritas by 10%.
   1604:
-  - string: Précis. et attq. des Thèses
+  - string: Helix Magic Acc./Atk.
   1605:
-  - string: Augmente la précision magique des Thèses de 3 points et leur attaque magique
-      de 2 points pour chaque degré franchi.
+  - string: Increase magic accuracy by 3 and magic attack bonus by 2 for helix spells.
   1606:
-  - string: Limite des Révisions
+  - string: Max Sublimation
   1607:
-  - string: Augmente la limite des MP emmagasinés de 10 points pour chaque degré franchi.
+  - string: Increase the maximum amount of MP available via Sublimation by 10.
   1608:
   - string: MeripoName804
   1609:
@@ -3402,89 +3406,106 @@ lists:
   1663:
   - string: Meripo 831 help text.
   1664:
-  - string: Enchaînement cardinal
+  - string: Shijin Spiral
   1665:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de corps-à-corps\
-      \ : 357 ou plus\nJobs : MNK/PUP\nAugmente de 3% le bonus accordé par l'attribut\
-      \ DEX pour chaque degré franchi."
+  - string: |-
+      Lv.96 MNK/PUP
+      Hand-to-Hand skill 357 or greater.
+      Adjust DEX bonus by 3%.
   1666:
-  - string: Tranche-nerfs
+  - string: Exenterator
   1667:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de dague : 357 ou\
-      \ plus\nJobs : WAR/RDM/THF/BST/BRD/RNG/NIN/\nCOR/DNC\nAugmente de 3% le bonus\
-      \ accordé par l'attribut AGI pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/RDM/THF/BST/BRD/
+       RNG/NIN/COR/DNC
+      Dagger skill 357 or greater.
+      Adjust AGI bonus by 3%.
   1668:
   - string: Requiescat
   1669:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence d'épée : 357 ou plus\n\
-      Jobs : WAR/RDM/PLD/DRK/SAM/BLU/COR/\nRUN\nAugmente de 3% le bonus accordé par\
-      \ l'attribut MND pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/RDM/PLD/DRK/SAM/BLU/COR/RUN
+      Sword skill 357 or greater.
+      Adjust MND bonus by 3%.
   1670:
-  - string: Résolution
+  - string: Resolution
   1671:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de grande épée :\
-      \ 357 ou plus\nJobs : WAR/PLD/DRK/RUN\nAugmente de 3% le bonus accordé par l'attribut\
-      \ STR pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/PLD/DRK/RUN
+      Great Sword skill 357 or greater.
+      Adjust STR bonus by 3%.
   1672:
-  - string: Dévastateur
+  - string: Ruinator
   1673:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de hache : 357 ou\
-      \ plus\nJobs : WAR/DRK/BST/RNG/RUN\nAugmente de 3% le bonus accordé par l'attribut\
-      \ STR pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/DRK/BST/RNG/RUN
+      Axe skill 357 or greater.
+      Adjust STR bonus by 3%.
   1674:
-  - string: Chambardement
+  - string: Upheaval
   1675:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de grande hache :\
-      \ 357 ou plus\nJobs : WAR/DRK/RUN\nAugmente de 3% le bonus accordé par l'attribut\
-      \ VIT pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/DRK/RUN
+      Great Axe skill 357 or greater.
+      Adjust VIT bonus by 3%.
   1676:
-  - string: Entropie
+  - string: Entropy
   1677:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de faux : 357 ou\
-      \ plus\nJobs : WAR/DRK/BST\nAugmente de 3% le bonus accordé par l'attribut INT\
-      \ pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/DRK/BST
+      Scythe skill 357 or greater.
+      Adjust INT bonus by 3%.
   1678:
-  - string: Plongeon céleste
+  - string: Stardiver
   1679:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence d'arme d'hast : 357\
-      \ ou plus\nJobs : WAR/SAM/DRG\nAugmente de 3% le bonus accordé par l'attribut\
-      \ STR pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/SAM/DRG
+      Polearm skill 357 or greater.
+      Adjust STR bonus by 3%.
   1680:
-  - string: 'Lame : Shun'
+  - string: 'Blade: Shun'
   1681:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de katana : 357 ou\
-      \ plus\nJobs : NIN\nAugmente de 3% le bonus accordé par l'attribut DEX pour\
-      \ chaque degré franchi."
+  - string: |-
+      Lv.96 NIN
+      Katana skill 357 or greater.
+      Adjust DEX bonus by 3%.
   1682:
-  - string: 'Tachi : Shoha'
+  - string: 'Tachi: Shoha'
   1683:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de grand katana :\
-      \ 357 ou plus\nJobs : SAM\nAugmente de 3% le bonus accordé par l'attribut STR\
-      \ pour chaque degré franchi."
+  - string: |-
+      Lv.96 SAM
+      Great Katana skill 357 or greater.
+      Adjust STR bonus by 3%.
   1684:
-  - string: Ravageur de royaumes
+  - string: Realmrazer
   1685:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de massue : 357 ou\
-      \ plus.\nJobs : WAR/MNK/WHM/BLM/PLD/SMN/BLU/\nSCH/GEO\nAugmente de 3% le bonus\
-      \ accordé par l'attribut MND pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/MNK/WHM/BLM/PLD/
+       SMN/BLU/SCH/GEO
+      Club skill 357 or greater.
+      Adjust MND bonus by 3%.
   1686:
-  - string: Brise-âme
+  - string: Shattersoul
   1687:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de crosse : 357 ou\
-      \ plus.\nJobs : WAR/MNK/WHM/BLM/PLD/BRD/DRG/\nSMN/SCH/GEO\nAugmente de 3% le\
-      \ bonus accordé par l'attribut INT pour chaque degré franchi."
+  - string: |-
+      Lv.96 WAR/MNK/WHM/BLM/PLD/
+       BRD/DRG/SMN/SCH/GEO
+      Staff skill 357 or greater.
+      Adjust INT bonus by 3%.
   1688:
-  - string: Flèche apex
+  - string: Apex Arrow
   1689:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence de tir à l'arc :\
-      \ 357 ou plus.\nJobs : RNG/SAM\nAugmente de 3% le bonus accordé par l'attribut\
-      \ AGI pour chaque degré franchi."
+  - string: |-
+      Lv.96 RNG/SAM
+      Archery skill 357 or greater.
+      Adjust AGI bonus by 3%.
   1690:
-  - string: Baroud d'honneur
+  - string: Last Stand
   1691:
-  - string: "Conditions :\n - Niveau : 96 ou plus\n - Compétence d'adresse au tir\
-      \ : 357 ou plus.\nJobs : THF/RNG/COR\nAugmente de 3% le bonus accordé par l'attribut\
-      \ AGI pour chaque degré franchi."
+  - string: |-
+      Lv.96 THF/RNG/COR
+      Marksmanship skill 357 or greater.
+      Adjust AGI bonus by 3%.
   1692:
   - string: MeripoName846
   1693:
@@ -3558,26 +3579,25 @@ lists:
   1727:
   - string: Meripo 863 help text.
   1728:
-  - string: Effet de Cercle complet
+  - string: Full Circle Effect
   1729:
-  - string: Augmente le nombre de MP récupérés de 5% pour chaque degré franchi.
+  - string: Increase the amount of MP returned by 5 percent.
   1730:
-  - string: Réutilis. Renfor. sphérique
+  - string: Ecliptic Attrition Recast
   1731:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi
-      et réduit le délai de réutilisation d'Emanation durable.
+  - string: Shorten recast time of Ecliptic Attrition and Lasting Emanation by 10 seconds.
   1732:
-  - string: Réutilisation Cycle de vie
+  - string: Life Cycle Recast
   1733:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   1734:
-  - string: Réutilis. Emport. géomant.
+  - string: Blaze of Glory Recast
   1735:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   1736:
-  - string: Réutilis. Dématérialisation
+  - string: Dematerialize Recast
   1737:
-  - string: Réduit le délai de réutilisation de 20 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 20 seconds.
   1738:
   - string: MeripoName869
   1739:
@@ -3687,30 +3707,25 @@ lists:
   1791:
   - string: Meripo 895 help text.
   1792:
-  - string: Effet de Runes enchant.
+  - string: Rune Enchantment Effect
   1793:
-  - string: Augmente la résistance élémentaire des runes enchantées de 2 points pour
-      chaque degré franchi.
+  - string: Increase potency of runes harbored by 2 points.
   1794:
-  - string: Effet de Vallation
+  - string: Vallation Effect
   1795:
-  - string: Augmente la réduction des dégâts élémentaires de Vallation de 1 point
-      par rune enchantée pour chaque degré franchi et augmente la réduction des dégâts
-      élémentaires de Valeur.
+  - string: Add an elemental damage reduction to Vallation and an elemental damage reduction to Valiance of 1 point per harbored rune.
   1796:
-  - string: Effet de Fente
+  - string: Lunge Effect
   1797:
-  - string: Augmente la précision de Fente et de Volée runique de 3 points par rune
-      enchantée pour chaque degré franchi.
+  - string: Increase the accuracy of Lunge by 3 points per harbored rune and the accuracy of Swipe by a total of 3.
   1798:
-  - string: Effet de Pflug
+  - string: Pflug Effect
   1799:
-  - string: Augmente les chances d'activation de la résistance de 1 point par rune
-      enchantée pour chaque degré franchi.
+  - string: Enhance the likelihood of resistance activating by 1 point per harbored rune.
   1800:
-  - string: Réutilisation Gambit
+  - string: Gambit Recast
   1801:
-  - string: Réduit le délai de réutilisation de 10 secondes pour chaque degré franchi.
+  - string: Shorten recast time by 10 seconds.
   1802:
   - string: MeripoName901
   1803:
@@ -4204,33 +4219,30 @@ lists:
   2047:
   - string: Meripo 1023 help text.
   2048:
-  - string: Charge du guerrier
+  - string: Warrior's Charge
   2049:
-  - string: 'Fait de votre prochain coup une double attaque.
-
-      Délai de réutilisation : 5 minutes
-
-      Augmente de 5% les chances de porter une triple attaque pour chaque degré franchi.'
+  - string: |-
+      Will double your next attack.
+      Recast: 5min.
+      Increase chance of triple attack by 5 percent.
   2050:
   - string: Tomahawk
   2051:
-  - string: 'Réduit la défense de l''ennemi en utilisant un tomahawk de jet.
-
-      Délai de réutilisation : 3 minutes.
-
-      Augmente la durée de l''effet de 15 secondes pour chaque degré franchi.'
+  - string: |-
+      Expends a throwing tomahawk to inflict a special defense down effect on an enemy. Recast: 3min.
+      Increase duration of effect by 15 seconds.
   2052:
-  - string: Sauvagerie
+  - string: Savagery
   2053:
-  - string: 'Confère un bonus de TP à Cri de guerre.
-
-      Augmente le bonus de TP de 100 points pour chaque degré franchi.'
+  - string: |-
+      Adds TP bonus effect to Warcry.
+      Increase weapon skill TP bonus by 100.
   2054:
-  - string: Visée agressive
+  - string: Aggressive Aim
   2055:
-  - string: 'Confère un bonus de précision à distance à Agresseur.
-
-      Augmente le bonus de précision du tir de 4 points pour chaque degré franchi.'
+  - string: |-
+      Adds ranged accuracy bonus to Aggressor.
+      Increase ranged accuracy bonus by 4.
   2056:
   - string: ''
   2057:
@@ -4346,33 +4358,23 @@ lists:
   2112:
   - string: Mantra
   2113:
-  - string: 'Augmente les HP maximums des équipiers dans l''aire d''effet.
-
-      Délai de réutilisation : 10 minutes.
-
-      Augmente l''effet de 4% pour chaque degré franchi.'
+  - string: 'Increases the max. HP of party members within area of effect. Recast: 10min. Increase effect by 4 percent.'
   2114:
-  - string: Coups informes
+  - string: Formless Strikes
   2115:
-  - string: 'Fait que vos attaques de mêlée ne sont pas considérées comme physiques.
-      Sans effet sur les compétences armes.
-
-      Délai de réutilisation : 10 minutes.
-
-      Augmente l''effet de 5% pour chaque degré franchi.'
+  - string: |-
+      While in effect, melee attacks will not be considered physical damage. No effect on weapon skills. Recast: 10min.
+      Increase effect by 5 percent.
   2116:
-  - string: Tonifiant
+  - string: Invigorate
   2117:
-  - string: 'Ajoute l''effet "Récup" à Chakra.
-
-      Augmente la durée de l''effet de 24 secondes pour chaque degré franchi.'
+  - string: Adds a Regen effect when using Chakra. Increase duration of effect by 24 seconds.
   2118:
-  - string: Pénitence
+  - string: Penance
   2119:
-  - string: 'Ajoute un effet qui inhibe l''accumulation des TP d''un ennemi à Rafale
-      de Chi.
-
-      Augmente la durée de l''effet de 20 secondes pour chaque degré franchi.'
+  - string: |-
+      Adds an effect to Chi Blast that inhibits an enemy's TP accumulation.
+      Increase duration of effect by 20 seconds.
   2120:
   - string: ''
   2121:
@@ -4488,41 +4490,39 @@ lists:
   2176:
   - string: Martyr
   2177:
-  - string: 'Sacrifie une partie de vos HP pour en restaurer le double à un équipier.
-
-      Délai de réutilisation : 10 minutes.
-
-      Augmente la quantité de HP récupérés par l''équipier de 5% pour chaque degré
-      franchi.'
+  - string: |-
+      Sacrifices HP to heal a party member double the amount. Recast: 10min.
+      Increase amount of HP healed by 5 percent.
   2178:
-  - string: Dévotion
+  - string: Devotion
   2179:
-  - string: 'Sacrifie une partie de vos HP pour restaurer autant de MP à un équipier.
-
-      Délai de réutilisation : 10 minutes.
-
-      Augmente la quantité de MP récupérés par l''équipier de 5% pour chaque degré
-      franchi.'
+  - string: |-
+      Sacrifices HP to grant a party member the same amount in MP. Recast: 10min.
+      Increase amount of MP granted by 5 percent.
   2180:
-  - string: OmniBouclier V
+  - string: Protectra V
   2181:
-  - string: 'Augmente la défense des équipiers dans l''aire d''effet.
-
-      Augmente le bonus de défense de 5 points pour chaque degré franchi.'
+  - string: |-
+      Increases the defense of party members within area of effect.
+      Increase bonus defense by 5.
   2182:
-  - string: OmniBarrière V
+  - string: Shellra V
   2183:
-  - string: 'Augmente la défense magique des équipiers dans l''aire d''effet.
-
-      Augmente le bonus de défense de 1 point pour chaque degré franchi.'
+  - string: |-
+      Increases the magic defense of party members within area of effect.
+      Increase bonus magic defense by 1.
   2184:
-  - string: ''
+  - string: Animus Solace
   2185:
-  - string: ''
+  - string: |-
+      Increases the maximum damage absorbed by Stoneskin applied by certain healing spells during Afflatus Solace.
+      Increase maximum damage absorbed by 2%.
   2186:
-  - string: ''
+  - string: Animus Misery
   2187:
-  - string: ''
+  - string: |-
+      Increases the maximum total damage stored during Afflatus Misery.
+      Increase maximum total damage stored by 5%.
   2188:
   - string: ''
   2189:
@@ -4628,72 +4628,65 @@ lists:
   2239:
   - string: ''
   2240:
-  - string: Brasier II
+  - string: Flare II
   2241:
-  - string: 'Inflige des dégâts de feu à un ennemi et réduit sa résistance à l''eau.
-
-      Bonus de dégâts d''explosion magique+3, précision magique+5 pour ce sort pour
-      chaque degré franchi.'
+  - string: |-
+      Deals fire damage to an enemy and lowers its resistance against water.
+      Increase Flare II magic burst damage by 3, and magic accuracy by 5.
   2242:
-  - string: Gel II
+  - string: Freeze II
   2243:
-  - string: 'Inflige des dégâts de glace à un ennemi et réduit sa résistance au feu.
-
-      Bonus de dégâts d''explosion magique+3, précision magique+5 pour ce sort pour
-      chaque degré franchi.'
+  - string: |-
+      Deals ice damage to an enemy and lowers its resistance against fire.
+      Increase Freeze II magic burst damage by 3, and magic accuracy by 5.
   2244:
-  - string: Tornade II
+  - string: Tornado II
   2245:
-  - string: 'Inflige des dégâts de vent à un ennemi et réduit sa résistance à la glace.
-
-      Bonus de dégâts d''explosion magique+3, précision magique+5 pour ce sort pour
-      chaque degré franchi.'
+  - string: |-
+      Deals wind damage to an enemy and lowers its resistance against ice.
+      Increase Tornado II magic burst damage by 3, and magic accuracy by 5.
   2246:
-  - string: Séisme II
+  - string: Quake II
   2247:
-  - string: 'Inflige des dégâts de terre à un ennemi et réduit sa résistance au vent.
-
-      Bonus de dégâts d''explosion magique+3, précision magique+5 pour ce sort pour
-      chaque degré franchi.'
+  - string: |-
+      Deals earth damage to an enemy and lowers its resistance against wind.
+      Increase Quake II magic burst damage by 3, and magic accuracy by 5.
   2248:
-  - string: Eclair II
+  - string: Burst II
   2249:
-  - string: 'Inflige des dégâts de foudre à un ennemi et réduit sa résistance à la
-      terre.
-
-      Bonus de dégâts d''explosion magique+3, précision magique+5 pour ce sort pour
-      chaque degré franchi.'
+  - string: |-
+      Deals lightning damage to an enemy and lowers its resistance against earth.
+      Increase Burst II magic burst damage by 3, and magic accuracy by 5.
   2250:
-  - string: Déluge II
+  - string: Flood II
   2251:
-  - string: 'Inflige des dégâts d''eau à un ennemi et réduit sa résistance à la foudre.
-
-      Bonus de dégâts d''explosion magique+3, précision magique+5 pour ce sort pour
-      chaque degré franchi.'
+  - string: |-
+      Deals water damage to an enemy and lowers its resistance against lightning.
+      Increase Flood II magic burst damage by 3, and magic accuracy by 5.
   2252:
-  - string: ''
+  - string: Ancient Magic MAB
   2253:
-  - string: ''
+  - string: Increase Ancient Magic Magic Attack Bonus by 3.
   2254:
-  - string: ''
+  - string: Ancient Magic MB Dmg.
   2255:
-  - string: ''
+  - string: Increase Ancient Magic magic burst damage by 3%.
   2256:
-  - string: ''
+  - string: Elemental Mag. Acc.
   2257:
-  - string: ''
+  - string: Increase Elemental Magic Accuracy by 5.
   2258:
-  - string: ''
+  - string: Ele. Mag. Debuff Dur.
   2259:
-  - string: ''
+  - string: Increase Elemental Magic debuff duration by 12 seconds.
   2260:
-  - string: ''
+  - string: Ele. Mag. Debuff Pot.
   2261:
-  - string: ''
+  - string: Increase Elemental Magic debuff potency by 2 and damage over time by 1.
   2262:
-  - string: ''
+  - string: Aspir Abs. Amount
   2263:
-  - string: ''
+  - string: Increase the amount of MP absorbed by Aspir by 4%.
   2264:
   - string: ''
   2265:
@@ -4775,68 +4768,59 @@ lists:
   2303:
   - string: ''
   2304:
-  - string: Lumen III
+  - string: Dia III
   2305:
-  - string: 'Réduit la défense d''un ennemi et lui inflige graduellement des dégâts
-      de lumière.
-
-      Augmente la durée de l''effet de 30 secondes pour chaque degré franchi.'
+  - string: |-
+      Lowers an enemy's defense and gradually deals light elemental damage.
+      Increase duration of effect by 30 seconds.
   2306:
-  - string: Lenteur II
+  - string: Slow II
   2307:
-  - string: 'Réduit la vitesse d''attaque d''un ennemi.
-
-      Effet Lenteur+1, précision magique+2.'
+  - string: 'Reduces an enemy''s attack speed. Increase Slow II effect by 1 and magic accuracy by 2. '
   2308:
-  - string: Paralysie II
+  - string: Paralyze II
   2309:
-  - string: 'Paralyse un ennemi.
-
-      Effet Paralysie+1, précision magique+2 pour chaque degré franchi.'
+  - string: "Paralyzes an enemy.\nIncrease Paralyze II effect by 1 and magic accuracy by 2. "
   2310:
-  - string: Phalange II
+  - string: Phalanx II
   2311:
-  - string: 'Réduit d''un montant fixe les coups que reçoit l''équipier ciblé.
-
-      Augmente la durée de l''effet de 30 secondes et dégâts réduits+3 pour chaque
-      degré franchi.'
+  - string: |-
+      Grants a party member a certain amount of damage resistance.
+      Increase Phalanx II duration by 30 seconds and damage reduction by 3.
   2312:
-  - string: Bactérie III
+  - string: Bio III
   2313:
-  - string: 'Réduit l''attaque d''un ennemi et lui inflige graduellement des dégâts
-      de ténèbres.
-
-      Augmente la durée de l''effet de 30 secondes pour chaque degré franchi.'
+  - string: |-
+      Deals dark damage that weakens an enemy's attacks and gradually reduces its HP.
+      Increase duration of effect by 30 seconds.
   2314:
-  - string: Cécité II
+  - string: Blind II
   2315:
-  - string: 'Aveugle un ennemi, diminuant sa précision.
-
-      Effet Cécité+1, précision magique+2 pour chaque degré franchi.'
+  - string: Blinds an enemy, lowers its accuracy. Increase Blind II accuracy down effect by 1 and magic accuracy by 2.
   2316:
-  - string: ''
+  - string: Enfeebling Magic Duration
   2317:
-  - string: ''
+  - string: Increase enfeebling magic duration by 6 seconds.
   2318:
-  - string: ''
+  - string: Magic Accuracy
   2319:
-  - string: ''
+  - string: Increase magic accuracy by 5.
   2320:
-  - string: ''
+  - string: Enhancing Magic Duration
   2321:
-  - string: ''
+  - string: Increase enhancing magic duration by 6 seconds.
   2322:
-  - string: ''
+  - string: Immunobreak Chance
   2323:
-  - string: ''
+  - string: Increase chance of Immunobreak occurring by 3 percent.
   2324:
-  - string: ''
+  - string: Enspell Damage
   2325:
-  - string: ''
+  - string: Increase damage of Enspell effects by 3, and Enspell II effects by 6.
   2326:
-  - string: ''
+  - string: Accuracy
   2327:
-  - string: ''
+  - string: Increase accuracy by 5.
   2328:
   - string: ''
   2329:
@@ -4918,37 +4902,28 @@ lists:
   2367:
   - string: ''
   2368:
-  - string: Charge assassine
+  - string: Assassin's Charge
   2369:
-  - string: 'Fait de votre prochain coup une triple attaque.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente de 5% les chances de porter une quadruple attaque pour chaque degré
-      franchi.'
+  - string: |-
+      Will triple your next attack.
+      Recast: 5min.
+      Increase chance of fourfold attack by 5 percent.
   2370:
-  - string: Feinte
+  - string: Feint
   2371:
-  - string: 'Permet à votre prochain coup de réduire considérablement l''esquive de
-      l''ennemi.
-
-      Délai de réutilisation : 2 minutes.
-
-      Confère un bonus de 25% aux chances d''augmenter l''effet "Chasseur de trésor"
-      pour chaque degré franchi.'
+  - string: |-
+      Your next successful attack will greatly reduce an enemy's evasion. Recast: 2min.
+      Increase chance of increasing Treasure Hunter effect by 25 percent.
   2372:
-  - string: Vol d'aura
+  - string: Aura Steal
   2373:
-  - string: 'Ajoute l''effet "Dissipation" à Vol. Absorbe parfois l''effet dissipé.
-
-      Augmente les chances d''absorber l''effet de 20% pour chaque degré franchi.'
+  - string: Adds a Dispel effect to Steal. Occasionally absorbs dispelled effect. Increase absorb rate by 20 percent.
   2374:
-  - string: Embuscade
+  - string: Ambush
   2375:
-  - string: 'Confère un bonus de précision aux attaques de mêlée et attaques à distance
-      portées à l''ennemi par derrière.
-
-      Bonus de précision+3 pour chaque degré franchi.'
+  - string: |-
+      Grants an accuracy bonus to melee and ranged attacks from behind an enemy.
+      Increase accuracy bonus by 3.
   2376:
   - string: ''
   2377:
@@ -5062,34 +5037,27 @@ lists:
   2431:
   - string: ''
   2432:
-  - string: Fidélité
+  - string: Fealty
   2433:
-  - string: 'Augmente grandement votre résistance à la magie fragilisante.
-
-      Délai de réutilisation : 10 minutes.
-
-      Prolonge la durée de l''effet de 5 secondes pour chaque degré franchi.'
+  - string: |-
+      Grants a powerful resistance to enfeebling magic. Recast: 10min.
+      Increase duration by 5 seconds.
   2434:
-  - string: Chevalerie
+  - string: Chivalry
   2435:
-  - string: 'Convertit vos TP en MP.
-
-      Délai de réutilisation : 10 minutes.
-
-      Augmente la quantité de MP récupérés de 5% pour chaque degré franchi.'
+  - string: |-
+      Converts TP to MP. Recast: 10min.
+      Increase amount of MP granted by 5 percent.
   2436:
-  - string: Volonté de fer
+  - string: Iron Will
   2437:
-  - string: 'Confère un effet de réduction des risques d''interruption des sorts à
-      Rempart.
-
-      Augmente cet effet de 19% pour chaque degré franchi.'
+  - string: |-
+      Adds a spell interruption down effect to Rampart.
+      Increase effect by 19 percent.
   2438:
-  - string: Gardien
+  - string: Guardian
   2439:
-  - string: 'Réduit votre perte d''inimitié sous l''effet de Sentinelle.
-
-      Augmente cet effet de 19% pour chaque degré franchi.'
+  - string: Reduces enmity loss while using Sentinel. Increase effect by 19 percent.
   2440:
   - string: ''
   2441:
@@ -5203,35 +5171,27 @@ lists:
   2495:
   - string: ''
   2496:
-  - string: Sceau ténébreux
+  - string: Dark Seal
   2497:
-  - string: 'Augmente la précision de votre prochain sort de magie sombre.
-
-      Délai de réutilisation : 5 minutes.
-
-      Réduit le temps de lancement des sorts de magie sombre de 10% pour chaque degré
-      franchi.'
+  - string: |-
+      Enhances the accuracy of your next dark magic spell. Recast: 5min.
+      Shorten cast time of all dark magic spells by 10 percent.
   2498:
-  - string: Œil diabolique
+  - string: Diabolic Eye
   2499:
-  - string: 'Réduit votre maximum de HP et augmente votre précision.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente la précision de 5 points pour chaque degré franchi.'
+  - string: |-
+      Reduces max. HP, increases accuracy. Recast: 5min.
+      Increase physical attack accuracy by 5 percent.
   2500:
-  - string: Ame sourde
+  - string: Muted Soul
   2501:
-  - string: 'Réduit votre inimitié sous l''effet de Noirceur.
-
-      Inimitié réduite de 10 points pour chaque degré franchi.'
+  - string: Reduces enmity while using Souleater. Reduce enmity by 10.
   2502:
-  - string: Effet de Coups désespérés
+  - string: Desperate Blows Effect
   2503:
-  - string: 'Réduit le délai des attaques avec une arme à deux mains sous l''effet
-      de Dernier recours.
-
-      Réduit le délai de 2% pour chaque degré franchi.'
+  - string: |-
+      Reduces delay for two-handed weapons when using Last Resort.
+      Reduce delay by 2 percent.
   2504:
   - string: ''
   2505:
@@ -5345,35 +5305,27 @@ lists:
   2559:
   - string: ''
   2560:
-  - string: Hurlement sauvage
+  - string: Feral Howl
   2561:
-  - string: 'Terrorise la cible.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente la précision de 5% pour chaque degré franchi.'
+  - string: 'Terrorizes the target. Recast: 5min. Increase accuracy by 5 percent.'
   2562:
-  - string: Instinct de tueur
+  - string: Killer Instinct
   2563:
-  - string: 'Confère la caractéristique "Tueur" de votre familier aux équipiers dans
-      l''aire d''effet, leur permettant d''infliger plus et de subir moins de dégâts
-      contre les créatures concernées.
-
-      Délai de réutilisation : 5 minutes.
-
-      Prolonge la durée de l''effet de 10 secondes pour chaque degré franchi.'
+  - string: |-
+      Grants your pet's Killer effect to party members within area of effect.
+      Party members will also deal increased damage and take less when fighting enemies of the corresponding monster family.
+      Recast: 5min.
+      Increase duration by 10 seconds.
   2564:
-  - string: Ami des bêtes
+  - string: Beast Affinity
   2565:
-  - string: 'Augmente le niveau des familiers appelés avec Appel familier.
-
-      Augmente le niveau de 2 pour chaque degré franchi.'
+  - string: |-
+      Increases the level of pets summoned with Call Beast.
+      Increase pet level by 2.
   2566:
-  - string: Vétérinaire
+  - string: Beast Healer
   2567:
-  - string: 'Augmente l''effet "Récup" de l''aptitude Récompense.
-
-      "Récup" est augmenté d''un point pour chaque degré franchi.'
+  - string: Enhances the Regen effect of Reward. Increase Regen amount by 1.
   2568:
   - string: ''
   2569:
@@ -5487,45 +5439,42 @@ lists:
   2623:
   - string: ''
   2624:
-  - string: Rossignol
+  - string: Nightingale
   2625:
-  - string: 'Réduit de moitié le temps de lancement et le délai de réutilisation de
-      vos chants.
-
-      Délai de réutilisation : 10 minutes.
-
-      Accroît de 25% les chances de réduire considérablement le temps de lancement
-      des chants pour chaque degré franchi.'
+  - string: |-
+      Halves the casting and recast times of songs. Recast: 10min.
+      Increase chance of spectacular "Fast Cast" effect by 25 percent.
   2626:
   - string: Troubadour
   2627:
-  - string: 'Augmente de moitié le temps de lancement de vos chants et double la durée
-      de leurs effets.
-
-      Délai de réutilisation : 10 minutes.
-
-      Accroît de 25% les chances d''augmenter considérablement la précision des chants
-      pour chaque degré franchi.'
+  - string: |-
+      Increases the casting time for songs by 1.5 and doubles the effect duration.
+      Recast: 10min.
+      Increase chance of unerring song accuracy by 25 percent.
   2628:
-  - string: Sirvente ennemi
+  - string: Foe Sirvente
   2629:
-  - string: 'Réduit la perte d''inimitié des équipiers dans l''aire d''effet.
-
-      Augmente l''effet de 5% pour chaque degré franchi.'
+  - string: |-
+      Reduces enmity loss for party members within area of effect.
+      Increase effect by 5 percent.
   2630:
-  - string: Mélopée amie
+  - string: Adventurer's Dirge
   2631:
-  - string: 'Réduit l''inimitié des équipiers dans l''aire d''effet.
-
-      L''inimitié réduite de 3 points pour chaque degré franchi.'
+  - string: |-
+      Reduces enmity for party members within area of effect.
+      Reduce enmity by 3.
   2632:
-  - string: ''
+  - string: Con Anima
   2633:
-  - string: ''
+  - string: |-
+      Decreases own physical damage taken while singing a beneficial song.
+      Decrease physical damage taken by 1 percent.
   2634:
-  - string: ''
+  - string: Con Brio
   2635:
-  - string: ''
+  - string: |-
+      Decreases own magic damage taken while singing a beneficial song.
+      Decrease magic damage taken by 1 percent.
   2636:
   - string: ''
   2637:
@@ -5631,35 +5580,29 @@ lists:
   2687:
   - string: ''
   2688:
-  - string: Tir furtif
+  - string: Stealth Shot
   2689:
-  - string: 'Réduit l''inimitié de votre prochaine attaque à distance.
-
-      Délai de réutilisation : 5 minutes.
-
-      L''inimitié est réduite de 10 points pour chaque degré franchi.'
+  - string: |-
+      Your next ranged attack will generate less enmity. Recast: 5min.
+      Reduce enmity by 10.
   2690:
-  - string: Tir flagrant
+  - string: Flashy Shot
   2691:
-  - string: 'Augmente l''inimitié de votre prochaine attaque à distance et ignore
-      la pénalité de différence de niveaux.
-
-      Délai de réutilisation : 10 minutes.
-
-      Augmente l''attaque à distance de 5% pour chaque degré franchi.'
+  - string: |-
+      Your next ranged attack will generate more enmity and both have increased accuracy and deal increased damage based on the level difference between you and the target. Recast: 10min.
+      Increase ranged attack by 5 percent.
   2692:
-  - string: Tir instantané
+  - string: Snapshot
   2693:
-  - string: 'Réduit le délai des attaques à distance.
-
-      Réduit le délai de 2% pour chaque degré franchi.'
+  - string: |-
+      Reduces delay for ranged attacks.
+      Reduce delay by 2 percent.
   2694:
-  - string: Chances de Recyclage
+  - string: Recycle Rate
   2695:
-  - string: 'Permet occasionnellement de faire des attaques à distance sans utiliser
-      de munitions.
-
-      Augmente les chances de déclenchement de 5% pour chaque degré franchi.'
+  - string: |-
+      Occasionally allows ranged attacks without consuming ammunition.
+      Increase rate of activation by 5 percent.
   2696:
   - string: ''
   2697:
@@ -5775,35 +5718,25 @@ lists:
   2752:
   - string: Shikikoyo
   2753:
-  - string: 'Confère à l''équipier ciblé les TP que vous avez au-dessus de 1000.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente la quantité des TP partagés de 12% pour chaque degré franchi.'
+  - string: |-
+      Shares TP above 1000 with a party member. Recast: 5min.
+      Supplement TP shared by 12%.
   2754:
-  - string: Revers de lame
+  - string: Blade Bash
   2755:
-  - string: 'Etourdit un ennemi avec votre grand katana et lui inflige parfois l''effet
-      "Peste".
-
-      Délai de réutilisation : 3 minutes.
-
-      Prolonge la durée d''effet de Peste de 15 secondes pour chaque degré franchi.'
+  - string: 'Delivers an attack that can stun the target and occasionally cause plague. Requires great katana. Recast: 3min. Increase plague duration by 15 seconds.'
   2756:
   - string: Ikishoten
   2757:
-  - string: 'Augmente le nombre de TP obtenus lorsqu''un coup est porté sous l''effet
-      de Zanshin.
-
-      30 TP supplémentaires obtenus pour chaque degré franchi.'
+  - string: |-
+      Increases amount of TP gained with a Zanshin attack.
+      Increase TP gained by 30.
   2758:
-  - string: Face-à-face
+  - string: Overwhelm
   2759:
-  - string: 'Confère un bonus aux dégâts d''une compétence arme lorsque celle-ci est
-      portée de face.
-
-      Augmente les dégâts de 5% pour chaque degré franchi jusqu''au 3e degré, et de
-      2% à partir du 4e.'
+  - string: |-
+      Grants a damage bonus to weapon skills performed face-to-face with an enemy.
+      Increase damage bonus by 5% for the first three points, and by 2% for the final 2 points.
   2760:
   - string: ''
   2761:
@@ -5919,83 +5852,68 @@ lists:
   2816:
   - string: Sange
   2817:
-  - string: 'Sacrifie vos ombres restantes pour lancer autant d''attaques à distance
-      supplémentaires.
-
-      Délai de réutilisation : 5 minutes.
-
-      Réduit les chances de disparition des ombres de 25% pour chaque degré franchi.'
+  - string: |-
+      Daken will always activate but consume shuriken.
+      Recast: 5min.
+      Increase ranged accuracy by 25.
   2818:
-  - string: Expert outils ninja
+  - string: Ninja Tool Expertise
   2819:
-  - string: 'Permet occasionnellement de lancer un ninjutsu sans utiliser d''outil
-      ninja.
-
-      Augmente les chances de déclenchement de 5% pour chaque degré franchi.'
+  - string: |-
+      Occasionally allows the use of ninjutsu without consuming ninja tools.
+      Increase rate of activation by 5 percent.
   2820:
-  - string: 'Katon : San'
+  - string: 'Katon: San'
   2821:
-  - string: 'Utilise l''outil ninja "uchitake".
-
-      Inflige des dégâts de feu à un ennemi et diminue sa résistance à l''eau.
-
-      Attaque magique+5, précision magique+5 pour chaque degré franchi pour ce ninjutsu.'
+  - string: |-
+      Uses the ninja tool, "uchitake." Deals fire damage to an enemy and lowers its resistance against water.
+      Increase Katon: San magic attack by 5 and magic accuracy by 5.
   2822:
-  - string: 'Hyoton : San'
+  - string: 'Hyoton: San'
   2823:
-  - string: 'Utilise l''outil ninja "tsurara".
-
-      Inflige des dégâts de glace à un ennemi et diminue sa résistance au feu.
-
-      Attaque magique+5, précision magique+5 pour chaque degré franchi pour ce ninjutsu.'
+  - string: |-
+      Uses the ninja tool, "tsurara." Deals ice damage to an enemy and lowers its resistance against fire.
+      Increase Hyoton: San magic attack by 5 and magic accuracy by 5.
   2824:
-  - string: 'Huton : San'
+  - string: 'Huton: San'
   2825:
-  - string: 'Utilise l''outil ninja "kawahori-ogi".
-
-      Inflige des dégâts de vent à un ennemi et diminue sa résistance à la glace.
-
-      Attaque magique+5, précision magique+5 pour chaque degré franchi pour ce ninjutsu.'
+  - string: |-
+      Uses the ninja tool, "kawahori-ogi." Deals wind damage to an enemy and lowers its resistance against ice.
+      Increase Huton: San magic attack by 5 and magic accuracy by 5.
   2826:
-  - string: 'Doton : San'
+  - string: 'Doton: San'
   2827:
-  - string: 'Utilise l''outil ninja "makibishi".
-
-      Inflige des dégâts de terre à un ennemi et diminue sa résistance au vent.
-
-      Attaque magique+5, précision magique+5 pour chaque degré franchi pour ce ninjutsu.'
+  - string: |-
+      Uses the ninja tool, "makibishi." Deals earth damage to an enemy and lowers its resistance against wind.
+      Increase Doton: San magic attack by 5 and magic accuracy by 5.
   2828:
-  - string: 'Raiton : San'
+  - string: 'Raiton: San'
   2829:
-  - string: 'Utilise l''outil ninja "hiraishin".
-
-      Inflige des dégâts de foudre à un ennemi et diminue sa résistance à la terre.
-
-      Attaque magique+5, précision magique+5 pour chaque degré franchi pour ce ninjutsu.'
+  - string: |-
+      Uses the ninja tool, "hiraishin." Deals lightning damage to an enemy and lowers its resistance against earth.
+      Increase Raiton: San magic attack by 5 and magic accuracy by 5.
   2830:
-  - string: 'Suiton : San'
+  - string: 'Suiton: San'
   2831:
-  - string: 'Utilise l''outil ninja "mizu-deppo".
-
-      Inflige des dégâts d''eau à un ennemi et diminue sa résistance à la foudre.
-
-      Attaque magique+5, précision magique+5 pour chaque degré franchi pour ce ninjutsu.'
+  - string: |-
+      Uses the ninja tool, "mizu-deppo." Deals water damage to an enemy and lowers its resistance against lightning.
+      Increase Suiton: San magic attack by 5 and magic accuracy by 5.
   2832:
-  - string: ''
+  - string: Yonin Effect
   2833:
-  - string: ''
+  - string: Increase maximum HP by 50.
   2834:
-  - string: ''
+  - string: Innin Effect
   2835:
-  - string: ''
+  - string: Increase skillchain and magic burst damage by 1% when behind foe.
   2836:
-  - string: ''
+  - string: Ninjutsu Magic Accuracy
   2837:
-  - string: ''
+  - string: Increase ninjutsu magic accuracy by 5.
   2838:
-  - string: ''
+  - string: Ninjutsu Mag. Atk. Bonus
   2839:
-  - string: ''
+  - string: Increase ninjutsu Magic Atk. Bonus by 4.
   2840:
   - string: ''
   2841:
@@ -6077,35 +5995,27 @@ lists:
   2879:
   - string: ''
   2880:
-  - string: Souffle profond
+  - string: Deep Breathing
   2881:
-  - string: 'Augmente l''effet du prochain souffle de votre wyvern.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente l''effet du souffle de 10% pour chaque degré franchi.'
+  - string: |-
+      Enhances effect of next wyvern breath. Recast: 5min.
+      Enhance effect by an additional 10%.
   2882:
   - string: Angon
   2883:
-  - string: 'Réduit la défense de l''ennemi en utilisant un angon.
-
-      Délai de réutilisation : 3 minutes.
-
-      Allonge la durée de l''effet de 15 secondes pour chaque degré franchi.'
+  - string: |-
+      Expends an angon to lower an enemy's defense. Recast: 3min.
+      Increase defense down duration by 15 seconds.
   2884:
-  - string: Empathie
+  - string: Empathy
   2885:
-  - string: 'Confère les mêmes effets bénéfiques que vous à votre wyvern lors de l''utilisation
-      de Lien spirituel.
-
-      Copie un effet supplémentaire et attribue 200 points d''expérience de plus pour
-      chaque degré franchi.'
+  - string: |-
+      Copies beneficial status effects to wyvern when using Spirit Link.
+      Increase number of copied effects by 1 and experience points obtained by 200.
   2886:
-  - string: Bombardement
+  - string: Strafe Effect
   2887:
-  - string: 'Augmente la précision des souffles de votre wyvern.
-
-      Augmente la précision de 5 pour chaque degré franchi.'
+  - string: Increases accuracy of wyvern breath. Increase accuracy by 10.
   2888:
   - string: ''
   2889:
@@ -6219,53 +6129,41 @@ lists:
   2943:
   - string: ''
   2944:
-  - string: Frappe météore
+  - string: Meteor Strike
   2945:
-  - string: 'Pacte de sang d''Ifrit.
-
-      Inflige des dégâts de feu.
-
-      Augmente le bonus de TP de Frappe de météore de 400 pour chaque degré franchi.'
+  - string: |-
+      Ifrit Blood Pact ability. Deals fire elemental damage.
+      Increase Meteor Strike TP bonus by 400.
   2946:
-  - string: Frappe céleste
+  - string: Heavenly Strike
   2947:
-  - string: 'Pacte de sang de Shiva.
-
-      Inflige des dégâts de glace.
-
-      Augmente le bonus de TP de Frappe céleste de 400 pour chaque degré franchi.'
+  - string: |-
+      Shiva Blood Pact ability. Deals ice elemental damage.
+      Increase Heavenly Strike TP bonus by 400.
   2948:
-  - string: Lame de vent
+  - string: Wind Blade
   2949:
-  - string: 'Pacte de sang de Garuda.
-
-      Inflige des dégâts de vent.
-
-      Augmente le bonus de TP de Lame de vent de 400 pour chaque degré franchi.'
+  - string: |-
+      Garuda Blood Pact ability. Deals wind elemental damage.
+      Increase Wind Blade TP bonus by 400.
   2950:
-  - string: Broie-terre
+  - string: Geocrush
   2951:
-  - string: 'Pacte de sang de Titan.
-
-      Inflige des dégâts de terre.
-
-      Augmente le bonus de TP de Broie-terre de 400 pour chaque degré franchi.'
+  - string: |-
+      Titan Blood Pact ability. Deals earth elemental damage.
+      Increase Geocrush TP bonus by 400.
   2952:
-  - string: Tempête de foudre
+  - string: Thunderstorm
   2953:
-  - string: 'Pacte de sang de Ramuh.
-
-      Inflige des dégâts de foudre.
-
-      Augmente le bonus de TP de Tempête de foudre de 400 pour chaque degré franchi.'
+  - string: |-
+      Ramuh Blood Pact ability. Deals lightning elemental damage.
+      Increase Thunderstorm TP bonus by 400.
   2954:
-  - string: Chute grandiose
+  - string: Grand Fall
   2955:
-  - string: 'Pacte de sang de Leviathan.
-
-      Inflige des dégâts d''eau.
-
-      Augmente le bonus de TP de Chute grandiose de 400 pour chaque degré franchi.'
+  - string: |-
+      Leviathan Blood Pact ability. Deals water elemental damage.
+      Increase Grand Fall TP bonus by 400.
   2956:
   - string: ''
   2957:
@@ -6373,32 +6271,27 @@ lists:
   3008:
   - string: Convergence
   3009:
-  - string: 'Limite votre prochain sort bleu "magique" à une cible unique et augmente
-      sa puissance.
-
-      Délai de réutilisation : 10 minutes.
-
-      Attaque et précision magique+5 pour ce sort pour chaque degré franchi.'
+  - string: |-
+      Increases the power of your next magical blue magic spell. Limits area of effect to single target. Recast: 10min.
+      Increase magic attack by 5 and magic accuracy by 5.
   3010:
   - string: Diffusion
   3011:
-  - string: 'Confère une aire d''effet à votre prochain sort bleu de soutien.
-
-      Délai de réutilisation : 10 minutes.
-
-      Prolonge l''effet du sort bleu de 5% pour chaque degré franchi.'
+  - string: |-
+      Grants the effect of your next support blue magic spell to party members within range. Recast: 10min.
+      Increase duration by 5%.
   3012:
-  - string: Enchaînement
+  - string: Enchainment
   3013:
-  - string: 'Confère un bonus de TP à Lien de chaînes.
-
-      Bonus de TP+100 pour chaque degré franchi.'
+  - string: |-
+      Grants a TP bonus to Chain Affinity.
+      Increase TP bonus by 100.
   3014:
   - string: Assimilation
   3015:
-  - string: 'Augmente la limite de vos points de magie bleue.
-
-      Augmente cette limite de 1 point pour chaque degré franchi.'
+  - string: |-
+      Increases maximum blue magic points.
+      Increase blue magic point maximum by 1.
   3016:
   - string: ''
   3017:
@@ -6512,37 +6405,31 @@ lists:
   3071:
   - string: ''
   3072:
-  - string: As
+  - string: Snake Eye
   3073:
-  - string: 'Fait que le résultat de votre prochain jet sera automatiquement un 1.
-
-      Délai de réutilisation : 5 minutes.
-
-      Si le total actuel est supérieur ou égal à 5, augmente les chances de tirer
-      un chiffre permettant d''obtenir un 11 de 10% pour chaque degré franchi.'
+  - string: |-
+      Your next roll will automatically be a 1. Recast: 5min.
+      When current roll is 5 or higher, increase chance of rolling an 11 by 10%.
   3074:
-  - string: Défausse
+  - string: Fold
   3075:
-  - string: 'Efface le jet ou le Bust lancé sur soi dont le temps d''effet restant
-      est le plus long.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente les chances de réinitialiser le délai de réutilisation de Jet fantôme
-      de 10% pour chaque degré franchi.'
+  - string: |-
+      Erases one roll or bust effect.
+      Busts will be removed first, while if a roll is erased, the one with the longest remaining duration will be chosen. Recast: 5min.
+      Increase chance of resetting Phantom Roll recast timer by 10%.
   3076:
-  - string: Sans-faute
+  - string: Winning Streak
   3077:
-  - string: 'Allonge la durée d''effet des Jets fantômes.
-
-      Rallonge la durée de 20 secondes pour chaque degré franchi.'
+  - string: |-
+      Extends the duration of Phantom Roll effects.
+      Increase duration of effect by 20 seconds.
   3078:
-  - string: Dés pipés
+  - string: Loaded Deck
   3079:
-  - string: 'Limite l''effet de Tirage aléatoire aux aptitudes dont le délai de réutilisation
-      a été déclenché. Possibilité d''échec s''il n''y a qu''une aptitude.
-
-      Abaisse le risque d''échec de 10% pour chaque degré franchi.'
+  - string: |-
+      Focuses effect of Random Deal on abilities waiting on recast.
+      Has a chance to fail if only one ability is waiting on recast.
+      Reduce chance of failure by 10%.
   3080:
   - string: ''
   3081:
@@ -6656,37 +6543,29 @@ lists:
   3135:
   - string: ''
   3136:
-  - string: Mime
+  - string: Role Reversal
   3137:
-  - string: 'Intervertit vos HP et ceux de votre automate.
-
-      Délai de réutilisation : 2 minutes.
-
-      Augmente les HP intervertis de 5% pour chaque degré franchi.'
+  - string: |-
+      Swaps HP of master and automaton. Recast: 2min.
+      Supplement HP granted by 5%.
   3138:
-  - string: Ventriloquie
+  - string: Ventriloquy
   3139:
-  - string: 'Intervertit votre inimitié et celle de votre automate.
-
-      Délai de réutilisation : 1 minute.
-
-      Augmente la valeur d''inimitié la plus élevée de 5% et réduit la plus basse
-      de 5% pour chaque degré franchi.'
+  - string: |-
+      Swaps the enmity of master and automaton for target. Recast: 1min.
+      Increase higher enmity value and decrease lower value by 5% each.
   3140:
-  - string: Syntonisation
+  - string: Fine-Tuning
   3141:
-  - string: 'Confère un bonus à la précision, la précision à distance, l''esquive
-      et la défense magique de votre automate.
-
-      Précision, précision du tir, esquive et défense magique+5 pour chaque degré
-      franchi.'
+  - string: |-
+      Grants a bonus to your automaton's accuracy, ranged accuracy, evasion, and magic defense.
+      Increase accuracy by 5, ranged accuracy by 5, evasion by 5, and magic defense by 5.
   3142:
-  - string: Optimisation
+  - string: Optimization
   3143:
-  - string: 'Confère un bonus à la puissance des attaques, la défense et l''attaque
-      magique de votre automate.
-
-      Attaque et défense +5%, attaque magique+5 pour chaque degré franchi.'
+  - string: |-
+      Grants a bonus to your automaton's attack, defense, and magic attack.
+      Increase attack by 5%, defense by 5%, and magic attack by 5.
   3144:
   - string: ''
   3145:
@@ -6800,39 +6679,30 @@ lists:
   3199:
   - string: ''
   3200:
-  - string: Danse du sabre
+  - string: Saber Dance
   3201:
-  - string: 'Augmente la fréquence de "Double attaque" mais empêche d''utilisation
-      les Valses. La fréquence de "Double attaque" diminue graduellement.
-
-      Délai de réutilisation : 3 minutes.
-
-      Prolonge la durée d''effet des Sambas de 5% pour chaque degré franchi.'
+  - string: |-
+      Increases Double Attack rate, but renders waltzes unusable. Double Attack rate gradually decreases. Recast: 3min.
+      Increase samba duration by 5%.
   3202:
-  - string: Danse de l'éventail
+  - string: Fan Dance
   3203:
-  - string: 'Réduit les dégâts physiques subis et augmente l''inimitié, mais empêche
-      d''utiliser les Sambas. La réduction de dégâts physiques diminue graduellement.
-
-      Délai de réutilisation : 3 minutes.
-
-      Réduit le délai de réutilisation des Valses de 5% pour chaque degré franchi.'
+  - string: |-
+      Reduces physical damage taken and increases enmity, but renders sambas unusable. Physical damage reduction gradually decreases with each hit taken. Recast: 3min.
+      Shorten waltz recast time by 5%.
   3204:
-  - string: Pas posé
+  - string: No Foot Rise
   3205:
-  - string: 'Confère un ou plusieurs Mouvements finaux.
-
-      Délai de réutilisation : 3 minutes.
-
-      Ajoute un Mouvement final supplémentaire pour chaque degré franchi.'
+  - string: |-
+      Instantly grants additional finishing moves. Recast: 3min.
+      Increase finishing moves granted by 1.
   3206:
-  - string: Position fermée
+  - string: Closed Position
   3207:
-  - string: 'Confère un bonus à la précision et à l''esquive lorsque vous êtes devant
-      l''ennemi.
-
-      Ajoute 3 points au bonus de précision et 3 points au bonus d''esquive pour chaque
-      degré franchi.'
+  - string: |-
+      Grants a bonus to accuracy and evasion when face-to-face with an enemy.
+      Increase accuracy and evasion bonuses
+      by 3.
   3208:
   - string: ''
   3209:
@@ -6946,49 +6816,45 @@ lists:
   3263:
   - string: ''
   3264:
-  - string: Altruisme
+  - string: Altruism
   3265:
-  - string: 'Aptitude du grimoire blanc. Augmente la précision de votre prochain sort
-      blanc.
-
-      Augmente la précision magique de 5 points pour chaque degré franchi.'
+  - string: |-
+      Light Arts Stratagem.
+      Increases the accuracy of your next white magic spell.
+      Increase magic accuracy by 5.
   3266:
-  - string: Focalisation
+  - string: Focalization
   3267:
-  - string: 'Aptitude du grimoire noir. Augmente la précision de votre prochain sort
-      noir.
-
-      Augmente la précision magique de 5 points pour chaque degré franchi.'
+  - string: |-
+      Dark Arts Stratagem.
+      Increases the accuracy of your next black magic spell.
+      Increase magic accuracy by 5.
   3268:
-  - string: Humilité
+  - string: Tranquility
   3269:
-  - string: 'Aptitude du grimoire blanc. Réduit l''inimitié générée par votre prochain
-      sort blanc.
-
-      Diminue l''inimitié de 10 points pour chaque degré franchi.'
+  - string: |-
+      Light Arts Stratagem.
+      Your next white magic spell will generate less enmity.
+      Reduce enmity by 10.
   3270:
-  - string: Ataraxie
+  - string: Equanimity
   3271:
-  - string: 'Aptitude du grimoire noir. Réduit l''inimitié générée par votre prochain
-      sort noir.
-
-      Diminue l''inimitié de 10 points pour chaque degré franchi.'
+  - string: |-
+      Dark Arts Stratagem.
+      Your next black magic spell will generate less enmity.
+      Reduce enmity by 10.
   3272:
-  - string: Apaisement
+  - string: Enlightenment
   3273:
-  - string: 'Spécialise dans les deux écoles de magie pour le prochain sort et permet
-      d''utiliser les sorts des deux addenda.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente les attributs INT et MND de 5 points pour chaque degré franchi.'
+  - string: |-
+      Optimizes both white and black magic capabilities and allows access to both addenda for your next spell. Recast: 5min.
+      +5 bonus to INT and MND.
   3274:
-  - string: Injonction
+  - string: Stormsurge
   3275:
-  - string: 'Confère aux sorts "Loi" un effet augmentant l''attribut associé au temps.
-      Valeur initiale : 3 points
-
-      Le bonus augmente d''un point pour chaque degré franchi.'
+  - string: |-
+      Storm-type spells grant a bonus to attributes associated with their element. Initial bonus value: +3.
+      Increase bonus value by 1.
   3276:
   - string: ''
   3277:
@@ -7222,36 +7088,21 @@ lists:
   3391:
   - string: ''
   3392:
-  - string: Halo salvateur
+  - string: Mending Halation
   3393:
-  - string: 'Sacrifie votre luopan pour restaurer des HP aux équipiers dans l''aire
-      d''effet.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente la quantité de HP récupérés de 5% pour chaque degré franchi.'
+  - string: "Causes your luopan to vanish and \nrestores HP of party members within area of effect. \nRecast: 5min. Increase amount of HP restored by 5 percent."
   3394:
-  - string: Arcane radiante
+  - string: Radial Arcana
   3395:
-  - string: 'Sacrifie votre luopan pour restaurer des MP aux équipiers dans l''aire
-      d''effet.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente la quantité de MP récupérés de 3% pour chaque degré franchi.'
+  - string: "Causes your luopan to vanish and \nrestores MP of party members within area of effect. \nRecast: 5min. Increase amount of MP restored by 3 percent."
   3396:
-  - string: Repli curatif
+  - string: Curative Recantation
   3397:
-  - string: 'Ajoute un effet de restauration des HP à Cercle complet.
-
-      Augmente la quantité de HP récupérés de 5% pour chaque degré franchi.'
+  - string: "Grants a healing effect to Full Circle. \nIncrease amount of HP healed by 5 percent."
   3398:
-  - string: Zèle primitif
+  - string: Primeval Zeal
   3399:
-  - string: 'Réduit le temps de lancement des sorts élémentaires lorsque Ferveur collimatée
-      est active.
-
-      La réduction est de 10% pour chaque degré franchi.'
+  - string: "Shortens casting times of elemental magic spells while under the effects of Collimated Fervor. \nShorten cast time by 10 percent."
   3400:
   - string: ''
   3401:
@@ -7367,34 +7218,19 @@ lists:
   3456:
   - string: Battuta
   3457:
-  - string: 'Confère un bonus aux chances de parade et inflige des dégâts élémentaires
-      en fonction des runes invoquées.
-
-      Délai de réutilisation : 5 minutes.
-
-      Augmente les chances de parade de 4% et les dégâts de 4 points par rune enchantée
-      pour chaque degré franchi.'
+  - string: "Increases the likelihood of parrying and deals counter damage after parrying dependent upon harbored runes. \nRecast: 5min. Increase chance of parrying by 4 percent and increase counter damage by 4 points per rune harbored."
   3458:
   - string: Rayke
   3459:
-  - string: 'Sacrifie une ou plusieurs des runes invoquées pour réduire la résistance
-      élémentaire de votre cible.
-
-      Délai de réutilisation : 5 minutes.
-
-      Prolonge l''effet de 3 secondes pour chaque degré franchi.'
+  - string: "Expends runes to reduce elemental resistance of the target. \nRecast: 5min. Increase duration of effect by 3 seconds."
   3460:
   - string: Inspiration
   3461:
-  - string: 'Réduit le temps de lancement des sorts pendant Vallation et Valeur.
-
-      La réduction est de 10% pour chaque degré franchi.'
+  - string: "Grants a \"Fast Cast\" effect to Vallation and Valiance. \nIncrease cast speed by 10 percent."
   3462:
-  - string: Lame agile
+  - string: Sleight of Sword
   3463:
-  - string: 'Ajoute l''effet de Coup subtil à Jeu d''épée.
-
-      Augmente la valeur maximum de l''effet de 5 points pour chaque degré franchi.'
+  - string: "Grants a \"Subtle Blow\" effect during Swordplay. \nIncrease the maximum value of Subtle Blow by 5 points."
   3464:
   - string: ''
   3465:
