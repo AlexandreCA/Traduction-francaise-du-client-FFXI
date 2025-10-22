@@ -17912,7 +17912,7 @@ entries:
   7288: 'Comment ? Vous n''êtes toujours pas ${choice-definite-entity: 0}[certifié/certifiée] à Bastok et à Windurst ? Vous pouvez peut-être vous permettre de traîner, mais ça n''est pas le cas de tout le monde ! Allez, au boulot !${prompt}'
   7289: 'Ah, heureux de vous revoir. Je vois que vous avez été ${choice-definite-entity: 0}[certifié/certifiée] par Bastok et Windurst. Bon travail. Vous ferez ${choice-definite-entity: 0}[un bon aventurier/une bonne aventurière].${prompt}'
   7290: Qu'est-ce que c'est, un rapport pour notre royaume ? Je vois. Portez cela au monarlais en partant.${prompt}
-  7291: 'YLe monarlais Halver devrait vous donner ${keyitem-article: 0[2]} . Maintenant, allez vite au Château d''Oraguille qu''ils sachent que vous êtes de retour !${prompt}'
+  7291: 'Le monarlais Halver devrait vous donner ${keyitem-article: 0[2]} . Maintenant, allez vite au Château d''Oraguille qu''ils sachent que vous êtes de retour !${prompt}'
   7292: Dépêchez-vous d'aller au Château d'Oraguille donner ce rapport au monarlais Halver !${prompt}
   7293: Vous avez atteint le rang 3 !${prompt}
   7294: 'Ah ! Vous arrivez au bon moment. Zantaviat, un de nos éclaireurs à Davoï a besoin de l''aide d''${choice-definite-entity: 0}[un aventurier/une aventurière].${prompt}'
@@ -17941,26 +17941,26 @@ entries:
   7317: ${prompt}
   7318: ${prompt}
   7319: ${prompt}
-  7320: There you are! I've been looking for you. Monarlais Halver requests your presence at the chateau immediately.${prompt}
-  7321: It sounds as if this is a fairly important mission. I need not remind you that you should take care to properly equip yourself before embarking on this journey.${prompt}
-  7322: I'm not sure what it's about, but you'd best make haste. The monarlais is not to be kept waiting!${prompt}
-  7323: Why, if it isn't ${name-player}! This is no time for loafing around, friend! Prince Trion is looking for you.${prompt}
-  7324: For this next mission, he's requested you personally. You should be honored!${prompt}
-  7325: As for the details of the mission, I've no idea what he wants, but he was in a hurry. You'd best be off to Chateau d'Oraguille!${prompt}
-  7326: It is a great thing you've done, ${name-player}! I knew deep in my heart that you were the one for the task.${prompt}
-  7327: You'd better get to the chateau quick. They're all waiting to welcome you back, I'd wager.${prompt}
-  7328: You've saved our proud Kingdom of San d'Oria. No, you're the savior of all Vana'diel! There's not a soul that doesn't owe you a great debt, ${name-player}.${prompt}
+  7320: Vous voilà ! Je vous cherchais. Le monarlais Halver vous convoque immédiatement au château.${prompt}
+  7321: Cela semble être une mission importante. Je ne pense pas avoir besoin de vous rappeler de bien vous équiper avant de vous embarquer dans ce voyage.${prompt}
+  7322: Je ne sais ce dont il s'agit, mais vous feriez bien de vous hâter. On ne fait pas attendre le monarlais !${prompt}
+  7323: 'Mais c''est ${name-player} que voilà ! Pas le temps de traîner, ${choice-definite-entity: 0}[mon ami/mon amie]. Le prince Trion veut vous voir.${prompt}'
+  7324: 'Il a spécifié que cette mission devait vous être confiée. Vous devriez vous sentir ${choice-definite-entity: 0}[honoré/honorée] !${prompt}'
+  7325: En ce qui concerne les détails de cette mission, j'ignore ce qu'il vous veut, mais il semblait diantrement pressé. Vous feriez bien de filer au Château d'Oraguille !${prompt}
+  7326: 'C''est une grande chose que vous avez accomplie là, ${name-player}! Je savais au plus profond de moi-même que vous étiez ${choice-definite-entity: 0}[tout indiqué/toute indiquée] pour cette tâche.${prompt}'
+  7327: Vous devriez vite vous rendre au château. Je suis certain qu'ils vous attendent pour vous accueillir, là-bas.${prompt}
+  7328: Vous avez sauvé notre fier Royaume de San d'Oria. Non, c'est tout Vana'diel que vous avez sauvé ! Il n'est pas une âme en ce monde qui n'ait une dette envers vous, ${name-player}.${prompt}
   7329: |-
-    Ah, if it isn't ${name-player}!
-    You had best hurry off to Chateau d'Oraguille. It seems as if something terrible is in the works there.${prompt}
+    Ah, mais voilà ${name-player}!
+    Vous devriez vite vous rendre au Château d'Oraguille. Il semble que des choses terribles s'y passent.${prompt}
   7330: |-
-    Well, if it isn't ${name-player}!
-    Your timing is perfect. The chateau just sent a request for an adventurer.${prompt}
-  7331: It looks as if this next mission has something to do with the late queen. You should feel honored. It's not every day that an adventurer gets to work directly with the royal family.${prompt}
+    Mais c'est ${name-player} que voilà !
+    Vous arrivez juste au bon moment. Le château vient juste de réclamer ${choice-definite-entity: 0}[un aventurier/une aventurière].${prompt}
+  7331: 'Il semblerait que cette mission ait un rapport avec feu la reine. Vous devriez vous sentir ${choice-definite-entity: 0}[honoré/honorée]. Il n''est pas si fréquent pour ${choice-definite-entity: 0}[un aventurier/une aventurière] de travailler directement pour la famille royale.${prompt}'
   7332: |-
-    Spoken like a true San d'Orian!
-    Now hurry off to Chateau d'Oraguille and get the details on the mission from Monarlais Halver.${prompt}
-  7333: What's wrong? Dealing with royalty is not your cup of tea? Well, think about it and come back when you've come to your senses.${prompt}
+    Voilà qui est parlé en ${choice-definite-entity: 0}[vrai San d'orien/vraie San d'orienne] !
+    Allez, pressez-vous d'aller au château afin que le monarlais Halver vous livre les détails de cette mission.${prompt}
+  7333: Que se passe-t-il ? Avoir à faire avec la famille royale ne vous convient pas ? Eh bien, réfléchissez-y et revenez quand vous aurez retrouvé vos esprits.${prompt}
   7334: Prince Trion is requesting the aid of an adventurer. How about it?${prompt}
   7335: It looks fairly urgent, so you should hurry to the chateau. The prince is waiting in his chambers.${prompt}
   7336: I expected more from you, ${name-player}. If you change your mind, return here. I'll be waiting.${prompt}
