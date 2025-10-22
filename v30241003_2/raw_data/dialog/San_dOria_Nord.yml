@@ -1,7 +1,7 @@
 entries:
-  0: A recruit? What do you want with this gatehouse?${prompt}
-  1: Only citizens of San d'Oria may apply for missions here. Go see your country's consulate in Northern San d'Oria.${prompt}
-  2: Finish your current mission first, then come back for another.${prompt}
+  0: Une recrue ? Que venez-vous faire à ce poste de garde ?${prompt}
+  1: Seuls les sujets san d'oriens peuvent recevoir des missions ici. Allez plutôt au consulat de votre pays. Vous le trouverez à San d'Oria Nord.${prompt}
+  2: Terminez d'abord votre mission. Ensuite, vous pourrez en demander une nouvelle.${prompt}
   3: |-
     Quelle mission voulez-vous entreprendre ?
     ${selection-lines}
@@ -69,12 +69,12 @@ entries:
   16: Apportez-moi une de ces haches et votre mission sera réussie. Et pas question de faire demi-tour, nous avons une fière nation à défendre !${prompt}
   17: Oh, vous voilà de retour. Eh bien, si le fait d'avoir vaincu un Orc ou deux vous met tellement en joie, c'est que vous avez encore beaucoup de chemin à faire.${prompt}
   18: 'Voilà  de plus ${item-singular: 0[2]} pour l''armurerie. Mission accomplie ! Pas mal pour ${choice-definite-entity: 0}[un débutant/une débutante].${prompt}'
-  19: What? I don't want this!${prompt}
-  20: Are you really a new recruit!?${prompt}
-  21: Listen, before you bring me something, you must first accept the mission! That is how things work around here!${prompt}
-  22: Persistent, aren't you? An Orc under the belt does not a hero make! Ah, I've just the job for you...${prompt}
-  23: Bat patrol! How about it? Shouldn't be a problem for an adventurer such as yourself, no?${prompt}
-  24: Here's your mission, then. Clear out bats lurking in King Ranperre's Tomb and bring me a fang as proof.${prompt}
+  19: Qu'est-ce que c'est ? Je ne veux pas de ça !${prompt}
+  20: Etes-vous réellement une nouvelle recrue ??${prompt}
+  21: Ecoutez, avant de m'apporter quelque chose, vous devez d'abord accepter la mission ! C'est comme ça que ça marche ici !${prompt}
+  22: Tenace, hein ? Un Orc à votre tableau de chasse ne fait pas de vous un héros pour autant ! Ah, j'ai exactement la mission qu'il vous faut...${prompt}
+  23: 'La patrouille des chauves-souris ! Qu''est-ce que vous en dites ? Ça ne devrait pas poser de problème à ${choice-definite-entity: 0}[un aventurier tel/une aventurière telle]  que vous, non ?${prompt}'
+  24: Voici votre mission. Allez nettoyer la Tombe du roi Ranperre des chauves-souris qui l'infestent et apportez-moi un croc comme preuve.${prompt}
   25: 'Bring me ${article} ${item-article: 0[2]} and your mission will be a success.${prompt}'
   26: Deep in the tomb you'll find Goblins. Take care; I don't want to lose you yet.${prompt}
   27: Ah, you've returned! I was afraid that Goblins got you.${prompt}
