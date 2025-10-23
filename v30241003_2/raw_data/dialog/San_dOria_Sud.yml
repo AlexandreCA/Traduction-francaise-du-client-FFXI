@@ -19708,144 +19708,144 @@ entries:
   8502: ${prompt}
   8503: ${prompt}
   8504: ${prompt}
-  8505: 'Good luck, ${choice: 0}[citizen/comrade]. I will bestow upon you your nation''s Signet.${wait-animation: 0}${prompt}'
-  8506: I cannot help you. You should go find a guard from your own country.${prompt}
+  8505: 'Bonne chance, ${choice: 0}[compatriote/camarade]. Je vous octroie le sceau de votre nation.${wait-animation: 0}${prompt}'
+  8506: Je ne peux pas vous aider. Il vous faut trouver un garde de votre nation.${prompt}
   8507: |-
-    I cannot accept crystals from someone whose rank is still 1.
-    I advise you to either keep them until your reach rank 2, or to use them in craftwork.${prompt}
-  8508: 'Since we are allied with San d''Oria...${wait-animation: 0}${prompt}'
-  8509: 'Since we are allied with Bastok...${wait-animation: 0}${prompt}'
-  8510: 'Since we are allied with Windurst...${wait-animation: 0}${prompt}'
+    Je ne peux pas accepter de cristaux d'une personne de rang 1.
+    Je vous conseille de les conserver jusqu'à ce que vous ayez atteint le rang 2 ou de les employer pour des activités artisanales.${prompt}
+  8508: 'Puisque nous sommes alliés à San d''Oria...${wait-animation: 0}${prompt}'
+  8509: 'Puisque nous sommes alliés à Bastok...${wait-animation: 0}${prompt}'
+  8510: 'Puisque nous sommes alliés à Windurst...${wait-animation: 0}${prompt}'
   8511: |-
-    I am sorry.
-    I am too busy with other matters to be speaking with you.${wait-animation: 0}${prompt}
-  8512: Ah, you have brought us supplies. These will help us indeed. I thank you.${prompt}
+    Je regrette.
+    J'ai trop de choses à faire pour bavarder avec vous.${wait-animation: 0}${prompt}
+  8512: Ah, vous nous avez apporté du ravitaillement. Cela nous sera très utile. Merci.${prompt}
   8513: |-
-    Hmm... These supplies you have brought us are too old to be of any use. We will dispose of them promptly.
-    I do commend you for your effort. May you succeed next time.${prompt}
-  8514: You've earned conquest points!${prompt}
+    Mmh... Le ravitaillement que vous nous avez apporté est périmé et ne nous servira à rien. Nous allons devoir nous en débarrasser sans tarder.
+    Mais je vous félicite pour vos efforts. Puissent-ils être plus efficaces la prochaine fois.${prompt}
+  8514: Vous avez obtenu des points de conquête !${prompt}
   8515: |-
-    You've received your nation's Signet.
-    You are now taking part in your nation's conquest campaign!${prompt}
+    Vous venez de recevoir le sceau de votre nation.
+    Vous participez désormais à la campagne de conquête de votre nation !${prompt}
   8516: |-
-    I am ${name-npc}, a Temple Knight.
-    I am one of the guards charged with overseeing San d'Oria's conquest campaign.${prompt}
+    Je suis ${name-npc}, templier..
+    Je fais partie des gardes chargés de superviser la campagne de conquête de San d'Oria.${prompt}
   8517: |-
-    I am ${name-npc}, an Iron Musketeer.
-    I am one of the guards charged with overseeing Bastok's conquest campaign.${prompt}
+    Je suis ${name-npc}, mousquetaire d'acier.
+    Je fais partie des gardes chargés de superviser la campagne de conquête de Bastok.${prompt}
   8518: |-
-    I am ${name-npc}, a War Warlock.
-    I am one of the guards charged with overseeing Windurst's conquest campaign.${prompt}
+    Je suis ${name-npc}, sorcier militaire.
+    Je fais partie des gardes chargés de superviser la campagne de conquête de Windurst.${prompt}
   8519: |-
-    What is your business?
+    Que voulez-vous ?
     ${selection-lines}
-    Would you cast Signet on me?
-    I want to spend my conquest points.
-    ${choice: 0}[I want to join the Expeditionary Force./Teleport me to the E.F. area.]
-    I want to quit the E.F./change my E.F.
-    I want to go on a supplies quest.
-    I have some questions...
-    Nothing, sorry to bother you.${prompt}
+    Voulez-vous m'octroyer le sceau ?
+    J'aimerais utiliser mes points de conquête.
+    ${choice: 0}[Je veux rejoindre le corps expéditionnaire./Téléportez-moi vers la zone du C.E..]
+    Je veux quitter le C.E./changer de C.E..
+    Je veux effectuer une quête de ravitaillement.
+    J'ai quelques questions...
+    Rien, pardon pour le dérangement.${prompt}
   8520: |-
-    What do you wish to know about?
+    Quelles informations souhaitez-vous ?
     ${selection-lines}
-    Nothing.
-    Conquests.
-    Conquest results.
-    Donating crystals.
-    Conquest points.
-    The effects of controlling regions.
-    Regions controlled by other nations.
-    Regions under beastman control.${prompt}
-  8521: All three nations are striving daily to put more regions under their control. This is what we call “conquests.” You can take part in it and serve your country by defeating enemies while you have Signet cast on you.${prompt}
-  8522: Each region comprises several areas, and the nation that rids those areas of the most monsters gains control of the region.${prompt}
-  8523: Nations receive goods and resources from regions under their control.${prompt}
-  8524: So, the more regions we control, the richer our nation becomes.${prompt}
+    Rien.
+    Les conquêtes.
+    Les résultats des conquêtes.
+    Le don de cristaux.
+    Les points de conquête.
+    Les effets du contrôle de région.
+    Les régions contrôlées par les autres nations.
+    Les régions contrôlées par les hommes-bêtes.${prompt}
+  8521: Les trois nations s'efforcent jour après jour de contrôler davantage de régions, ce que nous appelons “conquête”. Vous pouvez y prendre part et servir votre nation en éliminant des ennemis lorsque le sceau de votre nation vous a été octroyé.${prompt}
+  8522: Chaque région compte plusieurs zones. La nation qui débarrasse ces zones du plus grand nombre de monstres obtient le contrôle de la région correspondante.${prompt}
+  8523: Les nations reçoivent des biens et des ressources des régions qu'elles contrôlent.${prompt}
+  8524: Ainsi, plus nous contrôlons de régions, plus les richesses de notre nation augmentent.${prompt}
   8525: |-
-    Border guards are also placed in outposts within regions under our control.
-    They are there to cast Signet on adventurers like yourself.${prompt}
-  8526: Once you have your nation's Signet, you will be able to acquire crystals from enemies you defeat.${prompt}
-  8527: Not only that, but you will also receive conquest points. You get more conquest points if you defeat enemies in regions that are not under your nation's control. These points can be used to purchase items from guards like myself.${prompt}
+    Des gardes-frontières occupent les avant-postes des régions que nous contrôlons.
+    Leur rôle est d'octroyer un sceau aux aventuriers tels que vous.${prompt}
+  8526: Après avoir reçu le sceau de votre nation, vous pourrez obtenir des cristaux des ennemis vaincus.${prompt}
+  8527: 'Mais ce n''est pas tout : vous recevrez également des points de conquête. Vaincre des ennemis dans des régions qui ne sont pas contrôlées par d''autres nations rapporte davantage de points de conquête. Ces points permettent d''acquérir des objets auprès de gardes tels que moi.${prompt}'
   8528: |-
-    So you see...conquests benefit nations and adventurers alike.
-    We expect you to do your best to serve your country.${prompt}
+    Par conséquent... Les conquêtes profitent tout autant aux aventuriers qu'aux nations.
+    Nous comptons sur vous pour servir au mieux votre pays.${prompt}
   8529: |-
-    You can see the current state of conquests by selecting “Region Info” from the main menu.
-    Conquest results in all regions are regularly recalculated, so you may want to check them from time to time.${prompt}
+    Il est possible de consulter l'état actuel des conquêtes en sélectionnant “Info régions” dans le menu principal.
+    Les résultats de conquête de toutes les régions étant régulièrement réévalués, il est utile de les examiner de temps à autre.${prompt}
   8530: |-
-    Shops in our city will be selling different items according to our conquest rank.
-    The Troupe Valeriano will also visit the nation that finishes first and bring a little joy to its citizens.${prompt}
+    Les magasins de notre ville vendent divers objets selon le rang de conquête atteint par notre nation.
+    La troupe Valeriano se rend également dans la nation occupant la première place en matière de conquête afin d'en distraire les habitants.${prompt}
   8531: |-
-    You can donate crystals to your nation once you achieve rank 2.
-    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+    Lorsque vous aurez atteint le rang 2, vous pourrez faire don de cristaux à votre nation.
+    Il suffit de les échanger auprès de gardes tels que moi. Nous nous chargerons de les acheminer là où ils sont nécessaires.${prompt}
   8532: |-
-    We would like you to donate crystals to your nation from now on.
-    Just trade them to guards like myself, and we will ensure they are sent to the proper place.${prompt}
+    Nous aimerions que vous fassiez désormais don de cristaux à votre nation.
+    Echangez-les auprès de gardes tels que moi. Nous nous chargerons de les acheminer là où ils sont nécessaires.${prompt}
   8533: |-
-    You can acquire crystals by defeating enemies while you have your nation's Signet.
-    Having Signet cast on you is also the only way of taking part in conquests.${prompt}
-  8534: Rank points will be awarded to you for each crystal you donate, and you may be offered new missions as your rank goes up.${prompt}
+    Vous pouvez obtenir des cristaux en triomphant d'ennemis lorsque vous portez le sceau de votre nation.
+    Recevoir le sceau est également le seul moyen de prendre part à la campagne de conquête.${prompt}
+  8534: Des points de rang vous seront accordés pour chaque cristal fourni. Parvenir à un rang plus élevé permet de se voir proposer de nouvelles missions.${prompt}
   8535: |-
-    You also receive rank points for completing missions.
-    Complete missions and take part in conquests to raise your rank and serve your country.${prompt}
+    Mener à bien des missions rapporte également des points de rang.
+    Effectuez des missions et prenez part à la conquête afin d'augmenter votre rang et de servir votre pays.${prompt}
   8536: |-
-    You are awarded conquest points when you defeat monsters while you are taking part in conquests.
-    Select "Region Info" from the menu to check your current number of conquest points.${prompt}
-  8537: You can purchase items from guards like myself with your conquest points, but be warned that the number of points you spend will be subtracted from your current total.${prompt}
-  8538: When conquest results are announced, you will be told which country controls the region you are in at that time. Sometimes regions may become neutral, or beastmen may even gain control of regions.${prompt}
-  8539: If we gain control of a region, border guards will be placed at its outposts to help adventurers like you.${prompt}
-  8540: Merchants will also be placed there, and goods from that region will find their way to the local shops here.${prompt}
-  8541: Gaining control of regions is the basic principle behind conquests. We need each of you to do your best, and bring our nation to the top of the ranks.${prompt}
-  8542: Of course, sometimes we lose regions to other nations...so we must try to take them back before the next conquest results are announced.${prompt}
-  8543: As an incentive, we will award you with more conquest points for defeating monsters in those regions.${prompt}
-  8544: But if we are allied with another nation, you will only be awarded the regular rate for defeating monsters in our allies' regions. On the other hand, we will award you with more points for fighting in the top-ranked nation's regions.${prompt}
+    Vaincre des monstres pendant que l'on prend part à la conquête rapporte des points de conquête.
+    Sélectionnez "Info régions" dans le menu pour connaître votre nombre actuel de points de conquête.${prompt}
+  8537: A l'aide de vos points de conquête, vous pourrez acquérir des objets auprès des gardes tels que moi, mais sachez que le nombre de points correspondant à l'objet obtenu sera soustrait à votre total de point.${prompt}
+  8538: Lors de l'annonce des résultats de conquête, vous apprendrez quel pays contrôle la région où vous vous trouvez actuellement. Une région peut parfois devenir neutre ou tomber sous le contrôle des hommes-bêtes.${prompt}
+  8539: Si nous prenons le contrôle d'une région, des gardes-frontières en occuperont les avant-postes afin d'aider les aventuriers tels que vous.${prompt}
+  8540: Des marchands s'y installeront également et les marchandises de la région en question deviendront disponibles en ville.${prompt}
+  8541: Le contrôle des régions est le principe qui sous-tend les conquêtes. Chacun doit faire son possible pour hisser notre nation à la première place.${prompt}
+  8542: Naturellement, il arrive parfois que nous perdions le contrôle d'une région au profit d'une autre nation... Il faut alors tenter de la reprendre avant l'annonce des résultats de conquête suivante.${prompt}
+  8543: Pour vous inciter à vous y rendre, triompher de monstres dans ces régions vous rapportera davantage de points de conquête.${prompt}
+  8544: En revanche, si nous sommes alliés à une autre nation, vaincre des monstres dans une région contrôlée par cette dernière ne rapportera que le nombre normal de points. Ceci dit, combattre dans les régions de la nation occupant la première place rapporte davantage de points.${prompt}
   8545: |-
-    Our paramount concern lies in the beastmen gaining control of our regions.
-    If too many of us are defeated in a region, the beastmen will gain control of it.${prompt}
-  8546: If this happens, not only is it a great blow to our pride, but you will be unable to acquire any crystals in that region.${prompt}
-  8547: The beastmen are a menace to all nations. If they rise to power, we must all unite and drive those vile creatures from that region.${prompt}
-  8548: We need you to bring supplies to the outpost border guards who are placed in regions under our control.${prompt}
-  8549: There is one outpost in each region. Select “Region Info” from the menu, and look for the areas with a small flag mark on the map. That is where they are.${prompt}
+    Notre souci majeur est la prise de contrôle de nos régions par les hommes-bêtes.
+    Si un nombre trop élevé d'entre nous sont battus dans une région, les hommes-bêtes en obtiennent le contrôle.${prompt}
+  8546: Si cela se produit, non seulement notre fierté nationale en souffrira, mais vous ne pourrez plus obtenir de cristaux dans la région concernée.${prompt}
+  8547: Les hommes-bêtes représentent une menace pour l'ensemble des nations. Si leur pouvoir s'accroît, nous devons tous nous unir pour chasser ces immondes créatures de la région.${prompt}
+  8548: Il faut que vous alliez ravitailler les gardes-frontières occupant les avant-postes des régions que nous contrôlons.${prompt}
+  8549: Chaque région comporte un avant-poste. Sélectionnez “Info régions” dans le menu et recherchez sur la carte les zones marquées d'un petit drapeau. Ces drapeaux en indiquent l'emplacement.${prompt}
   8550: |-
-    Here are the supplies. Just give them to the guard at the outpost and your mission will be complete.
-    Now, choose which outpost you want to go to. We give different rewards for each region, so choose carefully.${prompt}
+    Voici le ravitaillement. Remettez-le au garde de l'avant-poste pour mener à bien votre mission.
+    Choisissez maintenant l'avant-poste où vous désirez vous rendre. La récompense varie selon la région, alors choisissez avec soin.${prompt}
   8551: |-
-    Where do you wish to take the supplies?
+    Où souhaitez-vous livrer le ravitaillement ?
     ${selection-lines}
     　
     　
     　
     　
     　
-    The Ronfaure Region.${choice: 5}[/ (Done)]
-    The Zulkheim Region.${choice: 6}[/ (Done)]
-    The Norvallen Region.${choice: 7}[/ (Done)]
-    The Gustaberg Region.${choice: 8}[/ (Done)]
-    The Derfland Region.${choice: 9}[/ (Done)]
-    The Sarutabaruta Region.${choice: 10}[/ (Done)]
-    The Kolshushu Region.${choice: 11}[/ (Done)]
-    The Aragoneu Region.${choice: 12}[/ (Done)]
-    The Fauregandi Region.${choice: 13}[/ (Done)]
-    The Valdeaunia Region.${choice: 14}[/ (Done)]
-    Qufim Island.${choice: 15}[/ (Done)]
-    The Li'Telor Region.${choice: 16}[/ (Done)]
-    The Kuzotz Region.${choice: 17}[/ (Done)]
-    The Vollbow Region.${choice: 18}[/ (Done)]
-    The Elshimo Lowlands Region.${choice: 19}[/ (Done)]
-    The Elshimo Uplands Region.${choice: 20}[/ (Done)]
-    Tu'Lia.${choice: 21}[/ (Done)]
+    La région de Ronfaure.${choice: 5}[/ (fait)]
+    La région de Zulkheim.${choice: 6}[/ (fait)]
+    La région de Norvallen.${choice: 7}[/ (fait)]
+    La région de Gustaberg.${choice: 8}[/ (fait)]
+    La région de Derfland.${choice: 9}[/ (fait)]
+    La région de Sarutabaruta.${choice: 10}[/ (fait)]
+    La région de Kolshushu.${choice: 11}[/ (fait)]
+    La région de Aragoneu.${choice: 12}[/ (fait)]
+    La région de Fauregandi.${choice: 13}[/ (fait)]
+    La région de Valdeaunia.${choice: 14}[/ (fait)]
+    L'Ile de Qufim.${choice: 15}[/ (fait))]
+    La région de Li'Telor.${choice: 16}[/ (fait)]
+    La région de Kuzotz.${choice: 17}[/ (fait)]
+    La région de Vollbow.${choice: 18}[/ (fait)]
+    La région des Basses-Terres d'Elshimo.${choice: 19}[/ (fait)]
+    a région des Hautes-Terres d'Elshimo.${choice: 20}[/ (fait)]
+    Tu'Lia.${choice: 21}[/ (fait)]
     　
-    The Tavnazian Archipelago.${choice: 23}[/ (Done)]
-    　
-    　
+    L'archipel de Tavnazia.${choice: 23}[/ (fait)]
     　
     　
     　
     　
     　
-    Cancel.${prompt}
+    　
+    　
+    Annuler.${prompt}
   8552: |-
-    Which E.F. would you like to join?
+    Quel C.E. désirez-vous rejoindre ?
     ${selection-lines}
     .
     .
@@ -19853,23 +19853,21 @@ entries:
     .
     .
     .
-    The Zulkheim Region (Lv.20～).
-    The Norvallen Region (Lv.25～).
+    La région de Zulkheim (niv. 20～).
+    La région de Norvallen (niv. 25～).
     .
-    The Derfland Region (Lv.25～).
+    La région de Derfland (niv. 25～).
     .
-    The Kolshushu Region (Lv.20～).
-    The Aragoneu Region (Lv.25～).
-    The Fauregandi Region (Lv.35～).
-    The Valdeaunia Region (Lv.40～).
-    The Qufim Region (Lv.25～).
-    The Li'Telor Region (Lv.35～).
-    The Kuzotz Region (Lv.40～).
-    The Vollbow Region (Lv.65～).
-    The Elshimo Lowlands Region (Lv.35～).
-    The Elshimo Uplands Region (Lv.45～).
-    .
-    .
+    La région de Kolshushu (niv. 20～).
+    La région d'Aragoneu (niv. 25～).
+    La région de Fauregandi (niv. 35～).
+    La région de Valdeaunia (niv. 40～).
+    La région de Qufim (niv. 25～).
+    La région de Li'Telor (niv. 35～).
+    La région de Kuzotz (niv. 40～).
+    La région de Vollbow (niv. 65～).
+    La région des Basses-Terres d'Elshimo (niv. 35～).
+    La région des Hautes-Terres d'Elshimo (niv. 45～).
     .
     .
     .
@@ -19878,59 +19876,60 @@ entries:
     .
     .
     .
-    None.${prompt}
+    .
+    Aucun.${prompt}
   8553: |-
-    So be it.
-    You have until the next conquest results announcement to complete this mission.
-    Good luck.${prompt}
-  8554: We will dispose of those unusable supplies.${prompt}
+    Qu'il en soit ainsi.
+    Vous avez jusqu'à la prochaine annonce des résultats des conquêtes pour mener à bien cette mission.
+    Bonne chance.${prompt}
+  8554: Nous allons nous débarrasser de ce ravitaillement inutilisable.${prompt}
   8555: |-
-    You can only undertake one supply mission per day.
-    Come back later.${prompt}
-  8556: I am sorry. We seem to have a problem. Let me cancel it.${prompt}
+    Vous ne pouvez mener qu'une mission de ravitaillement par jour.
+    Revenez plus tard.${prompt}
+  8556: Je regrette. Il semble que nous ayons un problème. Laissez-moi annuler cela.${prompt}
   8557: |-
-    You do not need to donate any more crystals at your current rank.
-    Speak to the guard at the gatehouse for further instructions.${prompt}
+    Compte tenu de votre rang actuel, il ne vous est plus nécessaire de faire don de cristaux.
+    Allez voir le garde qui se trouve au poste. Il vous donnera d'autres instructions.${prompt}
   8558: |-
-    Your rank points are full. We've added the excess to your conquest points.
-    You do not need to donate any more crystals. Go to the gatehouse for further instructions.${prompt}
+    Votre quota de points de rang est atteint. Nous avons ajouté le supplément à vos points de conquête.
+    Il ne vous est plus nécessaire de faire don de cristaux. Allez au poste de garde chercher de nouvelles instructions.${prompt}
   8559: |-
-    Good work, citizen.
-    We've awarded you rank points for the crystals you've donated.${prompt}
+    Beau travail, ${choice-definite-entity: 0}[citoyen/citoyenne].
+    Nous vous avons accordé les points de rang proportionnels aux cristaux dont vous avez fait don.${prompt}
   8560: |-
-    You currently have ${number: 0} conquest points.
-    Would you like to use them to purchase items?${prompt}
+    Vous avez actuellement ${number: 0} points de conquête.
+    Voulez-vous les dépenser pour acheter des objets ?${prompt}
   8561: |-
-    Which item do you wish to purchase?
+    Quel type d'objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    1000-pt. items (rank 1 required).
-    2000-pt. items (rank 2 required).
-    4000-pt. items (rank 3 required).
-    8000-pt. items (rank 4 required).
-    16000-pt. items (rank 5 required).
-    24000-pt. items (rank 6 required).
-    32000-pt. items (rank 7 required).
-    40000-pt. items (rank 8 required).
-    48000-pt. items (rank 9 required).
-    56000-pt. items (rank 10 required).
-    Cancel.${prompt}
+    Objets communs (tous rangs).
+    Objets à 1000 pts (rang 1 requis).
+    Objets à 2000 pts (rang 2 requis).
+    Objets à 4000 pts (rang 3 requis).
+    Objets à 8000 pts (rang 4 requis).
+    Objets à 16000 pts (rang 5 requis).
+    Objets à 24000 pts (rang 6 requis).
+    Objets à 32000 pts (rang 7 requis).
+    Objets à 40000 pts (rang 8 requis).
+    Objets à 48000 pts (rang 9 requis).
+    Objets à 56000 pts (rang 10 requis).
+    Annuler.${prompt}
   8562: |-
-    Which item do you wish to purchase?
+    Quel type d'objet souhaitez-vous acheter ?
     ${selection-lines}
-    Common items (all ranks).
-    2000-pt. items (rank 1 required).
-    4000-pt. items (rank 2 required).
-    8000-pt. items (rank 3 required).
-    16000-pt. items (rank 4 required).
-    24000-pt. items (rank 5 required).
-    32000-pt. items (rank 6 required).
-    40000-pt. items (rank 7 required).
-    48000-pt. items (rank 8 required).
-    56000-pt. items (rank 9 required).
+    Objets communs (tous rangs).
+    Objets à 2000 pts (rang 1 requis).
+    Objets à 4000 pts (rang 2 requis).
+    Objets à 8000 pts (rang 3 requis).
+    Objets à 16000 pts (rang 4 requis).
+    Objets à 24000 pts (rang 5 requis).
+    Objets à 32000 pts (rang 6 requis).
+    Objets à 40000 pts (rang 7 requis).
+    Objets à 48000 pts (rang 8 requis).
+    Objets à 56000 pts (rang 9 requis).
     .
-    Cancel.${prompt}
-  8563: Currently there are no items available for that rank.${prompt}
+    Annuler.${prompt}
+  8563: Aucun objet correspondant à ce rang n'est actuellement disponible.${prompt}
   8564: |-
     Due to its special nature, you can only purchase or recharge ${article} ${item-article: 2[2]} once until the conquest results tally is performed.
     Also, you cannot purchase this item if a similar item is already in your possession.${prompt}
