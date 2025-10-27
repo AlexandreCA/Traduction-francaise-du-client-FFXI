@@ -18886,57 +18886,57 @@ entries:
   7750: |-
     Hum ? Qu'est-ce que vous voulez ?
     Hé, vous n'êtes pas de Bastok, pas vrai ?${prompt}
-  7751: 'What!? You''re ${choice: 0}[San d''Orian/Windurstian], and you listened to what a Bastokan official told you to do?${prompt}'
-  7752: Hah! I have no idea why that Hume sent you here...or why your consulate sent you to him in the first place.${prompt}
-  7753: You better listen good. A lot of us died trying to win the Palborough Mines back from the Quadav...${prompt}
-  7754: It might not matter to a foreigner like you, but they always send us Galka to do the dirty work!${prompt}
+  7751: 'Quoi !? Vous êtes de ${choice-definite-entity: 0}[San d''Oria/Windurst] et vous avez écouté ce qu''un fonctionnaire de Bastok vous a dit de faire ?${prompt}'
+  7752: 'Je ne sais pas du tout pourquoi cet Hume vous a ${choice-definite-entity: 0}[envoyé/envoyée] ici... ni pourquoi votre consulat vous a ${choice-definite-entity: 0}[envoyé/envoyée] voir ce gars, pour commencer.${prompt}'
+  7753: Ouvrez bien vos oreilles. Beaucoup d'entre nous sont morts en essayant de reprendre les Mines de Palborough aux Quadavs...${prompt}
+  7754: 'Ça n''a peut-être pas d''importance pour ${choice-definite-entity: 0}[un étranger/une étrangère] comme vous, mais c''est toujours nous les Galkas qu''on envoie faire le sale boulot !${prompt}'
   7755: |-
-    What gets me the most is that they don't even think about it twice!
-    Even if you haven't been here long, you must've seen how they treat us.${prompt}
+    Ce qui m'agace le plus, c'est qu'ils font ça sans même y réfléchir !
+    Même si vous n'êtes pas ici depuis longtemps, vous avez dû voir comment ils nous traitent.${prompt}
   7756: |-
-    Never mind. Shouting at you won't change anything.
-    You wanted to know about refining ore, right? It's easy, but you have to remember the steps.${prompt}
+    Enfin, ce n'est pas en vous criant dessus que les choses vont changer.
+    Vous vouliez savoir comment raffiner du minerai, c'est ça ? C'est facile, mais il faut se souvenir des étapes.${prompt}
   7757: |-
-    Here goes:
-    1. Get ${article} ${item-article: 6[2]}.
-    2. Put that into the upper part of the refiner.
-    3. Take the ${item-singular: 7[2]} out of the lower part of the refiner.${prompt}
-  7758: 'You can either buy ${article} ${item-article: 6[2]} from someone, or get some by using ${article} ${item-article: 5[2]} on a mythril seam inside Palborough.${prompt}'
+    Alors, voilà :
+    1. Trouvez ${article} ${item-article: 6[2]}.
+    2. Mettez ça dans la partie supérieure du raffineur.
+    3. Enlevez le ${item-singular: 7[2]} de la partie inférieure du raffineur.${prompt}
+  7758: 'Vous pouvez soit acheter ${article} ${item-article: 6[2]} à quelqu''un, soit en obtenir en utilisant ${article} ${item-article: 5[2]} sur un filon de mithril à l''intérieur de Palborough.${prompt}'
   7759: |-
-    The refining machine is so big, its upper and lower sections are on different floors.
-    Put ${article} ${item-article: 6[2]} into it on the third floor, and it'll produce ${article} ${item-article: 7[2]} on the second floor.${prompt}
-  7760: I know it sounds simple, but it's not. You've got the Quadav to deal with, and they're everywhere.${prompt}
+    La machine à raffiner est si grande, que sa partie supérieure et sa partie inférieure sont sur deux étages différents.
+    Mettez-y ${article} ${item-article: 6[2]} au troisième étage et ça produira ${article} ${item-article: 7[2]} au deuxième étage.${prompt}
+  7760: Je sais que ça a l'air simple, mais ça ne l'est pas. Vous allez devoir vous occuper des Quadavs. Et il sont partout.${prompt}
   7761: |-
-    Here, take these ${item-plural: 5[2]}.
-    Good luck. You're gonna need it.${prompt}
-  7762: Hey, you're an adventurer, right? From another country?${prompt}
+    Tenez, prenez ces ${item-plural: 5[2]}.
+    Bonne chance, vous en aurez besoin.${prompt}
+  7762: 'Hé, vous êtes ${choice-definite-entity: 0}[un aventurier/une aventurière], pas vrai ? Vous venez d''un autre pays ?${prompt}'
   7763: |-
-    Sorry, I couldn't help but eavesdrop.
-    I'm going to the Palborough Mines, too.${prompt}
+    Désolée, mais je n'ai pas pu m'empêcher d'écouter votre conversation.
+    Je vais aux Mines de Palborough, moi aussi.${prompt}
   7764: |-
-    Don't worry, I won't get in your way.
-    I don't think we're going after the same thing anyway.${prompt}
-  7765: At least, for now.${prompt}
-  7766: But you shouldn't think your mission is just a mine survey.${prompt}
-  7767: The beastmen seem to have found a new leader, and the Quadav are getting more powerful with each passing day. There could be another war...${prompt}
-  7768: Oh, there's one thing you should know. Do you know why the Quadav took the Palborough Mines?${prompt}
-  7769: Humes claim that the Quadav stole the mines from them, but in reality, the mines are the Quadav's home...no, their holy land.${prompt}
-  7770: The Quadav would die rather than lose it. But the Humes in Bastok don't know, and they don't care to know.${prompt}
-  7771: Well, it's time for me to go. Oh, and my name is Lion. I'm an adventurer, like you. I'll be seeing you around.${prompt}
+    Ne vous inquiétez pas, je ne me mettrai pas dans vos pattes.
+    Je ne crois pas que nous recherchions la même chose de toute façon.${prompt}
+  7765: Enfin, pour l'instant.${prompt}
+  7766: Mais n'allez pas croire que votre mission n'est qu'un sondage de la mine.${prompt}
+  7767: Les hommes-bêtes ont apparemment trouvé un nouveau chef. Les Quadavs deviennent plus puissants chaque jour. Il pourrait y avoir une autre guerre...${prompt}
+  7768: Oh, il y a quelque chose que vous devriez savoir. Vous savez pourquoi les Quadavs ont pris les Mines de Palborough ?${prompt}
+  7769: Les Humes prétendent que les Quadavs leur ont volé les mines, mais en réalité les mines, c'est chez eux... C'est même leur terre sainte.${prompt}
+  7770: Les Quadavs préféreraient donner leurs vies plutôt que de la perdre. Mais à Bastok, les Humes n'en savent rien et ça ne les intéresse absolument pas.${prompt}
+  7771: Eh bien, il est temps d'y aller pour moi. Ah, au fait, je m'appelle Lion. Je suis une aventurière, comme vous. On se recroisera.${prompt}
   7772: |-
-    Never mind, shouting at you won't change anything.
-    You wanted to know about the beastmen, right?${prompt}
-  7773: I've heard rumors that those dumb Quadav are acting organized.${prompt}
-  7774: There's even talk that they have a leader now, like in the Great War...${prompt}
-  7775: Oh, and there's a strange magic circle at the deepest end of the Palborough Mines. It's said that whoever goes beyond it never comes back.${prompt}
+    Enfin, ce n'est pas en vous criant dessus que les choses vont changer.
+    Vous vouliez en savoir plus sur les hommes-bêtes ?${prompt}
+  7773: Il paraît que ces imbéciles de Quadavs agissent de façon organisée.${prompt}
+  7774: On dit même qu'ils ont un chef maintenant... Comme pour la Grande Guerre...${prompt}
+  7775: Ah, et il y a un étrange cercle magique au plus profond des Mines de Palborough. On dit que quiconque le passe ne revient jamais.${prompt}
   7776: |-
-    Sounds real suspicious, doesn't it?
-    I'm sure you'll find your answers there.${prompt}
+    Ça semble louche, non ?
+    e suis sûr que vous trouverez vos réponses là-bas.${prompt}
   7777: |-
-    Me? Oh, no. I'm never going back there.
-    Good luck. You're gonna need it!${prompt}
-  7778: Ah, you must be the adventurer who is to join us on our mission. I have heard much about you.${prompt}
-  7779: We would like to hold a briefing soon. You will be allowed time to prepare for the mission afterwards, but the briefing might take a bit of time. Are you ready now?${prompt}
+    Moi ? Oh, non. Je n'y remettrai jamais les pieds.
+    Bonne chance. Vous en aurez besoin !${prompt}
+  7778: 'Ah, vous devez être ${choice-definite-entity: 0}[l''aventurier/l''aventurière] qui doit nous rejoindre pour notre mission. J''ai beaucoup entendu parler de vous.${prompt}'
+  7779: 'Nous voudrions faire un briefing très bientôt. On vous laissera du temps pour vous préparer juste après, mais le briefing pourrait prendre un moment. Vous êtes ${choice-definite-entity: 0}[prêt/prête] maintenant ?${prompt}'
   7780: |-
     When would you like to be briefed?
     ${selection-lines}
