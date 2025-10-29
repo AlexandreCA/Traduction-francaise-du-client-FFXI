@@ -19281,54 +19281,54 @@ entries:
   8192: |-
     クリスタルバスだね。（ビチビチ）
     テスト用だから、お代はいらないよ。${prompt}
-  8193: You stand beneath Victory Arch. Beyond lies Northern San d'Oria. The tale of its magnificence stretches back some 300 years to the era of Warking Acheufagais.${prompt}
-  8194: The arch stands impervious, unfelled even by the great chaos brought about by the Civil and Crystal Wars. It is precisely this permanence that has made the Victory Arch the pride of the Royal Army!${prompt}
-  8195: Beyond the arch lies Northern San d'Oria, where Chateau d'Oraguille, the cathedral, and the consulates of allied nations stand.${prompt}
-  8196: Yes?${prompt}
-  8197: You stand before the Westgate. West Ronfaure lies beyond.${prompt}
-  8198: You stand before the Eastgate. East Ronfaure lies beyond.${prompt}
-  8199: Oh, an adventurer. Across the way lies the Westgate. It leads outside the city walls.${prompt}
-  8200: Welcome to Novice's Hall. Don't be afraid, come inside!${prompt}
-  8201: Are you lost? I know this neighborhood well.${prompt}
+  8193: Vous êtes sous l'Arche de la Victoire. Sa forme actuelle remonte à l'époque du roi guerrier Acheufagais d'Oraguille, il y a 300 ans.${prompt}
+  8194: Cette arche n'est jamais tombée, que ce soit pendant la guerre civile ou pendant la Guerre du Cristal. Alors c'est aussi un peu la fierté de notre armée royale.${prompt}
+  8195: Derrière l'arche, vous trouverez le Château d'Oraguille, la cathédrale et les consulats de nos alliés.${prompt}
+  8196: Oui ?${prompt}
+  8197: Vous êtes devant la Porte de l'Ouest. Derrière s'étend le Ronfaure occidental.${prompt}
+  8198: Vous êtes devant la Porte de l'Est. Derrière s'étend le Ronfaure oriental.${prompt}
+  8199: 'Oh, ${choice-definite-entity: 0}[un aventurier/une aventurière]. De l''autre côté de la rue se trouve la Porte de l''Ouest. Elle donne sur l''extérieur de la ville.${prompt}'
+  8200: Bienvenue à la Salle des novices. N'ayez pas peur, entrez !${prompt}
+  8201: 'Vous êtes ${choice-definite-entity: 0}[perdu/perdue] ? Je connais bien ce quartier.${prompt}'
   8202: |-
-    Which way are you going?
+    Où voulez-vous aller ?
     ${selection-lines}
-    Left.
-    Right.${prompt}
-  8203: There on Pikeman's Way you can find a grocer, sundries and the Tanners' Guild. At the end lies the mansion of Count Caffaule.${prompt}
-  8204: Go up those stairs for Watchdog Alley. Homes of townsfolk line the street.${prompt}
-  8205: I'm looking for a former examiner. I heard he lived around here...${prompt}
-  8206: You've never heard of examiners? Look, in order to become a knight, you have to pass a trial. The examiners judge your worth.${prompt}
-  8207: But Southern San d'Oria's streets are so confusing. I hear they were built this way to thwart invaders!${prompt}
-  8208: Say, I found the examiner I was looking for! But he would only talk of taking up the sword. Why won't he test me?${prompt}
-  8209: 'The examiner finally offered me a task. He wants ${article} ${item-article: 0[2]}, but he won''t tell me how to get one! Keeps saying I should use my head...${prompt}'
-  8210: Your flyer is refused.${prompt}
+    A gauche.
+    A droite.${prompt}
+  8203: Ici, sur l'Avenue des piquiers, vous trouverez une épicerie, des bazars et la guilde des tanneurs. Au bout se trouve le manoir du comte Caffaule.${prompt}
+  8204: En haut de ces marches, vous verrez l'Allée de la Garde, elle est bordée de maisons d'habitation.${prompt}
+  8205: Je cherche un ancien examinateur. J'ai entendu dire qu'il habitait par ici...${prompt}
+  8206: Vous n'avez jamais entendu parler des examinateurs ? Pour devenir chevalier, il faut passer une épreuve. Les examinateurs jugent de votre valeur.${prompt}
+  8207: Mais les rues de San d'Oria sont un vrai dédale. J'ai entendu dire qu'elles avaient été bâties comme ça pour décourager les envahisseurs !${prompt}
+  8208: J'ai trouvé l'examinateur que je cherchais ! Mais il ne parle que de prendre les armes. Pourquoi ne veut-il pas m'évaluer ?${prompt}
+  8209: 'L''examinateur m''a enfin donné une épreuve. Il veut ${article} ${item-article: 0[2]}, mais il ne m''a pas dit comment m''y prendre ! Seulement que je devais me servir de ma tête...${prompt}'
+  8210: Votre prospectus a été refusé.${prompt}
   8211: |-
-    Display which motion? (Debug)
+    Afficher quel geste ? (Debug)
     ${selection-lines}
-    Talk.
-    Give.
-    Think.${prompt}
-  8212: Hello!${prompt}
-  8213: Welcome!${prompt}
-  8214: What can I do for you?${prompt}
-  8215: Fresh vegetables for sale!${prompt}
-  8216: Looking for meat today?${prompt}
-  8217: I have a fresh catch of fish from Selbina!${prompt}
-  8218: Sorry. Everything's sold out.${prompt}
-  8219: Hello, adventurer. Fine weather today, isn't it?${prompt}
-  8220: I'm Kozou. My little brother Bouzu is in the kitchen.${prompt}
-  8221: Sorry, I'm busy auctioning. You have to keep a tab on things or else the best items get away!${prompt}
-  8222: Welcome to the Chocobo Stables. Here you can rent a chocobo or train a wild one yourself.${prompt}
-  8223: I'm training chocobos here.${prompt}
-  8224: This is a smart chocobo.${prompt}
-  8225: This chocobo always runs straight back home.${prompt}
-  8226: Kweh.${prompt}
-  8227: Kweh-kweh!${prompt}
-  8228: Kweh-kweh-kweh!${prompt}
-  8229: I'm the master of the Tanners' Guild. What do you want?${prompt}
-  8230: Why, hello. All our skins are guild-approved.${prompt}
-  8231: Good day! We have lots in stock today.${prompt}
+    Parler.
+    Donner.
+    Réfléchir.${prompt}
+  8212: Salut !${prompt}
+  8213: Bienvenue !${prompt}
+  8214: Que puis-je pour vous ?${prompt}
+  8215: Ils sont frais, mes légumes !${prompt}
+  8216: Vous cherchez de la viande aujourd'hui ?${prompt}
+  8217: J'ai du poisson tout frais en provenance de Selbina !${prompt}
+  8218: Je regrette. J'ai tout vendu.${prompt}
+  8219: 'Bonjour, ${choice-definite-entity: 0}[aventurier/aventurière]. Beau temps aujourd''hui, hein ?${prompt}'
+  8220: Je m'appelle Kozou. Mon petit frère Bouzu est dans la cuisine.${prompt}
+  8221: Veuillez m'excuser, mais je suis en pleine enchère. Il faut garder l'œil sinon les meilleures affaires vous échappent.${prompt}
+  8222: Bienvenue à l'écurie de chocobos. Vous pouvez soit élever vous-même un chocobo, soit en louer un.${prompt}
+  8223: C'est moi qui dresse les chocobos ici.${prompt}
+  8224: Ce chocobo est très intelligent.${prompt}
+  8225: Ce chocobo retrouve toujours le chemin de l'écurie.${prompt}
+  8226: Kouiii.${prompt}
+  8227: Kouiii-kouiii !${prompt}
+  8228: Kouii-kouiii-kouiii !${prompt}
+  8229: Je suis le maître de la guilde des tanneurs. Que puis-je pour vous ?${prompt}
+  8230: Ha, bonjour. Toutes nos peaux reçoivent l'approbation de la guilde.${prompt}
+  8231: Bonjour ! Nous sommes très bien achalandés aujourd'hui.${prompt}
   8232: |-
     いらっしゃいませ！
     革工ギルド店員3です。${prompt}
@@ -19359,55 +19359,55 @@ entries:
     チョコボはかわいいけど、
     あんだけ沢山いると、朝から晩まで
     クエックエッってうるさくてしょうがねぇや。${prompt}
-  8242: That building down there is the hall of the Tanners' Guild. They work the skins of animals and other creatures into all manner of useful things.${prompt}
-  8243: This is the gate to the residential area. No entry without official permission.${prompt}
-  8244: Come in! Come in! And welcome to the Lion Springs Tavern! Run by none other than the great hero of the Norvallen Resistance, Valderotaux himself.${prompt}
-  8245: Make yourself at home! Can I interest you in some of our famous mulsum?${prompt}
+  8242: Ce bâtiment là-bas, c'est la guilde des tanneurs. Ils travaillent les peaux d'animaux et de bien d'autres créatures pour en faire toutes sortes de choses utiles.${prompt}
+  8243: Cette porte mène au quartier résidentiel. On n'y entre pas sans autorisation officielle.${prompt}
+  8244: Bienvenue ! Vous êtes au restaurant de la Fontaine du lion. Vous devriez goûter à notre miellat, c'est la spécialité de la maison !${prompt}
+  8245: Vous savez, le patron, c'est le célèbre Valderotaux, le héros de la bataille de Norvallen. Si vous voulez le rencontrer, vous êtes au bon endroit !${prompt}
   8246: （ミッションフラグを初期化しました）${prompt}
   8247: |-
     （テスト）ハチミツやるよ、ほら。
     あんだよ、ちゃんと10個あんだろ？
     ……ったく、疑り深いったらありゃしねぇな。${prompt}
   8248: '...${prompt}'
-  8249: My name is Sobane, and I'm sharpening my knives.${prompt}
+  8249: Je m'appelle Sobane et j'affûte mes couteaux.${prompt}
   8250: '${entity: 0}${prompt}'
-  8251: Face right!${prompt}
-  8252: Face left!${prompt}
-  8253: Calling roll! Numbers!${prompt}
-  8254: One!${prompt}
-  8255: Two!${prompt}
-  8256: Three!${prompt}
-  8257: Four!${prompt}
-  8258: Five!${prompt}
+  8251: A droite, droite !${prompt}
+  8252: A gauche, gauche !${prompt}
+  8253: Comptez-vous !${prompt}
+  8254: Un !${prompt}
+  8255: Deux !${prompt}
+  8256: Trois !${prompt}
+  8257: Quatre !${prompt}
+  8258: Cinq !${prompt}
   8259: Six!${prompt}
-  8260: Seven!${prompt}
-  8261: E-eight!${prompt}
-  8262: You're late, number eight!${prompt}
-  8263: Eight! What are you doing?${prompt}
-  8264: Eight!! Don't make me angry!${prompt}
-  8265: We can't defend the city like this!${prompt}
-  8266: Once more, you maggots!${prompt}
-  8267: One!${prompt}
-  8268: Two!${prompt}
-  8269: That's enough!${prompt}
+  8260: Sept !${prompt}
+  8261: H-huit !${prompt}
+  8262: Vous êtes en retard, numéro huit !${prompt}
+  8263: Numéro huit ! Qu'est-ce que vous faites ?${prompt}
+  8264: Numéro huit ! Ne me poussez pas à bout !${prompt}
+  8265: C'est pas comme ça qu'on défendra la ville !${prompt}
+  8266: On recommence, tas de vermisseaux !${prompt}
+  8267: Un !${prompt}
+  8268: Deux !${prompt}
+  8269: Ça suffit !${prompt}
   8270: |-
-    What now?
+    Et maintenant ?
     ${selection-lines}
-    Go.
-    Stay.${prompt}
-  8271: You want to go to Bastok?${prompt}
-  8272: All right! Back to the drills!${prompt}
-  8273: If you want to return to Bastok, speak to the Galka in front of Victory Arch.${prompt}
-  8274: Nothing to report...as usual. Although I suppose having nothing to report is a good thing.${prompt}
-  8275: It is quite a far cry from the days when our kingdom was under siege by the Orcish Bloodwing Horde led by the merciless Doggvdegg.${prompt}
-  8276: I still get weak in the knees when I recall the thunderous din raised by the footsteps of Doggvdegg's mighty bugard mount.${prompt}
-  8277: Well? What's the situation?${prompt}
-  8278: Currently all is well at Victory Arch!${prompt}
-  8279: I am on patrol.${prompt}
-  8280: Who are you!? Don't interrupt us!${prompt}
+    Partir.
+    Rester.${prompt}
+  8271: Vous voulez aller à Bastok ?${prompt}
+  8272: Très bien ! On reprend les exercices !${prompt}
+  8273: Si vous voulez aller à Bastok, parlez au Galka qui est devant l'Arche de la Victoire.${prompt}
+  8274: Aujourd'hui encore, rien à signaler... Mais c'est une bonne chose.${prompt}
+  8275: Parce que je peux vous dire qu'il y en a eu, des choses à signaler, quand notre ville a été assiégée par le chef orque Doggvdegg, et sa Horde Vautour !${prompt}
+  8276: Quand je repense au martellement des pattes du bugard qu'il montait, ce bruit sourd qui résonnait lorsqu'il approchait, j'en ai encore des frissons dans le dos...${prompt}
+  8277: Alors ? Quelle est la situation ?${prompt}
+  8278: Pour l'instant, tout va bien à l'Arche de la Victoire !${prompt}
+  8279: Je suis en patrouille.${prompt}
+  8280: Qui êtes-vous ? Ne nous interrompez pas !${prompt}
   8281: (★Finished zoning!${prompt}
   8282: （★凱旋門前に戻ったよ）${prompt}
-  8283: By order of the king, none may pass. Begone!${prompt}
+  8283: Par ordre du roi, on ne passe pas ! Arrière !${prompt}
   8284: トレース０${prompt}
   8285: トレース１${prompt}
   8286: トレース２${prompt}
@@ -19426,8 +19426,8 @@ entries:
   8299: －－－ダボイ村完了－－－${prompt}
   8300: －－－他国を回れ完了－－－${prompt}
   8301: フラグをリセットしました……。${prompt}
-  8302: Out...of...my way.${prompt}
-  8303: Well, you've got quite a burden. Come back when you're lightened your purse.${prompt}
+  8302: Hors... de... mon chemin.${prompt}
+  8303: 'Vous voilà ${choice-definite-entity: 0}[nanti/nantie] d''un lourd fardeau. Revenez quand votre besace sera plus légère.${prompt}'
   8304: |-
     【デバッグ】
     あんた、サンドリアの人だな。${prompt}
@@ -19460,97 +19460,97 @@ entries:
     NUM0＝${number: 0}　NUM1＝${number: 1}　NUM2＝${number: 2}
     NUM3＝${number: 3}　NUM4＝${number: 4}　NUM5＝${number: 5}
     NUM6＝${number: 6}　NUM7＝${number: 7}${prompt}
-  8323: Error from client.${prompt}
-  8324: Hmm... Now where did I put it?${prompt}
-  8325: Oh, I'm sorry. I'm looking for something. Come back later.${prompt}
-  8326: I'm sorry, but that's all for today. Someone stole my dagger.${prompt}
-  8327: I'm Luthiaque. I travel hither and thither, bringing entertainment everywhere!${prompt}
-  8328: Juggling is my specialty, but not mere balls or dishes... No, I juggle daggers!${prompt}
-  8329: Did you bring me my dagger?${prompt}
+  8323: Erreur du client.${prompt}
+  8324: Mmm... Mais où ai-je pu la mettre ?${prompt}
+  8325: Oh, désolé. Revenez plus tard. Je suis chercher quelque chose.${prompt}
+  8326: Je suis désolé mais ça sera tout pour aujourd'hui. On m'a volé ma dague.${prompt}
+  8327: Je m'appelle Luthiaque. Je voyage par monts et par vaux, pour apporter de la joie partout où je passe !${prompt}
+  8328: Ma spécialité, c'est le jonglage. Mais pas avec de vulgaires balles ou assiettes, non. Avec des dagues !${prompt}
+  8329: Me rapporteriez-vous ma dague ?${prompt}
   8330: |-
-    Well, did you?
+    Alors ?
     ${selection-lines}
-    Yes, I did.
-    No, not yet.${prompt}
-  8331: This is just the one! Thank you so much!${prompt}
+    Oui, je l'ai.
+    Non, pas encore.${prompt}
+  8331: C'est bien elle ! Merci beaucoup !${prompt}
   8332: Oh...${prompt}
-  8333: We was came to see him a performance, but I don't know when he'll be starting.${prompt}
-  8334: We've waited an eternity. How long is that performer going to take?${prompt}
-  8335: Say, would you...? Oh, it's nothing.${prompt}
-  8336: Of course I... Oh, never mind.${prompt}
-  8337: (...Yeah, that's what I said!)${prompt}
-  8338: (But you know what? Oh, wait. Hold on...)${prompt}
-  8339: I'm sorry, can I help you?${prompt}
-  8340: '${color-alt: 15}${name-player} points to the item in ${name-npc}''s hand.'
-  8341: 'Oh, this? It''s a magical shell called ${article} ${item-article: 1[2]}.${prompt}'
+  8333: On est venus le voir jongler, mais c'est quand qu'il commence ?${prompt}
+  8334: Ça fait une éternité qu'on attend. Il en a pour longtemps encore ?${prompt}
+  8335: Dites, vous voulez bien... ? Oh, ce n'est rien.${prompt}
+  8336: Bien sûr, je... Non, rien.${prompt}
+  8337: (... Oui, c'est ce que j'ai dit !)${prompt}
+  8338: (Mais tu sais quoi ? Oh, attends. Une petite minute...)${prompt}
+  8339: Pardon. Je peux vous aider ?${prompt}
+  8340: '${color-alt: 15}${name-player} montre l''objet tenu par ${name-npc}.'
+  8341: 'Ça ? C''est un coquillage magique appelé ${article} ${item-article: 1[2]}.${prompt}'
   8342: |-
-    You want to know about ${item-plural: 1[2]}?
-    Let me tell you all about them!${prompt}
+    Vous voulez en savoir plus au sujet des ${item-plural: 1[2]}?
+    Très bien, je vais expliquer...${prompt}
   8343: |-
-    What do you want to ask?
+    Que voulez-vous savoir ?
     ${selection-lines}
-    What's ${article} ${item-article: 1[2]}?
-    What types of ${item-plural: 1[2]} are there?
-    How do you use them?
-    Never mind.${prompt}
-  8344: These magic shells are full of mysteries...${prompt}
+    Que sont ${article} ${item-article: 1[2]}?
+    Quels types ${item-plural: 1[2]} existe-t-il ?
+    Comment s'en sert-on ?
+    Rien du tout.${prompt}
+  8344: Ces coquillages magiques recèlent de nombreux mystères...${prompt}
   8345: |-
-    You can get beautiful pearls from them.
-    Some say these are some new form of shall shells, but...${prompt}
+    Ils permettent d'obtenir des perles d'une grande beauté.
+    D'aucuns disent qu'il s'agit d'une évolution des conques qui fabriquent des perles, mais...${prompt}
   8346: |-
-    Even if you take out a pearl, they make more and more of them.
-    Strange, isn't it?${prompt}
-  8347: What's more strange is that pearls taken from the same shell actually transmit sound, no matter how far apart they are!${prompt}
-  8348: So, if you speak into one of the pearls, people who hold other pearls or the shell they were made from can hear you!${prompt}
-  8349: It's as if they were linked by an invisible thread... Huh. I guess that's why they have "link" in their names.${prompt}
-  8350: 'So anyway, the shells are called ${item-plural: 1[2]}, and the pearls ${item-plural: 2[2]}.${prompt}'
-  8351: 'There are also different types of ${item-plural: 1[2]}.${prompt}'
-  8352: Is there anything else you want to know?
+    Même quand on prélève une perle, ce coquillage continue d'en former encore et encore.
+    Etrange, n'est-ce pas ?${prompt}
+  8347: Et le plus étrange, c'est que les perles prélevées d'un même coquillage transmettent les sons, quelle que soit la distance qui les sépare !${prompt}
+  8348: Autrement dit, lorsque vous parlez dans une de ces perles, les gens qui ont sur eux d'autres perles issues du même coquillage vous entendent comme si vous vous trouviez à côté d'eux !${prompt}
+  8349: C'est comme si vous étiez liés par un fil invisible... euh, j'imagine que c'est pour cela qu'elles ont le mot “link” dans leur nom, d'ailleurs...${prompt}
+  8350: 'Bref, les coquillages sont appelés ${item-plural: 1[2]}, et les perles, ${item-plural: 2[2]}.${prompt}'
+  8351: 'Les ${item-plural: 1[2]} existent aussi en plusieurs sortes.${prompt}'
+  8352: Sur quoi voulez-vous en apprendre davantage ?
   8353: |-
-    What do you want to ask about?
+    Y a-t-il autre chose que vous souhaiteriez savoir ?
     ${selection-lines}
     ${lettercase: 1}${item-plural: 0[2]}.
     ${lettercase: 1}${item-plural: 1[2]}.
     ${lettercase: 1}${item-plural: 2[2]}.
     ${lettercase: 1}${item-plural: 3[2]}.
-    Back.${prompt}
-  8354: '${lettercase: 1}${item-plural: 0[2]} are ${item-plural: 1[2]} when you first buy them at the store.${prompt}'
-  8355: 'Once opened, they start making ${item-plural: 2[2]} and become the communications tool everyone''s using.${prompt}'
-  8356: 'You can set the color and name of your ${item-singular: 1[2]} when you open it. Make sure to set the ones you like because you can''t change them afterwards!${prompt}'
-  8357: '${lettercase: 1}${item-plural: 1[2]} are ${item-plural: 0[2]} that have been opened and function as a communications tool.${prompt}'
+    Retour.${prompt}
+  8354: '${lettercase: 1}${item-plural: 0[2]} sont des ${item-plural: 1[2]} quand on les achète au magasin.${prompt}'
+  8355: 'Mais quand on les ouvre, elles commencent à créer des ${item-plural: 2[2]} et deviennent ainsi l''instrument de communication de tous.${prompt}'
+  8356: 'Vous pouvez choisir la couleur et le nom de votre ${item-singular: 1[2]} en l''ouvrant. Ne vous trompez pas, car il vous sera impossible d''en changer par la suite !${prompt}'
+  8357: 'Les ${lettercase: 1}${item-plural: 1[2]} sont des ${item-plural: 0[2]} que l''on a ouvertes et qui servent d''instruments de communication.${prompt}'
   8358: |-
-    You can make ${item-plural: 2[2]} and ${item-plural: 3[2]} from those shells.
-    They're like the party leader of an adventuring party.${prompt}
-  8359: 'All items created by your ${item-singular: 1[2]} retain the ${item-singular: 1[2]}''s color and name.${prompt}'
-  8360: Make the name something unique so that it's easy to remember.${prompt}
-  8361: '${lettercase: 1}${item-plural: 2[2]} are pearls that ${item-plural: 1[2]} make.${prompt}'
-  8362: 'If you equip one, you can communicate with people who have the same ${item-plural: 2[2]} and the ${item-singular: 1[2]} they were made from.${prompt}'
-  8363: They're like the party members in an adventuring party.${prompt}
-  8364: '${lettercase: 1}${article} ${item-article: 3[2]} is a bag full of ${item-plural: 2[2]}. You can make one by metamorphosing a ${item-singular: 2[2]} for that purpose.${prompt}'
-  8365: 'It won''t have all the features of ${article} ${item-article: 1[2]}, but you can take out an endless amount of ${item-plural: 2[2]} like ${article} ${item-article: 1[2]}.${prompt}'
-  8366: 'You have to use ${article} ${item-article: 1[2]} to make ${article} ${item-article: 3[2]}. The same goes if you want to turn it back into ${article} ${item-article: 2[2]}.${prompt}'
-  8367: They're like the party leaders of an alliance of adventuring parties...${prompt}
+    Ces coquillages permettent de créer des ${item-plural: 2[2]} et des ${item-plural: 3[2]}.
+    On peut les comparer au chef d'une équipe d'aventuriers.${prompt}
+  8359: 'Tous les objets créés par votre ${item-singular: 1[2]} conservent la couleur et le nom de votre ${item-singular: 1[2]}.${prompt}'
+  8360: Choisissez un nom que vous n'aurez aucun mal à retenir.${prompt}
+  8361: 'Les ${lettercase: 1}${item-plural: 2[2]} sont des perles formées par les ${item-plural: 1[2]}.${prompt}'
+  8362: 'Si vous équipez l''une d''elles, vous pourrez communiquer avec les gens ayant les mêmes ${item-plural: 2[2]} ainsi que ${item-singular: 1[2]} dont elles ont été créées.${prompt}'
+  8363: On peut les comparer aux membres d'une équipe d'aventuriers.${prompt}
+  8364: '${lettercase: 1}${article} ${item-article: 3[2]} est un sac plein de ${item-plural: 2[2]}. On peut en créer en métamorphosant une ${item-singular: 2[2]} dans ce but bien précis.${prompt}'
+  8365: 'Il ne possèdera pas toutes les propriétés d''une''${article} ${item-article: 1[2]}, mais produira une quantité infinie de ${item-plural: 2[2]} comme une ${article} ${item-article: 1[2]}.${prompt}'
+  8366: 'Il faut utiliser une ${article} ${item-article: 1[2]} pour créer un ${article} ${item-article: 3[2]}. C''est également vrai si vous voulez revenir à une ${article} ${item-article: 2[2]}.${prompt}'
+  8367: Ce sont comme les chefs d'équipe d'une alliance...${prompt}
   8368: |-
-    You want to know how to use them?
-    Where should I start?${prompt}
+    Vous voulez savoir comment vous en servir ?
+    Par où dois-je commencer ?${prompt}
   8369: |-
-    What do you want to know about?
+    Que voulez-vous savoir ?
     ${selection-lines}
-    Where to get one.
-    Assigning a color and name.
-    Making ${item-plural: 2[2]}.
-    Equipping them.
-    Speaking into them.
-    Metamorphosing ${article} ${item-article: 2[2]}.
-    Throwing them away.
-    Back.${prompt}
-  8370: 'You can buy ${item-plural: 1[2]} in shops. They''re a little pricey, though.${prompt}'
-  8371: It might be best if you ask friends who want pearls to chip in.${prompt}
-  8372: 'A freshly bought ${item-singular: 0[2]} has neither a color nor a name.${prompt}'
-  8373: '${lettercase: 1}${article} ${item-article: 1[2]} becomes usable only after you''ve chosen its color and given it a name. Then you can use it to make ${item-plural: 2[2]}.${prompt}'
+    Où se fournir.
+    Assigner une couleur et un nom.
+    Créer des ${item-plural: 2[2]}.
+    S'en équiper.
+    Parler dedans.
+    Transformer ${article} ${item-article: 2[2]}.
+    S'en débarrasser.
+    Retour.${prompt}
+  8370: 'On peut acheter des ${item-plural: 1[2]} dans les boutiques, mais elles ne sont pas données.${prompt}'
+  8371: Si vous avez des amis que ça intéresse, le mieux c'est de leur demander de participer.${prompt}
+  8372: 'Une ${item-singular: 0[2]} n''a ni couleur ni nom quand on l''achète.${prompt}'
+  8373: '${lettercase: 1}${article} ${item-article: 1[2]} ne devient utilisable qu''une fois que vous avez choisi sa couleur et que vous lui avez donné un nom. A partir de ce moment, vous pouvez vous en servir pour créer des ${item-plural: 2[2]}.${prompt}'
   8374: |-
-    You can combine different amounts of blue, red, and green to make your shell's color.
-    You can only use alphabet letters for the name, but you can use capital and lowercase letters anywhere you want.${prompt}
+    Vous pouvez combiner diverses quantités de bleu, de rouge et de vert pour obtenir la couleur de votre coquillage.
+    Pour ce qui est de son nom, vous êtes ${choice-definite-entity: 0}[limité/limitée] aux lettres de l'alphabet, mais vous pouvez indifféremment utiliser des majuscules ou des minuscules.${prompt}
   8375: '${lettercase: 1}${item-plural: 2[2]} are made from ${item-plural: 1[2]}.${prompt}'
   8376: 'Making them is easy. Just equip your ${item-singular: 1[2]}, then go to “Linkshell” in the menu and select “Create Pearl”!${prompt}'
   8377: 'All ${item-plural: 2[2]} made this way retain the ${item-singular: 1[2]}''s color and name, so it''s easy to tell who can hear you!${prompt}'
