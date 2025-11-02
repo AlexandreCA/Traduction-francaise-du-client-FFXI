@@ -18890,129 +18890,129 @@ entries:
   7884: Ah, I see I was right about you. You've proved your mettle today. Further tempering may forge you into a hero among adventurers.${prompt}
   7885: In recognition of your success, I offer this sword. Train diligently, and grow strong.${prompt}
   7886: You're a little too new at this to undertake my challenge. Train further, and return here once you feel ready.${prompt}
-  7887: This thing you have given me, it has no bearing on your task; I cannot accept it.${prompt}
-  7888: And who, pray tell, are you? I cannot take that for which I have not asked. Take it and be gone.${prompt}
-  7889: You are an adventurer, are you not? Surely you've heard of King Ranperre's Tomb.${prompt}
+  7887: Ce que vous me donnez n'a rien à voir avec la tâche que je vous ai confiée. Je ne peux pas l'accepter.${prompt}
+  7888: Et qui diable êtes-vous ? Je ne puis prendre ce que je n'ai point demandé. Reprenez cela et retirez-vous.${prompt}
+  7889: 'Vous êtes ${choice-definite-entity: 0}[un aventurier/une aventurière], n''est-il pas ? Vous avez forcément entendu parler de la Tombe du roi Ranperre.${prompt}'
   7890: |-
-    Heard of the tomb?
+    Vous avez entendu parler de la tombe ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  7891: The Tomb of King Ranperre lies under a slope far south of Eastgate.${prompt}
-  7892: The tomb is the final resting place of the Dragon King of San d'Oria. It was constructed within a cave to protect it from thieves.${prompt}
-  7893: Although the tomb is safe from pillagers, the caves shelter all manner of fiendish creatures.${prompt}
-  7894: Indeed? Well, then...${prompt}
-  7895: I am entrusted with the tomb's care. Not long ago I used to wash its stones and change the offering every day.${prompt}
-  7896: But now that fiends have overrun the place, my work would require risking my life. No job is worth that!${prompt}
-  7897: I decided not to return, but the Dragon King himself came to me in my dreams and spoke, “I am thirsty... Bring me water.”${prompt}
-  7898: I would like to help him, at least by bringing him fresh water...${prompt}
-  7899: I have a request. Would you go to the tomb and replace the offering there with fresh water?${prompt}
-  7900: That is...unfortunate.${prompt}
-  7901: 'Then you''ll help? Excellent! Please take this ${item-singular: 0[2]} to King Ranperre''s Tomb, and exchange it with ${article} ${item-article: 1[2]} you''ll find there.${prompt}'
-  7902: To get to King Ranperre's Tomb, head out the Eastgate into East Ronfaure, then make your way south as far as you can go. You should find it before long.${prompt}
-  7903: 'You''ve lost the ${item-singular: 0[2]}？${prompt}'
-  7904: 'More ${item-singular: 0[2]} is readily available, but the question is how to carry it...${prompt}'
-  7905: I have no other waterskin to give you. That last one I received from the late queen herself...${prompt}
-  7906: 'How about this: Take the waterskin from the gravestone in King Ranperre''s Tomb, fill it in Southern San d''Oria, then take it back to the tomb.${prompt}'
-  7907: Consider it penance for losing the waterskin I gave you. Agreed? I bid you a safe journey.${prompt}
-  7908: 'Fill waterskin with ${item-singular: 0[2]}, place it in the Dragon King''s tomb, then return to me.${prompt}'
-  7909: Take the waterskin from gravestone in King Ranperre's Tomb, fill it in Southern San d'Oria, then return it to the tomb.${prompt}
-  7910: You find a well.${prompt}
-  7911: 'You fill the ${item-singular: 1[2]} with ${item-singular: 0[2]}.${prompt}'
-  7912: You don't need any more water.${prompt}
-  7913: I don't recall asking for this.${prompt}
-  7914: I thank you, kind adventurer. His Majesty, the late king, thanks you, too.${prompt}
-  7915: It isn't much, but please accept this in return.${prompt}
-  7916: 'Eh? What''s happened to the ${item-singular: 0[2]}? Please, you must bring it back to me!${prompt}'
-  7917: 'Have you brought the ${item-singular: 0[2]}? If you have, please give it to me. ${prompt}'
-  7918: Well, you lost the waterskin, but to travel to the late king's tomb and back is no mean feat. I commend you.${prompt}
-  7919: I had thought to take the cost of the waterskin out of your compensation, but I cannot disregard the toil you've endured on my behalf. You deserve your full reward.${prompt}
-  7920: Looking for work? Well, perrrhaps you could gather more skins for me?${prompt}
-  7921: As an adventurer, you should appreciate the satisfaction you get from honing your skills day by day.${prompt}
-  7922: I've been getting too many sheepskins of late, so perrrhaps you could bring me something else this time.${prompt}
-  7923: 'I could make you a fine piece of leather, if you could provide three ${item-plural: 0[2]} from the Valkurm Dunes.${prompt}'
-  7924: 'Bring me three more ${item-plural: 0[2]}, and I''ll be happy to craft you another!${prompt}'
-  7925: 'How unforrrtunate. You should know that goods made from ${item-singular: 0[2]} fetch a fine price.${prompt}'
-  7926: Excellent! I know you'll be pleased with the results. Watch out for those lizard teeth!${prompt}
-  7927: 'Well, what about the ${item-plural: 0[2]}? I need thrrree of them to make anything.${prompt}'
-  7928: I'll still take sheepskins, too, so come back once you've got thrrree.${prompt}
-  7929: You've brought them? Joy! You always bring the best skins, you know. You should work for me full-time!${prompt}
-  7930: I was only joking. I'm sure you have plenty of things to do. Wait rrright here, and I'll get to work.${prompt}
-  7931: It's finished! Rrreally, a good skin makes all the difference, I think you'll agree.${prompt}
-  7932: Come back again!${prompt}
-  7933: 'I''m not taking any more ${item-plural: 0[2]}, but I''m still taking all the ${item-plural: 1[2]} and ${item-plural: 2[2]} I can get, so brrring me more! In sets of three, if you please.${prompt}'
-  7934: Ah, you've come quite a way since last we met, I see. I believe you're ready for another task!${prompt}
-  7935: I'd like you to go to Ordelle's Caves. You'll find the entrance in a valley on La Theine Plateau.${prompt}
-  7936: Those caves are also called the “Body Caves.” Know you why?${prompt}
-  7937: It is because the caves are shaped much like the body of a person. You are acquainted with its structure, yes?${prompt}
-  7938: Where in a body would lie the belly, in the caves flows a waterfall of much beauty. I want you to visit the waterfall, and return hither.${prompt}
-  7939: I want proof of your trip, however. Bring me something out from that place. You must choose something.${prompt}
-  7940: Come to think of it, the time I sent another to the waterfall, he, too, had quite a hard time! Heh-heh.${prompt}
-  7941: Proof that you went to the waterfall, eh? Hah! Old man Balasiel's got you running errands now, has he?${prompt}
-  7942: I'll tell you, but don't say a word to the old man! Stand with your back to the waterfall, and look up at the ceiling of the cave. You'll see a shining stalactite.${prompt}
-  7943: 'Bring ${keyitem-article: 0[2]} back and you''ll be a real spelunker, you will.${prompt}'
-  7944: Eh? How to get the drop? Ah...right. It's odd, but I can't seem to remember how I did it. That was a long time ago, you see.${prompt}
-  7945: Hmm... Maybe you could try reading up on it. I'm sure it's outlined somewhere.${prompt}
-  7946: Ah, you're back, and in one piece! And you've brought proof of your trip to the waterfall. Well done!${prompt}
-  7947: Here, a certificate to mark your accomplishment. Keep it always!${prompt}
-  7948: When you've progressed further, visit me again. Next time, a thorough test of your mettle will be in order!${prompt}
-  7949: You see a diary.${prompt}
+    Oui.
+    Non.${prompt}
+  7891: La Tombe du roi Ranperre se trouve au pied d'une colline loin au sud de la porte de l'Est.${prompt}
+  7892: Cette tombe est la dernière demeure du roi dragon de San d'Oria. Elle a été construite dans une grotte pour la protéger des voleurs.${prompt}
+  7893: Mais si la tombe est à l'abri des pillards, les grottes abritent toutes sortes de créatures diaboliques.${prompt}
+  7894: Vraiment ? Eh bien...${prompt}
+  7895: Je suis chargée de l'entretien de la tombe. Il y a peu de temps encore, j'allais la brosser et changer les offrandes chaque jour.${prompt}
+  7896: Mais maintenant que des créatures ont envahi l'endroit, je mettrais ma vie en danger en y retournant. Aucun travail ne peut justifier de prendre un tel risque !${prompt}
+  7897: 'J''ai décidé de ne point y retourner, mais le roi dragon lui-même m''est apparu en rêve et m''a parlé : “J''ai soif... Apporte-moi de l''eau”.${prompt}'
+  7898: J'aimerais l'aider, en lui apportant au moins un peu d'eau fraîche...${prompt}
+  7899: J'ai une requête. Accepteriez-vous d'aller à la tombe et d'y remplacer les offrandes par de l'eau fraîche ?${prompt}
+  7900: C'est fort dommage...${prompt}
+  7901: 'Vous allez m''aider ? Parfait. Portez ${item-singular: 0[2]} à la Tombe du roi Ranperre et mettez [le/la] ${article} ${item-article: 1[2]} à la place qui s''y trouve en ce moment.${prompt}'
+  7902: Pour atteindre la Tombe du roi Ranperre, pénétrez dans le Ronfaure oriental par la Porte de l'Est et descendez plein sud. Vous finirez par trouver la tombe.${prompt}
+  7903: 'Vous avez perdu ${item-singular: 0[2]}？${prompt}'
+  7904: 'Les ${item-singular: 0[2]} ça se trouve facilement. Le problème, c''est le transport...${prompt}'
+  7905: Je n'ai pas d'autre gourde à vous donner. Dire que c'est feu la reine qui m'avait donné celle que je vous avais remise...${prompt}
+  7906: 'J''ai une idée : prenez la gourde que vous trouverez sur la Tombe du roi Ranperre, allez la remplir à San d''Oria Sud et replacez-la ensuite sur la tombe.${prompt}'
+  7907: Puisque vous avez perdu la gourde, prenez ceci en pénitence. C'est d'accord ? Je vous souhaite bon voyage.${prompt}
+  7908: 'Remplissez la gourde avec de l''${item-singular: 0[2]}, puis allez la déposer sur la Tombe du roi Ranperre. Revenez ensuite me voir.${prompt}'
+  7909: Prenez la gourde sur la Tombe du roi Ranperre, allez la remplir en San d'Oria Sud et rapportez-la sur la tombe.${prompt}
+  7910: Vous avez trouvé un puits.${prompt}
+  7911: 'Vous remplissez ${item-singular: 1[2]} avec de l''${item-singular: 0[2]}.${prompt}'
+  7912: Vous avez assez d'eau.${prompt}
+  7913: Je ne me souviens pas vous avoir demandé cela.${prompt}
+  7914: 'Merci, ${choice-definite-entity: 0}[aimable aventurier/aimable aventurière]. Sa Majesté, feu le roi, vous remercie aussi.${prompt}'
+  7915: Ce n'est pas grand-chose mais acceptez ceci en remerciement.${prompt}
+  7916: 'Hé ! Où est ${item-singular: 0[2]}? ? S''il vous plaît, rapportez- ${choice-definite-entity: 0}[le/la] moi! ${prompt}'
+  7917: 'Avez-vous ${item-singular: 0[2]} avec vous ? Si c''est le cas donnez? ${choice-definite-entity: 0}[le/la] moi. ${prompt}'
+  7918: Certes, vous avez perdu la gourde, mais aller jusqu'à la Tombe du roi Ranperre et en revenir n'est pas un mince exploit. Je vous félicite.${prompt}
+  7919: J'ai pensé déduire le prix de la gourde de votre récompense, mais je ne peux ignorer ce que vous avez subi à cause de moi. Vous méritez cette récompense dans sa totalité.${prompt}
+  7920: Vous cherrrchez du travail ? Peut-être pourriez-vous me rapporrrter d'autres peaux ?${prompt}
+  7921: Les aventuriers comme vous apprécient de pouvoir améliorer leurs compétences jour après jour.${prompt}
+  7922: J'ai reçu trop de peaux de mouton ces temps-ci. Peut-être pourrriez-vous me rapporrrter autre chose cette fois ?${prompt}
+  7923: 'Si vous me ramenez trrrois ${item-plural: 0[2]} des Dunes de Valkurm, je pourrrai vous fairrre un bel habit de cuir.${prompt}'
+  7924: 'Apporrrtez-moi encore trois autres ${item-plural: 0[2]}, et je serai heurrreuse de vous en fabriquer un autre.${prompt}'
+  7925: 'Quel dommage. Vous ne savez donc pas que les marrrchandises faites en ${item-singular: 0[2]} fse vendent bien ?${prompt}'
+  7926: Excellent ! Je savais que le rrrésultat vous plairait. Enfin prenez garde aux dents de lézarrrds !${prompt}
+  7927: 'Où sont les ${item-plural: 0[2]}? Il m''en faut trrrois pour pouvoir fabriquer quelque chose.${prompt}'
+  7928: Les peaux de moutons m'intérrrressent aussi. Revenez me voir quand vous en aurez trrrrois.${prompt}
+  7929: Vous les avez ? Rrrrr, quel bonheur ! Vous m'apportez toujours les plus belles peaux, vous savez ! Vous devrrrriez travailler pour moi à plein temps !${prompt}
+  7930: Je plaisante. Je sais que vous avez bien d'autres choses à fairrre. Attendez ici, je me mets au travail.${prompt}
+  7931: J'ai fini ! De belles peaux font toute la différrrence, qu'en dites-vous ?${prompt}
+  7932: N'hésitez pas à revenirrr !${prompt}
+  7933: 'Les ${item-plural: 0[2]}, je n''en ai plus besoin, mais les ${item-plural: 1[2]} et les ${item-plural: 2[2]} que vous pourrrez trouver m''intéressent. Apporrrtez-m''en d''autres ! Trrrois à la fois, je vous prie! ${prompt}'
+  7934: 'Oh, je vois que vous avez bien progressé depuis notre dernière rencontre. Vous me semblez ${choice-definite-entity: 0}[prêt/prête] pour une autre besogne !${prompt}'
+  7935: Je veux que vous vous rendiez aux Cavernes d'Ordelle. Vous trouverez l'entrée sur le Plateau de la Theine.${prompt}
+  7936: On appelle également ces cavernes les “Cavernes du corps”. Vous savez pourquoi ?${prompt}
+  7937: C'est parce qu'elles ont la forme générale d'un corps. Vous vous représentez leur conformation ?${prompt}
+  7938: A l'endroit que l'on pourrait considérer comme l'équivalent du ventre, une chute d'eau de toute beauté jaillit des parois de la caverne. Je veux que vous vous y rendiez et que vous reveniez ensuite.${prompt}
+  7939: Pour preuve de votre visite, je veux que vous me rapportiez quelque chose de cet endroit. A vous de choisir.${prompt}
+  7940: Maintenant que j'y pense, la dernière fois que j'ai envoyé un aventurier là-bas, ça n'a pas été facile ! Hé, hé.${prompt}
+  7941: 'La preuve que vous êtes bien ${choice-definite-entity: 0}[allé/allée] à la chute d''eau ? Ha, ha, Ce bon vieux Balasiel vous fait faire ses courses, hein ?${prompt}'
+  7942: Je vais vous dire un secret, mais ne lui répétez pas. Lorsque vous serez dans la grotte, tenez-vous dos à la chute d'eau et regardez en direction du plafond. Vous y verrez une stalactite briller.${prompt}
+  7943: 'Rapportez ${keyitem-article: 0[2]} et vous aurez gagné vos galons de spéléologue, c''est sûr.${prompt}'
+  7944: Hein ? Comment récupérer la goutte ? Ah... eh bien, ça va vous paraître bizarre mais je n'arrive pas à me souvenir comment je m'y suis pris. C'était il y a si longtemps, vous savez.${prompt}
+  7945: Heu... Vous devriez essayer de lire quelque chose sur le sujet, je suis sûr que c'est écrit quelque part.${prompt}
+  7946: Vous voilà de retour, et en un seul morceau, qui plus est ! Vous avez la preuve de votre visite à la chute d'eau ? Parfait !${prompt}
+  7947: Tenez, voici un certificat qui authentifie votre exploit. Ne le perdez pas !${prompt}
+  7948: Quand vous aurez encore progressé, revenez me voir. La prochaine fois, nous serons plus à même de juger de votre valeur !${prompt}
+  7949: Vous voyez un journal intime.${prompt}
   7950: |-
-    Read diary?
+    Lire le journal intime ?
     ${selection-lines}
-    Read it.
-    Leave it be.${prompt}
+    Le lire.
+    Ne pas le lire.${prompt}
   7951: |-
-    Read which page?
+    Quelle page parcourir ?
     ${selection-lines}
-    On second thought, I'll pass.
+    Tout bien réfléchi, je ne préfère pas.
     Page 1.
     Page 2.
     Page 3.${prompt}
-  7952: Went to the grotto at Yughott yesterday. Aided an adventurer there who claimed to be on the Kingdom's duty.${prompt}
-  7953: Why could it be that the fiends are increasing so evidently in number?${prompt}
-  7954: I have visited many places, attempting to uncover the beastmen's plans, but never have I encountered such a creature.${prompt}
-  7955: I saw him there at the entrance to the cave. Thankfully, he did not note my presence.${prompt}
-  7956: He was the same as he has always been--both the good parts, and the bad.${prompt}
-  7957: 'That reminds me, I saw the waterfall again. I remember when I was a squire in training, going to fetch ${keyitem-article: 0[2]}, so long ago.${prompt}'
-  7958: A traveler told me the other day that a certain kind of moss can help alleviate severe coughs.${prompt}
-  7959: Perhaps I shall gather some on my next patrol, to give to that child and his mother. I do not know how much I will be able to carry, however.${prompt}
-  7960: If only there was someone who could deliver it in my stead...${prompt}
-  7961: Hello, young ${choice-player-gender}[man/woman]! How may I help ye today?${prompt}
+  7952: Hier, je suis allé à la grotte de Yughott. J'ai aidé un aventurier qui disait être en mission pour le royaume.${prompt}
+  7953: Comment se fait-il qu'il y ait de plus en plus de monstres ?${prompt}
+  7954: J'ai visité maints endroits dans le but de découvrir ce que préparent les hommes-bêtes. Et j'ai rencontré une créature telle que je n'en avais jamais vue.${prompt}
+  7955: Je l'ai vu à l'entrée de la grotte. Heureusement, il n'a pas remarqué ma présence.${prompt}
+  7956: Il n'avait pas changé. Ni en bien, ni en mal.${prompt}
+  7957: 'Cela me fait penser que j''ai revu la chute d''eau. Cela m''a rappelé l''époque où, jeune écuyer, j''y étais allé chercher ${keyitem-article: 0[2]}, il y a bien longtemps.${prompt}'
+  7958: Un voyageur m'a expliqué l'autre jour qu'un certain type de mousse peut soulager les toux sévères.${prompt}
+  7959: J'en ramasserai peut-être lors de la prochaine patrouille pour cet enfant et sa mère. Je ne sais pas quelle quantité je pourrai transporter cependant.${prompt}
+  7960: Si seulement quelqu'un pouvait la livrer à ma place...${prompt}
+  7961: 'Bonjour, ${choice-definite-entity: 0}[jeune homme/jeune fille] ! En quoi puis-je vous être utile aujourd''hui ?${prompt}'
   7962: |-
-    How may I help?
+    En quoi puis-je aider ?
     ${selection-lines}
-    Tell me about moss.
-    Tell me about cold balms.${prompt}
-  7963: Eh? Moss to cure coughs?${prompt}
-  7964: 'Why, that sounds like ${keyitem-singular: 0[2]}. A brew of that bitter moss clears up the whoopingest of coughs. I''ve used it meself!${prompt}'
-  7965: 'If ye need somethin'' for coughs, bring me that ${keyitem-singular: 0[2]}, and I''ll make ye a brew for free.${prompt}'
-  7966: 'Where does ${keyitem-singular: 0[2]} grow, ye ask? Well, my mother used to tell me it grew near an abbey, but I don''t recall where that was.${prompt}'
-  7967: What to do? I was trying to go up that plank over the barricade and I slipped and fell! That thing's a public hazard--all wet and mossy like that.${prompt}
-  7968: It's dark and damp under there.${prompt}
-  7969: There's lots of moss growing here.${prompt}
-  7970: This place, it's like a maze! Then again, I got lost in my own backyard once...${prompt}
-  7971: 'Oooh! This is it! This is the moss! I''ll make a fine ${keyitem-singular: 0[2]} with this. Wait a moment, dearie.${prompt}'
-  7972: 'Here ye are, a fine ${keyitem-singular: 0[2]}! I hope it''ll be of some use.${prompt}'
-  7973: 'There ye go, the ${keyitem-singular: 0[2]}''s yours. May it do some good.${prompt}'
-  7974: The brew I gave ye, did it work? Come and see me again if ye ever need any help, dearie.${prompt}
-  7975: 'This...<cough>...This is ${keyitem-article: 0[2]}! But, I cannot accept something so precious without pay...paying!${prompt}'
-  7976: But I have little money. Here, this belonged to my late husband. Perhaps it will be of some use to you.${prompt}
-  7977: Thank you for your help. My condition has much improved, thanks to you!${prompt}
-  7978: An adventurer, eh? The shopkeeper here is looking for someone like you.  She's right up those stairs.${prompt}
-  7979: Dear, dear me. If only an adventurer would help me...${prompt}
-  7980: 'I received an order for votive talismans from the cathedral. But I have no ${item-plural: 0[2]} to make them!${prompt}'
-  7981: Would you be so kind as to go to Jugner Forest and collect three fangs from forest tigers there?${prompt}
-  7982: Every three fangs you bring me, I can fill an order. It would mean a lot to me!${prompt}
-  7983: So you'll go, then? My thanks to you. Remember, Jugner Forest is teeming with forest tigers. They can be a little rough, so tread carefully!${prompt}
-  7984: Oh, so you won't go? Well, it could be dangerous, after all. But come back when you're ready to tromp on some tigers!${prompt}
-  7985: 'What? You forgot my request, did you? Three ${item-plural: 0[2]} from Jugner Forest! Forest tigers'' fangs grow long, and there are plenty of tigers there.${prompt}'
-  7986: 'Ah! Thank you, thank you. That''s three ${item-plural: 0[2]}... I''ll buy the lot.${prompt}'
-  7987: Bring me three more, and I'll be happy to take them. You just drop by and we'll do business, eh?${prompt}
-  7988: 'What''s this, then? I need three ${item-plural: 0[2]} before I''ll buy them off you. Store policy, you see.${prompt}'
-  7989: I am Taumila, the owner of this establishment. Talk to the lady behind the counter if you wish to make a purchase.${prompt}
-  7990: Hello! Let Taumila's handle all your sundry needs!${prompt}
-  7991: Welcome, customer. Please have a look.${prompt}
+    Parlez-moi de la mousse.
+    Parlez-moi des remèdes contre le rhume.${prompt}
+  7963: Euh ? La mousse pour guérir la toux ?${prompt}
+  7964: 'Ça doit être ${keyitem-singular: 0[2]}. En infusion, cette mousse amère guérit la toux la plus rebelle. Je l''ai moi-même essayée !${prompt}'
+  7965: 'ISi vous avez besoin de quelque chose contre la toux, apportez-moi un peu de ${keyitem-singular: 0[2]}, et je vous en ferai une tisane gratuitement.${prompt}'
+  7966: 'Vous voulez savoir où pousse ${keyitem-singular: 0[2]} ? D''après ma mère, elle pousserait près d''une abbaye, mais je ne me souviens plus où.${prompt}'
+  7967: Que faire ? J'essayais de grimper sur cette barricade, j'ai glissé et je suis tombé. C'est un vrai danger public, elle toute humide et couverte de mousse.${prompt}
+  7968: C'est humide et sombre là-dessous.${prompt}
+  7969: Il y a plein de mousse qui pousse là.${prompt}
+  7970: Cet endroit est un vrai labyrinthe ! Remarquez, j'ai réussi à me perdre dans mon propre jardin, une fois...${prompt}
+  7971: 'Oooh ! C''est ça ! C''est la mousse ! Je vais en faire ${keyitem-singular: 0[2]}. Attendez un instant, ${choice-definite-entity: 0}[mon petit/ma petite]${prompt}'
+  7972: 'Et voilà, ${keyitem-singular: 0[2]}! J''espère que ça vous sera utile.${prompt}'
+  7973: 'Et voilà, ${keyitem-singular: 0[2]}! J''espère que ça vous fera du bien.${prompt}'
+  7974: 'La tisane que je vous ai donnée, elle a marché ? Revenez me voir si vous avez encore besoin d''aide, ${choice-definite-entity: 0}[mon petit/ma petite].${prompt}'
+  7975: 'C''est...<tousse>.. C''est ${keyitem-article: 0[2]}! Mais je ne peux pas accepter quelque chose d''aussi coûteux sans le pay... payer !${prompt}'
+  7976: J'ai peu de moyens. Tenez, ceci appartenait à mon défunt mari. J'espère que ça vous sera utile.${prompt}
+  7977: Merci de votre aide. Je vais beaucoup mieux. Merci à vous !${prompt}
+  7978: '${choice-definite-entity: 0}[Un aventurier/Une aventurière], hein ? La patronne a besoin de quelqu''un comme vous. Elle est en haut.${prompt}'
+  7979: Pauvre de moi. Si seulement un aventurier pouvait m'aider...${prompt}
+  7980: 'J''ai reçu une commande de talismans votifs pour la cathédrale. Mais je n''ai aucun ${item-plural: 0[2]} pour les fabriquer !${prompt}'
+  7981: Iriez-vous jusqu'à la Forêt de Jugner pour me rapporter trois crocs de tigre de forêt ?${prompt}
+  7982: Chaque triade de crocs me permettra d'honorer une commande. C'est très important pour moi.${prompt}
+  7983: 'Vous allez y aller ? Merci à vous. Faites attention, la Forêt de Jugner grouille de tigres. Ils sont très agressifs, soyez ${choice-definite-entity: 0}[prudent/prudente] !${prompt}'
+  7984: 'Oh, vous ne voulez pas y aller ? C''est vrai que cela peut être dangereux. Revenez me voir quand vous serez ${choice-definite-entity: 0}[prêt/prête] à affronter les tigres !${prompt}'
+  7985: 'Alors ? Vous avez oublié ma commande ? Trois ${item-plural: 0[2]} de la Forêt de Jugner ! Les nombreux tigres de cette forêt ont des crocs très très longs !${prompt}'
+  7986: 'Ah ! Merci, merci. Trois ${item-plural: 0[2]}... Je vous les achète.${prompt}'
+  7987: Je serai heureuse de vous en acheter trois autres. N'hésitez pas à repasser pour que nous fassions à nouveau affaire, d'accord ?${prompt}
+  7988: 'Qu''est-ce que c''est ? Il me faut un ensemble de trois ${item-plural: 0[2]} si vous voulez que je vous les achète. C''est la politique de la maison, vous comprenez ?${prompt}'
+  7989: Je suis Taumila, propriétaire de cet établissement. Pour faire des achats, adressez-vous à la personne derrière le comptoir.${prompt}
+  7990: Bonjour ! Chez Taumila, nous avons tous les articles qu'il vous faut !${prompt}
+  7991: 'Bienvenue ${choice-definite-entity: 0}[cher client/chère cliente]. Je vous laisse faire votre choix.${prompt}'
   7992: （ここでショップメニュー）${prompt}
   7993: Bienvenue ! Mon personnel se fera un plaisir de vous aider !${prompt}
   7994: Ah, j'y pense. Il y avait un message de Brugaire. Il veut savoir si les armes qu'il a commandées sont prêtes.${prompt}
