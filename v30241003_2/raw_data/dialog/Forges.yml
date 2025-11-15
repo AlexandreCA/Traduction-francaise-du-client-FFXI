@@ -1,38 +1,38 @@
 entries:
   0: The client sent an invalid value to the server!${prompt}
   1: You cannot receive mission assignments at this time.${prompt}
-  2: I am in charge of assigning missions, but I am only allowed to do so to those whose allegiance is to Bastok.${prompt}
+  2: Mon travail est de confier des missions, mais je ne peux le faire qu'avec ceux et celles qui ont fait allégeance à Bastok.${prompt}
   3: |-
-    You cannot undertake two missions at the same time.
-    Finish the one you are on now before asking for a new one.${prompt}
-  4: Missions currently available are as follows:${prompt}
+    Vous ne pouvez pas vous charger de deux missions en même temps.
+    Terminez celle qui est en cours avant de m'en demander une nouvelle.${prompt}
+  4: Voici les missions actuellement disponibles :${prompt}
   5: |-
-    Which mission will you undertake?
+    Quelle mission souhaitez-vous accomplir ?
     ${selection-lines}
-    The Zeruhn Report.
-    A Geological Survey.
-    Fetichism.
-    The Crystal Line.
-    Wading Beasts.
-    The Emissary.
+    Le rapport de Zeruhn.
+    Une étude géologique.
+    Fétichisme.
+    Les lignes du cristal.
+    Des bêtes qui barbotent.
+    L'émissaire.
     2-3-1A.
     2-3-1B.
     2-3-2A.
     2-3-2B.
-    The Four Musketeers.
-    To the Forsaken Mines.
+    Les quatre mousquetaires.
+    Vers les mines abandonnées.
     Jeuno.
     ダミー.
-    Darkness Rising.
-    Xarcabard, Land of Truths.
-    Return of the Talekeeper.
-    The Pirates' Cove.
-    The Final Image.
-    On My Way.
-    The Chains That Bind Us.
-    Enter the Talekeeper.
-    The Salt of the Earth.
-    Where Two Paths Converge.
+    Les Ténèbres tombent.
+    Xarcabard, terre de vérités.
+    Le retour du Gardien de légende.
+    La crique des pirates.
+    L'image finale.
+    En route. 
+    Les chaînes qui nous lient.
+    Le Gardien de légende fait son entrée.
+    Le sel de la terre.
+    A la croisée des chemins.
     ダミー１０.
     ダミー１１.
     ダミー１２.
@@ -40,48 +40,48 @@ entries:
     ダミー１４.
     ダミー１５.
     ダミー１６.
-    None.${prompt}
-  6: I am in charge of assigning missions to Bastokers who wish to serve their country. Are you one of them?${prompt}
+    Aucune.${prompt}
+  6: Mon travail est de confier des missions aux Bastokiens qui souhaitent servir leur pays. En faites-vous partie ?${prompt}
   7: |-
-    Have you come to undertake a mission?
+    Venez-vous pour accepter une mission ?
     ${selection-lines}
-    Yes, I have.
-    No, maybe later.${prompt}
+    Oui, en effet.
+    Non, une autre fois peut-être.${prompt}
   8: |-
-    Will you accept this mission?
+    Acceptez-vous cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  9: You have accepted the mission.${prompt}
-  10: Then move along.${prompt}
+    Oui.
+    Non.${prompt}
+  9: Vous avez accepté la mission.${prompt}
+  10: Vous pouvez disposer.${prompt}
   11: |-
-    Good.
-    This is your first time going on a mission, is it not?${prompt}
+    Bien.
+    C'est la première fois que vous partez en mission, n'est-ce pas ?${prompt}
   12: |-
-    Your first assignment is not a difficult one.
-    The details are as follows:${prompt}
+    Votre première tâche n'est pas difficile.
+    Voici les détails :${prompt}
   13: |-
-    You must go to the Zeruhn Mines in the western section of the Mines District.
-    Once there, you are to collect a report from the overseer.${prompt}
+    Vous devez vous rendre aux Mines de Zeruhn, dans la section ouest du secteur des Mines.
+    Une fois là-bas, récupérez un rapport auprès de la contremaîtresse.${prompt}
   14: |-
-    You can consult the “Mission” section of the main menu to review your objectives.
-    Speed and efficiency are your priorities. Dismissed.${prompt}
+    Vous pouvez consulter la partie “Mission” du menu principal pour voir vos objectifs.
+    Vitesse et efficacité sont vos priorités. Rompez.${prompt}
   15: |-
-    The Chief Engineer is conducting new research, and has asked for someone to assist him.
-    He can be found in the Metalworks, to the east of the administrative section.${prompt}
+    Le chef ingénieur conduit de nouvelles recherches et il a demandé l'aide d'un assistant.
+    Vous pourrez le trouver aux Forges, à l'est de la section administrative.${prompt}
   16: |-
-    The Chief Engineer's laboratory is on the second floor of the Metalworks.
-    You don't know his name!? And you call yourself a Bastoker!${prompt}
+    Le laboratoire de l'ingénieur en chef est au deuxième étage des Forges.
+    Vous ne savez pas comment il s'appelle !? Et vous vous dites ${choice-definite-entity: 0}[bastokien/bastokienne] ?!${prompt}
   17: |-
-    The Chief Engineer's name is Cid. Any Bastoker would know that!
-    Now go and see him. He will give you the details of your mission.${prompt}
-  18: The Palborough Mines, once our main source of mythril, have been under beastman control for some time.${prompt}
-  19: 'We want you to hunt these beastmen, the Quadav, and bring back ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, and ${article} ${item-article: 7[2]} as proof of your accomplishments.${prompt}'
-  20: You must present all four items to me or one of my colleagues in order to complete this mission.${prompt}
-  21: Good, you've brought all four parts of the doll.${prompt}
+    L'ingénieur en chef s'appelle Cid. Tout Bastokien sait ça !
+    Allez le voir. Il vous donnera les détails de votre mission.${prompt}
+  18: Les Mines de Palborough, qui furent jadis notre source principale de mithril, sont passées depuis quelque temps sous le contrôle des hommes-bêtes.${prompt}
+  19: 'Nous voulons que vous chassiez ces hommes-bêtes, les Quadavs et que vous rapportiez ${article} ${item-article: 4[2]}, ${article} ${item-article: 5[2]}, ${article} ${item-article: 6[2]}, et ${article} ${item-article: 7[2]} comme preuves du travail accompli.${prompt}'
+  20: Vous devrez montrer les quatre objets à un de mes collègues ou à moi-même pour terminer cette mission.${prompt}
+  21: Vous rapportez les quatre parties de la poupée, fort bien.${prompt}
   22: |-
-    I am raising your rank to 2 for completing this mission.
-    Congratulations.${prompt}
+    Je fais passer votre rang à 2 pour avoir réussi cette mission.
+    Félicitations !${prompt}
   23: If you've been to the Palborough Mines, you must know now the serious nature of the threat these beastmen pose to our civilization.${prompt}
   24: As a Bastoker, you are expected to take on more missions and go on conquests to preserve Bastok's brilliant future!${prompt}
   25: But I cannot give you a new mission at this time.${prompt}
@@ -18856,14 +18856,14 @@ entries:
     Snap out of it, man! You have work to do!${prompt}
   7739: <Sigh> Windurst...${prompt}
   7740: |-
-    Well, you can't say I didn't try.
-    Ah--but you will report that all of us are working exceptionally hard here, yes?${prompt}
+    Hum, au moins j'aurais essayé...
+    Mais, euh, vous direz que nous travaillons tous très très dur ici, pas vrai ?${prompt}
   7741: |-
-    You're off to San d'Oria now, aren't you?
-    Have a safe and pleasant trip!${prompt}
+    Vous partez à San d'Oria-oria maintenant, c'est ça ?
+    Faites un agréable voyage !${prompt}
   7742: |-
-    Since you've visited both San d'Oria and Bastok, you may now make your triumphant return to Windurst!
-    Oh, and tell everyone we said hi!${prompt}
+    Comme vous avez visité San d'Oria et Bastok, vous pouvez maintenant faire un retour triomphant à Windurst !
+    Et dites à tout le monde qu'on leur passe le bonjour !${prompt}
   7743: |-
     Oui, qu'est-ce que c'est ?
     Ah, vous êtes l'${choice-definite-entity: 0}[envoyé/envoyée] de ${choice: 0}[San d'Oria/Windurst].${prompt}
@@ -18970,41 +18970,41 @@ entries:
   7794: |-
     Vous devez être conscients qu'il s'agit d'une attaque unique et limitée dans le temps.
     Vos principaux objectifs sont de coordonner vos tactiques avec des aventuriers expérimentés et de vous familiariser avec la topographie locale.${prompt}
-  7795: As you see, some of our good adventuring friends have agreed to join the Musketeers on this operation.${prompt}
-  7796: Number Four, Ayame, planned this operation, so she will be in charge.${prompt}
+  7795: Comme vous le voyez, certains de nos bons amis aventuriers ont accepté de rejoindre les mousquetaires sur cette opération.${prompt}
+  7796: C'est Numéro Quatre, Ayame, qui a tout préparé, c'est donc elle qui prendra la tête des opérations.${prompt}
   7797: |-
-    Number Five, Naji, will be assisting her.
-    All of you are to follow their orders during the operation.
-    Ayame, if you please?${prompt}
+    Numéro Cinq, Naji, vous l'assisterez.
+    Vous devrez tous suivre leurs ordres pendant l'opération.
+    Ayame, si vous voulez bien.${prompt}
   7798: |-
-    First, we are to rendezvous in Beadeaux, near the entrance to the Quadav stronghold.
-    Your targets are the Copper Quadav in charge of perimeter defense.${prompt}
+    Premièrement, nous devons nous retrouver à Beadeaux, près de l'entrée de la forteresse quadav.
+    Vos cibles sont les Copper Quadavs qui sont chargés de défendre le périmètre.${prompt}
   7799: |-
-    Each of you are to defeat twenty Copper Quadav.
-    Once you have accomplished this objective, you are to disperse and retreat, then regroup at the entrance once again.${prompt}
+    Chacun de vous devra éliminer vingt Copper Quadavs.
+    Une fois cet objectif accompli, dispersez-vous et repliez-vous, puis regroupez-vous à nouveau à l'entrée.${prompt}
   7800: |-
-    Don't forget, the rendezvous point is right inside Beadeaux!
-    Nobody get lost, now!${prompt}
-  7801: You should talk. You'd even get lost in your own Mog House.${prompt}
+    N'oubliez pas que le point de rendez-vous se trouve en plein Beadeaux !
+    Alors personne ne se perd, d'accord !${prompt}
+  7801: Tu peux parler, toi. Tu pourrais te perdre dans ta propre Maison Mog.${prompt}
   7802: |-
-    Once you are prepared, waste no time going to the rendezvous point.
-    Dismissed.${prompt}
-  7803: The way to the rendezvous point is through the Pashhow Marshlands. It is right inside Beadeaux.${prompt}
+    Une fois que vous serez ${choice-definite-entity: 0}[prêt/prête], allez au point de rendez-vous sans perdre de temps.
+    Rompez.${prompt}
+  7803: Pour atteindre le point de rendez-vous, qui est en plein cœur de Beadeaux, il faut passer par les Marécages de Pashhow.${prompt}
   7804: |-
-    Walk across the Pashhow Marshlands to get to the rendezvous point.
-    It's right inside Beadeaux. Make sure to bring everything you'll need!${prompt}
+    Traversez les Marécages de Pashhow pour arriver au point de rendez-vous.
+    Il est en plein cœur de Beadeaux. N'oubliez pas d'apporter tout le matériel qu'il vous faut !${prompt}
   7805: |-
-    The rendezvous point is across the Pashhow Marshlands, and right inside Beadeaux.
-    Be prepared for anything.${prompt}
-  7806: Ah, you are here. Good.${prompt}
-  7807: You must have heard this already, but we need someone reliable to take on missions centered around our embassy in Jeuno.${prompt}
-  7808: I've talked to both the president and Captain Volker, and it is our unanimous opinion that you are the only person adequate for the task.${prompt}
-  7809: We will give you a letter of introduction, which you will present at our embassy in Jeuno to receive further instructions.${prompt}
-  7810: Hans, the letter.${prompt}
-  7811: Yes, sir. Here you go.${prompt}
+    L'accès au point de rendez-vous se fait par les Marécages de Pashhow, puis en plein Beadeaux.
+    Soyez ${choice-definite-entity: 0}[prêt/prête] à tout.${prompt}
+  7806: Ah, vous voici. Bien.${prompt}
+  7807: Vous en avez sans doute déjà entendu parler, mais il nous faut quelqu'un de fiable pour se charger de missions qui tournent autour de notre ambassade à Jeuno.${prompt}
+  7808: 'J''ai parlé au président ainsi qu''au capitaine Volker et nous sommes tous les trois d''accord : vous êtes la seule personne à qui l''on puisse confier cette tâche.${prompt}'
+  7809: Nous allons vous donner une lettre de recommandation, que vous présenterez à notre ambassade de Jeuno pour recevoir vos ordres.${prompt}
+  7810: Hans, la lettre.${prompt}
+  7811: Oui, monsieur. Tenez.${prompt}
   7812: |-
-    Good luck.
-    I am counting on you.${prompt}
+    Bonne chance.
+    Je compte sur vous.${prompt}
   7813: |-
     You're back from Jeuno.
     No time to chat. Come with me.${prompt}
