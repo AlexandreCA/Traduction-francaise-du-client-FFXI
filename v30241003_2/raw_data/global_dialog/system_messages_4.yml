@@ -71,11 +71,11 @@ entries:
   54: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} point${choice-plurality-number: 1}[/s] de Besieged.${prompt}'
   55: Impossible d'utiliser l'objet.${prompt}
   56: Impossible d'utiliser l'objet.${prompt}
-  57: Changement de profession.${prompt}
-  58: Numéro de profession invalide.${prompt}
-  59: Vous n'avez pas encore accès à la profession spécifiée.${prompt}
-  60: Vous n'avez pas encore accès aux professions de soutien.${prompt}
-  61: Vous ne pouvez pas avoir la même profession en tant que profession principale et de soutien.${prompt}
+  57: Changement de job.${prompt}
+  58: Numéro de job invalide.${prompt}
+  59: Vous n'avez pas encore accès à la job spécifiée.${prompt}
+  60: Vous n'avez pas encore accès aux jobs de soutien.${prompt}
+  61: Vous ne pouvez pas avoir la même job en tant que job principale et de soutien.${prompt}
   62: 'Le ${item-singular-alt: 0[2]} échoue à s''activer.${prompt}'
   63: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[manque/manquent] ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
   64: '${unknown-84: 0}${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[n''est/n''sont plus] ${status-effect-adjective: 1[2]}.${prompt}'
@@ -92,16 +92,24 @@ entries:
   73: 'Débogage : Le statut de ${entity-target} est maintenant ${status-effect-adjective: 0[2]}.${prompt}'
   74: 'Débogage : ${entity-target} ${choice-plurality-entity: 1}[se rétablit/se rétablissent] de ${status-effect-noun: 0[2]}.${prompt}'
   75: '${choice-definite-entity: 0}[Le/La] ${entity-source}${choice-plurality-entity: 0}[s/''] ${spell-alt: 0} n''a aucun effet sur ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
-  76: Aucun cible valide dans la zone d'effet.${prompt}'
-  77: '${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] Sange. ${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] de dégât${choice-plurality-number: 1}.${prompt}'
+  76: Aucun cible valide dans la zone d'effet.${prompt}
+  77: |-      
+    ${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[utilise/utilisent] Sange. 
+    ${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[subit/subissent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] de dégât${choice-plurality-number: 1}.${prompt}
   78: '${choice-definite-entity: 1}[La/Le] ${entity-target} ${choice-plurality-entity: 1}[est/sont] trop loin.${prompt}'
   79: 'Débogage : ${entity-target} ${choice-plurality-entity: 1}[utilise/utilisent] Double Attaque (${number-alt: 0}％).${prompt}'
   80: 'Débogage : ${entity-target} ${choice-plurality-entity: 1}[utilise/utilisent] Triple Attaque (${number-alt: 0}％).${prompt}'
-  81: 'Débogage : Battle Debug No. (${number-alt: 0}) utilisé sur ${entity-target}.${prompt}'
-  82: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. ${unknown-84: 0}${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[est/sont] ${status-effect-adjective: 1[2]} !${prompt}'
-  83: '${unknown-84: 0}${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. ${choice-definite-entity: 0}[Le/La] ${entity-source} réussit ${choice-plurality-entity: 0}[à enlever/à enlever] ${choice-definite-entity: 1}[le/la] ${entity-target}${choice-plurality-entity: 1}[s/] ${status-effect-noun: 1[2]}.${prompt}'
+  81: 'Débogage : Battle Debug No. (${number-alt: 0}) utilisé sur ${entity-target}.${prompt}'                                                                                                                
+  82: |- 
+    ${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. 
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[est/sont] ${status-effect-adjective: 1[2]}!${prompt}
+  83: |-     
+    ${unknown-84: 0}${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. 
+    ${choice-definite-entity: 0}[Le/La] ${entity-source} réussit ${choice-plurality-entity: 0}[à enlever/à enlever] ${choice-definite-entity: 1}[le/la] ${entity-target}${choice-plurality-entity: 1}[s/] ${status-effect-noun: 1[2]}.${prompt}
   84: '${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[est/sont] paralysé${choice-plurality-entity: 0}[/e/s].${prompt}'
-  85: '${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. ${unknown-84: 0}${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[résiste/résistent] au sort.${prompt}'
+  85: |-      
+    ${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}.
+    ${unknown-84: 0}${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[résiste/résistent] au sort.${prompt}
   86: '${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}, mais ${choice-definite-entity: 1}[le/la] ${entity-target} ${choice-plurality-entity: 1}[est/sont] hors de la zone d''effet.${prompt}'
   87: Impossible d'utiliser la capacité de job.${prompt}
   88: Impossible d'utiliser la capacité de job.${prompt}
@@ -109,7 +117,9 @@ entries:
   90: Impossible d'utiliser la compétence d'arme.${prompt}
   91: '${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[n''a/n''ont] pas de ${item-plural-alt: 0[2]}.${prompt}'
   92: 'Impossible d''utiliser ${item-singular-alt: 0[2]} sur ${choice-definite-entity: 1}[le/la] ${entity-target}.${prompt}'
-  93: '${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. ${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[disparaît/disparaissent].${prompt}'
+  93: |-      
+    ${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[lance/lancent] ${spell-alt: 0}. 
+    ${choice-definite-entity: 1}[Le/La] ${entity-target} ${choice-plurality-entity: 1}[disparaît/disparaissent].${prompt}                                                                                                                
   94: '${color-alt: 123}Vous devez attendre plus longtemps pour effectuer cette action.${prompt}'
   95: 'Vous ne pouvez pas apprendre ${spell-alt: 0}. Vous ne remplissez pas les conditions de job ou de niveau.${prompt}'
   96: 'Vous connaissez déjà ${spell-alt: 0}.${prompt}'
@@ -253,7 +263,7 @@ entries:
   166: 'Effet supplémentaire : ${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] l’effet de ${status-effect-noun: 2[2]}.${prompt}'
   167: 'Effet supplémentaire : ${choice-definite-entity: 0}[La/Le] ${entity-source} ${choice-plurality-entity: 0}[récupère/récupèrent] ${number-alt: 2} PV.${prompt}'
   168: 'Effet supplémentaire : l’effet ${status-effect-noun: 2[2]} de ${choice-definite-entity: 1}[la/le] ${entity-target} disparaît !${prompt}'
-  169: 'Effet supplémentaire : Téléportation !${prompt}'
+  169: 'Effet supplémentaire : Téléportation!${prompt}'
   170: |-
     ${choice-definite-entity: 1}[La/Le] ${entity-target} ${choice-plurality-entity: 1}[semble/semblent] ${sys-msg-3: 1}.
     ${choice-plurality-entity: 1}[Il/Elle] ${choice-plurality-entity: 1}[semble/semblent] avoir une haute évasion et défense.${prompt}
@@ -518,7 +528,7 @@ entries:
     Impossible de lancer ${spell-alt: 0}.${prompt}
   314: |-
     ${color-alt: 123}Le niveau de ${choice-definite-entity: 1}[le/la] ${entity-target} est actuellement restreint à ${number-alt: 0}.
-    L''équipement affecté par la restriction de niveau sera ajusté en conséquence.${prompt}
+    L'équipement affecté par la restriction de niveau sera ajusté en conséquence.${prompt}
   315: '${choice-definite-entity: 0}[Le/La] ${entity-source} ${choice-plurality-entity: 0}[a/ont] déjà un familier.${prompt}'
   316: '${color-alt: 123}Cette action ne peut pas être utilisée dans cette zone.${prompt}'
   317: |-
@@ -1417,10 +1427,12 @@ entries:
     ${choice-definite-entity: 1}[Le /La /]${entity-target} se sacrifie pour protéger le porteur de l'Arme Primordiale.${prompt}
   821: '${choice-definite-entity: 1}[Le /La /]${entity-target} se sacrifie pour protéger le porteur de l''Arme Primordiale.${prompt}'
   822: '${color-alt: 121}${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 1} point${choice-plurality-number: 1}[/s] exemplaire.${prompt}'
-  823: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} plaudit${choice-plurality-number: 0}[/s].${prompt}'
-  824: '${choice-definite-entity: 0}[Le /La /]${entity-source} ${choice-plurality-entity: 0}[gagne/gagnent] ${number-alt: 0} segment${choice-plurality-number: 0}[/s] de mog.${prompt}'
-  825: ${prompt}
-  826: ${prompt}
+  823: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} plaudit${choice-plurality-number: 0}[/s].${prompt}'
+  824: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 1} moogle segment${choice-plurality-number: 1}[/s].${prompt}'
+  825: '${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[gains/gain] ${number-alt: 0} bonus exemplar point${choice-plurality-number: 0}[/s] as part of the active campaign. ${number-alt: 1} points remaining.${prompt}'
+  826: |-
+    ${choice-definite-entity: 0}[The /]${entity-source} ${choice-plurality-entity: 0}[uses/uses] ${article} ${item-article-alt: 0[2]}.
+    →${choice-definite-entity: 1}[The /]${entity-target} receives ${number-alt: 1} deeds.${prompt}
   827: ${prompt}
   828: ${prompt}
   829: ${prompt}
