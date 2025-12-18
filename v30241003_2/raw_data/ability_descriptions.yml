@@ -58,7 +58,7 @@ lists:
   27:
   - string: 'Les dégâts varient en fonction des TP. Vajra : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fusion, Compression'
   28:
-  - string: 'Porte une double attaque qui réduit la vitesse de déplacement de la cible. Les chances de réduction varient en fonction des TP. Carnwenhan : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fragmentation, Distorsion'
+  - string: 'Porte une double attaque reduisant la vitesse de la cible. Chances selon TP. Carnwenhan : effet Contrecoup selon TP. Chaines : Fragmentation, Distorsion'
   29:
   - string: 'Porte une quadruple attaque qui diminue l''évasion de la cible. La durée de l''effet varie en fonction des TP. Terpsichore : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Distorsion, Scission'
   30:
@@ -90,7 +90,7 @@ lists:
   43:
   - string: 'Caliburn/Excalibur : Régénération. Attributs de chaîne : Lumière, Fusion'
   44:
-  - string: 'Porte une triple attaque qui réduit l''évasion magique de la cible. Les chances de réduction varient en fonction des TP. Murgleis : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fragmentation, Distorsion'
+  - string: 'Porte une triple attaque reduisant l evasion magique de la cible. Chances selon TP. Murgleis : effet Contrecoup selon TP. Chaines : Fragmentation, Distorsion'
   45:
   - string: 'Porte une double attaque. L''inimitié varie en fonction des TP. Burtgang : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fusion, Réverbération'
   46:
@@ -122,7 +122,7 @@ lists:
   59:
   - string: 'Inflige des dégâts triples. Les dégâts varient en fonction des TP. Caladbolg : Contrecoup. Attributs de chaîne : Lumière, Distorsion'
   60:
-  - string: 'Porte une quintuple attaque. Les dégâts varient en fonction des TP. Lionheart : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fragmentation, Scission. Lionheart : Fragmentation, Scission, Lumière'
+  - string: 'Porte une quintuple attaque. Degats selon TP. Lionheart : effet Contrecoup selon TP. Chaines : Fragmentation, Scission. Lionheart : Fragmentation, Scission, Lumiere'
   61:
   - string: 'Porte une double attaque. Les dégâts varient en fonction des TP. Epeolatry : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Lumière, Fragmentation'
   62:
@@ -156,7 +156,7 @@ lists:
   76:
   - string: 'Inflige des dégâts élémentaires de foudre. Les dégâts varient en fonction des TP. Farsha : Contrecoup. Attributs de chaîne : Obscurité, Fragmentation'
   77:
-  - string: 'Porte une quadruple attaque. La précision varie en fonction des TP. Tri-Edge : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Distorsion, Détonation. Tri-Edge : Distorsion, Détonation, Obscurité'
+  - string: 'Porte une quadruple attaque. Precision selon TP. Tri-Edge : effet Contrecoup selon TP. Chaines : Distorsion, Detonation. Tri-Edge : Distorsion, Detonation, Obscurite'
   78:
   - string: 'Porte une quintuple attaque. Les dégâts varient en fonction des TP. Attributs de chaîne : Liquéfaction, Impact, Fragmentation. L''effet Contrecoup varie en fonction des TP.'
   79:
@@ -220,7 +220,7 @@ lists:
   108:
   - string: 'Porte une attaque qui inflige des dégâts triples et ignore la défense de la cible. La proportion ignorée varie en fonction des TP. Redemption : Contrecoup. Attributs de chaîne : Obscurité, Distorsion'
   109:
-  - string: 'Porte une quadruple attaque qui convertit les dégâts infligés en PM propres. Les dégâts varient en fonction des TP. Anguta : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Gravitation, Réverbération. Anguta : Gravitation, Réverbération, Obscurité'
+  - string: 'Porte une quadruple attaque convertissant les degats infliges en PM. Degats selon TP. Anguta : effet Contrecoup selon TP. Chaines : Gravitation, Reverberation. Anguta : Gravitation, Reverberation, Obscurite'
   110:
   - string: 'Absorbe les PV et PM. Les dégâts varient en fonction des TP. Attributs de chaîne : Induration, Réverbération, Fusion. Foenaria : L''effet Contrecoup varie en fonction des TP.'
   111:
@@ -252,7 +252,7 @@ lists:
   124:
   - string: 'Porte une attaque qui inflige des dégâts triples et ignore la défense de la cible. La proportion ignorée varie en fonction des TP. Rhongomiant : Contrecoup. Attributs de chaîne : Lumière, Fragmentation'
   125:
-  - string: 'Porte une quadruple attaque qui réduit l''évasion aux coups critiques. Les dégâts varient en fonction des TP. Trishula : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Gravitation, Transfixion. Trishula : Gravitation, Transfixion, Obscurité'
+  - string: 'Porte une quadruple attaque reduisant l evasion aux coups critiques. Degats selon TP. Trishula : effet Contrecoup selon TP. Chaines : Gravitation, Transfixion. Trishula : Gravitation, Transfixion, Obscurite'
   126:
   - string: 'Porte une double attaque. Les dégâts varient en fonction des TP. Attributs de chaîne : Transfixion, Scission, Gravitation. Gae Buide : L''effet Contrecoup varie en fonction des TP.'
   127:
@@ -284,7 +284,7 @@ lists:
   140:
   - string: 'Inflige des dégâts quintuples. Les chances de coups critiques varient en fonction des TP. Kannagi : Contrecoup. Attributs de chaîne : Obscurité, Gravitation'
   141:
-  - string: 'Porte une quintuple attaque. Les dégâts varient en fonction des TP. Heishi Shorinken : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fusion, Impact. Heishi Shorinken : Fusion, Impact, Lumière'
+  - string: 'Porte une quintuple attaque. Degats selon TP. Heishi Shorinken : effet Contrecoup selon TP. Chaines : Fusion, Impact. Heishi Shorinken : Fusion, Impact, Lumiere'
   142:
   - string: 'Porte une quadruple attaque. Les dégâts varient en fonction des TP. Attributs de chaîne : Induration, Réverbération, Fusion. Dokoku : L''effet Contrecoup varie en fonction des TP.'
   143:
@@ -316,7 +316,7 @@ lists:
   156:
   - string: 'Inflige le double des dégâts. Les dégâts varient en fonction des TP. Masamune : Contrecoup. Attributs de chaîne : Lumière, Distorsion'
   157:
-  - string: 'Porte une double attaque. Les dégâts varient en fonction des TP. Dojikiri Yasutsuna : L''effet Contrecoup varie en fonction des TP. Attributs de chaîne : Fragmentation, Compression. Dojikiri Yasutsuna : Fragmentation, Compression, Lumière'
+  - string: "Porte une double attaque. Degats selon TP. Dojikiri Yasutsuna : effet Contrecoup selon TP. Chaines : Fragmentation, Compression. Dojikiri Yasutsuna : Fragmentation, Compression, Lumiere"
   158:
   - string: 'Le nombre de pastèques tranchées varie en fonction des TP. Attributs de chaîne : Fusion'
   159:
