@@ -1,0 +1,4100 @@
+bytes_per_list: 0
+flip_bytes: true
+lists:
+  0:
+  - string: |2+
+
+  1:
+  - string: '{FIR}%+d '
+  2:
+  - string: '{ICE}%+d '
+  3:
+  - string: '{WND}%+d '
+  4:
+  - string: '{ERT}%+d '
+  5:
+  - string: '{LTG}%+d '
+  6:
+  - string: '{WTR}%+d '
+  7:
+  - string: '{LIT}%+d '
+  8:
+  - string: '{DKN}%+d '
+  9:
+  - string: 'HP%+d '
+  10:
+  - string: 'MP%+d '
+  11:
+  - string: 'STR%+d '
+  12:
+  - string: 'DEX%+d '
+  13:
+  - string: 'VIT%+d '
+  14:
+  - string: 'AGI%+d '
+  15:
+  - string: 'INT%+d '
+  16:
+  - string: 'MND%+d '
+  17:
+  - string: 'CHR%+d '
+  18:
+  - string: 'Accuracy%+d '
+  19:
+  - string: 'Attack%+d '
+  20:
+  - string: 'Rng. Acc.%+d '
+  21:
+  - string: 'Rng. Atk.%+d '
+  22:
+  - string: 'Evasion%+d '
+  23:
+  - string: 'DEF%+d '
+  24:
+  - string: 'Mag. Acc.%+d '
+  25:
+  - string: 'Mag. Evasion%+d '
+  26:
+  - string: 'Critical hit rate %+d%% '
+  27:
+  - string: 'Enemy crit. hit rate %+d '
+  28:
+  - string: '"Charm"%+d'
+  29:
+  - string: Enmity%+d
+  30:
+  - string: 'DMG:%+d '
+  31:
+  - string: 'Delay:%+d%% '
+  32:
+  - string: 'Haste%+d%% '
+  33:
+  - string: '"Slow"%+d '
+  34:
+  - string: 'HP recovered while healing %+d '
+  35:
+  - string: 'MP recovered while healing %+d '
+  36:
+  - string: 'Spell interruption rate down %d%% '
+  37:
+  - string: 'Phys. dmg. taken %+d%% '
+  38:
+  - string: 'Magic dmg. taken %+d%% '
+  39:
+  - string: 'Breath dmg. taken %+d%% '
+  40:
+  - string: 'Magic crit. hit rate %+d '
+  41:
+  - string: 'Damage taken %+d%% '
+  42:
+  - string: '(DMG:%d) '
+  43:
+  - string: '(DMG:%+d) '
+  44:
+  - string: '(Delay:%d) '
+  45:
+  - string: '(Delay:%+d) '
+  46:
+  - string: 'Delay:%+d '
+  47:
+  - string: 'DMG:%+d%% '
+  48:
+  - string: 'Latent effect: "Regain"%+d '
+  49:
+  - string: 'Latent effect: "Refresh"%+d '
+  50:
+  - string: 'Occ. inc. resist. to stat. ailments %+d '
+  51:
+  - string: All songs %+d
+  52:
+  - string: 'Breath %+d '
+  53:
+  - string: 'TP Bonus %+d '
+  54:
+  - string: 'Parrying rate %+d%% '
+  55:
+  - string: 'Damage taken -%d%% '
+  56:
+  - string: '57'
+  57:
+  - string: '58'
+  58:
+  - string: '59'
+  59:
+  - string: '60'
+  60:
+  - string: '61'
+  61:
+  - string: '62'
+  62:
+  - string: '63'
+  63:
+  - string: '64'
+  64:
+  - string: '65'
+  65:
+  - string: '66'
+  66:
+  - string: '67'
+  67:
+  - string: '68'
+  68:
+  - string: '69'
+  69:
+  - string: '70'
+  70:
+  - string: '71'
+  71:
+  - string: '72'
+  72:
+  - string: '73'
+  73:
+  - string: '74'
+  74:
+  - string: '75'
+  75:
+  - string: '76'
+  76:
+  - string: '77'
+  77:
+  - string: '78'
+  78:
+  - string: '79'
+  79:
+  - string: '80'
+  80:
+  - string: '81'
+  81:
+  - string: '82'
+  82:
+  - string: '83'
+  83:
+  - string: '84'
+  84:
+  - string: '85'
+  85:
+  - string: '86'
+  86:
+  - string: '87'
+  87:
+  - string: '88'
+  88:
+  - string: '89'
+  89:
+  - string: '90'
+  90:
+  - string: '91'
+  91:
+  - string: '92'
+  92:
+  - string: 'Accuracy%+d Attack%+d '
+  93:
+  - string: 'Ranged Atk.%+d "Mag. Atk. B."%+d '
+  94:
+  - string: 'Mag. Acc.%+d "Mag. Atk. B."%+d '
+  95:
+  - string: 'Accuracy%+d Ranged Acc.%+d '
+  96:
+  - string: 'Attack%+d Ranged Atk.%+d '
+  97:
+  - string: Acc%+d/R.Acc%+d/Atk.%+d/R.Atk%+d
+  98:
+  - string: Mag. Acc.%+d/Mag. Dmg.%+d
+  99:
+  - string: Eva.%+d/Mag. Eva.%+d
+  100:
+  - string: 'Accuracy%+d Mag. Acc.%+d '
+  101:
+  - string: '102'
+  102:
+  - string: '103'
+  103:
+  - string: '104'
+  104:
+  - string: '105'
+  105:
+  - string: '106'
+  106:
+  - string: '107'
+  107:
+  - string: '108'
+  108:
+  - string: '109'
+  109:
+  - string: '110'
+  110:
+  - string: '111'
+  111:
+  - string: '112'
+  112:
+  - string: '113'
+  113:
+  - string: '114'
+  114:
+  - string: '115'
+  115:
+  - string: '116'
+  116:
+  - string: '117'
+  117:
+  - string: '118'
+  118:
+  - string: '119'
+  119:
+  - string: '120'
+  120:
+  - string: '121'
+  121:
+  - string: '122'
+  122:
+  - string: '123'
+  123:
+  - string: '124'
+  124:
+  - string: '125'
+  125:
+  - string: '126'
+  126:
+  - string: '127'
+  127:
+  - string: '128'
+  128:
+  - string: 'Pet: '
+  129:
+  - string: 'Accuracy%+d Ranged Acc.%+d '
+  130:
+  - string: 'Attack%+d Ranged Atk.%+d '
+  131:
+  - string: 'Mag. Acc.%+d "Mag.Atk.Bns."%+d '
+  132:
+  - string: '"Double Atk."%+d%% Crit. hit %+d%% '
+  133:
+  - string: '"Mag. Atk. Bns."%+d '
+  134:
+  - string: '"Mag. Def. Bns."%+d '
+  135:
+  - string: 'Avatar: '
+  136:
+  - string: '137'
+  137:
+  - string: '"Regen"%+d'
+  138:
+  - string: '"Refresh"%+d '
+  139:
+  - string: '"Rapid Shot"%+d '
+  140:
+  - string: '"Fast Cast"%+d%% '
+  141:
+  - string: '"Conserve MP"%+d '
+  142:
+  - string: '"Store TP"%+d '
+  143:
+  - string: '"Double Attack"%+d%% '
+  144:
+  - string: '"Triple Attack"%+d%% '
+  145:
+  - string: '"Counter"%+d '
+  146:
+  - string: '"Dual Wield"%+d '
+  147:
+  - string: '"Treasure Hunter"%+d '
+  148:
+  - string: '"Gilfinder"%+d '
+  149:
+  - string: '150'
+  150:
+  - string: '151'
+  151:
+  - string: '"Martial Arts"%+d '
+  152:
+  - string: '153'
+  153:
+  - string: '"Shield Mastery"%+d '
+  154:
+  - string: '155'
+  155:
+  - string: '156'
+  156:
+  - string: '157'
+  157:
+  - string: '158'
+  158:
+  - string: '159'
+  159:
+  - string: '160'
+  160:
+  - string: '161'
+  161:
+  - string: '162'
+  162:
+  - string: '163'
+  163:
+  - string: '164'
+  164:
+  - string: '165'
+  165:
+  - string: '166'
+  166:
+  - string: '167'
+  167:
+  - string: '168'
+  168:
+  - string: '169'
+  169:
+  - string: '170'
+  170:
+  - string: '171'
+  171:
+  - string: '172'
+  172:
+  - string: '173'
+  173:
+  - string: '174'
+  174:
+  - string: '175'
+  175:
+  - string: '176'
+  176:
+  - string: '"Resist Sleep"%+d '
+  177:
+  - string: '"Resist Poison"%+d '
+  178:
+  - string: '"Resist Paralyze"%+d '
+  179:
+  - string: '"Resist Blind"%+d '
+  180:
+  - string: '"Resist Silence"%+d '
+  181:
+  - string: '"Resist Petrify"%+d '
+  182:
+  - string: '"Resist Virus"%+d '
+  183:
+  - string: '"Resist Curse"%+d '
+  184:
+  - string: '"Resist Stun"%+d '
+  185:
+  - string: '"Resist Bind"%+d '
+  186:
+  - string: '"Resist Gravity"%+d '
+  187:
+  - string: '"Resist Slow"%+d '
+  188:
+  - string: '"Resist Charm"%+d '
+  189:
+  - string: '190'
+  190:
+  - string: '191'
+  191:
+  - string: '192'
+  192:
+  - string: '193'
+  193:
+  - string: '194'
+  194:
+  - string: '"Kick Attacks"%+d '
+  195:
+  - string: '"Subtle Blow"%+d '
+  196:
+  - string: '197'
+  197:
+  - string: '198'
+  198:
+  - string: '"Zanshin"%+d '
+  199:
+  - string: '200'
+  200:
+  - string: '201'
+  201:
+  - string: '202'
+  202:
+  - string: '203'
+  203:
+  - string: '204'
+  204:
+  - string: '205'
+  205:
+  - string: '206'
+  206:
+  - string: '207'
+  207:
+  - string: '208'
+  208:
+  - string: '209'
+  209:
+  - string: '210'
+  210:
+  - string: '211'
+  211:
+  - string: '"Snapshot"%+d '
+  212:
+  - string: '"Recycle"%+d '
+  213:
+  - string: '214'
+  214:
+  - string: '215'
+  215:
+  - string: '"Ninja tool expertise"%+d '
+  216:
+  - string: '217'
+  217:
+  - string: '218'
+  218:
+  - string: '219'
+  219:
+  - string: '220'
+  220:
+  - string: '221'
+  221:
+  - string: '222'
+  222:
+  - string: '223'
+  223:
+  - string: '224'
+  224:
+  - string: '225'
+  225:
+  - string: '226'
+  226:
+  - string: '227'
+  227:
+  - string: '228'
+  228:
+  - string: '229'
+  229:
+  - string: '230'
+  230:
+  - string: '231'
+  231:
+  - string: '232'
+  232:
+  - string: '"True Shot"%+d'
+  233:
+  - string: '"Blood Boon"%+d'
+  234:
+  - string: '235'
+  235:
+  - string: '236'
+  236:
+  - string: '237'
+  237:
+  - string: '"Occult Acumen"%+d'
+  238:
+  - string: '239'
+  239:
+  - string: '240'
+  240:
+  - string: '241'
+  241:
+  - string: '242'
+  242:
+  - string: '243'
+  243:
+  - string: '244'
+  244:
+  - string: '245'
+  245:
+  - string: '246'
+  246:
+  - string: '247'
+  247:
+  - string: '248'
+  248:
+  - string: '249'
+  249:
+  - string: '250'
+  250:
+  - string: '251'
+  251:
+  - string: '"Daken"%+d '
+  252:
+  - string: '253'
+  253:
+  - string: '254'
+  254:
+  - string: '255'
+  255:
+  - string: '256'
+  256:
+  - string: 'Hand-to-Hand skill %+d '
+  257:
+  - string: 'Dagger skill %+d '
+  258:
+  - string: 'Sword skill %+d '
+  259:
+  - string: 'Great Sword skill %+d '
+  260:
+  - string: 'Axe skill %+d '
+  261:
+  - string: 'Great Axe skill %+d '
+  262:
+  - string: 'Scythe skill %+d '
+  263:
+  - string: 'Polearm skill %+d '
+  264:
+  - string: 'Katana skill %+d '
+  265:
+  - string: 'Great Katana skill %+d '
+  266:
+  - string: 'Club skill %+d '
+  267:
+  - string: 'Staff skill %+d '
+  268:
+  - string: '269'
+  269:
+  - string: '270'
+  270:
+  - string: '271'
+  271:
+  - string: '272'
+  272:
+  - string: '273'
+  273:
+  - string: '274'
+  274:
+  - string: '275'
+  275:
+  - string: '276'
+  276:
+  - string: '277'
+  277:
+  - string: 'Melee skill %+d '
+  278:
+  - string: 'Ranged skill %+d '
+  279:
+  - string: 'Magic skill %+d '
+  280:
+  - string: 'Archery skill %+d '
+  281:
+  - string: 'Marksmanship skill %+d '
+  282:
+  - string: 'Throwing skill %+d '
+  283:
+  - string: '284'
+  284:
+  - string: '285'
+  285:
+  - string: 'Shield skill %+d '
+  286:
+  - string: Parrying skill %+d
+  287:
+  - string: 'Divine magic skill %+d '
+  288:
+  - string: 'Healing magic skill %+d '
+  289:
+  - string: 'Enha. mag. skill %+d '
+  290:
+  - string: 'Enfb. mag. skill %+d '
+  291:
+  - string: 'Elem. magic skill %+d '
+  292:
+  - string: 'Dark magic skill %+d '
+  293:
+  - string: 'Summoning magic skill %+d '
+  294:
+  - string: 'Ninjutsu skill %+d '
+  295:
+  - string: 'Singing skill %+d '
+  296:
+  - string: 'String instrument skill %+d '
+  297:
+  - string: 'Wind instrument skill %+d '
+  298:
+  - string: 'Blue magic skill %+d '
+  299:
+  - string: 'Geomancy skill %+d '
+  300:
+  - string: 'Handbell skill %+d '
+  301:
+  - string: '302'
+  302:
+  - string: '303'
+  303:
+  - string: '304'
+  304:
+  - string: '305'
+  305:
+  - string: '306'
+  306:
+  - string: '307'
+  307:
+  - string: '308'
+  308:
+  - string: '309'
+  309:
+  - string: '310'
+  310:
+  - string: '311'
+  311:
+  - string: '312'
+  312:
+  - string: '313'
+  313:
+  - string: '314'
+  314:
+  - string: '315'
+  315:
+  - string: '316'
+  316:
+  - string: '317'
+  317:
+  - string: '318'
+  318:
+  - string: '319'
+  319:
+  - string: '320'
+  320:
+  - string: '"Blood Pact" ability delay -%d '
+  321:
+  - string: '"Avatar perpetuation cost" -%d '
+  322:
+  - string: 'Song spellcasting time -%d%% '
+  323:
+  - string: '"Cure" spellcasting time -%d%% '
+  324:
+  - string: '"Call Beast" ability delay -%d '
+  325:
+  - string: '"Quick Draw" ability delay -%d '
+  326:
+  - string: 'Weapon Skill Acc.%+d '
+  327:
+  - string: 'Weapon skill damage %+d%% '
+  328:
+  - string: 'Critical hit damage %+d%% '
+  329:
+  - string: '"Cure" potency %+d%% '
+  330:
+  - string: '"Waltz" potency %+d%% '
+  331:
+  - string: '"Waltz" ability delay -%d '
+  332:
+  - string: 'Skillchain dmg. %+d%% '
+  333:
+  - string: '"Conserve TP"%+d '
+  334:
+  - string: 'Magic burst dmg. %+d%% '
+  335:
+  - string: 'Mag. crit. hit dmg. %+d%% '
+  336:
+  - string: '"Sic" and "Ready" ability delay -%d '
+  337:
+  - string: 'Song recast delay -%d '
+  338:
+  - string: '"Barrage"%+d '
+  339:
+  - string: '"Elemental Siphon"%+d '
+  340:
+  - string: '"Phantom Roll" ability delay -%d '
+  341:
+  - string: '"Repair" potency %+d%% '
+  342:
+  - string: '"Waltz" TP cost -%d '
+  343:
+  - string: '"Drain" and "Aspir" potency +%d '
+  344:
+  - string: '345'
+  345:
+  - string: '346'
+  346:
+  - string: '347'
+  347:
+  - string: 'Healing magic recast delay -%d '
+  348:
+  - string: 'Elemental magic recast delay -%d '
+  349:
+  - string: 'Enfeebling magic recast delay -%d '
+  350:
+  - string: 'Occ. maximizes magic accuracy %+d%% '
+  351:
+  - string: 'Occ. quickens spellcasting %+d%% '
+  352:
+  - string: 'Occ. grants dmg. bonus based on TP %+d%% '
+  353:
+  - string: 'TP Bonus %+d '
+  354:
+  - string: Quadruple Attack %+d%%
+  355:
+  - string: 'Enhancing magic recast delay -%d '
+  356:
+  - string: 'Pot. of "Cure" effect rec. %+d%% '
+  357:
+  - string: '358'
+  358:
+  - string: '359'
+  359:
+  - string: '360'
+  360:
+  - string: Save TP %+d
+  361:
+  - string: '362'
+  362:
+  - string: 'Magic Damage%+d '
+  363:
+  - string: 'Chance of successful block %+d '
+  364:
+  - string: '365'
+  365:
+  - string: '366'
+  366:
+  - string: 'Blood Pact ab. del. II -%d '
+  367:
+  - string: '368'
+  368:
+  - string: '"Phalanx" received %+d '
+  369:
+  - string: '"Blood Pact" damage %+d '
+  370:
+  - string: '"Rev. Flourish"%+d '
+  371:
+  - string: '"Regen" potency %+d '
+  372:
+  - string: '"Embolden"%+d '
+  373:
+  - string: '374'
+  374:
+  - string: 'Enh. Mag. received dur. %+d%% '
+  375:
+  - string: '376'
+  376:
+  - string: '377'
+  377:
+  - string: '378'
+  378:
+  - string: '379'
+  379:
+  - string: 'Enmity%+d for each Utsusemi '
+  380:
+  - string: 'Physical damage limit %+d%% '
+  381:
+  - string: '382'
+  382:
+  - string: '383'
+  383:
+  - string: '384'
+  384:
+  - string: '385'
+  385:
+  - string: '386'
+  386:
+  - string: '387'
+  387:
+  - string: '388'
+  388:
+  - string: '389'
+  389:
+  - string: '390'
+  390:
+  - string: '391'
+  391:
+  - string: '392'
+  392:
+  - string: '393'
+  393:
+  - string: '394'
+  394:
+  - string: '395'
+  395:
+  - string: '396'
+  396:
+  - string: '397'
+  397:
+  - string: '398'
+  398:
+  - string: '399'
+  399:
+  - string: '400'
+  400:
+  - string: '401'
+  401:
+  - string: '402'
+  402:
+  - string: '403'
+  403:
+  - string: '404'
+  404:
+  - string: '405'
+  405:
+  - string: '406'
+  406:
+  - string: '407'
+  407:
+  - string: '408'
+  408:
+  - string: '409'
+  409:
+  - string: '410'
+  410:
+  - string: '411'
+  411:
+  - string: '412'
+  412:
+  - string: '413'
+  413:
+  - string: '414'
+  414:
+  - string: '415'
+  415:
+  - string: '416'
+  416:
+  - string: '417'
+  417:
+  - string: '418'
+  418:
+  - string: '419'
+  419:
+  - string: '420'
+  420:
+  - string: '421'
+  421:
+  - string: '422'
+  422:
+  - string: '423'
+  423:
+  - string: '424'
+  424:
+  - string: '425'
+  425:
+  - string: '426'
+  426:
+  - string: '427'
+  427:
+  - string: '428'
+  428:
+  - string: '429'
+  429:
+  - string: '430'
+  430:
+  - string: '431'
+  431:
+  - string: '432'
+  432:
+  - string: '433'
+  433:
+  - string: '434'
+  434:
+  - string: '435'
+  435:
+  - string: '436'
+  436:
+  - string: '437'
+  437:
+  - string: '438'
+  438:
+  - string: '439'
+  439:
+  - string: '440'
+  440:
+  - string: '441'
+  441:
+  - string: '442'
+  442:
+  - string: '443'
+  443:
+  - string: '444'
+  444:
+  - string: '445'
+  445:
+  - string: '446'
+  446:
+  - string: '447'
+  447:
+  - string: '448'
+  448:
+  - string: '449'
+  449:
+  - string: Add.eff.:{FIR} Dmg.%+d
+  450:
+  - string: Add.eff.:{ICE} Dmg.%+d
+  451:
+  - string: Add.eff.:{WND} Dmg.%+d
+  452:
+  - string: Add.eff.:{ERT} Dmg.%+d
+  453:
+  - string: Add.eff.:{LTG} Dmg.%+d
+  454:
+  - string: Add.eff.:{WTR} Dmg.%+d
+  455:
+  - string: Add.eff.:{LIT} Dmg.%+d
+  456:
+  - string: Add.eff.:{DKN} Dmg.%+d
+  457:
+  - string: Add.eff.:Disease%+d
+  458:
+  - string: Add.eff.:Paralysis%+d
+  459:
+  - string: Add.eff.:Silence%+d
+  460:
+  - string: Add.eff.:Slow%+d
+  461:
+  - string: Add.eff.:Stun%+d
+  462:
+  - string: Add.eff.:Poison%+d
+  463:
+  - string: Add.eff.:Flash%+d
+  464:
+  - string: Add.eff.:Blindness%+d
+  465:
+  - string: Add.eff.:Weakens def.%+d
+  466:
+  - string: Add.eff.:Sleep%+d
+  467:
+  - string: Add.eff.:Weakens atk.%+d
+  468:
+  - string: Add.eff.:Impairs evasion%+d
+  469:
+  - string: Add.eff.:Lowers acc.%+d
+  470:
+  - string: Add.eff.:Lowers mag.eva.%+d
+  471:
+  - string: Add.eff.:Lowers mag.atk.%+d
+  472:
+  - string: Add.eff.:Lowers mag.def.%+d
+  473:
+  - string: Add.eff.:Lowers mag.acc.%+d
+  474:
+  - string: '475'
+  475:
+  - string: '476'
+  476:
+  - string: '477'
+  477:
+  - string: '478'
+  478:
+  - string: '479'
+  479:
+  - string: '480'
+  480:
+  - string: '481'
+  481:
+  - string: '482'
+  482:
+  - string: '483'
+  483:
+  - string: '484'
+  484:
+  - string: '485'
+  485:
+  - string: '486'
+  486:
+  - string: '487'
+  487:
+  - string: '488'
+  488:
+  - string: '489'
+  489:
+  - string: '490'
+  490:
+  - string: '491'
+  491:
+  - string: '492'
+  492:
+  - string: '493'
+  493:
+  - string: '494'
+  494:
+  - string: '495'
+  495:
+  - string: '496'
+  496:
+  - string: '497'
+  497:
+  - string: '498'
+  498:
+  - string: '499'
+  499:
+  - string: '500'
+  500:
+  - string: '501'
+  501:
+  - string: '502'
+  502:
+  - string: '503'
+  503:
+  - string: '504'
+  504:
+  - string: '505'
+  505:
+  - string: '506'
+  506:
+  - string: '507'
+  507:
+  - string: '508'
+  508:
+  - string: '509'
+  509:
+  - string: '510'
+  510:
+  - string: '511'
+  511:
+  - string: '512'
+  512:
+  - string: 'Sword enhancement spell damage %+d '
+  513:
+  - string: 'Enhances "Souleater" effect %+d%% '
+  514:
+  - string: '515'
+  515:
+  - string: 'Sword enhancement spell damage %+d%% '
+  516:
+  - string: '517'
+  517:
+  - string: '518'
+  518:
+  - string: '519'
+  519:
+  - string: '520'
+  520:
+  - string: '521'
+  521:
+  - string: '522'
+  522:
+  - string: '523'
+  523:
+  - string: '524'
+  524:
+  - string: '525'
+  525:
+  - string: '526'
+  526:
+  - string: '527'
+  527:
+  - string: '528'
+  528:
+  - string: '529'
+  529:
+  - string: '530'
+  530:
+  - string: '531'
+  531:
+  - string: '532'
+  532:
+  - string: '533'
+  533:
+  - string: '534'
+  534:
+  - string: '535'
+  535:
+  - string: '536'
+  536:
+  - string: '537'
+  537:
+  - string: '538'
+  538:
+  - string: '539'
+  539:
+  - string: '540'
+  540:
+  - string: '541'
+  541:
+  - string: '542'
+  542:
+  - string: '543'
+  543:
+  - string: '544'
+  544:
+  - string: '545'
+  545:
+  - string: '546'
+  546:
+  - string: '547'
+  547:
+  - string: '548'
+  548:
+  - string: '549'
+  549:
+  - string: '550'
+  550:
+  - string: '551'
+  551:
+  - string: '552'
+  552:
+  - string: 'Occ. atk. twice '
+  553:
+  - string: '554'
+  554:
+  - string: 'Occ. atk. twice '
+  555:
+  - string: 'Occ. atk. 2-3 times '
+  556:
+  - string: 'Occ. atk. 2-4 times '
+  557:
+  - string: 'Occ. deals dbl. dmg. '
+  558:
+  - string: '559'
+  559:
+  - string: '560'
+  560:
+  - string: '561'
+  561:
+  - string: '562'
+  562:
+  - string: 'Movement speed +8%% '
+  563:
+  - string: '564'
+  564:
+  - string: '565'
+  565:
+  - string: '566'
+  566:
+  - string: '567'
+  567:
+  - string: '568'
+  568:
+  - string: '569'
+  569:
+  - string: '570'
+  570:
+  - string: '571'
+  571:
+  - string: '572'
+  572:
+  - string: '573'
+  573:
+  - string: '574'
+  574:
+  - string: '575'
+  575:
+  - string: '576'
+  576:
+  - string: '577'
+  577:
+  - string: '578'
+  578:
+  - string: '579'
+  579:
+  - string: '580'
+  580:
+  - string: '581'
+  581:
+  - string: '582'
+  582:
+  - string: '583'
+  583:
+  - string: '584'
+  584:
+  - string: '585'
+  585:
+  - string: '586'
+  586:
+  - string: '587'
+  587:
+  - string: '588'
+  588:
+  - string: '589'
+  589:
+  - string: '590'
+  590:
+  - string: '591'
+  591:
+  - string: '592'
+  592:
+  - string: '{FIR} Affinity +%d '
+  593:
+  - string: '{ICE} Affinity +%d '
+  594:
+  - string: '{WND} Affinity +%d '
+  595:
+  - string: '{ERT} Affinity +%d '
+  596:
+  - string: '{LTG} Affinity +%d '
+  597:
+  - string: '{WTR} Affinity +%d '
+  598:
+  - string: '{LIT} Affinity +%d '
+  599:
+  - string: '{DKN} Affinity +%d '
+  600:
+  - string: '{FIR} Affinity: Magic Accuracy+%d'
+  601:
+  - string: '{ICE} Affinity: Magic Accuracy+%d'
+  602:
+  - string: '{WND} Affinity: Magic Accuracy+%d'
+  603:
+  - string: '{ERT} Affinity: Magic Accuracy+%d'
+  604:
+  - string: '{LTG} Affinity: Magic Accuracy+%d'
+  605:
+  - string: '{WTR} Affinity: Magic Accuracy+%d'
+  606:
+  - string: '{LIT} Affinity: Magic Accuracy+%d'
+  607:
+  - string: '{DKN} Affinity: Magic Accuracy+%d'
+  608:
+  - string: '{FIR} Affinity: Magic Damage+%d'
+  609:
+  - string: '{ICE} Affinity: Magic Damage+%d'
+  610:
+  - string: '{WND} Affinity: Magic Damage+%d'
+  611:
+  - string: '{ERT} Affinity: Magic Damage+%d'
+  612:
+  - string: '{LTG} Affinity: Magic Damage+%d'
+  613:
+  - string: '{WTR} Affinity: Magic Damage+%d'
+  614:
+  - string: '{LIT} Affinity: Magic Damage+%d'
+  615:
+  - string: '{DKN} Affinity: Magic Damage+%d'
+  616:
+  - string: '{FIR} Affinity: Avatar perp. cost -%d'
+  617:
+  - string: '{ICE} Affinity: Avatar perp. cost -%d'
+  618:
+  - string: '{WND} Affinity: Avatar perp. cost -%d'
+  619:
+  - string: '{ERT} Affinity: Avatar perp. cost -%d'
+  620:
+  - string: '{LTG} Affinity: Avatar perp. cost -%d'
+  621:
+  - string: '{WTR} Affinity: Avatar perp. cost -%d'
+  622:
+  - string: '{LIT} Affinity: Avatar perp. cost -%d'
+  623:
+  - string: '{DKN} Affinity: Avatar perp. cost -%d'
+  624:
+  - string: '{FIR} Affinity: Recast time -%d%%'
+  625:
+  - string: '{ICE} Affinity: Recast time -%d%%'
+  626:
+  - string: '{WND} Affinity: Recast time -%d%%'
+  627:
+  - string: '{ERT} Affinity: Recast time -%d%%'
+  628:
+  - string: '{LTG} Affinity: Recast time -%d%%'
+  629:
+  - string: '{WTR} Affinity: Recast time -%d%%'
+  630:
+  - string: '{LIT} Affinity: Recast time -%d%%'
+  631:
+  - string: '{DKN} Affinity: Recast time -%d%%'
+  632:
+  - string: '{FIR} Affinity: Casting time -%d%%'
+  633:
+  - string: '{ICE} Affinity: Casting time -%d%%'
+  634:
+  - string: '{WND} Affinity: Casting time -%d%%'
+  635:
+  - string: '{ERT} Affinity: Casting time -%d%%'
+  636:
+  - string: '{LTG} Affinity: Casting time -%d%%'
+  637:
+  - string: '{WTR} Affinity: Casting time -%d%%'
+  638:
+  - string: '{LIT} Affinity: Casting time -%d%%'
+  639:
+  - string: '{DKN} Affinity: Casting time -%d%%'
+  640:
+  - string: 'Backhand Blow: '
+  641:
+  - string: 'Spinning Attack: '
+  642:
+  - string: 'Howling Fist: '
+  643:
+  - string: 'Dragon Kick: '
+  644:
+  - string: 'Viper Bite: '
+  645:
+  - string: 'Shadowstitch: '
+  646:
+  - string: 'Cyclone: '
+  647:
+  - string: 'Evisceration: '
+  648:
+  - string: 'Burning Blade: '
+  649:
+  - string: 'Shining Blade: '
+  650:
+  - string: 'Circle Blade: '
+  651:
+  - string: 'Savage Blade: '
+  652:
+  - string: 'Freezebite: '
+  653:
+  - string: 'Shockwave: '
+  654:
+  - string: 'Ground Strike: '
+  655:
+  - string: 'Sickle Moon: '
+  656:
+  - string: 'Gale Axe: '
+  657:
+  - string: 'Spinning Axe: '
+  658:
+  - string: 'Calamity: '
+  659:
+  - string: 'Decimation: '
+  660:
+  - string: 'Iron Tempest: '
+  661:
+  - string: 'Sturmwind: '
+  662:
+  - string: 'Keen Edge: '
+  663:
+  - string: 'Steel Cyclone: '
+  664:
+  - string: 'Nightmare Scythe: '
+  665:
+  - string: 'Spinning Scythe: '
+  666:
+  - string: 'Vorpal Scythe: '
+  667:
+  - string: 'Spiral Hell: '
+  668:
+  - string: 'Leg Sweep: '
+  669:
+  - string: 'Vorpal Thrust: '
+  670:
+  - string: 'Skewer: '
+  671:
+  - string: 'Impulse Drive: '
+  672:
+  - string: 'Blade: To: '
+  673:
+  - string: 'Blade: Chi: '
+  674:
+  - string: 'Blade: Ten: '
+  675:
+  - string: 'Blade: Ku: '
+  676:
+  - string: 'Tachi: Goten: '
+  677:
+  - string: 'Tachi: Jinpu: '
+  678:
+  - string: 'Tachi: Koki: '
+  679:
+  - string: 'Tachi: Kasha: '
+  680:
+  - string: 'Brainshaker: '
+  681:
+  - string: 'Skullbreaker: '
+  682:
+  - string: 'Judgment: '
+  683:
+  - string: 'Black Halo: '
+  684:
+  - string: 'Rock Crusher: '
+  685:
+  - string: 'Shell Crusher: '
+  686:
+  - string: 'Full Swing: '
+  687:
+  - string: 'Retribution: '
+  688:
+  - string: 'Dulling Arrow: '
+  689:
+  - string: 'Blast Arrow: '
+  690:
+  - string: 'Arching Arrow: '
+  691:
+  - string: 'Empyreal Arrow: '
+  692:
+  - string: 'Hot Shot: '
+  693:
+  - string: 'Split Shot:'
+  694:
+  - string: 'Sniper Shot:'
+  695:
+  - string: 'Detonator: '
+  696:
+  - string: 'Weapon Skill: '
+  697:
+  - string: '"Final Heaven": '
+  698:
+  - string: 'Ascetic''s Fury: '
+  699:
+  - string: 'Stringing Pummel: '
+  700:
+  - string: 'Victory Smite: '
+  701:
+  - string: 'Mercy Stroke: '
+  702:
+  - string: 'Pyrrhic Kleos: '
+  703:
+  - string: 'Mandalic Stab: '
+  704:
+  - string: 'Mordant Rime: '
+  705:
+  - string: 'Rudra''s Storm: '
+  706:
+  - string: 'Knights of Round: '
+  707:
+  - string: 'Death Blossom: '
+  708:
+  - string: 'Expiacion: '
+  709:
+  - string: 'Chant du Cygne: '
+  710:
+  - string: 'Randgrith: '
+  711:
+  - string: 'Mystic Boon: '
+  712:
+  - string: 'Scourge: '
+  713:
+  - string: 'Torcleaver: '
+  714:
+  - string: 'Onslaught: '
+  715:
+  - string: 'Primal Rend: '
+  716:
+  - string: 'Cloudsplitter: '
+  717:
+  - string: 'Metatron Torment: '
+  718:
+  - string: 'King''s Justice: '
+  719:
+  - string: 'Ukko''s Fury: '
+  720:
+  - string: 'Catastrophe: '
+  721:
+  - string: 'Insurgency: '
+  722:
+  - string: 'Quietus: '
+  723:
+  - string: 'Geirskogul: '
+  724:
+  - string: 'Drakesbane: '
+  725:
+  - string: 'Camlann''s Torment: '
+  726:
+  - string: 'Blade: Metsu: '
+  727:
+  - string: 'Blade: Kamu: '
+  728:
+  - string: 'Blade: Hi: '
+  729:
+  - string: 'Tachi: Kaiten: '
+  730:
+  - string: 'Tachi: Rana: '
+  731:
+  - string: 'Tachi: Fudo: '
+  732:
+  - string: 'Gate of Tartarus: '
+  733:
+  - string: 'Omniscience: '
+  734:
+  - string: 'Vidohunir: '
+  735:
+  - string: 'Garland of Bliss: '
+  736:
+  - string: 'Namas Arrow: '
+  737:
+  - string: 'Jishnu''s Radiance: '
+  738:
+  - string: 'Trueflight: '
+  739:
+  - string: 'Coronach: '
+  740:
+  - string: 'Leaden Salute: '
+  741:
+  - string: 'Wildfire: '
+  742:
+  - string: 'Dimidiation: '
+  743:
+  - string: 'Exudation: '
+  744:
+  - string: 'Shijin Spiral: '
+  745:
+  - string: 'Exenterator: '
+  746:
+  - string: 'Requiescat: '
+  747:
+  - string: 'Upheaval: '
+  748:
+  - string: 'Entropy: '
+  749:
+  - string: 'Stardiver: '
+  750:
+  - string: 'Blade: Shun: '
+  751:
+  - string: 'Tachi: Shoha: '
+  752:
+  - string: 'Realmrazer: '
+  753:
+  - string: 'Shattersoul: '
+  754:
+  - string: 'Resolution: '
+  755:
+  - string: 'Ruinator: '
+  756:
+  - string: 'Last Stand: '
+  757:
+  - string: 'Apex Arrow: '
+  758:
+  - string: '759'
+  759:
+  - string: '760'
+  760:
+  - string: '761'
+  761:
+  - string: '762'
+  762:
+  - string: '763'
+  763:
+  - string: '764'
+  764:
+  - string: '765'
+  765:
+  - string: '766'
+  766:
+  - string: '767'
+  767:
+  - string: '768'
+  768:
+  - string: '{FIR} Affin.: "Blood Pact" delay -%d'
+  769:
+  - string: '{ICE} Affin.: "Blood Pact" delay -%d'
+  770:
+  - string: '{WND} Affin.: "Blood Pact" delay -%d'
+  771:
+  - string: '{ERT} Affin.: "Blood Pact" delay -%d'
+  772:
+  - string: '{LTG} Affin.: "Blood Pact" delay -%d'
+  773:
+  - string: '{WTR} Affin.: "Blood Pact" delay -%d'
+  774:
+  - string: '{LIT} Affin.: "Blood Pact" delay -%d'
+  775:
+  - string: '{DKN} Affin.: "Blood Pact" delay -%d'
+  776:
+  - string: '777'
+  777:
+  - string: '778'
+  778:
+  - string: '779'
+  779:
+  - string: '780'
+  780:
+  - string: '781'
+  781:
+  - string: '782'
+  782:
+  - string: '783'
+  783:
+  - string: '784'
+  784:
+  - string: '785'
+  785:
+  - string: '786'
+  786:
+  - string: '787'
+  787:
+  - string: '788'
+  788:
+  - string: '789'
+  789:
+  - string: '790'
+  790:
+  - string: '791'
+  791:
+  - string: '792'
+  792:
+  - string: '793'
+  793:
+  - string: '794'
+  794:
+  - string: '795'
+  795:
+  - string: '796'
+  796:
+  - string: '797'
+  797:
+  - string: '798'
+  798:
+  - string: '799'
+  799:
+  - string: '800'
+  800:
+  - string: Enhances "Mighty Strikes" effect
+  801:
+  - string: Enhances "Hundred Fists" effect
+  802:
+  - string: Enhances "Benediction" effect
+  803:
+  - string: Enhances "Manafont" effect
+  804:
+  - string: Enhances "Chainspell" effect
+  805:
+  - string: Enhances "Perfect Dodge" effect
+  806:
+  - string: Enhances "Invincible" effect
+  807:
+  - string: Enhances "Blood Weapon" effect
+  808:
+  - string: Enhances "Familiar" effect
+  809:
+  - string: Enhances "Soul Voice" effect
+  810:
+  - string: Enhances "Eagle Eye Shot" effect
+  811:
+  - string: Enhances "Meikyo Shisui" effect
+  812:
+  - string: Enhances "Mijin Gakure" effect
+  813:
+  - string: Enhances "Spirit Surge" effect
+  814:
+  - string: Enhances "Astral Flow" effect
+  815:
+  - string: Enhances "Azure Lore" effect
+  816:
+  - string: Enhances "Wild Card" effect
+  817:
+  - string: Enhances "Overdrive" effect
+  818:
+  - string: Enhances "Trance" effect
+  819:
+  - string: Enhances "Tabula Rasa" effect
+  820:
+  - string: Enhances "Bolster" effect
+  821:
+  - string: Enhances "Elemental Sforzo" effect
+  822:
+  - string: '823'
+  823:
+  - string: '824'
+  824:
+  - string: '825'
+  825:
+  - string: '826'
+  826:
+  - string: '827'
+  827:
+  - string: '828'
+  828:
+  - string: '829'
+  829:
+  - string: '830'
+  830:
+  - string: '831'
+  831:
+  - string: '832'
+  832:
+  - string: '833'
+  833:
+  - string: '834'
+  834:
+  - string: '835'
+  835:
+  - string: '836'
+  836:
+  - string: '837'
+  837:
+  - string: '838'
+  838:
+  - string: '839'
+  839:
+  - string: '840'
+  840:
+  - string: '841'
+  841:
+  - string: '842'
+  842:
+  - string: '843'
+  843:
+  - string: '844'
+  844:
+  - string: '845'
+  845:
+  - string: '846'
+  846:
+  - string: '847'
+  847:
+  - string: '848'
+  848:
+  - string: Enhances "Savagery" effect
+  849:
+  - string: Enhances "Aggressive Aim" effect
+  850:
+  - string: Enhances "Warrior's Charge" effect
+  851:
+  - string: Enhances "Tomahawk" effect
+  852:
+  - string: '853'
+  853:
+  - string: '854'
+  854:
+  - string: Enhances "Penance" effect
+  855:
+  - string: Enhances "Formless Strikes" effect
+  856:
+  - string: Enhances "Invigorate" effect
+  857:
+  - string: Enhances "Mantra" effect
+  858:
+  - string: '859'
+  859:
+  - string: '860'
+  860:
+  - string: Enhances "Afflatus Solace" effect
+  861:
+  - string: Enhances "Martyr" effect
+  862:
+  - string: Enhances "Afflatus Misery" effect
+  863:
+  - string: Enhances "Devotion" effect
+  864:
+  - string: '865'
+  865:
+  - string: '866'
+  866:
+  - string: Increases Ancient Magic damage and magic burst damage
+  867:
+  - string: Increases Elemental Magic accuracy
+  868:
+  - string: Increases Elemental Magic debuff time and potency
+  869:
+  - string: Increases Aspir absorption amount
+  870:
+  - string: '871'
+  871:
+  - string: '872'
+  872:
+  - string: Enfeebling Magic duration
+  873:
+  - string: Magic Accuracy
+  874:
+  - string: Enhancing Magic duration
+  875:
+  - string: Enspell Damage
+  876:
+  - string: Accuracy
+  877:
+  - string: Immunobreak chance
+  878:
+  - string: Enhances "Aura Steal" effect
+  879:
+  - string: Enhances "Ambush" effect
+  880:
+  - string: Enhances "Feint" effect
+  881:
+  - string: Enh. "Assassin's Charge" effect
+  882:
+  - string: '883'
+  883:
+  - string: '884'
+  884:
+  - string: Enhances "Iron Will" effect
+  885:
+  - string: Enhances "Fealty" effect
+  886:
+  - string: Enhances "Chivalry" effect
+  887:
+  - string: Enhances "Guardian" effect
+  888:
+  - string: '889'
+  889:
+  - string: '890'
+  890:
+  - string: Enhances "Dark Seal" effect
+  891:
+  - string: Enhances "Diabolic Eye" effect
+  892:
+  - string: Enhances "Muted Soul" effect
+  893:
+  - string: Enhances "Desperate Blows" effect
+  894:
+  - string: '895'
+  895:
+  - string: '896'
+  896:
+  - string: Enhances "Killer Instinct" effect
+  897:
+  - string: Enhances "Feral Howl" effect
+  898:
+  - string: Enhances "Beast Affinity" effect
+  899:
+  - string: Enhances "Beast Healer" effect
+  900:
+  - string: '901'
+  901:
+  - string: '902'
+  902:
+  - string: Enhances "Con Anima" effect
+  903:
+  - string: Enhances "Troubadour" effect
+  904:
+  - string: Enhances "Con Brio" effect
+  905:
+  - string: Enhances "Nightingale" effect
+  906:
+  - string: '907'
+  907:
+  - string: '908'
+  908:
+  - string: Enhances "Recycle" effect
+  909:
+  - string: Enhances "Snapshot" effect
+  910:
+  - string: Enhances "Flashy Shot" effect
+  911:
+  - string: Enhances "Stealth Shot" effect
+  912:
+  - string: '913'
+  913:
+  - string: '914'
+  914:
+  - string: Enhances "Shikikoyo" effect
+  915:
+  - string: Enhances "Overwhelm" effect
+  916:
+  - string: Enhances "Blade Bash" effect
+  917:
+  - string: Enhances "Ikishoten" effect
+  918:
+  - string: '919'
+  919:
+  - string: '920'
+  920:
+  - string: Enhances "Yonin" and "Innin" effect
+  921:
+  - string: Enhances "Sange" effect
+  922:
+  - string: Enh. "Ninja Tool Expertise" effect
+  923:
+  - string: Enh. Ninj. Mag. Acc./Atk.
+  924:
+  - string: '925'
+  925:
+  - string: '926'
+  926:
+  - string: Enhances "Deep Breathing" effect
+  927:
+  - string: Enhances "Angon" effect
+  928:
+  - string: Enhances "Strafe" effect
+  929:
+  - string: Enhances "Empathy" effect
+  930:
+  - string: '931'
+  931:
+  - string: '932'
+  932:
+  - string: Reduces Sp. "Blood Pact" MP cost
+  933:
+  - string: Inc. Sp. "Blood Pact" magic burst dmg.
+  934:
+  - string: Increases Sp. "Blood Pact" accuracy
+  935:
+  - string: Inc. Sp. "Blood Pact" magic crit. dmg.
+  936:
+  - string: '937'
+  937:
+  - string: '938'
+  938:
+  - string: Enhances "Convergence" effect
+  939:
+  - string: Enhances "Enchainment" effect
+  940:
+  - string: Enhances "Assimilation" effect
+  941:
+  - string: Enhances "Diffusion" effect
+  942:
+  - string: '943'
+  943:
+  - string: '944'
+  944:
+  - string: Enhances "Winning Streak" effect
+  945:
+  - string: Enhances "Loaded Deck" effect
+  946:
+  - string: Enhances "Fold" effect
+  947:
+  - string: Enhances "Snake Eye" effect
+  948:
+  - string: '949'
+  949:
+  - string: '950'
+  950:
+  - string: Enhances "Optimization" effect
+  951:
+  - string: Enhances "Fine-Tuning" effect
+  952:
+  - string: Enhances "Ventriloquy" effect
+  953:
+  - string: Enhances "Role Reversal" effect
+  954:
+  - string: '955'
+  955:
+  - string: '956'
+  956:
+  - string: Enhances "No Foot Rise" effect
+  957:
+  - string: Enhances "Fan Dance" effect
+  958:
+  - string: Enhances "Saber Dance" effect
+  959:
+  - string: Enhances "Closed Position" effect
+  960:
+  - string: '961'
+  961:
+  - string: '962'
+  962:
+  - string: Enh. "Altruism" and "Focalization"
+  963:
+  - string: Enhances "Enlightenment" effect
+  964:
+  - string: Enh. "Tranquility" and "Equanimity"
+  965:
+  - string: Enhances "Stormsurge" effect
+  966:
+  - string: '967'
+  967:
+  - string: '968'
+  968:
+  - string: Enhances "Mending Halation" effect
+  969:
+  - string: Enhances "Radial Arcana" effect
+  970:
+  - string: Enhances "Curative Recantation" effect
+  971:
+  - string: Enhances "Primeval Zeal" effect
+  972:
+  - string: '973'
+  973:
+  - string: '974'
+  974:
+  - string: Enhances "Battuta" effect
+  975:
+  - string: Enhances "Rayke" effect
+  976:
+  - string: Enhances "Inspire" effect
+  977:
+  - string: Enhances "Sleight of Sword" effect
+  978:
+  - string: '979'
+  979:
+  - string: '980'
+  980:
+  - string: '981'
+  981:
+  - string: '982'
+  982:
+  - string: '983'
+  983:
+  - string: '984'
+  984:
+  - string: '985'
+  985:
+  - string: '986'
+  986:
+  - string: '987'
+  987:
+  - string: '988'
+  988:
+  - string: '989'
+  989:
+  - string: '990'
+  990:
+  - string: '991'
+  991:
+  - string: '992'
+  992:
+  - string: '993'
+  993:
+  - string: '994'
+  994:
+  - string: '995'
+  995:
+  - string: '996'
+  996:
+  - string: '997'
+  997:
+  - string: '998'
+  998:
+  - string: '999'
+  999:
+  - string: '1000'
+  1000:
+  - string: '1001'
+  1001:
+  - string: '1002'
+  1002:
+  - string: '1003'
+  1003:
+  - string: '1004'
+  1004:
+  - string: '1005'
+  1005:
+  - string: '1006'
+  1006:
+  - string: '1007'
+  1007:
+  - string: '1008'
+  1008:
+  - string: '1009'
+  1009:
+  - string: '1010'
+  1010:
+  - string: '1011'
+  1011:
+  - string: '1012'
+  1012:
+  - string: '1013'
+  1013:
+  - string: '1014'
+  1014:
+  - string: '1015'
+  1015:
+  - string: '1016'
+  1016:
+  - string: '1017'
+  1017:
+  - string: '1018'
+  1018:
+  - string: '1019'
+  1019:
+  - string: '1020'
+  1020:
+  - string: '1021'
+  1021:
+  - string: '1022'
+  1022:
+  - string: ''
+  1023:
+  - string: '----------------'
+  1024:
+  - string: 'Vs. beasts: '
+  1025:
+  - string: 'Vs. plantoids: '
+  1026:
+  - string: 'Vs. vermin: '
+  1027:
+  - string: 'Vs. lizards: '
+  1028:
+  - string: 'Vs. birds: '
+  1029:
+  - string: 'Vs. amorphs: '
+  1030:
+  - string: 'Vs. aquans: '
+  1031:
+  - string: 'Vs. undead: '
+  1032:
+  - string: 'Vs. elementals: '
+  1033:
+  - string: 'Vs. arcana: '
+  1034:
+  - string: 'Vs. Demons: '
+  1035:
+  - string: 'Vs. dragons: '
+  1036:
+  - string: 'Vs. Empty: '
+  1037:
+  - string: 'Vs. Luminians: '
+  1038:
+  - string: 'Mighty Strikes: '
+  1039:
+  - string: 'Hundred Fists: '
+  1040:
+  - string: 'Benediction: '
+  1041:
+  - string: 'Manafont: '
+  1042:
+  - string: 'Chainspell: '
+  1043:
+  - string: 'Perfect Dodge: '
+  1044:
+  - string: 'Invincible: '
+  1045:
+  - string: 'Blood Weapon: '
+  1046:
+  - string: 'Familiar: '
+  1047:
+  - string: 'Soul Voice: '
+  1048:
+  - string: 'Eagle Eye Shot: '
+  1049:
+  - string: 'Meikyo Shisui: '
+  1050:
+  - string: 'Mijin Gakure: '
+  1051:
+  - string: 'Spirit Surge: '
+  1052:
+  - string: 'Astral Flow: '
+  1053:
+  - string: 'Azure Lore: '
+  1054:
+  - string: 'Wild Card: '
+  1055:
+  - string: 'Overdrive: '
+  1056:
+  - string: 'Trance: '
+  1057:
+  - string: 'Tabula Rasa: '
+  1058:
+  - string: 'Hand. wpnskl.: '
+  1059:
+  - string: 'Dagger wpnskl.: '
+  1060:
+  - string: 'Sword wpnskl.: '
+  1061:
+  - string: 'Grtswrd. wpnskl.: '
+  1062:
+  - string: 'Axe wpnskl.: '
+  1063:
+  - string: 'Grtaxe. wpnskl.: '
+  1064:
+  - string: 'Scythe wpnskl.: '
+  1065:
+  - string: 'Polearm wpnskl.: '
+  1066:
+  - string: 'Katana wpnskl.: '
+  1067:
+  - string: 'Grt.ktn. wpnskl.: '
+  1068:
+  - string: 'Club wpnskl.: '
+  1069:
+  - string: 'Staff wpnskl.: '
+  1070:
+  - string: 'Arch. wpnskl.: '
+  1071:
+  - string: 'Mark. wpnskl.: '
+  1072:
+  - string: 'Div. mag. {LIT}: '
+  1073:
+  - string: 'Heal. mag. {LIT}: '
+  1074:
+  - string: 'Enha.mag. {FIR}: '
+  1075:
+  - string: 'Enha.mag. {ICE}: '
+  1076:
+  - string: 'Enha.mag. {WND}: '
+  1077:
+  - string: 'Enha.mag. {ERT}: '
+  1078:
+  - string: 'Enha.mag. {LTG}: '
+  1079:
+  - string: 'Enha.mag. {WTR}: '
+  1080:
+  - string: 'Enha.mag. {LIT}: '
+  1081:
+  - string: 'Enha.mag. {DKN}: '
+  1082:
+  - string: 'Enfb.mag. {FIR}: '
+  1083:
+  - string: 'Enfb.mag. {ICE}: '
+  1084:
+  - string: 'Enfb.mag. {WND}: '
+  1085:
+  - string: 'Enfb.mag. {ERT}: '
+  1086:
+  - string: 'Enfb.mag. {LTG}: '
+  1087:
+  - string: 'Enfb.mag. {WTR}: '
+  1088:
+  - string: 'Enfb.mag. {LIT}: '
+  1089:
+  - string: 'Enfb.mag. {DKN}: '
+  1090:
+  - string: 'Elem.mag. {FIR}: '
+  1091:
+  - string: 'Elem.mag. {ICE}: '
+  1092:
+  - string: 'Elem.mag. {WND}: '
+  1093:
+  - string: 'Elem.mag. {ERT}: '
+  1094:
+  - string: 'Elem.mag. {LTG}: '
+  1095:
+  - string: 'Elem.mag. {WTR}: '
+  1096:
+  - string: 'Elem.mag. {LIT}: '
+  1097:
+  - string: 'Elem.mag. {DKN}: '
+  1098:
+  - string: 'Dark mag. {DKN}: '
+  1099:
+  - string: '{FIR} Songs: '
+  1100:
+  - string: '{ICE} Songs: '
+  1101:
+  - string: '{WND} Songs: '
+  1102:
+  - string: '{ERT} Songs: '
+  1103:
+  - string: '{LTG} Songs: '
+  1104:
+  - string: '{WTR} Songs: '
+  1105:
+  - string: '{LIT} Songs: '
+  1106:
+  - string: '{DKN} Songs: '
+  1107:
+  - string: '{FIR} Ninjutsu: '
+  1108:
+  - string: '{ICE} Ninjutsu: '
+  1109:
+  - string: '{WND} Ninjutsu: '
+  1110:
+  - string: '{ERT} Ninjutsu: '
+  1111:
+  - string: '{LTG} Ninjutsu: '
+  1112:
+  - string: '{WTR} Ninjutsu: '
+  1113:
+  - string: '{LIT} Ninjutsu: '
+  1114:
+  - string: '{DKN} Ninjutsu: '
+  1115:
+  - string: 'Blue magic {FIR}: '
+  1116:
+  - string: 'Blue magic {ICE}: '
+  1117:
+  - string: 'Blue magic {WND}: '
+  1118:
+  - string: 'Blue magic {ERT}: '
+  1119:
+  - string: 'Blue magic {LTG}: '
+  1120:
+  - string: 'Blue magic {WTR}: '
+  1121:
+  - string: 'Blue magic {LIT}: '
+  1122:
+  - string: 'Blue magic {DKN}: '
+  1123:
+  - string: 'Phys. blue magic: '
+  1124:
+  - string: 'Ability delay -%d '
+  1125:
+  - string: 'Recast delay -%d%% '
+  1126:
+  - string: 'TP Bns. %+d%% '
+  1127:
+  - string: 'Cast. time -%d%% '
+  1128:
+  - string: '{FIR} Wthr.: '
+  1129:
+  - string: '{ICE} Wthr.: '
+  1130:
+  - string: '{WND} Wthr.: '
+  1131:
+  - string: '{ERT} Wthr.: '
+  1132:
+  - string: '{LTG} Wthr.: '
+  1133:
+  - string: '{WTR} Wthr.: '
+  1134:
+  - string: '{LIT} Wthr.: '
+  1135:
+  - string: '{DKN} Wthr.: '
+  1136:
+  - string: '{FIR}-aligned sklchn.:'
+  1137:
+  - string: '{ICE}-aligned sklchn.:'
+  1138:
+  - string: '{WND}-aligned sklchn.:'
+  1139:
+  - string: '{ERT}-aligned sklchn.:'
+  1140:
+  - string: '{LTG}-aligned sklchn.:'
+  1141:
+  - string: '{WTR}-aligned sklchn.:'
+  1142:
+  - string: '{LIT}-aligned sklchn.:'
+  1143:
+  - string: '{DKN}-aligned sklchn.:'
+  1144:
+  - string: 'Sklchn.acc.%+d '
+  1145:
+  - string: 'M.B. dmg.%+d%% '
+  1146:
+  - string: '1147'
+  1147:
+  - string: '1148'
+  1148:
+  - string: '1149'
+  1149:
+  - string: '1150'
+  1150:
+  - string: '1151'
+  1151:
+  - string: '1152'
+  1152:
+  - string: '1153'
+  1153:
+  - string: '1154'
+  1154:
+  - string: '1155'
+  1155:
+  - string: '1156'
+  1156:
+  - string: '1157'
+  1157:
+  - string: '1158'
+  1158:
+  - string: '1159'
+  1159:
+  - string: '1160'
+  1160:
+  - string: '1161'
+  1161:
+  - string: '1162'
+  1162:
+  - string: '1163'
+  1163:
+  - string: '1164'
+  1164:
+  - string: '1165'
+  1165:
+  - string: '1166'
+  1166:
+  - string: '1167'
+  1167:
+  - string: '1168'
+  1168:
+  - string: '1169'
+  1169:
+  - string: '1170'
+  1170:
+  - string: '1171'
+  1171:
+  - string: '1172'
+  1172:
+  - string: '1173'
+  1173:
+  - string: '1174'
+  1174:
+  - string: '1175'
+  1175:
+  - string: '1176'
+  1176:
+  - string: '1177'
+  1177:
+  - string: '1178'
+  1178:
+  - string: '1179'
+  1179:
+  - string: '1180'
+  1180:
+  - string: '1181'
+  1181:
+  - string: '1182'
+  1182:
+  - string: '1183'
+  1183:
+  - string: '1184'
+  1184:
+  - string: '1185'
+  1185:
+  - string: '1186'
+  1186:
+  - string: '1187'
+  1187:
+  - string: '1188'
+  1188:
+  - string: '1189'
+  1189:
+  - string: '1190'
+  1190:
+  - string: '1191'
+  1191:
+  - string: '1192'
+  1192:
+  - string: '1193'
+  1193:
+  - string: '1194'
+  1194:
+  - string: '1195'
+  1195:
+  - string: '1196'
+  1196:
+  - string: '1197'
+  1197:
+  - string: '1198'
+  1198:
+  - string: '1199'
+  1199:
+  - string: '1200'
+  1200:
+  - string: '1201'
+  1201:
+  - string: '1202'
+  1202:
+  - string: '1203'
+  1203:
+  - string: '1204'
+  1204:
+  - string: '1205'
+  1205:
+  - string: '1206'
+  1206:
+  - string: '1207'
+  1207:
+  - string: '1208'
+  1208:
+  - string: '1209'
+  1209:
+  - string: '1210'
+  1210:
+  - string: '1211'
+  1211:
+  - string: '1212'
+  1212:
+  - string: '1213'
+  1213:
+  - string: '1214'
+  1214:
+  - string: '1215'
+  1215:
+  - string: '1216'
+  1216:
+  - string: '1217'
+  1217:
+  - string: '1218'
+  1218:
+  - string: '1219'
+  1219:
+  - string: '1220'
+  1220:
+  - string: '1221'
+  1221:
+  - string: '1222'
+  1222:
+  - string: '1223'
+  1223:
+  - string: '1224'
+  1224:
+  - string: '1225'
+  1225:
+  - string: '1226'
+  1226:
+  - string: '1227'
+  1227:
+  - string: '1228'
+  1228:
+  - string: '1229'
+  1229:
+  - string: '1230'
+  1230:
+  - string: '1231'
+  1231:
+  - string: '1232'
+  1232:
+  - string: '1233'
+  1233:
+  - string: '1234'
+  1234:
+  - string: '1235'
+  1235:
+  - string: '1236'
+  1236:
+  - string: '1237'
+  1237:
+  - string: '1238'
+  1238:
+  - string: '1239'
+  1239:
+  - string: '1240'
+  1240:
+  - string: '1241'
+  1241:
+  - string: '1242'
+  1242:
+  - string: '1243'
+  1243:
+  - string: '1244'
+  1244:
+  - string: '1245'
+  1245:
+  - string: '1246'
+  1246:
+  - string: '1247'
+  1247:
+  - string: '1248'
+  1248:
+  - string: 'Enhancing magic effect duration %+d%% '
+  1249:
+  - string: 'Helix eff. dur. %+d%% '
+  1250:
+  - string: 'Indi. eff. dur. %+d%% '
+  1251:
+  - string: 'Enfeebling magic effect duration %+d%% '
+  1252:
+  - string: '1253'
+  1253:
+  - string: '1254'
+  1254:
+  - string: '1255'
+  1255:
+  - string: '1256'
+  1256:
+  - string: '1257'
+  1257:
+  - string: '1258'
+  1258:
+  - string: '1259'
+  1259:
+  - string: '1260'
+  1260:
+  - string: '1261'
+  1261:
+  - string: '1262'
+  1262:
+  - string: '1263'
+  1263:
+  - string: '1264'
+  1264:
+  - string: 'Meditate eff. dur. %+d '
+  1265:
+  - string: '1266'
+  1266:
+  - string: '1267'
+  1267:
+  - string: '1268'
+  1268:
+  - string: '1269'
+  1269:
+  - string: '1270'
+  1270:
+  - string: '1271'
+  1271:
+  - string: '1272'
+  1272:
+  - string: '1273'
+  1273:
+  - string: '1274'
+  1274:
+  - string: '1275'
+  1275:
+  - string: '1276'
+  1276:
+  - string: '1277'
+  1277:
+  - string: '1278'
+  1278:
+  - string: '1279'
+  1279:
+  - string: '1280'
+  1280:
+  - string: 'Exp. Point %+d%% '
+  1281:
+  - string: 'Cap. Point %+d%% '
+  1282:
+  - string: 'Potency of "Regen" effect received %+d '
+  1283:
+  - string: 'TP gained when landing critical hits %+d '
+  1284:
+  - string: '"Drain" potency %+d%% '
+  1285:
+  - string: 'Magic burst damage %+d '
+  1286:
+  - string: 'Magic burst damage II %+d '
+  1287:
+  - string: 'Magic burst accuracy%+d '
+  1288:
+  - string: 'Additional ammo damage %+d%% '
+  1289:
+  - string: 'Additional ammo accuracy %+d '
+  1290:
+  - string: '"Dagan" potency %+d%% '
+  1291:
+  - string: '"Myrkr" potency %+d%% '
+  1292:
+  - string: '"Atonement" enmity%+d '
+  1293:
+  - string: 'Elemental weapon skill damage %+d%% '
+  1294:
+  - string: 'TP during evasion %+d '
+  1295:
+  - string: 'Song effects: "Double Attack"%+d%% '
+  1296:
+  - string: 'Chance of double damage %+d%% '
+  1297:
+  - string: 'Chance of double ranged damage %+d%% '
+  1298:
+  - string: 'Chance of follow-up attack %+d%% '
+  1299:
+  - string: 'Chance of ranged follow-up attack %+d%% '
+  1300:
+  - string: 'Healing magic recast time -%d%% '
+  1301:
+  - string: 'Ninjutsu recast time -%d%% '
+  1302:
+  - string: '"Double Attack" damage %+d%% '
+  1303:
+  - string: '"Counter" damage %+d%% '
+  1304:
+  - string: '"Mana Wall"%+d%% '
+  1305:
+  - string: '"Triple Attack" damage %+d%% '
+  1306:
+  - string: 'Absorb" casting time -%d%% '
+  1307:
+  - string: 'Ninjutsu casting time -%d%% '
+  1308:
+  - string: 'Chance of doubling "Blood Pact" status %+d%% '
+  1309:
+  - string: 'Luopan duration %+d%% '
+  1310:
+  - string: '"Vivacious Pulse" potency %+d%% '
+  1311:
+  - string: 'All Jumps: Damage%+d%%'
+  1312:
+  - string: 'Main hand: '
+  1313:
+  - string: 'Absorbs damage taken %+d%% '
+  1314:
+  - string: 'Special attack damage%+d%% '
+  1315:
+  - string: '1316'
+  1316:
+  - string: '1317'
+  1317:
+  - string: '1318'
+  1318:
+  - string: '1319'
+  1319:
+  - string: '1320'
+  1320:
+  - string: '1321'
+  1321:
+  - string: '1322'
+  1322:
+  - string: '1323'
+  1323:
+  - string: '1324'
+  1324:
+  - string: '1325'
+  1325:
+  - string: '1326'
+  1326:
+  - string: '1327'
+  1327:
+  - string: '1328'
+  1328:
+  - string: '1329'
+  1329:
+  - string: '1330'
+  1330:
+  - string: '1331'
+  1331:
+  - string: '1332'
+  1332:
+  - string: '1333'
+  1333:
+  - string: '1334'
+  1334:
+  - string: '1335'
+  1335:
+  - string: '1336'
+  1336:
+  - string: '1337'
+  1337:
+  - string: '1338'
+  1338:
+  - string: '1339'
+  1339:
+  - string: '1340'
+  1340:
+  - string: '1341'
+  1341:
+  - string: '1342'
+  1342:
+  - string: '1343'
+  1343:
+  - string: '1344'
+  1344:
+  - string: '1345'
+  1345:
+  - string: '1346'
+  1346:
+  - string: '1347'
+  1347:
+  - string: '1348'
+  1348:
+  - string: '1349'
+  1349:
+  - string: '1350'
+  1350:
+  - string: '1351'
+  1351:
+  - string: '1352'
+  1352:
+  - string: '1353'
+  1353:
+  - string: '1354'
+  1354:
+  - string: '1355'
+  1355:
+  - string: '1356'
+  1356:
+  - string: '1357'
+  1357:
+  - string: '1358'
+  1358:
+  - string: '1359'
+  1359:
+  - string: '1360'
+  1360:
+  - string: '1361'
+  1361:
+  - string: '1362'
+  1362:
+  - string: '1363'
+  1363:
+  - string: '1364'
+  1364:
+  - string: '1365'
+  1365:
+  - string: '1366'
+  1366:
+  - string: '1367'
+  1367:
+  - string: '1368'
+  1368:
+  - string: '1369'
+  1369:
+  - string: '1370'
+  1370:
+  - string: '1371'
+  1371:
+  - string: '1372'
+  1372:
+  - string: '1373'
+  1373:
+  - string: '1374'
+  1374:
+  - string: '1375'
+  1375:
+  - string: '1376'
+  1376:
+  - string: '1377'
+  1377:
+  - string: '1378'
+  1378:
+  - string: '1379'
+  1379:
+  - string: '1380'
+  1380:
+  - string: '1381'
+  1381:
+  - string: '1382'
+  1382:
+  - string: '1383'
+  1383:
+  - string: '1384'
+  1384:
+  - string: '1385'
+  1385:
+  - string: '1386'
+  1386:
+  - string: '1387'
+  1387:
+  - string: '1388'
+  1388:
+  - string: '1389'
+  1389:
+  - string: '1390'
+  1390:
+  - string: '1391'
+  1391:
+  - string: '1392'
+  1392:
+  - string: '1393'
+  1393:
+  - string: '1394'
+  1394:
+  - string: '1395'
+  1395:
+  - string: '1396'
+  1396:
+  - string: '1397'
+  1397:
+  - string: '1398'
+  1398:
+  - string: '1399'
+  1399:
+  - string: '1400'
+  1400:
+  - string: '1401'
+  1401:
+  - string: '1402'
+  1402:
+  - string: '1403'
+  1403:
+  - string: '1404'
+  1404:
+  - string: '1405'
+  1405:
+  - string: '1406'
+  1406:
+  - string: '1407'
+  1407:
+  - string: '1408'
+  1408:
+  - string: '1409'
+  1409:
+  - string: '1410'
+  1410:
+  - string: '1411'
+  1411:
+  - string: '1412'
+  1412:
+  - string: '1413'
+  1413:
+  - string: '1414'
+  1414:
+  - string: '1415'
+  1415:
+  - string: '1416'
+  1416:
+  - string: '1417'
+  1417:
+  - string: '1418'
+  1418:
+  - string: '1419'
+  1419:
+  - string: '1420'
+  1420:
+  - string: '1421'
+  1421:
+  - string: '1422'
+  1422:
+  - string: '1423'
+  1423:
+  - string: '1424'
+  1424:
+  - string: '1425'
+  1425:
+  - string: '1426'
+  1426:
+  - string: '1427'
+  1427:
+  - string: '1428'
+  1428:
+  - string: '1429'
+  1429:
+  - string: '1430'
+  1430:
+  - string: '1431'
+  1431:
+  - string: '1432'
+  1432:
+  - string: '1433'
+  1433:
+  - string: '1434'
+  1434:
+  - string: '1435'
+  1435:
+  - string: '1436'
+  1436:
+  - string: '1437'
+  1437:
+  - string: '1438'
+  1438:
+  - string: '1439'
+  1439:
+  - string: '1440'
+  1440:
+  - string: '1441'
+  1441:
+  - string: '1442'
+  1442:
+  - string: '1443'
+  1443:
+  - string: '1444'
+  1444:
+  - string: '1445'
+  1445:
+  - string: '1446'
+  1446:
+  - string: '1447'
+  1447:
+  - string: '1448'
+  1448:
+  - string: '1449'
+  1449:
+  - string: '1450'
+  1450:
+  - string: '1451'
+  1451:
+  - string: '1452'
+  1452:
+  - string: '1453'
+  1453:
+  - string: '1454'
+  1454:
+  - string: '1455'
+  1455:
+  - string: '1456'
+  1456:
+  - string: '1457'
+  1457:
+  - string: '1458'
+  1458:
+  - string: '1459'
+  1459:
+  - string: '1460'
+  1460:
+  - string: '1461'
+  1461:
+  - string: '1462'
+  1462:
+  - string: '1463'
+  1463:
+  - string: '1464'
+  1464:
+  - string: '1465'
+  1465:
+  - string: '1466'
+  1466:
+  - string: '1467'
+  1467:
+  - string: '1468'
+  1468:
+  - string: '1469'
+  1469:
+  - string: '1470'
+  1470:
+  - string: '1471'
+  1471:
+  - string: '1472'
+  1472:
+  - string: '1473'
+  1473:
+  - string: '1474'
+  1474:
+  - string: '1475'
+  1475:
+  - string: '1476'
+  1476:
+  - string: '1477'
+  1477:
+  - string: '1478'
+  1478:
+  - string: '1479'
+  1479:
+  - string: '1480'
+  1480:
+  - string: '1481'
+  1481:
+  - string: '1482'
+  1482:
+  - string: '1483'
+  1483:
+  - string: '1484'
+  1484:
+  - string: '1485'
+  1485:
+  - string: '1486'
+  1486:
+  - string: '1487'
+  1487:
+  - string: '1488'
+  1488:
+  - string: '1489'
+  1489:
+  - string: '1490'
+  1490:
+  - string: '1491'
+  1491:
+  - string: '1492'
+  1492:
+  - string: '1493'
+  1493:
+  - string: '1494'
+  1494:
+  - string: '1495'
+  1495:
+  - string: '1496'
+  1496:
+  - string: '1497'
+  1497:
+  - string: '1498'
+  1498:
+  - string: '1499'
+  1499:
+  - string: '1500'
+  1500:
+  - string: '1501'
+  1501:
+  - string: '1502'
+  1502:
+  - string: '1503'
+  1503:
+  - string: '1504'
+  1504:
+  - string: '1505'
+  1505:
+  - string: '1506'
+  1506:
+  - string: '1507'
+  1507:
+  - string: '1508'
+  1508:
+  - string: '1509'
+  1509:
+  - string: '1510'
+  1510:
+  - string: '1511'
+  1511:
+  - string: '1512'
+  1512:
+  - string: '1513'
+  1513:
+  - string: '1514'
+  1514:
+  - string: '1515'
+  1515:
+  - string: '1516'
+  1516:
+  - string: '1517'
+  1517:
+  - string: '1518'
+  1518:
+  - string: '1519'
+  1519:
+  - string: '1520'
+  1520:
+  - string: '1521'
+  1521:
+  - string: '1522'
+  1522:
+  - string: '1523'
+  1523:
+  - string: '1524'
+  1524:
+  - string: '1525'
+  1525:
+  - string: '1526'
+  1526:
+  - string: '1527'
+  1527:
+  - string: '1528'
+  1528:
+  - string: '1529'
+  1529:
+  - string: '1530'
+  1530:
+  - string: '1531'
+  1531:
+  - string: '1532'
+  1532:
+  - string: '1533'
+  1533:
+  - string: '1534'
+  1534:
+  - string: '1535'
+  1535:
+  - string: '1536'
+  1536:
+  - string: '"Subtle Blow II"%+d '
+  1537:
+  - string: '1538'
+  1538:
+  - string: '1539'
+  1539:
+  - string: '1540'
+  1540:
+  - string: '1541'
+  1541:
+  - string: '1542'
+  1542:
+  - string: '1543'
+  1543:
+  - string: '1544'
+  1544:
+  - string: '1545'
+  1545:
+  - string: '1546'
+  1546:
+  - string: '1547'
+  1547:
+  - string: '1548'
+  1548:
+  - string: '1549'
+  1549:
+  - string: '1550'
+  1550:
+  - string: '1551'
+  1551:
+  - string: '1552'
+  1552:
+  - string: '1553'
+  1553:
+  - string: '1554'
+  1554:
+  - string: '1555'
+  1555:
+  - string: '1556'
+  1556:
+  - string: '1557'
+  1557:
+  - string: '1558'
+  1558:
+  - string: '1559'
+  1559:
+  - string: '1560'
+  1560:
+  - string: '1561'
+  1561:
+  - string: '1562'
+  1562:
+  - string: '1563'
+  1563:
+  - string: '1564'
+  1564:
+  - string: '1565'
+  1565:
+  - string: '1566'
+  1566:
+  - string: '1567'
+  1567:
+  - string: '1568'
+  1568:
+  - string: '1569'
+  1569:
+  - string: '1570'
+  1570:
+  - string: '1571'
+  1571:
+  - string: '1572'
+  1572:
+  - string: '1573'
+  1573:
+  - string: '1574'
+  1574:
+  - string: '1575'
+  1575:
+  - string: '1576'
+  1576:
+  - string: '1577'
+  1577:
+  - string: '1578'
+  1578:
+  - string: '1579'
+  1579:
+  - string: '1580'
+  1580:
+  - string: '1581'
+  1581:
+  - string: '1582'
+  1582:
+  - string: '1583'
+  1583:
+  - string: '1584'
+  1584:
+  - string: '1585'
+  1585:
+  - string: '1586'
+  1586:
+  - string: '1587'
+  1587:
+  - string: '1588'
+  1588:
+  - string: '1589'
+  1589:
+  - string: '1590'
+  1590:
+  - string: '1591'
+  1591:
+  - string: '1592'
+  1592:
+  - string: '1593'
+  1593:
+  - string: '1594'
+  1594:
+  - string: '1595'
+  1595:
+  - string: '1596'
+  1596:
+  - string: '1597'
+  1597:
+  - string: '1598'
+  1598:
+  - string: '1599'
+  1599:
+  - string: '1600'
+  1600:
+  - string: '"Chakra"%+d '
+  1601:
+  - string: '"Afflatus Misery" stored %+d%% '
+  1602:
+  - string: '"Unlimited Shot": Ranged damage %+d'
+  1603:
+  - string: '"Unlimited Shot" recast time -%d%%'
+  1604:
+  - string: '"Sekkanoki" recast time -%d%%'
+  1605:
+  - string: '"Sekkanoki": Weapon skill damage %+d%%'
+  1606:
+  - string: '"Chain Affinity" recast time -%d%%'
+  1607:
+  - string: '"Burst Affinity" recast time -%d%%'
+  1608:
+  - string: '"Phantom Roll" effect duration %+d'
+  1609:
+  - string: '"Phantom Roll"%+d'
+  1610:
+  - string: '"Phantom Roll 11": Recover HP & MP %+d%%'
+  1611:
+  - string: '"Flourish" recast time -%d%%'
+  1612:
+  - string: '"Step" duration %+d'
+  1613:
+  - string: '1614'
+  1614:
+  - string: '1615'
+  1615:
+  - string: '1616'
+  1616:
+  - string: '1617'
+  1617:
+  - string: '1618'
+  1618:
+  - string: '1619'
+  1619:
+  - string: '1620'
+  1620:
+  - string: '1621'
+  1621:
+  - string: '1622'
+  1622:
+  - string: '1623'
+  1623:
+  - string: '1624'
+  1624:
+  - string: '1625'
+  1625:
+  - string: '1626'
+  1626:
+  - string: '1627'
+  1627:
+  - string: '1628'
+  1628:
+  - string: '1629'
+  1629:
+  - string: '1630'
+  1630:
+  - string: '1631'
+  1631:
+  - string: '1632'
+  1632:
+  - string: '1633'
+  1633:
+  - string: '1634'
+  1634:
+  - string: '1635'
+  1635:
+  - string: '1636'
+  1636:
+  - string: '1637'
+  1637:
+  - string: '1638'
+  1638:
+  - string: '1639'
+  1639:
+  - string: '1640'
+  1640:
+  - string: '1641'
+  1641:
+  - string: '1642'
+  1642:
+  - string: '1643'
+  1643:
+  - string: '1644'
+  1644:
+  - string: '1645'
+  1645:
+  - string: '1646'
+  1646:
+  - string: '1647'
+  1647:
+  - string: '1648'
+  1648:
+  - string: '1649'
+  1649:
+  - string: '1650'
+  1650:
+  - string: '1651'
+  1651:
+  - string: '1652'
+  1652:
+  - string: '1653'
+  1653:
+  - string: '1654'
+  1654:
+  - string: '1655'
+  1655:
+  - string: '1656'
+  1656:
+  - string: '1657'
+  1657:
+  - string: '1658'
+  1658:
+  - string: '1659'
+  1659:
+  - string: '1660'
+  1660:
+  - string: '1661'
+  1661:
+  - string: '1662'
+  1662:
+  - string: '1663'
+  1663:
+  - string: 'Main Wpn:'
+  1664:
+  - string: 'Sub Wpn:'
+  1665:
+  - string: 'Ranged:'
+  1666:
+  - string: 'Ammo:'
+  1667:
+  - string: 'Head:'
+  1668:
+  - string: 'Chest:'
+  1669:
+  - string: 'Hands:'
+  1670:
+  - string: 'Legs:'
+  1671:
+  - string: 'Feet:'
+  1672:
+  - string: 'Neck:'
+  1673:
+  - string: 'Waist:'
+  1674:
+  - string: 'L. Ear:'
+  1675:
+  - string: 'R. Ear:'
+  1676:
+  - string: 'L. Fing.:'
+  1677:
+  - string: 'R. Fing.:'
+  1678:
+  - string: 'Back:'
+  1679:
+  - string: '1680'
+  1680:
+  - string: '1681'
+  1681:
+  - string: '1682'
+  1682:
+  - string: '1683'
+  1683:
+  - string: '1684'
+  1684:
+  - string: '1685'
+  1685:
+  - string: '1686'
+  1686:
+  - string: '1687'
+  1687:
+  - string: '1688'
+  1688:
+  - string: '1689'
+  1689:
+  - string: '1690'
+  1690:
+  - string: '1691'
+  1691:
+  - string: '1692'
+  1692:
+  - string: '1693'
+  1693:
+  - string: '1694'
+  1694:
+  - string: '1695'
+  1695:
+  - string: '1696'
+  1696:
+  - string: '1697'
+  1697:
+  - string: '1698'
+  1698:
+  - string: '1699'
+  1699:
+  - string: '1700'
+  1700:
+  - string: '1701'
+  1701:
+  - string: '1702'
+  1702:
+  - string: '1703'
+  1703:
+  - string: '1704'
+  1704:
+  - string: '1705'
+  1705:
+  - string: '1706'
+  1706:
+  - string: '1707'
+  1707:
+  - string: '1708'
+  1708:
+  - string: '1709'
+  1709:
+  - string: '1710'
+  1710:
+  - string: '1711'
+  1711:
+  - string: '1712'
+  1712:
+  - string: '1713'
+  1713:
+  - string: '1714'
+  1714:
+  - string: '1715'
+  1715:
+  - string: '1716'
+  1716:
+  - string: '1717'
+  1717:
+  - string: '1718'
+  1718:
+  - string: '1719'
+  1719:
+  - string: '1720'
+  1720:
+  - string: '1721'
+  1721:
+  - string: '1722'
+  1722:
+  - string: '1723'
+  1723:
+  - string: '1724'
+  1724:
+  - string: '1725'
+  1725:
+  - string: '1726'
+  1726:
+  - string: '1727'
+  1727:
+  - string: '1728'
+  1728:
+  - string: '1729'
+  1729:
+  - string: '1730'
+  1730:
+  - string: '1731'
+  1731:
+  - string: '1732'
+  1732:
+  - string: '1733'
+  1733:
+  - string: '1734'
+  1734:
+  - string: '1735'
+  1735:
+  - string: '1736'
+  1736:
+  - string: '1737'
+  1737:
+  - string: '1738'
+  1738:
+  - string: '1739'
+  1739:
+  - string: '1740'
+  1740:
+  - string: '1741'
+  1741:
+  - string: '1742'
+  1742:
+  - string: '1743'
+  1743:
+  - string: '1744'
+  1744:
+  - string: '1745'
+  1745:
+  - string: '1746'
+  1746:
+  - string: '1747'
+  1747:
+  - string: '1748'
+  1748:
+  - string: '1749'
+  1749:
+  - string: '1750'
+  1750:
+  - string: '1751'
+  1751:
+  - string: '1752'
+  1752:
+  - string: '1753'
+  1753:
+  - string: '1754'
+  1754:
+  - string: '1755'
+  1755:
+  - string: '1756'
+  1756:
+  - string: '1757'
+  1757:
+  - string: '1758'
+  1758:
+  - string: '1759'
+  1759:
+  - string: '1760'
+  1760:
+  - string: '1761'
+  1761:
+  - string: '1762'
+  1762:
+  - string: '1763'
+  1763:
+  - string: '1764'
+  1764:
+  - string: '1765'
+  1765:
+  - string: '1766'
+  1766:
+  - string: '1767'
+  1767:
+  - string: '1768'
+  1768:
+  - string: '1769'
+  1769:
+  - string: '1770'
+  1770:
+  - string: '1771'
+  1771:
+  - string: '1772'
+  1772:
+  - string: '1773'
+  1773:
+  - string: '1774'
+  1774:
+  - string: '1775'
+  1775:
+  - string: '1776'
+  1776:
+  - string: '1777'
+  1777:
+  - string: '1778'
+  1778:
+  - string: '1779'
+  1779:
+  - string: '1780'
+  1780:
+  - string: '1781'
+  1781:
+  - string: '1782'
+  1782:
+  - string: '1783'
+  1783:
+  - string: '1784'
+  1784:
+  - string: '1785'
+  1785:
+  - string: '1786'
+  1786:
+  - string: '1787'
+  1787:
+  - string: '1788'
+  1788:
+  - string: '1789'
+  1789:
+  - string: '1790'
+  1790:
+  - string: '1791'
+  1791:
+  - string: '1792'
+  1792:
+  - string: '1793'
+  1793:
+  - string: '1794'
+  1794:
+  - string: '1795'
+  1795:
+  - string: '1796'
+  1796:
+  - string: '1797'
+  1797:
+  - string: '1798'
+  1798:
+  - string: '1799'
+  1799:
+  - string: '1800'
+  1800:
+  - string: '1801'
+  1801:
+  - string: '1802'
+  1802:
+  - string: '1803'
+  1803:
+  - string: '1804'
+  1804:
+  - string: '1805'
+  1805:
+  - string: '1806'
+  1806:
+  - string: '1807'
+  1807:
+  - string: '1808'
+  1808:
+  - string: '1809'
+  1809:
+  - string: '1810'
+  1810:
+  - string: '1811'
+  1811:
+  - string: '1812'
+  1812:
+  - string: '1813'
+  1813:
+  - string: '1814'
+  1814:
+  - string: '1815'
+  1815:
+  - string: '1816'
+  1816:
+  - string: '1817'
+  1817:
+  - string: '1818'
+  1818:
+  - string: '1819'
+  1819:
+  - string: '1820'
+  1820:
+  - string: '1821'
+  1821:
+  - string: '1822'
+  1822:
+  - string: '1823'
+  1823:
+  - string: '1824'
+  1824:
+  - string: '1825'
+  1825:
+  - string: '1826'
+  1826:
+  - string: '1827'
+  1827:
+  - string: '1828'
+  1828:
+  - string: '1829'
+  1829:
+  - string: '1830'
+  1830:
+  - string: '1831'
+  1831:
+  - string: '1832'
+  1832:
+  - string: '1833'
+  1833:
+  - string: '1834'
+  1834:
+  - string: '1835'
+  1835:
+  - string: '1836'
+  1836:
+  - string: '1837'
+  1837:
+  - string: '1838'
+  1838:
+  - string: '1839'
+  1839:
+  - string: '1840'
+  1840:
+  - string: '1841'
+  1841:
+  - string: '1842'
+  1842:
+  - string: '1843'
+  1843:
+  - string: '1844'
+  1844:
+  - string: '1845'
+  1845:
+  - string: '1846'
+  1846:
+  - string: '1847'
+  1847:
+  - string: '1848'
+  1848:
+  - string: '1849'
+  1849:
+  - string: '1850'
+  1850:
+  - string: '1851'
+  1851:
+  - string: '1852'
+  1852:
+  - string: '1853'
+  1853:
+  - string: '1854'
+  1854:
+  - string: '1855'
+  1855:
+  - string: '1856'
+  1856:
+  - string: '1857'
+  1857:
+  - string: '1858'
+  1858:
+  - string: '1859'
+  1859:
+  - string: '1860'
+  1860:
+  - string: '1861'
+  1861:
+  - string: '1862'
+  1862:
+  - string: '1863'
+  1863:
+  - string: '1864'
+  1864:
+  - string: '1865'
+  1865:
+  - string: '1866'
+  1866:
+  - string: '1867'
+  1867:
+  - string: '1868'
+  1868:
+  - string: '1869'
+  1869:
+  - string: '1870'
+  1870:
+  - string: '1871'
+  1871:
+  - string: '1872'
+  1872:
+  - string: '1873'
+  1873:
+  - string: '1874'
+  1874:
+  - string: '1875'
+  1875:
+  - string: '1876'
+  1876:
+  - string: '1877'
+  1877:
+  - string: '1878'
+  1878:
+  - string: '1879'
+  1879:
+  - string: '1880'
+  1880:
+  - string: '1881'
+  1881:
+  - string: '1882'
+  1882:
+  - string: '1883'
+  1883:
+  - string: '1884'
+  1884:
+  - string: '1885'
+  1885:
+  - string: '1886'
+  1886:
+  - string: '1887'
+  1887:
+  - string: '1888'
+  1888:
+  - string: '1889'
+  1889:
+  - string: '1890'
+  1890:
+  - string: '1891'
+  1891:
+  - string: '1892'
+  1892:
+  - string: '1893'
+  1893:
+  - string: '1894'
+  1894:
+  - string: '1895'
+  1895:
+  - string: '1896'
+  1896:
+  - string: '1897'
+  1897:
+  - string: '1898'
+  1898:
+  - string: '1899'
+  1899:
+  - string: '1900'
+  1900:
+  - string: '1901'
+  1901:
+  - string: '1902'
+  1902:
+  - string: '1903'
+  1903:
+  - string: '1904'
+  1904:
+  - string: '1905'
+  1905:
+  - string: '1906'
+  1906:
+  - string: '1907'
+  1907:
+  - string: '1908'
+  1908:
+  - string: '1909'
+  1909:
+  - string: '1910'
+  1910:
+  - string: '1911'
+  1911:
+  - string: '1912'
+  1912:
+  - string: '1913'
+  1913:
+  - string: '1914'
+  1914:
+  - string: '1915'
+  1915:
+  - string: '1916'
+  1916:
+  - string: '1917'
+  1917:
+  - string: '1918'
+  1918:
+  - string: '1919'
+  1919:
+  - string: '1920'
+  1920:
+  - string: '1921'
+  1921:
+  - string: '1922'
+  1922:
+  - string: '1923'
+  1923:
+  - string: '1924'
+  1924:
+  - string: '1925'
+  1925:
+  - string: '1926'
+  1926:
+  - string: '1927'
+  1927:
+  - string: '1928'
+  1928:
+  - string: '1929'
+  1929:
+  - string: '1930'
+  1930:
+  - string: '1931'
+  1931:
+  - string: '1932'
+  1932:
+  - string: '1933'
+  1933:
+  - string: '1934'
+  1934:
+  - string: '1935'
+  1935:
+  - string: '1936'
+  1936:
+  - string: '1937'
+  1937:
+  - string: '1938'
+  1938:
+  - string: '1939'
+  1939:
+  - string: '1940'
+  1940:
+  - string: '1941'
+  1941:
+  - string: '1942'
+  1942:
+  - string: '1943'
+  1943:
+  - string: '1944'
+  1944:
+  - string: '1945'
+  1945:
+  - string: '1946'
+  1946:
+  - string: '1947'
+  1947:
+  - string: '1948'
+  1948:
+  - string: '1949'
+  1949:
+  - string: 'For craftsmanship upgrade:'
+  1950:
+  - string: Perform a synthesis
+  1951:
+  - string: Craft between 6:00 and 17:59
+  1952:
+  - string: Craft between 18:00 and 5:59
+  1953:
+  - string: Craft Recruit/Initiate recipes
+  1954:
+  - string: Craft Novice/Apprentice recipes
+  1955:
+  - string: Craft Journeyman/Craftsman recipes
+  1956:
+  - string: Craft Artisan/Adept recipes
+  1957:
+  - string: Craft Veteran recipes
+  1958:
+  - string: Craft Expert and higher recipes
+  1959:
+  - string: Craft w/fire crystals
+  1960:
+  - string: Craft w/ice crystals
+  1961:
+  - string: Craft w/wind crystals
+  1962:
+  - string: Craft w/earth crystals
+  1963:
+  - string: Craft w/lightning crystals
+  1964:
+  - string: Craft w/water crystals
+  1965:
+  - string: Craft w/light crystals
+  1966:
+  - string: Craft w/dark crystals
+  1967:
+  - string: Craft on Firesday
+  1968:
+  - string: Craft on Iceday
+  1969:
+  - string: Craft on Windsday
+  1970:
+  - string: Craft on Earthday
+  1971:
+  - string: Craft on Lightningday
+  1972:
+  - string: Craft on Watersday
+  1973:
+  - string: Craft on Lightsday
+  1974:
+  - string: Craft on Darksday
+  1975:
+  - string: Use 3+ materials
+  1976:
+  - string: Use 5+ materials
+  1977:
+  - string: Use 7+ materials
+  1978:
+  - string: '1979'
+  1979:
+  - string: '1980'
+  1980:
+  - string: '1981'
+  1981:
+  - string: '1982'
+  1982:
+  - string: '1983'
+  1983:
+  - string: '1984'
+  1984:
+  - string: '1985'
+  1985:
+  - string: '1986'
+  1986:
+  - string: '1987'
+  1987:
+  - string: '1988'
+  1988:
+  - string: '1989'
+  1989:
+  - string: '1990'
+  1990:
+  - string: '1991'
+  1991:
+  - string: '1992'
+  1992:
+  - string: '1993'
+  1993:
+  - string: '1994'
+  1994:
+  - string: '1995'
+  1995:
+  - string: '1996'
+  1996:
+  - string: '1997'
+  1997:
+  - string: '1998'
+  1998:
+  - string: Synthesis success rate %+d
+  1999:
+  - string: /
+  2000:
+  - string: '%+d '
+  2001:
+  - string: '%+d%% '
+  2002:
+  - string: STR
+  2003:
+  - string: DEX
+  2004:
+  - string: VIT
+  2005:
+  - string: AGI
+  2006:
+  - string: INT
+  2007:
+  - string: MND
+  2008:
+  - string: CHR
+  2009:
+  - string: All Attr.
+  2010:
+  - string: '2011'
+  2011:
+  - string: '2012'
+  2012:
+  - string: '2013'
+  2013:
+  - string: '2014'
+  2014:
+  - string: '2015'
+  2015:
+  - string: '2016'
+  2016:
+  - string: '2017'
+  2017:
+  - string: '2018'
+  2018:
+  - string: '2019'
+  2019:
+  - string: '2020'
+  2020:
+  - string: '2021'
+  2021:
+  - string: '2022'
+  2022:
+  - string: '2023'
+  2023:
+  - string: '2024'
+  2024:
+  - string: '2025'
+  2025:
+  - string: '2026'
+  2026:
+  - string: '2027'
+  2027:
+  - string: '2028'
+  2028:
+  - string: '2029'
+  2029:
+  - string: '2030'
+  2030:
+  - string: '2031'
+  2031:
+  - string: '2032'
+  2032:
+  - string: '2033'
+  2033:
+  - string: '2034'
+  2034:
+  - string: '2035'
+  2035:
+  - string: '2036'
+  2036:
+  - string: '2037'
+  2037:
+  - string: '2038'
+  2038:
+  - string: '2039'
+  2039:
+  - string: '2040'
+  2040:
+  - string: '2041'
+  2041:
+  - string: '2042'
+  2042:
+  - string: 'Alter Ego: '
+  2043:
+  - string: 'Luopan: '
+  2044:
+  - string: 'Wyvern: '
+  2045:
+  - string: 'Automaton: '
+  2046:
+  - string: ???
+  2047:
+  - string: '[Trial %d]'
