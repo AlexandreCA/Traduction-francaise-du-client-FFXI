@@ -18030,15 +18030,15 @@ entries:
   7390: 'DÉBOGAGE : U_MS_START= "${number: 0}"${prompt}'
   7391: 'DÉBOGAGE : Suis allé à Davoi, ai obtenu le rapport.${prompt}'
   7392: |-
-    Clear Conditions Fulfilled:
+    Conditions de réussite remplies :
     ${selection-lines}
-    1-1　Brought back Orcish Axe.
-    1-2　Brought back Bat Fang.
-    1-3　Rescued the children.
-    2-1　Training complete.
-    2-2　Finished Davoi village.
-    2-3　Visited other countries.
-    3-1　Davoi Killing Grounds.
+    1-1　Hache orque rapportée.
+    1-2　Croc de chauve-souris rapporté.
+    1-3　Enfants secourus.
+    2-1　Entraînement terminé.
+    2-2　Village de Davoi terminé.
+    2-3　Autres pays visités.
+    3-1　Terrains de chasse de Davoi.
     3-2.
     3-3.
     4-1.
@@ -18057,379 +18057,379 @@ entries:
     9-2.
     10-1.
     10-2.${prompt}
-  7393: Trick or treat...${prompt}
+  7393: Un bonbon ou un sort...${prompt}
   7394: |-
-    Thank you...
-    And now for your treat...${prompt}
-  7395: Here, take this...${prompt}
-  7396: If you put this on and walk around, something...unexpected might happen...${prompt}
-  7397: Thank you...${prompt}
-  7398: If two people with the same costumes form a party and approach a bomb balloon, then...${prompt}
-  7399: The Troupe Valeriano, at your service! Well, I'm more of a behind-the-scenes kinda gal, not an entertainer.${prompt}
-  7400: People call me “Nokky the Tree-shaker”! While the other guys are doing their thing, I work on the sidelines as a quiver-maker. Basically, I can make it easier for you to lug around those bundles of ninety-nine arrows or bolts or whatever.${prompt}
-  7401: I've been doing this for a while now, so I've learned to bundle all sorts of stuff...${prompt}
-  7402: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, and ${item-plural: 5[2]} I''ve always been able to do...${prompt}'
-  7403: 'But now I can also bundle ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, and ${item-plural: 5[2]}.${prompt}'
-  7404: 'Not to mention ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, ${item-plural: 5[2]}, and ${item-plural: 6[2]}.${prompt}'
-  7405: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 2[2]}, and plain old ${item-plural: 1[2]}!${prompt}'
-  7406: 'And of course, ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, and ${item-plural: 4[2]}!${prompt}'
-  7407: 'Then there''s everyone''s favorite ${item-plural: 0[2]}, ${item-plural: 1[2]}, and ${item-plural: 2[2]}.${prompt}'
-  7408: 'Finally, new to my bundling repertoire, we have ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, and ${item-plural: 3[2]}!${prompt}'
-  7409: I can even bundle those elemental cards that corsairs use!${prompt}
+    Merci...
+    Et maintenant votre récompense...${prompt}
+  7395: Tenez, prenez ceci...${prompt}
+  7396: Si vous mettez ceci et vous promenez, quelque chose... d'inattendu pourrait arriver...${prompt}
+  7397: Merci...${prompt}
+  7398: Si deux personnes avec les mêmes costumes forment un groupe et s'approchent d'un ballon bombe, alors...${prompt}
+  7399: La Troupe Valeriano, à votre service ! Enfin, je suis plutôt du genre coulisses, pas une artiste.${prompt}
+  7400: Les gens m'appellent « Nokky la Secoueuse d'arbres » ! Pendant que les autres gars font leur truc, je travaille en coulisses comme fabricante de carquois. En gros, je peux faciliter le transport de ces paquets de quatre-vingt-dix-neuf flèches ou carreaux ou autre.${prompt}
+  7401: Je fais ça depuis un moment maintenant, alors j'ai appris à emballer toutes sortes de choses...${prompt}
+  7402: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]} et ${item-plural: 5[2]}, j''ai toujours pu le faire...${prompt}'
+  7403: 'Mais maintenant je peux aussi emballer ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]} et ${item-plural: 5[2]}.${prompt}'
+  7404: 'Sans parler de ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]}, ${item-plural: 4[2]}, ${item-plural: 5[2]} et ${item-plural: 6[2]}.${prompt}'
+  7405: '${lettercase: 1}${item-plural: 0[2]}, ${item-plural: 2[2]} et de bons vieux ${item-plural: 1[2]} !${prompt}'
+  7406: 'Et bien sûr, ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]}, ${item-plural: 3[2]} et ${item-plural: 4[2]} !${prompt}'
+  7407: 'Ensuite il y a les favoris de tous, ${item-plural: 0[2]}, ${item-plural: 1[2]} et ${item-plural: 2[2]}.${prompt}'
+  7408: 'Enfin, nouveau dans mon répertoire d''emballage, nous avons ${item-plural: 0[2]}, ${item-plural: 1[2]}, ${item-plural: 2[2]} et ${item-plural: 3[2]} !${prompt}'
+  7409: Je peux même emballer ces cartes élémentaires que les corsaires utilisent !${prompt}
   7410: |-
-    Aren't you imprrressed?
-    Keeping up with all these new types of ammunition is hard work!${prompt}
-  7411: Oh, and for the rrrecord, anything else is too much trrrouble to deal with. Not my thing.${prompt}
-  7412: 'This ain''t no charity, though. I''m not really interested in gil, but... Let''s see here... Flowers...? Yeah, you bring me ${article} ${item-article: 0[2]} for every ninety-nine arrows, bolts, or whatever you want organized, and we got a deal. ${prompt}'
-  7413: 'I can make a quiver or pouch for up to seven sets of the same kind of ammunition. So you could bring me, say, one hundred ninety-eight ${item-plural: 1[2]} and two of those ${item-plural: 0[2]}, for example. I like to do things real efficient-like, you see, so make sure they''re in multiples of ninety-nine.${prompt}'
-  7414: '${color-alt: 15}${name-npc} smiles slyly at you.'
-  7415: What kinda smart-alecky baloney is this!? I told you to bring me the same kinda ammunition in complete sets. And don't forget the flowers, neither.${prompt}
-  7416: Just a moment there, my fine friend, got a call coming in on my linkshell. Come back in a bit and I'll sort you out.${prompt}
-  7417: And here you go! Come back soon, and bring your friends!${prompt}
-  7418: I'm real sorry, but there's nothing I can do with those.${prompt}
+    N'êtes-vous pas imprressionné ?
+    Suivre tous ces nouveaux types de munitions est un travail difficile !${prompt}
+  7411: Oh, et pour info, tout le rreste est trop compliqué à gérer. Ce n'est pas mon truc.${prompt}
+  7412: 'Mais ce n''est pas une œuvre de charité. Je ne suis pas vraiment intéressée par les gils, mais... Voyons voir... Des fleurs... ? Ouais, apportez-moi ${article} ${item-article: 0[2]} pour chaque quatre-vingt-dix-neuf flèches, carreaux ou autre que vous voulez organiser, et nous avons un accord.${prompt}'
+  7413: 'Je peux faire un carquois ou une pochette pour jusqu''à sept ensembles du même type de munitions. Vous pourriez m''apporter, disons, cent quatre-vingt-dix-huit ${item-plural: 1[2]} et deux de ${choice-definite-entity: 0}[ces /ce /cette /]${item-plural: 0[2]}, par exemple. J''aime faire les choses de manière vraiment efficace, vous voyez, alors assurez-vous qu''ils sont en multiples de quatre-vingt-dix-neuf.${prompt}'
+  7414: '${color-alt: 15}${name-npc} vous sourit sournoisement.'
+  7415: Quel genre de bêtises impertinentes est-ce !? Je vous ai dit de m'apporter le même type de munitions en ensembles complets. Et n'oubliez pas les fleurs non plus.${prompt}
+  7416: Un instant, mon bon ami, j'ai un appel qui arrive sur mon linkshell. Revenez dans un moment et je vous arrangerai ça.${prompt}
+  7417: Et voilà ! Revenez bientôt, et amenez vos amis !${prompt}
+  7418: Je suis vraiment désolée, mais je ne peux rien faire avec ça.${prompt}
   7419: |-
-    It's time for the Egg Hunt Egg-stravaganza, kupo!
-    Here, take this “initial egg.” Collect and trade eggs until you have made a “First 3” combination. When you're done, bring the combo back to me for an egg-squisite prize, kupo!${prompt}
-  7420: This year, those who make special undecennial combinations will receive particularly egg-ceptional prizes, kupo!${prompt}
-  7421: Of course, we wouldn't want you counting your chocobos before they hatch. Please egg-xert the effort to make a “First 3” combination before going all out on these spegg-tacular new ones, kupo.${prompt}
-  7422: When you've gathered a “First 3” combination, bring the eggs back to me! Also, if you want, I can trade you more initial eggs, but you'll have to make it worth my while, kupo!${prompt}
-  7423: Well, that's it for my anniversary egg-splanation. Happy hunting, kupo!${prompt}
+    C'est l'heure de l'Extravaganza de la Chasse aux Œufs, kupo !
+    Tenez, prenez cet « œuf initial ». Collectez et échangez des œufs jusqu'à ce que vous ayez fait une combinaison « Premiers 3 ». Quand vous avez fini, rapportez la combo pour un prix egg-quis, kupo !${prompt}
+  7420: Cette année, ceux qui font des combinaisons spéciales undécennales recevront des prix particulièrement egg-ceptionnels, kupo !${prompt}
+  7421: Bien sûr, nous ne voudrions pas que vous comptiez vos chocobos avant qu'ils éclosent. Veuillez egg-ercer l'effort de faire une combinaison « Premiers 3 » avant de vous lancer à fond dans ces nouvelles spegg-taculaires, kupo.${prompt}
+  7422: Quand vous avez rassemblé une combinaison « Premiers 3 », rapportez les œufs ! De plus, si vous voulez, je peux vous échanger plus d'œufs initiaux, mais vous devrez que ça en vaille la peine, kupo !${prompt}
+  7423: Eh bien, c'est tout pour mon egg-splication d'anniversaire. Bonne chasse, kupo !${prompt}
   7424: |-
-    Egg-cellent! Here's your prize, kupo!
-    Now if only somebody would bring me a super combo... Oh, egg-scuse me! Forget I said that, kupo!${prompt}
+    Egg-cellent ! Voici votre prix, kupo !
+    Si seulement quelqu'un m'apportait une super combo... Oh, egg-scusez-moi ! Oubliez ce que j'ai dit, kupo !${prompt}
   7425: |-
-    Egg-straordinary!
-    Here's your special prize, kupo!
-    But how did you figure out the secret combination...?${prompt}
+    Egg-straordinaire !
+    Voici votre prix spécial, kupo !
+    Mais comment avez-vous découvert la combinaison secrète... ?${prompt}
   7426: |-
-    How in-eggs-plicably astounding! You're truly a hard-boiled detective of the highest degree, kupo!
-    Here's your prize, and don't forget to enjoy the rest of the festivities.${prompt}
+    Comme c'est in-eggs-plicablement étonnant ! Vous êtes vraiment un détective dur à cuire du plus haut degré, kupo !
+    Voici votre prix, et n'oubliez pas de profiter du reste des festivités.${prompt}
   7427: |-
-    Hey, don't get all egg-cited!
-    You can only claim one prize a day, kupo!${prompt}
-  7428: These initial eggs are really egg-spensive, kupo! If you want one I'm going to need a little more incentive. No egg-ceptions!${prompt}
-  7429: Eggs-actly what I wanted! Here's your reward, kupo!${prompt}
-  7430: Ku-kupo! Such an egg-stravagant item, for little old me? Here's a whole basketful of initial eggs for you, kupo!${prompt}
+    Hé, ne soyez pas tout egg-cité !
+    Vous ne pouvez réclamer qu'un prix par jour, kupo !${prompt}
+  7428: Ces œufs initiaux sont vraiment egg-spensifs, kupo ! Si vous en voulez un, j'aurai besoin d'un peu plus d'incitation. Pas d'egg-ceptions !${prompt}
+  7429: Eggs-actement ce que je voulais ! Voici votre récompense, kupo !${prompt}
+  7430: Ku-kupo ! Un objet si egg-stravagant, pour moi ? Voici un panier plein d'œufs initiaux pour vous, kupo !${prompt}
   7431: |-
-    My eyes! My eyes!
-    Get out of here, and take those egg-ceptionally nasty things with you, kupo!${prompt}
+    Mes yeux ! Mes yeux !
+    Sortez d'ici, et emportez ces choses egg-ceptionnellement dégoûtantes avec vous, kupo !${prompt}
   7432: |-
     Kupo...
-    Kupo～～～! Please! No more, kupo!
-    Here, take these and get out of here, kupo!${prompt}
-  7433: Hey, I can only trade with you once a day. We wouldn't want to make the egg hunt “over easy,” now, kupo!${prompt}
+    Kupo～～～ ! S'il vous plaît ! Plus jamais, kupo !
+    Tenez, prenez ceci et sortez d'ici, kupo !${prompt}
+  7433: Hé, je ne peux échanger avec vous qu'une fois par jour. Nous ne voudrions pas rendre la chasse aux œufs « trop facile », maintenant, kupo !${prompt}
   7434: |-
-    Hey, you look new here, kupo!
-    If you need anything, just let me know!${prompt}
+    Hé, vous avez l'air nouveau ici, kupo !
+    Si vous avez besoin de quoi que ce soit, faites-le moi savoir !${prompt}
   7435: |-
-    Heh heh heh...
-    I have something egg-specially egg-citing in store for you, kupo!${prompt}
-  7436: And, because you're ${choice-player-gender}[as cool as egg salad/as hot as a fried egg, sunny-side up], I'm going to give you a super-duper present, kupo!${prompt}
+    Hé hé hé...
+    J'ai quelque chose d'egg-pécialement egg-citant en réserve pour vous, kupo !${prompt}
+  7436: Et, parce que vous êtes ${choice-player-gender}[aussi cool qu'une salade d'œufs/aussi chaud qu'un œuf au plat, côté soleil], je vais vous donner un cadeau super-duper, kupo !${prompt}
   7437: |-
-    Take any one you want!
+    Prenez celui que vous voulez !
     ${selection-lines}
-    An "A" egg.
-    A "B" egg.
-    A "C" egg.
-    A "D" egg.
-    An "E" egg.
-    An "F" egg.
-    A "G" egg.
-    An "H" egg.
-    An "I" egg.
-    A "J" egg.
-    A "K" egg.
-    An "L" egg.
-    An "M" egg.
-    An "N" egg.
-    An "O" egg.
-    A "P" egg.
-    A "Q" egg.
-    An "R" egg.
-    An "S" egg.
-    A "T" egg.
-    A "U" egg.
-    A "V" egg.
-    A "W" egg.
-    An "X" egg.
-    A "Y" egg.
-    A "Z" egg.
-    Forget it.${prompt}
-  7438: '${color-alt: 123}There are no party members.${prompt}'
+    Un œuf « A ».
+    Un œuf « B ».
+    Un œuf « C ».
+    Un œuf « D ».
+    Un œuf « E ».
+    Un œuf « F ».
+    Un œuf « G ».
+    Un œuf « H ».
+    Un œuf « I ».
+    Un œuf « J ».
+    Un œuf « K ».
+    Un œuf « L ».
+    Un œuf « M ».
+    Un œuf « N ».
+    Un œuf « O ».
+    Un œuf « P ».
+    Un œuf « Q ».
+    Un œuf « R ».
+    Un œuf « S ».
+    Un œuf « T ».
+    Un œuf « U ».
+    Un œuf « V ».
+    Un œuf « W ».
+    Un œuf « X ».
+    Un œuf « Y ».
+    Un œuf « Z ».
+    Oubliez ça.${prompt}
+  7438: '${color-alt: 123}Il n''y a pas de membres du groupe.${prompt}'
   7439: |-
-    Ku.........po!
-    I can't egg-cept such a rare item. You should take more care of your belongings, kupo!${prompt}
+    Ku.........po !
+    Je ne peux pas egg-cepter un objet aussi rare. Vous devriez prendre plus soin de vos affaires, kupo !${prompt}
   7440: |-
-    You hear a mysterious, floating voice:
-    Bring forth the ${item-singular: 0[2]}...${prompt}
-  7441: You do not meet the requirements.${prompt}
+    Vous entendez une voix mystérieuse et flottante :
+    Apportez ${choice-definite-entity: 0}[le /la /l''/les /]${item-singular: 0[2]}...${prompt}
+  7441: Vous ne remplissez pas les conditions requises.${prompt}
   7442: |-
-    The time and destination for your foray into Dynamis will be recorded on your ${item-singular: 6[2]}.
-    === Destination: Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ===${prompt}
+    L'heure et la destination de votre incursion dans Dynamis seront enregistrées sur votre ${item-singular: 6[2]}.
+    === Destination : Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ===${prompt}
   7443: |-
-    Record the time and destination?
+    Enregistrer l'heure et la destination ?
     ${selection-lines}
-    Proceed.
-    Not yet.
-    Entering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Reentering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Battles in Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
-  7444: Connecting with server. Please wait.
-  7445: Unable to connect.${prompt}
-  7446: You have not traded the necessary item.${prompt}
-  7447: 'Another group of player characters is currently occupying Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
-  7448: 'The time and destination for your foray into Dynamis has been recorded on your ${item-singular: 0[2]}.${prompt}'
-  7449: You do not possess an item that fulfills the requirements.${prompt}
-  7450: 'You will now be warped to Dynamis - ${choice: 0}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+    Continuer.
+    Pas encore.
+    Entrée dans Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Réentrée dans Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Batailles dans Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
+  7444: Connexion au serveur. Veuillez patienter.
+  7445: Impossible de se connecter.${prompt}
+  7446: Vous n'avez pas échangé l'objet nécessaire.${prompt}
+  7447: 'Un autre groupe de personnages joueurs occupe actuellement Dynamis - ${choice: 0}[Factice/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+  7448: 'L''heure et la destination de votre incursion dans Dynamis ont été enregistrées sur votre ${item-singular: 0[2]}.${prompt}'
+  7449: Vous ne possédez pas d'objet qui remplit les conditions requises.${prompt}
+  7450: 'Vous allez maintenant être téléporté vers Dynamis - ${choice: 0}[Factice/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
   7451: |-
-    Ready to warp to Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia]?
+    Prêt à être téléporté vers Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] ?
     ${selection-lines}
-    Ready!
-    Ready! (Support jobs unlocked).
-    Ready! (Support jobs restricted).
-    Not yet.
-    Entering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Reentering Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
-    Battles in Dynamis - ${choice: 0}[Dummy/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
-  7452: 'You cannot enter Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] for ${number: 0} ${choice-plurality: 0}[day/days] (Vana''diel time).${prompt}'
+    Prêt !
+    Prêt ! (Métiers de soutien débloqués).
+    Prêt ! (Métiers de soutien restreints).
+    Pas encore.
+    Entrée dans Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Réentrée dans Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].
+    Batailles dans Dynamis - ${choice: 0}[Factice/San d'Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}
+  7452: 'Vous ne pouvez pas entrer dans Dynamis - ${choice: 1}[Factice/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia] pendant ${number: 0} jour${choice-plurality: 0}[/s] (temps de Vana''diel).${prompt}'
   7453: |-
-    You hear a mysterious, floating voice:
-    The guiding aura has not yet faded... Bring forth the ${item-singular: 0[2]}.${prompt}
-  7454: 'Players who have not reached level ${number: 0} are prohibited from entering Dynamis.${prompt}'
-  7455: 'Players who do not possess ${keyitem-article: 0[2]} are prohibited from entering Dynamis - ${choice: 1}[Dummy/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
-  7456: '${lettercase: 1}${item-plural: 0[2]} and ${item-plural: 1[2]} cannot be used here.${prompt}'
+    Vous entendez une voix mystérieuse et flottante :
+    L'aura de guidage ne s'est pas encore estompée... Apportez ${choice-definite-entity: 0}[le /la /l''/les /]${item-singular: 0[2]}.${prompt}
+  7454: 'Les joueurs qui n''ont pas atteint le niveau ${number: 0} ne sont pas autorisés à entrer dans Dynamis.${prompt}'
+  7455: 'Les joueurs qui ne possèdent pas ${keyitem-article: 0[2]} ne sont pas autorisés à entrer dans Dynamis - ${choice: 1}[Factice/San d''Oria/Bastok/Windurst/Jeuno/Beaucedine/Xarcabard/Valkurm/Buburimu/Qufim/Tavnazia].${prompt}'
+  7456: '${lettercase: 1}${item-plural: 0[2]} et ${item-plural: 1[2]} ne peuvent pas être utilisés ici.${prompt}'
   7457: |-
     ${name-player}...
-    Now that I have passed from the mortal realm, I have only you to turn to.
-    The time left to me is short.
-  7458: Thirty years ago, I came into contact with the insidious power of this land, and rose from the grave. However, at the same time, this world laid claim to a part of my soul...${prompt}
+    Maintenant que j'ai quitté le royaume mortel, je n'ai que vous vers qui me tourner.
+    Le temps qui me reste est court.
+  7458: Il y a trente ans, je suis entré en contact avec le pouvoir insidieux de cette terre, et je me suis relevé de la tombe. Cependant, en même temps, ce monde a réclamé une partie de mon âme...${prompt}
   7459: |-
-    I have been released from the hate that consumed me, but the half of my soul that was taken captive all those years ago is calling to me...
-    It has become a towering darkness. A raging hatred, spawned from the depths of my being...${prompt}
-  7460: Very soon I will be drawn into that soul. I no longer have the strength to resist. The soul that was divided will become whole once more, and that rage will take on physical form.${prompt}
-  7461: A new Shadow Lord will be born. Surely you have sensed the growing evil? The beastman armies that are imprisoned here are massing for battle. They plan a return to the world of their origin, the realm that exists beneath the light of hope.${prompt}
+    J'ai été libéré de la haine qui me consumait, mais la moitié de mon âme qui a été faite prisonnière toutes ces années m'appelle...
+    Elle est devenue une ténèbre imposante. Une rage déchaînée, née des profondeurs de mon être...${prompt}
+  7460: Très bientôt, je serai attiré dans cette âme. Je n'ai plus la force de résister. L'âme qui a été divisée redeviendra entière, et cette rage prendra une forme physique.${prompt}
+  7461: Un nouveau Seigneur des Ténèbres naîtra. Vous avez sûrement senti le mal grandissant ? Les armées d'hommes-bêtes qui sont emprisonnées ici se rassemblent pour la bataille. Elles planifient un retour dans le monde de leur origine, le royaume qui existe sous la lumière de l'espoir.${prompt}
   7462: |-
-    My link to you will soon be severed, so listen carefully.
-    Thirty years ago, an expeditionary squad formed from the elite soldiers of each nation was sent to investigate the Northlands. You must have seen their memories when you first laid your hand upon the chunks of magicite.${prompt}
+    Mon lien avec vous sera bientôt rompu, alors écoutez attentivement.
+    Il y a trente ans, une escouade expéditionnaire formée à partir des soldats d'élite de chaque nation a été envoyée pour enquêter sur les Terres du Nord. Vous avez dû voir leurs souvenirs lorsque vous avez posé la main pour la première fois sur les morceaux de magicite.${prompt}
   7463: |-
-    Seek out the markings that the expedition members left behind. They will aid you in gaining entrance to this world.
-    You must defeat the Shadow Lord before our unification is complete.
-    My hopes go with you, ${name-player}.${prompt}
-  7464: There is an unusual arrangement of branches here.${prompt}
-  7465: There is an unusual arrangement of pebbles here.${prompt}
-  7466: The strands of grass here have been tied together.${prompt}
-  7467: There is an unusual arrangement of leaves on the ground.${prompt}
+    Cherchez les marques que les membres de l'expédition ont laissées. Elles vous aideront à gagner l'entrée de ce monde.
+    Vous devez vaincre le Seigneur des Ténèbres avant que notre unification soit complète.
+    Mes espoirs vous accompagnent, ${name-player}.${prompt}
+  7464: Il y a un arrangement inhabituel de branches ici.${prompt}
+  7465: Il y a un arrangement inhabituel de cailloux ici.${prompt}
+  7466: Les brins d'herbe ici ont été noués ensemble.${prompt}
+  7467: Il y a un arrangement inhabituel de feuilles sur le sol.${prompt}
   7468: |-
-    I see you have met with Raogrimm.
-    His soul is no longer confined to that incarnation of rage, the Shadow Lord, yet the fact remains that he has committed sins beyond redemption.${prompt}
-  7469: In spite of those sins, I still wish to rescue him from the darkness. I no longer have a mortal body with which to act, and so the most I can do is guide you in my stead.${prompt}
-  7470: 'You will need the ${keyitem-singular: 0[2]}, a key that bridges the void between Vana''diel and that other world.${prompt}'
-  7471: 'It is said that there are items in this world that gain a soul of their own through contact with the thoughts and dreams of other living creatures. The ${keyitem-singular: 0[2]} is one of those items.${prompt}'
-  7472: 'You must look for the Goblin peddlers. They are certain to have knowledge of the ${keyitem-singular: 0[2]}. When you have it safely within your grasp, seek out the markings that we left behind...${prompt}'
-  7473: That world is a land now draped in the blackest night. We can pass from one world to the other, but without the physical forms lost to us thirty years ago, there is little we can do to intervene.${prompt}
-  7474: Raogrimm is the one who... No, the world has been divided into separate realms through the machinations of the new Shadow Lord.${prompt}
-  7475: The Shadow Lord resides in the Xarcabard of the other reality. However, I fear you would be marching to your death should you go to confront him... I ask you to first obtain trophies from four of the alternate realms.${prompt}
-  7476: We understand that there is little time to spare. But without a certain degree of power, it will be impossible to traverse the land the Shadow Lord holds in thrall. Show me your strength with the four trophies you bring back.${prompt}
-  7477: 'Those whose fate is linked to his world will empower the ${keyitem-singular: 0[2]} to guide you...${prompt}'
-  7478: I never believed that my indifference to the state of other nations would cause harm to my beloved San d'Oria...${prompt}
-  7479: 'As part of my penance, I will infuse the ${keyitem-singular: 0[2]} with what guidance I can.'
+    Je vois que vous avez rencontré Raogrimm.
+    Son âme n'est plus confinée à cette incarnation de rage, le Seigneur des Ténèbres, mais le fait demeure qu'il a commis des péchés au-delà de la rédemption.${prompt}
+  7469: Malgré ces péchés, je souhaite toujours le sauver des ténèbres. Je n'ai plus de corps mortel avec lequel agir, et donc tout ce que je peux faire est de vous guider à ma place.${prompt}
+  7470: 'Vous aurez besoin ${choice-definite-entity: 0}[de /du /de la /des /]${keyitem-singular: 0[2]}, une clé qui comble le vide entre Vana''diel et cet autre monde.${prompt}'
+  7471: 'On dit qu''il y a des objets dans ce monde qui gagnent une âme propre grâce au contact avec les pensées et les rêves d''autres créatures vivantes. ${choice-definite-entity: 0}[Le /La /L''/Les /]${keyitem-singular: 0[2]} est l''un de ces objets.${prompt}'
+  7472: 'Vous devez chercher les colporteurs Gobelins. Ils ont certainement connaissance ${choice-definite-entity: 0}[de /du /de la /des /]${keyitem-singular: 0[2]}. Quand vous l''aurez en sécurité dans votre prise, cherchez les marques que nous avons laissées...${prompt}'
+  7473: Ce monde est une terre maintenant drapée dans la nuit la plus noire. Nous pouvons passer d'un monde à l'autre, mais sans les formes physiques perdues il y a trente ans, il y a peu que nous puissions faire pour intervenir.${prompt}
+  7474: Raogrimm est celui qui... Non, le monde a été divisé en royaumes séparés par les machinations du nouveau Seigneur des Ténèbres.${prompt}
+  7475: Le Seigneur des Ténèbres réside dans le Xarcabard de l'autre réalité. Cependant, je crains que vous marcheriez vers votre mort si vous alliez l'affronter... Je vous demande d'abord d'obtenir des trophées de quatre des royaumes alternatifs.${prompt}
+  7476: Nous comprenons qu'il y a peu de temps à perdre. Mais sans un certain degré de pouvoir, il sera impossible de traverser la terre que le Seigneur des Ténèbres tient en esclavage. Montrez-moi votre force avec les quatre trophées que vous rapporterez.${prompt}
+  7477: 'Ceux dont le destin est lié à son monde renforceront ${choice-definite-entity: 0}[le /la /l''/les /]${keyitem-singular: 0[2]} pour vous guider...${prompt}'
+  7478: Je n'ai jamais cru que mon indifférence à l'état des autres nations causerait du tort à ma bien-aimée San d'Oria...${prompt}
+  7479: 'Dans le cadre de ma pénitence, j''infuserai ${choice-definite-entity: 0}[le /la /l''/les /]${keyitem-singular: 0[2]} avec les conseils que je peux.'
   7480: |-
-    I betrayed him...
-    And now I am needed, the one who cut down poor Cornelia. The man cursed with the brand of traitor...${prompt}
-  7481: Sure, I got everything I wanted, but what was left to me in the end? For one rash action, all I gained was an empty title and irreconcilable guilt...${prompt}
-  7482: I doubt you'll listen to the words of a traitor, but please, help free him from the bonds of his eternal night...
-  7483: Our expedition was supposed to have been an allied effortaru, but not one of us was interested in the fate of the other nations. In our hasty-waste to outdo each other, we failed to see to the heart of the mattaru.${prompt}
+    Je l'ai trahi...
+    Et maintenant j'ai besoin, moi qui ai abattu la pauvre Cornelia. L'homme maudit avec la marque de traître...${prompt}
+  7481: Bien sûr, j'ai obtenu tout ce que je voulais, mais qu'est-ce qui m'est resté à la fin ? Pour une action imprudente, tout ce que j'ai gagné était un titre vide et une culpabilité irréconciliable...${prompt}
+  7482: Je doute que vous écoutiez les paroles d'un traître, mais s'il vous plaît, aidez à le libérer des liens de sa nuit éternelle...
+  7483: Notre expédition était censée être un effortaru allié, mais aucun de nous n'était intéressé par le destin des autres nations. Dans notre hâte-gâte à nous surpasser, nous n'avons pas vu au cœur du mattaru.${prompt}
   7484: |-
-    Our attitudes led to the death of two of our members, and precipitated the birth of the Shadow Lord...
-    This sin does not belong on Raogrimm's shoulders alone. We all mustaru atone for our actions.${prompt}
-  7485: Please help him. Help Raogrimm escape from his horrid-worrid darkness, forever this time.
-  7486: Humes and Galka have never been the best of friends. I used to think that was just the way it was, and always would be.${prompt}
-  7487: I figured I'd be causing myself grrrief if I stuck my whiskers into other nations' problems. My next catnap was all that mattered to me in those days. Ignorrrance is bliss, as they say.${prompt}
-  7488: Responsibility for Raogrimm's trrransformation lies with all of us who traveled with him on that expedition. By sharing the blame for the crimes he committed as the Shadow Lord, we can finally call ourselves his trrrue companions.${prompt}
+    Nos attitudes ont conduit à la mort de deux de nos membres, et ont précipité la naissance du Seigneur des Ténèbres...
+    Ce péché n'appartient pas aux seules épaules de Raogrimm. Nous devons tous expier nos actions.${prompt}
+  7485: S'il vous plaît, aidez-le. Aidez Raogrimm à s'échapper de son horride-worride ténèbres, pour toujours cette fois.
+  7486: Les Humes et les Galka n'ont jamais été les meilleurs amis. J'avais l'habitude de penser que c'était juste comme ça, et toujours serait.${prompt}
+  7487: Je pensais que je me causerais du chagrin si je mettais mes moustaches dans les problèmes d'autres nations. Ma prochaine sieste était tout ce qui comptait pour moi à l'époque. L'ignorrrrance est un bonheur, comme on dit.${prompt}
+  7488: La responsabilité de la trrransformation de Raogrimm incombe à tous ceux qui ont voyagé avec lui lors de cette expédition. En partageant le blâme pour les crimes qu'il a commis en tant que Seigneur des Ténèbres, nous pouvons enfin nous appeler ses vrrais compagnons.${prompt}
   7489: |-
-    Let me help you on your path. May guiding light fill this ${keyitem-singular: 0[2]}!
-    Raogrimm's fate is in your hands.
-  7490: There is a broken branch thrust into the ground here.${prompt}
-  7491: There is a symbol carved into the rock here.${prompt}
-  7492: I have been waiting for you.${prompt}
+    Laissez-moi vous aider sur votre chemin. Que la lumière guidante remplisse ${choice-definite-entity: 0}[ce /cette /ces /]${keyitem-singular: 0[2]} !
+    Le destin de Raogrimm est entre vos mains.
+  7490: Il y a une branche cassée enfoncée dans le sol ici.${prompt}
+  7491: Il y a un symbole gravé dans la roche ici.${prompt}
+  7492: Je vous attendais.${prompt}
   7493: |-
-    Do you remember the last words Raogrimm spoke to you? "The link will soon be severed"...
-    Do you understand the significance of these words?${prompt}
+    Vous souvenez-vous des dernières paroles que Raogrimm vous a adressées ? « Le lien sera bientôt rompu »...
+    Comprenez-vous la signification de ces mots ?${prompt}
   7494: |-
-    When the soul that was divided is whole once again, towering rage will take on physical form...
-    Yes, a new Shadow Lord will be born. Even I will no longer hear his voice.${prompt}
-  7495: Even now, I can barely feel the emanations of Raogrimm's faltering spirit. When those emanations fade completely, he will be...${prompt}
-  7496: The Xarcabard of that other realm is shrouded in a vast darkness, preventing contact from the outside. Even those of us without material bodies are unable to penetrate that mist of eternal night.${prompt}
-  7497: "Until that mist clears, I cannot guide you to Xarcabard. \nThe next place you must venture is the twin of Vana'diel's Beaucedine. There you will find the last trophy to complete the set of keys we need.${prompt}"
+    Lorsque l'âme qui a été divisée redeviendra entière, une rage imposante prendra une forme physique...
+    Oui, un nouveau Seigneur des Ténèbres naîtra. Même moi, je n'entendrai plus sa voix.${prompt}
+  7495: Même maintenant, je peux à peine sentir les émanations de l'esprit défaillant de Raogrimm. Quand ces émanations s'estomperont complètement, il sera...${prompt}
+  7496: Le Xarcabard de cet autre royaume est enveloppé dans une vaste obscurité, empêchant le contact de l'extérieur. Même ceux d'entre nous sans corps matériel sont incapables de pénétrer cette brume de nuit éternelle.${prompt}
+  7497: "Jusqu'à ce que cette brume se dissipe, je ne peux pas vous guider vers Xarcabard. \nLe prochain endroit où vous devez vous aventurer est le jumeau du Beaucedine de Vana'diel. Là, vous trouverez le dernier trophée pour compléter l'ensemble de clés dont nous avons besoin.${prompt}"
   7498: |-
-    You must obtain the last trophy.
-    All five trophies combined with our power will create a synergistic force, allowing us to part the shroud for a few precious moments. It will open a path between worlds.${prompt}
+    Vous devez obtenir le dernier trophée.
+    Les cinq trophées combinés avec notre pouvoir créeront une force synergique, nous permettant d'écarter le voile pendant quelques précieux instants. Cela ouvrira un chemin entre les mondes.${prompt}
   7499: |-
-    Take care, my brave adventurer.
-    May the blessings of Altana guide and protect you...
+    Prenez soin de vous, mon brave aventurier.
+    Que les bénédictions d'Altana vous guident et vous protègent...
   7500: |-
-    Even after the blackest night, the golden sun always rises to begin a new morning.
-    This troubled land will soon have its dawn...of that I am certain.${prompt}
+    Même après la nuit la plus noire, le soleil doré se lève toujours pour commencer un nouveau matin.
+    Cette terre troublée aura bientôt son aube... j'en suis certain.${prompt}
   7501: |-
-    I never thought to walk this land again, not even in death.
-    Is this what they call karma...?${prompt}
+    Je n'aurais jamais pensé marcher à nouveau sur cette terre, même dans la mort.
+    Est-ce ce qu'ils appellent le karma... ?${prompt}
   7502: |-
-    This land has borne the weight of my sins.
-    I will not beg for forgiveness, but accept my responsibility...${prompt}
+    Cette terre a porté le poids de mes péchés.
+    Je ne mendierai pas le pardon, mais j'accepte ma responsabilité...${prompt}
   7503: |-
-    So this is the reason for that unspeakable terror I feltaru here when I was still alive. It's possible that the other realm has existed for much longer than anyone ever dreamed...
-    Keep your wits aboutaru you, ${name-player}.${prompt}
+    C'est donc la raison de cette terreur indicible que j'ai ressentarui ici quand j'étais encore en vie. Il est possible que l'autre royaume ait existé bien plus longtemps que quiconque ne l'a jamais rêvé...
+    Gardez vos esprits à propos de vous, ${name-player}.${prompt}
   7504: |-
-    I'm not rrreally fond of touching platitudes.
-    Snap Raogrimm to his senses with a big ol' smack to the head for me.${prompt}
+    Je ne suis pas vrrraiment friand de platitudes touchantes.
+    Ramenez Raogrimm à la raison avec une grosse claque sur la tête pour moi.${prompt}
   7505: |-
-    It is time!
-    Put an end to this thirty-year nightmare, ${name-player}.
-    ${lettercase: 1}${keyitem-singular: 0[2]}! Show us the path to Xarcabard!
-  7506: Death does not exist in that realm. You might call it a “prison of souls.”${prompt}
+    C'est le moment !
+    Mettez fin à ce cauchemar de trente ans, ${name-player}.
+    ${lettercase: 1}${keyitem-singular: 0[2]} ! Montrez-nous le chemin vers Xarcabard !
+  7506: La mort n'existe pas dans ce royaume. Vous pourriez l'appeler une « prison d'âmes ».${prompt}
   7507: |-
-    Even those who fall in battle will rise again after a time as if nothing had happened.
-    Like a flame returning to a candle whose light has been extinguished...${prompt}
-  7508: It is an endless succession of life and death. How many times has that cycle repeated itself in that damned abode?${prompt}
-  7509: There is one thing that bothers me. Whatever happened to the original wielders of the weapons and armor that the beastmen there now possess? If the statues in the shape of Orcs and such were once actual beastmen, then...? But I get carried away with my musings.${prompt}
+    Même ceux qui tombent au combat se relèveront après un certain temps comme si rien ne s'était passé.
+    Comme une flamme retournant à une bougie dont la lumière a été éteinte...${prompt}
+  7508: C'est une succession sans fin de vie et de mort. Combien de fois ce cycle s'est-il répété dans cette demeure maudite ?${prompt}
+  7509: Il y a une chose qui me tracasse. Qu'est-il arrivé aux détenteurs originaux des armes et armures que les hommes-bêtes possèdent maintenant ? Si les statues en forme d'Orques et autres étaient autrefois de véritables hommes-bêtes, alors... ? Mais je me laisse emporter par mes réflexions.${prompt}
   7510: |-
-    Please pay no mind to my ramblings.
-    You have secured the ${keyitem-singular: 0[2]}. An incredible feat. It proves the strength of your conviction, and is one of the keys you will need to enter Xarcabard.${prompt}
+    Ne faites pas attention à mes divagations.
+    Vous avez sécurisé ${choice-definite-entity: 0}[le /la /l''/les /]${keyitem-singular: 0[2]}. Un exploit incroyable. Cela prouve la force de votre conviction, et c'est l'une des clés dont vous aurez besoin pour entrer à Xarcabard.${prompt}
   7511: |-
-    You will need four such trophies.
-    Once you have them within your grasp, make your way to Beaucedine Glacier in the Northlands. Cornelia awaits you there.${prompt}
-  7512: I don't know about the other four, but I can't hear his voice anymore...${prompt}
-  7513: Is this another brand I must bear for my treachery? I must truly be hated if that's the case.${prompt}
+    Vous aurez besoin de quatre trophées de ce genre.
+    Une fois que vous les aurez en votre possession, dirigez-vous vers le Glacier de Beaucedine dans les Terres du Nord. Cornelia vous y attend.${prompt}
+  7512: Je ne sais pas pour les quatre autres, mais je ne peux plus entendre sa voix...${prompt}
+  7513: Est-ce une autre marque que je dois porter pour ma traîtrise ? Je dois vraiment être haï si c'est le cas.${prompt}
   7514: |-
-    It is something I would wish for at the moment, however. I pray this silence is just a continuation of our incompatible personalities.
-    If not, then it means his pronouncement has become reality...${prompt}
+    C'est quelque chose que je souhaiterais en ce moment, cependant. Je prie pour que ce silence soit juste une continuation de nos personnalités incompatibles.
+    Sinon, cela signifie que son annonce est devenue réalité...${prompt}
   7515: |-
     ${lettercase: 1}${keyitem-singular: 0[2]}.
-    This is more than just a testament to your strength. It is one of the keys that will lead you to Xarcabard, along with the trophies of the other realms.${prompt}
+    C'est plus qu'un simple témoignage de votre force. C'est l'une des clés qui vous mènera à Xarcabard, avec les trophées des autres royaumes.${prompt}
   7516: |-
-    When you have all four trophies, travel to Beaucedine Glacier in the Northlands. You will find Cornelia waiting for you there.
-    That is all the wisdom I have left to give you.${prompt}
+    Lorsque vous aurez les quatre trophées, voyagez vers le Glacier de Beaucedine dans les Terres du Nord. Vous trouverez Cornelia qui vous attend là-bas.
+    C'est toute la sagesse qui me reste à vous donner.${prompt}
   7517: |-
-    What is the true nature of that other world? I can only explain it as a place that lies beyond the limitarus of our knowledge.
-    But I'm sure I've feltaru that aura somewhere before...${prompt}
-  7518: That's it. That protocrystal I came across when I was doing research in Elshimo. The magical emanations coming from the crystal gave me a similar impression. An avatar? No, that can'taru be...${prompt}
+    Quelle est la vraie nature de cet autre monde ? Je peux seulement l'expliquer comme un endroit qui se trouve au-delà des limitarus de notre connaissance.
+    Mais je suis sûr d'avoir ressentarui cette aura quelque part auparavant...${prompt}
+  7518: C'est ça. Ce protocristal que j'ai rencontré quand je faisais des recherches à Elshimo. Les émanations magiques provenant du cristal m'ont donné une impression similaire. Un avatar ? Non, ça ne peutaru pas être...${prompt}
   7519: |-
-    Oh! Oh, I'm terribly-werribly sorry!
-    I appear to have driftarued into my old habits.${prompt}
+    Oh ! Oh, je suis terriblement-worriblement désolé !
+    Il semble que j'aie dérivarui dans mes vieilles habitudes.${prompt}
   7520: |-
-    Now, ${name-player}.
-    This ${keyitem-singular: 0[2]} is both a symbol of your fortitude, and one of the keys that will help you gain access to Xarcabard. The trophies from the other three realms carry the same importance.${prompt}
-  7521: Gather all four trophies and hurry yourself on to Beaucedine Glacier. Cornelia will be waiting for you when you get there. But be wary, ${name-player}. The blackness enveloping that world grows ever deeper, ever darker...${prompt}
-  7522: The beastmen of that world carry the spoils of prrrevious battles. Equipment that you or I would use.${prompt}
-  7523: I'm not able to touch them in my prrresent form, but I feel something about those weapons and armor...something extrrraordinary.${prompt}
+    Maintenant, ${name-player}.
+    ${choice-definite-entity: 0}[Ce /Cette /Ces /]${keyitem-singular: 0[2]} est à la fois un symbole de votre force, et l'une des clés qui vous aidera à accéder à Xarcabard. Les trophées des trois autres royaumes portent la même importance.${prompt}
+  7521: Rassemblez les quatre trophées et dépêchez-vous d'aller au Glacier de Beaucedine. Cornelia vous attendra quand vous y arriverez. Mais soyez prudent, ${name-player}. La noirceur enveloppant ce monde devient toujours plus profonde, toujours plus sombre...${prompt}
+  7522: Les hommes-bêtes de ce monde portent les butins de batailles prrécédentes. L'équipement que vous ou moi utiliserions.${prompt}
+  7523: Je ne suis pas capable de les toucher dans ma forrme actuelle, mais je ressens quelque chose à propos de ces armes et armures... quelque chose d'extrrraordinaire.${prompt}
   7524: |-
-    Wait, wait, wait!
-    I don't mean that they're currrsed or anything like that! It's something more like, um, not ominous, but...
-    How can I explain it?${prompt}
-  7525: Anyway! They're not evil, just...you know? Different from other normal swords and things. Being all ghostlike and stuff, you can feel things like that.${prompt}
+    Attendez, attendez, attendez !
+    Je ne veux pas dire qu'ils sont maurrrdits ou quoi que ce soit comme ça ! C'est quelque chose de plus comme, euh, pas sinistre, mais...
+    Comment puis-je l'expliquer ?${prompt}
+  7525: Bref ! Ils ne sont pas maléfiques, juste... vous savez ? Différents des autres épées et choses normales. En étant tout fantomatique et tout, vous pouvez ressentir des choses comme ça.${prompt}
   7526: |-
-    But enough of that kinda talk--congrrratulations are in order!
-    You've got your paws on the ${keyitem-singular: 0[2]}! It shows you've got the goods in the hero department, and it will also help you get into Xarcabard.${prompt}
-  7527: But first you've got to collect the other three trophies and then hightail it to snowy Beaucedine Glacier. Cornelia should be up there waiting for you.${prompt}
-  7528: "${lettercase: 1}${keyitem-singular: 0[2]} and the four trophies.\nThese artifacts have long been lost to that other world. \nThe Hydra Corps was a unit formed after our expedition to the Northlands.${prompt}"
+    Mais assez de ce genre de discussion -- les félicitations sont de rigueur !
+    Vous avez mis vos pattes sur ${choice-definite-entity: 0}[le /la /l''/les /]${keyitem-singular: 0[2]} ! Cela montre que vous avez ce qu'il faut dans le département des héros, et cela vous aidera également à entrer à Xarcabard.${prompt}
+  7527: Mais d'abord, vous devez collecter les trois autres trophées, puis foncer vers le Glacier de Beaucedine enneigé. Cornelia devrait être là-haut à vous attendre.${prompt}
+  7528: "${lettercase: 1}${keyitem-singular: 0[2]} et les quatre trophées.\nCes artefacts ont été perdus depuis longtemps dans cet autre monde. \nLe Corps Hydra était une unité formée après notre expédition dans les Terres du Nord.${prompt}"
   7529: |-
-    It must have been in the time of the Great War...
-    Nobody knows how the Hydra artifacts came to be there, but those five trophies will open the path for you.${prompt}
-  7530: Each of these items holds a measure of power. However, the strength of a single artifact is limited.${prompt}
+    Cela devait être à l'époque de la Grande Guerre...
+    Personne ne sait comment les artefacts Hydra sont arrivés là-bas, mais ces cinq trophées vous ouvriront le chemin.${prompt}
+  7530: Chacun de ces objets détient une mesure de pouvoir. Cependant, la force d'un seul artefact est limitée.${prompt}
   7531: |-
-    The ${keyitem-singular: 2[2]} and the ${keyitem-singular: 3[2]}.
-    Combining these separate entities created a bridge from Vana'diel to the other realms.
-    Xarcabard, I'm afraid, is another matter entirely...${prompt}
+    ${choice-definite-entity: 0}[Le /La /L''/Les /]${keyitem-singular: 2[2]} et ${choice-definite-entity: 0}[le /la /l''/les /]${keyitem-singular: 3[2]}.
+    Combiner ces entités séparées a créé un pont de Vana'diel vers les autres royaumes.
+    Xarcabard, j'en ai peur, est une toute autre affaire...${prompt}
   7532: |-
-    Unless the shroud of darkness is lifted, that power alone will not be enough to open the way.
-    However, the five trophies resonate with another artifact that lies within his land. If we can join our strength to theirs...${prompt}
-  7533: Let us make haste to the land where this all began. To Xarcabard...${prompt}
-  7534: Is it over...?${prompt}
-  7535: No, the rage has merely been dispersed.${prompt}
-  7536: As long as I exist, he will never truly die...${prompt}
-  7537: Or perhaps an eternal soul is something beyond the concept of death?${prompt}
+    À moins que le voile des ténèbres ne soit levé, ce pouvoir seul ne sera pas suffisant pour ouvrir le chemin.
+    Cependant, les cinq trophées résonnent avec un autre artefact qui se trouve dans sa terre. Si nous pouvons joindre notre force à la leur...${prompt}
+  7533: Hâtons-nous vers la terre où tout cela a commencé. Vers Xarcabard...${prompt}
+  7534: Est-ce terminé... ?${prompt}
+  7535: Non, la rage a simplement été dispersée.${prompt}
+  7536: Tant que j'existe, il ne mourra jamais vraiment...${prompt}
+  7537: Ou peut-être qu'une âme éternelle est quelque chose au-delà du concept de mort ?${prompt}
   7538: |-
     ${name-player}...
-    You have achieved an incredible feat--the unification of the Shadow Lord has been prevented.
-    I have not the words to express my gratitude.${prompt}
+    Vous avez accompli un exploit incroyable -- l'unification du Seigneur des Ténèbres a été empêchée.
+    Je n'ai pas les mots pour exprimer ma gratitude.${prompt}
   7539: |-
-    The power of the crystal has faded, but I will be drawn into that towering rage no more.
-    I have heard the voice of the one who holds sway over this realm...${prompt}
-  7540: The one who holds sway...?${prompt}
+    Le pouvoir du cristal s'est estompé, mais je ne serai plus attiré dans cette rage imposante.
+    J'ai entendu la voix de celui qui détient le pouvoir sur ce royaume...${prompt}
+  7540: Celui qui détient le pouvoir... ?${prompt}
   7541: |-
-    Yes. From the center of infinite darkness.
-    I was in a place beyond comprehension when those words reached into my mind...${prompt}
+    Oui. Du centre de l'obscurité infinie.
+    J'étais dans un endroit au-delà de la compréhension quand ces mots ont atteint mon esprit...${prompt}
   7542: |-
-    You who have touched the crystal, the one who holds immortal power within a mortal shell.
-    The rage that has arisen from your twisted core will devour my world.${prompt}
+    Toi qui as touché le cristal, celui qui détient un pouvoir immortel dans une coquille mortelle.
+    La rage qui s'est élevée de ton noyau tordu dévorera mon monde.${prompt}
   7543: |-
-    It was an error in judgment to shelter you...
-    The order of my realm has been disrupted.${prompt}
+    C'était une erreur de jugement de t'abriter...
+    L'ordre de mon royaume a été perturbé.${prompt}
   7544: |-
-    I give to you a duty...
-    You will stand vigil until an age without hatred has dawned.${prompt}
+    Je te donne un devoir...
+    Tu monteras la garde jusqu'à ce qu'un âge sans haine soit arrivé.${prompt}
   7545: |-
-    No matter what terrible power you might wield, there is no escape from Dynamis for an incomplete soul.
-    No return to the land of blessed light...${prompt}
+    Peu importe le terrible pouvoir que tu pourrais exercer, il n'y a pas d'échappatoire de Dynamis pour une âme incomplète.
+    Pas de retour à la terre de lumière bénie...${prompt}
   7546: |-
-    What manner of being was this who spoke from a pit of blackness?
-    As this question gnawed at my mind, the voice grew quiet, leaving me in unanswered silence.${prompt}
+    Quelle sorte d'être était-ce qui parlait depuis un puits de noirceur ?
+    Alors que cette question rongeait mon esprit, la voix s'est tue, me laissant dans un silence sans réponse.${prompt}
   7547: |-
-    Of one thing I was certain.
-    This voice belonged to the ruler of Dynamis.${prompt}
-  7548: A flow of energy exists in Vana'diel that has escaped the notice of those who dwell there.${prompt}
+    D'une chose j'étais certain.
+    Cette voix appartenait au dirigeant de Dynamis.${prompt}
+  7548: Un flux d'énergie existe à Vana'diel qui a échappé à l'attention de ceux qui y habitent.${prompt}
   7549: |-
-    Thirty years past, my contact with the crystal caused an accelerated change in this flow.
-    It was as if it had leapt forward, rushing along a deliberate course.${prompt}
+    Il y a trente ans, mon contact avec le cristal a causé un changement accéléré dans ce flux.
+    C'était comme s'il avait fait un bond en avant, se précipitant le long d'un cours délibéré.${prompt}
   7550: |-
-    Nobody knows what lies at the end of this journey.
-    Perhaps it will reveal the true nature of Vana'diel.${prompt}
-  7551: ${name-player}, you may be the one to witness this truth.${prompt}
+    Personne ne sait ce qui se trouve à la fin de ce voyage.
+    Peut-être révélera-t-il la vraie nature de Vana'diel.${prompt}
+  7551: ${name-player}, vous pourriez être celui qui témoignera de cette vérité.${prompt}
   7552: |-
-    The power stored in the ${keyitem-singular: 0[2]} will soon be drained.
-    And I must remain in this world in my role of observer.${prompt}
+    Le pouvoir stocké dans ${choice-definite-entity: 0}[le /la /l''/les /]${keyitem-singular: 0[2]} sera bientôt épuisé.
+    Et je dois rester dans ce monde dans mon rôle d'observateur.${prompt}
   7553: |-
-    Do not forget who you are, ${name-player}.
-    I bid farewell to a most heroic adventurer.${prompt}
-  7554: My old companions...?
+    N'oubliez pas qui vous êtes, ${name-player}.
+    Je fais mes adieux à un aventurier des plus héroïques.${prompt}
+  7554: Mes vieux compagnons... ?
   7555: |-
-    This duty is too much for just one to bear.
-    If you will have me, I will stand at your side until an age without hatred has arrived.
-    It pains me to see the depths to which my country has fallen.${prompt}
-  7556: That is my only reason for staying. Do not misunderstand my motivations.${prompt}
+    Ce devoir est trop lourd pour qu'un seul le porte.
+    Si vous m'acceptez, je me tiendrai à vos côtés jusqu'à ce qu'un âge sans haine soit arrivé.
+    Cela me peine de voir les profondeurs auxquelles mon pays est tombé.${prompt}
+  7556: C'est ma seule raison de rester. Ne vous méprenez pas sur mes motivations.${prompt}
   7557: |-
-    Blessed light and the ruler of Dynamis?
-    I do believe you've rekindled my long-forgotten sense of adventure.${prompt}
+    Lumière bénie et dirigeant de Dynamis ?
+    Je crois que vous avez ravivé mon sens de l'aventure longtemps oublié.${prompt}
   7558: |-
-    Once I've gotten all firedy-up, even you can'taru keep me back, Raogrimm.
-    I'm sure my incomparable research skills will be of use in your task.${prompt}
+    Une fois que je me suis tout enflammé-wé, même vous ne pouvezaru pas me retenir, Raogrimm.
+    Je suis sûr que mes compétences de recherche incomparables seront utiles dans votre tâche.${prompt}
   7559: |-
-    C'mon, let's see a little excitement!
-    This is our expedition's thirty-year rrreunion.${prompt}
+    Allez, montrez un peu d'enthousiasme !
+    C'est la rrrréunion de trente ans de notre expédition.${prompt}
   7560: |-
-    It's not the Northlands this time.
-    None of us are going to grow old and die, so who else would you want with you on a task as long as this one?${prompt}
+    Ce ne sont pas les Terres du Nord cette fois.
+    Aucun de nous ne va vieillir et mourir, alors qui d'autre voudriez-vous avec vous pour une tâche aussi longue que celle-ci ?${prompt}
   7561: |-
-    I'm not gonna back down, no matterrr how much you complain.
-    Better just give in and accept the fact that you're stuck with me.${prompt}
+    Je ne vais pas reculer, peu importrre combien vous vous plaignez.
+    Mieux vaut juste céder et accepter le fait que vous êtes coincé avec moi.${prompt}
   7562: |-
-    I thought this would be the end of you for sure...
-    Hmph. You're just as thick-skinned as you used to be.${prompt}
+    Je pensais que ce serait votre fin pour sûr...
+    Hmph. Vous êtes aussi têtu qu'avant.${prompt}
   7563: |-
-    What, no words for an old friend?
-    Thinking about testing your theory on whether or not a soul can be killed?${prompt}
+    Quoi, pas de mots pour un vieil ami ?
+    Vous pensez à tester votre théorie sur le fait qu'une âme puisse être tuée ou non ?${prompt}
   7564: |-
-    I betrayed you!
-    I extinguished the light of your precious Cornelia!
-    The man responsible for this entire nightmare stands right before you!${prompt}
+    Je vous ai trahi !
+    J'ai éteint la lumière de votre précieuse Cornelia !
+    L'homme responsable de tout ce cauchemar se tient juste devant vous !${prompt}
   7565: |-
-    Everything began thirty years ago.
-    And there were things that came to an end...
-    Even though I was a prisoner of uncontrollable rage, the fact remains that I took the lives of my companions with my own hands.${prompt}
-  7566: And yet, my old companions, you are the ones who have saved me from falling into that pit of hatred a second time.${prompt}
+    Tout a commencé il y a trente ans.
+    Et il y avait des choses qui ont pris fin...
+    Même si j'étais prisonnier d'une rage incontrôlable, le fait demeure que j'ai pris la vie de mes compagnons de mes propres mains.${prompt}
+  7566: Et pourtant, mes vieux compagnons, c'est vous qui m'avez sauvé de tomber dans cette fosse de haine une seconde fois.${prompt}
   7567: |-
-    I have words of gratitude, but do not stand in a position to blame anyone for their actions.
-    No matter who that person may be.${prompt}
+    J'ai des mots de gratitude, mais je ne suis pas en position de blâmer quiconque pour ses actions.
+    Peu importe qui cette personne peut être.${prompt}
   7568: Raogrimm...${prompt}
   7569: |-
     Are you sure you want to do this?
