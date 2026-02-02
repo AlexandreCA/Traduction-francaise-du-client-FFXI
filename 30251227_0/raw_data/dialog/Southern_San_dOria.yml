@@ -16044,670 +16044,670 @@ entries:
   6398: |-
     Objective: ${choice-plurality: 0}[Monster/Monsters] of any family: ${number: 2}/${number: 0}.
     Equipment: Target item must be equipped.${prompt}
-  6399: 'The shared memories of generations of mooglekind flood into your mind, granting you the ability to decipher the cryptic glyphs of your ${keyitem-singular: 0[2]}...${prompt}'
+  6399: 'Les souvenirs partagés de générations de moogles affluent dans votre esprit, vous accordant la capacité de déchiffrer les glyphes cryptiques de votre ${keyitem-singular: 0[2]}...${prompt}'
   6400: |-
-    Review which trial?
+    Quelle épreuve consulter ?
     ${selection-lines}
-    Trial ${number: 0}.
-    Trial ${number: 1}.
-    Trial ${number: 2}.
-    Trial ${number: 3}.
-    Trial ${number: 4}.
-    Trial ${number: 5}.
-    Trial ${number: 6}.
-    Trial ${number: 7}.
-    Trial ${number: 8}.
-    Trial ${number: 9}.
-    Moogle's Almanack.
-    Return.${prompt}
+    Épreuve ${number: 0}.
+    Épreuve ${number: 1}.
+    Épreuve ${number: 2}.
+    Épreuve ${number: 3}.
+    Épreuve ${number: 4}.
+    Épreuve ${number: 5}.
+    Épreuve ${number: 6}.
+    Épreuve ${number: 7}.
+    Épreuve ${number: 8}.
+    Épreuve ${number: 9}.
+    Almanach du Moogle.
+    Retour.${prompt}
   6401: |-
-    This is not your ${keyitem-singular: 0[2]}.
-    Unable to review trial progress.
+    Ce n'est pas votre ${keyitem-singular: 0[2]}.
+    Impossible de consulter la progression des épreuves.
   6402: |-
-    There are no current records in your ${keyitem-singular: 0[2]}.
-    Unable to review trial progress.
-  6403: Access granted!
+    Il n'y a aucun enregistrement actuel dans votre ${keyitem-singular: 0[2]}.
+    Impossible de consulter la progression des épreuves.
+  6403: Accès accordé !
   6404: |-
     ${number: 0} ${number: 1} ${number: 2} ${number: 3}
     ${number: 4} ${number: 5} ${number: 6} ${number: 7}${prompt}
-  6405: You open the tome to the “Moogle's Almanack” chapter and peruse its weather prognostication pages.${prompt}
-  6406: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6407: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6408: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6409: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6410: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6411: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6412: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6413: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6414: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6415: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6416: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]}.${prompt}'
-  6417: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]}.${prompt}'
-  6418: '${color-alt: 121}==== WARNING：addr.(${unknown: 0x7F9500})=${number: 1} ===='
-  6419: We hope you enjoy this complimentary little gift, courtesy of the citizens of Vana'diel!
-  6420: Make some room in your inventory to claim your prize!
-  6421: Have a gander at this special collaboration with Pictlogica Final Fantasy!
+  6405: Vous ouvrez le tome au chapitre "Almanach du Moogle" et parcourez ses pages de prévisions météorologiques.${prompt}
+  6406: 'Une observation attentive du ciel révèle que le temps dans cette zone aujourd''hui sera ${weather-adjective: 0[2]} avec des ${weather-noun: 1[2]} occasionnel(le)s. Il y a également une légère possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6407: 'En regardant vers l''avenir, la météo de demain semble être ${weather-adjective: 0[2]} avec des ${weather-noun: 1[2]} occasionnel(le)s. Il y a également une légère possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6408: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnel(le)s. Il y a également une légère possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6409: 'Une observation attentive du ciel révèle que le temps dans cette zone aujourd''hui sera ${weather-adjective: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6410: 'En regardant vers l''avenir, la météo de demain semble être ${weather-adjective: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6411: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6412: 'Une observation attentive du ciel révèle que le temps dans cette zone aujourd''hui sera ${weather-adjective: 0[2]}. Il y a également une possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6413: 'En regardant vers l''avenir, la météo de demain semble être ${weather-adjective: 0[2]}. Il y a également une possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6414: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]}. Il y a également une possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6415: 'Une observation attentive du ciel révèle que le temps dans cette zone aujourd''hui sera ${weather-adjective: 0[2]}.${prompt}'
+  6416: 'En regardant vers l''avenir, la météo de demain semble être ${weather-adjective: 0[2]}.${prompt}'
+  6417: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]}.${prompt}'
+  6418: '${color-alt: 121}==== AVERTISSEMENT：addr.(${unknown: 0x7F9500})=${number: 1} ===='
+  6419: Nous espérons que vous apprécierez ce petit cadeau gratuit, offert par les citoyens de Vana'diel !
+  6420: Faites de la place dans votre inventaire pour réclamer votre prix !
+  6421: Jetez un œil à cette collaboration spéciale avec Pictlogica Final Fantasy !
   6422: |-
-    The Adventurer Gratitude Campaign is currently underway!
-    Enjoy this special gift courtesy of the FINAL FANTASY XI team!
-  6423: As a token of thanks for your unflagging devotion to Vana'diel, please enjoy this special gift courtesy of the FINAL FANTASY XI team!
-  6424: '${color-alt: 121}You will be able to use the Assist Channel until ${ts-month: 0}/${ts-day: 0}/${ts-year: 0} at ${ts-hour: 0}:${ts-minute: 0} (JST).'
-  6425: As a token of thanks for your unflagging devotion to Vana'diel, please enjoy this special gift courtesy of the FINAL FANTASY XI team!
-  6426: You sense a tiny sparkle from San d'Oria in your inventory!
-  6427: 'You cannot obtain the ${item-singular: 0[2]}.${prompt}'
-  6428: You cannot obtain any more.${prompt}
+    La Campagne de Gratitude des Aventuriers est actuellement en cours !
+    Profitez de ce cadeau spécial offert par l'équipe de FINAL FANTASY XI !
+  6423: En guise de remerciement pour votre dévouement indéfectible envers Vana'diel, veuillez profiter de ce cadeau spécial offert par l'équipe de FINAL FANTASY XI !
+  6424: '${color-alt: 121}Vous pourrez utiliser le Canal d''Assistance jusqu''au ${ts-day: 0}/${ts-month: 0}/${ts-year: 0} à ${ts-hour: 0}:${ts-minute: 0} (JST).'
+  6425: En guise de remerciement pour votre dévouement indéfectible envers Vana'diel, veuillez profiter de ce cadeau spécial offert par l'équipe de FINAL FANTASY XI !
+  6426: Vous sentez une minuscule étincelle de San d'Oria dans votre inventaire !
+  6427: 'Vous ne pouvez pas obtenir ${item-singular: 0[2]}.${prompt}'
+  6428: Vous ne pouvez plus en obtenir.${prompt}
   6429: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
+    Revenez après avoir trié votre inventaire.${prompt}
   6430: |-
-    You cannot obtain the ${item-plural: 0[2]}.
-    Come back after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir ${item-plural: 0[2]}.
+    Revenez après avoir trié votre inventaire.${prompt}
   6431: |-
-    You cannot obtain the item.
-    Come back after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir l'objet.
+    Revenez après avoir trié votre inventaire.${prompt}
   6432: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Speak with the mystic retriever after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
+    Parlez au récupérateur mystique après avoir trié votre inventaire.${prompt}
   6433: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Try trading again after sorting your inventory.${prompt}
-  6434: 'You must free at least ${number: 0} space${choice-plurality: 0}[/s] before trading any items.${prompt}'
-  6435: 'Obtained: ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
-  6436: 'Obtained ${number: 0} gil.${prompt}'
-  6437: 'Obtained ${number: 0} gil.'
-  6438: 'Obtained key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  6439: 'Lost key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  6440: You do not have enough gil.${prompt}
-  6441: 'You obtain ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6442: You do not have enough gil.
+    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
+    Essayez d'échanger à nouveau après avoir trié votre inventaire.${prompt}
+  6434: 'Vous devez libérer au moins ${number: 0} espace${choice-plurality: 0}[/s] avant d''échanger des objets.${prompt}'
+  6435: 'Obtenu : ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
+  6436: 'Obtenu ${number: 0} gils.${prompt}'
+  6437: 'Obtenu ${number: 0} gils.'
+  6438: 'Objet clé obtenu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  6439: 'Objet clé perdu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  6440: Vous n'avez pas assez de gils.${prompt}
+  6441: 'Vous obtenez ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6442: Vous n'avez pas assez de gils.
   6443: |-
-    A party member has an NPC called up.
-    You cannot take part in this event.${prompt}
-  6444: 'You obtain ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6445: You find the hoofprint of a gigantic warhorse...${prompt}
-  6446: 'You set the ${keyitem-singular: 0[2]} in the warhorse hoofprint.${prompt}'
-  6447: 'The ${item-singular: 0[2]} is returned to you.${prompt}'
-  6448: 'The ${number: 1} ${item-plural: 0[2]} are returned to you.${prompt}'
-  6449: There is nothing out of the ordinary here.${prompt}
-  6450: You are suddenly overcome with a sense of foreboding...${prompt}
-  6451: Now is not the time for that!${prompt}
-  6452: It seems that you will have to wait a bit longer...${prompt}
-  6453: An aura of irrepressible might threatens to overwhelm you...${prompt}
-  6454: You no longer sense the monster's presence...${prompt}
+    Un membre du groupe a invoqué un PNJ.
+    Vous ne pouvez pas participer à cet événement.${prompt}
+  6444: 'Vous obtenez ${number: 1} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6445: Vous trouvez l'empreinte de sabot d'un gigantesque destrier...${prompt}
+  6446: 'Vous placez ${keyitem-singular: 0[2]} dans l''empreinte de sabot du destrier.${prompt}'
+  6447: '${item-singular: 0[2]} vous est rendu(e).${prompt}'
+  6448: 'Les ${number: 1} ${item-plural: 0[2]} vous sont rendu(e)s.${prompt}'
+  6449: Il n'y a rien de particulier ici.${prompt}
+  6450: Vous êtes soudainement submergé par un sentiment de mauvais présage...${prompt}
+  6451: Ce n'est pas le moment pour ça !${prompt}
+  6452: Il semble que vous devrez attendre encore un peu...${prompt}
+  6453: Une aura de puissance irrépressible menace de vous submerger...${prompt}
+  6454: Vous ne sentez plus la présence du monstre...${prompt}
   6455: '${number: 0}...${prompt}'
-  6456: The mine explodes!${prompt}
-  6457: The mine misfires...${prompt}
-  6458: You retrieve the mine.${prompt}
-  6459: You successfully deactivate the mine!${prompt}
-  6460: You failed to deactivate the mine...${prompt}
-  6461: 'Obtained ${number: 0} cruor. (Total: ${number: 1})${prompt}'
-  6462: 'Obtained ${number: 0} cruor. (Total: ${number: 1})'
-  6463: You do not have enough cruor.${prompt}
-  6464: You do not have enough cruor.
+  6456: La mine explose !${prompt}
+  6457: La mine fait long feu...${prompt}
+  6458: Vous récupérez la mine.${prompt}
+  6459: Vous avez réussi à désactiver la mine !${prompt}
+  6460: Vous n'avez pas réussi à désactiver la mine...${prompt}
+  6461: 'Obtenu ${number: 0} cruor. (Total : ${number: 1})${prompt}'
+  6462: 'Obtenu ${number: 0} cruor. (Total : ${number: 1})'
+  6463: Vous n'avez pas assez de cruor.${prompt}
+  6464: Vous n'avez pas assez de cruor.
   6465: |-
-    You have obtained all of Lilisette's memory fragments.
-    Make haste and report to Cait Sith.${prompt}
+    Vous avez obtenu tous les fragments de mémoire de Lilisette.
+    Hâtez-vous de faire votre rapport à Cait Sith.${prompt}
   6466: |-
-    You cannot perform that action.
-    Come back after you have obtained visitant status.
-  6467: You cannot perform that action while participating in Bastion.
-  6468: '${color-alt: 121}Target out of range.${prompt}'
-  6469: You cannot view this event while holding claim over a synergy furnace.${prompt}
-  6470: '${color-alt: 123}You cannot perform that action with a free trial account.${prompt}'
-  6471: 'You must wait another ${number: 0} ${choice-plurality: 0}[day/days] to perform that action.${prompt}'
-  6472: '${color-alt: 121}${name-player} gained ${number: 0} ${choice: 1}[points of experience/limit points].'
-  6473: 'You cannot carry any more ${keyitem-plural: 0[2]}.${prompt}'
-  6474: '${color-alt: 121}You have carried over ${number: 1} login point${choice-plurality: 1}[/s].${prompt}'
+    Vous ne pouvez pas effectuer cette action.
+    Revenez après avoir obtenu le statut de visitant.
+  6467: Vous ne pouvez pas effectuer cette action pendant que vous participez à Bastion.
+  6468: '${color-alt: 121}Cible hors de portée.${prompt}'
+  6469: Vous ne pouvez pas voir cet événement pendant que vous revendiquez une fournaise de synergie.${prompt}
+  6470: '${color-alt: 123}Vous ne pouvez pas effectuer cette action avec un compte d''essai gratuit.${prompt}'
+  6471: 'Vous devez attendre encore ${number: 0} jour${choice-plurality: 0}[/s] pour effectuer cette action.${prompt}'
+  6472: '${color-alt: 121}${name-player} a gagné ${number: 0} ${choice: 1}[points d''expérience/points de limite].'
+  6473: 'Vous ne pouvez plus porter de ${keyitem-plural: 0[2]}.${prompt}'
+  6474: '${color-alt: 121}Vous avez reporté ${number: 1} point${choice-plurality: 1}[/s] de connexion.${prompt}'
   6475: |-
-    The ${choice: 1}[/January/February/March/April/May/June/July/August/September/October/November/December] ${number: 0} Login Campaign is currently underway!
+    La Campagne de Connexion de ${choice: 1}[/janvier/février/mars/avril/mai/juin/juillet/août/septembre/octobre/novembre/décembre] ${number: 0} est actuellement en cours !
     ${prompt}
   6476: |-
-    In celebration of your most recent login (login no. ${number: 1}), we have provided you with ${number: 2} points!
-    You currently have a total of ${number: 3} points.${prompt}
+    Pour célébrer votre connexion la plus récente (connexion n° ${number: 1}), nous vous avons fourni ${number: 2} points !
+    Vous avez actuellement un total de ${number: 3} points.${prompt}
   6477: ${prompt}
   6478: ${prompt}
   6479: ${prompt}
-  6480: 'You have obtained ${number: 0} bayld!${prompt}'
-  6481: 'You have obtained ${number: 0} bayld!'
-  6482: You do not have enough bayld!${prompt}
-  6483: You do not have enough bayld!
-  6484: 'You can now become a ${choice: 0}[geomancer/rune fencer]!${prompt}'
-  6485: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount in the corresponding locale.${prompt}'
-  6486: A faint energy wafts up from the ground.${prompt}
-  6487: Your device has already been attuned to a geomagnetic fount in the corresponding locale.${prompt}
-  6488: 'You have learned ${keyitem-singular: 0[2]}!${prompt}'
-  6489: I eat, breathe, and sleep delivery services! Even if the heavens come tumbling down, the seas engulf all of Adoulin, or eternal darkness descends upon the world, you needn't worry about your package!${prompt}
-  6490: '${color-alt: 123}The level of difficulty for this content is ${number: 0}.${prompt}'
-  6491: 'Your maximum level has been raised to ${choice: 0}[50/55/60/65/70/75/80/85/90/95/99]!${prompt}'
-  6492: '${color-alt: 123}You have entered belligerency.${prompt}'
-  6493: '${color-alt: 123}You have entered belligerency and your level has been restricted to ${number: 0}.${prompt}'
-  6494: '${color-alt: 123}You have entered belligerency. Your level has been restricted to ${number: 0} and the attributes of applicable equipment you may be wearing have been appropriately reduced.${prompt}'
-  6495: You have learned a new instinct!${prompt}
-  6496: '${color-alt: 123}Your party is unable to participate because certain members'' levels are restricted.${prompt}'
-  6497: Please remove your level restriction before endeavoring to participate.${prompt}
-  6498: 'You learned Trust: ${spell: 1}!'
-  6499: You are now able to call multiple alter egos.
+  6480: 'Vous avez obtenu ${number: 0} bayld !${prompt}'
+  6481: 'Vous avez obtenu ${number: 0} bayld !'
+  6482: Vous n'avez pas assez de bayld !${prompt}
+  6483: Vous n'avez pas assez de bayld !
+  6484: 'Vous pouvez maintenant devenir ${choice: 0}[géomancien/escrimeur runique] !${prompt}'
+  6485: 'Votre ${keyitem-singular: 1[2]} a été accordé(e) à une source géomagnétique dans le lieu correspondant.${prompt}'
+  6486: Une faible énergie émane du sol.${prompt}
+  6487: Votre appareil a déjà été accordé à une source géomagnétique dans le lieu correspondant.${prompt}
+  6488: 'Vous avez appris ${keyitem-singular: 0[2]} !${prompt}'
+  6489: Je mange, respire et dors services de livraison ! Même si les cieux s'effondrent, que les mers engloutissent tout Adoulin, ou que les ténèbres éternelles descendent sur le monde, vous n'avez pas à vous inquiéter pour votre colis !${prompt}
+  6490: '${color-alt: 123}Le niveau de difficulté de ce contenu est ${number: 0}.${prompt}'
+  6491: 'Votre niveau maximum a été augmenté à ${choice: 0}[50/55/60/65/70/75/80/85/90/95/99] !${prompt}'
+  6492: '${color-alt: 123}Vous êtes entré en état de belligérance.${prompt}'
+  6493: '${color-alt: 123}Vous êtes entré en état de belligérance et votre niveau a été restreint à ${number: 0}.${prompt}'
+  6494: '${color-alt: 123}Vous êtes entré en état de belligérance. Votre niveau a été restreint à ${number: 0} et les attributs de l''équipement applicable que vous pourriez porter ont été réduits en conséquence.${prompt}'
+  6495: Vous avez appris un nouvel instinct !${prompt}
+  6496: '${color-alt: 123}Votre groupe ne peut pas participer car les niveaux de certains membres sont restreints.${prompt}'
+  6497: Veuillez retirer votre restriction de niveau avant de tenter de participer.${prompt}
+  6498: 'Vous avez appris Confiance : ${spell: 1} !'
+  6499: Vous pouvez maintenant invoquer plusieurs alter egos.
   6500: |-
-    Enter?
+    Entrer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6501: |-
-    Leave?
+    Quitter ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6502: The cutscene has unexpectedly terminated. Examine the Resume Point to continue.
+    Oui.
+    Non.${prompt}
+  6502: La cinématique s'est terminée de manière inattendue. Examinez le Point de Reprise pour continuer.
   6503: |-
-    What do you wish to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Show me the cutscene again.
-    Skip the cutscene and continue.${prompt}
-  6504: Displaying the next scene.
-  6505: Alter egos may be used here without any effect on enmity.
-  6506: '${color-alt: 123}The maximum level of the content you are currently attempting is ${number: 0}.${prompt}'
+    Montrez-moi à nouveau la cinématique.
+    Passer la cinématique et continuer.${prompt}
+  6504: Affichage de la scène suivante.
+  6505: Les alter egos peuvent être utilisés ici sans aucun effet sur l'inimitié.
+  6506: '${color-alt: 123}Le niveau maximum du contenu que vous tentez actuellement est ${number: 0}.${prompt}'
   6507: '${number: 0} ${number: 1} ${number: 2} ${number: 3}'
   6508: '${number: 4} ${number: 5} ${number: 6} ${number: 7}'
-  6509: The Unity ranking tabulation period has begun.
-  6510: The Unity ranking tabulation period has ended.
-  6511: '${choice: 0}[Unranked/First place/Second place/Third place/Fourth place/Fifth place]: ${choice: 1}[Pieuje/Ayame/Invincible Shield/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie].'
+  6509: La période de tabulation du classement Unity a commencé.
+  6510: La période de tabulation du classement Unity est terminée.
+  6511: '${choice: 0}[Non classé/Première place/Deuxième place/Troisième place/Quatrième place/Cinquième place] : ${choice: 1}[Pieuje/Ayame/Bouclier Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie].'
   6512: |-
-    Jump into the vortex?
+    Sauter dans le vortex ?
     ${selection-lines}
-    Off we go!
-    Not just yet.${prompt}
-  6513: Nothing out of the ordinary happens.${prompt}
-  6514: '${color-alt: 123}You are unable to proceed to the next area because ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin] is not registered to your account.${prompt}'
-  6515: 'You are now able to call forth alter egos here because you have obtained the ${keyitem-singular: 0[2]} key item.'
-  6516: 'You cannot carry any more ${keyitem-plural: 0[2]}.${prompt}'
-  6517: '${color-alt: 138}You have been promoted to ${choice: 0}[/Private First Class/Superior Private/Lance Corporal/Corporal/Sergeant/Sergeant Major/Chief Sergeant/Second Lieutenant/First Lieutenant/Captain]!${prompt}'
-  6518: Your bags mysteriously feel a little bit heavier...${prompt}
-  6519: 'The bonds tying you to Altana have strengthened, enabling you to experience all the memories of ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin]!${prompt}'
-  6520: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the ${choice: 1}[Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin/Rise of the Zilart] missions.'
-  6521: '${color-alt: 138}You are unable to make further progress in Rhapsodies of Vana''diel due to an event occurring in the quest ${choice: 1}[Champion of the Dawn/A Forbidden Reunion].'
-  6522: The crystal glistens with a divine radiance.${prompt}
-  6523: '${color-alt: 138}You must visit Aht Urhgan Whitegate in order to progress in the Rhapsodies of Vana''diel missions.'
-  6524: '${color-alt: 123}You have been awarded the temporary item ${item-singular: 0[2]} as compensation.${prompt}'
-  6525: '${color-alt: 123}You already posses the temporary item ${item-singular: 0[2]} and cannot receive another one as compensation.${prompt}'
-  6526: '${color-alt: 123}Please claim your item before maintenance for the February 2022 version update begins.${prompt}'
-  6527: 'You have been rewarded ${article} ${item-article: 0[2]} as compensation.${prompt}'
-  6528: 'You are unable to accept the compensatory ${item-singular: 0[2]}. Free up some space in your inventory and try again.${prompt}'
-  6529: '${color-alt: 123}Please claim your item before maintenance for the October 2022 version update begins.${prompt}'
-  6530: 'You receive ${number: 0} deeds for a total of ${number: 1}!${prompt}'
-  6531: '${color-alt: 161}Word has been received of a Mamool Ja threat in Wajaom Woodlands.${prompt}'
-  6532: '${color-alt: 161}Word has been received of a Troll threat in Wajaom Woodlands.${prompt}'
-  6533: '${color-alt: 161}Word has been received of an undead threat in Bhaflau Thickets.${prompt}'
-  6534: '${color-alt: 161}--------------${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0} (地球時間）${prompt}'
-  6535: '${color-alt: 121}Vana''Bout Records of Eminence objectives have been updated.${prompt}'
-  6536: '${color-alt: 121}Vana''Bout No. ${number: 0} has commenced!${prompt}'
-  6537: '${color-alt: 121}Vana''Bout No. ${number: 0} has concluded.${prompt}'
-  6538: '${color-alt: 121}Obtained temporary item: ${item-singular: 0[2]}.${prompt}'
-  6539: '${color-alt: 121}Lost temporary item: ${item-singular: 0[2]}.${prompt}'
-  6540: 'If you wish to ride a chocobo, you must possess ${keyitem-article: 7[2]} and have a high enough job level.${prompt}'
-  6541: 'You can rent a chocobo for ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
-  6542: You can rent a chocobo, but because your level is so low, you won't be able to ride for very long. Also, equipment that extends your riding time will have no effect.${prompt}
-  6543: 'If you still want one, it will cost you ${number: 0} gil. I see you currently have ${number: 1} gil.${prompt}'
+    Allons-y !
+    Pas tout de suite.${prompt}
+  6513: Rien de particulier ne se produit.${prompt}
+  6514: '${color-alt: 123}Vous ne pouvez pas accéder à la zone suivante car ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin] n''est pas enregistré sur votre compte.${prompt}'
+  6515: 'Vous pouvez maintenant invoquer des alter egos ici car vous avez obtenu l''objet clé ${keyitem-singular: 0[2]}.'
+  6516: 'Vous ne pouvez plus porter de ${keyitem-plural: 0[2]}.${prompt}'
+  6517: '${color-alt: 138}Vous avez été promu ${choice: 0}[/Soldat de première classe/Soldat supérieur/Caporal suppléant/Caporal/Sergent/Sergent-major/Sergent-chef/Sous-lieutenant/Lieutenant/Capitaine] !${prompt}'
+  6518: Vos sacs semblent mystérieusement un peu plus lourds...${prompt}
+  6519: 'Les liens qui vous unissent à Altana se sont renforcés, vous permettant de vivre tous les souvenirs de ${choice: 0}[Rise of the Zilart/Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin] !${prompt}'
+  6520: '${color-alt: 138}Vous ne pouvez pas progresser davantage dans Rhapsodies of Vana''diel en raison d''un événement se produisant dans les missions de ${choice: 1}[Chains of Promathia/Treasures of Aht Urhgan/Wings of the Goddess/Seekers of Adoulin/Rise of the Zilart].'
+  6521: '${color-alt: 138}Vous ne pouvez pas progresser davantage dans Rhapsodies of Vana''diel en raison d''un événement se produisant dans la quête ${choice: 1}[Champion of the Dawn/A Forbidden Reunion].'
+  6522: Le cristal scintille d'une radiance divine.${prompt}
+  6523: '${color-alt: 138}Vous devez visiter Aht Urhgan Whitegate afin de progresser dans les missions Rhapsodies of Vana''diel.'
+  6524: '${color-alt: 123}Vous avez reçu l''objet temporaire ${item-singular: 0[2]} en compensation.${prompt}'
+  6525: '${color-alt: 123}Vous possédez déjà l''objet temporaire ${item-singular: 0[2]} et ne pouvez pas en recevoir un autre en compensation.${prompt}'
+  6526: '${color-alt: 123}Veuillez réclamer votre objet avant le début de la maintenance pour la mise à jour de février 2022.${prompt}'
+  6527: 'Vous avez reçu ${article} ${item-article: 0[2]} en compensation.${prompt}'
+  6528: 'Vous ne pouvez pas accepter ${item-singular: 0[2]} en compensation. Libérez de l''espace dans votre inventaire et réessayez.${prompt}'
+  6529: '${color-alt: 123}Veuillez réclamer votre objet avant le début de la maintenance pour la mise à jour d''octobre 2022.${prompt}'
+  6530: 'Vous recevez ${number: 0} actes pour un total de ${number: 1} !${prompt}'
+  6531: '${color-alt: 161}Des nouvelles ont été reçues concernant une menace Mamool Ja dans les Bois de Wajaom.${prompt}'
+  6532: '${color-alt: 161}Des nouvelles ont été reçues concernant une menace Troll dans les Bois de Wajaom.${prompt}'
+  6533: '${color-alt: 161}Des nouvelles ont été reçues concernant une menace de morts-vivants dans les Fourrés de Bhaflau.${prompt}'
+  6534: '${color-alt: 161}--------------${ts-day: 0}/${ts-month: 0} ${ts-hour: 0}:${ts-minute: 0} (heure terrestre)${prompt}'
+  6535: '${color-alt: 121}Les objectifs Records of Eminence de Vana''Bout ont été mis à jour.${prompt}'
+  6536: '${color-alt: 121}Le Vana''Bout n° ${number: 0} a commencé !${prompt}'
+  6537: '${color-alt: 121}Le Vana''Bout n° ${number: 0} est terminé.${prompt}'
+  6538: '${color-alt: 121}Objet temporaire obtenu : ${item-singular: 0[2]}.${prompt}'
+  6539: '${color-alt: 121}Objet temporaire perdu : ${item-singular: 0[2]}.${prompt}'
+  6540: 'Si vous souhaitez monter un chocobo, vous devez posséder ${keyitem-article: 7[2]} et avoir un niveau de classe suffisamment élevé.${prompt}'
+  6541: 'Vous pouvez louer un chocobo pour ${number: 0} gils. Je vois que vous avez actuellement ${number: 1} gils.${prompt}'
+  6542: Vous pouvez louer un chocobo, mais comme votre niveau est si bas, vous ne pourrez pas le monter très longtemps. De plus, l'équipement qui prolonge votre temps de monte n'aura aucun effet.${prompt}
+  6543: 'Si vous en voulez quand même un, cela vous coûtera ${number: 0} gils. Je vois que vous avez actuellement ${number: 1} gils.${prompt}'
   6544: |-
-    Do you wish to rent a chocobo?
+    Souhaitez-vous louer un chocobo ?
     ${selection-lines}
-    Yes, I do.
-    No, thank you.${prompt}
-  6545: You don't have enough gil.${prompt}
-  6546: I realize that you are in a hurry, ${choice-player-gender}[sir/ma'am]. However, might I make a simple request? One of our associate's chocobos has lost her way and cannot return home.${prompt}
-  6547: 'Would you be so kind as to deliver her to ${choice: 3}[the Kingdom/the Republic/the Federation/the Duchy/the Duchy/the Duchy/the hidden] stables in ${choice: 3}[Southern San d''Oria/the Bastok Mines/Windurst Woods/Upper Jeuno/Lower Jeuno/Port Jeuno/Norg]? ${prompt}'
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
+  6545: Vous n'avez pas assez de gils.${prompt}
+  6546: Je réalise que vous êtes pressé${choice-player-gender}[, monsieur/, madame]. Cependant, puis-je vous faire une simple requête ? L'un des chocobos de notre associé s'est égaré et ne peut pas rentrer chez lui.${prompt}
+  6547: 'Auriez-vous la gentillesse de le livrer aux écuries ${choice: 3}[du Royaume/de la République/de la Fédération/du Duché/du Duché/du Duché/cachées] de ${choice: 3}[San d''Oria-S/Mines de Bastok/Bois de Windurst/Jeuno-Haut/Jeuno-Bas/Port Jeuno/Norg] ? ${prompt}'
   6548: |-
-    Lend a helping hand?
+    Donner un coup de main ?
     ${selection-lines}
-    I have better things to do.
-    Of course!${prompt}
+    J'ai mieux à faire.
+    Bien sûr !${prompt}
   6549: |-
-    Oh, thank you so very much!
-    You shall be rewarded by our associates upon delivery of the chocobo.${prompt}
+    Oh, merci beaucoup !
+    Vous serez récompensé par nos associés lors de la livraison du chocobo.${prompt}
   6550: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back after sorting your inventory.${prompt}
-  6551: 'Would you be so kind as to deliver her to ${choice: 3}[the entrance to the Gustav Tunnel (B-8)/Bibiki Bay (G-10)/the entrance of Uggalepih Temple (J-11)]?${prompt}'
+    Vous ne pouvez pas obtenir ${item-singular: 0[2]}.
+    Revenez après avoir trié votre inventaire.${prompt}
+  6551: 'Auriez-vous la gentillesse de le livrer à ${choice: 3}[l''entrée du Tunnel Gustav (B-8)/la Baie de Bibiki (G-10)/l''entrée du Temple d''Uggalepih (J-11)] ?${prompt}'
   6552: |-
-    Only those fulfilling both requirements set forth by the alliance may ride a chocobo.
-    First, you must be a soldier of a respectable level in the Allied Forces. Secondly, you must be in possession of ${keyitem-article: 7[2]}.${prompt}
+    Seuls ceux qui remplissent les deux conditions établies par l'alliance peuvent monter un chocobo.
+    Premièrement, vous devez être un soldat d'un niveau respectable dans les Forces Alliées. Deuxièmement, vous devez être en possession de ${keyitem-article: 7[2]}.${prompt}
   6553: |-
-    Any of our fine birds here will bear you directly to the frontlines of battle.
-    We charge a service fee of ${number: 0} Allied Notes, which goes towards seeing that the chocobos are well taken care of.
-    My records indicate that you currently have ${number: 1} Allied Notes.${prompt}
+    N'importe lequel de nos magnifiques oiseaux ici vous portera directement sur les lignes de front de la bataille.
+    Nous facturons des frais de service de ${number: 0} Notes Alliées, qui servent à garantir que les chocobos sont bien entretenus.
+    Mes dossiers indiquent que vous avez actuellement ${number: 1} Notes Alliées.${prompt}
   6554: |-
-    Hmmm... It looks like you don't have enough Allied Notes.
-    Sorry, but these birds aren't going to feed and groom themselves.${prompt}
-  6555: 'I''m sorry, but we don''t put our chocobos in the hands of people with ${keyitem-article: 0[2]}. We wouldn''t want our feathered friends dying from fright now, would we?${prompt}'
+    Hmmm... On dirait que vous n'avez pas assez de Notes Alliées.
+    Désolé, mais ces oiseaux ne vont pas se nourrir et se toiletter tout seuls.${prompt}
+  6555: 'Je suis désolé, mais nous ne mettons pas nos chocobos entre les mains de personnes avec ${keyitem-article: 0[2]}. Nous ne voudrions pas que nos amis à plumes meurent de peur, n''est-ce pas ?${prompt}'
   6556: |-
-    Your fate rides on the changing winds of Vana'diel.
-    I can give you insight on the local weather.${prompt}
+    Votre destin chevauche les vents changeants de Vana'diel.
+    Je peux vous donner un aperçu de la météo locale.${prompt}
   6557: |-
-    What area's weather do you wish to know?
+    De quelle zone souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     Ronfaure.
-    La Theine Plateau.
-    Valkurm Dunes.
-    Jugner Forest.
-    Batallia Downs.
+    Plateau de La Theine.
+    Dunes de Valkurm.
+    Forêt de Jugner.
+    Plaines de Batallia.
     Gustaberg.
-    Konschtat Highlands.
-    Pashhow Marshlands.
-    Rolanberry Fields.
-    Beaucedine Glacier.
+    Hauts plateaux de Konschtat.
+    Marais de Pashhow.
+    Champs de Rolanberry.
+    Glacier de Beaucedine.
     Xarcabard.
-    Cape Teriggan.
-    Altepa Desert.
+    Cap Teriggan.
+    Désert d'Altepa.
     Sarutabaruta.
-    Tahrongi Canyon.
-    Buburimu Peninsula.
-    Meriphataud Mountains.
-    Sauromugue Champaign.
-    The Sanctuary of Zi'Tah.
-    Yuhtunga & Yhoator Jungles.
-    Qufim Island.
+    Canyon de Tahrongi.
+    Péninsule de Buburimu.
+    Montagnes de Meriphataud.
+    Champaign de Sauromugue.
+    Le Sanctuaire de Zi'Tah.
+    Jungles de Yuhtunga et Yhoator.
+    Île de Qufim.
     Tu'Lia.
     Ferry.
-    Airship.
+    Navire volant.
     Jeuno.
-    Uleguerand Range.
-    Tavnazian Archipelago.
-    Riverne - Sites #A01 & #B01.${prompt}
-  6558: 'That area''s forecast for today is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6559: 'The forecast for tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6560: 'And, the forecast for the day after tomorrow is for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6561: 'Today, that area''s weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6562: 'Tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6563: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6564: 'Today, the weather in that area will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6565: 'Tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6566: 'And, the day after tomorrow, the weather will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6567: 'The weather in that area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6568: 'The weather tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6569: 'The weather the day after tomorrow will be ${weather-adjective: 0[2]}.${prompt}'
-  6570: And that's the report, straight from Vana'diel's official weather linkshell.${prompt}
+    Chaîne d'Uleguerand.
+    Archipel de Tavnazia.
+    Riverne - Sites #A01 et #B01.${prompt}
+  6558: 'Les prévisions de cette zone pour aujourd''hui annoncent ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnel(le)s. Il y a également une légère possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6559: 'Les prévisions pour demain annoncent ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnel(le)s. Il y a également une légère possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6560: 'Et les prévisions pour après-demain annoncent ${weather-noun: 0[2]} avec des ${weather-noun: 1[2]} occasionnel(le)s. Il y a également une légère possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6561: 'Aujourd''hui, le temps dans cette zone sera ${weather-adjective: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6562: 'Demain, le temps sera ${weather-adjective: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6563: 'Et après-demain, le temps sera ${weather-adjective: 0[2]} avec une possibilité de ${weather-noun: 1[2]}.${prompt}'
+  6564: 'Aujourd''hui, le temps dans cette zone sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6565: 'Demain, le temps sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6566: 'Et après-demain, le temps sera ${weather-adjective: 0[2]}. Il y a également la possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6567: 'Le temps dans cette zone aujourd''hui sera ${weather-adjective: 0[2]}.${prompt}'
+  6568: 'Le temps demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6569: 'Le temps après-demain sera ${weather-adjective: 0[2]}.${prompt}'
+  6570: Et voilà le rapport, directement du linkshell météo officiel de Vana'diel.${prompt}
   6571: |-
-    What area's weather do you wish to know?
+    De quelle zone souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
-    Wajaom Woodlands.
-    Bhaflau Thickets.
-    Mount Zhayolm.
-    Caedarva Mire.${prompt}
+    Nulle part.
+    Bois de Wajaom.
+    Fourrés de Bhaflau.
+    Mont Zhayolm.
+    Marécage de Caedarva.${prompt}
   6572: |-
-    What area's weather do you wish to know?
+    De quelle zone souhaitez-vous connaître la météo ?
     ${selection-lines}
-    Nowhere.
-    Ceizak Battlegrounds.
-    Yahse Hunting Grounds.
-    Foret de Hennetiel.
-    Morimar Basalt Fields.
-    Yorcia Weald.
-    Marjami Ravine.
-    Kamihr Drifts.${prompt}
-  6573: Can I interest you in some magical maps?${prompt}
+    Nulle part.
+    Champs de bataille de Ceizak.
+    Territoires de chasse de Yahse.
+    Forêt de Hennetiel.
+    Champs de basalte de Morimar.
+    Forêt de Yorcia.
+    Ravin de Marjami.
+    Dérives de Kamihr.${prompt}
+  6573: Puis-je vous intéresser à quelques cartes magiques ?${prompt}
   6574: |-
-    Buy a map?
+    Acheter une carte ?
     ${selection-lines}
-    Decline.
-    Inquire about maps.
-    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gil).
-    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gil).
-    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gil).
-    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gil).
-    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gil).
-    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gil).
-    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gil).
-    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gil).
-    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gil).
-    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gil).
-    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gil).
-    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gil).
-    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gil).
-    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gil).
-    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gil).
-    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gil).
-    Previous page.
-    Next page.${prompt}
-  6575: When you look at a map for your present area, you can see the lay of the land, as well as your current location.${prompt}
-  6576: Members of your party and alliance will appear on the map, too. Also, certain jobs let you find people and monsters from a distance.${prompt}
-  6577: They're especially handy because you can mark where you've been, and some people can mark them for you as well.${prompt}
+    Décliner.
+    Se renseigner sur les cartes.
+    ${lettercase: 1}${keyitem-singular: 1[2]} (${number: 17} gils).
+    ${lettercase: 1}${keyitem-singular: 2[2]} (${number: 18} gils).
+    ${lettercase: 1}${keyitem-singular: 3[2]} (${number: 19} gils).
+    ${lettercase: 1}${keyitem-singular: 4[2]} (${number: 20} gils).
+    ${lettercase: 1}${keyitem-singular: 5[2]} (${number: 21} gils).
+    ${lettercase: 1}${keyitem-singular: 6[2]} (${number: 22} gils).
+    ${lettercase: 1}${keyitem-singular: 7[2]} (${number: 23} gils).
+    ${lettercase: 1}${keyitem-singular: 8[2]} (${number: 24} gils).
+    ${lettercase: 1}${keyitem-singular: 9[2]} (${number: 25} gils).
+    ${lettercase: 1}${keyitem-singular: 10[2]} (${number: 26} gils).
+    ${lettercase: 1}${keyitem-singular: 11[2]} (${number: 27} gils).
+    ${lettercase: 1}${keyitem-singular: 12[2]} (${number: 28} gils).
+    ${lettercase: 1}${keyitem-singular: 13[2]} (${number: 29} gils).
+    ${lettercase: 1}${keyitem-singular: 14[2]} (${number: 30} gils).
+    ${lettercase: 1}${keyitem-singular: 15[2]} (${number: 31} gils).
+    ${lettercase: 1}${keyitem-singular: 16[2]} (${number: 32} gils).
+    Page précédente.
+    Page suivante.${prompt}
+  6575: Lorsque vous regardez une carte de votre zone actuelle, vous pouvez voir la disposition du terrain, ainsi que votre position actuelle.${prompt}
+  6576: Les membres de votre groupe et de votre alliance apparaîtront également sur la carte. De plus, certaines classes vous permettent de trouver des personnes et des monstres à distance.${prompt}
+  6577: Elles sont particulièrement pratiques car vous pouvez marquer où vous êtes allé, et certaines personnes peuvent les marquer pour vous également.${prompt}
   6578: |-
-    The ${keyitem-singular: 1[2]} covers Ronfaure, the La Theine Plateau, the Valkurm Dunes, Jugner Forest, Selbina, and San d'Oria.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]} couvre Ronfaure, le Plateau de La Theine, les Dunes de Valkurm, la Forêt de Jugner, Selbina et San d'Oria.
+    Elle coûte ${number: 3} gils.${prompt}
   6579: |-
-    The ${keyitem-singular: 1[2]} covers Gustaberg, the Konschtat Highlands, the Pashhow Marshlands, and Bastok.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]} couvre Gustaberg, les Hauts plateaux de Konschtat, les Marais de Pashhow et Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6580: |-
-    The ${keyitem-singular: 1[2]} covers Sarutabaruta, the Tahrongi Canyon, the Buburimu Peninsula, the Meriphataud Mountains, Mhaura, and Windurst.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]} couvre Sarutabaruta, le Canyon de Tahrongi, la Péninsule de Buburimu, les Montagnes de Meriphataud, Mhaura et Windurst.
+    Elle coûte ${number: 3} gils.${prompt}
   6581: |-
-    The ${keyitem-singular: 1[2]} covers Batallia Downs, Rolanberry Fields, the Sauromugue Champaign, and Jeuno.
-    It costs ${number: 3} gil.${prompt}
-  6582: 'This complete ${keyitem-singular: 1[2]}, which extend far beneath La Theine Plateau, costs ${number: 3} gil.${prompt}'
-  6583: '${lettercase: 1}${keyitem-plural: 1[2]} include layouts for both outpost and fortress of Ghelsba, as well as the Yughott Grotto. It costs ${number: 3} gil.${prompt}'
-  6584: 'The ${keyitem-singular: 1[2]} shows the notorious Orcish stronghold hidden within Jugner Forest. It is priced at ${number: 3} gil.${prompt}'
-  6585: 'This map shows the waterways and islands that make up Carpenters'' Landing. It is priced at ${number: 3} gil.${prompt}'
+    ${keyitem-singular: 1[2]} couvre les Plaines de Batallia, les Champs de Rolanberry, le Champaign de Sauromugue et Jeuno.
+    Elle coûte ${number: 3} gils.${prompt}
+  6582: 'Cette ${keyitem-singular: 1[2]} complète, qui s''étend loin sous le Plateau de La Theine, coûte ${number: 3} gils.${prompt}'
+  6583: '${lettercase: 1}${keyitem-plural: 1[2]} incluent les dispositions de l''avant-poste et de la forteresse de Ghelsba, ainsi que la Grotte de Yughott. Elle coûte ${number: 3} gils.${prompt}'
+  6584: '${keyitem-singular: 1[2]} montre la forteresse Orque notoire cachée dans la Forêt de Jugner. Elle est au prix de ${number: 3} gils.${prompt}'
+  6585: 'Cette carte montre les voies navigables et les îles qui constituent Carpenters'' Landing. Elle est au prix de ${number: 3} gils.${prompt}'
   6586: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Bastok's Zeruhn Mines.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]}, comme son nom l'indique, contient la disposition des Mines Zeruhn de Bastok.
+    Elle coûte ${number: 3} gils.${prompt}
   6587: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Palborough Mines, which lie in North Gustaberg.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]}, comme son nom l'indique, contient la disposition des Mines de Palborough, qui se trouvent dans Gustaberg Nord.
+    Elle coûte ${number: 3} gils.${prompt}
   6588: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of the Quadav stronghold, Beadeaux, that is located in the Pashhow Marshlands.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]}, comme son nom l'indique, contient la disposition de la forteresse Quadav, Beadeaux, qui est située dans les Marais de Pashhow.
+    Elle coûte ${number: 3} gils.${prompt}
   6589: |-
-    The ${keyitem-singular: 1[2]}, as the name implies, contains the layout of Giddeus, which you can reach from West Sarutabaruta.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]}, comme son nom l'indique, contient la disposition de Giddeus, que vous pouvez atteindre depuis Sarutabaruta Ouest.
+    Elle coûte ${number: 3} gils.${prompt}
   6590: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the Yagudo stronghold, Castle Oztroja, located in the Meriphataud Mountains.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]} contient la disposition de la forteresse Yagudo, le Château Oztroja, situé dans les Montagnes de Meriphataud.
+    Elle coûte ${number: 3} gils.${prompt}
   6591: |-
-    The ${keyitem-singular: 1[2]} contains the layout of the underground maze of Shakhrami that can be found in the Tahrongi Canyon area.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]} contient la disposition du labyrinthe souterrain de Shakhrami qui peut être trouvé dans la zone du Canyon de Tahrongi.
+    Elle coûte ${number: 3} gils.${prompt}
   6592: |-
-    The ${keyitem-singular: 1[2]} covers the Sanctuary of Zi'Tah, Ro'Maeve, and the Hall of the Gods.
-    It costs ${number: 3} gil.${prompt}
+    ${keyitem-singular: 1[2]} couvre le Sanctuaire de Zi'Tah, Ro'Maeve et la Salle des Dieux.
+    Elle coûte ${number: 3} gils.${prompt}
   6593: |-
-    This map covers Bibiki Bay and its nearby islands.
-    It costs ${number: 3} gil.${prompt}
-  6594: 'The ${keyitem-singular: 1[2]} outlines the geography of nearby Qufim Island. It costs ${number: 3} gil.${prompt}'
-  6595: 'Located beneath Batallia Downs, the Eldieme Necropolis is shown in detail on this map. The price is ${number: 3} gil.${prompt}'
-  6596: 'The Garlaige Citadel, which lies upon the Sauromugue Champaign, is illustrated in this map. Each copy costs ${number: 3} gil.${prompt}'
-  6597: '${lettercase: 1}${keyitem-plural: 1[2]} include Kazham, as well as both jungles of Yuhtunga and Yhoator for ${number: 3} gil.${prompt}'
-  6598: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} for ${number: 3} gil.${prompt}'
-  6599: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]} as well as ${zone: 4[2]} for ${number: 3} gil.${prompt}'
-  6600: '${lettercase: 1}${keyitem-plural: 1[2]} include ${zone: 2[2]}, as well as ${zone: 4[2]} and ${zone: 5[2]} for ${number: 3} gil.${prompt}'
+    Cette carte couvre la Baie de Bibiki et ses îles voisines.
+    Elle coûte ${number: 3} gils.${prompt}
+  6594: '${keyitem-singular: 1[2]} décrit la géographie de l''île de Qufim voisine. Elle coûte ${number: 3} gils.${prompt}'
+  6595: 'Située sous les Plaines de Batallia, la Nécropole d''Eldieme est montrée en détail sur cette carte. Le prix est de ${number: 3} gils.${prompt}'
+  6596: 'La Citadelle de Garlaige, qui se trouve sur le Champaign de Sauromugue, est illustrée sur cette carte. Chaque copie coûte ${number: 3} gils.${prompt}'
+  6597: '${lettercase: 1}${keyitem-plural: 1[2]} incluent Kazham, ainsi que les jungles de Yuhtunga et Yhoator pour ${number: 3} gils.${prompt}'
+  6598: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} pour ${number: 3} gils.${prompt}'
+  6599: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]} ainsi que ${zone: 4[2]} pour ${number: 3} gils.${prompt}'
+  6600: '${lettercase: 1}${keyitem-plural: 1[2]} incluent ${zone: 2[2]}, ainsi que ${zone: 4[2]} et ${zone: 5[2]} pour ${number: 3} gils.${prompt}'
   6601: |-
-    Buy ${keyitem-article: 0[2]}?
+    Acheter ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6602: You haven't enough money, ${choice-player-gender}[sir/ma'am].${prompt}
-  6603: 'Maps of the Kuzotz region include Altepa Desert as well as Rabao for ${number: 3} gil.${prompt}'
-  6604: 'Maps of the Vollbow region include Cape Teriggan, as well as Valley of Sorrows and Gustav Tunnel for ${number: 3} gil.${prompt}'
-  6605: Maps of the Korroloka Tunnel are, as their names imply, maps of the Korroloka Tunnel, which connects Altepa Desert and Zeruhn Mines.${prompt}
-  6606: 'The map of Al Zahbi also includes Aht Urhgan Whitegate and the Colosseum. It costs ${number: 2} gil.${prompt}'
-  6607: 'This map shows the layout of the Azouph Isle town of Nashmau. It costs ${number: 3} gil.${prompt}'
-  6608: 'This map shows the forest tract stretching west of Al Zahbi. A map of the Wajaom Woodlands can be yours for ${number: 3} gil.${prompt}'
-  6609: 'This map shows Bhaflau Thickets, lying to the north of Al Zahbi. It costs ${number: 3} gil.${prompt}'
-  6610: '${keyitem-article: 1[2]} is an older map that was often used to depict ${zone: 2[2]}. It costs ${number: 3} gil.${prompt}'
-  6611: Oh... I thought perhaps that somewhere within these walls I would find my prrrince charming...${prompt}
-  6612: What's that? Do I know you?${prompt}
-  6613: A library book? Ah! That's rrright! That book I borrowed in Windurst.${prompt}
-  6614: I totally forgot! How silly of me. Here you are!${prompt}
-  6615: 'That book, ${keyitem-singular: 1[2]}, was so good! The Library of Magic in Windurst is truly a balm for book lovers...${prompt}'
-  6616: I know the rrright man for me is out there, somewhere. Oh...${prompt}
-  6617: (DEBUG) Flag raised, kupo!${prompt}
-  6618: Welcome, Master! This is your home, the “Mog House,” kupo!${prompt}
-  6619: I'm a moogle! We moogles like taking care of houses and items! Nice to meet you, kupo!${prompt}
-  6620: I'll tell you all about your Mog House, kupo!${prompt}
+    Oui.
+    Non.${prompt}
+  6602: Vous n'avez pas assez d'argent, ${choice-player-gender}[monsieur/madame].${prompt}
+  6603: 'Les cartes de la région de Kuzotz incluent le Désert d''Altepa ainsi que Rabao pour ${number: 3} gils.${prompt}'
+  6604: 'Les cartes de la région de Vollbow incluent le Cap Teriggan, ainsi que la Vallée des Douleurs et le Tunnel Gustav pour ${number: 3} gils.${prompt}'
+  6605: Les cartes du Tunnel de Korroloka sont, comme leur nom l'indique, des cartes du Tunnel de Korroloka, qui relie le Désert d'Altepa et les Mines Zeruhn.${prompt}
+  6606: 'La carte d''Al Zahbi inclut également Aht Urhgan Whitegate et le Colisée. Elle coûte ${number: 2} gils.${prompt}'
+  6607: 'Cette carte montre la disposition de la ville de Nashmau sur l''île d''Azouph. Elle coûte ${number: 3} gils.${prompt}'
+  6608: 'Cette carte montre l''étendue forestière s''étendant à l''ouest d''Al Zahbi. Une carte des Bois de Wajaom peut être vôtre pour ${number: 3} gils.${prompt}'
+  6609: 'Cette carte montre les Fourrés de Bhaflau, situés au nord d''Al Zahbi. Elle coûte ${number: 3} gils.${prompt}'
+  6610: '${keyitem-article: 1[2]} est une carte plus ancienne qui était souvent utilisée pour représenter ${zone: 2[2]}. Elle coûte ${number: 3} gils.${prompt}'
+  6611: Oh... Je pensais que quelque part dans ces murs je trouverais mon prrrrince charmant...${prompt}
+  6612: Quoi ? Est-ce que je vous connais ?${prompt}
+  6613: Un livre de bibliothèque ? Ah ! C'est vrrrai ! Ce livre que j'ai emprunté à Windurst.${prompt}
+  6614: J'avais complètement oublié ! Quelle étourdie je fais. Le voici !${prompt}
+  6615: 'Ce livre, ${keyitem-singular: 1[2]}, était si bon ! La Bibliothèque de Magie de Windurst est vraiment un baume pour les amateurs de livres...${prompt}'
+  6616: Je sais que l'homme qui me convient est là, quelque part. Oh...${prompt}
+  6617: (DEBUG) Drapeau levé, kupo !${prompt}
+  6618: Bienvenue, Maître ! Voici votre maison, la "Maison Mog", kupo !${prompt}
+  6619: Je suis un moogle ! Nous les moogles aimons prendre soin des maisons et des objets ! Ravi de vous rencontrer, kupo !${prompt}
+  6620: Je vais tout vous dire sur votre Maison Mog, kupo !${prompt}
   6621: |-
-    First, the basics, kupo!
-    Open your main menu, Master. The button at the very bottom changes to “Mog House” when you're in your Mog House, kupo!${prompt}
-  6622: Press it and the “Mog House” menu will appear! Everything you can do in your Mog House is there, kupo!${prompt}
-  6623: There are lots of things you can do in your Mog House, kupo! It can be too much for some masters, kupo...${prompt}
-  6624: So I'll teach you about each one of them! Ask me what you want to know about, kupo!${prompt}
-  6625: Choose the Mog House command you want to know about, kupo!${prompt}
+    D'abord, les bases, kupo !
+    Ouvrez votre menu principal, Maître. Le bouton tout en bas devient "Maison Mog" quand vous êtes dans votre Maison Mog, kupo !${prompt}
+  6622: Appuyez dessus et le menu "Maison Mog" apparaîtra ! Tout ce que vous pouvez faire dans votre Maison Mog est là, kupo !${prompt}
+  6623: Il y a beaucoup de choses que vous pouvez faire dans votre Maison Mog, kupo ! Ça peut être trop pour certains maîtres, kupo...${prompt}
+  6624: Alors je vais vous enseigner chacune d'entre elles ! Demandez-moi ce que vous voulez savoir, kupo !${prompt}
+  6625: Choisissez la commande de la Maison Mog sur laquelle vous voulez en savoir plus, kupo !${prompt}
   6626: |-
-    What do you want to know about?
+    De quoi voulez-vous en savoir plus ?
     ${selection-lines}
-    The Mog Safe.
-    Storage.
-    The Delivery Box.
-    Changing jobs.
-    Gardening.
-    Changing the layout.
-    Mog House invitations.
-    I got it, thanks, kupo!${prompt}
-  6627: The Mog Safe is where I keep items that you can't carry! It's an especially secure and solid safe, kupo!${prompt}
-  6628: You can only put so many items in it, kupo... But I'll guard them even if it means my life, kupo!${prompt}
-  6629: The Delivery Box is where you can send letters to friends and receive items from various places, kupo!${prompt}
-  6630: You should take the items from your Delivery Box and put them in your inventory when they arrive, kupo!${prompt}
-  6631: If your Delivery Box is full, no more deliveries can be made, and you can't send any mail either, kupo!${prompt}
-  6632: You can send items and gil to your friends with the “Send” command, kupo!${prompt}
-  6633: (Sometimes, if a special force takes hold, you can even deliver items with the "Exclusive" attribute, kupo...!)${prompt}
-  6634: Changing people's jobs is a secret ability only we moogles can use, kupo!${prompt}
-  6635: I take off all your equipment and take you to a mysterious place, kupo!${prompt}
-  6636: And...the rest is a secret, kupo!${prompt}
-  6637: All moogles like taking care of plants, kupo!${prompt}
-  6638: As long as you have a flowerpot and seeds, I'll make it my personal responsibility to look after the plants you raise, kupo!${prompt}
-  6639: This Mog House is your very own room, kupo! But it's still a little bare, kupo...${prompt}
-  6640: It needs some furniture and maybe some paintings to make it more cozy, kupo!${prompt}
-  6641: If you find any during your travels, I'll help you lay them out, kupo! I can't wait, kupo!${prompt}
-  6642: Storage space becomes available when you place furniture in your Mog House using the “Layout” command, kupo!${prompt}
+    Le Coffre Mog.
+    Le stockage.
+    La Boîte de livraison.
+    Changer de classe.
+    Le jardinage.
+    Changer la disposition.
+    Les invitations à la Maison Mog.
+    J'ai compris, merci, kupo !${prompt}
+  6627: Le Coffre Mog est l'endroit où je garde les objets que vous ne pouvez pas porter ! C'est un coffre particulièrement sécurisé et solide, kupo !${prompt}
+  6628: Vous ne pouvez y mettre qu'un certain nombre d'objets, kupo... Mais je les garderai même si cela signifie ma vie, kupo !${prompt}
+  6629: La Boîte de livraison est l'endroit où vous pouvez envoyer des lettres à vos amis et recevoir des objets de divers endroits, kupo !${prompt}
+  6630: Vous devriez prendre les objets de votre Boîte de livraison et les mettre dans votre inventaire quand ils arrivent, kupo !${prompt}
+  6631: Si votre Boîte de livraison est pleine, plus aucune livraison ne peut être effectuée, et vous ne pouvez pas envoyer de courrier non plus, kupo !${prompt}
+  6632: Vous pouvez envoyer des objets et des gils à vos amis avec la commande "Envoyer", kupo !${prompt}
+  6633: (Parfois, si une force spéciale entre en jeu, vous pouvez même livrer des objets avec l'attribut "Exclusif", kupo... !)${prompt}
+  6634: Changer la classe des gens est une capacité secrète que seuls nous les moogles pouvons utiliser, kupo !${prompt}
+  6635: J'enlève tout votre équipement et vous emmène dans un endroit mystérieux, kupo !${prompt}
+  6636: Et... le reste est un secret, kupo !${prompt}
+  6637: Tous les moogles aiment prendre soin des plantes, kupo !${prompt}
+  6638: Tant que vous avez un pot de fleurs et des graines, je prendrai la responsabilité personnelle de m'occuper des plantes que vous cultivez, kupo !${prompt}
+  6639: Cette Maison Mog est votre propre chambre, kupo ! Mais elle est encore un peu nue, kupo...${prompt}
+  6640: Il lui faut des meubles et peut-être quelques peintures pour la rendre plus confortable, kupo !${prompt}
+  6641: Si vous en trouvez pendant vos voyages, je vous aiderai à les disposer, kupo ! J'ai hâte, kupo !${prompt}
+  6642: L'espace de stockage devient disponible lorsque vous placez des meubles dans votre Maison Mog en utilisant la commande "Disposition", kupo !${prompt}
   6643: |-
-    It's almost exactly the same as using your Mog Safe, kupo!
-    Leave your items here for me to look after, kupo!${prompt}
-  6644: You can invite party and alliance members into your Mog House, kupo!${prompt}
-  6645: You can show off your expensive furniture, have tea parties, plan your next great adventure--the possibilities are endless, kupo!${prompt}
-  6646: Are you sure, kupo? You know everything about your Mog House, kupo?${prompt}
+    C'est presque exactement comme utiliser votre Coffre Mog, kupo !
+    Laissez-moi vos objets pour que je m'en occupe, kupo !${prompt}
+  6644: Vous pouvez inviter les membres du groupe et de l'alliance dans votre Maison Mog, kupo !${prompt}
+  6645: Vous pouvez montrer vos meubles coûteux, organiser des goûters, planifier votre prochaine grande aventure -- les possibilités sont infinies, kupo !${prompt}
+  6646: Êtes-vous sûr, kupo ? Vous savez tout sur votre Maison Mog, kupo ?${prompt}
   6647: |-
-    Are you sure?
+    Êtes-vous sûr ?
     ${selection-lines}
-    I'm sure!
-    Maybe I'm not so sure...${prompt}
-  6648: And finally, a little bit of advice!${prompt}
-  6649: If you ever run into any problems, just ask your fellow adventurers for help!${prompt}
-  6650: If you type “/ae Hello!”, then your message will be heard by many people.${prompt}
-  6651: If you type “/ae” followed by your issue or question, other adventurers will help you!${prompt}
-  6652: Remember that you can only do this while in town, kupo!${prompt}
+    J'en suis sûr !
+    Peut-être pas si sûr...${prompt}
+  6648: Et enfin, un petit conseil !${prompt}
+  6649: Si jamais vous rencontrez des problèmes, demandez simplement de l'aide à vos compagnons aventuriers !${prompt}
+  6650: Si vous tapez "/ae Bonjour !", alors votre message sera entendu par beaucoup de gens.${prompt}
+  6651: Si vous tapez "/ae" suivi de votre problème ou question, d'autres aventuriers vous aideront !${prompt}
+  6652: Rappelez-vous que vous ne pouvez faire cela qu'en ville, kupo !${prompt}
   6653: |-
-    Okay, kupo!
-    Good luck on your adventuring, kupo!${prompt}
-  6654: Do you want me to teach you about your Mog House again, kupo?${prompt}
+    D'accord, kupo !
+    Bonne chance dans vos aventures, kupo !${prompt}
+  6654: Voulez-vous que je vous renseigne à nouveau sur votre Maison Mog, kupo ?${prompt}
   6655: |-
-    Ask about your Mog House again?
+    Se renseigner à nouveau sur votre Maison Mog ?
     ${selection-lines}
-    Don't ask.
-    Ask.${prompt}
+    Ne pas demander.
+    Demander.${prompt}
   6656: |-
-    Over the mountains and the rolling hills,
-    I'll go wherever my master wills.♪${prompt}
+    Par-dessus les montagnes et les collines vallonnées,
+    J'irai partout où mon maître voudra.♪${prompt}
   6657: |-
-    Master!
-    I traveled all the way here at your bidding, kupo! Even a Rent-a-Room needs a moogle, kupo!${prompt}
-  6658: But there are a few things you can't do in a Rent-a-Room, kupo. Select “Mog House” from the main menu and check, kupo!${prompt}
-  6659: When you go back home, talk to the guard in front of the residential area to call me back to the Mog House, kupo!${prompt}
+    Maître !
+    J'ai voyagé tout le chemin jusqu'ici à votre demande, kupo ! Même une Chambre-à-louer a besoin d'un moogle, kupo !${prompt}
+  6658: Mais il y a quelques choses que vous ne pouvez pas faire dans une Chambre-à-louer, kupo. Sélectionnez "Maison Mog" dans le menu principal et vérifiez, kupo !${prompt}
+  6659: Quand vous rentrerez chez vous, parlez au garde devant la zone résidentielle pour me rappeler à la Maison Mog, kupo !${prompt}
   6660: |-
-    Master!
-    I have something to tell you, kupo!${prompt}
-  6661: 'I found this precious item under the ${item-singular: 3[2]} pillow, kupo!${prompt}'
-  6662: It's all yours, kupo!${prompt}
-  6663: 'I used the ${item-singular: 3[2]} to write a song for you, kupo!${prompt}'
-  6664: Here, kupo! Please think of the lonely moogle waiting for you back home when you hear this song, kupo!${prompt}
-  6665: 'I found this item in the back of one of the ${item-singular: 3[2]}''s drawers, kupo!${prompt}'
-  6666: It's all yours, kupo!${prompt}
-  6667: 'I found this in the back of the ${item-singular: 3[2]}, kupo!${prompt}'
+    Maître !
+    J'ai quelque chose à vous dire, kupo !${prompt}
+  6661: 'J''ai trouvé cet objet précieux sous l''oreiller ${item-singular: 3[2]}, kupo !${prompt}'
+  6662: Il est tout à vous, kupo !${prompt}
+  6663: 'J''ai utilisé ${item-singular: 3[2]} pour vous écrire une chanson, kupo !${prompt}'
+  6664: Tenez, kupo ! Pensez au moogle solitaire qui vous attend à la maison quand vous entendrez cette chanson, kupo !${prompt}
+  6665: 'J''ai trouvé cet objet dans le fond d''un des tiroirs de ${item-singular: 3[2]}, kupo !${prompt}'
+  6666: Il est tout à vous, kupo !${prompt}
+  6667: 'J''ai trouvé ceci dans le fond de ${item-singular: 3[2]}, kupo !${prompt}'
   6668: |-
-    It must be a gift from the heavens, kupo!
-    Here, take it, kupo!${prompt}
-  6669: 'I found this item inside the ${item-singular: 3[2]}, kupo!${prompt}'
+    Ce doit être un cadeau des cieux, kupo !
+    Tenez, prenez-le, kupo !${prompt}
+  6669: 'J''ai trouvé cet objet à l''intérieur de ${item-singular: 3[2]}, kupo !${prompt}'
   6670: |-
-    Luck is on your side, kupo!
-    Take it, kupo!${prompt}
-  6671: 'I fished this item out of the ${item-singular: 3[2]}, kupo!${prompt}'
+    La chance est de votre côté, kupo !
+    Prenez-le, kupo !${prompt}
+  6671: 'J''ai pêché cet objet hors de ${item-singular: 3[2]}, kupo !${prompt}'
   6672: |-
-    It was very hard work, kupo...
-    I'm very tired, kupo...${prompt}
-  6673: 'I found this behind the ${item-singular: 3[2]} painting, kupo!${prompt}'
+    C'était un travail très difficile, kupo...
+    Je suis très fatigué, kupo...${prompt}
+  6673: 'J''ai trouvé ceci derrière la peinture ${item-singular: 3[2]}, kupo !${prompt}'
   6674: |-
-    This must be what they mean when they say, there are many mysteries behind works of art, kupo!
-    It's all yours, kupo!${prompt}
-  6675: 'Something clattered inside the ${item-singular: 3[2]} when I shook it! Look what fell out when I turned it upside down, kupo!${prompt}'
-  6676: It's all yours, kupo!${prompt}
-  6677: 'I felt there was something strange about the ${item-singular: 3[2]}, and when I looked into it, I found this, kupo!${prompt}'
+    Ça doit être ce qu'ils veulent dire quand ils disent qu'il y a beaucoup de mystères derrière les œuvres d'art, kupo !
+    Il est tout à vous, kupo !${prompt}
+  6675: 'Quelque chose a cliqué à l''intérieur de ${item-singular: 3[2]} quand je l''ai secoué ! Regardez ce qui est tombé quand je l''ai retourné, kupo !${prompt}'
+  6676: Il est tout à vous, kupo !${prompt}
+  6677: 'J''ai senti qu''il y avait quelque chose d''étrange avec ${item-singular: 3[2]}, et quand j''ai regardé dedans, j''ai trouvé ceci, kupo !${prompt}'
   6678: |-
-    We moogles have very good intuition, kupo!
-    It's all yours, kupo!${prompt}
-  6679: Oh, Master! You won't believe what I found out on the doorstep this morning, kupo!${prompt}
+    Nous les moogles avons une très bonne intuition, kupo !
+    Il est tout à vous, kupo !${prompt}
+  6679: Oh, Maître ! Vous n'allez pas croire ce que j'ai trouvé sur le pas de la porte ce matin, kupo !${prompt}
   6680: |-
-    At once so glorious and so ghastly, and just for you!
-    Think of it as a holiday gift from a humble moogle to his favorite (and only) master, kupo!${prompt}
-  6681: For your own safety, it is recommended you set the Mog House exit as your home point after changing jobs.${prompt}
-  6682: 'Is my assistance reaching you, Master? Your Mog House is currently aglow with ${choice: 0}[overwhelming/powerful/faint] ${choice: 1}[fire/ice/wind/earth/lightning/water/light/dark] energy, kupo!${prompt}'
-  6683: 'Is my assistance reaching you, Master? Your Mog House is currently aglow with ${choice: 0}[the overwhelming/the powerful/the faint] energy of many different elements, kupo!${prompt}'
-  6684: Each item of furniture you place using the “Layout” command corresponds to a different element, kupo! The type of energy that envelops your Mog House changes depending on those elements, kupo!${prompt}
-  6685: When that energy changes, my powers change as well, kupo! Master, you should try placing all sorts of furniture in your Mog House, kupo!${prompt}
+    À la fois si glorieux et si horrible, et juste pour vous !
+    Considérez-le comme un cadeau de vacances d'un humble moogle à son maître préféré (et unique), kupo !${prompt}
+  6681: Pour votre propre sécurité, il est recommandé de définir la sortie de la Maison Mog comme votre point d'origine après avoir changé de classe.${prompt}
+  6682: 'Mon assistance vous parvient-elle, Maître ? Votre Maison Mog est actuellement illuminée d''une énergie ${choice: 1}[de feu/de glace/de vent/de terre/de foudre/d''eau/de lumière/de ténèbres] ${choice: 0}[écrasante/puissante/faible], kupo !${prompt}'
+  6683: 'Mon assistance vous parvient-elle, Maître ? Votre Maison Mog est actuellement illuminée de l''énergie ${choice: 0}[écrasante/puissante/faible] de nombreux éléments différents, kupo !${prompt}'
+  6684: Chaque meuble que vous placez en utilisant la commande "Disposition" correspond à un élément différent, kupo ! Le type d'énergie qui enveloppe votre Maison Mog change en fonction de ces éléments, kupo !${prompt}
+  6685: Quand cette énergie change, mes pouvoirs changent aussi, kupo ! Maître, vous devriez essayer de placer toutes sortes de meubles dans votre Maison Mog, kupo !${prompt}
   6686: ${prompt}
   6687: mes7${prompt}
   6688: mes8${prompt}
   6689: mes9${prompt}
-  6690: 'TEST-No.${number: 1}${prompt}'
-  6691: 'I found ${keyitem-article: 4[2]} inside the ${item-singular: 3[2]}, kupo!${prompt}'
+  6690: 'TEST-N°${number: 1}${prompt}'
+  6691: 'J''ai trouvé ${keyitem-article: 4[2]} à l''intérieur de ${item-singular: 3[2]}, kupo !${prompt}'
   6692: |-
-    Kupo...?
-    I sense that this ${item-singular: 3[2]} is very, very special! You should go to the store where you bought it and ask about it, kupo!${prompt}
+    Kupo... ?
+    Je sens que ce ${item-singular: 3[2]} est très, très spécial ! Vous devriez aller au magasin où vous l'avez acheté et vous renseigner à ce sujet, kupo !${prompt}
   6693: |-
-    Master! Master!
-    Look what I found underneath the ${item-singular: 3[2]} this morning, kupo!${prompt}
+    Maître ! Maître !
+    Regardez ce que j'ai trouvé sous ${item-singular: 3[2]} ce matin, kupo !${prompt}
   6694: |-
-    It has been wrapped and everything!
-    I wonder who it could be from, kupo!${prompt}
-  6695: 'Look what I found in your ${item-singular: 3[2]}!${prompt}'
+    Il a même été emballé et tout !
+    Je me demande de qui cela pourrait provenir, kupo !${prompt}
+  6695: 'Regardez ce que j''ai trouvé dans votre ${item-singular: 3[2]} !${prompt}'
   6696: |-
-    You seem quite dehydrated lately, so maybe you should have it.
-    I'll try putting some more grapes in the barrel and see if I can make any more, kupo!${prompt}
-  6697: 'Your Mog Locker lease is valid until ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0}, kupo.${prompt}'
+    Vous semblez assez déshydraté ces derniers temps, alors peut-être devriez-vous le prendre.
+    Je vais essayer de mettre plus de raisins dans le tonneau et voir si je peux en faire plus, kupo !${prompt}
+  6697: 'Votre bail du Casier Mog est valide jusqu''au ${ts-day: 0}/${ts-month: 0}/${ts-year: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0}, kupo.${prompt}'
   6698: |-
-    The lease on your Mog Locker has expired, kupo.
-    Please trade ${article} ${item-article: 0[2]} to me or to Fubruhn in Aht Urhgan Whitegate.${prompt}
-  6699: 'Your Mog Locker lease has been extended until ${ts-year: 0}/${ts-month: 0}/${ts-day: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0}, kupo!${prompt}'
+    Le bail de votre Casier Mog a expiré, kupo.
+    Veuillez échanger ${article} ${item-article: 0[2]} avec moi ou avec Fubruhn à Aht Urhgan Whitegate.${prompt}
+  6699: 'Votre bail du Casier Mog a été prolongé jusqu''au ${ts-day: 0}/${ts-month: 0}/${ts-year: 0} ${ts-hour: 0}:${ts-minute: 0}:${ts-second: 0}, kupo !${prompt}'
   6700: |-
-    Master, Master!
-    I found this in the ${item-singular: 3[2]}, kupo!${prompt}
+    Maître, Maître !
+    J'ai trouvé ceci dans ${item-singular: 3[2]}, kupo !${prompt}
   6701: |-
-    It must be a present from the smilebringers.
-    Here, you should have it, kupo!${prompt}
-  6702: If you haven't already done so, you should go and speak with a woman named Alaune. She's at the Westgate in Southern San d'Oria, kupo.${prompt}
-  6703: If you haven't already done so, you should go and speak with a man named Gulldago. He's at the West Gate in Bastok Markets, kupo.${prompt}
-  6704: If you haven't already done so, you should go and speak with a woman named Selele. She's at Leviathan's Gate in Windurst Woods, kupo.${prompt}
+    Ce doit être un cadeau des apporteurs de sourires.
+    Tenez, vous devriez le prendre, kupo !${prompt}
+  6702: Si vous ne l'avez pas encore fait, vous devriez aller parler à une femme nommée Alaune. Elle est à la Porte Ouest dans San d'Oria-S, kupo.${prompt}
+  6703: Si vous ne l'avez pas encore fait, vous devriez aller parler à un homme nommé Gulldago. Il est à la Porte Ouest dans les Marchés de Bastok, kupo.${prompt}
+  6704: Si vous ne l'avez pas encore fait, vous devriez aller parler à une femme nommée Selele. Elle est à la Porte de Léviathan dans les Bois de Windurst, kupo.${prompt}
   6705: |-
-    Master! What ${choice: 7}[an egg-ceptional specimen/egg-ceptional specimens] you have there!
-    Now, if you'll just let me have a look-see, kupo...${prompt}
-  6706: We egg-tach this thingamajig to that thingamabob, just like so, kupo...${prompt}
-  6707: Now for the coup d'egg-grace...!${prompt}
+    Maître ! ${choice: 7}[Quel spécimen œuf-ceptionnel/Quels spécimens œuf-ceptionnels] vous avez là !
+    Maintenant, si vous voulez bien me laisser jeter un œuf-il, kupo...${prompt}
+  6706: Nous œuf-tachons ce machin-truc à ce bidule-chose, comme ça, kupo...${prompt}
+  6707: Maintenant pour le coup d'œuf-grâce... !${prompt}
   6708: |-
-    Voila! Isn't she a beauty, kupo?
-    Utterly egg-squisite workmanship, I do degg-clare!${prompt}
-  6709: We egg-stract this doodad from that doohickey, just like so, kupo...${prompt}
+    Voilà ! N'est-elle pas magnifique, kupo ?
+    Un travail totalement œuf-quis, je le dégg-lare !${prompt}
+  6709: Nous œuf-trayons ce gadget de ce truc-machin, comme ça, kupo...${prompt}
   6710: |-
-    Voila! Your original egg-redients, entirely egg-tact, kupo!
-    If you change your mind, just trade them back to me or one of my moogle egg-sociates!${prompt}
+    Voilà ! Vos œuf-grédients originaux, entièrement œuf-tacts, kupo !
+    Si vous changez d'avis, échangez-les simplement avec moi ou l'un de mes œuf-sociés moogles !${prompt}
   6711: |-
-    Oh, Master, look at this! I was poking around in the drawers of your ${item-singular: 3[2]}, when this ${item-singular: 4[2]} just popped out!
-    I guess you never know what you're going to find until you look for it, kupo!${prompt}
+    Oh, Maître, regardez ça ! Je fouillais dans les tiroirs de votre ${item-singular: 3[2]}, quand ce ${item-singular: 4[2]} est simplement apparu !
+    Je suppose qu'on ne sait jamais ce qu'on va trouver avant de chercher, kupo !${prompt}
   6712: |-
-    Isn't the aroma positively scrumptious?
-    It's all yours, kupo! Consider it a present for being the magnificent master that you are!${prompt}
+    L'arôme n'est-il pas absolument succulent ?
+    Il est tout à vous, kupo ! Considérez-le comme un cadeau pour être le magnifique maître que vous êtes !${prompt}
   6713: |-
-    Here, I want you to have it. In fact, I insist, kupo!
-    Consider it a present for being the magnificent master that you are!${prompt}
-  6714: 'Look at what I found while cleaning out the ${item-singular: 3[2]}: ${article} ${item-article: 4[2]}!${prompt}'
+    Tenez, je veux que vous l'ayez. En fait, j'insiste, kupo !
+    Considérez-le comme un cadeau pour être le magnifique maître que vous êtes !${prompt}
+  6714: 'Regardez ce que j''ai trouvé en nettoyant ${item-singular: 3[2]} : ${article} ${item-article: 4[2]} !${prompt}'
   6715: |-
-    Here, I want you to have it. In fact, I insist, kupo!
-    Consider it a present for being the magnificent master that you are!${prompt}
-  6716: ボタン押すと次へ進みます${prompt}
-  6717: "     \n     It all began with a raindrop,\n     or so the legend says...${prompt}"
+    Tenez, je veux que vous l'ayez. En fait, j'insiste, kupo !
+    Considérez-le comme un cadeau pour être le magnifique maître que vous êtes !${prompt}
+  6716: Appuyez sur le bouton pour passer à la suite${prompt}
+  6717: "     \n     Tout a commencé avec une goutte de pluie,\n     ou du moins c'est ce que dit la légende...${prompt}"
   6718: |-
-    Master! Oh, master, look!
-    We've sprung a leak, kupo!
-    Just look at it drip, drip, dripping away!${prompt}
+    Maître ! Oh, maître, regardez !
+    Nous avons une fuite, kupo !
+    Regardez comme ça goutte, goutte, goutte !${prompt}
   6719: |-
-    What a terribly troubling turn of events, kupo!
-    But have no fear! Sit tight and you'll see why I'm the most renowned handymoogle in the three nations!${prompt}
+    Quelle tournure terriblement troublante des événements, kupo !
+    Mais n'ayez crainte ! Restez assis et vous verrez pourquoi je suis le handymoogle le plus renommé des trois nations !${prompt}
   6720: |-
-    Goddess have mercy on my moogle soul. Look at this mess!
-    Rotting roof boards! Rusted nails, kupo!${prompt}
-  6721: Why, it's a miracle this tottering, tumble-down shanty--I mean, this beautiful abode of yours--is still standing, master!${prompt}
+    Que la Déesse ait pitié de mon âme de moogle. Regardez ce désordre !
+    Des planches de toit pourries ! Des clous rouillés, kupo !${prompt}
+  6721: Eh bien, c'est un miracle que cette bicoque chancelante et délabrée -- je veux dire, cette belle demeure à vous -- tienne encore debout, maître !${prompt}
   6722: |-
-    Anyhow, this simply won't do, kupo.
-    We must make repairs before we have water up to my little wings!${prompt}
-  6723: 'I figure all I''ll need is a good ${item-singular: 0[2]}, ${article} ${item-article: 1[2]}, and ${article} ${item-article: 2[2]} to have this fixed up good as new, kupo!${prompt}'
+    Quoi qu'il en soit, cela ne peut pas continuer, kupo.
+    Nous devons faire des réparations avant d'avoir de l'eau jusqu'à mes petites ailes !${prompt}
+  6723: 'Je pense que tout ce dont j''aurai besoin est un bon ${item-singular: 0[2]}, ${article} ${item-article: 1[2]}, et ${article} ${item-article: 2[2]} pour réparer tout ça comme neuf, kupo !${prompt}'
   6724: |-
-    Could I trouble you to track them down?
-    While you're out, I'll patch up the other problem spots.${prompt}
+    Puis-je vous déranger pour les retrouver ?
+    Pendant que vous êtes dehors, je vais colmater les autres points problématiques.${prompt}
   6725: |-
-    And do hurry, Master!
-    Lest you return to find your poor moogle friend lying prostrate in a pernicious puddle of rainwater, kupo...${prompt}
+    Et dépêchez-vous, Maître !
+    De peur que vous ne reveniez pour trouver votre pauvre ami moogle allongé prostré dans une pernicieuse flaque d'eau de pluie, kupo...${prompt}
   6726: |-
-    Thank you, Master, but our leak is in another Mog House!
-    Bring this to me when we're back home in ${choice: 0}[San d'Oria/Bastok/Windurst], won't you, kupo?${prompt}
+    Merci, Maître, mais notre fuite est dans une autre Maison Mog !
+    Apportez-moi ceci quand nous serons de retour à la maison à ${choice: 0}[San d'Oria/Bastok/Windurst], voulez-vous, kupo ?${prompt}
   6727: |-
-    You've found them, kupo! I knew I could count on you.
-    That's what I tell all my moogle buddies. “Why, my master is the boldest, brightest, bestest master of them all!”
-    Now we just take these, and...${prompt}
+    Vous les avez trouvés, kupo ! Je savais que je pouvais compter sur vous.
+    C'est ce que je dis à tous mes copains moogles. "Eh bien, mon maître est le plus audacieux, le plus brillant, le meilleur maître de tous !"
+    Maintenant nous prenons juste ceux-ci, et...${prompt}
   6728: |-
-    Kupoooooo～there you have it! Better than new!
-    Why, a bevy of wild buffalo could barge in here this second and it wouldn't budge an ilm, I say!${prompt}
-  6729: Which reminds me, I went ahead and relayed the requisite reports to my manager at the MHMU.${prompt}
+    Kupoooooo～et voilà ! Mieux que neuf !
+    Eh bien, une multitude de buffles sauvages pourraient faire irruption ici maintenant et ça ne bougerait pas d'un pouce, je vous le dis !${prompt}
+  6729: Ce qui me rappelle, j'ai transmis les rapports requis à mon responsable au MHMU.${prompt}
   6730: |-
-    But wouldn't you know it, kupo?
-    It seems there's been a trifling bit of trouble at one of our Rent-a-Rooms in Jeuno as well!${prompt}
+    Mais vous ne le croiriez pas, kupo ?
+    Il semble qu'il y ait eu un petit problème insignifiant dans l'une de nos Chambres-à-louer à Jeuno également !${prompt}
   6731: |-
-    You know the one, right across from Durable Shields.
-    Whatever could have gone wrong, kupo?${prompt}
+    Vous savez laquelle, juste en face de Durable Shields.
+    Qu'est-ce qui a bien pu mal tourner, kupo ?${prompt}
   6732: |-
-    Well, there's nothing to be learned lollygagging around here.
-    Come, Master, we're off to Jeuno!${prompt}
-  6733: "     \n     Little did anyone suspect that this\n     would prove to be only the beginning\n     of a harrowing nightmare unheard of\n     in the annals of mooglekind...${prompt}"
+    Eh bien, il n'y a rien à apprendre en traînant ici.
+    Venez, Maître, nous partons pour Jeuno !${prompt}
+  6733: "     \n     Peu de gens soupçonnaient que cela\n     s'avérerait n'être que le début\n     d'un cauchemar terrifiant inouï\n     dans les annales des moogles...${prompt}"
   6734: |-
-    Do something?
+    Faire quelque chose ?
     ${selection-lines}
-    Read instructions.
-    Change parameters.
-    Teleport to key locations.
-    Warp to home point.
-    Receive items.
-    Obtain 100,000,000 gil.
-    Do nothing.${prompt}
+    Lire les instructions.
+    Modifier les paramètres.
+    Se téléporter vers des lieux clés.
+    Se téléporter au point d'origine.
+    Recevoir des objets.
+    Obtenir 100 000 000 gils.
+    Ne rien faire.${prompt}
   6735: |-
-    Hail, adventurer!
-    I am the most mighty of moogles, my miraculous magicks able to alter all manner of arcane attributes!${prompt}
+    Salut, aventurier !
+    Je suis le plus puissant des moogles, mes magies miraculeuses capables d'altérer toutes sortes d'attributs arcaniques !${prompt}
   6736: |-
-    But be forewarned, kupo!
-    Once modified by moogle magick, your parameters cannot be restored to their prior state!${prompt}
+    Mais soyez prévenu, kupo !
+    Une fois modifiés par la magie moogle, vos paramètres ne peuvent pas être restaurés à leur état antérieur !${prompt}
   6737: |-
-    Furthermore, you may trade a moogle storage slip to me to wipe it clean, or mystically entrust its entire contents to me.
-    Quite convenient, wouldn't you say?${prompt}
+    De plus, vous pouvez m'échanger un bulletin de stockage moogle pour l'effacer complètement, ou me confier mystiquement tout son contenu.
+    Plutôt pratique, n'est-ce pas ?${prompt}
   6738: |-
-    Adjust parameters?
+    Ajuster les paramètres ?
     ${selection-lines}
-    Edit main job level.
-    Reset ability recast timer.
-    Obtain merit points.
-    Receive all spells/rolls/attachments.
-    Unlock all jobs and support jobs.
-    Cancel.${prompt}
+    Modifier le niveau de la classe principale.
+    Réinitialiser le délai de recharge des capacités.
+    Obtenir des points de mérite.
+    Recevoir tous les sorts/jets/accessoires.
+    Débloquer toutes les classes et classes de soutien.
+    Annuler.${prompt}
   6739: |-
-    Choose a level between ${number: 0} and ${number: 1}.
-    All combat skills will be set to the maximum values for that level.
-    (Entering an invalid figure will abort the process.)
-  6740: 'Your job level has been set to ${number: 0}!${prompt}'
-  6741: Recast timers will be reset, allowing you to use all abilities.${prompt}
-  6742: '${color-alt: 121}Recast timers for all abilities reset!'
-  6743: All merit point categories will be increased to their maximum values.${prompt}
-  6744: '${color-alt: 121}Maximum available merit points obtained!'
-  6745: You will obtain all magic spells, attachments, and rolls.${prompt}
-  6746: '${color-alt: 121}All magic spells, attachments, and rolls obtained!'
+    Choisissez un niveau entre ${number: 0} et ${number: 1}.
+    Toutes les compétences de combat seront définies aux valeurs maximales pour ce niveau.
+    (Entrer un chiffre invalide avortera le processus.)
+  6740: 'Votre niveau de classe a été défini à ${number: 0} !${prompt}'
+  6741: Les délais de recharge seront réinitialisés, vous permettant d'utiliser toutes les capacités.${prompt}
+  6742: '${color-alt: 121}Délais de recharge de toutes les capacités réinitialisés !'
+  6743: Toutes les catégories de points de mérite seront augmentées à leurs valeurs maximales.${prompt}
+  6744: '${color-alt: 121}Maximum de points de mérite disponibles obtenu !'
+  6745: Vous obtiendrez tous les sorts magiques, accessoires et jets.${prompt}
+  6746: '${color-alt: 121}Tous les sorts magiques, accessoires et jets obtenus !'
   6747: |-
-    You will gain access to all jobs.
-    All support jobs will also be unlocked.${prompt}
-  6748: '${color-alt: 121}Unlocked all jobs and support jobs!'
-  6749: Choose your destination.
+    Vous aurez accès à toutes les classes.
+    Toutes les classes de soutien seront également débloquées.${prompt}
+  6748: '${color-alt: 121}Toutes les classes et classes de soutien débloquées !'
+  6749: Choisissez votre destination.
   6750: |-
-    Select a category:
+    Sélectionnez une catégorie :
     ${selection-lines}
-    Towns.
-    Outposts.
-    Staging Points.
-    Cancel.${prompt}
+    Villes.
+    Avant-postes.
+    Points de rassemblement.
+    Annuler.${prompt}
   6751: |-
-    Where would you like to teleport to?
+    Où souhaitez-vous vous téléporter ?
     ${selection-lines}
-    Northern San d'Oria.
-    Bastok Mines.
+    San d'Oria-N.
+    Mines de Bastok.
     Port Windurst.
     Port Jeuno.
     Selbina.
@@ -16715,64 +16715,64 @@ entries:
     Kazham.
     Norg.
     Rabao.
-    Tavnazian Safehold.
+    Refuge de Tavnazia.
     Aht Urhgan Whitegate.
     Nashmau.
-    Chocobo Circuit.
-    Past Southern San d'Oria.
-    Past Bastok Markets.
-    Past Windurst Waters.
-    Cancel.${prompt}
-  6752: 'Teleporting to ${choice: 0}[Northern San d''Oria/Bastok Mines/Port Windurst/Port Jeuno/Selbina/Mhaura/Kazham/Norg/Rabao/the Tavnazian Safehold/Aht Urhgan Whitegate/Nashmau/the Chocobo Circuit/Past Southern San d''Oria/Past Bastok Markets/Past Windurst Waters]!${prompt}'
+    Circuit Chocobo.
+    San d'Oria-S du passé.
+    Marchés de Bastok du passé.
+    Eaux de Windurst du passé.
+    Annuler.${prompt}
+  6752: 'Téléportation vers ${choice: 0}[San d''Oria-N/les Mines de Bastok/Port Windurst/Port Jeuno/Selbina/Mhaura/Kazham/Norg/Rabao/le Refuge de Tavnazia/Aht Urhgan Whitegate/Nashmau/le Circuit Chocobo/San d''Oria-S du passé/les Marchés de Bastok du passé/les Eaux de Windurst du passé] !${prompt}'
   6753: |-
-    Where would you like to teleport to?
+    Où souhaitez-vous vous téléporter ?
     ${selection-lines}
-    The Ronfaure Region.
-    The Zulkheim Region.
-    The Norvallen Region.
-    The Gustaberg Region.
-    The Derfland Region.
-    The Sarutabaruta Region.
-    The Kolshushu Region.
-    The Aragoneu Region.
-    The Fauregandi Region.
-    The Valdeaunia Region.
-    Qufim Island.
-    The Li'Telor Region.
-    The Kuzotz Region.
-    The Vollbow Region.
-    The Elshimo Lowlands Region.
-    The Elshimo Uplands Region.
+    La région de Ronfaure.
+    La région de Zulkheim.
+    La région de Norvallen.
+    La région de Gustaberg.
+    La région de Derfland.
+    La région de Sarutabaruta.
+    La région de Kolshushu.
+    La région d'Aragoneu.
+    La région de Fauregandi.
+    La région de Valdeaunia.
+    Île de Qufim.
+    La région de Li'Telor.
+    La région de Kuzotz.
+    La région de Vollbow.
+    La région des Basses-terres d'Elshimo.
+    La région des Hautes-terres d'Elshimo.
     Tu'Lia.
-    The Tavnazian Archipelago.
-    Cancel.${prompt}
-  6754: 'Teleporting to ${choice: 0}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/the Elshimo Lowlands/the Elshimo Uplands/Tu''Lia/the Tavnazian Archipelago]!${prompt}'
+    L'Archipel de Tavnazia.
+    Annuler.${prompt}
+  6754: 'Téléportation vers ${choice: 0}[Ronfaure/Zulkheim/Norvallen/Gustaberg/Derfland/Sarutabaruta/Kolshushu/Aragoneu/Fauregandi/Valdeaunia/Qufim/Li''Telor/Kuzotz/Vollbow/les Basses-terres d''Elshimo/les Hautes-terres d''Elshimo/Tu''Lia/l''Archipel de Tavnazia] !${prompt}'
   6755: |-
-    Teleport to which staging point?
+    Se téléporter vers quel point de rassemblement ?
     ${selection-lines}
-    Azouph Isle.
+    Île d'Azouph.
     Mamool Ja.
     Halvung.
-    Dvucca Isle.
-    Ilrusi Atoll.
-    Nyzul Isle.
-    Cancel.${prompt}
-  6756: 'Teleporting to the ${choice: 0}[Azouph Isle/Mamool Ja/Halvung/Dvucca Isle/Ilrusi Atoll/Nyzul Isle] staging point!${prompt}'
-  6757: '${color-alt: 121}Congratulations, you are now a gillionaire!'
+    Île de Dvucca.
+    Atoll d'Ilrusi.
+    Île de Nyzul.
+    Annuler.${prompt}
+  6756: 'Téléportation vers le point de rassemblement ${choice: 0}[de l''île d''Azouph/de Mamool Ja/d''Halvung/de l''île de Dvucca/de l''Atoll d''Ilrusi/de l''île de Nyzul] !${prompt}'
+  6757: '${color-alt: 121}Félicitations, vous êtes maintenant gilionnaire !'
   6758: |-
-    Select an item category.
+    Sélectionnez une catégorie d'objet.
     ${selection-lines}
-    Weapons.
-    Armor.
-    Expendable items.
-    Medicine or food.
-    Instant magic scrolls.
-    Storage slips.
-    Cancel.${prompt}
+    Armes.
+    Armure.
+    Objets consommables.
+    Médicament ou nourriture.
+    Parchemins de magie instantanée.
+    Bulletins de stockage.
+    Annuler.${prompt}
   6759: |-
-    Which item do you wish to obtain?
+    Quel objet souhaitez-vous obtenir ?
     ${selection-lines}
-    Previous page.
+    Page précédente.
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
@@ -16793,158 +16793,158 @@ entries:
     ${lettercase: 1}${article} ${item-article: 17[2]}.
     ${lettercase: 1}${article} ${item-article: 18[2]}.
     ${lettercase: 1}${article} ${item-article: 19[2]}.
-    Next page.
-    Cancel.${prompt}
-  6760: You selected the item displayed.${prompt}
+    Page suivante.
+    Annuler.${prompt}
+  6760: Vous avez sélectionné l'objet affiché.${prompt}
   6761: |-
-    Obtain ${article} ${item-article: 0[2]}?
+    Obtenir ${article} ${item-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6762: |-
-    Enter the quantity you wish to obtain.
-    (Entering an invalid figure will abort the process.)
-  6763: 'Adjust the properties of this ${item-singular: 0[2]}?${prompt}'
+    Entrez la quantité que vous souhaitez obtenir.
+    (Entrer un chiffre invalide avortera le processus.)
+  6763: 'Ajuster les propriétés de ce ${item-singular: 0[2]} ?${prompt}'
   6764: |-
-    Adjust the storage slip?
+    Ajuster le bulletin de stockage ?
     ${selection-lines}
-    Cancel.
-    Entrust all items.
-    Clear contents.${prompt}
-  6765: '${color-alt: 121}All items on the ${item-singular: 0[2]} have been entrusted!'
-  6766: '${color-alt: 121}The contents of the ${item-singular: 0[2]} have been wiped clean!'
+    Annuler.
+    Confier tous les objets.
+    Effacer le contenu.${prompt}
+  6765: '${color-alt: 121}Tous les objets sur ${item-singular: 0[2]} ont été confiés !'
+  6766: '${color-alt: 121}Le contenu de ${item-singular: 0[2]} a été complètement effacé !'
   6767: |-
-    ${color-alt: 141}*Note:*
-    Unlocked jobs will be reflected upon leaving the Mog House.
-  6768: You may use one of the instruments in your Mog House to play a different tune.${prompt}
-  6769: Play music from which instrument?
+    ${color-alt: 141}*Note :*
+    Les classes débloquées seront reflétées en quittant la Maison Mog.
+  6768: Vous pouvez utiliser l'un des instruments dans votre Maison Mog pour jouer une mélodie différente.${prompt}
+  6769: Jouer de la musique avec quel instrument ?
   6770: |-
-    Select an instrument.
+    Sélectionnez un instrument.
     ${selection-lines}
-    None for now.
+    Aucun pour l'instant.
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
     ${lettercase: 1}${item-singular: 3[2]}.${prompt}
   6771: |-
-    Change to what song?
+    Changer pour quelle chanson ?
     ${selection-lines}
-    Don't change at all.
-    Track: ${choice: 1}[???/Mog House/Awakening/Echoes of a Zephyr/Bustle of the Capital].
-    Track: ${choice: 2}[???/Vana'diel March/Belief/The Cosmic Wheel/Jeweled Boughs].
-    Track: ${choice: 3}[???/The Kingdom of San d'Oria/A Realm of Emptiness/The Destiny Destroyers/Bandits' Market].
-    Track: ${choice: 4}[???/Chateau d'Oraguille/Distant Worlds/Hume Male/Illusions in the Mist].
-    Track: ${choice: 5}[???/Ronfaure/Forever Today/Hume Female/Fighters of the Crystal].
-    Track: ${choice: 6}[???/The Republic of Bastok/Rhapsodies of Vana'diel/Elvaan Male/Selbina].
-    Track: ${choice: 7}[???/Metalworks/Awakening (FFRK Ver.)/Elvaan Female/Mhaura].
-    Track: ${choice: 8}[???/Gustaberg/Full Speed Ahead!/Tarutaru Male/#56].
-    Track: ${choice: 9}[???/The Federation of Windurst/The Celestial Capital - Al'Taieu/Tarutaru Female/#57].
-    Track: ${choice: 10}[???/Heavens Tower/The Grand Duchy of Jeuno/Mithra/#58].
-    Track: ${choice: 11}[???/Sarutabaruta/Ru'Lude Gardens/Galka/#59].
-    Track: ${choice: 12}[???/The Sacred City of Adoulin/Devils' Delight/Jeuno - Starlight Celebration -/#60].
-    Track: ${choice: 13}[???/The Pioneers/Griffons Never Die/Dash de Chocobo/#61].
-    Track: ${choice: 14}[???/Kazham/Thunder of the March/Circuit de Chocobo/#62].
-    Track: ${choice: 15}[???/The Sanctuary of Zi'Tah/Stargazing/Run Chocobo Run!/#63].
-    Track: ${choice: 16}[???/Tu'Lia/Autumn Footfalls/Choc-a-bye Baby/#64].
-    Previous page.
-    Next page.${prompt}
+    Ne pas changer du tout.
+    Piste : ${choice: 1}[???/Maison Mog/Awakening/Echoes of a Zephyr/Bustle of the Capital].
+    Piste : ${choice: 2}[???/Vana'diel March/Belief/The Cosmic Wheel/Jeweled Boughs].
+    Piste : ${choice: 3}[???/The Kingdom of San d'Oria/A Realm of Emptiness/The Destiny Destroyers/Bandits' Market].
+    Piste : ${choice: 4}[???/Chateau d'Oraguille/Distant Worlds/Hume Male/Illusions in the Mist].
+    Piste : ${choice: 5}[???/Ronfaure/Forever Today/Hume Female/Fighters of the Crystal].
+    Piste : ${choice: 6}[???/The Republic of Bastok/Rhapsodies of Vana'diel/Elvaan Male/Selbina].
+    Piste : ${choice: 7}[???/Metalworks/Awakening (FFRK Ver.)/Elvaan Female/Mhaura].
+    Piste : ${choice: 8}[???/Gustaberg/Full Speed Ahead!/Tarutaru Male/#56].
+    Piste : ${choice: 9}[???/The Federation of Windurst/The Celestial Capital - Al'Taieu/Tarutaru Female/#57].
+    Piste : ${choice: 10}[???/Heavens Tower/The Grand Duchy of Jeuno/Mithra/#58].
+    Piste : ${choice: 11}[???/Sarutabaruta/Ru'Lude Gardens/Galka/#59].
+    Piste : ${choice: 12}[???/The Sacred City of Adoulin/Devils' Delight/Jeuno - Starlight Celebration -/#60].
+    Piste : ${choice: 13}[???/The Pioneers/Griffons Never Die/Dash de Chocobo/#61].
+    Piste : ${choice: 14}[???/Kazham/Thunder of the March/Circuit de Chocobo/#62].
+    Piste : ${choice: 15}[???/The Sanctuary of Zi'Tah/Stargazing/Run Chocobo Run!/#63].
+    Piste : ${choice: 16}[???/Tu'Lia/Autumn Footfalls/Choc-a-bye Baby/#64].
+    Page précédente.
+    Page suivante.${prompt}
   6772: |-
-    Change music?
+    Changer de musique ?
     ${selection-lines}
-    Not now.
-    Track: Selbina.
-    Track: Fighters of the Crystal.
-    Track: A New Horizon.
-    Track: Ragnarok.
-    Track: Clash of Standards.
-    Track: Echoes of Creation.
-    Track: Luck of the Mog.
-    Track: Feast of the Ladies.
-    Track: Abyssea.
-    Track: Melodies Errant.
-    Track: Ronfaure.
-    Track: Autumn Footfalls.
-    Track: Main Theme.
-    Track: Mog House.${prompt}
+    Pas maintenant.
+    Piste : Selbina.
+    Piste : Fighters of the Crystal.
+    Piste : A New Horizon.
+    Piste : Ragnarok.
+    Piste : Clash of Standards.
+    Piste : Echoes of Creation.
+    Piste : Luck of the Mog.
+    Piste : Feast of the Ladies.
+    Piste : Abyssea.
+    Piste : Melodies Errant.
+    Piste : Ronfaure.
+    Piste : Autumn Footfalls.
+    Piste : Main Theme.
+    Piste : Maison Mog.${prompt}
   6773: |-
-    Change music?
+    Changer de musique ?
     ${selection-lines}
-    Not now.
-    Mog House.
+    Pas maintenant.
+    Maison Mog.
     Distant Worlds.${prompt}
   6774: |-
-    Change music?
+    Changer de musique ?
     ${selection-lines}
-    Not now.
-    Mog House.
+    Pas maintenant.
+    Maison Mog.
     The Pioneers.${prompt}
   6775: |-
-    Select this song?
+    Sélectionner cette chanson ?
     ${selection-lines}
-    Yes, this sounds splendid!
-    No, I've changed my tune.${prompt}
-  6776: This song cannot yet be played.
-  6777: Hang on! I have an amazing announcement!${prompt}
+    Oui, ça sonne splendide !
+    Non, j'ai changé d'air.${prompt}
+  6776: Cette chanson ne peut pas encore être jouée.
+  6777: Attendez ! J'ai une annonce incroyable !${prompt}
   6778: |-
-    The hallowed halls of your house are even more exciting!
-    Why? Because now there's a second floor, kupo!${prompt}
-  6779: But before you bash your way in, I've got a trifling task for you to tackle.${prompt}
-  6780: Capricious Mithra cubs have cajoled critical information out of the M.H.M.U., and I want you to wrest it from them!${prompt}
-  6781: Visit the three nations and question them, kupo!${prompt}
-  6782: Now you know the nitty-gritty, so enjoy your new floor, kupo!${prompt}
-  6783: Kupopo? You mean you already know?${prompt}
-  6784: Magnificent and marvelous! Then proceed without delay!${prompt}
-  6785: Enjoy extra space to store your sundries!${prompt}
-  6786: Remodel your room to fit your finicky tastes!${prompt}
-  6787: Incorporate ostentatious overseas objects! All this and more!${prompt}
-  6788: But only on the second floor, kupo. I like the first floor as it is.${prompt}
-  6789: And as for your potted plants--they only persevere on the ground, kupo.${prompt}
-  6790: And moghancement effects only activate for furnishings fitted to the first floor.${prompt}
-  6791: Wish we could help more, but we spend enormous amounts of energy on one floor already!${prompt}
-  6792: Go forth and frolic in your new abode, kupo!${prompt}
-  6793: You can access the antechambers from the front door. Enjoy!${prompt}
-  6794: '${lettercase: 1}${item-plural: 3[2]} might bring a certain je ne sais quoi to your Mog House, kupo!${prompt}'
-  6795: Ah, I never thought that this day would come, kupo...${prompt}
-  6796: Indeed, it seems like just yesterday that we first met here.${prompt}
-  6797: I have watched with wonder as you grew before my very eyes, kupo.${prompt}
-  6798: In fact, I heard many tales of your boundless bravery from my friends across the world.${prompt}
-  6799: Every time, it made me feel much like a proud parent would.${prompt}
-  6800: It was like I was right there with you, kupo.${prompt}
-  6801: That is why I ceaselessly cleaned your Mog House, merrily managed your belongings, and watered your plants.${prompt}
-  6802: I couldn't really think of any other ways to help you, kupo.${prompt}
-  6803: However, I heard about the trials and tribulations that you've been through.${prompt}
-  6804: Valhalla, the Maelstrom Mage, Chaos...${prompt}
+    Les couloirs sacrés de votre maison sont encore plus excitants !
+    Pourquoi ? Parce que maintenant il y a un deuxième étage, kupo !${prompt}
+  6779: Mais avant que vous ne vous y précipitiez, j'ai une tâche insignifiante à vous confier.${prompt}
+  6780: Des oursons Mithra capricieux ont cajolé des informations critiques hors du M.H.M.U., et je veux que vous les leur arrachiez !${prompt}
+  6781: Visitez les trois nations et interrogez-les, kupo !${prompt}
+  6782: Maintenant vous connaissez les détails, alors profitez de votre nouvel étage, kupo !${prompt}
+  6783: Kupopo ? Vous voulez dire que vous savez déjà ?${prompt}
+  6784: Magnifique et merveilleux ! Alors procédez sans tarder !${prompt}
+  6785: Profitez d'un espace supplémentaire pour stocker vos affaires !${prompt}
+  6786: Remodelage de votre chambre selon vos goûts pointilleux !${prompt}
+  6787: Incorporez des objets ostentatoires d'outre-mer ! Tout cela et plus encore !${prompt}
+  6788: Mais seulement au deuxième étage, kupo. J'aime le premier étage tel qu'il est.${prompt}
+  6789: Et quant à vos plantes en pot -- elles ne persévèrent qu'au rez-de-chaussée, kupo.${prompt}
+  6790: Et les effets de moghancement ne s'activent que pour les meubles installés au premier étage.${prompt}
+  6791: J'aimerais pouvoir aider davantage, mais nous dépensons déjà d'énormes quantités d'énergie sur un étage !${prompt}
+  6792: Allez vous amuser dans votre nouvelle demeure, kupo !${prompt}
+  6793: Vous pouvez accéder aux antichambres depuis la porte d'entrée. Profitez-en !${prompt}
+  6794: '${lettercase: 1}${item-plural: 3[2]} pourraient apporter un certain je ne sais quoi à votre Maison Mog, kupo !${prompt}'
+  6795: Ah, je n'aurais jamais pensé que ce jour viendrait, kupo...${prompt}
+  6796: En effet, il me semble que c'était hier que nous nous sommes rencontrés ici pour la première fois.${prompt}
+  6797: J'ai regardé avec émerveillement alors que vous grandissiez sous mes yeux, kupo.${prompt}
+  6798: En fait, j'ai entendu de nombreux récits de votre bravoure sans limites de mes amis à travers le monde.${prompt}
+  6799: À chaque fois, cela me faisait me sentir un peu comme un parent fier.${prompt}
+  6800: C'était comme si j'étais là avec vous, kupo.${prompt}
+  6801: C'est pourquoi j'ai sans cesse nettoyé votre Maison Mog, joyeusement géré vos affaires et arrosé vos plantes.${prompt}
+  6802: Je ne pouvais vraiment pas penser à d'autres façons de vous aider, kupo.${prompt}
+  6803: Cependant, j'ai entendu parler des épreuves et tribulations que vous avez traversées.${prompt}
+  6804: Valhalla, le Mage du Maelström, Chaos...${prompt}
   6805: |-
-    Kupopopo!
-    Now I can actually assist you!${prompt}
-  6806: It is time for us to joyfully join forces, kupo!${prompt}
+    Kupopopo !
+    Maintenant je peux vraiment vous aider !${prompt}
+  6806: Il est temps pour nous de joyeusement unir nos forces, kupo !${prompt}
   6807: |-
-    We can discuss details at the stone circle in the La Theine Plateau!
-    I'll be waiting for you there, kupo!${prompt}
-  6808: You go on ahead, and we'll see each other soon!${prompt}
+    Nous pouvons discuter des détails au cercle de pierres dans le Plateau de La Theine !
+    Je vous y attendrai, kupo !${prompt}
+  6808: Vous y allez en premier, et nous nous verrons bientôt !${prompt}
   6809: |-
-    Join the ${choice: 6}[Fishermen's/Carpenters'/Blacksmiths'/Goldsmiths'/Weavers'/Tanners'/Boneworkers'/Alchemists'/Culinarians'] Guild?
+    Rejoindre la Guilde ${choice: 6}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d'os/des Alchimistes/des Cuisiniers] ?
     ${selection-lines}
-    Sign up.
-    That's not why you're here.${prompt}
+    S'inscrire.
+    Ce n'est pas pour ça que vous êtes là.${prompt}
   6810: |-
-    Request...?
+    Demande... ?
     ${selection-lines}
-    ${choice: 2}[Advanced synthesis/Synthesis/Synthesis] image support.
-    Information on synthesis materials.
-    Nothing.${prompt}
+    Support d'image pour ${choice: 2}[synthèse avancée/synthèse/synthèse].
+    Informations sur les matériaux de synthèse.
+    Rien.${prompt}
   6811: |-
-    Image support: ${number: 0} gil.
+    Support d'image : ${number: 0} gils.
     ${selection-lines}
-    Accept.
-    Decline.${prompt}
-  6812: 'You are now recognized as ${choice: 4}[an amateur/a recruit/an initiate/a novice/an apprentice/a journeyman/a craftsman/an artisan/an adept/a veteran/an expert/an authority/a luminary/a master/a grandmaster/a legend] of the ${choice: 6}[Fishermen''s/Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild.'
-  6813: 'Your ${choice: 1}[fishing/woodworking/smithing/goldsmithing/clothcraft/leatherworking/bonecraft/alchemy/cooking] skills went up ${choice: 2}[a little/ever so slightly/ever so slightly].${prompt}'
+    Accepter.
+    Décliner.${prompt}
+  6812: 'Vous êtes maintenant reconnu comme ${choice: 4}[un amateur/une recrue/un initié/un novice/un apprenti/un compagnon/un artisan/un artiste/un adepte/un vétéran/un expert/une autorité/un luminaire/un maître/un grand maître/une légende] de la Guilde ${choice: 6}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers].'
+  6813: 'Vos compétences en ${choice: 1}[pêche/menuiserie/forge/orfèvrerie/tissage/travail du cuir/travail de l''os/alchimie/cuisine] ont augmenté ${choice: 2}[un peu/très légèrement/très légèrement].${prompt}'
   6814: Test.${prompt}
   6815: |-
-    Necessary skills: ${choice: 6}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leatherworking/Bonecraft/Alchemy/Cooking]${choice: 1}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 2}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 3}[ /, & Woodworking/, & Smithing/, & Goldsmithing/, & Clothcraft/, & Leatherworking/, & Bonecraft/, & Alchemy/, & Cooking]
-    Necessary crystal: ${lettercase: 1}${item-singular: 4[2]}
-    Necessary items: ${prompt}
+    Compétences nécessaires : ${choice: 6}[Pêche/Menuiserie/Forge/Orfèvrerie/Tissage/Travail du cuir/Travail de l'os/Alchimie/Cuisine]${choice: 1}[ /, Menuiserie/, Forge/, Orfèvrerie/, Tissage/, Travail du cuir/, Travail de l'os/, Alchimie/, Cuisine]${choice: 2}[ /, Menuiserie/, Forge/, Orfèvrerie/, Tissage/, Travail du cuir/, Travail de l'os/, Alchimie/, Cuisine]${choice: 3}[ /, & Menuiserie/, & Forge/, & Orfèvrerie/, & Tissage/, & Travail du cuir/, & Travail de l'os/, & Alchimie/, & Cuisine]
+    Cristal nécessaire : ${lettercase: 1}${item-singular: 4[2]}
+    Objets nécessaires : ${prompt}
   6816: |-
     ${number: 4} x ${item-given-plurality: 4[2], 0[2]}
     ${number: 5} x ${item-given-plurality: 5[2], 1[2]}
@@ -16959,54 +16959,54 @@ entries:
     ${number: 5} x ${item-given-plurality: 5[2], 1[2]}${prompt}
   6819: '${number: 4} x ${item-given-plurality: 4[2], 0[2]}${prompt}'
   6820: |-
-    Hello, ${choice-player-gender}[sir/ma'am].
-    I have been appointed by the Guildworkers' Union to manage the trading of manufactured crafts and the exchange of guild points.${prompt}
-  6821: However, to assure product quality, I cannot carry out any business with those who rank lower than novice.${prompt}
-  6822: 'I see that you currently have a trading contract with the ${choice: 1}[Fishermen''s/Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild. I''m sorry, but I cannot do any business with you.${prompt}'
-  6823: 'You do have the option to terminate your contract with the ${choice: 1}[Fishermen''s/Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild and form one with us.${prompt}'
-  6824: '${color-alt: 121}After signing a new contract, you will have to wait until the next delivery phase to trade Guildworkers'' Union requested items.'
+    Bonjour, ${choice-player-gender}[monsieur/madame].
+    J'ai été nommé par l'Union des Artisans pour gérer le commerce des artisanats fabriqués et l'échange de points de guilde.${prompt}
+  6821: Cependant, pour assurer la qualité des produits, je ne peux effectuer aucune transaction avec ceux qui ont un rang inférieur à novice.${prompt}
+  6822: 'Je vois que vous avez actuellement un contrat commercial avec la Guilde ${choice: 1}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers]. Je suis désolé, mais je ne peux faire aucune affaire avec vous.${prompt}'
+  6823: 'Vous avez la possibilité de résilier votre contrat avec la Guilde ${choice: 1}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers] et d''en former un avec nous.${prompt}'
+  6824: '${color-alt: 121}Après avoir signé un nouveau contrat, vous devrez attendre la prochaine phase de livraison pour échanger les objets demandés par l''Union des Artisans.'
   6825: |-
-    Create a new contract with us?
+    Créer un nouveau contrat avec nous ?
     ${selection-lines}
-    Immediately.
-    Not today.${prompt}
+    Immédiatement.
+    Pas aujourd'hui.${prompt}
   6826: |-
-    Are you certain?
+    Êtes-vous certain ?
     ${selection-lines}
-    I said, “Immediately.”
-    On second thought...${prompt}
-  6827: 'You have terminated your trading contract with the ${choice: 1}[Fishermen''s/Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild and formed a new one with the ${choice: 0}[Fishermen''s/Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild.${prompt}'
-  6828: Our system works like this. We will ask you to provide us with a certain item depending on your craft skill rank. There is a set time limit (one day, Earth time) in which you may bring as many of the item as you can synthesize.${prompt}
-  6829: 'If you happen to create a ${color: 5}high quality${color: 1} version of the requested item, we will be more than delighted to accept that as well.${prompt}'
-  6830: Trading us these items will earn you “guild points” which can be later exchanged for other specialty goods--some of which are found exclusively at this guild.${prompt}
-  6831: The amount of guild points you will receive varies with the item requested, and there is a limit to how many points you can accumulate during the designated time frame. Trading items after you have reached the limit will result in no points gained.${prompt}
-  6832: When the time limit has expired, the item requested by the guild will change. It will also change in the event your craft skill rises.${prompt}
-  6833: I see that you have not formed a trading contract with any of the other guilds.${prompt}
-  6834: If you wish, you may form a new contract with us. However, if you wish to trade items with another guild, you must first terminate your existing contract and forfeit all the guild points you have accumulated.${prompt}
-  6835: 'You have formed a new trading contract with the ${choice: 0}[Fishermen''s/Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild.${prompt}'
+    J'ai dit, "Immédiatement."
+    En y réfléchissant...${prompt}
+  6827: 'Vous avez résilié votre contrat commercial avec la Guilde ${choice: 1}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers] et en avez formé un nouveau avec la Guilde ${choice: 0}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers].${prompt}'
+  6828: Notre système fonctionne comme ceci. Nous vous demanderons de nous fournir un certain objet en fonction de votre rang de compétence d'artisanat. Il y a un délai fixé (un jour, temps terrestre) pendant lequel vous pouvez apporter autant d'objets que vous pouvez synthétiser.${prompt}
+  6829: 'Si vous créez par hasard une version ${color: 5}de haute qualité${color: 1} de l''objet demandé, nous serons plus que ravis de l''accepter également.${prompt}'
+  6830: Nous échanger ces objets vous fera gagner des "points de guilde" qui pourront ensuite être échangés contre d'autres biens spécialisés -- dont certains se trouvent exclusivement dans cette guilde.${prompt}
+  6831: Le nombre de points de guilde que vous recevrez varie selon l'objet demandé, et il y a une limite au nombre de points que vous pouvez accumuler pendant la période désignée. Échanger des objets après avoir atteint la limite ne rapportera aucun point.${prompt}
+  6832: Lorsque le délai sera expiré, l'objet demandé par la guilde changera. Il changera également si votre compétence d'artisanat augmente.${prompt}
+  6833: Je vois que vous n'avez formé aucun contrat commercial avec les autres guildes.${prompt}
+  6834: Si vous le souhaitez, vous pouvez former un nouveau contrat avec nous. Cependant, si vous souhaitez échanger des objets avec une autre guilde, vous devez d'abord résilier votre contrat existant et renoncer à tous les points de guilde que vous avez accumulés.${prompt}
+  6835: 'Vous avez formé un nouveau contrat commercial avec la Guilde ${choice: 0}[des Pêcheurs/des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers].${prompt}'
   6836: |-
-    The current requested item is ${article} ${item-article: 2[2]}.
-    You have ${number: 0} guild points accumulated.${prompt}
+    L'objet actuellement demandé est ${article} ${item-article: 2[2]}.
+    Vous avez accumulé ${number: 0} points de guilde.${prompt}
   6837: |-
-    Currently, no items are being requested by the guild.
-    You have ${number: 0} guild points accumulated.${prompt}
+    Actuellement, aucun objet n'est demandé par la guilde.
+    Vous avez accumulé ${number: 0} points de guilde.${prompt}
   6838: |-
-    Is there something you need?
+    Y a-t-il quelque chose dont vous avez besoin ?
     ${selection-lines}
-    I'm just passing through.
-    I would like to use my points.
-    What are the current limits?
-    How does the trade system work?${prompt}
-  6839: 'You have ${number: 0} more days (Vana''diel time) to provide us with the requested item.${prompt}'
-  6840: Today (Vana'diel time) is the final day we will accept the requested item.${prompt}
-  6841: 'You can still receive up to ${number: 3} guild points by trading us the item before the time limit is up.${prompt}'
-  6842: You are not eligible to receive guild points at this time.${prompt}
+    Je ne fais que passer.
+    J'aimerais utiliser mes points.
+    Quelles sont les limites actuelles ?
+    Comment fonctionne le système d'échange ?${prompt}
+  6839: 'Il vous reste encore ${number: 0} jour(s) (temps de Vana''diel) pour nous fournir l''objet demandé.${prompt}'
+  6840: Aujourd'hui (temps de Vana'diel) est le dernier jour où nous accepterons l'objet demandé.${prompt}
+  6841: 'Vous pouvez encore recevoir jusqu''à ${number: 3} points de guilde en nous échangeant l''objet avant la fin du délai.${prompt}'
+  6842: Vous n'êtes pas éligible pour recevoir des points de guilde pour le moment.${prompt}
   6843: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    Nothing.
-    A high-quality crystal.
-    Analysis crystals.
+    Rien.
+    Un cristal de haute qualité.
+    Des cristaux d'analyse.
     ${lettercase: 1}${article} ${item-article: 0[2]} (1500).
     ${lettercase: 1}${article} ${item-article: 8[2]} (${number: 9}).
     ${lettercase: 1}${article} ${item-article: 1[2]} (70000).
@@ -17016,11 +17016,11 @@ entries:
     ${lettercase: 1}${article} ${item-article: 12[2]} (${number: 13}).
     ${lettercase: 1}${article} ${item-article: 14[2]} (${number: 15}).
     ${lettercase: 1}${article} ${item-article: 16[2]} (${number: 17}).
-    A key item.${prompt}
+    Un objet clé.${prompt}
   6844: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${article} ${item-article: 0[2]} (200).
     ${lettercase: 1}${article} ${item-article: 1[2]} (200).
     ${lettercase: 1}${article} ${item-article: 2[2]} (200).
@@ -17030,9 +17030,9 @@ entries:
     ${lettercase: 1}${article} ${item-article: 6[2]} (200).
     ${lettercase: 1}${article} ${item-article: 7[2]} (200).${prompt}
   6845: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${article} ${item-article: 0[2]} (450).
     ${lettercase: 1}${article} ${item-article: 1[2]} (450).
     ${lettercase: 1}${article} ${item-article: 2[2]} (450).
@@ -17041,26 +17041,26 @@ entries:
     ${lettercase: 1}${article} ${item-article: 5[2]} (450).
     ${lettercase: 1}${article} ${item-article: 6[2]} (450).
     ${lettercase: 1}${article} ${item-article: 7[2]} (450).${prompt}
-  6846: Yes, this is what we are asking for. Good work, ${name-player}!${prompt}
-  6847: 'Obtained: ${number: 0} guild points.${prompt}'
-  6848: You do not have enough guild points.${prompt}
-  6849: 'Trade ${number: 1} guild points for ${item-plural: 0[2]}?${prompt}'
-  6850: How many do you wish to trade for?${prompt}
-  6851: 'Trade ${number: 1} guild points for ${number: 2} ${item-given-plurality: 2[2], 0[2]}?${prompt}'
+  6846: Oui, c'est ce que nous demandons. Bon travail, ${name-player} !${prompt}
+  6847: 'Obtenu : ${number: 0} points de guilde.${prompt}'
+  6848: Vous n'avez pas assez de points de guilde.${prompt}
+  6849: 'Échanger ${number: 1} points de guilde contre ${item-plural: 0[2]} ?${prompt}'
+  6850: Combien souhaitez-vous échanger ?${prompt}
+  6851: 'Échanger ${number: 1} points de guilde contre ${number: 2} ${item-given-plurality: 2[2], 0[2]} ?${prompt}'
   6852: |-
-    Proceed with the transaction? (GP: ${number: 32})
+    Procéder à la transaction ? (PG : ${number: 32})
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6853: |-
-    Necessary skills: ${choice: 6}[Fishing/Woodworking/Smithing/Goldsmithing/Clothcraft/Leatherworking/Bonecraft/Alchemy/Cooking]${choice: 1}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 2}[ /, Woodworking/, Smithing/, Goldsmithing/, Clothcraft/, Leatherworking/, Bonecraft/, Alchemy/, Cooking]${choice: 3}[ /, & Woodworking/, & Smithing/, & Goldsmithing/, & Clothcraft/, & Leatherworking/, & Bonecraft/, & Alchemy/, & Cooking]
-    Necessary crystal: ${lettercase: 1}${item-singular: 4[2]}
-    Necessary key item: ${lettercase: 1}${keyitem-singular: 5[2]}
-    Necessary items: ${prompt}
+    Compétences nécessaires : ${choice: 6}[Pêche/Menuiserie/Forge/Orfèvrerie/Tissage/Travail du cuir/Travail de l'os/Alchimie/Cuisine]${choice: 1}[ /, Menuiserie/, Forge/, Orfèvrerie/, Tissage/, Travail du cuir/, Travail de l'os/, Alchimie/, Cuisine]${choice: 2}[ /, Menuiserie/, Forge/, Orfèvrerie/, Tissage/, Travail du cuir/, Travail de l'os/, Alchimie/, Cuisine]${choice: 3}[ /, & Menuiserie/, & Forge/, & Orfèvrerie/, & Tissage/, & Travail du cuir/, & Travail de l'os/, & Alchimie/, & Cuisine]
+    Cristal nécessaire : ${lettercase: 1}${item-singular: 4[2]}
+    Objet clé nécessaire : ${lettercase: 1}${keyitem-singular: 5[2]}
+    Objets nécessaires : ${prompt}
   6854: |-
-    Exchange points for...
+    Échanger des points contre...
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${lettercase: 1}${keyitem-singular: 0[2]}(${number: 1}).
     ${lettercase: 1}${keyitem-singular: 2[2]}(${number: 3}).
     ${lettercase: 1}${keyitem-singular: 4[2]}(${number: 5}).
@@ -17068,40 +17068,40 @@ entries:
     ${lettercase: 1}${keyitem-singular: 8[2]}(${number: 9}).
     ${lettercase: 1}${keyitem-singular: 10[2]}(${number: 11}).
     ${lettercase: 1}${keyitem-singular: 12[2]}(${number: 13}).${prompt}
-  6855: 'Trade ${number: 1} guild points for ${keyitem-singular: 0[2]}?${prompt}'
+  6855: 'Échanger ${number: 1} points de guilde contre ${keyitem-singular: 0[2]} ?${prompt}'
   6856: |-
-    You are a registered craftsman at the following guild(s):
-    ${choice: 0}[/Carpenters' ]${choice: 1}[/Blacksmiths' ]${choice: 2}[/Goldsmiths' ]${choice: 3}[/Weavers' ]${choice: 4}[/Tanners' ]${choice: 5}[/Boneworkers' ]${choice: 6}[/Alchemists' ]${choice: 7}[/Culinarians' ]
-    By revoking your status, you will be reduced to “journeyman” and your synthesis skills will be adjusted accordingly.${prompt}
+    Vous êtes un artisan enregistré dans la/les guilde(s) suivante(s) :
+    ${choice: 0}[/Menuisiers ]${choice: 1}[/Forgerons ]${choice: 2}[/Orfèvres ]${choice: 3}[/Tisserands ]${choice: 4}[/Tanneurs ]${choice: 5}[/Travailleur d'os ]${choice: 6}[/Alchimistes ]${choice: 7}[/Cuisiniers ]
+    En révoquant votre statut, vous serez réduit à "compagnon" et vos compétences de synthèse seront ajustées en conséquence.${prompt}
   6857: |-
-    Proceed?
+    Procéder ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  6858: 'Your craftsman status at the ${choice: 0}[Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild has been revoked.${prompt}'
+    Oui.
+    Non.${prompt}
+  6858: 'Votre statut d''artisan à la Guilde ${choice: 0}[des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers] a été révoqué.${prompt}'
   6859: |-
-    Which rank of synthesis do you ask about?
+    De quel rang de synthèse vous renseignez-vous ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     Amateur.
-    Recruit.
-    Initiate.
+    Recrue.
+    Initié.
     Novice.
-    Apprentice.
-    Journeyman.
-    Craftsman.
+    Apprenti.
+    Compagnon.
     Artisan.
-    Adept.
-    Veteran.
+    Artiste.
+    Adepte.
+    Vétéran.
     Expert.
-    Authority.
-    Luminary.
-    Master.
-    Grandmaster.${prompt}
+    Autorité.
+    Luminaire.
+    Maître.
+    Grand maître.${prompt}
   6860: |-
-    Which synthesis recipe do you ask about?
+    De quelle recette de synthèse vous renseignez-vous ?
     ${selection-lines}
-    None.
+    Aucune.
     ${lettercase: 1}${item-plural: 0[2]}.
     ${lettercase: 1}${item-plural: 1[2]}.
     ${lettercase: 1}${item-plural: 2[2]}.
@@ -17118,569 +17118,569 @@ entries:
     ${lettercase: 1}${item-plural: 13[2]}.
     ${lettercase: 1}${item-plural: 14[2]}.
     ${lettercase: 1}${item-plural: 15[2]}.
-    View more recipes.${prompt}
+    Voir plus de recettes.${prompt}
   6861: |-
-    Renounce your rank at which guild?
+    Renoncer à votre rang dans quelle guilde ?
     ${selection-lines}
-    None.
-    Carpenters'.
-    Blacksmiths'.
-    Goldsmiths'.
-    Weavers'.
-    Tanners'.
-    Boneworkers'.
-    Alchemists'.
-    Culinarians'.${prompt}
+    Aucune.
+    Menuisiers.
+    Forgerons.
+    Orfèvres.
+    Tisserands.
+    Tanneurs.
+    Travailleur d'os.
+    Alchimistes.
+    Cuisiniers.${prompt}
   6862: |-
-    If you proceed, your rank in the ${choice: 1}[Carpenters'/Blacksmiths'/Goldsmiths'/Weavers'/Tanners'/Boneworkers'/Alchemists'/Culinarians'] Guild will return to that of ${choice: 5}[craftsman/artisan/adept], and your skill value will revert to the maximum for that level.
-    This procedure cannot be undone, so please consider your decision carefully.${prompt}
+    Si vous procédez, votre rang dans la Guilde ${choice: 1}[des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d'os/des Alchimistes/des Cuisiniers] reviendra à celui ${choice: 5}[d'artisan/d'artiste/d'adepte], et votre valeur de compétence reviendra au maximum pour ce niveau.
+    Cette procédure ne peut pas être annulée, alors veuillez considérer votre décision attentivement.${prompt}
   6863: |-
-    Renounce your rank as a ${choice: 1}[Carpenter/Blacksmith/Goldsmith/Weaver/Tanner/Boneworker/Alchemist/Culinarian]?
+    Renoncer à votre rang de ${choice: 1}[Menuisier/Forgeron/Orfèvre/Tisserand/Tanneur/Travailleur d'os/Alchimiste/Cuisinier] ?
     ${selection-lines}
-    No, retain.
-    Yes, renounce.${prompt}
-  6864: 'You have successfully renounced your status as a ${choice: 5}[craftsman/artisan/adept] of the ${choice: 1}[Carpenters''/Blacksmiths''/Goldsmiths''/Weavers''/Tanners''/Boneworkers''/Alchemists''/Culinarians''] Guild.${prompt}'
-  6865: Welcome to the Tanners' Guild. We are a union for those in the tanning and leatherworking trade.${prompt}
-  6866: To each his own. But if you wish to remain here, please don't touch anything.${prompt}
-  6867: You must be one of those adventurers. I can tell by the fire in your eyes. For some reason this guild is popular with your type.${prompt}
+    Non, conserver.
+    Oui, renoncer.${prompt}
+  6864: 'Vous avez réussi à renoncer à votre statut ${choice: 5}[d''artisan/d''artiste/d''adepte] de la Guilde ${choice: 1}[des Menuisiers/des Forgerons/des Orfèvres/des Tisserands/des Tanneurs/des Travailleur d''os/des Alchimistes/des Cuisiniers].${prompt}'
+  6865: Bienvenue à la Guilde des Tanneurs. Nous sommes un syndicat pour ceux qui pratiquent le tannage et le travail du cuir.${prompt}
+  6866: À chacun son truc. Mais si vous souhaitez rester ici, veuillez ne rien toucher.${prompt}
+  6867: Vous devez être l'un de ces aventuriers. Je peux le voir au feu dans vos yeux. Pour une raison quelconque, cette guilde est populaire auprès de votre genre.${prompt}
   6868: |-
-    We shall start you off with crystal synthesis.
-    Without it, it will be impossible for you to continue your adventures and your new craft.${prompt}
-  6869: Use a crystal, form an image of the completed product...and poof! Instant boots! Instant headbands!${prompt}
+    Nous allons commencer par la synthèse de cristal.
+    Sans elle, il vous sera impossible de continuer vos aventures et votre nouvel artisanat.${prompt}
+  6869: Utilisez un cristal, formez une image du produit fini... et pouf ! Des bottes instantanées ! Des bandeaux instantanés !${prompt}
   6870: |-
-    But in order to form a perfect image of a product, you must practice, practice, practice.
-    I'm sure you have heard this before, but we all learn from our mistakes.${prompt}
-  6871: If you wish, the others here will inform you of the materials you need to begin. They seem eager for you to join us.${prompt}
-  6872: One way to quickly improve your skills is by asking fellow adventurers to gather skins. Then you can repay them with the fruits of your labor.${prompt}
-  6873: My dream is to open shops all over Vana'diel. I am certain that with your help, it will become reality.${prompt}
-  6874: 'I can see you are ready to move on. I want you to make me ${article} ${item-article: 0[2]}.${prompt}'
-  6875: If you succeed, I will grant you a new title and teach you new techniques.${prompt}
+    Mais pour former une image parfaite d'un produit, vous devez pratiquer, pratiquer, pratiquer.
+    Je suis sûr que vous l'avez déjà entendu, mais nous apprenons tous de nos erreurs.${prompt}
+  6871: Si vous le souhaitez, les autres ici vous informeront des matériaux dont vous avez besoin pour commencer. Ils semblent impatients que vous nous rejoigniez.${prompt}
+  6872: Une façon d'améliorer rapidement vos compétences est de demander à vos compagnons aventuriers de rassembler des peaux. Ensuite, vous pouvez les rembourser avec les fruits de votre travail.${prompt}
+  6873: Mon rêve est d'ouvrir des boutiques partout à Vana'diel. Je suis certain qu'avec votre aide, cela deviendra réalité.${prompt}
+  6874: 'Je vois que vous êtes prêt à passer à l''étape suivante. Je veux que vous me fassiez ${article} ${item-article: 0[2]}.${prompt}'
+  6875: Si vous réussissez, je vous accorderai un nouveau titre et vous enseignerai de nouvelles techniques.${prompt}
   6876: |-
-    Lovely work! You are now worthy of the title of ${choice: 7}[amateur/recruit/initiate/novice/apprentice].
-    Continue to challenge yourself and refine your skills.${prompt}
-  6877: Marvelous work! You are now worthy of the title of journeyman. People in the markets are beginning to talk about you.${prompt}
-  6878: Stupendous work! I am delighted to call you an artisan! Have you ever thought of starting your own line of products?${prompt}
-  6879: I am at a loss for words! There is little more that I can teach you. You are a true adept!${prompt}
-  6880: I don't know what to say... Did you really make this yourself? No, you had to have... I know of no one who can synthesize such beautiful work! Do you mind if I display this in the guild for all the younger members to see?${prompt}
-  6881: Are you blind, ${choice-player-gender}[boy/girl]? Can you not see that I am busy with an important order? Now off with you!${prompt}
-  6882: Can't help you.${prompt}
-  6883: Pay up or get out.${prompt}
+    Beau travail ! Vous êtes maintenant digne du titre ${choice: 7}[d'amateur/de recrue/d'initié/de novice/d'apprenti].
+    Continuez à vous mettre au défi et à affiner vos compétences.${prompt}
+  6877: Merveilleux travail ! Vous êtes maintenant digne du titre de compagnon. Les gens sur les marchés commencent à parler de vous.${prompt}
+  6878: Travail stupéfiant ! Je suis ravi de vous appeler un artiste ! Avez-vous déjà pensé à lancer votre propre ligne de produits ?${prompt}
+  6879: Je suis à court de mots ! Il y a peu de choses que je puisse encore vous enseigner. Vous êtes un véritable adepte !${prompt}
+  6880: Je ne sais pas quoi dire... Avez-vous vraiment fait cela vous-même ? Non, vous avez dû... Je ne connais personne qui puisse synthétiser un travail aussi beau ! Cela vous dérange-t-il si j'expose ceci dans la guilde pour que tous les membres plus jeunes puissent le voir ?${prompt}
+  6881: Êtes-vous aveugle, ${choice-player-gender}[mon garçon/ma fille] ? Ne voyez-vous pas que je suis occupé avec une commande importante ? Maintenant partez !${prompt}
+  6882: Je ne peux pas vous aider.${prompt}
+  6883: Payez ou sortez.${prompt}
   6884: |-
     ...
-    Eyes... Close them.${prompt}
-  6885: 'For ${article} ${item-article: 0[2]}, you''ll need...${prompt}'
-  6886: I have other tasks that need my tending. If you have finished, depart promptly.${prompt}
+    Yeux... Fermez-les.${prompt}
+  6885: 'Pour ${article} ${item-article: 0[2]}, vous aurez besoin de...${prompt}'
+  6886: J'ai d'autres tâches qui nécessitent mon attention. Si vous avez terminé, partez rapidement.${prompt}
   6887: |-
-    Splish splosh I was takin' a bath.♪
-    All upon a Thundersday night.♪${prompt}
-  6888: Hah hah! I'm flattered, but I don't thinky-wink you need me now.${prompt}
-  6889: Ummm... You're a little short on gil. Not as shortaru as me, though. Hah hah!${prompt}
-  6890: Okey-dokey! Now, if you'd close your eyes and come a little closer...${prompt}
-  6891: 'For you? Hmm... How aboutaru ${article} ${item-article: 0[2]}? You''ll need...${prompt}'
+    Splish splosh je prenais un bain.♪
+    Tout au long d'une nuit de Tonnersday.♪${prompt}
+  6888: Hah hah ! Je suis flatté, mais je ne pensaky-wink pas que vous ayez besoin de moi maintenant.${prompt}
+  6889: Euh... Vous êtes un peu court en gils. Pas aussi courtaru que moi, cependant. Hah hah !${prompt}
+  6890: D'accord-dokey ! Maintenant, si vous voulez bien fermer les yeux et vous approcher un peu...${prompt}
+  6891: 'Pour vous ? Hmm... Que diriez-vous d''${article} ${item-article: 0[2]} ? Vous aurez besoin de...${prompt}'
   6892: |-
-    Did you get that?
-    If you can't findy-wind all the goodies you need, you could try the auction house.${prompt}
-  6893: The Elvaan in the work arrrea below is the guildmaster. Beautiful, smart--what morrre could you want?${prompt}
-  6894: I wouldn't thrrrow my money around like that. You may need it some day.${prompt}
-  6895: You don't have enough gil? Hmm... You could try selling some of your skins to the shop upstairrrs.${prompt}
-  6896: Ahh, the purrressure... Close your eyes and let's begin...${prompt}
-  6897: 'You could trrry ${article} ${item-article: 0[2]}. You''ll need...${prompt}'
-  6898: Windurst used to have a Tanners' Guild, but it closed after so many of our animals died in the war. My dream is to rrrebuild it.${prompt}
-  6899: 'I have watched you closely since you started here. I would like to see you make ${article} ${item-article: 0[2]}.${prompt}'
-  6900: Succeed, and I will grant you the title of craftsman. You will then become a true member of our guild.${prompt}
-  6901: However, that with the title of craftsman comes harder work and more difficult tasks.${prompt}
-  6902: Juggling the techniques of numerous guilds will only lead to trouble. If you are ready to commit to the Tanners' Guild, then make me the item I asked for.${prompt}
+    Avez-vous compris ?
+    Si vous ne pouvez pas trouvy-wind toutes les bonnes choses dont vous avez besoin, vous pourriez essayer l'hôtel des ventes.${prompt}
+  6893: L'Elfe dans la zone de travail en bas est le maître de guilde. Belle, intelligente -- que vouloir de plus ?${prompt}
+  6894: Je ne jetterais pas mon argent comme ça. Vous pourriez en avoir besoin un jour.${prompt}
+  6895: Vous n'avez pas assez de gils ? Hmm... Vous pourriez essayer de vendre certaines de vos peaux à la boutique à l'étage.${prompt}
+  6896: Ahh, la prrression... Fermez les yeux et commençons...${prompt}
+  6897: 'Vous pourriez essayer ${article} ${item-article: 0[2]}. Vous aurez besoin de...${prompt}'
+  6898: Windurst avait une Guilde des Tanneurs, mais elle a fermé après que tant de nos animaux soient morts dans la guerre. Mon rêve est de la rrrreconstruire.${prompt}
+  6899: 'Je vous ai observé attentivement depuis que vous avez commencé ici. J''aimerais vous voir faire ${article} ${item-article: 0[2]}.${prompt}'
+  6900: Réussissez, et je vous accorderai le titre d'artisan. Vous deviendrez alors un véritable membre de notre guilde.${prompt}
+  6901: Cependant, avec le titre d'artisan vient un travail plus difficile et des tâches plus ardues.${prompt}
+  6902: Jongler avec les techniques de nombreuses guildes ne mènera qu'à des problèmes. Si vous êtes prêt à vous engager envers la Guilde des Tanneurs, alors faites-moi l'objet que j'ai demandé.${prompt}
   6903: |-
-    Fabulous work!
-    I am honored to call you a craftsman, and I thank you for contributing all you have for this guild.${prompt}
-  6904: However, the real journey starts now. You must focus on the road ahead of you.${prompt}
+    Travail fabuleux !
+    Je suis honoré de vous appeler artisan, et je vous remercie pour tout ce que vous avez contribué à cette guilde.${prompt}
+  6904: Cependant, le vrai voyage commence maintenant. Vous devez vous concentrer sur la route qui s'ouvre devant vous.${prompt}
   6905: |-
-    Such fabulous work!
-    I am honored to call you a craftsman, and await your future creations with eager anticipation.${prompt}
-  6906: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of tanning that allows you to enchant hides with the mysterious energy of black magic and anima.${prompt}'
-  6907: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of tanning that allows you to enchant hides with the mysterious energy of white magic and anima.${prompt}'
-  6908: It has come to my knowledge that you have taken a little detour on your journey to become a master leathercrafter.${prompt}
-  6909: This is ultimately your decision, and I will not attempt to stop you. However, I must remind you that if you continue on that path, the only thing waiting for you is a dead end.${prompt}
-  6910: If you truly wish to complete your journey, you must return to the main road--revoke your craftsman status for all other guilds.${prompt}
+    Quel travail fabuleux !
+    Je suis honoré de vous appeler artisan, et j'attends vos futures créations avec une impatience enthousiaste.${prompt}
+  6906: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode de tannage qui vous permet d''enchanter les peaux avec l''énergie mystérieuse de la magie noire et de l''anima.${prompt}'
+  6907: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode de tannage qui vous permet d''enchanter les peaux avec l''énergie mystérieuse de la magie blanche et de l''anima.${prompt}'
+  6908: Il est venu à ma connaissance que vous avez fait un petit détour dans votre voyage pour devenir un maître tanneur.${prompt}
+  6909: C'est finalement votre décision, et je n'essaierai pas de vous arrêter. Cependant, je dois vous rappeler que si vous continuez sur cette voie, la seule chose qui vous attend est une impasse.${prompt}
+  6910: Si vous souhaitez vraiment terminer votre voyage, vous devez retourner sur la route principale -- révoquez votre statut d'artisan pour toutes les autres guildes.${prompt}
   6911: |-
-    Revoke all other craftsman statuses?
+    Révoquer tous les autres statuts d'artisan ?
     ${selection-lines}
-    Immediately.
-    Not just yet.${prompt}
+    Immédiatement.
+    Pas tout de suite.${prompt}
   6912: |-
-    Excellent. I will relay this news to the guildmasters of the other establishments.
-    You may return to your work.${prompt}
+    Excellent. Je vais transmettre cette nouvelle aux maîtres de guilde des autres établissements.
+    Vous pouvez retourner à votre travail.${prompt}
   6913: |-
-    I see.
-    However, I strongly suggest you reconsider. You have much potential, ${name-player}. It would be terrible to see it go to waste.${prompt}
-  6914: What brings you by my humble guild today, ${choice-player-gender}[sir/ma'am]? Perhaps you wish to place a special order?${prompt}
+    Je vois.
+    Cependant, je vous suggère fortement de reconsidérer. Vous avez beaucoup de potentiel, ${name-player}. Ce serait terrible de le voir gaspillé.${prompt}
+  6914: Qu'est-ce qui vous amène dans mon humble guilde aujourd'hui, ${choice-player-gender}[monsieur/madame] ? Peut-être souhaitez-vous passer une commande spéciale ?${prompt}
   6915: '......${prompt}'
-  6916: A costume to fool the Orcs... That may be more difficult than it sounds. You see, there may not be much in the way of gray matter between their stubby ears, but when it comes to hunting, their instincts play a much larger role than their eyesight.${prompt}
+  6916: Un costume pour tromper les Orques... Cela peut être plus difficile qu'il n'y paraît. Voyez-vous, il n'y a peut-être pas grand-chose en matière de matière grise entre leurs oreilles trapues, mais quand il s'agit de chasser, leurs instincts jouent un rôle beaucoup plus important que leur vue.${prompt}
   6917: |-
-    However, if you insist... Faulpie is not one to back down from a challenge.
-    While I work on a pattern, I will require that you procure the following two items: ${article} ${item-article: 0[2]} and ${article} ${item-article: 1[2]}.${prompt}
-  6918: 'Oh, and as much as I''d like to do this out of the kindness of my heart, I do have a guild to run, so I am going to have to ask you to pay a small design fee of ${number: 2} gil. You understand, don''t you?${prompt}'
-  6919: 'It will be a few more days before I can finish the pattern for your costume. Please come by again later. Oh, and don''t forget to bring the ${item-singular: 0[2]}, ${item-singular: 1[2]}, and the ${number: 2} gil I asked for.${prompt}'
-  6920: Or...has the expense and time involved convinced you to abandon this venture?${prompt}
-  6921: If you choose to give up, the quest will be canceled and your quest log reset.${prompt}
+    Cependant, si vous insistez... Faulpie n'est pas du genre à reculer devant un défi.
+    Pendant que je travaille sur un patron, je vais exiger que vous vous procuriez les deux objets suivants : ${article} ${item-article: 0[2]} et ${article} ${item-article: 1[2]}.${prompt}
+  6918: 'Oh, et autant que j''aimerais faire cela par bonté de cœur, j''ai une guilde à diriger, donc je vais devoir vous demander de payer de petits frais de conception de ${number: 2} gils. Vous comprenez, n''est-ce pas ?${prompt}'
+  6919: 'Il faudra encore quelques jours avant que je puisse finir le patron pour votre costume. Revenez plus tard. Oh, et n''oubliez pas d''apporter ${item-singular: 0[2]}, ${item-singular: 1[2]}, et les ${number: 2} gils que j''ai demandés.${prompt}'
+  6920: Ou... est-ce que la dépense et le temps impliqués vous ont convaincu d'abandonner cette entreprise ?${prompt}
+  6921: Si vous choisissez d'abandonner, la quête sera annulée et votre journal de quêtes réinitialisé.${prompt}
   6922: |-
-    Cancel the quest?
+    Annuler la quête ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6923: |-
-    Do you really wish to cancel the quest?
+    Voulez-vous vraiment annuler la quête ?
     ${selection-lines}
-    I really do.
-    I guess I don't.${prompt}
-  6924: The quest has been canceled!${prompt}
-  6925: Wonderful. Now that I have everything I require, I can begin working on the final product...... What? You didn't think I was going to be able to whip this together in a matter of minutes, did you?${prompt}
-  6926: 'Don''t tell me that you lost the ${item-singular: 0[2]} I made for you, did you?${prompt}'
+    Vraiment.
+    Je suppose que non.${prompt}
+  6924: La quête a été annulée !${prompt}
+  6925: Merveilleux. Maintenant que j'ai tout ce dont j'ai besoin, je peux commencer à travailler sur le produit final...... Quoi ? Vous ne pensiez pas que j'allais pouvoir assembler ça en quelques minutes, si ?${prompt}
+  6926: 'Ne me dites pas que vous avez perdu ${item-singular: 0[2]} que je vous ai fait, n''est-ce pas ?${prompt}'
   6927: |-
-    What happened?
+    Qu'est-il arrivé ?
     ${selection-lines}
-    My mauthe doog ate it.
-    Oh, nothing...
-    Actually, I think I've had enough...${prompt}
-  6928: '...Alright, alright. I will make you a new one, but this time it will cost you. I say about...${number: 1} gil should cover everything.${prompt}'
+    Mon mauthe doog l'a mangé.
+    Oh, rien...
+    En fait, je pense que j'en ai assez...${prompt}
+  6928: '...D''accord, d''accord. Je vais vous en faire un nouveau, mais cette fois cela vous coûtera. Je dirais environ... ${number: 1} gils devraient tout couvrir.${prompt}'
   6929: |-
-    Pay the ${number: 1} gil?
+    Payer les ${number: 1} gils ?
     ${selection-lines}
-    I guess I have no choice.
-    Over my dead mauthe doog's body!${prompt}
-  6930: I will start on it right away. Come back in a few days to pick it up.${prompt}
-  6931: I know that you must be in a hurry, but I haven't finished your order yet. Please come back later, ${choice-player-gender}[sir/ma'am].${prompt}
+    Je suppose que je n'ai pas le choix.
+    Sur le cadavre de mon mauthe doog !${prompt}
+  6930: Je vais commencer tout de suite. Revenez dans quelques jours pour le récupérer.${prompt}
+  6931: Je sais que vous devez être pressé, mais je n'ai pas encore terminé votre commande. Revenez plus tard, ${choice-player-gender}[monsieur/madame].${prompt}
   6932: |-
-    Ah, just the ${choice-player-gender}[man/woman] I was looking for.
-    Here is your order!${prompt}
-  6933: What? You were expecting something different? I'm sorry, but this is as much as I can do. The rest is up to you.${prompt}
-  6934: 'Take the ${item-singular: 1[2]}, ${article} ${item-article: 2[2]}, ${article} ${item-article: 3[2]}, ${article} ${item-article: 4[2]}, two ${item-plural: 5[2]}, and two ${item-plural: 6[2]}, and synthesize them all together with ${article} ${item-article: 0[2]}.${prompt}'
-  6935: Anyone that has spent more than a few days honing his or her leatherworking skills should have no problem at all.${prompt}
+    Ah, juste ${choice-player-gender}[l'homme/la femme] que je cherchais.
+    Voici votre commande !${prompt}
+  6933: Quoi ? Vous vous attendiez à quelque chose de différent ? Je suis désolé, mais c'est tout ce que je peux faire. Le reste dépend de vous.${prompt}
+  6934: 'Prenez ${item-singular: 1[2]}, ${article} ${item-article: 2[2]}, ${article} ${item-article: 3[2]}, ${article} ${item-article: 4[2]}, deux ${item-plural: 5[2]}, et deux ${item-plural: 6[2]}, et synthétisez-les tous ensemble avec ${article} ${item-article: 0[2]}.${prompt}'
+  6935: Quiconque a passé plus de quelques jours à perfectionner ses compétences en travail du cuir ne devrait avoir aucun problème.${prompt}
   6936: |-
-    And don't even think of telling me that you don't have enough skill. I know your work, and I know you have what it takes to complete this project.
-    Now, as for your smithing and clothcraft skills, you'll have to be the judge on that...${prompt}
-  6937: Oh, don't worry. Believe in yourself, and anything...well, almost anything is possible!${prompt}
-  6938: What? You were expecting something different? I'm sorry, but this is as much as I can do. The rest is up to you.${prompt}
-  6939: You see, most of us here at the Tanners' Guild have lost friends or family to the Orcish fiends. Just looking at that pattern brings back a lot of terrible memories...${prompt}
+    Et ne pensez même pas à me dire que vous n'avez pas assez de compétence. Je connais votre travail, et je sais que vous avez ce qu'il faut pour terminer ce projet.
+    Maintenant, quant à vos compétences en forge et en tissage, vous devrez en juger par vous-même...${prompt}
+  6937: Oh, ne vous inquiétez pas. Croyez en vous, et tout... enfin, presque tout est possible !${prompt}
+  6938: Quoi ? Vous vous attendiez à quelque chose de différent ? Je suis désolé, mais c'est tout ce que je peux faire. Le reste dépend de vous.${prompt}
+  6939: Voyez-vous, la plupart d'entre nous ici à la Guilde des Tanneurs ont perdu des amis ou de la famille à cause des démons Orques. Regarder ce patron ramène beaucoup de terribles souvenirs...${prompt}
   6940: |-
-    No, you will have to finish this project by yourself...
-    But that might be a little easier said than done...${prompt}
+    Non, vous devrez terminer ce projet par vous-même...
+    Mais cela pourrait être un peu plus facile à dire qu'à faire...${prompt}
   6941: |-
     Hmmm...
-    That's it!${prompt}
-  6942: Why not try to find a skilled tanner to assist you in crafting the mask? Here, let me give you the instructions on how to synthesize it...${prompt}
-  6943: I'm sure there are a lot of adepts out there who would be more than happy to lend you a hand.${prompt}
-  6944: (Just make sure they have also honed their skills in smithing and clothcrafting! We would not want any...accidents...)${prompt}
-  6945: Just do not forget to thank them, if you know what I mean!${prompt}
-  6946: What brings you by my humble guild today, ${choice-player-gender}[sir/ma'am]? Perhaps you wish to place a special order?${prompt}
+    C'est ça !${prompt}
+  6942: Pourquoi ne pas essayer de trouver un tanneur qualifié pour vous aider à fabriquer le masque ? Tenez, laissez-moi vous donner les instructions sur comment le synthétiser...${prompt}
+  6943: Je suis sûr qu'il y a beaucoup d'adeptes là-bas qui seraient plus qu'heureux de vous donner un coup de main.${prompt}
+  6944: (Assurez-vous simplement qu'ils ont également perfectionné leurs compétences en forge et en tissage ! Nous ne voudrions pas d'... accidents...)${prompt}
+  6945: N'oubliez simplement pas de les remercier, si vous voyez ce que je veux dire !${prompt}
+  6946: Qu'est-ce qui vous amène dans mon humble guilde aujourd'hui, ${choice-player-gender}[monsieur/madame] ? Peut-être souhaitez-vous passer une commande spéciale ?${prompt}
   6947: '......${prompt}'
   6948: |-
-    You want to become a what? A Goblin?
-    Hmmm... This will be quite more difficult than it seems. Though the stout little beastmen all appear to look alike, they are truly quite different.${prompt}
+    Vous voulez devenir quoi ? Un Gobelin ?
+    Hmmm... Ce sera bien plus difficile qu'il n'y paraît. Bien que les petits hommes-bêtes trapus semblent tous se ressembler, ils sont vraiment très différents.${prompt}
   6949: |-
-    However, I was never one to back down from a challenge! I shall try my hand at designing your costume.
-    While I begin work on the design, I need you to fetch me ${article} ${item-article: 0[2]} and ${article} ${item-article: 1[2]}.${prompt}
+    Cependant, je n'ai jamais reculé devant un défi ! Je vais essayer de concevoir votre costume.
+    Pendant que je commence à travailler sur la conception, j'ai besoin que vous m'apportiez ${article} ${item-article: 0[2]} et ${article} ${item-article: 1[2]}.${prompt}
   6950: |-
-    Also, I will require a small fee of ${number: 2} gil.
-    I have a guild to run, you know!${prompt}
+    De plus, je vais exiger de petits frais de ${number: 2} gils.
+    J'ai une guilde à diriger, vous savez !${prompt}
   6951: |-
-    I am so sorry. I still require more time to finish the costume design.
-    Please go and fetch the ${item-singular: 0[2]} and ${item-singular: 1[2]} I asked for while I work on it. Oh, and do not forget the ${number: 2}-gil fee!${prompt}
-  6952: Welcome back! I have some good news and some bad news. The good news is, I have finished the design for your costume, and I must say, it is fabulous! The bad news is, it shall take me several more days to finish the final cutting...${prompt}
-  6953: 'Do not tell me that you lost the ${item-singular: 0[2]} I made for you, did you?${prompt}'
+    Je suis vraiment désolé. J'ai encore besoin de plus de temps pour finir la conception du costume.
+    Veuillez aller chercher ${item-singular: 0[2]} et ${item-singular: 1[2]} que j'ai demandés pendant que je travaille dessus. Oh, et n'oubliez pas les frais de ${number: 2} gils !${prompt}
+  6952: Bienvenue ! J'ai de bonnes et de mauvaises nouvelles. La bonne nouvelle est que j'ai terminé la conception de votre costume, et je dois dire qu'elle est fabuleuse ! La mauvaise nouvelle est qu'il me faudra plusieurs jours de plus pour terminer la coupe finale...${prompt}
+  6953: 'Ne me dites pas que vous avez perdu ${item-singular: 0[2]} que je vous ai fait, n''est-ce pas ?${prompt}'
   6954: |-
-    What happened?
+    Qu'est-il arrivé ?
     ${selection-lines}
-    My mauthe doog ate it.
-    Oh, nothing...
-    Actually, I think I've had enough...${prompt}
-  6955: '...Alright, alright. I will make you a new one, but this time it will cost you. I say about...${number: 1} gil should cover everything.${prompt}'
+    Mon mauthe doog l'a mangé.
+    Oh, rien...
+    En fait, je pense que j'en ai assez...${prompt}
+  6955: '...D''accord, d''accord. Je vais vous en faire un nouveau, mais cette fois cela vous coûtera. Je dirais environ... ${number: 1} gils devraient tout couvrir.${prompt}'
   6956: |-
-    Pay the ${number: 1} gil?
+    Payer les ${number: 1} gils ?
     ${selection-lines}
-    I guess I have no choice.
-    Over my dead mauthe doog's body!${prompt}
-  6957: Excellent. I will start on it right away. Come back in a few days to pick up the finished cutting.${prompt}
-  6958: I know that you must be in a hurry, but I have yet to complete the cutting. Reproducing the subtleties of the Goblins' ears is something that cannot be rushed!${prompt}
-  6959: Ah, you are just in time. I have just finished putting the final touches on the cutting for your costume.${prompt}
-  6960: Now, the rest is up to you, my fine tanner. Let me give you the list of the materials you shall require to complete the costume.${prompt}
+    Je suppose que je n'ai pas le choix.
+    Sur le cadavre de mon mauthe doog !${prompt}
+  6957: Excellent. Je vais commencer tout de suite. Revenez dans quelques jours pour récupérer la coupe terminée.${prompt}
+  6958: Je sais que vous devez être pressé, mais je n'ai pas encore terminé la coupe. Reproduire les subtilités des oreilles des Gobelins est quelque chose qui ne peut pas être précipité !${prompt}
+  6959: Ah, vous arrivez juste à temps. Je viens de terminer les touches finales sur la coupe pour votre costume.${prompt}
+  6960: Maintenant, le reste dépend de vous, mon bon tanneur. Laissez-moi vous donner la liste des matériaux dont vous aurez besoin pour terminer le costume.${prompt}
   6961: |-
-    ・The ${item-singular: 1[2]}.
+    ・${item-singular: 1[2]}.
     ・${lettercase: 1}${article} ${item-article: 2[2]}.
     ・${lettercase: 1}${article} ${item-article: 3[2]}.
     ・${lettercase: 1}${article} ${item-article: 4[2]}.
     ・${lettercase: 1}${article} ${item-article: 5[2]}.
     ・${lettercase: 1}${article} ${item-article: 6[2]}.${prompt}
-  6962: 'Oh, and do not forget two ${item-plural: 7[2]} for the mask''s eyes and a single ${item-singular: 0[2]} to synthesize the parts all together. If all goes well, you will be a bona fide Goblin in no time!${prompt}'
-  6963: Also, I suggest that you brush up on your smithing and clothcraft skills before attempting this feat...or maybe you already have been?${prompt}
-  6964: I am sorry. I do not mean to question your abilities. I have full faith in you, ${name-player}!${prompt}
+  6962: 'Oh, et n''oubliez pas deux ${item-plural: 7[2]} pour les yeux du masque et un seul ${item-singular: 0[2]} pour synthétiser toutes les parties ensemble. Si tout se passe bien, vous serez un véritable Gobelin en un rien de temps !${prompt}'
+  6963: De plus, je suggère que vous perfectionniez vos compétences en forge et en tissage avant de tenter cet exploit... ou peut-être l'avez-vous déjà fait ?${prompt}
+  6964: Je suis désolé. Je ne veux pas remettre en question vos capacités. J'ai pleinement confiance en vous, ${name-player} !${prompt}
   6965: |-
-    Now, all the rest is up to you!
-    What? You did not think that I would complete the costume for you...did you?${prompt}
+    Maintenant, tout le reste dépend de vous !
+    Quoi ? Vous ne pensiez pas que je terminerais le costume pour vous... si ?${prompt}
   6966: |-
-    Quite amusing!
-    I am sorry if I misled you, ${choice-player-gender}[sir/ma'am], but neither I nor my colleagues here at the Tanners' Guild have any intention of crafting anything that even remotely reminds us of our number one rivals in the circles of leatherworking.${prompt}
-  6967: '...However, I also realize that you do not possess the skills to synthesize the final product yourself, and I do appreciate and value your business.${prompt}'
-  6968: How about you search for one of my pupils and ask him or her to help you in your quest?${prompt}
-  6969: Here. Take down this list of ingredients...${prompt}
-  6970: A quick shout in Southern San d'Oria or Lower Jeuno, and volunteers will be lining up before you know it!${prompt}
-  6971: (Just make sure they are at least tanning adepts, and have also honed their skills in smithing and clothcrafting! We would not want any...accidents...)${prompt}
-  6972: Oh, and do not forget to thank them when they have finished their job!${prompt}
-  6973: Sorry, but I rrreally don't think you're ready for that rank yet.${prompt}
-  6974: '${lettercase: 1}${keyitem-singular: 0[2]} is a wonderful new method of leathercraft that allows you to soak skins in a tanning vat, making it easier to process more leather with one crystal.${prompt}'
+    Très amusant !
+    Je suis désolé si je vous ai induit en erreur, ${choice-player-gender}[monsieur/madame], mais ni moi ni mes collègues ici à la Guilde des Tanneurs n'avons l'intention de fabriquer quoi que ce soit qui nous rappelle même de loin nos rivaux numéro un dans les cercles du travail du cuir.${prompt}
+  6967: '...Cependant, je réalise également que vous ne possédez pas les compétences pour synthétiser le produit final vous-même, et j''apprécie et valorise votre entreprise.${prompt}'
+  6968: Que diriez-vous de chercher l'un de mes élèves et de lui demander de vous aider dans votre quête ?${prompt}
+  6969: Tenez. Notez cette liste d'ingrédients...${prompt}
+  6970: Un cri rapide à San d'Oria-S ou Jeuno-Bas, et les volontaires feront la queue avant que vous ne le sachiez !${prompt}
+  6971: (Assurez-vous simplement qu'ils sont au moins des adeptes du tannage, et qu'ils ont également perfectionné leurs compétences en forge et en tissage ! Nous ne voudrions pas d'... accidents...)${prompt}
+  6972: Oh, et n'oubliez pas de les remercier quand ils auront fini leur travail !${prompt}
+  6973: Désolé, mais je ne pense rrrréellement pas que vous soyez prêt pour ce rang encore.${prompt}
+  6974: '${lettercase: 1}${keyitem-singular: 0[2]} est une merveilleuse nouvelle méthode de travail du cuir qui vous permet de tremper les peaux dans une cuve de tannage, facilitant le traitement de plus de cuir avec un cristal.${prompt}'
   6975: |-
-    You want to make ${article} ${item-article: 0[2]}?
-    In case you didn't already know, a volatile objectaru like that needs to be kept in a special container.${prompt}
+    Vous voulez faire ${article} ${item-article: 0[2]} ?
+    Au cas où vous ne le sauriez pas déjà, un objectaru volatile comme celui-ci doit être conservé dans un conteneur spécial.${prompt}
   6976: |-
-    Such a container can be synthesized if you have two ${item-plural: 0[2]} and ${article} ${item-article: 1[2]}.
-    And if my memory serves me true, ${article} ${item-article: 2[2]} serves as the bonding agentaru.${prompt}
+    Un tel conteneur peut être synthétisé si vous avez deux ${item-plural: 0[2]} et ${article} ${item-article: 1[2]}.
+    Et si ma mémoire est bonne, ${article} ${item-article: 2[2]} sert d'agentaru de liaison.${prompt}
   6977: |-
-    ${lettercase: 1}${item-plural: 0[2]}, I hear, can be had within the Maze of Shakhrami. Not lying scattered about the floors, obviously.
-    One of the crawlers there might be willing to partaru with one, but if not...well, you adventuring types know what to do.${prompt}
+    ${lettercase: 1}${item-plural: 0[2]}, j'ai entendu dire, peuvent être obtenus dans le Labyrinthe de Shakhrami. Pas éparpillés sur les sols, évidemment.
+    L'un des rampants là-bas pourrait être disposé à se partaru avec un, mais sinon... eh bien, vous les types aventuriers savez quoi faire.${prompt}
   6978: |-
-    Oh, did I mention ${item-plural: 1[2]}?
-    Naturally, to synthesize ${article} ${item-article: 0[2]}, you'll be needing one of those, too.${prompt}
+    Oh, ai-je mentionné ${item-plural: 1[2]} ?
+    Naturellement, pour synthétiser ${article} ${item-article: 0[2]}, vous aurez également besoin de l'un d'entre eux.${prompt}
   6979: |-
-    You wish to synthesize ${article} ${item-article: 0[2]}? Ah, yes. Well do I know that recipe!
-    Its creation requires a few ${item-plural: 1[2]}.${prompt}
+    Vous souhaitez synthétiser ${article} ${item-article: 0[2]} ? Ah, oui. Je connais bien cette recette !
+    Sa création nécessite quelques ${item-plural: 1[2]}.${prompt}
   6980: |-
-    In turn, making ${article} ${item-article: 0[2]} requires ${article} ${item-article: 1[2]} and ${article} ${item-article: 2[2]}.
-    Toss ${article} ${item-article: 3[2]} into the mix, and what you seek shall be yours.${prompt}
-  6981: 'I fear we haven''t ${item-plural: 0[2]} here. But it should please you to know that skeletons dwelling within the Gusgen Mines are known to drop one on occasion.${prompt}'
+    À son tour, faire ${article} ${item-article: 0[2]} nécessite ${article} ${item-article: 1[2]} et ${article} ${item-article: 2[2]}.
+    Ajoutez ${article} ${item-article: 3[2]} au mélange, et ce que vous cherchez sera vôtre.${prompt}
+  6981: 'Je crains que nous n''ayons pas ${item-plural: 0[2]} ici. Mais il devrait vous plaire de savoir que les squelettes habitant dans les Mines de Gusgen sont connus pour en laisser tomber un à l''occasion.${prompt}'
   6982: |-
-    What brings you here? Well, ${article} ${item-article: 0[2]}, of all things...
-    You couldn't hope to make one without some ${item-plural: 1[2]}, but I fear they aren't often stocked by vendors.${prompt}
+    Qu'est-ce qui vous amène ici ? Eh bien, ${article} ${item-article: 0[2]}, entre autres choses...
+    Vous ne pourriez pas espérer en faire un sans quelques ${item-plural: 1[2]}, mais je crains qu'ils ne soient pas souvent en stock chez les vendeurs.${prompt}
   6983: |-
-    But you strike me as an intrepid type, so I'll share with you some knowledge to help you on your way.
-    Head over to Ordelle's Caves. Hunt enough bats there, and you might just come into some ${item-plural: 0[2]}. That's the main ingredient required to make ${article} ${item-article: 1[2]}.${prompt}
-  6984: 'All that remains, then, is to bind it with ${article} ${item-article: 0[2]} using ${article} ${item-article: 2[2]}. Good luck!${prompt}'
+    Mais vous me semblez être du type intrépide, alors je vais partager avec vous quelques connaissances pour vous aider en chemin.
+    Dirigez-vous vers les Cavernes d'Ordelle. Chassez suffisamment de chauves-souris là-bas, et vous pourriez obtenir quelques ${item-plural: 0[2]}. C'est l'ingrédient principal nécessaire pour faire ${article} ${item-article: 1[2]}.${prompt}
+  6984: 'Tout ce qui reste, alors, est de le lier avec ${article} ${item-article: 0[2]} en utilisant ${article} ${item-article: 2[2]}. Bonne chance !${prompt}'
   6985: |-
-    You... Yes, the description fits.
-    I daresay, you're the one “she” sent, yes?${prompt}
-  6986: Can I count on you to aid my investigation once more?${prompt}
-  6987: At my client's behest, I have procured the item you require. But alas, doing so drained far more of my time and resources than had been reckoned. As recompense for having exerted undue effort, I would ask a favor of you. Do as I say, and you may consider the item yours.${prompt}
+    Vous... Oui, la description correspond.
+    J'ose dire que vous êtes celui qu'"elle" a envoyé, oui ?${prompt}
+  6986: Puis-je compter sur vous pour aider mon enquête une fois de plus ?${prompt}
+  6987: À la demande de mon client, j'ai procuré l'objet dont vous avez besoin. Mais hélas, le faire a drainé beaucoup plus de mon temps et de mes ressources que prévu. En compensation pour avoir fourni un effort excessif, je vous demanderais une faveur. Faites ce que je dis, et vous pouvez considérer l'objet comme vôtre.${prompt}
   6988: |-
-    Do as he says?
+    Faire ce qu'il dit ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   6989: |2-
-     Very good. I knew I could count on us being on the same page.
-     Now then, without further ado, I shall explain the task to you. It truly is simple.${prompt}
-  6990: You are to investigate a number of creatures dwelling within the Sea Serpent Grotto in my stead.${prompt}
-  6991: 'Should you not possess ${article} ${item-article: 0[2]} and ${item-plural: 1[2]}, I can furnish you with both for a nominal fee of 800 gil.${prompt}'
-  6992: 'Using the ${item-singular: 0[2]} will turn ${article} ${item-article: 1[2]} into ${article} ${item-article: 2[2]}--a visual record of the subject''s physical characteristics.${prompt}'
-  6993: 'I''m currently investigating the ${entity: 0}, the ${entity: 1}, and the ${entity: 2}.${prompt}'
+     Très bien. Je savais que je pouvais compter sur le fait que nous soyons sur la même longueur d'onde.
+     Maintenant, sans plus tarder, je vais vous expliquer la tâche. C'est vraiment simple.${prompt}
+  6990: Vous devez enquêter sur un certain nombre de créatures habitant dans la Grotte du Serpent de Mer à ma place.${prompt}
+  6991: 'Si vous ne possédez pas ${article} ${item-article: 0[2]} et ${item-plural: 1[2]}, je peux vous fournir les deux pour des frais nominaux de 800 gils.${prompt}'
+  6992: 'L''utilisation de ${item-singular: 0[2]} transformera ${article} ${item-article: 1[2]} en ${article} ${item-article: 2[2]} -- un enregistrement visuel des caractéristiques physiques du sujet.${prompt}'
+  6993: 'J''enquête actuellement sur ${entity: 0}, ${entity: 1} et ${entity: 2}.${prompt}'
   6994: |-
-    Hm? It appears you are overburdened.
-    Speak with me again after you've reorganized your belongings.${prompt}
+    Hm ? Il semble que vous soyez surchargé.
+    Parlez-moi à nouveau après avoir réorganisé vos affaires.${prompt}
   6995: |-
-    That is most disappointing...
-    “She” would not be pleased to hear of this.${prompt}
-  6996: Ah, yes...${prompt}
+    C'est très décevant...
+    "Elle" ne serait pas contente d'entendre cela.${prompt}
+  6996: Ah, oui...${prompt}
   6997: |-
-    A truly menacing image of the ${entity: 0}!
-    All that remains, then, is one each of the ${entity: 1} and the ${entity: 2}.${prompt}
+    Une image vraiment menaçante de ${entity: 0} !
+    Tout ce qui reste, alors, c'est une de chaque ${entity: 1} et ${entity: 2}.${prompt}
   6998: |-
-    Do you require ${article} ${item-article: 1[2]} and ${item-plural: 2[2]}?
-    I can provide you with both for a nominal fee of 800 gil.${prompt}
+    Avez-vous besoin ${article} ${item-article: 1[2]} et ${item-plural: 2[2]} ?
+    Je peux vous fournir les deux pour des frais nominaux de 800 gils.${prompt}
   6999: |-
-    Buy for 800 gil? (You have ${number: 3})
+    Acheter pour 800 gils ? (Vous avez ${number: 3})
     ${selection-lines}
-    Yes, please.
-    No, thank you.${prompt}
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   7000: |-
-    Should you not possess ${article} ${item-article: 0[2]} and ${item-plural: 1[2]}, I can furnish you with both for a nominal fee.
-    I've recently depleted my stores, however, so you will have to wait until the next shipment arrives.${prompt}
-  7001: It appears you haven't enough gil.${prompt}
+    Si vous ne possédez pas ${article} ${item-article: 0[2]} et ${item-plural: 1[2]}, je peux vous fournir les deux pour des frais nominaux.
+    J'ai récemment épuisé mes stocks, cependant, vous devrez donc attendre la prochaine livraison.${prompt}
+  7001: Il semble que vous n'ayez pas assez de gils.${prompt}
   7002: |-
-    Ah, a positively imposing image of the ${entity: 0}!
-    All that remains, then, is one of the ${entity: 1}.${prompt}
+    Ah, une image positivement imposante de ${entity: 0} !
+    Tout ce qui reste, alors, c'est un de ${entity: 1}.${prompt}
   7003: |-
-    I've eagerly awaited your return.
-    With this image of the ${entity: 0}, I hold your task fulfilled.${prompt}
+    J'ai attendu votre retour avec impatience.
+    Avec cette image de ${entity: 0}, je considère votre tâche accomplie.${prompt}
   7004: |-
-    As promised, I relinquish this to you.
-    Should another be required, you shall find me here.${prompt}
-  7005: 'I need images of the ${entity: 0}, the ${entity: 1}, and the ${entity: 2}.${prompt}'
-  7006: 'You''ve yet to bring me images of the ${entity: 0} and the ${entity: 1}.${prompt}'
-  7007: 'You''ve yet to bring me an image of the ${entity: 0}.${prompt}'
-  7008: A fine image this is, but this creature isn't one of my investigation subjects.${prompt}
-  7009: I fear I haven't the time to trade pleasantries with random strangers. Please leave me be.${prompt}
+    Comme promis, je vous cède ceci.
+    Si un autre est nécessaire, vous me trouverez ici.${prompt}
+  7005: 'J''ai besoin d''images de ${entity: 0}, ${entity: 1} et ${entity: 2}.${prompt}'
+  7006: 'Vous ne m''avez pas encore apporté d''images de ${entity: 0} et ${entity: 1}.${prompt}'
+  7007: 'Vous ne m''avez pas encore apporté d''image de ${entity: 0}.${prompt}'
+  7008: C'est une belle image, mais cette créature n'est pas l'un de mes sujets d'enquête.${prompt}
+  7009: Je crains de ne pas avoir le temps d'échanger des politesses avec des inconnus. Veuillez me laisser tranquille.${prompt}
   7010: |-
-    Is there something else you wish of me?
-    You already have what you came for, no?${prompt}
-  7011: We don't know what you're doing here, but truth be told, we're not really interested.${prompt}
+    Y a-t-il autre chose que vous souhaitez de moi ?
+    Vous avez déjà ce pour quoi vous êtes venu, non ?${prompt}
+  7011: Nous ne savons pas ce que vous faites ici, mais en toute honnêteté, nous ne sommes pas vraiment intéressés.${prompt}
   7012: |-
-    Putting up a fight, eh?
-    Gorattz! Bompupu! Show ${choice-player-gender}[him/her] what the Tenshodo thinks of meddlesome adventurers!${prompt}
-  7013: D-damn... I'm in way over my head...${prompt}
-  7014: Ugh... ${choice-player-gender}[He/She]'s tougher than ${choice-player-gender}[he/she] looks...${prompt}
-  7015: Waaah! I didn't signy-wign up for this...${prompt}
-  7016: '${choice: 0}[Renfred/Gorattz/Bompupu]''s shadow image disappears...${prompt}'
-  7017: 'The ${choice: 0}[Skeleton Scuffler/Blest Bones/Holey Horror/Steely Weapon/Lode Golem/Fired Urn] fades away into nothingness...${prompt}'
-  7018: The power of the Great Star Tree has been released!${prompt}
-  7019: We warmly welcome you to the place of your unmaking.${prompt}
-  7020: From your ground bones, a loaf of bread we shall be baking.${prompt}
+    Vous vous battez, hein ?
+    Gorattz ! Bompupu ! Montrez-${choice-player-gender}[lui/lui] ce que le Tenshodo pense des aventuriers importuns !${prompt}
+  7013: D-diable... Je suis dépassé...${prompt}
+  7014: Ugh... ${choice-player-gender}[Il/Elle] est plus dur${choice-player-gender}[/e] qu'${choice-player-gender}[il/elle] en a l'air...${prompt}
+  7015: Waaah ! Je n'ai pas signy-wign pour ça...${prompt}
+  7016: 'L''image d''ombre de ${choice: 0}[Renfred/Gorattz/Bompupu] disparaît...${prompt}'
+  7017: '${choice: 0}[Le Bagarreur squelette/Les Os bénis/L''Horreur trouée/L''Arme d''acier/Le Golem de filon/L''Urne ardente] se dissipe dans le néant...${prompt}'
+  7018: Le pouvoir du Grand Arbre Étoilé a été libéré !${prompt}
+  7019: Nous vous souhaitons chaleureusement la bienvenue au lieu de votre anéantissement.${prompt}
+  7020: De vos os moulus, nous ferons une miche de pain.${prompt}
   7021: |-
-    We shall curse you unto death!
-    Prepare to breathe your final breath!${prompt}
+    Nous vous maudirons jusqu'à la mort !
+    Préparez-vous à respirer votre dernier souffle !${prompt}
   7022: |-
-    We will make you beg to die!
-    Six fulms under you will lie!${prompt}
+    Nous vous ferons supplier de mourir !
+    Six fulms sous terre vous reposerez !${prompt}
   7023: |-
-    Naughty children shall receive no quarter!
-    Curl up and die, this is your empress's order!${prompt}
+    Les enfants méchants ne recevront aucune pitié !
+    Recroquevillez-vous et mourez, c'est l'ordre de votre impératrice !${prompt}
   7024: |-
-    You've long overstayed your welcome!
-    The punishment will be brutal and gruesome!${prompt}
+    Vous avez largement dépassé votre bienvenue !
+    La punition sera brutale et horrible !${prompt}
   7025: |-
-    Which way do you like it--slow or fast?
-    Should you lose a limb, be not aghast!${prompt}
+    Comment le préférez-vous -- lent ou rapide ?
+    Si vous perdez un membre, ne soyez pas horrifié !${prompt}
   7026: |-
-    You'll wish you were never born!
-    From your torso limbs will be torn!${prompt}
-  7027: Steel yourself for a wicked fright!${prompt}
-  7028: We shall set your pants alight!${prompt}
-  7029: The world shall bow before our might!${prompt}
+    Vous souhaiterez ne jamais être né !
+    Des membres seront arrachés de votre torse !${prompt}
+  7027: Préparez-vous à une frayeur méchante !${prompt}
+  7028: Nous mettrons le feu à votre pantalon !${prompt}
+  7029: Le monde s'inclinera devant notre puissance !${prompt}
   7030: |-
-    H-how could this be?
-    This outcome, we did not foresee...${prompt}
+    C-comment cela peut-il être ?
+    Ce résultat, nous ne l'avions pas prévu...${prompt}
   7031: |-
-    Be this a dream? Or is it real?
-    This ending falls sorely short of ideal...${prompt}
+    Est-ce un rêve ? Ou est-ce réel ?
+    Cette fin est loin d'être idéale...${prompt}
   7032: |-
-    'Twas high time you were made to know
-    that your abilities are purely for show.
-    O～hohohohoho!${prompt}
+    'Il était grand temps que vous sachiez
+    que vos capacités ne sont que pour le spectacle.
+    O～hohohohoho !${prompt}'
   7033: |-
-    A fitting end for a talentless crew
-    that tried to bite off more than it could chew.
-    O～hohohohoho!${prompt}
-  7034: Your body absorbs the power held within the ancient runes!${prompt}
-  7035: 'You cannot enter this battlefield with ${keyitem-article: 0[2]} in your possession.${prompt}'
-  7036: It appears you must wait longer to commence the battle.${prompt}
+    'Une fin appropriée pour un équipage sans talent
+    qui a essayé de mordre plus qu''il ne pouvait mâcher.
+    O～hohohohoho !${prompt}'
+  7034: Votre corps absorbe le pouvoir contenu dans les runes anciennes !${prompt}
+  7035: 'Vous ne pouvez pas entrer dans ce champ de bataille avec ${keyitem-article: 0[2]} en votre possession.${prompt}'
+  7036: Il semble que vous deviez attendre plus longtemps pour commencer la bataille.${prompt}
   7037: |-
-    You are not in possession of ${keyitem-article: 0[2]}.
-    Unable to enter the battlefield for “${choice: 1}${choice: 1}[Sugar-coated Directive/Battaru Royale/Project: Shantottofication].”${prompt}
-  7038: 'You cannot enter the battlefield for “${choice: 1}${choice: 1}[Sugar-coated Directive/Battaru Royale/Project: Shantottofication]” with ${keyitem-article: 0[2]} in your possession.${prompt}'
+    Vous n'êtes pas en possession de ${keyitem-article: 0[2]}.
+    Impossible d'entrer dans le champ de bataille pour "${choice: 1}${choice: 1}[Sugar-coated Directive/Battaru Royale/Project: Shantottofication]."${prompt}
+  7038: 'Vous ne pouvez pas entrer dans le champ de bataille pour "${choice: 1}${choice: 1}[Sugar-coated Directive/Battaru Royale/Project: Shantottofication]" avec ${keyitem-article: 0[2]} en votre possession.${prompt}'
   7039: |-
-    The ${keyitem-singular: 0[2]} has no effect.
-    It appears you should come back later.${prompt}
+    ${keyitem-singular: 0[2]} n'a aucun effet.
+    Il semble que vous devriez revenir plus tard.${prompt}
   7040: |-
-    You are not in possession of a sap crystal.
-    Unable to enter the battlefield for “Battaru Royale.”${prompt}
+    Vous n'êtes pas en possession d'un cristal de sève.
+    Impossible d'entrer dans le champ de bataille pour "Battaru Royale."${prompt}
   7041: |-
-    The sap crystal has no effect.
-    More time must elapse before you can enter the battlefield for “Battaru Royale.”${prompt}
+    Le cristal de sève n'a aucun effet.
+    Plus de temps doit s'écouler avant que vous ne puissiez entrer dans le champ de bataille pour "Battaru Royale."${prompt}
   7042: |-
-    You are not in possession of a Tablet of Hexes.
-    Unable to enter the battlefield for “Project: Shantottofication.”${prompt}
+    Vous n'êtes pas en possession d'une Tablette de malédictions.
+    Impossible d'entrer dans le champ de bataille pour "Project: Shantottofication."${prompt}
   7043: |-
-    The Tablet of Hexes has no effect.
-    More time must elapse before you can enter the battlefield for “Project: Shantottofication.”${prompt}
-  7044: The door is sealed.${prompt}
-  7045: Your opponents deem you too weak to be worthwhile, disappearing whence they came.${prompt}
+    La Tablette de malédictions n'a aucun effet.
+    Plus de temps doit s'écouler avant que vous ne puissiez entrer dans le champ de bataille pour "Project: Shantottofication."${prompt}
+  7044: La porte est scellée.${prompt}
+  7045: Vos adversaires vous jugent trop faible pour en valoir la peine, disparaissant d'où ils sont venus.${prompt}
   7046: |-
-    You have distinguished yourself as ${choice: 0}[a veteran/an expert/an authority/a luminary/a master], but there remain leathercrafting techniques outside your repertoire.
-    Do you wish to continue your training?${prompt}
+    Vous vous êtes distingué en tant ${choice: 0}[que vétéran/qu'expert/qu'autorité/que luminaire/que maître], mais il reste des techniques de travail du cuir en dehors de votre répertoire.
+    Souhaitez-vous continuer votre formation ?${prompt}
   7047: |-
-    Continue your training?
+    Continuer votre formation ?
     ${selection-lines}
-    Certainly!
-    Perhaps another time.${prompt}
+    Certainement !
+    Peut-être une autre fois.${prompt}
   7048: |-
-    Splendid! I knew you were going places from the day you first walked into our halls.
-    To take the next step in your career as a tanner, you'll need to talk to Alivatand and procure a copy of ${keyitem-article: 1[2]}.${prompt}
+    Splendide ! Je savais que vous alliez quelque part dès le jour où vous avez franchi nos portes pour la première fois.
+    Pour passer à l'étape suivante de votre carrière de tanneur, vous devrez parler à Alivatand et vous procurer une copie de ${keyitem-article: 1[2]}.${prompt}
   7049: |-
-    Mind you, we aren't giving them away for free.
-    Consider the fee in guild points a requisite part of your training.${prompt}
+    Remarquez que nous ne les donnons pas gratuitement.
+    Considérez les frais en points de guilde comme une partie requise de votre formation.${prompt}
   7050: |-
-    Say it isn't so, ${name-player}!
-    And here I thought we would open up shop together someday!${prompt}
-  7051: 'To take the next step in your career as a tanner, you''ll need to talk to Alivatand and procure a copy of ${keyitem-article: 1[2]}.${prompt}'
-  7052: 'Now here''s a ${choice-player-gender}[man/woman] who knows the contents of ${keyitem-article: 1[2]} like the back of ${choice-player-gender}[his/her] calloused hands.${prompt}'
+    Ne dites pas que c'est ainsi, ${name-player} !
+    Et moi qui pensais que nous ouvririons boutique ensemble un jour !${prompt}
+  7051: 'Pour passer à l''étape suivante de votre carrière de tanneur, vous devrez parler à Alivatand et vous procurer une copie de ${keyitem-article: 1[2]}.${prompt}'
+  7052: 'Voilà un${choice-player-gender}[/e] ${choice-player-gender}[homme/femme] qui connaît le contenu de ${keyitem-article: 1[2]} comme le dos de ${choice-player-gender}[ses/ses] mains calleuses.${prompt}'
   7053: |-
-    What are we waiting for, then?
-    As the next step in your training, I'd like you to craft for me ${article} ${item-article: 2[2]}.
-    The necessary materials are...${prompt}
+    Qu'attendons-nous, alors ?
+    Comme prochaine étape de votre formation, j'aimerais que vous fabriquiez pour moi ${article} ${item-article: 2[2]}.
+    Les matériaux nécessaires sont...${prompt}
   7054: |-
-    And do not forget to carve your name into the leather.
-    It's not that we don't trust you, of course, but rules are rules.${prompt}
+    Et n'oubliez pas de graver votre nom dans le cuir.
+    Ce n'est pas que nous ne vous faisons pas confiance, bien sûr, mais les règles sont les règles.${prompt}
   7055: |-
-    Forgotten your recipe, have you?
-    Take heart: even the best of us have our off days.
-    Anyhow, to make ${article} ${item-article: 2[2]}, you'll be needing...${prompt}
+    Vous avez oublié votre recette, n'est-ce pas ?
+    Prenez courage : même les meilleurs d'entre nous ont des jours de repos.
+    Quoi qu'il en soit, pour faire ${article} ${item-article: 2[2]}, vous aurez besoin de...${prompt}
   7056: |-
-    Now this...this is a fine piece of leather!
-    If anyone ever deserved the title of expert, it's you.
-    I can hardly wait until the day we go into business together!${prompt}
+    Maintenant ça... c'est un beau morceau de cuir !
+    Si quelqu'un a jamais mérité le titre d'expert, c'est bien vous.
+    J'ai hâte au jour où nous monterons une affaire ensemble !${prompt}
   7057: |-
-    I must admit, ${name-player}. I expected better of you.
-    The craftsmanship is passable, but it lacks a certain something...${prompt}
+    Je dois admettre, ${name-player}. Je m'attendais à mieux de votre part.
+    L'artisanat est passable, mais il manque un certain quelque chose...${prompt}
   7058: |-
-    And no wonder! Wherever is your signature?
-    No, I'm afraid this won't do at all. Back to work for you.${prompt}
-  7059: 'I have watched you closely since you started here. I would like to see you make ${article} ${item-article: 0[2]}.${prompt}'
-  7060: 'Succeed, and I will grant you the title of ${choice: 5}[artisan/adept/veteran]. You will then become a true member of our guild.${prompt}'
-  7061: However, with that comes harder work and more difficult tasks.${prompt}
-  7062: Juggling the techniques of numerous guilds will only lead to trouble. If you are ready to commit to the Tanners' Guild, then make me the item I asked for.${prompt}
+    Et ce n'est pas étonnant ! Où est votre signature ?
+    Non, je crains que cela ne convienne pas du tout. Retournez au travail.${prompt}
+  7059: 'Je vous ai observé attentivement depuis que vous avez commencé ici. J''aimerais vous voir faire ${article} ${item-article: 0[2]}.${prompt}'
+  7060: 'Réussissez, et je vous accorderai le titre ${choice: 5}[d''artiste/d''adepte/de vétéran]. Vous deviendrez alors un véritable membre de notre guilde.${prompt}'
+  7061: Cependant, avec cela vient un travail plus difficile et des tâches plus ardues.${prompt}
+  7062: Jongler avec les techniques de nombreuses guildes ne mènera qu'à des problèmes. Si vous êtes prêt à vous engager envers la Guilde des Tanneurs, alors faites-moi l'objet que j'ai demandé.${prompt}
   7063: |-
-    Remember that mastering the techniques necessary to become ${choice: 5}[an artisan/an adept/a veteran] requires considerable focus and devotion.
-    You will find it difficult, if not impossible, to maintain such a high level of skill in multiple disciplines.${prompt}
+    Rappelez-vous que maîtriser les techniques nécessaires pour devenir ${choice: 5}[un artiste/un adepte/un vétéran] nécessite une concentration et un dévouement considérables.
+    Vous trouverez difficile, voire impossible, de maintenir un niveau de compétence aussi élevé dans plusieurs disciplines.${prompt}
   7064: |-
-    We must talk, ${name-player}.
-    I hear that you have been recognized as ${choice: 5}[an artisan/an adept/a veteran] at another guild.${prompt}
+    Nous devons parler, ${name-player}.
+    J'ai entendu dire que vous avez été reconnu comme ${choice: 5}[artiste/adepte/vétéran] dans une autre guilde.${prompt}
   7065: |-
-    Surely you realize that such diversions will stunt your leathercrafting skills?
-    This cannot possibly be your intention.${prompt}
-  7066: 'Which is why you have returned to express your intention to relinquish any other ${choice: 5}[artisan/adept/veteran] titles you hold and redouble your efforts as a member of our guild.${prompt}'
+    Vous réalisez sûrement que de telles diversions freineront vos compétences en travail du cuir ?
+    Ce ne peut certainement pas être votre intention.${prompt}
+  7066: 'C''est pourquoi vous êtes revenu pour exprimer votre intention de renoncer à tout autre titre ${choice: 5}[d''artiste/d''adepte/de vétéran] que vous détenez et de redoubler vos efforts en tant que membre de notre guilde.${prompt}'
   7067: |-
-    I am correct, yes?
-    Just tell me which guild you tire of, and I shall convey your decision to the guildmaster.${prompt}
+    Ai-je raison, oui ?
+    Dites-moi simplement de quelle guilde vous êtes fatigué, et je transmettrai votre décision au maître de guilde.${prompt}
   7068: |-
-    ...I see.
-    Then it would seem we have nothing more to discuss.${prompt}
-  7069: I fail to see how any other craft could be as rewarding as leathercrafting, but to each ${choice-player-gender}[his/her] own.${prompt}
-  7070: Tallying conquest results...${prompt}
-  7071: Conquest results tallied.${prompt}
-  7072: This region is currently under San d'Orian control.${prompt}
-  7073: This region is currently under Bastokan control.${prompt}
-  7074: This region is currently under Windurstian control.${prompt}
+    ...Je vois.
+    Alors il semblerait que nous n'ayons plus rien à discuter.${prompt}
+  7069: Je ne vois pas comment un autre artisanat pourrait être aussi gratifiant que le travail du cuir, mais à chacun ${choice-player-gender}[le sien/la sienne].${prompt}
+  7070: Comptage des résultats de conquête...${prompt}
+  7071: Résultats de conquête comptés.${prompt}
+  7072: Cette région est actuellement sous contrôle San d'Orien.${prompt}
+  7073: Cette région est actuellement sous contrôle Bastokan.${prompt}
+  7074: Cette région est actuellement sous contrôle Windurstien.${prompt}
   7075: |-
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  7076: This region is currently neutral.${prompt}
+    Cette région est actuellement sous contrôle des hommes-bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  7076: Cette région est actuellement neutre.${prompt}
   7077: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Windurst
-    3rd: Bastok${prompt}
-  7078: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Windurst
+    3e : Bastok${prompt}
+  7078: Les trois nations sont à égalité en première place.${prompt}
   7079: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   7080: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   7081: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok
-    3rd: Windurst${prompt}
-  7082: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok
+    3e : Windurst${prompt}
+  7082: Les trois nations sont à égalité en première place.${prompt}
   7083: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   7084: |-
-    Global balance of power:
-    1st: San d'Oria
-    2nd: Bastok and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria
+    2e : Bastok et Windurst (égalité)${prompt}
   7085: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria
-    3rd: Windurst${prompt}
-  7086: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria
+    3e : Windurst${prompt}
+  7086: Les trois nations sont à égalité en première place.${prompt}
   7087: |-
-    Global balance of power:
-    1st: San d'Oria and Bastok (tie)
-    3rd: Windurst${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Bastok (égalité)
+    3e : Windurst${prompt}
   7088: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   7089: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: Windurst
-    3rd: San d'Oria${prompt}
-  7090: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : Windurst
+    3e : San d'Oria${prompt}
+  7090: Les trois nations sont à égalité en première place.${prompt}
   7091: |-
-    Global balance of power:
-    1st: Bastok and Windurst (tie)
-    3rd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst (égalité)
+    3e : San d'Oria${prompt}
   7092: |-
-    Global balance of power:
-    1st: Bastok
-    2nd: San d'Oria and Windurst (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok
+    2e : San d'Oria et Windurst (égalité)${prompt}
   7093: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria
+    3e : Bastok${prompt}
   7094: |-
-    Global balance of power:
-    All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    Les trois nations sont à égalité en première place.${prompt}
   7095: |-
-    Global balance of power:
-    1st: San d'Oria and Windurst (tie)
-    3rd: Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : San d'Oria et Windurst (égalité)
+    3e : Bastok${prompt}
   7096: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok (tie)${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok (égalité)${prompt}
   7097: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: Bastok
-    3rd: San d'Oria${prompt}
-  7098: All three nations are tied for first place.${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : Bastok
+    3e : San d'Oria${prompt}
+  7098: Les trois nations sont à égalité en première place.${prompt}
   7099: |-
-    Global balance of power:
-    1st: Bastok and Windurst
-    2nd: San d'Oria${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Bastok et Windurst
+    2e : San d'Oria${prompt}
   7100: |-
-    Global balance of power:
-    1st: Windurst
-    2nd: San d'Oria and Bastok${prompt}
+    Équilibre mondial des pouvoirs :
+    1er : Windurst
+    2e : San d'Oria et Bastok${prompt}
   7101: |-
-    Conquest update:
-    This region is currently neutral.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement neutre.${prompt}
   7102: |-
-    Conquest update:
-    This region is currently under San d'Orian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle San d'Orien.${prompt}
   7103: |-
-    Conquest update:
-    This region is currently under Bastokan control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle Bastokan.${prompt}
   7104: |-
-    Conquest update:
-    This region is currently under Windurstian control.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle Windurstien.${prompt}
   7105: |-
-    Conquest update:
-    This region is currently under beastman control.
-    You cannot obtain crystals in this region.${prompt}
-  7106: All three nations are at a deadlock.${prompt}
-  7107: The beastmen are on the rise.${prompt}
+    Mise à jour de la conquête :
+    Cette région est actuellement sous contrôle des hommes-bêtes.
+    Vous ne pouvez pas obtenir de cristaux dans cette région.${prompt}
+  7106: Les trois nations sont dans une impasse.${prompt}
+  7107: Les hommes-bêtes sont en pleine ascension.${prompt}
   7108: |-
-    Regional influence:
+    Influence régionale :
     San d'Oria - Dominant${prompt}
   7109: |-
-    Regional influence:
-    San d'Oria - Major${prompt}
+    Influence régionale :
+    San d'Oria - Majeur${prompt}
   7110: |-
-    Regional influence:
-    San d'Oria - Minor${prompt}
+    Influence régionale :
+    San d'Oria - Mineur${prompt}
   7111: |-
-    Regional influence:
+    Influence régionale :
     San d'Oria - Minimal${prompt}
   7112: Bastok - Dominant${prompt}
-  7113: Bastok - Major${prompt}
-  7114: Bastok - Minor${prompt}
+  7113: Bastok - Majeur${prompt}
+  7114: Bastok - Mineur${prompt}
   7115: Bastok - Minimal${prompt}
   7116: Windurst - Dominant${prompt}
-  7117: Windurst - Major${prompt}
-  7118: Windurst - Minor${prompt}
+  7117: Windurst - Majeur${prompt}
+  7118: Windurst - Mineur${prompt}
   7119: Windurst - Minimal${prompt}
-  7120: Bastok and Windurst have formed an alliance.${prompt}
-  7121: San d'Oria and Windurst have formed an alliance.${prompt}
-  7122: San d'Oria and Bastok have formed an alliance.${prompt}
-  7123: Bastok and Windurst are currently allies.${prompt}
-  7124: San d'Oria and Windurst are currently allies.${prompt}
-  7125: San d'Oria and Bastok are currently allies.${prompt}
+  7120: Bastok et Windurst ont formé une alliance.${prompt}
+  7121: San d'Oria et Windurst ont formé une alliance.${prompt}
+  7122: San d'Oria et Bastok ont formé une alliance.${prompt}
+  7123: Bastok et Windurst sont actuellement alliés.${prompt}
+  7124: San d'Oria et Windurst sont actuellement alliés.${prompt}
+  7125: San d'Oria et Bastok sont actuellement alliés.${prompt}
   7126: |-
     所属国：${number: 0}
     判定：${number: 1}${prompt}
@@ -17697,27 +17697,27 @@ entries:
   7130: |-
     ${choice: 0}[サンドリア/バストゥーク/ウィンダス]の状況:${choice: 0}[劣勢/やや劣勢/やや優勢/優勢/膠着]
     武器の値段:${number: 2}、入れるポイント:${number: 3}${prompt}
-  7131: The beastmen are gaining power.${prompt}
-  7132: San d'Oria's regional control is now 10% closer to the first place country's!${prompt}
-  7133: Bastok's regional control is now 10% closer to the first place country's!${prompt}
-  7134: Windurst's regional control are now 10% closer to the first place country's!${prompt}
-  7135: San d'Oria's region points have increased!${prompt}
-  7136: Bastok's region points have increased!${prompt}
-  7137: Windurst's region points have increased!${prompt}
-  7138: San d'Orian E.F. defeats beastmen hordes... Maintain current momentum.${prompt}
-  7139: Bastokan E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7140: Windurstian E.F. defeats beastmen hordes...Maintain current momentum.${prompt}
-  7141: A San d'Orian Expeditionary Force has been dispatched to this area.${prompt}
-  7142: A Bastokan Expeditionary Force has been dispatched to this area.${prompt}
-  7143: A Windurstian Expeditionary Force has been dispatched to this area.${prompt}
-  7144: 'E.F. Influence: Great...Region Status: Dominant...Maintain current level of combat.${prompt}'
-  7145: 'E.F. Influence: Fair...Region Status: Major...Maintain momentum.${prompt}'
-  7146: 'E.F. Influence: Poor...Region Status: Minor...Increase efforts.${prompt}'
-  7147: 'E.F. Influence: Minimal...Region Status: Minimal...Increase efforts tenfold.${prompt}'
-  7148: 'E.F. Influence: None...Region Status: Under beastman control...Keep losses to minimum.${prompt}'
-  7149: There was a curse on the beastmen's banner!${prompt}
-  7150: The curse of the beastmen's banner has been lifted!${prompt}
-  7151: There is a beastmen's banner.${prompt}
+  7131: Les hommes-bêtes gagnent en puissance.${prompt}
+  7132: Le contrôle régional de San d'Oria est maintenant 10% plus proche de celui du pays en première place !${prompt}
+  7133: Le contrôle régional de Bastok est maintenant 10% plus proche de celui du pays en première place !${prompt}
+  7134: Le contrôle régional de Windurst est maintenant 10% plus proche de celui du pays en première place !${prompt}
+  7135: Les points régionaux de San d'Oria ont augmenté !${prompt}
+  7136: Les points régionaux de Bastok ont augmenté !${prompt}
+  7137: Les points régionaux de Windurst ont augmenté !${prompt}
+  7138: La F.E. de San d'Oria vainc les hordes d'hommes-bêtes... Maintenir l'élan actuel.${prompt}
+  7139: La F.E. de Bastok vainc les hordes d'hommes-bêtes... Maintenir l'élan actuel.${prompt}
+  7140: La F.E. de Windurst vainc les hordes d'hommes-bêtes... Maintenir l'élan actuel.${prompt}
+  7141: Une Force Expéditionnaire de San d'Oria a été dépêchée dans cette zone.${prompt}
+  7142: Une Force Expéditionnaire de Bastok a été dépêchée dans cette zone.${prompt}
+  7143: Une Force Expéditionnaire de Windurst a été dépêchée dans cette zone.${prompt}
+  7144: 'Influence F.E. : Grande... Statut régional : Dominant... Maintenir le niveau de combat actuel.${prompt}'
+  7145: 'Influence F.E. : Correcte... Statut régional : Majeur... Maintenir l''élan.${prompt}'
+  7146: 'Influence F.E. : Faible... Statut régional : Mineur... Augmenter les efforts.${prompt}'
+  7147: 'Influence F.E. : Minimale... Statut régional : Minimal... Décupler les efforts.${prompt}'
+  7148: 'Influence F.E. : Aucune... Statut régional : Sous contrôle des hommes-bêtes... Minimiser les pertes.${prompt}'
+  7149: Il y avait une malédiction sur la bannière des hommes-bêtes !${prompt}
+  7150: La malédiction de la bannière des hommes-bêtes a été levée !${prompt}
+  7151: Il y a une bannière d'hommes-bêtes.${prompt}
   7152: 　${prompt}
   7153: 　${prompt}
   7154: 　${prompt}
