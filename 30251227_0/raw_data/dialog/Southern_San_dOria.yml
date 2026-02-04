@@ -23274,9 +23274,9 @@ entries:
     Désolé, mais je ne distribuerai pas de récompense cette fois, kupo.${prompt}
   10317: Mon sac est rempli de friandises pour des aventuriers serviables comme vous ! Faites votre choix !${prompt}
   10318: |-
-    Which item would you like?
+    Quel objet aimeriez-vous ?
     ${selection-lines}
-    Let me think.
+    Laissez-moi réfléchir.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
     ${lettercase: 1}${article} ${item-article: 3[2]}.
@@ -23295,211 +23295,211 @@ entries:
     ${lettercase: 1}${article} ${item-article: 16[2]}.
     ${lettercase: 1}${article} ${item-article: 17[2]}.
     ${lettercase: 1}${article} ${item-article: 18[2]}.${prompt}
-  10319: Are you absolutely sure, kupo?${prompt}
+  10319: Êtes-vous absolument sûr, kupo ?${prompt}
   10320: |-
-    You really want ${article} ${item-article: 0[2]}?
+    Vous voulez vraiment ${article} ${item-article: 0[2]} ?
     ${selection-lines}
-    Yes, that's the one!
-    On second thought...${prompt}
-  10321: You must wait a bit longer to try again, kupo.${prompt}
-  10322: You have to throw away all of your chocolates before playing again, kupo! It might seem a waste, but a rule is a rule!${prompt}
+    Oui, c'est celui-là !
+    En fait...${prompt}
+  10321: Vous devez attendre un peu plus longtemps pour réessayer, kupo.${prompt}
+  10322: Vous devez jeter tous vos chocolats avant de rejouer, kupo ! Ça peut sembler un gaspillage, mais une règle est une règle !${prompt}
   10323: |-
-    Oh, I've been waiting for this moment!
-    You'll help me find my perfect woman, right? Wow, thank you!!!${prompt}
+    Oh, j'attendais ce moment !
+    Vous allez m'aider à trouver ma femme parfaite, n'est-ce pas ? Wow, merci !!!${prompt}
   10324: |-
-    I really like ${choice: 2}[cheerful/kind/shy/modest] ${choice: 3}[Humes/Elvaan/Tarutaru/Mithra]! They're fantastic!
-    Here's a piece of chocolate. I hope you bring back the best chocolate ever! Good luck!${prompt}
+    J'aime vraiment les ${choice: 3}[Humes/Elfes/Tarutaru/Mithras] ${choice: 2}[joyeu${choice: 3}[ses/ses/ses/ses]/gentil${choice: 3}[les/les/les/les]/timides/modestes] ! ${choice: 3}[Elles/Elles/Elles/Elles] sont fantastiques !
+    Voici un morceau de chocolat. J'espère que vous ramènerez le meilleur chocolat de tous ! Bonne chance !${prompt}
   10325: |-
-    You still haven't brought any chocolate?
-    I've been waiting so long for this, so hurry up!${prompt}
+    Vous n'avez toujours pas apporté de chocolat ?
+    J'attends ça depuis si longtemps, alors dépêchez-vous !${prompt}
   10326: |-
-    Hey, what do you want?
-    You could go see a moogle or something!${prompt}
+    Hé, que voulez-vous ?
+    Vous pourriez aller voir un moogle ou quelque chose !${prompt}
   10327: |-
-    <gasp>!
-    Y-you brought me a chocolate!
-    I'm going to savor its delicate flavor...and then I'll let you know what I think! Thank you!${prompt}
-  10328: Hey. I heard you're playing the matchmaker around here.${prompt}
-  10329: 'Hmph, guess I might as well let you know my type. I like ${choice: 3}[Humes/Elvaan/Tarutaru/Mithra], and I like ''em ${choice: 2}[cheerful/kind/shy/modest]. I leave this chocolate, and my future, in your hands. Well, go on. Get on with it.${prompt}'
+    <halètement> !
+    V-vous m'avez apporté un chocolat !
+    Je vais savourer sa saveur délicate... et ensuite je vous dirai ce que j'en pense ! Merci !${prompt}
+  10328: Hé. J'ai entendu dire que vous jouez les entremetteurs par ici.${prompt}
+  10329: 'Hmph, je suppose que je pourrais aussi bien vous faire savoir mon type. J''aime les ${choice: 3}[Humes/Elfes/Tarutaru/Mithras], et je les aime ${choice: 2}[joyeu${choice: 3}[ses/ses/ses/ses]/gentil${choice: 3}[les/les/les/les]/timides/modestes]. Je laisse ce chocolat, et mon avenir, entre vos mains. Allez, continuez. Allez-y.${prompt}'
   10330: |-
-    What? Still...?
-    Oh well, keep it up. Looking forward to the results.${prompt}
+    Quoi ? Toujours... ?
+    Oh bon, continuez. J'attends les résultats avec impatience.${prompt}
   10331: |-
-    What do you want?
-    I don't think I know you.${prompt}
+    Que voulez-vous ?
+    Je ne crois pas vous connaître.${prompt}
   10332: |-
-    Well, you were able to get a finished chocolate after all.
-    I need some time to think, though. After all, this could determine my future, so I will taste it later. Thank you.${prompt}
+    Eh bien, vous avez finalement pu obtenir un chocolat fini.
+    J'ai besoin de temps pour réfléchir, cependant. Après tout, cela pourrait déterminer mon avenir, alors je le goûterai plus tard. Merci.${prompt}
   10333: |-
-    I have been waiting all my life for this!
-    You'll match me up with a girl, right? Wow! Me and a girl, together! Imagine!${prompt}
-  10334: 'Oh, oh, let''s see...I''ll tell you exactly what I want! I want a ${choice: 2}[cheerful/kind/shy/modest] ${choice: 3}[Hume/Elvaan/Tarutaru/Mithra]! She also must cook things like steamed catfish every night, love watching Ballista, and have an interest in airship mechanics...er, ignore those last few requests. Anyway, here''s some chocolate! Go get me a woman!${prompt}'
-  10335: Oh wow, thanks for doing this for me! I can't wait for my chocolate!${prompt}
-  10336: What? What do you need? Nothing? Okay, then!${prompt}
+    J'ai attendu toute ma vie pour ça !
+    Vous allez me jumeler avec une fille, n'est-ce pas ? Wow ! Moi et une fille, ensemble ! Imaginez !${prompt}
+  10334: 'Oh, oh, voyons voir... Je vais vous dire exactement ce que je veux ! Je veux une ${choice: 3}[Hume/Elfe/Tarutaru/Mithra] ${choice: 2}[joyeuse/gentille/timide/modeste] ! Elle doit aussi cuisiner des choses comme du poisson-chat à la vapeur chaque soir, aimer regarder la Ballista, et avoir un intérêt pour la mécanique des vaisseaux... euh, ignorez ces dernières demandes. Bref, voici du chocolat ! Trouvez-moi une femme !${prompt}'
+  10335: Oh wow, merci de faire ça pour moi ! J'ai hâte d'avoir mon chocolat !${prompt}
+  10336: Quoi ? Que voulez-vous ? Rien ? D'accord, alors !${prompt}
   10337: |-
-    Wooow, you really got a chocolate for me!
-    I'll let you know how it tastes later! Oh, thank you, thank you! I hope you can get a real, live ${choice-player-gender}[girlfriend/boyfriend] someday, too!${prompt}
+    Wooow, vous avez vraiment obtenu un chocolat pour moi !
+    Je vous dirai comment il goûte plus tard ! Oh, merci, merci ! J'espère que vous pourrez aussi avoir un${choice-player-gender}[e/] vrai${choice-player-gender}[e/], ${choice-player-gender}[petit/]e ami${choice-player-gender}[e/] vivant${choice-player-gender}[e/], un jour !${prompt}
   10338: |-
-    N-no way!
-    I can meet...a woman? One that...likes me!? ...Oh, wow!${prompt}
+    P-pas possible !
+    Je peux rencontrer... une femme ? Une qui... m'aime !? ...Oh, wow !${prompt}
   10339: |-
-    Okay, okay...I'm going to tell you my type. Let's see...I'd like an, um...ack, this is so embarrassing. I'd like a ${choice: 2}[cheerful/kind/shy/modest] ${choice: 3}[Hume/Elvaan/Tarutaru/Mithra]! Y-yes, that's my order! (Oops...maybe I went too far just now...)
-    Anyway, h-here's a chocolate!${prompt}
+    D'accord, d'accord... Je vais vous dire mon type. Voyons voir... J'aimerais une, euh... aïe, c'est tellement embarrassant. J'aimerais une ${choice: 3}[Hume/Elfe/Tarutaru/Mithra] ${choice: 2}[joyeuse/gentille/timide/modeste] ! O-oui, c'est ma commande ! (Oups... peut-être que je suis allé trop loin à l'instant...)
+    Bref, v-voici un chocolat !${prompt}
   10340: |-
-    Ahhh!
-    By Altana, you scared me!
-    Not finished yet? O-oh, I'm sorry!${prompt}
+    Ahhh !
+    Par Altana, vous m'avez fait peur !
+    Pas encore fini ? O-oh, je suis désolé !${prompt}
   10341: |-
-    What!?
-    ...Oh, you want something? I-I'm fine!${prompt}
+    Quoi !?
+    ...Oh, vous voulez quelque chose ? J-je vais bien !${prompt}
   10342: |-
-    Ahhh!
-    You really got a chocolate for me! B-but, I don't see anywhere I could eat it now! I'll have to tell the moogle what I think later. Wow, this is great! See ya!${prompt}
-  10343: Hiya! I've been waiting for you, sugar! Going to find a real sweetheart for me, are you? Yay!${prompt}
+    Ahhh !
+    Vous avez vraiment obtenu un chocolat pour moi ! M-mais, je ne vois nulle part où je pourrais le manger maintenant ! Je devrai dire au moogle ce que j'en pense plus tard. Wow, c'est génial ! À plus !${prompt}
+  10343: Salut ! Je t'attendais, sucre ! Tu vas me trouver un vrai chéri, n'est-ce pas ? Yay !${prompt}
   10344: |-
-    Listen closely, now! I liiike...${choice: 2}[cheerful/cool-headed/honest/shy] ${choice: 3}[Hume/Elvaan/Tarutaru/Galkan] boys! Teeheehee!
-    Here's a chocolate! Doesn't it look yummy? Good luck!${prompt}
-  10345: What's wrong, pumpernickel? Not having trouble, are we? I really want a man, so please hurry up!${prompt}
+    Écoute bien, maintenant ! J'aiiime... les ${choice: 3}[Humes/Elfes/Tarutaru/Galkas] ${choice: 2}[joyeux/de sang-froid/honnêtes/timides] ! Téhéhéhé !
+    Voici un chocolat ! Il n'a pas l'air délicieux ? Bonne chance !${prompt}
+  10345: Qu'y a-t-il, pain de seigle ? On n'a pas de problème, n'est-ce pas ? Je veux vraiment un homme, alors dépêche-toi s'il te plaît !${prompt}
   10346: |-
-    Hm? Want something?
-    You should go talk to a moogle!${prompt}
-  10347: Oh, I've been waiting! I wonder what it tastes like! I'll let you know what I think later. Thank you so much!${prompt}
+    Hm ? Tu veux quelque chose ?
+    Tu devrais aller parler à un moogle !${prompt}
+  10347: Oh, j'attendais ça ! Je me demande quel goût ça a ! Je te dirai ce que j'en pense plus tard. Merci beaucoup !${prompt}
   10348: |-
-    Why, hello!
-    This looks like quite an exciting event, doesn't it? I hope I can also meet a nice guy.${prompt}
+    Eh bien, bonjour !
+    Ça a l'air d'être un événement assez excitant, n'est-ce pas ? J'espère pouvoir aussi rencontrer un gentil garçon.${prompt}
   10349: |-
-    ${choice: 2}[Cheerful/Cool-headed/Honest/Shy] ${choice: 3}[Hume/Elvaan/Tarutaru/Galkan] guys are just my type.
-    Here's a chocolate. You have my support! I wish you the best of luck!${prompt}
+    Les ${choice: 3}[Humes/Elfes/Tarutaru/Galkas] ${choice: 2}[joyeux/de sang-froid/honnêtes/timides] sont exactement mon type.
+    Voici un chocolat. Tu as mon soutien ! Je te souhaite bonne chance !${prompt}
   10350: |-
-    Hello! You seem to be working very hard. I'm really thankful!
-    But you needn't rush around so fast. Take your time! I can wait if it makes the job easier for you!${prompt}
+    Bonjour ! Tu sembles travailler très dur. Je suis vraiment reconnaissante !
+    Mais tu n'as pas besoin de te précipiter si vite. Prends ton temps ! Je peux attendre si ça te facilite le travail !${prompt}
   10351: |-
-    Yes? You have a question?
-    Oh, I'm sorry. I think you've got the wrong person, but don't worry about it!${prompt}
+    Oui ? Tu as une question ?
+    Oh, je suis désolée. Je pense que tu t'es trompé de personne, mais ne t'inquiète pas !${prompt}
   10352: |-
-    Wow, you brought back a finished chocolate! Thank you so much!
-    I wonder what it tastes like. Teeheehee, I can't wait to try it.
-    I hope you meet someone special, too!${prompt}
+    Wow, tu as ramené un chocolat fini ! Merci beaucoup !
+    Je me demande quel goût ça a. Téhéhéhé, j'ai hâte de l'essayer.
+    J'espère que tu rencontreras quelqu'un de spécial aussi !${prompt}
   10353: |-
-    Aaah!
-    Oh...hi! Um, today is...and I...well, that is...
-    <sigh> I can't bring myself to say it!${prompt}
+    Aaah !
+    Oh... salut ! Euh, aujourd'hui c'est... et je... eh bien, c'est-à-dire...
+    <soupir> Je ne peux pas me résoudre à le dire !${prompt}
   10354: |-
-    Well, here goes nothing. I want ${choice: 2}[a cheerful/a cool-headed/an honest/a shy] ${choice: 3}[Hume/Elvaan/Tarutaru/Galkan] boyfriend!
-    A-and here's a chocolate... Th-thank you! (I can't believe I just said that!)${prompt}
+    Bon, allons-y. Je veux un petit ami ${choice: 3}[Hume/Elfe/Tarutaru/Galka] ${choice: 2}[joyeux/de sang-froid/honnête/timide] !
+    E-et voici un chocolat... M-merci ! (Je n'arrive pas à croire que je viens de dire ça !)${prompt}
   10355: |-
-    Eep!
-    Oh, y-you haven't brought a chocolate back yet? You really scared me, you know!
-    Anyway, good luck!${prompt}
+    Eep !
+    Oh, t-tu n'as pas encore ramené de chocolat ? Tu m'as vraiment fait peur, tu sais !
+    Bref, bonne chance !${prompt}
   10356: |-
-    Y-yes? What is it?
-    I...um, I don't need anything...${prompt}
-  10357: What? Th-this...could it be? You got me a chocolate! I can't eat it here, though...that would be sooo embarrassing. But I will eat it later, so thank you!${prompt}
+    O-oui ? Qu'est-ce qu'il y a ?
+    Je... euh, je n'ai besoin de rien...${prompt}
+  10357: Quoi ? C-ceci... serait-ce possible ? Tu m'as obtenu un chocolat ! Je ne peux pas le manger ici, cependant... ce serait teeellement embarrassant. Mais je le mangerai plus tard, alors merci !${prompt}
   10358: |-
-    Hello...
-    I may not look like much, but I do hope to meet a nice guy...${prompt}
+    Bonjour...
+    Je n'ai peut-être pas l'air de grand-chose, mais j'espère vraiment rencontrer un gentil garçon...${prompt}
   10359: |-
-    I really like ${choice: 2}[cheerful/cool-headed/honest/shy] ${choice: 3}[Hume/Elvaan/Tarutaru/Galkan] men.
-    Please take this chocolate. It may not be the best in the world, but I hope you can use it to find someone.${prompt}
+    J'aime vraiment les hommes ${choice: 3}[Humes/Elfes/Tarutaru/Galkas] ${choice: 2}[joyeux/de sang-froid/honnêtes/timides].
+    S'il te plaît, prends ce chocolat. Ce n'est peut-être pas le meilleur au monde, mais j'espère que tu pourras l'utiliser pour trouver quelqu'un.${prompt}
   10360: |-
-    You're not finished with the chocolate yet, are you?
-    I knew it would be hard to find someone for a girl like me...${prompt}
+    Tu n'as pas encore fini le chocolat, n'est-ce pas ?
+    Je savais qu'il serait difficile de trouver quelqu'un pour une fille comme moi...${prompt}
   10361: |-
-    What's the matter?
-    I don't think there's anything I need...${prompt}
-  10362: I see you got a chocolate for me. I can't tell how good it will be until I taste it, but maybe there's hope for me after all. Thanks so much for helping me.${prompt}
-  10363: '${color-alt: 15}${name-player}''s badge flashes brightly.${prompt}'
+    Qu'est-ce qu'il y a ?
+    Je ne pense pas avoir besoin de quoi que ce soit...${prompt}
+  10362: Je vois que tu as obtenu un chocolat pour moi. Je ne peux pas dire à quel point il sera bon avant de le goûter, mais peut-être qu'il y a de l'espoir pour moi après tout. Merci beaucoup de m'avoir aidée.${prompt}
+  10363: '${color-alt: 15}Le badge de ${name-player} brille intensément.${prompt}'
   10364: |-
-    The design on that badge...
-    Is it, perchance, related to that mercenary company all of San d'Oria is gossiping about?
-    The Near East...${prompt}
+    Le design sur ce badge...
+    Est-il, par hasard, lié à cette compagnie de mercenaires dont tout San d'Oria parle ?
+    Le Proche-Orient...${prompt}
   10365: |-
-    You adventurers always seem to be two steps ahead.
-    If only my fellow countrymen were as perceptive...${prompt}
+    Vous, aventuriers, semblez toujours avoir deux longueurs d'avance.
+    Si seulement mes compatriotes étaient aussi perspicaces...${prompt}
   10366: |-
-    When the unknown looms before us, you venture forth to learn the truth with your own eyes.
-    Ah, an adventurer's life...${prompt}
+    Quand l'inconnu se profile devant nous, vous vous aventurez pour apprendre la vérité de vos propres yeux.
+    Ah, la vie d'un aventurier...${prompt}
   10367: |-
-    I have not the stamina for such foolishness anymore.
-    But do come and make an old woman smile with tales of far-off lands, should you ever have the time.${prompt}
+    Je n'ai plus l'endurance pour de telles folies.
+    Mais venez faire sourire une vieille femme avec des récits de terres lointaines, si jamais vous avez le temps.${prompt}
   10368: |-
-    Wow! I wish I had a badge like that!
-    Are they going to let you join the mercenaries?
-    I was thinking of becoming a mercenary, too, one day...${prompt}
+    Wow ! J'aimerais avoir un badge comme ça !
+    Vont-ils te laisser rejoindre les mercenaires ?
+    Je pensais devenir mercenaire aussi, un jour...${prompt}
   10369: |-
-    Do you think they would let me in?
-    Maybe I should try defeating a few fiends first.${prompt}
+    Tu penses qu'ils me laisseraient entrer ?
+    Peut-être que je devrais essayer de vaincre quelques démons d'abord.${prompt}
   10370: |-
-    Hey you! What's with the badge!?
-    I'm the only one worthy of the honor around this place!${prompt}
-  10371: '${color-alt: 15}Daggao''s badge flashes brightly.${prompt}'
-  10372: Those Near Eastern folk have been talking their company up so much, everyone's starting to smell a rat.${prompt}
+    Hé toi ! C'est quoi ce badge !?
+    Je suis le seul digne de cet honneur dans les parages !${prompt}
+  10371: '${color-alt: 15}Le badge de Daggao brille intensément.${prompt}'
+  10372: Ces gens du Proche-Orient ont tellement vanté leur compagnie que tout le monde commence à sentir l'arnaque.${prompt}
   10373: |-
-    But you know, only the strongest adventurers are being accepted.
-    This is a chance to finally show my mettle!${prompt}
+    Mais tu sais, seuls les aventuriers les plus forts sont acceptés.
+    C'est une chance de montrer enfin ma valeur !${prompt}
   10374: |-
-    I doubt they'll take a runt like you!
-    Gwahahahahaha!${prompt}
+    Je doute qu'ils prennent un avorton comme toi !
+    Gwahahahahaha !${prompt}
   10375: |-
-    Ah!? Th-that badge!
-    Is it not a symbol of that mercenary company offering the incredible rewards?${prompt}
+    Ah !? C-ce badge !
+    N'est-il pas un symbole de cette compagnie de mercenaires offrant les récompenses incroyables ?${prompt}
   10376: |-
-    A mercenary's life...
-    If I am doomed to remain a gate guard, perhaps I, too, should put in an application.${prompt}
+    La vie d'un mercenaire...
+    Si je suis condamné à rester garde de porte, peut-être devrais-je aussi soumettre une candidature.${prompt}
   10377: |-
-    But, no.
-    I cannot forsake my duty.
-    I will work my way towards glory one step at a time.${prompt}
+    Mais, non.
+    Je ne peux pas abandonner mon devoir.
+    Je travaillerai mon chemin vers la gloire un pas à la fois.${prompt}
   10378: |-
-    You there! Yes, you!
-    You are one of those “adventurers”?${prompt}
+    Vous là-bas ! Oui, vous !
+    Vous êtes l'un de ces "aventuriers" ?${prompt}
   10379: |-
-    Are you an “adventurer”?
+    Êtes-vous un "aventurier" ?
     ${selection-lines}
-    I guess I am.
-    Not today.${prompt}
+    Je suppose que oui.
+    Pas aujourd'hui.${prompt}
   10380: |-
-    I knew it to be so!
-    This badge was made for one such as you!
-    Allow me...!${prompt}
+    Je le savais !
+    Ce badge a été fait pour quelqu'un comme vous !
+    Permettez-moi... !${prompt}
   10381: |-
-    No!? A thousand pardons!
-    And yet, you shall make the perfect bearer for this badge!
-    Allow me...!${prompt}
-  10382: '${color-alt: 15}${lettercase: 1}${keyitem-article: 0[2]} is suddenly pinned to ${name-player}!${prompt}'
-  10383: This is the symbol of the illustrious leader of Salaheem's Sentinels--a snarling wildcat.${prompt}
+    Non !? Mille pardons !
+    Et pourtant, vous ferez le porteur parfait pour ce badge !
+    Permettez-moi... !${prompt}
+  10382: '${color-alt: 15}${lettercase: 1}${keyitem-article: 0[2]} est soudainement épinglé${choice-player-gender}[/e] à ${name-player} !${prompt}'
+  10383: Ceci est le symbole du chef illustre des Sentinelles de Salaheem -- un chat sauvage grondant.${prompt}
   10384: |-
-    Under the authorization of Her Imperial Majesty, Salaheem's Sentinels is a well-respected company that specializes in training and dispatching mercenaries for the defense of the Aht Urhgan Empire.
-    We have a myriad of well-paying missions ready for any able-bodied adventurer.${prompt}
-  10385: But my speech grows overlong! My dauntless commander has bid me take ship to this bountiful kingdom and dazzle the citizenry with the Sentinels' splendor, and so I shall!${prompt}
+    Sous l'autorisation de Sa Majesté Impériale, les Sentinelles de Salaheem sont une compagnie bien respectée qui se spécialise dans la formation et l'envoi de mercenaires pour la défense de l'Empire d'Aht Urhgan.
+    Nous avons une myriade de missions bien payées prêtes pour tout aventurier valide.${prompt}
+  10385: Mais mon discours devient trop long ! Mon commandant intrépide m'a ordonné de prendre un navire vers ce royaume généreux et d'éblouir la citoyenneté avec la splendeur des Sentinelles, et ainsi je le ferai !${prompt}
   10386: |-
-    Oho! It is you!
-    It would appear that more and more people are taking an interest in our humble organization.
-    Praise be to the winds of fortune!${prompt}
-  10387: 'The ${keyitem-singular: 0[2]} was created through the advanced alchemical techniques of my country. The wildcat''s eyes are designed to flash in the presence of any who entertain thoughts of Aht Urhgan.${prompt}'
+    Oho ! C'est vous !
+    Il semblerait que de plus en plus de gens s'intéressent à notre humble organisation.
+    Louange aux vents de la fortune !${prompt}
+  10387: '${keyitem-singular: 0[2]} a été créé grâce aux techniques alchimiques avancées de mon pays. Les yeux du chat sauvage sont conçus pour clignoter en présence de quiconque entretient des pensées d''Aht Urhgan.${prompt}'
   10388: |-
-    Aha! My splendid friend!
-    You have spread the fire of fascination through the entire city!
-    Salaheem's Sentinels is the talk of the town!${prompt}
+    Aha ! Mon ami splendide !
+    Vous avez répandu le feu de la fascination à travers toute la ville !
+    Les Sentinelles de Salaheem sont sur toutes les lèvres !${prompt}
   10389: |-
-    Hm?
-    It appears the eyes of the ${keyitem-singular: 0[2]} have lost their luster. The crystal power source must have been drained after dazzling so many people.
-    Allow me to remove this spent trinket...${prompt}
-  10390: '${color-alt: 15}The ${keyitem-singular: 0[2]} is taken from ${name-player}!${prompt}'
+    Hm ?
+    Il semble que les yeux de ${keyitem-singular: 0[2]} aient perdu leur éclat. La source d'énergie cristalline doit avoir été drainée après avoir ébloui tant de gens.
+    Permettez-moi de retirer ce bibelot épuisé...${prompt}
+  10390: '${color-alt: 15}${keyitem-singular: 0[2]} est pris${choice-player-gender}[/e] à ${name-player} !${prompt}'
   10391: |-
-    In return, I shall award you this bauble.
-    It will come in handy for when you join the ranks of the Aht Urhgan mercenaries!${prompt}
-  10392: 'You obtain ${keyitem-article: 0[2]}!${prompt}'
+    En retour, je vous décernerai ce bibelot.
+    Il sera utile pour quand vous rejoindrez les rangs des mercenaires d'Aht Urhgan !${prompt}
+  10392: 'Vous obtenez ${keyitem-article: 0[2]} !${prompt}'
   10393: |-
-    Your name will shine down through the ages as one of our finest public relations officers. Should you ever brave the seas and find yourself in the Imperial City of Al Zahbi, you simply must visit the offices of Salaheem's Sentinels.
-    I insist!${prompt}
-  10394: Come and celebrate the Doll Festival with us, kupo!${prompt}
+    Votre nom brillera à travers les âges comme l'un de nos meilleurs officiers de relations publiques. Si jamais vous bravez les mers et vous retrouvez dans la Cité Impériale d'Al Zahbi, vous devez absolument visiter les bureaux des Sentinelles de Salaheem.
+    J'insiste !${prompt}
+  10394: Venez célébrer le Festival des Poupées avec nous, kupo !${prompt}
   10395: |-
-    We've got items for everyone!
-    Here you go, kupo!${prompt}
-  10396: Come again and bring your friends! Each of them will also get an item, kupo!${prompt}
-  10397: You can get items only once each day, so come back again tomorrow, kupo!${prompt}
-  10398: 'You obtain ${number: 4} ${item-given-plurality: 4[2], 0[2]}, ${number: 4} ${item-given-plurality: 4[2], 1[2]}, ${number: 4} ${item-given-plurality: 4[2], 2[2]}, and ${number: 4} ${item-given-plurality: 4[2], 3[2]}!${prompt}'
+    Nous avons des objets pour tout le monde !
+    Et voilà, kupo !${prompt}
+  10396: Revenez et amenez vos amis ! Chacun d'eux obtiendra aussi un objet, kupo !${prompt}
+  10397: Vous ne pouvez obtenir des objets qu'une fois par jour, alors revenez demain, kupo !${prompt}
+  10398: 'Vous obtenez ${number: 4} ${item-given-plurality: 4[2], 0[2]}, ${number: 4} ${item-given-plurality: 4[2], 1[2]}, ${number: 4} ${item-given-plurality: 4[2], 2[2]}, et ${number: 4} ${item-given-plurality: 4[2], 3[2]} !${prompt}'
   10399: |-
     う～ん、ひなまつりの
     雰囲気に浸っていたら、なんだか
