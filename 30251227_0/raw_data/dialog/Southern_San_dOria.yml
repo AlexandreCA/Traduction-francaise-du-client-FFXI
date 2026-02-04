@@ -23763,16 +23763,16 @@ entries:
   10578: D'accord, je ferais mieux de remettre ceci maintenant...${prompt}
   10579: 'Vous recevez ${article} ${item-article: 0[2]}.${prompt}'
   10580: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Ask about chocobo's condition.
-    Care for your chocobo.
-    Set up a care schedule.
-    Name your chocobo.
-    Request documentation.
-    Register to call your chocobo.
-    Receive your ${item-singular: 0[2]}.
-    Purchase ${article} ${item-article: 0[2]}.
+    Demander l'état du chocobo.
+    Prendre soin de votre chocobo.
+    Établir un programme de soins.
+    Nommer votre chocobo.
+    Demander de la documentation.
+    S'enregistrer pour appeler votre chocobo.
+    Recevoir votre ${item-singular: 0[2]}.
+    Acheter ${article} ${item-article: 0[2]}.
     ----
     ----
     ----
@@ -23791,19 +23791,19 @@ entries:
     ----
     ----
     ----
-    Go forward 1 unit.
-    Abilities print (debug).
-    User work print (debug).
-    Retire your chocobo.
-    Give up chocobo raising.
-    Nothing.${prompt}
+    Avancer d'1 unité.
+    Impression des capacités (débogage).
+    Impression du travail utilisateur (débogage).
+    Mettre votre chocobo à la retraite.
+    Abandonner l'élevage de chocobo.
+    Rien.${prompt}
   10581: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Receive your ${item-singular: 0[2]}.
-    Purchase ${article} ${item-article: 0[2]}.
-    Ask for a chococard.
-    Register to call your chocobo.
+    Recevoir votre ${item-singular: 0[2]}.
+    Acheter ${article} ${item-article: 0[2]}.
+    Demander une chococarte.
+    S'enregistrer pour appeler votre chocobo.
     ----
     ----
     ----
@@ -23831,83 +23831,83 @@ entries:
     ----
     ----
     ----
-    Nothing.${prompt}
+    Rien.${prompt}
   10582: |-
-    Request which documentation?
+    Demander quelle documentation ?
     ${selection-lines}
-    Chococard.
-    Racing Form.
-    Nothing.${prompt}
-  10583: '${entity: 0}''s current condition is as follows:${prompt}'
-  10584: I can't tell the chocobo's gender from this egg yet...${prompt}
-  10585: 'Your chocobo seems to be...a ${choice: 0}[male/female]!${prompt}'
-  10586: 'Strength: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  10587: 'Endurance: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  10588: 'Discernment: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  10589: 'Receptivity: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  10590: 'Regarding affection, it seems to ${choice: 0}[not care about you at all/be able to endure your company/slightly enjoy your company/like being around you/like you pretty well/like you a lot/want to be with you all the time/regard you as its parent].${prompt}'
-  10591: 'Hmmm... Your chocobo seems to be ${choice: 0}[starving/quite hungry/a little hungry/neither hungry nor full/neither hungry nor full/almost full/quite full/completely full].${prompt}'
-  10592: It looks like your chocobo's condition is stable. There have not been any changes worth mentioning.${prompt}
-  10593: 'Your chocobo''s leg seems to be slightly wounded. ${lettercase: 1}${article} ${item-article: 0[2]} might help it heal.${prompt}'
-  10594: 'Your chocobo seems to have a stomachache. ${lettercase: 1}${article} ${item-article: 0[2]} might help it feel better.${prompt}'
-  10595: 'Your chocobo seems to be slightly ill. ${lettercase: 1}${article} ${item-article: 0[2]} might help it feel better.${prompt}'
-  10596: 'Your chocobo is very ill. ${lettercase: 1}${article} ${item-article: 0[2]} might help it feel better.${prompt}'
-  10597: Your chocobo is not receiving enough affection, and seems very depressed. You should pay more attention to your animal.${prompt}
-  10598: Your chocobo has been receiving plenty of affection, and seems extremely happy. It is in excellent condition now!${prompt}
-  10599: Your chocobo is sleeping soundly in order to heal its fatigue.${prompt}
-  10600: Your chocobo seems bored and restless. You should give it something to do, like taking it out to race against other chocobos.${prompt}
-  10601: Your chocobo is hopelessly spoiled! You should discipline it some.${prompt}
-  10602: Your chocobo ran away from the stables the moment I turned my back... It must have been upset about something. All we can do is wait for it to come back now.${prompt}
-  10603: Your chocobo seems to have its head in the clouds lately... It must be in love. Not sure what to do about that...${prompt}
-  10604: Your chocobo has been making a real fuss at night lately. Such behavior is common for chicks, but you should deal with it as soon as possible.${prompt}
+    Chococarte.
+    Formulaire de Course.
+    Rien.${prompt}
+  10583: 'L''état actuel de ${entity: 0} est le suivant :${prompt}'
+  10584: Je ne peux pas encore déterminer le sexe du chocobo à partir de cet œuf...${prompt}
+  10585: 'Votre chocobo semble être... un ${choice: 0}[mâle/femelle] !${prompt}'
+  10586: 'Force : ${choice: 0}[Médiocre/Inférieure à la norme/Un peu déficiente/Moyenne/Meilleure que la moyenne/Impressionnante/Exceptionnelle/De première classe]${prompt}'
+  10587: 'Endurance : ${choice: 0}[Médiocre/Inférieure à la norme/Un peu déficiente/Moyenne/Meilleure que la moyenne/Impressionnante/Exceptionnelle/De première classe]${prompt}'
+  10588: 'Discernement : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Meilleur que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  10589: 'Réceptivité : ${choice: 0}[Médiocre/Inférieure à la norme/Un peu déficiente/Moyenne/Meilleure que la moyenne/Impressionnante/Exceptionnelle/De première classe]${prompt}'
+  10590: 'En ce qui concerne l''affection, il semble ${choice: 0}[ne pas se soucier de vous du tout/pouvoir supporter votre compagnie/apprécier légèrement votre compagnie/aimer être autour de vous/vous aimer assez bien/vous aimer beaucoup/vouloir être avec vous tout le temps/vous considérer comme son parent].${prompt}'
+  10591: 'Hmmm... Votre chocobo semble être ${choice: 0}[affamé/assez affamé/un peu affamé/ni affamé ni rassasié/ni affamé ni rassasié/presque rassasié/assez rassasié/complètement rassasié].${prompt}'
+  10592: Il semble que l'état de votre chocobo soit stable. Il n'y a eu aucun changement digne de mention.${prompt}
+  10593: 'La patte de votre chocobo semble être légèrement blessée. ${lettercase: 1}${article} ${item-article: 0[2]} pourrait l''aider à guérir.${prompt}'
+  10594: 'Votre chocobo semble avoir mal au ventre. ${lettercase: 1}${article} ${item-article: 0[2]} pourrait l''aider à se sentir mieux.${prompt}'
+  10595: 'Votre chocobo semble être légèrement malade. ${lettercase: 1}${article} ${item-article: 0[2]} pourrait l''aider à se sentir mieux.${prompt}'
+  10596: 'Votre chocobo est très malade. ${lettercase: 1}${article} ${item-article: 0[2]} pourrait l''aider à se sentir mieux.${prompt}'
+  10597: Votre chocobo ne reçoit pas assez d'affection et semble très déprimé. Vous devriez accorder plus d'attention à votre animal.${prompt}
+  10598: Votre chocobo a reçu beaucoup d'affection et semble extrêmement heureux. Il est en excellent état maintenant !${prompt}
+  10599: Votre chocobo dort profondément afin de guérir sa fatigue.${prompt}
+  10600: Votre chocobo semble s'ennuyer et est agité. Vous devriez lui donner quelque chose à faire, comme l'emmener courir contre d'autres chocobos.${prompt}
+  10601: Votre chocobo est désespérément gâté ! Vous devriez le discipliner un peu.${prompt}
+  10602: Votre chocobo s'est enfui des écuries dès que j'ai tourné le dos... Il devait être contrarié par quelque chose. Tout ce que nous pouvons faire maintenant, c'est attendre qu'il revienne.${prompt}
+  10603: Votre chocobo semble avoir la tête dans les nuages ces derniers temps... Il doit être amoureux. Je ne sais pas trop quoi faire à ce sujet...${prompt}
+  10604: Votre chocobo fait vraiment du tapage la nuit ces derniers temps. Un tel comportement est courant pour les poussins, mais vous devriez y remédier dès que possible.${prompt}
   10605: |-
-    Something is certainly different!
-    Your chocobo is bursting with vitality!${prompt}
-  10606: There's a certain spark in your chocobo's eyes today!${prompt}
-  10607: 'It ${choice: 0}[has a very easygoing personality/is rather ill-tempered/is a very patient chocobo/is quite sensitive/has a rather enigmatic personality], making it ${choice: 0}[easy to care for/ideal for military use/ideal for carrying goods/good with people/difficult to know what the animal is thinking].${prompt}'
-  10608: 'Your chocobo ${choice: 0}[likes clear days/likes hot, sunny days/likes rainy days/likes sandstorms/likes windy days/likes snow/likes thunder/likes auroras/likes dark days/likes cloudy days.]${choice: 0}[./ and dislikes rainy days./ and dislikes thunder./ and dislikes windy days./ and dislikes snow./ and dislikes clear days./ and dislikes sandstorms./ and dislikes dark days./ and dislikes auroras./]${prompt}'
-  10609: Last of all, your animal does not seem to know any abilities.${prompt}
-  10610: 'Last of all, your animal seems to have the ability “${choice: 0}[Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder].”${prompt}'
-  10611: 'Last of all, your animal seems to have the abilities “${choice: 0}[Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]” and “${choice: 1}[Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder].”${prompt}'
-  10612: Keep up the fine work.${prompt}
-  10613: '${entity: 0}''s strength has increased!'
-  10614: '${entity: 0}''s endurance has increased!'
-  10615: '${entity: 0}''s discernment has increased!'
-  10616: '${entity: 0}''s receptivity has increased!'
-  10617: '${entity: 0}''s strength has decreased.'
-  10618: '${entity: 0}''s endurance has decreased.'
-  10619: '${entity: 0}''s discernment has decreased.'
-  10620: '${entity: 0}''s receptivity has decreased.'
+    Quelque chose a certainement changé !
+    Votre chocobo déborde de vitalité !${prompt}
+  10606: Il y a une certaine étincelle dans les yeux de votre chocobo aujourd'hui !${prompt}
+  10607: 'Il ${choice: 0}[a une personnalité très décontractée/est plutôt de mauvaise humeur/est un chocobo très patient/est assez sensible/a une personnalité plutôt énigmatique], ce qui le rend ${choice: 0}[facile à soigner/idéal pour un usage militaire/idéal pour transporter des marchandises/bon avec les gens/difficile de savoir ce que l''animal pense].${prompt}'
+  10608: 'Votre chocobo ${choice: 0}[aime les jours clairs/aime les jours chauds et ensoleillés/aime les jours de pluie/aime les tempêtes de sable/aime les jours venteux/aime la neige/aime le tonnerre/aime les aurores/aime les jours sombres/aime les jours nuageux.]${choice: 0}[./ et n''aime pas les jours de pluie./ et n''aime pas le tonnerre./ et n''aime pas les jours venteux./ et n''aime pas la neige./ et n''aime pas les jours clairs./ et n''aime pas les tempêtes de sable./ et n''aime pas les jours sombres./ et n''aime pas les aurores./]${prompt}'
+  10609: Enfin, votre animal ne semble connaître aucune capacité.${prompt}
+  10610: 'Enfin, votre animal semble avoir la capacité "${choice: 0}[Galop/Petit galop/Creuser/Forer/Auto-Régén/Chercheur de Trésors]."${prompt}'
+  10611: 'Enfin, votre animal semble avoir les capacités "${choice: 0}[Galop/Petit galop/Creuser/Forer/Auto-Régén/Chercheur de Trésors]" et "${choice: 1}[Galop/Petit galop/Creuser/Forer/Auto-Régén/Chercheur de Trésors]."${prompt}'
+  10612: Continuez votre excellent travail.${prompt}
+  10613: 'La force de ${entity: 0} a augmenté !'
+  10614: 'L''endurance de ${entity: 0} a augmenté !'
+  10615: 'Le discernement de ${entity: 0} a augmenté !'
+  10616: 'La réceptivité de ${entity: 0} a augmenté !'
+  10617: 'La force de ${entity: 0} a diminué.'
+  10618: 'L''endurance de ${entity: 0} a diminué.'
+  10619: 'Le discernement de ${entity: 0} a diminué.'
+  10620: 'La réceptivité de ${entity: 0} a diminué.'
   10621: |-
-    Next program: ${choice: 4}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play]
+    Prochain programme : ${choice: 4}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce]
     ${selection-lines}
-    Plan 1: ${choice: 1}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play] (${number: 0} ${choice-plurality: 0}[day/days])
-    Plan 2: ${choice: 3}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play] (${number: 2} ${choice-plurality: 2}[day/days])
-    Never mind.
-    Next page.${prompt}
+    Plan 1 : ${choice: 1}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce] (${number: 0} ${choice-plurality: 0}[jour/jours])
+    Plan 2 : ${choice: 3}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce] (${number: 2} ${choice-plurality: 2}[jour/jours])
+    Peu importe.
+    Page suivante.${prompt}
   10622: |-
-    Next program: ${choice: 4}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play]
+    Prochain programme : ${choice: 4}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce]
     ${selection-lines}
-    Plan 3: ${choice: 1}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play] (${number: 0} ${choice-plurality: 0}[day/days])
-    Plan 4: ${choice: 3}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play] (${number: 2} ${choice-plurality: 2}[day/days])
-    Never mind.
-    Previous page.${prompt}
+    Plan 3 : ${choice: 1}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce] (${number: 0} ${choice-plurality: 0}[jour/jours])
+    Plan 4 : ${choice: 3}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce] (${number: 2} ${choice-plurality: 2}[jour/jours])
+    Peu importe.
+    Page précédente.${prompt}
   10623: |-
-    Choose a plan for your chocobo.
+    Choisissez un plan pour votre chocobo.
     ${selection-lines}
-    Basic care.
-    Rest.
-    Take a walk in town.
-    Listen to music.
-    Exercise alone.
-    Exercise in a group.
-    Interact with children.
-    Interact with chocobos.
-    Carry packages.
-    Exhibit to the public.
-    Deliver messages.
-    Dig for treasure.
-    Act in a play.
+    Soins de base.
+    Repos.
+    Promenade en ville.
+    Écouter de la musique.
+    Exercice seul.
+    Exercice en groupe.
+    Interagir avec les enfants.
+    Interagir avec les chocobos.
+    Porter des colis.
+    Exposition publique.
+    Livrer des messages.
+    Creuser pour des trésors.
+    Jouer dans une pièce.
     ----
     ----
     ----
@@ -23926,97 +23926,97 @@ entries:
     ----
     ----
     ----
-    Never mind.${prompt}
+    Peu importe.${prompt}
   10624: |-
-    Is this plan okay?
+    Ce plan est-il correct ?
     ${selection-lines}
-    Yes.
-    On second thought...${prompt}
+    Oui.
+    En y repensant...${prompt}
   10625: |-
-    For how many days?
+    Pour combien de jours ?
     ${selection-lines}
-    One.
-    Two.
-    Three.
-    Four.
-    Five.
+    Un.
+    Deux.
+    Trois.
+    Quatre.
+    Cinq.
     Six.
-    Seven.
-    I've changed my mind.${prompt}
+    Sept.
+    J'ai changé d'avis.${prompt}
   10626: |-
-    Plan ${number: 0} will be registered as follows: ${choice: 1}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play]
-    Number of days: ${number: 2}${prompt}
+    Le Plan ${number: 0} sera enregistré comme suit : ${choice: 1}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce]
+    Nombre de jours : ${number: 2}${prompt}
   10627: |-
-    Plan ${number: 0} will be registered as follows: ${choice: 1}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play]
-    Number of days: ${number: 2}${prompt}
+    Le Plan ${number: 0} sera enregistré comme suit : ${choice: 1}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce]
+    Nombre de jours : ${number: 2}${prompt}
   10628: |-
-    Plan ${number: 0} will be registered as follows: ${choice: 1}[Basic care/Rest/Take a walk in town/Listen to music/Exercise alone/Exercise in a group/Interact with children/Interact with chocobos/Carry packages/Exhibit to the public/Deliver messages/Dig for treasure/Act in a play]
-    Number of days: ${number: 2}${prompt}
+    Le Plan ${number: 0} sera enregistré comme suit : ${choice: 1}[Soins de base/Repos/Promenade en ville/Écouter de la musique/Exercice seul/Exercice en groupe/Interagir avec les enfants/Interagir avec les chocobos/Porter des colis/Exposition publique/Livrer des messages/Creuser pour des trésors/Jouer dans une pièce]
+    Nombre de jours : ${number: 2}${prompt}
   10629: |-
-    Is this plan okay?
+    Ce plan est-il correct ?
     ${selection-lines}
-    Yes.
-    On second thought...${prompt}
-  10630: 'Plan ${number: 0} has been successfully registered on your chocobo''s care schedule.${prompt}'
-  10631: 'Plan ${number: 0} has been successfully registered on your chocobo''s care schedule.${prompt}'
-  10632: 'Plan ${number: 0} has been successfully registered on your chocobo''s care schedule!${prompt}'
-  10633: This is the basic care plan for your chocobo. Under this plan, we will provide for your chocobo's most fundamental needs.${prompt}
-  10634: You can choose to give your chocobo a long rest. This will revitalize its energy and accelerate its recovery from injury or illness.${prompt}
-  10635: We can take your chocobo out on a walk through the safe areas of town. This should improve its physical condition.${prompt}
-  10636: Listening to music will make your chocobo a more refined creature, and should improve its mental condition.${prompt}
-  10637: Exercising alone will improve your chocobo's strength, but will have a slightly negative effect on its mental condition.${prompt}
-  10638: Exercising in a group will improve your chocobo's stamina, but will have a slightly negative effect on its mental condition.${prompt}
-  10639: Interacting with children will improve your chocobo's intelligence, but will have a slightly negative effect on its physical condition.${prompt}
-  10640: Interacting with other chocobos will improve your chocobo's receptivity, but will have a slightly negative effect on its physical condition.${prompt}
-  10641: You can earn some money by having your chocobo deliver packages for the guilds.${prompt}
-  10642: Carrying heavy loads will improve its physical condition, but will inflict a certain amount of stress on the animal.${prompt}
-  10643: You can exhibit your chocobo to the public. We will provide you with a monetary token of gratitude for this service.${prompt}
-  10644: Interacting with the public will improve its mental condition, but will inflict a certain amount of stress on the animal.${prompt}
-  10645: You can send your chocobo to deliver official messages. The nation will compensate you for your services.${prompt}
-  10646: Carrying someone on its back for a long period of time will build strength in your chocobo's legs, but will place some strain on the animal.${prompt}
-  10647: You can send your chocobo to dig for items to benefit the stables. We will thank you for your contribution with a certain amount of gil.${prompt}
-  10648: Digging for treasure will improve your chocobo's intelligence, but will place some strain on the animal and may decrease its stamina.${prompt}
-  10649: Your chocobo can even appear in plays. This will require your chocobo to perform simple acts and will improve its receptivity.${prompt}
-  10650: You will receive a gil payment for this service, but appearing in a play will have a negative effect on the animal's strength and will place some strain on your chocobo.${prompt}
-  10651: '--Chocobo Status Report: Day ${number: 0}--'
-  10652: '--Chocobo Status Report: Day ${number: 0}-Day ${number: 1}--'
-  10653: There are currently no reports.
-  10654: 'Plan: Basic Care'
-  10655: 'Plan: Rest'
-  10656: 'Plan: Take a Walk'
-  10657: 'Plan: Listen to Music'
-  10658: 'Plan: Exercise Alone'
-  10659: 'Plan: Exercise In a Group'
-  10660: 'Plan: Interact with Children'
-  10661: 'Plan: Interact with Chocobos'
-  10662: 'Plan: Carry Packages'
-  10663: 'Plan: Exhibit to the Public'
-  10664: 'Plan: Deliver Messages'
-  10665: 'Plan: Dig for Treasure'
-  10666: 'Plan: Act In a Play'
-  10667: We gave your chocobo only the minimum level of care.${prompt}
-  10668: We gave your chocobo a long rest. It slept well the entire time.${prompt}
-  10669: Your chocobo was taken on a walk through the safe areas of town. Its strength and endurance seem to have slightly improved.${prompt}
-  10670: Your chocobo listened intently to the bard's songs. Its discernment and receptivity seem to have slightly improved.${prompt}
-  10671: Your chocobo exercised lightly in the field. Its strength seems to have slightly improved.${prompt}
-  10672: Your chocobo exercised lightly with the other chocobos. Its endurance seems to have slightly improved.${prompt}
-  10673: Your chocobo enjoyed playing with children. Its discernment seems to have slightly improved.${prompt}
-  10674: Your chocobo seemed to enjoy being with the other chocobos. Its receptivity has slightly improved.${prompt}
-  10675: 'Your chocobo carried packages for the guilds. The merchants paid ${number: 0} gil for your services.${prompt}'
-  10676: 'Your chocobo entertained tourists and the children of our nation. We provide you with ${number: 0} gil for your services.${prompt}'
-  10677: 'Your chocobo delivered a message to a nearby outpost. Our nation paid ${number: 0} gil for your services.${prompt}'
-  10678: 'Your chocobo dug for treasure in the field. We provide you with ${number: 0} gil for your services.${prompt}'
-  10679: 'Your chocobo appeared in a play. The playmaster paid ${number: 0} gil for your services.${prompt}'
+    Oui.
+    En y repensant...${prompt}
+  10630: 'Le Plan ${number: 0} a été enregistré avec succès dans le programme de soins de votre chocobo.${prompt}'
+  10631: 'Le Plan ${number: 0} a été enregistré avec succès dans le programme de soins de votre chocobo.${prompt}'
+  10632: 'Le Plan ${number: 0} a été enregistré avec succès dans le programme de soins de votre chocobo !${prompt}'
+  10633: Ceci est le plan de soins de base pour votre chocobo. Sous ce plan, nous fournirons les besoins les plus fondamentaux de votre chocobo.${prompt}
+  10634: Vous pouvez choisir de donner à votre chocobo un long repos. Cela revitalisera son énergie et accélérera sa guérison de blessure ou de maladie.${prompt}
+  10635: Nous pouvons emmener votre chocobo en promenade dans les zones sûres de la ville. Cela devrait améliorer son état physique.${prompt}
+  10636: Écouter de la musique fera de votre chocobo une créature plus raffinée, et devrait améliorer son état mental.${prompt}
+  10637: S'exercer seul améliorera la force de votre chocobo, mais aura un effet légèrement négatif sur son état mental.${prompt}
+  10638: S'exercer en groupe améliorera l'endurance de votre chocobo, mais aura un effet légèrement négatif sur son état mental.${prompt}
+  10639: Interagir avec les enfants améliorera l'intelligence de votre chocobo, mais aura un effet légèrement négatif sur son état physique.${prompt}
+  10640: Interagir avec d'autres chocobos améliorera la réceptivité de votre chocobo, mais aura un effet légèrement négatif sur son état physique.${prompt}
+  10641: Vous pouvez gagner de l'argent en faisant livrer des colis par votre chocobo pour les guildes.${prompt}
+  10642: Porter des charges lourdes améliorera son état physique, mais infligera une certaine quantité de stress à l'animal.${prompt}
+  10643: Vous pouvez exposer votre chocobo au public. Nous vous fournirons un jeton de gratitude monétaire pour ce service.${prompt}
+  10644: Interagir avec le public améliorera son état mental, mais infligera une certaine quantité de stress à l'animal.${prompt}
+  10645: Vous pouvez envoyer votre chocobo livrer des messages officiels. La nation vous compensera pour vos services.${prompt}
+  10646: Porter quelqu'un sur son dos pendant une longue période renforcera les pattes de votre chocobo, mais placera une certaine tension sur l'animal.${prompt}
+  10647: Vous pouvez envoyer votre chocobo creuser pour des objets au bénéfice des écuries. Nous vous remercierons pour votre contribution avec une certaine quantité de gils.${prompt}
+  10648: Creuser pour des trésors améliorera l'intelligence de votre chocobo, mais placera une certaine tension sur l'animal et pourrait diminuer son endurance.${prompt}
+  10649: Votre chocobo peut même apparaître dans des pièces de théâtre. Cela exigera que votre chocobo effectue des actes simples et améliorera sa réceptivité.${prompt}
+  10650: Vous recevrez un paiement en gils pour ce service, mais apparaître dans une pièce aura un effet négatif sur la force de l'animal et placera une certaine tension sur votre chocobo.${prompt}
+  10651: '--Rapport d''état du Chocobo : Jour ${number: 0}--'
+  10652: '--Rapport d''état du Chocobo : Jour ${number: 0}-Jour ${number: 1}--'
+  10653: Il n'y a actuellement aucun rapport.
+  10654: 'Plan : Soins de Base'
+  10655: 'Plan : Repos'
+  10656: 'Plan : Promenade'
+  10657: 'Plan : Écouter de la Musique'
+  10658: 'Plan : Exercice Seul'
+  10659: 'Plan : Exercice en Groupe'
+  10660: 'Plan : Interagir avec les Enfants'
+  10661: 'Plan : Interagir avec les Chocobos'
+  10662: 'Plan : Porter des Colis'
+  10663: 'Plan : Exposition Publique'
+  10664: 'Plan : Livrer des Messages'
+  10665: 'Plan : Creuser pour des Trésors'
+  10666: 'Plan : Jouer dans une Pièce'
+  10667: Nous avons donné à votre chocobo seulement le niveau minimum de soins.${prompt}
+  10668: Nous avons donné à votre chocobo un long repos. Il a bien dormi tout le temps.${prompt}
+  10669: Votre chocobo a été emmené en promenade dans les zones sûres de la ville. Sa force et son endurance semblent avoir légèrement augmenté.${prompt}
+  10670: Votre chocobo a écouté attentivement les chansons du barde. Son discernement et sa réceptivité semblent avoir légèrement augmenté.${prompt}
+  10671: Votre chocobo s'est exercé légèrement dans le champ. Sa force semble avoir légèrement augmenté.${prompt}
+  10672: Votre chocobo s'est exercé légèrement avec les autres chocobos. Son endurance semble avoir légèrement augmenté.${prompt}
+  10673: Votre chocobo a aimé jouer avec les enfants. Son discernement semble avoir légèrement augmenté.${prompt}
+  10674: Votre chocobo semblait apprécier d'être avec les autres chocobos. Sa réceptivité a légèrement augmenté.${prompt}
+  10675: 'Votre chocobo a porté des colis pour les guildes. Les marchands ont payé ${number: 0} gils pour vos services.${prompt}'
+  10676: 'Votre chocobo a diverti les touristes et les enfants de notre nation. Nous vous fournissons ${number: 0} gils pour vos services.${prompt}'
+  10677: 'Votre chocobo a livré un message à un avant-poste voisin. Notre nation a payé ${number: 0} gils pour vos services.${prompt}'
+  10678: 'Votre chocobo a creusé pour des trésors dans le champ. Nous vous fournissons ${number: 0} gils pour vos services.${prompt}'
+  10679: 'Votre chocobo est apparu dans une pièce. Le metteur en scène a payé ${number: 0} gils pour vos services.${prompt}'
   10680: |-
-    What will you do?
+    Que ferez-vous ?
     ${selection-lines}
-    Watch over the chocobo.
-    Tell a story.
-    Scold the chocobo.
-    Compete against others.
-    Go on a walk (short).
-    Go on a walk (regular).
-    Go on a walk (long).
+    Surveiller le chocobo.
+    Raconter une histoire.
+    Gronder le chocobo.
+    Concourir contre d'autres.
+    Aller se promener (courte).
+    Aller se promener (normale).
+    Aller se promener (longue).
     ----
     ----
     ----
@@ -24041,50 +24041,50 @@ entries:
     ----
     ----
     ----
-    Nothing.${prompt}
+    Rien.${prompt}
   10681: |-
-    ${choice: 0}[Watch over the chocobo/Tell a story/Scold the chocobo/Compete against others/Go on a walk (short)/Go on a walk (regular)/Go on a walk (long)]?
+    ${choice: 0}[Surveiller le chocobo/Raconter une histoire/Gronder le chocobo/Concourir contre d'autres/Aller se promener (courte)/Aller se promener (normale)/Aller se promener (longue)] ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  10682: You should wait until your chocobo has more energy before doing that...${prompt}
-  10683: If you watch over your chocobo, it will gradually return your affection.${prompt}
-  10684: Telling your chocobo a story will help it develop a healthy psychological state. Remember that concentrating on your speech will have a slightly tiring effect on the animal, though.${prompt}
-  10685: When your chocobo acts stubborn, you must discipline it. Remember that reproof is an act of love. It is important to scold your chocobo the moment it acts up!${prompt}
-  10686: You're interested in entering your chocobo into competitions? Strange...there were three others who mentioned the same thing. Well, it is good for their physical development, after all. I suppose it's alright as long as it's done peacefully.${prompt}
-  10687: Venturing outside of town with your chocobo will improve the bond between the two of you. If you don't wander off too far, your chocobo should not get very tired, either.${prompt}
-  10688: Venturing outside of town with your chocobo will improve the bond between the two of you. You should try wandering out just a bit sometimes. It might tire your chocobo a bit, but could have some positive effects as well.${prompt}
-  10689: Venturing outside of town with your chocobo will improve the bond between the two of you. Wandering far from town on a walk will expose your chocobo to all sorts of new experiences!${prompt}
-  10690: Your chocobo already has a name.${prompt}
+    Oui.
+    Non.${prompt}
+  10682: Vous devriez attendre que votre chocobo ait plus d'énergie avant de faire cela...${prompt}
+  10683: Si vous surveillez votre chocobo, il vous rendra progressivement votre affection.${prompt}
+  10684: Raconter une histoire à votre chocobo l'aidera à développer un état psychologique sain. Rappelez-vous que se concentrer sur votre discours aura un effet légèrement fatigant sur l'animal, cependant.${prompt}
+  10685: Quand votre chocobo agit de manière têtue, vous devez le discipliner. Rappelez-vous que le reproche est un acte d'amour. Il est important de gronder votre chocobo au moment où il fait des siennes !${prompt}
+  10686: Vous êtes intéressé à inscrire votre chocobo à des compétitions ? Étrange... il y en avait trois autres qui ont mentionné la même chose. Eh bien, c'est bon pour leur développement physique, après tout. Je suppose que c'est acceptable tant que c'est fait pacifiquement.${prompt}
+  10687: S'aventurer hors de la ville avec votre chocobo améliorera le lien entre vous deux. Si vous ne vous éloignez pas trop loin, votre chocobo ne devrait pas devenir très fatigué non plus.${prompt}
+  10688: S'aventurer hors de la ville avec votre chocobo améliorera le lien entre vous deux. Vous devriez essayer de vous éloigner un peu parfois. Cela pourrait fatiguer un peu votre chocobo, mais pourrait aussi avoir des effets positifs.${prompt}
+  10689: S'aventurer hors de la ville avec votre chocobo améliorera le lien entre vous deux. S'éloigner loin de la ville lors d'une promenade exposera votre chocobo à toutes sortes de nouvelles expériences !${prompt}
+  10690: Votre chocobo a déjà un nom.${prompt}
   10691: |-
-    Choose a word category (${choice: 0}[first name/last name]).
+    Choisissez une catégorie de mot (${choice: 0}[prénom/nom de famille]).
     ${selection-lines}
-    1-letter words.
-    2-letter words.
-    3-letter words.
-    4-letter words.
-    5-letter words.
-    6-letter words.
-    7-letter words.
-    8-letter words.
-    9-letter words.
-    10-letter words.
-    11-letter words.
-    12-letter words.
-    13-letter words.
-    14-letter words.
-    Return.
-    Cancel.${prompt}
+    Mots de 1 lettre.
+    Mots de 2 lettres.
+    Mots de 3 lettres.
+    Mots de 4 lettres.
+    Mots de 5 lettres.
+    Mots de 6 lettres.
+    Mots de 7 lettres.
+    Mots de 8 lettres.
+    Mots de 9 lettres.
+    Mots de 10 lettres.
+    Mots de 11 lettres.
+    Mots de 12 lettres.
+    Mots de 13 lettres.
+    Mots de 14 lettres.
+    Retour.
+    Annuler.${prompt}
   10692: |-
-    Is this name okay?
+    Ce nom est-il correct ?
     ${selection-lines}
-    ${entity: 0} ${entity: 1}? Yes!
-    On second thought...${prompt}
+    ${entity: 0} ${entity: 1} ? Oui !
+    En y repensant...${prompt}
   10693: |-
-    That name is currently unavailable.
-    Please try another combination.${prompt}
+    Ce nom n'est actuellement pas disponible.
+    Veuillez essayer une autre combinaison.${prompt}
   10694: |-
-    Choose a word.(${entity: 0})
+    Choisissez un mot.(${entity: 0})
     ${selection-lines}
     ${chocobo-word: 0[2]}
     ${chocobo-word: 1[2]}
@@ -24116,8 +24116,8 @@ entries:
     ${chocobo-word: 27[2]}
     ${chocobo-word: 28[2]}
     ${chocobo-word: 29[2]}
-    Cancel.
-    View other options.${prompt}
+    Annuler.
+    Voir d'autres options.${prompt}
   10695: とおった
   10696: '${number: 0}'
   10697: I can issue you a card that contains all your chocobo's important information.${prompt}
