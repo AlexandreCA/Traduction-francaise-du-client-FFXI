@@ -25988,289 +25988,290 @@ entries:
   11990: Les chocobos aiment donner les choses qu'ils ont ramassées à leurs parents...ce qui serait vous dans ce cas.${prompt}
   11991: 'Obtenu : ${lettercase: 1}${item-singular: 1[2]} !${prompt}'
   11992: |-
-    Inventory is full.
-    ${name-player} could not obtain the ${item-singular: 1[2]}.${prompt}
+    L'inventaire est plein.
+    ${name-player} n'a pas pu obtenir ${item-singular: 1[2]}.${prompt}
   11993: |-
-    Could not trade the ${item-singular: 0[2]} and ${item-singular: 1[2]}.
-    Please try again.${prompt}
+    Impossible d'échanger ${item-singular: 0[2]} et ${item-singular: 1[2]}.
+    Veuillez réessayer.${prompt}
   11994: |-
-    Hear the report?
+    Écouter le rapport ?
     ${selection-lines}
-    Hear a detailed report.
-    Hear a brief report.
-    Skip the report.
-    I'm done here.${prompt}
+    Écouter un rapport détaillé.
+    Écouter un rapport bref.
+    Passer le rapport.
+    J'ai fini ici.${prompt}
   11995: |-
-    Are you sure?
+    Êtes-vous sûr ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11996: |-
-    Continue the report?
+    Continuer le rapport ?
     ${selection-lines}
-    Please do.
-    I've heard enough.${prompt}
+    S'il vous plaît.
+    J'en ai assez entendu.${prompt}
   11997: |-
-    Skip all remaining reports?
+    Passer tous les rapports restants ?
     ${selection-lines}
-    No.
-    Yes.${prompt}
-  11998: One moment please...
+    Non.
+    Oui.${prompt}
+  11998: Un instant s'il vous plaît...
   11999: |-
-    Choose the pace for your ${choice: 0}[short walk/regular walk/long walk].
+    Choisissez l'allure pour votre ${choice: 0}[courte promenade/promenade régulière/longue promenade].
     ${selection-lines}
-    Leisurely.
-    Brisk.
-    Cancel.${prompt}
-  12000: You have my chocobo?${prompt}
-  12001: My family was opposed to having a chocobo as a pet, so I raised her in secret. But one day, they found her... I...I had to let her go...${prompt}
-  12002: There must be a way for chocobos and people to live together in peace! Here, let me teach you a story I often tell my chocobo...${prompt}
+    Tranquillement.
+    Vivement.
+    Annuler.${prompt}
+  12000: Vous avez mon chocobo ?${prompt}
+  12001: Ma famille s'opposait à avoir un chocobo comme animal de compagnie, alors je l'ai élevée en secret. Mais un jour, ils l'ont trouvée... J...je devais la laisser partir...${prompt}
+  12002: Il doit y avoir un moyen pour que les chocobos et les gens vivent ensemble en paix ! Tenez, laissez-moi vous enseigner une histoire que je raconte souvent à mon chocobo...${prompt}
   12003: |-
-    Red alert!
-    My chocobo has gone missing!${prompt}
-  12004: What's this? You've got him? What a relief! I am supposed to be looking out for any threats to our nation here, but in truth all I have had my eyes out for is that poor little chocobo...${prompt}
-  12005: You are raising a chocobo as well, are you not? Let me show you my thanks by teaching you a story you can tell your animal...${prompt}
-  12006: My chocobo is in your care?${prompt}
-  12007: You have my thanks. I have never seen a more curious bird. He skips off as soon as I avert my eyes!${prompt}
-  12008: To show you the depth of my gratitude, I will teach you a story I often tell my chocobo...${prompt}
-  12009: What's that, ${choice-player-gender}[lad/lass]? You say you've got my chocobo?${prompt}
+    Alerte rouge !
+    Mon chocobo a disparu !${prompt}
+  12004: Qu'est-ce que c'est ? Vous l'avez ? Quel soulagement ! Je suis censé guetter toute menace pour notre nation ici, mais en vérité tout ce que j'ai cherché des yeux, c'est ce pauvre petit chocobo...${prompt}
+  12005: Vous élevez un chocobo également, n'est-ce pas ? Laissez-moi vous montrer ma gratitude en vous enseignant une histoire que vous pouvez raconter à votre animal...${prompt}
+  12006: Mon chocobo est sous votre garde ?${prompt}
+  12007: Vous avez ma gratitude. Je n'ai jamais vu un oiseau plus curieux. Il file dès que je détourne les yeux !${prompt}
+  12008: Pour vous montrer la profondeur de ma gratitude, je vais vous enseigner une histoire que je raconte souvent à mon chocobo...${prompt}
+  12009: Qu'est-ce que c'est, ${choice-player-gender}[mon gars/ma fille] ? Vous dites que vous avez mon chocobo ?${prompt}
   12010: |-
     ...${wait-36: 2}
-    Was I raising a chocobo again...?${wait-36: 2}
-    My stars, that's right! I lost the little bugger when we were out on a walk...${prompt}
-  12011: Why thank you, dear. Let me teach you a story I often tell my chocobo...${prompt}
-  12012: You...you have my chocobo?${prompt}
+    Est-ce que j'élevais un chocobo à nouveau...?${wait-36: 2}
+    Mon Dieu, c'est vrai ! J'ai perdu le petit voyou quand nous étions en promenade...${prompt}
+  12011: Merci beaucoup, cher. Laissez-moi vous enseigner une histoire que je raconte souvent à mon chocobo...${prompt}
+  12012: Vous...vous avez mon chocobo ?${prompt}
   12013: |-
-    May Altana's blessings be upon you!
-    I was teaching the little one to find his way home when I lost the poor creature.${prompt}
-  12014: You are raising a chocobo yourself, are you not? In that case, let me teach you a story I often tell my chocobo...${prompt}
+    Que les bénédictions d'Altana soient sur vous !
+    J'apprenais au petit à trouver son chemin vers la maison quand j'ai perdu la pauvre créature.${prompt}
+  12014: Vous élevez un chocobo vous-même, n'est-ce pas ? Dans ce cas, laissez-moi vous enseigner une histoire que je raconte souvent à mon chocobo...${prompt}
   12015: |-
-    What's this?
-    You have a parcel for me?${prompt}
-  12016: Not a parcel, but a chocobo, you say!? Merciful Altana! My chocobo is safe, right? I thought I could take her on a walk between deliveries, but afterwards I accidentally left her with the parcels I delivered!${prompt}
-  12017: You have my utmost thanks for finding her. Let me teach you a story I often tell my chocobo...${prompt}
-  12018: You have my chocobo? I must say, this is a surprise!${prompt}
-  12019: My chocobo easily becomes lonely... His crying must have kept you awake at night. I am sure I will have to tell him his favorite story several times before he calms down again.${prompt}
-  12020: As thanks for saving him, let me tell you the story, too...${prompt}
-  12021: Eh? You have my chocobo, do you?${prompt}
+    Qu'est-ce que c'est ?
+    Vous avez un colis pour moi ?${prompt}
+  12016: Pas un colis, mais un chocobo, dites-vous !? Miséricordieuse Altana ! Mon chocobo va bien, n'est-ce pas ? Je pensais pouvoir l'emmener en promenade entre les livraisons, mais après je l'ai accidentellement laissé avec les colis que j'ai livrés !${prompt}
+  12017: Vous avez ma plus grande gratitude pour l'avoir trouvé. Laissez-moi vous enseigner une histoire que je raconte souvent à mon chocobo...${prompt}
+  12018: Vous avez mon chocobo ? Je dois dire que c'est une surprise !${prompt}
+  12019: Mon chocobo devient facilement seul... Ses pleurs ont dû vous tenir éveillé la nuit. Je suis sûr que je devrai lui raconter son histoire préférée plusieurs fois avant qu'il se calme à nouveau.${prompt}
+  12020: En remerciement de l'avoir sauvé, laissez-moi vous raconter l'histoire aussi...${prompt}
+  12021: Eh ? Vous avez mon chocobo, n'est-ce pas ?${prompt}
   12022: |-
-    Well done!
-    He must have been difficult to please when it comes to feeding. Sorry about that. That little bird just loves Lion Springs' cooking.${prompt}
-  12023: You are raising a chocobo too, am I correct? Let me teach you a story I often tell my chocobo...${prompt}
-  12024: You say you have my chocobo?${prompt}
-  12025: Although I have always granted my chocobo a measure of independence, I do give her proper care. You must be mistaken.${prompt}
-  12026: You have my chocobo, you say?${prompt}
-  12027: That is not a joking matter. I could never stand here so calmly if my chocobo was lost.${prompt}
-  12028: You say my chocobo is in your care?${prompt}
-  12029: Sorry, but it is not mine. I laid my chocobo down for a nap just a moment ago.${prompt}
+    Bien joué !
+    Il a dû être difficile à satisfaire quand il s'agit de le nourrir. Désolé pour ça. Ce petit oiseau adore juste la cuisine de Lion Springs.${prompt}
+  12023: Vous élevez un chocobo aussi, ai-je raison ? Laissez-moi vous enseigner une histoire que je raconte souvent à mon chocobo...${prompt}
+  12024: Vous dites que vous avez mon chocobo ?${prompt}
+  12025: Bien que j'aie toujours accordé à mon chocobo une certaine indépendance, je lui donne des soins appropriés. Vous devez vous tromper.${prompt}
+  12026: Vous avez mon chocobo, dites-vous ?${prompt}
+  12027: Ce n'est pas une blague. Je ne pourrais jamais me tenir ici si calmement si mon chocobo était perdu.${prompt}
+  12028: Vous dites que mon chocobo est sous votre garde ?${prompt}
+  12029: Désolé, mais ce n'est pas le mien. J'ai couché mon chocobo pour une sieste il y a un instant.${prompt}
   12030: |-
     ...${wait-36: 2}
-    Did I lose my chocobo...?${wait-36: 2}
-    Oh, that's right...I found the little bugger already.
-    You must have somebody else's chocobo, ${choice-player-gender}[lad/lass].${prompt}
-  12031: You say you have my chocobo?${prompt}
-  12032: My chocobo would never get lost. I trained him to find his way home all by himself!${prompt}
+    Ai-je perdu mon chocobo...?${wait-36: 2}
+    Oh, c'est vrai...J'ai déjà retrouvé le petit voyou.
+    Vous devez avoir le chocobo de quelqu'un d'autre, ${choice-player-gender}[mon gars/ma fille].${prompt}
+  12031: Vous dites que vous avez mon chocobo ?${prompt}
+  12032: Mon chocobo ne se perdrait jamais. Je l'ai entraîné à trouver son chemin vers la maison tout seul !${prompt}
   12033: |-
-    Not a parcel, but a chocobo, you say?
-    You must be mistaken. I was with my chocobo mere moments ago.${prompt}
-  12034: You have my chocobo? I must say, this is a surprise!${prompt}
-  12035: Especially since my chocobo becomes lonely so easily... He would never leave my side! I am afraid you are mistaken, ${choice-player-gender}[sir/ma'am].${prompt}
-  12036: Eh? You say you have my chocobo?${prompt}
-  12037: That little bird loves the cooking here. He would never leave this place, not for anything. You must be mistaken.${prompt}
-  12038: Psst! (Wou' ya like me t' le' you in on a lit'le secret? Yer poor choc'bo up an' keeled over last week, bu' the stable 'ands jus' replaced it wi' another one, 'oping tha' ya wou'n't notice!)${prompt}
+    Pas un colis, mais un chocobo, dites-vous ?
+    Vous devez vous tromper. J'étais avec mon chocobo il y a quelques instants.${prompt}
+  12034: Vous avez mon chocobo ? Je dois dire que c'est une surprise !${prompt}
+  12035: Surtout que mon chocobo devient si facilement seul... Il ne quitterait jamais mon côté ! J'ai peur que vous ne vous trompiez, ${choice-player-gender}[monsieur/madame].${prompt}
+  12036: Eh ? Vous dites que vous avez mon chocobo ?${prompt}
+  12037: Ce petit oiseau adore la cuisine d'ici. Il ne quitterait jamais cet endroit, pour rien au monde. Vous devez vous tromper.${prompt}
+  12038: Psst ! (Voud'iez-vous qu'j'vous mette au cou'ant d'un p'tit sec'et ? Vot'pauv'choc'bo est passé d'vie à tr'pas la s'maine de'nière, mais les gar'ons d'écu'ie l'ont juste 'emplacé par un aut', en es'pérant qu'vous r'marqueriez pas !)${prompt}
   12039: |-
     ............
-    Ah, I'm jus' pullin' yer leg, ${choice-player-gender}[guv'na/mis'us]! Bu' really, I go' some ripe news for ya.${prompt}
-  12040: 'The bobbies down at the VCS thunk up this mighty keen ac''tiv''ty. They calls it the ${color: 5}Choc''bo Ho'' an'' Cold Game.${color: 1} Sounds like a winner, eh?${prompt}'
-  12041: Listens up, and I'll tell ya all abou' it.${prompt}
-  12042: Ya see, it seems like ev'ry Richie and his sis'er go' themselfs a choc'bo. While that's all peaches an' kit'ens for the gysahl green grocer, th' extra work load is wreakin' 'avoc on the skirts down at the stables.${prompt}
-  12043: I even been 'earin' rumors tha' they jus' leave mos' of the birdies tied up in their pens, 'cause they don' 'ave the time t' le' 'em ou'.${prompt}
-  12044: Some o' the weaker ones can' even walk three steps wit'out fallin' on their bloody bums.${prompt}
-  12045: Wha' I'm get'in' at is, if we don' do somefin' quick, we'll be up t' our knickers in yellow-feathered invalids!${prompt}
-  12046: An' that's why the VCS pu' its noggin' t' the cobblestones an' came up wit' this shaggy ho' an' cold game.${prompt}
-  12047: Alls you 'ave t' do is find the time in yer 'ectic day t' take 'er out for a spin aroun' the commons.${prompt}
-  12048: An' then, while yer ridin', jus' stop an' dig every now an' again t' find the sparklin' riches we gone an' buried!${prompt}
-  12049: Yer 'bo gets t' exe'cise, and you get t' line yer pock'ets wit' gelt. Why, that's like knockin' off a couple o' magpies wit' one stone!${prompt}
-  12050: If no' do it fer yerself, at leas' do it for the poor bird sittin' there starvin' in its lit'le pen, all cold an' alone.${prompt}
-  12051: Yer 'bo'll thank ya, the stable 'ands'll thank ya, and your dear old mum'll thank ya.${prompt}
-  12052: The lads at the VCS 'ave been workin' their 'aggies to the bone 'idin' chest after chest 'cross the bloody shires an' mires of Quon an' Mindartia--all for you t' find and pock'et.${prompt}
-  12053: You'd 'ave t' be nut'ier than a squirrel factory t' pass this fine op'ortunity up!${prompt}
-  12054: So, wha' do ya say?${prompt}
-  12055: Are ya goin' t' le' ev'rybo'y down by bein' spoilt cheese, or are ya goin' t' give 'ot an' cold a jimmie?${prompt}
+    Ah, j'vous fais juste mar'cher, ${choice-player-gender}[patron/patronne] ! Mais vrai'ment, j'ai d'bonnes nouv'lles pour vous.${prompt}
+  12040: "Les gars de la VCS ont imaginé cette activité de façon super originale. Ils l'appellent ${color: 5}Jeu du Chaud et Froid du Chocobo.${color: 1} Ça a l'air génial, non ?${prompt}"
+  12041: "Écoutez, et je vous dirai tout.${prompt}"
+  12042: "Vous voyez, il semble que tout Richard et sa sœur aient un chocobo. Pendant que c'est tout beau pour le marchand de légumes gysahl, la charge de travail supplémentaire fait des ravages sur les filles aux écuries.${prompt}"
+  12043: "J'ai même entendu des rumeurs qu'elles laissent juste la plupart des petits oiseaux attachés dans leurs enclos, parce qu'elles n'ont pas le temps de les sortir.${prompt}"
+  12044: "Certains des plus faibles ne peuvent même pas marcher trois pas sans tomber sur leur derrière.${prompt}"
+  12045: "Ce que je veux dire, c'est que si on ne fait rien vite, on sera jusqu'au cou dans les invalides à plumes jaunes !${prompt}"
+  12046: "Et c'est pourquoi la VCS s'est creusé la tête et a imaginé ce jeu du chaud et froid.${prompt}"
+  12047: "Tout ce que vous avez à faire, c'est trouver le temps dans votre journée chargée pour l'emmener faire un tour.${prompt}"
+  12048: "Et puis, pendant que vous cherchez, arrêtez-vous et creusez de temps en temps pour trouver les richesses brillantes qu'on a enterrées !${prompt}"
+  12049: "Votre chocobo fait de l'exercice, et vous remplissez vos poches de sous. Ça, c'est comme faire d'une pierre deux coups !${prompt}"
+  12050: "Si vous ne le faites pas pour vous, faites-le au moins pour le pauvre oiseau assis là à mourir de faim dans son petit enclos, tout seul et gelé.${prompt}"
+  12051: "Votre chocobo vous remerciera, les garçons de l'écurie vous remercieront, et votre chère vieille maman vous remerciera.${prompt}"
+  12052: "Les gars de la VCS ont travaillé comme des fous à cacher coffre après coffre à travers les comtés et marais de Quon et Mindartia – tout pour que vous trouviez et empochiez.${prompt}"
+  12053: "Il faudrait être plus fou qu'une fabrique d'écureuils pour laisser passer cette belle opportunité !${prompt}"
+  12054: "Alors, qu'en dites-vous ?${prompt}"
+  12055: "Allez-vous décevoir tout le monde en étant un fromage gâté, ou allez-vous essayer le jeu du chaud et froid ?${prompt}"
   12056: |-
-    Give it a jimmie?
+    L'essayer ?
     ${selection-lines}
-    Aight!
-    Slock off!${prompt}
-  12057: You oughn't use that kin' o' lan'gage 'round a lady, sailor. Bu' I'll le' it go this time.${prompt}
-  12058: Spo'en like a true seeker of a'ven'ure!${prompt}
-  12059: '''old on a widget... You don'' ''ave all three main maps, do ya?${prompt}'
-  12060: 'Ya know the ones I''m talkin'' ''bout--the ${keyitem-singular: 1[2]}, the ${keyitem-singular: 2[2]}, and the ${keyitem-singular: 3[2]}.${prompt}'
-  12061: I'm sorry, love, but I can' 'elp ya out 'til you've got yer grubby grabbers on all three. Come back again when yer 'ooked up, aight?${prompt}
-  12062: Now, the VCS says I got t' give ya the lowdown on the rules before I se' ya on yer way, so bear wit' me, aight?${prompt}
+    D'accord !
+    Dégagez !${prompt}
+  12057: "Vous ne devriez pas utiliser ce genre de langage avec une dame, matelot. Mais je vais laisser passer cette fois.${prompt}"
+  12058: "Parlez comme un vrai chercheur d'aventure !${prompt}"
+  12059: "Attendez un instant... Vous n'avez pas les trois cartes principales, si ?${prompt}" 
+  12060: "Vous savez lesquelles je veux dire – la ${keyitem-singular: 1[2]}, la ${keyitem-singular: 2[2]}, et la ${keyitem-singular: 3[2]}.${prompt}"
+  12061: "Je suis désolé, mon chou, mais je ne peux pas vous aider tant que vous n'avez pas mis vos petites mains sur les trois. Revenez quand vous serez équipé, d'accord ?${prompt}"
+  12062: "Maintenant, la VCS dit que je dois vous donner les règles avant de vous envoyer, alors patience, d'accord ?${prompt}"
   12063: |-
-    Wha' ya need to know?
+    Qu'avez-vous besoin de savoir ?
     ${selection-lines}
-    'bout chocographs.
-    'bout ${item-plural: 1[2]}.
-    'bout 'ow to fin' the loo'.
-    'bout choc'bo 'bilities.
-    'bout when the game is over.${prompt}
-  12064: 'Any ${choice-player-gender}[Jefferson/Jennie] who wants t'' participate in the Choc''bo ''ot an'' Cold Game will need a special ${color: 5}chocograph${color: 1} auforizin'' ${choice-player-gender}[''im/''er] t'' dig in a cer''ain area.${prompt}'
-  12065: There're all kinds of graphs for all kinds of shinies loca'ed in lots all over Vana'diel.${prompt}
-  12066: An' the best part is, once ya got one, it's yers 'til yer bluer than a bobbin.${prompt}
-  12067: An' now ya wan' t' know where ya can get one, eh?${prompt}
-  12068: Well, no worries, chap, I've go' two right 'ere for ya, free o' charge!${prompt}
-  12069: '${lettercase: 1}${article} ${item-article: 1[2]} is the it''m you''ll need t'' star'' the game.${prompt}'
-  12070: Jus' drop one on the ground in an area 'scribed on one o' yer chocographs an' turn 'round three times widdershins. In a mat'er of sec'nds, yer noble steed'll be shov'lin' down those greens faster 'an you can say poppycockins! Simple as 'at!${prompt}
-  12071: Once yer 'bo's finished dinin', yer map'll open and you can check the gen'ral location of the sparkly.${prompt}
-  12072: 'Oh, jus'' don'' forge'' tha'' you can only use ${article} ${item-article: 1[2]} once, and you''ll ''ave t'' come back t'' me if ya wan'' another.${prompt}'
+    Sur les chocographes.
+    Sur les ${item-plural: 1[2]}.
+    Sur comment trouver le trésor.
+    Sur les capacités de chocobo.
+    Sur quand le jeu se termine.${prompt}
+  12064: "Tout ${choice-player-gender}[Jean/Jeanne] qui veut participer au Jeu du Chaud et Froid du Chocobo aura besoin d'un ${color: 5}chocographe${color: 1} spécial permettant de creuser dans une certaine zone.${prompt}"
+  12065: "Il y a toutes sortes de graphes pour toutes sortes de brillants situés dans plein d'endroits à travers Vana'diel.${prompt}"
+  12066: "Et le meilleur, c'est qu'une fois que vous en avez un, il est à vous pour toujours.${prompt}"
+  12067: "Et maintenant vous voulez savoir où en obtenir un, hein ?${prompt}"
+  12068: "Eh bien, pas de souci, mon pote, j'en ai deux ici pour vous, gratuit !${prompt}"
+  12069: "${lettercase: 1}${article} ${item-article: 1[2]} est l'objet dont vous aurez besoin pour commencer le jeu.${prompt}"
+  12070: "Laissez-en tomber un par terre dans une zone décrite sur l'un de vos chocographes et tournez-vous trois fois dans le sens inverse. En quelques secondes, votre noble destrier pelletera ces légumes plus vite que vous ne pouvez dire n'importe quoi ! Simple comme ça !${prompt}"
+  12071: "Une fois que votre chocobo a fini de manger, votre carte s'ouvrira et vous pourrez vérifier l'emplacement général du brillant.${prompt}"
+  12072: "Oh, n'oubliez pas que vous pouvez seulement utiliser ${article} ${item-article: 1[2]} une seule fois, et vous devrez revenir me voir si vous en voulez un autre.${prompt}"
   12073: |-
-    Ah, the loo'. I can smell it from 'ere...
-    Well, first ya ride yer 'bo out to the location marked on yer map.${prompt}
-  12074: When ya think ya migh' be close, tell yer bird t' dig a spell.${prompt}
-  12075: When he's done pe'kin' take a goo' lis'en. Chances are 'e'll squawk somefin' righ' dandy.${prompt}
-  12076: Dependin' on the distance ya're from the riches, the reaction of yer bird'll change.${prompt}
-  12077: When ya think yer on top of the tipper...${prompt}
-  12078: '...crack yer whip an'' get yer ''bo''s ''ead bobbin''.${prompt}'
-  12079: Jus' remember tha' some treasure's buried quite deep, so ya may need a 'alf-a-dozen digs t' reach it.${prompt}
-  12080: But if ya tough it ou', you'll 'ventually come 'cross a lovely chest.${prompt}
-  12081: Then alls you 'ave t' do is open it an' move the loo' t' yer gobbinbag all proper-like.${prompt}
-  12082: T' guarantee an 'appy 'ot 'an cold ex'perience, you'll wan' t' know how choc'bo 'bilities can make it easier t' get yer 'ands on the prize.${prompt}
-  12083: The ones tha'll 'elp you most are “Treasure Finder,” “Burrow,” an' “Bore.”${prompt}
-  12084: Burrow an' Bore'll 'llow ya t' go a dolly deeper wit' each dig, helping you reach the chest 'fore yer bird grows all snoozy.${prompt}
-  12085: Treasure Finder'll 'elp you scrag the treasure easier by polishin' yer 'bo's sense of smellin'.${prompt}
-  12086: Ah, now this is the mos' im'portan' thing I'll be tellin' ya, so lend me yer ear for a spell, aight?${prompt}
-  12087: Choc'bos are quite dapper diggers, but all that bobbin' o' the neck does quite a number on their crookid lit'le spines.${prompt}
-  12088: When yer bo's 'ad enough, 'e'll le' ya know by up an' refusin' t' dig anymore.${prompt}
-  12089: If this 'appens, it means the fun's over 'til the morrow, mate. 'op off yer bird an' le' 'im rest a while.${prompt}
-  12090: Ya see, the key t' lolly huntin' is keepin' yer 'bo chipper by reducin' the number times ya make 'im dig.${prompt}
-  12091: Ya followin' me?${prompt}
-  12092: Well, tha' was fun, wasn' it?${prompt}
-  12093: Now I be' yer ready to get star'ed, righ'?${prompt}
-  12094: '''ere are the ${keyitem-singular: 2[2]} an'' the ${keyitem-singular: 3[2]} I promised.${prompt}'
-  12095: 'An'' ''ere''s the ${item-singular: 1[2]}.${prompt}'
-  12096: Remember, I can give you another clump when this one's gone.${prompt}
-  12097: '''owever, you''ll ''ave t'' le'' yer lit''le birdie rest a while ''fore I do.${prompt}'
-  12098: An' that's it! Off ya go, poppet!${prompt}
-  12099: Goo' luck, and god'esspeed, aight?${prompt}
-  12100: Lords an' ladies, step right up an' play the 'ottest game in the Kingdom--the Choc'bo 'ot an' Cold Game!${prompt}
+    Ah, le trésor. Je peux le sentir d'ici...
+    D'abord vous chevauchez votre chocobo jusqu'à l'endroit marqué sur votre carte.${prompt}
+  12074: "Quand vous pensez que vous pourriez être proche, dites à votre oiseau de creuser un peu.${prompt}"
+  12075: "Quand il a fini de picorer, écoutez bien. Il y a de grandes chances qu'il crie quelque chose d'utile.${prompt}"
+  12076: "Selon la distance entre vous et le trésor, la réaction de votre oiseau changera.${prompt}"
+  12077: "Quand vous pensez être sur le trésor...${prompt}"
+  12078: "...claquez votre fouet et faites bouger la tête de votre chocobo.${prompt}"
+  12079: "Rappelez-vous que certains trésors sont enterrés très profondément, donc vous pourriez avoir besoin d'une demi-douzaine de coups de pelle pour les atteindre.${prompt}"
+  12080: "Mais si vous tenez bon, vous tomberez finalement sur un beau coffre.${prompt}"
+  12081: "Alors tout ce que vous avez à faire, c'est l'ouvrir et déplacer le butin dans votre sac correctement.${prompt}"
+  12082: "Pour garantir une expérience du chaud et froid heureuse, vous voudrez savoir comment les capacités de chocobo peuvent faciliter l'obtention du prix.${prompt}"
+  12083: "Celles qui vous aideront le plus sont \"Chercheur de trésors\", \"Terrier\" et \"Percer\".${prompt}"
+  12084: "Terrier et Percer vous permettront d'aller un peu plus profond à chaque coup de pelle, vous aidant à atteindre le coffre avant que votre oiseau s'endorme.${prompt}"
+  12085: "Chercheur de trésors vous aidera à trouver le trésor plus facilement en améliorant le sens de l'odorat de votre chocobo.${prompt}"
+  12086: "Ah, c'est la chose la plus importante que je vous dirai, alors prêtez-moi votre oreille un instant, d'accord ?${prompt}"
+  12087: "Les chocobos sont d'excellents pelleteurs, mais tout ce balancement de la tête fait vraiment mal à leur petite colonne tordue.${prompt}"
+  12088: "Quand votre chocobo en aura assez, il vous le fera savoir en refusant de creuser davantage.${prompt}"
+  12089: "Si ça arrive, ça veut dire que le plaisir est fini jusqu'au lendemain, pote. Descendez de votre oiseau et laissez-le se reposer un peu.${prompt}"
+  12090: "Vous voyez, la clé de la chasse au trésor, c'est garder votre chocobo en forme en réduisant le nombre de fois que vous le faites creuser.${prompt}"
+  12091: "Vous me suivez ?${prompt}"
+  12092: "Eh bien, c'était sympa, non ?${prompt}"
+  12093: "Maintenant je parie que vous êtes prêt à commencer, non ?${prompt}"
+  12094: "Voici la ${keyitem-singular: 2[2]} et la ${keyitem-singular: 3[2]} que je vous ai promises.${prompt}"
+  12095: "Et voici ${item-singular: 1[2]}.${prompt}"
+  12096: "Rappelez-vous, je peux vous donner une autre touffe quand celle-ci sera finie.${prompt}"
+  12097: "Pendant ce temps, vous devrez laisser votre petit oiseau se reposer un peu avant.${prompt}"
+  12098: "Et c'est tout ! Allez-y, mon petit !${prompt}"
+  12099: "Bonne chance, et bon vent, d'accord ?${prompt}"
+  12100: "Messieurs et mesdames, approchez et jouez au jeu le plus chaud du Royaume — le Jeu du Chaud et Froid du Chocobo !${prompt}"
   12101: |-
-    What might ya be needin'?
+    De quoi auriez-vous besoin ?
     ${selection-lines}
-    A rule refresher.
-    Another fix.
-    Nothing.${prompt}
+    D'un rappel des règles.
+    D'une autre dose.
+    De rien.${prompt}
   12102: |-
-    Indeed, ${choice-player-gender}[guv'na/milady]!
-    'ere's a fresh new ${item-singular: 1[2]}. And might I say yer lookin' qui'e ${choice-player-gender}['an'some/lovely] this fine day.${prompt}
-  12103: You have a goo' one, aight?${prompt}
-  12104: '''ow goes the ''unt? That wench, For''tune been smilin'' down on ya lately?${prompt}'
-  12105: 'Ya know I can'' give ya any more ${item-plural: 1[2]} until yer ''bo''s ''ad time t'' cool down.${prompt}'
-  12106: No 'ard feelings, ay? Comp'ny policy.${prompt}
+    Certainement, ${choice-player-gender}[patron/madame] !
+    Voilà ${item-singular: 1[2]} tout frais.
+    Et je dois dire que vous avez l'air vraiment ${choice-player-gender}[beau/belle] aujourd'hui.${prompt}
+  12103: Passez une bonne journée, d'accord ?${prompt}
+  12104: "Comment va la chasse ? Cette garce, Fortune, vous a souri dernièrement ?${prompt}"
+  12105: "Vous savez que je ne peux pas vous donner plus d'${item-plural: 1[2]} tant que votre chocobo ne s'est pas reposé.${prompt}"
+  12106: Pas de rancune, hein ? Politique de la compagnie.${prompt}
   12107: |-
-    Ya wan' t' 'ear that rule rot again?
+    Voulez-vous entendre les règles à nouveau ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12108: Step right up an' play the 'ottest game in the Kingdom--the Choc'bo 'ot an' Cold Game!${prompt}
-  12109: '''ey, I know you! I bet you''ll be wantin'' a fresh new...${prompt}'
-  12110: 'Wait a min''it, y''alrea''y ''ave ${article} ${item-article: 1[2]}, don'' ya? I can smell ''em from over ''ere!${prompt}'
-  12111: Ya go use that clump 'fore I can give ya any more. Comp'ny policy.${prompt}
-  12112: Top o' the day t' ya, ${choice-player-gender}[guv'na/missus]! Woul' ya like t' try yer luck at diggin' for the sparkly wit' yer 'bo?${prompt}
-  12113: Wai' one min'it there... You ain't got no reggied 'bo in the stables, do ya?${prompt}
-  12114: Well, then you'd bet'er jus' move along all nice-like, aight?${prompt}
-  12115: Button Press, Waiting!${prompt}
-  12116: 'Hold on a min''it ''ere. Me bloomin'' register says ya alrea''y gone an'' foun'' some sparkly in the ${color: 5}prairies${color: 1}.${prompt}'
-  12117: 'Hold on a min''it ''ere. Me bloomin'' register says ya alrea''y gone an'' foun'' some sparkly in the ${color: 5}bush${color: 1}.${prompt}'
-  12118: Per'aps 'twas a smite simple-like for a fancified a'ven'urer, aye?${prompt}
-  12119: 'Maybe this ${keyitem-singular: 0[2]} will ripen the rot in yer knickers.${prompt}'
-  12120: Jus' tote tha' lady down t' th' Valkurm Dunes, an' you'll be rollin' in riches before th' du'chess flogs 'er kittens!${prompt}
-  12121: Jus' tote that lady over t' th' Buburimu Peninsula an' you'll be rollin' in riches before the duke's polished 'is privy!${prompt}
-  12122: It won't be all choc'lates and sunshine like las' time, but knowin' you an' yer 'bo, ye'll have the boun'y in three tocks o' th' raven's ticker.${prompt}
-  12123: Hold on a San d'Orian min'it 'ere. Me shod'y register says ya gettin' quite maple a' th' digger'y-doo over in Buburimu.${prompt}
-  12124: Hold on a San d'Orian min'it 'ere. Me shod'y register says ya gettin' quite maple a' th' digger'y-doo down in Valkurm.${prompt}
-  12125: The lords an' laddies down a' the VCS seem t' think migh'y 'igh an' 'oppy of ya. Says 'ere they've approved yer a'mission int' some o' th' more prickly areas yon southwerd.${prompt}
-  12126: Wit' this, ye'll be able t' take yer swing a' th' lively loot lurkin' deep in th' Yuhtunga an' Yhoator Jungles.${prompt}
-  12127: Jus' remember tha' all th' leafies an' lichens in th' jungles make it 'ard-like fer yer choc'bo t' sniff ou' th' lovely loot'ies. I sug'jest ya try searchin' a wider patch than normal, I do.${prompt}
-  12128: Wit' this, ye'll be able t' take yer swing a' th' lively loot lurkin' deep in th' Eastern an' Western Altepa Deserts.${prompt}
-  12129: Jus' remember tha' th' scorchin' celestial an' the slipp'ry sands in the' deserts can be a trifle tough on yer 'bo. Chances are it'll be puffin' an' pantin' 'fore ya know it.${prompt}
-  12130: Greetings. I am a journeyman trainer from the VCS, and I have been sent to this town to promote knowledge exchange between chocobo owners.${prompt}
-  12131: We believe that the best way to promote interaction between owners is through interaction between chocobos.${prompt}
-  12132: And after countless VCS conferences, we recently agreed on the establishment of a new program--${prompt}
-  12133: Kamp Kweh!${prompt}
+    Oui.
+    Non.${prompt}
+  12108: Approchez et jouez au jeu le plus chaud du Royaume — le Jeu du Chaud et Froid du Chocobo !${prompt}
+  12109: "Hé, je vous connais ! Je parie que vous voudrez ${article} ${item-article: 1[2]} tout frais...${prompt}"
+  12110: "Attendez une minute, vous en avez déjà ${article} ${item-article: 1[2]}, non ? Je peux les sentir d'ici !${prompt}"
+  12111: Allez utiliser cette touffe avant que je puisse vous en donner davantage. Politique de la compagnie.${prompt}
+  12112: Bonjour à vous, ${choice-player-gender}[patron/madame] ! Voudriez-vous tenter votre chance à creuser pour le brillant avec votre chocobo ?${prompt}
+  12113: "Attendez une minute... Vous n'avez pas de chocobo enregistré aux écuries, si ?${prompt}"
+  12114: Eh bien, dans ce cas, vous feriez mieux de circuler gentiment, d'accord ?${prompt}
+  12115: Appuyez sur le bouton. En attente !${prompt}
+  12116: "Attendez une minute ici. Mon registre indique que vous avez déjà trouvé du brillant dans les ${color: 5}prairies${color: 1}.${prompt}"
+  12117: "Attendez une minute ici. Mon registre indique que vous avez déjà trouvé du brillant dans la ${color: 5}brousse${color: 1}.${prompt}"
+  12118: C'était peut-être un peu trop simple pour un aventurier sophistiqué, hein ?${prompt}
+  12119: "Peut-être que ${keyitem-singular: 0[2]} relèvera un peu le défi.${prompt}"
+  12120: Emmenez simplement cette dame jusqu'aux Dunes de Valkurm, et vous roulerez dans les richesses avant que la duchesse ne fouette ses chatons !${prompt}
+  12121: Emmenez simplement cette dame jusqu'à la Péninsule de Buburimu, et vous roulerez dans les richesses avant que le duc n'ait astiqué ses toilettes !${prompt}
+  12122: Ce ne sera pas tout chocolat et soleil comme la dernière fois, mais connaissant vous et votre chocobo, vous aurez le butin en trois coups de bec.${prompt}
+  12123: "Attendez une minute, San d'Orien. Mon pauvre registre indique que vous devenez vraiment doué au pelletage à Buburimu.${prompt}"
+  12124: "Attendez une minute, San d'Orien. Mon pauvre registre indique que vous devenez vraiment doué au pelletage à Valkurm.${prompt}"
+  12125: Les seigneurs et dames de la VCS semblent avoir une très haute opinion de vous. Il est indiqué ici qu'ils ont approuvé votre admission dans certaines zones plus difficiles au sud.${prompt}
+  12126: Avec cela, vous pourrez tenter votre chance pour du butin vivant, caché profondément dans les jungles de Yuhtunga et Yhoator.${prompt}
+  12127: Rappelez-vous simplement que toutes les feuilles et les lichens dans les jungles rendent la tâche difficile pour votre chocobo lorsqu'il renifle le butin. Je vous suggère de chercher dans une zone plus large que d'habitude.${prompt}
+  12128: Avec cela, vous pourrez tenter votre chance pour du butin vivant, caché profondément dans les déserts d'Altepa Est et Ouest.${prompt}
+  12129: Rappelez-vous simplement que l'astre brûlant et le sable glissant des déserts peuvent être éprouvants pour votre chocobo. Il y a de fortes chances qu'il souffle et halète avant que vous ne vous en rendiez compte.${prompt}
+  12130: Salutations. Je suis un entraîneur compagnon de la VCS, et j'ai été envoyé dans cette ville pour promouvoir l'échange de connaissances entre propriétaires de chocobos.${prompt}
+  12131: Nous croyons que la meilleure façon de promouvoir l'interaction entre propriétaires est par l'interaction entre chocobos.${prompt}
+  12132: Et après d'innombrables conférences de la VCS, nous avons récemment convenu de l'établissement d'un nouveau programme--${prompt}
+  12133: Kamp Kweh !${prompt}
   12134: |-
-    Breeders need only possess a chocobo to join.
-    Please speak with me again if you are interested.${prompt}
-  12135: I can answer your questions regarding Kamp Kweh?${prompt}
+    Les éleveurs n'ont besoin que de posséder un chocobo pour rejoindre.
+    Veuillez me parler à nouveau si vous êtes intéressé.${prompt}
+  12135: Je peux répondre à vos questions concernant Kamp Kweh ?${prompt}
   12136: |-
-    What would you like to know?
+    Qu'aimeriez-vous savoir ?
     ${selection-lines}
-    What exactly is Kamp Kweh?
-    How do I sign up?
-    Are there any restrictions?
-    Nothing at all.${prompt}
-  12137: Kamp Kweh is a place where fellow breeders can bring their chocobos to interact with each other.${prompt}
-  12138: At the camp, owners can check the status of their companions' animals...${prompt}
-  12139: '...as well as confirm breeding compatibility.${prompt}'
-  12140: However, please note that any results from these tests are merely estimates, and may not fully reflect the actual condition of an animal.${prompt}
-  12141: Our wish is that through the various camp activities we offer, your chocobo will have the opportunity to improve its skills.${prompt}
-  12142: Only adventurers who are currently raising a chocobo can participate.${prompt}
-  12143: Owners can enroll their animals once they have hatched.${prompt}
-  12144: To begin, adventurers should first form a party of those who wish to participate, and then come talk to me or any of the other VCS journeyman trainers stationed throughout Vana'diel.${prompt}
-  12145: Please note that only up to six chocobos can attend the camp at one time, so do not come as an alliance.${prompt}
-  12146: We refuse admission to the following:${prompt}
-  12147: 1. Any owners who have not checked up on their chocobos recently. Those who feel that they may have been neglecting their animal may want to visit the stables before attempting to participate.${prompt}
-  12148: 2. Chocobos who are sleeping or have run away.${prompt}
-  12149: 3. Chocobos who have yet to be named.${prompt}
-  12150: 4. Party members who are too far away from the stables.${prompt}
-  12151: We would not think of leading a chocobo away from its pen when the owner was not present.${prompt}
-  12152: Welcome back. Have you come to enroll in Kamp Kweh?${prompt}
+    Qu'est-ce que Kamp Kweh exactement ?
+    Comment puis-je m'inscrire ?
+    Y a-t-il des restrictions ?
+    Rien du tout.${prompt}
+  12137: Kamp Kweh est un endroit où les éleveurs peuvent amener leurs chocobos pour interagir les uns avec les autres.${prompt}
+  12138: Au camp, les propriétaires peuvent vérifier l'état des animaux de leurs compagnons...${prompt}
+  12139: '...ainsi que confirmer la compatibilité de reproduction.${prompt}'
+  12140: Cependant, veuillez noter que tous les résultats de ces tests ne sont que des estimations, et peuvent ne pas refléter entièrement la condition réelle d'un animal.${prompt}
+  12141: Notre souhait est qu'à travers les diverses activités de camp que nous offrons, votre chocobo ait l'occasion d'améliorer ses compétences.${prompt}
+  12142: Seuls les aventuriers qui élèvent actuellement un chocobo peuvent participer.${prompt}
+  12143: Les propriétaires peuvent inscrire leurs animaux une fois qu'ils ont éclos.${prompt}
+  12144: Pour commencer, les aventuriers devraient d'abord former un groupe de ceux qui souhaitent participer, puis venir me parler ou parler à l'un des autres entraîneurs compagnons de la VCS stationnés à travers Vana'diel.${prompt}
+  12145: Veuillez noter que seulement jusqu'à six chocobos peuvent assister au camp à la fois, alors ne venez pas en alliance.${prompt}
+  12146: Nous refusons l'admission aux personnes suivantes :${prompt}
+  12147: 1. Tout propriétaire qui n'a pas vérifié son chocobo récemment. Ceux qui sentent qu'ils ont peut-être négligé leur animal voudront peut-être visiter les écuries avant de tenter de participer.${prompt}
+  12148: 2. Les chocobos qui dorment ou se sont enfuis.${prompt}
+  12149: 3. Les chocobos qui n'ont pas encore été nommés.${prompt}
+  12150: 4. Les membres du groupe qui sont trop loin des écuries.${prompt}
+  12151: Nous ne penserions pas à éloigner un chocobo de son enclos lorsque le propriétaire n'était pas présent.${prompt}
+  12152: Bon retour. Êtes-vous venu vous inscrire à Kamp Kweh ?${prompt}
   12153: |-
-    Enroll?
+    S'inscrire ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12154: I see. If you wish to participate in the future, feel free to contact me or one of my companions.${prompt}
-  12155: I am sorry, ${choice-player-gender}[sir/ma'am], your chocobo is currently unable to participate. Please confirm your chocobo's condition and speak with me again when everything is in order.${prompt}
-  12156: None of the other members of your party possess chocobos able to participate in camp activities. Please confirm their conditions and speak with me again when everything is in order.${prompt}
-  12157: None of your party members are close enough to the stables to participate in camp activities. Please speak with me again when everyone has assembled.${prompt}
-  12158: Now that we have arrived, we can begin.${prompt}
+    Oui.
+    Non.${prompt}
+  12154: Je vois. Si vous souhaitez participer à l'avenir, n'hésitez pas à me contacter ou l'un de mes compagnons.${prompt}
+  12155: Je suis désolé, ${choice-player-gender}[monsieur/madame], votre chocobo est actuellement incapable de participer. Veuillez confirmer l'état de votre chocobo et me parler à nouveau lorsque tout sera en ordre.${prompt}
+  12156: Aucun des autres membres de votre groupe ne possède de chocobos capables de participer aux activités du camp. Veuillez confirmer leurs conditions et me parler à nouveau lorsque tout sera en ordre.${prompt}
+  12157: Aucun des membres de votre groupe n'est assez proche des écuries pour participer aux activités du camp. Veuillez me parler à nouveau lorsque tout le monde sera assemblé.${prompt}
+  12158: Maintenant que nous sommes arrivés, nous pouvons commencer.${prompt}
   12159: |-
-    What do you wish to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Call your chocobo.
-    Let it play with others.
-    Check the chocobos' vitals.
-    Check mating compatibility.
-    Nothing.${prompt}
-  12160: Cheep!${prompt}
-  12161: Kwee!${prompt}
-  12162: Kweh!${prompt}
-  12163: '${chocobo-name: 0[2]} seems relaxed.${prompt}'
-  12164: '${chocobo-name: 0[2]} seems excited.${prompt}'
-  12165: '${chocobo-name: 0[2]} seems pleased.${prompt}'
-  12166: '${chocobo-name: 0[2]} seems distressed.${prompt}'
-  12167: '${chocobo-name: 0[2]} seems happy.${prompt}'
-  12168: '${chocobo-name: 0[2]} looks like it wants to play with you as well.${prompt}'
+    Appeler votre chocobo.
+    Le laisser jouer avec les autres.
+    Vérifier les signes vitaux des chocobos.
+    Vérifier la compatibilité d'accouplement.
+    Rien.${prompt}
+  12160: Piou !${prompt}
+  12161: Kwee !${prompt}
+  12162: Kweh !${prompt}
+  12163: '${chocobo-name: 0[2]} semble détendu.${prompt}'
+  12164: '${chocobo-name: 0[2]} semble excité.${prompt}'
+  12165: '${chocobo-name: 0[2]} semble content.${prompt}'
+  12166: '${chocobo-name: 0[2]} semble en détresse.${prompt}'
+  12167: '${chocobo-name: 0[2]} semble heureux.${prompt}'
+  12168: '${chocobo-name: 0[2]} semble vouloir jouer avec vous aussi.${prompt}'
   12169: |-
-    Which chocobo?
+    Quel chocobo ?
     ${selection-lines}
     ${chocobo-name: 1[2]}.
     ${chocobo-name: 2[2]}.
     ${chocobo-name: 3[2]}.
     ${chocobo-name: 4[2]}.
     ${chocobo-name: 5[2]}.
-    Quit.${prompt}
-  12170: Something unexpected has arisen... I'm sorry, but I cannot allow your chocobos to play together.${prompt}
-  12171: The two seem to be getting along just fine.${prompt}
-  12172: 'The elder of the two seems to be treating the other as a younger ${choice-chocobo-gender: 0[2]}[brother/sister].${prompt}'
-  12173: Your chocobo's strength has slightly improved.${prompt}
-  12174: Your chocobo has become slightly more patient.${prompt}
-  12175: Your chocobo has become slightly more intelligent.${prompt}
-  12176: Your chocobo has become slightly more receptive.${prompt}
+    Quitter.${prompt}
+  12170: Quelque chose d'inattendu s'est produit... Je suis désolé, mais je ne peux pas permettre à vos chocobos de jouer ensemble.${prompt}
+  12171: Les deux semblent bien s'entendre.${prompt}
+  12172: 'L''aîné des deux semble traiter l''autre comme ${choice-chocobo-gender: 0[2]}[un petit frère/une petite sœur].${prompt}'
+  12173: La force de votre chocobo s'est légèrement améliorée.${prompt}
+  12174: Votre chocobo est devenu légèrement plus patient.${prompt}
+  12175: Votre chocobo est devenu légèrement plus intelligent.${prompt}
+  12176: Votre chocobo est devenu légèrement plus réceptif.${prompt}
   12177: |-
-    Which chocobo?
+    Quel chocobo ?
     ${selection-lines}
     ${chocobo-name: 0[2]}.
     ${chocobo-name: 1[2]}.
@@ -26278,147 +26279,147 @@ entries:
     ${chocobo-name: 3[2]}.
     ${chocobo-name: 4[2]}.
     ${chocobo-name: 5[2]}.
-    Quit.${prompt}
-  12178: 'The vitals of ${chocobo-name: 0[2]}? Let me see...${prompt}'
-  12179: 'Owner: ${entity: 3}${prompt}'
-  12180: 'Home Stable: ${choice: 5}[ /San d''Oria/Bastok/Windurst]${prompt}'
-  12181: 'Days Raised: ${number: 6}${prompt}'
-  12182: 'Gender: ${choice-chocobo-gender: 0[2]}[Male/Female]${prompt}'
-  12183: 'Strength: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12184: 'Endurance: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12185: 'Discernment: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12186: 'Receptivity: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12187: 'Affection towards ${entity: 3}: ${choice: 1}[None/Able to endure company/Slightly enjoys company/Likes/Likes pretty well/Likes a lot/Wants to be with all the time/Regards as parent].${prompt}'
-  12188: 'Nourishment: ${choice: 1}[Starving/Quite hungry/A little hungry/Neither hungry nor full/Neither hungry nor full/Almost full/Quite full/Completely full]${prompt}'
-  12189: 'Current Health Condition: Stable${prompt}'
-  12190: 'Other Health Conditions: Slightly injured leg due to overuse${prompt}'
-  12191: 'Other Health Conditions: Upset stomach due to overfeeding${prompt}'
-  12192: 'Other Health Conditions: Slight cold${prompt}'
-  12193: 'Other Health Conditions: Serious illness${prompt}'
-  12194: 'Other Health Conditions: Depression due to lack of affection${prompt}'
-  12195: 'Other Health Conditions: Is receiving sufficient attention${prompt}'
-  12196: 'Other Health Conditions: Bored and restless${prompt}'
-  12197: 'Other Conditions: Spoiled${prompt}'
-  12198: 'Other Conditions: In love${prompt}'
-  12199: 'Other Health Conditions: Cries all night${prompt}'
-  12200: 'Other Health Conditions: Bursting with vitality${prompt}'
-  12201: 'Other Health Conditions: Sparkling with intelligence${prompt}'
-  12202: 'Personality: ${choice: 1}[Very easygoing/Rather ill-tempered/Very patient chocobo/Quite sensitive/Rather enigmatic]${prompt}'
+    Quitter.${prompt}
+  12178: 'Les signes vitaux de ${chocobo-name: 0[2]} ? Voyons voir...${prompt}'
+  12179: 'Propriétaire : ${entity: 3}${prompt}'
+  12180: 'Écurie d''origine : ${choice: 5}[ /San d''Oria/Bastok/Windurst]${prompt}'
+  12181: 'Jours élevé : ${number: 6}${prompt}'
+  12182: 'Sexe : ${choice-chocobo-gender: 0[2]}[Mâle/Femelle]${prompt}'
+  12183: 'Force : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12184: 'Endurance : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12185: 'Discernement : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12186: 'Réceptivité : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12187: 'Affection envers ${entity: 3} : ${choice: 1}[Aucune/Capable d''endurer la compagnie/Apprécie légèrement la compagnie/Aime/Aime assez bien/Aime beaucoup/Veut être avec tout le temps/Considère comme parent].${prompt}'
+  12188: 'Nourriture : ${choice: 1}[Affamé/Assez affamé/Un peu affamé/Ni affamé ni rassasié/Ni affamé ni rassasié/Presque rassasié/Assez rassasié/Complètement rassasié]${prompt}'
+  12189: 'État de santé actuel : Stable${prompt}'
+  12190: 'Autres conditions de santé : Patte légèrement blessée due à la surutilisation${prompt}'
+  12191: 'Autres conditions de santé : Estomac dérangé dû à la suralimentation${prompt}'
+  12192: 'Autres conditions de santé : Léger rhume${prompt}'
+  12193: 'Autres conditions de santé : Maladie grave${prompt}'
+  12194: 'Autres conditions de santé : Dépression due au manque d''affection${prompt}'
+  12195: 'Autres conditions de santé : Reçoit suffisamment d''attention${prompt}'
+  12196: 'Autres conditions de santé : Ennuyé et agité${prompt}'
+  12197: 'Autres conditions : Gâté${prompt}'
+  12198: 'Autres conditions : Amoureux${prompt}'
+  12199: 'Autres conditions de santé : Pleure toute la nuit${prompt}'
+  12200: 'Autres conditions de santé : Débordant de vitalité${prompt}'
+  12201: 'Autres conditions de santé : Étincelant d''intelligence${prompt}'
+  12202: 'Personnalité : ${choice: 1}[Très décontracté/Plutôt colérique/Chocobo très patient/Assez sensible/Plutôt énigmatique]${prompt}'
   12203: |-
-    Weather:
-            Likes: ${choice: 1}[Clear days/Hot, sunny days/Rainy days/Sandstorms/Windy days/Snowy days/Thunderstorms/Auroras/Dark days/ /Cloudy days]
-            Dislikes: ${choice: 1}[Nothing/Rainy days/Thunderstorms/Windy days/Snowy days/Clear days/Sandstorms/Dark days/Auroras].${prompt}
-  12204: 'Abilities: None${prompt}'
-  12205: 'Abilities: ${choice: 1}[--/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]${prompt}'
-  12206: 'Abilities: ${choice: 1}[--/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder] and ${choice: 2}[--/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]${prompt}'
+    Météo :
+            Aime : ${choice: 1}[Jours clairs/Jours chauds et ensoleillés/Jours de pluie/Tempêtes de sable/Jours venteux/Jours de neige/Orages/Aurores/Jours sombres/ /Jours nuageux]
+            N'aime pas : ${choice: 1}[Rien/Jours de pluie/Orages/Jours venteux/Jours de neige/Jours clairs/Tempêtes de sable/Jours sombres/Aurores].${prompt}
+  12204: 'Capacités : Aucune${prompt}'
+  12205: 'Capacités : ${choice: 1}[--/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors]${prompt}'
+  12206: 'Capacités : ${choice: 1}[--/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors] et ${choice: 2}[--/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors]${prompt}'
   12207: |-
-    Which chocobo?
+    Quel chocobo ?
     ${selection-lines}
     ${chocobo-name: 1[2]}.
     ${chocobo-name: 2[2]}.
     ${chocobo-name: 3[2]}.
     ${chocobo-name: 4[2]}.
     ${chocobo-name: 5[2]}.
-    Quit.${prompt}
-  12208: Please remember, I can only check the compatibility of your chocobo and another once a day (Earth time).${prompt}
+    Quitter.${prompt}
+  12208: Veuillez vous rappeler, je ne peux vérifier la compatibilité de votre chocobo et d'un autre qu'une fois par jour (temps terrestre).${prompt}
   12209: |-
-    Continue?
+    Continuer ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12210: These two chocobos are of the same gender. I cannot check their compatibility.${prompt}
-  12211: 'If ${chocobo-name: 0[2]} and ${chocobo-name: 1[2]} were to mate...${prompt}'
-  12212: 'I hope ${chocobo-name: 0[2]} grows up soon.${prompt}'
-  12213: I hope they both grow up soon.${prompt}
-  12214: I'm certain I told you that I can only check the compatibility of your chocobo and another once a day (Earth time). Please keep that in mind.${prompt}
-  12215: I'm sorry, but your chocobo must step forth from the cozy refines of its egg before taking part in camp activities.${prompt}
-  12216: I'm sorry, but your chocobo's current condition prohibits it from taking part in camp activities. Please come back when the problem is solved.${prompt}
-  12217: I'm sorry, but it seems you haven't checked in on your chocobo for an extended period of time. Please visit the stables and speak with me again.${prompt}
-  12218: I'm sorry, but your chocobo does not yet have a name. Please give it a good one and speak with me again.${prompt}
-  12219: I'm sorry, but you haven't been taking care of your chocobo. Please attend to it and speak with me again.${prompt}
-  12220: Good day, ${choice-player-gender}[sir/ma'am], and welcome to the San d'Orian branch of the VCS Chocobuck Exchange Depot.${prompt}
-  12221: Good day, ${choice-player-gender}[sir/ma'am], and welcome to the Bastokan branch of the VCS Chocobuck Exchange Depot.${prompt}
-  12222: Good day, ${choice-player-gender}[sir/ma'am], and welcome to the Windurstian branch of the VCS Chocobuck Exchange Depot.${prompt}
-  12223: Here you can use chocobucks to purchase items or enroll your chocobo in our top-secret intensive training program to improve its attributes.${prompt}
+    Oui.
+    Non.${prompt}
+  12210: Ces deux chocobos sont du même sexe. Je ne peux pas vérifier leur compatibilité.${prompt}
+  12211: 'Si ${chocobo-name: 0[2]} et ${chocobo-name: 1[2]} devaient s''accoupler...${prompt}'
+  12212: 'J''espère que ${chocobo-name: 0[2]} grandira bientôt.${prompt}'
+  12213: J'espère qu'ils grandiront tous les deux bientôt.${prompt}
+  12214: Je suis certain de vous avoir dit que je ne peux vérifier la compatibilité de votre chocobo et d'un autre qu'une fois par jour (temps terrestre). Veuillez garder cela à l'esprit.${prompt}
+  12215: Je suis désolé, mais votre chocobo doit sortir des confins douillets de son œuf avant de participer aux activités du camp.${prompt}
+  12216: Je suis désolé, mais l'état actuel de votre chocobo lui interdit de participer aux activités du camp. Veuillez revenir lorsque le problème sera résolu.${prompt}
+  12217: Je suis désolé, mais il semble que vous n'ayez pas vérifié votre chocobo depuis une période prolongée. Veuillez visiter les écuries et me parler à nouveau.${prompt}
+  12218: Je suis désolé, mais votre chocobo n'a pas encore de nom. Veuillez lui en donner un bon et me parler à nouveau.${prompt}
+  12219: Je suis désolé, mais vous n'avez pas pris soin de votre chocobo. Veuillez vous en occuper et me parler à nouveau.${prompt}
+  12220: Bonjour, ${choice-player-gender}[monsieur/madame], et bienvenue à la branche san'dorienne du Dépôt d'Échange de Chocoseaux de la VCS.${prompt}
+  12221: Bonjour, ${choice-player-gender}[monsieur/madame], et bienvenue à la branche bastokienne du Dépôt d'Échange de Chocoseaux de la VCS.${prompt}
+  12222: Bonjour, ${choice-player-gender}[monsieur/madame], et bienvenue à la branche windurstienne du Dépôt d'Échange de Chocoseaux de la VCS.${prompt}
+  12223: Ici, vous pouvez utiliser des chocoseaux pour acheter des objets ou inscrire votre chocobo dans notre programme d'entraînement intensif top secret pour améliorer ses attributs.${prompt}
   12224: |-
-    Oh wait...
-    I'm sorry, but we only offer our services to members of this nation's CRA branch. If you wish to browse our wares, you must first sign up with the local CRA official.${prompt}
+    Oh attendez...
+    Je suis désolé, mais nous n'offrons nos services qu'aux membres de la branche CRA de cette nation. Si vous souhaitez parcourir nos marchandises, vous devez d'abord vous inscrire auprès de l'officiel CRA local.${prompt}
   12225: |-
-    Oh wait...
-    I'm sorry, but we only offer our services to members of this nation's CRA branch. If you wish to browse our wares, you must first sign up with the local CRA official.${prompt}
+    Oh attendez...
+    Je suis désolé, mais nous n'offrons nos services qu'aux membres de la branche CRA de cette nation. Si vous souhaitez parcourir nos marchandises, vous devez d'abord vous inscrire auprès de l'officiel CRA local.${prompt}
   12226: |-
-    Oh wait...
-    I'm sorry, but we only offer our services to members of this nation's CRA branch. If you wish to browse our wares, you must first sign up with the local CRA official.${prompt}
+    Oh attendez...
+    Je suis désolé, mais nous n'offrons nos services qu'aux membres de la branche CRA de cette nation. Si vous souhaitez parcourir nos marchandises, vous devez d'abord vous inscrire auprès de l'officiel CRA local.${prompt}
   12227: |-
-    Begin shopping?
+    Commencer les achats ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   12228: |-
-    Browse which items? (${number: 1} chocobuck${choice-plurality: 1}[/s])
+    Parcourir quels objets ? (${number: 1} chocoseau${choice-plurality: 1}[/x])
     ${selection-lines}
-    1-chocobuck.
-    3-chocobuck.
-    10-chocobuck.
-    30-chocobuck.
-    40-chocobuck.
-    50-chocobuck.
-    75-chocobuck.
-    80-chocobuck.
-    90-chocobuck.
-    100-chocobuck.
-    150-chocobuck.
-    500-chocobuck.
-    Quit.
-    Back.${prompt}
+    1-chocoseau.
+    3-chocoseaux.
+    10-chocoseaux.
+    30-chocoseaux.
+    40-chocoseaux.
+    50-chocoseaux.
+    75-chocoseaux.
+    80-chocoseaux.
+    90-chocoseaux.
+    100-chocoseaux.
+    150-chocoseaux.
+    500-chocoseaux.
+    Quitter.
+    Retour.${prompt}
   12229: |-
-    Which items? (${number: 1} chocobuck${choice-plurality: 1}[/s])
+    Quels objets ? (${number: 1} chocoseau${choice-plurality: 1}[/x])
     ${selection-lines}
-    50-chocobuck.
-    Intensive training. (75 chocobucks)
-    Special training. (80 chocobucks)
-    View current chocobo.
-    Quit.
-    Back.${prompt}
-  12230: 'Currently, you have ${number: 1} ${choice-plurality: 1}[chocobuck/chocobucks].${prompt}'
+    50-chocoseaux.
+    Entraînement intensif. (75 chocoseaux)
+    Entraînement spécial. (80 chocoseaux)
+    Voir le chocobo actuel.
+    Quitter.
+    Retour.${prompt}
+  12230: 'Actuellement, vous avez ${number: 1} ${choice-plurality: 1}[chocoseau/chocoseaux].${prompt}'
   12231: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    Purchase items.
-    Raise attributes.
-    Dye feathers.
-    Nothing.${prompt}
-  12232: For 1 chocobuck, you can purchase items that are useful during chocobo training. Additionally, we will give you a freebie for every 5 simultaneous exchanges you make.${prompt}
-  12233: For 3 chocobucks, you can purchase items that are useful during chocobo training. Additionally, we will give you a freebie for every 5 simultaneous exchanges you make.${prompt}
-  12234: For 10 chocobucks, you can purchase one dozen of an item that is useful during chocobo training.${prompt}
-  12235: For 30 chocobucks, you can purchase one dozen of an item that is useful during chocobo training.${prompt}
-  12236: For 40 chocobucks, you can purchase items that are useful during chocobo training.${prompt}
-  12237: For 50 chocobucks, you can purchase items that are useful during chocobo training.${prompt}
+    Acheter des objets.
+    Augmenter les attributs.
+    Teindre les plumes.
+    Rien.${prompt}
+  12232: Pour 1 chocoseau, vous pouvez acheter des objets utiles pendant l'entraînement de chocobo. De plus, nous vous donnerons un cadeau pour chaque 5 échanges simultanés que vous faites.${prompt}
+  12233: Pour 3 chocoseaux, vous pouvez acheter des objets utiles pendant l'entraînement de chocobo. De plus, nous vous donnerons un cadeau pour chaque 5 échanges simultanés que vous faites.${prompt}
+  12234: Pour 10 chocoseaux, vous pouvez acheter une douzaine d'un objet utile pendant l'entraînement de chocobo.${prompt}
+  12235: Pour 30 chocoseaux, vous pouvez acheter une douzaine d'un objet utile pendant l'entraînement de chocobo.${prompt}
+  12236: Pour 40 chocoseaux, vous pouvez acheter des objets utiles pendant l'entraînement de chocobo.${prompt}
+  12237: Pour 50 chocoseaux, vous pouvez acheter des objets utiles pendant l'entraînement de chocobo.${prompt}
   12238: |-
-    For 75 chocobucks, you can purchase a special type of feather dye that will change the color of your chocobo.
-    Your chocobo will sport its stylish new color until you alter its registration.${prompt}
-  12239: For 80 chocobucks, you can purchase items that slightly improve one of your chocobo's attributes.${prompt}
-  12240: For 90 chocobucks, you can purchase items that will improve one of your chocobo's attributes.${prompt}
-  12241: For 100 chocobucks, you can purchase items that will slightly improve one of your retired chocobo's attributes.${prompt}
-  12242: For 150 chocobucks, you can purchase VCS-approved racing silks.${prompt}
-  12243: For 500 chocobucks, you can purchase an authentic, limited-edition VCS-issued chair for all your posterial needs.${prompt}
-  12244: For 50 chocobucks, you can purchase a special type of feather dye that will change the color of your chocobo.${prompt}
+    Pour 75 chocoseaux, vous pouvez acheter un type spécial de teinture de plumes qui changera la couleur de votre chocobo.
+    Votre chocobo arborera sa nouvelle couleur élégante jusqu'à ce que vous modifiiez son enregistrement.${prompt}
+  12239: Pour 80 chocoseaux, vous pouvez acheter des objets qui améliorent légèrement l'un des attributs de votre chocobo.${prompt}
+  12240: Pour 90 chocoseaux, vous pouvez acheter des objets qui amélioreront l'un des attributs de votre chocobo.${prompt}
+  12241: Pour 100 chocoseaux, vous pouvez acheter des objets qui amélioreront légèrement l'un des attributs de votre chocobo retraité.${prompt}
+  12242: Pour 150 chocoseaux, vous pouvez acheter des casaques de course approuvées par la VCS.${prompt}
+  12243: Pour 500 chocoseaux, vous pouvez acheter une chaise authentique en édition limitée émise par la VCS pour tous vos besoins postérieurs.${prompt}
+  12244: Pour 50 chocoseaux, vous pouvez acheter un type spécial de teinture de plumes qui changera la couleur de votre chocobo.${prompt}
   12245: |-
-    Select a color. (Currently ${choice: 0}[yellow/black/blue/red/green])
+    Sélectionnez une couleur. (Actuellement ${choice: 0}[jaune/noir/bleu/rouge/vert])
     ${selection-lines}
-    Yellow.
-    Black.
-    Blue.
-    Red.
-    Green.
-    Quit.
-    Back.${prompt}
-  12246: I'm sorry, but it says here that you do not have a chocobo you can call to the field.${prompt}
-  12247: You can enroll your chocobo in our intensive training program, slightly improving one of its current attributes (randomly).${prompt}
-  12248: You can enroll your chocobo in our special training program, improving an ability of your choice.${prompt}
-  12249: I'm sorry. The programs are only available to adult chocobos still residing in the stables.${prompt}
+    Jaune.
+    Noir.
+    Bleu.
+    Rouge.
+    Vert.
+    Quitter.
+    Retour.${prompt}
+  12246: Je suis désolé, mais il est dit ici que vous n'avez pas de chocobo que vous pouvez appeler sur le terrain.${prompt}
+  12247: Vous pouvez inscrire votre chocobo dans notre programme d'entraînement intensif, améliorant légèrement l'un de ses attributs actuels (au hasard).${prompt}
+  12248: Vous pouvez inscrire votre chocobo dans notre programme d'entraînement spécial, améliorant une capacité de votre choix.${prompt}
+  12249: Je suis désolé. Les programmes ne sont disponibles que pour les chocobos adultes résidant encore dans les écuries.${prompt}
   12250: |-
-    Purchase which item?
+    Acheter quel objet ?
     ${selection-lines}
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
@@ -26428,10 +26429,10 @@ entries:
     ${lettercase: 1}${article} ${item-article: 5[2]}.
     ${lettercase: 1}${article} ${item-article: 6[2]}.
     ${lettercase: 1}${article} ${item-article: 7[2]}.
-    Quit.
-    Back.${prompt}
+    Quitter.
+    Retour.${prompt}
   12251: |-
-    Purchase which items?
+    Acheter quels objets ?
     ${selection-lines}
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${item-plural: 1[2]}.
@@ -26441,287 +26442,287 @@ entries:
     ${lettercase: 1}${item-plural: 5[2]}.
     ${lettercase: 1}${item-plural: 6[2]}.
     ${lettercase: 1}${article} ${item-article: 7[2]}.
-    Quit.
-    Return.${prompt}
+    Quitter.
+    Retourner.${prompt}
   12252: |-
-    You lack sufficient funds.
+    Vous manquez de fonds suffisants.
     ${selection-lines}
-    Select another price group.
-    Quit.${prompt}
-  12253: 'You have chosen ${article} ${item-article: 0[2]}.${prompt}'
-  12254: 'You have chosen ${item-plural: 0[2]}.${prompt}'
+    Sélectionner un autre groupe de prix.
+    Quitter.${prompt}
+  12253: 'Vous avez choisi ${article} ${item-article: 0[2]}.${prompt}'
+  12254: 'Vous avez choisi ${item-plural: 0[2]}.${prompt}'
   12255: |-
-    Complete transaction? (${number: 0} chocobuck${choice-plurality: 0}[/s])
+    Terminer la transaction ? (${number: 0} chocoseau${choice-plurality: 0}[/x])
     ${selection-lines}
-    Immediately.
-    Choose another item.
-    Quit.${prompt}
+    Immédiatement.
+    Choisir un autre objet.
+    Quitter.${prompt}
   12256: |-
-    Continue shopping?
+    Continuer les achats ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   12257: |-
-    I'm sorry, ${name-player}.
-    It says here that you do not have a chocobo which you can call to the field.${prompt}
+    Je suis désolé, ${name-player}.
+    Il est dit ici que vous n'avez pas de chocobo que vous pouvez appeler sur le terrain.${prompt}
   12258: |-
-    I'm sorry, ${name-player}.
-    It says here that you are not currently raising a chocobo.${prompt}
+    Je suis désolé, ${name-player}.
+    Il est dit ici que vous n'élevez pas actuellement de chocobo.${prompt}
   12259: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my chocobo.
-    Yellow feather dyeing.
-    Nothing.${prompt}
+    Informations sur mon chocobo.
+    Teinture de plumes jaunes.
+    Rien.${prompt}
   12260: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my chocobo.
-    Red feather dyeing.
-    Nothing.${prompt}
+    Informations sur mon chocobo.
+    Teinture de plumes rouges.
+    Rien.${prompt}
   12261: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my chocobo.
-    Blue feather dyeing.
-    Nothing.${prompt}
+    Informations sur mon chocobo.
+    Teinture de plumes bleues.
+    Rien.${prompt}
   12262: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my chocobo.
-    Green feather dyeing.
-    Nothing.${prompt}
+    Informations sur mon chocobo.
+    Teinture de plumes vertes.
+    Rien.${prompt}
   12263: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my chocobo.
-    Black feather dyeing.
-    Nothing.${prompt}
+    Informations sur mon chocobo.
+    Teinture de plumes noires.
+    Rien.${prompt}
   12264: |-
-    One of my hands will apply the dye immediately.
-    Your chocobo will sport its stylish new color until you alter its registration.${prompt}
-  12265: I'm sorry, ${name-player}. It says here that your chocobo is already that color.${prompt}
+    L'un de mes assistants appliquera la teinture immédiatement.
+    Votre chocobo arborera sa nouvelle couleur élégante jusqu'à ce que vous modifiiez son enregistrement.${prompt}
+  12265: Je suis désolé, ${name-player}. Il est dit ici que votre chocobo est déjà de cette couleur.${prompt}
   12266: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my chocobo.
-    An attribute upgrade.
-    Nothing.
-    Return.${prompt}
-  12267: One of my hands will now administer the random upgrade to your chocobo.${prompt}
+    Informations sur mon chocobo.
+    Une amélioration d'attribut.
+    Rien.
+    Retourner.${prompt}
+  12267: L'un de mes assistants administrera maintenant l'amélioration aléatoire à votre chocobo.${prompt}
   12268: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my current chocobo.
-    A strength upgrade.
-    An endurance upgrade.
-    A discernment upgrade.
-    A receptivity upgrade.
-    Nothing.
-    Return.${prompt}
+    Informations sur mon chocobo actuel.
+    Une amélioration de force.
+    Une amélioration d'endurance.
+    Une amélioration de discernement.
+    Une amélioration de réceptivité.
+    Rien.
+    Retourner.${prompt}
   12269: |-
-    What do you require?
+    De quoi avez-vous besoin ?
     ${selection-lines}
-    Information on my retired chocobo.
-    ${choice: 0}[A strength/An endurance/A discernment/A receptivity/] upgrade.
-    Nothing.${prompt}
-  12270: I'm sorry, but any attempts to further raise that attribute may result in serious injury to your chocobo.${prompt}
-  12271: I'm required to inform you that raising the specified attribute will adversely affect others.${prompt}
+    Informations sur mon chocobo retraité.
+    ${choice: 0}[Une amélioration de force/Une amélioration d'endurance/Une amélioration de discernement/Une amélioration de réceptivité/].
+    Rien.${prompt}
+  12270: Je suis désolé, mais toute tentative d'augmenter davantage cet attribut pourrait entraîner des blessures graves pour votre chocobo.${prompt}
+  12271: Je suis tenu de vous informer que l'augmentation de l'attribut spécifié affectera négativement les autres.${prompt}
   12272: |-
-    Do you still wish to proceed?
+    Souhaitez-vous toujours continuer ?
     ${selection-lines}
-    Yes.
-    Choose another attribute.
-    Quit.${prompt}
+    Oui.
+    Choisir un autre attribut.
+    Quitter.${prompt}
   12273: |-
-    Are you sure?
+    Êtes-vous sûr ?
     ${selection-lines}
-    Yes. Hurry up already!
-    Just forget it.
-    Wait! I need more time...${prompt}
-  12274: 'Your current chocobo''s ${choice: 0}[strength/endurance/discernment/receptivity/] has slightly improved.${prompt}'
-  12275: 'Your ${choice: 0}[current/retired] chocobo''s ${choice: 1}[strength/endurance/discernment/receptivity/] has improved.${prompt}'
-  12276: 'Color: ${choice: 3}[Yellow/Black/Blue/Red/Green]${prompt}'
-  12277: 'Strength: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12278: 'Endurance: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12279: 'Discernment: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12280: 'Receptivity: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12281: 'Strength: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12282: 'Endurance: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12283: 'Discernment: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12284: 'Receptivity: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}'
-  12285: Your chocobo seems to have run away from the stables. I'm sorry, but we are unable to train it at this time.${prompt}
-  12286: I'm sorry, but you don't have enough chocobucks to complete the transaction.${prompt}
+    Oui. Dépêchez-vous !
+    Oubliez ça.
+    Attendez ! J'ai besoin de plus de temps...${prompt}
+  12274: '${choice: 0}[La force/L''endurance/Le discernement/La réceptivité/] de votre chocobo actuel s''est légèrement ${choice: 0}[améliorée/améliorée/amélioré/améliorée/].${prompt}'
+  12275: '${choice: 0}[La force/L''endurance/Le discernement/La réceptivité/] de votre chocobo ${choice: 1}[actuel/retraité] s''est ${choice: 0}[améliorée/améliorée/amélioré/améliorée/].${prompt}'
+  12276: 'Couleur : ${choice: 3}[Jaune/Noir/Bleu/Rouge/Vert]${prompt}'
+  12277: 'Force : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12278: 'Endurance : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12279: 'Discernement : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12280: 'Réceptivité : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12281: 'Force : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12282: 'Endurance : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12283: 'Discernement : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12284: 'Réceptivité : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}'
+  12285: Votre chocobo semble s'être enfui des écuries. Je suis désolé, mais nous sommes incapables de l'entraîner en ce moment.${prompt}
+  12286: Je suis désolé, mais vous n'avez pas assez de chocoseaux pour compléter la transaction.${prompt}
   12287: |-
-    Exchange this item for chocobucks?
+    Échanger cet objet contre des chocoseaux ?
     ${selection-lines}
-    Yes, please.
-    No, thanks.${prompt}
-  12288: You may only hold up to 1000 chocobucks at any given time. Excess chocobucks over this amount will be discarded. Are you sure you wish to proceed with the transaction?${prompt}
-  12289: You cannot carry more than 1000 chocobucks.${prompt}
-  12290: 'You have ${number: 0} ${choice-plurality: 0}[chocobuck/chocobucks] remaining.${prompt}'
-  12291: Excuse me ${choice-player-gender}[sir/ma'am], but you dropped this.${prompt}
-  12292: 'How many? (Max.: ${number: 4})'
-  12293: 'You need ${number: 2} chocobuck${choice-plurality: 2}[/s] to purchase the ${item-given-plurality: 1[2], 0[2]}.${prompt}'
-  12294: 'Because you have made a total of ${number: 1} exchange${choice-plurality: 1}[/s], I am authorized to give you ${number: 2} more as ${choice-plurality: 2}[a freebie/freebies].${prompt}'
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
+  12288: Vous ne pouvez détenir que jusqu'à 1000 chocoseaux à tout moment. Les chocoseaux en excès de ce montant seront jetés. Êtes-vous sûr de vouloir procéder à la transaction ?${prompt}
+  12289: Vous ne pouvez pas transporter plus de 1000 chocoseaux.${prompt}
+  12290: 'Il vous reste ${number: 0} ${choice-plurality: 0}[chocoseau/chocoseaux].${prompt}'
+  12291: Excusez-moi ${choice-player-gender}[monsieur/madame], mais vous avez laissé tomber ceci.${prompt}
+  12292: 'Combien ? (Max. : ${number: 4})'
+  12293: 'Vous avez besoin de ${number: 2} chocoseau${choice-plurality: 2}[/x] pour acheter ${item-given-plurality: 1[2], 0[2]}.${prompt}'
+  12294: 'Parce que vous avez fait un total de ${number: 1} échange${choice-plurality: 1}[/s], je suis autorisé à vous en donner ${number: 2} de plus en ${choice-plurality: 2}[cadeau/cadeaux].${prompt}'
   12295: |-
-    Is ${choice: 0}[yellow/black/blue/red/green] okay? (${number: 1} chocobuck${choice-plurality: 1}[/s])
+    Est-ce que ${choice: 0}[jaune/noir/bleu/rouge/vert] convient ? (${number: 1} chocoseau${choice-plurality: 1}[/x])
     ${selection-lines}
-    Yes. (50 chocobucks)
-    No.${prompt}
+    Oui. (50 chocoseaux)
+    Non.${prompt}
   12296: |-
-    Is ${choice: 0}[yellow/black/blue/red/green] okay? (Current: ${choice: 3}[yellow/black/blue/red/green])
+    Est-ce que ${choice: 0}[jaune/noir/bleu/rouge/vert] convient ? (Actuel : ${choice: 3}[jaune/noir/bleu/rouge/vert])
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   12297: "0:${number: 0} 1:${number: 1} 2:${number: 2} 3:${number: 3} \n4:${number: 4} 5:${number: 5} 6:${number: 6} 7:${number: 7} ${prompt}"
-  12298: 'Well met! I''m a Merry Map Marker, and I''d love to make marks all over your merry ${keyitem-singular: 0[2]}, but it appears you are missing the markable map I mention.${prompt}'
-  12299: Good day! I'm a Merry Map Marker, and I'd be emphatically ecstatic if you'd allow me to mark your magical map!${prompt}
-  12300: 'A markless ${keyitem-singular: 0[2]} is like a motherless maiden, meandering through a miasmatic mire of misery.${prompt}'
+  12298: 'Bien rencontré ! Je suis un Joyeux Marqueur de Carte, et j''adorerais faire des marques partout sur votre joyeuse ${keyitem-singular: 0[2]}, mais il semble que vous n''ayez pas la carte marquable que je mentionne.${prompt}'
+  12299: Bonjour ! Je suis un Joyeux Marqueur de Carte, et je serais emphatiquement extatique si vous me permettiez de marquer votre carte magique !${prompt}
+  12300: 'Une ${keyitem-singular: 0[2]} sans marques est comme une jeune fille sans mère, errant à travers un miasme misérable de misère.${prompt}'
   12301: |-
-    Embark on a map-marking mission?
+    Se lancer dans une mission de marquage de carte ?
     ${selection-lines}
-    Mark me up!
-    Keep your mitts off my map!${prompt}
-  12302: Marvelous! Now allow me a minute to make all my marks.${prompt}
-  12303: Methinks I have marked your map with as many marks as I might manage.${prompt}
-  12304: 'Monitoring and managing your marks is as simple as merely opening your map and selecting ${color: 5}Markers${color: 1} from the main menu.${prompt}'
-  12305: If the marks on your map might vanish, mope not like a melancholy milksop. Make another meeting with me and I shall make it my mission to mark the map once more.${prompt}
+    Marquez-moi !
+    Gardez vos pattes loin de ma carte !${prompt}
+  12302: Merveilleux ! Maintenant permettez-moi une minute pour faire toutes mes marques.${prompt}
+  12303: Je pense avoir marqué votre carte avec autant de marques que je puisse gérer.${prompt}
+  12304: 'Surveiller et gérer vos marques est aussi simple que d''ouvrir votre carte et de sélectionner ${color: 5}Marqueurs${color: 1} dans le menu principal.${prompt}'
+  12305: Si les marques sur votre carte venaient à disparaître, ne vous morfondez pas comme un pleurnichard mélancolique. Rencontrez-moi à nouveau et je ferai de ma mission de marquer la carte une fois de plus.${prompt}
   12306: |-
-    Good day, ${choice-player-gender}[milord/milady].
-    May your marches across meadow and mountain be markedly memorable!${prompt}
-  12307: 'Here is the area''s ${color: 5}home point${color: 1}. Once set, your muted remains will be moved here if you are ever...mortally mangled in the midst of a melee.${prompt}'
-  12308: 'Here you will find the ${color: 5}immigration${color: 1} ministers. They will help you if you may wish to immediately modify your nationality.${prompt}'
-  12309: 'And mayhap you are immeasurably motivated to compete in the medieval mayhem of Conflict? Might I suggest you mingle with the modest ${color: 5}Pursuivant${color: 1} located here?${prompt}'
-  12310: 'Our local ${color: 5}minstrel of melodies${color: 1} can be found here. His mirthful musicalities may help you recall misplaced memories.${prompt}'
-  12311: 'Ah, and in the case you might wish to mask a meritorious moniker and replace it with one a mite more merited, a ${color: 5}traveling bard${color: 1} strums upon his mellifluous harp here.${prompt}'
-  12312: 'Here, you may meet with a member of the Specialty Goods Trade Union. And, if you are a citizen of this mighty dominion, he''ll ${color: 5}teleport${color: 1} you all across Vana''diel (for a menial amount of monetary remuneration).${prompt}'
-  12313: 'Need to know the local ${color: 5}weather${color: 1}? Our local meteorologist will be making his paramount presumptions here.${prompt}'
-  12314: 'If you wish to summon a merciful mate to this mighty realm, here is where you will find a merry merchant marketing ${color: 5}Gold World Passes${color: 1}.${prompt}'
-  12315: 'Those men and women wondering how their deeds are mirrored in the minds of the locals should meander over to this gossip-meister to muster up important material on their respective ${color: 5}reputations${color: 1}.${prompt}'
-  12316: 'The ${color: 5}armor depository${color: 1} located here will help you maintain any old sets of equipment muddling up your immaculate Mog House.${prompt}'
-  12317: 'And here is the ${color: 5}item depository${color: 1} where you may store much of your festive furniture, etcetera until misplaced holiday merriment makes it way back into your miserly heart.${prompt}'
-  12318: Let me begin with Southern San d'Oria.${prompt}
-  12319: Now I shall move to Northern San d'Oria.${prompt}
-  12320: And last, but not least, let me mark your map for Port San d'Oria.${prompt}
-  12321: I shall start with Port Bastok and its magnificent drawbridge.${prompt}
-  12322: Now let me move on to the mercantile metropolis known as the Bastok Markets.${prompt}
-  12323: And after the markets, come the massive Bastok Mines.${prompt}
-  12324: And finally, who could forget the marveled Bastok Metalworks, where masterful minds from across the Republic meet to mull over the mysteries of man-made mechanical marvels.${prompt}
-  12325: Let me start with the Windurst Waters.${prompt}
-  12326: Let me continue by marking your map of Windurst Walls.${prompt}
-  12327: And while I am at it, let me see your map of Heavens Tower.${prompt}
-  12328: Next, I shall mark your map of Windurst Woods.${prompt}
-  12329: And finally, let me mark your map of Port Windurst.${prompt}
-  12330: I shall begin by marking the important locations on your map of the Ru'Lude Gardens.${prompt}
-  12331: Next, let me mark your map of Upper Jeuno. Did you know that I often frequent the Marble Bridge whenever I have a free moment? There's just something about the name of that model establishment...${prompt}
-  12332: Now let me mark your map of Lower Jeuno.${prompt}
-  12333: And finally, I shall mark your map of Port Jeuno.${prompt}
+    Bonjour, ${choice-player-gender}[monseigneur/madame].
+    Que vos marches à travers prairies et montagnes soient remarquablement mémorables !${prompt}
+  12307: 'Voici le ${color: 5}point de retour${color: 1} de la zone. Une fois défini, vos restes muets seront déplacés ici si vous êtes jamais...mortellement mutilé au milieu d''une mêlée.${prompt}'
+  12308: 'Ici vous trouverez les ministres de l''${color: 5}immigration${color: 1}. Ils vous aideront si vous souhaitez modifier immédiatement votre nationalité.${prompt}'
+  12309: 'Et peut-être êtes-vous immensément motivé à concourir dans le chaos médiéval du Conflit ? Puis-je vous suggérer de vous mêler au modeste ${color: 5}Poursuivant${color: 1} situé ici ?${prompt}'
+  12310: 'Notre ${color: 5}ménestrel de mélodies${color: 1} local peut être trouvé ici. Ses musicalités joyeuses peuvent vous aider à rappeler des souvenirs égarés.${prompt}'
+  12311: 'Ah, et dans le cas où vous souhaiteriez masquer un surnom méritoire et le remplacer par un un peu plus mérité, un ${color: 5}barde voyageur${color: 1} gratte sa harpe mélodieuse ici.${prompt}'
+  12312: 'Ici, vous pouvez rencontrer un membre de l''Union du Commerce de Marchandises Spécialisées. Et, si vous êtes citoyen de ce puissant domaine, il vous ${color: 5}téléportera${color: 1} à travers tout Vana''diel (moyennant une petite rémunération monétaire).${prompt}'
+  12313: 'Besoin de connaître la ${color: 5}météo${color: 1} locale ? Notre météorologue local fera ses présomptions primordiales ici.${prompt}'
+  12314: 'Si vous souhaitez convoquer un compagnon miséricordieux dans ce puissant royaume, voici où vous trouverez un joyeux marchand commercialisant des ${color: 5}Passes du Monde Doré${color: 1}.${prompt}'
+  12315: 'Ces hommes et femmes se demandant comment leurs actes sont reflétés dans l''esprit des locaux devraient se diriger vers ce maître des ragots pour rassembler des informations importantes sur leurs ${color: 5}réputations${color: 1} respectives.${prompt}'
+  12316: 'Le ${color: 5}dépôt d''armures${color: 1} situé ici vous aidera à maintenir tous les anciens ensembles d''équipement encombrant votre immaculée Maison Mog.${prompt}'
+  12317: 'Et voici le ${color: 5}dépôt d''objets${color: 1} où vous pouvez stocker une grande partie de vos meubles festifs, et cetera jusqu''à ce que la gaieté des fêtes égarée revienne dans votre cœur avare.${prompt}'
+  12318: Permettez-moi de commencer avec San d'Oria Sud.${prompt}
+  12319: Maintenant je vais passer à San d'Oria Nord.${prompt}
+  12320: Et enfin, mais non des moindres, laissez-moi marquer votre carte pour le Port de San d'Oria.${prompt}
+  12321: Je commencerai avec le Port de Bastok et son magnifique pont-levis.${prompt}
+  12322: Maintenant laissez-moi passer à la métropole marchande connue sous le nom de Marchés de Bastok.${prompt}
+  12323: Et après les marchés, viennent les massives Mines de Bastok.${prompt}
+  12324: Et finalement, qui pourrait oublier les merveilleuses Forges de Bastok, où des esprits magistraux de toute la République se réunissent pour méditer sur les mystères des merveilles mécaniques artificielles.${prompt}
+  12325: Laissez-moi commencer avec les Eaux de Windurst.${prompt}
+  12326: Laissez-moi continuer en marquant votre carte des Murailles de Windurst.${prompt}
+  12327: Et pendant que j'y suis, laissez-moi voir votre carte de la Tour Céleste.${prompt}
+  12328: Ensuite, je marquerai votre carte des Bois de Windurst.${prompt}
+  12329: Et finalement, laissez-moi marquer votre carte du Port de Windurst.${prompt}
+  12330: Je commencerai en marquant les emplacements importants sur votre carte des Jardins Ru'Lude.${prompt}
+  12331: Ensuite, laissez-moi marquer votre carte de Jeuno Supérieure. Saviez-vous que je fréquente souvent le Pont de Marbre chaque fois que j'ai un moment libre ? Il y a juste quelque chose dans le nom de cet établissement modèle...${prompt}
+  12332: Maintenant laissez-moi marquer votre carte de Jeuno Inférieure.${prompt}
+  12333: Et finalement, je marquerai votre carte du Port de Jeuno.${prompt}
   12334: |-
-    Welcome to the Chocobo Racing Association's (CRA) ${choice: 0}[San d'Oria/Bastok/Windurst] branch.
-    This service desk is here to accommodate our beginning and intermediate racers.${prompt}
-  12335: I am sorry, but there are no races scheduled at the moment.${prompt}
-  12336: 'Participation in our organization''s races requires that you either possess ${article} ${item-article: 0[2]} or currently have your own full-grown chocobo.${prompt}'
-  12337: How about you, ${choice-player-gender}[sir/ma'am]?${prompt}
-  12338: 'If possible, we would like you to join us, and help show those trainers in ${choice: 0}[Bastok and Windurst/San d''Oria and Windurst/San d''Oria and Bastok] which racing team is truly the best in Vana''diel.${prompt}'
+    Bienvenue à la branche ${choice: 0}[de San d'Oria/de Bastok/de Windurst] de l'Association des Courses de Chocobos (CRA).
+    Ce bureau de service est ici pour accueillir nos coureurs débutants et intermédiaires.${prompt}
+  12335: Je suis désolé, mais il n'y a pas de courses prévues pour le moment.${prompt}
+  12336: 'La participation aux courses de notre organisation nécessite que vous possédiez ${article} ${item-article: 0[2]} ou que vous ayez actuellement votre propre chocobo adulte.${prompt}'
+  12337: Et vous, ${choice-player-gender}[monsieur/madame] ?${prompt}
+  12338: 'Si possible, nous aimerions que vous nous rejoigniez et aidiez à montrer aux entraîneurs de ${choice: 0}[Bastok et Windurst/San d''Oria et Windurst/San d''Oria et Bastok] quelle équipe de course est vraiment la meilleure de Vana''diel.${prompt}'
   12339: |-
-    What do you say?
+    Qu'en dites-vous ?
     ${selection-lines}
-    Tell me more.
-    Sign me up!
-    Not today.${prompt}
+    Dites-m'en plus.
+    Inscrivez-moi !
+    Pas aujourd'hui.${prompt}
   12340: |-
-    Congratulations, ${name-player}!
-    You are now an official member of the CRA's ${choice: 0}[San d'Oria/Bastok/Windurst] racing team.${prompt}
+    Félicitations, ${name-player} !
+    Vous êtes maintenant un membre officiel de l'équipe de course ${choice: 0}[de San d'Oria/de Bastok/de Windurst] de la CRA.${prompt}
   12341: |-
-    I see.
-    Please come back if you ever change your mind!${prompt}
+    Je vois.
+    Revenez si jamais vous changez d'avis !${prompt}
   12342: |-
-    What would you like to know?
+    Qu'aimeriez-vous savoir ?
     ${selection-lines}
-    Why race chocobos, anyway?
-    How do I register for a race?
-    How do I prepare for a race?
-    What are ${color: 5}chocobucks${color: 1}?
-    What kind of races are there?
-    What are “racing teams”?
-    Quit.
-    Return.${prompt}
+    Pourquoi faire courir des chocobos, de toute façon ?
+    Comment m'inscrire à une course ?
+    Comment me préparer pour une course ?
+    Qu'est-ce que les ${color: 5}chocoseaux${color: 1} ?
+    Quels types de courses existe-t-il ?
+    Que sont les "équipes de course" ?
+    Quitter.
+    Retour.${prompt}
   12343: |-
-    Why not!?
-    Our original plan was to establish locations across Vana'diel where people could test their birds' skills.${prompt}
-  12344: We felt that this would help us maintain breeder motivation, which in turn would ensure healthier, happier chocobos. A “win-win situation,” as we like to call it in the business.${prompt}
-  12345: However, as rumors of these new facilities began to leak out into the world, people began speculating about the possibility of officially sanctioned chocobo races...${prompt}
-  12346: The VCS could not ignore the voice of the masses, and it was not long before a meeting was held, a vote was taken, and the CRA was formed.${prompt}
-  12347: And that's why I'm here, trying to enlist you and other top breeders into our noble ranks.${prompt}
-  12348: Oh, and for our more seasoned veterans who feel there are no challenges left for them here at the track, the CRA has finished preparing a new race. And rumor has that it's a doozie!${prompt}
-  12349: First of all, your chocobo must be fully grown. It doesn't matter if you are still tending to it, or if it has been sent to pasture, as long as it is large enough to ride.${prompt}
-  12350: 'Next, you must bring me either ${article} ${item-article: 0[2]} or ${article} ${item-article: 1[2]}. This is all I will require. There are no hidden fees.${prompt}'
-  12351: As your chocobo develops, be sure to re-register it. This will ensure that your steed is provided with the equipment that most suits its current condition.${prompt}
-  12352: Finally, you may only register one chocobo at a time, but are free to register a new bird whenever you wish. You need only speak with me to make any necessary changes.${prompt}
-  12353: Once you have registered your chocobo and entered it in a competition, the CRA will proceed in assigning it a licensed jockey.${prompt}
-  12354: Before each race you will be given the opportunity to give the jockey specific orders on his or her riding style.${prompt}
-  12355: In addition to these orders, you can also provide the jockey with items to use while riding, as well as equipment to improve your chocobo's performance.${prompt}
-  12356: Before a race, you can also check the strengths and weaknesses of the other participating chocobos. It is recommended that you use this data when deciding on what orders to give, or which items to equip.${prompt}
-  12357: 'Depending on your chocobo''s performance in select CRA-sanctioned races, you may or may not receive a prize consisting of VCS-mint ${color: 5}chocobucks${color: 1}.${prompt}'
-  12358: Chocobucks can be used to purchase items, as well as upgrade your mount. Chocobucks are also required to participate in official races.${prompt}
-  12359: Currently, players can earn up to, but no more than, 1000 chocobucks. However, this may change without notice.${prompt}
-  12360: There are two main types of races.${prompt}
-  12361: 'The first type is called an ${color: 5}official race${color: 1}. To participate in one of these, you will require chocobucks.${prompt}'
-  12362: Placing in an official race will earn you gil. The more races you complete, the more respected you will become in the breeder community.${prompt}
-  12363: You may also take part in an official race as often as needed to complete the specified objectives.${prompt}
-  12364: However, after some of the more grueling races, you may be required to wait before entering the next. This is to give your chocobo, as well as the others, an opportunity to rest before running again.${prompt}
-  12365: 'The second type of race is called a ${color: 5}free run${color: 1}. Unlike the official races, these can be run at any time, regardless of the results of a previous match.${prompt}'
-  12366: You must pay a fee in gil to participate in free runs, but you will have the opportunity to earn chocobucks depending on your chocobo's performance. You can join as many free runs as you wish in a single day (Earth time), but extra fees may be required for each additional race. (Stable hands have to make a living, too!)${prompt}
-  12367: The CRA is split up into three racing teams representing Bastok, Windurst, and San d'Oria.${prompt}
-  12368: Each team has its own skilled jockeys, and offers unique services that cannot be obtained at the other two.${prompt}
-  12369: Breeders are allowed to register with any team they like, and may change their affiliation at any time.${prompt}
-  12370: In the event that you wish to leave a racing team, all official race results, as well as earned chocobucks, will be saved.${prompt}
-  12371: You never have to worry that your past accomplishments may be deleted and lost forever. You only need rejoin the team to restore all your old data.${prompt}
-  12372: Anyway, there is no harm in visiting all three racing teams to find which one suits you best (though I know you'll choose this one).${prompt}
-  12373: 'Ah, it says here that you are a member of the ${choice: 0}[San d''Oria/Bastok/Windurst] racing team.${prompt}'
-  12374: Have you come today to change your affiliation?${prompt}
-  12375: 'Remember, you will not be able to use any chocobucks earned in ${choice: 0}[San d''Oria/Bastok/Windurst] here, and you will also lose any Solo Victory Points that you may have. Are you sure you want to go through with this?${prompt}'
+    Pourquoi pas !?
+    Notre plan initial était d'établir des emplacements à travers Vana'diel où les gens pourraient tester les compétences de leurs oiseaux.${prompt}
+  12344: Nous pensions que cela nous aiderait à maintenir la motivation des éleveurs, ce qui à son tour assurerait des chocobos plus sains et plus heureux. Une "situation gagnant-gagnant", comme nous aimons l'appeler dans le métier.${prompt}
+  12345: Cependant, alors que les rumeurs de ces nouvelles installations commençaient à se répandre dans le monde, les gens ont commencé à spéculer sur la possibilité de courses de chocobos officiellement sanctionnées...${prompt}
+  12346: La VCS ne pouvait ignorer la voix des masses, et il n'a pas fallu longtemps avant qu'une réunion soit tenue, un vote soit pris et la CRA soit formée.${prompt}
+  12347: Et c'est pourquoi je suis ici, essayant de recruter vous et d'autres meilleurs éleveurs dans nos nobles rangs.${prompt}
+  12348: Oh, et pour nos vétérans plus aguerris qui sentent qu'il ne reste plus de défis pour eux ici sur la piste, la CRA a fini de préparer une nouvelle course. Et la rumeur dit que c'est un sacré morceau !${prompt}
+  12349: Tout d'abord, votre chocobo doit être complètement développé. Peu importe si vous en prenez encore soin, ou s'il a été envoyé au pâturage, tant qu'il est assez grand pour être monté.${prompt}
+  12350: 'Ensuite, vous devez m''apporter soit ${article} ${item-article: 0[2]} soit ${article} ${item-article: 1[2]}. C''est tout ce dont j''aurai besoin. Il n''y a pas de frais cachés.${prompt}'
+  12351: Au fur et à mesure que votre chocobo se développe, assurez-vous de le réenregistrer. Cela garantira que votre monture est équipée du matériel qui convient le mieux à son état actuel.${prompt}
+  12352: Enfin, vous ne pouvez enregistrer qu'un seul chocobo à la fois, mais êtes libre d'enregistrer un nouvel oiseau quand vous le souhaitez. Vous n'avez qu'à me parler pour apporter les changements nécessaires.${prompt}
+  12353: Une fois que vous avez enregistré votre chocobo et l'avez inscrit à une compétition, la CRA procédera à lui assigner un jockey licencié.${prompt}
+  12354: Avant chaque course, vous aurez l'occasion de donner au jockey des ordres spécifiques sur son style de conduite.${prompt}
+  12355: En plus de ces ordres, vous pouvez également fournir au jockey des objets à utiliser pendant la course, ainsi que de l'équipement pour améliorer les performances de votre chocobo.${prompt}
+  12356: Avant une course, vous pouvez également vérifier les forces et faiblesses des autres chocobos participants. Il est recommandé d'utiliser ces données pour décider quels ordres donner, ou quel équipement équiper.${prompt}
+  12357: 'Selon les performances de votre chocobo dans certaines courses sanctionnées par la CRA, vous pouvez ou non recevoir un prix consistant en ${color: 5}chocoseaux${color: 1} frappés par la VCS.${prompt}'
+  12358: Les chocoseaux peuvent être utilisés pour acheter des objets, ainsi que pour améliorer votre monture. Les chocoseaux sont également requis pour participer aux courses officielles.${prompt}
+  12359: Actuellement, les joueurs peuvent gagner jusqu'à, mais pas plus de, 1000 chocoseaux. Cependant, cela peut changer sans préavis.${prompt}
+  12360: Il existe deux types principaux de courses.${prompt}
+  12361: 'Le premier type est appelé une ${color: 5}course officielle${color: 1}. Pour participer à l''une d''entre elles, vous aurez besoin de chocoseaux.${prompt}'
+  12362: Se placer dans une course officielle vous rapportera des gils. Plus vous complétez de courses, plus vous deviendrez respecté dans la communauté des éleveurs.${prompt}
+  12363: Vous pouvez également participer à une course officielle aussi souvent que nécessaire pour compléter les objectifs spécifiés.${prompt}
+  12364: Cependant, après certaines des courses les plus éprouvantes, vous pourriez être tenu d'attendre avant d'entrer dans la suivante. C'est pour donner à votre chocobo, ainsi qu'aux autres, l'occasion de se reposer avant de courir à nouveau.${prompt}
+  12365: 'Le deuxième type de course est appelé une ${color: 5}course libre${color: 1}. Contrairement aux courses officielles, celles-ci peuvent être courues à tout moment, indépendamment des résultats d''un match précédent.${prompt}'
+  12366: Vous devez payer des frais en gils pour participer aux courses libres, mais vous aurez l'occasion de gagner des chocoseaux selon les performances de votre chocobo. Vous pouvez rejoindre autant de courses libres que vous le souhaitez en une seule journée (temps terrestre), mais des frais supplémentaires peuvent être requis pour chaque course supplémentaire. (Les palefrenier doivent aussi gagner leur vie !)${prompt}
+  12367: La CRA est divisée en trois équipes de course représentant Bastok, Windurst et San d'Oria.${prompt}
+  12368: Chaque équipe a ses propres jockeys qualifiés et offre des services uniques qui ne peuvent être obtenus aux deux autres.${prompt}
+  12369: Les éleveurs sont autorisés à s'enregistrer dans n'importe quelle équipe qu'ils aiment et peuvent changer leur affiliation à tout moment.${prompt}
+  12370: Dans le cas où vous souhaiteriez quitter une équipe de course, tous les résultats de courses officielles, ainsi que les chocoseaux gagnés, seront sauvegardés.${prompt}
+  12371: Vous n'avez jamais à vous inquiéter que vos accomplissements passés puissent être supprimés et perdus à jamais. Vous n'avez qu'à rejoindre l'équipe pour restaurer toutes vos anciennes données.${prompt}
+  12372: De toute façon, il n'y a aucun mal à visiter les trois équipes de course pour trouver celle qui vous convient le mieux (même si je sais que vous choisirez celle-ci).${prompt}
+  12373: 'Ah, il est dit ici que vous êtes membre de l''équipe de course ${choice: 0}[de San d''Oria/de Bastok/de Windurst].${prompt}'
+  12374: Êtes-vous venu aujourd'hui pour changer votre affiliation ?${prompt}
+  12375: 'Rappelez-vous, vous ne pourrez pas utiliser les chocoseaux gagnés à ${choice: 0}[San d''Oria/Bastok/Windurst] ici, et vous perdrez également tous les Points de Victoire Solo que vous pourriez avoir. Êtes-vous sûr de vouloir poursuivre ?${prompt}'
   12376: |-
-    Join this team?
+    Rejoindre cette équipe ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12377: 'Congratulations! You are the newest member of the CRA''s ${choice: 1}[San d''Oria/Bastok/Windurst] racing team!${prompt}'
-  12378: Understood. But remember, we are always looking for great racers like you to join our team. If you ever change your mind, I'll be right here waiting.${prompt}
-  12379: Ah, so you have brought items for your chocobo.${prompt}
-  12380: What do we have here...${prompt}
-  12381: '${lettercase: 1}${item-singular: 0[2]}:${prompt}'
-  12382: Alright, ${name-player}, I will store this in our safe.${prompt}
-  12383: Alright, ${name-player}, I will store these in our safe.${prompt}
-  12384: I am sorry, but you have already brought me one of those.${prompt}
-  12385: I am sorry, but you have already brought me these items.${prompt}
-  12386: Hello! What might I interest you in today?${prompt}
+    Oui.
+    Non.${prompt}
+  12377: 'Félicitations ! Vous êtes le plus nouveau membre de l''équipe de course ${choice: 1}[de San d''Oria/de Bastok/de Windurst] de la CRA !${prompt}'
+  12378: Compris. Mais rappelez-vous, nous sommes toujours à la recherche de grands coureurs comme vous pour rejoindre notre équipe. Si jamais vous changez d'avis, je serai juste ici à attendre.${prompt}
+  12379: Ah, vous avez donc apporté des objets pour votre chocobo.${prompt}
+  12380: Voyons ce que nous avons ici...${prompt}
+  12381: '${lettercase: 1}${item-singular: 0[2]} :${prompt}'
+  12382: D'accord, ${name-player}, je stockerai ceci dans notre coffre-fort.${prompt}
+  12383: D'accord, ${name-player}, je stockerai ceux-ci dans notre coffre-fort.${prompt}
+  12384: Je suis désolé, mais vous m'avez déjà apporté un de ceux-ci.${prompt}
+  12385: Je suis désolé, mais vous m'avez déjà apporté ces objets.${prompt}
+  12386: Bonjour ! En quoi puis-je vous intéresser aujourd'hui ?${prompt}
   12387: |-
-    (You have ${number: 3} ${choice-plurality: 3}[chocobuck/chocobucks].)
+    (Vous avez ${number: 3} ${choice-plurality: 3}[chocoseau/chocoseaux].)
     ${selection-lines}
-    Chocobo ${choice: 0}[registration/confirmation].
-    Item confirmation.
-    Free run (${number: 1} gil).
-    Official race (${number: 2} ${choice-plurality: 2}[chocobuck/chocobucks]).
-    Re-run.
-    Rule confirmation.
-    Nothing.${prompt}
+    ${choice: 0}[Enregistrement/Confirmation] de chocobo.
+    Confirmation d'objet.
+    Course libre (${number: 1} gils).
+    Course officielle (${number: 2} ${choice-plurality: 2}[chocoseau/chocoseaux]).
+    Re-course.
+    Confirmation des règles.
+    Rien.${prompt}
   12388: |-
-    (You have ${number: 3} ${choice-plurality: 3}[chocobuck/chocobucks].)
+    (Vous avez ${number: 3} ${choice-plurality: 3}[chocoseau/chocoseaux].)
     ${selection-lines}
-    Chocobo ${choice: 0}[registration/confirmation].
-    Item confirmation.
-    Free run (${number: 1} gil).
-    Official race.
-    Re-run.
-    Rule confirmation.
-    Nothing.${prompt}
-  12389: You cannot access this menu until you have registered a chocobo to race.${prompt}
-  12390: 'To register your chocobo, you must first bring me either ${article} ${item-article: 0[2]} or ${article} ${item-article: 1[2]}.${prompt}'
-  12391: You can only register one chocobo at a time, but you may always register a new one whenever you wish.${prompt}
+    ${choice: 0}[Enregistrement/Confirmation] de chocobo.
+    Confirmation d'objet.
+    Course libre (${number: 1} gils).
+    Course officielle.
+    Re-course.
+    Confirmation des règles.
+    Rien.${prompt}
+  12389: Vous ne pouvez pas accéder à ce menu tant que vous n'avez pas enregistré un chocobo pour courir.${prompt}
+  12390: 'Pour enregistrer votre chocobo, vous devez d''abord m''apporter soit ${article} ${item-article: 0[2]} soit ${article} ${item-article: 1[2]}.${prompt}'
+  12391: Vous ne pouvez enregistrer qu'un seul chocobo à la fois, mais pouvez toujours en enregistrer un nouveau quand vous le souhaitez.${prompt}
   12392: |-
-    We currently hold for you:
+    Nous détenons actuellement pour vous :
     ${selection-lines}
 
     ${lettercase: 1}${article} ${item-article: 1[2]}.
@@ -26754,158 +26755,158 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.
-    Return.${prompt}
-  12393: With newly developed CRA technology, you can now relive the excitement of a previously cleared official race!${prompt}
-  12394: You may participate in these “re-runs” as many times as you wish, but just remember--the race may be the same, but the prizes for placing won't!${prompt}
+    Quitter.
+    Retour.${prompt}
+  12393: Avec la technologie CRA nouvellement développée, vous pouvez maintenant revivre l'excitation d'une course officielle précédemment réussie !${prompt}
+  12394: Vous pouvez participer à ces "re-courses" autant de fois que vous le souhaitez, mais rappelez-vous simplement--la course peut être la même, mais les prix pour le placement ne le seront pas !${prompt}
   12395: |-
-    Re-run which race?
+    Re-courir quelle course ?
     ${selection-lines}
-    Novice Race I.
-    Novice Race II.
-    Novice Race III.
-    Challenge Race I.
-    International Race I.
-    International Race II.
-    Challenge Race II.
-    CRA Classic.
-    Quit.
-    Return.${prompt}
+    Course Novice I.
+    Course Novice II.
+    Course Novice III.
+    Course Défi I.
+    Course Internationale I.
+    Course Internationale II.
+    Course Défi II.
+    Classique CRA.
+    Quitter.
+    Retour.${prompt}
   12396: |-
-    ***Race Preparations***
+    ***Préparatifs de Course***
     ${selection-lines}
-    Race overview.
-    Visit the paddock.
-    Jockey orders: ${choice: 0}[Sprint/Keep pace/Final spurt].
-    Equipment: ${lettercase: 1}${item-singular: 1[2]}.
-    Start race.
-    Quit.
-    Return.${prompt}
+    Aperçu de la course.
+    Visiter le paddock.
+    Ordres du jockey : ${choice: 0}[Sprint/Maintenir l'allure/Sprint final].
+    Équipement : ${lettercase: 1}${item-singular: 1[2]}.
+    Commencer la course.
+    Quitter.
+    Retour.${prompt}
   12397: |-
-    ***Race Preparations***
+    ***Préparatifs de Course***
     ${selection-lines}
-    Race overview.
-    Visit the paddock.
-    Jockey orders: ${choice: 0}[Sprint/Keep pace/Final spurt].
-    Equipment: None.
-    Start race.
-    Quit.
-    Return.${prompt}
-  12398: Here is the information on the next race:${prompt}
+    Aperçu de la course.
+    Visiter le paddock.
+    Ordres du jockey : ${choice: 0}[Sprint/Maintenir l'allure/Sprint final].
+    Équipement : Aucun.
+    Commencer la course.
+    Quitter.
+    Retour.${prompt}
+  12398: Voici les informations sur la prochaine course :${prompt}
   12399: '----------------------------------------'
   12400: |-
-    ★Free Run★
-    Chocobos: 8
-    Objective: None${prompt}
-  12401: While free runs usually have no specific objectives, the higher your chocobo places, the better the prize you will receive. We suggest you use these races to improve your skills before embarking on the more difficult official races.${prompt}
-  12402: Here is the information on the next race:${prompt}
+    ★Course Libre★
+    Chocobos : 8
+    Objectif : Aucun${prompt}
+  12401: Bien que les courses libres n'aient généralement pas d'objectifs spécifiques, plus votre chocobo se classe haut, meilleur sera le prix que vous recevrez. Nous vous suggérons d'utiliser ces courses pour améliorer vos compétences avant de vous lancer dans les courses officielles plus difficiles.${prompt}
+  12402: Voici les informations sur la prochaine course :${prompt}
   12403: |-
-    ★Novice Race I★
-    Chocobos: 4
-    Objective: Place 3rd or higher${prompt}
-  12404: Use this race to learn the ropes. Try not to worry too much about the other chocobos, and concentrate on discovering your bird's strengths and weaknesses.${prompt}
+    ★Course Novice I★
+    Chocobos : 4
+    Objectif : Se placer 3ème ou mieux${prompt}
+  12404: Utilisez cette course pour apprendre les ficelles du métier. Essayez de ne pas trop vous inquiéter des autres chocobos et concentrez-vous sur la découverte des forces et faiblesses de votre oiseau.${prompt}
   12405: |-
-    ★Novice Race II★
-    Chocobos: 6
-    Objective: Place 3rd or higher${prompt}
-  12406: This time, your chocobo will be pitted against five opponents. Use your knowledge of your bird's strengths to provide the jockey with the most appropriate orders.${prompt}
+    ★Course Novice II★
+    Chocobos : 6
+    Objectif : Se placer 3ème ou mieux${prompt}
+  12406: Cette fois, votre chocobo sera opposé à cinq adversaires. Utilisez votre connaissance des forces de votre oiseau pour fournir au jockey les ordres les plus appropriés.${prompt}
   12407: |-
-    ★Novice Race III★
-    Chocobos: 8
-    Objective: Place 3rd or higher${prompt}
+    ★Course Novice III★
+    Chocobos : 8
+    Objectif : Se placer 3ème ou mieux${prompt}
   12408: |-
-    This race is quite similar to a free run in that there will be seven other chocobos racing against you.
-    If you have one available, try equipping an item to improve your bird's performance.${prompt}
+    Cette course est assez similaire à une course libre en ce qu'il y aura sept autres chocobos courant contre vous.
+    Si vous en avez un disponible, essayez d'équiper un objet pour améliorer les performances de votre oiseau.${prompt}
   12409: |-
-    ★Challenge Race I★
-    Chocobos: 2
-    Objective: Place 1st${prompt}
-  12410: Three of our most revered breeders have heard of your success and wish to challenge you in a head-to-head match.${prompt}
+    ★Course Défi I★
+    Chocobos : 2
+    Objectif : Se placer 1er${prompt}
+  12410: Trois de nos éleveurs les plus révérés ont entendu parler de votre succès et souhaitent vous défier dans un match en tête-à-tête.${prompt}
   12411: |-
-    ★International Race I★
-    Chocobos: 8
-    Objective: Place 3rd or higher${prompt}
-  12412: 'The ${choice: 0}[Bastok/Windurst/San d''Oria] racing team has requested your participation in a nationally sponsored match. The pride of our branch is at stake, ${name-player}!${prompt}'
+    ★Course Internationale I★
+    Chocobos : 8
+    Objectif : Se placer 3ème ou mieux${prompt}
+  12412: 'L''équipe de course ${choice: 0}[de Bastok/de Windurst/de San d''Oria] a demandé votre participation dans un match sponsorisé nationalement. La fierté de notre branche est en jeu, ${name-player} !${prompt}'
   12413: |-
-    ★International Race II★
-    Chocobos: 8
-    Objective: Place 3rd or higher${prompt}
-  12414: 'The ${choice: 0}[Windurst/San d''Oria/Bastok] racing team has requested your participation in a nationally sponsored match. You represented us well last time, ${name-player}. We''re counting on you again!${prompt}'
+    ★Course Internationale II★
+    Chocobos : 8
+    Objectif : Se placer 3ème ou mieux${prompt}
+  12414: 'L''équipe de course ${choice: 0}[de Windurst/de San d''Oria/de Bastok] a demandé votre participation dans un match sponsorisé nationalement. Vous nous avez bien représentés la dernière fois, ${name-player}. Nous comptons à nouveau sur vous !${prompt}'
   12415: |-
-    ★Challenge Race II★
-    Chocobos: 3
-    Objective: Place 1st${prompt}
-  12416: 'The challengers you defeated previously have requested a rematch. Also, ${choice: 0}[Hantileon/Zopago/Pulonono] has expressed interest in this race, and would like to participate as well.${prompt}'
+    ★Course Défi II★
+    Chocobos : 3
+    Objectif : Se placer 1er${prompt}
+  12416: 'Les défieurs que vous avez vaincus précédemment ont demandé une revanche. De plus, ${choice: 0}[Hantileon/Zopago/Pulonono] a exprimé son intérêt pour cette course et aimerait également participer.${prompt}'
   12417: |-
-    ★CRA Classic★
-    Chocobos: 8
-    Objective: Place 1st${prompt}
-  12418: 'The title of “fastest chocobo in the ${choice: 0}[Kingdom/Republic/Federation]” is up for grabs at the ${choice: 0}[d''Oraguille Victory Malm/Gustaberg Derby/Rakapopo Cup] sponsored by ${choice: 0}[the king himself/the president himself/Manustery minister Apururu herself]!${prompt}'
-  12419: 'Participation fee: ${number: 0} ${choice-plurality: 0}[chocobuck/chocobucks].'
+    ★Classique CRA★
+    Chocobos : 8
+    Objectif : Se placer 1er${prompt}
+  12418: 'Le titre de "chocobo le plus rapide ${choice: 0}[du Royaume/de la République/de la Fédération]" est en jeu au ${choice: 0}[Malm de la Victoire d''Oraguille/Derby de Gustaberg/Coupe de Rakapopo] sponsorisé par ${choice: 0}[le roi lui-même/le président lui-même/le ministre Manustery Apururu elle-même] !${prompt}'
+  12419: 'Frais de participation : ${number: 0} ${choice-plurality: 0}[chocoseau/chocoseaux].'
   12420: |-
-    Please select chocobo:
+    Veuillez sélectionner le chocobo :
     ${selection-lines}
-    Entry No. 1.
-    Entry No. 2.
-    Entry No. 3.
-    Entry No. 4.
-    Entry No. 5.
-    Entry No. 6.
-    Entry No. 7.
-    Entry No. 8.
-    Quit.
-    Return.${prompt}
+    Entrée No. 1.
+    Entrée No. 2.
+    Entrée No. 3.
+    Entrée No. 4.
+    Entrée No. 5.
+    Entrée No. 6.
+    Entrée No. 7.
+    Entrée No. 8.
+    Quitter.
+    Retour.${prompt}
   12421: |-
     ～ ${chocobo-name: 0[2]} ～
-    Owner: ${name-player}
-    Affiliation: ${choice: 1}[None/San d'Oria Branch/Bastok Branch/Windurst Branch]
-    Gender: ${choice: 2}[Male/Female]${prompt}
+    Propriétaire : ${name-player}
+    Affiliation : ${choice: 1}[Aucune/Branche de San d'Oria/Branche de Bastok/Branche de Windurst]
+    Sexe : ${choice: 2}[Mâle/Femelle]${prompt}
   12422: |-
-    Entry No. ${number: 3} ～ ${chocobo-name: 0[2]} ～
-    Owner: ${name-player}
-    Affiliation: ${choice: 1}[None/San d'Oria/Bastok/Windurst]
-    Gender: ${choice: 2}[Male/Female]${prompt}
+    Entrée No. ${number: 3} ～ ${chocobo-name: 0[2]} ～
+    Propriétaire : ${name-player}
+    Affiliation : ${choice: 1}[Aucune/San d'Oria/Bastok/Windurst]
+    Sexe : ${choice: 2}[Mâle/Femelle]${prompt}
   12423: |-
-    Entry No. ${number: 3} ～ ${chocobo-name: 1[2]} ～
-    Affiliation: ${choice: 0}[None/San d'Oria/Bastok/Windurst]
-    Gender: ${choice: 2}[Male/Female]
-    Orders: ${choice: 4}[Sprint/Keep pace/Final spurt]${prompt}
+    Entrée No. ${number: 3} ～ ${chocobo-name: 1[2]} ～
+    Affiliation : ${choice: 0}[Aucune/San d'Oria/Bastok/Windurst]
+    Sexe : ${choice: 2}[Mâle/Femelle]
+    Ordres : ${choice: 4}[Sprint/Maintenir l'allure/Sprint final]${prompt}
   12424: |-
-    Strength: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]
-    Endurance: ${choice: 1}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]
-    Discernment: ${choice: 2}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]
-    Receptivity: ${choice: 3}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}
+    Force : ${choice: 0}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]
+    Endurance : ${choice: 1}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]
+    Discernement : ${choice: 2}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]
+    Réceptivité : ${choice: 3}[Médiocre/Inférieur à la norme/Un peu déficient/Moyen/Mieux que la moyenne/Impressionnant/Exceptionnel/De première classe]${prompt}
   12425: |-
-    Weather:
-         Prefers: ${choice: 0}[Clear days/Hot, sunny days/Rainy days/Sandstorms/Windy days/Snowy days/Thunderstorms/Auroras/Dark days/None/Cloudy days]
-         Dislikes: ${choice: 0}[None/Rainy days/Thunderstorms/Windy days/Snowy days/Hot, sunny days/Sandstorms/Dark days/Auroras/None/None]
-    Abilities: ${choice: 1}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]${choice: 2}[/ & Gallop/ & Canter/ & Burrow/ & Bore/ & Auto-Regen/ & Treasure Finder]${prompt}
+    Météo :
+      Préfère : ${choice: 0}[Jours clairs/Jours chauds et ensoleillés/Jours de pluie/Tempêtes de sable/Jours venteux/Jours de neige/Orages/Aurores/Jours sombres/Aucun/Jours nuageux]
+      N'aime pas : ${choice: 0}[Rien/Jours de pluie/Orages/Jours venteux/Jours de neige/Jours chauds et ensoleillés/Tempêtes de sable/Jours sombres/Aurores/Aucun/Aucun]
+    Capacités : ${choice: 1}[Aucune/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors]${choice: 2}[/ & Galop/ & Petit galop/ & Terrier/ & Percer/ & Auto-Régén/ & Chercheur de trésors]${prompt}
   12426: |-
-    Change orders to:
+    Changer les ordres pour :
     ${selection-lines}
     Sprint.
-    Keep pace.
-    Final spurt.
-    Quit.
-    Return.${prompt}
+    Maintenir l'allure.
+    Sprint final.
+    Quitter.
+    Retour.${prompt}
   12427: |-
-    Sprint:
-    Have the jockey push your chocobo to its limits from the get go.${prompt}
+    Sprint :
+    Demandez au jockey de pousser votre chocobo à ses limites dès le départ.${prompt}
   12428: |-
-    Keep pace:
-    Have the jockey maintain a consistent pace throughout the whole race.${prompt}
+    Maintenir l'allure :
+    Demandez au jockey de maintenir un rythme constant tout au long de la course.${prompt}
   12429: |-
-    Final spurt:
-    Have the jockey save your chocobo's energy until the end of the race.${prompt}
+    Sprint final :
+    Demandez au jockey d'économiser l'énergie de votre chocobo jusqu'à la fin de la course.${prompt}
   12430: |-
-    Is this what you want?
+    Est-ce ce que vous voulez ?
     ${selection-lines}
-    Definitely.
-    Not at all.${prompt}
+    Absolument.
+    Pas du tout.${prompt}
   12431: |-
-    Equip which item?
+    Équiper quel objet ?
     ${selection-lines}
-    Nothing.
+    Rien.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
     ${lettercase: 1}${article} ${item-article: 3[2]}.
@@ -26936,111 +26937,111 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.
-    Return.${prompt}
-  12432: These are used during a race to temporarily boost the speed of your chocobo.${prompt}
-  12433: These are used during a race to temporarily regenerate your chocobo's stamina.${prompt}
-  12434: These are used during a race to temporarily resist the effects of any detrimental items aimed at your chocobo.${prompt}
-  12435: These are used during a race to greatly reduce the speed of an opponent chocobo.${prompt}
-  12436: These are used during a race to greatly reduce the stamina of an opponent chocobo.${prompt}
-  12437: These are used during a race to temporarily reduce the speed of all surrounding opponent chocobos.${prompt}
-  12438: These are used during a race to reduce the discernment of all surrounding opponent chocobos.${prompt}
-  12439: These are used during a race to temporarily clear up the weather.${prompt}
-  12440: These are used during a race to temporarily call upon a rainstorm.${prompt}
-  12441: When equipped during a race, this item will slightly increase the strength of your chocobo.${prompt}
-  12442: When equipped during a race, this item will slightly increase the stamina of your chocobo.${prompt}
-  12443: When equipped during a race, this item will slightly increase the discernment of your chocobo.${prompt}
-  12444: When equipped during a race, this item will slightly increase the receptivity of your chocobo.${prompt}
+    Quitter.
+    Retour.${prompt}
+  12432: Ceux-ci sont utilisés pendant une course pour augmenter temporairement la vitesse de votre chocobo.${prompt}
+  12433: Ceux-ci sont utilisés pendant une course pour régénérer temporairement l'endurance de votre chocobo.${prompt}
+  12434: Ceux-ci sont utilisés pendant une course pour résister temporairement aux effets de tout objet nuisible visant votre chocobo.${prompt}
+  12435: Ceux-ci sont utilisés pendant une course pour réduire considérablement la vitesse d'un chocobo adverse.${prompt}
+  12436: Ceux-ci sont utilisés pendant une course pour réduire considérablement l'endurance d'un chocobo adverse.${prompt}
+  12437: Ceux-ci sont utilisés pendant une course pour réduire temporairement la vitesse de tous les chocobos adverses environnants.${prompt}
+  12438: Ceux-ci sont utilisés pendant une course pour réduire le discernement de tous les chocobos adverses environnants.${prompt}
+  12439: Ceux-ci sont utilisés pendant une course pour éclaircir temporairement le temps.${prompt}
+  12440: Ceux-ci sont utilisés pendant une course pour invoquer temporairement un orage de pluie.${prompt}
+  12441: Lorsqu'il est équipé pendant une course, cet objet augmentera légèrement la force de votre chocobo.${prompt}
+  12442: Lorsqu'il est équipé pendant une course, cet objet augmentera légèrement l'endurance de votre chocobo.${prompt}
+  12443: Lorsqu'il est équipé pendant une course, cet objet augmentera légèrement le discernement de votre chocobo.${prompt}
+  12444: Lorsqu'il est équipé pendant une course, cet objet augmentera légèrement la réceptivité de votre chocobo.${prompt}
   12445: |-
-    Begin race?
+    Commencer la course ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12446: I am so sorry, but it seems you do not possess enough chocobucks to participate in the next race.${prompt}
-  12447: I am so, so sorry, but it seems that you do not possess enough gil to enter your chocobo in the next race.${prompt}
-  12448: 'Congratulations${choice: 0}[ on your victory/], ${name-player}. All of us here wish you the best of luck on your next race!${prompt}'
-  12449: 'You have earned ${number: 0} ${choice-plurality: 0}[chocobuck/chocobucks]!${prompt}'
-  12450: Don't worry too much about the results of that last race. You must learn from your experience and prepare yourself for the next challenge.${prompt}
-  12451: 'Congratulations! That final victory has put you in leagues with ${choice: 0}[San d''Oria''s/Bastok''s/Windurst''s] finest riders!${prompt}'
-  12452: All of us here are eager to see what accomplishments you will achieve next!${prompt}
-  12453: 'Oh, and do be careful with your ${item-singular: 0[2]}. If you happen to accidentally dispose of it, you will never be able to receive one again.${prompt}'
-  12454: So you wish to register a chocobo.${prompt}
+    Oui.
+    Non.${prompt}
+  12446: Je suis vraiment désolé, mais il semble que vous ne possédiez pas assez de chocoseaux pour participer à la prochaine course.${prompt}
+  12447: Je suis vraiment, vraiment désolé, mais il semble que vous ne possédiez pas assez de gils pour inscrire votre chocobo à la prochaine course.${prompt}
+  12448: 'Félicitations${choice: 0}[ pour votre victoire/], ${name-player}. Nous vous souhaitons tous ici bonne chance pour votre prochaine course !${prompt}'
+  12449: 'Vous avez gagné ${number: 0} ${choice-plurality: 0}[chocoseau/chocoseaux] !${prompt}'
+  12450: Ne vous inquiétez pas trop des résultats de cette dernière course. Vous devez apprendre de votre expérience et vous préparer pour le prochain défi.${prompt}
+  12451: 'Félicitations ! Cette victoire finale vous a mis dans la ligue des meilleurs coureurs de ${choice: 0}[San d''Oria/Bastok/Windurst] !${prompt}'
+  12452: Nous sommes tous ici impatients de voir quels accomplissements vous réaliserez ensuite !${prompt}
+  12453: 'Oh, et faites attention avec votre ${item-singular: 0[2]}. Si vous vous en débarrassez accidentellement, vous ne pourrez plus jamais en recevoir un autre.${prompt}'
+  12454: Vous souhaitez donc enregistrer un chocobo.${prompt}
   12455: |-
-    Let me see...
-    ${chocobo-name: 1[2]} has already been registered.${prompt}
-  12456: 'Do you wish to cancel ${chocobo-name: 1[2]}''s registration and sign up ${chocobo-name: 0[2]}?${prompt}'
+    Voyons voir...
+    ${chocobo-name: 1[2]} a déjà été enregistré.${prompt}
+  12456: 'Souhaitez-vous annuler l''enregistrement de ${chocobo-name: 1[2]} et inscrire ${chocobo-name: 0[2]} ?${prompt}'
   12457: |-
-    Register ${chocobo-name: 0[2]}?
+    Enregistrer ${chocobo-name: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12458: 'Excellent! ${chocobo-name: 0[2]} has been successfully registered.${prompt}'
-  12459: Very well.${prompt}
-  12460: I'm sorry. You have already registered that chocobo. You may race it at any time.${prompt}
-  12461: I'm sorry. Things are a little confusing now with all these entries. Would you mind coming back a little later? Thank you.${prompt}
-  12462: I'm sorry. The other chocobos have not finished resting. Please come back a little later.${prompt}
-  12463: One moment please while entries are confirmed with CRA headquarters.
-  12464: Greetings! I've been sent by the VCS to observe the final touches being put on our new racing facilities.${prompt}
-  12465: In addition, my colleagues and I will spend the next few weeks training for our positions as receptionists, vendors, and announcers.${prompt}
-  12466: Our grand opening is but a few days away. I hope to see you and all of your companions back for the big event!${prompt}
+    Oui.
+    Non.${prompt}
+  12458: 'Excellent ! ${chocobo-name: 0[2]} a été enregistré avec succès.${prompt}'
+  12459: Très bien.${prompt}
+  12460: Je suis désolé. Vous avez déjà enregistré ce chocobo. Vous pouvez le faire courir à tout moment.${prompt}
+  12461: Je suis désolé. Les choses sont un peu confuses maintenant avec toutes ces inscriptions. Pourriez-vous revenir un peu plus tard ? Merci.${prompt}
+  12462: Je suis désolé. Les autres chocobos n'ont pas fini de se reposer. Veuillez revenir un peu plus tard.${prompt}
+  12463: Un instant s'il vous plaît pendant que les inscriptions sont confirmées avec le siège de la CRA.
+  12464: Salutations ! J'ai été envoyé par la VCS pour observer les dernières retouches apportées à nos nouvelles installations de course.${prompt}
+  12465: De plus, mes collègues et moi passerons les prochaines semaines à nous entraîner pour nos postes de réceptionnistes, vendeurs et annonceurs.${prompt}
+  12466: Notre grande ouverture n'est que dans quelques jours. J'espère vous voir, vous et tous vos compagnons, de retour pour le grand événement !${prompt}
   12467: |-
     Ah, ${name-player}.
-    We have been holding on to the prize from your last race until you had room enough in your gobbiebag to carry it back to your Mog House.${prompt}
+    Nous gardions le prix de votre dernière course jusqu'à ce que vous ayez assez de place dans votre gobbiesac pour le ramener à votre Maison Mog.${prompt}
   12468: |-
-    Might you be ${name-player}?
-    Excellent. VCS headquarters was informed that you would be stopping by our branch, and sent this package containing the prize from your last race.${prompt}
-  12469: ${name-player}, thank you for waiting.${prompt}
+    Seriez-vous ${name-player} ?
+    Excellent. Le siège de la VCS a été informé que vous passeriez par notre branche, et a envoyé ce colis contenant le prix de votre dernière course.${prompt}
+  12469: ${name-player}, merci d'avoir attendu.${prompt}
   12470: |-
-    Much to the VCS and the CRA's delight, the recent efforts of chocobo breeders across Vana'diel has helped to generate an unprecedented amount of interest in our endeavor.
-    More people than ever have begun to express an interest in raising their own chocobo.${prompt}
+    Au grand plaisir de la VCS et de la CRA, les efforts récents des éleveurs de chocobos à travers Vana'diel ont aidé à générer un intérêt sans précédent pour notre entreprise.
+    Plus de gens que jamais ont commencé à exprimer un intérêt à élever leur propre chocobo.${prompt}
   12471: |-
-    As a means of expressing our gratitude, we have therefore decided to confer upon the victors of CRA Classics rewards befitting a champion.
-    We congratulate you on your impressive achievement, ${name-player}. You are a true inspiration for breeders everywhere!${prompt}
-  12472: "Hello there, ${name-player}.\nWhy yes, we are holding your ${item-singular: 0[2]}. \nHere you are.${prompt}"
+    Comme moyen d'exprimer notre gratitude, nous avons donc décidé de conférer aux vainqueurs des Classiques CRA des récompenses dignes d'un champion.
+    Nous vous félicitons pour votre impressionnant accomplissement, ${name-player}. Vous êtes une véritable inspiration pour les éleveurs partout !${prompt}
+  12472: "Bonjour, ${name-player}.\nOui, nous gardons votre ${item-singular: 0[2]}. \nVoici.${prompt}"
   12473: |-
-    Good day to you, ${name-player}.
-    Indeed, we are currently holding your ${item-singular: 0[2]} from the CRA for safekeeping.
-    Here you are.${prompt}
+    Bonjour à vous, ${name-player}.
+    En effet, nous gardons actuellement votre ${item-singular: 0[2]} de la CRA en lieu sûr.
+    Voici.${prompt}
   12474: |-
-    What do you want to do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Change value.
-    Unregister 'bo.
-    Default.
-    Create documentation.
-    Change PVP values.
-    Quit.${prompt}
+    Changer la valeur.
+    Désenregistrer le 'bo.
+    Par défaut.
+    Créer de la documentation.
+    Changer les valeurs PVP.
+    Quitter.${prompt}
   12475: |-
-    Change which values?
+    Changer quelles valeurs ?
     ${selection-lines}
-    Indv. Win Points: ${number: 0}.
-    No. of entries: ${number: 1}.
-    No. of victories: ${number: 2}.
-    Reset re-race timer.
-    Reset userwork.
-    Quit.${prompt}
+    Pts de Victoire Indiv. : ${number: 0}.
+    Nombre d'inscriptions : ${number: 1}.
+    Nombre de victoires : ${number: 2}.
+    Réinitialiser le timer de re-course.
+    Réinitialiser le travail utilisateur.
+    Quitter.${prompt}
   12476: |-
-    What do you want to change?
+    Que voulez-vous changer ?
     ${selection-lines}
-    Branch ${choice: 0}[None/San/Bas/Win].
-    Chocobucks: ${number: 1}.
-    Cleared Stages: ${number: 2}.
-    Stage Challenge Flag: ${choice: 3}[off/on].
-    Practice Times: ${number: 4}.
-    Stock Item.
-    Jockey Orders: ${choice: 5}[Sprint/Keep pace/Final spurt].
-    Equipment: ${lettercase: 1}${item-singular: 6[2]}.
-    Chocobo Data.
-    Nothing.${prompt}
+    Branche ${choice: 0}[Aucune/San/Bas/Win].
+    Chocoseaux : ${number: 1}.
+    Étapes franchies : ${number: 2}.
+    Drapeau de Défi d'Étape : ${choice: 3}[désactivé/activé].
+    Temps d'Entraînement : ${number: 4}.
+    Objet en Stock.
+    Ordres du Jockey : ${choice: 5}[Sprint/Maintenir l'allure/Sprint final].
+    Équipement : ${lettercase: 1}${item-singular: 6[2]}.
+    Données du Chocobo.
+    Rien.${prompt}
   12477: |-
-    Set to where?
+    Définir où ?
     ${selection-lines}
     San d'Oria.
     Bastok.
     Windurst.
-    Quit.${prompt}
+    Quitter.${prompt}
   12478: |-
-    Enter #：${number: 0}
+    Entrer # : ${number: 0}
     ${selection-lines}
     ０.
     １.
@@ -27052,12 +27053,12 @@ entries:
     ７.
     ８.
     ９.
-    Cancel.
-    Confirm.${prompt}
+    Annuler.
+    Confirmer.${prompt}
   12479: |-
-    How many stages cleared?
+    Combien d'étapes franchies ?
     ${selection-lines}
-    None.
+    Aucune.
     1.
     2.
     3.
@@ -27072,9 +27073,9 @@ entries:
     12.
     13.
     14.
-    Quit.${prompt}
+    Quitter.${prompt}
   12480: |-
-    How many times practiced?
+    Combien de fois entraîné ?
     ${selection-lines}
     ０.
     １.
@@ -27085,15 +27086,15 @@ entries:
     ６.
     ７.
     ８.
-    Quit.${prompt}
+    Quitter.${prompt}
   12481: |-
-    Stage Challenge Flag：${choice: 0}[ON/OFF]
+    Drapeau de Défi d'Étape : ${choice: 0}[ACTIVÉ/DÉSACTIVÉ]
     ${selection-lines}
-    ON (Can't challenge).
-    OFF (Can challenge).
-    Quit.${prompt}
+    ACTIVÉ (Ne peut pas défier).
+    DÉSACTIVÉ (Peut défier).
+    Quitter.${prompt}
   12482: |-
-    Select a stock item.
+    Sélectionner un objet en stock.
     ${selection-lines}
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
@@ -27126,23 +27127,23 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.${prompt}
+    Quitter.${prompt}
   12483: |-
-    Currently in possession: ${choice: 0}[No/Yes].
+    Actuellement en possession : ${choice: 0}[Non/Oui].
     ${selection-lines}
-    ${choice: 0}[Get?/Toss?]
-    Quit.${prompt}
+    ${choice: 0}[Obtenir ?/Jeter ?]
+    Quitter.${prompt}
   12484: |-
-    Select Order:
+    Sélectionner l'Ordre :
     ${selection-lines}
     Sprint.
-    Keep pace.
-    Final spurt.
-    Quit.${prompt}
+    Maintenir l'allure.
+    Sprint final.
+    Quitter.${prompt}
   12485: |-
-    Now: ${lettercase: 1}${item-singular: 31[2]}.
+    Maintenant : ${lettercase: 1}${item-singular: 31[2]}.
     ${selection-lines}
-    None.
+    Aucun.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
     ${lettercase: 1}${article} ${item-article: 3[2]}.
@@ -27173,295 +27174,295 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.${prompt}
+    Quitter.${prompt}
   12486: |-
-    work0：${number: 0}work1：${number: 1}
-    work2：${number: 2}work3：${number: 3}
+    travail0 : ${number: 0} travail1 : ${number: 1}
+    travail2 : ${number: 2} travail3 : ${number: 3}
   12487: |-
-    Select Place:
+    Sélectionner la Place :
     ${selection-lines}
-    Don't.
-    １st.
-    ２nd.
-    ３rd.
-    ４th.
-    ５th.
-    ６th.
-    ７th.
-    ８th.${prompt}
-  12488: Waiting...${prompt}
-  12489: Calling...
+    Non.
+    １er.
+    ２ème.
+    ３ème.
+    ４ème.
+    ５ème.
+    ６ème.
+    ７ème.
+    ８ème.${prompt}
+  12488: Attente...${prompt}
+  12489: Appel...
   12490: |-
     ${entity: 0}
     ${entity: 1}
     ${entity: 2}
     ${entity: 3}${prompt}
-  12491: 'ST ${number: 0}/${number: 1}/${number: 2}/${number: 3}/${number: 4}/${number: 5}/${number: 6}/${number: 7}'
-  12492: 'ED ${number: 0}/${number: 1}/${number: 2}/${number: 3}/${number: 4}/${number: 5}/${number: 6}/${number: 7}'
+  12491: 'DÉB ${number: 0}/${number: 1}/${number: 2}/${number: 3}/${number: 4}/${number: 5}/${number: 6}/${number: 7}'
+  12492: 'FIN ${number: 0}/${number: 1}/${number: 2}/${number: 3}/${number: 4}/${number: 5}/${number: 6}/${number: 7}'
   12493: 'AC ${number: 0}'
   12494: |-
-    Allez vous Le Debug Settings?
+    Allez-vous aux Paramètres de Débogage ?
     ${selection-lines}
     Oui.
     Non.${prompt}
   12495: |-
-    Select goodness:
+    Sélectionner la bonté :
     ${selection-lines}
-    Race portion (${number: 0}/${number: 1}).
-    Cut Scene (${choice: 2}[Yes/No]).
-    Opening (${choice: 3}[Yes/No]).
-    On screen text (${choice: 4}[On/Off]).
-    Cancel Race.
-    Start Race.${prompt}
+    Portion de course (${number: 0}/${number: 1}).
+    Scène cinématique (${choice: 2}[Oui/Non]).
+    Ouverture (${choice: 3}[Oui/Non]).
+    Texte à l'écran (${choice: 4}[Activé/Désactivé]).
+    Annuler la Course.
+    Démarrer la Course.${prompt}
   12496: |-
-    Select race portion?
+    Sélectionner la portion de course ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12497: Select starting node. (0-31)
-  12498: Select ending node. (1-32)
+    Oui.
+    Non.${prompt}
+  12497: Sélectionner le nœud de départ. (0-31)
+  12498: Sélectionner le nœud de fin. (1-32)
   12499: |-
-    Play Cut Scene?
+    Jouer la Scène Cinématique ?
     ${selection-lines}
-    Yessir.
-    No way.${prompt}
+    Oui monsieur.
+    Pas question.${prompt}
   12500: |-
-    Play Opening?
+    Jouer l'Ouverture ?
     ${selection-lines}
-    Yep.
-    Nope.${prompt}
+    Oui.
+    Non.${prompt}
   12501: |-
-    Display Condition?
+    Afficher la Condition ?
     ${selection-lines}
-    Yes.
-    No. (Default)${prompt}
+    Oui.
+    Non. (Par défaut)${prompt}
   12502: |-
     ${number: 0}/${number: 1}/${number: 2}/${number: 3}
     ${number: 4}/${number: 5}/${number: 6}/${number: 7}
-  12503: 'Race No. ${number: 0}'
+  12503: 'Course No. ${number: 0}'
   12504: |-
-    Adjust what?
+    Ajuster quoi ?
     ${selection-lines}
-    Strength: ${number: 0}
-    Endurance: ${number: 1}
-    Discernment: ${number: 2}
-    Receptivity: ${number: 3}
-    Head: ${choice: 4}[Normal/Big]
-    Legs: ${choice: 5}[Normal/Big]
-    Tail: ${choice: 6}[Normal/Big]
-    Ability 1: ${choice: 7}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]
-    Ability 2: ${choice: 8}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]
-    Personality: ${choice: 9}[regular/fierce/patient/nervous/mysterious]
-    Waether: ${choice: 10}[Clear/Fire/Rain/Dust/Wind/Snow/Lightning/Light/Dark/--/Cloudy]
-    Sex: ${choice: 11}[♂/♀]
-    Color: ${choice: 12}[Yellow/Black/Blue/Red/Green]
-    Size: ${choice: 13}[Hume♂/Hume♀/Elvaan♂/Elvaan♀/Tarutaru♂/Tarutaru♀/Mithra/Galka]
-    Create Registration.
-    Quit.${prompt}
+    Force : ${number: 0}
+    Endurance : ${number: 1}
+    Discernement : ${number: 2}
+    Réceptivité : ${number: 3}
+    Tête : ${choice: 4}[Normale/Grande]
+    Pattes : ${choice: 5}[Normales/Grandes]
+    Queue : ${choice: 6}[Normale/Grande]
+    Capacité 1 : ${choice: 7}[Aucune/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors]
+    Capacité 2 : ${choice: 8}[Aucune/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors]
+    Personnalité : ${choice: 9}[normale/féroce/patiente/nerveuse/mystérieuse]
+    Météo : ${choice: 10}[Claire/Feu/Pluie/Poussière/Vent/Neige/Foudre/Lumière/Obscurité/--/Nuageux]
+    Sexe : ${choice: 11}[♂/♀]
+    Couleur : ${choice: 12}[Jaune/Noir/Bleu/Rouge/Vert]
+    Taille : ${choice: 13}[Hume♂/Hume♀/Elfe♂/Elfe♀/Tarutaru♂/Tarutaru♀/Mithra/Galka]
+    Créer l'Enregistrement.
+    Quitter.${prompt}
   12505: |-
-    Which?（Now:${choice: 0}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder])
+    Lequel ? (Maintenant : ${choice: 0}[Aucune/Galop/Petit galop/Terrier/Percer/Auto-Régén/Chercheur de trésors])
     ${selection-lines}
-    None.
-    Gallop.
-    Canter.
-    Burrow.
-    Bore.
-    Auto-Regen.
-    Treasure Finder.
-    Quit.${prompt}
+    Aucun.
+    Galop.
+    Petit galop.
+    Terrier.
+    Percer.
+    Auto-Régén.
+    Chercheur de trésors.
+    Quitter.${prompt}
   12506: |-
-    Which?（Now: ${choice: 0}[regular/fierce/patient/nervous/mysterious])
+    Lequel ? (Maintenant : ${choice: 0}[normale/féroce/patiente/nerveuse/mystérieuse])
     ${selection-lines}
-    Regular.
-    Fierce.
-    Patient.
-    Nervous.
-    Mysterious.
-    Quit.${prompt}
+    Normale.
+    Féroce.
+    Patiente.
+    Nerveuse.
+    Mystérieuse.
+    Quitter.${prompt}
   12507: |-
-    Which type?（Now: ${choice: 0}[Normal/Special])
+    Quel type ? (Maintenant : ${choice: 0}[Normal/Spécial])
     ${selection-lines}
     Normal.
-    Special.
-    Quit.${prompt}
+    Spécial.
+    Quitter.${prompt}
   12508: |-
-    Which?（Now: ${choice: 0}[♂/♀])
+    Lequel ? (Maintenant : ${choice: 0}[♂/♀])
     ${selection-lines}
     ♂.
     ♀.
-    Quit.${prompt}
+    Quitter.${prompt}
   12509: |-
-    Which? (Now:${choice: 0}[Hume♂/Hume♀/Elvaan♂/Elvaan♀/Tarutaru♂/Tarutaru♀/Mithra/Galka])
+    Lequel ? (Maintenant : ${choice: 0}[Hume♂/Hume♀/Elfe♂/Elfe♀/Tarutaru♂/Tarutaru♀/Mithra/Galka])
     ${selection-lines}
     Hume♂.
     Hume♀.
-    Elvaan♂.
-    Elvaan♀.
+    Elfe♂.
+    Elfe♀.
     Tarutaru♂.
     Tarutaru♀.
     Mithra.
     Galka.
-    Quit.${prompt}
-  12510: "Which? (Now: ${choice: 0}[Clear/Fire/Rain/Dust/Wind/Snow/Lightning/Light/Dark/--/Cloudy])\n${selection-lines}\nClear.\nFire.\nSnow.\nWind.\nSand.\nLightning.\nRain.\nAurora.\nDarkness.\n \nCloudy.\nQuit.${prompt}"
+    Quitter.${prompt}
+  12510: "Lequel ? (Maintenant : ${choice: 0}[Claire/Feu/Pluie/Poussière/Vent/Neige/Foudre/Lumière/Obscurité/--/Nuageux])\n${selection-lines}\nClaire.\nFeu.\nNeige.\nVent.\nSable.\nFoudre.\nPluie.\nAurore.\nObscurité.\n \nNuageux.\nQuitter.${prompt}"
   12511: |-
-    Which? (Now: ${choice: 0}[Yellow/Black/Blue/Red/Green])
+    Lequel ? (Maintenant : ${choice: 0}[Jaune/Noir/Bleu/Rouge/Vert])
     ${selection-lines}
-    Yellow.
-    Black.
-    Blue.
-    Red.
-    Green.
-    Quit.${prompt}
-  12512: 'RND(${number: 0})'
+    Jaune.
+    Noir.
+    Bleu.
+    Rouge.
+    Vert.
+    Quitter.${prompt}
+  12512: 'ALÉ(${number: 0})'
   12513: |-
-    Altana Cup
+    Coupe Altana
     ${selection-lines}
-    Day 1 - Race 1.
-    Day 1 - Race 2.
-    Day 2 - Race 1.
-    Day 2 - Race 2.
-    Quit.${prompt}
+    Jour 1 - Course 1.
+    Jour 1 - Course 2.
+    Jour 2 - Course 1.
+    Jour 2 - Course 2.
+    Quitter.${prompt}
   12514: |-
-    Altana Cup: ${choice: 0}[Day 1 - Race 1/Day 1 - Race 2/Day 2 - Race 1/Day 2 - Race 2]
+    Coupe Altana : ${choice: 0}[Jour 1 - Course 1/Jour 1 - Course 2/Jour 2 - Course 1/Jour 2 - Course 2]
     ${selection-lines}
-    Start Race.
-    Quit.${prompt}
-  12515: 'Entry No. ${number: 0} ～ ${entity: 0} ～${prompt}'
-  12516: 'ch0：${number: 0} ch1：${number: 1} ch2：${number: 2} ch3：${number: 3}'
-  12517: Check.
-  12518: 'Time: ${number: 0}'
-  12519: 'Step: ${choice: 0}[Standby/Formatting/Registration/Calculating Odds/Placing Chocobets/Waiting for Race/Running Race/Paying Out/Resting].'
-  12520: 'Audience Flag: ON（ch1）'
-  12521: 'Audience Flag: ON（ch2）'
-  12522: 'Audience Flag: ON（ch3）'
-  12523: 'Audience Flag: ON（ch4）'
-  12524: Sending Race Data.
+    Démarrer la Course.
+    Quitter.${prompt}
+  12515: 'Entrée No. ${number: 0} ～ ${entity: 0} ～${prompt}'
+  12516: 'ch0 : ${number: 0} ch1 : ${number: 1} ch2 : ${number: 2} ch3 : ${number: 3}'
+  12517: Vérifier.
+  12518: 'Temps : ${number: 0}'
+  12519: 'Étape : ${choice: 0}[Attente/Formatage/Inscription/Calcul des Cotes/Placement des Chocoaparis/Attente de Course/Course en Cours/Paiement/Repos].'
+  12520: 'Drapeau Public : ACTIVÉ (ch1)'
+  12521: 'Drapeau Public : ACTIVÉ (ch2)'
+  12522: 'Drapeau Public : ACTIVÉ (ch3)'
+  12523: 'Drapeau Public : ACTIVÉ (ch4)'
+  12524: Envoi des Données de Course.
   12525: |-
-    Reception Increments: ${number: 6} sec.
+    Incréments de Réception : ${number: 6} sec.
     ${selection-lines}
-    ${choice: 0}[Stop/Go]：Channel １
-    ${choice: 1}[Stop/Go]：Channel ２
-    ${choice: 2}[Stop/Go]：Channel ３
-    ${choice: 3}[Stop/Go]：Channel ４
-    Stop all channels.
-    Start all channels.
-    Check World File.
-    R Check ${number: 4}.
-    ${choice: 8}[On/Off]：Event Switch
-    Quit.${prompt}
+    ${choice: 0}[Arrêt/Go] : Canal １
+    ${choice: 1}[Arrêt/Go] : Canal ２
+    ${choice: 2}[Arrêt/Go] : Canal ３
+    ${choice: 3}[Arrêt/Go] : Canal ４
+    Arrêter tous les canaux.
+    Démarrer tous les canaux.
+    Vérifier le Fichier Monde.
+    Vérifier R ${number: 4}.
+    ${choice: 8}[Activé/Désactivé] : Interrupteur d'Événement
+    Quitter.${prompt}
   12526: |-
-    ～Current Team Victory Points～
-    San：${number: 0}（Place: ${number: 3}）
-    Bas：${number: 1}（Place: ${number: 4}）
-    Win：${number: 2}（Place: ${number: 5}）
-  12527: Started Race Cycle.
-  12528: Stopped new race cycle.
+    ～Points de Victoire d'Équipe Actuels～
+    San : ${number: 0} (Place : ${number: 3})
+    Bas : ${number: 1} (Place : ${number: 4})
+    Win : ${number: 2} (Place : ${number: 5})
+  12527: Cycle de Course Démarré.
+  12528: Arrêt du nouveau cycle de course.
   12529: |-
-    STATUS：【${choice: 2}[Off/On]】／STEP：【${choice: 3}[Standby/Formatting/Registration/Calculating Odds/Placing Chocobets/Waiting for Race/Running Race/Paying Out/Resting]】
+    STATUT : 【${choice: 2}[Désactivé/Activé]】／ÉTAPE : 【${choice: 3}[Attente/Formatage/Inscription/Calcul des Cotes/Placement des Chocoaparis/Attente de Course/Course en Cours/Paiement/Repos]】
     ${selection-lines}
-    Race No：${number: 4}（${number: 5}）
-    Update Data.
-    Progression Control:【${choice: 0}[Auto/Manual]】
-    Step Override:【Next step is ${choice: 1}[Standby/Formatting/Registration/Calculating Odds/Placing Chocobets/Waiting for Race/Running Race/Paying Out/Resting]】
-    Grade Set:【${choice: 6}[No/Yes]】Server Value: ${number: 7}
-    Quit.${prompt}
-  12530: Event switch is now on.
-  12531: Event switch is now off.
-  12532: Moved one step forward.${prompt}
+    Course No : ${number: 4} (${number: 5})
+    Mettre à jour les Données.
+    Contrôle de Progression : 【${choice: 0}[Auto/Manuel]】
+    Remplacement d'Étape : 【Prochaine étape est ${choice: 1}[Attente/Formatage/Inscription/Calcul des Cotes/Placement des Chocoaparis/Attente de Course/Course en Cours/Paiement/Repos]】
+    Ensemble de Grades : 【${choice: 6}[Non/Oui]】Valeur Serveur : ${number: 7}
+    Quitter.${prompt}
+  12530: L'interrupteur d'événement est maintenant activé.
+  12531: L'interrupteur d'événement est maintenant désactivé.
+  12532: Avancé d'une étape.${prompt}
   12533: |-
-    Created Race.
-    Channel：${number: 0} Memory Block：${number: 1}${prompt}
-  12534: 'Error: Data Send not Finished.${prompt}'
-  12535: 'Error: Not registered${prompt}'
-  12536: 'Today is: ${choice: 0}[Sunday./Monday./Tuesday./Wed./Thurs./Fri./Sat.]'
-  12537: One moment please.${prompt}
-  12538: Audience registration complete.${prompt}
-  12539: Race underway.${prompt}
-  12540: Preparing for next race.${prompt}
-  12541: I am currently accepting race applications.${prompt}
-  12542: I'm sorry, but I am currently not accepting race applications.${prompt}
+    Course Créée.
+    Canal : ${number: 0} Bloc Mémoire : ${number: 1}${prompt}
+  12534: 'Erreur : Envoi de Données non Terminé.${prompt}'
+  12535: 'Erreur : Non enregistré${prompt}'
+  12536: 'Aujourd''hui c''est : ${choice: 0}[Dimanche./Lundi./Mardi./Mercredi./Jeudi./Vendredi./Samedi.]'
+  12537: Un instant s'il vous plaît.${prompt}
+  12538: Inscription du public terminée.${prompt}
+  12539: Course en cours.${prompt}
+  12540: Préparation pour la prochaine course.${prompt}
+  12541: J'accepte actuellement les candidatures de course.${prompt}
+  12542: Je suis désolé, mais je n'accepte actuellement pas les candidatures de course.${prompt}
   12543: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    View race information.
-    View personal data.
-    Change racing teams.
-    Quit.${prompt}
+    Voir les informations de course.
+    Voir les données personnelles.
+    Changer d'équipe de course.
+    Quitter.${prompt}
   12544: |-
-    What would you like to do?
+    Que souhaitez-vous faire ?
     ${selection-lines}
-    View race information.
-    View personal data.
-    Change racing teams.
-    Jockey orders: ${choice: 0}[Sprint/Keep pace/Final spurt].
-    Equipment: ${lettercase: 1}${item-singular: 1[2]}.
-    Equipment: None.
-    Sign up your chocobo to race.
-    Quit.${prompt}
-  12545: Here you can sign up your race chocobo to take part in our races.${prompt}
-  12546: Please note that once you sign up for a race, you will be unable to compete again for a period of 20 hours (Earth time).${prompt}
-  12547: All right. First of all, we will have to choose a saddle for your mount.${prompt}
+    Voir les informations de course.
+    Voir les données personnelles.
+    Changer d'équipe de course.
+    Ordres du jockey : ${choice: 0}[Sprint/Maintenir l'allure/Sprint final].
+    Équipement : ${lettercase: 1}${item-singular: 1[2]}.
+    Équipement : Aucun.
+    Inscrire votre chocobo pour courir.
+    Quitter.${prompt}
+  12545: Ici vous pouvez inscrire votre chocobo de course pour participer à nos courses.${prompt}
+  12546: Veuillez noter qu'une fois que vous vous inscrivez pour une course, vous ne pourrez plus concourir pendant une période de 20 heures (temps terrestre).${prompt}
+  12547: Très bien. Tout d'abord, nous devrons choisir une selle pour votre monture.${prompt}
   12548: |-
-    Which saddle would you like to use?
+    Quelle selle souhaitez-vous utiliser ?
     ${selection-lines}
-    Lauan saddle.
-    Ash saddle.
-    Elm saddle.
-    Brass saddle.
-    Silver saddle.
-    Mythril saddle.
-    Grass saddle.
-    Cotton saddle.
-    Linen saddle.
-    Rabbit hide saddle.
-    Sheep leather saddle.
-    Buffalo leather saddle.
-    Quit.${prompt}
-  12549: A standard model, the lauan saddle will stabilize your chocobo's stride.${prompt}
-  12550: A standard model, the ash saddle will stabilize your chocobo's stride. It also increases your mount's endurance.${prompt}
-  12551: A standard model, the elm saddle will stabilize your chocobo's stride. It also increases your mount's endurance.${prompt}
-  12552: A bit on the hefty side, the brass saddle can be somewhat taxing on a chocobo's endurance. It compensates for this, however, by increasing the bird's strength.${prompt}
-  12553: A bit on the hefty side, the silver saddle can be somewhat taxing on a chocobo's endurance. It compensates for this, however, by increasing the bird's strength.${prompt}
-  12554: A bit on the hefty side, the mythril saddle can be somewhat taxing on a chocobo's endurance. It compensates for this, however, by increasing the bird's strength.${prompt}
-  12555: This lightweight grass saddle can create a marked improvement in physical performance. However, a chocobo will require some degree of discernment to reap its benefits.${prompt}
-  12556: This lightweight cotton saddle can create a marked improvement in physical performance. However, a chocobo will require some degree of discernment to reap its benefits.${prompt}
-  12557: This lightweight linen saddle can create a marked improvement in physical performance. However, a chocobo will require some degree of discernment to reap its benefits.${prompt}
-  12558: Crafted from the finest rabbit hide, this saddle can improve physical performance, but only for chocobos with at least moderate receptivity.${prompt}
-  12559: Crafted from the finest sheep leather, this saddle can improve physical performance, but only for chocobos with at least moderate receptivity.${prompt}
-  12560: Crafted from the finest buffalo leather, this saddle can improve physical performance, but only for chocobos with at least moderate receptivity.${prompt}
-  12561: Now that that's settled, if you'd kindly select the lane in which you'd like to race. The lanes are numbered in ascending order from innermost to outermost. The following lanes are now available:${prompt}
+    Selle lauan.
+    Selle frêne.
+    Selle orme.
+    Selle laiton.
+    Selle argent.
+    Selle mythril.
+    Selle herbe.
+    Selle coton.
+    Selle lin.
+    Selle peau de lapin.
+    Selle cuir de mouton.
+    Selle cuir de buffle.
+    Quitter.${prompt}
+  12549: Un modèle standard, la selle lauan stabilisera la foulée de votre chocobo.${prompt}
+  12550: Un modèle standard, la selle frêne stabilisera la foulée de votre chocobo. Elle augmente également l'endurance de votre monture.${prompt}
+  12551: Un modèle standard, la selle orme stabilisera la foulée de votre chocobo. Elle augmente également l'endurance de votre monture.${prompt}
+  12552: Un peu du côté lourd, la selle laiton peut être quelque peu taxante sur l'endurance d'un chocobo. Elle compense cela, cependant, en augmentant la force de l'oiseau.${prompt}
+  12553: Un peu du côté lourd, la selle argent peut être quelque peu taxante sur l'endurance d'un chocobo. Elle compense cela, cependant, en augmentant la force de l'oiseau.${prompt}
+  12554: Un peu du côté lourd, la selle mythril peut être quelque peu taxante sur l'endurance d'un chocobo. Elle compense cela, cependant, en augmentant la force de l'oiseau.${prompt}
+  12555: Cette selle herbe légère peut créer une amélioration marquée des performances physiques. Cependant, un chocobo aura besoin d'un certain degré de discernement pour en récolter les bénéfices.${prompt}
+  12556: Cette selle coton légère peut créer une amélioration marquée des performances physiques. Cependant, un chocobo aura besoin d'un certain degré de discernement pour en récolter les bénéfices.${prompt}
+  12557: Cette selle lin légère peut créer une amélioration marquée des performances physiques. Cependant, un chocobo aura besoin d'un certain degré de discernement pour en récolter les bénéfices.${prompt}
+  12558: Fabriquée à partir de la meilleure peau de lapin, cette selle peut améliorer les performances physiques, mais seulement pour les chocobos avec au moins une réceptivité modérée.${prompt}
+  12559: Fabriquée à partir du meilleur cuir de mouton, cette selle peut améliorer les performances physiques, mais seulement pour les chocobos avec au moins une réceptivité modérée.${prompt}
+  12560: Fabriquée à partir du meilleur cuir de buffle, cette selle peut améliorer les performances physiques, mais seulement pour les chocobos avec au moins une réceptivité modérée.${prompt}
+  12561: Maintenant que c'est réglé, si vous voulez bien sélectionner la piste dans laquelle vous souhaitez courir. Les pistes sont numérotées par ordre croissant de l'intérieur vers l'extérieur. Les pistes suivantes sont maintenant disponibles :${prompt}
   12562: |-
-    In which lane would you like to race?
+    Dans quelle piste souhaitez-vous courir ?
     ${selection-lines}
-    Lane 1.
-    Lane 2.
-    Lane 3.
-    Lane 4.
-    Lane 5.
-    Lane 6.
-    Lane 7.
-    Lane 8.
-    Quit.${prompt}
-  12563: 'I know that look! Lane ${number: 0} it is!${prompt}'
-  12564: 'Race fees will include a charge of ${number: 0} gil and ${number: 1} ${choice-plurality: 1}[chocobuck/chocobucks].${prompt}'
+    Piste 1.
+    Piste 2.
+    Piste 3.
+    Piste 4.
+    Piste 5.
+    Piste 6.
+    Piste 7.
+    Piste 8.
+    Quitter.${prompt}
+  12563: 'Je connais ce regard ! Piste ${number: 0} ce sera !${prompt}'
+  12564: 'Les frais de course incluront des frais de ${number: 0} gils et ${number: 1} ${choice-plurality: 1}[chocoseau/chocoseaux].${prompt}'
   12565: |-
-    Do you wish to proceed?
+    Souhaitez-vous continuer ?
     ${selection-lines}
-    Yes! I'm ready to tear up the track!
-    I'm getting cold feet...${prompt}
-  12566: Very well. You have now been registered to race.${prompt}
-  12567: 'My apologies, but it seems that over four weeks have elapsed since your last race. As much as it pains me to do so, I will be forced to deduct ${number: 0} Solo Victory ${choice-plurality: 0}[Point/Points] from your account.${prompt}'
-  12568: I'm sorry, but I am unable to process your registration at this time.${prompt}
-  12569: I apologize, but the slot you have applied for has already been taken.${prompt}
-  12570: I understand your eagerness, but sadly, not enough time has passed for you to register for a new race. Please try again later.${prompt}
-  12571: I'm sorry, but only racers affiliated with one of the three recognized racing teams are eligible for signup.${prompt}
-  12572: It seems you have not yet fulfilled the necessary requirements for race eligibility. I'm sorry, but I cannot sign up your chocobo.${prompt}
-  12573: We look forward to seeing you again.${prompt}
-  12574: The race you have signed up for will begin shortly. Please stand by until then.${prompt}
-  12575: We regret to inform you that the race you had signed up for has been cancelled. We apologize for any inconvenience.${prompt}
-  12576: 'Of course, we will return your ${item-singular: 0[2]} and refund your racing fee. Also, your eligibility to race will be reestablished immediately. Thank you for your understanding.${prompt}'
-  12577: Your racing fees have been refunded.
-  12578: You must join a racing team before participating in any races.${prompt}
+    Oui ! Je suis prêt à déchirer la piste !
+    J'ai des doutes...${prompt}
+  12566: Très bien. Vous êtes maintenant enregistré pour courir.${prompt}
+  12567: 'Mes excuses, mais il semble que plus de quatre semaines se sont écoulées depuis votre dernière course. Bien que cela me peine de le faire, je serai obligé de déduire ${number: 0} ${choice-plurality: 0}[Point/Points] de Victoire Solo de votre compte.${prompt}'
+  12568: Je suis désolé, mais je suis incapable de traiter votre inscription pour le moment.${prompt}
+  12569: Je m'excuse, mais la place pour laquelle vous avez postulé a déjà été prise.${prompt}
+  12570: Je comprends votre empressement, mais malheureusement, pas assez de temps ne s'est écoulé pour que vous vous inscriviez à une nouvelle course. Veuillez réessayer plus tard.${prompt}
+  12571: Je suis désolé, mais seuls les coureurs affiliés à l'une des trois équipes de course reconnues sont éligibles pour l'inscription.${prompt}
+  12572: Il semble que vous n'ayez pas encore rempli les conditions nécessaires pour l'éligibilité à la course. Je suis désolé, mais je ne peux pas inscrire votre chocobo.${prompt}
+  12573: Nous avons hâte de vous revoir.${prompt}
+  12574: La course pour laquelle vous vous êtes inscrit commencera bientôt. Veuillez patienter jusque-là.${prompt}
+  12575: Nous regrettons de vous informer que la course pour laquelle vous vous étiez inscrit a été annulée. Nous nous excusons pour tout inconvénient.${prompt}
+  12576: 'Bien sûr, nous vous rendrons votre ${item-singular: 0[2]} et rembourserons vos frais de course. De plus, votre éligibilité à courir sera rétablie immédiatement. Merci de votre compréhension.${prompt}'
+  12577: Vos frais de course ont été remboursés.
+  12578: Vous devez rejoindre une équipe de course avant de participer à toute course.${prompt}
   12579: |-
     Affiliate yourself with a racing team?
     ${selection-lines}
