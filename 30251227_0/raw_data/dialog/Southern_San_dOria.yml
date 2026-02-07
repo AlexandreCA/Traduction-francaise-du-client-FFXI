@@ -35720,456 +35720,456 @@ entries:
     Et y'a pas d'meilleur sentiment qu'd'prendre d'la camelote et d'la transformer en trésor. C'est pratiquamage une nouvelle forme d'alchimie !
     Mais allez pas trop fort et remplissez pas l'truc jusqu'à c'que les charnières cassent. Les boîtes mystèry-wery poussent pas sur les goobbues, vous savez.${prompt}
   15701: |-
-    Plus, I'll be here tah stops ya if I sees ya stuffin' whole Gobbiebags worth o' possessions in dere, so don't worry yer oversized noggin' over and over over it.
-    Whats was I sayin' again? Ugh, never mind.${prompt}
+    De plus, je serai là pour t'arrêter si je te vois fourrer des Gobbiebags entiers de possessions là-dedans, alors ne t'inquiète pas ton gros caillou encore et encore.
+    Qu'est-ce que je disais déjà ? Ugh, peu importe.${prompt}
   15702: |-
-    Sadly, howsever, anodda myst'ry 'bout dis chest is dat it won't takes just any ol' bauble.
-    It has da taste o' a picky peiste--it feasts upon nothin' but da rarest and unique-est o' artifacts.${prompt}
+    Tristement, cependant, un autre mystère à propos de ce coffre est qu'il n'accepte pas n'importe quel babiole.
+    Il a le goût d'un peiste difficile - il ne se régale que des plus rares et uniques artefacts.${prompt}
   15703: |-
-    Lastly, since we don't knows where da items go once inside, ya ain't gettin' nothin' back datcha put in.
-    Ya reap whatcha sow, and da weather ain't always condusimasive to a good harvest, am I right? My condolemances in advance for any losses ya mights incur from da myst'ry box's fickle nature.${prompt}
-  15704: Dat all make 'nough sense tah ya? Just say da woid when ya wanna use my services. I's more'n happy tah help.${prompt}
-  15705: Hey! I rem'mber seein' yer foice 'round here. Take a looksie. I's taken' it upon myself tah jigger 'round wit' dese all-new myst'ry boxes, found straight from an ol' capsized vessel in the Gugru Blue.${prompt}
-  15706: I's nevah gonna say how we gots our hands on 'em, so dun even ask! But, still, I gots tah say dat dese're somet'in' special! Now try yer hand 'fore I smack ya!${prompt}
-  15707: Just select yer desir'd dial and plug 'way at it. Will ya win somethin' super special? Or will't be da booby proize?${prompt}
-  15708: Dese're some “special dials,” an' I gots no inklin' what's inside. Ya gots tah open 'em yerself tah find out what treasures lie within!${prompt}
-  15709: Oh ho, I's forgettin' tah explain somethin' to ya. See dese “special dials”? Dey're super primo, but I still no know wut's gonna be in dere.${prompt}
-  15710: So I's not be takin' no responsibility if somethin' weird 'n wacky comes out. Got it? Ya open it, ya keep it.${prompt}
-  15711: '''N openin'' ''em requires some kinda secret technique. Maybe it''ll succeed, maybe tha box''ll break. ''Sif I know. But ya can only try ''em once a day.${prompt}'
-  15712: Oho, ya feelin' lucky 'nough tah takes a stab at da myst'ry box?${prompt}
-  15713: "Whatcha gonna do? (${number: 7} tally)\n${selection-lines}\nOpen the box and profit!\nListen to the explanation.\nInquire about my daily tally. \nPeek at some possibilities.\nNothing right now.${prompt}"
-  15714: Ya wanna open dat sucker up? Okay, but which dial ya be wantin'?${prompt}
-  15715: Dat's da spirit! So which dial ya be wantin'?${prompt}
+    Enfin, puisqu'on ne sait pas où vont les objets une fois à l'intérieur, tu ne récupéreras rien de ce que tu y mets.
+    On récolte ce qu'on sème, et le temps n'est pas toujours conducimasif à une bonne récolte, j'ai raison ? Mes condoléances à l'avance pour toute perte que tu pourrais subir de la nature capricieuse de la boîte mystère.${prompt}
+  15704: Tout ça t'a assez de sens ? Dis juste le mot quand tu veux utiliser mes services. Je suis plus qu'heureux d'aider.${prompt}
+  15705: Hé ! Je me souviens d'avoir vu ta bouille par ici. Jette un œil. Je me suis permis de bidouiller avec ces toutes nouvelles boîtes mystère, trouvées tout droit d'un vieux vaisseau chaviré dans le Gugru Blue.${prompt}
+  15706: Je ne dirai jamais comment on a mis la main dessus, alors ne demande même pas ! Mais, quand même, je dois dire que c'est quelque chose de spécial ! Maintenant essaie avant que je te frappe !${prompt}
+  15707: Sélectionne juste le cadran désiré et enfonce-le. Vas-tu gagner quelque chose de super spécial ? Ou sera-ce le prix de consolation ?${prompt}
+  15708: Ce sont des "cadrans spéciaux", et j'ai aucune idée de ce qu'il y a dedans. Tu dois les ouvrir toi-même pour découvrir quels trésors se trouvent à l'intérieur !${prompt}
+  15709: Oh ho, j'oublie d'expliquer quelque chose. Tu vois ces "cadrans spéciaux" ? Ils sont super primo, mais je ne sais toujours pas ce qui va être dedans.${prompt}
+  15710: Alors je ne prends aucune responsabilité si quelque chose de bizarre et loufoque sort. Compris ? Tu l'ouvres, tu le gardes.${prompt}
+  15711: Et les ouvrir nécessite une sorte de technique secrète. Peut-être que ça réussira, peut-être que la boîte cassera. Comme si je savais. Mais tu ne peux essayer qu'une fois par jour.${prompt}
+  15712: Oho, tu te sens assez chanceux pour tenter le coup avec la boîte mystère ?${prompt}
+  15713: "Qu'est-ce que tu vas faire ? (${number: 7} total)\n${selection-lines}\nOuvrir la boîte et profiter !\nÉcouter l'explication.\nMe renseigner sur mon total quotidien.\nJeter un œil aux possibilités.\nRien pour l'instant.${prompt}"
+  15714: Tu veux ouvrir ce machin ? D'accord, mais quel cadran tu veux ?${prompt}
+  15715: C'est l'esprit ! Alors quel cadran tu veux ?${prompt}
   15716: |-
-    So, what dial ya gonna pick? (${number: 7} tally)
+    Alors, quel cadran tu vas choisir ? (${number: 7} total)
     ${selection-lines}
-    I got cold feet, so none.
-    Dial 1 (Materials): ${number: 8} tally.
-    Dial 2 (Food): ${number: 8} tally.
-    Dial 3 (Medicine): ${number: 8} tally.
-    Dial 4 (Sundries 1): ${number: 8} tally.
-    Dial 5 (Sundries 2): ${number: 8} tally.
-    Special dial: ${number: 9} tally${choice: 0} [/ (already opened)].
-    Adoulin dial: ${number: 10} tally${choice: 1}[/ (already opened)].
-    Pictlogica dial: ${number: 11} tally${choice: 2}[/ (already opened)].
+    J'ai pris peur, alors aucun.
+    Cadran 1 (Matériaux) : ${number: 8} total.
+    Cadran 2 (Nourriture) : ${number: 8} total.
+    Cadran 3 (Médecine) : ${number: 8} total.
+    Cadran 4 (Divers 1) : ${number: 8} total.
+    Cadran 5 (Divers 2) : ${number: 8} total.
+    Cadran spécial : ${number: 9} total${choice: 0} [/ (déjà ouvert)].
+    Cadran Adoulin : ${number: 10} total${choice: 1}[/ (déjà ouvert)].
+    Cadran Pictlogica : ${number: 11} total${choice: 2}[/ (déjà ouvert)].
     　
     　
     　
-    Wanted dial: ${number: 12} tally${choice: 3}[/ (already opened)].
+    Cadran recherché : ${number: 12} total${choice: 3}[/ (déjà ouvert)].
     　
     　${prompt}
   15717: |-
-    Yer goin' wit' dial ${number: 1}, huh? ${wait-36: 2}
-    Whatchu tryin' ta pull!? Yer daily tally's too low.${prompt}
-  15718: 'Yer goin'' wit'' dial ${number: 1}, huh? Lessee what myst''ries await!'
+    Tu vas avec le cadran ${number: 1}, hein ? ${wait-36: 2}
+    Qu'est-ce que tu essaies de faire !? Ton total quotidien est trop bas.${prompt}
+  15718: 'Tu vas avec le cadran ${number: 1}, hein ? Voyons quels mystères nous attendent !'
   15719: |-
-    Dis box is full o' myst'ries,♪
-    Dat span da realm's his'try,♪
-    So whatcha gonna get from da chest...o'...uh, fortunery?♪
-  15720: Oooh, looks at what popped out! I hopes it makes yer adventures dat much more adventumarous!
-  15721: 'Ya''s thought I threw yer prize away?! Prepostamarous! I''s just tucked it away for safekeepin'' is all.${wait-35: 1}${prompt}'
-  15722: 'You have used ${number: 1} ${choice-plurality: 1}[point/points] of your daily tally!${prompt}'
-  15723: Wanna go again?${prompt}
+    Cette boîte est pleine de mystères,♪
+    Qui traversent l'histoire du royaume,♪
+    Alors qu'est-ce que tu vas obtenir du coffre de... euh, la fortunerie ?♪
+  15720: Oooh, regarde ce qui est sorti ! J'espère que ça rend tes aventures encore plus aventumarous !
+  15721: 'Tu pensais que j''avais jeté ton prix ?! Prépostamarous ! Je l''ai juste rangé pour le garder en sûreté c''est tout.${wait-35: 1}${prompt}'
+  15722: 'Tu as utilisé ${number: 1} ${choice-plurality: 1}[point/points] de ton total quotidien !${prompt}'
+  15723: Tu veux recommencer ?${prompt}
   15724: |-
-    Keep goin'?
+    Continuer ?
     ${selection-lines}
-    Lemme at it!
-    Thanks, but no thanks.${prompt}
+    Laisse-moi essayer !
+    Merci, mais non merci.${prompt}
   15725: |-
-    Yer daily tally? It's, um...${wait-36: 2}
-    Y'know, 'round ${number: 4} ${choice-plurality: 4}[point/points] or thereamabouts.${prompt}
+    Ton total quotidien ? C'est, euh...${wait-36: 2}
+    Tu sais, environ ${number: 4} ${choice-plurality: 4}[point/points] ou dans ces eaux-là.${prompt}
   15726: |-
-    Lemme check for ya!${wait-36: 2}
-    Well, it coulda been ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, or mebbe even ${article} ${item-article: 2[2]}.
-    What? Ya thinks ya could do better wit' one o' dese Gobbie masks on!?${prompt}
-  15727: Anywise, where'd da myst'ry be if ya's knew da answer 'fore ya opens it?${prompt}
-  15728: Some things is better left unknown. Gotta leave a little room fer romanchismo in da woild, y'know.${prompt}
+    Laisse-moi vérifier pour toi !${wait-36: 2}
+    Eh bien, ça aurait pu être ${article} ${item-article: 0[2]}, ${article} ${item-article: 1[2]}, ou peut-être même ${article} ${item-article: 2[2]}.
+    Quoi ? Tu penses que tu pourrais faire mieux avec un de ces masques Gobbie !?${prompt}
+  15727: De toute façon, où serait le mystère si tu savais la réponse avant de l'ouvrir ?${prompt}
+  15728: Certaines choses sont mieux laissées inconnues. Faut laisser un peu de place pour le romanchismo dans le monde, tu sais.${prompt}
   15729: |-
-    Dere we goes.
-    Da myst'ry box seems tah like yer offerin'...but it wants more. Got anythin' else ya wanna throw away?${prompt}
+    Voilà.
+    La boîte mystère semble aimer ton offrande... mais elle en veut plus. Tu as autre chose que tu veux jeter ?${prompt}
   15730: |-
-    Dere we goes.${wait-36: 1}
-    Oho, looks like it don't wants no more. Guess ya gotta come back tomorrow if ya's wanna keep gettin' rid o' stuff.${prompt}
-  15731: 'Yer daily tally''s increased ${choice: 5}[a smidge./someamawhats./a Gobby-fold!/a ginormagantic amount!]${prompt}'
-  15732: Sorrah, but it won't lemme put dis in. Got anythin' it mights like better?${prompt}
+    Voilà.${wait-36: 1}
+    Oho, on dirait qu'elle n'en veut plus. Je suppose que tu dois revenir demain si tu veux continuer à te débarrasser de trucs.${prompt}
+  15731: 'Ton total quotidien a augmenté ${choice: 5}[d''un poil./un peu./d''un pli Gobby !/d''une quantité ginormagantique !]${prompt}'
+  15732: Désolé, mais elle ne me laisse pas mettre ça dedans. Tu as quelque chose qu'elle pourrait aimer mieux ?${prompt}
   15733: |-
-    Sorrah, but da chest has dat look. Y'know, da one dat says, "I'll kills ya if ya tries tah give me dat."
-    I guess alls ya can do is comes back some odda time.${prompt}
+    Désolé, mais le coffre a ce regard. Tu sais, celui qui dit, "Je vais te tuer si tu essaies de me donner ça."
+    Je suppose que tout ce que tu peux faire c'est revenir une autre fois.${prompt}
   15734: |-
-    Nah, it just won't woik. I's did my best, but yer daily tally just won't go no higher.
-    Ya ain't gonna get no prizes by hoardin' yer points, so stop bein' such a Greedalox and use 'em.${prompt}
-  15735: 'Gil-lovin'' Gobbies, ${entity: 0}, ya''s hit da jackpot! I''s so happy for ya I think I''s gettin'' da vapors.${prompt}'
-  15736: '${entity: 0} obtains ${article} ${item-article: 0[2]}!${prompt}'
-  15737: Whoawhoawhoa! If ya's got business wit' da box, ya foist gots business wit' me. Whatcha need?${prompt}
+    Non, ça ne marchera juste pas. J'ai fait de mon mieux, mais ton total quotidien ne va juste pas plus haut.
+    Tu n'obtiendras pas de prix en accumulant tes points, alors arrête d'être un tel Greedalox et utilise-les.${prompt}
+  15735: 'Gobbies amoureux de gils, ${entity: 0}, tu as touché le jackpot ! Je suis si heureux pour toi que je pense que j''attrape les vapeurs.${prompt}'
+  15736: '${entity: 0} obtient ${article} ${item-article: 0[2]} !${prompt}'
+  15737: Whoawhoawhoa ! Si tu as affaire à la boîte, tu as d'abord affaire à moi. Qu'est-ce que tu veux ?${prompt}
   15738: |-
-    So ya be wantin' the special dial?${wait-36: 2}
-    Whoawhoawhoa! Get yer grubby hands offa that! Ya don't have enough daily tally, and I's not 'bout tah let ya cheat me!${prompt}
+    Alors tu veux le cadran spécial ?${wait-36: 2}
+    Whoawhoawhoa ! Enlève tes sales pattes de là ! Tu n'as pas assez de total quotidien, et je ne vais pas te laisser me tromper !${prompt}
   15739: |-
-    So ya be wantin' the ${choice: 0}[special/Adoulin/pictlogica/Wanted/campaign] dial?
-    M'kay, get yerself all steeled up, 'cause here we go! 'Member, no complaints!
+    Alors tu veux le cadran ${choice: 0}[spécial/Adoulin/pictlogica/Recherché/campagne] ?
+    M'kay, prépare-toi bien, parce que c'est parti ! Souviens-toi, pas de plaintes !
   15740: |-
-    So ya be wantin' the ${choice: 0}[special/Adoulin/pictlogica/Wanted] dial?${wait-36: 1}
-    Whoawhoawhoa! Get yer grubby hands offa that! I's already opened one fer ya today! Haul that keister outta here and come back t'morrow.${prompt}
-  15741: 'Oy, would ya get a look at yer ${item-singular: 0[2]}! I guess I can let ya open ${choice: 1}[/Dial 1/Dial 2/Dial 3/Dial 4/Dial 5/the special dial///the abjuration dial/the fortune dial/the furnishings dial//the Vana''versary dial/the festival dial] whenever ya want fer not a single onz o'' daily tally!'
-  15742: 'Dun think that I''s be a gil-grubbin'' good-fer-nuthin''. If''n ya dun wanna open any dial, then I gives ya back yer ${item-singular: 0[2]}.${wait-35: 1}${prompt}'
-  15743: 'Yer eyes be bigger''n yer stomach. If''n ya wanna open ${choice: 1}[/Dial 1/Dial 2/Dial 3/Dial 4/Dial 5/the Special Dial///the abjuration dial/the fortune dial/the furnishings dial//the Vana''versary dial/the festival diaal] usin'' yer ${item-singular: 0[2]}, then ya gotta make room in yer bags!${prompt}'
+    Alors tu veux le cadran ${choice: 0}[spécial/Adoulin/pictlogica/Recherché] ?${wait-36: 1}
+    Whoawhoawhoa ! Enlève tes sales pattes de là ! J'en ai déjà ouvert un pour toi aujourd'hui ! Traîne ton derrière hors d'ici et reviens demain.${prompt}
+  15741: 'Oy, jette un œil à ton ${item-singular: 0[2]} ! Je suppose que je peux te laisser ouvrir ${choice: 1}[/le Cadran 1/le Cadran 2/le Cadran 3/le Cadran 4/le Cadran 5/le cadran spécial///le cadran d''abjuration/le cadran de fortune/le cadran d''ameublement//le cadran Vana''versaire/le cadran de festival] quand tu veux pour pas un seul once de total quotidien !'
+  15742: 'Ne pense pas que je suis un bon à rien avide de gils. Si tu veux pas ouvrir de cadran, alors je te rends ton ${item-singular: 0[2]}.${wait-35: 1}${prompt}'
+  15743: 'Tes yeux sont plus gros que ton estomac. Si tu veux ouvrir ${choice: 1}[/le Cadran 1/le Cadran 2/le Cadran 3/le Cadran 4/le Cadran 5/le Cadran Spécial///le cadran d''abjuration/le cadran de fortune/le cadran d''ameublement//le cadran Vana''versaire/le cadran de festival] en utilisant ton ${item-singular: 0[2]}, alors tu dois faire de la place dans tes sacs !${prompt}'
   15744: |-
-    What's be dis? ${article} ${item-article: 0[2]}?${wait-36: 2}
-    What'm I 'pposed ta do wit it? I dun have any clue how ta use it, so take it home wit ya.${prompt}
+    Qu'est-ce que c'est ? ${article} ${item-article: 0[2]} ?${wait-36: 2}
+    Qu'est-ce que je suis censé en faire ? J'ai aucune idée comment l'utiliser, alors ramène-le chez toi.${prompt}
   15745: '${number: 1}<${number: 2}${prompt}'
-  15746: Urk!
-  15747: '${color-alt: 15}The mandragora flutters about in consternation.'
-  15748: '${color-alt: 15}The mandragora surreptitiously hands you something.'
-  15749: '${color-alt: 15}Babban Ny Mheillea looks fondly in your direction.'
-  15750: '${color-alt: 15}Babban Ny Mheillea surreptitiously hands you something.'
-  15751: 'Nice to meet you, my ${choice: 0}[kinda/really] tall friend! I''m Babban Ny Mheillea!${prompt}'
-  15752: Oh, ${name-player}! I'm so glad to see you!${prompt}
-  15753: You must be really special to be able to change forms like that! But I could tell who you were right away!${prompt}
-  15754: My friends and I are playing a fun game called “sunshine seeker,” where we search for shards of sunlight!${prompt}
-  15755: Just give them a little squeeze and you'll see how warm and bright they are!${prompt}
-  15756: But my friends're so much better than I am...${prompt}
-  15757: Maybe you could lend me a hand! Yours're much bigger than mine!${prompt}
+  15746: Urk !
+  15747: '${color-alt: 15}La mandragore volette dans la consternation.'
+  15748: '${color-alt: 15}La mandragore te tend furtivement quelque chose.'
+  15749: '${color-alt: 15}Babban Ny Mheillea te regarde affectueusement.'
+  15750: '${color-alt: 15}Babban Ny Mheillea te tend furtivement quelque chose.'
+  15751: 'Ravi de te rencontrer, mon ami ${choice: 0}[plutôt/vraiment] grand ! Je suis Babban Ny Mheillea !${prompt}'
+  15752: Oh, ${name-player} ! Je suis si heureux de te voir !${prompt}
+  15753: Tu dois être vraiment spécial pour pouvoir changer de forme comme ça ! Mais j'ai pu dire qui tu étais tout de suite !${prompt}
+  15754: Mes amis et moi jouons à un jeu amusant appelé "chercheur de soleil", où nous cherchons des éclats de lumière solaire !${prompt}
+  15755: Donne-leur juste une petite pression et tu verras à quel point ils sont chauds et brillants !${prompt}
+  15756: Mais mes amis sont tellement meilleurs que moi...${prompt}
+  15757: Peut-être que tu pourrais me donner un coup de main ! Les tiennes sont beaucoup plus grandes que les miennes !${prompt}
   15758: |-
-    Lend Babban a hand?
+    Donner un coup de main à Babban ?
     ${selection-lines}
-    I'll lend you two!
-    I'm a bit busy right now.${prompt}
+    Je t'en prêterai deux !
+    Je suis un peu occupé en ce moment.${prompt}
   15759: |-
     Aww...
-    Hopefully you'll change your mind. I'll be waiting here!${prompt}
-  15760: Hooray! Maybe I'll finally be able to win!${prompt}
-  15761: I'll give you some small seeds in exchange for the shards of sunlight you bring back.${prompt}
-  15762: Even better! I've got some special things available for you to buy with your seeds!${prompt}
-  15763: But here's the best part--If you try your luck with my grab bag enough times, you might win something really super!${prompt}
-  15764: One of the rules of the game is that you must be a mandragora, like me, or else you won't be able to collect any shards.${prompt}
-  15765: They can be found all around here. But if you don't hurry, someone else might gobble them up.${prompt}
-  15766: But once you've taken them from one place, you can't get any more from there by searching it repeatedly!${prompt}
-  15767: Shards of sunlight are really delicate, so they'll disappear if you leave this area or take too much time getting them back to me.${prompt}
-  15768: My friends'll also try to get in your way, so be sure not to get noticed!${prompt}
-  15769: I can fly you right to the starting point. Just say the word!${prompt}
+    J'espère que tu changeras d'avis. Je t'attendrai ici !${prompt}
+  15760: Hourra ! Peut-être que je pourrai enfin gagner !${prompt}
+  15761: Je te donnerai de petites graines en échange des éclats de lumière solaire que tu rapporteras.${prompt}
+  15762: Encore mieux ! J'ai des choses spéciales disponibles que tu peux acheter avec tes graines !${prompt}
+  15763: Mais voici le meilleur - Si tu tentes ta chance avec mon sac surprise assez de fois, tu pourrais gagner quelque chose de vraiment super !${prompt}
+  15764: Une des règles du jeu est que tu dois être une mandragore, comme moi, sinon tu ne pourras pas collecter d'éclats.${prompt}
+  15765: On peut en trouver partout ici. Mais si tu ne te dépêches pas, quelqu'un d'autre pourrait les engloutir.${prompt}
+  15766: Mais une fois que tu les as pris d'un endroit, tu ne peux plus en obtenir de là en le cherchant de manière répétée !${prompt}
+  15767: Les éclats de lumière solaire sont vraiment délicats, alors ils disparaîtront si tu quittes cette zone ou prends trop de temps pour me les ramener.${prompt}
+  15768: Mes amis essaieront aussi de te barrer la route, alors assure-toi de ne pas te faire remarquer !${prompt}
+  15769: Je peux te faire voler directement au point de départ. Dis juste le mot !${prompt}
   15770: |-
-    Ready for mischief?
+    Prêt pour les méfaits ?
     ${selection-lines}
-    The sun will bow before me!
-    The light...it burns us!${prompt}
-  15771: Nononono, sunlight is your friend! Come back once you've decided to help me hunt!${prompt}
-  15772: Good luck! Collect as many as you can and bring them back to me!${prompt}
-  15773: Why, hello!${prompt}
+    Le soleil s'inclinera devant moi !
+    La lumière... elle nous brûle !${prompt}
+  15771: Nonononon, la lumière solaire est ton amie ! Reviens une fois que tu auras décidé de m'aider à chasser !${prompt}
+  15772: Bonne chance ! Collecte autant que tu peux et ramène-les-moi !${prompt}
+  15773: Eh bien, bonjour !${prompt}
   15774: |-
-    Inquire about what?
+    Te renseigner sur quoi ?
     ${selection-lines}
-    I want to play the game.
-    I'm ready to turn in my shards.
-    I want to exchange small seeds.
-    Let me try the grab bag.
-    How many seeds do I have?
-    I'd like the items you're holding for me.
-    Dispose of what you're holding for me.
-    Tell me how the game works.
-    No questions for now.${prompt}
-  15775: You look like you'll be able to try for even harder things in this game!${prompt}
-  15776: My friends'll try to get in your way even more. Are you sure you're ready?${prompt}
-  15777: Wow! I'll bet you're ready for the championship round!${prompt}
-  15778: My friends'll surely never let you get away now! Sure you want to try anyway?${prompt}
-  15779: Oh no...you mean you didn't find even one single shard? That's terrible...${prompt}
-  15780: I'll be waiting for you to play our game again!${prompt}
-  15781: 'You did such a lovely job! You brought me ${number: 0} shard${choice-plurality: 0}[/s] of sunlight, so I''ll give you ${number: 1} small seed${choice-plurality: 1}[/s]!${prompt}'
-  15782: I can give you so many pretty gifts in exchange for your small seeds!${prompt}
-  15783: Which would you like?${prompt}
+    Je veux jouer au jeu.
+    Je suis prêt à rendre mes éclats.
+    Je veux échanger des petites graines.
+    Laisse-moi essayer le sac surprise.
+    Combien de graines ai-je ?
+    Je voudrais les objets que tu gardes pour moi.
+    Jette ce que tu gardes pour moi.
+    Dis-moi comment le jeu fonctionne.
+    Pas de questions pour l'instant.${prompt}
+  15775: On dirait que tu pourras essayer des choses encore plus difficiles dans ce jeu !${prompt}
+  15776: Mes amis essaieront de te barrer la route encore plus. Es-tu sûr d'être prêt ?${prompt}
+  15777: Wow ! Je parie que tu es prêt pour la ronde de championnat !${prompt}
+  15778: Mes amis ne te laisseront sûrement jamais t'échapper maintenant ! Sûr de vouloir essayer quand même ?${prompt}
+  15779: Oh non... tu veux dire que tu n'as pas trouvé un seul éclat ? C'est terrible...${prompt}
+  15780: Je t'attendrai pour jouer à notre jeu à nouveau !${prompt}
+  15781: 'Tu as fait un si beau travail ! Tu m''as apporté ${number: 0} éclat${choice-plurality: 0}[/s] de lumière solaire, alors je te donnerai ${number: 1} petite${choice-plurality: 1}[/s] graine${choice-plurality: 1}[/s] !${prompt}'
+  15782: Je peux te donner tellement de jolis cadeaux en échange de tes petites graines !${prompt}
+  15783: Lequel aimerais-tu ?${prompt}
   15784: |-
-    Which would you like? (${number: 30} seed${choice-plurality: 30}[/s]).
+    Lequel aimerais-tu ? (${number: 30} graine${choice-plurality: 30}[/s]).
     ${selection-lines}
-    ${lettercase: 1}${item-singular: 0[2]}: ${number: 11} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 1[2]}: ${number: 12} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 2[2]}: ${number: 13} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 3[2]}: ${number: 14} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 4[2]}: ${number: 15} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 5[2]}: ${number: 16} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 6[2]}: ${number: 17} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 7[2]}: ${number: 18} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 8[2]}: ${number: 19} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 9[2]}: ${number: 20} seed${choice-plurality: 11}[/s].
-    ${lettercase: 1}${item-singular: 10[2]}: ${number: 21} seed${choice-plurality: 11}[/s].
-    None of these.${prompt}
+    ${lettercase: 1}${item-singular: 0[2]} : ${number: 11} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 1[2]} : ${number: 12} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 2[2]} : ${number: 13} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 3[2]} : ${number: 14} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 4[2]} : ${number: 15} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 5[2]} : ${number: 16} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 6[2]} : ${number: 17} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 7[2]} : ${number: 18} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 8[2]} : ${number: 19} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 9[2]} : ${number: 20} graine${choice-plurality: 11}[/s].
+    ${lettercase: 1}${item-singular: 10[2]} : ${number: 21} graine${choice-plurality: 11}[/s].
+    Aucun de ceux-ci.${prompt}
   15785: |-
-    Are you sure?
+    Es-tu sûr ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  15786: I've prepared a little grab bag you can enjoy for some small seeds.${prompt}
-  15787: Which would you like to try?${prompt}
+    Oui.
+    Non.${prompt}
+  15786: J'ai préparé un petit sac surprise dont tu peux profiter pour quelques petites graines.${prompt}
+  15787: Lequel aimerais-tu essayer ?${prompt}
   15788: |-
-    Pick your poison. (${number: 30} seed${choice-plurality: 30}[/s])
+    Choisis ton poison. (${number: 30} graine${choice-plurality: 30}[/s])
     ${selection-lines}
-    The ${number: 0}-seed grab bag.
-    The ${number: 1}-seed grab bag.
-    The ${number: 2}-seed grab bag.
-    No poison, thanks.${prompt}
-  15789: 'That grab bag contains prizes like ${item-plural: 0[2]}, ${item-plural: 1[2]}, and ${item-plural: 2[2]}.${prompt}'
+    Le sac surprise à ${number: 0} graines.
+    Le sac surprise à ${number: 1} graines.
+    Le sac surprise à ${number: 2} graines.
+    Pas de poison, merci.${prompt}
+  15789: 'Ce sac surprise contient des prix comme ${item-plural: 0[2]}, ${item-plural: 1[2]}, et ${item-plural: 2[2]}.${prompt}'
   15790: |-
-    Press your luck?
+    Tenter ta chance ?
     ${selection-lines}
-    C'mon, no whammies...
-    Not right now.${prompt}
-  15791: 'You won ${article} ${item-article: 0[2]}! Congratulations!${prompt}'
-  15792: '...But your bags are full! What do you want me to do with it?${prompt}'
+    Allez, pas de malchance...
+    Pas maintenant.${prompt}
+  15791: 'Tu as gagné ${article} ${item-article: 0[2]} ! Félicitations !${prompt}'
+  15792: '...Mais tes sacs sont pleins ! Que veux-tu que je fasse avec ?${prompt}'
   15793: |-
-    What will you do with the ${item-singular: 0[2]}?
+    Que vas-tu faire avec le ${item-singular: 0[2]} ?
     ${selection-lines}
-    Have Babban hold it.
-    I don't want it.${prompt}
-  15794: I'll make sure to keep it really safe! Come back when you've made room!${prompt}
-  15795: Then...you won't mind if I have it!${prompt}
-  15796: 'You have a total of ${number: 0} small seed${choice-plurality: 0}[/s].${prompt}'
-  15797: The goal of sunshine seeker is to collect shards of sunlight!${prompt}
-  15798: You don't have enough small seeds.${prompt}
-  15799: You are now participating in sunshine seeker! Get your hands on as many shards of sunlight in the allotted time as you can!${prompt}
-  15800: '${number: 0} ${choice: 1}[minute/second]${choice-plurality: 0}[/s] remaining.${prompt}'
-  15801: 'You receive ${number: 0} shard${choice-plurality: 0}[/s] of sunlight for a total of ${number: 1}!${prompt}'
-  15802: 'Oh no! ${choice: 0}[Abenzio/Bryher/Camlin/Darach/Babban''s Progeny] has found you!${prompt}'
-  15803: '${choice: 0}[Abenzio/Bryher/Camlin/Darach/Babban''s Progeny] gives you a little slap!${prompt}'
-  15804: 'You grow dizzy and lose ${number: 0} second${choice-plurality: 0}[/s] of searching time!${prompt}'
-  15805: You feel a bit weak in the knees!${prompt}
-  15806: 'You feel a bit confused. Has someone taken... Hey! Where''d your shards go!? You only have ${number: 1} left!${prompt}'
-  15807: What was that strange solar phenomenon? The number of shards of sunlight has increased, but Babban's friends are also moving faster than normal!${prompt}
-  15808: The sun returns to normal. There are fewer shards of sunlight available, but Babban's friends are also moving slower.${prompt}
-  15809: Time's up! Your quest for sunlight has ended in failure.${prompt}
-  15810: You've left the area, causing your quest for sunlight to end in failure.${prompt}
-  15811: You've failed to acquire any shards of sunlight. Your quest ends in failure.${prompt}
+    Demander à Babban de le garder.
+    Je n'en veux pas.${prompt}
+  15794: Je m'assurerai de le garder vraiment en sécurité ! Reviens quand tu auras fait de la place !${prompt}
+  15795: Alors... ça ne te dérange pas si je le prends !${prompt}
+  15796: 'Tu as un total de ${number: 0} petite${choice-plurality: 0}[/s] graine${choice-plurality: 0}[/s].${prompt}'
+  15797: Le but du chercheur de soleil est de collecter des éclats de lumière solaire !${prompt}
+  15798: Tu n'as pas assez de petites graines.${prompt}
+  15799: Tu participes maintenant au chercheur de soleil ! Mets la main sur autant d'éclats de lumière solaire dans le temps imparti que tu peux !${prompt}
+  15800: '${number: 0} ${choice: 1}[minute/seconde]${choice-plurality: 0}[/s] restante${choice-plurality: 0}[/s].${prompt}'
+  15801: 'Tu reçois ${number: 0} éclat${choice-plurality: 0}[/s] de lumière solaire pour un total de ${number: 1} !${prompt}'
+  15802: 'Oh non ! ${choice: 0}[Abenzio/Bryher/Camlin/Darach/la Progéniture de Babban] t''a trouvé !${prompt}'
+  15803: '${choice: 0}[Abenzio/Bryher/Camlin/Darach/la Progéniture de Babban] te donne une petite claque !${prompt}'
+  15804: 'Tu deviens étourdi et perds ${number: 0} seconde${choice-plurality: 0}[/s] de temps de recherche !${prompt}'
+  15805: Tu te sens un peu faible des genoux !${prompt}
+  15806: 'Tu te sens un peu confus. Quelqu''un a-t-il pris... Hé ! Où sont passés tes éclats !? Il ne t''en reste que ${number: 1} !${prompt}'
+  15807: Quel était ce phénomène solaire étrange ? Le nombre d'éclats de lumière solaire a augmenté, mais les amis de Babban se déplacent aussi plus vite que la normale !${prompt}
+  15808: Le soleil revient à la normale. Il y a moins d'éclats de lumière solaire disponibles, mais les amis de Babban se déplacent aussi plus lentement.${prompt}
+  15809: Le temps est écoulé ! Ta quête de lumière solaire s'est terminée en échec.${prompt}
+  15810: Tu as quitté la zone, ce qui fait que ta quête de lumière solaire s'est terminée en échec.${prompt}
+  15811: Tu n'as pas réussi à acquérir d'éclats de lumière solaire. Ta quête se termine en échec.${prompt}
   15812: |-
-    I understand that you are...an adventurer?
-    My name is Pieuje I. d'Oraguille, commander of San d'Oria's famed Temple Knights.${prompt}
-  15813: Is that ${name-player}'s voice I hear?${prompt}
-  15814: Forgive me, but I am more accustomed to recognizing faces than voices, especially through such a peculiar device.${prompt}
-  15815: I must thank you for your handling of the Altedour incident in Fei'Yin.${prompt}
-  15816: Never once have I forgotten your dedication to protecting all of San d'Oria.${prompt}
-  15817: As you are doubtlessly aware, a short time ago I received a memorandum from the Adventurers' Mutual Aid Network detailing Unity Concord and requesting my services as a Unity leader.${prompt}
-  15818: Tell me. Is there any greater way for a prince regent to earn honor for his kingdom than by spearheading a group dedicated to purging evil from the land?${prompt}
-  15819: Many around me were opposed, but that bothered me not. My brother, Trion, serves as a representative of the Trust initiative, and it falls to me to up the ante.${prompt}
-  15820: I cannot lie. That was an important factor in my decision.${prompt}
-  15821: But be not concerned with our internal squabbles. Know only that it pleases me to welcome you to my Unity.${prompt}
-  15822: My name is Ayame, a ranking member of the Mythril Musketeers. Pleased to make your acquaintance.${prompt}
-  15823: Haha...yes, ${name-player}, of course I remember you. How characteristic of you to have your fingers in everyone's pies.${prompt}
-  15824: Do not think me ungrateful. No, I am always pleased to have your help, but this time things are a bit different.${prompt}
-  15825: Do not think me ungrateful. You strengthened the Mythril Musketeers in ways I never thought possible, and we are closer than ever before.${prompt}
-  15826: Not terribly long ago I was contacted by the Adventurers' Mutual Aid Network, which asked that I head a Unity.${prompt}
-  15827: At first I was flustered and thought of turning the offer down. Why would they pick me when there are others more qualified?${prompt}
-  15828: But Volker decided it would be the perfect opportunity for me to develop my leadership skills, and told them I would accept...without my knowledge.${prompt}
-  15829: Though unconvinced that I am the best fit, I pledge to dedicate myself wholly to this endeavor.${prompt}
-  15830: People are counting on me. Not only Volker, but those like you who have pledged their support.${prompt}
-  15831: I will not let you down.${prompt}
-  15832: Stand sharp, maggot! I've got no time for people who're gonna slack off!${prompt}
-  15833: '...Wait. That''s you, isn''t it, ${name-player}?${prompt}'
-  15834: I hear you've decided to join my backbreaking Unity.${prompt}
-  15835: Well!? What've you got to say for yourself!?${prompt}
+    Je comprends que tu es... un aventurier ?
+    Mon nom est Pieuje I. d'Oraguille, commandant des célèbres Chevaliers du Temple de San d'Oria.${prompt}
+  15813: Est-ce la voix de ${name-player} que j'entends ?${prompt}
+  15814: Pardonne-moi, mais je suis plus habitué à reconnaître les visages que les voix, surtout à travers un appareil aussi particulier.${prompt}
+  15815: Je dois te remercier pour ta gestion de l'incident d'Altedour à Fei'Yin.${prompt}
+  15816: Je n'ai jamais oublié ton dévouement à protéger tout San d'Oria.${prompt}
+  15817: Comme tu en es sans doute conscient, il y a peu de temps, j'ai reçu un mémorandum du Réseau d'Entraide des Aventuriers détaillant Unity Concord et demandant mes services en tant que leader d'Unity.${prompt}
+  15818: Dis-moi. Y a-t-il un plus grand moyen pour un prince régent de gagner l'honneur pour son royaume que de diriger un groupe dédié à purger le mal du pays ?${prompt}
+  15819: Beaucoup autour de moi étaient opposés, mais cela ne me dérangeait pas. Mon frère, Trion, sert de représentant de l'initiative Trust, et il m'incombe de monter les enchères.${prompt}
+  15820: Je ne peux mentir. C'était un facteur important dans ma décision.${prompt}
+  15821: Mais ne te préoccupe pas de nos querelles internes. Sache seulement qu'il me plaît de t'accueillir dans mon Unity.${prompt}
+  15822: Mon nom est Ayame, membre de rang des Mousquetaires de Mithril. Ravi de faire ta connaissance.${prompt}
+  15823: Haha... oui, ${name-player}, bien sûr je me souviens de toi. Comme c'est caractéristique de toi d'avoir tes doigts dans tous les pâtés.${prompt}
+  15824: Ne pense pas que je suis ingrate. Non, je suis toujours heureuse d'avoir ton aide, mais cette fois les choses sont un peu différentes.${prompt}
+  15825: Ne pense pas que je suis ingrate. Tu as renforcé les Mousquetaires de Mithril de manières que je n'aurais jamais cru possibles, et nous sommes plus proches que jamais.${prompt}
+  15826: Il n'y a pas si longtemps, j'ai été contactée par le Réseau d'Entraide des Aventuriers, qui m'a demandé de diriger une Unity.${prompt}
+  15827: Au début, j'étais troublée et j'ai pensé refuser l'offre. Pourquoi me choisiraient-ils alors qu'il y a d'autres plus qualifiés ?${prompt}
+  15828: Mais Volker a décidé que ce serait l'occasion parfaite pour moi de développer mes compétences en leadership, et leur a dit que j'accepterais... sans ma connaissance.${prompt}
+  15829: Bien que peu convaincue que je sois la mieux placée, je m'engage à me consacrer entièrement à cette entreprise.${prompt}
+  15830: Les gens comptent sur moi. Pas seulement Volker, mais des gens comme toi qui ont promis leur soutien.${prompt}
+  15831: Je ne te décevrai pas.${prompt}
+  15832: Garde-à-vous, asticot ! J'ai pas de temps pour les gens qui vont se relâcher !${prompt}
+  15833: '...Attends. C''est toi, n''est-ce pas, ${name-player} ?${prompt}'
+  15834: J'ai entendu dire que tu avais décidé de rejoindre mon Unity épuisante.${prompt}
+  15835: Eh bien !? Qu'as-tu à dire pour ta défense !?${prompt}
   15836: |-
-    How do you respond?
+    Comment réponds-tu ?
     ${selection-lines}
-    That's right.
-    Nope.
-    Y-yessir!${prompt}
-  15837: Impudent cretin! You say “sir” when addressing a superior officer!${prompt}
-  15838: Better. Everyone in my Unity is equal--you're all worthless whelps!${prompt}
-  15839: We don't coddle the weak around here. If you want respect, you earn it.${prompt}
-  15840: Until then, you're just a dried-up, shriveled worm!${prompt}
-  15841: So go crawling around in the dirt and pray some crow doesn't sweep down and gobble you up!${prompt}
-  15842: Now get out there!${prompt}
-  15843: Hello, good adventurer. You can call me Apururu.${prompt}
-  15844: Is that...${name-player}? Am I rightaru?${prompt}
-  15845: Your good deeds on behalf of Windurstaru have not gone unnoticed.${prompt}
-  15846: I'm so worried about my brother...but if this is one way for me to help-welp him, then so be it.${prompt}
-  15847: Ajido-Marujido has awoken at lastaru, but...no, I'll not let myself cry. I must work for the good of Windurst.${prompt}
-  15848: You brought hope to a Windurst that was on the brink-wink of despair.${prompt}
-  15849: I've been selected to serve as the head of a Unity-wunity, and can I ever say...${prompt}
-  15850: As the head of the Manustery, there can be no greater honor than--${prompt}
-  15851: Aaaaaall right! Now the Cardian workshop can finally turn something resembling a profitaru!${prompt}
-  15852: tHiS iS aBsoLUtElY WonDErFul. NoW wE HaVe MOneY, ALl ThaNkS tO APurURu!${prompt}
-  15853: H-hey! It's not like I'll be making bank-wank!${prompt}
-  15854: Putting that aside--welcome to my Unitaru!${prompt}
-  15855: We can do together-wether what we couldn't individually.${prompt}
+    C'est exact.
+    Non.
+    O-oui monsieur !${prompt}
+  15837: Crétin impudent ! Tu dis "monsieur" quand tu t'adresses à un officier supérieur !${prompt}
+  15838: Mieux. Tout le monde dans mon Unity est égal - vous êtes tous des chiots sans valeur !${prompt}
+  15839: On ne dorlote pas les faibles par ici. Si tu veux du respect, tu le gagnes.${prompt}
+  15840: Jusque-là, tu n'es qu'un ver desséché et ratatiné !${prompt}
+  15841: Alors va ramper dans la saleté et prie pour qu'un corbeau ne descende pas en piqué et ne t'engloutisse pas !${prompt}
+  15842: Maintenant sors d'ici !${prompt}
+  15843: Bonjour, bon aventurier. Tu peux m'appeler Apururu.${prompt}
+  15844: Est-ce... ${name-player} ? Ai-je raison-taru ?${prompt}
+  15845: Tes bonnes actions au nom de Windurstaru n'sont pas passées inaperçues.${prompt}
+  15846: Je suis si inquiète pour mon frère... mais si c'est une façon de l'aider-welp, qu'il en soit ainsi.${prompt}
+  15847: Ajido-Marujido s'est enfin réveillé-taru, mais... non, je ne me laisserai pas pleurer. Je dois travailler pour le bien de Windurst.${prompt}
+  15848: Tu as apporté l'espoir à un Windurst qui était au bord-wink du désespoir.${prompt}
+  15849: J'ai été sélectionnée pour servir de chef d'une Unity-wunity, et puis-je dire...${prompt}
+  15850: En tant que chef du Manustery, il ne peut y avoir de plus grand honneur que--${prompt}
+  15851: Trèèèèès bien ! Maintenant l'atelier Cardian peut enfin tourner quelque chose ressemblant à un profitaru !${prompt}
+  15852: C'eSt AbSolUmeNt MerVeiLleuX. MaiNteNanT nOus AvOns De L'aRgeNt, ToUt GrâCe à APurURu !${prompt}
+  15853: H-hé ! C'est pas comme si j'allais me faire de la bank-wank !${prompt}
+  15854: Mettant cela de côté - bienvenue dans mon Unitaru !${prompt}
+  15855: Nous pouvons faire ensemble-wether ce que nous ne pouvions pas individuellement.${prompt}
   15856: |-
-    Phew...
-    So you're my new pupil, eh?${prompt}
+    Ouf...
+    Alors tu es mon nouvel élève, hein ?${prompt}
   15857: |-
-    Phew...
-    So you're my new pu... ${name-player}?${prompt}
-  15858: The way you shone when the two of us met in combat...I'd be lying if I said I wasn't impressed.${prompt}
-  15859: I've gotta say, you sure knew how to show me the old what-for...it was like staring into the face of a demon!${prompt}
-  15860: I've lived many years on this green Vana'diel, but you're the only one I've ever proffered my hat to.${prompt}
-  15861: '...Let''s discuss how all this came to be.${prompt}'
-  15862: The Adventurers' Mutual Aid Network came up with this “Unity” idea, and asked me to be one of its founding masters.${prompt}
-  15863: But I'm not the kind to take on disciples, so at first I was more than a bit wary.${prompt}
-  15864: But the old lady, she nagged me, and nagged me, and nagged me until I finally caved in.${prompt}
+    Ouf...
+    Alors tu es mon nouvel él... ${name-player} ?${prompt}
+  15858: La façon dont tu as brillé quand nous deux nous sommes rencontrés au combat... Je mentirais si je disais que je n'étais pas impressionné.${prompt}
+  15859: Je dois dire, tu savais vraiment comment me montrer le vieux quoi-faire... c'était comme regarder dans le visage d'un démon !${prompt}
+  15860: J'ai vécu de nombreuses années sur ce Vana'diel verdoyant, mais tu es le seul à qui j'ai jamais offert mon chapeau.${prompt}
+  15861: '...Discutons de comment tout cela s''est passé.${prompt}'
+  15862: Le Réseau d'Entraide des Aventuriers a eu cette idée d'"Unity", et m'a demandé d'être l'un de ses maîtres fondateurs.${prompt}
+  15863: Mais je ne suis pas du genre à prendre des disciples, alors au début j'étais plus qu'un peu méfiant.${prompt}
+  15864: Mais la vieille dame, elle m'a harcelé, et harcelé, et harcelé jusqu'à ce que je finisse par céder.${prompt}
   15865: |-
-    How do you respond?
+    Comment réponds-tu ?
     ${selection-lines}
-    You can always quit, you know.
-    Must have been tough for you.
-    That's quite the wife you've got.${prompt}
+    Tu peux toujours démissionner, tu sais.
+    Ça a dû être dur pour toi.
+    C'est toute une femme que tu as.${prompt}
   15866: |-
     Ugh...
-    I didn't expect you to come at me with that.${prompt}
-  15867: Tough doesn't begin to describe it! I was hoping to spend my twilight years for myself, but you gotta play the hand you're dealt.${prompt}
-  15868: Please tell me that you weren't in on it!${prompt}
-  15869: Either way, that's not important now. As long as I'm the master of a ragtag group of youngsters, I'm gonna make sure you all get the training you deserve.${prompt}
-  15870: But to do that, I'm gonna need your help.${prompt}
-  15871: And I'll warn you--my regimens have been known to be...strict.${prompt}
-  15872: And I'm sure I don't need to tell you how strict my regimens are!${prompt}
-  15873: What's the password?${prompt}
+    Je ne m'attendais pas à ce que tu m'attaques avec ça.${prompt}
+  15867: Dur ne commence même pas à le décrire ! J'espérais passer mes années crépusculaires pour moi-même, mais tu dois jouer les cartes qu'on te donne.${prompt}
+  15868: S'il te plaît, dis-moi que tu n'étais pas dans le coup !${prompt}
+  15869: De toute façon, ce n'est pas important maintenant. Tant que je suis le maître d'un groupe hétéroclite de jeunes, je vais m'assurer que vous obtenez tous l'entraînement que vous méritez.${prompt}
+  15870: Mais pour ça, je vais avoir besoin de ton aide.${prompt}
+  15871: Et je te préviens - mes régimes sont connus pour être... stricts.${prompt}
+  15872: Et je suis sûr que je n'ai pas besoin de te dire à quel point mes régimes sont stricts !${prompt}
+  15873: Quel est le mot de passe ?${prompt}
   15874: |-
-    How do you respond?
+    Comment réponds-tu ?
     ${selection-lines}
-    Rose on the heath.
+    Rose sur la lande.
     Tavnazia.
     　${prompt}
   15875: |-
-    Who's this!?
-    ...Ah, this is the Unity communication device. Forget I said anything.${prompt}
-  15876: Aldo of the Tenshodo, at your service.${prompt}
+    Qui est-ce !?
+    ...Ah, c'est l'appareil de communication Unity. Oublie que j'ai dit quoi que ce soit.${prompt}
+  15876: Aldo du Tenshodo, à votre service.${prompt}
   15877: |-
-    Who's this!?
-    ...Ah, this is the Unity communication...wait. You're ${name-player}, aren't you?${prompt}
-  15878: The way this little thing is buzzing tells me that you're looking to join my Unity.${prompt}
-  15879: “My” Unity being the key here. Who else did you expect to be the leader?${prompt}
-  15880: I'm sure the Adventurers' Mutual Aid Network would make for...excellent customers in the future.${prompt}
-  15881: Serve the Unity well and I promise you'll want for nothing.${prompt}
-  15882: You found hope where once I had lost it. Lion was alive and I'll never forget all you've done.${prompt}
-  15883: All that she had worked and fought for...we owe it to her to live our lives to the fullest.${prompt}
-  15884: Working with others for a common goal is the greatest reward of all.${prompt}
-  15885: And it's people like you who I need to understand that most.${prompt}
-  15886: Well, do we have a new rrrecruit? I'm Jakoh Wahcondalo, chieftainess of Kazham.${prompt}
-  15887: Come to think of it...didn't I teach you the secrets of eviscerrration?${prompt}
-  15888: Hah-hah-hah! Then all the better for my Unity!${prompt}
-  15889: 'Are you sure...are you sure you''re not currrsed by ${article} ${item-article: 0[2]}?${prompt}'
-  15890: Can never be too carrreful these days...${prompt}
-  15891: Let's cut to the quick. You've joined my Unity, corrrect?${prompt}
-  15892: Then welcome.${prompt}
-  15893: But a quick word of warrrning.${prompt}
-  15894: I'm in charrrge here, so don't go about being disruptive!${prompt}
-  15895: If you can do that, we'll have no prrroblems. Now get to it!${prompt}
-  15896: H-hello, you've reached Salaheem's Sentinels.${prompt}
-  15897: There's no problem we can't solve, big or small!${prompt}
-  15898: Aha, we have a new visitor? One moment--I'll get the president for you.${prompt}
-  15899: Yes, this is Naja Salaheem.${prompt}
-  15900: Ah, have we an adventurerrr applying today?${prompt}
-  15901: You could not have picked a betterrr place to be.${prompt}
-  15902: Our Unity is completely free of charge, making it the purrrfect place to hang up your sword and meet some new companions.${prompt}
-  15903: We considerrr it our calling to provide an excellent place for those of all strrripes to utilize their talents in a variety of combat scenes.${prompt}
-  15904: Abquhbah! Get your lazy butt over here!${prompt}
-  15905: S-sorry. Yes, ${choice-player-gender}[good sir/my lady], this is Abquhbah of Salaheem's Sentinels.${prompt}
-  15906: We have a variety of powerful backers supporting our organization...${prompt}
-  15907: '...So I''m certain you''ll find achieving a high Unity ranking to be a breeze.${prompt}'
-  15908: And if we do, then there will be a lovely gift of sweets waiting. Yes, some gold pieces of--${prompt}
+    Qui est-ce !?
+    ...Ah, c'est la communication Unity... attends. Tu es ${name-player}, n'est-ce pas ?${prompt}
+  15878: La façon dont cette petite chose bourdonne me dit que tu cherches à rejoindre mon Unity.${prompt}
+  15879: '"Mon" Unity étant la clé ici. Qui d''autre t''attendais-tu à être le leader ?${prompt}'
+  15880: Je suis sûr que le Réseau d'Entraide des Aventuriers ferait d'... excellents clients à l'avenir.${prompt}
+  15881: Sers bien l'Unity et je te promets que tu ne manqueras de rien.${prompt}
+  15882: Tu as trouvé l'espoir là où j'avais perdu le mien. Lion était vivante et je n'oublierai jamais tout ce que tu as fait.${prompt}
+  15883: Tout ce pour quoi elle avait travaillé et combattu... nous lui devons de vivre nos vies pleinement.${prompt}
+  15884: Travailler avec d'autres pour un objectif commun est la plus grande récompense de toutes.${prompt}
+  15885: Et ce sont des gens comme toi qui doivent le comprendre le plus.${prompt}
+  15886: Eh bien, avons-nous une nouvelle rrrecrue ? Je suis Jakoh Wahcondalo, cheffesse de Kazham.${prompt}
+  15887: En y repensant... ne t'ai-je pas enseigné les secrets de l'éviscerrration ?${prompt}
+  15888: Hah-hah-hah ! Alors tant mieux pour mon Unity !${prompt}
+  15889: 'Es-tu sûr... es-tu sûr que tu n''es pas maudit par ${article} ${item-article: 0[2]} ?${prompt}'
+  15890: On ne peut jamais être trop prudent ces jours-ci...${prompt}
+  15891: Allons droit au but. Tu as rejoint mon Unity, corrrect ?${prompt}
+  15892: Alors bienvenue.${prompt}
+  15893: Mais un petit mot d'averrrtissement.${prompt}
+  15894: Je suis en charrrge ici, alors ne va pas être perturbateur !${prompt}
+  15895: Si tu peux faire ça, nous n'aurons aucun prrroblème. Maintenant vas-y !${prompt}
+  15896: B-bonjour, vous avez atteint les Sentinelles de Salaheem.${prompt}
+  15897: Il n'y a aucun problème que nous ne pouvons résoudre, grand ou petit !${prompt}
+  15898: Aha, nous avons un nouveau visiteur ? Un moment - je vais chercher la présidente pour vous.${prompt}
+  15899: Oui, c'est Naja Salaheem.${prompt}
+  15900: Ah, avons-nous un aventurierrr qui postule aujourd'hui ?${prompt}
+  15901: Tu ne pouvais pas choisir un meilleur endroit où être.${prompt}
+  15902: Notre Unity est complètement gratuite, ce qui en fait l'endrrroit purrrfait pour ranger ton épée et rencontrer de nouveaux compagnons.${prompt}
+  15903: Nous considérrons comme notre appel de fournir un excellent endroit pour ceux de toutes les raies d'utiliser leurs talents dans une variété de scènes de combat.${prompt}
+  15904: Abquhbah ! Ramène ton derrière paresseux ici !${prompt}
+  15905: D-désolé. Oui, ${choice-player-gender}[bon monsieur/ma dame], c'est Abquhbah des Sentinelles de Salaheem.${prompt}
+  15906: Nous avons une variété de puissants soutiens soutenant notre organisation...${prompt}
+  15907: '...Alors je suis certain que tu trouveras qu''atteindre un haut classement Unity sera une brise.${prompt}'
+  15908: Et si nous le faisons, alors il y aura un joli cadeau de sucreries qui attend. Oui, quelques pièces d'or de--${prompt}
   15909: |-
-    <Sigh>...
-    Oh, heavens, I think this device isn't worrrking properly. Can you hear me now?${prompt}
+    <Soupir>...
+    Oh, cieux, je pense que cet appareil ne fonctionne pas prrroprement. Peux-tu m'entendre maintenant ?${prompt}
   15910: |-
-    How do you respond?
+    Comment réponds-tu ?
     ${selection-lines}
-    Loud and clear.
-    Where's Abquhbah?
-    Just what did you do?${prompt}
-  15911: Please forrrgive his impudence.${prompt}
-  15912: We're looking forward to having you serrrve in our regiment.${prompt}
-  15913: And we hope you enjoy your looong stay in our rrranks!${prompt}
-  15914: Oho? Is that ${name-player} I hear?${prompt}
-  15915: ${name-player}? Gimme that!${prompt}
-  15916: 'Picturrre that, hearing from ${choice: 0}[a non-employee/a second class private/a first class private/a superior private/a lance corporal/a corporal/a sergeant/a sergeant major/a chief sergeant/a second lieutenant/a first lieutenant/a captain] such as yourself.${prompt}'
-  15917: You've got some gall shirrrking your duties like this!${prompt}
-  15918: But since you've joined my Unity, I'm willing to overlook that little trrransgression.${prompt}
-  15919: Let's paint the rankings rrred with our unstoppable team!${prompt}
-  15920: And that rrrequires you to not sit around like some good-for-nothing! You belong not just to one of my teams, but to two!${prompt}
-  15921: Be thankful you have work and get your butt out there!${prompt}
-  15922: The magic doll you are trying to reach is either suffering from mystical interference or is not attuned to a bearer.${prompt}
+    Haut et clair.
+    Où est Abquhbah ?
+    Qu'est-ce que tu as fait exactement ?${prompt}
+  15911: Veuillez parrdonner son impudence.${prompt}
+  15912: Nous avons hâte de t'avoir au serrrvis dans notre régiment.${prompt}
+  15913: Et nous espérons que tu apprécieras ton looong séjour dans nos rrrrangs !${prompt}
+  15914: Oho ? Est-ce ${name-player} que j'entends ?${prompt}
+  15915: ${name-player} ? Donne-moi ça !${prompt}
+  15916: 'Imaginez ça, entendre de ${choice: 0}[un non-employé/un soldat de deuxième classe/un soldat de première classe/un soldat supérieur/un caporal lancier/un caporal/un sergent/un sergent-major/un sergent-chef/un sous-lieutenant/un premier lieutenant/un capitaine] tel que toi.${prompt}'
+  15917: Tu as du culot de te défiler de tes devoirs comme ça !${prompt}
+  15918: Mais puisque tu as rejoint mon Unity, je suis prête à négliger cette petite trrransgression.${prompt}
+  15919: Peignons les classements en rrrouge avec notre équipe imbattable !${prompt}
+  15920: Et cela rrrequiert que tu ne restes pas assis comme un bon à rien ! Tu n'appartiens pas juste à une de mes équipes, mais à deux !${prompt}
+  15921: Sois reconnaissant d'avoir du travail et sors ton derrière là-bas !${prompt}
+  15922: La poupée magique que tu essaies de joindre souffre soit d'interférence mystique soit n'est pas accordée à un porteur.${prompt}
   15923: |-
-    Please check the settings and try a-again...
+    Veuillez vérifier les paramètres et réessayer en-ncore...
     Mmph...${prompt}
   15924: |-
-    Ahaha! Who can ever resist a good joke?
-    It's me, and no other!${prompt}
+    Ahaha ! Qui peut jamais résister à une bonne blague ?
+    C'est moi, et personne d'autre !${prompt}
   15925: |-
-    How do you react?
+    Comment réagis-tu ?
     ${selection-lines}
-    Flaviria?
-    Arciela?
-    Who?${prompt}
-  15926: Oho, expertly deduced! I'd expect no less!${prompt}
-  15927: Huh? Arciela? That little waif of a princess? Granted, I'm quite pretty as well...${prompt}
-  15928: Urk...I'd have expected you to go with the joke...${prompt}
-  15929: But let's get down to business.${prompt}
-  15930: I'm Flaviria, maester of Adoulin's Mummers' Coalition.${prompt}
-  15931: I'm Flaviria, of course. I'm sure you've been to the Mummers' Coalition more than once, so my name should be quite familiar.${prompt}
-  15932: The Adventurers' Mutual Aid Network invited me to be a Unity leader...and how could I say no?${prompt}
-  15933: Though truth be told, I wonder why they picked me over one of the other leaders of the twelve orders.${prompt}
-  15934: Now that I think of it, didn't you trounce one of our more enigmatic patrons in a game of Boom or Bust?${prompt}
-  15935: And here I thought that the man in black couldn't be bested.${prompt}
-  15936: I'd better brush up, or you'll be coming for me next!${prompt}
-  15937: Either way, welcome to my Unity! I'm not completely clear on how best to proceed, but let's find the path together.${prompt}
-  15938: Ahem. <Cough-ethy>${prompt}
-  15939: So you're the young mind who's come to join-ethy my Unity?${prompt}
-  15940: Well met, I am Dr. Yoran-Oran, former minister-ethy of the Rhinostery in Windurst, and involved in all manner of magical research.${prompt}
-  15941: Ah, didn't you assist-ethy me with my mandragora research back then? Those items were of great help, thank you.${prompt}
-  15942: Ah, I know that voice-ethy! ${name-player}, that's you, isn't it?${prompt}
-  15943: Your efforts-ethy saved the Great Star Tree. Windurst owes you a deep debt of gratitude.${prompt}
-  15944: Listen ${name-player}. Those three monstrosities you so kindly brought into my life have put me in a very disconcerting situation-ethy. I have a lot more to say about it, but for now let's focus-ethy on the issue at hand.${prompt}
-  15945: Things have slowly gone back to normal-ethy now that the wretched trio of chaos incarnate has left. I've finally managed to begin work-ethy on my next book.${prompt}
-  15946: Thank you again for your aid during the Shantotto crisis-ethy. Were it not for you, our entire dimension would have been twisted and defiled beyond recognition. I still get nightmares-ethy thinking about it.${prompt}
-  15947: You see, I have many students who regularly come-ethy to me to learn from my vast well of knowledge, but the students who buy my books are by far the best-ethy.${prompt}
-  15948: One of these students was part of the Adventurers' Mutual Aid Network-ethy and invited me to become a Unity leader.${prompt}
-  15949: I hesitated, of course. Wasting my intellectual prowess in the adventuring business-ethy didn't seem fitting for a scholar like myself.${prompt}
-  15950: But then I thought-ethy some more.${prompt}
-  15951: Could this in fact be the perfect-ethy avenue to promote my glorious research?${prompt}
-  15952: With this flawless object in mind, I've decided-ethy to accept the nomination as Unity leader.${prompt}
-  15953: And as Unity leader, I hope none of you will reproach-ethy me if I happen to plug my new book every now and again-ethy.${prompt}
-  15954: You see, I have many students who regularly come-ethy to me to learn from my vast well of knowledge, but the students who buy my books are by far the best-ethy.${prompt}
-  15955: One of these students was part of the Adventurers Mutual Aid Network-ethy and invited me to become a Unity leader.${prompt}
-  15956: I hesitated, of course. Wasting my intellectual prowess in the adventuring business-ethy didn't seem fitting for a scholar like myself.${prompt}
-  15957: But then I thought-ethy some more.${prompt}
-  15958: Could this in fact be the perfect-ethy avenue to promote my glorious research?${prompt}
-  15959: With this flawless object in mind, I've decided-ethy to accept the nomination as Unity leader.${prompt}
-  15960: And as Unity leader, I hope none of you will reproach-ethy me if I happen to plug my new book every now and again-ethy.${prompt}
+    Flaviria ?
+    Arciela ?
+    Qui ?${prompt}
+  15926: Oho, expertement déduit ! Je n'attendais pas moins !${prompt}
+  15927: Hein ? Arciela ? Cette petite créature de princesse ? Certes, je suis assez jolie aussi...${prompt}
+  15928: Urk... Je m'attendais à ce que tu suives la blague...${prompt}
+  15929: Mais entrons dans le vif du sujet.${prompt}
+  15930: Je suis Flaviria, maestre de la Coalition des Mimes d'Adoulin.${prompt}
+  15931: Je suis Flaviria, bien sûr. Je suis sûre que tu es allé à la Coalition des Mimes plus d'une fois, alors mon nom devrait être assez familier.${prompt}
+  15932: Le Réseau d'Entraide des Aventuriers m'a invitée à être leader d'Unity... et comment pourrais-je dire non ?${prompt}
+  15933: Bien qu'à vrai dire, je me demande pourquoi ils m'ont choisie plutôt qu'un des autres leaders des douze ordres.${prompt}
+  15934: Maintenant que j'y pense, n'as-tu pas battu un de nos mécènes plus énigmatiques à un jeu de Boom or Bust ?${prompt}
+  15935: Et moi qui pensais que l'homme en noir ne pouvait pas être battu.${prompt}
+  15936: Je ferais mieux de me perfectionner, ou tu viendras pour moi ensuite !${prompt}
+  15937: De toute façon, bienvenue dans mon Unity ! Je ne suis pas complètement claire sur la meilleure façon de procéder, mais trouvons le chemin ensemble.${prompt}
+  15938: Ahem. <Tousse-ethy>${prompt}
+  15939: Alors tu es le jeune esprit qui est venu rejoindre-ethy mon Unity ?${prompt}
+  15940: Bien rencontré, je suis Dr. Yoran-Oran, ancien ministre-ethy du Rhinostery à Windurst, et impliqué dans toutes sortes de recherches magiques.${prompt}
+  15941: Ah, ne m'as-tu pas aidé-ethy avec mes recherches sur les mandragores à l'époque ? Ces objets ont été d'une grande aide, merci.${prompt}
+  15942: Ah, je connais cette voix-ethy ! ${name-player}, c'est toi, n'est-ce pas ?${prompt}
+  15943: Tes efforts-ethy ont sauvé le Grand Arbre Étoile. Windurst te doit une profonde dette de gratitude.${prompt}
+  15944: Écoute ${name-player}. Ces trois monstruosités que tu as si gentiment apportées dans ma vie m'ont mis dans une situation très déconcertante-ethy. J'ai beaucoup plus à dire à ce sujet, mais pour l'instant concentrons-ethy nous sur la question en cours.${prompt}
+  15945: Les choses sont lentement revenues à la normale-ethy maintenant que le trio misérable de chaos incarné est parti. J'ai finalement réussi à commencer le travail-ethy sur mon prochain livre.${prompt}
+  15946: Merci encore pour ton aide pendant la crise Shantotto-ethy. Si ce n'était pas toi, notre dimension entière aurait été tordue et souillée au-delà de toute reconnaissance. J'ai encore des cauchemars-ethy en y pensant.${prompt}
+  15947: Tu vois, j'ai de nombreux étudiants qui viennent régulièrement-ethy à moi pour apprendre de mon vaste puits de connaissance, mais les étudiants qui achètent mes livres sont de loin les meilleurs-ethy.${prompt}
+  15948: Un de ces étudiants faisait partie du Réseau d'Entraide des Aventuriers-ethy et m'a invité à devenir leader d'Unity.${prompt}
+  15949: J'ai hésité, bien sûr. Gaspiller ma prouesse intellectuelle dans le secteur de l'aventure-ethy ne semblait pas convenir à un érudit comme moi.${prompt}
+  15950: Mais ensuite j'ai pensé-ethy un peu plus.${prompt}
+  15951: Cela pourrait-il en fait être l'avenue parfaite-ethy pour promouvoir mes glorieuses recherches ?${prompt}
+  15952: Avec cet objet impeccable à l'esprit, j'ai décidé-ethy d'accepter la nomination comme leader d'Unity.${prompt}
+  15953: Et en tant que leader d'Unity, j'espère qu'aucun de vous ne me reprochera-ethy si je me trouve à promouvoir mon nouveau livre de temps en temps-ethy.${prompt}
+  15954: Tu vois, j'ai de nombreux étudiants qui viennent régulièrement-ethy à moi pour apprendre de mon vaste puits de connaissance, mais les étudiants qui achètent mes livres sont de loin les meilleurs-ethy.${prompt}
+  15955: Un de ces étudiants faisait partie du Réseau d'Entraide des Aventuriers-ethy et m'a invité à devenir leader d'Unity.${prompt}
+  15956: J'ai hésité, bien sûr. Gaspiller ma prouesse intellectuelle dans le secteur de l'aventure-ethy ne semblait pas convenir à un érudit comme moi.${prompt}
+  15957: Mais ensuite j'ai pensé-ethy un peu plus.${prompt}
+  15958: Cela pourrait-il en fait être l'avenue parfaite-ethy pour promouvoir mes glorieuses recherches ?${prompt}
+  15959: Avec cet objet impeccable à l'esprit, j'ai décidé-ethy d'accepter la nomination comme leader d'Unity.${prompt}
+  15960: Et en tant que leader d'Unity, j'espère qu'aucun de vous ne me reprochera-ethy si je me trouve à promouvoir mon nouveau livre de temps en temps-ethy.${prompt}
   15961: '.........${prompt}'
   15962: |-
-    Oh! Right! I should probably say something.
-    I'm Sylvie. As you can probably guess from these clothes. I'm a geomanger--I mean, geomancer!${prompt}
-  15963: Oh, I forgot...you can't see my clothes, right? Forget I said that, okay?${prompt}
+    Oh ! C'est vrai ! Je devrais probablement dire quelque chose.
+    Je suis Sylvie. Comme tu peux probablement le deviner d'après ces vêtements. Je suis une géomangeur - je veux dire, géomancienne !${prompt}
+  15963: Oh, j'ai oublié... tu ne peux pas voir mes vêtements, n'est-ce pas ? Oublie que j'ai dit ça, d'accord ?${prompt}
   15964: |-
-    Oh, huh?
-    ${name-player}? Is that ${name-player}?${prompt}
-  15965: Oh, ${name-player}, it's you.${prompt}
-  15966: ${name-player}! It's ${name-player}!${prompt}
-  15967: How are you getting along with your luopan? Have you gotten used to using Colures, yet? If you keep your head and shoulders to the grindstone I'm sure you'll master it!${prompt}
-  15968: I know Daddy's training can be rough, but it looks like you passed his test with flying pigs...is that how you say that?${prompt}
-  15969: Did you know that Daddy would speak really highly of you? He would always talk about how a promising new geomancer showed up and was looking forward to seeing what you could do... He seemed so happy.${prompt}
-  15970: I can still feel your Communion. If it weren't for you back there, we would have been domed, I mean doomed. Anyway, thank you ${name-player}.${prompt}
-  15971: It's all thanks to you that we were able to fulfill Zacariah's duty. You're like the most...stupenderrific hero to all us Zacariahs!${prompt}
-  15972: So...I guess this mean you'll be joining my Unity?${prompt}
-  15973: "Thank you so much. It means a lot to me. \nAs a representative for geomancers everywhere, I want our Unity to be the most geomancerrific. I mean, the best Unity that it can be.${prompt}"
-  15974: Ikhi said this wasn't a good time for me to be leading a Unity.${prompt}
-  15975: 'But...I couldn''t just stay at home doing nothing. It''s easier to forget the sad things when you''ve got a lot to do, you know?${prompt} '
-  15976: So when the offer for Unity leader came, I had to accept.${prompt}
-  15977: You can't stay blue forever. Daddy would probably laugh at me if he saw how down and depressivated I am these days.${prompt}
+    Oh, hein ?
+    ${name-player} ? C'est ${name-player} ?${prompt}
+  15965: Oh, ${name-player}, c'est toi.${prompt}
+  15966: ${name-player} ! C'est ${name-player} !${prompt}
+  15967: Comment t'en sors-tu avec ton luopan ? T'es-tu habitué à utiliser les Colures ? Si tu gardes ta tête et tes épaules à la meule, je suis sûre que tu le maîtriseras !${prompt}
+  15968: Je sais que l'entraînement de Papa peut être rude, mais on dirait que tu as passé son test avec des cochons volants... c'est comme ça qu'on dit ?${prompt}
+  15969: Savais-tu que Papa parlait vraiment bien de toi ? Il parlait toujours de comment un nouveau géomancien prometteur s'était montré et avait hâte de voir ce que tu pouvais faire... Il semblait si heureux.${prompt}
+  15970: Je peux encore sentir ta Communion. Si ce n'était pas toi là-bas, nous aurions été domed, je veux dire condamnés. De toute façon, merci ${name-player}.${prompt}
+  15971: C'est grâce à toi que nous avons pu accomplir le devoir de Zacariah. Tu es comme le plus... stupenderrifique héros pour nous tous les Zacariahs !${prompt}
+  15972: Alors... je suppose que ça veut dire que tu vas rejoindre mon Unity ?${prompt}
+  15973: "Merci beaucoup. Ça signifie beaucoup pour moi. \nEn tant que représentante pour les géomanciens partout, je veux que notre Unity soit la plus géomancerifique. Je veux dire, la meilleure Unity qu'elle puisse être.${prompt}"
+  15974: Ikhi a dit que ce n'était pas un bon moment pour moi de diriger une Unity.${prompt}
+  15975: 'Mais... je ne pouvais pas juste rester à la maison à ne rien faire. C''est plus facile d''oublier les choses tristes quand tu as beaucoup à faire, tu sais ?${prompt} '
+  15976: Alors quand l'offre de leader d'Unity est venue, j'ai dû accepter.${prompt}
+  15977: On ne peut pas rester triste pour toujours. Papa rirait probablement de moi s'il voyait à quel point je suis dépressivatée ces jours-ci.${prompt}
   15978: |-
-    ...Right, smile Sylvie! Let's make this Unity work. With you as part of the team, I'm sure our efforts will bring us bear fruit.
-    Huh...why do they call it “bear fruit”?${prompt}
-  15979: Wait, so does this mean you'll be joining my Unity?${prompt}
-  15980: As a representative for geomancers everywhere, I want our Unity to be the most geomancerrific. I mean, the best Unity that it can be.${prompt}
-  15981: With you on our team, we'll be truly unstoppableable!${prompt}
-  15982: To tell you the truth, I wasn't sure what to do when the Adventurers' Mutual Aid Network first invited me.${prompt}
-  15983: If it weren't for Ikhi's guidance, I'd be down a creek full of paddles.${prompt}
-  15984: She said if the Unity could show people everywhere how to communicate with nature and spread the ways of the geomancer, then it was something worth doing.${prompt}
-  15985: There's still a lot I don't know as a geomancer, but I'm going to triple down and do my best as UL.${prompt}
-  15986: Let's make this the best Unity we can!${prompt}
-  15987: Yeah, go team!${prompt}
-  15988: And...if you happened to be in Western Adoulin...and are also interested in geomancy, come see me by the docks. Wait, but not like...in a weird way, okay?${prompt}
-  15989: 'It might be in your best interests to speak to ${choice: 2}[Urbiolaine/Igsli/Teldro-Kesdrodo/Nunaarl Bthtrogg] in ${zone: 0[2]} ${choice: 1}[(G-10)/(E-11)/(J-10)/(H-11)].'
+    ...C'est ça, souris Sylvie ! Faisons fonctionner cette Unity. Avec toi dans l'équipe, je suis sûre que nos efforts nous apporteront des fruits d'ours.
+    Hein... pourquoi ils appellent ça "fruits d'ours" ?${prompt}
+  15979: Attends, alors ça veut dire que tu vas rejoindre mon Unity ?${prompt}
+  15980: En tant que représentante pour les géomanciens partout, je veux que notre Unity soit la plus géomancerifique. Je veux dire, la meilleure Unity qu'elle puisse être.${prompt}
+  15981: Avec toi dans notre équipe, nous serons vraiment inarrêtabletable !${prompt}
+  15982: Pour dire la vérité, je n'étais pas sûre de quoi faire quand le Réseau d'Entraide des Aventuriers m'a invitée pour la première fois.${prompt}
+  15983: Si ce n'était pas les conseils d'Ikhi, je serais dans un ruisseau plein de pagaies.${prompt}
+  15984: Elle a dit que si l'Unity pouvait montrer aux gens partout comment communiquer avec la nature et répandre les voies du géomancien, alors c'était quelque chose qui valait la peine d'être fait.${prompt}
+  15985: Il y a encore beaucoup que je ne sais pas en tant que géomancienne, mais je vais tripler et faire de mon mieux en tant que UL.${prompt}
+  15986: Faisons de cela la meilleure Unity que nous pouvons !${prompt}
+  15987: Ouais, allez l'équipe !${prompt}
+  15988: Et... si tu te trouvais dans l'Adoulin Occidental... et es aussi intéressé par la géomancie, viens me voir près des quais. Attends, mais pas comme... de façon bizarre, d'accord ?${prompt}
+  15989: 'Il pourrait être dans ton meilleur intérêt de parler à ${choice: 2}[Urbiolaine/Igsli/Teldro-Kesdrodo/Nunaarl Bthtrogg] à ${zone: 0[2]} ${choice: 1}[(G-10)/(E-11)/(J-10)/(H-11)].'
   15990: |-
-    Join which Unity?
+    Rejoindre quelle Unity ?
     ${selection-lines}
-    I need time to consider.
+    J'ai besoin de temps pour réfléchir.
     Pieuje.
     Ayame.
-    Invincible Shield.
+    Bouclier Invincible.
     Apururu.
     Maat.
     Aldo.
@@ -36178,47 +36178,47 @@ entries:
     Flaviria.
     Yoran-Oran.
     Sylvie.${prompt}
-  15991: '${color-alt: 138}Should you join one Unity, you will not be able to switch to another one until the rankings are tallied. Proceed anyway?'
+  15991: '${color-alt: 138}Si tu rejoins une Unity, tu ne pourras pas passer à une autre jusqu''à ce que les classements soient comptabilisés. Procéder quand même ?'
   15992: |-
-    Join ${choice: 0}[Pieuje's/Ayame's/Invincible Shield's/Apururu's/Maat's/Aldo's/Jakoh Wahcondalo's/Naja Salaheem's/Flaviria's/Yoran-Oran's/Sylvie's] Unity?
+    Rejoindre l'Unity de ${choice: 0}[Pieuje/Ayame/Bouclier Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie] ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  15993: '${color-alt: 138}Switching Unities will cost a total of ${number: 1} Unity accolade${choice-plurality: 1}[/s], and you will be unable to switch until the rankings are tabulated. Are you sure you wish to switch Unities?'
+    Oui.
+    Non.${prompt}
+  15993: '${color-alt: 138}Changer d''Unities coûtera un total de ${number: 1} distinction${choice-plurality: 1}[/s] d''Unity, et tu ne pourras pas changer jusqu''à ce que les classements soient tabulés. Es-tu sûr de vouloir changer d''Unities ?'
   15994: |-
-    Join ${choice: 0}[Pieuje's/Ayame's/Invincible Shield's/Apururu's/Maat's/Aldo's/Jakoh Wahcondalo's/Naja Salaheem's/Flaviria's/Yoran-Oran's/Sylvie's] Unity? (${number: 2} acc.)
+    Rejoindre l'Unity de ${choice: 0}[Pieuje/Ayame/Bouclier Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie] ? (${number: 2} dist.)
     ${selection-lines}
-    Yes. (Cost: ${number: 1} accolade${choice-plurality: 1}[/s])
-    No.${prompt}
-  15995: '${color-alt: 138}You have joined ${choice: 0}[Pieuje''s/Ayame''s/Invincible Shield''s/Apururu''s/Maat''s/Aldo''s/Jakoh Wahcondalo''s/Naja Salaheem''s/Flaviria''s/Yoran-Oran''s/Sylvie''s] Unity!'
+    Oui. (Coût : ${number: 1} distinction${choice-plurality: 1}[/s])
+    Non.${prompt}
+  15995: '${color-alt: 138}Tu as rejoint l''Unity de ${choice: 0}[Pieuje/Ayame/Bouclier Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie] !'
   15996: |-
-    Any actions to take?
+    Des actions à entreprendre ?
     ${selection-lines}
-    None at the moment.
-    Bring me to a Wanted encounter area.
-    Enhance my equipment.${choice: 6}[/ (In progress)]
-    Add an attribute to enhanced equipment.
-    Items, please. (Up to ${number: 17} acc.)
-    Special mats! (Up to ${number: 17} acc.)
-    I want to change Unities.
-    Tell me more about all this.${prompt}
+    Aucune pour le moment.
+    Amène-moi à une zone de rencontre Recherché.
+    Améliorer mon équipement.${choice: 6}[/ (En cours)]
+    Ajouter un attribut à l'équipement amélioré.
+    Objets, s'il vous plaît. (Jusqu'à ${number: 17} dist.)
+    Matériaux spéciaux ! (Jusqu'à ${number: 17} dist.)
+    Je veux changer d'Unities.
+    Dis-m'en plus sur tout ça.${prompt}
   15997: |-
-    Which area?
+    Quelle zone ?
     ${selection-lines}
-    Return to previous selection.
-    Currently accepted area.
-    Content level 99 and below.
-    Content level 119.
-    Content level 122.
-    Content level 125.
-    Content level 128.
-    Content level 135.
-    Content level 145.
-    Content level 137.${prompt}
+    Retourner à la sélection précédente.
+    Zone actuellement acceptée.
+    Niveau de contenu 99 et en dessous.
+    Niveau de contenu 119.
+    Niveau de contenu 122.
+    Niveau de contenu 125.
+    Niveau de contenu 128.
+    Niveau de contenu 135.
+    Niveau de contenu 145.
+    Niveau de contenu 137.${prompt}
   15998: |-
-    Go to which area?
+    Aller dans quelle zone ?
     ${selection-lines}
-    Return to previous selection.
+    Retourner à la sélection précédente.
     ${zone: 0[2]}.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
@@ -36227,45 +36227,45 @@ entries:
     ${zone: 5[2]}.
     ${zone: 6[2]}.
     ${zone: 7[2]}.
-    Next page.${prompt}
+    Page suivante.${prompt}
   15999: |-
-    Go to ${zone: 0[2]}? (${number: 2} acc.)
+    Aller à ${zone: 0[2]} ? (${number: 2} dist.)
     ${selection-lines}
-    Yes. (Cost: ${number: 1} accolade${choice-plurality: 1}[/s])
-    Not now.${prompt}
+    Oui. (Coût : ${number: 1} distinction${choice-plurality: 1}[/s])
+    Pas maintenant.${prompt}
   16000: |-
-    Hear an explanation on which topic?
+    Entendre une explication sur quel sujet ?
     ${selection-lines}
-    Return to previous selection.
-    Give me a quick outline.
+    Retourner à la sélection précédente.
+    Donne-moi un bref aperçu.
     Unity Concord.
     Unities.
-    Unity chat.
-    Connection with Records of Eminence.
-    Wanted battles.
-    Enhancing equipment.
-    Adding attributes to enhanced equipment.
-    Rewards and accolades.
-    Changing Unities.
-    Unity rankings.
-    Unity leader alter egos.${prompt}
+    Chat Unity.
+    Connexion avec Records of Eminence.
+    Batailles Recherché.
+    Améliorer l'équipement.
+    Ajouter des attributs à l'équipement amélioré.
+    Récompenses et distinctions.
+    Changer d'Unities.
+    Classements Unity.
+    Alter egos des leaders Unity.${prompt}
   16001: |-
-    Select a type of equipment.
+    Sélectionner un type d'équipement.
     ${selection-lines}
-    Return to previous selection.
-    Item level 119 weapons/shields.
-    Item level 119 headgear.
-    Item level 119 chestgear.
-    Item level 119 handgear.
-    Item level 119 leggear.
-    Item level 119 footgear.
-    Level 99 equipment.
-    Level 98 and lower equipment.
-    Accessories.${prompt}
+    Retourner à la sélection précédente.
+    Armes/boucliers niveau d'objet 119.
+    Équipement de tête niveau d'objet 119.
+    Équipement de torse niveau d'objet 119.
+    Équipement de mains niveau d'objet 119.
+    Équipement de jambes niveau d'objet 119.
+    Équipement de pieds niveau d'objet 119.
+    Équipement niveau 99.
+    Équipement niveau 98 et inférieur.
+    Accessoires.${prompt}
   16002: |-
-    Which piece of equipment?
+    Quelle pièce d'équipement ?
     ${selection-lines}
-    Return to previous selection.
+    Retourner à la sélection précédente.
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
@@ -36274,391 +36274,391 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Next page.${prompt}
+    Page suivante.${prompt}
   16003: |-
-    Select an item category.
+    Sélectionner une catégorie d'objet.
     ${selection-lines}
-    Return to previous selection.
+    Retourner à la sélection précédente.
     　
     　
     　
     　${prompt}
   16004: |-
-    Which? (Up to ${number: 17}) (${number: 0} acc.)
+    Lequel ? (Jusqu'à ${number: 17}) (${number: 0} dist.)
     ${selection-lines}
-    Return to previous selection.
-    ${lettercase: 1}${item-singular: 1[2]}: ${number: 2} acc.
-    ${lettercase: 1}${item-singular: 3[2]}: ${number: 4} acc.
-    ${lettercase: 1}${item-singular: 5[2]}: ${number: 6} acc.
-    ${lettercase: 1}${item-singular: 7[2]}: ${number: 8} acc.
-    ${lettercase: 1}${item-singular: 9[2]}: ${number: 10} acc.
-    ${lettercase: 1}${item-singular: 11[2]}: ${number: 12} acc.
-    ${lettercase: 1}${item-singular: 13[2]}: ${number: 14} acc.
-    ${lettercase: 1}${item-singular: 15[2]}: ${number: 16} acc.
-    Next page.${prompt}
+    Retourner à la sélection précédente.
+    ${lettercase: 1}${item-singular: 1[2]} : ${number: 2} dist.
+    ${lettercase: 1}${item-singular: 3[2]} : ${number: 4} dist.
+    ${lettercase: 1}${item-singular: 5[2]} : ${number: 6} dist.
+    ${lettercase: 1}${item-singular: 7[2]} : ${number: 8} dist.
+    ${lettercase: 1}${item-singular: 9[2]} : ${number: 10} dist.
+    ${lettercase: 1}${item-singular: 11[2]} : ${number: 12} dist.
+    ${lettercase: 1}${item-singular: 13[2]} : ${number: 14} dist.
+    ${lettercase: 1}${item-singular: 15[2]} : ${number: 16} dist.
+    Page suivante.${prompt}
   16005: |-
-    Buy ${article} ${item-article: 1[2]}?
+    Acheter ${article} ${item-article: 1[2]} ?
     ${selection-lines}
-    Yes, please. (Cost: ${number: 0} accolade${choice-plurality: 0}[/s])
-    No, thank you.${prompt}
+    Oui, s'il vous plaît. (Coût : ${number: 0} distinction${choice-plurality: 0}[/s])
+    Non, merci.${prompt}
   16006: |-
-    ${number: 3} ${item-given-plurality: 3[2], 1[2]}?
+    ${number: 3} ${item-given-plurality: 3[2], 1[2]} ?
     ${selection-lines}
-    Yes, please. (Cost: ${number: 0} accolade${choice-plurality: 0}[/s])
-    No, thank you.${prompt}
-  16007: '${color-alt: 138}You have reached the weekly exchange limit of ${number: 0} accolades. Your ability to purchase items and special materials will be restricted until next week (Earth time).'
-  16008: '${color-alt: 138}You are Unable to switch unities at this time. The ranking tabulation period is in progress.'
+    Oui, s'il vous plaît. (Coût : ${number: 0} distinction${choice-plurality: 0}[/s])
+    Non, merci.${prompt}
+  16007: '${color-alt: 138}Tu as atteint la limite d''échange hebdomadaire de ${number: 0} distinctions. Ta capacité à acheter des objets et des matériaux spéciaux sera restreinte jusqu''à la semaine prochaine (temps terrestre).'
+  16008: '${color-alt: 138}Tu ne peux pas changer d''unities pour le moment. La période de tabulation des classements est en cours.'
   16009: |-
-    Enhance the ${item-singular: 1[2]}? (${number: 2} acc.)
+    Améliorer le ${item-singular: 1[2]} ? (${number: 2} dist.)
     ${selection-lines}
-    Yes, please. (Cost: ${number: 0} accolade${choice-plurality: 0}[/s])
-    No, thank you.${prompt}
+    Oui, s'il vous plaît. (Coût : ${number: 0} distinction${choice-plurality: 0}[/s])
+    Non, merci.${prompt}
   16010: |-
-    Add attribute to equipment? (${number: 2} acc.)
+    Ajouter un attribut à l'équipement ? (${number: 2} dist.)
     ${selection-lines}
-    Yes. (Cost: ${number: 0} accolade${choice-plurality: 0}[/s])
-    No.${prompt}
+    Oui. (Coût : ${number: 0} distinction${choice-plurality: 0}[/s])
+    Non.${prompt}
   16011: |-
-    Store Reinforcement Points for equipment?
+    Stocker des Points de Renforcement pour l'équipement ?
     ${selection-lines}
-    Yes. (Cost: ${number: 6} ${item-given-plurality: 6[2], 5[2]})
-    No.${prompt}
-  16012: Unity Concord is a system promulgated and managed by the Adventurers' Mutual Aid Network.${prompt}
-  16013: Participating adventurers are able to receive a variety of benefits and rewards just by engaging in their everyday activities.${prompt}
-  16014: “Unity” is a catchall term that refers to the group that participants belong to.${prompt}
-  16015: Unity leaders are individuals who have strong ties to adventurers' activities and are sterling representatives of their home nations.${prompt}
-  16016: 'Members of the same Unity can converse with each other over great distances through the use of specialized figurines known as “${keyitem-plural: 1[2]}.”${prompt}'
-  16017: Chat settings may be changed by selecting “Status” from the main menu, and choosing “Unity Info” under the “Unity” submenu.${prompt}
-  16018: You may not always be able to join the chat if too many players are participating at once.${prompt}
-  16019: Those belonging to a Unity are able to undertake special Records of Eminence objectives related to Unity Concord activities.${prompt}
-  16020: The three pertinent categories include shared objectives, Unity leader-specific objectives, and Wanted battle objectives.${prompt}
-  16021: Shared objectives may be taken regardless of which Unity you have joined. These tasks can be undertaken at any time, and change every day at midnight (JST).${prompt}
-  16022: Unity leader-specific objectives are tied to the Unity's eponymous leader and change each week.${prompt}
-  16023: “Wanted” objectives center around vanquishing particularly heinous foes that terrorize Vana'diel.${prompt}
-  16024: These objectives are of a higher caliber, and thus require currency known as “Unity accolades” to undertake.${prompt}
-  16025: Shared and leader-specific objectives provide more accolades than run-of-the-mill objectives.${prompt}
-  16026: Vana'diel has always been plagued by nefarious foes pillaging the landscape, but relatives of some of the more heinous ones have been spotted lately.${prompt}
-  16027: The A.M.A.N. has deemed it necessary to eliminate these Wanted targets, and has notified Unity members that they are of the utmost priority.${prompt}
-  16028: A list of these foes can be viewed at any time by selecting the appropriate subcategory under the objectives list.${prompt}
-  16029: Unity Concord representatives are able to provide participants with transportation to the areas where these threats can be found.${prompt}
-  16030: Though tackling the profane will likely require participation of your allies, the objective can be undertaken so long as at least one person has set the appropriate objective.${prompt}
-  16031: When you set the objective and commence the battle, the requisite number of Unity accolades will be deducted from your total.${prompt}
-  16032: Successful challengers will be rewarded with special rewards in addition to the normal sparks of eminence.${prompt}
-  16033: No Unity accolades will be charged should you commence the battle without having the appropriate objective set, but the rewards you can reap from your efforts will be limited.${prompt}
-  16034: You can snatch unparalleled equipment and materials from the slain corpses of Wanted targets.${prompt}
-  16035: An A.M.A.N. specialist versed in arcane harmonization has kindly offered to use these materials to bring out the latent potential in such pieces.${prompt}
-  16036: One of the Unity guides will be pleased to accept certain combinations of equipment and materials to begin the process for you.${prompt}
-  16037: A number of accolades is required for this service, but the precision and accuracy of her methods are without equal, and there is no worry of your equipment being destroyed.${prompt}
-  16038: You can use specified materials to add new attributes to equipment that has been upgraded.${prompt}
-  16039: Utilizing additional materials after adding an attribute can accumulate Reinforcement Points for the equipment and increase its rank.${prompt}
-  16040: Increasing your equipment's rank can boost its attributes, while some equipment can also have additional attributes added later.${prompt}
-  16041: Speak to the Unity guides after gathering the necessary materials for your equipment in order to add attributes to it or increase its rank.${prompt}
-  16042: The first time you add an attribute to a piece of equipment will require the use of Unity accolades.${prompt}
-  16043: It also requires that you first complete a specific Records of Eminence objective.${prompt}
-  16044: The work you request will be carried out on-site by a specially trained Unity guide.${prompt}
-  16045: Completing Records of Eminence objectives as part of a Unity will reward you with Unity accolades in addition to sparks of eminence.${prompt}
-  16046: These accolades not only serve as a symbol of prestige, but can also be exchanged for a variety of services.${prompt}
-  16047: Some of these services include purchasing items, securing battle zones for hunting Wanted targets, fees for strengthening equipment, and more.${prompt}
-  16048: 'Please note that you may only exchange a maximum of ${number: 0} accolades per week (Earth time).${prompt}'
-  16049: You may switch Unities once during the Unity ranking tabulation period.${prompt}
-  16050: This is not a decision to be taken lightly, for switching Unities will cause you to forfeit any benefits you were receiving from your previous one.${prompt}
-  16051: This process requires a fair deal of paperwork, and the A.M.A.N. will charge you an accolade fee based on your rank.${prompt}
-  16052: However, your valorous deeds remain wherever you choose to go, and you will not lose any other accolades.${prompt}
-  16053: Rankings are decided through the combined efforts of each of the Unity's members.${prompt}
-  16054: The A.M.A.N. tabulates all the good deeds done during a period of time and confers benefits on a Unity for the following ranking period.${prompt}
-  16055: Some of these benefits include changes to Unity accolades gained and the effects of equipment earned from Wanted battles.${prompt}
-  16056: Yes, you read that correctly--the attributes of certain equipment will increase in line with your Unity's ranking.${prompt}
-  16057: On the other hand, members of a Unity that finds itself on the lower rungs will enjoy an increase in accolades and capacity points earned to help bring them up to par.${prompt}
-  16058: 'Additionally, an individual''s evaluation is the sum of the accolades they have earned divided by ${number: 0}. A Unity''s ranking is the average of all eligible members'' individual evaluations.${prompt}'
-  16059: The A.M.A.N. does not look kindly on those who only seek to siphon rewards from others' hard work, and thus only confers these boons on those who have collected at least a certain number of accolades.${prompt}
-  16060: Unity leaders may also join you as alter egos for a limited period of time.${prompt}
-  16061: 'Those with evaluations of ${number: 0} or greater will be able to call forth an alter ego of their leader to assist them in battle.${prompt}'
-  16062: Those eligible will be able to use the alter ego from the moment they acquire the appropriate ranking level until the tabulation after the next.${prompt}
-  16063: A leader's alter ego grows in power the higher their Unity is ranked.${prompt}
-  16064: Changing Unities will remove the player's ability to call forth their leader's alter ego at the moment they leave their current Unity, regardless of personal evaluation or remaining time.${prompt}
-  16065: A player will have to work hard in their new Unity and acquire a sufficient evaluation to regain the ability to call forth their new Unity's leader.${prompt}
-  16066: It goes without saying that players must first have acquired a Trust permit in order to avail themselves of this opportunity.${prompt}
-  16067: Those desiring to participate should seek out one of the initiative's representatives, dressed in green, in one of the three nations.${prompt}
-  16068: '${color-alt: 138}You are currently under Unity restriction. Please try again during the next tabulation period.'
-  16069: '${color-alt: 138}The A.M.A.N. has removed the Unity restrictions placed on you. Please choose your Unity.'
-  16070: '${color-alt: 138}You call out for aid from the Unity leaders, but none have heeded your call. Please try again.'
-  16071: '${color-alt: 138}You have already changed Unities. Please wait until the next tabulation period.'
-  16072: '${color-alt: 138}Should you choose to be teleported to this area, you will not have enough accolades to participate in the Wanted battle. Teleport anyway?'
+    Oui. (Coût : ${number: 6} ${item-given-plurality: 6[2], 5[2]})
+    Non.${prompt}
+  16012: Unity Concord est un système promulgué et géré par le Réseau d'Entraide des Aventuriers.${prompt}
+  16013: Les aventuriers participants peuvent recevoir une variété d'avantages et de récompenses simplement en s'engageant dans leurs activités quotidiennes.${prompt}
+  16014: "\"Unity\" est un terme générique qui fait référence au groupe auquel les participants appartiennent.${prompt}"
+  16015: Les leaders d'Unity sont des individus qui ont des liens étroits avec les activités des aventuriers et sont d'excellents représentants de leurs nations d'origine.${prompt}
+  16016: "Les membres de la même Unity peuvent converser entre eux sur de grandes distances grâce à l'utilisation de figurines spécialisées connues sous le nom de \"${keyitem-plural: 1[2]}.\"${prompt}"
+  16017: Les paramètres de chat peuvent être modifiés en sélectionnant "Statut" dans le menu principal, et en choisissant "Info Unity" sous le sous-menu "Unity".${prompt}
+  16018: Tu ne pourras pas toujours rejoindre le chat si trop de joueurs participent en même temps.${prompt}
+  16019: Ceux appartenant à une Unity peuvent entreprendre des objectifs spéciaux de Records of Eminence liés aux activités d'Unity Concord.${prompt}
+  16020: Les trois catégories pertinentes incluent les objectifs partagés, les objectifs spécifiques au leader d'Unity, et les objectifs de bataille Recherché.${prompt}
+  16021: Les objectifs partagés peuvent être pris quelle que soit l'Unity que tu as rejointe. Ces tâches peuvent être entreprises à tout moment, et changent chaque jour à minuit (JST).${prompt}
+  16022: Les objectifs spécifiques au leader d'Unity sont liés au leader éponyme de l'Unity et changent chaque semaine.${prompt}
+  16023: Les objectifs "Recherché" se concentrent sur la défaite d'ennemis particulièrement odieux qui terrorisent Vana'diel.${prompt}
+  16024: Ces objectifs sont d'un calibre supérieur, et nécessitent donc une monnaie connue sous le nom de "distinctions Unity" pour être entrepris.${prompt}
+  16025: Les objectifs partagés et spécifiques au leader fournissent plus de distinctions que les objectifs ordinaires.${prompt}
+  16026: Vana'diel a toujours été en proie à des ennemis néfastes pillant le paysage, mais des parents de certains des plus odieux ont été aperçus récemment.${prompt}
+  16027: L'A.M.A.N. a jugé nécessaire d'éliminer ces cibles Recherchées, et a notifié les membres d'Unity qu'elles sont de la plus haute priorité.${prompt}
+  16028: Une liste de ces ennemis peut être consultée à tout moment en sélectionnant la sous-catégorie appropriée sous la liste des objectifs.${prompt}
+  16029: Les représentants d'Unity Concord peuvent fournir aux participants un transport vers les zones où ces menaces peuvent être trouvées.${prompt}
+  16030: Bien qu'affronter le profane nécessitera probablement la participation de tes alliés, l'objectif peut être entrepris tant qu'au moins une personne a défini l'objectif approprié.${prompt}
+  16031: Lorsque tu définis l'objectif et commences la bataille, le nombre requis de distinctions Unity sera déduit de ton total.${prompt}
+  16032: Les challengers réussis seront récompensés avec des récompenses spéciales en plus des étincelles d'éminence normales.${prompt}
+  16033: Aucune distinction Unity ne sera facturée si tu commences la bataille sans avoir l'objectif approprié défini, mais les récompenses que tu peux récolter de tes efforts seront limitées.${prompt}
+  16034: Tu peux saisir des équipements et matériaux inégalés des cadavres abattus de cibles Recherchées.${prompt}
+  16035: Un spécialiste de l'A.M.A.N. versé dans l'harmonisation arcane a gentiment offert d'utiliser ces matériaux pour faire ressortir le potentiel latent dans de telles pièces.${prompt}
+  16036: Un des guides Unity sera heureux d'accepter certaines combinaisons d'équipement et de matériaux pour commencer le processus pour toi.${prompt}
+  16037: Un certain nombre de distinctions est requis pour ce service, mais la précision et l'exactitude de ses méthodes sont sans égal, et il n'y a aucun souci que ton équipement soit détruit.${prompt}
+  16038: Tu peux utiliser des matériaux spécifiés pour ajouter de nouveaux attributs à l'équipement qui a été amélioré.${prompt}
+  16039: Utiliser des matériaux supplémentaires après avoir ajouté un attribut peut accumuler des Points de Renforcement pour l'équipement et augmenter son rang.${prompt}
+  16040: Augmenter le rang de ton équipement peut booster ses attributs, tandis que certains équipements peuvent aussi avoir des attributs supplémentaires ajoutés plus tard.${prompt}
+  16041: Parle aux guides Unity après avoir rassemblé les matériaux nécessaires pour ton équipement afin d'y ajouter des attributs ou d'augmenter son rang.${prompt}
+  16042: La première fois que tu ajoutes un attribut à une pièce d'équipement nécessitera l'utilisation de distinctions Unity.${prompt}
+  16043: Cela nécessite aussi que tu complètes d'abord un objectif spécifique de Records of Eminence.${prompt}
+  16044: Le travail que tu demandes sera effectué sur place par un guide Unity spécialement formé.${prompt}
+  16045: Compléter des objectifs de Records of Eminence dans le cadre d'une Unity te récompensera avec des distinctions Unity en plus des étincelles d'éminence.${prompt}
+  16046: Ces distinctions servent non seulement de symbole de prestige, mais peuvent aussi être échangées contre une variété de services.${prompt}
+  16047: Certains de ces services incluent l'achat d'objets, la sécurisation de zones de bataille pour chasser les cibles Recherchées, les frais pour renforcer l'équipement, et plus encore.${prompt}
+  16048: 'Veuillez noter que tu ne peux échanger qu''un maximum de ${number: 0} distinctions par semaine (temps terrestre).${prompt}'
+  16049: Tu peux changer d'Unities une fois pendant la période de tabulation des classements Unity.${prompt}
+  16050: Ce n'est pas une décision à prendre à la légère, car changer d'Unities te fera perdre tous les avantages que tu recevais de ta précédente.${prompt}
+  16051: Ce processus nécessite beaucoup de paperasse, et l'A.M.A.N. te facturera des frais de distinction basés sur ton rang.${prompt}
+  16052: Cependant, tes actes valeureux restent où que tu choisisses d'aller, et tu ne perdras aucune autre distinction.${prompt}
+  16053: Les classements sont décidés par les efforts combinés de chacun des membres de l'Unity.${prompt}
+  16054: L'A.M.A.N. tabule toutes les bonnes actions effectuées pendant une période de temps et confère des avantages à une Unity pour la période de classement suivante.${prompt}
+  16055: Certains de ces avantages incluent des changements aux distinctions Unity gagnées et aux effets de l'équipement gagné des batailles Recherché.${prompt}
+  16056: Oui, tu as bien lu - les attributs de certains équipements augmenteront en ligne avec le classement de ton Unity.${prompt}
+  16057: D'un autre côté, les membres d'une Unity qui se trouve sur les échelons inférieurs bénéficieront d'une augmentation des distinctions et des points de capacité gagnés pour les aider à se mettre à niveau.${prompt}
+  16058: 'De plus, l''évaluation d''un individu est la somme des distinctions qu''il a gagnées divisée par ${number: 0}. Le classement d''une Unity est la moyenne de toutes les évaluations individuelles des membres éligibles.${prompt}'
+  16059: L'A.M.A.N. ne voit pas d'un bon œil ceux qui ne cherchent qu'à siphonner les récompenses du travail acharné des autres, et ne confère donc ces avantages qu'à ceux qui ont collecté au moins un certain nombre de distinctions.${prompt}
+  16060: Les leaders Unity peuvent aussi te rejoindre en tant qu'alter egos pour une période de temps limitée.${prompt}
+  16061: 'Ceux ayant des évaluations de ${number: 0} ou plus pourront invoquer un alter ego de leur leader pour les assister au combat.${prompt}'
+  16062: Ceux qui sont éligibles pourront utiliser l'alter ego à partir du moment où ils acquièrent le niveau de classement approprié jusqu'à la tabulation suivante.${prompt}
+  16063: L'alter ego d'un leader gagne en puissance plus son Unity est bien classée.${prompt}
+  16064: Changer d'Unities retirera la capacité du joueur à invoquer l'alter ego de son leader au moment où il quitte son Unity actuelle, quelle que soit l'évaluation personnelle ou le temps restant.${prompt}
+  16065: Un joueur devra travailler dur dans sa nouvelle Unity et acquérir une évaluation suffisante pour regagner la capacité d'invoquer le leader de sa nouvelle Unity.${prompt}
+  16066: Il va sans dire que les joueurs doivent d'abord avoir acquis un permis Trust pour pouvoir profiter de cette opportunité.${prompt}
+  16067: Ceux qui désirent participer devraient chercher l'un des représentants de l'initiative, habillés en vert, dans l'une des trois nations.${prompt}
+  16068: '${color-alt: 138}Tu es actuellement sous restriction Unity. Veuillez réessayer pendant la prochaine période de tabulation.'
+  16069: '${color-alt: 138}L''A.M.A.N. a retiré les restrictions Unity placées sur toi. Veuillez choisir ton Unity.'
+  16070: '${color-alt: 138}Tu appelles à l''aide des leaders Unity, mais aucun n''a répondu à ton appel. Veuillez réessayer.'
+  16071: '${color-alt: 138}Tu as déjà changé d''Unities. Veuillez attendre jusqu''à la prochaine période de tabulation.'
+  16072: '${color-alt: 138}Si tu choisis d''être téléporté vers cette zone, tu n''auras pas assez de distinctions pour participer à la bataille Recherché. Téléporter quand même ?'
   16073: |-
-    Teleport anyway?
+    Téléporter quand même ?
     ${selection-lines}
-    Yes, please.
-    No, thank you.${prompt}
-  16074: Just looking at you gives me this wonderful tingling feeling...${prompt}
-  16075: 'Maybe it would be even more tingly if you completed at least ${number: 0} Records of Eminence objective${choice-plurality: 0}[/s] for me.${prompt}'
-  16076: My good friend Rolandienne can get you started!${prompt}
-  16077: 'If only a ${choice-player-gender}[dashing prince/dazzling maiden] could win my heart over by setting the “${unknown: 0x01054082818080}” Records of Eminence objective from the “Tutorial” category...${prompt}'
-  16078: 'Why, sweetie--is that ${unknown: 0x01054082818080} you have set there?${prompt}'
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
+  16074: Juste te regarder me donne cette merveilleuse sensation de picotement...${prompt}
+  16075: 'Peut-être que ce serait encore plus picotant si tu complétais au moins ${number: 0} objectif${choice-plurality: 0}[/s] de Records of Eminence pour moi.${prompt}'
+  16076: Mon bon ami Rolandienne peut te lancer !${prompt}
+  16077: 'Si seulement ${choice-player-gender}[un prince fringant/une demoiselle éblouissante] pouvait gagner mon cœur en définissant l''objectif "${unknown: 0x01054082818080}" de Records of Eminence de la catégorie "Tutoriel"...${prompt}'
+  16078: 'Quoi, chéri - est-ce ${unknown: 0x01054082818080} que tu as défini là ?${prompt}'
   16079: |-
-    Is it?
+    Est-ce le cas ?
     ${selection-lines}
-    Sure is!
-    You must be mistaken.${prompt}
-  16080: Woe is me, for one so ${choice-player-gender}[dapper/elegant] as this young ${choice-player-gender}[man/woman] to choose to lie in the face of progress!${prompt}
-  16081: Hooray! I love people who are direct and to the point.${prompt}
-  16082: This can only mean one thing--you have an interest in Unity Concord.${prompt}
+    Bien sûr !
+    Tu dois te tromper.${prompt}
+  16080: Malheur à moi, pour quelqu'un d'aussi ${choice-player-gender}[élégant/élégante] que ce${choice-player-gender}[/tte] jeune ${choice-player-gender}[homme/femme] de choisir de mentir face au progrès !${prompt}
+  16081: Hourra ! J'aime les gens qui sont directs et vont droit au but.${prompt}
+  16082: Cela ne peut signifier qu'une chose - tu as un intérêt pour Unity Concord.${prompt}
   16083: |-
-    How do you respond?
+    Comment réponds-tu ?
     ${selection-lines}
-    How do I participate?
-    Let me sleep on it.${prompt}
-  16084: But...why? I only want what's best for you!${prompt}
+    Comment participer ?
+    Laisse-moi y réfléchir.${prompt}
+  16084: Mais... pourquoi ? Je veux seulement ce qu'il y a de mieux pour toi !${prompt}
   16085: |-
     Oh-ho-ho...
-    I bet you say that to all the Unity Concord guides♪.${prompt}
-  16086: Getting started is very simple. Press its tummy and watch it squeal like a man made out of bread dough.${prompt}
-  16087: Tee hee!${prompt}
-  16088: '${color-alt: 15}You press your index finger into the doll''s belly button.'
-  16089: '${color-alt: 15}The doll begins to twitch and shudder!'
+    Je parie que tu dis ça à tous les guides Unity Concord♪.${prompt}
+  16086: Commencer est très simple. Appuie sur son ventre et regarde-le couiner comme un homme fait de pâte à pain.${prompt}
+  16087: Tee hee !${prompt}
+  16088: '${color-alt: 15}Tu appuies ton index dans le nombril de la poupée.'
+  16089: '${color-alt: 15}La poupée commence à se contracter et à trembler !'
   16090: |-
-    Hehehe!
-    This little device is known as “${keyitem-article: 0[2]}.”${prompt}
-  16091: The doll has brought us closer together than two people are ever meant to be.${prompt}
-  16092: Perhaps that's a tad over the top. But the doll is a symbol of your participation in Unity Concord, a system developed by the Adventurers' Mutual Aid Network (A.M.A.N.). Let me explain.${prompt}
-  16093: Unity Concord brings together people of like mind to share wonderful experiences with each other...both on and off the battlefield.${prompt}
-  16094: And you are now part of this wondrous organization.${prompt}
-  16095: You know what would make me elated? If you were to choose a Unity leader. Go on, now.${prompt}
-  16096: Hehe, I know your type! The Unity you really want to join is...mine. But I don't have one yet.${prompt}
-  16097: 'I''ll hold onto your ${keyitem-singular: 0[2]} until you''re ready to decide. Waiting with...bated breath.${prompt}'
-  16098: 'How lovely that you came back! Here''s your ${keyitem-singular: 0[2]}, safe and sound.${prompt}'
-  16099: Have you made up your mind?${prompt}
-  16100: 'Hmm...${choice: 0}[Pieuje''s/Ayame''s/Invincible Shield''s/Apururu''s/Maat''s/Aldo''s/Jakoh Wahcondalo''s/Naja Salaheem''s/Flaviria''s/Yoran-Oran''s/Sylvie''s] Unity, correct? That''s where you want to stay until I can woo you over to mine?${prompt}'
-  16101: 'Now squeeze your ${keyitem-singular: 0[2]}, close your eyes, and think pleasant thoughts of your new Unity leader.${prompt}'
-  16102: Did your introduction go well?${prompt}
-  16103: '${lettercase: 1}${keyitem-plural: 0[2]} really are fabulous creations, what with being able to converse over long distances.${prompt}'
-  16104: Yours can be used to talk with others belonging to the same Unity!${prompt}
-  16105: '...My heart aches knowing that you value that doll more than you do me.${prompt}'
-  16106: Hmph. That's okay. I won't keep you from talking with your friends.${prompt}
-  16107: If you like them so much, why don't you select the chat settings from “Unity Info” from the “Unity” section of the “Status” submenu and let all your feelings out?${prompt}
+    Hehehe !
+    Ce petit appareil est connu sous le nom de "${keyitem-article: 0[2]}."${prompt}
+  16091: La poupée nous a rapprochés plus que deux personnes ne sont jamais censées l'être.${prompt}
+  16092: C'est peut-être un peu exagéré. Mais la poupée est un symbole de ta participation à Unity Concord, un système développé par le Réseau d'Entraide des Aventuriers (A.M.A.N.). Laisse-moi t'expliquer.${prompt}
+  16093: Unity Concord rassemble des personnes ayant le même état d'esprit pour partager de merveilleuses expériences les unes avec les autres... à la fois sur et hors du champ de bataille.${prompt}
+  16094: Et tu fais maintenant partie de cette organisation merveilleuse.${prompt}
+  16095: Tu sais ce qui me ravirait ? Si tu devais choisir un leader Unity. Vas-y, maintenant.${prompt}
+  16096: Hehe, je connais ton genre ! L'Unity que tu veux vraiment rejoindre est... la mienne. Mais je n'en ai pas encore.${prompt}
+  16097: 'Je garderai ton ${keyitem-singular: 0[2]} jusqu''à ce que tu sois prêt à décider. Attendant avec... souffle retenu.${prompt}'
+  16098: 'Comme c''est adorable que tu sois revenu ! Voici ton ${keyitem-singular: 0[2]}, sain et sauf.${prompt}'
+  16099: As-tu pris ta décision ?${prompt}
+  16100: 'Hmm... L''Unity de ${choice: 0}[Pieuje/Ayame/Bouclier Invincible/Apururu/Maat/Aldo/Jakoh Wahcondalo/Naja Salaheem/Flaviria/Yoran-Oran/Sylvie], c''est exact ? C''est là que tu veux rester jusqu''à ce que je puisse te courtiser vers la mienne ?${prompt}'
+  16101: 'Maintenant serre ton ${keyitem-singular: 0[2]}, ferme les yeux, et pense à des pensées agréables de ton nouveau leader Unity.${prompt}'
+  16102: Ton introduction s'est-elle bien passée ?${prompt}
+  16103: '${lettercase: 1}${keyitem-plural: 0[2]} sont vraiment des créations fabuleuses, avec la capacité de converser sur de longues distances.${prompt}'
+  16104: Le tien peut être utilisé pour parler avec d'autres appartenant à la même Unity !${prompt}
+  16105: '...Mon cœur me fait mal de savoir que tu values cette poupée plus que moi.${prompt}'
+  16106: Hmph. C'est bon. Je ne t'empêcherai pas de parler avec tes amis.${prompt}
+  16107: Si tu les aimes tellement, pourquoi ne sélectionnes-tu pas les paramètres de chat depuis "Info Unity" dans la section "Unity" du sous-menu "Statut" et ne laisses-tu pas sortir tous tes sentiments ?${prompt}
   16108: |-
-    How do you respond?
+    Comment réponds-tu ?
     ${selection-lines}
-    Is something bothering you?
-    Thanks.
-    Uh...sorry.${prompt}
-  16109: No! I'm perfectly fine!${prompt}
-  16110: Well, the only reason I helped you anyway is because I had to.${prompt}
-  16111: Your false apologies will get you nowhere!${prompt}
-  16112: Now go have fun with your Unity and leave me to wallow in peace.${prompt}
-  16113: What do you want?
-  16114: 'Fine. Go to ${zone: 0[2]}. Just don''t be surprised if I''ve found someone else by the time you''re back.${prompt}'
-  16115: And you don't even have enough accolades! Ugh, what did I expect...${prompt}
-  16116: 'Hey--don''t forget that you can only exchange ${number: 0} more accolade${choice-plurality: 0}[/s] this week!${prompt}'
-  16117: Here's what your new piece of equipment'll look like.${prompt}
-  16118: 'If you want ${article} ${item-article: 0[2]}, I''ll need ${article} ${item-article: 4[2]}, ${number: 2} ${item-given-plurality: 2[2], 1[2]}, and ${number: 3} Unity accolade${choice-plurality: 3}[/s].${prompt}'
-  16119: Don't expect it to be done right away. The artisan is busy and needs time to work.${prompt}
-  16120: 'But hang on--you''ve already got a request pending for ${article} ${item-article: 0[2]}. Can''t you be more patient!?${prompt}'
-  16121: I suppose this is what the new attribute will be like.${prompt}
-  16122: This is what your equipment will be like if you increase its rank to the maximum.${prompt}
-  16123: 'You''ll need to bring me ${article} ${item-article: 1[2]} along with your ${item-singular: 0[2]}. And don''t even think about forgetting my fee of ${number: 2} accolade${choice-plurality: 2}[/s]!${prompt}'
-  16124: 'I also cannot accept your request unless you complete the Records of Eminence objective “${unknown: 0x01054082848080}” beforehand.${prompt}'
-  16125: 'To boost your item''s rank, bring me ${article} ${item-article: 1[2]} that features an attribute along with some ${item-plural: 3[2]}. The more you bring, the higher its rank will rise.${prompt}'
-  16126: I am responsible for adding attributes to items as well as increasing their rank...${prompt}
-  16127: H-hey, don't get the wrong idea! It's not like I learned how to do this just for you or anything!${prompt}
-  16128: 'Wow, are you sure you want to waste your accolades on ${item-plural: 1[2]}? Hmph. That''s your prerogative, but it''ll cost you ${number: 0} accolade${choice-plurality: 0}[/s].${prompt}'
-  16129: 'And how many would you like? (1 to ${number: 0})${prompt}'
-  16130: '${number: 2} ${item-given-plurality: 2[2], 1[2]} will run you ${number: 0} accolade${choice-plurality: 0}[/s].${prompt}'
-  16131: That's fine. I didn't want your stinking accolades anyway.${prompt}
-  16132: Does that mean...at least we...${prompt}
+    Quelque chose te tracasse ?
+    Merci.
+    Euh... désolé.${prompt}
+  16109: Non ! Je vais parfaitement bien !${prompt}
+  16110: Eh bien, la seule raison pour laquelle je t'ai aidé de toute façon est parce que je devais.${prompt}
+  16111: Tes fausses excuses ne te mèneront nulle part !${prompt}
+  16112: Maintenant va t'amuser avec ton Unity et laisse-moi me vautrer en paix.${prompt}
+  16113: Que veux-tu ?
+  16114: 'Bien. Va à ${zone: 0[2]}. Ne sois juste pas surpris si j''ai trouvé quelqu''un d''autre au moment où tu reviendras.${prompt}'
+  16115: Et tu n'as même pas assez de distinctions ! Ugh, qu'est-ce que j'attendais...${prompt}
+  16116: 'Hé - n''oublie pas que tu ne peux échanger que ${number: 0} distinction${choice-plurality: 0}[/s] de plus cette semaine !${prompt}'
+  16117: Voici à quoi ressemblera ta nouvelle pièce d'équipement.${prompt}
+  16118: 'Si tu veux ${article} ${item-article: 0[2]}, j''aurai besoin de ${article} ${item-article: 4[2]}, ${number: 2} ${item-given-plurality: 2[2], 1[2]}, et ${number: 3} distinction${choice-plurality: 3}[/s] Unity.${prompt}'
+  16119: Ne t'attends pas à ce que ce soit fait tout de suite. L'artisan est occupé et a besoin de temps pour travailler.${prompt}
+  16120: 'Mais attends - tu as déjà une demande en attente pour ${article} ${item-article: 0[2]}. Ne peux-tu pas être plus patient !?${prompt}'
+  16121: Je suppose que c'est à quoi ressemblera le nouvel attribut.${prompt}
+  16122: C'est à quoi ressemblera ton équipement si tu augmentes son rang au maximum.${prompt}
+  16123: 'Tu devras m''apporter ${article} ${item-article: 1[2]} avec ton ${item-singular: 0[2]}. Et ne pense même pas à oublier mes frais de ${number: 2} distinction${choice-plurality: 2}[/s] !${prompt}'
+  16124: 'Je ne peux pas non plus accepter ta demande à moins que tu ne complètes l''objectif Records of Eminence "${unknown: 0x01054082848080}" au préalable.${prompt}'
+  16125: 'Pour booster le rang de ton objet, apporte-moi ${article} ${item-article: 1[2]} qui comporte un attribut avec des ${item-plural: 3[2]}. Plus tu en apportes, plus son rang augmentera.${prompt}'
+  16126: Je suis responsable d'ajouter des attributs aux objets ainsi que d'augmenter leur rang...${prompt}
+  16127: H-hé, ne te fais pas de fausses idées ! Ce n'est pas comme si j'avais appris à faire ça juste pour toi ou quoi que ce soit !${prompt}
+  16128: 'Wow, es-tu sûr de vouloir gaspiller tes distinctions sur des ${item-plural: 1[2]} ? Hmph. C''est ta prérogative, mais ça te coûtera ${number: 0} distinction${choice-plurality: 0}[/s].${prompt}'
+  16129: 'Et combien en voudrais-tu ? (1 à ${number: 0})${prompt}'
+  16130: '${number: 2} ${item-given-plurality: 2[2], 1[2]} te coûteront ${number: 0} distinction${choice-plurality: 0}[/s].${prompt}'
+  16131: C'est bien. Je ne voulais pas de tes distinctions puantes de toute façon.${prompt}
+  16132: Est-ce que ça veut dire... au moins nous...${prompt}
   16133: |-
-    ...Uh....never mind.
-    Stop lollygagging and pick your Unity already!${prompt}
-  16134: Everything should be in the clear. Go enjoy your new Unity and leave me here to rot.${prompt}
-  16135: Sweet Goddess, would you make up your mind?${prompt}
-  16136: More questions? Okay, let me take out this backbreakingly heavy guide I've been lugging around for days.${prompt}
-  16137: First, you join a Unity of your choosing.${prompt}
-  16138: Then you earn accolades by completing Records of Eminence objectives.${prompt}
-  16139: Finally, you use those accolades to procure rewards.${prompt}
-  16140: Hopefully that was simple enough for you to wrap your pea-sized head around.${prompt}
-  16141: 'You want us to enhance your ${item-singular: 1[2]}?${prompt}'
-  16142: 'Our artisan requires a fee of ${number: 0} accolade${choice-plurality: 0}[/s]. Are you willing to cough it up?${prompt}'
-  16143: I'll make sure it gets safely to him. Try not to get killed in the meantime.${prompt}
-  16144: Have you come back to torment me!?${prompt}
-  16145: 'Your ${item-singular: 1[2]} isn''t ready yet. Shoo! Shoo!${prompt}'
-  16146: 'Yeah, yeah, your ${item-singular: 1[2]} is finally ready. I hope you choke on it.${prompt}'
-  16147: 'What do you want? Let me guess, you''re looking to upgrade your ${item-singular: 1[2]}?${prompt}'
-  16148: 'I''ll need to charge you ${number: 0} accolade${choice-plurality: 0}[/s]. You''re good for it, right?${prompt}'
-  16149: Here you go. I don't want to hear any complaints out of you.${prompt}
-  16150: What's wrong with you? I don't have time for this nonsense!${prompt}
-  16151: 'You forgot already!? You need to complete the Records of Eminence objective “${unknown: 0x01054082878080}” first!${prompt}'
-  16152: 'What''s that? You want to use ${number: 6} ${item-given-plurality: 6[2], 5[2]} to store Reinforcement Points for your ${item-singular: 4[2]}?${prompt}'
-  16153: Okay, here you go. H-hey, I couldn't care less if this is for you or not!${prompt}
-  16154: What's the matter with you? You're the one who came to me!${prompt}
+    ...Euh.... peu importe.
+    Arrête de traînasser et choisis ton Unity déjà !${prompt}
+  16134: Tout devrait être clair. Va profiter de ta nouvelle Unity et laisse-moi ici pourrir.${prompt}
+  16135: Douce Déesse, vas-tu te décider ?${prompt}
+  16136: Plus de questions ? D'accord, laisse-moi sortir ce guide épuisant que je trimballe depuis des jours.${prompt}
+  16137: D'abord, tu rejoins une Unity de ton choix.${prompt}
+  16138: Ensuite tu gagnes des distinctions en complétant des objectifs de Records of Eminence.${prompt}
+  16139: Enfin, tu utilises ces distinctions pour te procurer des récompenses.${prompt}
+  16140: J'espère que c'était assez simple pour que tu puisses l'envelopper autour de ta tête de la taille d'un pois.${prompt}
+  16141: 'Tu veux qu''on améliore ton ${item-singular: 1[2]} ?${prompt}'
+  16142: 'Notre artisan exige des frais de ${number: 0} distinction${choice-plurality: 0}[/s]. Es-tu prêt à cracher ça ?${prompt}'
+  16143: Je m'assurerai qu'il lui parvienne en toute sécurité. Essaie de ne pas te faire tuer entre-temps.${prompt}
+  16144: Es-tu revenu pour me tourmenter !?${prompt}
+  16145: 'Ton ${item-singular: 1[2]} n''est pas encore prêt. Ouste ! Ouste !${prompt}'
+  16146: 'Ouais, ouais, ton ${item-singular: 1[2]} est enfin prêt. J''espère que tu vas t''étouffer avec.${prompt}'
+  16147: 'Que veux-tu ? Laisse-moi deviner, tu cherches à améliorer ton ${item-singular: 1[2]} ?${prompt}'
+  16148: 'Je devrai te facturer ${number: 0} distinction${choice-plurality: 0}[/s]. Tu as de quoi, n''est-ce pas ?${prompt}'
+  16149: Tiens. Je ne veux entendre aucune plainte de ta part.${prompt}
+  16150: Qu'est-ce qui ne va pas chez toi ? Je n'ai pas de temps pour ces bêtises !${prompt}
+  16151: 'Tu as déjà oublié !? Tu dois d''abord compléter l''objectif Records of Eminence "${unknown: 0x01054082878080}" !${prompt}'
+  16152: 'Quoi ? Tu veux utiliser ${number: 6} ${item-given-plurality: 6[2], 5[2]} pour stocker des Points de Renforcement pour ton ${item-singular: 4[2]} ?${prompt}'
+  16153: D'accord, tiens. H-hé, je me fiche pas mal si c'est pour toi ou pas !${prompt}
+  16154: Qu'est-ce qui ne va pas avec toi ? C'est toi qui es venu me voir !${prompt}
   16155: '　　 ${wait-animation: 1}'
-  16156: 'The crystal resonates deep within your soul!${unknown: 0x7F38C800}'
-  16157: Vana'diel...in the year 898?${prompt}
-  16158: I must make haste for Reisenjima and find the master before...${prompt}
-  16159: Master, look at the orb.${prompt}
-  16160: You have set us on the proper course and passed through the first of many gates to come.${prompt}
-  16161: This precious jewel is one of Reisenjima Sanctorium's most mystical treasures.${prompt}
-  16162: Our legends state that it was formed from the energies of a thousand different lives.${prompt}
-  16163: Though it had originally been regarded as but a minor artifact, in the future you and my father had drawn forth its true power.${prompt}
-  16164: In reality, it is a piece of the mothercrystal.${prompt}
-  16165: Please, Master. You may have taken the first steps, but I urge you to continue pressing on.${prompt}
-  16166: Gilgamesh awaits word in Norg.${prompt}
-  16167: Master, behold your orb.${prompt}
-  16168: Your path remains steadfast, and you have successfully reached the third gate.${prompt}
-  16169: But the spirits which protect Reisenjima Sanctorium have gone silent...${prompt}
-  16170: And I am unable to remain here in 884.${prompt}
-  16171: My abject failure to guide you in your hour of need is a shame that I shall not overcome.${prompt}
-  16172: Had I been able to better serve you, then maybe...${prompt}
-  16173: But I can safely place my trust in you. You have come this far, and the orb grows stronger with each passing day. You will be ready when the world has reached the fulcrum.${prompt}
-  16174: May your steps remain swift and true.${prompt}
-  16175: Head for...the palace...${prompt}
-  16176: Master, behold your orb.${prompt}
-  16177: Your path remains steadfast, and you have successfully surpassed the third gate.${prompt}
-  16178: But there remains one whom you have yet to meet. A young woman who plays a vital role in your story.${prompt}
-  16179: I am afraid that you will not be able to see her in the world's current state.${prompt}
-  16180: If only I could return to 884 and walk by your side once more!${prompt}
-  16181: Yet my mind and body are crippled, and I can scarce muster this small advice--!${prompt}
-  16182: Master...forgive me.${prompt}
-  16183: Lead Aht Urhgan out of the darkness and forge the bonds you were destined to.${prompt}
-  16184: I'm so hungry...${prompt}
-  16185: Ovjang...Ovjang, where are you?${prompt}
-  16186: 'I''m here...${choice: 1}[in Aydeewa Subterrane/on a pirate ship]...${prompt}'
-  16187: Luzaf...I wish you were here...${prompt}
-  16188: Please...help me...${prompt}
-  16189: Razfahd must be stopped...${prompt}
-  16190: Despite betrayal by those I once called my own...${prompt}
-  16191: I refuse to yield until humanity's blight is purged from this land.${prompt}
-  16192: I now serve to bring darkness unending, an umbral shroud choking the life from Vana'diel.${prompt}
-  16193: Simply opening the Gate of the Gods would bring the Zilart what they have been denied for over ten thousand years.${prompt}
-  16194: The endless nightmare would be endless no longer.${prompt}
-  16195: Have you ever paused to consider exactly whose nightmare it is?${prompt}
-  16196: Those who have ceased to be? Those who walk Vana'diel as she stands today?${prompt}
-  16197: Old gods? New?${prompt}
-  16198: No. It is a nightmare of the crystals themselves.${prompt}
-  16199: We were born in Vana'diel and exist only due to her endless bounty.${prompt}
-  16200: And yet our very presence here is an affront to her. We are the source of her nightmare.${prompt}
-  16201: 'There is one secret to humanity''s success: ambition. Imagining a better future, it strives ever onward in search of it.${prompt}'
-  16202: Having seen the promised land, it rages and struggles each day to become more than it was meant to be.${prompt}
-  16203: And it continues to claw its way forward, even if what it aspires to be does not truly exist.${prompt}
-  16204: Its insatiable avarice defines it more than even it can possibly realize.${prompt}
-  16205: But I am not a “human” such as you. I will be--I must be--an existence far beyond the most grandiose thought of such petty, grasping beings.${prompt}
-  16206: For that is what life is. And those who cannot reach that pinnacle are fated to perish.${prompt}
-  16207: Time is a cruel beast whose savageness cannot be sated.${prompt}
-  16208: Every man, woman, and child feels its claws sinking into their backs, the talons digging ever deeper with each passing day.${prompt}
-  16209: It marches on, unstoppable, immaterial, and unforgiving, and all any of us can do is watch it pass.${prompt}
-  16210: I claimed ever greater power in pursuit of my goals until my time, too, ran out.${prompt}
-  16211: All I wanted to do was protect my countrymen...my homeland...${prompt}
-  16212: An alternate world, with alternate fates and alternate existences.${prompt}
-  16213: I gambled my own life away to protect the world I called home.${prompt}
-  16214: 'Can you truly say that you ${choice: 2}[did/would have done] any different?${prompt}'
-  16215: I channeled my love for my homeland into power.${prompt}
-  16216: When I fell before you...${prompt}
-  16217: '...did it mean everything was for naught?${prompt}'
-  16218: I, and I alone, have seen the true nature of things in this world.${prompt}
-  16219: And thus, I have learned why all beings that rise must fall.${prompt}
-  16220: This is a burden which I must bear and prevent from happening ever again.${prompt}
-  16221: Should you not understand why my goal is pure and just, then you are unworthy of being called human.${prompt}
-  16222: Open your eyes and witness the truth!${prompt}
-  16223: Don't let ignorance cloud your judgment!${prompt}
+  16156: 'Le cristal résonne profondément dans ton âme !${unknown: 0x7F38C800}'
+  16157: Vana'diel... en l'an 898 ?${prompt}
+  16158: Je dois me hâter vers Reisenjima et trouver le maître avant...${prompt}
+  16159: Maître, regarde l'orbe.${prompt}
+  16160: Tu nous as mis sur la bonne voie et as franchi la première de nombreuses portes à venir.${prompt}
+  16161: Ce joyau précieux est l'un des trésors les plus mystiques du Sanctuaire de Reisenjima.${prompt}
+  16162: Nos légendes disent qu'il a été formé des énergies d'un millier de vies différentes.${prompt}
+  16163: Bien qu'il ait été considéré à l'origine comme un artefact mineur, dans le futur toi et mon père aviez fait ressortir son vrai pouvoir.${prompt}
+  16164: En réalité, c'est un morceau du cristal mère.${prompt}
+  16165: S'il te plaît, Maître. Tu as peut-être fait les premiers pas, mais je t'exhorte à continuer à avancer.${prompt}
+  16166: Gilgamesh attend des nouvelles à Norg.${prompt}
+  16167: Maître, contemple ton orbe.${prompt}
+  16168: Ton chemin reste ferme, et tu as réussi à atteindre la troisième porte.${prompt}
+  16169: Mais les esprits qui protègent le Sanctuaire de Reisenjima se sont tus...${prompt}
+  16170: Et je suis incapable de rester ici en 884.${prompt}
+  16171: Mon échec abject à te guider dans ton heure de besoin est une honte que je ne surmonterai pas.${prompt}
+  16172: Si j'avais pu mieux te servir, alors peut-être...${prompt}
+  16173: Mais je peux en toute sécurité placer ma confiance en toi. Tu es arrivé si loin, et l'orbe devient plus fort chaque jour qui passe. Tu seras prêt quand le monde aura atteint le pivot.${prompt}
+  16174: Que tes pas restent rapides et vrais.${prompt}
+  16175: Dirige-toi vers... le palais...${prompt}
+  16176: Maître, contemple ton orbe.${prompt}
+  16177: Ton chemin reste ferme, et tu as réussi à dépasser la troisième porte.${prompt}
+  16178: Mais il reste quelqu'un que tu n'as pas encore rencontré. Une jeune femme qui joue un rôle vital dans ton histoire.${prompt}
+  16179: J'ai peur que tu ne puisses pas la voir dans l'état actuel du monde.${prompt}
+  16180: Si seulement je pouvais retourner en 884 et marcher à tes côtés une fois de plus !${prompt}
+  16181: Pourtant mon esprit et mon corps sont estropiés, et je peux à peine rassembler ce petit conseil - !${prompt}
+  16182: Maître... pardonne-moi.${prompt}
+  16183: Fais sortir Aht Urhgan de l'obscurité et forge les liens pour lesquels tu étais destiné.${prompt}
+  16184: J'ai tellement faim...${prompt}
+  16185: Ovjang... Ovjang, où es-tu ?${prompt}
+  16186: 'Je suis ici... ${choice: 1}[dans le Souterrain d''Aydeewa/sur un navire pirate]...${prompt}'
+  16187: Luzaf... j'aimerais que tu sois là...${prompt}
+  16188: S'il te plaît... aide-moi...${prompt}
+  16189: Razfahd doit être arrêté...${prompt}
+  16190: Malgré la trahison de ceux que j'appelais autrefois les miens...${prompt}
+  16191: Je refuse de céder jusqu'à ce que le fléau de l'humanité soit purgé de cette terre.${prompt}
+  16192: Je sers maintenant à apporter l'obscurité sans fin, un linceul ombral étouffant la vie de Vana'diel.${prompt}
+  16193: Simplement ouvrir la Porte des Dieux apporterait aux Zilart ce qui leur a été refusé pendant plus de dix mille ans.${prompt}
+  16194: Le cauchemar sans fin ne serait plus sans fin.${prompt}
+  16195: As-tu déjà fait une pause pour considérer exactement de qui est le cauchemar ?${prompt}
+  16196: Ceux qui ont cessé d'être ? Ceux qui marchent sur Vana'diel tel qu'elle se tient aujourd'hui ?${prompt}
+  16197: Les vieux dieux ? Les nouveaux ?${prompt}
+  16198: Non. C'est un cauchemar des cristaux eux-mêmes.${prompt}
+  16199: Nous sommes nés à Vana'diel et n'existons que grâce à sa générosité sans fin.${prompt}
+  16200: Et pourtant notre présence même ici est un affront à elle. Nous sommes la source de son cauchemar.${prompt}
+  16201: 'Il y a un secret au succès de l''humanité : l''ambition. Imaginant un meilleur futur, elle s''efforce toujours vers l''avant à sa recherche.${prompt}'
+  16202: Ayant vu la terre promise, elle rage et lutte chaque jour pour devenir plus que ce qu'elle était censée être.${prompt}
+  16203: Et elle continue à se frayer un chemin vers l'avant, même si ce à quoi elle aspire n'existe pas vraiment.${prompt}
+  16204: Son avarice insatiable la définit plus qu'elle ne peut même le réaliser.${prompt}
+  16205: Mais je ne suis pas un "humain" comme toi. Je serai - je dois être - une existence bien au-delà de la pensée la plus grandiose de tels êtres mesquins et avides.${prompt}
+  16206: Car c'est ce qu'est la vie. Et ceux qui ne peuvent atteindre ce sommet sont destinés à périr.${prompt}
+  16207: Le temps est une bête cruelle dont la sauvagerie ne peut être assouvie.${prompt}
+  16208: Chaque homme, femme et enfant sent ses griffes s'enfoncer dans leur dos, les serres creusant toujours plus profondément à chaque jour qui passe.${prompt}
+  16209: Il avance, implacable, immatériel et impitoyable, et tout ce que nous pouvons faire est de le regarder passer.${prompt}
+  16210: J'ai revendiqué un pouvoir toujours plus grand dans la poursuite de mes objectifs jusqu'à ce que mon temps aussi s'épuise.${prompt}
+  16211: Tout ce que je voulais faire était protéger mes compatriotes... ma patrie...${prompt}
+  16212: Un monde alternatif, avec des destins alternatifs et des existences alternatives.${prompt}
+  16213: J'ai parié ma propre vie pour protéger le monde que j'appelais maison.${prompt}
+  16214: 'Peux-tu vraiment dire que tu ${choice: 2}[as fait/aurais fait] différemment ?${prompt}'
+  16215: J'ai canalisé mon amour pour ma patrie en pouvoir.${prompt}
+  16216: Quand je suis tombé devant toi...${prompt}
+  16217: '...est-ce que ça voulait dire que tout était pour rien ?${prompt}'
+  16218: Moi, et moi seul, ai vu la vraie nature des choses dans ce monde.${prompt}
+  16219: Et ainsi, j'ai appris pourquoi tous les êtres qui s'élèvent doivent tomber.${prompt}
+  16220: C'est un fardeau que je dois porter et empêcher que cela ne se reproduise jamais.${prompt}
+  16221: Si tu ne comprends pas pourquoi mon objectif est pur et juste, alors tu es indigne d'être appelé humain.${prompt}
+  16222: Ouvre tes yeux et sois témoin de la vérité !${prompt}
+  16223: Ne laisse pas l'ignorance obscurcir ton jugement !${prompt}
   16224: ${name-player}...${prompt}
-  16225: What you see before you--is it a dream, or something else?${prompt}
+  16225: Ce que tu vois devant toi - est-ce un rêve, ou autre chose ?${prompt}
   16226: |-
-    Is this a dream?
+    Est-ce un rêve ?
     ${selection-lines}
-    What else could it be?
-    No. It's something more...${prompt}
-  16227: Come. Surely your vision cannot be that clouded.${prompt}
-  16228: A keen eye, as always.${prompt}
-  16229: The minds of all who have existed--and all who will exist--are as one.${prompt}
-  16230: As, too, are the light and darkness inherent in the mothercrystals.${prompt}
-  16231: I need not point out that the apparitions appearing before you are those whose schemes you have foiled.${prompt}
-  16232: And those...${prompt}
-  16233: '...Who you are destined to stop.${prompt}'
-  16234: I have sought them out of my own volition, hoping to manipulate their essences for my own ends.${prompt}
-  16235: Dark, infernal forces, serving as a counterbalance to the light you hope to make manifest.${prompt}
-  16236: And now is the time for me to fill you with that energy. Come.${prompt}
-  16237: You don't really expect to save the world, do you?${prompt}
-  16238: At best you might buy it a few more phases of the moon.${prompt}
-  16239: Even should I fall, there is a grand legion aching to take my place.${prompt}
-  16240: So in the end, all my journeys have been utterly without meaning.${prompt}
-  16241: One by one, those I have trusted have fallen. None are left to prop me up when I begin to falter.${prompt}
-  16242: Hahaha...none know who I rrreally am.${prompt}
+    Qu'est-ce que ça pourrait être d'autre ?
+    Non. C'est quelque chose de plus...${prompt}
+  16227: Viens. Sûrement que ta vision ne peut pas être aussi voilée.${prompt}
+  16228: Un œil aiguisé, comme toujours.${prompt}
+  16229: Les esprits de tous ceux qui ont existé - et de tous ceux qui existeront - ne font qu'un.${prompt}
+  16230: Comme le sont aussi la lumière et l'obscurité inhérentes aux cristaux mères.${prompt}
+  16231: Je n'ai pas besoin de souligner que les apparitions apparaissant devant toi sont celles dont tu as contrecarré les plans.${prompt}
+  16232: Et ceux...${prompt}
+  16233: '...Que tu es destiné à arrêter.${prompt}'
+  16234: Je les ai cherchés de ma propre volonté, espérant manipuler leurs essences pour mes propres fins.${prompt}
+  16235: Des forces sombres et infernales, servant de contrepoids à la lumière que tu espères manifester.${prompt}
+  16236: Et maintenant est le moment pour moi de te remplir de cette énergie. Viens.${prompt}
+  16237: Tu ne t'attends pas vraiment à sauver le monde, n'est-ce pas ?${prompt}
+  16238: Au mieux tu pourrais lui acheter quelques phases de lune de plus.${prompt}
+  16239: Même si je tombe, il y a une grande légion qui a mal de prendre ma place.${prompt}
+  16240: Alors au final, tous mes voyages ont été totalement sans signification.${prompt}
+  16241: Un par un, ceux en qui j'ai eu confiance sont tombés. Aucun n'est resté pour me soutenir quand je commence à vaciller.${prompt}
+  16242: Hahaha... personne ne sait qui je suis vrrraiment.${prompt}
   16243: |-
-    False prophets. False worlds. False adventurers...
-    The truth is the pain I feel inside.${prompt}
-  16244: Each combat has prepared me for the next...but in the end, it's all worthless. A new age is descending, and it threatens to leave me behind.${prompt}
-  16245: Pandora's box-wox has been opened, overturned, and shaken until nothing remains inside.${prompt}
-  16246: Perhaps not even your precious-wecious “hope.”
-  16247: Some claim that hope is what keeps humanity sane in these trying times...yet in reality it is a prison that shuts away the real world.${prompt}
-  16248: No matter how deeply darkness has penetrated your soul...${prompt}
-  16249: '...no matter how much you want to give up...${prompt}'
-  16250: You must not. You cannot.${prompt}
-  16251: Hope is something seized, not given.${prompt}
-  16252: Whether surrounded by friends or walking a hard road alone...${prompt}
-  16253: There is unshaking value in seeing your path to its conclusion.${prompt}
-  16254: You are the culmination of all your experiences.
-  16255: Even those who are gone still depend on you.
-  16256: '${name-player}, this rhapsody is yours to sing.${wait-animation: 3}'
+    Faux prophètes. Faux mondes. Faux aventuriers...
+    La vérité est la douleur que je ressens à l'intérieur.${prompt}
+  16244: Chaque combat m'a préparé pour le suivant... mais au final, tout est sans valeur. Un nouvel âge descend, et il menace de me laisser derrière.${prompt}
+  16245: La boîte de Pandore-wox a été ouverte, renversée et secouée jusqu'à ce que rien ne reste à l'intérieur.${prompt}
+  16246: Peut-être même pas ton précieux-wecieux "espoir".
+  16247: Certains prétendent que l'espoir est ce qui garde l'humanité saine d'esprit en ces temps difficiles... pourtant en réalité c'est une prison qui enferme le monde réel.${prompt}
+  16248: Peu importe à quel point l'obscurité a pénétré ton âme...${prompt}
+  16249: '...peu importe combien tu veux abandonner...${prompt}'
+  16250: Tu ne dois pas. Tu ne peux pas.${prompt}
+  16251: L'espoir est quelque chose de saisi, pas donné.${prompt}
+  16252: Que tu sois entouré d'amis ou marchant seul sur un chemin difficile...${prompt}
+  16253: Il y a une valeur inébranlable à voir ton chemin jusqu'à sa conclusion.${prompt}
+  16254: Tu es la culmination de toutes tes expériences.
+  16255: Même ceux qui sont partis comptent encore sur toi.
+  16256: '${name-player}, cette rhapsodie est à toi de chanter.${wait-animation: 3}'
   16257: '　　 ${wait-animation: 1}'
-  16258: ボタン押すと次へ進みます${prompt}
+  16258: Appuie sur le bouton pour continuer${prompt}
   16259: |-
-    どこから？
+    D'où ?
     ${selection-lines}
-    はじめから
-    無の使者たち
-    エスケープ
+    Depuis le début
+    Les messagers du vide
+    Échapper
     醴泉島${prompt}
-  16260: Master--the orb.${prompt}
-  16261: You have set history on its proper course yet again, having passed through the fourth gate that stood before you.${prompt}
-  16262: Yet Selh'teus's words ring true--the darkness slumbering within you is great.${prompt}
-  16263: He claims that not even the crystal is enough to illuminate it.${prompt}
-  16264: I must confess my trepidation at the current state of affairs. What if the darkness overcomes you not in the future, but even earlier than I had anticipated?${prompt}
-  16265: What a morbid state of affairs we find ourselves in.${prompt}
-  16266: We must take solace in the hope that the orb will guide you to safety, so that you will be prepared for the Reckoning.${prompt}
-  16267: Until that time, your footsteps must remain unerring.${prompt}
-  16268: And so fate guides you to Ceizak Battlegrounds...${prompt}
-  16269: The future should have changed...${prompt}
-  16270: '...And I should have been dissolved into nothingness.${prompt}'
-  16271: Yet the crystal's clarion song has ceased.${prompt}
-  16272: And the Cloud of Darkness threatens the world once more.${prompt}
-  16273: 'The time of the Harvest Festival is upon us once more, and with it comes a most wondrous event: a costume contest known as the Pink Masquerade!${prompt}'
-  16274: Sick of donning those tattered old robes and half-rusted suits of armor? Then why not take this opportunity to dress up in something more festive--and perhaps even earn a prize for your efforts?${prompt}
-  16275: At the very least, the masquerade promises to be a refreshing change from your everyday adventures. What say you?${prompt}
+  16260: Maître - l'orbe.${prompt}
+  16261: Tu as remis l'histoire sur sa bonne voie encore une fois, ayant franchi la quatrième porte qui se tenait devant toi.${prompt}
+  16262: Pourtant les paroles de Selh'teus sonnent vrai - l'obscurité qui sommeille en toi est grande.${prompt}
+  16263: Il prétend que même le cristal n'est pas suffisant pour l'illuminer.${prompt}
+  16264: Je dois confesser ma crainte à l'état actuel des affaires. Et si l'obscurité te surmonte non pas dans le futur, mais même plus tôt que je ne l'avais anticipé ?${prompt}
+  16265: Quel état d'affaires morbide dans lequel nous nous trouvons.${prompt}
+  16266: Nous devons prendre réconfort dans l'espoir que l'orbe te guidera vers la sécurité, afin que tu sois préparé pour le Jugement.${prompt}
+  16267: Jusqu'à ce moment, tes pas doivent rester infaillibles.${prompt}
+  16268: Et ainsi le destin te guide vers les Champs de Bataille de Ceizak...${prompt}
+  16269: Le futur aurait dû changer...${prompt}
+  16270: '...Et j''aurais dû être dissous dans le néant.${prompt}'
+  16271: Pourtant le chant de clairon du cristal a cessé.${prompt}
+  16272: Et le Nuage de Ténèbres menace le monde une fois de plus.${prompt}
+  16273: 'Le temps du Festival des Moissons est à nouveau sur nous, et avec lui vient un événement des plus merveilleux : un concours de costumes connu sous le nom de Mascarade Rose !${prompt}'
+  16274: Fatigué de revêtir ces vieilles robes en lambeaux et ces armures à moitié rouillées ? Alors pourquoi ne pas saisir cette opportunité de te déguiser en quelque chose de plus festif - et peut-être même gagner un prix pour tes efforts ?${prompt}
+  16275: À tout le moins, la mascarade promet d'être un changement rafraîchissant de tes aventures quotidiennes. Qu'en dis-tu ?${prompt}
   16276: |-
-    Participate in the Pink Masquerade?
+    Participer à la Mascarade Rose ?
     ${selection-lines}
-    Sounds like fun!
-    I think I'll pass.${prompt}
-  16277: A shame upon shames, to be sure. But there's still time to change your mind--the masquerade is available throughout the duration of the Harvest Festival!${prompt}
-  16278: Splendid! Let me explain the rules of our little competition.${prompt}
-  16279: 'All entrants are tasked with putting together the most lavish outfits they can find and strutting their stuff for the judge--namely, me. Points are awarded for the following types of equipment: main weapon, sub weapon, head, body, hands, legs, and feet.${prompt}'
-  16280: We're an equal opportunity contest, so don't think you'll be impressing anyone here with your Gjallarhorns or Idrises! Only rewards gleaned from special events are counted.${prompt}
-  16281: Feel free to brandish them if you want, but don't expect me to care in the slightest.${prompt}
-  16282: As this is an event to celebrate the Harvest Festival, entrance fees will not be charged in the form of gil, but rather sweets.${prompt}
-  16283: 'Those whose outfits receive at least ${number: 0} points will be awarded with a commemorative piece of attire directly from the steering committee.${prompt}'
-  16284: But why be content with being mediocre when you can reach for the stars? The top three contestants will have their entries displayed on these “mannequins” for all to see!${prompt}
-  16285: That's the long and short of it. Speak with me again if you have any further questions or would like to know what types of sweets we accept.${prompt}
-  16286: Until then, prepare your most outlandish costume and come back when you're ready to be judged!${prompt}
-  16287: Take this special garb as your just rewarded for coming up with such a delightful outfit!${prompt}
-  16288: 'Oh, heavens! Don''t tell me you lost your ${item-singular: 0[2]}!${prompt}'
-  16289: A distressing tale, indeed. I will furnish you with another one should you provide me with another piece of sweets.${prompt}
-  16290: As promised, here is another reward in exchange for your sweets. Make sure to keep this one safe and in pristine condition!${prompt}
-  16291: The pink masquerade is proving to be the event of the season, and I am both humbled and honored to serve as your guide.
+    Ça a l'air amusant !
+    Je pense que je vais passer.${prompt}
+  16277: Une honte sur les hontes, c'est sûr. Mais il reste encore du temps pour changer d'avis - la mascarade est disponible pendant toute la durée du Festival des Moissons !${prompt}
+  16278: Splendide ! Laisse-moi t'expliquer les règles de notre petite compétition.${prompt}
+  16279: 'Tous les participants doivent assembler les tenues les plus somptueuses qu''ils peuvent trouver et se pavaner pour le juge - à savoir, moi. Des points sont attribués pour les types d''équipement suivants : arme principale, arme secondaire, tête, corps, mains, jambes et pieds.${prompt}'
+  16280: Nous sommes un concours d'égalité des chances, alors ne pense pas que tu vas impressionner qui que ce soit ici avec tes Gjallarhorns ou Idrises ! Seules les récompenses récoltées des événements spéciaux sont comptées.${prompt}
+  16281: N'hésite pas à les brandir si tu veux, mais ne t'attends pas à ce que je m'en soucie le moins du monde.${prompt}
+  16282: Comme ceci est un événement pour célébrer le Festival des Moissons, les frais d'entrée ne seront pas facturés sous forme de gils, mais plutôt de sucreries.${prompt}
+  16283: 'Ceux dont les tenues reçoivent au moins ${number: 0} points seront récompensés avec une pièce d''habillement commémorative directement du comité de pilotage.${prompt}'
+  16284: Mais pourquoi se contenter d'être médiocre quand tu peux atteindre les étoiles ? Les trois meilleurs concurrents auront leurs entrées affichées sur ces "mannequins" pour que tous les voient !${prompt}
+  16285: C'est le long et le court. Parle-moi à nouveau si tu as d'autres questions ou si tu veux savoir quels types de sucreries nous acceptons.${prompt}
+  16286: Jusque-là, prépare ton costume le plus extravagant et reviens quand tu es prêt à être jugé !${prompt}
+  16287: Prends ce vêtement spécial comme ta juste récompense pour avoir créé une tenue si délicieuse !${prompt}
+  16288: 'Oh, cieux ! Ne me dis pas que tu as perdu ton ${item-singular: 0[2]} !${prompt}'
+  16289: Un récit affligeant, en effet. Je te fournirai un autre si tu me fournis une autre pièce de sucreries.${prompt}
+  16290: Comme promis, voici une autre récompense en échange de tes sucreries. Assure-toi de garder celle-ci en sécurité et en état impeccable !${prompt}
+  16291: La mascarade rose se révèle être l'événement de la saison, et je suis à la fois humble et honoré de servir de guide.
   16292: |-
-    Do you have any questions?
+    As-tu des questions ?
     ${selection-lines}
-    Who are the winning entrants?
-    Tell me about the costume contest.
-    What kind of sweets do you want?
-    Tell me how entrants are judged.
-    I'd like ${article} ${item-article: 0[2]}.
-    None for now.${prompt}
-  16293: The costumes of the three entrants with the highest scores are displayed here for you to see. First place is in the center, second place is on the left, and third place is on the right. It is possible that multiple entrants have received the same score.${prompt}
-  16294: '${choice: 1}[/First/Second/Third] place: ${entity: 0} - ${number: 2} pts.'
-  16295: No participants have received enough points to have their outfits displayed.
-  16296: I will accept any of the following types of sweets as payment for participation in the masquerade.${prompt}
+    Qui sont les participants gagnants ?
+    Parle-moi du concours de costumes.
+    Quel genre de sucreries veux-tu ?
+    Dis-moi comment les participants sont jugés.
+    Je voudrais ${article} ${item-article: 0[2]}.
+    Aucune pour l'instant.${prompt}
+  16293: Les costumes des trois participants ayant les scores les plus élevés sont affichés ici pour que tu les voies. La première place est au centre, la deuxième place est à gauche, et la troisième place est à droite. Il est possible que plusieurs participants aient reçu le même score.${prompt}
+  16294: '${choice: 1}[/Première/Deuxième/Troisième] place : ${entity: 0} - ${number: 2} pts.'
+  16295: Aucun participant n'a reçu assez de points pour avoir ses tenues affichées.
+  16296: J'accepterai n'importe lequel des types de sucreries suivants comme paiement pour la participation à la mascarade.${prompt}
   16297: |-
-    Sweets list: (${number: 10} types. Page ${number: 11} of ${number: 12})
+    Liste de sucreries : (${number: 10} types. Page ${number: 11} de ${number: 12})
     ${selection-lines}
-    Previous page.
+    Page précédente.
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
@@ -36669,32 +36669,32 @@ entries:
     ${lettercase: 1}${item-singular: 7[2]}.
     ${lettercase: 1}${item-singular: 8[2]}.
     ${lettercase: 1}${item-singular: 9[2]}.
-    I'm done.
-    Next page.${prompt}
-  16298: The judgment criteria is a bit nuanced, but I'll offer you the best explanation I can.${prompt}
-  16299: As the sole arbiter of fashion, the chief and chief alone issues garment-related edicts without any concern for race or gender.${prompt}
-  16300: Each accent you add to your costume affects the overall look, and he will determine a numerical value based upon the stuff you strut.${prompt}
-  16301: Yet I must warn you that he has trained hard under Brygid's watchful eye, and recognizes that the trends of the season are as fickle as the westerly winds.${prompt}
-  16302: In other words, just because you have received a particular score for wearing a given outfit, you are not guaranteed the same reception if you come back later donning the same garb.${prompt}
+    J'ai fini.
+    Page suivante.${prompt}
+  16298: Les critères de jugement sont un peu nuancés, mais je t'offrirai la meilleure explication que je peux.${prompt}
+  16299: En tant que seul arbitre de la mode, le chef et le chef seul émet des édits liés aux vêtements sans aucune préoccupation pour la race ou le sexe.${prompt}
+  16300: Chaque accent que tu ajoutes à ton costume affecte l'apparence globale, et il déterminera une valeur numérique basée sur les trucs que tu te pavanes.${prompt}
+  16301: Pourtant je dois t'avertir qu'il s'est entraîné dur sous l'œil vigilant de Brygid, et reconnaît que les tendances de la saison sont aussi capricieuses que les vents d'ouest.${prompt}
+  16302: En d'autres termes, juste parce que tu as reçu un score particulier pour porter une tenue donnée, tu n'es pas garanti la même réception si tu reviens plus tard arborant le même vêtement.${prompt}
   16303: |-
-    And of course, the sweets you give me plays an integral...${wait-36: 3}
-    Ahem! Forget I said anything!${prompt}
-  16304: Another player's outfit is currently being critiqued. Please come back later.${prompt}
-  16305: Well, well, would you look at that stunning little number. Chief! You have a visitor!${prompt}
+    Et bien sûr, les sucreries que tu me donnes jouent un rôle intégral...${wait-36: 3}
+    Ahem ! Oublie que j'ai dit quoi que ce soit !${prompt}
+  16304: La tenue d'un autre joueur est actuellement en train d'être critiquée. Reviens plus tard s'il te plaît.${prompt}
+  16305: Eh bien, eh bien, regarde ce petit numéro époustouflant. Chef ! Tu as un visiteur !${prompt}
   16306: |-
-    Your score for this outfit is...${wait-36: 1}
-    ${number: 0}!${prompt}
+    Ton score pour cette tenue est...${wait-36: 1}
+    ${number: 0} !${prompt}
   16307: |-
-    ${choice: 1}[Did your mother dress you in that?/Next time, put your socks on under your shoes!/I've seen worse...but not by much./Maybe if you had offered up some better sweets.../<Yawn> Been there, done that./The chief is wholly unimpressed./What an affront to common sensibility./At least you remembered to brush your teeth./The color scheme was a bit off...]
-    Take your mistakes and learn from them for your next entry!${prompt}
-  16308: Congratulations! You have met the bar for success!${prompt}
-  16309: Here is your splendid gift, as promised!${prompt}
-  16310: I have given you all I have to give, but why not give it another go to see if you can place in the top three?${prompt}
-  16311: 'Why, this is one of the most splendid outfits we''ve seen! I am more than pleased to award you ${choice: 1}[/first/second/third] place!${prompt}'
-  16312: Let me put that wonderful costume of yours up for display on one of our mannequins.${prompt}
-  16313: That's all I have for now. See if you can beat your own personal record next time!${prompt}
-  16314: As promised, here is your just reward for doing such a good job in this year's Pink Masquerade.${prompt}
-  16315: Though I've got nothing more to give you, I encourage you to participate again to see if you can beat your score!${prompt}
+    ${choice: 1}[Ta mère t'a habillé comme ça ?/La prochaine fois, mets tes chaussettes sous tes chaussures !/J'ai vu pire... mais pas de beaucoup./Peut-être si tu avais offert de meilleures sucreries.../<Bâillement> Déjà vu, déjà fait./Le chef n'est absolument pas impressionné./Quel affront au bon sens commun./Au moins tu as pensé à te brosser les dents./Le schéma de couleurs était un peu décalé...]
+    Prends tes erreurs et apprends d'elles pour ta prochaine entrée !${prompt}
+  16308: Félicitations ! Tu as atteint le seuil de succès !${prompt}
+  16309: Voici ton cadeau splendide, comme promis !${prompt}
+  16310: Je t'ai donné tout ce que j'avais à donner, mais pourquoi ne pas réessayer pour voir si tu peux te placer dans les trois premiers ?${prompt}
+  16311: 'Eh bien, c''est l''une des tenues les plus splendides que nous ayons vues ! Je suis plus que ravi de t''attribuer la ${choice: 1}[/première/deuxième/troisième] place !${prompt}'
+  16312: Laisse-moi exposer ce merveilleux costume de toi sur l'un de nos mannequins.${prompt}
+  16313: C'est tout ce que j'ai pour l'instant. Vois si tu peux battre ton propre record personnel la prochaine fois !${prompt}
+  16314: Comme promis, voici ta juste récompense pour avoir si bien réussi dans la Mascarade Rose de cette année.${prompt}
+  16315: Bien que je n'aie plus rien à te donner, je t'encourage à participer à nouveau pour voir si tu peux battre ton score !${prompt}
   16316: |-
     そして今回は特別に
     こちらのプレゼントをご用意しました。${prompt}
