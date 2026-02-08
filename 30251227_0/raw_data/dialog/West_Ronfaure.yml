@@ -19416,307 +19416,307 @@ entries:
   8137: デバッグ：強さランクは${prompt}
   8138: デバッグ：モンスターレベルは${prompt}
   8139: |-
-    Obtain this item?
+    Obtenir cet objet ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  8140: Obtain this item?${prompt}
-  8141: '${color-alt: 121}${entity: 0} obtains ${article} ${item-article: 0[2]}.${prompt}'
-  8142: '${color-alt: 121}${entity: 0} obtains ${number: 0} gil.${prompt}'
-  8143: This appears to be an elite training field set up by the Adventurers' Mutual Aid Network (A.M.A.N.).${prompt}
-  8144: A parchment bearing information on elite training has been placed here.${prompt}
-  8145: 'To commence your training regime, trade ${item-plural: 1[2]}, gil, or a piece of equipment while in possession of ${keyitem-article: 0[2]}.${prompt}'
-  8146: 'You can trade up to ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
-  8147: 'You can trade up to ${number: 0} gil.${prompt}'
-  8148: 'You can trade one equipment item that is level ${number: 0} or below.${prompt}'
-  8149: 'You have ${number: 0} ${choice-plurality: 0}[minute/minutes] (Earth time) to complete this training regime.${prompt}'
-  8150: You can undertake no more than one elite training regime per day (Earth time).${prompt}
-  8151: 'An unseen force absorbs your ${keyitem-singular: 2[2]} transcript and ${number: 1} ${item-given-plurality: 1[2], 0[2]} into another dimension!${prompt}'
-  8152: 'An unseen force absorbs your ${keyitem-singular: 1[2]} transcript and ${number: 0} gil into another dimension! ${prompt}'
-  8153: 'An unseen force absorbs your ${keyitem-singular: 1[2]} transcript and ${item-singular: 0[2]} into another dimension!${prompt}'
-  8154: That item cannot be traded.${prompt}
-  8155: 'You do not possess ${keyitem-article: 0[2]}.${prompt}'
+    Oui.
+    Non.${prompt}
+  8140: Obtenir cet objet ?${prompt}
+  8141: '${color-alt: 121}${entity: 0} obtient ${article} ${item-article: 0[2]}.${prompt}'  
+  8142: '${color-alt: 121}${entity: 0} obtient ${number: 0} gils.${prompt}'
+  8143: Ceci semble être un terrain d'entraînement d'élite mis en place par le Réseau d'Entraide des Aventuriers (R.E.A.).${prompt}
+  8144: Un parchemin contenant des informations sur l'entraînement d'élite a été placé ici.${prompt}
+  8145: 'Pour commencer votre régime d''entraînement, échangez ${item-plural: 1[2]}, des gils ou une pièce d''équipement en possession de ${keyitem-article: 0[2]}.${prompt}'
+  8146: 'Vous pouvez échanger jusqu''à ${number: 1} ${item-given-plurality: 1[2], 0[2]}.${prompt}'
+  8147: 'Vous pouvez échanger jusqu''à ${number: 0} gils.${prompt}'
+  8148: 'Vous pouvez échanger un objet d''équipement de niveau ${number: 0} ou inférieur.${prompt}'
+  8149: 'Vous avez ${number: 0} ${choice-plurality: 0}[minute/minutes] (heure terrestre) pour terminer ce régime d''entraînement.${prompt}'
+  8150: Vous ne pouvez entreprendre qu'un seul régime d'entraînement d'élite par jour (heure terrestre).${prompt}
+  8151: 'Une force invisible absorbe votre transcription ${keyitem-singular: 2[2]} et ${number: 1} ${item-given-plurality: 1[2], 0[2]} dans une autre dimension !${prompt}'
+  8152: 'Une force invisible absorbe votre transcription ${keyitem-singular: 1[2]} et ${number: 0} gils dans une autre dimension ! ${prompt}'
+  8153: 'Une force invisible absorbe votre transcription ${keyitem-singular: 1[2]} et ${item-singular: 0[2]} dans une autre dimension !${prompt}'
+  8154: Cet objet ne peut pas être échangé.${prompt}
+  8155: 'Vous ne possédez pas ${keyitem-article: 0[2]}.${prompt}'
   8156: |-
-    ${color-alt: 121}A treasure box has appeared!
-    The treasure box will disappear after three minutes have elapsed or when the time limit for this battlefield expires, whichever comes first.${prompt}
-  8157: Flag ON${prompt}
-  8158: 'Debug: ${choice: 0}[No/Yes]：${prompt}'
-  8159: 'Ability Type: ${choice: 0}[Balanced/Attacking/Status Effects]${prompt}'
-  8160: 'Magic Type: ${choice: 0}[None/WHM/BLM/RDM/PLD/DRK/BRD]${prompt}'
-  8161: 'Auto-attack Effect: ${choice: 0}[None/Fire/Ice/Wind/Earth/Lightning/Water/Drain/Aspir/Absorb TP/Poison/Darkness/Paralize/Slow/Silence/Plauge/Curse/Petrify]${prompt}'
-  8162: 'Barrier Effect: ${choice: 0}[None/Blaze Spikes/Ice Spikes/Shock Spikes/Fire Absorption/Ice Absorption/Wind Absorption/Earth Absorption/Lightning Absorption/Water Absorption/Lesser Stoneskin/Greater Stoneskin/Utsusemi 3/Utsusemi 6/Utsusemi 9/Immune to Fire/Immune to Ice/Immune to Wind/Immune to Earth/Immune to Lightning/Immune to Water/Immune to Light/Immune to Darkness]${prompt}'
-  8163: 'Main Offense: ${choice: 0}[None/Attack 15% up/Attack 30% up/Attack 45% up/Magic Attack 15% up/Magic Attack 30% up/Magic Attack 45% up/Attack Delay 10％ down/Attack Delay 20％ down/Attack Delay 30％ down/Critical Hit Rate 20% up/Critical Hit Rate 40% up/Double Attack Rate 25% up/Double Attack Rate 50% up/Triple Attack Rate 15% up/Triple Attack Rate 30% up]${prompt}'
-  8164: 'Main Defense: ${choice: 0}[None/Distance 15% down/Distance 30% down/Distance 45% down/Magic Distance 15% down/Magic Distance 30% down/Magic Distance 45% down/Evasion 10% up/Evasion 15% up/Magic Evasion 15% up]${prompt}'
-  8165: 'Sub Offense: ${choice: 0}[None/TP Regen 30/TP Regen 60/TP Regen 90/Fast Casting 15%/Fast Casting 30%/Fast Casting 45%/Lower TP Expenditure: Low/Lower TP Expenditure: Mid/Lower TP Expenditure: High/Shorter Recast Time: Low/Shorter Recast Time: Mid/Shorter Recast Time: High/Shorter Ability Casting: Low/Shorter Ability Casting: Mid/Shorter Ability Casting: High/Elemental Seal/Uber Accuracy]${prompt}'
-  8166: 'Sub Defense: ${choice: 0}[None/Lesser Regen/Moderate Regen/Greater Regen/PC Killer 10%/PC Killer 20%/PC Killer 30%/Immune to Stun/Invulnerable Casting/Immune to Sleep/Immune to Poison/Immune to Paralysis/Immune to Darkness/Immune to Silence/Immune to Slow/Immune to Bind/Immune to Weighing Down]${prompt}'
-  8167: 'Parameter: ${choice: 0}[None/STR+/DEX+/VIT+/AGI+/INT+/MND+/HP+]${prompt}'
+    ${color-alt: 121}Un coffre au trésor est apparu !
+    Le coffre au trésor disparaîtra après trois minutes écoulées ou lorsque la limite de temps pour ce champ de bataille expirera, selon ce qui arrive en premier.${prompt}
+  8157: Indicateur ACTIVÉ${prompt}
+  8158: 'Débogage : ${choice: 0}[Non/Oui]：${prompt}'
+  8159: 'Type de capacité : ${choice: 0}[Équilibré/Attaque/Effets de statut]${prompt}'
+  8160: 'Type de magie : ${choice: 0}[Aucun/MBL/MGN/MGR/PAL/CHN/BRD]${prompt}'
+  8161: 'Effet d''auto-attaque : ${choice: 0}[Aucun/Feu/Glace/Vent/Terre/Foudre/Eau/Aspiration/Aspisort/Absorption PT/Poison/Ténèbres/Paralysie/Lenteur/Silence/Peste/Malédiction/Pétrification]${prompt}'
+  8162: 'Effet de barrière : ${choice: 0}[Aucun/Pointes de flammes/Pointes de glace/Pointes de foudre/Absorption de feu/Absorption de glace/Absorption de vent/Absorption de terre/Absorption de foudre/Absorption d''eau/Écorce de pierre mineure/Écorce de pierre majeure/Utsusemi 3/Utsusemi 6/Utsusemi 9/Immunité au feu/Immunité à la glace/Immunité au vent/Immunité à la terre/Immunité à la foudre/Immunité à l''eau/Immunité à la lumière/Immunité aux ténèbres]${prompt}'
+  8163: 'Attaque principale : ${choice: 0}[Aucune/Attaque +15%/Attaque +30%/Attaque +45%/Attaque magique +15%/Attaque magique +30%/Attaque magique +45%/Délai d''attaque -10%/Délai d''attaque -20%/Délai d''attaque -30%/Taux de coup critique +20%/Taux de coup critique +40%/Taux de double attaque +25%/Taux de double attaque +50%/Taux de triple attaque +15%/Taux de triple attaque +30%]${prompt}'
+  8164: 'Défense principale : ${choice: 0}[Aucune/Distance -15%/Distance -30%/Distance -45%/Distance magique -15%/Distance magique -30%/Distance magique -45%/Esquive +10%/Esquive +15%/Esquive magique +15%]${prompt}'
+  8165: 'Attaque secondaire : ${choice: 0}[Aucune/Régén. PT +30/Régén. PT +60/Régén. PT +90/Incantation rapide 15%/Incantation rapide 30%/Incantation rapide 45%/Dépense PT réduite : Faible/Dépense PT réduite : Moyenne/Dépense PT réduite : Élevée/Temps de relance réduit : Faible/Temps de relance réduit : Moyen/Temps de relance réduit : Élevé/Incantation de capacité réduite : Faible/Incantation de capacité réduite : Moyenne/Incantation de capacité réduite : Élevée/Sceau élémentaire/Précision suprême]${prompt}'
+  8166: 'Défense secondaire : ${choice: 0}[Aucune/Régénération mineure/Régénération modérée/Régénération majeure/Tueur de PJ 10%/Tueur de PJ 20%/Tueur de PJ 30%/Immunité à l''étourdissement/Incantation invulnérable/Immunité au sommeil/Immunité au poison/Immunité à la paralysie/Immunité aux ténèbres/Immunité au silence/Immunité à la lenteur/Immunité à l''immobilisation/Immunité à l''alourdissement]${prompt}'
+  8167: 'Paramètre : ${choice: 0}[Aucun/FOR+/DEX+/VIT+/AGI+/INT+/ESP+/PV+]${prompt}'
   8168: |-
-    Say yes to debugging?
+    Dire oui au débogage ?
     ${selection-lines}
-    Uh-huh
-    Nuh-uh${prompt}
+    Ouais
+    Non${prompt}
   8169: |-
-    What will you adjust?
+    Qu'allez-vous ajuster ?
     ${selection-lines}
-    Nothing
-    Ability Type
-    Magic Type
-    Auto-attack Effects
-    Barrier Effects
-    Main Offense
-    Main Defense
-    Sub Offense
-    Sub Defense
-    Parameters${prompt}
+    Rien
+    Type de capacité
+    Type de magie
+    Effets d'auto-attaque
+    Effets de barrière
+    Attaque principale
+    Défense principale
+    Attaque secondaire
+    Défense secondaire
+    Paramètres${prompt}
   8170: |-
-    Ability Type:
+    Type de capacité :
     ${selection-lines}
-    Balanced.
-    Attacking.
-    Status Effects.${prompt}
+    Équilibré.
+    Attaque.
+    Effets de statut.${prompt}
   8171: |-
-    Magic Type:
+    Type de magie :
     ${selection-lines}
-    None.
-    WHM.
-    BLM.
-    RDM.
-    PLD.
-    DRK.
+    Aucun.
+    MBL.
+    MGN.
+    MGR.
+    PAL.
+    CHN.
     BRD.${prompt}
   8172: |-
-    Auto-attack Effect:
+    Effet d'auto-attaque :
     ${selection-lines}
-    None
-    Fire
-    Ice
-    Wind
-    Earth
-    Lightning
-    Water
-    Drain
-    Aspir
-    Absorb TP
+    Aucun
+    Feu
+    Glace
+    Vent
+    Terre
+    Foudre
+    Eau
+    Aspiration
+    Aspisort
+    Absorption PT
     Poison
-    Darkness
-    Paralysis
-    Slow
+    Ténèbres
+    Paralysie
+    Lenteur
     Silence
-    Plague
-    Curse
-    Petrify${prompt}
+    Peste
+    Malédiction
+    Pétrification${prompt}
   8173: |-
-    Barrier Effects:
+    Effets de barrière :
     ${selection-lines}
-    None
-    Blaze Spikes
-    Ice Spikes
-    Shock Spikes
-    Fire Absorption
-    Ice Absorption
-    Wind Absorption
-    Earth Absorption
-    Lightning Absorption
-    Water Absorption
-    Lesser Stoneskin
-    Greater Stoneskin
+    Aucun
+    Pointes de flammes
+    Pointes de glace
+    Pointes de foudre
+    Absorption de feu
+    Absorption de glace
+    Absorption de vent
+    Absorption de terre
+    Absorption de foudre
+    Absorption d'eau
+    Écorce de pierre mineure
+    Écorce de pierre majeure
     Utsusemi 3
     Utsusemi 6
     Utsusemi 9
-    Immune to Fire
-    Immune to Ice
-    Immune to Wind
-    Immune to Earth
-    Immune to Lightning
-    Immune to Water
-    Immune to Light
-    Immune to Darkness${prompt}
+    Immunité au feu
+    Immunité à la glace
+    Immunité au vent
+    Immunité à la terre
+    Immunité à la foudre
+    Immunité à l'eau
+    Immunité à la lumière
+    Immunité aux ténèbres${prompt}
   8174: |-
-    Main Offense:
+    Attaque principale :
     ${selection-lines}
-    None.
-    Attack 15% up
-    Attack 30% up
-    Attack 45% up
-    Magic Attack 15% up
-    Magic Attack 30% up
-    Magic Attack 45% up
-    Attack Delay 10％ down
-    Attack Delay 20％ down
-    Attack Delay 30％ down
-    Critical Hit Rate 20% up
-    Critical Hit Rate 40% up
-    Double Attack Rate 25% up
-    Double Attack Rate 50% up
-    Triple Attack Rate 15% up
-    Triple Attack Rate 30% up${prompt}
+    Aucune.
+    Attaque +15%
+    Attaque +30%
+    Attaque +45%
+    Attaque magique +15%
+    Attaque magique +30%
+    Attaque magique +45%
+    Délai d'attaque -10%
+    Délai d'attaque -20%
+    Délai d'attaque -30%
+    Taux de coup critique +20%
+    Taux de coup critique +40%
+    Taux de double attaque +25%
+    Taux de double attaque +50%
+    Taux de triple attaque +15%
+    Taux de triple attaque +30%${prompt}
   8175: |-
-    Main Defense:
+    Défense principale :
     ${selection-lines}
-    None.
-    Distance 15% down
-    Distance 30% down
-    Distance 45% down
-    Magic Distance 15% down
-    Magic Distance 30% down
-    Magic Distance 45% down
-    Evasion 10% up
-    Evasion 15% up
-    Magic Evasion 15% up
-    Magic Evasion 30% up${prompt}
+    Aucune.
+    Distance -15%
+    Distance -30%
+    Distance -45%
+    Distance magique -15%
+    Distance magique -30%
+    Distance magique -45%
+    Esquive +10%
+    Esquive +15%
+    Esquive magique +15%
+    Esquive magique +30%${prompt}
   8176: |-
-    Sub Offense:
+    Attaque secondaire :
     ${selection-lines}
-    None.
-    TP Regen 30
-    TP Regen 60
-    TP Regen 90
-    Fast Casting 15%
-    Fast Casting 30%
-    Fast Casting 45%
-    Lower TP Expenditure: Low
-    Lower TP Expenditure: Mid
-    Lower TP Expenditure: High
-    Shorter Recast Time: Low
-    Shorter Recast Time: Mid
-    Shorter Recast Time: High
-    Shorter Ability Casting: Low
-    Shorter Ability Casting: Mid
-    Shorter Ability Casting: High
-    Elemental Seal
-    Uber Accuracy${prompt}
+    Aucune.
+    Régén. PT +30
+    Régén. PT +60
+    Régén. PT +90
+    Incantation rapide 15%
+    Incantation rapide 30%
+    Incantation rapide 45%
+    Dépense PT réduite : Faible
+    Dépense PT réduite : Moyenne
+    Dépense PT réduite : Élevée
+    Temps de relance réduit : Faible
+    Temps de relance réduit : Moyen
+    Temps de relance réduit : Élevé
+    Incantation de capacité réduite : Faible
+    Incantation de capacité réduite : Moyenne
+    Incantation de capacité réduite : Élevée
+    Sceau élémentaire
+    Précision suprême${prompt}
   8177: |-
-    Sub Defense:
+    Défense secondaire :
     ${selection-lines}
-    None
-    Lesser Regen
-    Moderate Regen
-    Greater Regen
-    PC Killer 10%
-    PC Killer 20%
-    PC Killer 30%
-    Immune to Stun
-    Invulnerable Casting
-    Immune to Sleep
-    Immune to Poison
-    Immune to Paralysis
-    Immune to Darkness
-    Immune to Silence
-    Immune to Slow
-    Immune to Bind
-    Immune to Weighing Down${prompt}
+    Aucune
+    Régénération mineure
+    Régénération modérée
+    Régénération majeure
+    Tueur de PJ 10%
+    Tueur de PJ 20%
+    Tueur de PJ 30%
+    Immunité à l'étourdissement
+    Incantation invulnérable
+    Immunité au sommeil
+    Immunité au poison
+    Immunité à la paralysie
+    Immunité aux ténèbres
+    Immunité au silence
+    Immunité à la lenteur
+    Immunité à l'immobilisation
+    Immunité à l'alourdissement${prompt}
   8178: |-
-    Select Parameter:
+    Sélectionner le paramètre :
     ${selection-lines}
-    None.
-    STR+
+    Aucun.
+    FOR+
     DEX+
     VIT+
     AGI+
     INT+
-    MND+
-    HP+${prompt}
-  8179: Vana'diel is under attack by villains in samurai armor! Help the moogles in each nation defeat this menace, kupo!${prompt}
-  8180: We've mixed up some moogle magic to crack that aura, but you'll need to equip a special weapon to even cause a scratch, kupo!${prompt}
+    ESP+
+    PV+${prompt}
+  8179: Vana'diel est attaqué par des scélérats en armure de samouraï ! Aidez les moogles de chaque nation à vaincre cette menace, kupo !${prompt}
+  8180: Nous avons concocté de la magie moogle pour briser cette aura, mais vous devrez équiper une arme spéciale ne serait-ce que pour infliger une égratignure, kupo !${prompt}
   8181: |-
-    Th-that ${item-singular: 0[2]}...
-    It may be just the thing for whacking those wacky samurai! Hold still while I work my moogle magic, kupo!${prompt}
-  8182: 'You won''t be able to hurt those harbingers of harm with ${article} ${item-article: 1[2]}. You must equip ${article} ${item-article: 0[2]} or ${article} ${item-article: 2[2]}, kupo!${prompt}'
+    C-ce ${item-singular: 0[2]}...
+    Ça pourrait être exactement ce qu'il faut pour frapper ces samouraïs farfelus ! Reste tranquille pendant que je fais ma magie moogle, kupo !${prompt}
+  8182: 'Vous ne pourrez pas blesser ces messagers du malheur avec ${article} ${item-article: 1[2]}. Vous devez équiper ${article} ${item-article: 0[2]} ou ${article} ${item-article: 2[2]}, kupo !${prompt}'
   8183: |-
     Kupopopo～!
-    This is terrible!
-    Some sneaky scoundrels have swiped the armor we brought in for the Feast of Swords...again, kupo!${prompt}
-  8184: As you probably already know, the villains wearing the armor are invulnerable to normal weapons! And as if that wasn't enough, they're surrounded by a powerful aura that prevents them from being attacked at all, kupo!${prompt}
+    C'est terrible !
+    Des crapules sournoires ont chapardé l'armure que nous avions apportée pour la Fête des Épées... encore, kupo !${prompt}
+  8184: Comme vous le savez probablement déjà, les scélérats portant l'armure sont invulnérables aux armes normales ! Et comme si ce n'était pas suffisant, ils sont entourés d'une aura puissante qui les empêche d'être attaqués du tout, kupo !${prompt}
   8185: |-
-    But never fear!
-    Our top moogle researchers have created weapons that can injure these armor-thieving hooligans--the wondrous ${item-singular: 0[2]} and the marvelous ${item-singular: 1[2]}, kupo!${prompt}
-  8186: The nomad moogles have also developed a magic that will annul that anti-attack aura, so be sure to pay them a visit while wearing the weapon before you engage the enemy, kupo.${prompt}
-  8187: But be warned--this magic has the side effect of preventing you from attacking any other monster for three whole Vana'dielian days, kupo!${prompt}
+    Mais n'ayez crainte !
+    Nos meilleurs chercheurs moogles ont créé des armes qui peuvent blesser ces voyous voleurs d'armure -- le merveilleux ${item-singular: 0[2]} et le magnifique ${item-singular: 1[2]}, kupo !${prompt}
+  8186: Les moogles nomades ont également développé une magie qui annulera cette aura anti-attaque, alors assurez-vous de leur rendre visite en portant l'arme avant d'engager l'ennemi, kupo.${prompt}
+  8187: Mais attention -- cette magie a l'effet secondaire de vous empêcher d'attaquer tout autre monstre pendant trois jours entiers de Vana'diel, kupo !${prompt}
   8188: |-
-    And that's not all!
-    This time we want to make sure that the wretched thieves have a hard time coming back, kupo!${prompt}
-  8189: You see, even if you take one of them down, the power of the armor will slowly restore his health, and before you know it, the scoundrel will be back up to full health!${prompt}
-  8190: 'That''s why we want you to plant (${color: 5}trade${color: 1}) your ${item-singular: 0[2]} or ${item-singular: 1[2]} into the ground near a fallen fiend. It will create a ward that should slow the equipment''s regenerative properties, making it easier for you to defeat them again and again, kupo!${prompt}'
-  8191: 'Just remember that the further away you travel from the ward, the weaker it becomes. We recommend staying in the same ${color: 5}area${color: 1} for best results.${prompt}'
-  8192: 'Alright. Here''s your ${item-singular: 0[2]}. Now you''re ready to do battle, kupo!${prompt}'
-  8193: Oh, and you'll find that the prizes we have for you this time are even better than the last ones. You might even be one of the lucky adventurers who wins a spiffy, new... Ah, you'll just have to see it to believe it, kupo!${prompt}
-  8194: 'Now, if you want to cross swords with the invincible interlopers, equip ${article} ${item-article: 0[2]} or ${article} ${item-article: 1[2]} and talk to a nomad moogle, kupo!${prompt}'
-  8195: Vana'diel is under attack by villains in our stolen samurai armor! Help the moogles in each nation defeat this menace, kupo!${prompt}
-  8196: We've mixed up some moogle magic to crack that aura, but you'll need to equip a special weapon to even cause a scratch, kupo! Equip, I tell you! Equiiiiiip!${prompt}
+    Et ce n'est pas tout !
+    Cette fois, nous voulons nous assurer que les misérables voleurs auront du mal à revenir, kupo !${prompt}
+  8189: Voyez-vous, même si vous en abattez un, le pouvoir de l'armure restaurera lentement sa santé, et avant que vous ne le sachiez, le crapule sera de retour à pleine santé !${prompt}
+  8190: 'C''est pourquoi nous voulons que vous plantiez (${color: 5}échangez${color: 1}) votre ${item-singular: 0[2]} ou ${item-singular: 1[2]} dans le sol près d''un démon tombé. Cela créera un sceau qui devrait ralentir les propriétés régénératives de l''équipement, facilitant leur défaite encore et encore, kupo !${prompt}'
+  8191: 'Rappelez-vous simplement que plus vous vous éloignez du sceau, plus il s''affaiblit. Nous recommandons de rester dans la même ${color: 5}zone${color: 1} pour de meilleurs résultats.${prompt}'
+  8192: 'Très bien. Voici votre ${item-singular: 0[2]}. Maintenant vous êtes prêt à combattre, kupo !${prompt}'
+  8193: Oh, et vous découvrirez que les prix que nous avons pour vous cette fois sont encore meilleurs que les précédents. Vous pourriez même être l'un des aventuriers chanceux qui gagnera un nouveau... Ah, il faudra le voir pour le croire, kupo !${prompt}
+  8194: 'Maintenant, si vous voulez croiser le fer avec les intrus invincibles, équipez ${article} ${item-article: 0[2]} ou ${article} ${item-article: 1[2]} et parlez à un moogle nomade, kupo !${prompt}'
+  8195: Vana'diel est attaqué par des scélérats dans notre armure de samouraï volée ! Aidez les moogles de chaque nation à vaincre cette menace, kupo !${prompt}
+  8196: Nous avons concocté de la magie moogle pour briser cette aura, mais vous devrez équiper une arme spéciale ne serait-ce que pour infliger une égratignure, kupo ! Équipez, je vous dis ! Équiiiiipez !${prompt}
   8197: |-
-    Th-that ${item-singular: 0[2]}...
-    It may be just the thing for whacking those wacky samurai! Hold still while I work my moogle magic, kupo!${prompt}
-  8198: 'Oh, just don''t forget to place the ward with your ${item-singular: 0[2]} when you''ve defeated one!${prompt}'
-  8199: 'You''ll be able to really hurt those harbingers of harm with ${article} ${item-article: 1[2]}. Now hold still while I work my moogle magic, kupo!${prompt}'
-  8200: 'Oh, just don''t forget to place the ward with your ${item-singular: 0[2]} or your ${item-singular: 1[2]} when you''ve defeated one!${prompt}'
-  8201: And whatever you do, don't wander too far from the area; your weary wards will weaken, kupo!${prompt}
-  8202: 'No, no, no! That ${item-singular: 1[2]} is way too sharp! Just think of the damage it will deal to the poor armor! Now go get yourself ${article} ${item-article: 0[2]} or ${article} ${item-article: 2[2]} and hurry back, kupo!${prompt}'
+    C-ce ${item-singular: 0[2]}...
+    Ça pourrait être exactement ce qu'il faut pour frapper ces samouraïs farfelus ! Reste tranquille pendant que je fais ma magie moogle, kupo !${prompt}
+  8198: 'Oh, n''oubliez pas de placer le sceau avec votre ${item-singular: 0[2]} quand vous en aurez vaincu un !${prompt}'
+  8199: 'Vous serez capable de vraiment blesser ces messagers du malheur avec ${article} ${item-article: 1[2]}. Maintenant reste tranquille pendant que je fais ma magie moogle, kupo !${prompt}'
+  8200: 'Oh, n''oubliez pas de placer le sceau avec votre ${item-singular: 0[2]} ou votre ${item-singular: 1[2]} quand vous en aurez vaincu un !${prompt}'
+  8201: 'Et quoi qu''il arrive, ne vous éloignez pas trop de la zone ; vos sceaux fatigués s''affaibliront, kupo !${prompt}'
+  8202: 'Non, non, non ! Ce ${item-singular: 1[2]} est beaucoup trop tranchant ! Pensez aux dégâts qu''il infligera à la pauvre armure ! Maintenant allez vous procurer ${article} ${item-article: 0[2]} ou ${article} ${item-article: 2[2]} et revenez vite, kupo !${prompt}'
   8203: |-
-    Well done!
-    On to the next one, kupo!${prompt}
-  8204: That thief has already been weakened by a ward. Try to find one that hasn't, kupo!${prompt}
+    Bien joué !
+    Au suivant, kupo !${prompt}
+  8204: Ce voleur a déjà été affaibli par un sceau. Essayez d'en trouver un qui ne l'a pas été, kupo !${prompt}
   8205: |-
-    Wonderful! Here's your reward, kupo!
-    If you're still up for it, why don't you go out and whack yourself some more?${prompt}
-  8206: Unbelievable! Now, maybe those Far Eastern traders won't mix us up into moogle mincemeat! Here's your reward, kupo!${prompt}
-  8207: I-I'm speechless! We didn't think anyone could match wits with that Mithra menace! Here's your reward, kupo!${prompt}
-  8208: The shadow of the thief still lingers within the armor...${prompt}
-  8209: The thief's shadow has almost disappeared completely.${prompt}
-  8210: I have been burdened with the duty of breaking the following news to all our faithful adventurers, kupo...${prompt}
-  8211: After lengthy deliberation, the Mog House Management Union (MHMU) has decided upon the cancellation of the Feast of Swords, kupo...${prompt}
+    Merveilleux ! Voici votre récompense, kupo !
+    Si vous en avez encore l'énergie, pourquoi n'iriez-vous pas en frapper quelques autres ?${prompt}
+  8206: Incroyable ! Maintenant, peut-être que ces marchands de l'Extrême-Orient ne nous transformeront pas en chair à moogle ! Voici votre récompense, kupo !${prompt}
+  8207: Je-je suis sans voix ! Nous ne pensions pas que quiconque puisse rivaliser d'esprit avec cette menace Mithra ! Voici votre récompense, kupo !${prompt}
+  8208: L'ombre du voleur persiste encore dans l'armure...${prompt}
+  8209: L'ombre du voleur a presque complètement disparu.${prompt}
+  8210: J'ai été chargé du devoir de communiquer les nouvelles suivantes à tous nos fidèles aventuriers, kupo...${prompt}
+  8211: Après de longues délibérations, le Syndicat de Gestion des Maisons Mog (S.G.M.M.) a décidé d'annuler la Fête des Épées, kupo...${prompt}
   8212: |-
-    A series of scandals within MHMU's upper management in recent years has led to the--
-    Kupopo!?${prompt}
-  8213: The moogle appears to have received a message...!
+    Une série de scandales au sein de la haute direction du S.G.M.M. ces dernières années a conduit au--
+    Kupopo !?${prompt}
+  8213: Le moogle semble avoir reçu un message... !${prompt}
   8214: |-
-    G-grave news, kupo!!!
-    Unknown individuals donning priceless samurai armor from the Far East have been wreaking havoc!!!${prompt}
-  8215: Furthermore, these shady individuals claim the armor was borrowed by the MHMU, kupo!${prompt}
+    N-nouvelles graves, kupo !!!
+    Des individus inconnus revêtus d'armures de samouraï inestimables de l'Extrême-Orient sèment le chaos !!!${prompt}
+  8215: De plus, ces individus louches prétendent que l'armure a été empruntée par le S.G.M.M., kupo !${prompt}
   8216: |-
-    Please lend us a hand, brave adventurer!
-    Equip this ${item-singular: 0[2]}, and have a nomad moogle outside town cast special moogle magic upon it, kupo!${prompt}
-  8217: But be warned--this magic has the side effect of preventing you from attacking any other monster for three whole Vana'dielian days, kupo!${prompt}
-  8218: 'This new weapon, the ${item-singular: 0[2]}, was developed as a countermeasure for serious situations such as this, kupo. It has been designed with the ability to absorb malicious auras emitted by enemies. ${prompt}'
-  8219: 'We want you to use it to absorb malice from those wacky samurai wannabes, and then plant this ${item-singular: 0[2]} near where they fall. By doing so, you can further weaken the insidious individuals inside the armor, kupo!${prompt}'
-  8220: 'To plant the ${item-singular: 0[2]}, all you have to do is trade it to the ground near a fallen fiend. You''ll get a reward that matches the amount of malice absorbed, kupo!${prompt}'
-  8221: 'When you plant the ${item-singular: 0[2]} into the ground, all malice absorbed inside will be purified by the land, kupo!${prompt}'
+    S'il vous plaît, donnez-nous un coup de main, brave aventurier !
+    Équipez ce ${item-singular: 0[2]}, et faites lancer une magie moogle spéciale dessus par un moogle nomade à l'extérieur de la ville, kupo !${prompt}
+  8217: Mais attention -- cette magie a l'effet secondaire de vous empêcher d'attaquer tout autre monstre pendant trois jours entiers de Vana'diel, kupo !${prompt}
+  8218: 'Cette nouvelle arme, le ${item-singular: 0[2]}, a été développée comme contre-mesure pour des situations sérieuses comme celle-ci, kupo. Elle a été conçue avec la capacité d''absorber les auras malicieuses émises par les ennemis. ${prompt}'
+  8219: 'Nous voulons que vous l''utilisiez pour absorber la malice de ces aspirants samouraïs farfelus, puis plantez ce ${item-singular: 0[2]} près de l''endroit où ils tombent. Ce faisant, vous pouvez affaiblir davantage les individus insidieux à l''intérieur de l''armure, kupo !${prompt}'
+  8220: 'Pour planter le ${item-singular: 0[2]}, tout ce que vous avez à faire est de l''échanger au sol près d''un démon tombé. Vous recevrez une récompense correspondant à la quantité de malice absorbée, kupo !${prompt}'
+  8221: 'Lorsque vous plantez le ${item-singular: 0[2]} dans le sol, toute la malice absorbée à l''intérieur sera purifiée par la terre, kupo !${prompt}'
   8222: |-
-    Alright then!
-    Take this ${item-singular: 0[2]} and get to work on those vile villains! I'll be preparing your special reward, kupo!${prompt}
-  8223: 'Equip this ${item-singular: 0[2]}, and have a nomad moogle outside town cast special moogle magic upon it. Be sure to absorb as much malice as you can from those scoundrels, kupo!${prompt}'
+    Très bien alors !
+    Prenez ce ${item-singular: 0[2]} et mettez-vous au travail sur ces vils scélérats ! Je préparerai votre récompense spéciale, kupo !${prompt}
+  8223: 'Équipez ce ${item-singular: 0[2]}, et faites lancer une magie moogle spéciale dessus par un moogle nomade à l''extérieur de la ville. Assurez-vous d''absorber autant de malice que possible de ces crapules, kupo !${prompt}'
   8224: |-
-    Good job, kupo! You sure showed them who's boss!
-    Thanks to you, we were able to avoid a diplomatic disaster with the Far East, kupo.${prompt}
-  8225: A handful of no-good nomad moogles and Goblins were conspiring to take over the MHMU, wilfully assuming false identities in order to obtain the armor and frame us, kupo!${prompt}
-  8226: Then, they hired thieves to wear the armor and do their dirty work!${prompt}
-  8227: But thanks to all you courageous adventurers, the MHMU is safe and sound, kupo!${prompt}
-  8228: We need your help to clear the land of the malice-emitting menace, kupo!${prompt}
+    Bon travail, kupo ! Vous leur avez vraiment montré qui est le patron !
+    Grâce à vous, nous avons pu éviter un désastre diplomatique avec l'Extrême-Orient, kupo.${prompt}
+  8225: Une poignée de moogles nomades véreux et de Gobelins conspiraient pour prendre le contrôle du S.G.M.M., assumant volontairement de fausses identités afin d'obtenir l'armure et nous incriminer, kupo !${prompt}
+  8226: Ensuite, ils ont embauché des voleurs pour porter l'armure et faire leur sale travail !${prompt}
+  8227: Mais grâce à tous vos courageux aventuriers, le S.G.M.M. est sain et sauf, kupo !${prompt}
+  8228: Nous avons besoin de votre aide pour débarrasser la terre de la menace émettrice de malice, kupo !${prompt}
   8229: |-
-    You have ${article} ${item-article: 0[2]} equipped! Great!
-    Now, hold still while I cast miraculously marvelous moogle magic on it, kupo.${prompt}
-  8230: 'After you''ve taken care of the armor wearer, plant your ${item-singular: 0[2]} into the ground near the fallen fiend. You''ll get a reward that matches the amount of malice absorbed, kupo.${prompt}'
-  8231: The malice absorption magic will lose effect if you move to another area, so come back here if you want me to cast it again, kupo.${prompt}
+    Vous avez ${article} ${item-article: 0[2]} équipé ! Super !
+    Maintenant, reste tranquille pendant que je lance une magie moogle miraculeusement merveilleuse dessus, kupo.${prompt}
+  8230: 'Après vous être occupé du porteur d''armure, plantez votre ${item-singular: 0[2]} dans le sol près du démon tombé. Vous recevrez une récompense correspondant à la quantité de malice absorbée, kupo.${prompt}'
+  8231: La magie d'absorption de malice perdra son effet si vous vous déplacez vers une autre zone, alors revenez ici si vous voulez que je la lance à nouveau, kupo.${prompt}
   8232: |-
-    You have ${article} ${item-article: 0[2]} equipped! I like your enthusiasm!
-    Now, hold still while I cast miraculously marvelous moogle magic on it, kupo.${prompt}
-  8233: 'After you''ve seen to the wretched rogue inside the armor, plant your ${item-singular: 0[2]} into the ground near the fallen fiend. You''ll get a reward that matches the amount of malice absorbed, kupo.${prompt}${prompt}'
-  8234: 'We need your help to clear the land of the malice-emitting menace, but you need to equip the ${item-singular: 0[2]} you have in your possession, kupo!${prompt}'
+    Vous avez ${article} ${item-article: 0[2]} équipé ! J'aime votre enthousiasme !
+    Maintenant, reste tranquille pendant que je lance une magie moogle miraculeusement merveilleuse dessus, kupo.${prompt}
+  8233: 'Après vous être occupé du misérable vaurien à l''intérieur de l''armure, plantez votre ${item-singular: 0[2]} dans le sol près du démon tombé. Vous recevrez une récompense correspondant à la quantité de malice absorbée, kupo.${prompt}${prompt}'
+  8234: 'Nous avons besoin de votre aide pour débarrasser la terre de la menace émettrice de malice, mais vous devez équiper le ${item-singular: 0[2]} que vous avez en votre possession, kupo !${prompt}'
   8235: |-
-    Nooo, that ${item-singular: 0[2]} won't do.
-    Come back again after you have ${article} ${item-article: 0[2]} equipped, kupo!${prompt}
+    Nooon, ce ${item-singular: 0[2]} ne fera pas l'affaire.
+    Revenez après avoir équipé ${article} ${item-article: 0[2]}, kupo !${prompt}
   8236: |-
-    Kupopo!
-    There's no malice here at all. Please absorb lots more and try again, kupo.${prompt}
+    Kupopo !
+    Il n'y a aucune malice ici. Veuillez en absorber beaucoup plus et réessayer, kupo.${prompt}
   8237: |-
-    Kupopo!
-    You've absorbed ${choice: 0}[a bit of/some/lots of] malice, kupo. Here's your reward!${prompt}
+    Kupopo !
+    Vous avez absorbé ${choice: 0}[un peu de/de la/beaucoup de] malice, kupo. Voici votre récompense !${prompt}
   8238: |-
-    Thanks, kupo.
-    We want you to absorb even more malice, and weaken those armored evildoers, kupo!${prompt}
-  8239: 'You can purify absorbed malice by planting your ${item-singular: 0[2]} here.${prompt}'
-  8240: A mysterious power absorbs the malice!${prompt}
+    Merci, kupo.
+    Nous voulons que vous absorbiez encore plus de malice et affaiblissiez ces malfaiteurs en armure, kupo !${prompt}
+  8239: 'Vous pouvez purifier la malice absorbée en plantant votre ${item-singular: 0[2]} ici.${prompt}'
+  8240: Un pouvoir mystérieux absorbe la malice !${prompt}
   8241: |-
-    Please select absorption value.
+    Veuillez sélectionner la valeur d'absorption.
     ${selection-lines}
     8
     7
