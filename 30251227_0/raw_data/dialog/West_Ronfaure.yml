@@ -24484,41 +24484,39 @@ entries:
   11469: 'Training area: West Ronfaure.${prompt}'
   11470: 'Training area: West Ronfaure.${prompt}'
   11471: (End of list.)${prompt}
-  11472: The tabs you acquire can be spent on field support.${prompt}
+  11472: Les onglets que tu acquiers peuvent être dépensés pour le soutien sur le terrain.${prompt}
   11473: |-
-    Which one? (You have ${number: 8} ${choice-plurality: 8}[tab/tabs]).
+    Lequel ? (Tu as ${number: 8} onglet${choice-plurality: 8}[/s]).
     ${selection-lines}
-    Nothing for now.
-    Repatriation (${number: 9}).
-    White magic: Reraise (${number: 10}).
-    White magic: Regen (${number: 11}).
-    White magic: Refresh (${number: 12}).
-    White magic: Protect (${number: 13}).
-    White magic: Shell (${number: 14}).
-    Field recipe: Dried Meat (${number: 15}).
-    Field recipe: Salted Fish (${number: 16}).
-    Field recipe: Hard Cookie (${number: 17}).
-    Field recipe: Instant Noodles (${number: 18}).
-    Receive alter ego: Sakura. (${number: 19}).
-    Receive alter ego: Koru-Moru. (${number: 20}).${prompt}
+    Rien pour l'instant.
+    Rapatriement (${number: 9}).
+    Magie blanche : Reraise (${number: 10}).
+    Magie blanche : Regen (${number: 11}).
+    Magie blanche : Refresh (${number: 12}).
+    Magie blanche : Protect (${number: 13}).
+    Magie blanche : Shell (${number: 14}).
+    Recette de terrain : Viande Séchée (${number: 15}).
+    Recette de terrain : Poisson Salé (${number: 16}).
+    Recette de terrain : Biscuit Dur (${number: 17}).
+    Recevoir alter ego : Koru-Moru. (${number: 20}).${prompt}
   11474: |-
-    Are you certain?
+    Es-tu certain ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11475: |-
-    Return to your home nation?
+    Retourner dans ta nation d'origine ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11476: You do not have enough tabs.${prompt}
-  11477: '${color-alt: 122}${name-player} is full and cannot eat anything right now.${prompt}'
-  11478: You must wait longer before you are able to register a new training regime. It is recommended that you use this time to recuperate.${prompt}
+    Oui.
+    Non.${prompt}
+  11476: Tu n'as pas assez d'onglets.${prompt}
+  11477: '${color-alt: 122}${name-player} est plein et ne peut rien manger pour le moment.${prompt}'
+  11478: Tu dois attendre plus longtemps avant de pouvoir enregistrer un nouveau régime d'entraînement. Il est recommandé que tu utilises ce temps pour récupérer.${prompt}
   11479: |-
-    Which one? (You have ${number: 8} ${choice-plurality: 8}[tab/tabs]).
+    Lequel ? (Tu as ${number: 8} onglet${choice-plurality: 8}[/s]).
     ${selection-lines}
-    Nothing for now.
-    Read instructions.
+    Rien pour l'instant.
+    Lire les instructions.
     ${lettercase: 1}${keyitem-singular: 19[2]}(${number: 27}).
     ${lettercase: 1}${keyitem-singular: 20[2]}(${number: 28}).
     ${lettercase: 1}${keyitem-singular: 21[2]}(${number: 29}).
@@ -24527,218 +24525,218 @@ entries:
     ${lettercase: 1}${keyitem-singular: 24[2]}(${number: 32}).
     ${lettercase: 1}${keyitem-singular: 25[2]}(${number: 33}).
     ${lettercase: 1}${keyitem-singular: 26[2]}(${number: 34}).${prompt}
-  11480: “Elite training” is a section of the Field Manual which caters to dauntless adventurers who wish to engage in a more grueling test of their mettle.${prompt}
-  11481: To participate in elite training regimes, you must acquire chapter transcripts, for which tabs are required.${prompt}
-  11482: 'Trading ${item-plural: 35[2]}, gil, or a piece of equipment at designated locations (while in possession of a chapter transcript) will trigger the commencement of your training.${prompt}'
-  11483: Traded items will not be returned to you. You will, however, be furnished with rewards of correlating value upon the successful completion of each elite training regime.${prompt}
+  11480: '"L''entraînement d''élite" est une section du Manuel de Terrain qui s''adresse aux aventuriers intrépides qui souhaitent s''engager dans un test plus éprouvant de leur courage.${prompt}'
+  11481: Pour participer aux régimes d'entraînement d'élite, tu dois acquérir des transcriptions de chapitres, pour lesquelles des onglets sont requis.${prompt}
+  11482: 'Échanger des ${item-plural: 35[2]}, des gils, ou une pièce d''équipement à des emplacements désignés (tout en possédant une transcription de chapitre) déclenchera le commencement de ton entraînement.${prompt}'
+  11483: Les objets échangés ne te seront pas retournés. Tu seras, cependant, fourni avec des récompenses de valeur corrélée lors de la complétion réussie de chaque régime d'entraînement d'élite.${prompt}
   11484: |-
-    Even within elite training, there are regimes of varying difficulty. The trade limit for each succeeding chapter will be greater than the last, and the training objective more challenging.
-    For safety reasons, all participants are recommended to be well prepared.${prompt}
-  11485: Lastly, we at the A.M.A.N. recognize the importance of rest and recuperation as part of a healthy adventuring lifestyle. Therefore, a mandatory cool-down period will be imposed upon all adventurers following the completion of an elite training regime. Until this time has elapsed, you will be unable to undertake further training, even if a chapter transcript is in your possession.${prompt}
-  11486: 'You already possess ${keyitem-article: 0[2]}.${prompt}'
-  11487: You cannot undertake a training regime while a hunt is active.${prompt}
+    Même au sein de l'entraînement d'élite, il existe des régimes de difficulté variable. La limite d'échange pour chaque chapitre suivant sera plus grande que la précédente, et l'objectif d'entraînement plus difficile.
+    Pour des raisons de sécurité, il est recommandé que tous les participants soient bien préparés.${prompt}
+  11485: Enfin, nous à l'A.M.A.N. reconnaissons l'importance du repos et de la récupération dans le cadre d'un mode de vie d'aventurier sain. Par conséquent, une période de récupération obligatoire sera imposée à tous les aventuriers suite à la complétion d'un régime d'entraînement d'élite. Jusqu'à ce que ce temps se soit écoulé, tu ne pourras pas entreprendre d'entraînement supplémentaire, même si une transcription de chapitre est en ta possession.${prompt}
+  11486: 'Tu possèdes déjà ${keyitem-article: 0[2]}.${prompt}'
+  11487: Tu ne peux pas entreprendre un régime d'entraînement pendant qu'une chasse est active.${prompt}
   11488: |-
-    Cancel hunt?
+    Annuler la chasse ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11489: Hunt canceled.${prompt}
+    Oui.
+    Non.${prompt}
+  11489: Chasse annulée.${prompt}
   11490: |-
-    ${color-alt: 141}The requisite time has not yet elapsed since undertaking your last regime.
-    You may be ineligible to receive gil and tab rewards.
-  11491: Set training regime to automatically repeat upon completion?
+    ${color-alt: 141}Le temps requis ne s'est pas encore écoulé depuis que tu as entrepris ton dernier régime.
+    Tu pourrais être inéligible pour recevoir des récompenses de gils et d'onglets.
+  11491: Configurer le régime d'entraînement pour se répéter automatiquement à la complétion ?
   11492: |-
-    Set training regime to repeat?
+    Configurer le régime d'entraînement pour se répéter ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11493: |-
-    You've recovered one of the long-lost mog tablets!
-    You should share the news of your discovery with the Explorer Moogle in Ru'Lude Gardens.
+    Tu as récupéré une des tablettes mog perdues depuis longtemps !
+    Tu devrais partager la nouvelle de ta découverte avec le Moogle Explorateur dans les Jardins de Ru'Lude.
   11494: |-
-    Greetings, adventurer!
-    You've heard the tale of the mog tablets, haven't you?
-    If any of them turn up in your travels, promise you'll let me know, kupo!${prompt}
+    Salutations, aventurier !
+    Tu as entendu le conte des tablettes mog, n'est-ce pas ?
+    Si l'une d'elles se présente dans tes voyages, promets-moi que tu me le feras savoir, kupo !${prompt}
   11495: |-
-    ${choice: 0}[Greetings/Happy Vana'versary], my adventuring friend!
-    Thanks to your efforts, the mog tablets have been recovered, and their magic freed to spread happiness and joy across the realm!
-    You are truly a friend to all mooglekind, kupo!${prompt}
+    ${choice: 0}[Salutations/Joyeux Vana'versaire], mon ami aventurier !
+    Grâce à tes efforts, les tablettes mog ont été récupérées, et leur magie libérée pour répandre le bonheur et la joie à travers le royaume !
+    Tu es vraiment un ami de tous les moogles, kupo !${prompt}
   11496: |-
-    Oh no! What a shame, kupo!
-    The mog tablets that were recovered have been scattered to the ends of Vana'diel once more...${prompt}
+    Oh non ! Quelle honte, kupo !
+    Les tablettes mog qui ont été récupérées ont été dispersées aux confins de Vana'diel une fois de plus...${prompt}
   11497: |-
-    Ask about something?
+    Demander à propos de quelque chose ?
     ${selection-lines}
-    What's a mog tablet?
-    The history of mog tablets.
-    List of tablets.
-    Nothing.${prompt}
+    Qu'est-ce qu'une tablette mog ?
+    L'histoire des tablettes mog.
+    Liste des tablettes.
+    Rien.${prompt}
   11498: |-
-    Ask about something?
+    Demander à propos de quelque chose ?
     ${selection-lines}
-    What's a mog tablet?
-    The history of mog tablets.
-    Collected tablets.
-    The current Super Kupower.
-    Nothing.${prompt}
+    Qu'est-ce qu'une tablette mog ?
+    L'histoire des tablettes mog.
+    Tablettes collectées.
+    Le Super Kupower actuel.
+    Rien.${prompt}
   11499: |-
-    Ask about something?
+    Demander à propos de quelque chose ?
     ${selection-lines}
-    What's a mog tablet?
-    The history of mog tablets.
-    Nothing.${prompt}
+    Qu'est-ce qu'une tablette mog ?
+    L'histoire des tablettes mog.
+    Rien.${prompt}
   11500: |-
-    What's a mog tablet!? What's a mog tablet, you say!?
-    Why, only the most awesome, amazing artifact in the annals of moogle history, that's what, kupo!${prompt}
-  11501: There's eleven of them in all, to be exact, scattered to the far reaches of Vana'diel and just waiting to be discovered by brave adventurers like you!${prompt}
+    Qu'est-ce qu'une tablette mog !? Qu'est-ce qu'une tablette mog, tu dis !?
+    Eh bien, seulement l'artefact le plus génial et incroyable des annales de l'histoire moogle, voilà quoi, kupo !${prompt}
+  11501: Il y en a onze en tout, pour être exact, dispersées aux confins lointains de Vana'diel et attendant juste d'être découvertes par de braves aventuriers comme toi !${prompt}
   11502: |-
-    What happens if you find them? I thought you'd never ask, kupo!
-    Each tablet is inscribed with an ancient moogle poem of joy, and legend has it that if all are found, the ancient moogle magic of King Kupofried the Great will be released once more, spreading joy and happiness through all the land!${prompt}
+    Qu'arrive-t-il si tu les trouves ? Je pensais que tu ne demanderais jamais, kupo !
+    Chaque tablette est inscrite avec un ancien poème moogle de joie, et la légende dit que si toutes sont trouvées, l'ancienne magie moogle du Roi Kupofried le Grand sera libérée une fois de plus, répandant la joie et le bonheur à travers tout le pays !${prompt}
   11503: |-
-    We explorer moogles have made it our life's work to recover the tablets and unlock their powers.
-    But with these short legs and little-bitty wings, we can't do it alone, kupo!${prompt}
+    Nous autres moogles explorateurs avons fait de cela l'œuvre de notre vie de récupérer les tablettes et de déverrouiller leurs pouvoirs.
+    Mais avec ces jambes courtes et ces petites ailes minuscules, nous ne pouvons pas le faire seuls, kupo !${prompt}
   11504: |-
-    There! I've whipped up a spell that will instantly transport any tablets you find back here to me.
-    Come back if you find anything, and happy exploring, kupo!${prompt}
+    Voilà ! J'ai concocté un sort qui transportera instantanément toutes les tablettes que tu trouves ici vers moi.
+    Reviens si tu trouves quoi que ce soit, et bonne exploration, kupo !${prompt}
   11505: |-
-    Just sit right back and I'll tell you the tale, kupo.
-    Many, many ages past, we moogles had our own glorious kingdom.
-    It was truly the peak of moogle civilization, a veritable golden age for all mooglekind!${prompt}
-  11506: The seventh king of this great nation was the wise and kindly King Kupofried, a masterful magician famed as the father of the fantastic moogle magic that survives to this very day, kupo!${prompt}
+    Assieds-toi et je vais te raconter le conte, kupo.
+    Il y a de nombreux, nombreux âges passés, nous les moogles avions notre propre royaume glorieux.
+    C'était vraiment le sommet de la civilisation moogle, un véritable âge d'or pour tous les moogles !${prompt}
+  11506: Le septième roi de cette grande nation était le sage et bienveillant Roi Kupofried, un magicien magistral célèbre comme le père de la fantastique magie moogle qui survit jusqu'à ce jour même, kupo !${prompt}
   11507: |-
-    In his later years, King Kupofried embarked on what would become the greatest work of his illustrious reign.
-    Seeking to pass down the prosperity of his kingdom to future generations, he inscribed eleven incantations of moogle joy and happiness onto eleven stone tablets.${prompt}
-  11508: Sadly, the kindly king's intentions went unappreciated by his selfish sons and daughters, and many a fierce feud broke out over who would inherit these relics, kupo...${prompt}
+    Dans ses dernières années, le Roi Kupofried entreprit ce qui allait devenir la plus grande œuvre de son illustre règne.
+    Cherchant à transmettre la prospérité de son royaume aux générations futures, il inscrivit onze incantations de joie et de bonheur moogle sur onze tablettes de pierre.${prompt}
+  11508: Tristement, les intentions bienveillantes du roi ne furent pas appréciées par ses fils et filles égoïstes, et de nombreuses querelles féroces éclatèrent sur qui hériterait de ces reliques, kupo...${prompt}
   11509: |-
-    King Kupofried was greatly dismayed.
-    How could the poems that he had composed out of pure love and joy become the root of such strife?${prompt}
-  11510: In his despair, the king commanded his minion bats to scatter the tablets to the far corners of the world, where they would be seen by moogle eyes no more.${prompt}
-  11511: “Alas! I only wanted my children to be happy, kupo,” he lamented, and flew away on his tiny yet majestic wings, never to be seen in his kingdom again.${prompt}
+    Le Roi Kupofried fut grandement consterné.
+    Comment les poèmes qu'il avait composés avec pur amour et joie pouvaient-ils devenir la racine d'une telle querelle ?${prompt}
+  11510: Dans son désespoir, le roi ordonna à ses chauves-souris servantes de disperser les tablettes aux coins reculés du monde, où elles ne seraient plus vues par des yeux moogles.${prompt}
+  11511: '"Hélas ! Je voulais seulement que mes enfants soient heureux, kupo," se lamenta-t-il, et s''envola sur ses ailes minuscules mais majestueuses, pour ne plus jamais être vu dans son royaume.${prompt}'
   11512: |-
-    Left without its wise monarch, the once-glorious moogle kingdom fractured into warring tribes, falling into unrest...and, eventually, ruin.
-    A tragic tale, don't you think, kupo?${prompt}
+    Laissé sans son sage monarque, le royaume moogle autrefois glorieux se fractura en tribus belligérantes, tombant dans le désordre... et, finalement, la ruine.
+    Un conte tragique, ne penses-tu pas, kupo ?${prompt}
   11513: |-
-    We explorer moogles are the proud descendants of King Kupofried, living only to bring our last great monarch's unrealized dream to fruition.
-    We will--we must!--find the mog tablets and bring true joy and happiness to this world!${prompt}
+    Nous autres moogles explorateurs sommes les fiers descendants du Roi Kupofried, vivant seulement pour concrétiser le rêve non réalisé de notre dernier grand monarque.
+    Nous allons - nous devons ! - trouver les tablettes mog et apporter la vraie joie et le bonheur à ce monde !${prompt}
   11514: |-
-    Let's see...
-    It appears that ${number: 0} moogle ${choice-plurality: 0}[tablet has/tablets have] already been found, kupo.${prompt}
-  11515: Here's a list of all the located tablets, kupo!${prompt}
+    Voyons voir...
+    Il semble que ${number: 0} tablette${choice-plurality: 0}[/s] moogle ${choice-plurality: 0}[a/ont] déjà été trouvée${choice-plurality: 0}[/s], kupo.${prompt}
+  11515: Voici une liste de toutes les tablettes localisées, kupo !${prompt}
   11516: |-
-    Choose a location:
+    Choisir un emplacement :
     ${selection-lines}
-    West Ronfaure.
-    East Ronfaure.
-    La Theine Plateau.
-    Valkurm Dunes.
-    Jugner Forest.
-    Batallia Downs.
-    North Gustaberg.
-    South Gustaberg.
-    Konschtat Highlands.
-    Pashhow Marshlands.
-    Rolanberry Fields.
-    Beaucedine Glacier.
+    Ronfaure Ouest.
+    Ronfaure Est.
+    Plateau de La Theine.
+    Dunes de Valkurm.
+    Forêt de Jugner.
+    Plaines de Batallia.
+    Gustaberg Nord.
+    Gustaberg Sud.
+    Hautes-Terres de Konschtat.
+    Marais de Pashhow.
+    Champs de Rolanberry.
+    Glacier de Beaucedine.
     Xarcabard.
-    West Sarutabaruta.
-    East Sarutabaruta.
-    Tahrongi Canyon.
-    Buburimu Peninsula.
-    Meriphataud Mountains.
-    Sauromugue Champaign.
-    Qufim Island.
-    Behemoth's Dominion.
-    Cape Teriggan.
-    Eastern Altepa Desert.
-    The Sanctuary of Zi'Tah.
+    Sarutabaruta Ouest.
+    Sarutabaruta Est.
+    Canyon de Tahrongi.
+    Péninsule de Buburimu.
+    Montagnes de Meriphataud.
+    Champagne de Sauromugue.
+    Île de Qufim.
+    Domaine de Béhémoth.
+    Cap Teriggan.
+    Désert d'Altepa Oriental.
+    Le Sanctuaire de Zi'Tah.
     Ro'Maeve.
-    Yuhtunga Jungle.
-    Yhoator Jungle.
-    Western Altepa Desert.
-    Valley of Sorrows.
-    Cancel.${prompt}
-  11517: 'The tablet of ${choice: 0}[temperance/fortitude/piety/justice/hope/wisdom/compassion/dignity/loyalty/charity/courage] was discovered there by ${entity: 0}, kupo!${prompt}'
-  11518: 'The tablet of ${choice: 0}[temperance/fortitude/piety/justice/hope/wisdom/compassion/dignity/loyalty/charity/courage] was discovered there, kupo!${prompt}'
+    Jungle de Yuhtunga.
+    Jungle de Yhoator.
+    Désert d'Altepa Occidental.
+    Vallée des Chagrins.
+    Annuler.${prompt}
+  11517: 'La tablette de la ${choice: 0}[tempérance/force/piété/justice/espoir/sagesse/compassion/dignité/loyauté/charité/courage] a été découverte là par ${entity: 0}, kupo !${prompt}'
+  11518: 'La tablette de la ${choice: 0}[tempérance/force/piété/justice/espoir/sagesse/compassion/dignité/loyauté/charité/courage] a été découverte là, kupo !${prompt}'
   11519: |-
-    No tablet has been discovered there yet.
-    It's not too late for you to stake your claim, kupo!${prompt}
+    Aucune tablette n'a encore été découverte là.
+    Il n'est pas trop tard pour toi de revendiquer ta découverte, kupo !${prompt}
   11520: |-
-    Oh, glorious day!
-    All eleven mog tablets have been recovered and restored to their rightful place at the altar of King Kupofried!${prompt}
+    Oh, jour glorieux !
+    Les onze tablettes mog ont été récupérées et restaurées à leur place légitime à l'autel du Roi Kupofried !${prompt}
   11521: |-
-    Can you feel the ancient moogle magic in the air?
-    You can now bask in the benefits of this Super Kupower...${prompt}
+    Peux-tu sentir l'ancienne magie moogle dans l'air ?
+    Tu peux maintenant te prélasser dans les avantages de ce Super Kupower...${prompt}
   11522: |-
-    “Thrifty Transit”!
-    A special treat for the cost-conscious adventurer!
-    For a limited time, all survival guide costs are eliminated, and you are able to teleport between nearby cities for a small fee, kupo!${prompt}
+    "Transit Économe" !
+    Une gâterie spéciale pour l'aventurier soucieux des coûts !
+    Pour une durée limitée, tous les coûts de guide de survie sont éliminés, et tu peux te téléporter entre les villes voisines pour une petite somme, kupo !${prompt}
   11523: |-
-    “Martial Master”!
-    As an added bonus to your Signet, combat skills will increase more rapidly! Your magic and automaton skills will be boosted, too!${prompt}
+    "Maître Martial" !
+    Comme bonus supplémentaire à ton Signet, les compétences de combat augmenteront plus rapidement ! Tes compétences magiques et d'automate seront boostées aussi !${prompt}
   11524: |-
-    “Blood of the Vampyr”!
-    Signets have been boosted with the abilities of Regeneration and Refresh!${prompt}
+    "Sang du Vampire" !
+    Les Signets ont été boostés avec les capacités de Régénération et Refresh !${prompt}
   11525: |-
-    “Treasure Hound”!
-    With Signet in effect, you will now be able to sniff out more treasure and gil! Great riches surely await you, kupo!${prompt}
+    "Chien de Trésor" !
+    Avec le Signet en effet, tu pourras maintenant flairer plus de trésors et de gils ! De grandes richesses t'attendent sûrement, kupo !${prompt}
   11526: |-
-    “Artisan's Advantage”!
-    Good news for aspiring artisans, kupo! When receiving advanced image support, the chance of your ingredients being lost in a failed synthesis attempt has been drastically reduced!${prompt}
+    "Avantage de l'Artisan" !
+    Bonne nouvelle pour les artisans en herbe, kupo ! Lors de la réception d'un support d'image avancé, la chance que tes ingrédients soient perdus dans une tentative de synthèse échouée a été drastiquement réduite !${prompt}
   11527: |-
-    “Myriad Mystery Boxes”!
-    What's this, kupo? Mysterious boxes have been sighted all over the realm!
-    What genius could have devised such commendable creations?${prompt}
+    "Myriade de Boîtes Mystères" !
+    Qu'est-ce que c'est, kupo ? Des boîtes mystérieuses ont été aperçues partout dans le royaume !
+    Quel génie aurait pu concevoir de telles créations louables ?${prompt}
   11528: |-
-    “Dilatory Digestion”!
-    Not content to be left behind, brown magic slides back out for another go, kupo!
-    Now you can be what you eat for twice as long and save on all those trips to your local merchant.${prompt}
+    "Digestion Dilatoire" !
+    Non contente d'être laissée pour compte, la magie marron glisse de nouveau pour un autre tour, kupo !
+    Maintenant tu peux être ce que tu manges deux fois plus longtemps et économiser sur tous ces voyages vers ton marchand local.${prompt}
   11529: |-
-    “Boundary Buster”!
-    Trust in Signet and you can never go wrong, kupo!
-    It's time to take to the field and vanquish a veritable army of enemies, for any Conquest Points you receive will be duly doubled!${prompt}
+    "Briseur de Frontière" !
+    Fais confiance au Signet et tu ne peux jamais te tromper, kupo !
+    Il est temps de prendre le terrain et de vaincre une véritable armée d'ennemis, car tous les Points de Conquête que tu reçois seront dûment doublés !${prompt}
   11530: |-
-    “Bountiful Bazaar”!
-    Trade routes are bustling with unprecedented traffic and peddlers' carts are overflowing with objects now that regional goods are available to merchants across the realm, kupo!${prompt}
+    "Bazar Abondant" !
+    Les routes commerciales grouillent de trafic sans précédent et les charrettes des colporteurs débordent d'objets maintenant que les marchandises régionales sont disponibles aux marchands à travers le royaume, kupo !${prompt}
   11531: |-
-    “Swift Shoes”!
-    This is just the ticket for today's busy adventurer! For a limited time, provided that you're fully rested and healed, your legs will carry you with the speed of a chocobo!${prompt}
+    "Chaussures Rapides" !
+    C'est juste ce qu'il faut pour l'aventurier occupé d'aujourd'hui ! Pour une durée limitée, pourvu que tu sois complètement reposé et soigné, tes jambes te porteront avec la vitesse d'un chocobo !${prompt}
   11532: |-
-    “Crystal Caboodle”!
-    Signet is now better than ever! Collect crystals from beastmen-controlled areas...and maybe even clusters from other areas!${prompt}
+    "Caboodle de Cristaux" !
+    Le Signet est maintenant meilleur que jamais ! Collecte des cristaux des zones contrôlées par les hommes-bêtes... et peut-être même des clusters d'autres zones !${prompt}
   11533: ${prompt}
   11534: |-
-    Be warned that our moogle magic is concentrated around this altar.
-    If you venture to far-off lands, the Super Kupowers will be unable to protect you...${prompt}
+    Sois averti que notre magie moogle est concentrée autour de cet autel.
+    Si tu t'aventures vers des terres lointaines, les Super Kupowers ne pourront pas te protéger...${prompt}
   11535: |-
-    What? What about the past, you say?
-    Of course the magic won't travel through time.
-    What a strange question, kupo...${prompt}
-  11536: But not an altogether pointless, one. The powers of thirtfy transit do seem to apply across the space-time continuum, kupo.${prompt}
-  11537: The whole system is filled with mysteries.${prompt}
+    Quoi ? Qu'en est-il du passé, tu dis ?
+    Bien sûr que la magie ne voyagera pas à travers le temps.
+    Quelle étrange question, kupo...${prompt}
+  11536: Mais pas une question complètement inutile. Les pouvoirs du transit économe semblent s'appliquer à travers le continuum espace-temps, kupo.${prompt}
+  11537: Le système entier est rempli de mystères.${prompt}
   11538: |-
-    Oh, it's you! It's really you!
-    The brave adventurer who discovered one of our mog tablets!${prompt}
+    Oh, c'est toi ! C'est vraiment toi !
+    Le brave aventurier qui a découvert une de nos tablettes mog !${prompt}
   11539: |-
-    It's a pleasure, an honor to meet you, kupo!
-    We have a special prize to reward you for your efforts.
-    If you'll just sign right here...${prompt}
+    C'est un plaisir, un honneur de te rencontrer, kupo !
+    Nous avons un prix spécial pour te récompenser de tes efforts.
+    Si tu veux bien signer juste ici...${prompt}
   11540: |-
-    Sign for the moogle?
+    Signer pour le moogle ?
     ${selection-lines}
-    Sure.
-    I don't think so.${prompt}
+    Bien sûr.
+    Je ne pense pas.${prompt}
   11541: |-
-    Oh, thank you, ${choice-player-gender}[Mister/Miss]...${name-player}!
-    A truly heroic name, kupo!${prompt}
+    Oh, merci, ${choice-player-gender}[Monsieur/Mademoiselle]... ${name-player} !
+    Un nom vraiment héroïque, kupo !${prompt}
   11542: |-
-    As a reward for your efforts, please have this!
-    Many thanks, and ${choice: 0}[safe travels/Happy Vana'versary], kupo!${prompt}
+    Comme récompense pour tes efforts, prends ceci s'il te plaît !
+    Mille mercis, et ${choice: 0}[voyages sûrs/Joyeux Vana'versaire], kupo !${prompt}
   11543: |-
-    What? You won't? That's a shame, kupo.
-    I had a special prize here just for you, but without your signature, I'll just have to hold on to it...${prompt}
+    Quoi ? Tu ne veux pas ? C'est dommage, kupo.
+    J'avais un prix spécial ici juste pour toi, mais sans ta signature, je vais juste devoir le garder...${prompt}
   11544: |-
-    If you change your mind, come back quickly.
-    The mog tablets will be scattered to the wind again at any moment, kupo...${prompt}
+    Si tu changes d'avis, reviens rapidement.
+    Les tablettes mog seront dispersées au vent à nouveau à tout moment, kupo...${prompt}
   11545: |-
     ：西ロンフォール
     ：東ロンフォール
@@ -24780,267 +24778,267 @@ entries:
     step：（モード）
     substep：
   11555: |-
-    A:
-    B:
+    A :
+    B :
   11556: ''
-  11557: '   '
+  11557: '   '  
   11558: '   '
   11559: '   '
-  11560: ====
-  11561: code：
+  11560: '===='
+  11561: 'code :'
   11562: |-
-    TIMEWORK：
-    TIMENOW ：
-    TIMELAST：Sec.
-  11563: You are too far away to participate in the Voidwatch operation.${prompt}
-  11564: You are currently engaged elsewhere and cannot participate in the Voidwatch operation.${prompt}
-  11565: You are unconscious and cannot participate in the Voidwatch operation.${prompt}
-  11566: You do not fulfill the requirements to participate in the Voidwatch operation.${prompt}
+    TIMEWORK :
+    TIMENOW  :
+    TIMELAST : Sec.
+  11563: Tu es trop loin pour participer à l'opération Voidwatch.${prompt}
+  11564: Tu es actuellement engagé ailleurs et ne peux pas participer à l'opération Voidwatch.${prompt}
+  11565: Tu es inconscient et ne peux pas participer à l'opération Voidwatch.${prompt}
+  11566: Tu ne remplis pas les conditions requises pour participer à l'opération Voidwatch.${prompt}
   11567: |-
-    ${name-player} gains clearance to participate in the Voidwatch operation.
-    One ${keyitem-singular: 0[2]} expended.${prompt}
+    ${name-player} obtient l'autorisation de participer à l'opération Voidwatch.
+    ${keyitem-singular: 0[2]} dépensée.${prompt}
   11568: |-
-    ${name-player} gains clearance to participate in the Voidwatch operation.
-    ${lettercase: 1}${keyitem-singular: 0[2]} not expended. (Spoils will be subject to limits.)${prompt}
+    ${name-player} obtient l'autorisation de participer à l'opération Voidwatch.
+    ${lettercase: 1}${keyitem-singular: 0[2]} non dépensée. (Le butin sera soumis à des limites.)${prompt}
   11569: |-
-    ${name-player} gains clearance to participate in the Voidwatch operation.
-    Unused ${keyitem-singular: 0[2]} carried over.${prompt}
+    ${name-player} obtient l'autorisation de participer à l'opération Voidwatch.
+    ${keyitem-singular: 0[2]} inutilisée reportée.${prompt}
   11570: |-
-    ${color-alt: 123}You have ventured too far from the field of battle.
-    You will be automatically relieved of Voidwatcher status if you do not return.${prompt}
+    ${color-alt: 123}Tu t'es aventuré trop loin du champ de bataille.
+    Tu seras automatiquement relevé du statut de Voidwatcher si tu ne reviens pas.${prompt}
   11571: |-
-    You have ventured too far from the field of battle.
-    Voidwatcher status revoked.${prompt}
-  11572: You have returned to the field of battle.${prompt}
-  11573: 'You have ${number: 0} ${choice-plurality: 0}[minute/minutes] (Earth time) to complete the battle.${prompt}'
-  11574: 'You have ${number: 0} ${choice-plurality: 0}[minute/minutes] (Earth time) remaining to complete the battle.${prompt}'
-  11575: 'You have only ${number: 0} ${choice-plurality: 0}[second/seconds] (Earth time) remaining.${prompt}'
-  11576: Your time for this battle is up...${prompt}
-  11577: The monster fades before your eyes, a look of disappointment on its face.${prompt}
-  11578: '${color-alt: 121}Temporary item: ${item-singular: 0[2]} is available for use!${prompt}'
-  11579: '${color-alt: 121}All temporary items are recharged!${prompt}'
-  11580: You feel a mysterious energy seeping forth from an unknown source...${prompt}
+    Tu t'es aventuré trop loin du champ de bataille.
+    Statut de Voidwatcher révoqué.${prompt}
+  11572: Tu es revenu sur le champ de bataille.${prompt}
+  11573: 'Tu as ${number: 0} ${choice-plurality: 0}[minute/minutes] (temps terrestre) pour compléter la bataille.${prompt}'
+  11574: 'Il te reste ${number: 0} ${choice-plurality: 0}[minute/minutes] (temps terrestre) pour compléter la bataille.${prompt}'
+  11575: 'Il ne te reste que ${number: 0} ${choice-plurality: 0}[seconde/secondes] (temps terrestre).${prompt}'
+  11576: Ton temps pour cette bataille est écoulé...${prompt}
+  11577: Le monstre s'évanouit devant tes yeux, un regard de déception sur son visage.${prompt}
+  11578: '${color-alt: 121}Objet temporaire : ${item-singular: 0[2]} est disponible à l''utilisation !${prompt}'
+  11579: '${color-alt: 121}Tous les objets temporaires sont rechargés !${prompt}'
+  11580: Tu sens une énergie mystérieuse s'infiltrer d'une source inconnue...${prompt}
   11581: |-
-    The ${keyitem-singular: 0[2]} resonates with the ${keyitem-singular: 1[2]}.
-    You may commence the Voidwatch operation at will.${prompt}
-  11582: 'A Voidwatch operation could be initiated if only you had ${keyitem-article: 0[2]} and ${keyitem-article: 1[2]}...${prompt}'
-  11583: However, your presence does not seem to elicit a reaction.${prompt}
+    ${keyitem-singular: 0[2]} résonne avec ${keyitem-singular: 1[2]}.
+    Tu peux commencer l'opération Voidwatch à volonté.${prompt}
+  11582: 'Une opération Voidwatch pourrait être initiée si seulement tu avais ${keyitem-article: 0[2]} et ${keyitem-article: 1[2]}...${prompt}'
+  11583: Cependant, ta présence ne semble pas susciter de réaction.${prompt}
   11584: |-
-    What will you do?
+    Que vas-tu faire ?
     ${selection-lines}
-    Nothing.
-    Initiate Voidwatch operation.
-    View alignment values.
-    Examine atmacite.
-    Read up on the Voidwatch.${prompt}
+    Rien.
+    Initier l'opération Voidwatch.
+    Voir les valeurs d'alignement.
+    Examiner l'atmacite.
+    Se renseigner sur le Voidwatch.${prompt}
   11585: |-
-    Use ${keyitem-article: 0[2]}?
+    Utiliser ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11586: 'You do not possess the ${keyitem-singular: 0[2]} necessary to initiate a Voidwatch operation here.${prompt}'
-  11587: A fiend materializes from the planar rift!${prompt}
+    Oui.
+    Non.${prompt}
+  11586: 'Tu ne possèdes pas ${keyitem-singular: 0[2]} nécessaire pour initier une opération Voidwatch ici.${prompt}'
+  11587: Un démon se matérialise de la faille planaire !${prompt}
   11588: |-
-    ${color: 5}Current Spectral Alignment${color: 1}
-    Blue: +${number: 0}% (reward quantity)
-    Red: +${number: 1}% (reward quality)${prompt}
+    ${color: 5}Alignement Spectral Actuel${color: 1}
+    Bleu : +${number: 0}% (quantité de récompense)
+    Rouge : +${number: 1}% (qualité de récompense)${prompt}
   11589: |-
-    Yellow: +${number: 0}% (experience yield)
-    Green: +${number: 1}% (cruor yield)${prompt}
-  11590: Alignment bonuses granted by ascent items will be added to the final value.${prompt}
-  11591: 'You can infuse up to ${number: 0} atmacite at this time.${prompt}'
+    Jaune : +${number: 0}% (rendement d'expérience)
+    Vert : +${number: 1}% (rendement de cruor)${prompt}
+  11590: Les bonus d'alignement accordés par les objets d'ascension seront ajoutés à la valeur finale.${prompt}
+  11591: 'Tu peux infuser jusqu''à ${number: 0} atmacites pour le moment.${prompt}'
   11592: |-
-    What will you do?
+    Que vas-tu faire ?
     ${selection-lines}
-    Nothing for now.
-    Infused: ${keyitem-singular: 0[2]} (Lv.${number: 1})
-    Infused: ${keyitem-singular: 2[2]} (Lv.${number: 3})
-    Infused: ${keyitem-singular: 4[2]} (Lv.${number: 5})
-    Purge atmacite.
-    Infuse atmacite.
-    Enrich atmacite.${prompt}
+    Rien pour l'instant.
+    Infusé : ${keyitem-singular: 0[2]} (Niv.${number: 1})
+    Infusé : ${keyitem-singular: 2[2]} (Niv.${number: 3})
+    Infusé : ${keyitem-singular: 4[2]} (Niv.${number: 5})
+    Purger l'atmacite.
+    Infuser l'atmacite.
+    Enrichir l'atmacite.${prompt}
   11593: |-
-    Infuse which atmacite? (Cruor: ${number: 24})
+    Infuser quel atmacite ? (Cruor : ${number: 24})
     ${selection-lines}
-    None for now.
-    ${lettercase: 1}${keyitem-singular: 0[2]} (Lv.${number: 1})
-    ${lettercase: 1}${keyitem-singular: 2[2]} (Lv.${number: 3})
-    ${lettercase: 1}${keyitem-singular: 4[2]} (Lv.${number: 5})
-    ${lettercase: 1}${keyitem-singular: 6[2]} (Lv.${number: 7})
-    ${lettercase: 1}${keyitem-singular: 8[2]} (Lv.${number: 9})
-    ${lettercase: 1}${keyitem-singular: 10[2]} (Lv.${number: 11})
-    ${lettercase: 1}${keyitem-singular: 12[2]} (Lv.${number: 13})
-    ${lettercase: 1}${keyitem-singular: 14[2]} (Lv.${number: 15})
-    ${lettercase: 1}${keyitem-singular: 16[2]} (Lv.${number: 17})
-    ${lettercase: 1}${keyitem-singular: 18[2]} (Lv.${number: 19})
-    ${lettercase: 1}${keyitem-singular: 20[2]} (Lv.${number: 21})
-    ${lettercase: 1}${keyitem-singular: 22[2]} (Lv.${number: 23})
-    Previous page.
-    Next page.${prompt}
-  11594: 'The ${keyitem-singular: 0[2]} (Lv.${number: 1}) bestows the following bonuses:${prompt}'
-  11595: 'Infusing the ${keyitem-singular: 0[2]} (Lv.${number: 1}) requires ${number: 2} cruor.${prompt}'
+    Aucun pour l'instant.
+    ${lettercase: 1}${keyitem-singular: 0[2]} (Niv.${number: 1})
+    ${lettercase: 1}${keyitem-singular: 2[2]} (Niv.${number: 3})
+    ${lettercase: 1}${keyitem-singular: 4[2]} (Niv.${number: 5})
+    ${lettercase: 1}${keyitem-singular: 6[2]} (Niv.${number: 7})
+    ${lettercase: 1}${keyitem-singular: 8[2]} (Niv.${number: 9})
+    ${lettercase: 1}${keyitem-singular: 10[2]} (Niv.${number: 11})
+    ${lettercase: 1}${keyitem-singular: 12[2]} (Niv.${number: 13})
+    ${lettercase: 1}${keyitem-singular: 14[2]} (Niv.${number: 15})
+    ${lettercase: 1}${keyitem-singular: 16[2]} (Niv.${number: 17})
+    ${lettercase: 1}${keyitem-singular: 18[2]} (Niv.${number: 19})
+    ${lettercase: 1}${keyitem-singular: 20[2]} (Niv.${number: 21})
+    ${lettercase: 1}${keyitem-singular: 22[2]} (Niv.${number: 23})
+    Page précédente.
+    Page suivante.${prompt}
+  11594: '${keyitem-singular: 0[2]} (Niv.${number: 1}) confère les bonus suivants :${prompt}'
+  11595: 'Infuser ${keyitem-singular: 0[2]} (Niv.${number: 1}) nécessite ${number: 2} cruor.${prompt}'
   11596: |-
-    Infuse ${keyitem-singular: 0[2]} (Lv.${number: 1})?
+    Infuser ${keyitem-singular: 0[2]} (Niv.${number: 1}) ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11597: |-
-    Replace ${keyitem-singular: 0[2]} (Lv.${number: 1})?
+    Remplacer ${keyitem-singular: 0[2]} (Niv.${number: 1}) ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11598: '${name-player} expends ${number: 2} cruor and is now infused with ${keyitem-article: 0[2]} (Lv.${number: 1})!${prompt}'
+    Oui.
+    Non.${prompt}
+  11598: '${name-player} dépense ${number: 2} cruor et est maintenant infusé avec ${keyitem-article: 0[2]} (Niv.${number: 1}) !${prompt}'
   11599: |-
-    ${choice: 0}[Infuse/Purge] which atmacite?
+    ${choice: 0}[Infuser/Purger] quel atmacite ?
     ${selection-lines}
-    None for now.
-    ${lettercase: 1}${keyitem-singular: 1[2]} (Lv.${number: 2})
-    ${lettercase: 1}${keyitem-singular: 3[2]} (Lv.${number: 4})
-    ${lettercase: 1}${keyitem-singular: 5[2]} (Lv.${number: 6})${prompt}
+    Aucun pour l'instant.
+    ${lettercase: 1}${keyitem-singular: 1[2]} (Niv.${number: 2})
+    ${lettercase: 1}${keyitem-singular: 3[2]} (Niv.${number: 4})
+    ${lettercase: 1}${keyitem-singular: 5[2]} (Niv.${number: 6})${prompt}
   11600: |-
-    Purge ${keyitem-singular: 0[2]} (Lv.${number: 1})?
+    Purger ${keyitem-singular: 0[2]} (Niv.${number: 1}) ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11601: |-
-    ${name-player} purges the ${keyitem-singular: 0[2]} (Lv.${number: 1}), infusing ${keyitem-article: 2[2]} (Lv.${number: 3}) in its place.
-    (Cruor expended: ${number: 4})${prompt}
+    ${name-player} purge ${keyitem-singular: 0[2]} (Niv.${number: 1}), infusant ${keyitem-article: 2[2]} (Niv.${number: 3}) à sa place.
+    (Cruor dépensé : ${number: 4})${prompt}
   11602: |-
-    Purge ${keyitem-singular: 0[2]} (Lv.${number: 1})?
+    Purger ${keyitem-singular: 0[2]} (Niv.${number: 1}) ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11603: '${name-player} has been purged of the ${keyitem-singular: 0[2]} (Lv.${number: 1}).${prompt}'
-  11604: You do not have enough cruor.${prompt}
-  11605: The atmacite could not be infused...${prompt}
-  11606: The atmacite could not be purged...${prompt}
-  11607: You do not possess any atmacite capable of enrichment.${prompt}
+    Oui.
+    Non.${prompt}
+  11603: '${name-player} a été purgé de ${keyitem-singular: 0[2]} (Niv.${number: 1}).${prompt}'
+  11604: Tu n'as pas assez de cruor.${prompt}
+  11605: L'atmacite n'a pas pu être infusé...${prompt}
+  11606: L'atmacite n'a pas pu être purgé...${prompt}
+  11607: Tu ne possèdes aucun atmacite capable d'enrichissement.${prompt}
   11608: |-
-    Enrich which atmacite? (Cruor: ${number: 36})
+    Enrichir quel atmacite ? (Cruor : ${number: 36})
     ${selection-lines}
-    None for now.
-    ${lettercase: 1}${keyitem-singular: 0[2]} (Lv.${number: 1}): ${number: 2}
-    ${lettercase: 1}${keyitem-singular: 3[2]} (Lv.${number: 4}): ${number: 5}
-    ${lettercase: 1}${keyitem-singular: 6[2]} (Lv.${number: 7}): ${number: 8}
-    ${lettercase: 1}${keyitem-singular: 9[2]} (Lv.${number: 10}): ${number: 11}
-    ${lettercase: 1}${keyitem-singular: 12[2]} (Lv.${number: 13}): ${number: 14}
-    ${lettercase: 1}${keyitem-singular: 15[2]} (Lv.${number: 16}): ${number: 17}
-    ${lettercase: 1}${keyitem-singular: 18[2]} (Lv.${number: 19}): ${number: 20}
-    ${lettercase: 1}${keyitem-singular: 21[2]} (Lv.${number: 22}): ${number: 23}
-    ${lettercase: 1}${keyitem-singular: 24[2]} (Lv.${number: 25}): ${number: 26}
-    ${lettercase: 1}${keyitem-singular: 27[2]} (Lv.${number: 28}): ${number: 29}
-    ${lettercase: 1}${keyitem-singular: 30[2]} (Lv.${number: 31}): ${number: 32}
-    ${lettercase: 1}${keyitem-singular: 33[2]} (Lv.${number: 34}): ${number: 35}
-    Previous page.
-    Next page.${prompt}
-  11609: 'Enriching the ${keyitem-singular: 0[2]} will produce the following:${prompt}'
-  11610: 'Enriching the ${keyitem-singular: 0[2]} from level ${number: 1} to level ${number: 2} requires ${number: 3} cruor.${prompt}'
+    Aucun pour l'instant.
+    ${lettercase: 1}${keyitem-singular: 0[2]} (Niv.${number: 1}) : ${number: 2}
+    ${lettercase: 1}${keyitem-singular: 3[2]} (Niv.${number: 4}) : ${number: 5}
+    ${lettercase: 1}${keyitem-singular: 6[2]} (Niv.${number: 7}) : ${number: 8}
+    ${lettercase: 1}${keyitem-singular: 9[2]} (Niv.${number: 10}) : ${number: 11}
+    ${lettercase: 1}${keyitem-singular: 12[2]} (Niv.${number: 13}) : ${number: 14}
+    ${lettercase: 1}${keyitem-singular: 15[2]} (Niv.${number: 16}) : ${number: 17}
+    ${lettercase: 1}${keyitem-singular: 18[2]} (Niv.${number: 19}) : ${number: 20}
+    ${lettercase: 1}${keyitem-singular: 21[2]} (Niv.${number: 22}) : ${number: 23}
+    ${lettercase: 1}${keyitem-singular: 24[2]} (Niv.${number: 25}) : ${number: 26}
+    ${lettercase: 1}${keyitem-singular: 27[2]} (Niv.${number: 28}) : ${number: 29}
+    ${lettercase: 1}${keyitem-singular: 30[2]} (Niv.${number: 31}) : ${number: 32}
+    ${lettercase: 1}${keyitem-singular: 33[2]} (Niv.${number: 34}) : ${number: 35}
+    Page précédente.
+    Page suivante.${prompt}
+  11609: 'Enrichir ${keyitem-singular: 0[2]} produira ce qui suit :${prompt}'
+  11610: 'Enrichir ${keyitem-singular: 0[2]} du niveau ${number: 1} au niveau ${number: 2} nécessite ${number: 3} cruor.${prompt}'
   11611: |-
-    Enrich ${keyitem-singular: 0[2]}?
+    Enrichir ${keyitem-singular: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   11612: |-
-    Your ${keyitem-singular: 1[2]} has been enriched to level ${number: 2}!
-    (Cruor expended: ${number: 0})${prompt}
-  11613: 'The ${keyitem-singular: 0[2]} has been enriched to its maximum level!${prompt}'
-  11614: The atmacite's enrichment level failed to rise...${prompt}
+    Ton ${keyitem-singular: 1[2]} a été enrichi au niveau ${number: 2} !
+    (Cruor dépensé : ${number: 0})${prompt}
+  11613: '${keyitem-singular: 0[2]} a été enrichi à son niveau maximum !${prompt}'
+  11614: Le niveau d'enrichissement de l'atmacite n'a pas réussi à augmenter...${prompt}
   11615: |-
-    Read up on what?
+    Se renseigner sur quoi ?
     ${selection-lines}
-    Nothing for now.
-    Voidwatch Ops.
-    How to participate.
+    Rien pour l'instant.
+    Opérations Voidwatch.
+    Comment participer.
     ${lettercase: 1}${keyitem-plural: 0[2]}.
-    Stratum abyssite.
-    Alignment.
+    Abyssite de strate.
+    Alignement.
     Atmacite.
     Periapt.${prompt}
-  11616: The Voidwatch is a fellowship of men and women come together to defend the world from extradimensional invaders called “Voidwalkers.” Driven only by an insatiable appetite for destruction, these fell horrors roam the space between dimensions, ever seeking to enter and plunge Vana'diel into chaos.${prompt}
+  11616: Le Voidwatch est une confrérie d'hommes et de femmes réunis pour défendre le monde contre des envahisseurs extradimensionnels appelés "Voidwalkers". Poussées uniquement par un appétit insatiable pour la destruction, ces horreurs déchues errent dans l'espace entre les dimensions, cherchant toujours à entrer et plonger Vana'diel dans le chaos.${prompt}
   11617: |-
-    Faced with the risk of mass invasion, Voidwatch leaders devised a strategy wherein potential threats are preemptively neutralized.
-    This act was made possible through the discovery of voidstones, magicked objects capable of rendering Voidwalkers visible to be summarily dispatched.${prompt}
-  11618: Such efforts to stem the rise of Voidwalkers, collectively dubbed “Voidwatch Operations,” or “Ops” for short, take place in the vicinity of planar rifts--weak points in the fabric of space.${prompt}
-  11619: A single person may initiate a Voidwatch operation, at which time “Voidwatcher” status will be bestowed upon all qualifying party and alliance members, allowing them to commence battle with the target Voidwalker.${prompt}
-  11620: Voidwatch Ops are subject to a time limit. Exceed this limit and Voidwatcher status will be revoked for all involved, bringing the confrontation to an end. Individuals straying too far from the site of battle, too, will find themselves relieved of the status.${prompt}
+    Face au risque d'invasion massive, les leaders du Voidwatch ont conçu une stratégie dans laquelle les menaces potentielles sont neutralisées de manière préventive.
+    Cet acte a été rendu possible grâce à la découverte des voidstones, objets magiques capables de rendre les Voidwalkers visibles pour être sommairement expédiés.${prompt}
+  11618: De tels efforts pour endiguer la montée des Voidwalkers, collectivement surnommés "Opérations Voidwatch", ou "Ops" en abrégé, ont lieu à proximité de failles planaires - points faibles dans le tissu de l'espace.${prompt}
+  11619: Une seule personne peut initier une opération Voidwatch, moment auquel le statut de "Voidwatcher" sera conféré à tous les membres de groupe et d'alliance qualifiés, leur permettant de commencer la bataille avec le Voidwalker ciblé.${prompt}
+  11620: Les Opérations Voidwatch sont soumises à une limite de temps. Dépassez cette limite et le statut de Voidwatcher sera révoqué pour tous les impliqués, mettant fin à la confrontation. Les individus s'éloignant trop du site de bataille se verront également relevés du statut.${prompt}
   11621: |-
-    Know also that those who take on the burden of the Voidwatcher become temporarily isolated and unable to receive aid from the outside world.
-    Such is the arduous nature of transdimensional encounters.${prompt}
-  11622: Initiating a Voidwatch operation requires a voidstone, as well as a stratum abyssite attuned to a particular planar rift.${prompt}
-  11623: Only one person needs to be in possession of these objects for all party and alliance members to participate.${prompt}
-  11624: However, there exists a number of participation conditions that must be observed.${prompt}
+    Sache aussi que ceux qui prennent le fardeau du Voidwatcher deviennent temporairement isolés et incapables de recevoir de l'aide du monde extérieur.
+    Telle est la nature ardue des rencontres transdimensionnelles.${prompt}
+  11622: Initier une opération Voidwatch nécessite une voidstone, ainsi qu'un abyssite de strate accordé à une faille planaire particulière.${prompt}
+  11623: Une seule personne a besoin d'être en possession de ces objets pour que tous les membres du groupe et de l'alliance participent.${prompt}
+  11624: Cependant, il existe un nombre de conditions de participation qui doivent être respectées.${prompt}
   11625: |-
-    When an operation commences, a single voidstone will be expended for all who possess it.
-    These combatants will have the opportunity to improve their spoils by manipulating spectral alignment values during battle.${prompt}
-  11626: Conversely, those not possessing their own voidstone will be limited in the spoils they can obtain.${prompt}
-  11627: The “voidstone” is a magicked object which, when coupled with stratum abyssite, is capable of rendering Voidwalkers visible.${prompt}
+    Lorsqu'une opération commence, une seule voidstone sera dépensée pour tous ceux qui la possèdent.
+    Ces combattants auront l'opportunité d'améliorer leur butin en manipulant les valeurs d'alignement spectral pendant la bataille.${prompt}
+  11626: Inversement, ceux ne possédant pas leur propre voidstone seront limités dans le butin qu'ils peuvent obtenir.${prompt}
+  11627: La "voidstone" est un objet magique qui, lorsqu'il est couplé avec un abyssite de strate, est capable de rendre les Voidwalkers visibles.${prompt}
   11628: |-
-    Only a single combatant need possess a voidstone to allow all party and alliance members to participate in a Voidwatch operation.
-    Those without one, however, will find their spoils limited in both quantity and quality.${prompt}
-  11629: As a single voidstone is automatically expended when the battle commences, it is recommended that you keep stock of your inventory.${prompt}
-  11630: Those wishing to obtain the stones should speak to a Voidwatch officer, who is charged with issuing a set quantity at fixed intervals.${prompt}
-  11631: Stratum abyssite are dynamic stones capable of evolution. By absorbing the energies emitted by felled Voidwalkers, they become attuned with other planar rifts.${prompt}
-  11632: After defeating your quarry, present your stone to an atmacite refiner--specialists in the study of otherworld geology--to have its properties determined.${prompt}
-  11633: Stratum abyssite growth occurs independently of voidstones, and the latter is not required to trigger development.${prompt}
-  11634: Each dimension is composed of its own existential spectrum to which objects of that world are aligned. The act of rendering a Voidwalker visible is essentially an act of aligning oneself to its existential spectrum.${prompt}
-  11635: While Voidwatchers are able to, for all practical purposes, interact with such creatures, they in fact fall short of full alignment. Symptoms of this imperfect state can be observed in the limited quantity and quality of spoils normally yielded by Voidwalkers.${prompt}
-  11636: Compensating measures, however, exist which allow combatants to more closely attune themselves with their extradimensional foe. One such method involves the use of alignment-enhancing artifacts known as “ascent items.”${prompt}
-  11637: Alignment values raised through ascent items will remain in place until such time as a riftworn pyxis is opened at the end of a successful operation.${prompt}
-  11638: Those participating in Voidwatch Ops are recommended to plan ahead in order to make effective use of ascent items.${prompt}
-  11639: Alignment values can also be raised in the midst of battle by striking at enemy weaknesses, causing their existential attunement to shift to your advantage.${prompt}
-  11640: Blows can be dealt with abilities such as weapon skills and magic spells, and your choice of weakness and the manner in which you strike it will determine which hue of the alignment spectrum is affected.${prompt}
-  11641: The existential spectrum is comprised of five lights (blue, red, yellow, green, and white), each of which influences reward yield.${prompt}
-  11642: The precise workings of each light can be reviewed when examining your current alignment values.${prompt}
-  11643: Upon the successful conclusion of battle, the alignment bonus as granted by ascent items and the exploitation of enemy weaknesses are combined to determine the spoils.${prompt}
-  11644: 'Be forewarned: Voidwalkers are highly guileful beings and will not suffer the same weakness being struck twice. Combatants must be on constant watch for any changes that may occur during the course of battle.${prompt}'
+    Un seul combattant a besoin de posséder une voidstone pour permettre à tous les membres du groupe et de l'alliance de participer à une opération Voidwatch.
+    Ceux sans en auront cependant leur butin limité en quantité et en qualité.${prompt}
+  11629: Comme une seule voidstone est automatiquement dépensée lorsque la bataille commence, il est recommandé que tu gardes un stock dans ton inventaire.${prompt}
+  11630: Ceux souhaitant obtenir les pierres devraient parler à un officier Voidwatch, qui est chargé d'émettre une quantité définie à intervalles fixes.${prompt}
+  11631: Les abyssites de strate sont des pierres dynamiques capables d'évolution. En absorbant les énergies émises par les Voidwalkers abattus, ils s'accordent avec d'autres failles planaires.${prompt}
+  11632: Après avoir vaincu ta proie, présente ta pierre à un raffineur d'atmacite - spécialistes dans l'étude de la géologie de l'autre monde - pour faire déterminer ses propriétés.${prompt}
+  11633: La croissance de l'abyssite de strate se produit indépendamment des voidstones, et cette dernière n'est pas requise pour déclencher le développement.${prompt}
+  11634: Chaque dimension est composée de son propre spectre existentiel auquel les objets de ce monde sont alignés. L'acte de rendre un Voidwalker visible est essentiellement un acte d'alignement avec son spectre existentiel.${prompt}
+  11635: Bien que les Voidwatchers soient capables, à toutes fins pratiques, d'interagir avec de telles créatures, ils ne parviennent en fait pas à un alignement complet. Les symptômes de cet état imparfait peuvent être observés dans la quantité et la qualité limitées de butin normalement fourni par les Voidwalkers.${prompt}
+  11636: Des mesures compensatoires existent cependant qui permettent aux combattants de s'accorder plus étroitement avec leur ennemi extradimensionnel. Une telle méthode implique l'utilisation d'artefacts améliorant l'alignement connus sous le nom d'"objets d'ascension".${prompt}
+  11637: Les valeurs d'alignement augmentées par les objets d'ascension resteront en place jusqu'à ce qu'un pyxis usé par les failles soit ouvert à la fin d'une opération réussie.${prompt}
+  11638: Ceux participant aux Opérations Voidwatch sont recommandés de planifier à l'avance afin de faire un usage efficace des objets d'ascension.${prompt}
+  11639: Les valeurs d'alignement peuvent également être augmentées au milieu de la bataille en frappant les faiblesses ennemies, causant leur accord existentiel à se déplacer à ton avantage.${prompt}
+  11640: Les coups peuvent être portés avec des capacités telles que les compétences d'arme et les sorts magiques, et ton choix de faiblesse et la manière dont tu la frappes détermineront quelle teinte du spectre d'alignement est affectée.${prompt}
+  11641: Le spectre existentiel est composé de cinq lumières (bleue, rouge, jaune, verte et blanche), chacune influençant le rendement des récompenses.${prompt}
+  11642: Le fonctionnement précis de chaque lumière peut être examiné lors de l'examen de tes valeurs d'alignement actuelles.${prompt}
+  11643: À la conclusion réussie de la bataille, le bonus d'alignement accordé par les objets d'ascension et l'exploitation des faiblesses ennemies sont combinés pour déterminer le butin.${prompt}
+  11644: 'Sois prévenu : Les Voidwalkers sont des êtres hautement rusés et ne souffriront pas que la même faiblesse soit frappée deux fois. Les combattants doivent être en surveillance constante pour tous changements qui peuvent se produire au cours de la bataille.${prompt}'
   11645: |-
-    Atmacite is the physical agglomeration of a monster's soul, and a vessel for its feral instincts.
-    By infusing atmacite to one's body using ${keyitem-article: 0[2]}, it is possible to enhance one's battle prowess.${prompt}
-  11646: Be aware, however, that powers granted by atmacite can be tapped only when engaged in a Voidwatch operation.${prompt}
-  11647: Atmacite is resilient and will not be expended in the infusion process.${prompt}
-  11648: Furthermore, infused atmacite will remain in place until voluntarily purged.${prompt}
-  11649: As the configuration of atmacite is not possible during an operation, be sure to see to your battle preparations ahead of time.${prompt}
-  11650: Cruor can be used to enrich atmacite, enhancing its potency. The amount of cruor required for enrichment and the resultant properties vary with atmacite.${prompt}
-  11651: 'Atmacite can be enriched in stages to a maximum of level ${number: 0}.${prompt}'
-  11652: All Voidwatchers are urged to make atmacite enrichment a priority, for they might just mean the difference between life and death.${prompt}
-  11653: Periapt are lucky charms that grant myriad beneficial effects ranging from improved vitality to general upturns in fortune.${prompt}
-  11654: Especially sought after are those bestowing temporary items at the commencement of an operation, granting combatants a distinct advantage against the enemy.${prompt}
-  11655: Although their acquisition can only be described as arduous, the benefits make them well worth the effort.${prompt}
+    L'atmacite est l'agglomération physique de l'âme d'un monstre, et un vaisseau pour ses instincts féroces.
+    En infusant l'atmacite à son corps en utilisant ${keyitem-article: 0[2]}, il est possible d'améliorer sa prouesse au combat.${prompt}
+  11646: Sois conscient, cependant, que les pouvoirs accordés par l'atmacite ne peuvent être exploités que lors de l'engagement dans une opération Voidwatch.${prompt}
+  11647: L'atmacite est résistant et ne sera pas dépensé dans le processus d'infusion.${prompt}
+  11648: De plus, l'atmacite infusé restera en place jusqu'à ce qu'il soit volontairement purgé.${prompt}
+  11649: Comme la configuration de l'atmacite n'est pas possible pendant une opération, assure-toi de voir à tes préparations de bataille à l'avance.${prompt}
+  11650: Le cruor peut être utilisé pour enrichir l'atmacite, améliorant sa puissance. La quantité de cruor requise pour l'enrichissement et les propriétés résultantes varient avec l'atmacite.${prompt}
+  11651: 'L''atmacite peut être enrichi par étapes jusqu''à un maximum de niveau ${number: 0}.${prompt}'
+  11652: Tous les Voidwatchers sont encouragés à faire de l'enrichissement de l'atmacite une priorité, car ils pourraient juste signifier la différence entre la vie et la mort.${prompt}
+  11653: Les periapts sont des porte-bonheur qui accordent une myriade d'effets bénéfiques allant de l'amélioration de la vitalité aux retournements généraux de fortune.${prompt}
+  11654: Particulièrement recherchés sont ceux conférant des objets temporaires au commencement d'une opération, accordant aux combattants un avantage distinct contre l'ennemi.${prompt}
+  11655: Bien que leur acquisition ne puisse être décrite que comme ardue, les avantages en valent bien l'effort.${prompt}
   11656: |-
-    ${name-player} expends ${article} ${item-article: 0[2]} and increases ${choice: 1}[blue/red/yellow/green] spectral alignment by ${number: 2}%!
-    Current value: +${number: 3}%${prompt}
+    ${name-player} dépense ${article} ${item-article: 0[2]} et augmente l'alignement spectral ${choice: 1}[bleu/rouge/jaune/vert] de ${number: 2}% !
+    Valeur actuelle : +${number: 3}%${prompt}
   11657: |-
-    ${name-player} expends ${item-plural: 0[2]} and increases ${choice: 1}[blue/red/yellow/green] spectral alignment by ${number: 2}%!
-    Current value: +${number: 3}%${prompt}
+    ${name-player} dépense des ${item-plural: 0[2]} et augmente l'alignement spectral ${choice: 1}[bleu/rouge/jaune/vert] de ${number: 2}% !
+    Valeur actuelle : +${number: 3}%${prompt}
   11658: |-
-    ${choice: 0}[Blue/Red/Yellow/Green] spectral alignment cannot be further raised with ${item-plural: 1[2]}.
-    Current value: +${number: 2}%${prompt}
-  11659: 'The ${item-singular: 1[2]} increases ${choice: 0}[blue/red/yellow/green] spectral alignment to its maximum value.${prompt}'
-  11660: 'The ${item-plural: 1[2]} increase ${choice: 0}[blue/red/yellow/green] spectral alignment to its maximum value.${prompt}'
-  11661: '${name-player}''s Treasure Hunter skill increases alignment by ${number: 0}% across the spectrum!${prompt}'
+    L'alignement spectral ${choice: 0}[Bleu/Rouge/Jaune/Vert] ne peut pas être davantage augmenté avec des ${item-plural: 1[2]}.
+    Valeur actuelle : +${number: 2}%${prompt}
+  11659: '${item-singular: 1[2]} augmente l''alignement spectral ${choice: 0}[bleu/rouge/jaune/vert] à sa valeur maximale.${prompt}'
+  11660: 'Les ${item-plural: 1[2]} augmentent l''alignement spectral ${choice: 0}[bleu/rouge/jaune/vert] à sa valeur maximale.${prompt}'
+  11661: 'La compétence Chasseur de Trésor de ${name-player} augmente l''alignement de ${number: 0}% à travers le spectre !${prompt}'
   11662: |-
-    Yellow: ${number: 0}% (+${number: 1}%)
-    Green: ${number: 2}% (+${number: 3}%)${prompt}
-  11663: 'White: ${number: 0}%${prompt}'
+    Jaune : ${number: 0}% (+${number: 1}%)
+    Vert : ${number: 2}% (+${number: 3}%)${prompt}
+  11663: 'Blanc : ${number: 0}%${prompt}'
   11664: |-
-    ${color: 5}Final Spectral Alignment${color: 1}
-    Blue: ${number: 0}% (+${number: 1}%)
-    Red: ${number: 2}% (+${number: 3}%)${prompt}
-  11665: You are not eligible for spoils.${prompt}
-  11666: You have obtained all spoils.${prompt}
-  11667: '${color-alt: 121}${name-player} obtains ${number: 0} cruor. (Total: ${number: 1})${prompt}'
-  11668: Obtain this item?${prompt}
+    ${color: 5}Alignement Spectral Final${color: 1}
+    Bleu : ${number: 0}% (+${number: 1}%)
+    Rouge : ${number: 2}% (+${number: 3}%)${prompt}
+  11665: Tu n'es pas éligible pour le butin.${prompt}
+  11666: Tu as obtenu tout le butin.${prompt}
+  11667: '${color-alt: 121}${name-player} obtient ${number: 0} cruor. (Total : ${number: 1})${prompt}'
+  11668: Obtenir cet objet ?${prompt}
   11669: |-
-    Obtain the ${item-singular: 0[2]}?
+    Obtenir ${item-singular: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  11670: '${color-alt: 121}${name-player} obtains the ${item-singular: 0[2]}!${prompt}'
-  11671: '${color-alt: 121}${name-player} obtains the ${keyitem-singular: 0[2]}!${prompt}'
+    Oui.
+    Non.${prompt}
+  11670: '${color-alt: 121}${name-player} obtient ${item-singular: 0[2]} !${prompt}'
+  11671: '${color-alt: 121}${name-player} obtient ${keyitem-singular: 0[2]} !${prompt}'
   11672: |-
-    Which item will you obtain?
+    Quel objet vas-tu obtenir ?
     ${selection-lines}
-    None of them.
+    Aucun d'eux.
     ${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
@@ -25049,70 +25047,70 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Relinquish all.
-    Obtain all.${prompt}
-  11673: The treasure chest had already disappeared.${prompt}
+    Renoncer à tous.
+    Obtenir tous.${prompt}
+  11673: Le coffre au trésor avait déjà disparu.${prompt}
   11674: |-
-    Relinquish all reward items?
+    Renoncer à tous les objets de récompense ?
     ${selection-lines}
-    Yes, relinquish.
-    On second thought...${prompt}
-  11675: All reward items have been relinquished.
+    Oui, renoncer.
+    En y repensant...${prompt}
+  11675: Tous les objets de récompense ont été abandonnés.
   11676: |-
-    Your attack staggers the fiend! Alignment level increases!
-    Blue: ${number: 0}%  Red: ${number: 1}%  Yellow: ${number: 2}%
-    Green: ${number: 4}%  White: ${number: 3}%${prompt}
+    Ton attaque fait chanceler le démon ! Le niveau d'alignement augmente !
+    Bleu : ${number: 0}%  Rouge : ${number: 1}%  Jaune : ${number: 2}%
+    Vert : ${number: 4}%  Blanc : ${number: 3}%${prompt}
   11677: |-
-    Your attack staggers the fiend! Maximum alignment reached!
-    Blue: ${number: 0}%  Red: ${number: 1}%  Yellow: ${number: 2}%
-    Green: ${number: 4}%  White: ${number: 3}%${prompt}
-  11678: '${entity: 0}''s attack devastates the fiend! ${prompt}'
+    Ton attaque fait chanceler le démon ! Alignement maximum atteint !
+    Bleu : ${number: 0}%  Rouge : ${number: 1}%  Jaune : ${number: 2}%
+    Vert : ${number: 4}%  Blanc : ${number: 3}%${prompt}
+  11678: 'L''attaque de ${entity: 0} dévaste le démon ! ${prompt}'
   11679: |-
-    Alignment level increases!
-    ${choice: 0}[Blue/Red]: ${number: 2}% (+${number: 1}%)${prompt}
+    Le niveau d'alignement augmente !
+    ${choice: 0}[Bleu/Rouge] : ${number: 2}% (+${number: 1}%)${prompt}
   11680: |-
-    ${choice: 0}[Blue/Red] alignment reaches maximum!
-    ${choice: 0}[Blue/Red]: ${number: 2}%${prompt}
+    L'alignement ${choice: 0}[Bleu/Rouge] atteint le maximum !
+    ${choice: 0}[Bleu/Rouge] : ${number: 2}%${prompt}
   11681: |-
-    Yellow: ${number: 2}% (+${number: 1}%)
-    Green: ${number: 2}% (+${number: 1}%)${prompt}
+    Jaune : ${number: 2}% (+${number: 1}%)
+    Vert : ${number: 2}% (+${number: 1}%)${prompt}
   11682: |-
-    Yellow and green alignments reach maximum!
-    Yellow: ${number: 2}%
-    Green: ${number: 2}%${prompt}
-  11683: 'White: ${number: 2}% (+${number: 1}%)${prompt}'
+    Les alignements jaune et vert atteignent le maximum !
+    Jaune : ${number: 2}%
+    Vert : ${number: 2}%${prompt}
+  11683: 'Blanc : ${number: 2}% (+${number: 1}%)${prompt}'
   11684: |-
-    White alignment reaches maximum!
-    White: ${number: 2}%${prompt}
-  11685: 'The fiend appears ${choice: 2}[/highly /extremely ]vulnerable to ${choice: 0}[/hand-to-hand/dagger/sword/great sword/axe/great axe/scythe/polearm/katana/great katana/club/staff/archery/marksmanship/pet/automaton/avatar/wyvern] ${choice: 1}[weapon skills/special attacks/blood pacts]!${prompt}'
-  11686: 'The fiend appears ${choice: 1}[/highly /extremely ]vulnerable to ${choice: 0}[/warrior/monk/white mage/black mage/red mage/thief/paladin/dark knight/beastmaster/bard/ranger/samurai/ninja/dragoon/summoner/blue mage/corsair/puppetmaster/dancer/scholar] abilities!${prompt}'
-  11687: 'The fiend appears ${choice: 1}[/highly /extremely ]vulnerable to ${choice: 0}[/fire elemental /ice elemental /wind elemental /earth elemental /lightning elemental /water elemental /light elemental /darkness elemental ]magic!${prompt}'
-  11688: 'The fiend appears ${choice: 1}[/highly /extremely ]vulnerable to ${choice: 0}[/fire elemental /ice elemental /wind elemental /earth elemental /lightning elemental /water elemental /light elemental /darkness elemental ]${choice: 2}[/white magic/black magic//ninjutsu/bard songs/blue magic]!${prompt}'
-  11689: 'The fiend appears ${choice: 2}[/highly /extremely ]vulnerable to ${choice: 0}[/fire elemental /ice elemental /wind elemental /earth elemental /lightning elemental /water elemental /light elemental /darkness elemental ]${choice: 1}[blood pacts/wyvern abilities]!${prompt}'
-  11690: 'The fiend appears ${choice: 2}[/highly /extremely ]vulnerable to pet special attacks!${prompt}'
-  11691: 'The fiend appears ${choice: 2}[/highly /extremely ]vulnerable to automaton special attacks!${prompt}'
+    L'alignement blanc atteint le maximum !
+    Blanc : ${number: 2}%${prompt}
+  11685: 'Le démon semble ${choice: 2}[/hautement /extrêmement ]vulnérable ${choice: 0}[/au corps à corps/à la dague/à l''épée/à la grande épée/à la hache/à la grande hache/à la faux/à la hallebarde/au katana/au grand katana/à la massue/au bâton/à l''archerie/au tir de précision/aux familiers/aux automates/aux avatars/aux wyverns] ${choice: 1}[compétences d''arme/attaques spéciales/pactes de sang] !${prompt}'
+  11686: 'Le démon semble ${choice: 1}[/hautement /extrêmement ]vulnérable aux capacités ${choice: 0}[/de guerrier/de moine/de mage blanc/de mage noir/de mage rouge/de voleur/de paladin/de chevalier noir/de maître des bêtes/de barde/de rôdeur/de samouraï/de ninja/de chevalier dragon/d''invocateur/de mage bleu/de corsaire/de marionnettiste/de danseur/d''érudit] !${prompt}'
+  11687: 'Le démon semble ${choice: 1}[/hautement /extrêmement ]vulnérable à la magie ${choice: 0}[/élémentaire de feu /élémentaire de glace /élémentaire de vent /élémentaire de terre /élémentaire de foudre /élémentaire d''eau /élémentaire de lumière /élémentaire de ténèbres ] !${prompt}'
+  11688: 'Le démon semble ${choice: 1}[/hautement /extrêmement ]vulnérable ${choice: 0}[/élémentaire de feu /élémentaire de glace /élémentaire de vent /élémentaire de terre /élémentaire de foudre /élémentaire d''eau /élémentaire de lumière /élémentaire de ténèbres ]${choice: 2}[/à la magie blanche/à la magie noire//au ninjutsu/aux chants de barde/à la magie bleue] !${prompt}'
+  11689: 'Le démon semble ${choice: 2}[/hautement /extrêmement ]vulnérable ${choice: 0}[/élémentaire de feu /élémentaire de glace /élémentaire de vent /élémentaire de terre /élémentaire de foudre /élémentaire d''eau /élémentaire de lumière /élémentaire de ténèbres ]${choice: 1}[aux pactes de sang/aux capacités de wyvern] !${prompt}'
+  11690: 'Le démon semble ${choice: 2}[/hautement /extrêmement ]vulnérable aux attaques spéciales de familier !${prompt}'
+  11691: 'Le démon semble ${choice: 2}[/hautement /extrêmement ]vulnérable aux attaques spéciales d''automate !${prompt}'
   11692: |-
-    Your alignment has reached maximum level across the spectrum.
-    You are perfectly aligned with your foe!${prompt}
-  11693: The aura of your foe suddenly changes!${prompt}
+    Ton alignement a atteint le niveau maximum à travers le spectre.
+    Tu es parfaitement aligné avec ton ennemi !${prompt}
+  11693: L'aura de ton ennemi change soudainement !${prompt}
   11694: |-
-    Synchronic blitz commences!
-    Assail the fiend with all your strength!${prompt}
-  11695: Synchronic blitz complete.${prompt}
-  11696: 'Alignment increases by ${number: 0}% across the spectrum!${prompt}'
+    Blitz synchrone commence !
+    Assaille le démon de toutes tes forces !${prompt}
+  11695: Blitz synchrone terminé.${prompt}
+  11696: 'L''alignement augmente de ${number: 0}% à travers le spectre !${prompt}'
   11697: |-
-    Blue: ${number: 0}% / Red: ${number: 1}%
-    Yellow: ${number: 2}% / Green: ${number: 2}%${prompt}
-  11698: 'White: ${number: 0}%${prompt}'
+    Bleu : ${number: 0}% / Rouge : ${number: 1}%
+    Jaune : ${number: 2}% / Vert : ${number: 2}%${prompt}
+  11698: 'Blanc : ${number: 0}%${prompt}'
   11699: |-
-    A surge of extradimensional power courses through your veins!
-    Spare the fiend no mercy!${prompt}
-  11700: 'Alignment surge extended! (${number: 0}-chain).${prompt}'
-  11701: The surge of extradimensional power has left your body...${prompt}
+    Une poussée de pouvoir extradimensionnel parcourt tes veines !
+    N'épargne aucune merci au démon !${prompt}
+  11700: 'Poussée d''alignement prolongée ! (${number: 0}-chaîne).${prompt}'
+  11701: La poussée de pouvoir extradimensionnel a quitté ton corps...${prompt}
   11702: |-
-    Which item will you obtain?
+    Quel objet vas-tu obtenir ?
     ${selection-lines}
-    None of them.
+    Aucun d'eux.
     ${choice: 8}[/★]${lettercase: 1}${item-singular: 0[2]}.
     ${lettercase: 1}${item-singular: 1[2]}.
     ${lettercase: 1}${item-singular: 2[2]}.
@@ -25121,35 +25119,35 @@ entries:
     ${lettercase: 1}${item-singular: 5[2]}.
     ${lettercase: 1}${item-singular: 6[2]}.
     ${lettercase: 1}${item-singular: 7[2]}.
-    Relinquish all.
-    Obtain all.${prompt}
+    Renoncer à tous.
+    Obtenir tous.${prompt}
   11703: |-
-    Obtain the ${item-singular: 0[2]}?
+    Obtenir ${item-singular: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.
-    Obtain as pulse cell.${prompt}
-  11704: One or more of the items you are about to obtain can be converted into pulse cells.
-  11705: 'Obtained ${number: 1} ${keyitem-singular: 0[2]} by expending ${number: 1} ${item-given-plurality: 1[2], 2[2]}.${prompt}'
-  11706: 'Obtained ${number: 1} ${keyitem-plural: 0[2]} by expending ${number: 1} ${item-given-plurality: 1[2], 2[2]}.${prompt}'
-  11707: 'You cannot obtain any more ${keyitem-plural: 0[2]}.${prompt}'
+    Oui.
+    Non.
+    Obtenir comme cellule d'impulsion.${prompt}
+  11704: Un ou plusieurs des objets que tu es sur le point d'obtenir peuvent être convertis en cellules d'impulsion.
+  11705: 'Obtenu ${number: 1} ${keyitem-singular: 0[2]} en dépensant ${number: 1} ${item-given-plurality: 1[2], 2[2]}.${prompt}'
+  11706: 'Obtenu ${number: 1} ${keyitem-plural: 0[2]} en dépensant ${number: 1} ${item-given-plurality: 1[2], 2[2]}.${prompt}'
+  11707: 'Tu ne peux plus obtenir de ${keyitem-plural: 0[2]}.${prompt}'
   11708: |-
-    Use ${keyitem-article: 0[2]}?
+    Utiliser ${keyitem-article: 0[2]} ?
     ${selection-lines}
-    Yes, use with ${keyitem-plural: 1[2]}.
-    Yes.
-    No.${prompt}
+    Oui, utiliser avec des ${keyitem-plural: 1[2]}.
+    Oui.
+    Non.${prompt}
   11709: |-
-    How many ${keyitem-plural: 0[2]} will you use?
+    Combien de ${keyitem-plural: 0[2]} vas-tu utiliser ?
     ${selection-lines}
-    None.
-    One.
-    Two.
-    Three.
-    Four.
-    Five.${prompt}
-  11710: 'You have done a${choice: 0}[ passable/ decent/ very good/n incredible/ masterful/n unbelievable/ deific] job at weakening the fiend!${prompt}'
-  11711: 'DEBUG: ${choice: 0}[WS/WS/MG/WS]${choice: 1}[Minor/Major/Extreme] weakness: ${choice: 2}[WS/AB/MG/SM]/${number: 3}${prompt}'
+    Aucun.
+    Un.
+    Deux.
+    Trois.
+    Quatre.
+    Cinq.${prompt}
+  11710: 'Tu as fait ${choice: 0}[un travail passable/un travail décent/un très bon travail/un travail incroyable/un travail magistral/un travail incroyable/un travail divin] pour affaiblir le démon !${prompt}'
+  11711: 'DEBUG : ${choice: 0}[WS/WS/MG/WS]${choice: 1}[Mineur/Majeur/Extrême] faiblesse : ${choice: 2}[WS/AB/MG/SM]/${number: 3}${prompt}'
   11712: 0 1${prompt}
   11713: |-
     MND+1
@@ -27922,70 +27920,70 @@ entries:
   12431: 48 14${prompt}
   12432: 48 15${prompt}
   12433: |-
-    Where will you go? (Kinetic Units: ${number: 3})
+    Où vas-tu aller ? (Unités Cinétiques : ${number: 3})
     ${selection-lines}
-    Nowhere, thanks.
-    I'd rather read an explanation.
-    Ru'Lude Gardens. (${number: 4} unit${choice-plurality: 4}[/s])
-    Selbina. (${number: 4} unit${choice-plurality: 4}[/s])
-    Mhaura. (${number: 4} unit${choice-plurality: 4}[/s])
-    Rabao. (${number: 4} unit${choice-plurality: 4}[/s])
-    Norg. (${number: 4} unit${choice-plurality: 4}[/s])
-    West Ronfaure. (${number: 5} unit${choice-plurality: 5}[/s])
-    North Gustaberg. (${number: 5} unit${choice-plurality: 5}[/s])
-    West Sarutabaruta. (${number: 5} unit${choice-plurality: 5}[/s])
-    La Theine Plateau. (${number: 5} unit${choice-plurality: 5}[/s])
-    Konschtat Highlands. (${number: 5} unit${choice-plurality: 5}[/s])
-    Tahrongi Canyon. (${number: 5} unit${choice-plurality: 5}[/s])
-    Jugner Forest. (${number: 5} unit${choice-plurality: 5}[/s])
-    Pashhow Marshlands. (${number: 5} unit${choice-plurality: 5}[/s])
-    Meriphataud Mountains. (${number: 5} unit${choice-plurality: 5}[/s])
-    Attohwa Chasm. (${number: 5} unit${choice-plurality: 5}[/s])
-    Uleguerand Range. (${number: 5} unit${choice-plurality: 5}[/s])
-    Davoi. (${number: 6} unit${choice-plurality: 6}[/s])
-    Beadeaux. (${number: 6} unit${choice-plurality: 6}[/s])
-    Castle Oztroja. (${number: 6} unit${choice-plurality: 6}[/s])
-    Quicksand Caves. (${number: 6} unit${choice-plurality: 6}[/s])
-    Sea Serpent Grotto. (${number: 6} unit${choice-plurality: 6}[/s])
-    Temple of Uggalepih. (${number: 6} unit${choice-plurality: 6}[/s])
-    The Boyahda Tree. (${number: 6} unit${choice-plurality: 6}[/s])
-    Oldton Movalpolos. (${number: 6} unit${choice-plurality: 6}[/s])
-    Riverne - Site #B01. (${number: 6} unit${choice-plurality: 6}[/s])
-    Castle Zvahl Keep. (${number: 6} unit${choice-plurality: 6}[/s])
-    Decline destination confirmation.
-    Accept destination confirmation.${prompt}
+    Nulle part, merci.
+    Je préférerais lire une explication.
+    Jardins de Ru'Lude. (${number: 4} unité${choice-plurality: 4}[/s])
+    Selbina. (${number: 4} unité${choice-plurality: 4}[/s])
+    Mhaura. (${number: 4} unité${choice-plurality: 4}[/s])
+    Rabao. (${number: 4} unité${choice-plurality: 4}[/s])
+    Norg. (${number: 4} unité${choice-plurality: 4}[/s])
+    Ronfaure Ouest. (${number: 5} unité${choice-plurality: 5}[/s])
+    Gustaberg Nord. (${number: 5} unité${choice-plurality: 5}[/s])
+    Sarutabaruta Ouest. (${number: 5} unité${choice-plurality: 5}[/s])
+    Plateau de La Theine. (${number: 5} unité${choice-plurality: 5}[/s])
+    Hautes-Terres de Konschtat. (${number: 5} unité${choice-plurality: 5}[/s])
+    Canyon de Tahrongi. (${number: 5} unité${choice-plurality: 5}[/s])
+    Forêt de Jugner. (${number: 5} unité${choice-plurality: 5}[/s])
+    Marais de Pashhow. (${number: 5} unité${choice-plurality: 5}[/s])
+    Montagnes de Meriphataud. (${number: 5} unité${choice-plurality: 5}[/s])
+    Gouffre d'Attohwa. (${number: 5} unité${choice-plurality: 5}[/s])
+    Chaîne d'Uleguerand. (${number: 5} unité${choice-plurality: 5}[/s])
+    Davoi. (${number: 6} unité${choice-plurality: 6}[/s])
+    Beadeaux. (${number: 6} unité${choice-plurality: 6}[/s])
+    Château Oztroja. (${number: 6} unité${choice-plurality: 6}[/s])
+    Grottes de Sables Mouvants. (${number: 6} unité${choice-plurality: 6}[/s])
+    Grotte du Serpent de Mer. (${number: 6} unité${choice-plurality: 6}[/s])
+    Temple d'Uggalepih. (${number: 6} unité${choice-plurality: 6}[/s])
+    L'Arbre Boyahda. (${number: 6} unité${choice-plurality: 6}[/s])
+    Oldton Movalpolos. (${number: 6} unité${choice-plurality: 6}[/s])
+    Riverne - Site #B01. (${number: 6} unité${choice-plurality: 6}[/s])
+    Donjon du Château Zvahl. (${number: 6} unité${choice-plurality: 6}[/s])
+    Refuser la confirmation de destination.
+    Accepter la confirmation de destination.${prompt}
   12434: |-
-    Record this fount?
+    Enregistrer cette source ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12435: A palpable force wells up slowly from beneath the surface...${prompt}
-  12436: This geomagnetic fount has already been recorded.${prompt}
-  12437: You have successfully recorded the phenomenon. Now it is time to report your findings to Anastase.${prompt}
-  12438: 'Your records surrounding the current geomagnetic phenomenon had been fading, but your use of the ${keyitem-singular: 0[2]} has restored them to normal!${prompt}'
-  12439: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount${choice: 0}[ in Selbina/ in Mhaura/ in Rabao/ in Norg]!${prompt}'
-  12440: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount${choice: 0}[ in West Ronfaure/ in North Gustaberg/ in West Sarutabaruta/ in La Theine Plateau/ in the Konschtat Highlands/ in Tahrongi Canyon/ in Jugner Forest/ in the Pashhow Marshlands/ in the Meriphataud Mountains/ in Attohwa Chasm/ in Uleguerand Range]!${prompt}'
-  12441: 'Your ${keyitem-singular: 1[2]} has been attuned to a geomagnetic fount${choice: 0}[ in Davoi/ in Beadeaux/ in Castle Oztroja/ in the Quicksand Caves/ in Sea Serpent Grotto/ in the Temple of Uggalepih/ in the Boyahda Tree/ in Oldton Movalpolos/ in Riverne - Site #B01/ in Castle Zvahl Keep]!${prompt}'
-  12442: '${color-alt: 138}You may now travel to ${choice: 0}[Selbina/Mhaura/Rabao/Norg] via waypoints!'
-  12443: '${color-alt: 138}You may now travel to ${choice: 0}[West Ronfaure/North Gustaberg/West Sarutabaruta/La Theine Plateau/the Konschtat Highlands/Tahrongi Canyon/Jugner Forest/the Pashhow Marshlands/the Meriphataud Mountains/Attohwa Chasm/Uleguerand Range] via waypoints!'
-  12444: '${color-alt: 138}You may now travel to ${choice: 0}[Davoi/Beadeaux/Castle Oztroja/the Quicksand Caves/Sea Serpent Grotto/the Temple of Uggalepih/the Boyahda Tree/Oldton Movalpolos/Riverne - Site #B01/Castle Zvahl Keep] via waypoints!'
-  12445: It appears that you have arrived at a new survival guide provided by the Adventurers' Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
-  12446: Before you lies a survival guide penned by the Adventurers' Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
-  12447: It appears that you have arrived at a new survival guide provided by the Servicemen's Mutual Aid Network. Common sense dictates that you should now be able to teleport here from similar tomes throughout the world.${prompt}
-  12448: Before you lies a survival guide penned by the Servicemen's Mutual Aid Network. It touches on such topics as teleportation and battle records.${prompt}
+    Oui.
+    Non.${prompt}
+  12435: Une force palpable jaillit lentement de sous la surface...${prompt}
+  12436: Cette source géomagnétique a déjà été enregistrée.${prompt}
+  12437: Tu as enregistré le phénomène avec succès. Maintenant il est temps de rapporter tes découvertes à Anastase.${prompt}
+  12438: 'Tes enregistrements concernant le phénomène géomagnétique actuel s''estompaient, mais ton utilisation de ${keyitem-singular: 0[2]} les a restaurés à la normale !${prompt}'
+  12439: 'Ton ${keyitem-singular: 1[2]} a été accordé à une source géomagnétique${choice: 0}[ à Selbina/ à Mhaura/ à Rabao/ à Norg] !${prompt}'
+  12440: 'Ton ${keyitem-singular: 1[2]} a été accordé à une source géomagnétique${choice: 0}[ à Ronfaure Ouest/ à Gustaberg Nord/ à Sarutabaruta Ouest/ au Plateau de La Theine/ aux Hautes-Terres de Konschtat/ au Canyon de Tahrongi/ à la Forêt de Jugner/ aux Marais de Pashhow/ aux Montagnes de Meriphataud/ au Gouffre d''Attohwa/ à la Chaîne d''Uleguerand] !${prompt}'
+  12441: 'Ton ${keyitem-singular: 1[2]} a été accordé à une source géomagnétique${choice: 0}[ à Davoi/ à Beadeaux/ au Château Oztroja/ aux Grottes de Sables Mouvants/ à la Grotte du Serpent de Mer/ au Temple d''Uggalepih/ à l''Arbre Boyahda/ à Oldton Movalpolos/ à Riverne - Site #B01/ au Donjon du Château Zvahl] !${prompt}'
+  12442: '${color-alt: 138}Tu peux maintenant voyager vers ${choice: 0}[Selbina/Mhaura/Rabao/Norg] via les points de passage !'
+  12443: '${color-alt: 138}Tu peux maintenant voyager vers ${choice: 0}[Ronfaure Ouest/Gustaberg Nord/Sarutabaruta Ouest/le Plateau de La Theine/les Hautes-Terres de Konschtat/le Canyon de Tahrongi/la Forêt de Jugner/les Marais de Pashhow/les Montagnes de Meriphataud/le Gouffre d''Attohwa/la Chaîne d''Uleguerand] via les points de passage !'
+  12444: '${color-alt: 138}Tu peux maintenant voyager vers ${choice: 0}[Davoi/Beadeaux/le Château Oztroja/les Grottes de Sables Mouvants/la Grotte du Serpent de Mer/le Temple d''Uggalepih/l''Arbre Boyahda/Oldton Movalpolos/Riverne - Site #B01/le Donjon du Château Zvahl] via les points de passage !'
+  12445: Il semble que tu sois arrivé à un nouveau guide de survie fourni par le Réseau d'Entraide des Aventuriers. Le bon sens dicte que tu devrais maintenant être capable de te téléporter ici depuis des tomes similaires à travers le monde.${prompt}
+  12446: Devant toi se trouve un guide de survie rédigé par le Réseau d'Entraide des Aventuriers. Il aborde des sujets tels que la téléportation et les records de bataille.${prompt}
+  12447: Il semble que tu sois arrivé à un nouveau guide de survie fourni par le Réseau d'Entraide des Militaires. Le bon sens dicte que tu devrais maintenant être capable de te téléporter ici depuis des tomes similaires à travers le monde.${prompt}
+  12448: Devant toi se trouve un guide de survie rédigé par le Réseau d'Entraide des Militaires. Il aborde des sujets tels que la téléportation et les records de bataille.${prompt}
   12449: |-
-    What chapter will you read?
+    Quel chapitre vas-tu lire ?
     ${selection-lines}
-    None.
-    “Teleportation Assistance.”
-    “Field Support.”
-    “Other mysteries.”${prompt}
-  12450: The meticulously illuminated text within explains that adventurers may travel to the location of any previous books visited after paying a sum of gil or the requisite amount of tabs.${prompt}
-  12451: No other survival guide locations have been recorded. Visiting another one would certainly alleviate this issue.${prompt}
+    Aucun.
+    "Assistance de Téléportation."
+    "Soutien sur le Terrain."
+    "Autres mystères."${prompt}
+  12450: Le texte méticuleusement enluminé à l'intérieur explique que les aventuriers peuvent voyager vers l'emplacement de tout livre précédent visité après avoir payé une somme de gils ou la quantité requise d'onglets.${prompt}
+  12451: Aucun autre emplacement de guide de survie n'a été enregistré. Visiter un autre allégerait certainement ce problème.${prompt}
   12452: |-
-    Where will you travel?
+    Où vas-tu voyager ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -28006,94 +28004,94 @@ entries:
     ${zone: 18[2]}.
     ${zone: 19[2]}.
     ${zone: 20[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   12453: |-
-    It will cost ${number: 2} gil to teleport to ${zone: 1[2]}.
-    (${number: 3} gil on hand)${prompt}
-  12454: 'All mog tablets have currently been found, so you may teleport to ${zone: 1[2]} at no charge.${prompt}'
+    Il coûtera ${number: 2} gils pour se téléporter vers ${zone: 1[2]}.
+    (${number: 3} gils en main)${prompt}
+  12454: 'Toutes les tablettes mog ont actuellement été trouvées, alors tu peux te téléporter vers ${zone: 1[2]} sans frais.${prompt}'
   12455: |-
-    Travel to ${zone: 1[2]}?
+    Voyager vers ${zone: 1[2]} ?
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Delete from favorites].
-    Up and away!
-    I'm down and out.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Supprimer des favoris].
+    En route !
+    Je reste en bas.${prompt}
   12456: |-
     ${number: 2}ギルで移動する（${number: 4}ギル）
-    Travel to ${zone: 1[2]}?
+    Voyager vers ${zone: 1[2]} ?
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Delete from favorites].
-    Travel using ${number: 2} gil. (${number: 4} gil)
-    Travel using ${number: 3} tab${choice-plurality: 3}[/s]. (${number: 5} total)
-    Not just yet.${prompt}
-  12457: You do not have enough tabs.${prompt}
-  12458: 'The records indicate you have fought valiantly for Vana''diel for ${number: 1} hour${choice-plurality: 1}[/s].${prompt}'
-  12459: 'At the bottom of the page is a reminder. It perfunctorily states that you may receive ${article} ${item-article: 3[2]} once you have logged a total of ${number: 2} hours.${prompt}'
-  12460: 'As per the custom noted within, you are eligible to receive ${article} ${item-article: 3[2]} for the ${number: 2} hour${choice-plurality: 2}[/s] of fighting you''ve accrued.${prompt}'
+    ${choice: 33}[Ajouter aux favoris/Supprimer des favoris].
+    Voyager en utilisant ${number: 2} gils. (${number: 4} gils)
+    Voyager en utilisant ${number: 3} onglet${choice-plurality: 3}[/s]. (${number: 5} total)
+    Pas tout de suite.${prompt}
+  12457: Tu n'as pas assez d'onglets.${prompt}
+  12458: 'Les enregistrements indiquent que tu as combattu vaillamment pour Vana''diel pendant ${number: 1} heure${choice-plurality: 1}[/s].${prompt}'
+  12459: 'Au bas de la page se trouve un rappel. Il stipule de manière succincte que tu peux recevoir ${article} ${item-article: 3[2]} une fois que tu as enregistré un total de ${number: 2} heures.${prompt}'
+  12460: 'Selon la coutume notée à l''intérieur, tu es éligible pour recevoir ${article} ${item-article: 3[2]} pour les ${number: 2} heure${choice-plurality: 2}[/s] de combat que tu as accumulées.${prompt}'
   12461: |-
-    Accept the reward?
+    Accepter la récompense ?
     ${selection-lines}
-    Yes, please.
-    No, thanks.${prompt}
-  12462: You may change the way you select areas listed in “Teleportation Assistance.”
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
+  12462: Tu peux changer la façon dont tu sélectionnes les zones listées dans "Assistance de Téléportation."
   12463: |-
-    Any changes to make?
+    Des changements à faire ?
     ${selection-lines}
-    Keep course.
-    Select by region.
-    Select by content.${prompt}
-  12464: 'Area selection will now be made by ${choice: 1}[region/content].'
+    Garder le cap.
+    Sélectionner par région.
+    Sélectionner par contenu.${prompt}
+  12464: 'La sélection de zone se fera maintenant par ${choice: 1}[région/contenu].'
   12465: |-
     ${selection-lines}
-    Nowhere for now.
-    Select from amongst favorites.
-    Original release areas.
-    Rise of the Zilart areas.
-    Chains of Promathia areas.
-    Treasures of Aht Urhgan areas.
-    Wings of the Goddess areas.
+    Nulle part pour l'instant.
+    Sélectionner parmi les favoris.
+    Zones de la version originale.
+    Zones de Rise of the Zilart.
+    Zones de Chains of Promathia.
+    Zones de Treasures of Aht Urhgan.
+    Zones de Wings of the Goddess.
     .
     .
     .
     .
     .
     .
-    Seekers of Adoulin areas.${prompt}
+    Zones de Seekers of Adoulin.${prompt}
   12466: |-
-    Travel to which region?
+    Voyager vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from amongst favorites.
+    En y repensant, aucune.
+    Sélectionner parmi les favoris.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Arche Tavnazienne].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Sauvage Mamool Ja].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Occ./Île d'Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Oriental].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   12467: |-
-    Travel to where?
+    Voyager vers où ?
     ${selection-lines}
-    Nowhere.
+    Nulle part.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -28103,13 +28101,13 @@ entries:
     ${zone: 7[2]}.
     ${zone: 8[2]}.
     ${zone: 9[2]}.
-    ${choice: 33}[Add location to favorites/Remove location from favorites].${prompt}
-  12468: '${zone: 1[2]} has been ${choice: 33}[added to your list of favorites/removed from your list of favorites].'
-  12469: Your list of favorites is full. You must remove an existing entry to add new ones.
+    ${choice: 33}[Ajouter l'emplacement aux favoris/Retirer l'emplacement des favoris].${prompt}
+  12468: '${zone: 1[2]} a été ${choice: 33}[ajouté à ta liste de favoris/retiré de ta liste de favoris].'
+  12469: Ta liste de favoris est pleine. Tu dois retirer une entrée existante pour en ajouter de nouvelles.
   12470: |-
-    Remove which entry?
+    Retirer quelle entrée ?
     ${selection-lines}
-    None of these.
+    Aucune de celles-ci.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -28120,123 +28118,123 @@ entries:
     ${zone: 8[2]}.
     ${zone: 9[2]}.${prompt}
   12471: |-
-    Kupopopo!
-    This rowdy recreational romp will be the best time ever!${prompt}
-  12472: Hmm? Oh, please ignore my idiomatic insinuations.${prompt}
-  12473: This crazed creature captivates your interest, does it?${prompt}
-  12474: Not too long ago, its bespeckled brethren came vaulting into Vana'diel, causing a preponderance of problems, kupo!${prompt}
-  12475: And now there are these vermilion ones and violet ones traipsing into town, so I've been keeping an acute eye on their actions.${prompt}
-  12476: Thankfully, there have been no ill-advised incidents yet. But still, some of these enigmatic entities have emigrated to ambient areas. Hopefully they aren't causing calamitous conundrums, kupo...${prompt}
-  12477: Our adventurer has arrived! You've taken in the tale, right?${prompt}
-  12478: Then let me sprinkle sundry moogle magics upon you! Ready?${prompt}
-  12479: 'You have amassed an amazing ${number: 0} chartruese stone shard${choice-plurality: 0}[/s], ${number: 1} vermilion stone shard${choice-plurality: 1}[/s], and ${number: 2} mauve stone shard${choice-plurality: 2}[/s]. I''ll teleport you to town to try your luck at the lottery. Do you truly wish to travel?${prompt}'
+    Kupopopo !
+    Cette virée récréative tapageuse sera le meilleur moment de tous les temps !${prompt}
+  12472: Hmm ? Oh, veuillez ignorer mes insinuations idiomatiques.${prompt}
+  12473: Cette créature démente capte ton intérêt, n'est-ce pas ?${prompt}
+  12474: Il n'y a pas si longtemps, ses frères tachetés sont venus bondir dans Vana'diel, causant une prépondérance de problèmes, kupo !${prompt}
+  12475: Et maintenant il y a ces vermillons et violets qui se baladent en ville, alors je garde un œil aiguisé sur leurs actions.${prompt}
+  12476: Heureusement, il n'y a pas eu d'incidents malavisés encore. Mais quand même, certaines de ces entités énigmatiques ont émigré vers des zones ambiantes. Espérons qu'elles ne causent pas de casse-têtes calamiteux, kupo...${prompt}
+  12477: Notre aventurier est arrivé ! Tu as pris connaissance du conte, n'est-ce pas ?${prompt}
+  12478: Alors laisse-moi saupoudrer diverses magies moogles sur toi ! Prêt ?${prompt}
+  12479: 'Tu as amassé ${number: 0} éclat${choice-plurality: 0}[/s] de pierre chartreuse incroyable${choice-plurality: 0}[/s], ${number: 1} éclat${choice-plurality: 1}[/s] de pierre vermillon, et ${number: 2} éclat${choice-plurality: 2}[/s] de pierre mauve. Je te téléporterai en ville pour tenter ta chance à la loterie. Souhaites-tu vraiment voyager ?${prompt}'
   12480: |-
-    What will you do?
+    Que vas-tu faire ?
     ${selection-lines}
-    ${choice: 0}[Receive moogle magic/Remove moogle magic].
-    Teleport to town.
-    Nothing.${prompt}
+    ${choice: 0}[Recevoir la magie moogle/Retirer la magie moogle].
+    Se téléporter en ville.
+    Rien.${prompt}
   12481: |-
-    Certainly, my capable compadre!
-    I'll hang around here should you desire the dissolution of my invigorating incantation.${prompt}
-  12482: Good luck, kupo!${prompt}
+    Certainement, mon camarade capable !
+    Je traînerai par ici si tu désires la dissolution de mon incantation revigorante.${prompt}
+  12482: Bonne chance, kupo !${prompt}
   12483: |-
-    Understood!
-    Inform me immediately should you be inclined to capture the creatures, kupo!${prompt}
+    Compris !
+    Informe-moi immédiatement si tu es enclin à capturer les créatures, kupo !${prompt}
   12484: |-
-    Got it, kupo!
-    My moogle mate will be pleased to propel you from town should you desperately desire!${prompt}
-  12485: Who you? Yooou? Yoooooou?${prompt}
-  12486: Friend town! Big town! Take stone friend! Stone! Hard thing!${prompt}
-  12487: Swirly thing sky! Skyyy! Skyyyyyy! Now here. Where? Wheeere?${prompt}
-  12488: Want home! Stone mean home! Many stone! Stooone!${prompt}
-  12489: Stone...home? No home? Go home! Must mean home! Hooome! Hoooooome!${prompt}
-  12490: Swirly thing speak! Noise! Big noise! Boom! Boooooom!${prompt}
-  12491: Ohhh! Ohhhhhh! Ohhhhhhhhhhhh!${prompt}
-  12492: 'You receive ${number: 0} ${choice: 2}[chartruese stone shard/vermilion stone shard/mauve stone shard]${choice-plurality: 0}[/s], and now possess a total of ${number: 1}.${prompt}'
-  12493: '${color-alt: 121}You have entered the crafting target area.${prompt}'
-  12494: '${color-alt: 121}Crafting the requested items in the current target area will count towards the number of items you are required to deliver them.${prompt}'
-  12495: '${color-alt: 121}You have left the crafting target area.${prompt}'
-  12496: '${color-alt: 121}${number: 1} ${item-given-plurality: 1[2], 0[2]} remaining.${prompt}'
-  12497: 'I have need of some ${item-plural: 0[2]}. Can I call upon you to bring me ${number: 1} more of them?${prompt}'
-  12498: 'This is exactly what I need. Please bring me ${number: 1} more.${prompt}'
-  12499: 'This is exactly what I need. Please bring me ${number: 1} more.${prompt}'
-  12500: That does it. I hope we have the opportunity to work together again some time.${prompt}
-  12501: Welcome to the site of the sonically sublime show featuring the hot new morbol idol group, Shining Bless.${prompt}
-  12502: 'In order to attend the concert, you will need to promptly procure ${keyitem-article: 0[2]}.${prompt}'
-  12503: Firstly, you'll want to speak with the merry moogle milling about town.${prompt}
-  12504: 'Let me see the ${keyitem-singular: 0[2]} that you''ve brought me, kupo.${prompt}'
-  12505: Okay, allow me to earnestly explain the concert details to you.${prompt}
-  12506: First, any fans who want to participate will need to be sprinkled with a modicum of moogle magic.${prompt}
-  12507: Once enacted, you'll be maxed out at Level 30, kupo.${prompt}
-  12508: This is done to protect the idyllic idols from any crazed fans. They shouldn't mess with the morbol, or they'll get the horns.${prompt}
-  12509: You never know what's going to happen at a live concert, but that's just part of the fleeting fun.${prompt}
-  12510: Also note that each morbol has their own cherished choice of cheer. Try experimenting until you find the right one.${prompt}
-  12511: 'Lastly, I''ve prepared a small souvenir for you, so stop by and pick it up after the show, kupo. (Requires ${number: 0} or more MOL)${prompt}'
-  12512: Thus concludes my extraordinarily efficient explanation. Are you ready to attend the concert?${prompt}
+    Compris, kupo !
+    Mon copain moogle sera ravi de te propulser depuis la ville si tu le désires désespérément !${prompt}
+  12485: Qui toi ? Toiii ? Toiiiii ?${prompt}
+  12486: Ami ville ! Grande ville ! Prendre pierre ami ! Pierre ! Chose dure !${prompt}
+  12487: Chose tourbillonnante ciel ! Cieeel ! Cieeeeel ! Maintenant ici. Où ? Oùùùù ?${prompt}
+  12488: Vouloir maison ! Pierre signifier maison ! Beaucoup pierre ! Pierrre !${prompt}
+  12489: Pierre... maison ? Pas maison ? Aller maison ! Doit signifier maison ! Maisooon ! Maisooooon !${prompt}
+  12490: Chose tourbillonnante parler ! Bruit ! Grand bruit ! Boum ! Boouuuum !${prompt}
+  12491: Ohhh ! Ohhhhhh ! Ohhhhhhhhhhhh !${prompt}
+  12492: 'Tu reçois ${number: 0} éclat${choice-plurality: 0}[/s] de pierre ${choice: 2}[chartreuse/vermillon/mauve], et possèdes maintenant un total de ${number: 1}.${prompt}'
+  12493: '${color-alt: 121}Tu es entré dans la zone cible d''artisanat.${prompt}'
+  12494: '${color-alt: 121}Fabriquer les objets demandés dans la zone cible actuelle comptera vers le nombre d''objets que tu es requis de livrer.${prompt}'
+  12495: '${color-alt: 121}Tu as quitté la zone cible d''artisanat.${prompt}'
+  12496: '${color-alt: 121}${number: 1} ${item-given-plurality: 1[2], 0[2]} restant${choice-plurality: 1}[/s].${prompt}'
+  12497: 'J''ai besoin de ${item-plural: 0[2]}. Puis-je compter sur toi pour m''en apporter ${number: 1} de plus ?${prompt}'
+  12498: 'C''est exactement ce dont j''ai besoin. Apporte-moi ${number: 1} de plus s''il te plaît.${prompt}'
+  12499: 'C''est exactement ce dont j''ai besoin. Apporte-moi ${number: 1} de plus s''il te plaît.${prompt}'
+  12500: Ça le fait. J'espère que nous aurons l'opportunité de travailler ensemble à nouveau un jour.${prompt}
+  12501: Bienvenue au site du spectacle soniquement sublime mettant en vedette le nouveau groupe d'idoles morbol, Shining Bless.${prompt}
+  12502: 'Afin d''assister au concert, tu devras te procurer promptement ${keyitem-article: 0[2]}.${prompt}'
+  12503: D'abord, tu voudras parler avec le joyeux moogle qui traîne en ville.${prompt}
+  12504: 'Laisse-moi voir ${keyitem-singular: 0[2]} que tu m''as apporté, kupo.${prompt}'
+  12505: D'accord, permets-moi de t'expliquer sincèrement les détails du concert.${prompt}
+  12506: D'abord, tous les fans qui veulent participer devront être saupoudrés avec un minimum de magie moogle.${prompt}
+  12507: Une fois promulgué, tu seras plafonné au Niveau 30, kupo.${prompt}
+  12508: C'est fait pour protéger les idoles idylliques de tout fan démente. Ils ne devraient pas déranger le morbol, ou ils auront les cornes.${prompt}
+  12509: Tu ne sais jamais ce qui va se passer lors d'un concert live, mais c'est juste une partie du plaisir éphémère.${prompt}
+  12510: Note aussi que chaque morbol a son propre choix chéri d'acclamation. Essaie d'expérimenter jusqu'à ce que tu trouves le bon.${prompt}
+  12511: 'Enfin, j''ai préparé un petit souvenir pour toi, alors passe le chercher après le spectacle, kupo. (Nécessite ${number: 0} MOL ou plus)${prompt}'
+  12512: Ceci conclut mon explication extraordinairement efficace. Es-tu prêt à assister au concert ?${prompt}
   12513: |-
-    What will you do?
+    Que vas-tu faire ?
     ${selection-lines}
-    ${choice: 0}[Attend the concert./Don't attend the concert.]
-    Ask about the concert.
-    Read the band's profile.
-    Teleport to town.
-    Nothing.${prompt}
-  12514: Understood, kupo! I hope you enjoy Shining Bless's special concert!
-  12515: If you give up halfway through, you won't receive the sublimly stupendous souvenir. Are you sure you want to quit?${prompt}
+    ${choice: 0}[Assister au concert./Ne pas assister au concert.]
+    Se renseigner sur le concert.
+    Lire le profil du groupe.
+    Se téléporter en ville.
+    Rien.${prompt}
+  12514: Compris, kupo ! J'espère que tu apprécieras le concert spécial de Shining Bless !
+  12515: Si tu abandonnes à mi-chemin, tu ne recevras pas le souvenir sublimement stupéfiant. Es-tu sûr de vouloir arrêter ?${prompt}
   12516: |-
-    Skip the concert?
+    Sauter le concert ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  12517: I understand. Let me know when you wish to attend Shining Bless's special live concert again, kupo.
+    Oui.
+    Non.${prompt}
+  12517: Je comprends. Fais-moi savoir quand tu souhaites assister au concert live spécial de Shining Bless à nouveau, kupo.
   12518: |-
-    Whose profile would you like to see?
+    De qui aimerais-tu voir le profil ?
     ${selection-lines}
     Vivian.
     Julika.
     Jody.
-    Go back.${prompt}
+    Retourner.${prompt}
   12519: 　　
   12520: |-
-    International girl of mystery cultivated in The Boyahda Tree
-    Applause is the best reward!
-    Strength: Strong sense of responsibility
-    Weakness: Bad breath
+    Fille de mystère internationale cultivée dans l'Arbre Boyahda
+    Les applaudissements sont la meilleure récompense !
+    Force : Fort sens des responsabilités
+    Faiblesse : Mauvaise haleine
   12521: |-
-    Cool beauty from the Vunkerl Inlet
-    Nothing beats making people happy!
-    Strength: Self-confidence
-    Weakness: Bad breath
+    Beauté froide de l'Inlet de Vunkerl
+    Rien ne vaut rendre les gens heureux !
+    Force : Confiance en soi
+    Faiblesse : Mauvaise haleine
   12522: |-
-    Spunky girl from Wajaom Woodlands
-    Seeing people cheer gets me pumped up!
-    Strength: Endless energy
-    Weakness: Bad breath
-  12523: I can swiftly send you to the moogle in town if you like.${prompt}
+    Fille fougueuse des Bois de Wajaom
+    Voir les gens acclamer me remonte !
+    Force : Énergie sans fin
+    Faiblesse : Mauvaise haleine
+  12523: Je peux rapidement t'envoyer au moogle en ville si tu veux.${prompt}
   12524: |-
-    Go to ${zone: 0[2]}?
+    Aller à ${zone: 0[2]} ?
     ${selection-lines}
-    Yes.
-    Not yet.${prompt}
-  12525: It seems you thoroughly enjoyed Shining Bless's concert. Here is your stupdendous souvenir as promised.${prompt}
-  12526: If you contemplate catching the concert again, I'll have another souvenir for you.${prompt}
-  12527: Just report back to the moogle in town, kupo.${prompt}
-  12528: '${color-alt: 131}${name-player} obtains ${number: 0} MOL and now has a total of ${number: 1} MOL.'
-  12529: '${color-alt: 131}${name-player} performs a successful cheer, giving happiness to Jody.'
-  12530: '${color-alt: 131}${name-player} performs a successful cheer, giving strength to Vivian.'
-  12531: '${color-alt: 131}${name-player} performs a successful cheer, giving joy to Julika.'
-  12532: '${color-alt: 15}${name-player} thoroughly enjoyed Shining Bless''s special concert.'
-  12533: '${color-alt: 146}Return to the moogle and get your souvenir!'
-  12534: '${color-alt: 146}Jody is filled with happiness. (${choice: 0}[★☆☆☆☆/★★☆☆☆/★★★☆☆/★★★★☆/★★★★★])'
-  12535: '${color-alt: 146}Vivian is filled with strength. (${choice: 0}[★☆☆☆☆/★★☆☆☆/★★★☆☆/★★★★☆/★★★★★])'
-  12536: '${color-alt: 146}Julika is filled with joy. (${choice: 0}[★☆☆☆☆/★★☆☆☆/★★★☆☆/★★★★☆/★★★★★])'
-  12537: '${color-alt: 146}Jody is radiating happiness. (☆☆☆☆☆)'
-  12538: '${color-alt: 146}Vivian is radiating strength. (☆☆☆☆☆)'
-  12539: '${color-alt: 146}Julika is radiating joy. (☆☆☆☆☆)'
-  12540: '${color-alt: 146}The members of Shining Bless appear to be trembling.'
-  12541: '${color-alt: 146}The members of Shining Bless appear to be itching.'
+    Oui.
+    Pas encore.${prompt}
+  12525: Il semble que tu as pleinement apprécié le concert de Shining Bless. Voici ton souvenir stupéfiant comme promis.${prompt}
+  12526: Si tu contemples assister au concert à nouveau, j'aurai un autre souvenir pour toi.${prompt}
+  12527: Rapporte-toi juste au moogle en ville, kupo.${prompt}
+  12528: '${color-alt: 131}${name-player} obtient ${number: 0} MOL et a maintenant un total de ${number: 1} MOL.'
+  12529: '${color-alt: 131}${name-player} effectue une acclamation réussie, donnant du bonheur à Jody.'
+  12530: '${color-alt: 131}${name-player} effectue une acclamation réussie, donnant de la force à Vivian.'
+  12531: '${color-alt: 131}${name-player} effectue une acclamation réussie, donnant de la joie à Julika.'
+  12532: '${color-alt: 15}${name-player} a pleinement apprécié le concert spécial de Shining Bless.'
+  12533: '${color-alt: 146}Retourne au moogle et récupère ton souvenir !'
+  12534: '${color-alt: 146}Jody est remplie de bonheur. (${choice: 0}[★☆☆☆☆/★★☆☆☆/★★★☆☆/★★★★☆/★★★★★])'
+  12535: '${color-alt: 146}Vivian est remplie de force. (${choice: 0}[★☆☆☆☆/★★☆☆☆/★★★☆☆/★★★★☆/★★★★★])'
+  12536: '${color-alt: 146}Julika est remplie de joie. (${choice: 0}[★☆☆☆☆/★★☆☆☆/★★★☆☆/★★★★☆/★★★★★])'
+  12537: '${color-alt: 146}Jody rayonne de bonheur. (☆☆☆☆☆)'
+  12538: '${color-alt: 146}Vivian rayonne de force. (☆☆☆☆☆)'
+  12539: '${color-alt: 146}Julika rayonne de joie. (☆☆☆☆☆)'
+  12540: '${color-alt: 146}Les membres de Shining Bless semblent trembler.'
+  12541: '${color-alt: 146}Les membres de Shining Bless semblent avoir des démangeaisons.'
   12542: Grraaah...
   12543: Rraaawhhh...
   12544: Vraaah...
-  12545: '${color-alt: 123}The operation was unable to be carried out. Please try again.'
+  12545: '${color-alt: 123}L''opération n''a pas pu être effectuée. Veuillez réessayer.'
