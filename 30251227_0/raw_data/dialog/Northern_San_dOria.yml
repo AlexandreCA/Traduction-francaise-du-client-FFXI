@@ -1,34 +1,34 @@
 entries:
-  0: A recruit? What do you want with this gatehouse?${prompt}
-  1: Only citizens of San d'Oria may apply for missions here. Go see your country's consulate in Northern San d'Oria.${prompt}
-  2: Finish your current mission first, then come back for another.${prompt}
+  0: Une recrue ? Que voulez-vous avec ce poste de garde ?${prompt}
+  1: Seuls les citoyens de San d'Oria peuvent postuler pour des missions ici. Allez voir le consulat de votre pays dans le Nord de San d'Oria.${prompt}
+  2: Terminez d'abord votre mission actuelle, puis revenez pour une autre.${prompt}
   3: |-
-    Which mission will you undertake?
+    Quelle mission entreprendrez-vous ?
     ${selection-lines}
-    Smash the Orcish Scouts.
-    Bat Hunt.
-    Save the Children.
-    The Rescue Drill.
-    The Davoi Report.
-    Journey Abroad.
-    Journey to Bastok.
-    Journey to Windurst.
-    Journey to Bastok.
-    Journey to Windurst.
-    Infiltrate Davoi.
-    The Crystal Spring.
-    Appointment to Jeuno.
+    Écrasez les Éclaireurs Orques.
+    Chasse aux Chauves-souris.
+    Sauvez les Enfants.
+    L'Exercice de Sauvetage.
+    Le Rapport de Davoi.
+    Voyage à l'Étranger.
+    Voyage à Bastok.
+    Voyage à Windurst.
+    Voyage à Bastok.
+    Voyage à Windurst.
+    Infiltrez Davoi.
+    La Source de Cristal.
+    Nomination à Jeuno.
     Magicite.
-    The Ruins of Fei'Yin.
-    The Shadow Lord.
-    Leaute's Last Wishes.
-    Ranperre's Final Rest.
-    Prestige of the Papsque.
-    The Secret Weapon.
-    Coming of Age.
-    Lightbringer.
-    Breaking Barriers.
-    The Heir to the Light.
+    Les Ruines de Fei'Yin.
+    Le Seigneur des Ombres.
+    Les Dernières Volontés de Leaute.
+    Le Repos Final de Ranperre.
+    Prestige du Papsque.
+    L'Arme Secrète.
+    Passage à l'Âge Adulte.
+    Porteur de Lumière.
+    Briser les Barrières.
+    L'Héritier de la Lumière.
     10-1.
     10-2.
     ダミー26.
@@ -36,111 +36,111 @@ entries:
     ダミー28.
     ダミー29.
     ダミー30.
-    None.${prompt}
+    Aucune.${prompt}
   4: |-
-    Accept this mission?
+    Accepter cette mission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  5: You accept the mission.${prompt}
-  6: What do you want with this gatehouse?${prompt}
+    Oui.
+    Non.${prompt}
+  5: Vous acceptez la mission.${prompt}
+  6: Que voulez-vous avec ce poste de garde ?${prompt}
   7: |-
-    Your business?
+    Votre affaire ?
     ${selection-lines}
-    A mission, please.
-    Nothing.${prompt}
-  8: Hmm...not much work for those wet behind the ears, but...${prompt}
-  9: How about slaying Orcish scouts? Only the yellowest of yearlings would run from that, and we've no work for cowards here.${prompt}
-  10: If you're to take the mission, I'll be happy to explain.${prompt}
+    Une mission, s'il vous plaît.
+    Rien.${prompt}
+  8: Hmm... pas beaucoup de travail pour ceux qui ont encore du lait derrière les oreilles, mais...${prompt}
+  9: Que diriez-vous de tuer des éclaireurs Orques ? Seuls les plus verts des débutants fuiraient cela, et nous n'avons pas de travail pour les lâches ici.${prompt}
+  10: Si vous voulez prendre la mission, je serai heureux de vous l'expliquer.${prompt}
   11: |-
-    Interested?
+    Intéressé ?
     ${selection-lines}
-    Tell me more.
-    Never mind.${prompt}
-  12: Here's your mission. Orcish scouts roam outside; kill one and bring me his axe as proof.${prompt}
-  13: 'You''ll have to bring me ${article} ${item-article: 0[2]}. No other kind will do. Understand?${prompt}'
-  14: That is all. You'll take the mission then?${prompt}
+    Dites-m'en plus.
+    Peu importe.${prompt}
+  12: Voici votre mission. Des éclaireurs Orques rôdent à l'extérieur ; tuez-en un et apportez-moi sa hache comme preuve.${prompt}
+  13: 'Vous devrez m''apporter ${article} ${item-article: 0[2]}. Aucun autre type ne fera l''affaire. Compris ?${prompt}'
+  14: C'est tout. Vous prenez donc la mission ?${prompt}
   15: |-
-    Do you accept the mission?
+    Acceptez-vous la mission ?
     ${selection-lines}
-    I accept.
-    Could you explain again?
-    No, thank you.${prompt}
-  16: Bring me one of those axes, and your mission will be a success. No running away now; we've a proud country to defend!${prompt}
-  17: Oh, you're back. Well, if you're so happy you defeated an Orc or two, you've a long way ahead of you!${prompt}
-  18: 'That''s another ${item-singular: 0[2]} for the armory, then. Mission complete! Not bad for a new recruit.${prompt}'
-  19: What? I don't want this!${prompt}
-  20: Are you really a new recruit!?${prompt}
-  21: Listen, before you bring me something, you must first accept the mission! That is how things work around here!${prompt}
-  22: Persistent, aren't you? An Orc under the belt does not a hero make! Ah, I've just the job for you...${prompt}
-  23: Bat patrol! How about it? Shouldn't be a problem for an adventurer such as yourself, no?${prompt}
-  24: Here's your mission, then. Clear out bats lurking in King Ranperre's Tomb and bring me a fang as proof.${prompt}
-  25: 'Bring me ${article} ${item-article: 0[2]} and your mission will be a success.${prompt}'
-  26: Deep in the tomb you'll find Goblins. Take care; I don't want to lose you yet.${prompt}
-  27: Ah, you've returned! I was afraid that Goblins got you.${prompt}
-  28: 'That''s one ${item-singular: 3[2]} for the gatehouse, then. Mission complete. Not bad for a new recruit.${prompt}'
-  29: Ah, the recruit's back again? I'm sorry, but I've no time for you today.${prompt}
-  30: Well, perhaps you can be of some help. Many of our children have disappeared mysteriously, and I've no doubt the Ghelsba Orcs are behind it.${prompt}
-  31: The Royal Knights should be on the job by now, but the two princes are at each other's throats.${prompt}
-  32: Prince Trion, the eldest, says we should launch a full attack, with all haste.${prompt}
-  33: While his younger brother, Prince Pieuje says the safety of the children comes first, and he won't authorize an attack.${prompt}
-  34: They've been arguing this back and forth for days. The knights' hands are tied, and frankly, nobody knows what to do.${prompt}
-  35: If you really want to make a name for yourself, go to Ghelsba, and rescue those kidnapped children!${prompt}
-  36: What say you? Will you go?${prompt}
-  37: Here's your mission, then. Rescue the two children kidnapped by the Orcs of Ghelsba Outpost.${prompt}
-  38: Ghelsba Outpost is northwest of West Ronfaure. Take the path before the Westgate, then turn right when the path splits in the forest. You'll find the entrance up in the hills.${prompt}
-  39: If you have trouble finding the way, just follow one of the soldiers on patrol.${prompt}
-  40: Orcs tend to keep their hostages in tents or small huts. Once you're inside the compound, check them first.${prompt}
-  41: Ah, you've returned! You were gone so long, I feared a warmachine had got you!${prompt}
-  42: At any rate, mission complete! And to reward your accomplishment...${prompt}
-  43: I hereby recognize you, ${name-player}, as a certified adventurer of San d'Oria! You're now mission rank two, as well.${prompt}
-  44: But don't get too excited. Your title is valid only here in San d'Oria, understand?${prompt}
-  45: 'In order to become a true adventurer, and bear ${keyitem-article: 0[2]}, you must be recognized by Bastok and Windurst as well.${prompt}'
-  46: '''Tis a treaty between the three lands, and its word is law. I know it''s hard, but those are the rules.${prompt}'
-  47: For now, cut your adventuring teeth in the areas near here. Sooner or later you'll find your way into other lands.${prompt}
-  48: You achieve rank 2!${prompt}
-  49: There's not much work in right now. I suppose you could go participate in the Temple Knights' rescue drills out on the La Theine Plateau.${prompt}
-  50: Enter the forest beyond the Westgate and head southwest. You'll come out onto the La Theine Plateau before long.${prompt}
-  51: Once you're out on the plateau, keep going until you see the knights. The training grounds aren't far from there.${prompt}
-  52: It's all just a drill, so this should be easy compared to your usual fare. Just follow orders and you'll be fine.${prompt}
-  53: You've returned! I hear the drill turned into something far more perilous. But real battle is the best drill for recruits, in my opinion.${prompt}
-  54: Regardless, you've done well. I'll turn to you when there's work to be done, now.${prompt}
-  55: 'Here, take this ${item-singular: 3[2]}. Go ahead, you''ve earned it.${prompt}'
-  56: This time it's messenger duty. One of our knights is out scouting in a place called Davoi, on the southern edge of Jugner Forest.${prompt}
-  57: The Orcs' stronghold is in Davoi, so it's vital that we stop them from massing, or they may launch an assault.${prompt}
-  58: Of course, the Orcs are keeping an eye on us, too. Why, just a few days past, a squad of our Royal Knights fell to their axes.${prompt}
-  59: We have sent scouts to find a weakness in their defenses. You must find the scout there now, and bring back the latest scouting report.${prompt}
-  60: The scout's name is Zantaviat. He's somewhere in Davoi, but where I cannot say.${prompt}
-  61: Come back after you've gotten the report. Those lands are no place to wander.${prompt}
-  62: You have returned! And you've brought the scouting report. Good work, ${name-player}.${prompt}
-  63: Troubling news, this is. It says that Orcs are gathering deep inside the encampment. The time to act is coming!${prompt}
-  64: But that is not your concern. You've done well today. Mission complete!${prompt}
-  65: Oh, it's you, ${name-player}. And at just the right time, too. Monarlais Halver is looking for an adventurer such as yourself.${prompt}
-  66: Enter Chateau d'Oraguille. Monarlais Halver is there; he'll explain in person.${prompt}
-  67: What? You haven't been certified in Bastok and Windurst yet? You may dally, but others are not! Get moving!${prompt}
-  68: Ah, welcome back. I see you've been certified in Bastok and Windurst. Good work. You'll make a fine adventurer.${prompt}
-  69: What's that, a report for our kingdom? I see. Take that to the monarlais when you go.${prompt}
-  70: 'You should receive ${keyitem-article: 0[2]} from Monarlais Halver. Now, go to Chateau d''Oraguille and let them know you''re back!${prompt}'
-  71: Hurry to Chateau d'Oraguille and give that report to Monarlais Halver!${prompt}
-  72: You achieve rank 3!${prompt}
-  73: Ah! You've come at just the right time. Zantaviat, one of our scouts in Davoi, needs an adventurer.${prompt}
-  74: He wants someone to infiltrate Davoi and scout behind enemy lines. Know anyone fitting that description?${prompt}
-  75: 'Now that you''ve got your ${keyitem-singular: 0[2]}, this is an opportunity to prove you''re worth it!${prompt}'
-  76: The situation in Davoi worsens by the day. This won't be easy, but I can't think of a better adventurer for the job!${prompt}
-  77: You've returned! Zantaviat told me everything. Congratulations on a job well done!${prompt}
-  78: But we can't let down our guard yet. Those Orcs will not just sit there. We must keep constant vigil, and move before they do!${prompt}
-  79: 'Here''s your reward: ${article} ${item-article: 0[2]}. You''re becoming quite the adventurer, aren''t you?${prompt}'
-  80: Welcome back! I have an important mission for you this time. Recently, land is eroding due to crystal formation...and it's getting worse.${prompt}
-  81: There's a small spring on the eastern edge of Jugner Forest, called Crystwater Spring. We must know what effect crystal formation has on the wildlife there.${prompt}
-  82: 'I want you to get me a fish from the spring. And not just any fish! You need to get ${article} ${item-article: 0[2]}.${prompt}'
-  83: Ah, that reminds me--have you any fishing gear? You'll need some for this mission.${prompt}
-  84: There are people about that know a thing or two about fishing, should you need help finding and choosing your gear.${prompt}
-  85: Ah, the great angler returns! I was worried, to be honest. All you hear these days is the massing of beasts, the erosion of the Crystal Lines, and now...${prompt}
-  86: '...rumors that the Shadow Lord himself has returned!${prompt}'
-  87: We will examine the fish you brought. Depending on the results, we may need to act! I'll let you know if we need your help.${prompt}
-  88: Ah, it's you, ${name-player}. You've come at a good time. I've news for you.${prompt}
-  89: By order of the Kingdom of San d'Oria, you're to head to Jeuno as an ambassadorial attaché.${prompt}
-  90: Go to Chateau d'Oraguille. Monarlais Halver will tell you all you need to know.${prompt}
+    J'accepte.
+    Pourriez-vous expliquer à nouveau ?
+    Non, merci.${prompt}
+  16: Apportez-moi une de ces haches, et votre mission sera un succès. Pas de fuite maintenant ; nous avons un pays fier à défendre !${prompt}
+  17: Oh, vous êtes de retour. Eh bien, si vous êtes si heureux d'avoir vaincu un ou deux Orques, vous avez un long chemin devant vous !${prompt}
+  18: 'Voilà une autre ${item-singular: 0[2]} pour l''armurerie, alors. Mission terminée ! Pas mal pour une nouvelle recrue.${prompt}'
+  19: Quoi ? Je ne veux pas de ça !${prompt}
+  20: Êtes-vous vraiment une nouvelle recrue !?${prompt}
+  21: Écoutez, avant de m'apporter quelque chose, vous devez d'abord accepter la mission ! C'est comme ça que les choses fonctionnent ici !${prompt}
+  22: Persistant, n'est-ce pas ? Un Orque à votre actif ne fait pas de vous un héros ! Ah, j'ai justement le travail qu'il vous faut...${prompt}
+  23: Patrouille de chauves-souris ! Qu'en dites-vous ? Ne devrait pas être un problème pour un aventurier tel que vous, non ?${prompt}
+  24: Voici votre mission, alors. Éliminez les chauves-souris qui rôdent dans la Tombe du Roi Ranperre et apportez-moi un croc comme preuve.${prompt}
+  25: 'Apportez-moi ${article} ${item-article: 0[2]} et votre mission sera un succès.${prompt}'
+  26: Au fond de la tombe, vous trouverez des Gobelins. Faites attention ; je ne veux pas vous perdre encore.${prompt}
+  27: Ah, vous êtes de retour ! J'avais peur que les Gobelins ne vous aient eu.${prompt}
+  28: 'Voilà un ${item-singular: 3[2]} pour le poste de garde, alors. Mission terminée. Pas mal pour une nouvelle recrue.${prompt}'
+  29: Ah, la recrue est de retour ? Je suis désolé, mais je n'ai pas de temps pour vous aujourd'hui.${prompt}
+  30: Eh bien, peut-être pouvez-vous être d'une certaine aide. Beaucoup de nos enfants ont mystérieusement disparu, et je ne doute pas que les Orques de Ghelsba soient derrière tout ça.${prompt}
+  31: Les Chevaliers Royaux devraient être sur le coup maintenant, mais les deux princes sont à couteaux tirés.${prompt}
+  32: Le Prince Trion, l'aîné, dit que nous devrions lancer une attaque complète, avec toute hâte.${prompt}
+  33: Tandis que son frère cadet, le Prince Pieuje dit que la sécurité des enfants passe en premier, et il n'autorisera pas d'attaque.${prompt}
+  34: Ils se disputent depuis des jours. Les mains des chevaliers sont liées, et franchement, personne ne sait quoi faire.${prompt}
+  35: Si vous voulez vraiment vous faire un nom, allez à Ghelsba et sauvez ces enfants kidnappés !${prompt}
+  36: Qu'en dites-vous ? Irez-vous ?${prompt}
+  37: Voici votre mission, alors. Sauvez les deux enfants kidnappés par les Orques de l'Avant-poste de Ghelsba.${prompt}
+  38: L'Avant-poste de Ghelsba est au nord-ouest de Ronfaure Ouest. Prenez le chemin avant la Porte Ouest, puis tournez à droite quand le chemin se divise dans la forêt. Vous trouverez l'entrée en haut des collines.${prompt}
+  39: Si vous avez du mal à trouver le chemin, suivez simplement un des soldats en patrouille.${prompt}
+  40: Les Orques ont tendance à garder leurs otages dans des tentes ou de petites huttes. Une fois à l'intérieur de l'enceinte, vérifiez-les en premier.${prompt}
+  41: Ah, vous êtes de retour ! Vous étiez parti si longtemps, je craignais qu'une machine de guerre ne vous ait eu !${prompt}
+  42: En tout cas, mission terminée ! Et pour récompenser votre exploit...${prompt}
+  43: Je vous reconnais par la présente, ${name-player}, comme aventurier certifié de San d'Oria ! Vous êtes maintenant au rang de mission deux, également.${prompt}
+  44: Mais ne vous excitez pas trop. Votre titre n'est valable qu'ici à San d'Oria, compris ?${prompt}
+  45: 'Afin de devenir un véritable aventurier, et de porter ${keyitem-article: 0[2]}, vous devez être reconnu par Bastok et Windurst également.${prompt}'
+  46: 'C''est un traité entre les trois terres, et sa parole fait loi. Je sais que c''est dur, mais ce sont les règles.${prompt}'
+  47: Pour l'instant, faites vos armes d'aventurier dans les zones près d'ici. Tôt ou tard, vous trouverez votre chemin vers d'autres terres.${prompt}
+  48: Vous atteignez le rang 2 !${prompt}
+  49: Il n'y a pas beaucoup de travail en ce moment. Je suppose que vous pourriez aller participer aux exercices de sauvetage des Chevaliers du Temple sur le Plateau de La Theine.${prompt}
+  50: Entrez dans la forêt au-delà de la Porte Ouest et dirigez-vous vers le sud-ouest. Vous arriverez sur le Plateau de La Theine avant longtemps.${prompt}
+  51: Une fois sur le plateau, continuez jusqu'à ce que vous voyiez les chevaliers. Le terrain d'entraînement n'est pas loin de là.${prompt}
+  52: Ce n'est qu'un exercice, donc ça devrait être facile par rapport à vos habitudes. Suivez simplement les ordres et tout ira bien.${prompt}
+  53: Vous êtes de retour ! J'ai entendu dire que l'exercice s'est transformé en quelque chose de bien plus périlleux. Mais la vraie bataille est le meilleur exercice pour les recrues, à mon avis.${prompt}
+  54: Quoi qu'il en soit, vous avez bien fait. Je me tournerai vers vous quand il y aura du travail à faire, maintenant.${prompt}
+  55: 'Tenez, prenez ce ${item-singular: 3[2]}. Allez-y, vous l''avez mérité.${prompt}'
+  56: Cette fois, c'est un devoir de messager. Un de nos chevaliers est en train de faire de l'éclairage dans un endroit appelé Davoi, à la lisière sud de la Forêt de Jugner.${prompt}
+  57: Le bastion des Orques est à Davoi, il est donc vital que nous les empêchions de se rassembler, ou ils pourraient lancer un assaut.${prompt}
+  58: Bien sûr, les Orques nous surveillent aussi. Eh bien, il y a quelques jours à peine, une escouade de nos Chevaliers Royaux est tombée sous leurs haches.${prompt}
+  59: Nous avons envoyé des éclaireurs pour trouver une faiblesse dans leurs défenses. Vous devez trouver l'éclaireur qui y est maintenant, et rapporter le dernier rapport d'éclairage.${prompt}
+  60: Le nom de l'éclaireur est Zantaviat. Il est quelque part à Davoi, mais où je ne peux pas dire.${prompt}
+  61: Revenez après avoir obtenu le rapport. Ces terres ne sont pas un endroit où errer.${prompt}
+  62: Vous êtes de retour ! Et vous avez apporté le rapport d'éclairage. Bon travail, ${name-player}.${prompt}
+  63: Nouvelles troublantes, cela. Il dit que les Orques se rassemblent profondément à l'intérieur du campement. Le moment d'agir approche !${prompt}
+  64: Mais ce n'est pas votre préoccupation. Vous avez bien fait aujourd'hui. Mission terminée !${prompt}
+  65: Oh, c'est vous, ${name-player}. Et au bon moment, aussi. Monarlais Halver cherche un aventurier tel que vous.${prompt}
+  66: Entrez au Château d'Oraguille. Monarlais Halver est là ; il vous expliquera en personne.${prompt}
+  67: Quoi ? Vous n'avez pas encore été certifié à Bastok et Windurst ? Vous pouvez traîner, mais les autres ne le font pas ! Bougez-vous !${prompt}
+  68: Ah, bon retour. Je vois que vous avez été certifié à Bastok et Windurst. Bon travail. Vous ferez un bon aventurier.${prompt}
+  69: Qu'est-ce que c'est, un rapport pour notre royaume ? Je vois. Apportez cela au monarlais quand vous y allez.${prompt}
+  70: 'Vous devriez recevoir ${keyitem-article: 0[2]} de Monarlais Halver. Maintenant, allez au Château d''Oraguille et faites-leur savoir que vous êtes de retour !${prompt}'
+  71: Dépêchez-vous d'aller au Château d'Oraguille et donnez ce rapport à Monarlais Halver !${prompt}
+  72: Vous atteignez le rang 3 !${prompt}
+  73: Ah ! Vous arrivez au bon moment. Zantaviat, un de nos éclaireurs à Davoi, a besoin d'un aventurier.${prompt}
+  74: Il veut quelqu'un pour infiltrer Davoi et faire de l'éclairage derrière les lignes ennemies. Connaissez-vous quelqu'un correspondant à cette description ?${prompt}
+  75: 'Maintenant que vous avez votre ${keyitem-singular: 0[2]}, c''est une opportunité de prouver que vous en valez la peine !${prompt}'
+  76: La situation à Davoi s'aggrave de jour en jour. Ce ne sera pas facile, mais je ne peux pas penser à un meilleur aventurier pour le travail !${prompt}
+  77: Vous êtes de retour ! Zantaviat m'a tout raconté. Félicitations pour un travail bien fait !${prompt}
+  78: Mais nous ne pouvons pas baisser notre garde encore. Ces Orques ne vont pas rester là sans rien faire. Nous devons garder une vigilance constante, et agir avant eux !${prompt}
+  79: 'Voici votre récompense : ${article} ${item-article: 0[2]}. Vous devenez un sacré aventurier, n''est-ce pas ?${prompt}'
+  80: Bon retour ! J'ai une mission importante pour vous cette fois. Récemment, la terre s'érode en raison de la formation de cristaux... et ça empire.${prompt}
+  81: Il y a une petite source à la lisière est de la Forêt de Jugner, appelée Source de Cristeaux. Nous devons savoir quel effet la formation de cristaux a sur la faune là-bas.${prompt}
+  82: 'Je veux que vous m''obteniez un poisson de la source. Et pas n''importe quel poisson ! Vous devez obtenir ${article} ${item-article: 0[2]}.${prompt}'
+  83: Ah, ça me rappelle -- avez-vous du matériel de pêche ? Vous en aurez besoin pour cette mission.${prompt}
+  84: Il y a des gens qui connaissent un peu la pêche, si vous avez besoin d'aide pour trouver et choisir votre équipement.${prompt}
+  85: Ah, le grand pêcheur revient ! J'étais inquiet, pour être honnête. Tout ce qu'on entend ces jours-ci, c'est le rassemblement de bêtes, l'érosion des Lignes de Cristal, et maintenant...${prompt}
+  86: '...des rumeurs que le Seigneur des Ombres lui-même est de retour !${prompt}'
+  87: Nous examinerons le poisson que vous avez apporté. Selon les résultats, nous pourrions avoir besoin d'agir ! Je vous ferai savoir si nous avons besoin de votre aide.${prompt}
+  88: Ah, c'est vous, ${name-player}. Vous arrivez au bon moment. J'ai des nouvelles pour vous.${prompt}
+  89: Par ordre du Royaume de San d'Oria, vous devez vous rendre à Jeuno en tant qu'attaché ambassadorial.${prompt}
+  90: Allez au Château d'Oraguille. Monarlais Halver vous dira tout ce que vous devez savoir.${prompt}
   91: ${prompt}
   92: ${prompt}
   93: ${prompt}
@@ -149,96 +149,96 @@ entries:
   96: ${prompt}
   97: ${prompt}
   98: ${prompt}
-  99: There you are! I've been looking for you. Monarlais Halver requests your presence at the chateau immediately.${prompt}
-  100: It sounds as if this is a fairly important mission. I need not remind you that you should take care to properly equip yourself before embarking on this journey.${prompt}
-  101: I'm not sure what it's about, but you'd best make haste. The monarlais is not to be kept waiting!${prompt}
-  102: Why, if it isn't ${name-player}! This is no time for loafing around, friend! Prince Trion is looking for you.${prompt}
-  103: For this next mission, he's requested you personally. You should be honored!${prompt}
-  104: As for the details of the mission, I've no idea what he wants, but he was in a hurry. You'd best be off to Chateau d'Oraguille!${prompt}
-  105: It is a great thing you've done, ${name-player}! I knew deep in my heart that you were the one for the task.${prompt}
-  106: You'd better get to the chateau quick. They're all waiting to welcome you back, I'd wager.${prompt}
-  107: You've saved our proud Kingdom of San d'Oria. No, you're the savior of all Vana'diel! There's not a soul that doesn't owe you a great debt, ${name-player}.${prompt}
+  99: Vous voilà ! Je vous cherchais. Monarlais Halver demande votre présence au château immédiatement.${prompt}
+  100: Il semble que ce soit une mission assez importante. Je n'ai pas besoin de vous rappeler que vous devriez prendre soin de vous équiper correctement avant d'entreprendre ce voyage.${prompt}
+  101: Je ne sais pas de quoi il s'agit, mais vous feriez mieux de vous dépêcher. On ne fait pas attendre le monarlais !${prompt}
+  102: Eh bien, si ce n'est pas ${name-player} ! Ce n'est pas le moment de traîner, mon ami ! Le Prince Trion vous cherche.${prompt}
+  103: Pour cette prochaine mission, il vous a demandé personnellement. Vous devriez être honoré !${prompt}
+  104: Quant aux détails de la mission, je n'ai aucune idée de ce qu'il veut, mais il était pressé. Vous feriez mieux d'aller au Château d'Oraguille !${prompt}
+  105: C'est une grande chose que vous avez faite, ${name-player} ! Je savais au fond de mon cœur que vous étiez la personne pour la tâche.${prompt}
+  106: Vous feriez mieux d'aller vite au château. Ils vous attendent tous pour vous accueillir, je parie.${prompt}
+  107: Vous avez sauvé notre fier Royaume de San d'Oria. Non, vous êtes le sauveur de tout Vana'diel ! Il n'y a pas une âme qui ne vous doive une grande dette, ${name-player}.${prompt}
   108: |-
-    Ah, if it isn't ${name-player}!
-    You had best hurry off to Chateau d'Oraguille. It seems as if something terrible is in the works there.${prompt}
+    Ah, si ce n'est pas ${name-player} !
+    Vous feriez mieux de vous dépêcher d'aller au Château d'Oraguille. Il semble que quelque chose de terrible se prépare là-bas.${prompt}
   109: |-
-    Well, if it isn't ${name-player}!
-    Your timing is perfect. The chateau just sent a request for an adventurer.${prompt}
-  110: It looks as if this next mission has something to do with the late queen. You should feel honored. It's not every day that an adventurer gets to work directly with the royal family.${prompt}
+    Eh bien, si ce n'est pas ${name-player} !
+    Votre timing est parfait. Le château vient d'envoyer une demande pour un aventurier.${prompt}
+  110: Il semble que cette prochaine mission ait quelque chose à voir avec la défunte reine. Vous devriez être honoré. Ce n'est pas tous les jours qu'un aventurier peut travailler directement avec la famille royale.${prompt}
   111: |-
-    Spoken like a true San d'Orian!
-    Now hurry off to Chateau d'Oraguille and get the details on the mission from Monarlais Halver.${prompt}
-  112: What's wrong? Dealing with royalty is not your cup of tea? Well, think about it and come back when you've come to your senses.${prompt}
-  113: Prince Trion is requesting the aid of an adventurer. How about it?${prompt}
-  114: It looks fairly urgent, so you should hurry to the chateau. The prince is waiting in his chambers.${prompt}
-  115: I expected more from you, ${name-player}. If you change your mind, return here. I'll be waiting.${prompt}
-  116: I have received the details of your mission from Prince Trion. I will deliver this book to the scholars for deciphering.${prompt}
-  117: 'The deciphering of the ${keyitem-singular: 0[2]} will take a considerable amount of time. Return later for a report.${prompt}'
-  118: 'You handed the ${keyitem-singular: 0[2]} over to the guard.${prompt}'
+    Parlé comme un vrai San d'Orien !
+    Maintenant dépêchez-vous d'aller au Château d'Oraguille et obtenez les détails de la mission auprès de Monarlais Halver.${prompt}
+  112: Qu'est-ce qui ne va pas ? Traiter avec la royauté n'est pas votre tasse de thé ? Eh bien, réfléchissez-y et revenez quand vous aurez repris vos esprits.${prompt}
+  113: Le Prince Trion demande l'aide d'un aventurier. Qu'en dites-vous ?${prompt}
+  114: Cela semble assez urgent, vous devriez donc vous dépêcher d'aller au château. Le prince attend dans ses appartements.${prompt}
+  115: J'attendais plus de vous, ${name-player}. Si vous changez d'avis, revenez ici. Je serai en attente.${prompt}
+  116: J'ai reçu les détails de votre mission du Prince Trion. Je livrerai ce livre aux érudits pour déchiffrage.${prompt}
+  117: 'Le déchiffrage du ${keyitem-singular: 0[2]} prendra un temps considérable. Revenez plus tard pour un rapport.${prompt}'
+  118: 'Vous avez remis le ${keyitem-singular: 0[2]} au garde.${prompt}'
   119: |-
-    Ah, ${name-player}. We've been waiting.
-    Prince Trion is calling for you. I wonder if this means the ${keyitem-singular: 0[2]} has been completely deciphered.${prompt}
-  120: Well done, ${name-player}! I knew you would not let the Kingdom down.${prompt}
-  121: I'm proud to increase your rank to 7!${prompt}
-  122: The papsque has work for you, ${name-player}. Are you willing to take on the task?${prompt}
-  123: Excellent. Proceed to the papsque's chambers on the third floor of the cathedral.${prompt}
-  124: The papsque often comes across as a difficult man, but he is actually very kindhearted and compassionate. If you change your mind, I'll be waiting here.${prompt}
-  125: The fair Claidie I d'Oraguille has invited you to the chateau. She wishes for you to see the flowers that have bloomed from the seeds you brought back from Altepa.${prompt}
-  126: It is an honor to be invited to the chateau garden. One day you may even have the opportunity to attend one of their royal garden parties.${prompt}
-  127: We cannot keep the princess waiting. Now, off to the chateau!${prompt}
-  128: A party of Royal Knights stationed in Ghelsba Outpost have reported strange activity by Orcs deep within Yughott Grotto.${prompt}
-  129: From your reports, we already know that the beastmen have built a giant portal, but their motives remain unclear.${prompt}
-  130: It makes me shudder to think of what those Orcs are planning with that portal...${prompt}
-  131: ${name-player}, your next mission is to travel to Ghelsba and continue your investigation into the Orcs' activities.${prompt}
-  132: Be on your guard when traveling deep into Yughott Grotto. Losing an adventurer such as yourself would deal a great blow to all of San d'Oria.${prompt}
-  133: I see you need more time for preparations. When you are ready, I'll be waiting.${prompt}
-  134: It's hard to believe Orcs have their hands on such dangerous equipment. More patrols will have to be sent out to prevent any new developments in their evil plans.${prompt}
-  135: 'And this ${keyitem-singular: 0[2]}... We will have to analyze it and begin reproduction for our forces. We cannot let Orcs get the Treasure of the Dragon King before San d''Oria does.${prompt}'
-  136: Well, congratulations on the completion of your mission. Hmmm? Do I know of an adventurer named Eideialc? Never heard of him.${prompt}
-  137: But you need not worry about some petty traveler. You are in a different league. You are now rank 8!${prompt}
-  138: Princess Claidie's coming-of-age ceremony is drawing near. This ceremony is an important facet of d'Oraguille tradition.${prompt}
-  139: Monarlais Halver has put out a call to high-ranking adventurers for their assistance in Chateau d'Oraguille.${prompt}
-  140: Ah, the young princess has finally become a lady... Oh, I'm sorry. You can get the details of your next mission from Sir Halver.${prompt}
-  141: What? You do not wish to repay the kindness the princess has shown to you in the past months? As you wish...but if you change your mind, you know where to find me.${prompt}
-  142: I am busy with preparations for Princess Claidie's coming-of-age ceremony. You don't know what kind of vermin could be roaming the streets and looking for trouble.${prompt}
-  143: Princess Claidie's coming-of-age ceremony is about to begin at the cathedral. I must remain at my post, but why don't you attend?${prompt}
-  144: The king has requested your audience. He has selected you from the mountain of adventurers in San d'Oria. You should feel honored!${prompt}
-  145: You have matured from a fledgling adventurer into a great asset to our kingdom. Do not let us down.${prompt}
-  146: There is no need for modesty at a time like this. The fate of San d'Oria is at stake!${prompt}
-  147: The authorities are saying that a dark cloud of despair is looming over the Kingdom. They are asking for the assistance of only the best adventurers.${prompt}
-  148: I can think of none more qualified than you. Will you accept this mission?${prompt}
+    Ah, ${name-player}. Nous attendions.
+    Le Prince Trion vous appelle. Je me demande si cela signifie que le ${keyitem-singular: 0[2]} a été complètement déchiffré.${prompt}
+  120: Bien joué, ${name-player} ! Je savais que vous ne laisseriez pas tomber le Royaume.${prompt}
+  121: Je suis fier d'augmenter votre rang à 7 !${prompt}
+  122: Le papsque a du travail pour vous, ${name-player}. Êtes-vous prêt à accepter la tâche ?${prompt}
+  123: Excellent. Rendez-vous aux appartements du papsque au troisième étage de la cathédrale.${prompt}
+  124: Le papsque apparaît souvent comme un homme difficile, mais il est en fait très bon et compatissant. Si vous changez d'avis, je serai en attente ici.${prompt}
+  125: La belle Claidie I d'Oraguille vous a invité au château. Elle souhaite que vous voyiez les fleurs qui ont fleuri à partir des graines que vous avez rapportées d'Altepa.${prompt}
+  126: C'est un honneur d'être invité au jardin du château. Un jour, vous pourriez même avoir l'opportunité d'assister à une de leurs garden-parties royales.${prompt}
+  127: Nous ne pouvons pas faire attendre la princesse. Maintenant, au château !${prompt}
+  128: Un groupe de Chevaliers Royaux stationnés à l'Avant-poste de Ghelsba a signalé une activité étrange des Orques au fond de la Grotte de Yughott.${prompt}
+  129: D'après vos rapports, nous savons déjà que les hommes-bêtes ont construit un portail géant, mais leurs motifs restent flous.${prompt}
+  130: Cela me fait frissonner de penser à ce que ces Orques planifient avec ce portail...${prompt}
+  131: ${name-player}, votre prochaine mission est de voyager à Ghelsba et de continuer votre enquête sur les activités des Orques.${prompt}
+  132: Soyez sur vos gardes en voyageant au fond de la Grotte de Yughott. Perdre un aventurier tel que vous porterait un grand coup à tout San d'Oria.${prompt}
+  133: Je vois que vous avez besoin de plus de temps pour les préparatifs. Quand vous serez prêt, je serai en attente.${prompt}
+  134: C'est difficile à croire que les Orques aient leurs mains sur un équipement si dangereux. Plus de patrouilles devront être envoyées pour empêcher tout nouveau développement dans leurs plans maléfiques.${prompt}
+  135: 'Et ce ${keyitem-singular: 0[2]}... Nous devrons l''analyser et commencer la reproduction pour nos forces. Nous ne pouvons pas laisser les Orques obtenir le Trésor du Roi Dragon avant San d''Oria.${prompt}'
+  136: Eh bien, félicitations pour l'achèvement de votre mission. Hmmm ? Est-ce que je connais un aventurier nommé Eideialc ? Jamais entendu parler de lui.${prompt}
+  137: Mais vous n'avez pas besoin de vous inquiéter d'un voyageur insignifiant. Vous êtes dans une autre ligue. Vous êtes maintenant rang 8 !${prompt}
+  138: La cérémonie de passage à l'âge adulte de la Princesse Claidie approche. Cette cérémonie est une facette importante de la tradition d'Oraguille.${prompt}
+  139: Monarlais Halver a lancé un appel aux aventuriers de haut rang pour leur assistance au Château d'Oraguille.${prompt}
+  140: Ah, la jeune princesse est finalement devenue une dame... Oh, je suis désolé. Vous pouvez obtenir les détails de votre prochaine mission auprès de Sir Halver.${prompt}
+  141: Quoi ? Vous ne souhaitez pas rendre la gentillesse que la princesse vous a montrée ces derniers mois ? Comme vous voulez... mais si vous changez d'avis, vous savez où me trouver.${prompt}
+  142: Je suis occupé avec les préparatifs de la cérémonie de passage à l'âge adulte de la Princesse Claidie. Vous ne savez pas quel genre de vermine pourrait rôder dans les rues et chercher des ennuis.${prompt}
+  143: La cérémonie de passage à l'âge adulte de la Princesse Claidie est sur le point de commencer à la cathédrale. Je dois rester à mon poste, mais pourquoi n'y assistez-vous pas ?${prompt}
+  144: Le roi a demandé votre audience. Il vous a sélectionné parmi la montagne d'aventuriers à San d'Oria. Vous devriez être honoré !${prompt}
+  145: Vous êtes passé d'un aventurier débutant à un grand atout pour notre royaume. Ne nous laissez pas tomber.${prompt}
+  146: Il n'y a pas besoin de modestie à un moment comme celui-ci. Le destin de San d'Oria est en jeu !${prompt}
+  147: Les autorités disent qu'un nuage sombre de désespoir plane sur le Royaume. Ils demandent l'assistance des meilleurs aventuriers seulement.${prompt}
+  148: Je ne peux penser à personne de plus qualifié que vous. Accepterez-vous cette mission ?${prompt}
   149: |-
-    Then proceed to the Audience Chamber in the Chateau d'Oraguille.
-    Word has it that His Highness is not feeling that well. He may not be present for your briefing.${prompt}
-  150: ${choice-player-gender}[Sir/Lady] ${name-player}! The Kingdom is counting on you. Who else, I ask you, is worthy for this task?${prompt}
-  151: Ah, a time of great change is upon us. In a matter of days, the Rites of Succession will be held at the cathedral in Northern San d'Oria. It is then that the new heir to the throne will be decided.${prompt}
-  152: Due to the unpredictable circumstances that took place at the princess's coming-of-age ceremony, this time, only authorized personnel will be allowed near the proceedings. However, the royal family has requested your services as a guard.${prompt}
-  153: Even we Royal Knights have not been granted permission to attend... You must be held in high regard by His Highness. I envy you, ${choice-player-gender}[Sir/Ma'am].${prompt}
-  154: When you have finished your preparations, proceed directly to the cathedral to report.${prompt}
-  155: Off the record, which of the two princes do you think should be the next heir to the throne?${prompt}
+    Alors rendez-vous à la Salle d'Audience au Château d'Oraguille.
+    On dit que Sa Majesté ne se sent pas très bien. Il pourrait ne pas être présent pour votre briefing.${prompt}
+  150: ${choice-player-gender}[Sire/Dame] ${name-player} ! Le Royaume compte sur vous. Qui d'autre, je vous le demande, est digne de cette tâche ?${prompt}
+  151: Ah, une période de grands changements nous attend. Dans quelques jours, les Rites de Succession auront lieu à la cathédrale dans le Nord de San d'Oria. C'est alors que le nouvel héritier du trône sera décidé.${prompt}
+  152: En raison des circonstances imprévisibles qui ont eu lieu lors de la cérémonie de passage à l'âge adulte de la princesse, cette fois, seul le personnel autorisé sera autorisé près des procédures. Cependant, la famille royale a demandé vos services en tant que garde.${prompt}
+  153: Même nous, Chevaliers Royaux, n'avons pas reçu la permission d'assister... Vous devez être tenu en haute estime par Sa Majesté. Je vous envie, ${choice-player-gender}[Sire/Madame].${prompt}
+  154: Lorsque vous aurez terminé vos préparatifs, rendez-vous directement à la cathédrale pour faire votre rapport.${prompt}
+  155: Officieusement, lequel des deux princes pensez-vous devrait être le prochain héritier du trône ?${prompt}
   156: |-
-    It is a difficult decision, but...
+    C'est une décision difficile, mais...
     ${selection-lines}
-    Trion is better suited.
-    Pieuje is better suited.${prompt}
+    Trion est mieux adapté.
+    Pieuje est mieux adapté.${prompt}
   157: |-
     Hm...
-    Being the oldest, he is the true heir, and many people believe he is the most suited to rule the Kingdom. However, Prince Pieuje's prudent ways may be what this country is lacking.${prompt}
-  158: Many think as you do, ${choice-player-gender}[Sir/Lady] ${name-player}. However, what this country may need is someone who will not back down in the face of a threat--someone who will stand up for the pride of the Kingdom.${prompt}
-  159: But our opinion is of no matter. Lightbringer will decide who is the most suited to stand over our fine nation. And do not speak a word of today's exchange, for the monarlais will have our heads if he finds out.${prompt}
-  160: I realize that you must have many preparations before taking on such an important mission. Take your time and return here when you are ready.${prompt}
+    Étant l'aîné, il est le véritable héritier, et beaucoup de gens croient qu'il est le plus apte à gouverner le Royaume. Cependant, les manières prudentes du Prince Pieuje peuvent être ce qui manque à ce pays.${prompt}
+  158: Beaucoup pensent comme vous, ${choice-player-gender}[Sire/Dame] ${name-player}. Cependant, ce dont ce pays a peut-être besoin est quelqu'un qui ne reculera pas face à une menace -- quelqu'un qui défendra la fierté du Royaume.${prompt}
+  159: Mais notre opinion n'a pas d'importance. Porteur de Lumière décidera qui est le plus apte à se tenir au-dessus de notre belle nation. Et ne dites pas un mot de l'échange d'aujourd'hui, car le monarlais aura nos têtes s'il le découvre.${prompt}
+  160: Je réalise que vous devez avoir beaucoup de préparatifs avant d'entreprendre une mission si importante. Prenez votre temps et revenez ici quand vous serez prêt.${prompt}
   161: 'DEBUG: U_MS_START= "${number: 0}"${prompt}'
-  162: 'DEBUG: Went to Davoi, got the report.${prompt}'
+  162: 'DEBUG: Allé à Davoi, obtenu le rapport.${prompt}'
   163: |-
-    Clear Conditions Fulfilled:
+    Conditions d'Achèvement Remplies :
     ${selection-lines}
-    1-1　Brought back Orcish Axe.
-    1-2　Brought back Bat Fang.
-    1-3　Rescued the children.
-    2-1　Training complete.
-    2-2　Finished Davoi village.
-    2-3　Visited other countries.
-    3-1　Davoi Killing Grounds.
+    1-1　Ramené la Hache Orque.
+    1-2　Ramené le Croc de Chauve-souris.
+    1-3　Sauvé les enfants.
+    2-1　Entraînement terminé.
+    2-2　Village de Davoi terminé.
+    2-3　Visité d'autres pays.
+    3-1　Terrain de Massacre de Davoi.
     3-2.
     3-3.
     4-1.
@@ -257,67 +257,67 @@ entries:
     9-2.
     10-1.
     10-2.${prompt}
-  164: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  165: I've not told you about Mog Houses yet, have I? Would you care to learn about them now?${prompt}
+  164: La zone résidentielle de San d'Oria est devant. Vous trouverez votre Maison Mog à l'intérieur.${prompt}
+  165: Je ne vous ai pas encore parlé des Maisons Mog, n'est-ce pas ? Voudriez-vous en apprendre à leur sujet maintenant ?${prompt}
   166: |-
-    Care to learn about Mog Houses?
+    Envie d'en apprendre sur les Maisons Mog ?
     ${selection-lines}
-    Sure!
-    No, thanks.${prompt}
-  167: Mog Houses are useful places. You can recover your HP and MP, and store items there.${prompt}
+    Bien sûr !
+    Non, merci.${prompt}
+  167: Les Maisons Mog sont des endroits utiles. Vous pouvez récupérer vos PV et PM, et y stocker des objets.${prompt}
   168: |-
-    You can also change jobs there.
-    All adventurers of San d'Orian citizenship are assigned a Mog House.${prompt}
-  169: Make yourself at home!${prompt}
-  170: The San d'Oria residential area is ahead. You'll find your Mog House within.${prompt}
-  171: Would you like to hear about Mog Houses again?${prompt}
-  172: Hmm... So be it.${prompt}
-  173: Ahead lies the residential area. You'll find your Mog House within.${prompt}
-  174: 'By the way, my records indicate that you''re renting a room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  175: 'Would you like to check out of the room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] and move your things back here?${prompt}'
+    Vous pouvez également y changer de job.
+    Tous les aventuriers de citoyenneté San d'Orienne se voient attribuer une Maison Mog.${prompt}
+  169: Faites comme chez vous !${prompt}
+  170: La zone résidentielle de San d'Oria est devant. Vous trouverez votre Maison Mog à l'intérieur.${prompt}
+  171: Voudriez-vous entendre parler des Maisons Mog à nouveau ?${prompt}
+  172: Hmm... Qu'il en soit ainsi.${prompt}
+  173: Devant se trouve la zone résidentielle. Vous trouverez votre Maison Mog à l'intérieur.${prompt}
+  174: 'Au fait, mes dossiers indiquent que vous louez une chambre à ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  175: 'Voudriez-vous quitter la chambre à ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi] et ramener vos affaires ici ?${prompt}'
   176: |-
-    Move back to San d'Oria?
+    Déménager à San d'Oria ?
     ${selection-lines}
-    Yes, please.
-    No, not yet.${prompt}
-  177: 'It is done. We''ve checked you out of your Rent-a-Room in ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
-  178: All your belongings should be waiting for you inside. Those moogles are amazing creatures, are they not?${prompt}
-  179: Ahead lies the residential area. Proceed to your Rent-a-Room, foreigner!${prompt}
-  180: If you're already renting here, you may come and go as you please, like the Mog House in your homeland.${prompt}
-  181: Ahead lies the residential area.${prompt}
-  182: Wait! By law, all foreigners must lease a Rent-a-Room before entering the residential area!${prompt}
-  183: Once you've registered with us, you can use it as you would a Mog House back home, wherever that may be.${prompt}
+    Oui, s'il vous plaît.
+    Non, pas encore.${prompt}
+  177: 'C''est fait. Nous vous avons fait quitter votre Chambre-à-Louer à ${choice: 0}[San d''Oria/Bastok/Windurst/Jeuno/Kazham/Rabao/Norg/Al Zahbi].${prompt}'
+  178: Toutes vos affaires devraient vous attendre à l'intérieur. Ces moogles sont des créatures incroyables, n'est-ce pas ?${prompt}
+  179: Devant se trouve la zone résidentielle. Rendez-vous à votre Chambre-à-Louer, étranger !${prompt}
+  180: Si vous louez déjà ici, vous pouvez aller et venir à votre guise, comme la Maison Mog de votre patrie.${prompt}
+  181: Devant se trouve la zone résidentielle.${prompt}
+  182: Attendez ! Par la loi, tous les étrangers doivent louer une Chambre-à-Louer avant d'entrer dans la zone résidentielle !${prompt}
+  183: Une fois que vous vous serez enregistré chez nous, vous pourrez l'utiliser comme vous le feriez avec une Maison Mog chez vous, où que ce soit.${prompt}
   184: |-
-    Will you stay in San d'Oria?
+    Resterez-vous à San d'Oria ?
     ${selection-lines}
-    Yes.
-    No, I'd rather not.${prompt}
-  185: All right, then. A San d'Orian Rent-a-Room has been leased to your name. Now move along, foreigner!${prompt}
+    Oui.
+    Non, je préférerais pas.${prompt}
+  185: Très bien, alors. Une Chambre-à-Louer San d'Orienne a été louée à votre nom. Maintenant circulez, étranger !${prompt}
   186: |-
-    You can set this as your current home point.
-    Once you set a home point, you will return there whenever you are incapacitated.
+    Vous pouvez définir ceci comme votre point de retour actuel.
+    Une fois qu'un point de retour est défini, vous y retournerez chaque fois que vous serez mis hors de combat.
   187: |-
-    Set this as current home point?
+    Définir ceci comme point de retour actuel ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  188: Home point set!${prompt}
-  189: A home point can be set as a spot for you to return to Vana'diel when you have been knocked out. You can also use a home point to teleport to other home points.
+    Oui.
+    Non.${prompt}
+  188: Point de retour défini !${prompt}
+  189: Un point de retour peut être défini comme un endroit où vous retourner à Vana'diel lorsque vous avez été mis K.O. Vous pouvez également utiliser un point de retour pour vous téléporter vers d'autres points de retour.
   190: |-
-    What will you do?
+    Que ferez-vous ?
     ${selection-lines}
-    Travel to another home point.
-    Set this as your home point.
-    Other settings.
-    On second thought, never mind.${prompt}
+    Voyager vers un autre point de retour.
+    Définir ceci comme votre point de retour.
+    Autres paramètres.
+    À la réflexion, peu importe.${prompt}
   191: |-
-    You have registered a new home point!
-    You are now able to teleport here from any other home point.${prompt}
-  192: You may teleport from here to any other home point you have registered.
+    Vous avez enregistré un nouveau point de retour !
+    Vous pouvez maintenant vous téléporter ici depuis n'importe quel autre point de retour.${prompt}
+  192: Vous pouvez vous téléporter d'ici vers n'importe quel autre point de retour que vous avez enregistré.
   193: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     ${zone: 1[2]}.
     ${zone: 2[2]}.
     ${zone: 3[2]}.
@@ -334,81 +334,81 @@ entries:
     ${zone: 14[2]}.
     ${zone: 15[2]}.
     ${zone: 16[2]}.
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   194: |-
-    Teleport where?（${zone: 33[2]}）
+    Se téléporter où ?（${zone: 33[2]}）
     ${selection-lines}
-    Nowhere.
-    Home Point #1${choice: 1}[/ (M)/ (A)/ (E)].
-    Home Point #2${choice: 2}[/ (M)/ (A)/ (E)].
-    Home Point #3${choice: 3}[/ (M)/ (A)/ (E)].
-    Home Point #4${choice: 4}[/ (M)/ (A)/ (E)].
-    Home Point #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
-  195: You have not yet registered any other home points, and thus are unable to teleport.${prompt}
-  196: 'It costs ${number: 3} gil to teleport to Home Point #${number: 2} in ${zone: 1[2]}.'
-  197: 'There is no fee for teleporting to Home Point #${number: 2} in ${zone: 1[2]}.'
+    Nulle part.
+    Point de Retour #1${choice: 1}[/ (M)/ (A)/ (E)].
+    Point de Retour #2${choice: 2}[/ (M)/ (A)/ (E)].
+    Point de Retour #3${choice: 3}[/ (M)/ (A)/ (E)].
+    Point de Retour #4${choice: 4}[/ (M)/ (A)/ (E)].
+    Point de Retour #5${choice: 5}[/ (M)/ (A)/ (E)].${prompt}
+  195: Vous n'avez pas encore enregistré d'autres points de retour, et êtes donc incapable de vous téléporter.${prompt}
+  196: 'Cela coûte ${number: 3} gils pour se téléporter au Point de Retour #${number: 2} à ${zone: 1[2]}.'
+  197: 'Il n''y a pas de frais pour se téléporter au Point de Retour #${number: 2} à ${zone: 1[2]}.'
   198: |-
-    Teleport? (Current gil: ${number: 0})
+    Se téléporter ? (Gils actuels : ${number: 0})
     ${selection-lines}
-    ${choice: 33}[Add to favorites/Remove from favorites].
-    Yes, please.
-    No, thank you.${prompt}
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].
+    Oui, s'il vous plaît.
+    Non, merci.${prompt}
   199: |-
-    Teleport to which region?
+    Se téléporter vers quelle région ?
     ${selection-lines}
-    On second thought, none.
-    Select from favorites.
-    Current region.
+    À la réflexion, aucune.
+    Sélectionner dans les favoris.
+    Région actuelle.
     ${choice: 1}[San d'Oria/Movalpolos].
-    ${choice: 1}[Bastok/Tavnazian Arch].
+    ${choice: 1}[Bastok/Arch. Tavnazien].
     ${choice: 1}[Windurst/Lumoria].
-    ${choice: 1}[Jeuno/Mamool Ja Savage].
+    ${choice: 1}[Jeuno/Mamool Ja Sauvage].
     ${choice: 1}[Tavnazia/Halvung].
-    ${choice: 1}[West. Aht Urhgan/Arrapago Is].
-    ${choice: 1}[Adoulin Isles/Ruins of Alzadaal].
-    ${choice: 1}[Ronfaure/Ronfaure Front].
-    ${choice: 1}[Zulkheim/Norvallen Front].
-    ${choice: 1}[Norvallen/Gustaberg Front].
-    ${choice: 1}[Gustaberg/Derfland Front].
-    ${choice: 1}[Derfland/Sarutabaruta Front].
-    ${choice: 1}[Sarutabaruta/Aragoneu Front].
-    ${choice: 1}[Kolshushu/Fauregandi Front].
-    ${choice: 1}[Aragoneu/Valdeaunia Front].
-    ${choice: 1}[Fauregandi/East. Ulbuka].
+    ${choice: 1}[Aht Urhgan Occ./Île Arrapago].
+    ${choice: 1}[Îles d'Adoulin/Ruines d'Alzadaal].
+    ${choice: 1}[Ronfaure/Front de Ronfaure].
+    ${choice: 1}[Zulkheim/Front de Norvallen].
+    ${choice: 1}[Norvallen/Front de Gustaberg].
+    ${choice: 1}[Gustaberg/Front de Derfland].
+    ${choice: 1}[Derfland/Front de Sarutabaruta].
+    ${choice: 1}[Sarutabaruta/Front d'Aragoneu].
+    ${choice: 1}[Kolshushu/Front de Fauregandi].
+    ${choice: 1}[Aragoneu/Front de Valdeaunia].
+    ${choice: 1}[Fauregandi/Ulbuka Est].
     ${choice: 1}[Valdeaunia/Ra'Kaznar].
     ${choice: 1}[Qufim/].
     ${choice: 1}[Li'Telor/].
     ${choice: 1}[Kuzotz/].
     ${choice: 1}[Vollbow/].
-    ${choice: 1}[Elshimo Low/].
-    ${choice: 1}[Elshimo Up/].
+    ${choice: 1}[Elshimo Bas/].
+    ${choice: 1}[Elshimo Haut/].
     ${choice: 1}[Tu'Lia/].
-    Previous page.
-    Next page.${prompt}
+    Page précédente.
+    Page suivante.${prompt}
   200: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
-    A favorited location.
-    An original area.
-    A Rise of the Zilart area.
-    A Chains of Promathia area.
-    A Treasures of Aht Urhgan area.
-    A Wings of the Goddess area.
-    A Seekers of Adoulin area.${prompt}
-  201: You may change the method of selecting the area of your desired home point to teleport to.
+    Aucun de ceux-ci.
+    Un emplacement favori.
+    Une zone originale.
+    Une zone Rise of the Zilart.
+    Une zone Chains of Promathia.
+    Une zone Treasures of Aht Urhgan.
+    Une zone Wings of the Goddess.
+    Une zone Seekers of Adoulin.${prompt}
+  201: Vous pouvez changer la méthode de sélection de la zone de votre point de retour désiré vers lequel vous téléporter.
   202: |-
-    Which setting would you like?
+    Quel paramètre souhaitez-vous ?
     ${selection-lines}
-    My current setting.
-    Select by region.
-    Select by expansion.${prompt}
-  203: 'You are now selecting by ${choice: 1}[region/expansion].'
+    Mon paramètre actuel.
+    Sélectionner par région.
+    Sélectionner par extension.${prompt}
+  203: 'Vous sélectionnez maintenant par ${choice: 1}[région/extension].'
   204: |-
-    Teleport where?
+    Se téléporter où ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -418,13 +418,13 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.
-    ${choice: 33}[Add to favorites/Remove from favorites].${prompt}
-  205: 'Home Point #${number: 2} in ${zone: 1[2]} has been ${choice: 33}[registered to/removed from] your list of favorite locations.'
-  206: Your list of favorite locations is full. You must delete an existing entry in order to register a new one.
+    ${choice: 33}[Ajouter aux favoris/Retirer des favoris].${prompt}
+  205: 'Le Point de Retour #${number: 2} à ${zone: 1[2]} a été ${choice: 33}[enregistré dans/retiré de] votre liste d''emplacements favoris.'
+  206: Votre liste d'emplacements favoris est pleine. Vous devez supprimer une entrée existante pour en enregistrer une nouvelle.
   207: |-
-    Delete which?
+    Supprimer lequel ?
     ${selection-lines}
-    None of these.
+    Aucun de ceux-ci.
     ${zone: 1[2]} #${number: 17}.
     ${zone: 2[2]} #${number: 18}.
     ${zone: 3[2]} #${number: 19}.
@@ -434,140 +434,140 @@ entries:
     ${zone: 7[2]} #${number: 23}.
     ${zone: 8[2]} #${number: 24}.
     ${zone: 9[2]} #${number: 25}.${prompt}
-  208: '${color-alt: 161}A mog tablet has been discovered in ${choice: 0}[West Ronfaure/East Ronfaure/the La Theine Plateau/the Valkurm Dunes/Jugner Forest/the Batallia Downs/North Gustaberg/South Gustaberg/the Konschtat Highlands/the Pashhow Marshlands/the Rolanberry Fields/Beaucedine Glacier/Xarcabard/West Sarutabaruta/East Sarutabaruta/the Tahrongi Canyon/the Buburimu Peninsula/the Meriphataud Mountains/the Sauromugue Champaign/Qufim Island/Behemoth''s Dominion/Cape Teriggan/the Eastern Altepa Desert/the Sanctuary of Zi''Tah/Ro''Maeve/the Yuhtunga Jungle/the Yhoator Jungle/the Western Altepa Desert/the Valley of Sorrows]!'
+  208: '${color-alt: 161}Une tablette mog a été découverte à ${choice: 0}[Ronfaure Ouest/Ronfaure Est/le Plateau de La Theine/les Dunes de Valkurm/la Forêt de Jugner/les Downs de Batallia/Gustaberg Nord/Gustaberg Sud/les Hautes Terres de Konschtat/les Marais de Pashhow/les Champs de Rolanberry/le Glacier de Beaucedine/Xarcabard/Sarutabaruta Ouest/Sarutabaruta Est/le Canyon de Tahrongi/la Péninsule de Buburimu/les Montagnes de Meriphataud/la Champaign de Sauromugue/l''Île de Qufim/le Dominion de Behemoth/le Cap Teriggan/le Désert d''Altepa Est/le Sanctuaire de Zi''Tah/Ro''Maeve/la Jungle de Yuhtunga/la Jungle de Yhoator/le Désert d''Altepa Ouest/la Vallée des Peines] !'
   209: |-
-    ${color-alt: 161}The complete set of mog tablets has been restored to Ru'Lude Gardens!
-    The ancient magic of King Kupofried permeates the air to instill adventurers in this area with its Super Kupowers!
+    ${color-alt: 161}L'ensemble complet de tablettes mog a été restauré aux Jardins de Ru'Lude !
+    L'ancienne magie du Roi Kupofried imprègne l'air pour insuffler aux aventuriers de cette zone ses Super Kupouvoirs !
   210: |-
-    ${color-alt: 161}The strength of the ancient moogle magic has weakened, and the tablets have been scattered to the winds once more.
-    You can feel your Super Kupowers begin to fade away...
-  211: '${color-alt: 161}This area is currently affected by the Super Kupower: “Thrifty Transit”!'
-  212: '${color-alt: 161}This area is currently affected by the Super Kupower: “Martial Master”!'
-  213: '${color-alt: 161}This area is currently affected by the Super Kupower: “Blood of the Vampyr”!'
-  214: '${color-alt: 161}This area is currently affected by the Super Kupower: “Treasure Hound”!'
-  215: '${color-alt: 161}This area is currently affected by the Super Kupower: “Artisan''s Advantage”!'
-  216: '${color-alt: 161}This area is currently affected by the Super Kupower: “Myriad Mystery Boxes”!'
-  217: '${color-alt: 161}This area is currently affected by the Super Kupower: “Dilatory Digestion”!'
-  218: '${color-alt: 161}This area is currently affected by the Super Kupower: “Boundary Buster”!'
-  219: '${color-alt: 161}This area is currently affected by the Super Kupower: “Bountiful Bazaar”!'
-  220: '${color-alt: 161}This area is currently affected by the Super Kupower: “Swift Shoes”!'
-  221: '${color-alt: 161}This area is currently affected by the Super Kupower: “Crystal Caboodle”!'
+    ${color-alt: 161}La force de l'ancienne magie moogle s'est affaiblie, et les tablettes ont été dispersées aux vents une fois de plus.
+    Vous pouvez sentir vos Super Kupouvoirs commencer à s'estomper...
+  211: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Transit Économique" !'
+  212: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Maître Martial" !'
+  213: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Sang du Vampyr" !'
+  214: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Chien de Trésor" !'
+  215: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Avantage de l''Artisan" !'
+  216: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Myriades de Boîtes Mystérieuses" !'
+  217: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Digestion Dilatoire" !'
+  218: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Briseur de Frontières" !'
+  219: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Bazar Généreux" !'
+  220: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Chaussures Rapides" !'
+  221: '${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "Cristaux en Pagaille" !'
   222: |-
-    ${color-alt: 161}The ancient magic of King Kupofried fills the air, its glorious Super Kupowers bringing happiness and joy to the realm!
-    Visit the Explorer Moogle in Ru'Lude Gardens to find out more.
+    ${color-alt: 161}L'ancienne magie du Roi Kupofried emplit l'air, ses glorieux Super Kupouvoirs apportant bonheur et joie au royaume !
+    Visitez le Moogle Explorateur aux Jardins de Ru'Lude pour en savoir plus.
   223: |-
-    ${color-alt: 161}This area is currently affected by the Super Kupower: “${choice: 0}[/Thrifty Transit/Martial Master/Blood of the Vampyr/Treasure Hound/Artisan's Advantage/Myriad Mystery Boxes/Dilatory Digestion/Boundary Buster/Bountiful Bazaar/Swift Shoes/Crystal Caboodle]”!
-    This area is currently affected by the Super Kupower: “${choice: 1}[/Thrifty Transit/Martial Master/Blood of the Vampyr/Treasure Hound/Artisan's Advantage/Myriad Mystery Boxes/Dilatory Digestion/Boundary Buster/Bountiful Bazaar/Swift Shoes/Crystal Caboodle]”!
-    This area is currently affected by the Super Kupower: “${choice: 2}[/Thrifty Transit/Martial Master/Blood of the Vampyr/Treasure Hound/Artisan's Advantage/Myriad Mystery Boxes/Dilatory Digestion/Boundary Buster/Bountiful Bazaar/Swift Shoes/Crystal Caboodle]”!
-  224: The synergy furnace is currently claimed.${prompt}
+    ${color-alt: 161}Cette zone est actuellement affectée par le Super Kupouvoir : "${choice: 0}[/Transit Économique/Maître Martial/Sang du Vampyr/Chien de Trésor/Avantage de l'Artisan/Myriades de Boîtes Mystérieuses/Digestion Dilatoire/Briseur de Frontières/Bazar Généreux/Chaussures Rapides/Cristaux en Pagaille]" !
+    Cette zone est actuellement affectée par le Super Kupouvoir : "${choice: 1}[/Transit Économique/Maître Martial/Sang du Vampyr/Chien de Trésor/Avantage de l'Artisan/Myriades de Boîtes Mystérieuses/Digestion Dilatoire/Briseur de Frontières/Bazar Généreux/Chaussures Rapides/Cristaux en Pagaille]" !
+    Cette zone est actuellement affectée par le Super Kupouvoir : "${choice: 2}[/Transit Économique/Maître Martial/Sang du Vampyr/Chien de Trésor/Avantage de l'Artisan/Myriades de Boîtes Mystérieuses/Digestion Dilatoire/Briseur de Frontières/Bazar Généreux/Chaussures Rapides/Cristaux en Pagaille]" !
+  224: Le fourneau de synergie est actuellement réclamé.${prompt}
   225: |-
-    Claim usage of the furnace?
+    Revendiquer l'utilisation du fourneau ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  226: Your claim over the synergy furnace will expire in ten seconds.
+    Oui.
+    Non.${prompt}
+  226: Votre revendication du fourneau de synergie expirera dans dix secondes.
   227: |-
-    ${lettercase: 1}${keyitem-singular: 0[2]} set. You now have claim over the synergy furnace.
-    Please deposit your ingredients inside the furnace and initiate the synergy process within ${number: 1} minute${choice-plurality: 1}[/s].${prompt}
-  228: Please be aware that certain items are not suitable for use as synergy ingredients.${prompt}
+    ${lettercase: 1}${keyitem-singular: 0[2]} défini. Vous avez maintenant revendiqué le fourneau de synergie.
+    Veuillez déposer vos ingrédients à l'intérieur du fourneau et initier le processus de synergie dans ${number: 1} minute${choice-plurality: 1}[/s].${prompt}
+  228: Veuillez noter que certains objets ne conviennent pas pour être utilisés comme ingrédients de synergie.${prompt}
   229: |-
-    You currently have claim over the synergy furnace.
-    Please deposit your ingredients inside the furnace and initiate the synergy process.${prompt}
-  230: 'The synergy furnace is currently in use by ${player: 1}.${prompt}'
-  231: 'The synergy furnace is currently in use by ${player: 2}.${prompt}'
-  232: 'The synergy furnace is currently in use by ${player: 3}.${prompt}'
-  233: 'The synergy furnace is currently in use by ${player: 4}.${prompt}'
-  234: 'The synergy furnace is currently in use by ${player: 5}.${prompt}'
+    Vous avez actuellement revendiqué le fourneau de synergie.
+    Veuillez déposer vos ingrédients à l'intérieur du fourneau et initier le processus de synergie.${prompt}
+  230: 'Le fourneau de synergie est actuellement utilisé par ${player: 1}.${prompt}'
+  231: 'Le fourneau de synergie est actuellement utilisé par ${player: 2}.${prompt}'
+  232: 'Le fourneau de synergie est actuellement utilisé par ${player: 3}.${prompt}'
+  233: 'Le fourneau de synergie est actuellement utilisé par ${player: 4}.${prompt}'
+  234: 'Le fourneau de synergie est actuellement utilisé par ${player: 5}.${prompt}'
   235: |-
-    ${number: 0} ${choice-plurality: 1}[minute has/minutes have] elapsed.
-    Your claim over the synergy furnace has expired.${prompt}
-  236: A member of your party already has claim over the synergy furnace.
-  237: 'Possession of ${keyitem-article: 0[2]} is required to use a synergy furnace.${prompt}'
+    ${number: 0} ${choice-plurality: 1}[minute s''est écoulée/minutes se sont écoulées].
+    Votre revendication du fourneau de synergie a expiré.${prompt}
+  236: Un membre de votre groupe a déjà revendiqué le fourneau de synergie.
+  237: 'La possession de ${keyitem-article: 0[2]} est requise pour utiliser un fourneau de synergie.${prompt}'
   238: |-
-    Unable to claim usage.
-    The synergy furnace is currently in use by ${player: 1}.
+    Impossible de revendiquer l'utilisation.
+    Le fourneau de synergie est actuellement utilisé par ${player: 1}.
   239: |-
-    Unable to claim usage.
-    The synergy furnace is currently in use by ${player: 2}.
+    Impossible de revendiquer l'utilisation.
+    Le fourneau de synergie est actuellement utilisé par ${player: 2}.
   240: |-
-    Unable to claim usage.
-    The synergy furnace is currently in use by ${player: 3}.
+    Impossible de revendiquer l'utilisation.
+    Le fourneau de synergie est actuellement utilisé par ${player: 3}.
   241: |-
-    Unable to claim usage.
-    The synergy furnace is currently in use by ${player: 4}.
+    Impossible de revendiquer l'utilisation.
+    Le fourneau de synergie est actuellement utilisé par ${player: 4}.
   242: |-
-    Unable to claim usage.
-    The synergy furnace is currently in use by ${player: 5}.
+    Impossible de revendiquer l'utilisation.
+    Le fourneau de synergie est actuellement utilisé par ${player: 5}.
   243: |-
-    You have lost your eligibility to use the synergy furnace.
-    The claim holding party member has left the party or the area.${prompt}
-  244: You have regained your eligibility to use the synergy furnace.${prompt}
+    Vous avez perdu votre éligibilité à utiliser le fourneau de synergie.
+    Le membre du groupe détenant la revendication a quitté le groupe ou la zone.${prompt}
+  244: Vous avez retrouvé votre éligibilité à utiliser le fourneau de synergie.${prompt}
   245: |-
-    Unable to proceed.
-    Possession of ${keyitem-article: 0[2]} is required to commence synergy.${prompt}
+    Impossible de continuer.
+    La possession de ${keyitem-article: 0[2]} est requise pour commencer la synergie.${prompt}
   246: |-
-    Unable to proceed.
-    ${lettercase: 1}${item-plural: 0[2]} are not suitable for use as synergy ingredients.${prompt}
-  247: A synergy recipe does not exist for that combination of materials.${prompt}
-  248: That recipe is impossible at your synergy skill level.${prompt}
-  249: 'That recipe is impossible at your ${choice: 0}[fishing/woodworking/smithing/goldsmithing/clothcraft/leathercraft/bonecraft/alchemy/cooking] skill level.${prompt}'
+    Impossible de continuer.
+    ${lettercase: 1}${item-plural: 0[2]} ne conviennent pas pour être utilisés comme ingrédients de synergie.${prompt}
+  247: Une recette de synergie n'existe pas pour cette combinaison de matériaux.${prompt}
+  248: Cette recette est impossible à votre niveau de compétence en synergie.${prompt}
+  249: 'Cette recette est impossible à votre niveau de compétence en ${choice: 0}[pêche/menuiserie/forge/orfèvrerie/couture/tannerie/travail des os/alchimie/cuisine].${prompt}'
   250: |-
-    Element and target value:
+    Élément et valeur cible :
     ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1}
   251: |-
-    Elements and target values:
+    Éléments et valeurs cibles :
     ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1}
     ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3}
   252: |-
-    Elements and target values:
+    Éléments et valeurs cibles :
     ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1}
     ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3}
   253: |-
     ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 1}
     ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3}
   254: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: N/A${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : N/D${prompt}
   255: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3}${prompt}
   256: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5}${prompt}
   257: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7}${prompt}
   258: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}${prompt}
   259: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}
-                ${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}
+              ${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11}${prompt}
   260: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}
-                ${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${number: 11} ${choice: 12}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 13}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}
+              ${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${number: 11} ${choice: 12}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 13}${prompt}
   261: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}
-                ${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11} ${choice: 12}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 13} ${choice: 14}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 15}${prompt}
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${choice: 2}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 3} ${choice: 4}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 5} ${choice: 6}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 7} ${choice: 8}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 9}
+              ${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 11} ${choice: 12}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 13} ${choice: 14}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]${number: 15}${prompt}
   262: |-
-    Synergy rank: ${choice: 29}[Amateur/Recruit/Initiate/Novice/Apprentice/Journeyman/Craftsman/Artisan/Adept/Veteran/Expert/Authority/Luminary/Master/Grandmaster/Legend]
-    Objective: ${number: 1} ${item-given-plurality: 1[2], 0[2]}
-    Difficulty: ${icon: fire}${number: 3} ${icon: ice}${number: 5} ${icon: wind}${number: 7} ${icon: earth}${number: 9}
-                ${icon: lightning}${number: 11} ${icon: water}${number: 13} ${icon: light}${number: 15} ${icon: dark}${number: 17}${prompt}
-  263: '${lettercase: 1}${article} ${item-article: 8[2]} will be used to etch an aperture on the ${item-singular: 3[2]}.${prompt}'
+    Rang de synergie : ${choice: 29}[Amateur/Recrue/Initié/Novice/Apprenti/Compagnon/Artisan/Maître artisan/Adepte/Vétéran/Expert/Autorité/Sommité/Maître/Grand maître/Légende]
+    Objectif : ${number: 1} ${item-given-plurality: 1[2], 0[2]}
+    Difficulté : ${icon: fire}${number: 3} ${icon: ice}${number: 5} ${icon: wind}${number: 7} ${icon: earth}${number: 9}
+              ${icon: lightning}${number: 11} ${icon: water}${number: 13} ${icon: light}${number: 15} ${icon: dark}${number: 17}${prompt}
+  263: '${lettercase: 1}${article} ${item-article: 8[2]} sera utilisé pour graver une ouverture sur le ${item-singular: 3[2]}.${prompt}'
   264: |-
-    Select elemental alignment.
+    Sélectionner l'alignement élémentaire.
     ${selection-lines}
     ${icon: fire}
     ${icon: ice}
@@ -577,333 +577,333 @@ entries:
     ${icon: water}
     ${icon: light}
     ${icon: dark}
-    Cancel.${prompt}
+    Annuler.${prompt}
   265: |-
-    Confirm: ${lettercase: 1}${item-singular: 8[2]}${choice: 9}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]
+    Confirmer : ${lettercase: 1}${item-singular: 8[2]}${choice: 9}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]
     ${selection-lines}
-    Yes.
-    Redo.${prompt}
-  266: This item cannot house any more apertures.${prompt}
-  267: 'The ${item-singular: 8[2]} will be embedded in the ${item-singular: 3[2]}.${prompt}'
+    Oui.
+    Recommencer.${prompt}
+  266: Cet objet ne peut contenir plus d'ouvertures.${prompt}
+  267: 'Le ${item-singular: 8[2]} sera enchâssé dans le ${item-singular: 3[2]}.${prompt}'
   268: |-
-    Select target aperture.
+    Sélectionner l'ouverture cible.
     ${selection-lines}
-    ${lettercase: 1}${item-singular: 8[2]}${choice: 9}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 12}[(Unused)/(Used)].
-    ${lettercase: 1}${item-singular: 8[2]}${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 13}[(Unused)/(Used)].
-    ${lettercase: 1}${item-singular: 8[2]}${choice: 11}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 14}[(Unused)/(Used)].
-    Cancel.${prompt}
+    ${lettercase: 1}${item-singular: 8[2]}${choice: 9}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 12}[(Non utilisée)/(Utilisée)].
+    ${lettercase: 1}${item-singular: 8[2]}${choice: 10}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 13}[(Non utilisée)/(Utilisée)].
+    ${lettercase: 1}${item-singular: 8[2]}${choice: 11}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 14}[(Non utilisée)/(Utilisée)].
+    Annuler.${prompt}
   269: |-
-    An evolith is already embedded in this aperture.
-    Remove and replace?${prompt}
+    Un évolithe est déjà enchâssé dans cette ouverture.
+    Retirer et remplacer ?${prompt}
   270: |-
-    Embed in the following aperture?
-    ${lettercase: 1}${item-singular: 8[2]}${choice: 9}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 12}[(Unused)/(Used)]
+    Enchâsser dans l'ouverture suivante ?
+    ${lettercase: 1}${item-singular: 8[2]}${choice: 9}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 12}[(Non utilisée)/(Utilisée)]
     ${selection-lines}
-    Yes.
-    Redo.${prompt}
-  271: There are no compatible apertures on this item.${prompt}
-  272: '${lettercase: 1}${article} ${item-article: 3[2]} will be used to remove all apertures from the ${item-singular: 8[2]}.${prompt}'
+    Oui.
+    Recommencer.${prompt}
+  271: Il n'y a pas d'ouvertures compatibles sur cet objet.${prompt}
+  272: '${lettercase: 1}${article} ${item-article: 3[2]} sera utilisé pour retirer toutes les ouvertures du ${item-singular: 8[2]}.${prompt}'
   273: |-
-    Remove all apertures?
+    Retirer toutes les ouvertures ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  274: There are no removable apertures on this item.
-  275: '${lettercase: 1}${article} ${item-article: 3[2]} will be used to remove the most recently etched aperture from the ${item-singular: 8[2]}.${prompt}'
+    Oui.
+    Non.${prompt}
+  274: Il n'y a pas d'ouvertures retirables sur cet objet.
+  275: '${lettercase: 1}${article} ${item-article: 3[2]} sera utilisé pour retirer l''ouverture la plus récemment gravée du ${item-singular: 8[2]}.${prompt}'
   276: |-
-    Commence synergy?
+    Commencer la synergie ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  277: Commencing synergy process.${prompt}
+    Oui.
+    Non.${prompt}
+  277: Lancement du processus de synergie.${prompt}
   278: |-
-    Internal elemental balance:
+    Équilibre élémentaire interne :
     ${icon: fire}${number-2-digits: 0} ${icon: ice}${number-2-digits: 1} ${icon: wind}${number-2-digits: 2} ${icon: earth}${number-2-digits: 3} ${icon: lightning}${number-2-digits: 4} ${icon: water}${number-2-digits: 5} ${icon: light}${number-2-digits: 6} ${icon: dark}${number-2-digits: 7}
   279: '${color-alt: 141}${icon: fire}${number-2-digits: 0} ${icon: ice}${number-2-digits: 1} ${icon: wind}${number-2-digits: 2} ${icon: earth}${number-2-digits: 3} ${icon: lightning}${number-2-digits: 4} ${icon: water}${number-2-digits: 5} ${icon: light}${number-2-digits: 6} ${icon: dark}${number-2-digits: 7}'
-  280: '${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power ${choice: 1}[is far off/is moving towards/has nearly reached/has reached/has precisely reached/is perfectly aligned with] the target value.'
-  281: 'The synergy image ${choice: 0}[eludes you/is taking form/is nearly formed/has been formed/has been accurately formed/has been perfectly formed].'
+  280: 'La puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ${choice: 1}[est très éloignée/se rapproche/a presque atteint/a atteint/a précisément atteint/est parfaitement alignée avec] la valeur cible.'
+  281: 'L''image de synergie ${choice: 0}[vous échappe/prend forme/est presque formée/a été formée/a été formée avec précision/a été parfaitement formée].'
   282: |-
-    Internal pressure: ${number: 1} Pz/Im
-    Impurity ratio: ${number: 0}%
-  283: '${color-alt: 141}Anomaly detected in ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power. Explosion imminent!'
+    Pression interne : ${number: 1} Pz/Im
+    Taux d'impureté : ${number: 0}%
+  283: '${color-alt: 141}Anomalie détectée dans la puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}]. Explosion imminente !'
   284: |-
-    ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power has overloaded!
-    ${choice: 1}[A minimal amount of/A small amount of/A moderate amount of/A significant amount of/A large amount of/All] ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power has been lost.
-  285: 'Some ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell has been lost.'
-  286: 'Some ${icon: fire}, ${icon: wind}, ${icon: lightning}, and ${icon: light} fewell have been lost.'
-  287: 'Some ${icon: ice}, ${icon: earth}, ${icon: water}, and ${icon: dark} fewell have been lost.'
-  288: The synergy image has taken form!
+    La puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] a surchargé !
+    ${choice: 1}[Une quantité minimale de/Une petite quantité de/Une quantité modérée de/Une quantité importante de/Une grande quantité de/Toute la] puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] a été perdue.
+  285: 'Du fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] a été perdu.'
+  286: 'Du fewell ${icon: fire}, ${icon: wind}, ${icon: lightning} et ${icon: light} a été perdu.'
+  287: 'Du fewell ${icon: ice}, ${icon: earth}, ${icon: water} et ${icon: dark} a été perdu.'
+  288: L'image de synergie a pris forme !
   289: |-
-    The finished product has taken form!
-    Select “End synergy” now to retrieve it!
-  290: The synergy image has grown blurry...
+    Le produit fini a pris forme !
+    Sélectionnez "Terminer la synergie" maintenant pour le récupérer !
+  290: L'image de synergie est devenue floue...
   291: |-
-    Select an action.
+    Sélectionner une action.
     ${selection-lines}
-    Lv.${number: 0}: Feed fewell.
-    Operate furnace.
-    View furnace readings.
-    End synergy.
-    Review objective.
-    Toggle command confirmation ${choice: 1}[off/on].
-    Close menu.${prompt}
+    Niv.${number: 0} : Nourrir de fewell.
+    Opérer le fourneau.
+    Voir les mesures du fourneau.
+    Terminer la synergie.
+    Revoir l'objectif.
+    Basculer la confirmation de commande ${choice: 1}[désactivée/activée].
+    Fermer le menu.${prompt}
   292: |-
-    Examine the synergy furnace to access the operating menu.
-    Fewell can be fed by trading it directly to the furnace.${prompt}
+    Examinez le fourneau de synergie pour accéder au menu d'opération.
+    Le fewell peut être nourri en l'échangeant directement au fourneau.${prompt}
   293: |-
-    Select an action/skill.
+    Sélectionner une action/compétence.
     ${selection-lines}
-    Lv.${number: 0}: Thwack furnace.
-    Lv.${number: 1}: Operate pressure handle.
-    Lv.${number: 2}: Operate safety lever.
-    Lv.${number: 3}: Repair furnace.
-    Lv.${number: 4}: Recycle strewn fewell.
-    Fishing: Lunar Smarts.
-    Fishing: Precision Thwack.
-    Woodworking: Cyclical Smarts.
-    Woodworking: Earth Affinity.
-    Smithing: Combustive Smarts.
-    Smithing: Fire Affinity.
-    Goldsmithing: Engraver's Touch.
-    Goldsmithing: Wind Affinity.
-    Clothcraft: Restorer's Touch.
-    Clothcraft: Lightning Affinity.
-    Leathercraft: Pressurization Smarts.
-    Leathercraft: Ice Affinity.
-    Bonecraft: Carbonization Smarts.
-    Bonecraft: Dark Affinity.
-    Alchemy: Alchemical Smarts.
-    Alchemy: Light Affinity.
-    Cooking: Heating Smarts.
-    Cooking: Water Affinity.
-    DEBUG：Forced perfection.
-    DEBUG：Set level (Requires ${article} ${item-article: 39[2]}).
-    DEBUG: Set pressure/impurities.
-    DEBUG: Something good.
-    Cancel.${prompt}
+    Niv.${number: 0} : Frapper le fourneau.
+    Niv.${number: 1} : Opérer la poignée de pression.
+    Niv.${number: 2} : Opérer le levier de sécurité.
+    Niv.${number: 3} : Réparer le fourneau.
+    Niv.${number: 4} : Recycler le fewell éparpillé.
+    Pêche : Astuce lunaire.
+    Pêche : Frappe précise.
+    Menuiserie : Astuce cyclique.
+    Menuiserie : Affinité terre.
+    Forge : Astuce combustive.
+    Forge : Affinité feu.
+    Orfèvrerie : Toucher du graveur.
+    Orfèvrerie : Affinité vent.
+    Couture : Toucher du restaurateur.
+    Couture : Affinité foudre.
+    Tannerie : Astuce de pressurisation.
+    Tannerie : Affinité glace.
+    Travail des os : Astuce de carbonisation.
+    Travail des os : Affinité ténèbres.
+    Alchimie : Astuce alchimique.
+    Alchimie : Affinité lumière.
+    Cuisine : Astuce de chauffage.
+    Cuisine : Affinité eau.
+    DÉBOGAGE : Perfection forcée.
+    DÉBOGAGE : Définir le niveau (Requiert ${article} ${item-article: 39[2]}).
+    DÉBOGAGE : Définir pression/impuretés.
+    DÉBOGAGE : Quelque chose de bien.
+    Annuler.${prompt}
   294: |-
-    Feed which fewell? (current stock)
+    Nourrir quel fewell ? (stock actuel)
     ${selection-lines}
-    ${icon: fire} fewell (${number: 0}).
-    ${icon: ice} fewell (${number: 1}).
-    ${icon: wind} fewell (${number: 2}).
-    ${icon: earth} fewell (${number: 3}).
-    ${icon: lightning} fewell (${number: 4}).
-    ${icon: water} fewell (${number: 5}).
-    ${icon: light} fewell (${number: 6}).
-    ${icon: dark} fewell (${number: 7}).
-    Cancel.${prompt}
+    Fewell ${icon: fire} (${number: 0}).
+    Fewell ${icon: ice} (${number: 1}).
+    Fewell ${icon: wind} (${number: 2}).
+    Fewell ${icon: earth} (${number: 3}).
+    Fewell ${icon: lightning} (${number: 4}).
+    Fewell ${icon: water} (${number: 5}).
+    Fewell ${icon: light} (${number: 6}).
+    Fewell ${icon: dark} (${number: 7}).
+    Annuler.${prompt}
   295: |-
-    You feed the furnace ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell.
-    ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power climbs to ${number: 2}.
+    Vous nourrissez le fourneau avec ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}].
+    La puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] grimpe à ${number: 2}.
   296: |-
-    An elemental surge occurs!
-    The ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell fed ${choice-plurality: 1}[causes/cause] ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power to rise to ${number: 2}!
-  297: 'You expended ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).'
-  298: Your furnace lost a small amount of durability.
-  299: There was no impact on fewell reserves or furnace durability.
+    Une vague élémentaire se produit !
+    La ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] nourrie ${choice-plurality: 1}[fait/font] monter la puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] à ${number: 2} !
+  297: 'Vous avez dépensé ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).'
+  298: Votre fourneau a perdu une petite quantité de durabilité.
+  299: Il n'y a eu aucun impact sur les réserves de fewell ou la durabilité du fourneau.
   300: |-
-    Apply a measured thwack to the furnace to prevent explosion.
-    Cost: Reduction in furnace durability.
+    Appliquer une frappe mesurée au fourneau pour prévenir l'explosion.
+    Coût : Réduction de la durabilité du fourneau.
   301: |-
-    Operate the pressure handle to lower internal pressure and reduce the likelihood of an explosion.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Opérer la poignée de pression pour diminuer la pression interne et réduire la probabilité d'explosion.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   302: |-
-    Operate the safety lever to purge impurities from inside the furnace and reduce the likelihood of an explosion.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Opérer le levier de sécurité pour purger les impuretés de l'intérieur du fourneau et réduire la probabilité d'explosion.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   303: |-
-    Restore the furnace's durability.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Restaurer la durabilité du fourneau.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   304: |-
-    Gather and feed explosion-strewn fewell fragments to the furnace. Increases the quantity of cinder obtained as a by-product.
-    Cost: Nothing.
+    Rassembler et nourrir les fragments de fewell éparpillés par l'explosion au fourneau. Augmente la quantité de cendres obtenues comme sous-produit.
+    Coût : Rien.
   305: |-
-    Temporarily increase the likelihood of an elemental surge. Effect varies depending on the moon phase and day of the week.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Augmenter temporairement la probabilité d'une vague élémentaire. L'effet varie selon la phase lunaire et le jour de la semaine.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   306: |-
-    Apply a precisely aimed blow to the furnace to prevent an explosion, with results superior to the standard thwack.
-    Cost: Slight reduction in furnace durability.
+    Appliquer un coup précisément visé au fourneau pour prévenir l'explosion, avec des résultats supérieurs à la frappe standard.
+    Coût : Légère réduction de la durabilité du fourneau.
   307: |-
-    Deftly manipulate the furnace's internal elemental balance to temporarily mitigate the rate of wear.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Manipuler habilement l'équilibre élémentaire interne du fourneau pour atténuer temporairement le taux d'usure.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   308: |-
-    Keenly observe the flow of elements to prevent ${icon: earth}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: earth}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   309: |-
-    Temporarily improve fewell combustion rate.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Améliorer temporairement le taux de combustion du fewell.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   310: |-
-    Keenly observe the flow of elements to prevent ${icon: fire}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: fire}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   311: |-
-    Evenly disperse the furnace's internal stress to delay a looming explosion.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Disperser uniformément le stress interne du fourneau pour retarder une explosion imminente.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   312: |-
-    Keenly observe the flow of elements to prevent ${icon: wind}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: wind}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   313: |-
-    Temporarily suppress fluctuations in internal pressure.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Supprimer temporairement les fluctuations de pression interne.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   314: |-
-    Keenly observe the flow of elements to prevent ${icon: ice}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: ice}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   315: |-
-    Temporarily increase the likelihood of an elemental surge.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Augmenter temporairement la probabilité d'une vague élémentaire.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   316: |-
-    Keenly observe the flow of elements to prevent ${icon: dark}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: dark}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   317: |-
-    Restore furnace durability by a significant amount.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Restaurer la durabilité du fourneau d'une quantité importante.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   318: |-
-    Keenly observe the flow of elements to prevent ${icon: lightning}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: lightning}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   319: |-
-    Temporarily suppress the force of explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Supprimer temporairement la force des explosions.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   320: |-
-    Keenly observe the flow of elements to prevent ${icon: light}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: light}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   321: |-
-    Gradually purge the furnace of impurities.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Purger graduellement le fourneau des impuretés.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   322: |-
-    Keenly observe the flow of elements to prevent ${icon: water}-based explosions.
-    Cost: ${number: 1} ${choice-plurality: 1}[portion/portions] of ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell (${number: 2} ${choice-plurality: 2}[portion/portions] remaining).
+    Observer attentivement le flux des éléments pour prévenir les explosions basées sur ${icon: water}.
+    Coût : ${number: 1} ${choice-plurality: 1}[portion/portions] de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] (${number: 2} ${choice-plurality: 2}[portion/portions] restante).
   323: |-
-    Perform action?
+    Effectuer l'action ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  324: The synergy furnace seems to have taken on a straighter silhouette!
-  325: You give the synergy furnace a measured thwack!
-  326: '${color-alt: 141}You successfully prevent an explosion!'
-  327: Nothing happens...
-  328: '${color-alt: 141}The synergy furnace regains its durability!'
-  329: The attempt to repair the synergy furnace has failed.
-  330: 'Internal pressure has fallen to ${number: 0} Pz/Im.'
-  331: Internal pressure remains unchanged.
+    Oui.
+    Non.${prompt}
+  324: Le fourneau de synergie semble avoir pris une silhouette plus droite !
+  325: Vous donnez une frappe mesurée au fourneau de synergie !
+  326: '${color-alt: 141}Vous prévenez avec succès une explosion !'
+  327: Rien ne se passe...
+  328: '${color-alt: 141}Le fourneau de synergie retrouve sa durabilité !'
+  329: La tentative de réparation du fourneau de synergie a échoué.
+  330: 'La pression interne est tombée à ${number: 0} Pz/Im.'
+  331: La pression interne reste inchangée.
   332: |-
-    You successfully purge impurities from the synergy furnace.
-    Current impurity ratio: ${number: 0}%.
+    Vous purgez avec succès les impuretés du fourneau de synergie.
+    Taux d'impureté actuel : ${number: 0}%.
   333: |-
-    Your attempt to purge impurities from the synergy furnace has failed.
-    An unsettling noise can be heard from within...
+    Votre tentative de purger les impuretés du fourneau de synergie a échoué.
+    Un bruit inquiétant peut être entendu de l'intérieur...
   334: |-
-    You successfully gather the strewn fewell fragments and feed them to the synergy furnace.
-    The quantity of obtainable cinder increases to ${number: 0}%.
-  335: The strewn fewell fragments you fed to the furnace did not seem to have any effect...
-  336: The floor about the furnace is free of fewell fragments.
-  337: You observe no changes.
-  338: '${color-alt: 141}Lunar Smarts have taken effect!'
-  339: '${color-alt: 141}Carbonization Smarts have taken effect!'
-  340: '${color-alt: 141}The likelihood of an elemental surge has increased.'
-  341: '${color-alt: 141}The effect of Lunar Smarts wears off.'
-  342: '${color-alt: 141}The effect of Carbonization Smarts wears off.'
-  343: '${color-alt: 141}Cyclical Smarts have taken effect!'
-  344: '${color-alt: 141}The synergy furnace is incurring less damage over time.'
-  345: '${color-alt: 141}The effect of Cyclical Smarts wears off.'
-  346: '${color-alt: 141}Combustive Smarts have taken effect!'
-  347: '${color-alt: 141}The fewell combustion rate has improved.'
-  348: '${color-alt: 141}The effect of Combustive Smarts wears off.'
-  349: '${color-alt: 141}Engraver''s Touch has taken effect!'
-  350: '${color-alt: 141}The synergy furnace has become less prone to explode.'
-  351: '${color-alt: 141}The effect of Engraver''s Touch wears off.'
-  352: '${color-alt: 141}Pressurization Smarts have taken effect!'
-  353: '${color-alt: 141}The fluctuation in internal pressure is being suppressed.'
-  354: '${color-alt: 141}The effect of Pressurization Smarts wears off.'
-  355: '${color-alt: 141}Alchemical Smarts have taken effect!'
-  356: '${color-alt: 141}The force of explosions is being suppressed.'
-  357: '${color-alt: 141}The effect of Alchemical Smarts wears off.'
-  358: '${color-alt: 141}Heating Smarts have taken effect.'
-  359: '${color-alt: 141}The amount of impurities inside the furnace is gradually decreasing.'
-  360: '${color-alt: 141}The effect of Heating Smarts wears off.'
-  361: '${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell fed.'
-  362: '${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power has begun leaking from the furnace.'
-  363: '${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] elemental power is no longer leaking.'
+    Vous rassemblez avec succès les fragments de fewell éparpillés et les nourrissez au fourneau de synergie.
+    La quantité de cendres obtenue augmente à ${number: 0}%.
+  335: Les fragments de fewell éparpillés que vous avez nourris au fourneau ne semblent pas avoir eu d'effet...
+  336: Le sol autour du fourneau est exempt de fragments de fewell.
+  337: Vous n'observez aucun changement.
+  338: '${color-alt: 141}L''Astuce lunaire a pris effet !'
+  339: '${color-alt: 141}L''Astuce de carbonisation a pris effet !'
+  340: '${color-alt: 141}La probabilité d''une vague élémentaire a augmenté.'
+  341: '${color-alt: 141}L''effet de l''Astuce lunaire se dissipe.'
+  342: '${color-alt: 141}L''effet de l''Astuce de carbonisation se dissipe.'
+  343: '${color-alt: 141}L''Astuce cyclique a pris effet !'
+  344: '${color-alt: 141}Le fourneau de synergie subit moins de dégâts au fil du temps.'
+  345: '${color-alt: 141}L''effet de l''Astuce cyclique se dissipe.'
+  346: '${color-alt: 141}L''Astuce combustive a pris effet !'
+  347: '${color-alt: 141}Le taux de combustion du fewell s''est amélioré.'
+  348: '${color-alt: 141}L''effet de l''Astuce combustive se dissipe.'
+  349: '${color-alt: 141}Le Toucher du graveur a pris effet !'
+  350: '${color-alt: 141}Le fourneau de synergie est devenu moins susceptible d''exploser.'
+  351: '${color-alt: 141}L''effet du Toucher du graveur se dissipe.'
+  352: '${color-alt: 141}L''Astuce de pressurisation a pris effet !'
+  353: '${color-alt: 141}La fluctuation de la pression interne est supprimée.'
+  354: '${color-alt: 141}L''effet de l''Astuce de pressurisation se dissipe.'
+  355: '${color-alt: 141}L''Astuce alchimique a pris effet !'
+  356: '${color-alt: 141}La force des explosions est supprimée.' 
+  357: '${color-alt: 141}L''effet de l''Astuce alchimique se dissipe.'
+  358: '${color-alt: 141}L''Astuce de chauffage a pris effet.'
+  359: '${color-alt: 141}La quantité d''impuretés à l''intérieur du fourneau diminue graduellement.'
+  360: '${color-alt: 141}L''effet de l''Astuce de chauffage se dissipe.'
+  361: 'Fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] nourri.'
+  362: 'La puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] a commencé à fuir du fourneau.'
+  363: 'La puissance élémentaire ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] ne fuit plus.'
   364: |-
-    Total fewell fed:
+    Fewell total nourri :
     ${icon: fire}${number: 0} ${icon: ice}${number: 1} ${icon: wind}${number: 2} ${icon: earth}${number: 3} ${icon: lightning}${number: 4} ${icon: water}${number: 5} ${icon: light}${number: 6} ${icon: dark}${number: 7}
-  365: You do not have enough fewell.
-  366: 'The furnace cannot be fed any more ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell at this moment.'
-  367: 'The combustion rate for ${choice: 0}[ /${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell has improved${choice: 1}[ very slightly/ slightly/ moderately// significantly/ greatly/ tremendously].'
-  368: 'The combustion rate for ${choice: 0}[ /${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] fewell has returned to normal.'
-  369: Synergy complete!
-  370: You failed to produce the intended item...
-  371: '${color-alt: 121}${lettercase: 1}${article} ${item-article: 0[2]} has been successfully synergized!'
+  365: Vous n'avez pas assez de fewell.
+  366: 'Le fourneau ne peut plus être nourri de fewell ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] pour le moment.'
+  367: 'Le taux de combustion du fewell ${choice: 0}[ /${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] s''est amélioré${choice: 1}[ très légèrement/ légèrement/ modérément// significativement/ grandement/ énormément].'
+  368: 'Le taux de combustion du fewell ${choice: 0}[ /${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] est revenu à la normale.'
+  369: Synergie terminée !
+  370: Vous n'avez pas réussi à produire l'objet prévu...
+  371: '${color-alt: 121}${lettercase: 1}${article} ${item-article: 0[2]} a été synergisé avec succès !'
   372: |-
-    ${color-alt: 121}Smooth synergizing!
-    ${lettercase: 1}${article} ${item-article: 0[2]} has been successfully synergized!
-  373: '${color-alt: 121}${number: 1} ${item-plural: 0[2]} have been successfully synergized!'
+    ${color-alt: 121}Synergie fluide !
+    ${lettercase: 1}${article} ${item-article: 0[2]} a été synergisé avec succès !
+  373: '${color-alt: 121}${number: 1} ${item-plural: 0[2]} ont été synergisés avec succès !'
   374: |-
-    ${color-alt: 121}Smooth synergizing!
-    ${number: 1} ${item-plural: 0[2]} have been successfully synergized!
+    ${color-alt: 121}Synergie fluide !
+    ${number: 1} ${item-plural: 0[2]} ont été synergisés avec succès !
   375: |-
-    ${color-alt: 121}${name-player} obtains ${number: 0} ${choice-plurality: 0}[ponze/ponzes] of cinder.
-    Total: ${number: 1} Pz.
-  376: The operation failed to produce a significant quantity of cinder.
-  377: 'You remove ${article} ${item-article: 0[2]} from the furnace.'
-  378: 'You remove ${number: 1} ${item-given-plurality: 1[2], 0[2]} from the furnace.'
-  379: You remove the ingredients from the furnace.
-  380: The synergy furnace has ceased to function.
-  381: Relinquish your claim to the synergy furnace?
+    ${color-alt: 121}${name-player} obtient ${number: 0} ${choice-plurality: 0}[ponze/ponzes] de cendres.
+    Total : ${number: 1} Pz.
+  376: L'opération n'a pas produit une quantité significative de cendres.
+  377: 'Vous retirez ${article} ${item-article: 0[2]} du fourneau.'
+  378: 'Vous retirez ${number: 1} ${item-given-plurality: 1[2], 0[2]} du fourneau.'
+  379: Vous retirez les ingrédients du fourneau.
+  380: Le fourneau de synergie a cessé de fonctionner.
+  381: Renoncer à votre revendication du fourneau de synergie ?
   382: |-
-    Relinquish claim?
+    Renoncer à la revendication ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  383: 'Your ${keyitem-singular: 0[2]} will be removed, and your claim to the synergy furnace, relinquished.'
-  384: '${color-alt: 121}Your claim to the synergy furnace has been relinquished.'
-  385: '${color-alt: 141}You are too far away to operate the synergy furnace.'
-  386: '${color-alt: 141}Warning! Your claim over the synergy furnace will be nullified if you venture any further away.'
+    Oui.
+    Non.${prompt}
+  383: 'Votre ${keyitem-singular: 0[2]} sera retiré, et votre revendication du fourneau de synergie, abandonnée.'
+  384: '${color-alt: 121}Votre revendication du fourneau de synergie a été abandonnée.'
+  385: '${color-alt: 141}Vous êtes trop loin pour opérer le fourneau de synergie.'
+  386: '${color-alt: 141}Attention ! Votre revendication du fourneau de synergie sera annulée si vous vous aventurez plus loin.'
   387: |-
-    Unable to operate the furnace.
-    The claim holder's control over the synergy furnace has been compromised.
-  388: The synergy furnace has not been readied for use and cannot be operated.
-  389: '${color-alt: 141}${name-player} is paralyzed and cannot operate the furnace.'
-  390: '${color-alt: 141}${name-player} is immobilized and cannot operate the furnace.'
-  391: '${color-alt: 141}${name-player} is afflicted by the effect of slow and cannot operate the furnace.'
+    Impossible d'opérer le fourneau.
+    Le contrôle du détenteur de la revendication sur le fourneau de synergie a été compromis.
+  388: Le fourneau de synergie n'a pas été préparé pour l'utilisation et ne peut être opéré.
+  389: '${color-alt: 141}${name-player} est paralysé et ne peut opérer le fourneau.'
+  390: '${color-alt: 141}${name-player} est immobilisé et ne peut opérer le fourneau.'
+  391: '${color-alt: 141}${name-player} est affligé par l''effet de lenteur et ne peut opérer le fourneau.'
   392: |-
-    ${color-alt: 141}${name-player} is diseased and cannot operate the furnace.
-    Fewell has gone to waste.
+    ${color-alt: 141}${name-player} est malade et ne peut opérer le fourneau.
+    Du fewell a été gaspillé.
   393: |-
-    ${color-alt: 141}${name-player} is poisoned and cannot operate the furnace.
-    Furnace durability has decreased.
-  394: 'Mode-${number: 0}: ${choice: 0}[Unclaimed/Claimed/Awaiting ingredients/Synergizing/Synergy complete/Claim relinquished/Receive/Auto-fail].'
-  395: 'DEBUG: ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] combustion value: ${number: 4} (combustion rate: ${number: 5})'
-  396: 'DEBUG: Overall combustion value ＝ Base(${number: 1}) + Fluctuation (${number: 2}) + Crit. (${number: 3}).'
-  397: 'DEBUG: ${number: 0} ${number: 1} ${number: 2} ${number: 3}'
-  398: 'master(${number: 0}):Mem#0(${number: 1}) Mem#1(${number: 2}) Mem#2(${number: 3})'
-  399: 'Mem#3(${number: 0}) Mem#4(${number: 1}) Mem#5(${number: 2})'
-  400: 'MUTCH：Mem#${number: 0}(${number: 1})'
-  401: NO-MUTCH！
-  402: '${choice: 1}[Thwack/Fewell Combustion/Pressure Handle Operation/Safety Lever Operation/Furnace Repair/Fewell Clean-up]: Lv.${number: 0}'
-  403: '${name-player}''s ${sys-msg-3: 0} has been checked.${prompt}'
+    ${color-alt: 141}${name-player} est empoisonné et ne peut opérer le fourneau.
+    La durabilité du fourneau a diminué.
+  394: 'Mode-${number: 0} : ${choice: 0}[Non revendiqué/Revendiqué/En attente d''ingrédients/En synergie/Synergie terminée/Revendication abandonnée/Recevoir/Échec automatique].'
+  395: 'DÉBOGAGE : Valeur de combustion ${choice: 0}[${icon: fire}/${icon: ice}/${icon: wind}/${icon: earth}/${icon: lightning}/${icon: water}/${icon: light}/${icon: dark}] : ${number: 4} (taux de combustion : ${number: 5})'
+  396: 'DÉBOGAGE : Valeur de combustion globale = Base(${number: 1}) + Fluctuation (${number: 2}) + Crit. (${number: 3}).'
+  397: 'DÉBOGAGE : ${number: 0} ${number: 1} ${number: 2} ${number: 3}'
+  398: 'maître(${number: 0}) :Mém#0(${number: 1}) Mém#1(${number: 2}) Mém#2(${number: 3})'
+  399: 'Mém#3(${number: 0}) Mém#4(${number: 1}) Mém#5(${number: 2})'
+  400: 'CORRESP : Mém#${number: 0}(${number: 1})'
+  401: PAS-CORRESP !
+  402: '${choice: 1}[Frappe/Combustion de fewell/Opération de poignée de pression/Opération de levier de sécurité/Réparation de fourneau/Nettoyage de fewell] : Niv.${number: 0}'
+  403: 'Le ${sys-msg-3: 0} de ${name-player} a été vérifié.${prompt}'
   404: '${number: 0}/${number: 1}'
-  405: 'Check-No.${number: 0} (${choice: 0}[Fail/Normal/High/Ultra/Miracle])'
-  406: 'Check-QualityTable：No.${number: 0} Role：${number: 1}'
-  407: 'Check-Exp.damage：${number: 0}>>>${number: 1}'
-  408: 'Check-Crit.Role：${number: 0}/${number: 1}……${choice: 2}[Normal/Critical]'
-  409: 'Check-ActivityPts.：＋${number: 0}/Total ${number: 1}Pts.(${name-player})'
-  410: 'Last-ActivityPts.：${number: 0}Pts.(ID:${number: 1})'
-  411: Skill-Check!
-  412: '${color-alt: 121}The signature engraved on your ${item-singular: 0[2]} will be lost.'
-  413: '${color-alt: 121}Existing size data for your ${item-singular: 0[2]} will be lost.'
-  414: New augments will not take effect until the item is removed from the synergy furnace.${prompt}
+  405: 'Vérif.-No.${number: 0} (${choice: 0}[Échec/Normal/Élevé/Ultra/Miracle])'
+  406: 'Vérif.-TableQualité : No.${number: 0} Rôle : ${number: 1}'
+  407: 'Vérif.-Dégâts exp. : ${number: 0}>>>${number: 1}'
+  408: 'Vérif.-Rôle crit. : ${number: 0}/${number: 1}……${choice: 2}[Normal/Critique]'
+  409: 'Vérif.-Pts.activité : +${number: 0}/Total ${number: 1}Pts.(${name-player})'
+  410: 'Dernier-Pts.activité : ${number: 0}Pts.(ID:${number: 1})'
+  411: Vérif.-Compétence !
+  412: '${color-alt: 121}La signature gravée sur votre ${item-singular: 0[2]} sera perdue.'
+  413: '${color-alt: 121}Les données de taille existantes pour votre ${item-singular: 0[2]} seront perdues.'
+  414: Les nouvelles augmentations ne prendront effet qu'une fois l'objet retiré du fourneau de synergie.${prompt}
   415: |-
-    Remove the item?
+    Retirer l'objet ?
     ${selection-lines}
-    Yes, with new augment(s).
-    Yes, with existing augment(s).
-    No.${prompt}
-  416: 'Your item''s attributes ${choice: 8}[will be/are] as follows with its ${choice: 8}[new/current] set of augments:${prompt}'
+    Oui, avec nouvelle(s) augmentation(s).
+    Oui, avec augmentation(s) existante(s).
+    Non.${prompt}
+  416: 'Les attributs de votre objet ${choice: 8}[seront/sont] les suivants avec son jeu d''augmentations ${choice: 8}[nouveau/actuel] :${prompt}'
   417: |-
-    Proceed with these attributes?
+    Continuer avec ces attributs ?
     ${selection-lines}
-    Yes.
-    On second thought...${prompt}
-  418: 'You remove a newly augmented ${item-singular: 0[2]} from the synergy furnace!'
+    Oui.
+    En y repensant...${prompt}
+  418: 'Vous retirez un ${item-singular: 0[2]} nouvellement augmenté du fourneau de synergie !'
   419: うさぎとび百周！${prompt}
   420: 'Trial: Defeat a set number of ${choice: 4}[experience-yielding monsters/monsters] under the prescribed conditions.${prompt}'
   421: 'Trial: Defeat a set number of ${choice: 4}[experience-yielding monsters/monsters] under the prescribed conditions.${prompt}'
@@ -16302,126 +16302,126 @@ entries:
   6562: |-
     Objective: ${choice-plurality: 0}[Monster/Monsters] of any family: ${number: 2}/${number: 0}.
     Equipment: Target item must be equipped.${prompt}
-  6563: 'The shared memories of generations of mooglekind flood into your mind, granting you the ability to decipher the cryptic glyphs of your ${keyitem-singular: 0[2]}...${prompt}'
+  6563: 'Les souvenirs partagés de générations de moogles affluent dans votre esprit, vous accordant la capacité de déchiffrer les glyphes cryptiques de votre ${keyitem-singular: 0[2]}...${prompt}'
   6564: |-
-    Review which trial?
+    Consulter quelle épreuve ?
     ${selection-lines}
-    Trial ${number: 0}.
-    Trial ${number: 1}.
-    Trial ${number: 2}.
-    Trial ${number: 3}.
-    Trial ${number: 4}.
-    Trial ${number: 5}.
-    Trial ${number: 6}.
-    Trial ${number: 7}.
-    Trial ${number: 8}.
-    Trial ${number: 9}.
-    Moogle's Almanack.
-    Return.${prompt}
+    Épreuve ${number: 0}.
+    Épreuve ${number: 1}.
+    Épreuve ${number: 2}.
+    Épreuve ${number: 3}.
+    Épreuve ${number: 4}.
+    Épreuve ${number: 5}.
+    Épreuve ${number: 6}.
+    Épreuve ${number: 7}.
+    Épreuve ${number: 8}.
+    Épreuve ${number: 9}.
+    Almanach du Moogle.
+    Retour.${prompt}
   6565: |-
-    This is not your ${keyitem-singular: 0[2]}.
-    Unable to review trial progress.
+    Ce n'est pas votre ${keyitem-singular: 0[2]}.
+    Impossible de consulter la progression de l'épreuve.
   6566: |-
-    There are no current records in your ${keyitem-singular: 0[2]}.
-    Unable to review trial progress.
-  6567: Access granted!
+    Il n'y a aucun enregistrement actuel dans votre ${keyitem-singular: 0[2]}.
+    Impossible de consulter la progression de l'épreuve.
+  6567: Accès autorisé !
   6568: |-
     ${number: 0} ${number: 1} ${number: 2} ${number: 3}
     ${number: 4} ${number: 5} ${number: 6} ${number: 7}${prompt}
-  6569: You open the tome to the “Moogle's Almanack” chapter and peruse its weather prognostication pages.${prompt}
-  6570: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6571: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6572: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]} with occasional ${weather-noun: 1[2]}. There is also a slight chance of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6573: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6574: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6575: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]} with a chance of ${weather-noun: 1[2]}.${prompt}'
-  6576: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6577: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is in order.${prompt}'
-  6578: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]}. There is also the possibility of ${weather-noun: 2[2]}, so caution is advised.${prompt}'
-  6579: 'Close observation of the sky reveals that the weather in this area today will be ${weather-adjective: 0[2]}.${prompt}'
-  6580: 'Predicting ahead, tomorrow''s weather looks to be ${weather-adjective: 0[2]}.${prompt}'
-  6581: 'Finally, the forecast for the day after tomorrow calls for ${weather-noun: 0[2]}.${prompt}'
-  6582: '${color-alt: 121}==== WARNING：addr.(${unknown: 0x7F9500})=${number: 1} ===='
-  6583: We hope you enjoy this complimentary little gift, courtesy of the citizens of Vana'diel!
-  6584: Make some room in your inventory to claim your prize!
-  6585: Have a gander at this special collaboration with Pictlogica Final Fantasy!
+  6569: Vous ouvrez le tome au chapitre "Almanach du Moogle" et parcourez ses pages de prévisions météorologiques.${prompt}
+  6570: 'Une observation attentive du ciel révèle que la météo dans cette zone aujourd''hui sera ${weather-adjective: 0[2]} avec occasionnellement ${weather-noun: 1[2]}. Il y a aussi une légère chance de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6571: 'En prévoyant à l''avance, la météo de demain semble être ${weather-adjective: 0[2]} avec occasionnellement ${weather-noun: 1[2]}. Il y a aussi une légère chance de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6572: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]} avec occasionnellement ${weather-noun: 1[2]}. Il y a aussi une légère chance de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6573: 'Une observation attentive du ciel révèle que la météo dans cette zone aujourd''hui sera ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6574: 'En prévoyant à l''avance, la météo de demain semble être ${weather-adjective: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6575: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]} avec une chance de ${weather-noun: 1[2]}.${prompt}'
+  6576: 'Une observation attentive du ciel révèle que la météo dans cette zone aujourd''hui sera ${weather-adjective: 0[2]}. Il y a aussi la possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6577: 'En prévoyant à l''avance, la météo de demain semble être ${weather-adjective: 0[2]}. Il y a aussi la possibilité de ${weather-noun: 2[2]}, donc la prudence est de mise.${prompt}'
+  6578: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]}. Il y a aussi la possibilité de ${weather-noun: 2[2]}, donc la prudence est conseillée.${prompt}'
+  6579: 'Une observation attentive du ciel révèle que la météo dans cette zone aujourd''hui sera ${weather-adjective: 0[2]}.${prompt}'
+  6580: 'En prévoyant à l''avance, la météo de demain semble être ${weather-adjective: 0[2]}.${prompt}'
+  6581: 'Enfin, les prévisions pour après-demain annoncent ${weather-noun: 0[2]}.${prompt}'
+  6582: '${color-alt: 121}==== ATTENTION : addr.(${unknown: 0x7F9500})=${number: 1} ===='
+  6583: Nous espérons que vous apprécierez ce petit cadeau gratuit, offert par les citoyens de Vana'diel !
+  6584: Faites de la place dans votre inventaire pour réclamer votre prix !
+  6585: Jetez un œil à cette collaboration spéciale avec Pictlogica Final Fantasy !
   6586: |-
-    The Adventurer Gratitude Campaign is currently underway!
-    Enjoy this special gift courtesy of the FINAL FANTASY XI team!
-  6587: As a token of thanks for your unflagging devotion to Vana'diel, please enjoy this special gift courtesy of the FINAL FANTASY XI team!
-  6588: '${color-alt: 121}You will be able to use the Assist Channel until ${ts-month: 0}/${ts-day: 0}/${ts-year: 0} at ${ts-hour: 0}:${ts-minute: 0} (JST).'
-  6589: As a token of thanks for your unflagging devotion to Vana'diel, please enjoy this special gift courtesy of the FINAL FANTASY XI team!
-  6590: You sense a tiny sparkle from San d'Oria in your inventory!
-  6591: 'You cannot obtain the ${item-singular: 0[2]}.${prompt}'
-  6592: You cannot obtain any more.${prompt}
+    La Campagne de Gratitude des Aventuriers est actuellement en cours !
+    Profitez de ce cadeau spécial offert par l'équipe de FINAL FANTASY XI !
+  6587: En témoignage de reconnaissance pour votre dévotion indéfectible envers Vana'diel, veuillez profiter de ce cadeau spécial offert par l'équipe de FINAL FANTASY XI !
+  6588: '${color-alt: 121}Vous pourrez utiliser le Canal d''Assistance jusqu''au ${ts-day: 0}/${ts-month: 0}/${ts-year: 0} à ${ts-hour: 0}:${ts-minute: 0} (JST).'
+  6589: En témoignage de reconnaissance pour votre dévotion indéfectible envers Vana'diel, veuillez profiter de ce cadeau spécial offert par l'équipe de FINAL FANTASY XI !
+  6590: Vous ressentez une minuscule étincelle provenant de San d'Oria dans votre inventaire !
+  6591: 'Vous ne pouvez pas obtenir le ${item-singular: 0[2]}.${prompt}'
+  6592: Vous ne pouvez plus en obtenir.${prompt}
   6593: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Come back after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir le ${item-singular: 0[2]}.
+    Revenez après avoir trié votre inventaire.${prompt}
   6594: |-
-    You cannot obtain the ${item-plural: 0[2]}.
-    Come back after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir les ${item-plural: 0[2]}.
+    Revenez après avoir trié votre inventaire.${prompt}
   6595: |-
-    You cannot obtain the item.
-    Come back after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir l'objet.
+    Revenez après avoir trié votre inventaire.${prompt}
   6596: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Speak with the mystic retriever after sorting your inventory.${prompt}
+    Vous ne pouvez pas obtenir le ${item-singular: 0[2]}.
+    Parlez au récupérateur mystique après avoir trié votre inventaire.${prompt}
   6597: |-
-    You cannot obtain the ${item-singular: 0[2]}.
-    Try trading again after sorting your inventory.${prompt}
-  6598: 'You must free at least ${number: 0} space${choice-plurality: 0}[/s] before trading any items.${prompt}'
-  6599: 'Obtained: ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
-  6600: 'Obtained ${number: 0} gil.${prompt}'
-  6601: 'Obtained ${number: 0} gil.'
-  6602: 'Obtained key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  6603: 'Lost key item: ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
-  6604: You do not have enough gil.${prompt}
-  6605: 'You obtain ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6606: You do not have enough gil.
+    Vous ne pouvez pas obtenir le ${item-singular: 0[2]}.
+    Réessayez l'échange après avoir trié votre inventaire.${prompt}
+  6598: 'Vous devez libérer au moins ${number: 0} espace${choice-plurality: 0}[/s] avant d''échanger des objets.${prompt}'
+  6599: 'Obtenu : ${lettercase: 1}${item-singular: 0[2]}.${prompt}'
+  6600: 'Obtenu ${number: 0} gils.${prompt}'
+  6601: 'Obtenu ${number: 0} gils.'
+  6602: 'Objet clé obtenu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  6603: 'Objet clé perdu : ${lettercase: 1}${keyitem-singular: 0[2]}.${prompt}'
+  6604: Vous n'avez pas assez de gils.${prompt}
+  6605: 'Vous obtenez ${item-count: 1[2]} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6606: Vous n'avez pas assez de gils.
   6607: |-
-    A party member has an NPC called up.
-    You cannot take part in this event.${prompt}
-  6608: 'You obtain ${number: 1} ${item-given-plurality: 1[2], 0[2]}!${prompt}'
-  6609: You find the hoofprint of a gigantic warhorse...${prompt}
-  6610: 'You set the ${keyitem-singular: 0[2]} in the warhorse hoofprint.${prompt}'
-  6611: 'The ${item-singular: 0[2]} is returned to you.${prompt}'
-  6612: 'The ${number: 1} ${item-plural: 0[2]} are returned to you.${prompt}'
-  6613: There is nothing out of the ordinary here.${prompt}
-  6614: You are suddenly overcome with a sense of foreboding...${prompt}
-  6615: Now is not the time for that!${prompt}
-  6616: It seems that you will have to wait a bit longer...${prompt}
-  6617: An aura of irrepressible might threatens to overwhelm you...${prompt}
-  6618: You no longer sense the monster's presence...${prompt}
+    Un membre du groupe a appelé un PNJ.
+    Vous ne pouvez pas participer à cet événement.${prompt}
+  6608: 'Vous obtenez ${number: 1} ${item-given-plurality: 1[2], 0[2]} !${prompt}'
+  6609: Vous trouvez l'empreinte de sabot d'un destrier de guerre gigantesque...${prompt}
+  6610: 'Vous placez le ${keyitem-singular: 0[2]} dans l''empreinte de sabot du destrier.${prompt}'
+  6611: 'Le ${item-singular: 0[2]} vous est rendu.${prompt}'
+  6612: 'Les ${number: 1} ${item-plural: 0[2]} vous sont rendus.${prompt}'
+  6613: Il n'y a rien d'extraordinaire ici.${prompt}
+  6614: Vous êtes soudain submergé par un sentiment de mauvais présage...${prompt}
+  6615: Ce n'est pas le moment pour ça !${prompt}
+  6616: Il semble que vous devrez attendre un peu plus longtemps...${prompt}
+  6617: Une aura de puissance irrépressible menace de vous submerger...${prompt}
+  6618: Vous ne ressentez plus la présence du monstre...${prompt}
   6619: '${number: 0}...${prompt}'
-  6620: The mine explodes!${prompt}
-  6621: The mine misfires...${prompt}
-  6622: You retrieve the mine.${prompt}
-  6623: You successfully deactivate the mine!${prompt}
-  6624: You failed to deactivate the mine...${prompt}
-  6625: 'Obtained ${number: 0} cruor. (Total: ${number: 1})${prompt}'
-  6626: 'Obtained ${number: 0} cruor. (Total: ${number: 1})'
-  6627: You do not have enough cruor.${prompt}
-  6628: You do not have enough cruor.
+  6620: La mine explose !${prompt}
+  6621: La mine fait long feu...${prompt}
+  6622: Vous récupérez la mine.${prompt}
+  6623: Vous désactivez la mine avec succès !${prompt}
+  6624: Vous n'avez pas réussi à désactiver la mine...${prompt}
+  6625: 'Obtenu ${number: 0} cruor. (Total : ${number: 1})${prompt}'
+  6626: 'Obtenu ${number: 0} cruor. (Total : ${number: 1})'
+  6627: Vous n'avez pas assez de cruor.${prompt}
+  6628: Vous n'avez pas assez de cruor.
   6629: |-
-    You have obtained all of Lilisette's memory fragments.
-    Make haste and report to Cait Sith.${prompt}
+    Vous avez obtenu tous les fragments de mémoire de Lilisette.
+    Dépêchez-vous et faites rapport à Cait Sith.${prompt}
   6630: |-
-    You cannot perform that action.
-    Come back after you have obtained visitant status.
-  6631: You cannot perform that action while participating in Bastion.
-  6632: '${color-alt: 121}Target out of range.${prompt}'
-  6633: You cannot view this event while holding claim over a synergy furnace.${prompt}
-  6634: '${color-alt: 123}You cannot perform that action with a free trial account.${prompt}'
-  6635: 'You must wait another ${number: 0} ${choice-plurality: 0}[day/days] to perform that action.${prompt}'
-  6636: '${color-alt: 121}${name-player} gained ${number: 0} ${choice: 1}[points of experience/limit points].'
-  6637: 'You cannot carry any more ${keyitem-plural: 0[2]}.${prompt}'
-  6638: '${color-alt: 121}You have carried over ${number: 1} login point${choice-plurality: 1}[/s].${prompt}'
+    Vous ne pouvez pas effectuer cette action.
+    Revenez après avoir obtenu le statut de visiteur.
+  6631: Vous ne pouvez pas effectuer cette action en participant à Bastion.
+  6632: '${color-alt: 121}Cible hors de portée.${prompt}'
+  6633: Vous ne pouvez pas voir cet événement tout en détenant la revendication d'un fourneau de synergie.${prompt}
+  6634: '${color-alt: 123}Vous ne pouvez pas effectuer cette action avec un compte d''essai gratuit.${prompt}'
+  6635: 'Vous devez attendre encore ${number: 0} ${choice-plurality: 0}[jour/jours] pour effectuer cette action.${prompt}'
+  6636: '${color-alt: 121}${name-player} a gagné ${number: 0} ${choice: 1}[points d''expérience/points de limite].'  
+  6637: 'Vous ne pouvez pas transporter plus de ${keyitem-plural: 0[2]}.${prompt}'
+  6638: '${color-alt: 121}Vous avez reporté ${number: 1} point${choice-plurality: 1}[/s] de connexion.${prompt}'
   6639: |-
-    The ${choice: 1}[/January/February/March/April/May/June/July/August/September/October/November/December] ${number: 0} Login Campaign is currently underway!
+    La Campagne de Connexion de ${choice: 1}[/janvier/février/mars/avril/mai/juin/juillet/août/septembre/octobre/novembre/décembre] ${number: 0} est actuellement en cours !
     ${prompt}
   6640: |-
-    In celebration of your most recent login (login no. ${number: 1}), we have provided you with ${number: 2} points!
-    You currently have a total of ${number: 3} points.${prompt}
+    En célébration de votre connexion la plus récente (connexion n° ${number: 1}), nous vous avons fourni ${number: 2} points !
+    Vous avez actuellement un total de ${number: 3} points.${prompt}
   6641: ${prompt}
   6642: ${prompt}
   6643: ${prompt}
