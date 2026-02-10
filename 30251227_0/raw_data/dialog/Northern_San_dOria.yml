@@ -19322,829 +19322,829 @@ entries:
     Des informations pertinentes telles que la furtivité et la férocité du monstre ont été enregistrées pour votre référence.
     La sécurité ne pouvant être garantie, nous vous demandons de chasser selon vos capacités.${prompt}
   8031: |-
-    Hunts pit you against creatures of extreme ferocity, and are not intended for training.
-    For this reason, you cannot undertake a hunt while a training regime is active.${prompt}
-  8032: Should party members undertaking a common hunt defeat the objective, the kill will be considered valid for all.${prompt}
+    Les chasses te mettent face à des créatures d'une férocité extrême, et ne sont pas destinées à l'entraînement.
+    Pour cette raison, tu ne peux pas entreprendre une chasse tant qu'un régime d'entraînement est actif.${prompt}
+  8032: Si les membres du groupe entreprenant une chasse commune vainquent l'objectif, la mise à mort sera considérée comme valide pour tous.${prompt}
   8033: |-
-    Upon the completion of a hunt, record your success in a hunt registry.
-    Doing so will earn you rewards corresponding to difficulty as well as “scylds”--tokens of your valor.${prompt}
+    Après l'achèvement d'une chasse, enregistre ton succès dans un registre de chasses.
+    Ce faisant, tu gagneras des récompenses correspondant à la difficulté ainsi que des "scylds" -- jetons de ta bravoure.${prompt}
   8034: |-
-    More scylds will grant you access to increasingly difficult and rewarding assignments.
-    Be warned, however, that once expended, scylds will not be refunded for any reason.${prompt}
-  8035: Lastly, please note that a mandatory cool-down period will be imposed upon all hunters following the completion of a hunt. Until this time has elapsed, you will not be permitted to undertake another hunt.${prompt}
-  8036: You record your hunt.
-  8037: '${color-alt: 121}You obtain ${article} ${item-article: 0[2]}!'
+    Plus de scylds te donneront accès à des missions de plus en plus difficiles et gratifiantes.
+    Attention cependant, une fois dépensés, les scylds ne seront pas remboursés pour quelque raison que ce soit.${prompt}
+  8035: Enfin, note qu'une période de récupération obligatoire sera imposée à tous les chasseurs après l'achèvement d'une chasse. Jusqu'à ce que ce temps se soit écoulé, tu ne seras pas autorisé à entreprendre une autre chasse.${prompt}
+  8036: Tu enregistres ta chasse.
+  8037: '${color-alt: 121}Tu obtiens ${article} ${item-article: 0[2]} !'
   8038: |-
-    You obtain ${number: 0} ${choice-plurality: 0}[scyld/scylds]!
-    Current balance: ${number: 1} ${choice-plurality: 1}[scyld/scylds].
-  8039: The status of your current hunt is as follows.${prompt}
+    Tu obtiens ${number: 0} ${choice-plurality: 0}[scyld/scylds] !
+    Solde actuel : ${number: 1} ${choice-plurality: 1}[scyld/scylds].
+  8039: Le statut de ta chasse actuelle est le suivant.${prompt}
   8040: |-
-    Cancel hunt?
+    Annuler la chasse ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   8041: |-
-    Are you certain?
+    Es-tu certain ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  8042: Hunt canceled.${prompt}
-  8043: 'You currently possess ${number: 0} ${choice-plurality: 0}[scyld/scylds].${prompt}'
+    Oui.
+    Non.${prompt}
+  8042: Chasse annulée.${prompt}
+  8043: 'Tu possèdes actuellement ${number: 0} ${choice-plurality: 0}[scyld/scylds].${prompt}'
   8044: ${prompt}
-  8045: '${number: 0} member${choice-plurality: 0}[/s] of the worm family.${prompt}'
-  8046: '${number: 0} ${choice-plurality: 0}[Forest Hare/Forest Hares].${prompt}'
+  8045: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des vers.${prompt}'
+  8046: '${number: 0} ${choice-plurality: 0}[Lièvre de Forêt/Lièvres de Forêt].${prompt}'
   8047: |-
-    ${number: 0} ${choice-plurality: 0}[Scarab Beetle/Scarab Beetles].
-    ${number: 1} ${choice-plurality: 1}[Forest Funguar/Forest Funguars].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Scarabée/Scarabées].
+    ${number: 1} ${choice-plurality: 1}[Funguar de Forêt/Funguars de Forêt].${prompt}
   8048: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Orc family.
-    ${number: 1} ${choice-plurality: 1}[Scarab Beetle/Scarab Beetles].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Orc.
+    ${number: 1} ${choice-plurality: 1}[Scarabée/Scarabées].${prompt}
   8049: |-
-    ${number: 0} ${choice-plurality: 0}[Strolling Sapling/Strolling Saplings].
-    ${number: 1} ${choice-plurality: 1}[Huge Wasp/Huge Wasps].${prompt}
-  8050: '${number: 0} ${choice-plurality: 0}[Grass Funguar/Grass Funguars].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Jeune Pousse Déambulante/Jeunes Pousses Déambulantes].
+    ${number: 1} ${choice-plurality: 1}[Guêpe Énorme/Guêpes Énormes].${prompt}
+  8050: '${number: 0} ${choice-plurality: 0}[Funguar d''Herbe/Funguars d''Herbe].${prompt}'
   8051: |-
-    ${number: 0} ${choice-plurality: 0}[Hill Lizard/Hill Lizards].
-    ${number: 1} ${choice-plurality: 1}[Sand Hare/Sand Hares].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Lézard de Colline/Lézards de Colline].
+    ${number: 1} ${choice-plurality: 1}[Lièvre de Sable/Lièvres de Sable].${prompt}
   8052: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the crab family.
-    ${number: 1} ${choice-plurality: 1}[Hill Lizard/Hill Lizards].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des crabes.
+    ${number: 1} ${choice-plurality: 1}[Lézard de Colline/Lézards de Colline].${prompt}
   8053: |-
-    ${number: 0} ${choice-plurality: 0}[Damselfly/Damselflies].
-    ${number: 1} member${choice-plurality: 1}[/s] of the crab family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Demoiselle/Demoiselles].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des crabes.${prompt}
   8054: |-
-    ${number: 0} ${choice-plurality: 0}[Brutal Sheep/Brutal Sheep].
-    ${number: 1} ${choice-plurality: 1}[Damselfly/Damselflies].${prompt}
-  8055: '${number: 0} ${choice-plurality: 0}[Forest Leech/Forest Leeches].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Mouton Brutal/Moutons Brutaux].
+    ${number: 1} ${choice-plurality: 1}[Demoiselle/Demoiselles].${prompt}
+  8055: '${number: 0} ${choice-plurality: 0}[Sangsue de Forêt/Sangsues de Forêt].${prompt}'
   8056: |-
-    ${number: 0} ${choice-plurality: 0}[Stag Beetle/Stag Beetles].
-    ${number: 1} ${choice-plurality: 1}[Forest Leech/Forest Leeches].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Scarabée Cerf-volant/Scarabées Cerf-volant].
+    ${number: 1} ${choice-plurality: 1}[Sangsue de Forêt/Sangsues de Forêt].${prompt}
   8057: |-
-    ${number: 0} ${choice-plurality: 0}[Jugner Funguar/Jugner Funguars].
-    ${number: 1} ${choice-plurality: 1}[Stag Beetle/Stag Beetles].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Funguar de Jugner/Funguars de Jugner].
+    ${number: 1} ${choice-plurality: 1}[Scarabée Cerf-volant/Scarabées Cerf-volant].${prompt}
   8058: |-
-    ${number: 0} ${choice-plurality: 0}[Jugner Funguar/Jugner Funguars].
-    ${number: 1} ${choice-plurality: 1}[Forest Tiger/Forest Tigers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Funguar de Jugner/Funguars de Jugner].
+    ${number: 1} ${choice-plurality: 1}[Tigre de Forêt/Tigres de Forêt].${prompt}
   8059: |-
-    ${number: 0} ${choice-plurality: 0}[May Fly/May Flies].
+    ${number: 0} ${choice-plurality: 0}[Éphémère de Mai/Éphémères de Mai].
     ${number: 1} ${choice-plurality: 1}[Ba/Bas].${prompt}
-  8060: '${number: 0} member${choice-plurality: 0}[/s] of the worm family.${prompt}'
-  8061: '${number: 0} ${choice-plurality: 0}[Maneating Hornet/Maneating Hornets].${prompt}'
+  8060: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des vers.${prompt}'
+  8061: '${number: 0} ${choice-plurality: 0}[Frelon Cannibale/Frelons Cannibales].${prompt}'
   8062: |-
-    ${number: 0} ${choice-plurality: 0}[Vulture/Vultures].
-    ${number: 1} ${choice-plurality: 1}[Walking Sapling/Walking Saplings].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Vautour/Vautours].
+    ${number: 1} ${choice-plurality: 1}[Jeune Pousse Marchante/Jeunes Pousses Marchantes].${prompt}
   8063: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Quadav family.
-    ${number: 1} ${choice-plurality: 1}[Rock Lizard/Rock Lizards].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Quadav.
+    ${number: 1} ${choice-plurality: 1}[Lézard de Roche/Lézards de Roche].${prompt}
   8064: |-
-    ${number: 0} ${choice-plurality: 0}[Rock Eater/Rock Eaters].
-    ${number: 1} ${choice-plurality: 1}[Mist Lizard/Mist Lizards].${prompt}
-  8065: '${number: 0} ${choice-plurality: 0}[Gadfly/Gadflys].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Mangeur de Roche/Mangeurs de Roche].
+    ${number: 1} ${choice-plurality: 1}[Lézard de Brume/Lézards de Brume].${prompt}
+  8065: '${number: 0} ${choice-plurality: 0}[Taon/Taons].${prompt}'
   8066: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the leech family.
-    ${number: 1} ${choice-plurality: 1}[Gadfly/Gadflys].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des sangsues.
+    ${number: 1} ${choice-plurality: 1}[Taon/Taons].${prompt}
   8067: |-
-    ${number: 0} ${choice-plurality: 0}[Carnivorous Crawler/Carnivorous Crawlers].
-    ${number: 1} member${choice-plurality: 1}[/s] of the leech family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Chenille Carnivore/Chenilles Carnivores].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des sangsues.${prompt}
   8068: |-
-    ${number: 0} ${choice-plurality: 0}[Marsh Funguar/Marsh Funguars].
-    ${number: 1} ${choice-plurality: 1}[Carnivorous Crawler/Carnivorous Crawlers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Funguar de Marais/Funguars de Marais].
+    ${number: 1} ${choice-plurality: 1}[Chenille Carnivore/Chenilles Carnivores].${prompt}
   8069: |-
-    ${number: 0} ${choice-plurality: 0}[Death Wasp/Death Wasps].
-    ${number: 1} ${choice-plurality: 1}[Berry Grub/Berry Grubs].${prompt}
-  8070: '${number: 0} member${choice-plurality: 0}[/s] of the mandragora family.${prompt}'
-  8071: '${number: 0} ${choice-plurality: 0}[Savanna Rarab/Savanna Rarabs].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Guêpe de Mort/Guêpes de Mort].
+    ${number: 1} ${choice-plurality: 1}[Larve de Baie/Larves de Baie].${prompt}
+  8070: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des mandragores.${prompt}'
+  8071: '${number: 0} ${choice-plurality: 0}[Rarab de Savane/Rarabs de Savane].${prompt}'
   8072: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the crawler family.
-    ${number: 1} ${choice-plurality: 1}[Carrion Crow/Carrion Crows].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des chenilles.
+    ${number: 1} ${choice-plurality: 1}[Corbeau Charognard/Corbeaux Charognards].${prompt}
   8073: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Yagudo family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the crawler family.${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Yagudo.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des chenilles.${prompt}
   8074: |-
-    ${number: 0} ${choice-plurality: 0}[Strolling Sapling/Strolling Saplings].
-    ${number: 1} ${choice-plurality: 1}[Killer Bee/Killer Bees].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Jeune Pousse Déambulante/Jeunes Pousses Déambulantes].
+    ${number: 1} ${choice-plurality: 1}[Abeille Tueuse/Abeilles Tueuses].${prompt}
   8075: '${number: 0} ${choice-plurality: 0}[Akbaba/Akbabas].${prompt}'
   8076: |-
     ${number: 0} ${choice-plurality: 0}[Sylvestre/Sylvestres].
-    ${number: 1} ${choice-plurality: 1}[Mighty Rarab/Mighty Rarabs].${prompt}
+    ${number: 1} ${choice-plurality: 1}[Rarab Puissant/Rarabs Puissants].${prompt}
   8077: |-
-    ${number: 0} ${choice-plurality: 0}[Carnivorous Crawler/Carnivorous Crawlers].
+    ${number: 0} ${choice-plurality: 0}[Chenille Carnivore/Chenilles Carnivores].
     ${number: 1} ${choice-plurality: 1}[Sylvestre/Sylvestres].${prompt}
   8078: |-
-    ${number: 0} ${choice-plurality: 0}[Bull Dhalmel/Bull Dhalmels].
-    ${number: 1} ${choice-plurality: 1}[Carnivorous Crawler/Carnivorous Crawlers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Dhalmel Taureau/Dhalmels Taureaux].
+    ${number: 1} ${choice-plurality: 1}[Chenille Carnivore/Chenilles Carnivores].${prompt}
   8079: |-
-    ${number: 0} ${choice-plurality: 0}[Poison Leech/Poison Leeches].
-    ${number: 1} ${choice-plurality: 1}[Bull Dhalmel/Bull Dhalmels].${prompt}
-  8080: '${number: 0} ${choice-plurality: 0}[Crane Fly/Crane Flies].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Sangsue Venimeuse/Sangsues Venimeuses].
+    ${number: 1} ${choice-plurality: 1}[Dhalmel Taureau/Dhalmels Taureaux].${prompt}
+  8080: '${number: 0} ${choice-plurality: 0}[Tipule/Tipules].${prompt}'
   8081: |-
-    ${number: 0} ${choice-plurality: 0}[Hill Lizard/Hill Lizards].
-    ${number: 1} ${choice-plurality: 1}[Crane Fly/Crane Flies].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Lézard de Colline/Lézards de Colline].
+    ${number: 1} ${choice-plurality: 1}[Tipule/Tipules].${prompt}
   8082: |-
-    ${number: 0} ${choice-plurality: 0}[Stag Beetle/Stag Beetles].
-    ${number: 1} ${choice-plurality: 1}[Hill Lizard/Hill Lizards].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Scarabée Cerf-volant/Scarabées Cerf-volant].
+    ${number: 1} ${choice-plurality: 1}[Lézard de Colline/Lézards de Colline].${prompt}
   8083: |-
     ${number: 0} ${choice-plurality: 0}[Raptor/Raptors].
-    ${number: 1} ${choice-plurality: 1}[Stag Beetle/Stag Beetles].${prompt}
+    ${number: 1} ${choice-plurality: 1}[Scarabée Cerf-volant/Scarabées Cerf-volant].${prompt}
   8084: |-
-    ${number: 0} ${choice-plurality: 0}[Hill Lizard/Hill Lizards].
-    ${number: 1} ${choice-plurality: 1}[Diving Beetle/Diving Beetles].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Lézard de Colline/Lézards de Colline].
+    ${number: 1} ${choice-plurality: 1}[Dytique Plongeur/Dytiques Plongeurs].${prompt}
   8085: |-
     ${number: 0} ${choice-plurality: 0}[Clipper/Clippers].
-    ${number: 1} ${choice-plurality: 1}[Land Worm/Land Worms].${prompt}
+    ${number: 1} ${choice-plurality: 1}[Ver Terrestre/Vers Terrestres].${prompt}
   8086: |-
     ${number: 0} ${choice-plurality: 0}[Clipper/Clippers].
-    ${number: 1} ${choice-plurality: 1}[Seeker Bats/Seeker Bats].${prompt}
+    ${number: 1} ${choice-plurality: 1}[Chauve-souris Chercheuse/Chauves-souris Chercheuses].${prompt}
   8087: |-
-    ${number: 0} ${choice-plurality: 0}[Greater Pugil/Greater Pugils].
+    ${number: 0} ${choice-plurality: 0}[Pugil Supérieur/Pugils Supérieurs].
     ${number: 1} ${choice-plurality: 1}[Clipper/Clippers].${prompt}
   8088: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Gigas family.
-    ${number: 1} ${choice-plurality: 1}[Greater Pugil/Greater Pugils].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Gigas.
+    ${number: 1} ${choice-plurality: 1}[Pugil Supérieur/Pugils Supérieurs].${prompt}
   8089: |-
     ${number: 0} ${choice-plurality: 0}[Acrophies/Acrophies].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Gigas family.
-    ${number: 2} ${choice-plurality: 2}[Greater Pugil/Greater Pugils].${prompt}
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gigas.
+    ${number: 2} ${choice-plurality: 2}[Pugil Supérieur/Pugils Supérieurs].${prompt}
   8090: |-
-    ${number: 0} ${choice-plurality: 0}[Tundra Tiger/Tundra Tigers].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Tigre de Toundra/Tigres de Toundra].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8091: |-
-    ${number: 0} ${choice-plurality: 0}[Tundra Tiger/Tundra Tigers].
-    ${number: 1} ${choice-plurality: 1}[Living Statue/Living Statues].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Tigre de Toundra/Tigres de Toundra].
+    ${number: 1} ${choice-plurality: 1}[Statue Vivante/Statues Vivantes].${prompt}
   8092: |-
-    ${number: 0} ${choice-plurality: 0}[Bat Eye/Bat Eyes].
-    ${number: 1} ${choice-plurality: 1}[Living Statue/Living Statues].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Œil de Chauve-souris/Yeux de Chauve-souris].
+    ${number: 1} ${choice-plurality: 1}[Statue Vivante/Statues Vivantes].${prompt}
   8093: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Goblin family.
-    ${number: 1} ${choice-plurality: 1}[Bat Eye/Bat Eyes].
-    ${number: 2} ${choice-plurality: 2}[Living Statue/Living Statues].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Gobelin.
+    ${number: 1} ${choice-plurality: 1}[Œil de Chauve-souris/Yeux de Chauve-souris].
+    ${number: 2} ${choice-plurality: 2}[Statue Vivante/Statues Vivantes].${prompt}
   8094: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Gigas family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.
-    ${number: 2} ${choice-plurality: 2}[Bat Eye/Bat Eyes].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Gigas.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.
+    ${number: 2} ${choice-plurality: 2}[Œil de Chauve-souris/Yeux de Chauve-souris].${prompt}
   8095: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the skeleton family.
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des squelettes.
     ${number: 1} ${choice-plurality: 1}[Etemmu/Etemmus].${prompt}
   8096: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the skeleton family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the evil weapon family.${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des squelettes.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des armes maléfiques.${prompt}
   8097: |-
-    ${number: 0} ${choice-plurality: 0}[Evil Eye/Evil Eyes].
-    ${number: 1} member${choice-plurality: 1}[/s] of the skeleton family.
-    ${number: 2} member${choice-plurality: 2}[/s] of the evil weapon family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Œil Maléfique/Yeux Maléfiques].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des squelettes.
+    ${number: 2} membre${choice-plurality: 2}[/s] de la famille des armes maléfiques.${prompt}
   8098: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Gigas family.
-    ${number: 1} ${choice-plurality: 1}[Evil Eye/Evil Eyes].
-    ${number: 2} member${choice-plurality: 2}[/s] of the skeleton family.${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Gigas.
+    ${number: 1} ${choice-plurality: 1}[Œil Maléfique/Yeux Maléfiques].
+    ${number: 2} membre${choice-plurality: 2}[/s] de la famille des squelettes.${prompt}
   8099: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the demon family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the Gigas family.
-    ${number: 2} ${choice-plurality: 2}[Evil Eye/Evil Eyes].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des démons.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gigas.
+    ${number: 2} ${choice-plurality: 2}[Œil Maléfique/Yeux Maléfiques].${prompt}
   8100: |-
-    ${number: 0} ${choice-plurality: 0}[Wild Sheep/Wild Sheep].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Mouton Sauvage/Moutons Sauvages].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8101: |-
-    ${number: 0} ${choice-plurality: 0}[Thread Leech/Thread Leeches].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Sangsue Filamenteuse/Sangsues Filamenteuses].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8102: |-
-    ${number: 0} ${choice-plurality: 0}[Wandering Sapling/Wandering Saplings].
-    ${number: 1} ${choice-plurality: 1}[Screamer/Screamers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Jeune Pousse Vagabonde/Jeunes Pousses Vagabondes].
+    ${number: 1} ${choice-plurality: 1}[Crieur/Crieurs].${prompt}
   8103: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Quadav family.
-    ${number: 1} ${choice-plurality: 1}[Ornery Sheep/Ornery Sheep].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Quadav.
+    ${number: 1} ${choice-plurality: 1}[Mouton Revêche/Moutons Revêches].${prompt}
   8104: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Quadav family.
-    ${number: 1} ${choice-plurality: 1}[Marsh Funguar/Marsh Funguars].
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Quadav.
+    ${number: 1} ${choice-plurality: 1}[Funguar de Marais/Funguars de Marais].
     ${number: 2} ${choice-plurality: 2}[Goobbue/Goobbues].${prompt}
   8105: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Yagudo family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the bee family.${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Yagudo.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des abeilles.${prompt}
   8106: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the pugil family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des pugils.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8107: |-
     ${number: 0} ${choice-plurality: 0}[Coeurl/Coeurls].
-    ${number: 1} member${choice-plurality: 1}[/s] of the evil weapon family.${prompt}
-  8108: '${number: 0} member${choice-plurality: 0}[/s] of the pugil family.${prompt}'
-  8109: '${number: 0} ${choice-plurality: 0}[Carrion Worm/Carrion Worms].${prompt}'
-  8110: '${number: 0} ${choice-plurality: 0}[Forest Hare/Forest Hares].${prompt}'
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des armes maléfiques.${prompt}
+  8108: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des pugils.${prompt}'
+  8109: '${number: 0} ${choice-plurality: 0}[Ver Charognard/Vers Charognards].${prompt}'
+  8110: '${number: 0} ${choice-plurality: 0}[Lièvre de Forêt/Lièvres de Forêt].${prompt}'
   8111: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Orc family.
-    ${number: 1} ${choice-plurality: 1}[Forest Funguar/Forest Funguars].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Orc.
+    ${number: 1} ${choice-plurality: 1}[Funguar de Forêt/Funguars de Forêt].${prompt}
   8112: |-
-    ${number: 0} ${choice-plurality: 0}[Wild Sheep/Wild Sheep].
-    ${number: 1} ${choice-plurality: 1}[Scarab Beetle/Scarab Beetles].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Mouton Sauvage/Moutons Sauvages].
+    ${number: 1} ${choice-plurality: 1}[Scarabée/Scarabées].${prompt}
   8113: |-
-    ${number: 0} ${choice-plurality: 0}[Mad Sheep/Mad Sheep].
+    ${number: 0} ${choice-plurality: 0}[Mouton Fou/Moutons Fous].
     ${number: 1} ${choice-plurality: 1}[Akbaba/Akbabas].${prompt}
   8114: |-
-    ${number: 0} ${choice-plurality: 0}[Mad Sheep/Mad Sheep].
-    ${number: 1} member${choice-plurality: 1}[/s] of the crab family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Mouton Fou/Moutons Fous].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des crabes.${prompt}
   8115: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the bat family.
-    ${number: 1} member${choice-plurality: 1}[/s] of the funguar family.${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille des chauves-souris.
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des funguars.${prompt}
   8116: |-
-    ${number: 0} ${choice-plurality: 0}[Stalking Sapling/Stalking Saplings].
-    ${number: 1} ${choice-plurality: 1}[May Fly/May Flies].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Jeune Pousse Traqueuse/Jeunes Pousses Traqueuses].
+    ${number: 1} ${choice-plurality: 1}[Éphémère de Mai/Éphémères de Mai].${prompt}
   8117: |-
-    ${number: 0} ${choice-plurality: 0}[Stalking Sapling/Stalking Saplings].
+    ${number: 0} ${choice-plurality: 0}[Jeune Pousse Traqueuse/Jeunes Pousses Traqueuses].
     ${number: 1} ${choice-plurality: 1}[Ba/Bas].${prompt}
   8118: |-
-    ${number: 0} ${choice-plurality: 0}[Sabertooth Tiger/Sabertooth Tigers].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.
-    ${number: 2} member${choice-plurality: 2}[/s] of the Orc family.${prompt}
-  8119: '${number: 0} ${choice-plurality: 0}[Sabertooth Tiger/Sabertooth Tigers].${prompt}'
-  8120: '${number: 0} member${choice-plurality: 0}[/s] of the bee family.${prompt}'
-  8121: '${number: 0} ${choice-plurality: 0}[Stone Eater/Stone Eaters].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Tigre à Dents de Sabre/Tigres à Dents de Sabre].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.
+    ${number: 2} membre${choice-plurality: 2}[/s] de la famille Orc.${prompt}
+  8119: '${number: 0} ${choice-plurality: 0}[Tigre à Dents de Sabre/Tigres à Dents de Sabre].${prompt}'
+  8120: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des abeilles.${prompt}'
+  8121: '${number: 0} ${choice-plurality: 0}[Mangeur de Pierre/Mangeurs de Pierre].${prompt}'
   8122: |-
-    ${number: 0} ${choice-plurality: 0}[Vulture/Vultures].
-    ${number: 1} ${choice-plurality: 1}[Walking Sapling/Walking Saplings].${prompt}
-  8123: '${number: 0} member${choice-plurality: 0}[/s] of the Goblin family.${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Vautour/Vautours].
+    ${number: 1} ${choice-plurality: 1}[Jeune Pousse Marchante/Jeunes Pousses Marchantes].${prompt}
+  8123: '${number: 0} membre${choice-plurality: 0}[/s] de la famille Gobelin.${prompt}'
   8124: |-
-    ${number: 0} ${choice-plurality: 0}[Rock Lizard/Rock Lizards].
-    ${number: 1} member${choice-plurality: 1}[/s] of the crab family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Lézard de Roche/Lézards de Roche].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des crabes.${prompt}
   8125: |-
-    ${number: 0} ${choice-plurality: 0}[Strolling Sapling/Strolling Saplings].
-    ${number: 1} ${choice-plurality: 1}[Huge Wasp/Huge Wasps].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Jeune Pousse Déambulante/Jeunes Pousses Déambulantes].
+    ${number: 1} ${choice-plurality: 1}[Guêpe Énorme/Guêpes Énormes].${prompt}
   8126: |-
-    ${number: 0} ${choice-plurality: 0}[Huge Wasp/Huge Wasps].
-    ${number: 1} ${choice-plurality: 1}[Mist Lizard/Mist Lizards].${prompt}
-  8127: '${number: 0} member${choice-plurality: 0}[/s] of the Quadav family.${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Guêpe Énorme/Guêpes Énormes].
+    ${number: 1} ${choice-plurality: 1}[Lézard de Brume/Lézards de Brume].${prompt}
+  8127: '${number: 0} membre${choice-plurality: 0}[/s] de la famille Quadav.${prompt}'
   8128: |-
-    ${number: 0} ${choice-plurality: 0}[Goblin Ambusher/Goblin Ambushers].
-    ${number: 1} ${choice-plurality: 1}[Goblin Tinkerer/Goblin Tinkerers].
-    ${number: 2} ${choice-plurality: 2}[Goblin Butcher/Goblin Butchers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Gobelin Embusqueur/Gobelins Embusqueurs].
+    ${number: 1} ${choice-plurality: 1}[Gobelin Bricoleur/Gobelins Bricoleurs].
+    ${number: 2} ${choice-plurality: 2}[Gobelin Boucher/Gobelins Bouchers].${prompt}
   8129: |-
-    ${number: 0} ${choice-plurality: 0}[Death Wasp/Death Wasps].
-    ${number: 1} ${choice-plurality: 1}[Poison Leech/Poison Leeches].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Guêpe de Mort/Guêpes de Mort].
+    ${number: 1} ${choice-plurality: 1}[Sangsue Venimeuse/Sangsues Venimeuses].${prompt}
   8130: |-
-    ${number: 0} ${choice-plurality: 0}[Berry Grub/Berry Grubs].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Larve de Baie/Larves de Baie].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8131: |-
-    ${number: 0} ${choice-plurality: 0}[Berry Grub/Berry Grubs].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Quadav family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Larve de Baie/Larves de Baie].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Quadav.${prompt}
   8132: '${number: 0} ${choice-plurality: 0}[Ochu/Ochus].${prompt}'
-  8133: '${number: 0} member${choice-plurality: 0}[/s] of the mandragora family.${prompt}'
-  8134: '${number: 0} member${choice-plurality: 0}[/s] of the bee family.${prompt}'
-  8135: '${number: 0} ${choice-plurality: 0}[Savanna Rarab/Savanna Rarabs].${prompt}'
+  8133: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des mandragores.${prompt}'
+  8134: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des abeilles.${prompt}'
+  8135: '${number: 0} ${choice-plurality: 0}[Rarab de Savane/Rarabs de Savane].${prompt}'
   8136: |-
-    ${number: 0} ${choice-plurality: 0}[River Crab/River Crabs].
-    ${number: 1} ${choice-plurality: 1}[Crawler/Crawlers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Crabe de Rivière/Crabes de Rivière].
+    ${number: 1} ${choice-plurality: 1}[Chenille/Chenilles].${prompt}
   8137: |-
-    ${number: 0} ${choice-plurality: 0}[Carrion Crow/Carrion Crows].
-    ${number: 1} ${choice-plurality: 1}[Crawler/Crawlers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Corbeau Charognard/Corbeaux Charognards].
+    ${number: 1} ${choice-plurality: 1}[Chenille/Chenilles].${prompt}
   8138: |-
-    ${number: 0} ${choice-plurality: 0}[Canyon Rarab/Canyon Rarabs].
+    ${number: 0} ${choice-plurality: 0}[Rarab de Canyon/Rarabs de Canyon].
     ${number: 1} ${choice-plurality: 1}[Pygmaioi/Pygmaiois].${prompt}
   8139: |-
     ${number: 0} ${choice-plurality: 0}[Pygmaioi/Pygmaiois].
-    ${number: 1} ${choice-plurality: 1}[Killer Bee/Killer Bees].${prompt}
+    ${number: 1} ${choice-plurality: 1}[Abeille Tueuse/Abeilles Tueuses].${prompt}
   8140: |-
-    ${number: 0} ${choice-plurality: 0}[Canyon Crawler/Canyon Crawlers].
-    ${number: 1} ${choice-plurality: 1}[Wild Dhalmel/Wild Dhalmels].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Chenille de Canyon/Chenilles de Canyon].
+    ${number: 1} ${choice-plurality: 1}[Dhalmel Sauvage/Dhalmels Sauvages].${prompt}
   8141: |-
-    ${number: 0} ${choice-plurality: 0}[Sauromugue Skink/Sauromugue Skinks].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Scinque de Sauromugue/Scinques de Sauromugue].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8142: |-
-    ${number: 0} ${choice-plurality: 0}[Champaign Coeurl/Champaign Coeurls].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Coeurl de Champagne/Coeurls de Champagne].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8143: |-
-    ${number: 0} ${choice-plurality: 0}[Sauromugue Skink/Sauromugue Skinks].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Yagudo family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Scinque de Sauromugue/Scinques de Sauromugue].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Yagudo.${prompt}
   8144: |-
-    ${number: 0} ${choice-plurality: 0}[Tabar Beak/Tabar Beaks].
-    ${number: 1} member${choice-plurality: 1}[/s] of the evil weapon family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Bec de Tabar/Becs de Tabar].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des armes maléfiques.${prompt}
   8145: |-
-    ${number: 0} ${choice-plurality: 0}[Lesser Gaylas/Lesser Gaylas].
-    ${number: 1} ${choice-plurality: 1}[Greater Gayla/Greater Gaylas].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Gayla Mineur/Gaylas Mineurs].
+    ${number: 1} ${choice-plurality: 1}[Gayla Majeur/Gaylas Majeurs].${prompt}
   8146: |-
-    ${number: 0} ${choice-plurality: 0}[Lesser Gaylas/Lesser Gaylas].
-    ${number: 1} member${choice-plurality: 1}[/s] of the evil weapon family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Gayla Mineur/Gaylas Mineurs].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des armes maléfiques.${prompt}
   8147: |-
-    ${number: 0} ${choice-plurality: 0}[Greater Gayla/Greater Gaylas].
-    ${number: 1} undead-type creature${choice-plurality: 1}[/s].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Gayla Majeur/Gaylas Majeurs].
+    ${number: 1} créature${choice-plurality: 1}[/s] de type mort-vivant.${prompt}
   8148: |-
-    ${number: 0} ${choice-plurality: 0}[Beach Bunny/Beach Bunnies].
-    ${number: 1} ${choice-plurality: 1}[Sand Lizard/Sand Lizards].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Lapin de Plage/Lapins de Plage].
+    ${number: 1} ${choice-plurality: 1}[Lézard de Sable/Lézards de Sable].${prompt}
   8149: |-
-    ${number: 0} ${choice-plurality: 0}[Robber Crab/Robber Crabs].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Crabe Pillard/Crabes Pillards].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8150: |-
-    ${number: 0} ${choice-plurality: 0}[Robber Crab/Robber Crabs].
-    ${number: 1} ${choice-plurality: 1}[Velociraptor/Velociraptors].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Crabe Pillard/Crabes Pillards].
+    ${number: 1} ${choice-plurality: 1}[Vélociraptor/Vélociraptors].${prompt}
   8151: |-
-    ${number: 0} ${choice-plurality: 0}[Velociraptor/Velociraptors].
-    ${number: 1} ${choice-plurality: 1}[Sand Cockatrice/Sand Cockatrices].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Vélociraptor/Vélociraptors].
+    ${number: 1} ${choice-plurality: 1}[Cockatrice de Sable/Cockatrices de Sable].${prompt}
   8152: |-
-    ${number: 0} ${choice-plurality: 0}[Sand Cockatrice/Sand Cockatrices].
-    ${number: 1} ${choice-plurality: 1}[Greater Manticore/Greater Manticores].${prompt}
-  8153: '${number: 0} ${choice-plurality: 0}[Giant Spider/Giant Spiders].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Cockatrice de Sable/Cockatrices de Sable].
+    ${number: 1} ${choice-plurality: 1}[Manticore Majeur/Manticores Majeurs].${prompt}
+  8153: '${number: 0} ${choice-plurality: 0}[Araignée Géante/Araignées Géantes].${prompt}'
   8154: |-
     ${number: 0} ${choice-plurality: 0}[Antican Auxiliarius/Antican Auxiliarii].
     ${number: 1} ${choice-plurality: 1}[Antican Faber/Antican Fabers].
-    ${number: 2} ${choice-plurality: 2}[Sand Beetle/Sand Beetles].${prompt}
+    ${number: 2} ${choice-plurality: 2}[Scarabée de Sable/Scarabées de Sable].${prompt}
   8155: |-
     ${number: 0} ${choice-plurality: 0}[Antican Funditor/Antican Funditors].
     ${number: 1} ${choice-plurality: 1}[Antican Faber/Antican Fabers].
-    ${number: 2} ${choice-plurality: 2}[Desert Dhalmel/Desert Dhalmels].${prompt}
+    ${number: 2} ${choice-plurality: 2}[Dhalmel du Désert/Dhalmels du Désert].${prompt}
   8156: |-
     ${number: 0} ${choice-plurality: 0}[Antican Decurio/Antican Decuriones].
     ${number: 1} ${choice-plurality: 1}[Antican Sagittarius/Antican Sagittarii].
     ${number: 2} ${choice-plurality: 2}[Antican Speculator/Antican Speculators].
-    ${number: 3} ${choice-plurality: 3}[Lesser Manticore/Lesser Manticores].${prompt}
+    ${number: 3} ${choice-plurality: 3}[Manticore Mineur/Manticores Mineurs].${prompt}
   8157: |-
-    ${number: 0} ${choice-plurality: 0}[Goblin Poacher/Goblin Poachers].
-    ${number: 1} ${choice-plurality: 1}[Goblin Robber/Goblin Robbers].
-    ${number: 2} ${choice-plurality: 2}[Goblin Reaper/Goblin Reapers].
-    ${number: 3} ${choice-plurality: 3}[Lesser Manticore/Lesser Manticores].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Gobelin Braconnier/Gobelins Braconniers].
+    ${number: 1} ${choice-plurality: 1}[Gobelin Voleur/Gobelins Voleurs].
+    ${number: 2} ${choice-plurality: 2}[Gobelin Faucheur/Gobelins Faucheurs].
+    ${number: 3} ${choice-plurality: 3}[Manticore Mineur/Manticores Mineurs].${prompt}
   8158: |-
-    ${number: 0} ${choice-plurality: 0}[Ogrefly/Ogreflies].
-    ${number: 1} ${choice-plurality: 1}[Goobbue Gardener/Goobbue Gardeners].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Ogremouche/Ogremouches].
+    ${number: 1} ${choice-plurality: 1}[Goobbue Jardinier/Goobbues Jardiniers].${prompt}
   8159: |-
-    ${number: 0} ${choice-plurality: 0}[Myxomycete/Myxomycetes].
-    ${number: 1} ${choice-plurality: 1}[Ogrefly/Ogreflies].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Myxomycète/Myxomycètes].
+    ${number: 1} ${choice-plurality: 1}[Ogremouche/Ogremouches].${prompt}
   8160: |-
-    ${number: 0} ${choice-plurality: 0}[Goobbue Parasite/Goobbue Parasites].
-    ${number: 1} ${choice-plurality: 1}[Myxomycete/Myxomycetes].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Goobbue Parasite/Goobbues Parasites].
+    ${number: 1} ${choice-plurality: 1}[Myxomycète/Myxomycètes].${prompt}
   8161: |-
-    ${number: 0} ${choice-plurality: 0}[Master Coeurl/Master Coeurls].
-    ${number: 1} ${choice-plurality: 1}[Goobbue Parasite/Goobbue Parasites].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Coeurl Maître/Coeurls Maîtres].
+    ${number: 1} ${choice-plurality: 1}[Goobbue Parasite/Goobbues Parasites].${prompt}
   8162: |-
-    ${number: 0} ${choice-plurality: 0}[Rock Golem/Rock Golems].
-    ${number: 1} ${choice-plurality: 1}[Master Coeurl/Master Coeurls].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Golem de Roche/Golems de Roche].
+    ${number: 1} ${choice-plurality: 1}[Coeurl Maître/Coeurls Maîtres].${prompt}
   8163: |-
-    ${number: 0} ${choice-plurality: 0}[Killing Weapon/Killing Weapons].
-    ${number: 1} ${choice-plurality: 1}[Ominous Weapon/Ominous Weapons].${prompt}
-  8164: '${number: 0} ${choice-plurality: 0}[Magic Flagon/Magic Flagons].${prompt}'
-  8165: '${number: 0} ${choice-plurality: 0}[Cursed Puppet/Cursed Puppets].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Arme Tueuse/Armes Tueuses].
+    ${number: 1} ${choice-plurality: 1}[Arme de Mauvais Augure/Armes de Mauvais Augure].${prompt}
+  8164: '${number: 0} ${choice-plurality: 0}[Flacon Magique/Flacons Magiques].${prompt}'
+  8165: '${number: 0} ${choice-plurality: 0}[Marionnette Maudite/Marionnettes Maudites].${prompt}'
   8166: |-
-    ${number: 0} ${choice-plurality: 0}[Apocalyptic Weapon/Apocalyptic Weapons].
-    ${number: 1} ${choice-plurality: 1}[Darksteel Golem/Darksteel Golems].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Arme Apocalyptique/Armes Apocalyptiques].
+    ${number: 1} ${choice-plurality: 1}[Golem d''Acier Noir/Golems d''Acier Noir].${prompt}
   8167: |-
-    ${number: 0} ${choice-plurality: 0}[Infernal Weapon/Infernal Weapons].
-    ${number: 1} ${choice-plurality: 1}[Darksteel Golem/Darksteel Golems].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Arme Infernale/Armes Infernales].
+    ${number: 1} ${choice-plurality: 1}[Golem d''Acier Noir/Golems d''Acier Noir].${prompt}
   8168: |-
-    ${number: 0} ${choice-plurality: 0}[Yuhtunga Mandragora/Yuhtunga Mandragoras].
-    ${number: 1} ${choice-plurality: 1}[Ivory Lizard/Ivory Lizards].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Mandragore de Yuhtunga/Mandragores de Yuhtunga].
+    ${number: 1} ${choice-plurality: 1}[Lézard d''Ivoire/Lézards d''Ivoire].${prompt}
   8169: |-
-    ${number: 0} ${choice-plurality: 0}[Death Jacket/Death Jackets].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
-  8170: '${number: 0} ${choice-plurality: 0}[Young Opo-opo/Young Opo-opos].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Veste de Mort/Vestes de Mort].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
+  8170: '${number: 0} ${choice-plurality: 0}[Jeune Opo-opo/Jeunes Opo-opos].${prompt}'
   8171: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Sahagin family.
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Sahagin.
     ${number: 1} ${choice-plurality: 1}[Makara/Makaras].${prompt}
   8172: |-
-    ${number: 0} ${choice-plurality: 0}[Young Opo-opo/Young Opo-opos].
-    ${number: 1} ${choice-plurality: 1}[Soldier Crawler/Soldier Crawlers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Jeune Opo-opo/Jeunes Opo-opos].
+    ${number: 1} ${choice-plurality: 1}[Chenille Soldat/Chenilles Soldats].${prompt}
   8173: |-
-    ${number: 0} ${choice-plurality: 0}[White Lizard/White Lizards].
-    ${number: 1} member${choice-plurality: 1}[/s] of the Goblin family.${prompt}
+    ${number: 0} ${choice-plurality: 0}[Lézard Blanc/Lézards Blancs].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille Gobelin.${prompt}
   8174: |-
-    ${number: 0} ${choice-plurality: 0}[Yhoator Mandragora/Yhoator Mandragoras].
-    ${number: 1} ${choice-plurality: 1}[Yhoator Wasp/Yhoator Wasps].${prompt}
-  8175: '${number: 0} ${choice-plurality: 0}[Young Opo-opo/Young Opo-opos].${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Mandragore de Yhoator/Mandragores de Yhoator].
+    ${number: 1} ${choice-plurality: 1}[Guêpe de Yhoator/Guêpes de Yhoator].${prompt}
+  8175: '${number: 0} ${choice-plurality: 0}[Jeune Opo-opo/Jeunes Opo-opos].${prompt}'
   8176: |-
-    ${number: 0} ${choice-plurality: 0}[Worker Crawler/Worker Crawlers].
-    ${number: 1} ${choice-plurality: 1}[Young Opo-opo/Young Opo-opos].${prompt}
-  8177: '${number: 0} member${choice-plurality: 0}[/s] of the Tonberry family.${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Chenille Ouvrière/Chenilles Ouvrières].
+    ${number: 1} ${choice-plurality: 1}[Jeune Opo-opo/Jeunes Opo-opos].${prompt}
+  8177: '${number: 0} membre${choice-plurality: 0}[/s] de la famille Tonberry.${prompt}'
   8178: |-
-    ${number: 0} ${choice-plurality: 0}[Desert Spider/Desert Spiders].
+    ${number: 0} ${choice-plurality: 0}[Araignée du Désert/Araignées du Désert].
     ${number: 1} ${choice-plurality: 1}[Antican Essedarius/Antican Essedarii].${prompt}
   8179: |-
-    ${number: 0} ${choice-plurality: 0}[Desert Dhalmel/Desert Dhalmels].
+    ${number: 0} ${choice-plurality: 0}[Dhalmel du Désert/Dhalmels du Désert].
     ${number: 1} ${choice-plurality: 1}[Antican Eques/Antican Equites].
     ${number: 2} ${choice-plurality: 2}[Antican Retiarius/Antican Retiarii].${prompt}
   8180: |-
-    ${number: 0} ${choice-plurality: 0}[Desert Beetle/Desert Beetles].
+    ${number: 0} ${choice-plurality: 0}[Scarabée du Désert/Scarabées du Désert].
     ${number: 1} ${choice-plurality: 1}[Cactuar/Cactuars].${prompt}
   8181: |-
-    ${number: 0} member${choice-plurality: 0}[/s] of the Goblin family.
-    ${number: 1} ${choice-plurality: 1}[Tulwar Scorpion/Tulwar Scorpions].${prompt}
+    ${number: 0} membre${choice-plurality: 0}[/s] de la famille Gobelin.
+    ${number: 1} ${choice-plurality: 1}[Scorpion Tulwar/Scorpions Tulwar].${prompt}
   8182: |-
     ${number: 0} ${choice-plurality: 0}[Antican Secutor/Antican Secutors].
     ${number: 1} ${choice-plurality: 1}[Antican Lanista/Antican Lanistae].${prompt}
   8183: |-
-    ${number: 0} ${choice-plurality: 0}[Velociraptor/Velociraptors].
+    ${number: 0} ${choice-plurality: 0}[Vélociraptor/Vélociraptors].
     ${number: 1} ${choice-plurality: 1}[Peryton/Perytons].${prompt}
   8184: |-
-    ${number: 0} ${choice-plurality: 0}[Velociraptor/Velociraptors].
-    ${number: 1} ${choice-plurality: 1}[Valley Manticore/Valley Manticores].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Vélociraptor/Vélociraptors].
+    ${number: 1} ${choice-plurality: 1}[Manticore de Vallée/Manticores de Vallée].${prompt}
   8185: |-
     ${number: 0} ${choice-plurality: 0}[Peryton/Perytons].
-    ${number: 1} ${choice-plurality: 1}[Valley Manticore/Valley Manticores].${prompt}
+    ${number: 1} ${choice-plurality: 1}[Manticore de Vallée/Manticores de Vallée].${prompt}
   8186: |-
-    ${number: 0} ${choice-plurality: 0}[Flamingo/Flamingoes].
-    ${number: 1} ${choice-plurality: 1}[Sprinkler/Sprinklers].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Flamant/Flamants].
+    ${number: 1} ${choice-plurality: 1}[Arroseur/Arroseurs].${prompt}
   8187: |-
-    ${number: 0} ${choice-plurality: 0}[Sprinkler/Sprinklers].
-    ${number: 1} member${choice-plurality: 1}[/s] of the doll family.${prompt}
-  8188: '${number: 0} member${choice-plurality: 0}[/s] of the doll family.${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Arroseur/Arroseurs].
+    ${number: 1} membre${choice-plurality: 1}[/s] de la famille des poupées.${prompt}
+  8188: '${number: 0} membre${choice-plurality: 0}[/s] de la famille des poupées.${prompt}'
   8189: |-
-    ${number: 0} ${choice-plurality: 0}[Fire Elemental/Fire Elementals].
-    ${number: 1} ${choice-plurality: 1}[Air Elemental/Air Elementals].
-    ${number: 2} ${choice-plurality: 2}[Thunder Elemental/Thunder Elementals].${prompt}
+    ${number: 0} ${choice-plurality: 0}[Élémentaire de Feu/Élémentaires de Feu].
+    ${number: 1} ${choice-plurality: 1}[Élémentaire d''Air/Élémentaires d''Air].
+    ${number: 2} ${choice-plurality: 2}[Élémentaire de Foudre/Élémentaires de Foudre].${prompt}
   8190: |-
-    ${number: 0} ${choice-plurality: 0}[Ice Elemental/Ice Elementals].
-    ${number: 1} ${choice-plurality: 1}[Earth Elemental/Earth Elementals].
-    ${number: 2} ${choice-plurality: 2}[Water Elemental/Water Elementals].${prompt}
-  8191: 'Prey: Fungus Beetle / Kills: ${number: 0} ${prompt}'
-  8192: 'Prey: Jaggedy-Eared Jack / Kills: ${number: 0} ${prompt}'
-  8193: 'Prey: Amanita / Kills: ${number: 0} ${prompt}'
-  8194: 'Prey: Swamfisk / Kills: ${number: 0} ${prompt}'
-  8195: 'Prey: Bigmouth Billy / Kills: ${number: 0} ${prompt}'
-  8196: 'Prey: Rambukk / Kills: ${number: 0} ${prompt}'
-  8197: 'Prey: Nihniknoovi / Kills: ${number: 0} ${prompt}'
-  8198: 'Prey: Tumbling Truffle / Kills: ${number: 0} ${prompt}'
-  8199: 'Prey: Slumbering Samwell / Kills: ${number: 0} ${prompt}'
-  8200: 'Prey: Lumbering Lambert / Kills: ${number: 0} ${prompt}'
-  8201: 'Prey: Panzer Percival / Kills: ${number: 0} ${prompt}'
-  8202: 'Prey: Fraelissa / Kills: ${number: 0} ${prompt}'
-  8203: 'Prey: Sappy Sycamore / Kills: ${number: 0} ${prompt}'
-  8204: 'Prey: Supplespine Mujwuj / Kills: ${number: 0} ${prompt}'
-  8205: 'Prey: Tottering Toby / Kills: ${number: 0} ${prompt}'
-  8206: 'Prey: Skirling Liger / Kills: ${number: 0} ${prompt}'
-  8207: 'Prey: Eyegouger / Kills: ${number: 0} ${prompt}'
-  8208: 'Prey: Prankster Maverix / Kills: ${number: 0} ${prompt}'
-  8209: 'Prey: Hercules Beetle / Kills: ${number: 0} ${prompt}'
-  8210: 'Prey: Mycophile / Kills: ${number: 0} ${prompt}'
-  8211: 'Prey: Orctrap / Kills: ${number: 0} ${prompt}'
-  8212: 'Prey: Tempest Tigon / Kills: ${number: 0} ${prompt}'
-  8213: 'Prey: Orcish Wallbreacher / Kills: ${number: 0} ${prompt}'
-  8214: 'Prey: Thousandarm Deshglesh / Kills: ${number: 0} ${prompt}'
-  8215: 'Prey: Orcish Barricader / Kills: ${number: 0} ${prompt}'
-  8216: 'Prey: Hundredscar Hajwaj / Kills: ${number: 0} ${prompt}'
-  8217: 'Prey: Kegpaunch Doshgnosh / Kills: ${number: 0} ${prompt}'
-  8218: 'Prey: Chariotbuster Byakzak / Kills: ${number: 0} ${prompt}'
-  8219: 'Prey: Barbastelle / Kills: ${number: 0} ${prompt}'
-  8220: 'Prey: Ankou / Kills: ${number: 0} ${prompt}'
-  8221: 'Prey: Gwyllgi / Kills: ${number: 0} ${prompt}'
-  8222: 'Prey: Arioch / Kills: ${number: 0} ${prompt}'
-  8223: 'Prey: Shii / Kills: ${number: 0} ${prompt}'
-  8224: 'Prey: Manes / Kills: ${number: 0} ${prompt}'
-  8225: 'Prey: Donggu / Kills: ${number: 0} ${prompt}'
-  8226: 'Prey: Bombast / Kills: ${number: 0} ${prompt}'
-  8227: 'Prey: Agar Agar / Kills: ${number: 0} ${prompt}'
-  8228: 'Prey: Skull of Gluttony / Kills: ${number: 0} ${prompt}'
-  8229: 'Prey: Skull of Greed / Kills: ${number: 0} ${prompt}'
-  8230: 'Prey: Skull of Sloth / Kills: ${number: 0} ${prompt}'
-  8231: 'Prey: Skull of Lust / Kills: ${number: 0} ${prompt}'
-  8232: 'Prey: Skull of Pride / Kills: ${number: 0} ${prompt}'
-  8233: 'Prey: Skull of Envy / Kills: ${number: 0} ${prompt}'
-  8234: 'Prey: Skull of Wrath / Kills: ${number: 0} ${prompt}'
-  8235: 'Prey: Cwn Cyrff / Kills: ${number: 0} ${prompt}'
-  8236: 'Prey: Hawkeyed Dnatbat / Kills: ${number: 0} ${prompt}'
-  8237: 'Prey: Tigerbane Bakdak / Kills: ${number: 0} ${prompt}'
-  8238: 'Prey: Steelbiter Gudrud / Kills: ${number: 0} ${prompt}'
-  8239: 'Prey: Poisonhand Gnadgad / Kills: ${number: 0} ${prompt}'
-  8240: 'Prey: Blubbery Bulge / Kills: ${number: 0} ${prompt}'
-  8241: 'Prey: Stinging Sophie / Kills: ${number: 0} ${prompt}'
-  8242: 'Prey: Maighdean Uaine / Kills: ${number: 0} ${prompt}'
-  8243: 'Prey: Bedrock Barry / Kills: ${number: 0} ${prompt}'
-  8244: 'Prey: Leaping Lizzy / Kills: ${number: 0} ${prompt}'
-  8245: 'Prey: Tococo / Kills: ${number: 0} ${prompt}'
-  8246: 'Prey: Carnero / Kills: ${number: 0} ${prompt}'
-  8247: 'Prey: Stray Mary / Kills: ${number: 0} ${prompt}'
-  8248: 'Prey: Ghillie Dhu / Kills: ${number: 0} ${prompt}'
-  8249: 'Prey: Rampaging Ram / Kills: ${number: 0} ${prompt}'
-  8250: 'Prey: Highlander Lizard / Kills: ${number: 0} ${prompt}'
-  8251: 'Prey: Metal Shears / Kills: ${number: 0} ${prompt}'
-  8252: 'Prey: Golden Bat / Kills: ${number: 0} ${prompt}'
-  8253: 'Prey: Valkurm Emperor / Kills: ${number: 0} ${prompt}'
-  8254: 'Prey: Hippomaritimus / Kills: ${number: 0} ${prompt}'
-  8255: 'Prey: Bloodpool Vorax / Kills: ${number: 0} ${prompt}'
-  8256: 'Prey: Jolly Green / Kills: ${number: 0} ${prompt}'
-  8257: 'Prey: Toxic Tamlyn / Kills: ${number: 0} ${prompt}'
-  8258: 'Prey: Ni''Zho Bladebender / Kills: ${number: 0} ${prompt}'
-  8259: 'Prey: Black Triple Stars / Kills: ${number: 0} ${prompt}'
-  8260: 'Prey: Drooling Daisy / Kills: ${number: 0} ${prompt}'
-  8261: 'Prey: Ravenous Crawler / Kills: ${number: 0} ${prompt}'
-  8262: 'Prey: Eldritch Edge / Kills: ${number: 0} ${prompt}'
-  8263: 'Prey: Bu''Ghi Howlblade / Kills: ${number: 0} ${prompt}'
-  8264: 'Prey: Zi''Ghi Boneeater / Kills: ${number: 0} ${prompt}'
-  8265: 'Prey: Qu''Vho Deathhurler / Kills: ${number: 0} ${prompt}'
-  8266: 'Prey: Be''Hya Hundredwall / Kills: ${number: 0} ${prompt}'
-  8267: 'Prey: Teporingo / Kills: ${number: 0} ${prompt}'
-  8268: 'Prey: Chocoboleech / Kills: ${number: 0} ${prompt}'
-  8269: 'Prey: Geyser Lizard / Kills: ${number: 0} ${prompt}'
-  8270: 'Prey: Cargo Crab Colin / Kills: ${number: 0} ${prompt}'
-  8271: 'Prey: Falcatus Aranei / Kills: ${number: 0} ${prompt}'
-  8272: 'Prey: Dame Blanche / Kills: ${number: 0} ${prompt}'
-  8273: 'Prey: Thoon / Kills: ${number: 0} ${prompt}'
-  8274: 'Prey: Smothered Schmidt / Kills: ${number: 0} ${prompt}'
-  8275: 'Prey: Crushed Krause / Kills: ${number: 0} ${prompt}'
-  8276: 'Prey: Pulverized Pfeffer / Kills: ${number: 0} ${prompt}'
-  8277: 'Prey: Burned Bergmann / Kills: ${number: 0} ${prompt}'
-  8278: 'Prey: Wounded Wurfel / Kills: ${number: 0} ${prompt}'
-  8279: 'Prey: Asphyxiated Amsel / Kills: ${number: 0} ${prompt}'
-  8280: 'Prey: Demonic Tiphia / Kills: ${number: 0} ${prompt}'
-  8281: 'Prey: Dynast Beetle / Kills: ${number: 0} ${prompt}'
-  8282: 'Prey: Aqrabuamelu / Kills: ${number: 0} ${prompt}'
-  8283: 'Prey: Bi''Gho Headtaker / Kills: ${number: 0} ${prompt}'
-  8284: 'Prey: Ge''Dha Evileye / Kills: ${number: 0} ${prompt}'
-  8285: 'Prey: Da''Dha Hundredmask / Kills: ${number: 0} ${prompt}'
-  8286: 'Prey: Zo''Khu Blackcloud / Kills: ${number: 0} ${prompt}'
-  8287: 'Prey: Ga''Bhu Unvanquished / Kills: ${number: 0} ${prompt}'
-  8288: 'Prey: Bugbear Strongman / Kills: ${number: 0} ${prompt}'
-  8289: 'Prey: Goblin Wolfman / Kills: ${number: 0} ${prompt}'
-  8290: 'Prey: Bugbear Muscleman / Kills: ${number: 0} ${prompt}'
-  8291: 'Prey: Swashstox Beadblinker / Kills: ${number: 0} ${prompt}'
-  8292: 'Prey: Bugbear Matman / Kills: ${number: 0} ${prompt}'
-  8293: 'Prey: Sword Sorcerer Solisoq / Kills: ${number: 0} ${prompt}'
-  8294: 'Prey: Tom Tit Tat / Kills: ${number: 0} ${prompt}'
-  8295: 'Prey: Nunyenunc / Kills: ${number: 0} ${prompt}'
-  8296: 'Prey: Numbing Norman / Kills: ${number: 0} ${prompt}'
-  8297: 'Prey: Spiny Spipi / Kills: ${number: 0} ${prompt}'
-  8298: 'Prey: Sharp-Eared Ropipi / Kills: ${number: 0} ${prompt}'
-  8299: 'Prey: Duke Decapod / Kills: ${number: 0} ${prompt}'
-  8300: 'Prey: Yara Ma Yha Who / Kills: ${number: 0} ${prompt}'
-  8301: 'Prey: Serpopard Ishtar / Kills: ${number: 0} ${prompt}'
-  8302: 'Prey: Habrok / Kills: ${number: 0} ${prompt}'
-  8303: 'Prey: Herbage Hunter / Kills: ${number: 0} ${prompt}'
-  8304: 'Prey: Wake Warder Wanda / Kills: ${number: 0} ${prompt}'
-  8305: 'Prey: Buburimboo / Kills: ${number: 0} ${prompt}'
-  8306: 'Prey: Helldiver / Kills: ${number: 0} ${prompt}'
-  8307: 'Prey: Backoo / Kills: ${number: 0} ${prompt}'
-  8308: 'Prey: Serra / Kills: ${number: 0} ${prompt}'
-  8309: 'Prey: Intulo / Kills: ${number: 0} ${prompt}'
-  8310: 'Prey: Shankha / Kills: ${number: 0} ${prompt}'
-  8311: 'Prey: Splacknuck / Kills: ${number: 0} ${prompt}'
-  8312: 'Prey: Daggerclaw Dracos / Kills: ${number: 0} ${prompt}'
-  8313: 'Prey: Patripatan / Kills: ${number: 0} ${prompt}'
-  8314: 'Prey: Chonchon / Kills: ${number: 0} ${prompt}'
-  8315: 'Prey: Naa Zeku the Unwaiting / Kills: ${number: 0} ${prompt}'
-  8316: 'Prey: Deadly Dodo / Kills: ${number: 0} ${prompt}'
-  8317: 'Prey: Bashe / Kills: ${number: 0} ${prompt}'
-  8318: 'Prey: Thunderclaw Thuban / Kills: ${number: 0} ${prompt}'
-  8319: 'Prey: Blighting Brand / Kills: ${number: 0} ${prompt}'
-  8320: 'Prey: Sekhmet / Kills: ${number: 0} ${prompt}'
-  8321: 'Prey: Ambusher Antlion / Kills: ${number: 0} ${prompt}'
-  8322: 'Prey: Citipati / Kills: ${number: 0} ${prompt}'
-  8323: 'Prey: Sargas / Kills: ${number: 0} ${prompt}'
-  8324: 'Prey: Juu Duzu the Whirlwind / Kills: ${number: 0} ${prompt}'
-  8325: 'Prey: Hoo Mjuu the Torrent / Kills: ${number: 0} ${prompt}'
-  8326: 'Prey: Vuu Puqu the Beguiler / Kills: ${number: 0} ${prompt}'
-  8327: 'Prey: Quu Xijo the Illusory / Kills: ${number: 0} ${prompt}'
-  8328: 'Prey: Canal Moocher / Kills: ${number: 0} ${prompt}'
-  8329: 'Prey: Konjac / Kills: ${number: 0} ${prompt}'
-  8330: 'Prey: Brazen Bones / Kills: ${number: 0} ${prompt}'
-  8331: 'Prey: Nocuous Weapon / Kills: ${number: 0} ${prompt}'
-  8332: 'Prey: Maltha / Kills: ${number: 0} ${prompt}'
-  8333: 'Prey: Slendlix Spindlethumb / Kills: ${number: 0} ${prompt}'
-  8334: 'Prey: Desmodont / Kills: ${number: 0} ${prompt}'
-  8335: 'Prey: Ah Puch / Kills: ${number: 0} ${prompt}'
-  8336: 'Prey: Legalox Heftyhind / Kills: ${number: 0} ${prompt}'
-  8337: 'Prey: Trembler Tabitha / Kills: ${number: 0} ${prompt}'
-  8338: 'Prey: Lesath / Kills: ${number: 0} ${prompt}'
-  8339: 'Prey: Gloombound Lurker / Kills: ${number: 0} ${prompt}'
-  8340: 'Prey: Hellion / Kills: ${number: 0} ${prompt}'
-  8341: 'Prey: Peg Powler / Kills: ${number: 0} ${prompt}'
-  8342: 'Prey: Soulstealer Skullnix / Kills: ${number: 0} ${prompt}'
-  8343: 'Prey: Narasimha / Kills: ${number: 0} ${prompt}'
-  8344: 'Prey: Hazmat / Kills: ${number: 0} ${prompt}'
-  8345: 'Prey: Hovering Hotpot / Kills: ${number: 0} ${prompt}'
-  8346: 'Prey: Frogamander / Kills: ${number: 0} ${prompt}'
-  8347: 'Prey: Moo Ouzi the Swiftblade / Kills: ${number: 0} ${prompt}'
-  8348: 'Prey: Saa Doyi the Fervid / Kills: ${number: 0} ${prompt}'
-  8349: 'Prey: Yaa Haqa the Profane / Kills: ${number: 0} ${prompt}'
-  8350: 'Prey: Lii Jixa the Somnolist / Kills: ${number: 0} ${prompt}'
-  8351: 'Prey: Trickster Kinetix / Kills: ${number: 0} ${prompt}'
-  8352: 'Prey: Slippery Sucker / Kills: ${number: 0} ${prompt}'
-  8353: 'Prey: Qoofim / Kills: ${number: 0} ${prompt}'
-  8354: 'Prey: Atkorkamuy / Kills: ${number: 0} ${prompt}'
-  8355: 'Prey: Kirata / Kills: ${number: 0} ${prompt}'
-  8356: 'Prey: Gargantua / Kills: ${number: 0} ${prompt}'
-  8357: 'Prey: Calcabrina / Kills: ${number: 0} ${prompt}'
-  8358: 'Prey: Humbaba / Kills: ${number: 0} ${prompt}'
-  8359: 'Prey: Shadow Eye / Kills: ${number: 0} ${prompt}'
-  8360: 'Prey: Duke Focalor / Kills: ${number: 0} ${prompt}'
-  8361: 'Prey: Timeworn Warrior / Kills: ${number: 0} ${prompt}'
-  8362: 'Prey: Barbaric Weapon / Kills: ${number: 0} ${prompt}'
-  8363: 'Prey: Bonnacon / Kills: ${number: 0} ${prompt}'
-  8364: 'Prey: Frost Flambeau / Kills: ${number: 0} ${prompt}'
-  8365: 'Prey: Skvader / Kills: ${number: 0} ${prompt}'
-  8366: 'Prey: Magnotaur / Kills: ${number: 0} ${prompt}'
-  8367: 'Prey: Elusive Edwin / Kills: ${number: 0} ${prompt}'
-  8368: 'Prey: Keeper of Halidom / Kills: ${number: 0} ${prompt}'
-  8369: 'Prey: Bastet / Kills: ${number: 0} ${prompt}'
-  8370: 'Prey: Huwasi / Kills: ${number: 0} ${prompt}'
-  8371: 'Prey: Nightmare Vase / Kills: ${number: 0} ${prompt}'
-  8372: 'Prey: Rogue Receptacle / Kills: ${number: 0} ${prompt}'
-  8373: 'Prey: Martinet / Kills: ${number: 0} ${prompt}'
-  8374: 'Prey: Nargun / Kills: ${number: 0} ${prompt}'
-  8375: 'Prey: Enkelados / Kills: ${number: 0} ${prompt}'
-  8376: 'Prey: Ixtab / Kills: ${number: 0} ${prompt}'
-  8377: 'Prey: Autarch / Kills: ${number: 0} ${prompt}'
-  8378: 'Prey: Eurytos / Kills: ${number: 0} ${prompt}'
-  8379: 'Prey: Polybotes / Kills: ${number: 0} ${prompt}'
-  8380: 'Prey: Rhoitos / Kills: ${number: 0} ${prompt}'
-  8381: 'Prey: Ophion / Kills: ${number: 0} ${prompt}'
-  8382: 'Prey: Rhoikos / Kills: ${number: 0} ${prompt}'
-  8383: 'Prey: Ogygos / Kills: ${number: 0} ${prompt}'
-  8384: 'Prey: Epialtes / Kills: ${number: 0} ${prompt}'
-  8385: 'Prey: Hippolytos / Kills: ${number: 0} ${prompt}'
-  8386: 'Prey: Eurymedon / Kills: ${number: 0} ${prompt}'
-  8387: 'Prey: Tyrant / Kills: ${number: 0} ${prompt}'
-  8388: 'Prey: Hyakume / Kills: ${number: 0} ${prompt}'
-  8389: 'Prey: Mucoid Mass / Kills: ${number: 0} ${prompt}'
-  8390: 'Prey: Gloom Eye / Kills: ${number: 0} ${prompt}'
-  8391: 'Prey: Mind Hoarder / Kills: ${number: 0} ${prompt}'
-  8392: 'Prey: Jenglot / Kills: ${number: 0} ${prompt}'
-  8393: 'Prey: Sluagh / Kills: ${number: 0} ${prompt}'
-  8394: 'Prey: Marquis Naberius / Kills: ${number: 0} ${prompt}'
-  8395: 'Prey: Likho / Kills: ${number: 0} ${prompt}'
-  8396: 'Prey: Marquis Sabnock / Kills: ${number: 0} ${prompt}'
-  8397: 'Prey: Baronet Romwe / Kills: ${number: 0} ${prompt}'
-  8398: 'Prey: Baron Vapula / Kills: ${number: 0} ${prompt}'
-  8399: 'Prey: Count Bifrons / Kills: ${number: 0} ${prompt}'
-  8400: 'Prey: Viscount Morax / Kills: ${number: 0} ${prompt}'
-  8401: 'Prey: Ellyllon / Kills: ${number: 0} ${prompt}'
-  8402: 'Prey: Aquarius / Kills: ${number: 0} ${prompt}'
-  8403: 'Prey: Unut / Kills: ${number: 0} ${prompt}'
-  8404: 'Prey: Leshonki / Kills: ${number: 0} ${prompt}'
-  8405: 'Prey: Koropokkur / Kills: ${number: 0} ${prompt}'
-  8406: 'Prey: Mischievous Micholas / Kills: ${number: 0} ${prompt}'
-  8407: 'Prey: Bayawak / Kills: ${number: 0} ${prompt}'
-  8408: 'Prey: Pyuu the Spatemaker / Kills: ${number: 0} ${prompt}'
-  8409: 'Prey: Powderer Penny / Kills: ${number: 0} ${prompt}'
-  8410: 'Prey: Edacious Opo-opo / Kills: ${number: 0} ${prompt}'
-  8411: 'Prey: Acolnahuacatl / Kills: ${number: 0} ${prompt}'
-  8412: 'Prey: Hoar-knuckled Rimberry / Kills: ${number: 0} ${prompt}'
-  8413: 'Prey: Namtar / Kills: ${number: 0} ${prompt}'
-  8414: 'Prey: Wuur the Sandcomber / Kills: ${number: 0} ${prompt}'
-  8415: 'Prey: Masan / Kills: ${number: 0} ${prompt}'
-  8416: 'Prey: Fyuu the Seabellow / Kills: ${number: 0} ${prompt}'
-  8417: 'Prey: Qull the Shellbuster / Kills: ${number: 0} ${prompt}'
-  8418: 'Prey: Seww the Squidlimbed / Kills: ${number: 0} ${prompt}'
-  8419: 'Prey: Pahh the Gullcaller / Kills: ${number: 0} ${prompt}'
-  8420: 'Prey: Sea Hog / Kills: ${number: 0} ${prompt}'
-  8421: 'Prey: Yarr the Pearleyed / Kills: ${number: 0} ${prompt}'
-  8422: 'Prey: Voll the Sharkfinned / Kills: ${number: 0} ${prompt}'
-  8423: 'Prey: Denn the Orcavoiced / Kills: ${number: 0} ${prompt}'
-  8424: 'Prey: Mouu the Waverider / Kills: ${number: 0} ${prompt}'
-  8425: 'Prey: Worr the Clawfisted / Kills: ${number: 0} ${prompt}'
-  8426: 'Prey: Zuug the Shoreleaper / Kills: ${number: 0} ${prompt}'
-  8427: 'Prey: Manipulator / Kills: ${number: 0} ${prompt}'
-  8428: 'Prey: Flauros / Kills: ${number: 0} ${prompt}'
-  8429: 'Prey: Death from Above / Kills: ${number: 0} ${prompt}'
-  8430: 'Prey: Habetrot / Kills: ${number: 0} ${prompt}'
-  8431: 'Prey: Beryl-footed Molberry / Kills: ${number: 0} ${prompt}'
-  8432: 'Prey: Sozu Sarberry / Kills: ${number: 0} ${prompt}'
-  8433: 'Prey: Sozu Terberry / Kills: ${number: 0} ${prompt}'
-  8434: 'Prey: Sozu Rogberry / Kills: ${number: 0} ${prompt}'
-  8435: 'Prey: Sacrificial Goblet / Kills: ${number: 0} ${prompt}'
-  8436: 'Prey: Crimson-toothed Pawberry / Kills: ${number: 0} ${prompt}'
-  8437: 'Prey: Sozu Bliberry / Kills: ${number: 0} ${prompt}'
-  8438: 'Prey: Friar Rush / Kills: ${number: 0} ${prompt}'
-  8439: 'Prey: Celeste-eyed Tozberry / Kills: ${number: 0} ${prompt}'
-  8440: 'Prey: Tawny-fingered Mugberry / Kills: ${number: 0} ${prompt}'
-  8441: 'Prey: Bistre-hearted Malberry / Kills: ${number: 0} ${prompt}'
-  8442: 'Prey: Ogama / Kills: ${number: 0} ${prompt}'
-  8443: 'Prey: Foreseer Oramix / Kills: ${number: 0} ${prompt}'
-  8444: 'Prey: Tyrannic Tunnok / Kills: ${number: 0} ${prompt}'
-  8445: 'Prey: Lindwurm / Kills: ${number: 0} ${prompt}'
-  8446: 'Prey: Vouivre / Kills: ${number: 0} ${prompt}'
-  8447: 'Prey: Tarasque / Kills: ${number: 0} ${prompt}'
-  8448: 'Prey: Tegmine / Kills: ${number: 0} ${prompt}'
-  8449: 'Prey: Frostmane / Kills: ${number: 0} ${prompt}'
-  8450: 'Prey: Zmey Gorynych / Kills: ${number: 0} ${prompt}'
-  8451: 'Prey: Killer Jonny / Kills: ${number: 0} ${prompt}'
-  8452: 'Prey: Dune Widow / Kills: ${number: 0} ${prompt}'
-  8453: 'Prey: Nandi / Kills: ${number: 0} ${prompt}'
-  8454: 'Prey: Donnergugi / Kills: ${number: 0} ${prompt}'
-  8455: 'Prey: Sabotender Corrido / Kills: ${number: 0} ${prompt}'
-  8456: 'Prey: Cactuar Cantautor / Kills: ${number: 0} ${prompt}'
-  8457: 'Prey: Dahu / Kills: ${number: 0} ${prompt}'
-  8458: 'Prey: Picolaton / Kills: ${number: 0} ${prompt}'
-  8459: 'Prey: Calchas / Kills: ${number: 0} ${prompt}'
-  8460: 'Prey: Cancer / Kills: ${number: 0} ${prompt}'
-  8461: 'Prey: Sabotender Mariachi / Kills: ${number: 0} ${prompt}'
-  8462: 'Prey: Amemet / Kills: ${number: 0} ${prompt}'
-  8463: 'Prey: Yowie / Kills: ${number: 0} ${prompt}'
-  8464: 'Prey: Arachne / Kills: ${number: 0} ${prompt}'
-  8465: 'Prey: Bloodthirster Madkix / Kills: ${number: 0} ${prompt}'
-  8466: 'Prey: Pelican / Kills: ${number: 0} ${prompt}'
-  8467: 'Prey: Goblinsavior Heronox / Kills: ${number: 0} ${prompt}'
-  8468: 'Prey: Taxim / Kills: ${number: 0} ${prompt}'
-  8469: 'Prey: Baobhan Sith / Kills: ${number: 0} ${prompt}'
-  8470: 'Prey: Centurio X-I / Kills: ${number: 0} ${prompt}'
-  8471: 'Prey: Sagittarius X-XIII / Kills: ${number: 0} ${prompt}'
-  8472: 'Prey: Diamond Daig / Kills: ${number: 0} ${prompt}'
-  8473: 'Prey: Antican Magister / Kills: ${number: 0} ${prompt}'
-  8474: 'Prey: Antican Proconsul / Kills: ${number: 0} ${prompt}'
-  8475: 'Prey: Antican Praefectus / Kills: ${number: 0} ${prompt}'
-  8476: 'Prey: Antican Tribunus / Kills: ${number: 0} ${prompt}'
-  8477: 'Prey: Sabotender Bailarin / Kills: ${number: 0} ${prompt}'
-  8478: 'Prey: Tribunus VII-I / Kills: ${number: 0} ${prompt}'
-  8479: 'Prey: Nussknacker / Kills: ${number: 0} ${prompt}'
-  8480: 'Prey: Triarius X-XV / Kills: ${number: 0} ${prompt}'
-  8481: 'Prey: Proconsul XII / Kills: ${number: 0} ${prompt}'
-  8482: 'Prey: Sabotender Bailarina / Kills: ${number: 0} ${prompt}'
-  8483: 'Prey: Megalobugard / Kills: ${number: 0} ${prompt}'
-  8484: 'Prey: Yal-un Eke / Kills: ${number: 0} ${prompt}'
-  8485: 'Prey: Sengann / Kills: ${number: 0} ${prompt}'
-  8486: 'Prey: Flockbock / Kills: ${number: 0} ${prompt}'
-  8487: 'Prey: Odqan / Kills: ${number: 0} ${prompt}'
-  8488: 'Prey: Goaftrap / Kills: ${number: 0} ${prompt}'
-  8489: 'Prey: Ziphius / Kills: ${number: 0} ${prompt}'
-  8490: 'Prey: Okyupete / Kills: ${number: 0} ${prompt}'
-  8491: 'Prey: Zoraal Ja''s Pkuucha / Kills: ${number: 0} ${prompt}'
-  8492: 'Prey: Jaded Jody / Kills: ${number: 0} ${prompt}'
-  8493: 'Prey: Chelicerata / Kills: ${number: 0} ${prompt}'
-  8494: 'Prey: Gharial / Kills: ${number: 0} ${prompt}'
-  8495: 'Prey: Harvestman / Kills: ${number: 0} ${prompt}'
-  8496: 'Prey: Emergent Elm / Kills: ${number: 0} ${prompt}'
-  8497: 'Prey: Nis Puk / Kills: ${number: 0} ${prompt}'
-  8498: 'Prey: Mahishasura / Kills: ${number: 0} ${prompt}'
-  8499: 'Prey: Energetic Eruca / Kills: ${number: 0} ${prompt}'
-  8500: 'Prey: Chary Apkallu / Kills: ${number: 0} ${prompt}'
-  8501: 'Prey: Ignamoth / Kills: ${number: 0} ${prompt}'
-  8502: 'Prey: Fahrafahr the Bloodied / Kills: ${number: 0} ${prompt}'
-  8503: 'Prey: Venomfang / Kills: ${number: 0} ${prompt}'
-  8504: 'Prey: Zizzy Zillah / Kills: ${number: 0} ${prompt}'
-  8505: 'Prey: Firedance Magmaal Ja / Kills: ${number: 0} ${prompt}'
-  8506: 'Prey: Lizardtrap / Kills: ${number: 0} ${prompt}'
-  8507: 'Prey: Crystal Eater / Kills: ${number: 0} ${prompt}'
-  8508: 'Prey: Bluestreak Gyugyuroon / Kills: ${number: 0} ${prompt}'
-  8509: 'Prey: Copper Borer / Kills: ${number: 0} ${prompt}'
-  8510: 'Prey: Big Bomb / Kills: ${number: 0} ${prompt}'
-  8511: 'Prey: Flammeri / Kills: ${number: 0} ${prompt}'
-  8512: 'Prey: Peallaidh / Kills: ${number: 0} ${prompt}'
-  8513: 'Prey: Zikko / Kills: ${number: 0} ${prompt}'
-  8514: 'Prey: Aynu-kaysey / Kills: ${number: 0} ${prompt}'
-  8515: 'Prey: Vidhuwa the Wrathborn / Kills: ${number: 0} ${prompt}'
-  8516: 'Prey: Bloody Bones / Kills: ${number: 0} ${prompt}'
-  8517: 'Prey: Amikiri / Kills: ${number: 0} ${prompt}'
-  8518: 'Prey: Euryale / Kills: ${number: 0} ${prompt}'
-  8519: 'Prey: Ungur / Kills: ${number: 0} ${prompt}'
-  8520: 'Prey: Boompadu / Kills: ${number: 0} ${prompt}'
-  8521: 'Prey: Cookieduster Lipiroon / Kills: ${number: 0} ${prompt}'
-  8522: 'Prey: Oupire / Kills: ${number: 0} ${prompt}'
-  8523: 'Prey: Skogs Fru / Kills: ${number: 0} ${prompt}'
-  8524: 'Prey: Myradrosh / Kills: ${number: 0} ${prompt}'
-  8525: 'Prey: Goblintrap / Kills: ${number: 0} ${prompt}'
-  8526: 'Prey: Melusine / Kills: ${number: 0} ${prompt}'
-  8527: 'Prey: Boll Weevil / Kills: ${number: 0} ${prompt}'
-  8528: 'Prey: Drumskull Zogdregg / Kills: ${number: 0} ${prompt}'
-  8529: 'Prey: Vulkodlac / Kills: ${number: 0} ${prompt}'
-  8530: 'Prey: Voirloup / Kills: ${number: 0} ${prompt}'
-  8531: 'Prey: Warabouc / Kills: ${number: 0} ${prompt}'
-  8532: 'Prey: Big Bang / Kills: ${number: 0} ${prompt}'
-  8533: 'Prey: Pallas / Kills: ${number: 0} ${prompt}'
-  8534: 'Prey: Judgmental Julika / Kills: ${number: 0} ${prompt}'
-  8535: 'Prey: La Velue / Kills: ${number: 0} ${prompt}'
-  8536: 'Prey: Chaneque / Kills: ${number: 0} ${prompt}'
-  8537: 'Prey: Habergoass / Kills: ${number: 0} ${prompt}'
-  8538: 'Prey: Burlibix Brawnback / Kills: ${number: 0} ${prompt}'
-  8539: 'Prey: Laelaps / Kills: ${number: 0} ${prompt}'
-  8540: 'Prey: Tethra / Kills: ${number: 0} ${prompt}'
-  8541: 'Prey: Ethniu / Kills: ${number: 0} ${prompt}'
-  8542: 'Prey: Gloomanita / Kills: ${number: 0} ${prompt}'
-  8543: 'Prey: Olgoi-Khorkhoi / Kills: ${number: 0} ${prompt}'
-  8544: 'Prey: Ankabut / Kills: ${number: 0} ${prompt}'
-  8545: 'Prey: Peaseblossom / Kills: ${number: 0} ${prompt}'
-  8546: 'Prey: Sarcopsylla / Kills: ${number: 0} ${prompt}'
-  8547: 'Prey: Scitalis / Kills: ${number: 0} ${prompt}'
-  8548: 'Prey: Kotan-kor Kamuy / Kills: ${number: 0} ${prompt}'
-  8549: 'Prey: Vasiliceratops / Kills: ${number: 0} ${prompt}'
-  8550: 'Prey: Croque-mitaine / Kills: ${number: 0} ${prompt}'
-  8551: 'Prey: Kinepikwa / Kills: ${number: 0} ${prompt}'
-  8552: 'Prey: Sugaar / Kills: ${number: 0} ${prompt}'
-  8553: 'Prey: Nommo / Kills: ${number: 0} ${prompt}'
-  8554: 'Prey: Lamina / Kills: ${number: 0} ${prompt}'
-  8555: 'Prey: Dyinyinga / Kills: ${number: 0} ${prompt}'
-  8556: 'Prey: Erle / Kills: ${number: 0} ${prompt}'
-  8557: 'Prey: Delicieuse Delphine / Kills: ${number: 0} ${prompt}'
-  8558: 'Prey: Abatwa / Kills: ${number: 0} ${prompt}'
-  8559: 'Prey: Morille Mortelle / Kills: ${number: 0} ${prompt}'
-  8560: 'Prey: Lugh / Kills: ${number: 0} ${prompt}'
-  8561: 'Prey: Jeduah / Kills: ${number: 0} ${prompt}'
-  8562: 'Prey: Belladonna / Kills: ${number: 0} ${prompt}'
-  8563: 'Prey: Ramponneau / Kills: ${number: 0} ${prompt}'
-  8564: 'Prey: Tiffenotte / Kills: ${number: 0} ${prompt}'
-  8565: 'Prey: Emela-ntouka / Kills: ${number: 0} ${prompt}'
-  8566: 'Prey: Ratatoskr / Kills: ${number: 0} ${prompt}'
-  8567: 'Prey: Kirtimukha / Kills: ${number: 0} ${prompt}'
-  8568: 'Prey: Demoiselle Desolee / Kills: ${number: 0} ${prompt}'
-  8569: 'Prey: Muq Shabeel / Kills: ${number: 0} ${prompt}'
-  8570: 'Prey: Bloodlapper / Kills: ${number: 0} ${prompt}'
-  8571: 'Prey: Hemodrosophila / Kills: ${number: 0} ${prompt}'
-  8572: 'Prey: Centipedal Centruroides / Kills: ${number: 0} ${prompt}'
-  8573: 'Prey: Balam-Quitz / Kills: ${number: 0} ${prompt}'
-  8574: 'Prey: Hyakinthos / Kills: ${number: 0} ${prompt}'
-  8575: 'Prey: Herensugue / Kills: ${number: 0} ${prompt}'
-  8576: 'Prey: Coquecigrue / Kills: ${number: 0} ${prompt}'
-  8577: 'Prey: Citadel Pipistrelles / Kills: ${number: 0} ${prompt}'
-  8578: 'Prey: Buarainech / Kills: ${number: 0} ${prompt}'
-  8579: 'Prey: Elatha / Kills: ${number: 0} ${prompt}'
-  8580: 'Prey: Came-cruse / Kills: ${number: 0} ${prompt}'
-  8581: 'Prey: Becut / Kills: ${number: 0} ${prompt}'
-  8582: 'Prey: Grand''Goule / Kills: ${number: 0} ${prompt}'
-  8583: 'Prey: Scylla / Kills: ${number: 0} ${prompt}'
-  8584: 'Prey: Tikbalang / Kills: ${number: 0} ${prompt}'
-  8585: 'Prey: Prince Orobas / Kills: ${number: 0} ${prompt}'
-  8586: 'Prey: Graoully / Kills: ${number: 0} ${prompt}'
-  8587: 'Prey: Zirnitra / Kills: ${number: 0} ${prompt}'
-  8588: 'Prey: Krabkatoa / Kills: ${number: 0} ${prompt}'
+    ${number: 0} ${choice-plurality: 0}[Élémentaire de Glace/Élémentaires de Glace].
+    ${number: 1} ${choice-plurality: 1}[Élémentaire de Terre/Élémentaires de Terre].
+    ${number: 2} ${choice-plurality: 2}[Élémentaire d''Eau/Élémentaires d''Eau].${prompt}
+  8191: 'Proie : Fungus Beetle / Mises à mort : ${number: 0} ${prompt}'
+  8192: 'Proie : Jaggedy-Eared Jack / Mises à mort : ${number: 0} ${prompt}'
+  8193: 'Proie : Amanita / Mises à mort : ${number: 0} ${prompt}'
+  8194: 'Proie : Swamfisk / Mises à mort : ${number: 0} ${prompt}'
+  8195: 'Proie : Bigmouth Billy / Mises à mort : ${number: 0} ${prompt}'
+  8196: 'Proie : Rambukk / Mises à mort : ${number: 0} ${prompt}'
+  8197: 'Proie : Nihniknoovi / Mises à mort : ${number: 0} ${prompt}'
+  8198: 'Proie : Tumbling Truffle / Mises à mort : ${number: 0} ${prompt}'
+  8199: 'Proie : Slumbering Samwell / Mises à mort : ${number: 0} ${prompt}'
+  8200: 'Proie : Lumbering Lambert / Mises à mort : ${number: 0} ${prompt}'
+  8201: 'Proie : Panzer Percival / Mises à mort : ${number: 0} ${prompt}'
+  8202: 'Proie : Fraelissa / Mises à mort : ${number: 0} ${prompt}'
+  8203: 'Proie : Sappy Sycamore / Mises à mort : ${number: 0} ${prompt}'
+  8204: 'Proie : Supplespine Mujwuj / Mises à mort : ${number: 0} ${prompt}'
+  8205: 'Proie : Tottering Toby / Mises à mort : ${number: 0} ${prompt}'
+  8206: 'Proie : Skirling Liger / Mises à mort : ${number: 0} ${prompt}'
+  8207: 'Proie : Eyegouger / Mises à mort : ${number: 0} ${prompt}'
+  8208: 'Proie : Prankster Maverix / Mises à mort : ${number: 0} ${prompt}'
+  8209: 'Proie : Hercules Beetle / Mises à mort : ${number: 0} ${prompt}'
+  8210: 'Proie : Mycophile / Mises à mort : ${number: 0} ${prompt}'
+  8211: 'Proie : Orctrap / Mises à mort : ${number: 0} ${prompt}'
+  8212: 'Proie : Tempest Tigon / Mises à mort : ${number: 0} ${prompt}'
+  8213: 'Proie : Orcish Wallbreacher / Mises à mort : ${number: 0} ${prompt}'
+  8214: 'Proie : Thousandarm Deshglesh / Mises à mort : ${number: 0} ${prompt}'
+  8215: 'Proie : Orcish Barricader / Mises à mort : ${number: 0} ${prompt}'
+  8216: 'Proie : Hundredscar Hajwaj / Mises à mort : ${number: 0} ${prompt}'
+  8217: 'Proie : Kegpaunch Doshgnosh / Mises à mort : ${number: 0} ${prompt}'
+  8218: 'Proie : Chariotbuster Byakzak / Mises à mort : ${number: 0} ${prompt}'
+  8219: 'Proie : Barbastelle / Mises à mort : ${number: 0} ${prompt}'
+  8220: 'Proie : Ankou / Mises à mort : ${number: 0} ${prompt}'
+  8221: 'Proie : Gwyllgi / Mises à mort : ${number: 0} ${prompt}'
+  8222: 'Proie : Arioch / Mises à mort : ${number: 0} ${prompt}'
+  8223: 'Proie : Shii / Mises à mort : ${number: 0} ${prompt}'
+  8224: 'Proie : Manes / Mises à mort : ${number: 0} ${prompt}'
+  8225: 'Proie : Donggu / Mises à mort : ${number: 0} ${prompt}'
+  8226: 'Proie : Bombast / Mises à mort : ${number: 0} ${prompt}'
+  8227: 'Proie : Agar Agar / Mises à mort : ${number: 0} ${prompt}'
+  8228: 'Proie : Skull of Gluttony / Mises à mort : ${number: 0} ${prompt}'
+  8229: 'Proie : Skull of Greed / Mises à mort : ${number: 0} ${prompt}'
+  8230: 'Proie : Skull of Sloth / Mises à mort : ${number: 0} ${prompt}'
+  8231: 'Proie : Skull of Lust / Mises à mort : ${number: 0} ${prompt}'
+  8232: 'Proie : Skull of Pride / Mises à mort : ${number: 0} ${prompt}'
+  8233: 'Proie : Skull of Envy / Mises à mort : ${number: 0} ${prompt}'
+  8234: 'Proie : Skull of Wrath / Mises à mort : ${number: 0} ${prompt}'
+  8235: 'Proie : Cwn Cyrff / Mises à mort : ${number: 0} ${prompt}'
+  8236: 'Proie : Hawkeyed Dnatbat / Mises à mort : ${number: 0} ${prompt}'
+  8237: 'Proie : Tigerbane Bakdak / Mises à mort : ${number: 0} ${prompt}'
+  8238: 'Proie : Steelbiter Gudrud / Mises à mort : ${number: 0} ${prompt}'
+  8239: 'Proie : Poisonhand Gnadgad / Mises à mort : ${number: 0} ${prompt}'
+  8240: 'Proie : Blubbery Bulge / Mises à mort : ${number: 0} ${prompt}'
+  8241: 'Proie : Stinging Sophie / Mises à mort : ${number: 0} ${prompt}'
+  8242: 'Proie : Maighdean Uaine / Mises à mort : ${number: 0} ${prompt}'
+  8243: 'Proie : Bedrock Barry / Mises à mort : ${number: 0} ${prompt}'
+  8244: 'Proie : Leaping Lizzy / Mises à mort : ${number: 0} ${prompt}'
+  8245: 'Proie : Tococo / Mises à mort : ${number: 0} ${prompt}'
+  8246: 'Proie : Carnero / Mises à mort : ${number: 0} ${prompt}'
+  8247: 'Proie : Stray Mary / Mises à mort : ${number: 0} ${prompt}'
+  8248: 'Proie : Ghillie Dhu / Mises à mort : ${number: 0} ${prompt}'
+  8249: 'Proie : Rampaging Ram / Mises à mort : ${number: 0} ${prompt}'
+  8250: 'Proie : Highlander Lizard / Mises à mort : ${number: 0} ${prompt}'
+  8251: 'Proie : Metal Shears / Mises à mort : ${number: 0} ${prompt}'
+  8252: 'Proie : Golden Bat / Mises à mort : ${number: 0} ${prompt}'
+  8253: 'Proie : Valkurm Emperor / Mises à mort : ${number: 0} ${prompt}'
+  8254: 'Proie : Hippomaritimus / Mises à mort : ${number: 0} ${prompt}'
+  8255: 'Proie : Bloodpool Vorax / Mises à mort : ${number: 0} ${prompt}'
+  8256: 'Proie : Jolly Green / Mises à mort : ${number: 0} ${prompt}'
+  8257: 'Proie : Toxic Tamlyn / Mises à mort : ${number: 0} ${prompt}'
+  8258: 'Proie : Ni''Zho Bladebender / Mises à mort : ${number: 0} ${prompt}'
+  8259: 'Proie : Black Triple Stars / Mises à mort : ${number: 0} ${prompt}'
+  8260: 'Proie : Drooling Daisy / Mises à mort : ${number: 0} ${prompt}'
+  8261: 'Proie : Ravenous Crawler / Mises à mort : ${number: 0} ${prompt}'
+  8262: 'Proie : Eldritch Edge / Mises à mort : ${number: 0} ${prompt}'
+  8263: 'Proie : Bu''Ghi Howlblade / Mises à mort : ${number: 0} ${prompt}'
+  8264: 'Proie : Zi''Ghi Boneeater / Mises à mort : ${number: 0} ${prompt}'
+  8265: 'Proie : Qu''Vho Deathhurler / Mises à mort : ${number: 0} ${prompt}'
+  8266: 'Proie : Be''Hya Hundredwall / Mises à mort : ${number: 0} ${prompt}'
+  8267: 'Proie : Teporingo / Mises à mort : ${number: 0} ${prompt}'
+  8268: 'Proie : Chocoboleech / Mises à mort : ${number: 0} ${prompt}'
+  8269: 'Proie : Geyser Lizard / Mises à mort : ${number: 0} ${prompt}'
+  8270: 'Proie : Cargo Crab Colin / Mises à mort : ${number: 0} ${prompt}'
+  8271: 'Proie : Falcatus Aranei / Mises à mort : ${number: 0} ${prompt}'
+  8272: 'Proie : Dame Blanche / Mises à mort : ${number: 0} ${prompt}'
+  8273: 'Proie : Thoon / Mises à mort : ${number: 0} ${prompt}'
+  8274: 'Proie : Smothered Schmidt / Mises à mort : ${number: 0} ${prompt}'
+  8275: 'Proie : Crushed Krause / Mises à mort : ${number: 0} ${prompt}'
+  8276: 'Proie : Pulverized Pfeffer / Mises à mort : ${number: 0} ${prompt}'
+  8277: 'Proie : Burned Bergmann / Mises à mort : ${number: 0} ${prompt}'
+  8278: 'Proie : Wounded Wurfel / Mises à mort : ${number: 0} ${prompt}'
+  8279: 'Proie : Asphyxiated Amsel / Mises à mort : ${number: 0} ${prompt}'
+  8280: 'Proie : Demonic Tiphia / Mises à mort : ${number: 0} ${prompt}'
+  8281: 'Proie : Dynast Beetle / Mises à mort : ${number: 0} ${prompt}'
+  8282: 'Proie : Aqrabuamelu / Mises à mort : ${number: 0} ${prompt}'
+  8283: 'Proie : Bi''Gho Headtaker / Mises à mort : ${number: 0} ${prompt}'
+  8284: 'Proie : Ge''Dha Evileye / Mises à mort : ${number: 0} ${prompt}'
+  8285: 'Proie : Da''Dha Hundredmask / Mises à mort : ${number: 0} ${prompt}'
+  8286: 'Proie : Zo''Khu Blackcloud / Mises à mort : ${number: 0} ${prompt}'
+  8287: 'Proie : Ga''Bhu Unvanquished / Mises à mort : ${number: 0} ${prompt}'
+  8288: 'Proie : Bugbear Strongman / Mises à mort : ${number: 0} ${prompt}'
+  8289: 'Proie : Goblin Wolfman / Mises à mort : ${number: 0} ${prompt}'
+  8290: 'Proie : Bugbear Muscleman / Mises à mort : ${number: 0} ${prompt}'
+  8291: 'Proie : Swashstox Beadblinker / Mises à mort : ${number: 0} ${prompt}'
+  8292: 'Proie : Bugbear Matman / Mises à mort : ${number: 0} ${prompt}'
+  8293: 'Proie : Sword Sorcerer Solisoq / Mises à mort : ${number: 0} ${prompt}'
+  8294: 'Proie : Tom Tit Tat / Mises à mort : ${number: 0} ${prompt}'
+  8295: 'Proie : Nunyenunc / Mises à mort : ${number: 0} ${prompt}'
+  8296: 'Proie : Numbing Norman / Mises à mort : ${number: 0} ${prompt}'
+  8297: 'Proie : Spiny Spipi / Mises à mort : ${number: 0} ${prompt}'
+  8298: 'Proie : Sharp-Eared Ropipi / Mises à mort : ${number: 0} ${prompt}'
+  8299: 'Proie : Duke Decapod / Mises à mort : ${number: 0} ${prompt}'
+  8300: 'Proie : Yara Ma Yha Who / Mises à mort : ${number: 0} ${prompt}'
+  8301: 'Proie : Serpopard Ishtar / Mises à mort : ${number: 0} ${prompt}'
+  8302: 'Proie : Habrok / Mises à mort : ${number: 0} ${prompt}'
+  8303: 'Proie : Herbage Hunter / Mises à mort : ${number: 0} ${prompt}'
+  8304: 'Proie : Wake Warder Wanda / Mises à mort : ${number: 0} ${prompt}'
+  8305: 'Proie : Buburimboo / Mises à mort : ${number: 0} ${prompt}'
+  8306: 'Proie : Helldiver / Mises à mort : ${number: 0} ${prompt}'
+  8307: 'Proie : Backoo / Mises à mort : ${number: 0} ${prompt}'
+  8308: 'Proie : Serra / Mises à mort : ${number: 0} ${prompt}'
+  8309: 'Proie : Intulo / Mises à mort : ${number: 0} ${prompt}'
+  8310: 'Proie : Shankha / Mises à mort : ${number: 0} ${prompt}'
+  8311: 'Proie : Splacknuck / Mises à mort : ${number: 0} ${prompt}'
+  8312: 'Proie : Daggerclaw Dracos / Mises à mort : ${number: 0} ${prompt}'
+  8313: 'Proie : Patripatan / Mises à mort : ${number: 0} ${prompt}'
+  8314: 'Proie : Chonchon / Mises à mort : ${number: 0} ${prompt}'
+  8315: 'Proie : Naa Zeku the Unwaiting / Mises à mort : ${number: 0} ${prompt}'
+  8316: 'Proie : Deadly Dodo / Mises à mort : ${number: 0} ${prompt}'
+  8317: 'Proie : Bashe / Mises à mort : ${number: 0} ${prompt}'
+  8318: 'Proie : Thunderclaw Thuban / Mises à mort : ${number: 0} ${prompt}'
+  8319: 'Proie : Blighting Brand / Mises à mort : ${number: 0} ${prompt}'
+  8320: 'Proie : Sekhmet / Mises à mort : ${number: 0} ${prompt}'
+  8321: 'Proie : Ambusher Antlion / Mises à mort : ${number: 0} ${prompt}'
+  8322: 'Proie : Citipati / Mises à mort : ${number: 0} ${prompt}'
+  8323: 'Proie : Sargas / Mises à mort : ${number: 0} ${prompt}'
+  8324: 'Proie : Juu Duzu the Whirlwind / Mises à mort : ${number: 0} ${prompt}'
+  8325: 'Proie : Hoo Mjuu the Torrent / Mises à mort : ${number: 0} ${prompt}'
+  8326: 'Proie : Vuu Puqu the Beguiler / Mises à mort : ${number: 0} ${prompt}'
+  8327: 'Proie : Quu Xijo the Illusory / Mises à mort : ${number: 0} ${prompt}'
+  8328: 'Proie : Canal Moocher / Mises à mort : ${number: 0} ${prompt}'
+  8329: 'Proie : Konjac / Mises à mort : ${number: 0} ${prompt}'
+  8330: 'Proie : Brazen Bones / Mises à mort : ${number: 0} ${prompt}'
+  8331: 'Proie : Nocuous Weapon / Mises à mort : ${number: 0} ${prompt}'
+  8332: 'Proie : Maltha / Mises à mort : ${number: 0} ${prompt}'
+  8333: 'Proie : Slendlix Spindlethumb / Mises à mort : ${number: 0} ${prompt}'
+  8334: 'Proie : Desmodont / Mises à mort : ${number: 0} ${prompt}'
+  8335: 'Proie : Ah Puch / Mises à mort : ${number: 0} ${prompt}'
+  8336: 'Proie : Legalox Heftyhind / Mises à mort : ${number: 0} ${prompt}'
+  8337: 'Proie : Trembler Tabitha / Mises à mort : ${number: 0} ${prompt}'
+  8338: 'Proie : Lesath / Mises à mort : ${number: 0} ${prompt}'
+  8339: 'Proie : Gloombound Lurker / Mises à mort : ${number: 0} ${prompt}'
+  8340: 'Proie : Hellion / Mises à mort : ${number: 0} ${prompt}'
+  8341: 'Proie : Peg Powler / Mises à mort : ${number: 0} ${prompt}'
+  8342: 'Proie : Soulstealer Skullnix / Mises à mort : ${number: 0} ${prompt}'
+  8343: 'Proie : Narasimha / Mises à mort : ${number: 0} ${prompt}'
+  8344: 'Proie : Hazmat / Mises à mort : ${number: 0} ${prompt}'
+  8345: 'Proie : Hovering Hotpot / Mises à mort : ${number: 0} ${prompt}'
+  8346: 'Proie : Frogamander / Mises à mort : ${number: 0} ${prompt}'
+  8347: 'Proie : Moo Ouzi the Swiftblade / Mises à mort : ${number: 0} ${prompt}'
+  8348: 'Proie : Saa Doyi the Fervid / Mises à mort : ${number: 0} ${prompt}'
+  8349: 'Proie : Yaa Haqa the Profane / Mises à mort : ${number: 0} ${prompt}'
+  8350: 'Proie : Lii Jixa the Somnolist / Mises à mort : ${number: 0} ${prompt}'
+  8351: 'Proie : Trickster Kinetix / Mises à mort : ${number: 0} ${prompt}'
+  8352: 'Proie : Slippery Sucker / Mises à mort : ${number: 0} ${prompt}'
+  8353: 'Proie : Qoofim / Mises à mort : ${number: 0} ${prompt}'
+  8354: 'Proie : Atkorkamuy / Mises à mort : ${number: 0} ${prompt}'
+  8355: 'Proie : Kirata / Mises à mort : ${number: 0} ${prompt}'
+  8356: 'Proie : Gargantua / Mises à mort : ${number: 0} ${prompt}'
+  8357: 'Proie : Calcabrina / Mises à mort : ${number: 0} ${prompt}'
+  8358: 'Proie : Humbaba / Mises à mort : ${number: 0} ${prompt}'
+  8359: 'Proie : Shadow Eye / Mises à mort : ${number: 0} ${prompt}'
+  8360: 'Proie : Duke Focalor / Mises à mort : ${number: 0} ${prompt}'
+  8361: 'Proie : Timeworn Warrior / Mises à mort : ${number: 0} ${prompt}'
+  8362: 'Proie : Barbaric Weapon / Mises à mort : ${number: 0} ${prompt}'
+  8363: 'Proie : Bonnacon / Mises à mort : ${number: 0} ${prompt}'
+  8364: 'Proie : Frost Flambeau / Mises à mort : ${number: 0} ${prompt}'
+  8365: 'Proie : Skvader / Mises à mort : ${number: 0} ${prompt}'
+  8366: 'Proie : Magnotaur / Mises à mort : ${number: 0} ${prompt}'
+  8367: 'Proie : Elusive Edwin / Mises à mort : ${number: 0} ${prompt}'
+  8368: 'Proie : Keeper of Halidom / Mises à mort : ${number: 0} ${prompt}'
+  8369: 'Proie : Bastet / Mises à mort : ${number: 0} ${prompt}'
+  8370: 'Proie : Huwasi / Mises à mort : ${number: 0} ${prompt}'
+  8371: 'Proie : Nightmare Vase / Mises à mort : ${number: 0} ${prompt}'
+  8372: 'Proie : Rogue Receptacle / Mises à mort : ${number: 0} ${prompt}'
+  8373: 'Proie : Martinet / Mises à mort : ${number: 0} ${prompt}'
+  8374: 'Proie : Nargun / Mises à mort : ${number: 0} ${prompt}'
+  8375: 'Proie : Enkelados / Mises à mort : ${number: 0} ${prompt}'
+  8376: 'Proie : Ixtab / Mises à mort : ${number: 0} ${prompt}'
+  8377: 'Proie : Autarch / Mises à mort : ${number: 0} ${prompt}'
+  8378: 'Proie : Eurytos / Mises à mort : ${number: 0} ${prompt}'
+  8379: 'Proie : Polybotes / Mises à mort : ${number: 0} ${prompt}'
+  8380: 'Proie : Rhoitos / Mises à mort : ${number: 0} ${prompt}'
+  8381: 'Proie : Ophion / Mises à mort : ${number: 0} ${prompt}'
+  8382: 'Proie : Rhoikos / Mises à mort : ${number: 0} ${prompt}'
+  8383: 'Proie : Ogygos / Mises à mort : ${number: 0} ${prompt}'
+  8384: 'Proie : Epialtes / Mises à mort : ${number: 0} ${prompt}'
+  8385: 'Proie : Hippolytos / Mises à mort : ${number: 0} ${prompt}'
+  8386: 'Proie : Eurymedon / Mises à mort : ${number: 0} ${prompt}'
+  8387: 'Proie : Tyrant / Mises à mort : ${number: 0} ${prompt}'
+  8388: 'Proie : Hyakume / Mises à mort : ${number: 0} ${prompt}'
+  8389: 'Proie : Mucoid Mass / Mises à mort : ${number: 0} ${prompt}'
+  8390: 'Proie : Gloom Eye / Mises à mort : ${number: 0} ${prompt}'
+  8391: 'Proie : Mind Hoarder / Mises à mort : ${number: 0} ${prompt}'
+  8392: 'Proie : Jenglot / Mises à mort : ${number: 0} ${prompt}'
+  8393: 'Proie : Sluagh / Mises à mort : ${number: 0} ${prompt}'
+  8394: 'Proie : Marquis Naberius / Mises à mort : ${number: 0} ${prompt}'
+  8395: 'Proie : Likho / Mises à mort : ${number: 0} ${prompt}'
+  8396: 'Proie : Marquis Sabnock / Mises à mort : ${number: 0} ${prompt}'
+  8397: 'Proie : Baronet Romwe / Mises à mort : ${number: 0} ${prompt}'
+  8398: 'Proie : Baron Vapula / Mises à mort : ${number: 0} ${prompt}'
+  8399: 'Proie : Count Bifrons / Mises à mort : ${number: 0} ${prompt}'
+  8400: 'Proie : Viscount Morax / Mises à mort : ${number: 0} ${prompt}'
+  8401: 'Proie : Ellyllon / Mises à mort : ${number: 0} ${prompt}'
+  8402: 'Proie : Aquarius / Mises à mort : ${number: 0} ${prompt}'
+  8403: 'Proie : Unut / Mises à mort : ${number: 0} ${prompt}'
+  8404: 'Proie : Leshonki / Mises à mort : ${number: 0} ${prompt}'
+  8405: 'Proie : Koropokkur / Mises à mort : ${number: 0} ${prompt}'
+  8406: 'Proie : Mischievous Micholas / Mises à mort : ${number: 0} ${prompt}'
+  8407: 'Proie : Bayawak / Mises à mort : ${number: 0} ${prompt}'
+  8408: 'Proie : Pyuu the Spatemaker / Mises à mort : ${number: 0} ${prompt}'
+  8409: 'Proie : Powderer Penny / Mises à mort : ${number: 0} ${prompt}'
+  8410: 'Proie : Edacious Opo-opo / Mises à mort : ${number: 0} ${prompt}'
+  8411: 'Proie : Acolnahuacatl / Mises à mort : ${number: 0} ${prompt}'
+  8412: 'Proie : Hoar-knuckled Rimberry / Mises à mort : ${number: 0} ${prompt}'
+  8413: 'Proie : Namtar / Mises à mort : ${number: 0} ${prompt}'
+  8414: 'Proie : Wuur the Sandcomber / Mises à mort : ${number: 0} ${prompt}'
+  8415: 'Proie : Masan / Mises à mort : ${number: 0} ${prompt}'
+  8416: 'Proie : Fyuu the Seabellow / Mises à mort : ${number: 0} ${prompt}'
+  8417: 'Proie : Qull the Shellbuster / Mises à mort : ${number: 0} ${prompt}'
+  8418: 'Proie : Seww the Squidlimbed / Mises à mort : ${number: 0} ${prompt}'
+  8419: 'Proie : Pahh the Gullcaller / Mises à mort : ${number: 0} ${prompt}'
+  8420: 'Proie : Sea Hog / Mises à mort : ${number: 0} ${prompt}'
+  8421: 'Proie : Yarr the Pearleyed / Mises à mort : ${number: 0} ${prompt}'
+  8422: 'Proie : Voll the Sharkfinned / Mises à mort : ${number: 0} ${prompt}'
+  8423: 'Proie : Denn the Orcavoiced / Mises à mort : ${number: 0} ${prompt}'
+  8424: 'Proie : Mouu the Waverider / Mises à mort : ${number: 0} ${prompt}'
+  8425: 'Proie : Worr the Clawfisted / Mises à mort : ${number: 0} ${prompt}'
+  8426: 'Proie : Zuug the Shoreleaper / Mises à mort : ${number: 0} ${prompt}'
+  8427: 'Proie : Manipulator / Mises à mort : ${number: 0} ${prompt}'
+  8428: 'Proie : Flauros / Mises à mort : ${number: 0} ${prompt}'
+  8429: 'Proie : Death from Above / Mises à mort : ${number: 0} ${prompt}'
+  8430: 'Proie : Habetrot / Mises à mort : ${number: 0} ${prompt}'
+  8431: 'Proie : Beryl-footed Molberry / Mises à mort : ${number: 0} ${prompt}'
+  8432: 'Proie : Sozu Sarberry / Mises à mort : ${number: 0} ${prompt}'
+  8433: 'Proie : Sozu Terberry / Mises à mort : ${number: 0} ${prompt}'
+  8434: 'Proie : Sozu Rogberry / Mises à mort : ${number: 0} ${prompt}'
+  8435: 'Proie : Sacrificial Goblet / Mises à mort : ${number: 0} ${prompt}'
+  8436: 'Proie : Crimson-toothed Pawberry / Mises à mort : ${number: 0} ${prompt}'
+  8437: 'Proie : Sozu Bliberry / Mises à mort : ${number: 0} ${prompt}'
+  8438: 'Proie : Friar Rush / Mises à mort : ${number: 0} ${prompt}'
+  8439: 'Proie : Celeste-eyed Tozberry / Mises à mort : ${number: 0} ${prompt}'
+  8440: 'Proie : Tawny-fingered Mugberry / Mises à mort : ${number: 0} ${prompt}'
+  8441: 'Proie : Bistre-hearted Malberry / Mises à mort : ${number: 0} ${prompt}'
+  8442: 'Proie : Ogama / Mises à mort : ${number: 0} ${prompt}'
+  8443: 'Proie : Foreseer Oramix / Mises à mort : ${number: 0} ${prompt}'
+  8444: 'Proie : Tyrannic Tunnok / Mises à mort : ${number: 0} ${prompt}'
+  8445: 'Proie : Lindwurm / Mises à mort : ${number: 0} ${prompt}'
+  8446: 'Proie : Vouivre / Mises à mort : ${number: 0} ${prompt}'
+  8447: 'Proie : Tarasque / Mises à mort : ${number: 0} ${prompt}'
+  8448: 'Proie : Tegmine / Mises à mort : ${number: 0} ${prompt}'
+  8449: 'Proie : Frostmane / Mises à mort : ${number: 0} ${prompt}'
+  8450: 'Proie : Zmey Gorynych / Mises à mort : ${number: 0} ${prompt}'
+  8451: 'Proie : Killer Jonny / Mises à mort : ${number: 0} ${prompt}'
+  8452: 'Proie : Dune Widow / Mises à mort : ${number: 0} ${prompt}'
+  8453: 'Proie : Nandi / Mises à mort : ${number: 0} ${prompt}'
+  8454: 'Proie : Donnergugi / Mises à mort : ${number: 0} ${prompt}'
+  8455: 'Proie : Sabotender Corrido / Mises à mort : ${number: 0} ${prompt}'
+  8456: 'Proie : Cactuar Cantautor / Mises à mort : ${number: 0} ${prompt}'
+  8457: 'Proie : Dahu / Mises à mort : ${number: 0} ${prompt}'
+  8458: 'Proie : Picolaton / Mises à mort : ${number: 0} ${prompt}'
+  8459: 'Proie : Calchas / Mises à mort : ${number: 0} ${prompt}'
+  8460: 'Proie : Cancer / Mises à mort : ${number: 0} ${prompt}'
+  8461: 'Proie : Sabotender Mariachi / Mises à mort : ${number: 0} ${prompt}'
+  8462: 'Proie : Amemet / Mises à mort : ${number: 0} ${prompt}'
+  8463: 'Proie : Yowie / Mises à mort : ${number: 0} ${prompt}'
+  8464: 'Proie : Arachne / Mises à mort : ${number: 0} ${prompt}'
+  8465: 'Proie : Bloodthirster Madkix / Mises à mort : ${number: 0} ${prompt}'
+  8466: 'Proie : Pelican / Mises à mort : ${number: 0} ${prompt}'
+  8467: 'Proie : Goblinsavior Heronox / Mises à mort : ${number: 0} ${prompt}'
+  8468: 'Proie : Taxim / Mises à mort : ${number: 0} ${prompt}'
+  8469: 'Proie : Baobhan Sith / Mises à mort : ${number: 0} ${prompt}'
+  8470: 'Proie : Centurio X-I / Mises à mort : ${number: 0} ${prompt}'
+  8471: 'Proie : Sagittarius X-XIII / Mises à mort : ${number: 0} ${prompt}'
+  8472: 'Proie : Diamond Daig / Mises à mort : ${number: 0} ${prompt}'
+  8473: 'Proie : Antican Magister / Mises à mort : ${number: 0} ${prompt}'
+  8474: 'Proie : Antican Proconsul / Mises à mort : ${number: 0} ${prompt}'
+  8475: 'Proie : Antican Praefectus / Mises à mort : ${number: 0} ${prompt}'
+  8476: 'Proie : Antican Tribunus / Mises à mort : ${number: 0} ${prompt}'
+  8477: 'Proie : Sabotender Bailarin / Mises à mort : ${number: 0} ${prompt}'
+  8478: 'Proie : Tribunus VII-I / Mises à mort : ${number: 0} ${prompt}'
+  8479: 'Proie : Nussknacker / Mises à mort : ${number: 0} ${prompt}'
+  8480: 'Proie : Triarius X-XV / Mises à mort : ${number: 0} ${prompt}'
+  8481: 'Proie : Proconsul XII / Mises à mort : ${number: 0} ${prompt}'
+  8482: 'Proie : Sabotender Bailarina / Mises à mort : ${number: 0} ${prompt}'
+  8483: 'Proie : Megalobugard / Mises à mort : ${number: 0} ${prompt}'
+  8484: 'Proie : Yal-un Eke / Mises à mort : ${number: 0} ${prompt}'
+  8485: 'Proie : Sengann / Mises à mort : ${number: 0} ${prompt}'
+  8486: 'Proie : Flockbock / Mises à mort : ${number: 0} ${prompt}'
+  8487: 'Proie : Odqan / Mises à mort : ${number: 0} ${prompt}'
+  8488: 'Proie : Goaftrap / Mises à mort : ${number: 0} ${prompt}'
+  8489: 'Proie : Ziphius / Mises à mort : ${number: 0} ${prompt}'
+  8490: 'Proie : Okyupete / Mises à mort : ${number: 0} ${prompt}'
+  8491: 'Proie : Zoraal Ja''s Pkuucha / Mises à mort : ${number: 0} ${prompt}'
+  8492: 'Proie : Jaded Jody / Mises à mort : ${number: 0} ${prompt}'
+  8493: 'Proie : Chelicerata / Mises à mort : ${number: 0} ${prompt}'
+  8494: 'Proie : Gharial / Mises à mort : ${number: 0} ${prompt}'
+  8495: 'Proie : Harvestman / Mises à mort : ${number: 0} ${prompt}'
+  8496: 'Proie : Emergent Elm / Mises à mort : ${number: 0} ${prompt}'
+  8497: 'Proie : Nis Puk / Mises à mort : ${number: 0} ${prompt}'
+  8498: 'Proie : Mahishasura / Mises à mort : ${number: 0} ${prompt}'
+  8499: 'Proie : Energetic Eruca / Mises à mort : ${number: 0} ${prompt}'
+  8500: 'Proie : Chary Apkallu / Mises à mort : ${number: 0} ${prompt}'
+  8501: 'Proie : Ignamoth / Mises à mort : ${number: 0} ${prompt}'
+  8502: 'Proie : Fahrafahr the Bloodied / Mises à mort : ${number: 0} ${prompt}'
+  8503: 'Proie : Venomfang / Mises à mort : ${number: 0} ${prompt}'
+  8504: 'Proie : Zizzy Zillah / Mises à mort : ${number: 0} ${prompt}'
+  8505: 'Proie : Firedance Magmaal Ja / Mises à mort : ${number: 0} ${prompt}'
+  8506: 'Proie : Lizardtrap / Mises à mort : ${number: 0} ${prompt}'
+  8507: 'Proie : Crystal Eater / Mises à mort : ${number: 0} ${prompt}'
+  8508: 'Proie : Bluestreak Gyugyuroon / Mises à mort : ${number: 0} ${prompt}'
+  8509: 'Proie : Copper Borer / Mises à mort : ${number: 0} ${prompt}'
+  8510: 'Proie : Big Bomb / Mises à mort : ${number: 0} ${prompt}'
+  8511: 'Proie : Flammeri / Mises à mort : ${number: 0} ${prompt}'
+  8512: 'Proie : Peallaidh / Mises à mort : ${number: 0} ${prompt}'
+  8513: 'Proie : Zikko / Mises à mort : ${number: 0} ${prompt}'
+  8514: 'Proie : Aynu-kaysey / Mises à mort : ${number: 0} ${prompt}'
+  8515: 'Proie : Vidhuwa the Wrathborn / Mises à mort : ${number: 0} ${prompt}'
+  8516: 'Proie : Bloody Bones / Mises à mort : ${number: 0} ${prompt}'
+  8517: 'Proie : Amikiri / Mises à mort : ${number: 0} ${prompt}'
+  8518: 'Proie : Euryale / Mises à mort : ${number: 0} ${prompt}'
+  8519: 'Proie : Ungur / Mises à mort : ${number: 0} ${prompt}'
+  8520: 'Proie : Boompadu / Mises à mort : ${number: 0} ${prompt}'
+  8521: 'Proie : Cookieduster Lipiroon / Mises à mort : ${number: 0} ${prompt}'
+  8522: 'Proie : Oupire / Mises à mort : ${number: 0} ${prompt}'
+  8523: 'Proie : Skogs Fru / Mises à mort : ${number: 0} ${prompt}'
+  8524: 'Proie : Myradrosh / Mises à mort : ${number: 0} ${prompt}'
+  8525: 'Proie : Goblintrap / Mises à mort : ${number: 0} ${prompt}'
+  8526: 'Proie : Melusine / Mises à mort : ${number: 0} ${prompt}'
+  8527: 'Proie : Boll Weevil / Mises à mort : ${number: 0} ${prompt}'
+  8528: 'Proie : Drumskull Zogdregg / Mises à mort : ${number: 0} ${prompt}'
+  8529: 'Proie : Vulkodlac / Mises à mort : ${number: 0} ${prompt}'
+  8530: 'Proie : Voirloup / Mises à mort : ${number: 0} ${prompt}'
+  8531: 'Proie : Warabouc / Mises à mort : ${number: 0} ${prompt}'
+  8532: 'Proie : Big Bang / Mises à mort : ${number: 0} ${prompt}'
+  8533: 'Proie : Pallas / Mises à mort : ${number: 0} ${prompt}'
+  8534: 'Proie : Judgmental Julika / Mises à mort : ${number: 0} ${prompt}'
+  8535: 'Proie : La Velue / Mises à mort : ${number: 0} ${prompt}'
+  8536: 'Proie : Chaneque / Mises à mort : ${number: 0} ${prompt}'
+  8537: 'Proie : Habergoass / Mises à mort : ${number: 0} ${prompt}'
+  8538: 'Proie : Burlibix Brawnback / Mises à mort : ${number: 0} ${prompt}'
+  8539: 'Proie : Laelaps / Mises à mort : ${number: 0} ${prompt}'
+  8540: 'Proie : Tethra / Mises à mort : ${number: 0} ${prompt}'
+  8541: 'Proie : Ethniu / Mises à mort : ${number: 0} ${prompt}'
+  8542: 'Proie : Gloomanita / Mises à mort : ${number: 0} ${prompt}'
+  8543: 'Proie : Olgoi-Khorkhoi / Mises à mort : ${number: 0} ${prompt}'
+  8544: 'Proie : Ankabut / Mises à mort : ${number: 0} ${prompt}'
+  8545: 'Proie : Peaseblossom / Mises à mort : ${number: 0} ${prompt}'
+  8546: 'Proie : Sarcopsylla / Mises à mort : ${number: 0} ${prompt}'
+  8547: 'Proie : Scitalis / Mises à mort : ${number: 0} ${prompt}'
+  8548: 'Proie : Kotan-kor Kamuy / Mises à mort : ${number: 0} ${prompt}'
+  8549: 'Proie : Vasiliceratops / Mises à mort : ${number: 0} ${prompt}'
+  8550: 'Proie : Croque-mitaine / Mises à mort : ${number: 0} ${prompt}'
+  8551: 'Proie : Kinepikwa / Mises à mort : ${number: 0} ${prompt}'
+  8552: 'Proie : Sugaar / Mises à mort : ${number: 0} ${prompt}'
+  8553: 'Proie : Nommo / Mises à mort : ${number: 0} ${prompt}'
+  8554: 'Proie : Lamina / Mises à mort : ${number: 0} ${prompt}'
+  8555: 'Proie : Dyinyinga / Mises à mort : ${number: 0} ${prompt}'
+  8556: 'Proie : Erle / Mises à mort : ${number: 0} ${prompt}'
+  8557: 'Proie : Delicieuse Delphine / Mises à mort : ${number: 0} ${prompt}'
+  8558: 'Proie : Abatwa / Mises à mort : ${number: 0} ${prompt}'
+  8559: 'Proie : Morille Mortelle / Mises à mort : ${number: 0} ${prompt}'
+  8560: 'Proie : Lugh / Mises à mort : ${number: 0} ${prompt}'
+  8561: 'Proie : Jeduah / Mises à mort : ${number: 0} ${prompt}'
+  8562: 'Proie : Belladonna / Mises à mort : ${number: 0} ${prompt}'
+  8563: 'Proie : Ramponneau / Mises à mort : ${number: 0} ${prompt}'
+  8564: 'Proie : Tiffenotte / Mises à mort : ${number: 0} ${prompt}'
+  8565: 'Proie : Emela-ntouka / Mises à mort : ${number: 0} ${prompt}'
+  8566: 'Proie : Ratatoskr / Mises à mort : ${number: 0} ${prompt}'
+  8567: 'Proie : Kirtimukha / Mises à mort : ${number: 0} ${prompt}'
+  8568: 'Proie : Demoiselle Desolee / Mises à mort : ${number: 0} ${prompt}'
+  8569: 'Proie : Muq Shabeel / Mises à mort : ${number: 0} ${prompt}'
+  8570: 'Proie : Bloodlapper / Mises à mort : ${number: 0} ${prompt}'
+  8571: 'Proie : Hemodrosophila / Mises à mort : ${number: 0} ${prompt}'
+  8572: 'Proie : Centipedal Centruroides / Mises à mort : ${number: 0} ${prompt}'
+  8573: 'Proie : Balam-Quitz / Mises à mort : ${number: 0} ${prompt}'
+  8574: 'Proie : Hyakinthos / Mises à mort : ${number: 0} ${prompt}'
+  8575: 'Proie : Herensugue / Mises à mort : ${number: 0} ${prompt}'
+  8576: 'Proie : Coquecigrue / Mises à mort : ${number: 0} ${prompt}'
+  8577: 'Proie : Citadel Pipistrelles / Mises à mort : ${number: 0} ${prompt}'
+  8578: 'Proie : Buarainech / Mises à mort : ${number: 0} ${prompt}'
+  8579: 'Proie : Elatha / Mises à mort : ${number: 0} ${prompt}'
+  8580: 'Proie : Came-cruse / Mises à mort : ${number: 0} ${prompt}'
+  8581: 'Proie : Becut / Mises à mort : ${number: 0} ${prompt}'
+  8582: 'Proie : Grand''Goule / Mises à mort : ${number: 0} ${prompt}'
+  8583: 'Proie : Scylla / Mises à mort : ${number: 0} ${prompt}'
+  8584: 'Proie : Tikbalang / Mises à mort : ${number: 0} ${prompt}'
+  8585: 'Proie : Prince Orobas / Mises à mort : ${number: 0} ${prompt}'
+  8586: 'Proie : Graoully / Mises à mort : ${number: 0} ${prompt}'
+  8587: 'Proie : Zirnitra / Mises à mort : ${number: 0} ${prompt}'
+  8588: 'Proie : Krabkatoa / Mises à mort : ${number: 0} ${prompt}'
   8589: 'Prey: Yacumama / Kills: ${number: 0} ${prompt}'
   8590: 'Prey: Capricornus / Kills: ${number: 0} ${prompt}'
   8591: 'Prey: Blobdingnag / Kills: ${number: 0} ${prompt}'
