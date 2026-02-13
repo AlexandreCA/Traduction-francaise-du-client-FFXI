@@ -33006,39 +33006,39 @@ entries:
     Non.${prompt}
   16244: 'Félicitations ! Vous êtes le ${choice-player-gender}[plus récent membre/la plus récente membre] de l''équipe de course ${choice: 1}[de San d''Oria/de Bastok/de Windurst] de la CRA !${prompt}'
   16245: Compris. Mais rappelez-vous, nous sommes toujours à la recherche de grands coureurs comme vous pour rejoindre notre équipe. Si jamais vous changez d'avis, je serai juste ici à attendre.${prompt}
-  16246: Ah, so you have brought items for your chocobo.${prompt}
-  16247: What do we have here...${prompt}
-  16248: '${lettercase: 1}${item-singular: 0[2]}:${prompt}'
-  16249: Alright, ${name-player}, I will store this in our safe.${prompt}
-  16250: Alright, ${name-player}, I will store these in our safe.${prompt}
-  16251: I am sorry, but you have already brought me one of those.${prompt}
-  16252: I am sorry, but you have already brought me these items.${prompt}
-  16253: Hello! What might I interest you in today?${prompt}
+  16246: Ah, donc vous avez apporté des objets pour votre chocobo.${prompt}
+  16247: Voyons ce que nous avons ici...${prompt}
+  16248: '${lettercase: 1}${item-singular: 0[2]} :${prompt}'
+  16249: Très bien, ${name-player}, je vais stocker ceci dans notre coffre-fort.${prompt}
+  16250: Très bien, ${name-player}, je vais stocker ceux-ci dans notre coffre-fort.${prompt}
+  16251: Je suis ${choice-player-gender}[désolé/désolée], mais vous m''avez déjà apporté ${choice-player-gender}[un/une] de ceux-ci.${prompt}
+  16252: Je suis ${choice-player-gender}[désolé/désolée], mais vous m''avez déjà apporté ces objets.${prompt}
+  16253: Bonjour ! Que puis-je vous proposer aujourd''hui ?${prompt}
   16254: |-
-    (You have ${number: 3} ${choice-plurality: 3}[chocobuck/chocobucks].)
+    (Vous avez ${number: 3} ${choice-plurality: 3}[chocodoublon/chocodoublons].)
     ${selection-lines}
-    Chocobo ${choice: 0}[registration/confirmation].
-    Item confirmation.
-    Free run (${number: 1} gil).
-    Official race (${number: 2} ${choice-plurality: 2}[chocobuck/chocobucks]).
-    Re-run.
-    Rule confirmation.
-    Nothing.${prompt}
+    ${choice: 0}[Enregistrement/Confirmation] du chocobo.
+    Confirmation des objets.
+    Course libre (${number: 1} gil).
+    Course officielle (${number: 2} ${choice-plurality: 2}[chocodoublon/chocodoublons]).
+    Re-course.
+    Confirmation des règles.
+    Rien.${prompt}
   16255: |-
-    (You have ${number: 3} ${choice-plurality: 3}[chocobuck/chocobucks].)
+    (Vous avez ${number: 3} ${choice-plurality: 3}[chocodoublon/chocodoublons].)
     ${selection-lines}
-    Chocobo ${choice: 0}[registration/confirmation].
-    Item confirmation.
-    Free run (${number: 1} gil).
-    Official race.
-    Re-run.
-    Rule confirmation.
-    Nothing.${prompt}
-  16256: You cannot access this menu until you have registered a chocobo to race.${prompt}
-  16257: 'To register your chocobo, you must first bring me either ${article} ${item-article: 0[2]} or ${article} ${item-article: 1[2]}.${prompt}'
-  16258: You can only register one chocobo at a time, but you may always register a new one whenever you wish.${prompt}
+    ${choice: 0}[Enregistrement/Confirmation] du chocobo.
+    Confirmation des objets.
+    Course libre (${number: 1} gil).
+    Course officielle.
+    Re-course.
+    Confirmation des règles.
+    Rien.${prompt}
+  16256: Vous ne pouvez pas accéder à ce menu tant que vous n''avez pas enregistré de chocobo pour courir.${prompt}
+  16257: 'Pour enregistrer votre chocobo, vous devez d''abord m''apporter soit ${article} ${item-article: 0[2]} soit ${article} ${item-article: 1[2]}.${prompt}'
+  16258: Vous ne pouvez enregistrer qu''un seul chocobo à la fois, mais vous pouvez toujours en enregistrer un nouveau quand vous le souhaitez.${prompt}
   16259: |-
-    We currently hold for you:
+    Nous détenons actuellement pour vous :
     ${selection-lines}
 
     ${lettercase: 1}${article} ${item-article: 1[2]}.
@@ -33071,158 +33071,158 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.
-    Return.${prompt}
-  16260: With newly developed CRA technology, you can now relive the excitement of a previously cleared official race!${prompt}
-  16261: You may participate in these “re-runs” as many times as you wish, but just remember--the race may be the same, but the prizes for placing won't!${prompt}
+    Quitter.
+    Retour.${prompt}
+  16260: Avec la technologie CRA nouvellement développée, vous pouvez maintenant revivre l''excitation d''une course officielle précédemment ${choice-player-gender}[terminé/terminée] !${prompt}
+  16261: Vous pouvez participer à ces "re-courses" autant de fois que vous le souhaitez, mais rappelez-vous juste -- la course peut être la même, mais les prix de placement ne le seront pas !${prompt}
   16262: |-
-    Re-run which race?
+    Re-courir quelle course ?
     ${selection-lines}
-    Novice Race I.
-    Novice Race II.
-    Novice Race III.
-    Challenge Race I.
-    International Race I.
-    International Race II.
-    Challenge Race II.
-    CRA Classic.
-    Quit.
-    Return.${prompt}
+    Course Novice I.
+    Course Novice II.
+    Course Novice III.
+    Course Défi I.
+    Course Internationale I.
+    Course Internationale II.
+    Course Défi II.
+    Classique CRA.
+    Quitter.
+    Retour.${prompt}
   16263: |-
-    ***Race Preparations***
+    ***Préparations de Course***
     ${selection-lines}
-    Race overview.
-    Visit the paddock.
-    Jockey orders: ${choice: 0}[Sprint/Keep pace/Final spurt].
-    Equipment: ${lettercase: 1}${item-singular: 1[2]}.
-    Start race.
-    Quit.
-    Return.${prompt}
+    Aperçu de la course.
+    Visiter le paddock.
+    Ordres du jockey : ${choice: 0}[Sprint/Maintenir le rythme/Sprint final].
+    Équipement : ${lettercase: 1}${item-singular: 1[2]}.
+    Commencer la course.
+    Quitter.
+    Retour.${prompt}
   16264: |-
-    ***Race Preparations***
+    ***Préparations de Course***
     ${selection-lines}
-    Race overview.
-    Visit the paddock.
-    Jockey orders: ${choice: 0}[Sprint/Keep pace/Final spurt].
-    Equipment: None.
-    Start race.
-    Quit.
-    Return.${prompt}
-  16265: Here is the information on the next race:${prompt}
+    Aperçu de la course.
+    Visiter le paddock.
+    Ordres du jockey : ${choice: 0}[Sprint/Maintenir le rythme/Sprint final].
+    Équipement : Aucun.
+    Commencer la course.
+    Quitter.
+    Retour.${prompt}
+  16265: Voici les informations sur la prochaine course :${prompt}
   16266: '----------------------------------------'
   16267: |-
-    ★Free Run★
-    Chocobos: 8
-    Objective: None${prompt}
-  16268: While free runs usually have no specific objectives, the higher your chocobo places, the better the prize you will receive. We suggest you use these races to improve your skills before embarking on the more difficult official races.${prompt}
-  16269: Here is the information on the next race:${prompt}
+    ★Course Libre★
+    Chocobos : 8
+    Objectif : Aucun${prompt}
+  16268: Bien que les courses libres n''aient généralement pas d''objectifs spécifiques, plus votre chocobo se place haut, meilleur sera le prix que vous recevrez. Nous vous suggérons d''utiliser ces courses pour améliorer vos compétences avant de vous embarquer dans les courses officielles plus difficiles.${prompt}
+  16269: Voici les informations sur la prochaine course :${prompt}
   16270: |-
-    ★Novice Race I★
-    Chocobos: 4
-    Objective: Place 3rd or higher${prompt}
-  16271: Use this race to learn the ropes. Try not to worry too much about the other chocobos, and concentrate on discovering your bird's strengths and weaknesses.${prompt}
+    ★Course Novice I★
+    Chocobos : 4
+    Objectif : Se placer 3e ou mieux${prompt}
+  16271: Utilisez cette course pour apprendre les ficelles. Essayez de ne pas trop vous inquiéter des autres chocobos, et concentrez-vous sur la découverte des forces et faiblesses de votre oiseau.${prompt}
   16272: |-
-    ★Novice Race II★
-    Chocobos: 6
-    Objective: Place 3rd or higher${prompt}
-  16273: This time, your chocobo will be pitted against five opponents. Use your knowledge of your bird's strengths to provide the jockey with the most appropriate orders.${prompt}
+    ★Course Novice II★
+    Chocobos : 6
+    Objectif : Se placer 3e ou mieux${prompt}
+  16273: Cette fois, votre chocobo sera ${choice-player-gender}[opposé/opposée] contre cinq adversaires. Utilisez votre connaissance des forces de votre oiseau pour fournir au jockey les ordres les plus appropriés.${prompt}
   16274: |-
-    ★Novice Race III★
-    Chocobos: 8
-    Objective: Place 3rd or higher${prompt}
+    ★Course Novice III★
+    Chocobos : 8
+    Objectif : Se placer 3e ou mieux${prompt}
   16275: |-
-    This race is quite similar to a free run in that there will be seven other chocobos racing against you.
-    If you have one available, try equipping an item to improve your bird's performance.${prompt}
+    Cette course est assez similaire à une course libre en ce sens qu''il y aura sept autres chocobos courant contre vous.
+    Si vous en avez ${choice-player-gender}[un/une] de disponible, essayez d''équiper un objet pour améliorer les performances de votre oiseau.${prompt}
   16276: |-
-    ★Challenge Race I★
-    Chocobos: 2
-    Objective: Place 1st${prompt}
-  16277: Three of our most revered breeders have heard of your success and wish to challenge you in a head-to-head match.${prompt}
+    ★Course Défi I★
+    Chocobos : 2
+    Objectif : Se placer 1er${prompt}
+  16277: Trois de nos éleveurs les plus ${choice-player-gender}[révérés/révérées] ont entendu parler de votre succès et souhaitent vous défier dans un match tête-à-tête.${prompt}
   16278: |-
-    ★International Race I★
-    Chocobos: 8
-    Objective: Place 3rd or higher${prompt}
-  16279: 'The ${choice: 0}[Bastok/Windurst/San d''Oria] racing team has requested your participation in a nationally sponsored match. The pride of our branch is at stake, ${name-player}!${prompt}'
+    ★Course Internationale I★
+    Chocobos : 8
+    Objectif : Se placer 3e ou mieux${prompt}
+  16279: 'L''équipe de course ${choice: 0}[de Bastok/de Windurst/de San d''Oria] a demandé votre participation dans un match ${choice-player-gender}[sponsorisé/sponsorisée] nationalement. La fierté de notre branche est en jeu, ${name-player} !${prompt}'
   16280: |-
-    ★International Race II★
-    Chocobos: 8
-    Objective: Place 3rd or higher${prompt}
-  16281: 'The ${choice: 0}[Windurst/San d''Oria/Bastok] racing team has requested your participation in a nationally sponsored match. You represented us well last time, ${name-player}. We''re counting on you again!${prompt}'
+    ★Course Internationale II★
+    Chocobos : 8
+    Objectif : Se placer 3e ou mieux${prompt}
+  16281: 'L''équipe de course ${choice: 0}[de Windurst/de San d''Oria/de Bastok] a demandé votre participation dans un match ${choice-player-gender}[sponsorisé/sponsorisée] nationalement. Vous nous avez bien ${choice-player-gender}[représentés/représentées] la dernière fois, ${name-player}. Nous comptons sur vous à nouveau !${prompt}'
   16282: |-
-    ★Challenge Race II★
-    Chocobos: 3
-    Objective: Place 1st${prompt}
-  16283: 'The challengers you defeated previously have requested a rematch. Also, ${choice: 0}[Hantileon/Zopago/Pulonono] has expressed interest in this race, and would like to participate as well.${prompt}'
+    ★Course Défi II★
+    Chocobos : 3
+    Objectif : Se placer 1er${prompt}
+  16283: 'Les challengers que vous avez ${choice-player-gender}[vaincus/vaincues] précédemment ont demandé une revanche. De plus, ${choice: 0}[Hantileon/Zopago/Pulonono] a exprimé son intérêt pour cette course, et aimerait participer également.${prompt}'
   16284: |-
-    ★CRA Classic★
-    Chocobos: 8
-    Objective: Place 1st${prompt}
-  16285: 'The title of “fastest chocobo in the ${choice: 0}[Kingdom/Republic/Federation]” is up for grabs at the ${choice: 0}[d''Oraguille Victory Malm/Gustaberg Derby/Rakapopo Cup] sponsored by ${choice: 0}[the king himself/the president himself/Manustery minister Apururu herself]!${prompt}'
-  16286: 'Participation fee: ${number: 0} ${choice-plurality: 0}[chocobuck/chocobucks].'
+    ★Classique CRA★
+    Chocobos : 8
+    Objectif : Se placer 1er${prompt}
+  16285: 'Le titre de "chocobo le plus rapide du ${choice: 0}[Royaume/de la République/de la Fédération]" est en jeu au ${choice: 0}[Malm Victoire d''Oraguille/Derby de Gustaberg/Coupe Rakapopo] ${choice-player-gender}[sponsorisé/sponsorisée] par ${choice: 0}[le roi lui-même/le président lui-même/la ministre du Manustery Apururu elle-même] !${prompt}'
+  16286: 'Frais de participation : ${number: 0} ${choice-plurality: 0}[chocodoublon/chocodoublons].'
   16287: |-
-    Please select chocobo:
+    Veuillez sélectionner le chocobo :
     ${selection-lines}
-    Entry No. 1.
-    Entry No. 2.
-    Entry No. 3.
-    Entry No. 4.
-    Entry No. 5.
-    Entry No. 6.
-    Entry No. 7.
-    Entry No. 8.
-    Quit.
-    Return.${prompt}
+    Entrée N° 1.
+    Entrée N° 2.
+    Entrée N° 3.
+    Entrée N° 4.
+    Entrée N° 5.
+    Entrée N° 6.
+    Entrée N° 7.
+    Entrée N° 8.
+    Quitter.
+    Retour.${prompt}
   16288: |-
     ～ ${chocobo-name: 0[2]} ～
-    Owner: ${name-player}
-    Affiliation: ${choice: 1}[None/San d'Oria Branch/Bastok Branch/Windurst Branch]
-    Gender: ${choice: 2}[Male/Female]${prompt}
+    Propriétaire : ${name-player}
+    Affiliation : ${choice: 1}[Aucune/Branche San d'Oria/Branche Bastok/Branche Windurst]
+    Genre : ${choice: 2}[Mâle/Femelle]${prompt}
   16289: |-
-    Entry No. ${number: 3} ～ ${chocobo-name: 0[2]} ～
-    Owner: ${name-player}
-    Affiliation: ${choice: 1}[None/San d'Oria/Bastok/Windurst]
-    Gender: ${choice: 2}[Male/Female]${prompt}
+    Entrée N° ${number: 3} ～ ${chocobo-name: 0[2]} ～
+    Propriétaire : ${name-player}
+    Affiliation : ${choice: 1}[Aucune/San d'Oria/Bastok/Windurst]
+    Genre : ${choice: 2}[Mâle/Femelle]${prompt}
   16290: |-
-    Entry No. ${number: 3} ～ ${chocobo-name: 1[2]} ～
-    Affiliation: ${choice: 0}[None/San d'Oria/Bastok/Windurst]
-    Gender: ${choice: 2}[Male/Female]
-    Orders: ${choice: 4}[Sprint/Keep pace/Final spurt]${prompt}
+    Entrée N° ${number: 3} ～ ${chocobo-name: 1[2]} ～
+    Affiliation : ${choice: 0}[Aucune/San d'Oria/Bastok/Windurst]
+    Genre : ${choice: 2}[Mâle/Femelle]
+    Ordres : ${choice: 4}[Sprint/Maintenir le rythme/Sprint final]${prompt}
   16291: |-
-    Strength: ${choice: 0}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]
-    Endurance: ${choice: 1}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]
-    Discernment: ${choice: 2}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]
-    Receptivity: ${choice: 3}[Poor/Substandard/A bit deficient/Average/Better than average/Impressive/Outstanding/First-class]${prompt}
+    Force : ${choice: 0}[Pauvre/Inférieur aux normes/Un peu déficient/Moyenne/Meilleur que la moyenne/Impressionnant/Exceptionnel/Première classe]
+    Endurance : ${choice: 1}[Pauvre/Inférieur aux normes/Un peu déficient/Moyenne/Meilleur que la moyenne/Impressionnant/Exceptionnel/Première classe]
+    Discernement : ${choice: 2}[Pauvre/Inférieur aux normes/Un peu déficient/Moyen/Meilleur que la moyenne/Impressionnant/Exceptionnel/Première classe]
+    Réceptivité : ${choice: 3}[Pauvre/Inférieur aux normes/Un peu déficient/Moyenne/Meilleur que la moyenne/Impressionnant/Exceptionnel/Première classe]${prompt}
   16292: |-
-    Weather:
-         Prefers: ${choice: 0}[Clear days/Hot, sunny days/Rainy days/Sandstorms/Windy days/Snowy days/Thunderstorms/Auroras/Dark days/None/Cloudy days]
-         Dislikes: ${choice: 0}[None/Rainy days/Thunderstorms/Windy days/Snowy days/Hot, sunny days/Sandstorms/Dark days/Auroras/None/None]
-    Abilities: ${choice: 1}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]${choice: 2}[/ & Gallop/ & Canter/ & Burrow/ & Bore/ & Auto-Regen/ & Treasure Finder]${prompt}
+    Météo :
+         Préfère : ${choice: 0}[Jours clairs/Jours chauds et ensoleillés/Jours pluvieux/Tempêtes de sable/Jours venteux/Jours neigeux/Orages/Aurores/Jours sombres/Aucun/Jours nuageux]
+         N'aime pas : ${choice: 0}[Aucun/Jours pluvieux/Orages/Jours venteux/Jours neigeux/Jours chauds et ensoleillés/Tempêtes de sable/Jours sombres/Aurores/Aucun/Aucun]
+    Capacités : ${choice: 1}[Aucune/Galop/Petit galop/Creuser/Percer/Auto-Régén/Chercheur de trésor]${choice: 2}[/ & Galop/ & Petit galop/ & Creuser/ & Percer/ & Auto-Régén/ & Chercheur de trésor]${prompt}
   16293: |-
-    Change orders to:
+    Changer les ordres vers :
     ${selection-lines}
     Sprint.
-    Keep pace.
-    Final spurt.
-    Quit.
-    Return.${prompt}
+    Maintenir le rythme.
+    Sprint final.
+    Quitter.
+    Retour.${prompt}
   16294: |-
-    Sprint:
-    Have the jockey push your chocobo to its limits from the get go.${prompt}
+    Sprint :
+    Faites pousser votre chocobo à ses limites dès le départ par le jockey.${prompt}
   16295: |-
-    Keep pace:
-    Have the jockey maintain a consistent pace throughout the whole race.${prompt}
+    Maintenir le rythme :
+    Faites maintenir un rythme constant tout au long de la course par le jockey.${prompt}
   16296: |-
-    Final spurt:
-    Have the jockey save your chocobo's energy until the end of the race.${prompt}
+    Sprint final :
+    Faites économiser l''énergie de votre chocobo jusqu''à la fin de la course par le jockey.${prompt}
   16297: |-
-    Is this what you want?
+    Est-ce ce que vous voulez ?
     ${selection-lines}
-    Definitely.
-    Not at all.${prompt}
+    Définitivement.
+    Pas du tout.${prompt}
   16298: |-
-    Equip which item?
+    Équiper quel objet ?
     ${selection-lines}
-    Nothing.
+    Rien.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
     ${lettercase: 1}${article} ${item-article: 3[2]}.
@@ -33253,111 +33253,111 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.
-    Return.${prompt}
-  16299: These are used during a race to temporarily boost the speed of your chocobo.${prompt}
-  16300: These are used during a race to temporarily regenerate your chocobo's stamina.${prompt}
-  16301: These are used during a race to temporarily resist the effects of any detrimental items aimed at your chocobo.${prompt}
-  16302: These are used during a race to greatly reduce the speed of an opponent chocobo.${prompt}
-  16303: These are used during a race to greatly reduce the stamina of an opponent chocobo.${prompt}
-  16304: These are used during a race to temporarily reduce the speed of all surrounding opponent chocobos.${prompt}
-  16305: These are used during a race to reduce the discernment of all surrounding opponent chocobos.${prompt}
-  16306: These are used during a race to temporarily clear up the weather.${prompt}
-  16307: These are used during a race to temporarily call upon a rainstorm.${prompt}
-  16308: When equipped during a race, this item will slightly increase the strength of your chocobo.${prompt}
-  16309: When equipped during a race, this item will slightly increase the stamina of your chocobo.${prompt}
-  16310: When equipped during a race, this item will slightly increase the discernment of your chocobo.${prompt}
-  16311: When equipped during a race, this item will slightly increase the receptivity of your chocobo.${prompt}
+    Quitter.
+    Retour.${prompt}
+  16299: Ceux-ci sont utilisés pendant une course pour augmenter temporairement la vitesse de votre chocobo.${prompt}
+  16300: Ceux-ci sont utilisés pendant une course pour régénérer temporairement l''endurance de votre chocobo.${prompt}
+  16301: Ceux-ci sont utilisés pendant une course pour résister temporairement aux effets de tous objets néfastes ${choice-player-gender}[visés/visées] à votre chocobo.${prompt}
+  16302: Ceux-ci sont utilisés pendant une course pour réduire grandement la vitesse d''un chocobo adversaire.${prompt}
+  16303: Ceux-ci sont utilisés pendant une course pour réduire grandement l''endurance d''un chocobo adversaire.${prompt}
+  16304: Ceux-ci sont utilisés pendant une course pour réduire temporairement la vitesse de tous les chocobos adversaires environnants.${prompt}
+  16305: Ceux-ci sont utilisés pendant une course pour réduire le discernement de tous les chocobos adversaires environnants.${prompt}
+  16306: Ceux-ci sont utilisés pendant une course pour éclaircir temporairement la météo.${prompt}
+  16307: Ceux-ci sont utilisés pendant une course pour invoquer temporairement une tempête de pluie.${prompt}
+  16308: Lorsqu''${choice-player-gender}[équipé/équipée] pendant une course, cet objet augmentera légèrement la force de votre chocobo.${prompt}
+  16309: Lorsqu''${choice-player-gender}[équipé/équipée] pendant une course, cet objet augmentera légèrement l''endurance de votre chocobo.${prompt}
+  16310: Lorsqu''${choice-player-gender}[équipé/équipée] pendant une course, cet objet augmentera légèrement le discernement de votre chocobo.${prompt}
+  16311: Lorsqu''${choice-player-gender}[équipé/équipée] pendant une course, cet objet augmentera légèrement la réceptivité de votre chocobo.${prompt}
   16312: |-
-    Begin race?
+    Commencer la course ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  16313: I am so sorry, but it seems you do not possess enough chocobucks to participate in the next race.${prompt}
-  16314: I am so, so sorry, but it seems that you do not possess enough gil to enter your chocobo in the next race.${prompt}
-  16315: 'Congratulations${choice: 0}[ on your victory/], ${name-player}. All of us here wish you the best of luck on your next race!${prompt}'
-  16316: 'You have earned ${number: 0} ${choice-plurality: 0}[chocobuck/chocobucks]!${prompt}'
-  16317: Don't worry too much about the results of that last race. You must learn from your experience and prepare yourself for the next challenge.${prompt}
-  16318: 'Congratulations! That final victory has put you in leagues with ${choice: 0}[San d''Oria''s/Bastok''s/Windurst''s] finest riders!${prompt}'
-  16319: All of us here are eager to see what accomplishments you will achieve next!${prompt}
-  16320: 'Oh, and do be careful with your ${item-singular: 0[2]}. If you happen to accidentally dispose of it, you will never be able to receive one again.${prompt}'
-  16321: So you wish to register a chocobo.${prompt}
+    Oui.
+    Non.${prompt}
+  16313: Je suis tellement ${choice-player-gender}[désolé/désolée], mais il semble que vous ne possédez pas assez de chocodoublons pour participer à la prochaine course.${prompt}
+  16314: Je suis tellement, tellement ${choice-player-gender}[désolé/désolée], mais il semble que vous ne possédez pas assez de gils pour inscrire votre chocobo dans la prochaine course.${prompt}
+  16315: 'Félicitations${choice: 0}[ pour votre victoire/], ${name-player}. Nous tous ici vous souhaitons la meilleure des chances pour votre prochaine course !${prompt}'
+  16316: 'Vous avez gagné ${number: 0} ${choice-plurality: 0}[chocodoublon/chocodoublons] !${prompt}'
+  16317: Ne vous inquiétez pas trop des résultats de cette dernière course. Vous devez apprendre de votre expérience et vous préparer pour le prochain défi.${prompt}
+  16318: 'Félicitations ! Cette victoire finale vous a ${choice-player-gender}[mis/mise] dans les ligues avec les meilleurs ${choice-player-gender}[cavaliers/cavalières] ${choice: 0}[de San d''Oria/de Bastok/de Windurst] !${prompt}'
+  16319: Nous tous ici sommes ${choice-player-gender}[impatients/impatientes] de voir quels accomplissements vous réaliserez ensuite !${prompt}
+  16320: 'Oh, et soyez ${choice-player-gender}[prudent/prudente] avec votre ${item-singular: 0[2]}. Si vous vous en débarrassez accidentellement, vous ne pourrez jamais en recevoir ${choice-player-gender}[un/une] autre.${prompt}'
+  16321: Donc vous souhaitez enregistrer un chocobo.${prompt}
   16322: |-
-    Let me see...
-    ${chocobo-name: 1[2]} has already been registered.${prompt}
-  16323: 'Do you wish to cancel ${chocobo-name: 1[2]}''s registration and sign up ${chocobo-name: 0[2]}?${prompt}'
+    Voyons voir...
+    ${chocobo-name: 1[2]} a déjà été ${choice-player-gender}[enregistré/enregistrée].${prompt}
+  16323: 'Souhaitez-vous annuler l''enregistrement de ${chocobo-name: 1[2]} et inscrire ${chocobo-name: 0[2]} ?${prompt}'
   16324: |-
-    Register ${chocobo-name: 0[2]}?
+    Enregistrer ${chocobo-name: 0[2]} ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  16325: 'Excellent! ${chocobo-name: 0[2]} has been successfully registered.${prompt}'
-  16326: Very well.${prompt}
-  16327: I'm sorry. You have already registered that chocobo. You may race it at any time.${prompt}
-  16328: I'm sorry. Things are a little confusing now with all these entries. Would you mind coming back a little later? Thank you.${prompt}
-  16329: I'm sorry. The other chocobos have not finished resting. Please come back a little later.${prompt}
-  16330: One moment please while entries are confirmed with CRA headquarters.
-  16331: Greetings! I've been sent by the VCS to observe the final touches being put on our new racing facilities.${prompt}
-  16332: In addition, my colleagues and I will spend the next few weeks training for our positions as receptionists, vendors, and announcers.${prompt}
-  16333: Our grand opening is but a few days away. I hope to see you and all of your companions back for the big event!${prompt}
+    Oui.
+    Non.${prompt}
+  16325: 'Excellent ! ${chocobo-name: 0[2]} a été ${choice-player-gender}[enregistré/enregistrée] avec succès.${prompt}'
+  16326: Très bien.${prompt}
+  16327: Je suis ${choice-player-gender}[désolé/désolée]. Vous avez déjà ${choice-player-gender}[enregistré/enregistrée] ce chocobo. Vous pouvez le faire courir à tout moment.${prompt}
+  16328: Je suis ${choice-player-gender}[désolé/désolée]. Les choses sont un peu ${choice-player-gender}[confuses/confuses] maintenant avec toutes ces entrées. Voudriez-vous revenir un peu plus tard ? Merci.${prompt}
+  16329: Je suis ${choice-player-gender}[désolé/désolée]. Les autres chocobos n''ont pas fini de se reposer. Veuillez revenir un peu plus tard.${prompt}
+  16330: Un moment s'il vous plaît pendant que les entrées sont confirmées avec le quartier général de la CRA.
+  16331: Salutations ! J''ai été ${choice-player-gender}[envoyé/envoyée] par la VCS pour observer les touches finales ${choice-player-gender}[mises/mises] sur nos nouvelles installations de course.${prompt}
+  16332: De plus, mes collègues et moi passerons les prochaines semaines à nous entraîner pour nos positions en tant que ${choice-player-gender}[réceptionnistes/réceptionnistes], ${choice-player-gender}[vendeurs/vendeuses] et ${choice-player-gender}[annonceurs/annonceuses].${prompt}
+  16333: Notre grande ouverture n''est que dans quelques jours. J''espère vous voir vous et tous vos compagnons de retour pour le grand événement !${prompt}
   16334: |-
     Ah, ${name-player}.
-    We have been holding on to the prize from your last race until you had room enough in your gobbiebag to carry it back to your Mog House.${prompt}
+    Nous gardons le prix de votre dernière course jusqu''à ce que vous ayez assez de place dans votre gobbiebag pour le ramener à votre Mog House.${prompt}
   16335: |-
-    Might you be ${name-player}?
-    Excellent. VCS headquarters was informed that you would be stopping by our branch, and sent this package containing the prize from your last race.${prompt}
-  16336: ${name-player}, thank you for waiting.${prompt}
+    Seriez-vous ${name-player} ?
+    Excellent. Le quartier général de la VCS a été ${choice-player-gender}[informé/informée] que vous passeriez par notre branche, et a envoyé ce paquet contenant le prix de votre dernière course.${prompt}
+  16336: ${name-player}, merci d''avoir ${choice-player-gender}[attendu/attendue].${prompt}
   16337: |-
-    Much to the VCS and the CRA's delight, the recent efforts of chocobo breeders across Vana'diel has helped to generate an unprecedented amount of interest in our endeavor.
-    More people than ever have begun to express an interest in raising their own chocobo.${prompt}
+    Au grand plaisir de la VCS et de la CRA, les efforts récents des éleveurs de chocobos à travers Vana'diel ont aidé à générer une quantité sans précédent d'intérêt dans notre entreprise.
+    Plus de gens que jamais ont commencé à exprimer un intérêt à élever leur propre chocobo.${prompt}
   16338: |-
-    As a means of expressing our gratitude, we have therefore decided to confer upon the victors of CRA Classics rewards befitting a champion.
-    We congratulate you on your impressive achievement, ${name-player}. You are a true inspiration for breeders everywhere!${prompt}
-  16339: "Hello there, ${name-player}.\nWhy yes, we are holding your ${item-singular: 0[2]}. \nHere you are.${prompt}"
+    Comme moyen d'exprimer notre gratitude, nous avons donc décidé de conférer aux vainqueurs des Classiques CRA des récompenses ${choice-player-gender}[dignes/dignes] d'${choice-player-gender}[un champion/une championne].
+    Nous vous félicitons pour votre accomplissement impressionnant, ${name-player}. Vous êtes une vraie inspiration pour les éleveurs partout !${prompt}
+  16339: "Bonjour, ${name-player}.\nEh oui, nous détenons votre ${item-singular: 0[2]}. \nLe voici.${prompt}"
   16340: |-
-    Good day to you, ${name-player}.
-    Indeed, we are currently holding your ${item-singular: 0[2]} from the CRA for safekeeping.
-    Here you are.${prompt}
+    Bonjour à vous, ${name-player}.
+    En effet, nous détenons actuellement votre ${item-singular: 0[2]} de la CRA pour garde.
+    Le voici.${prompt}
   16341: |-
-    What do you want to do?
+    Que voulez-vous faire ?
     ${selection-lines}
-    Change value.
-    Unregister 'bo.
-    Default.
-    Create documentation.
-    Change PVP values.
-    Quit.${prompt}
+    Changer la valeur.
+    Désenregistrer 'bo.
+    Par défaut.
+    Créer la documentation.
+    Changer les valeurs PVP.
+    Quitter.${prompt}
   16342: |-
-    Change which values?
+    Changer quelles valeurs ?
     ${selection-lines}
-    Indv. Win Points: ${number: 0}.
-    No. of entries: ${number: 1}.
-    No. of victories: ${number: 2}.
-    Reset re-race timer.
-    Reset userwork.
-    Quit.${prompt}
+    Pts Victoire Indiv. : ${number: 0}.
+    Nombre d'entrées : ${number: 1}.
+    Nombre de victoires : ${number: 2}.
+    Réinitialiser le chrono re-course.
+    Réinitialiser userwork.
+    Quitter.${prompt}
   16343: |-
-    What do you want to change?
+    Que voulez-vous changer ?
     ${selection-lines}
-    Branch ${choice: 0}[None/San/Bas/Win].
-    Chocobucks: ${number: 1}.
-    Cleared Stages: ${number: 2}.
-    Stage Challenge Flag: ${choice: 3}[off/on].
-    Practice Times: ${number: 4}.
-    Stock Item.
-    Jockey Orders: ${choice: 5}[Sprint/Keep pace/Final spurt].
-    Equipment: ${lettercase: 1}${item-singular: 6[2]}.
-    Chocobo Data.
-    Nothing.${prompt}
+    Branche ${choice: 0}[Aucune/San/Bas/Win].
+    Chocodoublons : ${number: 1}.
+    Étapes terminées : ${number: 2}.
+    Drapeau Défi Étape : ${choice: 3}[off/on].
+    Temps Pratique : ${number: 4}.
+    Objet Stock.
+    Ordres Jockey : ${choice: 5}[Sprint/Maintenir le rythme/Sprint final].
+    Équipement : ${lettercase: 1}${item-singular: 6[2]}.
+    Données Chocobo.
+    Rien.${prompt}
   16344: |-
-    Set to where?
+    Définir vers où ?
     ${selection-lines}
     San d'Oria.
     Bastok.
     Windurst.
-    Quit.${prompt}
+    Quitter.${prompt}
   16345: |-
-    Enter #：${number: 0}
+    Entrer # : ${number: 0}
     ${selection-lines}
     ０.
     １.
@@ -33369,12 +33369,12 @@ entries:
     ７.
     ８.
     ９.
-    Cancel.
-    Confirm.${prompt}
+    Annuler.
+    Confirmer.${prompt}
   16346: |-
-    How many stages cleared?
+    Combien d'étapes terminées ?
     ${selection-lines}
-    None.
+    Aucune.
     1.
     2.
     3.
@@ -33389,9 +33389,9 @@ entries:
     12.
     13.
     14.
-    Quit.${prompt}
+    Quitter.${prompt}
   16347: |-
-    How many times practiced?
+    Combien de fois ${choice-player-gender}[pratiqué/pratiquée] ?
     ${selection-lines}
     ０.
     １.
@@ -33402,15 +33402,15 @@ entries:
     ６.
     ７.
     ８.
-    Quit.${prompt}
+    Quitter.${prompt}
   16348: |-
-    Stage Challenge Flag：${choice: 0}[ON/OFF]
+    Drapeau Défi Étape : ${choice: 0}[ON/OFF]
     ${selection-lines}
-    ON (Can't challenge).
-    OFF (Can challenge).
-    Quit.${prompt}
+    ON (Ne peut pas défier).
+    OFF (Peut défier).
+    Quitter.${prompt}
   16349: |-
-    Select a stock item.
+    Sélectionner un objet de stock.
     ${selection-lines}
     ${lettercase: 1}${article} ${item-article: 0[2]}.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
@@ -33443,23 +33443,23 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.${prompt}
+    Quitter.${prompt}
   16350: |-
-    Currently in possession: ${choice: 0}[No/Yes].
+    Actuellement en possession : ${choice: 0}[Non/Oui].
     ${selection-lines}
-    ${choice: 0}[Get?/Toss?]
-    Quit.${prompt}
+    ${choice: 0}[Obtenir ?/Jeter ?]
+    Quitter.${prompt}
   16351: |-
-    Select Order:
+    Sélectionner Ordre :
     ${selection-lines}
     Sprint.
-    Keep pace.
-    Final spurt.
-    Quit.${prompt}
+    Maintenir le rythme.
+    Sprint final.
+    Quitter.${prompt}
   16352: |-
-    Now: ${lettercase: 1}${item-singular: 31[2]}.
+    Maintenant : ${lettercase: 1}${item-singular: 31[2]}.
     ${selection-lines}
-    None.
+    Aucun.
     ${lettercase: 1}${article} ${item-article: 1[2]}.
     ${lettercase: 1}${article} ${item-article: 2[2]}.
     ${lettercase: 1}${article} ${item-article: 3[2]}.
@@ -33490,24 +33490,24 @@ entries:
     ${lettercase: 1}${article} ${item-article: 28[2]}.
     ${lettercase: 1}${article} ${item-article: 29[2]}.
     ${lettercase: 1}${article} ${item-article: 30[2]}.
-    Quit.${prompt}
+    Quitter.${prompt}
   16353: |-
     work0：${number: 0}work1：${number: 1}
     work2：${number: 2}work3：${number: 3}
   16354: |-
-    Select Place:
+    Sélectionner Place :
     ${selection-lines}
-    Don't.
-    １st.
-    ２nd.
-    ３rd.
-    ４th.
-    ５th.
-    ６th.
-    ７th.
-    ８th.${prompt}
-  16355: Waiting...${prompt}
-  16356: Calling...
+    Ne pas.
+    1er.
+    2e.
+    3e.
+    4e.
+    5e.
+    6e.
+    7e.
+    8e.${prompt}
+  16355: En attente...${prompt}
+  16356: Appel...
   16357: |-
     ${entity: 0}
     ${entity: 1}
@@ -33517,451 +33517,451 @@ entries:
   16359: 'ED ${number: 0}/${number: 1}/${number: 2}/${number: 3}/${number: 4}/${number: 5}/${number: 6}/${number: 7}'
   16360: 'AC ${number: 0}'
   16361: |-
-    Allez vous Le Debug Settings?
+    Allez vous Le Debug Settings ?
     ${selection-lines}
     Oui.
     Non.${prompt}
   16362: |-
-    Select goodness:
+    Sélectionner bonté :
     ${selection-lines}
-    Race portion (${number: 0}/${number: 1}).
-    Cut Scene (${choice: 2}[Yes/No]).
-    Opening (${choice: 3}[Yes/No]).
-    On screen text (${choice: 4}[On/Off]).
-    Cancel Race.
-    Start Race.${prompt}
+    Portion course (${number: 0}/${number: 1}).
+    Cut Scene (${choice: 2}[Oui/Non]).
+    Opening (${choice: 3}[Oui/Non]).
+    Texte à l'écran (${choice: 4}[On/Off]).
+    Annuler Course.
+    Démarrer Course.${prompt}
   16363: |-
-    Select race portion?
+    Sélectionner portion de course ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
-  16364: Select starting node. (0-31)
-  16365: Select ending node. (1-32)
+    Oui.
+    Non.${prompt}
+  16364: Sélectionner nœud de départ. (0-31)
+  16365: Sélectionner nœud d'arrivée. (1-32)
   16366: |-
-    Play Cut Scene?
+    Jouer Cut Scene ?
     ${selection-lines}
-    Yessir.
-    No way.${prompt}
+    Oui monsieur.
+    Aucune chance.${prompt}
   16367: |-
-    Play Opening?
+    Jouer Opening ?
     ${selection-lines}
-    Yep.
+    Ouaip.
     Nope.${prompt}
   16368: |-
-    Display Condition?
+    Afficher Condition ?
     ${selection-lines}
-    Yes.
-    No. (Default)${prompt}
+    Oui.
+    Non. (Par défaut)${prompt}
   16369: |-
     ${number: 0}/${number: 1}/${number: 2}/${number: 3}
     ${number: 4}/${number: 5}/${number: 6}/${number: 7}
-  16370: 'Race No. ${number: 0}'
+  16370: 'Course N° ${number: 0}'
   16371: |-
-    Adjust what?
+    Ajuster quoi ?
     ${selection-lines}
-    Strength: ${number: 0}
-    Endurance: ${number: 1}
-    Discernment: ${number: 2}
-    Receptivity: ${number: 3}
-    Head: ${choice: 4}[Normal/Big]
-    Legs: ${choice: 5}[Normal/Big]
-    Tail: ${choice: 6}[Normal/Big]
-    Ability 1: ${choice: 7}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]
-    Ability 2: ${choice: 8}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder]
-    Personality: ${choice: 9}[regular/fierce/patient/nervous/mysterious]
-    Waether: ${choice: 10}[Clear/Fire/Rain/Dust/Wind/Snow/Lightning/Light/Dark/--/Cloudy]
-    Sex: ${choice: 11}[♂/♀]
-    Color: ${choice: 12}[Yellow/Black/Blue/Red/Green]
-    Size: ${choice: 13}[Hume♂/Hume♀/Elvaan♂/Elvaan♀/Tarutaru♂/Tarutaru♀/Mithra/Galka]
-    Create Registration.
-    Quit.${prompt}
+    Force : ${number: 0}
+    Endurance : ${number: 1}
+    Discernement : ${number: 2}
+    Réceptivité : ${number: 3}
+    Tête : ${choice: 4}[Normal/Grande]
+    Jambes : ${choice: 5}[Normal/Grandes]
+    Queue : ${choice: 6}[Normal/Grande]
+    Capacité 1 : ${choice: 7}[Aucune/Galop/Petit galop/Creuser/Percer/Auto-Régén/Chercheur de trésor]
+    Capacité 2 : ${choice: 8}[Aucune/Galop/Petit galop/Creuser/Percer/Auto-Régén/Chercheur de trésor]
+    Personnalité : ${choice: 9}[régulier/féroce/patient/nerveux/mystérieux]
+    Météo : ${choice: 10}[Clair/Feu/Pluie/Poussière/Vent/Neige/Foudre/Lumière/Sombre/--/Nuageux]
+    Sexe : ${choice: 11}[♂/♀]
+    Couleur : ${choice: 12}[Jaune/Noir/Bleu/Rouge/Vert]
+    Taille : ${choice: 13}[Hum♂/Hum♀/Elv♂/Elv♀/Tar♂/Tar♀/Mithra/Galka]
+    Créer Enregistrement.
+    Quitter.${prompt}
   16372: |-
-    Which?（Now:${choice: 0}[None/Gallop/Canter/Burrow/Bore/Auto-Regen/Treasure Finder])
+    Lequel ? (Maintenant : ${choice: 0}[Aucune/Galop/Petit galop/Creuser/Percer/Auto-Régén/Chercheur de trésor])
     ${selection-lines}
-    None.
-    Gallop.
-    Canter.
-    Burrow.
-    Bore.
-    Auto-Regen.
-    Treasure Finder.
-    Quit.${prompt}
+    Aucune.
+    Galop.
+    Petit galop.
+    Creuser.
+    Percer.
+    Auto-Régén.
+    Chercheur de trésor.
+    Quitter.${prompt}
   16373: |-
-    Which?（Now: ${choice: 0}[regular/fierce/patient/nervous/mysterious])
+    Lequel ? (Maintenant : ${choice: 0}[régulier/féroce/patient/nerveux/mystérieux])
     ${selection-lines}
-    Regular.
-    Fierce.
+    Régulier.
+    Féroce.
     Patient.
-    Nervous.
-    Mysterious.
-    Quit.${prompt}
+    Nerveux.
+    Mystérieux.
+    Quitter.${prompt}
   16374: |-
-    Which type?（Now: ${choice: 0}[Normal/Special])
+    Quel type ? (Maintenant : ${choice: 0}[Normal/Spécial])
     ${selection-lines}
     Normal.
-    Special.
-    Quit.${prompt}
+    Spécial.
+    Quitter.${prompt}
   16375: |-
-    Which?（Now: ${choice: 0}[♂/♀])
+    Lequel ? (Maintenant : ${choice: 0}[♂/♀])
     ${selection-lines}
     ♂.
     ♀.
-    Quit.${prompt}
+    Quitter.${prompt}
   16376: |-
-    Which? (Now:${choice: 0}[Hume♂/Hume♀/Elvaan♂/Elvaan♀/Tarutaru♂/Tarutaru♀/Mithra/Galka])
+    Lequel ? (Maintenant : ${choice: 0}[Hum♂/Hum♀/Elv♂/Elv♀/Tar♂/Tar♀/Mithra/Galka])
     ${selection-lines}
-    Hume♂.
-    Hume♀.
-    Elvaan♂.
-    Elvaan♀.
-    Tarutaru♂.
-    Tarutaru♀.
+    Hum♂.
+    Hum♀.
+    Elv♂.
+    Elv♀.
+    Tar♂.
+    Tar♀.
     Mithra.
     Galka.
-    Quit.${prompt}
-  16377: "Which? (Now: ${choice: 0}[Clear/Fire/Rain/Dust/Wind/Snow/Lightning/Light/Dark/--/Cloudy])\n${selection-lines}\nClear.\nFire.\nSnow.\nWind.\nSand.\nLightning.\nRain.\nAurora.\nDarkness.\n \nCloudy.\nQuit.${prompt}"
+    Quitter.${prompt}
+  16377: "Lequel ? (Maintenant : ${choice: 0}[Clair/Feu/Pluie/Poussière/Vent/Neige/Foudre/Lumière/Sombre/--/Nuageux])\n${selection-lines}\nClair.\nFeu.\nNeige.\nVent.\nSable.\nFoudre.\nPluie.\nAurore.\nTénèbres.\n \nNuageux.\nQuitter.${prompt}"
   16378: |-
-    Which? (Now: ${choice: 0}[Yellow/Black/Blue/Red/Green])
+    Lequel ? (Maintenant : ${choice: 0}[Jaune/Noir/Bleu/Rouge/Vert])
     ${selection-lines}
-    Yellow.
-    Black.
-    Blue.
-    Red.
-    Green.
-    Quit.${prompt}
-  16379: 'RND(${number: 0})'
+    Jaune.
+    Noir.
+    Bleu.
+    Rouge.
+    Vert.
+    Quitter.${prompt}
+  16379: 'ALÉA(${number: 0})'
   16380: |-
-    Altana Cup
+    Coupe Altana
     ${selection-lines}
-    Day 1 - Race 1.
-    Day 1 - Race 2.
-    Day 2 - Race 1.
-    Day 2 - Race 2.
-    Quit.${prompt}
+    Jour 1 - Course 1.
+    Jour 1 - Course 2.
+    Jour 2 - Course 1.
+    Jour 2 - Course 2.
+    Quitter.${prompt}
   16381: |-
-    Altana Cup: ${choice: 0}[Day 1 - Race 1/Day 1 - Race 2/Day 2 - Race 1/Day 2 - Race 2]
+    Coupe Altana : ${choice: 0}[Jour 1 - Course 1/Jour 1 - Course 2/Jour 2 - Course 1/Jour 2 - Course 2]
     ${selection-lines}
-    Start Race.
-    Quit.${prompt}
-  16382: 'Entry No. ${number: 0} ～ ${entity: 0} ～${prompt}'
-  16383: 'ch0：${number: 0} ch1：${number: 1} ch2：${number: 2} ch3：${number: 3}'
-  16384: Check.
-  16385: 'Time: ${number: 0}'
-  16386: 'Step: ${choice: 0}[Standby/Formatting/Registration/Calculating Odds/Placing Chocobets/Waiting for Race/Running Race/Paying Out/Resting].'
-  16387: 'Audience Flag: ON（ch1）'
-  16388: 'Audience Flag: ON（ch2）'
-  16389: 'Audience Flag: ON（ch3）'
-  16390: 'Audience Flag: ON（ch4）'
-  16391: Sending Race Data.
+    Démarrer Course.
+    Quitter.${prompt}
+  16382: 'Entrée N° ${number: 0} ～ ${entity: 0} ～${prompt}'
+  16383: 'ch0 : ${number: 0} ch1 : ${number: 1} ch2 : ${number: 2} ch3 : ${number: 3}'
+  16384: Vérifier.
+  16385: 'Temps : ${number: 0}'
+  16386: 'Étape : ${choice: 0}[Standby/Formatage/Enregistrement/Calcul des Cotes/Placement des Chocoparis/Attente de Course/Course en Cours/Paiement/Repos].'
+  16387: 'Drapeau Public : ON（ch1）'
+  16388: 'Drapeau Public : ON（ch2）'
+  16389: 'Drapeau Public : ON（ch3）'
+  16390: 'Drapeau Public : ON（ch4）'
+  16391: Envoi Données Course.
   16392: |-
-    Reception Increments: ${number: 6} sec.
+    Incréments Réception : ${number: 6} sec.
     ${selection-lines}
-    ${choice: 0}[Stop/Go]：Channel １
-    ${choice: 1}[Stop/Go]：Channel ２
-    ${choice: 2}[Stop/Go]：Channel ３
-    ${choice: 3}[Stop/Go]：Channel ４
-    Stop all channels.
-    Start all channels.
-    Check World File.
-    R Check ${number: 4}.
-    ${choice: 8}[On/Off]：Event Switch
-    Quit.${prompt}
+    ${choice: 0}[Stop/Go] : Canal １
+    ${choice: 1}[Stop/Go] : Canal ２
+    ${choice: 2}[Stop/Go] : Canal ３
+    ${choice: 3}[Stop/Go] : Canal ４
+    Arrêter tous les canaux.
+    Démarrer tous les canaux.
+    Vérifier Fichier Monde.
+    Vérif R ${number: 4}.
+    ${choice: 8}[On/Off] : Interrupteur Événement
+    Quitter.${prompt}
   16393: |-
-    ～Current Team Victory Points～
-    San：${number: 0}（Place: ${number: 3}）
-    Bas：${number: 1}（Place: ${number: 4}）
-    Win：${number: 2}（Place: ${number: 5}）
-  16394: Started Race Cycle.
-  16395: Stopped new race cycle.
+    ～Points de Victoire d'Équipe Actuels～
+    San : ${number: 0} (Place : ${number: 3})
+    Bas : ${number: 1} (Place : ${number: 4})
+    Win : ${number: 2} (Place : ${number: 5})
+  16394: Cycle de Course ${choice-player-gender}[Démarré/Démarrée].
+  16395: ${choice-player-gender}[Arrêté/Arrêtée] nouveau cycle de course.
   16396: |-
-    STATUS：【${choice: 2}[Off/On]】／STEP：【${choice: 3}[Standby/Formatting/Registration/Calculating Odds/Placing Chocobets/Waiting for Race/Running Race/Paying Out/Resting]】
+    STATUT : 【${choice: 2}[Off/On]】／ÉTAPE : 【${choice: 3}[Standby/Formatage/Enregistrement/Calcul des Cotes/Placement des Chocoparis/Attente de Course/Course en Cours/Paiement/Repos]】
     ${selection-lines}
-    Race No：${number: 4}（${number: 5}）
-    Update Data.
-    Progression Control:【${choice: 0}[Auto/Manual]】
-    Step Override:【Next step is ${choice: 1}[Standby/Formatting/Registration/Calculating Odds/Placing Chocobets/Waiting for Race/Running Race/Paying Out/Resting]】
-    Grade Set:【${choice: 6}[No/Yes]】Server Value: ${number: 7}
-    Quit.${prompt}
-  16397: Event switch is now on.
-  16398: Event switch is now off.
-  16399: Moved one step forward.${prompt}
+    N° Course : ${number: 4} (${number: 5})
+    Mettre à Jour Données.
+    Contrôle Progression : 【${choice: 0}[Auto/Manuel]】
+    Remplacement Étape : 【Prochaine étape est ${choice: 1}[Standby/Formatage/Enregistrement/Calcul des Cotes/Placement des Chocoparis/Attente de Course/Course en Cours/Paiement/Repos]】
+    Ensemble Grade : 【${choice: 6}[Non/Oui]】Valeur Serveur : ${number: 7}
+    Quitter.${prompt}
+  16397: L'interrupteur événement est maintenant on.
+  16398: L'interrupteur événement est maintenant off.
+  16399: ${choice-player-gender}[Avancé/Avancée] d''une étape.${prompt}
   16400: |-
-    Created Race.
-    Channel：${number: 0} Memory Block：${number: 1}${prompt}
-  16401: 'Error: Data Send not Finished.${prompt}'
-  16402: 'Error: Not registered${prompt}'
-  16403: 'Today is: ${choice: 0}[Sunday./Monday./Tuesday./Wed./Thurs./Fri./Sat.]'
-  16404: One moment please.${prompt}
-  16405: Audience registration complete.${prompt}
-  16406: Race underway.${prompt}
-  16407: Preparing for next race.${prompt}
-  16408: I am currently accepting race applications.${prompt}
-  16409: I'm sorry, but I am currently not accepting race applications.${prompt}
+    Course ${choice-player-gender}[Créé/Créée].
+    Canal : ${number: 0} Bloc Mémoire : ${number: 1}${prompt}
+  16401: 'Erreur : Envoi Données pas ${choice-player-gender}[Terminé/Terminée].${prompt}'
+  16402: 'Erreur : Pas ${choice-player-gender}[enregistré/enregistrée]${prompt}'
+  16403: 'Aujourd''hui c''est : ${choice: 0}[Dimanche./Lundi./Mardi./Mercredi./Jeudi./Vendredi./Samedi.]'
+  16404: Un moment s'il vous plaît.${prompt}
+  16405: Enregistrement du public ${choice-player-gender}[complet/complète].${prompt}
+  16406: Course en cours.${prompt}
+  16407: Préparation pour la prochaine course.${prompt}
+  16408: J'accepte actuellement les candidatures de course.${prompt}
+  16409: Je suis ${choice-player-gender}[désolé/désolée], mais je n''accepte actuellement pas les candidatures de course.${prompt}
   16410: |-
-    What would you like to do?
+    Que voudriez-vous faire ?
     ${selection-lines}
-    View race information.
-    View personal data.
-    Change racing teams.
-    Quit.${prompt}
+    Voir les informations de course.
+    Voir les données personnelles.
+    Changer d'équipes de course.
+    Quitter.${prompt}
   16411: |-
-    What would you like to do?
+    Que voudriez-vous faire ?
     ${selection-lines}
-    View race information.
-    View personal data.
-    Change racing teams.
-    Jockey orders: ${choice: 0}[Sprint/Keep pace/Final spurt].
-    Equipment: ${lettercase: 1}${item-singular: 1[2]}.
-    Equipment: None.
-    Sign up your chocobo to race.
-    Quit.${prompt}
-  16412: Here you can sign up your race chocobo to take part in our races.${prompt}
-  16413: Please note that once you sign up for a race, you will be unable to compete again for a period of 20 hours (Earth time).${prompt}
-  16414: All right. First of all, we will have to choose a saddle for your mount.${prompt}
+    Voir les informations de course.
+    Voir les données personnelles.
+    Changer d'équipes de course.
+    Ordres du jockey : ${choice: 0}[Sprint/Maintenir le rythme/Sprint final].
+    Équipement : ${lettercase: 1}${item-singular: 1[2]}.
+    Équipement : Aucun.
+    Inscrire votre chocobo pour courir.
+    Quitter.${prompt}
+  16412: Ici vous pouvez inscrire votre chocobo de course pour participer à nos courses.${prompt}
+  16413: Veuillez noter qu'une fois que vous vous inscrivez pour une course, vous serez incapable de concourir à nouveau pour une période de 20 heures (temps Terre).${prompt}
+  16414: Très bien. Tout d'abord, nous devrons choisir une selle pour votre monture.${prompt}
   16415: |-
-    Which saddle would you like to use?
+    Quelle selle voudriez-vous utiliser ?
     ${selection-lines}
-    Lauan saddle.
-    Ash saddle.
-    Elm saddle.
-    Brass saddle.
-    Silver saddle.
-    Mythril saddle.
-    Grass saddle.
-    Cotton saddle.
-    Linen saddle.
-    Rabbit hide saddle.
-    Sheep leather saddle.
-    Buffalo leather saddle.
-    Quit.${prompt}
-  16416: A standard model, the lauan saddle will stabilize your chocobo's stride.${prompt}
-  16417: A standard model, the ash saddle will stabilize your chocobo's stride. It also increases your mount's endurance.${prompt}
-  16418: A standard model, the elm saddle will stabilize your chocobo's stride. It also increases your mount's endurance.${prompt}
-  16419: A bit on the hefty side, the brass saddle can be somewhat taxing on a chocobo's endurance. It compensates for this, however, by increasing the bird's strength.${prompt}
-  16420: A bit on the hefty side, the silver saddle can be somewhat taxing on a chocobo's endurance. It compensates for this, however, by increasing the bird's strength.${prompt}
-  16421: A bit on the hefty side, the mythril saddle can be somewhat taxing on a chocobo's endurance. It compensates for this, however, by increasing the bird's strength.${prompt}
-  16422: This lightweight grass saddle can create a marked improvement in physical performance. However, a chocobo will require some degree of discernment to reap its benefits.${prompt}
-  16423: This lightweight cotton saddle can create a marked improvement in physical performance. However, a chocobo will require some degree of discernment to reap its benefits.${prompt}
-  16424: This lightweight linen saddle can create a marked improvement in physical performance. However, a chocobo will require some degree of discernment to reap its benefits.${prompt}
-  16425: Crafted from the finest rabbit hide, this saddle can improve physical performance, but only for chocobos with at least moderate receptivity.${prompt}
-  16426: Crafted from the finest sheep leather, this saddle can improve physical performance, but only for chocobos with at least moderate receptivity.${prompt}
-  16427: Crafted from the finest buffalo leather, this saddle can improve physical performance, but only for chocobos with at least moderate receptivity.${prompt}
-  16428: Now that that's settled, if you'd kindly select the lane in which you'd like to race. The lanes are numbered in ascending order from innermost to outermost. The following lanes are now available:${prompt}
+    Selle lauan.
+    Selle frêne.
+    Selle orme.
+    Selle laiton.
+    Selle argent.
+    Selle mythril.
+    Selle herbe.
+    Selle coton.
+    Selle lin.
+    Selle cuir lapin.
+    Selle cuir mouton.
+    Selle cuir buffle.
+    Quitter.${prompt}
+  16416: Un modèle standard, la selle lauan stabilisera la foulée de votre chocobo.${prompt}
+  16417: Un modèle standard, la selle frêne stabilisera la foulée de votre chocobo. Elle augmente également l'endurance de votre monture.${prompt}
+  16418: Un modèle standard, la selle orme stabilisera la foulée de votre chocobo. Elle augmente également l'endurance de votre monture.${prompt}
+  16419: Un peu du côté lourd, la selle laiton peut être quelque peu ${choice-player-gender}[taxant/taxante] sur l''endurance d''un chocobo. Elle compense cela, cependant, en augmentant la force de l''oiseau.${prompt}
+  16420: Un peu du côté lourd, la selle argent peut être quelque peu ${choice-player-gender}[taxant/taxante] sur l''endurance d''un chocobo. Elle compense cela, cependant, en augmentant la force de l''oiseau.${prompt}
+  16421: Un peu du côté lourd, la selle mythril peut être quelque peu ${choice-player-gender}[taxante/taxante] sur l''endurance d''un chocobo. Elle compense cela, cependant, en augmentant la force de l''oiseau.${prompt}
+  16422: Cette selle herbe légère peut créer une amélioration ${choice-player-gender}[marquée/marquée] de la performance physique. Cependant, un chocobo nécessitera un certain degré de discernement pour récolter ses bénéfices.${prompt}
+  16423: Cette selle coton légère peut créer une amélioration ${choice-player-gender}[marquée/marquée] de la performance physique. Cependant, un chocobo nécessitera un certain degré de discernement pour récolter ses bénéfices.${prompt}
+  16424: Cette selle lin légère peut créer une amélioration ${choice-player-gender}[marquée/marquée] de la performance physique. Cependant, un chocobo nécessitera un certain degré de discernement pour récolter ses bénéfices.${prompt}
+  16425: ${choice-player-gender}[Fabriquée/Fabriquée] à partir du plus fin cuir de lapin, cette selle peut améliorer la performance physique, mais seulement pour les chocobos avec au moins une réceptivité modérée.${prompt}
+  16426: ${choice-player-gender}[Fabriquée/Fabriquée] à partir du plus fin cuir de mouton, cette selle peut améliorer la performance physique, mais seulement pour les chocobos avec au moins une réceptivité modérée.${prompt}
+  16427: ${choice-player-gender}[Fabriquée/Fabriquée] à partir du plus fin cuir de buffle, cette selle peut améliorer la performance physique, mais seulement pour les chocobos avec au moins une réceptivité modérée.${prompt}
+  16428: Maintenant que c'est ${choice-player-gender}[réglé/réglée], si vous voulez bien sélectionner la piste dans laquelle vous aimeriez courir. Les pistes sont ${choice-player-gender}[numérotées/numérotées] par ordre croissant de la plus intérieure à la plus extérieure. Les pistes suivantes sont maintenant disponibles :${prompt}
   16429: |-
-    In which lane would you like to race?
+    Dans quelle piste voudriez-vous courir ?
     ${selection-lines}
-    Lane 1.
-    Lane 2.
-    Lane 3.
-    Lane 4.
-    Lane 5.
-    Lane 6.
-    Lane 7.
-    Lane 8.
-    Quit.${prompt}
-  16430: 'I know that look! Lane ${number: 0} it is!${prompt}'
-  16431: 'Race fees will include a charge of ${number: 0} gil and ${number: 1} ${choice-plurality: 1}[chocobuck/chocobucks].${prompt}'
+    Piste 1.
+    Piste 2.
+    Piste 3.
+    Piste 4.
+    Piste 5.
+    Piste 6.
+    Piste 7.
+    Piste 8.
+    Quitter.${prompt}
+  16430: 'Je connais ce regard ! Piste ${number: 0} ce sera !${prompt}'
+  16431: 'Les frais de course incluront une charge de ${number: 0} gils et ${number: 1} ${choice-plurality: 1}[chocodoublon/chocodoublons].${prompt}'
   16432: |-
-    Do you wish to proceed?
+    Souhaitez-vous procéder ?
     ${selection-lines}
-    Yes! I'm ready to tear up the track!
-    I'm getting cold feet...${prompt}
-  16433: Very well. You have now been registered to race.${prompt}
-  16434: 'My apologies, but it seems that over four weeks have elapsed since your last race. As much as it pains me to do so, I will be forced to deduct ${number: 0} Solo Victory ${choice-plurality: 0}[Point/Points] from your account.${prompt}'
-  16435: I'm sorry, but I am unable to process your registration at this time.${prompt}
-  16436: I apologize, but the slot you have applied for has already been taken.${prompt}
-  16437: I understand your eagerness, but sadly, not enough time has passed for you to register for a new race. Please try again later.${prompt}
-  16438: I'm sorry, but only racers affiliated with one of the three recognized racing teams are eligible for signup.${prompt}
-  16439: It seems you have not yet fulfilled the necessary requirements for race eligibility. I'm sorry, but I cannot sign up your chocobo.${prompt}
-  16440: We look forward to seeing you again.${prompt}
-  16441: The race you have signed up for will begin shortly. Please stand by until then.${prompt}
-  16442: We regret to inform you that the race you had signed up for has been cancelled. We apologize for any inconvenience.${prompt}
-  16443: 'Of course, we will return your ${item-singular: 0[2]} and refund your racing fee. Also, your eligibility to race will be reestablished immediately. Thank you for your understanding.${prompt}'
-  16444: Your racing fees have been refunded.
-  16445: You must join a racing team before participating in any races.${prompt}
+    Oui ! Je suis ${choice-player-gender}[prêt/prête] à déchirer la piste !
+    J'ai les pieds froids...${prompt}
+  16433: Très bien. Vous êtes maintenant ${choice-player-gender}[enregistré/enregistrée] pour courir.${prompt}
+  16434: 'Mes excuses, mais il semble que plus de quatre semaines se sont ${choice-player-gender}[écoulées/écoulées] depuis votre dernière course. Autant que cela me fait mal de le faire, je serai ${choice-player-gender}[forcé/forcée] de déduire ${number: 0} ${choice-plurality: 0}[Point/Points] de Victoire Solo de votre compte.${prompt}'
+  16435: Je suis ${choice-player-gender}[désolé/désolée], mais je suis incapable de traiter votre enregistrement en ce moment.${prompt}
+  16436: Je m''excuse, mais la place pour laquelle vous avez ${choice-player-gender}[postulé/postulée] a déjà été ${choice-player-gender}[prise/prise].${prompt}
+  16437: Je comprends votre impatience, mais malheureusement, pas assez de temps ne s'est ${choice-player-gender}[écoulé/écoulée] pour que vous vous inscriviez pour une nouvelle course. Veuillez réessayer plus tard.${prompt}
+  16438: Je suis ${choice-player-gender}[désolé/désolée], mais seuls les coureurs ${choice-player-gender}[affiliés/affiliées] avec l''une des trois équipes de course ${choice-player-gender}[reconnues/reconnues] sont ${choice-player-gender}[éligibles/éligibles] pour l''inscription.${prompt}
+  16439: Il semble que vous n''ayez pas encore ${choice-player-gender}[rempli/remplie] les exigences nécessaires pour l''éligibilité de course. Je suis ${choice-player-gender}[désolé/désolée], mais je ne peux pas inscrire votre chocobo.${prompt}
+  16440: Nous attendons avec impatience de vous revoir.${prompt}
+  16441: La course pour laquelle vous vous êtes ${choice-player-gender}[inscrit/inscrite] commencera sous peu. Veuillez rester en attente jusque-là.${prompt}
+  16442: Nous regrettons de vous informer que la course pour laquelle vous vous étiez ${choice-player-gender}[inscrit/inscrite] a été ${choice-player-gender}[annulée/annulée]. Nous nous excusons pour tout inconvénient.${prompt}
+  16443: 'Bien sûr, nous vous retournerons votre ${item-singular: 0[2]} et rembourserons vos frais de course. De plus, votre éligibilité pour courir sera ${choice-player-gender}[rétabli/rétablie] immédiatement. Merci de votre compréhension.${prompt}'
+  16444: Vos frais de course ont été ${choice-player-gender}[remboursés/remboursées].
+  16445: Vous devez rejoindre une équipe de course avant de participer à toute course.${prompt}
   16446: |-
-    Affiliate yourself with a racing team?
+    Vous affilier avec une équipe de course ?
     ${selection-lines}
-    Absolutely.
-    Not right now.${prompt}
+    Absolument.
+    Pas maintenant.${prompt}
   16447: |-
-    Which team would you like to join?
+    Quelle équipe voudriez-vous rejoindre ?
     ${selection-lines}
-    San d'Oria, for the glory of the kingdom!
-    My allegiance lies with Bastok!
-    Windurst till death!
-    Quit.${prompt}
-  16448: 'Led by advanced chocobo trainer Hantileon, Team San d''Oria is steeped in tradition, much like the kingdom itself.${prompt} '
-  16449: Team Bastok is headed by advanced chocobo trainer Zopago, and has always prided itself on its rich history.${prompt}
-  16450: Team Windurst places emphasis on their achievements, as exemplified by their leader, advanced chocobo trainer Pulonono.${prompt}
+    San d'Oria, pour la gloire du royaume !
+    Mon allégeance est à Bastok !
+    Windurst jusqu'à la mort !
+    Quitter.${prompt}
+  16448: '${choice-player-gender}[Dirigée/Dirigée] par l''entraîneur avancé de chocobos Hantileon, l''Équipe San d''Oria est ${choice-player-gender}[imprégnée/imprégnée] de tradition, tout comme le royaume lui-même.${prompt} '
+  16449: L'Équipe Bastok est ${choice-player-gender}[dirigée/dirigée] par l''entraîneur avancé de chocobos Zopago, et s''est toujours enorgueillie de son riche histoire.${prompt}
+  16450: L'Équipe Windurst met l'emphase sur leurs accomplissements, comme ${choice-player-gender}[exemplifié/exemplifiée] par leur ${choice-player-gender}[leader/leader], l''entraîneur avancé de chocobos Pulonono.${prompt}
   16451: |-
-    Join the ${choice: 0}[ /San d'Oria/Bastok/Windurst] racing team?
+    Rejoindre l'équipe de course ${choice: 0}[ /de San d'Oria/de Bastok/de Windurst] ?
     ${selection-lines}
-    Yes, at once.
-    No, not now.${prompt}
-  16452: If you would just wait one moment while I fill out the necessary paperwork...
-  16453: 'Congratulations, ${name-player}! You have just become the newest member of the ${choice: 1}[ /San d''Oria/Bastok/Windurst] racing team!${prompt}'
-  16454: 'You really want to nullify your affiliation with the ${choice: 0}[ /San d''Oria/Bastok/Windurst] racing team and join another?${prompt}'
-  16455: Changing team affiliation will result in you losing all of the Solo Victory Points you currently have accumulated. Can you live with that?${prompt}
+    Oui, immédiatement.
+    Non, pas maintenant.${prompt}
+  16452: Si vous pouviez juste attendre un moment pendant que je remplis les papiers nécessaires...
+  16453: 'Félicitations, ${name-player} ! Vous venez juste de devenir le ${choice-player-gender}[plus nouveau membre/la plus nouvelle membre] de l''équipe de course ${choice: 1}[ /de San d''Oria/de Bastok/de Windurst] !${prompt}'
+  16454: 'Voulez-vous vraiment annuler votre affiliation avec l''équipe de course ${choice: 0}[ /de San d''Oria/de Bastok/de Windurst] et en rejoindre une autre ?${prompt}'
+  16455: Changer d'affiliation d'équipe résultera en la perte de tous les Points de Victoire Solo que vous avez actuellement ${choice-player-gender}[accumulés/accumulées]. Pouvez-vous vivre avec ça ?${prompt}
   16456: |-
-    Change teams?
+    Changer d'équipes ?
     ${selection-lines}
-    Yes, I'm outta here.
-    No, I'll stay.${prompt}
-  16457: Your current statistics are:${prompt}
+    Oui, je me tire d'ici.
+    Non, je vais rester.${prompt}
+  16457: Vos statistiques actuelles sont :${prompt}
   16458: |-
-    Solo Victory Points: ${number: 0}
-    Number of races: ${number: 1}
-    First-place finishes: ${number: 2}
-    That's it.${prompt}
-  16459: If you would permit me, I can provide a brief explanation of the upcoming race.${prompt}
+    Points de Victoire Solo : ${number: 0}
+    Nombre de courses : ${number: 1}
+    Finitions première place : ${number: 2}
+    C'est tout.${prompt}
+  16459: Si vous me le permettez, je peux fournir une brève explication de la course à venir.${prompt}
   16460: |-
-    What would you like to hear about?
+    De quoi aimeriez-vous entendre parler ?
     ${selection-lines}
-    Weather conditions.
-    Racing conditions.
-    Prize money.
-    That's all for now.${prompt}
+    Conditions météo.
+    Conditions de course.
+    Argent prix.
+    C'est tout pour l'instant.${prompt}
   16461: |-
-    Venue: Chocobo Circuit
-    Weather: ${choice: 0}[-/Sunny/Cloudy/-/Heat wave/-/Rainy/-/Sandstorm/-/Windy/-/Snowy/-/Thunderstorms/-/Auroras/-/Dark/-]
+    Lieu : Circuit Chocobo
+    Météo : ${choice: 0}[-/Ensoleillé/Nuageux/-/Canicule/-/Pluvieux/-/Tempête de sable/-/Venteux/-/Neigeux/-/Orages/-/Aurores/-/Sombre/-]
   16462: |-
-    Chocobos: 8
-    Objective: Place 1st${prompt}
-  16463: 'Requirements: ${number: 0} gil and ${number: 1} ${choice-plurality: 1}[chocobuck/chocbucks].${prompt}'
-  16464: 'Requirements: Must have at least ${number: 2} ${choice-plurality: 1}[Solo Victory Point/Solo Victory Points].${prompt}'
-  16465: 'Position ${number: 6} prize: ${number: 0} gil plus a ${number: 1}.${number: 2}${number: 3}% sales bonus, ${number: 4} ${choice-plurality: 4}[chocobuck/chocbucks], and ${number: 5} ${choice-plurality: 5}[Solo Victory Point/Solo Victory Points].${prompt}'
-  16466: 'Position ${number: 6} prize: ${number: 0} gil, ${number: 4} ${choice-plurality: 4}[chocobuck/chocbucks], and ${number: 5} ${choice-plurality: 5}[Solo Victory Point/Solo Victory Points].${prompt}'
-  16467: 'Honorable Mention: ${number: 6} place prize: ${number: 0} gil plus a ${number: 1}.${number: 2}${number: 3}% sales bonus, ${number: 4} ${choice-plurality: 4}[chocobuck/chocbucks], and ${choice-plurality: 5}[Solo Victory Point/Solo Victory Points].${prompt}'
-  16468: 'Honorable mention: ${number: 0} gil, ${number: 4} ${choice-plurality: 4}[chocobuck/chocbucks], and ${number: 5} ${choice-plurality: 5}[Solo Victory Point/Solo Victory Points].${prompt}'
-  16469: 'This is the ${item-singular: 0[2]} that you failed to receive at your last signup. Unfortunately, the expiration date has passed, so we will dispose of it for you.${prompt}'
-  16470: 'Ah, I can see from your ${item-singular: 0[2]} that you are here to collect your winnings. One moment, please.${prompt}'
-  16471: Thank you for waiting, and congratulations! Here is your prize.${prompt}
-  16472: Thank you for waiting. Unfortunately, you are not entitled to any prizes at this time.${prompt}
-  16473: 'We will keep the ${item-singular: 0[2]} to avoid future confusion. Thank you for participating!${prompt}'
-  16474: 'You receive ${number: 0} gil in prize money!'
-  16475: 'You receive ${number: 0} ${choice-plurality: 0}[chocobuck/chocobucks] in prize money!'
-  16476: 'You receive ${number: 0} ${choice-plurality: 0}[Solo Victory Point/Solo Victory Points]!'
-  16477: I apologize for the inconvenience, but we are currently inundated with requests. Please try again shortly.${prompt}
-  16478: I'm very sorry, but your chocobet ticket has reached its expiration date. We cannot cash it out.${prompt}
-  16479: 'We will dispose of the ${item-singular: 0[2]}. Thank you!${prompt}'
-  16480: This is the entrance to the grandstand. You'll be able to take in every sight and spectacle of the race from here!${prompt}
-  16481: 'To enter, please either show your ${keyitem-singular: 1[2]} or pay an admission fee of ${number: 0} gil.${prompt}'
+    Chocobos : 8
+    Objectif : Se placer 1er${prompt}
+  16463: 'Exigences : ${number: 0} gils et ${number: 1} ${choice-plurality: 1}[chocodoublon/chocodoublons].${prompt}'
+  16464: 'Exigences : Doit avoir au moins ${number: 2} ${choice-plurality: 1}[Point de Victoire Solo/Points de Victoire Solo].${prompt}'
+  16465: 'Prix position ${number: 6} : ${number: 0} gils plus un bonus de ventes de ${number: 1},${number: 2}${number: 3}%, ${number: 4} ${choice-plurality: 4}[chocodoublon/chocodoublons], et ${number: 5} ${choice-plurality: 5}[Point de Victoire Solo/Points de Victoire Solo].${prompt}'
+  16466: 'Prix position ${number: 6} : ${number: 0} gils, ${number: 4} ${choice-plurality: 4}[chocodoublon/chocodoublons], et ${number: 5} ${choice-plurality: 5}[Point de Victoire Solo/Points de Victoire Solo].${prompt}'
+  16467: 'Mention Honorable : prix place ${number: 6} : ${number: 0} gils plus un bonus de ventes de ${number: 1},${number: 2}${number: 3}%, ${number: 4} ${choice-plurality: 4}[chocodoublon/chocodoublons], et ${choice-plurality: 5}[Point de Victoire Solo/Points de Victoire Solo].${prompt}'
+  16468: 'Mention honorable : ${number: 0} gils, ${number: 4} ${choice-plurality: 4}[chocodoublon/chocodoublons], et ${number: 5} ${choice-plurality: 5}[Point de Victoire Solo/Points de Victoire Solo].${prompt}'
+  16469: 'Ceci est le ${item-singular: 0[2]} que vous avez échoué à recevoir à votre dernière inscription. Malheureusement, la date d''expiration est ${choice-player-gender}[passée/passée], donc nous nous en débarrasserons pour vous.${prompt}'
+  16470: 'Ah, je peux voir de votre ${item-singular: 0[2]} que vous êtes ici pour collecter vos gains. Un moment, s''il vous plaît.${prompt}'
+  16471: Merci d'avoir ${choice-player-gender}[attendu/attendue], et félicitations ! Voici votre prix.${prompt}
+  16472: Merci d'avoir ${choice-player-gender}[attendu/attendue]. Malheureusement, vous n''êtes pas ${choice-player-gender}[habilité/habilitée] à aucun prix en ce moment.${prompt}
+  16473: 'Nous garderons le ${item-singular: 0[2]} pour éviter la confusion future. Merci d''avoir ${choice-player-gender}[participé/participée] !${prompt}'
+  16474: 'Vous recevez ${number: 0} gils en argent prix !'
+  16475: 'Vous recevez ${number: 0} ${choice-plurality: 0}[chocodoublon/chocodoublons] en argent prix !'
+  16476: 'Vous recevez ${number: 0} ${choice-plurality: 0}[Point de Victoire Solo/Points de Victoire Solo] !'
+  16477: Je m''excuse pour l''inconvénient, mais nous sommes actuellement ${choice-player-gender}[inondés/inondées] de demandes. Veuillez réessayer sous peu.${prompt}
+  16478: Je suis très ${choice-player-gender}[désolé/désolée], mais votre ticket de chocopari a atteint sa date d''expiration. Nous ne pouvons pas l''encaisser.${prompt}
+  16479: 'Nous nous débarrasserons du ${item-singular: 0[2]}. Merci !${prompt}'
+  16480: Ceci est l'entrée de la tribune. Vous pourrez profiter de chaque vue et spectacle de la course d'ici !${prompt}
+  16481: 'Pour entrer, veuillez soit montrer votre ${keyitem-singular: 1[2]} soit payer des frais d''admission de ${number: 0} gils.${prompt}'
   16482: |-
-    Pay the admission fee?
+    Payer les frais d'admission ?
     ${selection-lines}
-    Yes.
-    No.${prompt}
+    Oui.
+    Non.${prompt}
   16483: |-
-    Enter the grounds?
+    Entrer sur le terrain ?
     ${selection-lines}
-    Sure.
-    Not right now.${prompt}
-  16484: 'You hand the ${keyitem-singular: 1[2]} to ${name-npc}.${prompt}'
-  16485: Go right ahead, ${choice-player-gender}[sir/ma'am]. Enjoy the races!
-  16486: This is the grandstand exit.${prompt}
-  16487: Please note that once you exit, you will be required to pay an additional admission fee to reenter.${prompt}
-  16488: Do you really want to leave now?
+    Bien sûr.
+    Pas maintenant.${prompt}
+  16484: 'Vous remettez le ${keyitem-singular: 1[2]} à ${name-npc}.${prompt}'
+  16485: Allez-y, ${choice-player-gender}[monsieur/madame]. Profitez des courses !
+  16486: Ceci est la sortie de la tribune.${prompt}
+  16487: Veuillez noter qu'une fois que vous sortez, vous serez ${choice-player-gender}[requis/requise] de payer des frais d''admission supplémentaires pour réentrer.${prompt}
+  16488: Voulez-vous vraiment partir maintenant ?
   16489: |-
-    Exit the grounds?
+    Sortir du terrain ?
     ${selection-lines}
-    Yes, I'm all done here.
-    No, not yet.${prompt}
-  16490: Thank you for coming.
-  16491: All spectators wishing to view the race, please proceed to the grandstand.${prompt}
-  16492: Greetings, and welcome to the General Information Center.${prompt}
+    Oui, j'en ai fini ici.
+    Non, pas encore.${prompt}
+  16490: Merci d'être ${choice-player-gender}[venu/venue].
+  16491: Tous les spectateurs souhaitant voir la course, veuillez vous rendre à la tribune.${prompt}
+  16492: Salutations, et bienvenue au Centre d'Information Générale.${prompt}
   16493: |-
-    What can I help you with?
+    En quoi puis-je vous aider ?
     ${selection-lines}
-    Racing teams.
-    Results of previous races.
-    Racetrack directions.
-    Races.
-    Racing.
-    Chocobetting.
-    I'm fine, thanks.${prompt}
-  16494: Thank you, come again!${prompt}
-  16495: And now the latest team standings:${prompt}
+    Équipes de course.
+    Résultats des courses précédentes.
+    Directions de l'hippodrome.
+    Courses.
+    Course.
+    Chocopari.
+    Je vais bien, merci.${prompt}
+  16494: Merci, revenez !${prompt}
+  16495: Et maintenant les derniers classements d'équipe :${prompt}
   16496: |-
-    ～Current Standings～
-    Team San d'Oria: ${choice: 0}[Dominant/Major/Minor/Minimal/???]
-    Team Bastok: ${choice: 1}[Dominant/Major/Minor/Minimal/???]
-    Team Windurst: ${choice: 2}[Dominant/Major/Minor/Minimal/???]${prompt}
+    ～Classement Actuel～
+    Équipe San d'Oria : ${choice: 0}[Dominant/Majeur/Mineur/Minimal/???]
+    Équipe Bastok : ${choice: 1}[Dominant/Majeur/Mineur/Minimal/???]
+    Équipe Windurst : ${choice: 2}[Dominant/Majeur/Mineur/Minimal/???]${prompt}
   16497: |-
-    ～Current Standings～
-    Three-nation deadlock!${prompt}
+    ～Classement Actuel～
+    Impasse à trois nations !${prompt}
   16498: |-
-    ～Last Week's Standings～
-    Team San d'Oria: ${number: 0}
-    Team Bastok: ${number: 1}
-    Team Windurst: ${number: 2}${prompt}
-  16499: Helping your team into first will give you certain advantages over your rivals! That should give you something to strive for!${prompt}
+    ～Classement de la Semaine Dernière～
+    Équipe San d'Oria : ${number: 0}
+    Équipe Bastok : ${number: 1}
+    Équipe Windurst : ${number: 2}${prompt}
+  16499: Aider votre équipe à arriver première vous donnera certains avantages sur vos rivaux ! Cela devrait vous donner quelque chose pour lequel lutter !${prompt}
   16500: |-
-    What would you like to know about?
+    De quoi aimeriez-vous savoir ?
     ${selection-lines}
-    The promenade.
-    Chocobet centers.
-    The grandstand.
-    Portals.
+    La promenade.
+    Centres chocopari.
+    La tribune.
+    Portails.
     Guides.
-    Nothing for now.${prompt}
-  16501: Shops, as well as attendants to assist you in siging up your chocobo for a race, are located on the promenade.${prompt}
-  16502: It can be found just south of here.${prompt}
-  16503: The promenade itself is split into eastern and western halves, both of which house all of the same facilities. Be sure to stop by and have a look when you get a chance.${prompt}
-  16504: 'Attendants at the chocobet centers are there to assist you with acquiring ${article} ${item-article: 0[2]}, as well as collecting your winnings.${prompt}'
-  16505: There are a total of five centers readily available for your convenience, each of which are located near the transportation portals. There are two to the east and west of here, and one just to the north.${prompt}
-  16506: All chocobet centers are capable of providing the same services.${prompt}
-  16507: The grandstand faces the racetrack itself, and allows spectators to sit and enjoy the races in comfort.${prompt}
-  16508: To get there, just follow the red carpet all the way through the betting area. You can't miss it.${prompt}
-  16509: 'The standard admission fee is ${number: 0} gil. Patrons who possess ${keyitem-article: 1[2]} may enter free of charge.${prompt}'
-  16510: '${lettercase: 1}${keyitem-plural: 1[2]} will be provided anytime you purchase ${article} ${item-article: 0[2]} or sign up for a race.${prompt}'
-  16511: 'Your ${keyitem-singular: 1[2]} will become invalid as soon as you leave the grandstand. Reentry will require you to pay an additional admission fee.${prompt}'
-  16512: This racetrack is equipped with portals to transport our patrons to any of the three nations, as well as Jeuno and Al Zahbi.${prompt}
-  16513: As you can see, we are regularly visited by a multitude of race fans, breeders, and jockeys from every realm imaginable. We have therefore relegated each portal to a single destination in an attempt to avoid congestion.${prompt}
+    Rien pour l'instant.${prompt}
+  16501: Les boutiques, ainsi que les assistants pour vous aider à inscrire votre chocobo pour une course, sont ${choice-player-gender}[situés/situées] sur la promenade.${prompt}
+  16502: Elle peut être ${choice-player-gender}[trouvée/trouvée] juste au sud d''ici.${prompt}
+  16503: La promenade elle-même est ${choice-player-gender}[divisée/divisée] en moitiés est et ouest, qui abritent toutes deux toutes les mêmes installations. Assurez-vous de passer et de jeter un coup d''œil quand vous aurez une chance.${prompt}
+  16504: 'Les assistants aux centres chocopari sont là pour vous aider à acquérir ${article} ${item-article: 0[2]}, ainsi qu''à collecter vos gains.${prompt}'
+  16505: Il y a un total de cinq centres facilement disponibles pour votre commodité, chacun ${choice-player-gender}[situé/située] près des portails de transport. Il y en a deux à l''est et à l''ouest d''ici, et ${choice-player-gender}[un/une] juste au nord.${prompt}
+  16506: Tous les centres chocopari sont capables de fournir les mêmes services.${prompt}
+  16507: La tribune fait face à l'hippodrome lui-même, et permet aux spectateurs de s'asseoir et de profiter des courses dans le confort.${prompt}
+  16508: Pour y arriver, suivez simplement le tapis rouge jusqu'au bout à travers la zone de paris. Vous ne pouvez pas le manquer.${prompt}
+  16509: 'Les frais d''admission standard sont ${number: 0} gils. Les ${choice-player-gender}[clients/clientes] qui possèdent ${keyitem-article: 1[2]} peuvent entrer gratuitement.${prompt}'
+  16510: '${lettercase: 1}${keyitem-plural: 1[2]} seront ${choice-player-gender}[fournis/fournies] à tout moment vous achetez ${article} ${item-article: 0[2]} ou vous inscrivez pour une course.${prompt}'
+  16511: 'Votre ${keyitem-singular: 1[2]} deviendra ${choice-player-gender}[invalide/invalide] dès que vous quitterez la tribune. La réentrée vous demandera de payer des frais d''admission supplémentaires.${prompt}'
+  16512: Cet hippodrome est ${choice-player-gender}[équipé/équipée] de portails pour transporter nos ${choice-player-gender}[clients/clientes] vers n''importe laquelle des trois nations, ainsi que Jeuno et Al Zahbi.${prompt}
+  16513: Comme vous pouvez le voir, nous sommes régulièrement ${choice-player-gender}[visités/visitées] par une multitude de fans de course, éleveurs et jockeys de chaque royaume imaginable. Nous avons donc ${choice-player-gender}[relégués/reléguées] chaque portail à une seule destination dans une tentative d''éviter la congestion.${prompt}
   16514: |-
-    For the same reasons, we ask that visitors refrain from setting up bazaars while here. Violators of this rule will be severely punished.
-    Your cooperation is appreciated.${prompt}
-  16515: Guides can be found throughout the premises waiting to assist you.${prompt}
-  16516: They can help by transporting you to the location of your choice.${prompt}
-  16517: This service is provided free of charge, so please don't hesitate to make use of it.${prompt}
+    Pour les mêmes raisons, nous demandons aux visiteurs de s'abstenir de mettre en place des bazars pendant qu'ils sont ici. Les ${choice-player-gender}[violateurs/violatrices] de cette règle seront ${choice-player-gender}[sévèrement punis/sévèrement punies].
+    Votre coopération est appréciée.${prompt}
+  16515: Des guides peuvent être ${choice-player-gender}[trouvés/trouvées] partout sur les lieux en attente de vous aider.${prompt}
+  16516: Ils peuvent aider en vous transportant à l'emplacement de votre choix.${prompt}
+  16517: Ce service est ${choice-player-gender}[fourni/fournie] gratuitement, alors n''hésitez pas à en faire usage.${prompt}
   16518: |-
-    What would you like to know about?
+    De quoi aimeriez-vous savoir ?
     ${selection-lines}
-    Racing teams.
-    Race rules.
-    Race types.
-    Victory points.
-    Race Progression.
-    That's about it.${prompt}
-  16519: A race chocobo's owner or jockey may join one of the three racing teams by registering at the appropriate VCS branch.${prompt}
-  16520: Each nation's Team Victory Points are the sum total of all of its members' Solo Victory Points. The Team Victory Point totals are then used to determine the overall weekly standings.${prompt}
-  16521: In order to race your chocobo here, we ask that you please affiliate yourself first with one of the three teams.${prompt}
-  16522: For details, please check with your local CRA racing center.${prompt}
-  16523: The races held here are almost identical to the official and private races held at the other racetracks.${prompt}
-  16524: What distinguishes our races is the fact that victories here qualify you to collect larger cash purses, as well as Victory Points.${prompt}
-  16525: Eligibility to participate in the higher-level races will require a certain number of Solo Victory Points.${prompt}
-  16526: Depending on a team's weekly standings, its members may suffer certain eligibility restrictions. At the same time, they may also be privy to certain benefits.${prompt}
-  16527: The teams in second and third place will have the advantage of being allowed more entry positions in any given race, while those of the leading team are restricted.${prompt}
-  16528: The leading team will, however, be granted the privilege of selecting higher-quality saddles for their race chocobos.${prompt}
-  16529: The CRA reserves the right to impose a handicap system when it is determined that the gap in skill between chocobos is simply too great to make for a fair race.${prompt}
-  16530: In such an event, the “less endowed” of the chocobos will be granted certain enhancing effects, such as Haste or Refresh.${prompt}
-  16531: Whether handicaps will be enforced or not will be determined after signups are complete. Make sure to keep an eye on your chocobo's settings.${prompt}
-  16532: Each race title will include a code, such as C4. This code is the “race grade.”${prompt}
-  16533: For example, a “C4 Chocobo Race” would indicate a typical grade 4 race.${prompt}
-  16534: We have four race grades, ranging from C4 to C1. The lower the number, the higher the grade. This, of course, means larger entry fees, but also more prize money.${prompt}
-  16535: No matter which race you enter, upon completion you will be prevented from joining any other races for a period of 20 hours (Earth time). Higher-grade races carry larger purses, so most racers like to use their opportunities to go after those.${prompt}
-  16536: Solo Victory Points will be awarded to you every race, depending on how well you finish.${prompt}
-  16537: As your Solo Victory Points accumulate, your chocobo will be able to gain entry to high-grade races.${prompt}
-  16538: Should a racer return to the circuit after an absence of four weeks or more, the CRA will be forced to deduct a number of Solo Victory Points.${prompt}
-  16539: Only on the rarest of occasions will such penalties be imposed. However, there are some races in which you will be unable to participate if you do not have a certain amount of Solo Victory Points in your possession.${prompt}
-  16540: Also, obtaining Solo Victory Points will also grant your nation Team Victory Points.${prompt}
-  16541: The three teams are in constant competition with one another, and a weekly ranking system is in place based on Team Victory Point totals.${prompt}
-  16542: As a team climbs up in rank, certain benefits will follow. You may see new items available for purchase with chocobucks, preferential treatment at the races, and so on.${prompt}
-  16543: Keep in mind that should you change your team affiliation, you will be forced to forfeit any accumulated Solo Victory Points.${prompt}
-  16544: We have a total of four races that run in succession.${prompt}
-  16545: Each race has its own dedicated signup window. Here there will be four attendants ready to serve all your racing needs.${prompt}
-  16546: Even if the race registration at one window closes, registration for the next race will begin immediately at the neighboring window.${prompt}
-  16547: Races will be held one after the other, so you'll have plenty of chances to watch and bet. Sit back, relax, and enjoy!${prompt}
+    Équipes de course.
+    Règles de course.
+    Types de course.
+    Points de victoire.
+    Progression de course.
+    C'est à peu près tout.${prompt}
+  16519: Le propriétaire ou jockey d'un chocobo de course peut rejoindre l'une des trois équipes de course en s'enregistrant à la branche VCS appropriée.${prompt}
+  16520: Les Points de Victoire d'Équipe de chaque nation sont la somme totale de tous les Points de Victoire Solo de ses membres. Les totaux de Points de Victoire d'Équipe sont ensuite utilisés pour déterminer les classements hebdomadaires globaux.${prompt}
+  16521: Afin de faire courir votre chocobo ici, nous demandons que vous vous affiliez d'abord avec l'une des trois équipes.${prompt}
+  16522: Pour les détails, veuillez vérifier avec votre centre de course CRA local.${prompt}
+  16523: Les courses ${choice-player-gender}[tenues/tenues] ici sont presque identiques aux courses officielles et privées ${choice-player-gender}[tenues/tenues] aux autres hippodromes.${prompt}
+  16524: Ce qui distingue nos courses est le fait que les victoires ici vous qualifient pour collecter des bourses en espèces plus grandes, ainsi que des Points de Victoire.${prompt}
+  16525: L'éligibilité à participer aux courses de niveau supérieur nécessitera un certain nombre de Points de Victoire Solo.${prompt}
+  16526: Selon le classement hebdomadaire d'une équipe, ses membres peuvent subir certaines restrictions d'éligibilité. En même temps, ils peuvent aussi être ${choice-player-gender}[au courant/au courante] de certains bénéfices.${prompt}
+  16527: Les équipes en deuxième et troisième place auront l'avantage d'être ${choice-player-gender}[autorisées/autorisées] plus de positions d'entrée dans n'importe quelle course ${choice-player-gender}[donnée/donnée], tandis que celles de l'équipe ${choice-player-gender}[menant/menante] sont ${choice-player-gender}[restreints/restreintes].${prompt}
+  16528: L'équipe ${choice-player-gender}[menant/menante] se verra cependant ${choice-player-gender}[accorder/accorder] le privilège de sélectionner des selles de qualité supérieure pour leurs chocobos de course.${prompt}
+  16529: La CRA se réserve le droit d'imposer un système de handicap lorsqu'il est ${choice-player-gender}[déterminé/déterminée] que l'écart de compétence entre les chocobos est simplement trop grand pour faire une course ${choice-player-gender}[équitable/équitable].${prompt}
+  16530: Dans un tel événement, les chocobos "moins ${choice-player-gender}[dotés/dotées]" se verront ${choice-player-gender}[accorder/accorder] certains effets ${choice-player-gender}[améliorants/améliorantes], tels que Hâte ou Refresh.${prompt}
+  16531: Que les handicaps soient ${choice-player-gender}[appliqués/appliquées] ou non sera ${choice-player-gender}[déterminé/déterminée] après que les inscriptions soient ${choice-player-gender}[complètes/complètes]. Assurez-vous de garder un œil sur les paramètres de votre chocobo.${prompt}
+  16532: Chaque titre de course inclura un code, tel que C4. Ce code est le "grade de course".${prompt}
+  16533: Par exemple, une "Course Chocobo C4" indiquerait une course typique de grade 4.${prompt}
+  16534: Nous avons quatre grades de course, allant de C4 à C1. Plus le nombre est bas, plus le grade est ${choice-player-gender}[élevé/élevée]. Ceci, bien sûr, signifie des frais d''entrée plus grands, mais aussi plus d''argent prix.${prompt}
+  16535: Peu importe quelle course vous entrez, à l'achèvement vous serez ${choice-player-gender}[empêché/empêchée] de rejoindre toute autre course pour une période de 20 heures (temps Terre). Les courses de grade supérieur portent des bourses plus grandes, donc la plupart des coureurs aiment utiliser leurs opportunités pour poursuivre celles-ci.${prompt}
+  16536: Des Points de Victoire Solo vous seront ${choice-player-gender}[attribués/attribuées] à chaque course, selon la façon dont vous finissez bien.${prompt}
+  16537: Au fur et à mesure que vos Points de Victoire Solo s'accumulent, votre chocobo sera capable de gagner l'entrée aux courses de grade ${choice-player-gender}[élevé/élevée].${prompt}
+  16538: Si ${choice-player-gender}[un coureur/une coureuse] retourne au circuit après une absence de quatre semaines ou plus, la CRA sera ${choice-player-gender}[forcée/forcée] de déduire un nombre de Points de Victoire Solo.${prompt}
+  16539: Seulement dans les plus rares occasions de telles pénalités seront ${choice-player-gender}[imposées/imposées]. Cependant, il y a certaines courses dans lesquelles vous serez incapable de participer si vous n''avez pas une certaine quantité de Points de Victoire Solo en votre possession.${prompt}
+  16540: De plus, obtenir des Points de Victoire Solo accordera également à votre nation des Points de Victoire d'Équipe.${prompt}
+  16541: Les trois équipes sont en compétition constante les unes avec les autres, et un système de classement hebdomadaire est en place basé sur les totaux de Points de Victoire d'Équipe.${prompt}
+  16542: Au fur et à mesure qu'une équipe monte en rang, certains bénéfices suivront. Vous pouvez voir de nouveaux objets disponibles à l'achat avec des chocodoublons, traitement préférentiel aux courses, et ainsi de suite.${prompt}
+  16543: Gardez à l'esprit que si vous changez votre affiliation d'équipe, vous serez ${choice-player-gender}[forcé/forcée] de renoncer à tous Points de Victoire Solo ${choice-player-gender}[accumulés/accumulées].${prompt}
+  16544: Nous avons un total de quatre courses qui se déroulent en succession.${prompt}
+  16545: Chaque course a sa propre fenêtre d'inscription ${choice-player-gender}[dédiée/dédiée]. Ici il y aura quatre assistants ${choice-player-gender}[prêts/prêtes] à servir tous vos besoins de course.${prompt}
+  16546: Même si l'enregistrement de course à une fenêtre ferme, l'enregistrement pour la prochaine course commencera immédiatement à la fenêtre ${choice-player-gender}[voisin/voisine].${prompt}
+  16547: Les courses seront ${choice-player-gender}[tenues/tenues] l''une après l''autre, donc vous aurez beaucoup de chances de regarder et parier. Asseyez-vous, détendez-vous, et profitez !${prompt}
   16548: |-
     De quoi aimeriez-vous en savoir plus ?
     ${selection-lines}
