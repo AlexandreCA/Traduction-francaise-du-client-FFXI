@@ -35484,9 +35484,9 @@ entries:
     Demander une explication sur les Maisons Mog.
     Visiter la Maison Mog d'un membre du groupe.${prompt}
   17345: |-
-    Whose Mog House will you visit?
+    De quelle Maison Mog veux-tu visiter ?
     ${selection-lines}
-    Never mind.
+    Peu importe.
     ${item: 1}
     ${item: 2}
     ${item: 3}
@@ -35504,153 +35504,153 @@ entries:
     ${item: 15}
     ${item: 16}
     ${item: 17}${prompt}
-  17346: That Mog House is not currently open for visits.${prompt}
+  17346: Cette Maison Mog n'est actuellement pas ouverte aux visites.${prompt}
   17347: |-
     ${number: 0}, ${number: 1}
     ${number: 2}, ${number: 3}${prompt}
-  17348: Anxious 1.${prompt}
-  17349: Anxious 2.${prompt}
-  17350: Assured.${prompt}
-  17351: Celestial Nights has begun, kupo!${prompt}
-  17352: An event based on the timeless, tear-jerking tale of tragedy between Prince Yahiko of the Eastern Nation and Princess Amdina of the Western Nation is being held, kupo!${prompt}
-  17353: In an interpretive recreation of the tale, two actors have assumed the roles of the prince and princess on a sizzling hot date!${prompt}
-  17354: But all is not well...${prompt}
-  17355: You see, the town is overflowing with alluringly attractive ladies, kupo.${prompt}
+  17348: Anxieux${choice-player-gender}[/Anxieuse] 1.${prompt}
+  17349: Anxieux${choice-player-gender}[/Anxieuse] 2.${prompt}
+  17350: Assuré${choice-player-gender}[/e].${prompt}
+  17351: Celestial Nights a commencé, kupo !${prompt}
+  17352: Un événement basé sur le conte intemporel et déchirant de la tragédie entre le Prince Yahiko de la Nation de l'Est et la Princesse Amdina de la Nation de l'Ouest se déroule, kupo !${prompt}
+  17353: Dans une recréation interprétative du conte, deux acteur${choice-player-gender}[/rice]s ont assumé les rôles du prince et de la princesse lors d'un rendez-vous torride !${prompt}
+  17354: Mais tout ne va pas bien...${prompt}
+  17355: Tu vois, la ville déborde de dames séduisantes et attirantes, kupo.${prompt}
   17356: |-
-    Why is that such a bad thing, you ask?
-    By distracting the prince from giving his undivided attention to the princess, these vivacious vixens could ruin the event, kupo.${prompt}
+    Pourquoi est-ce une si mauvaise chose, demandes-tu ?
+    En distrayant le prince de donner toute son attention à la princesse, ces renards vivaces pourraient ruiner l'événement, kupo.${prompt}
   17357: |-
-    That must not be allowed to happen!
-    If the actor in the prince's role threatens towards fickleness, it's your duty to slap him back to reality--literally!${prompt}
+    Cela ne doit pas être autorisé !
+    Si l'acteur dans le rôle du prince menace d'inconstance, c'est ton devoir de le ramener à la réalité d'une claque -- littéralement !${prompt}
   17358: |-
-    And we can't forget about the actress playing the princess, either.
-    She's under a lot of pressure to perform, and is prone to being plagued with severe self-doubt about her feelings towards her co-star, kupo.${prompt}
-  17359: Only with your moral support could she hope to maintain confidence and perform at her brilliant best. A simple nod would go a long way to reaffirm positive thoughts, while a shake of the head would do wonders to cast out negative ones, kupo!${prompt}
-  17360: And going back to the scandalous seductresses I mentioned earlier, you can prevent them from disrupting this royal rendezvous by turning their attention to you. A wave of the hand should do the trick, kupo!${prompt}
-  17361: Whatever happens, you must ensure that the date--the event--goes smoothly! I pray for your success on this most meaningful of missions, kupo!${prompt}
+    Et nous ne pouvons pas oublier l'actrice jouant la princesse, non plus.
+    Elle est sous beaucoup de pression pour performer, et est sujette à être en proie à de graves doutes sur ses sentiments envers son co-vedette, kupo.${prompt}
+  17359: Seulement avec ton soutien moral pourrait-elle espérer maintenir sa confiance et performer à son meilleur brillant. Un simple hochement de tête irait loin pour réaffirmer les pensées positives, tandis qu'un hochement de tête négatif ferait des merveilles pour chasser les pensées négatives, kupo !${prompt}
+  17360: Et en revenant aux séductrices scandaleuses que j'ai mentionnées plus tôt, tu peux les empêcher de perturber ce rendez-vous royal en tournant leur attention vers toi. Un geste de la main devrait faire l'affaire, kupo !${prompt}
+  17361: Quoi qu'il arrive, tu dois t'assurer que le rendez-vous -- l'événement -- se déroule bien ! Je prie pour ton succès dans cette mission des plus significatives, kupo !${prompt}
   17362: |-
-    Princess Amdina, mine one and only!
-    I have so longed to once more behold thee! Thou art even more beautiful than when last we met!
-  17363: "Thy words pleaseth me, my sweet prince. \nI, too, have ached to be by thy side again."
-  17364: Let us make this a reunion that shall never be forgotten! Shall we, my princess?
-  17365: Yes, my prince!
-  17366: Prince Yahiko, pray forgive me my boldness...but there is something I desire.
-  17367: Thou needest but name it, and thine it shall be! There is naught I would deny thee, apple of mine eye.
+    Princesse Amdina, mon unique et seule !
+    J'ai tant désiré te contempler à nouveau ! Tu es encore plus belle que lors de notre dernière rencontre !
+  17363: "Tes mots me plaisent, mon doux prince. \nMoi aussi, j'ai souffert d'être à nouveau à tes côtés."
+  17364: Faisons de ces retrouvailles quelque chose qui ne sera jamais oublié ! Le voulons-nous, ma princesse ?
+  17365: Oui, mon prince !
+  17366: Prince Yahiko, pardonne-moi mon audace... mais il y a quelque chose que je désire.
+  17367: Tu n'as qu'à le nommer, et il sera tien ! Il n'y a rien que je te refuserais, prunelle de mes yeux.
   17368: |-
-    <Blush>...${wait-36: 2}
-    Even if thine heart is what I desire, my prince?
+    <Rougissement>...${wait-36: 2}
+    Même si c'est ton cœur que je désire, mon prince ?
   17369: |-
-    Hahaha!
-    My princess, mine heart has been thine since the day I first laid mine eyes upon thee.
+    Hahaha !
+    Ma princesse, mon cœur est tien depuis le jour où j'ai posé mes yeux sur toi pour la première fois.
   17370: |-
-    Prince Yahiko, pray tell me true...
-    I would know why thou dost love me so.
-  17371: To answer thy question fully is to tell a tale grander than the greatest epics. Thy beautiful almond eyes that glimmer brighter than the most precious jewels...thy voice of honey that resoundeth more sweetly than angel song...
-  17372: Thine entire being is as a soothing spring rain that hath come to nourish the arid desert of my lonely existence.
+    Prince Yahiko, dis-moi la vérité...
+    Je voudrais savoir pourquoi tu m'aimes tant.
+  17371: Répondre pleinement à ta question reviendrait à raconter un conte plus grandiose que les plus grandes épopées. Tes beaux yeux en amande qui scintillent plus brillamment que les plus précieux joyaux... ta voix de miel qui résonne plus doucement que le chant des anges...
+  17372: Tout ton être est comme une pluie de printemps apaisante qui est venue nourrir le désert aride de mon existence solitaire.
   17373: |-
-    <Blush>...
-    My...my prince...I know not what to say...
-  17374: Prince Yahiko?
-  17375: What is it, my precious?
+    <Rougissement>...
+    Mon... mon prince... je ne sais pas quoi dire...
+  17374: Prince Yahiko ?
+  17375: Qu'y a-t-il, ma précieuse ?
   17376: |-
-    <Blush>...
-    It...it is nothing...
-  17377: Sweet princess, thou needest not hide anything from me.
-  17378: Aaah... The Goddess is good indeed to deliver me a man of such regal persuasion. Praise be!
+    <Rougissement>...
+    Ce... ce n'est rien...
+  17377: Douce princesse, tu n'as pas besoin de me cacher quoi que ce soit.
+  17378: Aaah... La Déesse est bonne en effet de me livrer un homme d'une telle persuasion royale. Loué sois-tu !
   17379: |-
-    I beg your pardon, Your Highness. Hehehe...
-    Far be it from one of my lowly post to make such a brazen request, might I trouble you for the pleasure of your company?
-  17380: A-and who dost thou assume to be?
-  17381: (Hmph, another shameless festival-goer who knows not where the line is drawn...)
-  17382: Ahem! Citizen. That thy kind offer is extended with good intent is plain to see, but the prince hath prior engagements.
-  17383: Hmph! Forgive this uneducated peasant girl her ignorance, O Lady Most High!
-  17384: Well, Your Highness? Surely, a man of your royal upbringing knows that it is unseemly to keep a lady waiting.
-  17385: Uh...if memory serveth me true, this way leadeth to the next standing position...
-  17386: P-Prince Yahiko! Whither dost thou think...!
+    Je vous demande pardon, Votre Altesse. Hehehe...
+    Loin de moi, de ma modeste position, de faire une demande aussi effrontée, puis-je te déranger pour le plaisir de ta compagnie ?
+  17380: E-et qui présumes-tu être ?
+  17381: (Hmph, un${choice-player-gender}[/e] autre participant${choice-player-gender}[/e] éhonté${choice-player-gender}[/e] au festival qui ne sait pas où la ligne est tracée...)
+  17382: Ahem ! Citoyen${choice-player-gender}[/ne]. Que ton offre gentille soit étendue avec bonne intention est évident, mais le prince a des engagements antérieurs.
+  17383: Hmph ! Pardonne à cette paysanne ignorante son ignorance, Ô Dame Très Haute !
+  17384: Eh bien, Votre Altesse ? Sûrement, un homme de votre éducation royale sait qu'il est malséant de faire attendre une dame.
+  17385: Euh... si ma mémoire est bonne, ce chemin mène à la prochaine position debout...
+  17386: P-Prince Yahiko ! Où penses-tu... !
   17387: |-
-    Princess Amdina, mine one and only!
-    I have so longed to once more behold thee!
-  17388: Oh? Your Highness would make me his princess?
-  17389: Y-yes! None other but thou art fit to be my bride!
-  17390: Good Goddess... This inexplicable bout of amnesia nigh had me wed twice over! Confound my treacherous memory!
-  17391: Your Highness toys with my feelings. Yet my heart will always belong to you.
+    Princesse Amdina, mon unique et seule !
+    J'ai tant désiré te contempler à nouveau !
+  17388: Oh ? Votre Altesse ferait de moi sa princesse ?
+  17389: O-oui ! Nulle autre que toi n'est digne d'être ma fiancée !
+  17390: Bonne Déesse... Ce combat inexplicable d'amnésie m'a presque fait${choice-player-gender}[/e] marier deux fois ! Confondez ma mémoire traîtresse !
+  17391: Votre Altesse joue avec mes sentiments. Pourtant mon cœur t'appartiendra toujours.
   17392: |-
-    Princess Amdina! My beloved!
-    Please, find it in thy heart to forgive this foolish prince!
+    Princesse Amdina ! Ma bien-aimée !
+    S'il te plaît, trouve dans ton cœur de pardonner ce prince insensé !
   17393: |-
-    Hmph!${wait-36: 2}
-    <Sigh>... I believed thou wouldst return to me, my prince.
-  17394: Never again shall I leave thy side! This, I swear upon mine honor!
-  17395: Yes? May I help you?
-  17396: While I'm flattered by your attention, distance grows between me and my prize while I engage in idle conversation.
-  17397: There will come a time when we two can exchange pleasantries over a steaming pot of San d'Orian tea, but it is not today. I take my leave of you.
-  17398: (The trickiest part in the routine fast approaches... Will I be able to survive it unscathed?)
-  17399: (But of course! I've rehearsed often enough to be able to perform the entire routine blindfolded!)
-  17400: (Oh, of all the times to be suffering from an acting slump...)
-  17401: (Did Amdina truly love Yahiko? The princess as she is portrayed in the tale is one thing, but reality could well be different...)
-  17402: (But then again, a love that unites the people of two warring nations couldn't be any less than the truest love of all.)
-  17403: (This is surely but another tale grossly embellished for commercial purposes. It shames me to be a part of this blatant moneymaking machine...)
-  17404: (It feels...uncannily natural to be playing this role. Could it be that I was the princess in a past life?)
-  17405: (All hail Her Royal Highness, Princess Amdina!)
-  17406: (But then again, I couldn't hold a candle to the gorgeous actress performing the role in Bastok...)
-  17407: (Never before had I dreamed that acting could be so uplifting an experience. It's as though I was born to entertain!)
-  17408: (Etch me now into your memory, San d'Oria, for the humble actress whom you behold this day shall tomorrow become an intercontinental star!)
-  17409: (But then again, what future could there possibly be for an unremarkable actress such as myself in this cutthroat world?)
-  17410: (Do my eyes deceive me? It-it's that world-famous theatrical director! Could he perchance have come here to observe my performance?)
-  17411: (He's staring straight at me--there's no mistaking it! What more of a blessing from the Goddess do I need than this? The time has come for me to shine!)
-  17412: (But then again, why would a person of his standing travel all the way here for me, a nameless actress? It's naught but a coincidence...)
-  17413: (The crowd's turnout today is depressingly poor...)
-  17414: (On second thought, it's merely a quiet time of day. I shouldn't read so deeply into it.)
-  17415: (To think that I poured my heart into preparing for this role only to be met with indifference...)
-  17416: (Is he truly the experienced actor that he purports to be? Every line he spits out sounds so...forced.)
-  17417: (All the same, it cannot be denied that he is giving it his all. I suppose it's a trifle early to dismiss him.)
-  17418: (What twisted series of incidents could have led to his being chosen for the role?)
-  17419: (Hasn't it occurred to anyone that this whole event makes mock of a historically significant tale?)
-  17420: (But then again, it can be said that it serves to preserve knowledge and interest in classic literature. In the end, is that not the most important thing of all?)
-  17421: (With what madness was I taken to have agreed to this role? I feel so tainted to be party to this...)
-  17422: (My throat grows hoarse from all this repetition...)
-  17423: (But then again, a clear, resonant voice comes not from the throat, but the stomach. I needn't fret.)
-  17424: (Uhngh... My voice...won't carry...like this...)
-  17425: (Rumors of my co-star's insufferable womanizing habits have been battering my ears without cease.)
-  17426: (But whatever the truth may be, allowing my mind to stray to such irrelevant thoughts in the midst of a performance serves me not in the least.)
-  17427: (To think that I've been paired with a loathsome man such as he...)
-  17428: (Ack... Every excruciating second spent beside this walking, talking embodiment of incompetence drives me closer to insanity. Best I leave now and preserve what's still intact of my mind.)
+    Hmph !${wait-36: 2}
+    <Soupir>... Je croyais que tu reviendrais vers moi, mon prince.
+  17394: Plus jamais je ne quitterai ton côté ! Ceci, je le jure sur mon honneur !
+  17395: Oui ? Puis-je t'aider ?
+  17396: Bien que je sois flatté${choice-player-gender}[/e] par ton attention, la distance grandit entre moi et mon prix pendant que je m'engage dans une conversation oisive.
+  17397: Il viendra un moment où nous deux pourrons échanger des plaisanteries autour d'une théière fumante de thé San d'Orien, mais ce n'est pas aujourd'hui. Je prends congé de toi.
+  17398: (La partie la plus délicate de la routine approche rapidement... Serai-je capable de la survivre indemne ?)
+  17399: (Mais bien sûr ! J'ai répété assez souvent pour pouvoir exécuter toute la routine les yeux bandés !)
+  17400: (Oh, de tous les moments pour souffrir d'une crise de jeu...)
+  17401: (Amdina aimait-elle vraiment Yahiko ? La princesse telle qu'elle est dépeinte dans le conte est une chose, mais la réalité pourrait bien être différente...)
+  17402: (Mais d'un autre côté, un amour qui unit les peuples de deux nations en guerre ne pourrait être moins que le plus vrai de tous les amours.)
+  17403: (Ce n'est sûrement qu'un autre conte grossièrement embelli à des fins commerciales. J'ai honte de faire partie de cette machine à faire de l'argent flagrante...)
+  17404: (Ça semble... étrangement naturel de jouer ce rôle. Se pourrait-il que j'aie été la princesse dans une vie antérieure ?)
+  17405: (Salut à Son Altesse Royale, la Princesse Amdina !)
+  17406: (Mais d'un autre côté, je ne pourrais pas rivaliser avec la magnifique actrice qui joue le rôle à Bastok...)
+  17407: (Jamais auparavant je n'avais rêvé que jouer pourrait être une expérience si exaltante. C'est comme si j'étais né${choice-player-gender}[/e] pour divertir !)
+  17408: (Grave-moi maintenant dans ta mémoire, San d'Oria, car l'humble actrice que tu contemples aujourd'hui deviendra demain une star intercontinentale !)
+  17409: (Mais d'un autre côté, quel avenir pourrait-il y avoir pour une actrice insignifiante comme moi dans ce monde impitoyable ?)
+  17410: (Mes yeux me trompent-ils ? C-c'est ce directeur de théâtre de renommée mondiale ! Pourrait-il par hasard être venu ici pour observer ma performance ?)
+  17411: (Il me fixe directement -- il n'y a pas d'erreur ! Quelle plus grande bénédiction de la Déesse ai-je besoin que celle-ci ? Le moment est venu pour moi de briller !)
+  17412: (Mais d'un autre côté, pourquoi une personne de sa stature voyagerait-elle jusqu'ici pour moi, une actrice sans nom ? Ce n'est qu'une coïncidence...)
+  17413: (Le nombre de spectateur${choice-player-gender}[/rice]s aujourd'hui est désespérément faible...)
+  17414: (En y repensant, c'est simplement un moment calme de la journée. Je ne devrais pas lire si profondément dedans.)
+  17415: (Penser que j'ai versé mon cœur dans la préparation de ce rôle seulement pour être accueilli${choice-player-gender}[/e] avec indifférence...)
+  17416: (Est-il vraiment l'acteur expérimenté qu'il prétend être ? Chaque ligne qu'il crache sonne si... forcée.)
+  17417: (Néanmoins, on ne peut nier qu'il donne tout. Je suppose qu'il est un peu tôt pour le rejeter.)
+  17418: (Quelle série tordue d'incidents aurait pu mener à ce qu'il soit choisi pour le rôle ?)
+  17419: (Ne s'est-il pas rendu compte à personne que tout cet événement se moque d'un conte historiquement significatif ?)
+  17420: (Mais d'un autre côté, on peut dire qu'il sert à préserver la connaissance et l'intérêt pour la littérature classique. Au final, n'est-ce pas la chose la plus importante de toutes ?)
+  17421: (De quelle folie ai-je été pris${choice-player-gender}[/e] pour avoir accepté ce rôle ? Je me sens si souillé${choice-player-gender}[/e] d'être partie à cela...)
+  17422: (Ma gorge devient rauque de toute cette répétition...)
+  17423: (Mais d'un autre côté, une voix claire et résonnante ne vient pas de la gorge, mais de l'estomac. Je n'ai pas besoin de m'inquiéter.)
+  17424: (Uhngh... Ma voix... ne portera pas... comme ça...)
+  17425: (Les rumeurs sur les habitudes insupportables de coureur de jupons de mon co-vedette ont martelé mes oreilles sans cesse.)
+  17426: (Mais quelle que soit la vérité, permettre à mon esprit de s'égarer vers de telles pensées non pertinentes au milieu d'une performance ne me sert pas le moins du monde.)
+  17427: (Penser que j'ai été jumelé${choice-player-gender}[/e] avec un homme aussi détestable que lui...)
+  17428: (Ack... Chaque seconde atroce passée aux côtés de cette incarnation ambulante et parlante de l'incompétence me rapproche de la folie. Mieux vaut que je parte maintenant et préserve ce qui est encore intact de mon esprit.)
   17429: |-
-    Princess Amdina!
-    Whither dost thou go?
+    Princesse Amdina !
+    Où vas-tu ?
   17430: |-
-    My princess...
-    If thou findest my company to thy liking no longer, thou needest but voice thy mind, for thine every wish is my command.
-  17431: (Well, fancy that. I hadn't expected anything resembling ad-libbing from this one. This warrants a second chance.)
-  17432: '''Tis but a simple misunderstanding, my sweet prince. I would have thee join me hither, if it pleaseth thee.'
-  17433: Citizen, canst thou spare not the courtesy to allow the princess and I this rare private interlude?
-  17434: There is not a single woman in the world who can rival the loveliness of my princess!
-  17435: As long as I live, no harm shall ever befall the princess. This, I swear upon mine honor!
-  17436: I can bear not even the thought of life without Princess Amdina.
-  17437: Only with Princess Amdina doth my existence hold meaning.
-  17438: There is not a single moment where the thought of Princess Amdina doth not occupy my mind!
-  17439: Citizen, canst thou not see that I am attending to...official business?
-  17440: My perfect prince... <Sigh>
-  17441: The prince concealeth behind his majestic facade an innocent, childlike aspect that hath awakened my maternal instincts.
-  17442: I had always been skeptical towards the idea of destiny. And then I met Prince Yahiko...
-  17443: Even when we are far apart, the mere thought of the prince bringeth a comforting warmth to my soul.
-  17444: <Sigh> How I hope that one day he will maketh me his bride...
-  17445: Only I hold the key which unlocketh his soul!
+    Ma princesse...
+    Si tu ne trouves plus ma compagnie à ton goût, tu n'as qu'à exprimer ton esprit, car chacun de tes souhaits est mon commandement.
+  17431: (Eh bien, voyez-vous ça. Je ne m'attendais à rien ressemblant à de l'improvisation de celui${choice-player-gender}[/celle]-ci. Cela mérite une seconde chance.)
+  17432: '''C''est juste un simple malentendu, mon doux prince. J''aimerais que tu me rejoignes ici, si cela te plaît.'
+  17433: Citoyen${choice-player-gender}[/ne], ne peux-tu pas épargner la courtoisie de permettre à la princesse et moi cet interlude privé rare ?
+  17434: Il n'y a pas une seule femme dans le monde qui puisse rivaliser avec la beauté de ma princesse !
+  17435: Tant que je vivrai, aucun mal ne tombera jamais sur la princesse. Ceci, je le jure sur mon honneur !
+  17436: Je ne peux même pas supporter la pensée de la vie sans la Princesse Amdina.
+  17437: Seulement avec la Princesse Amdina mon existence a-t-elle un sens.
+  17438: Il n'y a pas un seul moment où la pensée de la Princesse Amdina n'occupe pas mon esprit !
+  17439: Citoyen${choice-player-gender}[/ne], ne peux-tu pas voir que je m'occupe de... affaires officielles ?
+  17440: Mon prince parfait... <Soupir>
+  17441: Le prince dissimule derrière sa façade majestueuse un aspect innocent et enfantin qui a éveillé mes instincts maternels.
+  17442: J'avais toujours été sceptique envers l'idée du destin. Et puis j'ai rencontré le Prince Yahiko...
+  17443: Même lorsque nous sommes loin l'un de l'autre, la simple pensée du prince apporte une chaleur réconfortante à mon âme.
+  17444: <Soupir> Comme j'espère qu'un jour il fera de moi sa fiancée...
+  17445: Seule moi détiens la clé qui déverrouille son âme !
   17446: |-
-    I beseech thee, loyal citizen!
-    Deliver the prince back to mine arms!
-  17447: You honor us with your esteemed presence, noble adventurer. Do stay a while and enjoy the hospitality of our fair nation.
-  17448: My patience has reached its limit. I'll be part of this farce no longer. You're on your own.
-  17449: Wh-wh-what!?
-  17450: 'A parting word of advice before I take my leave of you: You would do well to invest your...talents...in an alternate branch of entertainment. Such as mime artistry, for example.'
-  17451: No! W-wait!
+    Je t'en supplie, loyal${choice-player-gender}[/e] citoyen${choice-player-gender}[/ne] !
+    Ramène le prince dans mes bras !
+  17447: Tu nous honores de ta présence estimée, noble aventurier${choice-player-gender}[/ère]. Reste un moment et profite de l'hospitalité de notre belle nation.
+  17448: Ma patience a atteint sa limite. Je ne ferai plus partie de cette farce. Tu es seul${choice-player-gender}[/e].
+  17449: Qu-qu-quoi !?
+  17450: 'Un mot d''adieu avant que je ne prenne congé de toi : Tu ferais bien d''investir tes... talents... dans une branche alternative du divertissement. Comme l''art du mime, par exemple.'
+  17451: Non ! A-attends !
   17452: |-
-    Oh, darn... Talk about being put on the spot...
-    A-ahem! That concludes the show, folks! We look forward to your company again next time! <Sigh>...
-  17453: Prince Yahiko, I shall never forget our reunion this day.
-  17454: Nor I, my dear princess.
-  17455: It is our fervent hope that thou hast thoroughly enjoyed the Celestial Nights event.${prompt}
-  17456: We present this gift to thee, as a token of our gratitude for thine unrelenting support.${prompt}
+    Oh, zut... Parler d'être mis${choice-player-gender}[/e] sur la sellette...
+    A-ahem ! Cela conclut le spectacle, tout le monde ! Nous attendons votre compagnie avec impatience la prochaine fois ! <Soupir>...
+  17453: Prince Yahiko, je n'oublierai jamais nos retrouvailles de ce jour.
+  17454: Moi non plus, ma chère princesse.
+  17455: C'est notre fervent espoir que tu aies pleinement apprécié l'événement Celestial Nights.${prompt}
+  17456: Nous te présentons ce cadeau, en gage de notre gratitude pour ton soutien sans relâche.${prompt}
   17457: |-
     This year's Sunbreeze Festival has begun!
     A special show is being held at the town square as we speak, kupo!${prompt}
